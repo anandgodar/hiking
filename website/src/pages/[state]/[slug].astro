@@ -1,0 +1,100 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import TrailDashboard from '../../components/TrailDashboard';
+import SiteFooter from '../../components/SiteFooter.astro'; // Import the new Footer
+import TrailSchema from '../../components/TrailSchema.astro';
+
+export async function getStaticPaths() {
+  const allFiles = await Astro.glob('../../data/*/*.json');
+  return allFiles.map(file => {
+      const data = file.default;
+      return {
+          params: { state: data.state_slug, slug: data.slug },
+          props: { mountain: data }
+      };
+  });
+}
+
+const { mountain } = Astro.props;
+const { state } = Astro.params;
+
+// Helper: Format 'new-hampshire' -> 'New Hampshire'
+const stateName = state
+    ? state.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
+    : 'Back';
+
+const bgImage = mountain.image || `https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000`;
+---
+<Layout title={mountain.name} description={mountain.generated_description}>
+  <slot name="head">
+    <TrailSchema mountain={mountain} stateName={stateName} />
+  </slot>
+
+  {/* --- HERO SECTION --- */}
+  <div class="relative h-[550px] flex items-end pb-16 group overflow-hidden">
+
+    {/* Dynamic Background Image */}
+    <div class="absolute inset-0">
+        <img
+            src={bgImage}
+            class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-[2s]"
+            alt={mountain.name}
+            transition:name={`img-${mountain.slug}`}
+        />
+        {/* Gradients for readability */}
+        <div class="absolute inset-0 bg-gradient-to-b from-stone-900/60 via-transparent to-stone-900/90"></div>
+    </div>
+
+    {/* --- BREADCRUMB NAVIGATION --- */}
+    <div class="absolute top-0 left-0 w-full p-6 z-20">
+        <nav class="max-w-7xl mx-auto flex items-center gap-2 text-xs font-bold text-white/80 uppercase tracking-widest drop-shadow-md">
+            <a href="/" class="hover:text-emerald-400 transition-colors flex items-center gap-1">Home</a>
+            <span class="opacity-30">/</span>
+            <a href={`/${state}`} class="hover:text-emerald-400 transition-colors">{stateName}</a>
+            <span class="opacity-30">/</span>
+            <span class="text-emerald-400">{mountain.name}</span>
+        </nav>
+    </div>
+
+    {/* HERO CONTENT */}
+    <div class="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-end gap-6">
+            <div>
+                <span class="inline-flex items-center gap-2 py-1 px-3 rounded-full bg-emerald-500/20 backdrop-blur-md border border-emerald-400/30 text-emerald-100 text-[10px] font-bold uppercase tracking-widest mb-6">
+                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                    Live Conditions
+                </span>
+                <h1 class="font-serif text-5xl md:text-7xl font-black text-white mb-4 shadow-sm tracking-tight">
+                    {mountain.name}
+                </h1>
+                <div class="flex items-center gap-6 text-stone-300 font-medium">
+                    <div class="flex items-center gap-2">
+                        <span class="text-2xl">⛰️</span>
+                        <div>
+                            <div class="text-xs uppercase text-stone-500 font-bold tracking-wider">Elevation</div>
+                            <div class="text-white">{mountain.elevation.toLocaleString()} ft</div>
+                        </div>
+                    </div>
+                    <div class="w-px h-8 bg-white/10"></div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-2xl">📍</span>
+                        <div>
+                            <div class="text-xs uppercase text-stone-500 font-bold tracking-wider">Coordinates</div>
+                            <div class="text-white">{mountain.lat.toFixed(3)}, {mountain.lon.toFixed(3)}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  {/* --- MAIN GRID --- */}
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <TrailDashboard client:only="react" mountain={mountain} />
+  </div>
+
+  {/* --- NEW FOOTER --- */}
+  <SiteFooter />
+
+</Layout>

@@ -1,0 +1,48 @@
+---
+// src/components/TrailSchema.astro
+const { mountain, stateName } = Astro.props;
+
+// Format distance and gain for Schema
+const primaryTrail = mountain.trails?.[0];
+const distance = primaryTrail?.stats?.distance || 0;
+const elevationGain = primaryTrail?.stats?.gain || 0;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "TouristTrip",
+  "name": `${mountain.name} Hiking Trail`,
+  "description": mountain.generated_description?.replace(/<[^>]*>?/gm, '') || `Hiking guide for ${mountain.name} in ${stateName}.`,
+  "touristType": "Hiking",
+  "itinerary": {
+    "@type": "ItemList",
+    "numberOfItems": 1,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "TouristAttraction",
+          "name": mountain.name,
+          "description": `The summit of ${mountain.name}, standing at ${mountain.elevation} feet.`,
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": mountain.lat,
+            "longitude": mountain.lon
+          }
+        }
+      }
+    ]
+  },
+  // Custom Data for AI Crawlers
+  "distance": {
+    "@type": "Distance",
+    "name": `${distance} miles`
+  },
+  "elevationGain": {
+    "@type": "QuantitativeValue",
+    "value": elevationGain,
+    "unitCode": "FOT"
+  }
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

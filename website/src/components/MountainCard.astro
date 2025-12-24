@@ -1,0 +1,71 @@
+---
+const { mountain, showState = false } = Astro.props;
+
+// Safety Checks
+const mainTrail = mountain.trails?.[0] || {};
+const stats = mainTrail.stats || {};
+const image = mountain.image || "https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=800"; // Generic Mountain Fallback
+
+// Helper for Difficulty Color
+const getDiffColor = (d) => {
+    if (d === 'Hard') return 'text-orange-600 bg-orange-50 border-orange-100';
+    if (d === 'Easy') return 'text-emerald-600 bg-emerald-50 border-emerald-100';
+    return 'text-yellow-600 bg-yellow-50 border-yellow-100';
+};
+---
+
+<a href={`/${mountain.state_slug}/${mountain.slug}`} class="group flex flex-col bg-white border border-stone-200 rounded-2xl overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">
+    {/* IMAGE HEADER */}
+    <div class="h-48 relative overflow-hidden">
+        <img
+            src={image}
+            alt={mountain.name}
+            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+            loading="lazy"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
+
+        {/* Elevation Badge */}
+        <div class="absolute top-3 right-3 bg-stone-900/90 backdrop-blur text-white text-[10px] font-bold px-2 py-1 rounded border border-white/10">
+            {mountain.elevation.toLocaleString()} ft
+        </div>
+
+        {/* Optional State Badge (Good for Tag Pages) */}
+        {showState && (
+            <div class="absolute top-3 left-3 bg-white/20 backdrop-blur text-white text-[10px] font-bold px-2 py-1 rounded border border-white/20 uppercase">
+                {mountain.state_slug.replace('-', ' ')}
+            </div>
+        )}
+
+        {/* Bottom Title Overlay */}
+        <div class="absolute bottom-3 left-4 text-white">
+            <h3 class="font-serif text-xl font-bold leading-none mb-0.5 group-hover:text-emerald-300 transition-colors">
+                {mountain.name}
+            </h3>
+        </div>
+    </div>
+
+    {/* CONTENT BODY */}
+    <div class="p-4 flex-grow flex flex-col justify-between">
+        {/* Stats Row */}
+        <div class="flex items-center gap-4 text-xs text-stone-500 mb-4 border-b border-stone-100 pb-3">
+            <div class="flex items-center gap-1">
+                <span>📏</span> {stats.distance || '-'} mi
+            </div>
+            <div class="flex items-center gap-1">
+                <span>⏱️</span> {stats.time || '-'} hrs
+            </div>
+            <div class="flex items-center gap-1">
+                <span>⛰️</span> {stats.gain || '-'} ft
+            </div>
+        </div>
+
+        {/* Footer Row */}
+        <div class="flex justify-between items-center mt-auto">
+            <span class={`text-[10px] font-bold px-2 py-1 rounded border uppercase tracking-wide ${getDiffColor(stats.difficulty)}`}>
+                {stats.difficulty || 'Moderate'}
+            </span>
+            <span class="text-stone-300 group-hover:text-emerald-600 transition-colors">View →</span>
+        </div>
+    </div>
+</a>

@@ -1,0 +1,74 @@
+---
+const { searchIndex } = Astro.props;
+---
+
+<div class="relative max-w-2xl mx-auto w-full z-50">
+    <div class="relative">
+        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+            <svg class="h-5 w-5 text-stone-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+        </div>
+        <input
+            type="text"
+            id="global-search-input"
+            placeholder="Search mountains, states, or trails..."
+            class="block w-full pl-12 pr-4 py-4 bg-white/95 backdrop-blur-md border-0 rounded-2xl text-stone-900 placeholder-stone-400 focus:ring-2 focus:ring-emerald-500 shadow-xl text-lg font-medium transition-all"
+        >
+    </div>
+
+    {/* Search Results Dropdown */}
+    <div
+        id="search-results"
+        class="hidden absolute mt-2 w-full bg-white rounded-2xl shadow-2xl border border-stone-100 overflow-hidden max-h-[60vh] overflow-y-auto"
+    >
+    </div>
+</div>
+
+<script define:vars={{ searchIndex }}>
+    const input = document.getElementById('global-search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    function performSearch(query) {
+        if (!query) {
+            resultsContainer.classList.add('hidden');
+            return;
+        }
+
+        const q = query.toLowerCase();
+
+        // Filter Logic
+        const matches = searchIndex.filter(item =>
+            item.title.toLowerCase().includes(q) ||
+            item.tags.some(t => t.toLowerCase().includes(q))
+        ).slice(0, 8);
+
+        renderResults(matches);
+    }
+
+    function renderResults(results) {
+        if (results.length === 0) {
+            resultsContainer.innerHTML = `<div class="p-4 text-center text-stone-500 text-sm">No adventures found.</div>`;
+        } else {
+            resultsContainer.innerHTML = results.map(item => `
+                <a href="${item.url}" class="block p-4 hover:bg-emerald-50 transition-colors border-b border-stone-100 last:border-0 flex items-center gap-4 group">
+                    <img src="${item.image}" class="w-12 h-12 rounded-lg object-cover bg-stone-200" alt="">
+                    <div>
+                        <div class="font-bold text-stone-900 group-hover:text-emerald-700">${item.title}</div>
+                        <div class="text-xs text-stone-500 uppercase tracking-wider font-bold">${item.type} • ${item.subtitle}</div>
+                    </div>
+                </a>
+            `).join('');
+        }
+        resultsContainer.classList.remove('hidden');
+    }
+
+    input.addEventListener('input', (e) => performSearch(e.target.value));
+
+    // Close on click outside
+    document.addEventListener('click', (e) => {
+        if (!input.contains(e.target) && !resultsContainer.contains(e.target)) {
+            resultsContainer.classList.add('hidden');
+        }
+    });
+</script>

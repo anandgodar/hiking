@@ -1,0 +1,217 @@
+{
+  "name": "Glen Ellis Falls",
+  "slug": "glen-ellis-falls-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 1900,
+  "mountain_hero": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "waterfall",
+    "iconic",
+    "pinkham_notch",
+    "family_friendly"
+  ],
+  "lat": 44.2447,
+  "lon": -71.2505,
+  "trails_config": [
+    {
+      "name": "Glen Ellis Falls Trail",
+      "type": "Out & Back",
+      "difficulty": "Easy",
+      "distance_miles": 0.4,
+      "tags": [
+        "best",
+        "short",
+        "stairs"
+      ],
+      "description": "One of NH's most famous falls. A 64-foot plunge through a narrow rock chute. The trail features a series of stone stairs and tunnels.",
+      "parking_info": "Glen Ellis Falls Parking, NH-16, Jackson, NH",
+      "start_lat": 44.2465,
+      "start_lon": -71.252,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Glen Ellis Falls Overlook",
+          "type": "waterfall",
+          "lat": 44.2447,
+          "lon": -71.2505
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Crystal Cascade",
+      "slug": "crystal-cascade-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2300,
+      "distance_miles": 1.1
+    },
+    {
+      "name": "Wildcat Mountain (Peak D)",
+      "slug": "wildcat-d-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4050,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Thompson Falls",
+      "slug": "thompson-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2100,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Mount Washington",
+      "slug": "mt-washington-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 6288,
+      "distance_miles": 3.2
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "Experience the beauty of New Hampshire on Glen Ellis Falls. At 1900 feet, this summit commands impressive views of the surrounding wilderness.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1900 feet, Glen Ellis Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Glen Ellis Falls Trail**, a **0.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Crystal Cascade**, which is just 1.1 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Glen Ellis Falls Trail",
+      "tags": [
+        "best",
+        "short",
+        "stairs"
+      ],
+      "stats": {
+        "distance": 0.2,
+        "gain": 68,
+        "type": "Out & Back",
+        "difficulty": "Easy",
+        "time": 0.2
+      },
+      "geo": {
+        "path": [
+          [
+            44.2465,
+            -71.25148,
+            2009
+          ],
+          [
+            44.24624,
+            -71.25149,
+            1993
+          ],
+          [
+            44.24595,
+            -71.25146,
+            1992
+          ],
+          [
+            44.24576,
+            -71.25144,
+            1990
+          ],
+          [
+            44.24577,
+            -71.25133,
+            1991
+          ],
+          [
+            44.24579,
+            -71.25124,
+            1990
+          ],
+          [
+            44.24586,
+            -71.25109,
+            2006
+          ],
+          [
+            44.24589,
+            -71.25101,
+            2023
+          ],
+          [
+            44.24591,
+            -71.25094,
+            2023
+          ],
+          [
+            44.24591,
+            -71.25086,
+            2036
+          ],
+          [
+            44.24588,
+            -71.25081,
+            2047
+          ],
+          [
+            44.24585,
+            -71.25076,
+            2047
+          ],
+          [
+            44.24584,
+            -71.25068,
+            2057
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2009,
+            "coord": [
+              44.2465,
+              -71.25148
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 1990,
+            "coord": [
+              44.24579,
+              -71.25124
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 2047,
+            "coord": [
+              44.24588,
+              -71.25081
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 2057,
+            "coord": [
+              44.24584,
+              -71.25068
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.2465,
+            -71.25148,
+            2009
+          ],
+          "summit": [
+            44.2447,
+            -71.2505,
+            1900
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

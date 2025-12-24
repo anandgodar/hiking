@@ -1,0 +1,219 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import MountainCard from '../components/MountainCard.astro';
+import GlobalSearch from '../components/GlobalSearch.astro';
+
+// DATA
+const allFiles = await Astro.glob('../data/*/*.json');
+
+// SEARCH INDEX
+const searchIndex = allFiles.map(file => {
+    const m = file.default;
+    const stateUrl = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
+    return {
+        title: m.name,
+        type: 'Mountain',
+        subtitle: m.state_name || m.state_slug,
+        url: `/${stateUrl}/${m.slug}`,
+        image: m.image,
+        tags: m.tags || []
+    };
+});
+
+// FEATURED
+const featuredHikes = allFiles
+    .map(f => f.default)
+    .filter(m => JSON.stringify(m.tags).toLowerCase().includes('best'))
+    .sort((a, b) => b.elevation - a.elevation)
+    .slice(0, 4);
+
+// GLOBAL CATEGORIES
+const categories = [
+    { name: "4000 Footers", icon: "🏔️", slug: "4000-footer" },
+    { name: "Waterfalls", icon: "💧", slug: "waterfall" },
+    { name: "With a View", icon: "🔭", slug: "52-with-a-view" },
+    { name: "Dog Friendly", icon: "🐾", slug: "dog-friendly" },
+    { name: "Fire Towers", icon: "🔥", slug: "fire-tower" },
+];
+
+// --- FIXED: RELIABLE IMAGES FOR STATE CARDS ---
+const stateCards = [
+    {
+        slug: 'new-hampshire',
+        name: 'New Hampshire',
+        count: 48,
+        coords: [44.0, -71.5],
+        // White Mountains - Reliable ID
+        image: 'https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=1000'
+    },
+    {
+        slug: 'maine',
+        name: 'Maine',
+        count: 14,
+        coords: [45.0, -69.0],
+        // Acadia/Coast - Reliable IDhttps://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000
+        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000'
+    },
+    {
+        slug: 'vermont',
+        name: 'Vermont',
+        count: 5,
+        coords: [44.0, -72.7],
+        // Green Mountains - Reliable ID
+        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000'
+    },
+    {
+        slug: 'new-york',
+        name: 'New York',
+        count: 46,
+        coords: [43.0, -75.0],
+        // Adirondacks - Reliable ID
+        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000'
+    }
+];
+---
+
+<Layout title="Summit Seeker" description="The ultimate trail database.">
+
+    {/* HERO */}
+    <div class="relative h-screen min-h-[700px] flex flex-col justify-center items-center text-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2400" class="w-full h-full object-cover scale-110" alt="Hero" />
+            <div class="absolute inset-0 bg-gradient-to-b from-stone-900/60 via-transparent to-stone-900/90"></div>
+        </div>
+
+        <div class="relative z-10 w-full max-w-4xl px-4 mt-16 space-y-8">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 shadow-xl mb-4">
+                <span class="text-white font-bold tracking-widest text-xs uppercase">Summit Seeker Database</span>
+            </div>
+            <h1 class="text-6xl md:text-8xl font-black text-white tracking-tight drop-shadow-2xl">
+                ANSWER THE <br/> <span class="text-transparent bg-clip-text bg-gradient-to-br from-emerald-300 to-cyan-300">CALL OF THE WILD</span>
+            </h1>
+
+            {/* SEARCH */}
+            <div class="max-w-2xl mx-auto w-full">
+                <GlobalSearch searchIndex={searchIndex} />
+            </div>
+
+            {/* GLOBAL BADGES */}
+            <div class="flex flex-wrap justify-center gap-3 pt-6">
+                {categories.map(cat => (
+                    <a href={`/discover/${cat.slug}`} class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-white font-bold text-sm hover:bg-white hover:text-stone-900 transition-all">
+                        <span>{cat.icon}</span> {cat.name}
+                    </a>
+                ))}
+            </div>
+        </div>
+    </div>
+
+    {/* SCALABLE REGION SELECTOR */}
+    <section class="bg-stone-50 py-20 -mt-8 relative z-20 rounded-t-[3rem]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            {/* HEADER WITH CONTROLS */}
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
+                <h2 class="text-3xl font-black text-stone-900 flex items-center gap-3">
+                    <span class="text-emerald-500 text-4xl">🗺️</span> Select Your Region
+                </h2>
+
+                <div class="flex flex-wrap gap-3">
+                    {/* State Filter Input */}
+                    <div class="relative">
+                        <input type="text" id="state-filter" placeholder="Filter states..." class="pl-10 pr-4 py-3 rounded-full border border-stone-200 bg-white text-sm font-bold focus:ring-2 focus:ring-emerald-500 outline-none shadow-sm" />
+                        <span class="absolute left-4 top-3.5 text-stone-400">🔍</span>
+                    </div>
+
+                    {/* Location Button */}
+                    <button id="find-near-me" class="flex items-center gap-2 px-6 py-3 rounded-full bg-stone-900 text-white text-sm font-bold hover:bg-emerald-600 transition-all shadow-lg">
+                        <span>📍</span> Find Near Me
+                    </button>
+                </div>
+            </div>
+
+            {/* STATE GRID */}
+            <div id="state-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                {stateCards.map(state => (
+                    <a href={`/${state.slug}`} class="state-card group relative aspect-[3/4] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2" data-name={state.name.toLowerCase()} data-lat={state.coords[0]} data-lon={state.coords[1]}>
+                        <img src={state.image} alt={state.name} class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-6">
+                            <span class="text-white/60 font-mono text-xs uppercase tracking-widest">{state.count} Trails</span>
+                            <h3 class="text-3xl font-black text-white leading-none mt-1">{state.name}</h3>
+                            <div class="h-1 w-8 bg-emerald-500 mt-3 group-hover:w-full transition-all duration-500 rounded-full"></div>
+                        </div>
+                    </a>
+                ))}
+            </div>
+        </div>
+    </section>
+
+    {/* FEATURED HIKES */}
+    <section class="bg-white py-20 border-t border-stone-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12 text-center">
+                <h2 class="text-4xl md:text-5xl font-black text-stone-900">Legendary Adventures</h2>
+                <p class="text-stone-500 mt-2">Highest rated climbs across the entire database.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                {featuredHikes.map(mountain => <MountainCard mountain={mountain} />)}
+            </div>
+        </div>
+    </section>
+
+    <SiteFooter />
+</Layout>
+
+<script>
+    // --- FILTER STATES LOGIC ---
+    const filterInput = document.getElementById('state-filter');
+    const cards = document.querySelectorAll('.state-card');
+
+    if (filterInput) {
+        filterInput.addEventListener('input', (e) => {
+            const val = e.target.value.toLowerCase();
+            cards.forEach(card => {
+                if (card.dataset.name.includes(val)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    }
+
+    // --- "FIND NEAR ME" LOGIC ---
+    const btn = document.getElementById('find-near-me');
+    if (btn) {
+        btn.addEventListener('click', () => {
+            if (!navigator.geolocation) return alert("Geolocation not supported.");
+
+            btn.innerHTML = "⏳ Locating...";
+
+            navigator.geolocation.getCurrentPosition((pos) => {
+                const userLat = pos.coords.latitude;
+                const userLon = pos.coords.longitude;
+
+                let closestState = null;
+                let minDist = Infinity;
+
+                cards.forEach(card => {
+                    const lat = parseFloat(card.dataset.lat);
+                    const lon = parseFloat(card.dataset.lon);
+                    const dist = Math.sqrt(Math.pow(lat - userLat, 2) + Math.pow(lon - userLon, 2));
+
+                    if (dist < minDist) {
+                        minDist = dist;
+                        closestState = card.getAttribute('href');
+                    }
+                });
+
+                if (closestState) window.location.href = closestState;
+                else btn.innerHTML = "❌ No state found";
+
+            }, () => {
+                btn.innerHTML = "⚠️ Location Denied";
+            });
+        });
+    }
+</script>

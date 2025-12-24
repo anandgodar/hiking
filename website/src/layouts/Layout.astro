@@ -1,0 +1,26 @@
+---
+import SEOHead from '../components/SEOHead.astro';
+//import Navbar from '../components/Navbar.astro'; // Assuming you have a Navbar, if not remove this line
+
+interface Props {
+	title: string;
+    description?: string;
+    image?: string;
+}
+
+const {
+    title,
+    description = "Discover detailed hiking guides, track your peak bagging progress, and explore the outdoors.",
+    image
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+	<head>
+        <SEOHead title={title} description={description} image={image} />
+	</head>
+	<body class="bg-stone-50 text-stone-900 font-sans antialiased min-h-screen flex flex-col">
+        <slot />
+	</body>
+</html>

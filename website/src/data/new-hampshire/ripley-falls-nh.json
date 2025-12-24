@@ -1,0 +1,381 @@
+{
+  "name": "Ripley Falls",
+  "slug": "ripley-falls-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 1400,
+  "mountain_hero": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "waterfall",
+    "crawford_notch",
+    "quick_hike"
+  ],
+  "lat": 44.1332,
+  "lon": -71.3789,
+  "trails_config": [
+    {
+      "name": "Ripley Falls Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 1.1,
+      "tags": [
+        "best",
+        "waterfalls",
+        "scenic"
+      ],
+      "description": "Leads to a beautiful 100-foot wall of water sliding down a smooth rock face. One of the tallest and most elegant falls in the notch.",
+      "parking_info": "Ripley Falls Trailhead, US-302, Livermore, NH",
+      "start_lat": 44.1378,
+      "start_lon": -71.3762,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Ripley Falls",
+          "type": "waterfall",
+          "lat": 44.1332,
+          "lon": -71.3789
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Arethusa Falls",
+      "slug": "arethusa-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2200,
+      "distance_miles": 1.2
+    },
+    {
+      "name": "Mount Crawford",
+      "slug": "mt-crawford-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3119,
+      "distance_miles": 2.1
+    },
+    {
+      "name": "Mount Willey",
+      "slug": "mt-willey-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4285,
+      "distance_miles": 4.0
+    },
+    {
+      "name": "Mount Carrigain",
+      "slug": "mt-carrigain-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4700,
+      "distance_miles": 4.3
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 1400 feet, Ripley Falls offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1400 feet, Ripley Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Ripley Falls Trail**, a **1.1 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Arethusa Falls**, which is just 1.2 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Ripley Falls Trail",
+      "tags": [
+        "best",
+        "waterfalls",
+        "scenic"
+      ],
+      "stats": {
+        "distance": 0.9,
+        "gain": 71,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.6
+      },
+      "geo": {
+        "path": [
+          [
+            44.14111,
+            -71.36959,
+            1355
+          ],
+          [
+            44.141,
+            -71.36948,
+            1357
+          ],
+          [
+            44.1409,
+            -71.36934,
+            1342
+          ],
+          [
+            44.14053,
+            -71.36889,
+            1315
+          ],
+          [
+            44.14028,
+            -71.36861,
+            1284
+          ],
+          [
+            44.14003,
+            -71.36843,
+            1287
+          ],
+          [
+            44.1395,
+            -71.36807,
+            1266
+          ],
+          [
+            44.13926,
+            -71.36784,
+            1251
+          ],
+          [
+            44.13891,
+            -71.3674,
+            1226
+          ],
+          [
+            44.13858,
+            -71.36695,
+            1212
+          ],
+          [
+            44.13822,
+            -71.36656,
+            1198
+          ],
+          [
+            44.13815,
+            -71.36648,
+            1193
+          ],
+          [
+            44.13803,
+            -71.36641,
+            1198
+          ],
+          [
+            44.1379,
+            -71.36634,
+            1199
+          ],
+          [
+            44.13777,
+            -71.36628,
+            1202
+          ],
+          [
+            44.13774,
+            -71.36623,
+            1202
+          ],
+          [
+            44.13777,
+            -71.36615,
+            1200
+          ],
+          [
+            44.13778,
+            -71.36607,
+            1196
+          ],
+          [
+            44.13779,
+            -71.36592,
+            1194
+          ],
+          [
+            44.13778,
+            -71.36576,
+            1190
+          ],
+          [
+            44.13775,
+            -71.36567,
+            1190
+          ],
+          [
+            44.13768,
+            -71.36564,
+            1191
+          ],
+          [
+            44.13758,
+            -71.3656,
+            1193
+          ],
+          [
+            44.13744,
+            -71.3656,
+            1195
+          ],
+          [
+            44.13729,
+            -71.36561,
+            1204
+          ],
+          [
+            44.13715,
+            -71.36563,
+            1208
+          ],
+          [
+            44.13709,
+            -71.36565,
+            1215
+          ],
+          [
+            44.13699,
+            -71.36565,
+            1218
+          ],
+          [
+            44.13693,
+            -71.36563,
+            1219
+          ],
+          [
+            44.13688,
+            -71.3657,
+            1220
+          ],
+          [
+            44.13676,
+            -71.36578,
+            1225
+          ],
+          [
+            44.13654,
+            -71.36595,
+            1236
+          ],
+          [
+            44.13638,
+            -71.36612,
+            1246
+          ],
+          [
+            44.13633,
+            -71.36615,
+            1246
+          ],
+          [
+            44.13628,
+            -71.36616,
+            1247
+          ],
+          [
+            44.13622,
+            -71.36615,
+            1247
+          ],
+          [
+            44.13604,
+            -71.36611,
+            1234
+          ],
+          [
+            44.13586,
+            -71.36606,
+            1227
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1355,
+            "coord": [
+              44.14111,
+              -71.36959
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 1287,
+            "coord": [
+              44.14003,
+              -71.36843
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 1198,
+            "coord": [
+              44.13822,
+              -71.36656
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 1202,
+            "coord": [
+              44.13774,
+              -71.36623
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 1190,
+            "coord": [
+              44.13775,
+              -71.36567
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 1208,
+            "coord": [
+              44.13715,
+              -71.36563
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 1225,
+            "coord": [
+              44.13676,
+              -71.36578
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 1247,
+            "coord": [
+              44.13622,
+              -71.36615
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 1227,
+            "coord": [
+              44.13586,
+              -71.36606
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.14111,
+            -71.36959,
+            1355
+          ],
+          "summit": [
+            44.1332,
+            -71.3789,
+            1400
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

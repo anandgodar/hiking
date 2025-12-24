@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<Layout title="Privacy Policy | Summit Seeker" description="Privacy Policy and Data Protection practices for Summit Seeker.">
+    <div class="bg-stone-50 min-h-screen py-20">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="font-serif text-4xl md:text-5xl font-black text-stone-900 mb-8">Privacy Policy</h1>
+            <div class="prose prose-stone prose-lg bg-white p-10 rounded-3xl shadow-sm border border-stone-100">
+                <p class="text-sm text-stone-400">Last Updated: {new Date().toLocaleDateString()}</p>
+
+                <h3>1. Introduction</h3>
+                <p>Welcome to Summit Seeker. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website.</p>
+
+                <h3>2. Data We Collect</h3>
+                <p>We strictly prioritize user anonymity. We do not require account creation to access our database.</p>
+                <ul>
+                    <li><strong>Usage Data:</strong> We may collect anonymous metrics (page views, search queries) to improve our database.</li>
+                    <li><strong>Location Data:</strong> If you use the "Find Near Me" feature, your coordinates are processed locally on your device and are not stored on our servers.</li>
+                </ul>
+
+                <h3>3. Cookies</h3>
+                <p>We use minimal cookies necessary for site functionality and basic analytics to understand which trails are most popular.</p>
+
+                <h3>4. Third-Party Links</h3>
+                <p>Our website may include links to third-party websites (e.g., Unsplash, AllTrails). Clicking on those links may allow third parties to collect or share data about you.</p>
+
+                <h3>5. Contact Us</h3>
+                <p>If you have any questions about this privacy policy, please contact us at privacy@summitseeker.com.</p>
+            </div>
+        </div>
+    </div>
+    <SiteFooter />
+</Layout>

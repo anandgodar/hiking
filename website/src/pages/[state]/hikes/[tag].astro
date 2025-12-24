@@ -1,0 +1,143 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import MountainCard from '../../../components/MountainCard.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+
+export async function getStaticPaths() {
+  const allFiles = await Astro.glob('../../../data/*/*.json');
+
+  // --- NORMALIZER ---
+  const normalizeTag = (tag) => {
+      if (!tag) return '';
+      return tag.toString().toLowerCase().trim()
+          .replace(/_/g, '-')
+          .replace(/\s+/g, '-')
+          .replace(/s$/, '') // Remove plurals
+          .replace(/[^\w\-]+/g, '');
+  };
+
+  const mountainsByState = {};
+  allFiles.forEach(file => {
+      const m = file.default;
+      const stateSlug = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
+
+      if (!mountainsByState[stateSlug]) {
+          mountainsByState[stateSlug] = [];
+      }
+      mountainsByState[stateSlug].push(m);
+  });
+
+  const paths = [];
+
+  Object.entries(mountainsByState).forEach(([stateSlug, mountains]) => {
+      const tagMap = new Map();
+
+      mountains.forEach(m => {
+          // --- COLLECT TAGS FROM TRAILS TOO ---
+          const mTags = [
+              ...(m.tags || []),
+              ...(m.features?.map(f => f.type) || []),
+              ...(m.trails?.flatMap(t => t.tags) || []),
+              m.trails?.[0]?.stats?.difficulty
+          ].filter(Boolean);
+
+          mTags.forEach(t => {
+              const slug = normalizeTag(t);
+              if (!tagMap.has(slug)) tagMap.set(slug, { raw: t, items: [] });
+
+              const existingItems = tagMap.get(slug).items;
+              if (!existingItems.some(existing => existing.slug === m.slug)) {
+                  existingItems.push(m);
+              }
+          });
+      });
+
+      tagMap.forEach((data, tagSlug) => {
+          paths.push({
+              params: { state: stateSlug, tag: tagSlug },
+              props: {
+                  mountains: data.items,
+                  stateName: stateSlug.replace(/-/g, ' '),
+                  rawTag: data.raw
+              }
+          });
+      });
+  });
+
+  return paths;
+}
+
+const { mountains, stateName, rawTag } = Astro.props;
+const { state, tag } = Astro.params;
+
+// --- PRETTY TITLE MAPPER ---
+const getPrettyTitle = (t) => {
+    if (t === 'best') return 'Best Hikes';
+    if (t === 'best-hike') return 'Best Hikes';
+    if (t === '4000-footer') return '4000 Footers';
+    if (t === 'waterfall') return 'Waterfalls';
+    return t.replace(/_/g, ' ').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+const prettyTag = getPrettyTitle(tag);
+
+// --- HERO CONFIG ---
+const tagHeroConfig = {
+    "waterfall": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&q=80&w=2000",
+    "4000-footer": "https://images.unsplash.com/photo-1609956726603-332eb7d4838e?auto=format&fit=crop&q=80&w=2000",
+    "dog-friendly": "https://images.unsplash.com/photo-1534361960057-19889db9621e?auto=format&fit=crop&q=80&w=2000",
+    "best-hike": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+    "default": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+};
+
+const coverImage = tagHeroConfig[tag] || mountains[0]?.image || tagHeroConfig.default;
+---
+
+<Layout title={`${prettyTag} in ${stateName}`} description={`Explore top-rated ${prettyTag} trails in ${stateName}.`}>
+
+    <div class="relative h-[45vh] min-h-[350px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img
+                src={coverImage}
+                class="w-full h-full object-cover blur-[1px] scale-105"
+                alt={prettyTag}
+                onerror={`this.src='${tagHeroConfig.default}'`}
+            />
+            <div class="absolute inset-0 bg-stone-900/50 mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-50 via-transparent to-black/60"></div>
+        </div>
+
+        <div class="relative z-10 text-center px-4 max-w-4xl">
+            {/* STANDARDIZED BREADCRUMB */}
+            <nav class="flex justify-center items-center gap-3 text-sm font-bold text-white/90 uppercase tracking-widest mb-6 drop-shadow-md">
+                <a href="/" class="hover:text-emerald-400 transition-colors border-b border-transparent hover:border-emerald-400 pb-0.5">Home</a>
+                <span class="opacity-50">/</span>
+                <a href={`/${state}`} class="hover:text-emerald-400 transition-colors capitalize border-b border-transparent hover:border-emerald-400 pb-0.5">{stateName}</a>
+                <span class="opacity-50">/</span>
+                <span class="text-emerald-400">{prettyTag}</span>
+            </nav>
+
+            <h1 class="font-serif text-5xl md:text-7xl font-black text-white mb-4 shadow-xl capitalize tracking-tight">
+                {prettyTag}
+            </h1>
+
+            <div class="inline-flex items-center gap-2 bg-emerald-500/20 backdrop-blur-md border border-emerald-400/30 px-4 py-1.5 rounded-full">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span class="text-emerald-50 text-xs font-bold uppercase tracking-wider">
+                    {mountains.length} Curated Trails
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-stone-50 py-16 min-h-screen relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                {mountains.map(m => (
+                    <MountainCard mountain={m} />
+                ))}
+            </div>
+        </div>
+    </div>
+
+    <SiteFooter />
+</Layout>

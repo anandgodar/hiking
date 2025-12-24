@@ -1,0 +1,162 @@
+{
+  "name": "Rocky Gorge",
+  "slug": "rocky-gorge-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 1150,
+  "mountain_hero": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "waterfall",
+    "kancamagus_highway",
+    "photography",
+    "easy"
+  ],
+  "lat": 43.9902,
+  "lon": -71.2662,
+  "trails_config": [
+    {
+      "name": "Rocky Gorge Scenic Trail",
+      "type": "Loop",
+      "difficulty": "Easy",
+      "distance_miles": 0.6,
+      "tags": [
+        "best",
+        "photography",
+        "short"
+      ],
+      "description": "Features a footbridge over a narrow, churning gorge where the Swift River drops into Falls Pond. A top-tier photography location with easy accessibility.",
+      "parking_info": "Rocky Gorge Scenic Area Parking, Kancamagus Hwy, Albany, NH",
+      "start_lat": 43.991,
+      "start_lon": -71.267,
+      "via_lat": 43.988,
+      "via_lon": -71.265,
+      "features": [
+        {
+          "name": "Rocky Gorge Footbridge",
+          "type": "viewpoint",
+          "lat": 43.9905,
+          "lon": -71.2665
+        },
+        {
+          "name": "Falls Pond",
+          "type": "viewpoint",
+          "lat": 43.9875,
+          "lon": -71.2655
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Lower Falls",
+      "slug": "lower-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1100,
+      "distance_miles": 1.0
+    },
+    {
+      "name": "Mount Hedgehog",
+      "slug": "mt-hedgehog-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2533,
+      "distance_miles": 2.4
+    },
+    {
+      "name": "Mount Chocorua",
+      "slug": "mount-chocorua",
+      "state_slug": "new-hampshire",
+      "elevation": 3490,
+      "distance_miles": 2.7
+    },
+    {
+      "name": "Potash Mountain",
+      "slug": "potash-mountain-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2680,
+      "distance_miles": 3.9
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New Hampshire's premier peaks, Rocky Gorge rises to 1150 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1150 feet, Rocky Gorge is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Rocky Gorge Scenic Trail**, a **0.6 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Lower Falls**, which is just 1.0 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Rocky Gorge Scenic Trail",
+      "tags": [
+        "best",
+        "photography",
+        "short"
+      ],
+      "stats": {
+        "distance": 0.0,
+        "gain": 0,
+        "type": "Loop",
+        "difficulty": "Easy",
+        "time": 0.0
+      },
+      "geo": {
+        "path": [
+          [
+            43.99786,
+            -71.27455,
+            1167
+          ],
+          [
+            43.99786,
+            -71.27455,
+            1167
+          ],
+          [
+            43.99786,
+            -71.27455,
+            1167
+          ],
+          [
+            43.99786,
+            -71.27455,
+            1167
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1167,
+            "coord": [
+              43.99786,
+              -71.27455
+            ]
+          },
+          {
+            "mile": 0.0,
+            "elev": 1167,
+            "coord": [
+              43.99786,
+              -71.27455
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.99786,
+            -71.27455,
+            1167
+          ],
+          "summit": [
+            43.9902,
+            -71.2662,
+            1150
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

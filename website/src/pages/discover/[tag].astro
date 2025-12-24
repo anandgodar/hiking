@@ -1,0 +1,187 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MountainCard from '../../components/MountainCard.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+
+export async function getStaticPaths() {
+  const allFiles = await Astro.glob('../../data/*/*.json');
+
+  const normalizeTag = (tag) => {
+      if (!tag) return '';
+      return tag.toString().toLowerCase().trim()
+          .replace(/_/g, '-')
+          .replace(/\s+/g, '-')
+          .replace(/s$/, '')
+          .replace(/[^\w\-]+/g, '');
+  };
+
+  const allTags = new Set();
+
+  allFiles.forEach(file => {
+      const m = file.default;
+      const tags = [
+          ...(m.tags || []),
+          ...(m.features?.map(f => f.type) || []),
+          ...(m.trails?.flatMap(t => t.tags) || []),
+          m.trails?.[0]?.stats?.difficulty
+      ].filter(Boolean);
+
+      tags.forEach(t => allTags.add(normalizeTag(t)));
+  });
+
+  return Array.from(allTags).map(tagSlug => {
+      const matchingMountains = allFiles
+          .map(f => f.default)
+          .filter(m => {
+              const allSearchableTags = [
+                  ...(m.tags || []),
+                  ...(m.features?.map(f => f.type) || []),
+                  ...(m.trails?.flatMap(t => t.tags) || []),
+                  m.trails?.[0]?.stats?.difficulty
+              ].filter(Boolean).map(t => normalizeTag(t));
+
+              return allSearchableTags.includes(tagSlug);
+          });
+
+      return {
+          params: { tag: tagSlug },
+          props: { mountains: matchingMountains, tagSlug }
+      };
+  });
+}
+
+const { mountains, tagSlug } = Astro.props;
+
+const byState = {};
+mountains.forEach(m => {
+    if (!byState[m.state_slug]) byState[m.state_slug] = [];
+    byState[m.state_slug].push(m);
+});
+
+// --- PRETTY TITLE MAPPER ---
+const getPrettyTitle = (t) => {
+    if (t === 'best') return 'Best Hikes';
+    if (t === 'best-hike') return 'Best Hikes';
+    if (t === '4000-footer') return '4000 Footers';
+    if (t === 'waterfall') return 'Waterfalls';
+    return t.replace(/_/g, ' ').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+const prettyTag = getPrettyTitle(tagSlug);
+
+const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b";
+---
+
+<Layout title={`Best ${prettyTag} Hikes`} description={`Explore top-rated ${prettyTag} trails.`}>
+
+    <div class="relative h-[45vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img src={heroImage} class="w-full h-full object-cover blur-[2px] scale-105" alt={prettyTag} />
+            <div class="absolute inset-0 bg-stone-900/60 mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-50 via-transparent to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 text-center px-4 w-full max-w-4xl">
+            {/* STANDARDIZED BREADCRUMB */}
+            <nav class="flex justify-center items-center gap-3 text-sm font-bold text-white/90 uppercase tracking-widest mb-6 drop-shadow-md">
+                <a href="/" class="hover:text-emerald-400 transition-colors border-b border-transparent hover:border-emerald-400 pb-0.5">Home</a>
+                <span class="opacity-50">/</span>
+                <span class="text-white">Discover</span>
+                <span class="opacity-50">/</span>
+                <span class="text-emerald-400">{prettyTag}</span>
+            </nav>
+
+            <h1 class="text-5xl md:text-7xl font-black text-white mb-6 capitalize tracking-tight drop-shadow-2xl">
+                {prettyTag}
+            </h1>
+
+            <div class="inline-flex items-center gap-3 px-6 py-2.5 rounded-full bg-stone-900/50 backdrop-blur-md border border-white/20 text-white font-medium text-sm shadow-xl">
+                <span id="total-count" class="font-bold text-emerald-400">{mountains.length}</span> Trails Found
+                <span class="text-white/30">•</span>
+                <span>{Object.keys(byState).length} States</span>
+            </div>
+        </div>
+    </div>
+
+    {/* TOOLBAR: High Contrast */}
+    <div class="sticky top-0 z-30 bg-white shadow-md border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex flex-col sm:flex-row gap-4 items-center justify-between">
+                <div class="relative w-full sm:w-96 group">
+                    <span class="absolute left-4 top-3.5 text-stone-400 group-focus-within:text-emerald-500 transition-colors">🔍</span>
+                    <input
+                        type="text"
+                        id="page-search"
+                        placeholder={`Search within ${prettyTag}...`}
+                        class="w-full pl-11 pr-4 py-3 rounded-full bg-white border border-stone-300 text-stone-900 font-medium placeholder-stone-400 shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-all outline-none"
+                    />
+                </div>
+                <div class="text-xs font-bold text-stone-500 uppercase tracking-wider" id="results-feedback">
+                    Showing all results
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {/* CONTENT */}
+    <div class="bg-stone-50 py-16 min-h-screen">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16" id="state-sections">
+            {Object.entries(byState).map(([stateSlug, stateMountains]) => (
+                <section class="state-group" data-state={stateSlug}>
+                    <div class="flex items-end justify-between mb-8 border-b border-stone-200 pb-4">
+                        <div class="flex items-center gap-3">
+                            <span class="text-3xl">📍</span>
+                            <h2 class="text-3xl font-black text-stone-900 capitalize">
+                                {stateSlug.replace(/-/g, ' ')}
+                            </h2>
+                        </div>
+                        <a href={`/${stateSlug}/hikes/${tagSlug}`} class="hidden sm:block text-xs font-bold text-stone-500 hover:text-emerald-600 transition-colors uppercase tracking-widest">
+                            View all {stateMountains.length} in {stateSlug.replace(/-/g, ' ')} →
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {stateMountains.map(m => (
+                            <div class="searchable-item" data-name={m.name.toLowerCase()} data-tags={JSON.stringify(m.tags).toLowerCase()}>
+                                <MountainCard mountain={m} />
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            ))}
+            <div id="no-results" class="hidden text-center py-20">
+                <h3 class="text-2xl font-bold text-stone-900">No matching trails found</h3>
+            </div>
+        </div>
+    </div>
+    <SiteFooter />
+</Layout>
+
+<script>
+    const searchInput = document.getElementById('page-search');
+    const stateGroups = document.querySelectorAll('.state-group');
+    const noResultsMsg = document.getElementById('no-results');
+    const feedbackMsg = document.getElementById('results-feedback');
+
+    searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase();
+        let visibleCount = 0;
+        stateGroups.forEach(group => {
+            const items = group.querySelectorAll('.searchable-item');
+            let groupHasVisibleItems = false;
+            items.forEach(item => {
+                const name = item.dataset.name;
+                const tags = item.dataset.tags;
+                const isMatch = name.includes(query) || tags.includes(query);
+                if (isMatch) {
+                    item.style.display = 'block';
+                    groupHasVisibleItems = true;
+                    visibleCount++;
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            group.style.display = groupHasVisibleItems ? 'block' : 'none';
+        });
+        noResultsMsg.classList.toggle('hidden', visibleCount > 0);
+        feedbackMsg.textContent = query ? `Found ${visibleCount} matches` : 'Showing all results';
+    });
+</script>

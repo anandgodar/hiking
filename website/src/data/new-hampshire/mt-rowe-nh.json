@@ -1,0 +1,278 @@
+{
+  "name": "Mount Rowe",
+  "slug": "mt-rowe-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 1680,
+  "mountain_hero": "https://images.unsplash.com/photo-1510798831971-661eb04b3739",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "belknap_range",
+    "ski_area",
+    "family_friendly",
+    "lake_views"
+  ],
+  "lat": 43.541,
+  "lon": -71.365,
+  "trails_config": [
+    {
+      "name": "Mt Rowe Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.2,
+      "tags": [
+        "best",
+        "short",
+        "popular"
+      ],
+      "description": "Located within the Gunstock Mountain Resort. A short, family-friendly climb to several outlooks overlooking Lake Winnipesaukee and the northern mountains.",
+      "parking_info": "Gunstock Mountain Resort Parking, Gilford, NH",
+      "start_lat": 43.541,
+      "start_lon": -71.363,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Rowe Summit Outlook",
+          "type": "viewpoint",
+          "lat": 43.541,
+          "lon": -71.365
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Gunstock Mountain",
+      "slug": "gunstock-mtn-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2250,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Mount Rand",
+      "slug": "mt-rand-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1883,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Mount Klem",
+      "slug": "mt-klem-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2001,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Mount Belknap",
+      "slug": "mt-belknap-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2382,
+      "distance_miles": 1.6
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Rowe rises to 1680 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1680 feet, Mount Rowe is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mt Rowe Trail**, a **2.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Gunstock Mountain**, which is just 0.8 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Mt Rowe Trail",
+      "tags": [
+        "best",
+        "short",
+        "popular"
+      ],
+      "stats": {
+        "distance": 0.4,
+        "gain": 24,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.3
+      },
+      "geo": {
+        "path": [
+          [
+            43.5409,
+            -71.36289,
+            928
+          ],
+          [
+            43.54079,
+            -71.36309,
+            929
+          ],
+          [
+            43.54097,
+            -71.36324,
+            930
+          ],
+          [
+            43.54105,
+            -71.36333,
+            929
+          ],
+          [
+            43.54099,
+            -71.36339,
+            930
+          ],
+          [
+            43.5408,
+            -71.36365,
+            935
+          ],
+          [
+            43.54068,
+            -71.36379,
+            936
+          ],
+          [
+            43.54055,
+            -71.36395,
+            940
+          ],
+          [
+            43.54039,
+            -71.36415,
+            942
+          ],
+          [
+            43.5403,
+            -71.36426,
+            944
+          ],
+          [
+            43.54026,
+            -71.36433,
+            945
+          ],
+          [
+            43.54023,
+            -71.36439,
+            946
+          ],
+          [
+            43.54021,
+            -71.36444,
+            946
+          ],
+          [
+            43.54017,
+            -71.36475,
+            949
+          ],
+          [
+            43.54017,
+            -71.36493,
+            950
+          ],
+          [
+            43.54017,
+            -71.36526,
+            951
+          ],
+          [
+            43.54027,
+            -71.36541,
+            950
+          ],
+          [
+            43.54032,
+            -71.36546,
+            949
+          ],
+          [
+            43.54047,
+            -71.36559,
+            946
+          ],
+          [
+            43.54059,
+            -71.36566,
+            944
+          ],
+          [
+            43.54068,
+            -71.36569,
+            942
+          ],
+          [
+            43.5408,
+            -71.36575,
+            940
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 928,
+            "coord": [
+              43.5409,
+              -71.36289
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 935,
+            "coord": [
+              43.5408,
+              -71.36365
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 945,
+            "coord": [
+              43.54026,
+              -71.36433
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 951,
+            "coord": [
+              43.54017,
+              -71.36526
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 942,
+            "coord": [
+              43.54068,
+              -71.36569
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 940,
+            "coord": [
+              43.5408,
+              -71.36575
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.5409,
+            -71.36289,
+            928
+          ],
+          "summit": [
+            43.541,
+            -71.365,
+            1680
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

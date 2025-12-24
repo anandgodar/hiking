@@ -1,0 +1,284 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+import GlobalSearch from '../../components/GlobalSearch.astro';
+
+export async function getStaticPaths() {
+  const allFiles = await Astro.glob('../../data/*/*.json');
+  // Normalize slugs: 'nh' -> 'new-hampshire'
+  const states = [...new Set(allFiles.map(file => {
+      const s = file.default.state_slug;
+      return s === 'nh' ? 'new-hampshire' : s;
+  }))];
+
+  return states.map(stateSlug => {
+      const stateMountains = allFiles
+          .map(f => f.default)
+          .filter(m => {
+              const mSlug = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
+              return mSlug === stateSlug;
+          })
+          .sort((a, b) => b.elevation - a.elevation);
+
+      return {
+          params: { state: stateSlug },
+          props: { mountains: stateMountains, stateSlug }
+      };
+  });
+}
+
+const { mountains, stateSlug } = Astro.props;
+
+// --- SEARCH INDEX BUILDER ---
+const allFiles = await Astro.glob('../../data/*/*.json');
+const searchIndex = allFiles.map(file => {
+    const m = file.default;
+    const sUrl = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
+    return {
+        title: m.name,
+        type: 'Mountain',
+        subtitle: m.state_name || m.state_slug,
+        url: `/${sUrl}/${m.slug}`,
+        image: m.image,
+        tags: m.tags || []
+    };
+});
+
+// ... previous code ...
+
+// --- 2. CONFIG: RELIABLE HERO IMAGES ---
+const stateConfig = {
+    'new-hampshire': {
+        name: "New Hampshire",
+        // Matches Homepage
+        heroImage: "https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=2000",
+        featuredCollections: [
+            // ... keep existing collections ...
+            { id: 'best-hike', title: "Best Hikes", icon: "🔥", desc: "Top-rated trails." },
+            { id: '4000-footer', title: "4000 Footers", icon: "⛰️", desc: "The legendary 48 high peaks." },
+            { id: '52-with-a-view', title: "52 With a View", icon: "👀", desc: "Stunning vistas under 4k." },
+            { id: 'waterfall', title: "Waterfalls", icon: "💧", desc: "Chasing cascades." },
+        ]
+    },
+    'maine': {
+        name: "Maine",
+        // Matches Homepage
+        heroImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+        featuredCollections: [
+            // ... keep existing collections ...
+            { id: 'best-hike', title: "Best Hikes", icon: "🔥", desc: "The absolute best of Vacationland." },
+            { id: '4000-footer', title: "4000 Footers", icon: "⛰️", desc: "Maine's rugged giants." },
+            { id: 'coastal-view', title: "Coastal Views", icon: "🌊", desc: "Ocean breeze meets peaks." }
+        ]
+    },
+    'vermont': {
+        name: "Vermont",
+        // Matches Homepage
+        heroImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+        featuredCollections: [
+            // ... keep existing collections ...
+            { id: '4000-footer', title: "The VT 5", icon: "⛰️", desc: "Vermont's highest peaks." },
+            { id: 'long-trail', title: "Long Trail", icon: "🥾", desc: "Historic thru-hike sections." },
+            { id: 'fire-tower', title: "Fire Towers", icon: "🗼", desc: "360-degree lookouts." }
+        ]
+    },
+    'new-york': {
+        name: "New York",
+        // Matches Homepage
+        heroImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+        featuredCollections: [
+            // ... keep existing collections ...
+            { id: 'high-peak', title: "High Peaks", icon: "⛰️", desc: "The legendary 46 peaks." },
+            { id: 'catskill', title: "Catskills", icon: "🐾", desc: "Rugged southern peaks." },
+            { id: 'hudson-highland', title: "Hudson Highlands", icon: "🌊", desc: "Dramatic river views." }
+        ]
+    },
+    'default': {
+        name: stateSlug ? stateSlug.replace('-', ' ') : 'Wilderness',
+        heroImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+        featuredCollections: []
+    }
+};
+
+// ... rest of file ...
+
+const config = stateConfig[stateSlug] || stateConfig['default'];
+const finalHeroImage = config.heroImage;
+
+// --- SHARED UTILS ---
+const slugify = (text) => text.toString().toLowerCase().trim()
+    .replace(/_/g, '-')
+    .replace(/\s+/g, '-')
+    .replace(/s$/, '') // REMOVE PLURALS
+    .replace(/[^\w\-]+/g, '');
+
+const formatTag = (tag) => {
+    // Pretty Name Mapper
+    if (tag === 'best') return 'Best Hikes';
+    if (tag === 'best-hike') return 'Best Hikes';
+    return tag.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+};
+
+const tagCounts = {};
+mountains.forEach(m => {
+    const allTags = [
+        ...(m.tags || []),
+        ...(m.features?.map(f => f.type) || []),
+        ...(m.trails?.flatMap(t => t.tags) || []),
+        m.trails?.[0]?.stats?.difficulty
+    ].filter(Boolean);
+
+    allTags.forEach(t => {
+        const key = slugify(t);
+        tagCounts[key] = (tagCounts[key] || 0) + 1;
+    });
+});
+
+const pinnedTags = ['best-hike', '4000-footer', 'waterfall', 'dog-friendly'];
+const allCategories = Object.entries(tagCounts).sort((a, b) => {
+    const aPinned = pinnedTags.includes(a[0]);
+    const bPinned = pinnedTags.includes(b[0]);
+    if (aPinned && !bPinned) return -1;
+    if (!aPinned && bPinned) return 1;
+    return b[1] - a[1];
+});
+
+const getCollectionItems = (collectionId) => {
+    return mountains.filter(m => {
+        const mTags = [
+            ...(m.tags || []),
+            ...(m.features?.map(f => f.type) || []),
+            ...(m.trails?.flatMap(t => t.tags) || []),
+            m.trails?.[0]?.stats?.difficulty
+        ].filter(Boolean).map(t => slugify(t));
+
+        return mTags.includes(collectionId);
+    }).slice(0, 4);
+};
+---
+
+<Layout title={`Hiking ${config.name}`} description={`Hiking guide for ${config.name}.`}>
+
+    {/* HERO SECTION */}
+    <div class="relative h-[65vh] flex items-center justify-center overflow-hidden group">
+        <div class="absolute inset-0">
+            <img
+                src={finalHeroImage}
+                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-[3s]"
+                alt={`${config.name} Wilderness`}
+            />
+            {/* Dark Gradient for Text Contrast */}
+            <div class="absolute inset-0 bg-stone-900/50 mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-transparent to-transparent"></div>
+        </div>
+
+        {/* BREADCRUMB */}
+        <div class="absolute top-0 left-0 w-full p-6 z-20">
+            <nav class="max-w-7xl mx-auto flex items-center gap-3 text-sm font-bold text-white/90 uppercase tracking-widest drop-shadow-md">
+                <a href="/" class="hover:text-emerald-400 transition-colors">Home</a>
+                <span class="opacity-40">/</span>
+                <span class="text-emerald-400">{config.name}</span>
+            </nav>
+        </div>
+
+        <div class="relative z-10 w-full max-w-4xl px-4 text-center mt-8">
+            <div class="inline-block py-1.5 px-4 border border-white/20 bg-white/10 backdrop-blur-md rounded-full text-white text-[10px] font-bold uppercase tracking-widest mb-6 shadow-lg">
+                State Guide
+            </div>
+            <h1 class="font-serif text-6xl md:text-8xl font-black text-white mb-8 shadow-xl tracking-tight drop-shadow-2xl">
+                {config.name}
+            </h1>
+
+            {/* SEARCH BAR */}
+            <div class="max-w-xl mx-auto transform transition-all hover:scale-[1.01]">
+                <GlobalSearch searchIndex={searchIndex} />
+            </div>
+
+            <p class="text-white/80 text-sm font-bold mt-6 tracking-wide uppercase">
+                {mountains.length} Curated Adventures
+            </p>
+        </div>
+    </div>
+
+    <div class="bg-stone-50 py-12 space-y-24 relative z-10">
+
+        {/* DISCOVERY BAR */}
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-24 relative z-20">
+            <div class="bg-white/95 backdrop-blur-xl p-8 rounded-[2rem] shadow-2xl shadow-stone-900/10 border border-stone-100">
+                <h3 class="font-serif text-xl font-bold text-stone-900 mb-6 flex items-center gap-2">
+                    <span class="text-2xl">🧭</span> Filter by Category
+                </h3>
+
+                <div class="flex flex-wrap gap-2">
+                    {allCategories.map(([tag, count]) => {
+                        const isPinned = pinnedTags.includes(tag);
+                        return (
+                            <a
+                                href={`/${stateSlug}/hikes/${tag}`}
+                                class={`group flex items-center gap-2.5 px-4 py-2 rounded-xl border text-sm font-bold transition-all duration-300
+                                ${isPinned 
+                                    ? 'bg-emerald-50 border-emerald-200 text-emerald-800 hover:bg-emerald-100 hover:scale-105 shadow-sm' 
+                                    : 'bg-white border-stone-200 text-stone-600 hover:bg-stone-50 hover:border-stone-300'}
+                                `}
+                            >
+                                <span>{formatTag(tag)}</span>
+                                <span class={`text-[10px] py-0.5 px-2 rounded-lg transition-colors ${isPinned ? 'bg-emerald-200 text-emerald-900' : 'bg-stone-100 text-stone-500 group-hover:bg-stone-200'}`}>
+                                    {count}
+                                </span>
+                            </a>
+                        );
+                    })}
+                </div>
+            </div>
+        </div>
+
+        {/* SWIMLANES */}
+        {config.featuredCollections.map(c => {
+            const items = getCollectionItems(c.id);
+            if (items.length === 0) return null;
+
+            return (
+                <section id={c.id} class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 border-b border-stone-200 pb-6 gap-4">
+                        <div>
+                            <div class="flex items-center gap-3 mb-1">
+                                <span class="text-3xl bg-emerald-100 w-12 h-12 flex items-center justify-center rounded-2xl shadow-sm">{c.icon}</span>
+                                <h2 class="font-serif text-4xl font-bold text-stone-900">{c.title}</h2>
+                            </div>
+                            <p class="text-stone-500 font-medium ml-1 text-sm md:text-base max-w-lg mt-2">{c.desc}</p>
+                        </div>
+
+                        <a href={`/${stateSlug}/hikes/${c.id}`} class="group flex items-center gap-2 text-xs font-bold text-emerald-600 uppercase tracking-widest bg-emerald-50 px-4 py-2 rounded-full hover:bg-emerald-100 transition-all">
+                            View All {c.title}
+                            <span class="group-hover:translate-x-1 transition-transform">→</span>
+                        </a>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        {items.map(m => <MountainCard mountain={m} />)}
+                    </div>
+                </section>
+            );
+        })}
+
+        {/* MASTER LIST */}
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 bg-white rounded-3xl border border-stone-100 shadow-xl">
+            <div class="flex items-center justify-between mb-10 border-b border-stone-100 pb-8">
+                <div>
+                    <h2 class="font-serif text-3xl font-bold text-stone-900">Complete Index</h2>
+                    <p class="text-stone-500 text-sm mt-1">A-Z listing of all peaks in {config.name}</p>
+                </div>
+                <div class="bg-stone-100 px-4 py-2 rounded-xl">
+                    <span class="text-stone-600 text-xs font-bold uppercase tracking-wider">{mountains.length} Peaks</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {mountains.map(m => <MountainCard mountain={m} />)}
+            </div>
+        </section>
+
+    </div>
+    <SiteFooter />
+</Layout>

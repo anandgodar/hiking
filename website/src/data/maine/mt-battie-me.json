@@ -1,0 +1,627 @@
+{
+  "name": "Mount Battie",
+  "slug": "mt-battie-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 780,
+  "mountain_hero": "https://images.unsplash.com/photo-1516298252549-36332279116e?q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "tags": [
+    "camden_hills",
+    "ocean_views",
+    "tower",
+    "family_friendly"
+  ],
+  "lat": 44.225,
+  "lon": -69.068,
+  "trails_config": [
+    {
+      "name": "Mount Battie Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 1.1,
+      "tags": [
+        "best",
+        "short",
+        "ocean_views"
+      ],
+      "description": "Short but steep climb to one of the most famous views in Maine. Overlooks Camden Harbor and Penobscot Bay. Features a stone WWI memorial tower.",
+      "parking_info": "Megunticook St Trailhead, Camden, ME",
+      "start_lat": 44.218,
+      "start_lon": -69.068,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Summit Tower",
+          "type": "viewpoint",
+          "lat": 44.225,
+          "lon": -69.068
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [],
+  "current_conditions": {
+    "ai_summary": "One of Maine's premier peaks, Mount Battie rises to 780 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 780 feet, Mount Battie is a standout peak in Maine. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mount Battie Trail**, a **1.1 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Mount Battie Trail",
+      "tags": [
+        "best",
+        "short",
+        "ocean_views"
+      ],
+      "stats": {
+        "distance": 1.5,
+        "gain": 652,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 1.3
+      },
+      "geo": {
+        "path": [
+          [
+            44.21646,
+            -69.06844,
+            168
+          ],
+          [
+            44.21646,
+            -69.0685,
+            168
+          ],
+          [
+            44.21645,
+            -69.06858,
+            170
+          ],
+          [
+            44.21598,
+            -69.0692,
+            160
+          ],
+          [
+            44.21603,
+            -69.06922,
+            165
+          ],
+          [
+            44.21608,
+            -69.06928,
+            167
+          ],
+          [
+            44.21651,
+            -69.06991,
+            203
+          ],
+          [
+            44.21657,
+            -69.07005,
+            204
+          ],
+          [
+            44.21689,
+            -69.07037,
+            223
+          ],
+          [
+            44.21698,
+            -69.07043,
+            234
+          ],
+          [
+            44.21704,
+            -69.07042,
+            244
+          ],
+          [
+            44.21712,
+            -69.07032,
+            243
+          ],
+          [
+            44.21725,
+            -69.0701,
+            265
+          ],
+          [
+            44.21734,
+            -69.07004,
+            280
+          ],
+          [
+            44.21739,
+            -69.0701,
+            283
+          ],
+          [
+            44.21746,
+            -69.07038,
+            306
+          ],
+          [
+            44.21752,
+            -69.07049,
+            318
+          ],
+          [
+            44.21776,
+            -69.0707,
+            350
+          ],
+          [
+            44.21786,
+            -69.07075,
+            359
+          ],
+          [
+            44.21793,
+            -69.07076,
+            366
+          ],
+          [
+            44.21799,
+            -69.07073,
+            380
+          ],
+          [
+            44.21807,
+            -69.07065,
+            384
+          ],
+          [
+            44.21819,
+            -69.07045,
+            395
+          ],
+          [
+            44.21828,
+            -69.07039,
+            405
+          ],
+          [
+            44.21842,
+            -69.07037,
+            429
+          ],
+          [
+            44.21859,
+            -69.07039,
+            454
+          ],
+          [
+            44.21865,
+            -69.07037,
+            482
+          ],
+          [
+            44.21877,
+            -69.07022,
+            510
+          ],
+          [
+            44.2189,
+            -69.07012,
+            553
+          ],
+          [
+            44.21902,
+            -69.07007,
+            564
+          ],
+          [
+            44.21917,
+            -69.07005,
+            593
+          ],
+          [
+            44.21924,
+            -69.07007,
+            593
+          ],
+          [
+            44.21927,
+            -69.0701,
+            610
+          ],
+          [
+            44.21936,
+            -69.07031,
+            626
+          ],
+          [
+            44.21946,
+            -69.07039,
+            638
+          ],
+          [
+            44.21953,
+            -69.07041,
+            638
+          ],
+          [
+            44.2196,
+            -69.07039,
+            649
+          ],
+          [
+            44.21989,
+            -69.07022,
+            674
+          ],
+          [
+            44.22003,
+            -69.0702,
+            689
+          ],
+          [
+            44.22013,
+            -69.07022,
+            695
+          ],
+          [
+            44.22022,
+            -69.07029,
+            701
+          ],
+          [
+            44.22032,
+            -69.07044,
+            706
+          ],
+          [
+            44.22041,
+            -69.07049,
+            710
+          ],
+          [
+            44.22075,
+            -69.07058,
+            728
+          ],
+          [
+            44.22095,
+            -69.07059,
+            735
+          ],
+          [
+            44.22103,
+            -69.07056,
+            739
+          ],
+          [
+            44.22109,
+            -69.07051,
+            738
+          ],
+          [
+            44.22131,
+            -69.07018,
+            751
+          ],
+          [
+            44.22137,
+            -69.07013,
+            751
+          ],
+          [
+            44.22154,
+            -69.07009,
+            756
+          ],
+          [
+            44.22178,
+            -69.06991,
+            763
+          ],
+          [
+            44.22185,
+            -69.06984,
+            761
+          ],
+          [
+            44.22193,
+            -69.06969,
+            760
+          ],
+          [
+            44.222,
+            -69.06946,
+            764
+          ],
+          [
+            44.22204,
+            -69.06938,
+            771
+          ],
+          [
+            44.22211,
+            -69.06931,
+            773
+          ],
+          [
+            44.22219,
+            -69.06929,
+            779
+          ],
+          [
+            44.22246,
+            -69.06932,
+            790
+          ],
+          [
+            44.22268,
+            -69.06923,
+            798
+          ],
+          [
+            44.22275,
+            -69.06917,
+            802
+          ],
+          [
+            44.22277,
+            -69.06918,
+            802
+          ],
+          [
+            44.22278,
+            -69.06919,
+            802
+          ],
+          [
+            44.2228,
+            -69.06918,
+            802
+          ],
+          [
+            44.22282,
+            -69.06915,
+            803
+          ],
+          [
+            44.22281,
+            -69.0691,
+            803
+          ],
+          [
+            44.22288,
+            -69.06899,
+            803
+          ],
+          [
+            44.22306,
+            -69.06885,
+            798
+          ],
+          [
+            44.22321,
+            -69.06876,
+            793
+          ],
+          [
+            44.22335,
+            -69.06871,
+            791
+          ],
+          [
+            44.22337,
+            -69.06861,
+            791
+          ],
+          [
+            44.22342,
+            -69.06812,
+            789
+          ],
+          [
+            44.2235,
+            -69.06793,
+            790
+          ],
+          [
+            44.22356,
+            -69.06784,
+            790
+          ],
+          [
+            44.22364,
+            -69.06776,
+            789
+          ],
+          [
+            44.22371,
+            -69.06773,
+            788
+          ],
+          [
+            44.22381,
+            -69.06771,
+            788
+          ],
+          [
+            44.22388,
+            -69.06774,
+            788
+          ],
+          [
+            44.22396,
+            -69.06781,
+            789
+          ],
+          [
+            44.22401,
+            -69.06789,
+            789
+          ],
+          [
+            44.22403,
+            -69.06802,
+            789
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 168,
+            "coord": [
+              44.21646,
+              -69.06844
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 167,
+            "coord": [
+              44.21608,
+              -69.06928
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 244,
+            "coord": [
+              44.21704,
+              -69.07042
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 306,
+            "coord": [
+              44.21746,
+              -69.07038
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 380,
+            "coord": [
+              44.21799,
+              -69.07073
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 454,
+            "coord": [
+              44.21859,
+              -69.07039
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 593,
+            "coord": [
+              44.21917,
+              -69.07005
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 638,
+            "coord": [
+              44.21953,
+              -69.07041
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 701,
+            "coord": [
+              44.22022,
+              -69.07029
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 739,
+            "coord": [
+              44.22103,
+              -69.07056
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 763,
+            "coord": [
+              44.22178,
+              -69.06991
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 773,
+            "coord": [
+              44.22211,
+              -69.06931
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 802,
+            "coord": [
+              44.22277,
+              -69.06918
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 803,
+            "coord": [
+              44.22288,
+              -69.06899
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 789,
+            "coord": [
+              44.22342,
+              -69.06812
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 788,
+            "coord": [
+              44.22381,
+              -69.06771
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 789,
+            "coord": [
+              44.22403,
+              -69.06802
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.21646,
+            -69.06844,
+            168
+          ],
+          "summit": [
+            44.225,
+            -69.068,
+            780
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

@@ -1,0 +1,151 @@
+{
+  "name": "Thompson Falls",
+  "slug": "thompson-falls-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 2100,
+  "mountain_hero": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "waterfall",
+    "wildcat_brook",
+    "pinkham_notch",
+    "photography"
+  ],
+  "lat": 44.263,
+  "lon": -71.226,
+  "trails_config": [
+    {
+      "name": "Thompson Falls Trail",
+      "type": "Out & Back",
+      "difficulty": "Easy",
+      "distance_miles": 1.1,
+      "tags": [
+        "best",
+        "waterfalls",
+        "short"
+      ],
+      "description": "A series of beautiful cascading falls on Wildcat Brook. The upper falls provide a unique view of Mount Washington through the trees. Located at the base of the Wildcat Mountain Ski Area.",
+      "parking_info": "Wildcat Mountain Ski Area Parking, NH-16, Gorham, NH",
+      "start_lat": 44.2638,
+      "start_lon": -71.2268,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Upper Thompson Falls",
+          "type": "waterfall",
+          "lat": 44.263,
+          "lon": -71.226
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Wildcat Mountain (Peak D)",
+      "slug": "wildcat-d-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4050,
+      "distance_miles": 1.0
+    },
+    {
+      "name": "Crystal Cascade",
+      "slug": "crystal-cascade-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2300,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Glen Ellis Falls",
+      "slug": "glen-ellis-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1900,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Carter Dome",
+      "slug": "carter-dome-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4832,
+      "distance_miles": 2.4
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2100 feet, Thompson Falls offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2100 feet, Thompson Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Thompson Falls Trail**, a **1.1 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Wildcat Mountain (Peak D)**, which is just 1.0 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Thompson Falls Trail",
+      "tags": [
+        "best",
+        "waterfalls",
+        "short"
+      ],
+      "stats": {
+        "distance": 0.1,
+        "gain": 29,
+        "type": "Out & Back",
+        "difficulty": "Easy",
+        "time": 0.1
+      },
+      "geo": {
+        "path": [
+          [
+            44.26394,
+            -71.22681,
+            2472
+          ],
+          [
+            44.26396,
+            -71.22631,
+            2489
+          ],
+          [
+            44.26397,
+            -71.22611,
+            2501
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2472,
+            "coord": [
+              44.26394,
+              -71.22681
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 2501,
+            "coord": [
+              44.26397,
+              -71.22611
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.26394,
+            -71.22681,
+            2472
+          ],
+          "summit": [
+            44.263,
+            -71.226,
+            2100
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

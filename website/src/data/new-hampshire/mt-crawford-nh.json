@@ -1,0 +1,453 @@
+{
+  "name": "Mount Crawford",
+  "slug": "mt-crawford-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 3119,
+  "mountain_hero": "https://images.unsplash.com/photo-1498598457418-36ef20772bb9",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "52_with_a_view",
+    "rocky_ridge",
+    "crawford_notch",
+    "360_views"
+  ],
+  "lat": 44.135,
+  "lon": -71.3361,
+  "trails_config": [
+    {
+      "name": "Davis Path",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 5.0,
+      "tags": [
+        "best",
+        "scenic",
+        "exposed"
+      ],
+      "description": "Ascends the historic Davis Path to a wide-open, craggy granite summit. Provides a unique, unobstructed view into the heart of the Dry River Wilderness and the southern Presidentials.",
+      "parking_info": "Davis Path Trailhead, US-302, Bartlett, NH",
+      "start_lat": 44.13,
+      "start_lon": -71.34,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Crawford Summit Dome",
+          "type": "viewpoint",
+          "lat": 44.135,
+          "lon": -71.3361
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Arethusa Falls",
+      "slug": "arethusa-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2200,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Ripley Falls",
+      "slug": "ripley-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1400,
+      "distance_miles": 2.1
+    },
+    {
+      "name": "Mount Webster",
+      "slug": "mt-webster-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3911,
+      "distance_miles": 4.8
+    },
+    {
+      "name": "Mount Jackson",
+      "slug": "mt-jackson-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4052,
+      "distance_miles": 5.1
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 3119 feet, Mount Crawford offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 3119 feet, Mount Crawford is a standout peak in New Hampshire. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Davis Path**, a **5.0 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Arethusa Falls**, which is just 1.8 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Davis Path",
+      "tags": [
+        "best",
+        "scenic",
+        "exposed"
+      ],
+      "stats": {
+        "distance": 1.9,
+        "gain": 1221,
+        "type": "Out & Back",
+        "difficulty": "Hard",
+        "time": 1.9
+      },
+      "geo": {
+        "path": [
+          [
+            44.12842,
+            -71.3395,
+            1906
+          ],
+          [
+            44.12806,
+            -71.33915,
+            1964
+          ],
+          [
+            44.12814,
+            -71.33882,
+            1991
+          ],
+          [
+            44.12834,
+            -71.33846,
+            2029
+          ],
+          [
+            44.12818,
+            -71.33819,
+            2066
+          ],
+          [
+            44.1279,
+            -71.33777,
+            2121
+          ],
+          [
+            44.12838,
+            -71.33706,
+            2198
+          ],
+          [
+            44.12866,
+            -71.33672,
+            2238
+          ],
+          [
+            44.12879,
+            -71.33636,
+            2273
+          ],
+          [
+            44.12887,
+            -71.33596,
+            2312
+          ],
+          [
+            44.1289,
+            -71.33561,
+            2336
+          ],
+          [
+            44.12911,
+            -71.3351,
+            2387
+          ],
+          [
+            44.129,
+            -71.3349,
+            2422
+          ],
+          [
+            44.12897,
+            -71.33469,
+            2439
+          ],
+          [
+            44.12886,
+            -71.33437,
+            2467
+          ],
+          [
+            44.12925,
+            -71.33397,
+            2527
+          ],
+          [
+            44.12939,
+            -71.33363,
+            2553
+          ],
+          [
+            44.12953,
+            -71.33347,
+            2566
+          ],
+          [
+            44.13012,
+            -71.33319,
+            2600
+          ],
+          [
+            44.13033,
+            -71.33289,
+            2620
+          ],
+          [
+            44.13073,
+            -71.33283,
+            2669
+          ],
+          [
+            44.13131,
+            -71.33288,
+            2730
+          ],
+          [
+            44.13147,
+            -71.33297,
+            2746
+          ],
+          [
+            44.13183,
+            -71.33289,
+            2776
+          ],
+          [
+            44.13215,
+            -71.33254,
+            2812
+          ],
+          [
+            44.13248,
+            -71.33234,
+            2831
+          ],
+          [
+            44.13268,
+            -71.33198,
+            2842
+          ],
+          [
+            44.13278,
+            -71.33174,
+            2851
+          ],
+          [
+            44.13312,
+            -71.33153,
+            2867
+          ],
+          [
+            44.13352,
+            -71.33153,
+            2884
+          ],
+          [
+            44.13375,
+            -71.3313,
+            2881
+          ],
+          [
+            44.13395,
+            -71.33117,
+            2891
+          ],
+          [
+            44.13417,
+            -71.33116,
+            2929
+          ],
+          [
+            44.13447,
+            -71.33092,
+            2961
+          ],
+          [
+            44.1346,
+            -71.33085,
+            2966
+          ],
+          [
+            44.13476,
+            -71.33083,
+            2969
+          ],
+          [
+            44.13511,
+            -71.33097,
+            3011
+          ],
+          [
+            44.13528,
+            -71.3311,
+            3028
+          ],
+          [
+            44.13539,
+            -71.33125,
+            3041
+          ],
+          [
+            44.13552,
+            -71.33128,
+            3044
+          ],
+          [
+            44.13565,
+            -71.33129,
+            3046
+          ],
+          [
+            44.13578,
+            -71.33134,
+            3055
+          ],
+          [
+            44.13596,
+            -71.33145,
+            3064
+          ],
+          [
+            44.136,
+            -71.33148,
+            3064
+          ],
+          [
+            44.13604,
+            -71.33155,
+            3071
+          ],
+          [
+            44.13642,
+            -71.33186,
+            3101
+          ],
+          [
+            44.13659,
+            -71.33211,
+            3115
+          ],
+          [
+            44.1366,
+            -71.33223,
+            3123
+          ],
+          [
+            44.13664,
+            -71.33235,
+            3124
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1906,
+            "coord": [
+              44.12842,
+              -71.3395
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 2121,
+            "coord": [
+              44.1279,
+              -71.33777
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 2336,
+            "coord": [
+              44.1289,
+              -71.33561
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 2527,
+            "coord": [
+              44.12925,
+              -71.33397
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 2669,
+            "coord": [
+              44.13073,
+              -71.33283
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 2831,
+            "coord": [
+              44.13248,
+              -71.33234
+            ]
+          },
+          {
+            "mile": 0.72,
+            "elev": 2881,
+            "coord": [
+              44.13375,
+              -71.3313
+            ]
+          },
+          {
+            "mile": 0.79,
+            "elev": 2969,
+            "coord": [
+              44.13476,
+              -71.33083
+            ]
+          },
+          {
+            "mile": 0.86,
+            "elev": 3046,
+            "coord": [
+              44.13565,
+              -71.33129
+            ]
+          },
+          {
+            "mile": 0.92,
+            "elev": 3101,
+            "coord": [
+              44.13642,
+              -71.33186
+            ]
+          },
+          {
+            "mile": 0.95,
+            "elev": 3124,
+            "coord": [
+              44.13664,
+              -71.33235
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.12842,
+            -71.3395,
+            1906
+          ],
+          "summit": [
+            44.135,
+            -71.3361,
+            3119
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

@@ -1,0 +1,465 @@
+{
+  "name": "Mount Success",
+  "slug": "mt-success-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 3565,
+  "mountain_hero": "https://images.unsplash.com/photo-1472396961693-142e6e269027",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "mahoosuc_range",
+    "appalachian_trail",
+    "remote",
+    "bog_board"
+  ],
+  "lat": 44.4719,
+  "lon": -71.0378,
+  "trails_config": [
+    {
+      "name": "Success Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 6.4,
+      "tags": [
+        "best",
+        "remote",
+        "views"
+      ],
+      "description": "A remote peak in the Mahoosuc Range known for its extensive bog boards and high-altitude marshes. The rocky summit offers unique views of the Wild River Wilderness and into Maine.",
+      "parking_info": "Success Pond Rd Parking, Success Pond Rd, Success, NH",
+      "start_lat": 44.48,
+      "start_lon": -71.05,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Success Summit Ledges",
+          "type": "viewpoint",
+          "lat": 44.4719,
+          "lon": -71.0378
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Old Speck Mountain",
+      "slug": "old-speck-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4180,
+      "distance_miles": 8.0
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Success. At 3565 feet, this summit commands impressive views of the surrounding wilderness.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 3565 feet, Mount Success is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Success Trail**, a **6.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Old Speck Mountain**, which is just 8.0 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Success Trail",
+      "tags": [
+        "best",
+        "remote",
+        "views"
+      ],
+      "stats": {
+        "distance": 2.2,
+        "gain": 617,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 1.8
+      },
+      "geo": {
+        "path": [
+          [
+            44.48025,
+            -71.05,
+            3036
+          ],
+          [
+            44.48032,
+            -71.04958,
+            3047
+          ],
+          [
+            44.48025,
+            -71.04942,
+            3050
+          ],
+          [
+            44.48011,
+            -71.04926,
+            3054
+          ],
+          [
+            44.47977,
+            -71.04885,
+            3068
+          ],
+          [
+            44.47949,
+            -71.04858,
+            3077
+          ],
+          [
+            44.47921,
+            -71.04824,
+            3092
+          ],
+          [
+            44.47904,
+            -71.04789,
+            3089
+          ],
+          [
+            44.47892,
+            -71.04746,
+            3083
+          ],
+          [
+            44.4786,
+            -71.04686,
+            3051
+          ],
+          [
+            44.47858,
+            -71.04669,
+            3051
+          ],
+          [
+            44.47859,
+            -71.04639,
+            3052
+          ],
+          [
+            44.47852,
+            -71.04607,
+            3057
+          ],
+          [
+            44.47821,
+            -71.0458,
+            3051
+          ],
+          [
+            44.47809,
+            -71.04539,
+            3054
+          ],
+          [
+            44.47815,
+            -71.04502,
+            3063
+          ],
+          [
+            44.47803,
+            -71.04463,
+            3065
+          ],
+          [
+            44.478,
+            -71.04397,
+            3069
+          ],
+          [
+            44.47793,
+            -71.04335,
+            3073
+          ],
+          [
+            44.478,
+            -71.04315,
+            3075
+          ],
+          [
+            44.4782,
+            -71.04285,
+            3085
+          ],
+          [
+            44.47822,
+            -71.04199,
+            3108
+          ],
+          [
+            44.47837,
+            -71.04151,
+            3125
+          ],
+          [
+            44.47848,
+            -71.04082,
+            3124
+          ],
+          [
+            44.47841,
+            -71.04015,
+            3151
+          ],
+          [
+            44.47832,
+            -71.03961,
+            3188
+          ],
+          [
+            44.47822,
+            -71.03959,
+            3183
+          ],
+          [
+            44.47802,
+            -71.0397,
+            3192
+          ],
+          [
+            44.47772,
+            -71.03959,
+            3227
+          ],
+          [
+            44.47743,
+            -71.0394,
+            3229
+          ],
+          [
+            44.47728,
+            -71.03939,
+            3239
+          ],
+          [
+            44.47716,
+            -71.03938,
+            3250
+          ],
+          [
+            44.47698,
+            -71.03922,
+            3260
+          ],
+          [
+            44.47682,
+            -71.03919,
+            3273
+          ],
+          [
+            44.47659,
+            -71.03911,
+            3282
+          ],
+          [
+            44.47624,
+            -71.03901,
+            3312
+          ],
+          [
+            44.47601,
+            -71.03914,
+            3325
+          ],
+          [
+            44.47574,
+            -71.03923,
+            3331
+          ],
+          [
+            44.47566,
+            -71.03938,
+            3320
+          ],
+          [
+            44.47553,
+            -71.0396,
+            3318
+          ],
+          [
+            44.47549,
+            -71.03984,
+            3325
+          ],
+          [
+            44.47502,
+            -71.04017,
+            3355
+          ],
+          [
+            44.47404,
+            -71.03981,
+            3373
+          ],
+          [
+            44.47369,
+            -71.03974,
+            3388
+          ],
+          [
+            44.47342,
+            -71.0397,
+            3411
+          ],
+          [
+            44.47314,
+            -71.03973,
+            3444
+          ],
+          [
+            44.47305,
+            -71.03975,
+            3454
+          ],
+          [
+            44.47292,
+            -71.0397,
+            3469
+          ],
+          [
+            44.47264,
+            -71.03968,
+            3501
+          ],
+          [
+            44.47233,
+            -71.03977,
+            3518
+          ],
+          [
+            44.47183,
+            -71.03966,
+            3574
+          ],
+          [
+            44.47162,
+            -71.03936,
+            3584
+          ],
+          [
+            44.47156,
+            -71.03924,
+            3587
+          ],
+          [
+            44.47154,
+            -71.03923,
+            3587
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 3036,
+            "coord": [
+              44.48025,
+              -71.05
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 3077,
+            "coord": [
+              44.47949,
+              -71.04858
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 3051,
+            "coord": [
+              44.47858,
+              -71.04669
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 3063,
+            "coord": [
+              44.47815,
+              -71.04502
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 3085,
+            "coord": [
+              44.4782,
+              -71.04285
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 3188,
+            "coord": [
+              44.47832,
+              -71.03961
+            ]
+          },
+          {
+            "mile": 0.67,
+            "elev": 3239,
+            "coord": [
+              44.47728,
+              -71.03939
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 3312,
+            "coord": [
+              44.47624,
+              -71.03901
+            ]
+          },
+          {
+            "mile": 0.81,
+            "elev": 3325,
+            "coord": [
+              44.47549,
+              -71.03984
+            ]
+          },
+          {
+            "mile": 0.98,
+            "elev": 3444,
+            "coord": [
+              44.47314,
+              -71.03973
+            ]
+          },
+          {
+            "mile": 1.07,
+            "elev": 3574,
+            "coord": [
+              44.47183,
+              -71.03966
+            ]
+          },
+          {
+            "mile": 1.1,
+            "elev": 3587,
+            "coord": [
+              44.47154,
+              -71.03923
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.48025,
+            -71.05,
+            3036
+          ],
+          "summit": [
+            44.4719,
+            -71.0378,
+            3565
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

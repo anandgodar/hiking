@@ -1,0 +1,68 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MountainCard from '../../components/MountainCard.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+
+export async function getStaticPaths() {
+  const allFiles = await Astro.glob('../../data/*/*.json');
+  const allMountains = allFiles.map(f => f.default);
+
+  // 1. Harvest all unique tags from all mountains
+  const tagSet = new Set();
+  allMountains.forEach(m => {
+      // Collect Tags
+      if (m.tags) m.tags.forEach(t => tagSet.add(t.toLowerCase()));
+      // Collect Features (e.g. Waterfall)
+      if (m.features) m.features.forEach(f => tagSet.add(f.type.toLowerCase()));
+      // Collect Difficulty
+      const diff = m.trails?.[0]?.stats?.difficulty;
+      if (diff) tagSet.add(diff.toLowerCase());
+  });
+
+  return Array.from(tagSet).map(tag => {
+      // Filter mountains that match this tag
+      const filtered = allMountains.filter(m => {
+          const t = JSON.stringify([m.tags, m.features, m.trails]).toLowerCase();
+          return t.includes(tag);
+      });
+      return { params: { tag }, props: { mountains: filtered, tag } };
+  });
+}
+
+const { mountains, tag } = Astro.props;
+
+// Formatting the Title (e.g., "waterfall" -> "Waterfall Hikes")
+const formattedTitle = tag.charAt(0).toUpperCase() + tag.slice(1).replace(/_/g, ' ');
+const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000";
+---
+
+<Layout title={`Best ${formattedTitle} Trails`} description={`Explore top rated ${formattedTitle} hiking trails.`}>
+
+    {/* HERO */}
+    <div class="relative h-[40vh] min-h-[300px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img src={heroImage} class="w-full h-full object-cover blur-[2px] scale-105" alt={formattedTitle} />
+            <div class="absolute inset-0 bg-stone-900/60"></div>
+        </div>
+        <div class="relative z-10 text-center text-white p-4">
+            <span class="inline-block py-1 px-3 border border-emerald-400/50 rounded-full text-emerald-300 text-xs font-bold uppercase tracking-widest mb-4">
+                Category
+            </span>
+            <h1 class="font-serif text-5xl md:text-6xl font-black mb-2 shadow-sm">
+                {formattedTitle}
+            </h1>
+            <p class="text-stone-300 text-lg">{mountains.length} trails found</p>
+        </div>
+    </div>
+
+    {/* GRID */}
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {mountains.map(m => (
+                <MountainCard mountain={m} showState={true} />
+            ))}
+        </div>
+    </div>
+
+    <SiteFooter />
+</Layout>

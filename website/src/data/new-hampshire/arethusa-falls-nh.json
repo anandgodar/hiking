@@ -1,0 +1,196 @@
+{
+  "name": "Arethusa Falls",
+  "slug": "arethusa-falls-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 2200,
+  "mountain_hero": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "waterfall",
+    "best_hikes",
+    "highest_in_nh",
+    "crawford_notch",
+    "family_friendly"
+  ],
+  "lat": 44.1482,
+  "lon": -71.3665,
+  "trails_config": [
+    {
+      "name": "Arethusa Falls Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.2,
+      "tags": [
+        "best",
+        "waterfalls",
+        "scenic"
+      ],
+      "description": "Leads to the highest single waterfall in New Hampshire. A 160-foot plummet in the heart of Crawford Notch State Park.",
+      "parking_info": "Arethusa Falls Trailhead Parking, US-302, Livermore, NH",
+      "start_lat": 44.1492,
+      "start_lon": -71.37,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Arethusa Falls",
+          "type": "waterfall",
+          "lat": 44.1482,
+          "lon": -71.3665
+        },
+        {
+          "name": "Fawn Pool",
+          "type": "waterfall",
+          "lat": 44.147,
+          "lon": -71.365
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Ripley Falls",
+      "slug": "ripley-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1400,
+      "distance_miles": 1.2
+    },
+    {
+      "name": "Mount Crawford",
+      "slug": "mt-crawford-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3119,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Mount Webster",
+      "slug": "mt-webster-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3911,
+      "distance_miles": 3.4
+    },
+    {
+      "name": "Mount Willey",
+      "slug": "mt-willey-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4285,
+      "distance_miles": 3.6
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "Experience the beauty of New Hampshire on Arethusa Falls. At 2200 feet, this summit commands impressive views of the surrounding wilderness.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2200 feet, Arethusa Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Arethusa Falls Trail**, a **3.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Ripley Falls**, which is just 1.2 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Arethusa Falls Trail",
+      "tags": [
+        "best",
+        "waterfalls",
+        "scenic"
+      ],
+      "stats": {
+        "distance": 0.3,
+        "gain": 3,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.2
+      },
+      "geo": {
+        "path": [
+          [
+            44.14887,
+            -71.3688,
+            1216
+          ],
+          [
+            44.14873,
+            -71.36874,
+            1217
+          ],
+          [
+            44.14876,
+            -71.36846,
+            1210
+          ],
+          [
+            44.14882,
+            -71.36825,
+            1205
+          ],
+          [
+            44.14884,
+            -71.36778,
+            1195
+          ],
+          [
+            44.14897,
+            -71.36737,
+            1183
+          ],
+          [
+            44.14892,
+            -71.36691,
+            1168
+          ],
+          [
+            44.14891,
+            -71.36673,
+            1165
+          ],
+          [
+            44.14822,
+            -71.36641,
+            1167
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1216,
+            "coord": [
+              44.14887,
+              -71.3688
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 1183,
+            "coord": [
+              44.14897,
+              -71.36737
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 1167,
+            "coord": [
+              44.14822,
+              -71.36641
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.14887,
+            -71.3688,
+            1216
+          ],
+          "summit": [
+            44.1482,
+            -71.3665,
+            2200
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

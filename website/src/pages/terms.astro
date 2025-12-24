@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<Layout title="Terms of Service" description="Terms of Service and Liability Disclaimer.">
+    {/* Main Content Wrapper */}
+    <div class="bg-stone-50 min-h-screen pt-24 pb-20">
+        <div class="max-w-4xl mx-auto px-6">
+
+            {/* Header */}
+            <div class="mb-12 text-center">
+                <span class="text-emerald-600 font-bold tracking-widest uppercase text-xs">Legal</span>
+                <h1 class="font-serif text-5xl font-black text-stone-900 mt-2 mb-4">Terms of Service</h1>
+                <p class="text-stone-500">Last Updated: {new Date().toLocaleDateString()}</p>
+            </div>
+
+            {/* Document Body */}
+            <div class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-stone-100 prose prose-stone prose-lg max-w-none">
+
+                <h3>1. Acceptance of Terms</h3>
+                <p>By accessing Summit Seeker, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.</p>
+
+                <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl not-prose">
+                    <h4 class="text-red-800 font-bold uppercase tracking-wide text-sm mb-2">⚠️ Hiking Risk Disclaimer</h4>
+                    <p class="text-red-900/80 text-sm leading-relaxed">
+                        Hiking is an inherently dangerous activity that can result in serious injury or death. The information provided on Summit Seeker is for general planning purposes only. You are solely responsible for your own safety, including checking official weather forecasts, carrying the "Ten Essentials," and possessing the necessary skills for your chosen route.
+                    </p>
+                </div>
+
+                <h3>2. Accuracy of Materials</h3>
+                <p>The materials on Summit Seeker are provided on an 'as is' basis. While we strive for accuracy, trail conditions change rapidly due to weather, maintenance, and natural events. We make no warranties regarding the accuracy of trail distances, elevation data, or current conditions.</p>
+
+                <h3>3. User Conduct</h3>
+                <p>You agree to use this site for lawful purposes only. Furthermore, you agree to respect the principles of <strong>"Leave No Trace"</strong> when visiting any location described herein. This includes packing out all trash, respecting wildlife, and being considerate of other visitors.</p>
+
+                <h3>4. Limitations</h3>
+                <p>In no event shall Summit Seeker or its contributors be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Summit Seeker's website.</p>
+
+                <h3>5. Governing Law</h3>
+                <p>These terms and conditions are governed by and construed in accordance with the laws of the United States.</p>
+            </div>
+
+            <div class="mt-12 text-center">
+                 <a href="/" class="text-sm font-bold text-emerald-600 hover:text-emerald-800 transition-colors uppercase tracking-widest">← Return Home</a>
+            </div>
+
+        </div>
+    </div>
+    <SiteFooter />
+</Layout>

@@ -1,0 +1,364 @@
+{
+  "name": "Crystal Cascade",
+  "slug": "crystal-cascade-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 2300,
+  "mountain_hero": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "waterfall",
+    "quick_hike",
+    "pinkham_notch",
+    "photography"
+  ],
+  "lat": 44.2599,
+  "lon": -71.2568,
+  "trails_config": [
+    {
+      "name": "Tuckerman Ravine Trail (Lower Section)",
+      "type": "Out & Back",
+      "difficulty": "Easy",
+      "distance_miles": 0.8,
+      "tags": [
+        "best",
+        "accessible",
+        "short"
+      ],
+      "description": "A very short, family-friendly walk from Pinkham Notch to a dramatic 100-foot multi-tiered waterfall. Perfect for those looking for a quick nature break.",
+      "parking_info": "Pinkham Notch Visitor Center, NH-16, Gorham, NH",
+      "start_lat": 44.2572,
+      "start_lon": -71.2533,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Crystal Cascade Viewpoint",
+          "type": "waterfall",
+          "lat": 44.2599,
+          "lon": -71.2568
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Glen Ellis Falls",
+      "slug": "glen-ellis-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1900,
+      "distance_miles": 1.1
+    },
+    {
+      "name": "Thompson Falls",
+      "slug": "thompson-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2100,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Wildcat Mountain (Peak D)",
+      "slug": "wildcat-d-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4050,
+      "distance_miles": 1.9
+    },
+    {
+      "name": "Mount Washington",
+      "slug": "mt-washington-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 6288,
+      "distance_miles": 2.4
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "Experience the beauty of New Hampshire on Crystal Cascade. At 2300 feet, this summit commands impressive views of the surrounding wilderness.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2300 feet, Crystal Cascade is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Tuckerman Ravine Trail (Lower Section)**, a **0.8 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Glen Ellis Falls**, which is just 1.1 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Tuckerman Ravine Trail (Lower Section)",
+      "tags": [
+        "best",
+        "accessible",
+        "short"
+      ],
+      "stats": {
+        "distance": 0.8,
+        "gain": 235,
+        "type": "Out & Back",
+        "difficulty": "Easy",
+        "time": 0.7
+      },
+      "geo": {
+        "path": [
+          [
+            44.25726,
+            -71.25333,
+            2024
+          ],
+          [
+            44.25729,
+            -71.25325,
+            2024
+          ],
+          [
+            44.25736,
+            -71.25329,
+            2026
+          ],
+          [
+            44.25755,
+            -71.25334,
+            2028
+          ],
+          [
+            44.2577,
+            -71.25337,
+            2032
+          ],
+          [
+            44.25797,
+            -71.25331,
+            2042
+          ],
+          [
+            44.25824,
+            -71.25342,
+            2047
+          ],
+          [
+            44.25865,
+            -71.25371,
+            2064
+          ],
+          [
+            44.25881,
+            -71.25387,
+            2070
+          ],
+          [
+            44.25886,
+            -71.25391,
+            2071
+          ],
+          [
+            44.25892,
+            -71.25398,
+            2073
+          ],
+          [
+            44.25921,
+            -71.25427,
+            2084
+          ],
+          [
+            44.2594,
+            -71.25445,
+            2091
+          ],
+          [
+            44.25946,
+            -71.25449,
+            2094
+          ],
+          [
+            44.25974,
+            -71.25476,
+            2106
+          ],
+          [
+            44.25993,
+            -71.25499,
+            2110
+          ],
+          [
+            44.26007,
+            -71.25526,
+            2122
+          ],
+          [
+            44.26017,
+            -71.25534,
+            2125
+          ],
+          [
+            44.26038,
+            -71.25535,
+            2135
+          ],
+          [
+            44.26042,
+            -71.25537,
+            2135
+          ],
+          [
+            44.26054,
+            -71.25543,
+            2141
+          ],
+          [
+            44.2607,
+            -71.25561,
+            2151
+          ],
+          [
+            44.26085,
+            -71.25584,
+            2153
+          ],
+          [
+            44.26089,
+            -71.25594,
+            2157
+          ],
+          [
+            44.2609,
+            -71.25602,
+            2160
+          ],
+          [
+            44.26088,
+            -71.25609,
+            2160
+          ],
+          [
+            44.26085,
+            -71.25612,
+            2162
+          ],
+          [
+            44.26073,
+            -71.2562,
+            2154
+          ],
+          [
+            44.26057,
+            -71.25628,
+            2162
+          ],
+          [
+            44.26048,
+            -71.25639,
+            2177
+          ],
+          [
+            44.26048,
+            -71.25656,
+            2184
+          ],
+          [
+            44.26053,
+            -71.25681,
+            2203
+          ],
+          [
+            44.26054,
+            -71.25692,
+            2209
+          ],
+          [
+            44.26048,
+            -71.25696,
+            2217
+          ],
+          [
+            44.26018,
+            -71.25717,
+            2243
+          ],
+          [
+            44.26009,
+            -71.25725,
+            2251
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2024,
+            "coord": [
+              44.25726,
+              -71.25333
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 2042,
+            "coord": [
+              44.25797,
+              -71.25331
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 2073,
+            "coord": [
+              44.25892,
+              -71.25398
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 2110,
+            "coord": [
+              44.25993,
+              -71.25499
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2141,
+            "coord": [
+              44.26054,
+              -71.25543
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 2160,
+            "coord": [
+              44.26088,
+              -71.25609
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 2184,
+            "coord": [
+              44.26048,
+              -71.25656
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 2251,
+            "coord": [
+              44.26009,
+              -71.25725
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.25726,
+            -71.25333,
+            2024
+          ],
+          "summit": [
+            44.2599,
+            -71.2568,
+            2300
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

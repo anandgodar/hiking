@@ -1,0 +1,611 @@
+{
+  "name": "Mount Israel",
+  "slug": "mt-israel-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 2620,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "52_with_a_view",
+    "sandwich_range",
+    "quiet_trail",
+    "south_views"
+  ],
+  "lat": 43.8967,
+  "lon": -71.455,
+  "trails_config": [
+    {
+      "name": "Wentworth Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.0,
+      "tags": [
+        "best",
+        "scenic",
+        "foliage"
+      ],
+      "description": "A hidden gem on the edge of the Sandwich Range Wilderness. Offers broad ledge views of Lake Winnipesaukee and the Squam Range.",
+      "parking_info": "Mead Base Parking Lot, Diamond Ledge Rd, Sandwich, NH",
+      "start_lat": 43.878,
+      "start_lon": -71.45,
+      "via_lat": null,
+      "via_lon": null,
+      "features": []
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Mount Whiteface",
+      "slug": "mt-whiteface-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4020,
+      "distance_miles": 3.5
+    },
+    {
+      "name": "Beede Falls",
+      "slug": "beede-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 950,
+      "distance_miles": 5.3
+    },
+    {
+      "name": "North Tripyramid",
+      "slug": "north-tripyramid-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4180,
+      "distance_miles": 5.3
+    },
+    {
+      "name": "Mount Passaconaway",
+      "slug": "mt-passaconaway-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4043,
+      "distance_miles": 5.5
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2620 feet, Mount Israel offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2620 feet, Mount Israel is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Wentworth Trail**, a **4.0 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Whiteface**, which is just 3.5 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Wentworth Trail",
+      "tags": [
+        "best",
+        "scenic",
+        "foliage"
+      ],
+      "stats": {
+        "distance": 2.4,
+        "gain": 418,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 1.8
+      },
+      "geo": {
+        "path": [
+          [
+            43.88188,
+            -71.45247,
+            1183
+          ],
+          [
+            43.88162,
+            -71.45328,
+            1193
+          ],
+          [
+            43.88161,
+            -71.45367,
+            1193
+          ],
+          [
+            43.8817,
+            -71.45393,
+            1195
+          ],
+          [
+            43.8819,
+            -71.45431,
+            1202
+          ],
+          [
+            43.88208,
+            -71.45459,
+            1209
+          ],
+          [
+            43.88215,
+            -71.45472,
+            1210
+          ],
+          [
+            43.88218,
+            -71.45483,
+            1214
+          ],
+          [
+            43.88221,
+            -71.45506,
+            1218
+          ],
+          [
+            43.88229,
+            -71.45532,
+            1222
+          ],
+          [
+            43.88244,
+            -71.45571,
+            1229
+          ],
+          [
+            43.88273,
+            -71.45606,
+            1230
+          ],
+          [
+            43.88289,
+            -71.45611,
+            1228
+          ],
+          [
+            43.88301,
+            -71.45627,
+            1231
+          ],
+          [
+            43.88317,
+            -71.45648,
+            1233
+          ],
+          [
+            43.88325,
+            -71.45658,
+            1237
+          ],
+          [
+            43.8833,
+            -71.45663,
+            1237
+          ],
+          [
+            43.88345,
+            -71.4567,
+            1238
+          ],
+          [
+            43.88372,
+            -71.45681,
+            1237
+          ],
+          [
+            43.88401,
+            -71.45676,
+            1240
+          ],
+          [
+            43.88426,
+            -71.45654,
+            1247
+          ],
+          [
+            43.88435,
+            -71.4565,
+            1247
+          ],
+          [
+            43.88448,
+            -71.45649,
+            1249
+          ],
+          [
+            43.88456,
+            -71.4565,
+            1250
+          ],
+          [
+            43.88471,
+            -71.45657,
+            1251
+          ],
+          [
+            43.88489,
+            -71.4567,
+            1256
+          ],
+          [
+            43.88503,
+            -71.45676,
+            1260
+          ],
+          [
+            43.88522,
+            -71.45687,
+            1266
+          ],
+          [
+            43.88541,
+            -71.45701,
+            1269
+          ],
+          [
+            43.88556,
+            -71.45722,
+            1272
+          ],
+          [
+            43.8857,
+            -71.45745,
+            1277
+          ],
+          [
+            43.88596,
+            -71.45782,
+            1280
+          ],
+          [
+            43.88605,
+            -71.45791,
+            1284
+          ],
+          [
+            43.88616,
+            -71.45798,
+            1288
+          ],
+          [
+            43.88624,
+            -71.45807,
+            1291
+          ],
+          [
+            43.88636,
+            -71.45812,
+            1293
+          ],
+          [
+            43.8865,
+            -71.45816,
+            1299
+          ],
+          [
+            43.88657,
+            -71.45818,
+            1299
+          ],
+          [
+            43.88677,
+            -71.45819,
+            1307
+          ],
+          [
+            43.88691,
+            -71.45819,
+            1310
+          ],
+          [
+            43.88707,
+            -71.45823,
+            1316
+          ],
+          [
+            43.88716,
+            -71.45833,
+            1320
+          ],
+          [
+            43.88722,
+            -71.45841,
+            1322
+          ],
+          [
+            43.88725,
+            -71.45851,
+            1324
+          ],
+          [
+            43.88735,
+            -71.45869,
+            1328
+          ],
+          [
+            43.88739,
+            -71.45883,
+            1331
+          ],
+          [
+            43.88746,
+            -71.45895,
+            1335
+          ],
+          [
+            43.88755,
+            -71.45903,
+            1338
+          ],
+          [
+            43.88761,
+            -71.45904,
+            1339
+          ],
+          [
+            43.88774,
+            -71.45908,
+            1342
+          ],
+          [
+            43.88785,
+            -71.45915,
+            1343
+          ],
+          [
+            43.88792,
+            -71.45926,
+            1347
+          ],
+          [
+            43.88797,
+            -71.45935,
+            1349
+          ],
+          [
+            43.88851,
+            -71.45951,
+            1364
+          ],
+          [
+            43.88892,
+            -71.45954,
+            1377
+          ],
+          [
+            43.88928,
+            -71.45964,
+            1381
+          ],
+          [
+            43.8895,
+            -71.45981,
+            1384
+          ],
+          [
+            43.88974,
+            -71.46011,
+            1396
+          ],
+          [
+            43.89002,
+            -71.46029,
+            1413
+          ],
+          [
+            43.89044,
+            -71.4602,
+            1426
+          ],
+          [
+            43.89097,
+            -71.46003,
+            1445
+          ],
+          [
+            43.89138,
+            -71.46001,
+            1458
+          ],
+          [
+            43.89179,
+            -71.45977,
+            1469
+          ],
+          [
+            43.89203,
+            -71.45953,
+            1475
+          ],
+          [
+            43.89228,
+            -71.45938,
+            1488
+          ],
+          [
+            43.89268,
+            -71.45939,
+            1506
+          ],
+          [
+            43.89317,
+            -71.45933,
+            1528
+          ],
+          [
+            43.89354,
+            -71.45911,
+            1536
+          ],
+          [
+            43.89385,
+            -71.45912,
+            1547
+          ],
+          [
+            43.89421,
+            -71.45936,
+            1567
+          ],
+          [
+            43.89452,
+            -71.45942,
+            1574
+          ],
+          [
+            43.89482,
+            -71.45945,
+            1584
+          ],
+          [
+            43.89519,
+            -71.45939,
+            1591
+          ],
+          [
+            43.89555,
+            -71.45936,
+            1598
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1183,
+            "coord": [
+              43.88188,
+              -71.45247
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 1209,
+            "coord": [
+              43.88208,
+              -71.45459
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 1229,
+            "coord": [
+              43.88244,
+              -71.45571
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 1237,
+            "coord": [
+              43.88325,
+              -71.45658
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 1247,
+            "coord": [
+              43.88426,
+              -71.45654
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 1256,
+            "coord": [
+              43.88489,
+              -71.4567
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 1277,
+            "coord": [
+              43.8857,
+              -71.45745
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 1293,
+            "coord": [
+              43.88636,
+              -71.45812
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 1316,
+            "coord": [
+              43.88707,
+              -71.45823
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 1331,
+            "coord": [
+              43.88739,
+              -71.45883
+            ]
+          },
+          {
+            "mile": 0.63,
+            "elev": 1343,
+            "coord": [
+              43.88785,
+              -71.45915
+            ]
+          },
+          {
+            "mile": 0.73,
+            "elev": 1381,
+            "coord": [
+              43.88928,
+              -71.45964
+            ]
+          },
+          {
+            "mile": 0.86,
+            "elev": 1445,
+            "coord": [
+              43.89097,
+              -71.46003
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 1506,
+            "coord": [
+              43.89268,
+              -71.45939
+            ]
+          },
+          {
+            "mile": 1.12,
+            "elev": 1574,
+            "coord": [
+              43.89452,
+              -71.45942
+            ]
+          },
+          {
+            "mile": 1.19,
+            "elev": 1598,
+            "coord": [
+              43.89555,
+              -71.45936
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.88188,
+            -71.45247,
+            1183
+          ],
+          "summit": [
+            43.8967,
+            -71.455,
+            2620
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

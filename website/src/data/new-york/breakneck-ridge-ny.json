@@ -1,0 +1,277 @@
+{
+  "name": "Breakneck Ridge",
+  "slug": "breakneck-ridge-ny",
+  "state": "New York",
+  "state_slug": "new-york",
+  "elevation": 1260,
+  "mountain_hero": "https://images.unsplash.com/photo-1605218427368-2b0d7759a224?q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "tags": [
+    "hudson_highlands",
+    "scramble",
+    "popular",
+    "train_accessible",
+    "best_hikes"
+  ],
+  "lat": 41.445,
+  "lon": -73.978,
+  "trails_config": [
+    {
+      "name": "Breakneck Ridge Loop",
+      "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 3.2,
+      "tags": [
+        "best",
+        "scramble",
+        "steep"
+      ],
+      "description": "The most famous rock scramble in the NYC metro area. Ascends steep rock ledges immediately from the road. Offers sweeping views of Storm King and the Hudson River.",
+      "parking_info": "Route 9D Parking (or MetroNorth Breakneck Stop), Cold Spring, NY",
+      "start_lat": 41.443,
+      "start_lon": -73.977,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Flagpole Viewpoint",
+          "type": "viewpoint",
+          "lat": 41.446,
+          "lon": -73.98
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Storm King Mountain",
+      "slug": "storm-king-mountain-ny",
+      "state_slug": "new-york",
+      "elevation": 1340,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Anthony's Nose",
+      "slug": "anthonys-nose-ny",
+      "state_slug": "new-york",
+      "elevation": 900,
+      "distance_miles": 8.5
+    },
+    {
+      "name": "Bear Mountain",
+      "slug": "bear-mountain-ny",
+      "state_slug": "new-york",
+      "elevation": 1289,
+      "distance_miles": 9.2
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New York's premier peaks, Breakneck Ridge rises to 1260 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1260 feet, Breakneck Ridge is a standout peak in New York. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Breakneck Ridge Loop**, a **3.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Storm King Mountain**, which is just 1.8 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Breakneck Ridge Loop",
+      "tags": [
+        "best",
+        "scramble",
+        "steep"
+      ],
+      "stats": {
+        "distance": 0.3,
+        "gain": 0,
+        "type": "Loop",
+        "difficulty": "Hard",
+        "time": 0.2
+      },
+      "geo": {
+        "path": [
+          [
+            41.44281,
+            -73.9773,
+            138
+          ],
+          [
+            41.44291,
+            -73.97742,
+            138
+          ],
+          [
+            41.44295,
+            -73.97746,
+            138
+          ],
+          [
+            41.44344,
+            -73.97799,
+            138
+          ],
+          [
+            41.44356,
+            -73.97811,
+            138
+          ],
+          [
+            41.44365,
+            -73.9782,
+            138
+          ],
+          [
+            41.44377,
+            -73.97829,
+            138
+          ],
+          [
+            41.44389,
+            -73.97837,
+            138
+          ],
+          [
+            41.44401,
+            -73.97844,
+            138
+          ],
+          [
+            41.44433,
+            -73.9786,
+            138
+          ],
+          [
+            41.44446,
+            -73.97867,
+            138
+          ],
+          [
+            41.44478,
+            -73.97882,
+            138
+          ],
+          [
+            41.44446,
+            -73.97867,
+            138
+          ],
+          [
+            41.44433,
+            -73.9786,
+            138
+          ],
+          [
+            41.44401,
+            -73.97844,
+            138
+          ],
+          [
+            41.44389,
+            -73.97837,
+            138
+          ],
+          [
+            41.44377,
+            -73.97829,
+            138
+          ],
+          [
+            41.44365,
+            -73.9782,
+            138
+          ],
+          [
+            41.44356,
+            -73.97811,
+            138
+          ],
+          [
+            41.44344,
+            -73.97799,
+            138
+          ],
+          [
+            41.44295,
+            -73.97746,
+            138
+          ],
+          [
+            41.44291,
+            -73.97742,
+            138
+          ],
+          [
+            41.44281,
+            -73.9773,
+            138
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 138,
+            "coord": [
+              41.44281,
+              -73.9773
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 138,
+            "coord": [
+              41.44365,
+              -73.9782
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 138,
+            "coord": [
+              41.44446,
+              -73.97867
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 138,
+            "coord": [
+              41.44389,
+              -73.97837
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 138,
+            "coord": [
+              41.44295,
+              -73.97746
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 138,
+            "coord": [
+              41.44281,
+              -73.9773
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            41.44281,
+            -73.9773,
+            138
+          ],
+          "summit": [
+            41.445,
+            -73.978,
+            1260
+          ]
+        }
+      }
+    }
+  ],
+  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+}

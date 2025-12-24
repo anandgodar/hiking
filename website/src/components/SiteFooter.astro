@@ -1,0 +1,65 @@
+<footer class="bg-stone-900 text-stone-300 pt-20 pb-10 mt-auto border-t border-stone-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16">
+
+            {/* BRANDING COLUMN (Spans 4 columns on desktop) */}
+            <div class="col-span-1 md:col-span-4">
+                <div class="flex items-center gap-2 mb-6 text-white">
+                    <span class="text-3xl">🌲</span>
+                    <span class="font-black tracking-widest uppercase text-xl">Summit Seeker</span>
+                </div>
+                <p class="text-stone-400 leading-relaxed mb-6 pr-6">
+                    The definitive open-source trail database for the Northeast. Built by passionate hikers to help you find your next epic adventure safely and responsibly.
+                </p>
+                <div class="flex gap-4 text-stone-400">
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center rounded-full bg-stone-800 hover:bg-emerald-600 hover:text-white transition-all font-bold" aria-label="Twitter">𝕏</a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center rounded-full bg-stone-800 hover:bg-emerald-600 hover:text-white transition-all font-bold" aria-label="Instagram">📸</a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center rounded-full bg-stone-800 hover:bg-emerald-600 hover:text-white transition-all font-bold" aria-label="GitHub">🐙</a>
+                </div>
+            </div>
+
+            {/* EXPLORE LINKS */}
+            <div class="col-span-1 md:col-span-2 md:col-start-6">
+                <h3 class="text-white font-bold uppercase tracking-widest text-xs mb-6">Explore Regions</h3>
+                <ul class="space-y-4 text-sm font-medium">
+                    <li><a href="/new-hampshire" class="hover:text-emerald-400 transition-colors flex items-center gap-2"><span class="text-emerald-500/50">→</span> New Hampshire</a></li>
+                    <li><a href="/maine" class="hover:text-emerald-400 transition-colors flex items-center gap-2"><span class="text-emerald-500/50">→</span> Maine</a></li>
+                    <li><a href="/vermont" class="hover:text-emerald-400 transition-colors flex items-center gap-2"><span class="text-emerald-500/50">→</span> Vermont</a></li>
+                    <li><a href="/new-york" class="hover:text-emerald-400 transition-colors flex items-center gap-2"><span class="text-emerald-500/50">→</span> New York</a></li>
+                </ul>
+            </div>
+
+            {/* DISCOVER LINKS */}
+            <div class="col-span-1 md:col-span-2">
+                <h3 class="text-white font-bold uppercase tracking-widest text-xs mb-6">Discover Trending</h3>
+                <ul class="space-y-4 text-sm font-medium">
+                    <li><a href="/discover/waterfall" class="hover:text-emerald-400 transition-colors">🌊 Waterfalls</a></li>
+                    <li><a href="/discover/4000-footer" class="hover:text-emerald-400 transition-colors">⛰️ 4000 Footers</a></li>
+                    <li><a href="/discover/dog-friendly" class="hover:text-emerald-400 transition-colors">🐾 Dog Friendly</a></li>
+                    <li><a href="/discover/best-hike" class="hover:text-emerald-400 transition-colors">🔥 Best Hikes</a></li>
+                </ul>
+            </div>
+
+            {/* LEGAL & RESOURCES LINKS */}
+            <div class="col-span-1 md:col-span-2">
+                <h3 class="text-white font-bold uppercase tracking-widest text-xs mb-6">Resources</h3>
+                <ul class="space-y-4 text-sm font-medium">
+                    <li><a href="/privacy" class="hover:text-emerald-400 transition-colors">Privacy Policy</a></li>
+                    <li><a href="/terms" class="hover:text-emerald-400 transition-colors">Terms of Service</a></li>
+                    <li><a href="/sitemap.xml" class="hover:text-emerald-400 transition-colors">Sitemap</a></li>
+                    <li><a href="mailto:hello@summitseeker.com" class="hover:text-emerald-400 transition-colors">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        {/* BOTTOM BAR */}
+        <div class="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-stone-500 font-medium uppercase tracking-wider">
+            <p>© {new Date().getFullYear()} Summit Seeker. Built with Astro.</p>
+            <div class="flex gap-6">
+                <a href="/privacy" class="hover:text-white transition-colors">Privacy</a>
+                <a href="/terms" class="hover:text-white transition-colors">Terms</a>
+                <a href="/sitemap.xml" class="hover:text-white transition-colors">Sitemap</a>
+            </div>
+        </div>
+    </div>
+</footer>
