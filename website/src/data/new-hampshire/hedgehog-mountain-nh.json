@@ -43,6 +43,13 @@
   ],
   "nearby_peaks": [
     {
+      "name": "Sabbaday Falls",
+      "slug": "sabbaday-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2050,
+      "distance_miles": 2.6
+    },
+    {
       "name": "Mount Potash",
       "slug": "mount-potash-nh",
       "state_slug": "new-hampshire",
@@ -62,17 +69,10 @@
       "state_slug": "new-hampshire",
       "elevation": 4180,
       "distance_miles": 4.2
-    },
-    {
-      "name": "Middle Tripyramid",
-      "slug": "middle-tripyramid-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4140,
-      "distance_miles": 4.3
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2532 feet, Hedgehog Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Hedgehog Mountain. At 2532 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -80,7 +80,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2532 feet, Hedgehog Mountain is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **UNH Trail Loop**, a **4.8 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Potash**, which is just 3.3 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2532 feet, Hedgehog Mountain is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **UNH Trail Loop**, a **4.8 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Sabbaday Falls**, which is just 2.6 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "UNH Trail Loop",
@@ -89,6 +89,7 @@
         "ledges",
         "foliage"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 3.4,
         "gain": 104,
@@ -574,27 +575,11 @@
             ]
           },
           {
-            "mile": 0.19,
-            "elev": 1274,
-            "coord": [
-              43.9974,
-              -71.38278
-            ]
-          },
-          {
             "mile": 0.28,
             "elev": 1267,
             "coord": [
               43.99702,
               -71.38102
-            ]
-          },
-          {
-            "mile": 0.62,
-            "elev": 1253,
-            "coord": [
-              43.99533,
-              -71.37473
             ]
           },
           {
@@ -606,27 +591,11 @@
             ]
           },
           {
-            "mile": 0.92,
-            "elev": 1257,
-            "coord": [
-              43.99618,
-              -71.36897
-            ]
-          },
-          {
             "mile": 1.08,
             "elev": 1251,
             "coord": [
               43.99646,
               -71.36651
-            ]
-          },
-          {
-            "mile": 1.4,
-            "elev": 1241,
-            "coord": [
-              43.99731,
-              -71.36023
             ]
           },
           {
@@ -638,27 +607,11 @@
             ]
           },
           {
-            "mile": 1.67,
-            "elev": 1237,
-            "coord": [
-              43.99853,
-              -71.35582
-            ]
-          },
-          {
             "mile": 1.8,
             "elev": 1238,
             "coord": [
               43.99821,
               -71.356
-            ]
-          },
-          {
-            "mile": 1.86,
-            "elev": 1240,
-            "coord": [
-              43.99773,
-              -71.35655
             ]
           },
           {
@@ -670,14 +623,6 @@
             ]
           },
           {
-            "mile": 2.39,
-            "elev": 1252,
-            "coord": [
-              43.99639,
-              -71.36715
-            ]
-          },
-          {
             "mile": 2.52,
             "elev": 1258,
             "coord": [
@@ -686,27 +631,11 @@
             ]
           },
           {
-            "mile": 2.72,
-            "elev": 1263,
-            "coord": [
-              43.99516,
-              -71.37352
-            ]
-          },
-          {
             "mile": 2.93,
             "elev": 1250,
             "coord": [
               43.9961,
               -71.37742
-            ]
-          },
-          {
-            "mile": 3.18,
-            "elev": 1270,
-            "coord": [
-              43.99732,
-              -71.38219
             ]
           },
           {
@@ -740,6 +669,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

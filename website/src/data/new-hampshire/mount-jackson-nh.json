@@ -41,6 +41,20 @@
   ],
   "nearby_peaks": [
     {
+      "name": "Silver Cascade (Crawford Notch)",
+      "slug": "silver-cascade-crawford-notch-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1634,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Flume Cascade (Crawford Notch)",
+      "slug": "flume-cascade-crawford-notch-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1650,
+      "distance_miles": 1.5
+    },
+    {
       "name": "Mount Pierce",
       "slug": "mount-pierce-nh",
       "state_slug": "new-hampshire",
@@ -53,24 +67,10 @@
       "state_slug": "new-hampshire",
       "elevation": 4340,
       "distance_miles": 1.9
-    },
-    {
-      "name": "Mount Willard",
-      "slug": "mount-willard-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2850,
-      "distance_miles": 2.0
-    },
-    {
-      "name": "Mount Webster",
-      "slug": "mount-webster-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 3910,
-      "distance_miles": 2.1
     }
   ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New Hampshire on Mount Jackson. At 4052 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Jackson rises to 4052 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -78,7 +78,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4052 feet, Mount Jackson is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Webster-Jackson Trail**, a **5.2 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Pierce**, which is just 1.7 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4052 feet, Mount Jackson is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Webster-Jackson Trail**, a **5.2 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Silver Cascade (Crawford Notch)**, which is just 1.5 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Webster-Jackson Trail",
@@ -87,6 +87,7 @@
         "wildlife",
         "summit views"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 1.8,
         "gain": 1201,
@@ -832,27 +833,11 @@
             ]
           },
           {
-            "mile": 0.03,
-            "elev": 2936,
-            "coord": [
-              44.20532,
-              -71.38979
-            ]
-          },
-          {
             "mile": 0.06,
             "elev": 2967,
             "coord": [
               44.2054,
               -71.38935
-            ]
-          },
-          {
-            "mile": 0.09,
-            "elev": 2991,
-            "coord": [
-              44.20524,
-              -71.3887
             ]
           },
           {
@@ -864,27 +849,11 @@
             ]
           },
           {
-            "mile": 0.19,
-            "elev": 3126,
-            "coord": [
-              44.2055,
-              -71.38671
-            ]
-          },
-          {
             "mile": 0.23,
             "elev": 3175,
             "coord": [
               44.20557,
               -71.38601
-            ]
-          },
-          {
-            "mile": 0.25,
-            "elev": 3198,
-            "coord": [
-              44.20557,
-              -71.38564
             ]
           },
           {
@@ -896,27 +865,11 @@
             ]
           },
           {
-            "mile": 0.33,
-            "elev": 3283,
-            "coord": [
-              44.20536,
-              -71.38434
-            ]
-          },
-          {
             "mile": 0.35,
             "elev": 3297,
             "coord": [
               44.20511,
               -71.38415
-            ]
-          },
-          {
-            "mile": 0.38,
-            "elev": 3330,
-            "coord": [
-              44.20484,
-              -71.38368
             ]
           },
           {
@@ -928,27 +881,11 @@
             ]
           },
           {
-            "mile": 0.5,
-            "elev": 3508,
-            "coord": [
-              44.20386,
-              -71.38178
-            ]
-          },
-          {
             "mile": 0.53,
             "elev": 3568,
             "coord": [
               44.20359,
               -71.38121
-            ]
-          },
-          {
-            "mile": 0.56,
-            "elev": 3604,
-            "coord": [
-              44.2034,
-              -71.38076
             ]
           },
           {
@@ -960,27 +897,11 @@
             ]
           },
           {
-            "mile": 0.61,
-            "elev": 3671,
-            "coord": [
-              44.20311,
-              -71.37987
-            ]
-          },
-          {
             "mile": 0.63,
             "elev": 3702,
             "coord": [
               44.20287,
               -71.37966
-            ]
-          },
-          {
-            "mile": 0.65,
-            "elev": 3741,
-            "coord": [
-              44.20265,
-              -71.37924
             ]
           },
           {
@@ -992,27 +913,11 @@
             ]
           },
           {
-            "mile": 0.71,
-            "elev": 3812,
-            "coord": [
-              44.20246,
-              -71.3783
-            ]
-          },
-          {
             "mile": 0.73,
             "elev": 3816,
             "coord": [
               44.20265,
               -71.37793
-            ]
-          },
-          {
-            "mile": 0.76,
-            "elev": 3829,
-            "coord": [
-              44.20295,
-              -71.37765
             ]
           },
           {
@@ -1024,27 +929,11 @@
             ]
           },
           {
-            "mile": 0.8,
-            "elev": 3887,
-            "coord": [
-              44.20315,
-              -71.3769
-            ]
-          },
-          {
             "mile": 0.83,
             "elev": 3916,
             "coord": [
               44.20303,
               -71.3765
-            ]
-          },
-          {
-            "mile": 0.86,
-            "elev": 3998,
-            "coord": [
-              44.20332,
-              -71.37602
             ]
           },
           {
@@ -1078,6 +967,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

@@ -4,198 +4,183 @@
   "state": "Maine",
   "state_slug": "maine",
   "elevation": 520,
-  "mountain_hero": "https://images.unsplash.com/photo-1629854490748-0d3d5489069a?q=80&w=2000",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
-    "acadia_national_park",
+    "acadia",
     "iron_rungs",
-    "short",
-    "best_hikes"
+    "thrill",
+    "short"
   ],
-  "lat": 44.331,
-  "lon": -68.185,
+  "lat": 44.332,
+  "lon": -68.1863,
+  "current_conditions": {
+    "ai_summary": "A short, vertical adrenaline rush involving iron rungs and exposed cliff walks. Absolutely not for those with a fear of heights.",
+    "risk_factors": [
+      "Vertical exposure",
+      "Crowding on narrow ledges",
+      "Slippery rungs"
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">The Beehive is Acadia's most famous 'iron rung' route, offering a vertical playground overlooking Sand Beach. It feels more like a via ferrata than a hike, with staggering views of the coastline directly below your boots.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Physically short but mentally taxing. You will be pulling yourself up sheer rock faces using iron rungs; upper body mobility is required.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Local Insight</h4>\n        <p class=\"text-sm text-emerald-800\">Always hike this loop counter-clockwise (up the face, down the Bowl trail). Descending the rungs against traffic is dangerous and frowned upon.</p>\n    </div>\n    ",
   "trails_config": [
     {
-      "name": "Beehive Loop Trail",
+      "name": "The Beehive Loop",
       "type": "Loop",
       "difficulty": "Hard",
       "distance_miles": 1.4,
       "tags": [
-        "best",
-        "ladders",
-        "ocean_views"
+        "iron_rungs",
+        "views",
+        "short"
       ],
-      "description": "Acadia's classic iron rung climb. Short but intense, offering stunning views of Sand Beach and Great Head. Descend via the Bowl Trail.",
-      "parking_info": "Sand Beach Parking, Park Loop Rd, Bar Harbor, ME",
-      "start_lat": 44.33,
+      "description": "Ascend the iron rungs on the cliff face and descend via the mellow Bowl trail.",
+      "parking_info": "Sand Beach Parking Area",
+      "start_lat": 44.3302,
       "start_lon": -68.184,
-      "via_lat": 44.333,
-      "via_lon": -68.188,
+      "smart_logic": {
+        "access_type": "standard",
+        "routing_strategy": "standard",
+        "ui_alert": {
+          "title": "Iron Rung Warning",
+          "message": "This trail involves vertical climbing on iron rungs. Do not attempt if wet or if you fear heights."
+        }
+      },
       "features": [
         {
-          "name": "Sand Beach Lookout",
+          "name": "Sand Beach Overlook",
           "type": "viewpoint",
           "lat": 44.3315,
-          "lon": -68.1845
+          "lon": -68.186
         },
         {
           "name": "The Bowl",
-          "type": "lake",
-          "lat": 44.333,
-          "lon": -68.188
+          "type": "waterfall",
+          "lat": 44.335,
+          "lon": -68.19
         }
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Champlain Mountain (Precipice)",
-      "slug": "champlain-mountain-me",
-      "state_slug": "maine",
-      "elevation": 1058,
-      "distance_miles": 1.5
-    },
-    {
-      "name": "Cadillac Mountain",
-      "slug": "cadillac-mountain-me",
-      "state_slug": "maine",
-      "elevation": 1530,
-      "distance_miles": 2.5
-    },
-    {
-      "name": "Penobscot Mountain",
-      "slug": "penobscot-mountain-me",
-      "state_slug": "maine",
-      "elevation": 1194,
-      "distance_miles": 3.6
-    }
-  ],
-  "current_conditions": {
-    "ai_summary": "A spectacular hike located in Maine. Standing at 520 feet, The Beehive offers breathtaking views and a rewarding challenge for hikers of all levels.",
-    "risk_factors": [
-      "Weather changes rapidly above treeline.",
-      "Bring extra water and layers.",
-      "Check local trail conditions before departing.",
-      "Start early to avoid afternoon storms."
-    ]
-  },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 520 feet, The Beehive is a standout peak in Maine. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Beehive Loop Trail**, a **1.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Champlain Mountain (Precipice)**, which is just 1.5 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
   "trails": [
     {
-      "name": "Beehive Loop Trail",
+      "name": "The Beehive Loop",
       "tags": [
-        "best",
-        "ladders",
-        "ocean_views"
+        "iron_rungs",
+        "views",
+        "short"
       ],
+      "smart_logic": {
+        "access_type": "standard",
+        "routing_strategy": "standard",
+        "ui_alert": {
+          "title": "Iron Rung Warning",
+          "message": "This trail involves vertical climbing on iron rungs. Do not attempt if wet or if you fear heights."
+        }
+      },
       "stats": {
-        "distance": 0.9,
-        "gain": 526,
+        "distance": 0.4,
+        "gain": 123,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 0.9
+        "time": 0.3
       },
       "geo": {
         "path": [
           [
-            44.32998,
-            -68.18403,
-            39
+            44.33022,
+            -68.18397,
+            0
           ],
           [
-            44.33005,
-            -68.18412,
-            78
+            44.33049,
+            -68.18436,
+            0
           ],
           [
-            44.3302,
-            -68.18433,
-            97
+            44.33051,
+            -68.1844,
+            0
           ],
           [
-            44.33033,
+            44.33049,
             -68.18448,
-            107
+            0
           ],
           [
             44.33047,
             -68.18463,
-            112
+            0
           ],
           [
             44.33056,
             -68.18472,
-            114
+            0
           ],
           [
             44.33067,
             -68.18479,
-            115
+            0
           ],
           [
             44.33088,
             -68.18492,
-            116
+            0
           ],
           [
             44.33097,
             -68.185,
-            116
-          ],
-          [
-            44.33098,
-            -68.18502,
-            116
+            0
           ],
           [
             44.33106,
             -68.18514,
-            116
+            0
           ],
           [
             44.33152,
             -68.18515,
-            116
+            0
           ],
           [
             44.33154,
             -68.18515,
-            116
+            0
           ],
           [
             44.33153,
             -68.18534,
-            116
+            0
           ],
           [
             44.33156,
             -68.18548,
-            116
+            0
           ],
           [
             44.33161,
             -68.18557,
-            116
+            0
           ],
           [
             44.33168,
             -68.18563,
-            116
+            0
           ],
           [
             44.33186,
             -68.18579,
-            116
+            0
           ],
           [
             44.33189,
             -68.18585,
-            116
+            0
           ],
           [
             44.33191,
             -68.1859,
-            116
+            0
           ],
           [
             44.332,
@@ -203,288 +188,8 @@
             117
           ],
           [
-            44.33202,
-            -68.18637,
-            123
-          ],
-          [
-            44.33197,
-            -68.18665,
-            137
-          ],
-          [
-            44.33197,
-            -68.18681,
-            148
-          ],
-          [
-            44.332,
-            -68.18708,
-            162
-          ],
-          [
-            44.33198,
-            -68.1872,
-            165
-          ],
-          [
-            44.33194,
-            -68.18729,
-            165
-          ],
-          [
-            44.33168,
-            -68.18758,
-            176
-          ],
-          [
-            44.33183,
-            -68.18774,
-            186
-          ],
-          [
-            44.33185,
-            -68.18794,
-            198
-          ],
-          [
-            44.33199,
-            -68.18806,
-            232
-          ],
-          [
             44.33201,
-            -68.18819,
-            236
-          ],
-          [
-            44.33211,
-            -68.18819,
-            251
-          ],
-          [
-            44.33215,
-            -68.1881,
-            260
-          ],
-          [
-            44.33224,
-            -68.18796,
-            269
-          ],
-          [
-            44.33227,
-            -68.18787,
-            260
-          ],
-          [
-            44.33233,
-            -68.18781,
-            289
-          ],
-          [
-            44.33235,
-            -68.18801,
-            300
-          ],
-          [
-            44.33239,
-            -68.188,
-            300
-          ],
-          [
-            44.33239,
-            -68.18777,
-            277
-          ],
-          [
-            44.33247,
-            -68.18764,
-            296
-          ],
-          [
-            44.33247,
-            -68.18771,
-            311
-          ],
-          [
-            44.33251,
-            -68.18768,
-            333
-          ],
-          [
-            44.3325,
-            -68.18793,
-            332
-          ],
-          [
-            44.33265,
-            -68.1881,
-            382
-          ],
-          [
-            44.33263,
-            -68.18775,
-            396
-          ],
-          [
-            44.33268,
-            -68.18782,
-            406
-          ],
-          [
-            44.33274,
-            -68.18771,
-            429
-          ],
-          [
-            44.33274,
-            -68.18783,
-            444
-          ],
-          [
-            44.33301,
-            -68.18789,
-            499
-          ],
-          [
-            44.33274,
-            -68.18783,
-            444
-          ],
-          [
-            44.33274,
-            -68.18771,
-            429
-          ],
-          [
-            44.33268,
-            -68.18782,
-            406
-          ],
-          [
-            44.33263,
-            -68.18775,
-            396
-          ],
-          [
-            44.33265,
-            -68.1881,
-            382
-          ],
-          [
-            44.3325,
-            -68.18793,
-            332
-          ],
-          [
-            44.33251,
-            -68.18768,
-            333
-          ],
-          [
-            44.33247,
-            -68.18771,
-            311
-          ],
-          [
-            44.33247,
-            -68.18764,
-            296
-          ],
-          [
-            44.33239,
-            -68.18777,
-            277
-          ],
-          [
-            44.33239,
-            -68.188,
-            300
-          ],
-          [
-            44.33235,
-            -68.18801,
-            300
-          ],
-          [
-            44.33233,
-            -68.18781,
-            289
-          ],
-          [
-            44.33227,
-            -68.18787,
-            260
-          ],
-          [
-            44.33224,
-            -68.18796,
-            269
-          ],
-          [
-            44.33215,
-            -68.1881,
-            260
-          ],
-          [
-            44.33211,
-            -68.18819,
-            251
-          ],
-          [
-            44.33201,
-            -68.18819,
-            236
-          ],
-          [
-            44.33199,
-            -68.18806,
-            232
-          ],
-          [
-            44.33185,
-            -68.18794,
-            198
-          ],
-          [
-            44.33183,
-            -68.18774,
-            186
-          ],
-          [
-            44.33168,
-            -68.18758,
-            176
-          ],
-          [
-            44.33194,
-            -68.18729,
-            165
-          ],
-          [
-            44.33198,
-            -68.1872,
-            165
-          ],
-          [
-            44.332,
-            -68.18708,
-            162
-          ],
-          [
-            44.33197,
-            -68.18681,
-            148
-          ],
-          [
-            44.33197,
-            -68.18665,
-            137
-          ],
-          [
-            44.33202,
-            -68.18637,
+            -68.1863,
             123
           ],
           [
@@ -568,210 +273,97 @@
             117
           ],
           [
-            44.33033,
+            44.33049,
             -68.18448,
             117
           ],
           [
-            44.3302,
-            -68.18433,
+            44.33051,
+            -68.1844,
             117
           ],
           [
-            44.33005,
-            -68.18412,
+            44.33049,
+            -68.18436,
             117
           ],
           [
-            44.32998,
-            -68.18403,
+            44.33022,
+            -68.18397,
             117
           ]
         ],
         "chart": [
           {
             "mile": 0,
-            "elev": 39,
+            "elev": 0,
             "coord": [
-              44.32998,
-              -68.18403
+              44.33022,
+              -68.18397
             ]
           },
           {
-            "mile": 0.05,
-            "elev": 114,
+            "mile": 0.12,
+            "elev": 0,
             "coord": [
-              44.33056,
-              -68.18472
-            ]
-          },
-          {
-            "mile": 0.09,
-            "elev": 116,
-            "coord": [
-              44.33106,
-              -68.18514
-            ]
-          },
-          {
-            "mile": 0.15,
-            "elev": 116,
-            "coord": [
-              44.33161,
-              -68.18557
+              44.33152,
+              -68.18515
             ]
           },
           {
             "mile": 0.19,
+            "elev": 123,
+            "coord": [
+              44.33201,
+              -68.1863
+            ]
+          },
+          {
+            "mile": 0.26,
             "elev": 117,
             "coord": [
-              44.332,
-              -68.18626
+              44.33152,
+              -68.18515
             ]
           },
           {
-            "mile": 0.24,
-            "elev": 165,
-            "coord": [
-              44.33198,
-              -68.1872
-            ]
-          },
-          {
-            "mile": 0.31,
-            "elev": 232,
-            "coord": [
-              44.33199,
-              -68.18806
-            ]
-          },
-          {
-            "mile": 0.34,
-            "elev": 260,
-            "coord": [
-              44.33227,
-              -68.18787
-            ]
-          },
-          {
-            "mile": 0.38,
-            "elev": 296,
-            "coord": [
-              44.33247,
-              -68.18764
-            ]
-          },
-          {
-            "mile": 0.43,
-            "elev": 396,
-            "coord": [
-              44.33263,
-              -68.18775
-            ]
-          },
-          {
-            "mile": 0.48,
-            "elev": 444,
-            "coord": [
-              44.33274,
-              -68.18783
-            ]
-          },
-          {
-            "mile": 0.53,
-            "elev": 332,
-            "coord": [
-              44.3325,
-              -68.18793
-            ]
-          },
-          {
-            "mile": 0.57,
-            "elev": 300,
-            "coord": [
-              44.33239,
-              -68.188
-            ]
-          },
-          {
-            "mile": 0.6,
-            "elev": 260,
-            "coord": [
-              44.33215,
-              -68.1881
-            ]
-          },
-          {
-            "mile": 0.64,
-            "elev": 186,
-            "coord": [
-              44.33183,
-              -68.18774
-            ]
-          },
-          {
-            "mile": 0.7,
-            "elev": 148,
-            "coord": [
-              44.33197,
-              -68.18681
-            ]
-          },
-          {
-            "mile": 0.75,
+            "mile": 0.39,
             "elev": 117,
             "coord": [
-              44.33189,
-              -68.18585
-            ]
-          },
-          {
-            "mile": 0.79,
-            "elev": 117,
-            "coord": [
-              44.33153,
-              -68.18534
-            ]
-          },
-          {
-            "mile": 0.85,
-            "elev": 117,
-            "coord": [
-              44.33088,
-              -68.18492
-            ]
-          },
-          {
-            "mile": 0.9,
-            "elev": 117,
-            "coord": [
-              44.3302,
-              -68.18433
-            ]
-          },
-          {
-            "mile": 0.92,
-            "elev": 117,
-            "coord": [
-              44.32998,
-              -68.18403
+              44.33022,
+              -68.18397
             ]
           }
         ],
         "markers": {
           "start": [
-            44.32998,
-            -68.18403,
-            39
+            44.33022,
+            -68.18397,
+            0
           ],
           "summit": [
-            44.331,
-            -68.185,
+            44.332,
+            -68.1863,
             520
           ]
         }
       }
     }
   ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  "nearby_peaks": [
+    {
+      "name": "Precipice Trail",
+      "slug": "precipice-trail-me",
+      "state_slug": "maine",
+      "elevation": 1058,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Cadillac Mountain",
+      "slug": "cadillac-mtn-me",
+      "state_slug": "maine",
+      "elevation": 1530,
+      "distance_miles": 2.4
+    }
+  ]
 }

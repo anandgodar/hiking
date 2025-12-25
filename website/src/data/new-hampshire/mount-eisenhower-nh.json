@@ -70,7 +70,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Mount Eisenhower rises to 4760 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4760 feet, Mount Eisenhower offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -87,6 +87,7 @@
         "ridge",
         "scenic"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 3.1,
         "gain": 1994,
@@ -707,27 +708,11 @@
             ]
           },
           {
-            "mile": 0.2,
-            "elev": 2546,
-            "coord": [
-              44.24848,
-              -71.37237
-            ]
-          },
-          {
             "mile": 0.3,
             "elev": 2677,
             "coord": [
               44.24782,
               -71.37055
-            ]
-          },
-          {
-            "mile": 0.36,
-            "elev": 2765,
-            "coord": [
-              44.2473,
-              -71.36945
             ]
           },
           {
@@ -739,27 +724,11 @@
             ]
           },
           {
-            "mile": 0.56,
-            "elev": 3041,
-            "coord": [
-              44.24544,
-              -71.36687
-            ]
-          },
-          {
             "mile": 0.65,
             "elev": 3189,
             "coord": [
               44.24425,
               -71.36595
-            ]
-          },
-          {
-            "mile": 0.74,
-            "elev": 3292,
-            "coord": [
-              44.24336,
-              -71.3646
             ]
           },
           {
@@ -771,27 +740,11 @@
             ]
           },
           {
-            "mile": 0.85,
-            "elev": 3402,
-            "coord": [
-              44.24299,
-              -71.36278
-            ]
-          },
-          {
             "mile": 0.89,
             "elev": 3458,
             "coord": [
               44.24278,
               -71.36212
-            ]
-          },
-          {
-            "mile": 0.91,
-            "elev": 3512,
-            "coord": [
-              44.2426,
-              -71.36162
             ]
           },
           {
@@ -803,27 +756,11 @@
             ]
           },
           {
-            "mile": 0.98,
-            "elev": 3618,
-            "coord": [
-              44.2419,
-              -71.36083
-            ]
-          },
-          {
             "mile": 1.0,
             "elev": 3647,
             "coord": [
               44.24165,
               -71.36057
-            ]
-          },
-          {
-            "mile": 1.04,
-            "elev": 3706,
-            "coord": [
-              44.24191,
-              -71.35997
             ]
           },
           {
@@ -835,27 +772,11 @@
             ]
           },
           {
-            "mile": 1.16,
-            "elev": 3905,
-            "coord": [
-              44.24148,
-              -71.35768
-            ]
-          },
-          {
             "mile": 1.24,
             "elev": 4030,
             "coord": [
               44.24164,
               -71.35635
-            ]
-          },
-          {
-            "mile": 1.29,
-            "elev": 4091,
-            "coord": [
-              44.24189,
-              -71.35537
             ]
           },
           {
@@ -867,27 +788,11 @@
             ]
           },
           {
-            "mile": 1.38,
-            "elev": 4187,
-            "coord": [
-              44.24215,
-              -71.35359
-            ]
-          },
-          {
             "mile": 1.41,
             "elev": 4249,
             "coord": [
               44.24226,
               -71.35309
-            ]
-          },
-          {
-            "mile": 1.45,
-            "elev": 4306,
-            "coord": [
-              44.24266,
-              -71.35264
             ]
           },
           {
@@ -913,6 +818,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

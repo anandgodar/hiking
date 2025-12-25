@@ -40,36 +40,6 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Middle Carter Mountain",
-      "slug": "middle-carter-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4610,
-      "distance_miles": 0.7
-    },
-    {
-      "name": "Carter Dome",
-      "slug": "carter-dome-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4832,
-      "distance_miles": 1.1
-    },
-    {
-      "name": "Thompson Falls",
-      "slug": "thompson-falls-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2100,
-      "distance_miles": 3.0
-    },
-    {
-      "name": "Wildcat Mountain (Peak D)",
-      "slug": "wildcat-d-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4050,
-      "distance_miles": 3.3
-    }
-  ],
   "current_conditions": {
     "ai_summary": "One of New Hampshire's premier peaks, South Carter Mountain rises to 4430 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
@@ -79,7 +49,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4430 feet, South Carter Mountain is a standout peak in New Hampshire. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Nineteen Mile Brook Trail**, a **9.5 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Middle Carter Mountain**, which is just 0.7 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4430 feet, South Carter Mountain is a standout peak in New Hampshire. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Nineteen Mile Brook Trail**, a **9.5 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Nineteen Mile Brook Trail",
@@ -88,6 +58,7 @@
         "brookside",
         "scenic"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 7.7,
         "gain": 2542,
@@ -1093,27 +1064,11 @@
             ]
           },
           {
-            "mile": 0.08,
-            "elev": 1486,
-            "coord": [
-              44.30229,
-              -71.22107
-            ]
-          },
-          {
             "mile": 0.19,
             "elev": 1518,
             "coord": [
               44.30098,
               -71.22206
-            ]
-          },
-          {
-            "mile": 0.31,
-            "elev": 1548,
-            "coord": [
-              44.29979,
-              -71.22226
             ]
           },
           {
@@ -1125,27 +1080,11 @@
             ]
           },
           {
-            "mile": 0.58,
-            "elev": 1648,
-            "coord": [
-              44.29741,
-              -71.21834
-            ]
-          },
-          {
             "mile": 0.73,
             "elev": 1706,
             "coord": [
               44.29567,
               -71.21663
-            ]
-          },
-          {
-            "mile": 0.84,
-            "elev": 1777,
-            "coord": [
-              44.29415,
-              -71.21651
             ]
           },
           {
@@ -1157,27 +1096,11 @@
             ]
           },
           {
-            "mile": 1.16,
-            "elev": 1908,
-            "coord": [
-              44.29097,
-              -71.21206
-            ]
-          },
-          {
             "mile": 1.38,
             "elev": 2000,
             "coord": [
               44.28903,
               -71.20878
-            ]
-          },
-          {
-            "mile": 1.41,
-            "elev": 2000,
-            "coord": [
-              44.28907,
-              -71.20817
             ]
           },
           {
@@ -1189,27 +1112,11 @@
             ]
           },
           {
-            "mile": 1.6,
-            "elev": 2111,
-            "coord": [
-              44.2868,
-              -71.20593
-            ]
-          },
-          {
             "mile": 1.75,
             "elev": 2184,
             "coord": [
               44.28501,
               -71.20428
-            ]
-          },
-          {
-            "mile": 1.81,
-            "elev": 2189,
-            "coord": [
-              44.28441,
-              -71.20344
             ]
           },
           {
@@ -1221,27 +1128,11 @@
             ]
           },
           {
-            "mile": 1.98,
-            "elev": 2286,
-            "coord": [
-              44.2825,
-              -71.20137
-            ]
-          },
-          {
             "mile": 2.07,
             "elev": 2324,
             "coord": [
               44.28137,
               -71.2005
-            ]
-          },
-          {
-            "mile": 2.18,
-            "elev": 2400,
-            "coord": [
-              44.28124,
-              -71.1984
             ]
           },
           {
@@ -1253,27 +1144,11 @@
             ]
           },
           {
-            "mile": 2.43,
-            "elev": 2583,
-            "coord": [
-              44.28145,
-              -71.19343
-            ]
-          },
-          {
             "mile": 2.52,
             "elev": 2649,
             "coord": [
               44.28197,
               -71.19179
-            ]
-          },
-          {
-            "mile": 2.59,
-            "elev": 2701,
-            "coord": [
-              44.28221,
-              -71.19054
             ]
           },
           {
@@ -1285,27 +1160,11 @@
             ]
           },
           {
-            "mile": 2.8,
-            "elev": 2871,
-            "coord": [
-              44.28184,
-              -71.18653
-            ]
-          },
-          {
             "mile": 2.85,
             "elev": 2919,
             "coord": [
               44.28204,
               -71.18612
-            ]
-          },
-          {
-            "mile": 2.9,
-            "elev": 2980,
-            "coord": [
-              44.28198,
-              -71.18537
             ]
           },
           {
@@ -1317,27 +1176,11 @@
             ]
           },
           {
-            "mile": 3.04,
-            "elev": 3091,
-            "coord": [
-              44.28192,
-              -71.1843
-            ]
-          },
-          {
             "mile": 3.15,
             "elev": 3169,
             "coord": [
               44.28096,
               -71.18278
-            ]
-          },
-          {
-            "mile": 3.24,
-            "elev": 3264,
-            "coord": [
-              44.28041,
-              -71.18121
             ]
           },
           {
@@ -1349,27 +1192,11 @@
             ]
           },
           {
-            "mile": 3.45,
-            "elev": 3490,
-            "coord": [
-              44.28194,
-              -71.18033
-            ]
-          },
-          {
             "mile": 3.55,
             "elev": 3624,
             "coord": [
               44.28157,
               -71.17832
-            ]
-          },
-          {
-            "mile": 3.65,
-            "elev": 3749,
-            "coord": [
-              44.28131,
-              -71.1765
             ]
           },
           {
@@ -1381,27 +1208,11 @@
             ]
           },
           {
-            "mile": 3.79,
-            "elev": 3912,
-            "coord": [
-              44.28091,
-              -71.17379
-            ]
-          },
-          {
             "mile": 3.82,
             "elev": 3908,
             "coord": [
               44.28107,
               -71.17373
-            ]
-          },
-          {
-            "mile": 3.85,
-            "elev": 3926,
-            "coord": [
-              44.28149,
-              -71.1736
             ]
           },
           {
@@ -1427,6 +1238,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

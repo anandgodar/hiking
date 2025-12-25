@@ -1,0 +1,179 @@
+{
+  "name": "The Basin (Franconia Notch)",
+  "slug": "the-basin-franconia-notch-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 1800,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Waterfall",
+    "Franconia Notch",
+    "Family Friendly",
+    "Short Hike",
+    "White Mountains"
+  ],
+  "lat": 44.1546,
+  "lon": -71.6806,
+  "trails_config": [
+    {
+      "name": "The Basin Paved Loop",
+      "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 0.3,
+      "tags": [
+        "best",
+        "easy-access",
+        "scenic",
+        "family-friendly"
+      ],
+      "description": "A short, well-built path to a famous glacial pothole where the Pemigewasset River churns into a natural granite bowl. Ideal for a quick stop with big scenery\u2014especially during high water.",
+      "parking_info": "The Basin Parking (Franconia Notch State Park), I-93 / Franconia Notch Pkwy",
+      "start_lat": 44.1547,
+      "start_lon": -71.6807,
+      "via_lat": 44.1541,
+      "via_lon": -71.6799,
+      "features": [
+        {
+          "name": "The Basin",
+          "type": "waterfall",
+          "lat": 44.1546,
+          "lon": -71.6806
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Cannon Mountain",
+      "slug": "cannon-mountain-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4100,
+      "distance_miles": 0.9
+    },
+    {
+      "name": "Mount Lincoln",
+      "slug": "mount-lincoln-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 5089,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Mount Lafayette",
+      "slug": "mount-lafayette-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 5260,
+      "distance_miles": 1.9
+    },
+    {
+      "name": "Bridalveil Falls (Coppermine Trail, Franconia)",
+      "slug": "bridalveil-falls-coppermine-trail-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2192,
+      "distance_miles": 2.2
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New Hampshire's premier peaks, The Basin (Franconia Notch) rises to 1800 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1800 feet, The Basin (Franconia Notch) is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **The Basin Paved Loop**, a **0.3 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Cannon Mountain**, which is just 0.9 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "The Basin Paved Loop",
+      "tags": [
+        "best",
+        "easy-access",
+        "scenic",
+        "family-friendly"
+      ],
+      "smart_logic": {},
+      "stats": {
+        "distance": 0.1,
+        "gain": 18,
+        "type": "Loop",
+        "difficulty": "Moderate",
+        "time": 0.1
+      },
+      "geo": {
+        "path": [
+          [
+            44.15478,
+            -71.68001,
+            1913
+          ],
+          [
+            44.15471,
+            -71.67999,
+            1908
+          ],
+          [
+            44.15459,
+            -71.67995,
+            1905
+          ],
+          [
+            44.15442,
+            -71.67997,
+            1900
+          ],
+          [
+            44.15418,
+            -71.68011,
+            1905
+          ],
+          [
+            44.15442,
+            -71.67997,
+            1900
+          ],
+          [
+            44.15459,
+            -71.67995,
+            1905
+          ],
+          [
+            44.15478,
+            -71.68001,
+            1913
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1913,
+            "coord": [
+              44.15478,
+              -71.68001
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 1913,
+            "coord": [
+              44.15478,
+              -71.68001
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.15478,
+            -71.68001,
+            1913
+          ],
+          "summit": [
+            44.1546,
+            -71.6806,
+            1800
+          ]
+        }
+      }
+    }
+  ]
+}

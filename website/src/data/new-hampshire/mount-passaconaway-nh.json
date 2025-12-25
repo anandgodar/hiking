@@ -41,6 +41,13 @@
   ],
   "nearby_peaks": [
     {
+      "name": "Sabbaday Falls",
+      "slug": "sabbaday-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2050,
+      "distance_miles": 1.1
+    },
+    {
       "name": "Mount Whiteface",
       "slug": "mount-whiteface-nh",
       "state_slug": "new-hampshire",
@@ -60,13 +67,6 @@
       "state_slug": "new-hampshire",
       "elevation": 2690,
       "distance_miles": 3.2
-    },
-    {
-      "name": "North Tripyramid",
-      "slug": "north-tripyramid-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4180,
-      "distance_miles": 3.3
     }
   ],
   "current_conditions": {
@@ -78,7 +78,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4043 feet, Mount Passaconaway is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Dicey's Mill Trail**, a **9.6 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Whiteface**, which is just 2.0 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4043 feet, Mount Passaconaway is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Dicey's Mill Trail**, a **9.6 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Sabbaday Falls**, which is just 1.1 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Dicey's Mill Trail",
@@ -87,6 +87,7 @@
         "wilderness",
         "solitude"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 2.2,
         "gain": 322,
@@ -502,27 +503,11 @@
             ]
           },
           {
-            "mile": 0.06,
-            "elev": 3225,
-            "coord": [
-              43.94757,
-              -71.37487
-            ]
-          },
-          {
             "mile": 0.12,
             "elev": 3186,
             "coord": [
               43.94812,
               -71.37579
-            ]
-          },
-          {
-            "mile": 0.18,
-            "elev": 3189,
-            "coord": [
-              43.94873,
-              -71.37662
             ]
           },
           {
@@ -534,27 +519,11 @@
             ]
           },
           {
-            "mile": 0.31,
-            "elev": 3334,
-            "coord": [
-              43.94991,
-              -71.37862
-            ]
-          },
-          {
             "mile": 0.41,
             "elev": 3370,
             "coord": [
               43.95013,
               -71.38038
-            ]
-          },
-          {
-            "mile": 0.43,
-            "elev": 3432,
-            "coord": [
-              43.95039,
-              -71.38039
             ]
           },
           {
@@ -566,27 +535,11 @@
             ]
           },
           {
-            "mile": 0.64,
-            "elev": 3425,
-            "coord": [
-              43.9508,
-              -71.38442
-            ]
-          },
-          {
             "mile": 0.7,
             "elev": 3403,
             "coord": [
               43.95046,
               -71.38532
-            ]
-          },
-          {
-            "mile": 0.73,
-            "elev": 3356,
-            "coord": [
-              43.94999,
-              -71.38524
             ]
           },
           {
@@ -598,27 +551,11 @@
             ]
           },
           {
-            "mile": 0.84,
-            "elev": 3210,
-            "coord": [
-              43.94853,
-              -71.38483
-            ]
-          },
-          {
             "mile": 0.93,
             "elev": 3090,
             "coord": [
               43.94744,
               -71.38397
-            ]
-          },
-          {
-            "mile": 1.04,
-            "elev": 3020,
-            "coord": [
-              43.94591,
-              -71.3835
             ]
           },
           {
@@ -644,6 +581,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

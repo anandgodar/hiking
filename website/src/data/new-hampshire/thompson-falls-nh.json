@@ -41,38 +41,8 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Wildcat Mountain (Peak D)",
-      "slug": "wildcat-d-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4050,
-      "distance_miles": 1.0
-    },
-    {
-      "name": "Crystal Cascade",
-      "slug": "crystal-cascade-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2300,
-      "distance_miles": 1.5
-    },
-    {
-      "name": "Glen Ellis Falls",
-      "slug": "glen-ellis-falls-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1900,
-      "distance_miles": 1.8
-    },
-    {
-      "name": "Carter Dome",
-      "slug": "carter-dome-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4832,
-      "distance_miles": 2.4
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2100 feet, Thompson Falls offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Thompson Falls. At 2100 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -80,7 +50,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2100 feet, Thompson Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Thompson Falls Trail**, a **1.1 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Wildcat Mountain (Peak D)**, which is just 1.0 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2100 feet, Thompson Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Thompson Falls Trail**, a **1.1 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Thompson Falls Trail",
@@ -89,6 +59,7 @@
         "waterfalls",
         "short"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 0.1,
         "gain": 29,
@@ -146,6 +117,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

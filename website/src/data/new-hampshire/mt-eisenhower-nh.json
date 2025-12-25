@@ -34,38 +34,8 @@
       "features": []
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Pierce",
-      "slug": "mt-pierce-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4310,
-      "distance_miles": 1.2
-    },
-    {
-      "name": "Mount Monroe",
-      "slug": "mt-monroe-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 5384,
-      "distance_miles": 1.7
-    },
-    {
-      "name": "Mount Isolation",
-      "slug": "mt-isolation-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4004,
-      "distance_miles": 2.7
-    },
-    {
-      "name": "Mount Jackson",
-      "slug": "mt-jackson-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4052,
-      "distance_miles": 2.9
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Mount Eisenhower rises to 4780 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Eisenhower. At 4780 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -73,7 +43,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4780 feet, Mount Eisenhower is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Edmands Path**, a **6.6 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Pierce**, which is just 1.2 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4780 feet, Mount Eisenhower is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Edmands Path**, a **6.6 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Edmands Path",
@@ -82,6 +52,7 @@
         "gradual",
         "scenic"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 13.7,
         "gain": 3765,
@@ -3037,27 +3008,11 @@
             ]
           },
           {
-            "mile": 0.13,
-            "elev": 1966,
-            "coord": [
-              44.25742,
-              -71.38584
-            ]
-          },
-          {
             "mile": 0.26,
             "elev": 1985,
             "coord": [
               44.25916,
               -71.38482
-            ]
-          },
-          {
-            "mile": 0.33,
-            "elev": 2014,
-            "coord": [
-              44.26,
-              -71.3841
             ]
           },
           {
@@ -3069,27 +3024,11 @@
             ]
           },
           {
-            "mile": 0.41,
-            "elev": 2023,
-            "coord": [
-              44.26103,
-              -71.38359
-            ]
-          },
-          {
             "mile": 0.46,
             "elev": 2032,
             "coord": [
               44.26165,
               -71.38314
-            ]
-          },
-          {
-            "mile": 0.54,
-            "elev": 2046,
-            "coord": [
-              44.26285,
-              -71.38294
             ]
           },
           {
@@ -3101,27 +3040,11 @@
             ]
           },
           {
-            "mile": 0.64,
-            "elev": 2060,
-            "coord": [
-              44.26377,
-              -71.38187
-            ]
-          },
-          {
             "mile": 0.78,
             "elev": 2125,
             "coord": [
               44.26405,
               -71.37909
-            ]
-          },
-          {
-            "mile": 0.98,
-            "elev": 2192,
-            "coord": [
-              44.26469,
-              -71.37502
             ]
           },
           {
@@ -3133,27 +3056,11 @@
             ]
           },
           {
-            "mile": 1.46,
-            "elev": 2400,
-            "coord": [
-              44.26646,
-              -71.3658
-            ]
-          },
-          {
             "mile": 1.68,
             "elev": 2477,
             "coord": [
               44.26728,
               -71.36149
-            ]
-          },
-          {
-            "mile": 1.77,
-            "elev": 2515,
-            "coord": [
-              44.26758,
-              -71.35965
             ]
           },
           {
@@ -3165,27 +3072,11 @@
             ]
           },
           {
-            "mile": 1.93,
-            "elev": 2578,
-            "coord": [
-              44.26718,
-              -71.35662
-            ]
-          },
-          {
             "mile": 1.96,
             "elev": 2586,
             "coord": [
               44.2673,
               -71.35593
-            ]
-          },
-          {
-            "mile": 2.04,
-            "elev": 2628,
-            "coord": [
-              44.26777,
-              -71.35444
             ]
           },
           {
@@ -3197,27 +3088,11 @@
             ]
           },
           {
-            "mile": 2.17,
-            "elev": 2638,
-            "coord": [
-              44.26886,
-              -71.35254
-            ]
-          },
-          {
             "mile": 2.23,
             "elev": 2672,
             "coord": [
               44.26959,
               -71.35164
-            ]
-          },
-          {
-            "mile": 2.26,
-            "elev": 2689,
-            "coord": [
-              44.26971,
-              -71.35115
             ]
           },
           {
@@ -3229,27 +3104,11 @@
             ]
           },
           {
-            "mile": 2.31,
-            "elev": 2703,
-            "coord": [
-              44.27,
-              -71.35038
-            ]
-          },
-          {
             "mile": 2.34,
             "elev": 2723,
             "coord": [
               44.2699,
               -71.34982
-            ]
-          },
-          {
-            "mile": 2.42,
-            "elev": 2775,
-            "coord": [
-              44.26989,
-              -71.34819
             ]
           },
           {
@@ -3261,27 +3120,11 @@
             ]
           },
           {
-            "mile": 2.75,
-            "elev": 2920,
-            "coord": [
-              44.26887,
-              -71.3419
-            ]
-          },
-          {
             "mile": 2.94,
             "elev": 3023,
             "coord": [
               44.26949,
               -71.33821
-            ]
-          },
-          {
-            "mile": 3.06,
-            "elev": 3104,
-            "coord": [
-              44.26897,
-              -71.33585
             ]
           },
           {
@@ -3293,27 +3136,11 @@
             ]
           },
           {
-            "mile": 3.26,
-            "elev": 3212,
-            "coord": [
-              44.26674,
-              -71.33334
-            ]
-          },
-          {
             "mile": 3.33,
             "elev": 3235,
             "coord": [
               44.26692,
               -71.33212
-            ]
-          },
-          {
-            "mile": 3.44,
-            "elev": 3304,
-            "coord": [
-              44.26727,
-              -71.33006
             ]
           },
           {
@@ -3325,27 +3152,11 @@
             ]
           },
           {
-            "mile": 3.6,
-            "elev": 3434,
-            "coord": [
-              44.26753,
-              -71.3269
-            ]
-          },
-          {
             "mile": 3.62,
             "elev": 3484,
             "coord": [
               44.26766,
               -71.32657
-            ]
-          },
-          {
-            "mile": 3.69,
-            "elev": 3642,
-            "coord": [
-              44.26744,
-              -71.32527
             ]
           },
           {
@@ -3357,27 +3168,11 @@
             ]
           },
           {
-            "mile": 3.78,
-            "elev": 3818,
-            "coord": [
-              44.26652,
-              -71.32412
-            ]
-          },
-          {
             "mile": 3.81,
             "elev": 3904,
             "coord": [
               44.26629,
               -71.32362
-            ]
-          },
-          {
-            "mile": 3.86,
-            "elev": 4033,
-            "coord": [
-              44.26566,
-              -71.32308
             ]
           },
           {
@@ -3389,27 +3184,11 @@
             ]
           },
           {
-            "mile": 3.97,
-            "elev": 4260,
-            "coord": [
-              44.26433,
-              -71.32259
-            ]
-          },
-          {
             "mile": 4.02,
             "elev": 4327,
             "coord": [
               44.26388,
               -71.32209
-            ]
-          },
-          {
-            "mile": 4.09,
-            "elev": 4432,
-            "coord": [
-              44.26302,
-              -71.32124
             ]
           },
           {
@@ -3421,27 +3200,11 @@
             ]
           },
           {
-            "mile": 4.24,
-            "elev": 4699,
-            "coord": [
-              44.26112,
-              -71.32024
-            ]
-          },
-          {
             "mile": 4.29,
             "elev": 4796,
             "coord": [
               44.26062,
               -71.31995
-            ]
-          },
-          {
-            "mile": 4.31,
-            "elev": 4827,
-            "coord": [
-              44.26038,
-              -71.31986
             ]
           },
           {
@@ -3453,27 +3216,11 @@
             ]
           },
           {
-            "mile": 4.35,
-            "elev": 4909,
-            "coord": [
-              44.25983,
-              -71.31978
-            ]
-          },
-          {
             "mile": 4.39,
             "elev": 4949,
             "coord": [
               44.25936,
               -71.31959
-            ]
-          },
-          {
-            "mile": 4.41,
-            "elev": 4982,
-            "coord": [
-              44.25905,
-              -71.31928
             ]
           },
           {
@@ -3485,27 +3232,11 @@
             ]
           },
           {
-            "mile": 4.46,
-            "elev": 5023,
-            "coord": [
-              44.25844,
-              -71.31912
-            ]
-          },
-          {
             "mile": 4.51,
             "elev": 5055,
             "coord": [
               44.25776,
               -71.31891
-            ]
-          },
-          {
-            "mile": 4.55,
-            "elev": 5082,
-            "coord": [
-              44.25721,
-              -71.31874
             ]
           },
           {
@@ -3517,27 +3248,11 @@
             ]
           },
           {
-            "mile": 4.68,
-            "elev": 5060,
-            "coord": [
-              44.25534,
-              -71.31864
-            ]
-          },
-          {
             "mile": 4.77,
             "elev": 5064,
             "coord": [
               44.2541,
               -71.31922
-            ]
-          },
-          {
-            "mile": 4.85,
-            "elev": 5082,
-            "coord": [
-              44.25324,
-              -71.32017
             ]
           },
           {
@@ -3549,27 +3264,11 @@
             ]
           },
           {
-            "mile": 4.92,
-            "elev": 5110,
-            "coord": [
-              44.25364,
-              -71.32154
-            ]
-          },
-          {
             "mile": 4.97,
             "elev": 5123,
             "coord": [
               44.25372,
               -71.32249
-            ]
-          },
-          {
-            "mile": 5.02,
-            "elev": 5132,
-            "coord": [
-              44.25377,
-              -71.32334
             ]
           },
           {
@@ -3581,27 +3280,11 @@
             ]
           },
           {
-            "mile": 5.08,
-            "elev": 5108,
-            "coord": [
-              44.25371,
-              -71.32443
-            ]
-          },
-          {
             "mile": 5.12,
             "elev": 5093,
             "coord": [
               44.25368,
               -71.3253
-            ]
-          },
-          {
-            "mile": 5.15,
-            "elev": 5085,
-            "coord": [
-              44.25353,
-              -71.32593
             ]
           },
           {
@@ -3613,27 +3296,11 @@
             ]
           },
           {
-            "mile": 5.25,
-            "elev": 5006,
-            "coord": [
-              44.2526,
-              -71.32722
-            ]
-          },
-          {
             "mile": 5.3,
             "elev": 4983,
             "coord": [
               44.25211,
               -71.32788
-            ]
-          },
-          {
-            "mile": 5.35,
-            "elev": 4987,
-            "coord": [
-              44.25162,
-              -71.32867
             ]
           },
           {
@@ -3645,27 +3312,11 @@
             ]
           },
           {
-            "mile": 5.44,
-            "elev": 4960,
-            "coord": [
-              44.25063,
-              -71.32974
-            ]
-          },
-          {
             "mile": 5.47,
             "elev": 4965,
             "coord": [
               44.25033,
               -71.33013
-            ]
-          },
-          {
-            "mile": 5.54,
-            "elev": 4927,
-            "coord": [
-              44.24988,
-              -71.33136
             ]
           },
           {
@@ -3677,27 +3328,11 @@
             ]
           },
           {
-            "mile": 5.67,
-            "elev": 4931,
-            "coord": [
-              44.24882,
-              -71.33357
-            ]
-          },
-          {
             "mile": 5.71,
             "elev": 4906,
             "coord": [
               44.24886,
               -71.33432
-            ]
-          },
-          {
-            "mile": 5.78,
-            "elev": 4881,
-            "coord": [
-              44.24852,
-              -71.3356
             ]
           },
           {
@@ -3709,27 +3344,11 @@
             ]
           },
           {
-            "mile": 5.93,
-            "elev": 4853,
-            "coord": [
-              44.24689,
-              -71.33752
-            ]
-          },
-          {
             "mile": 5.96,
             "elev": 4795,
             "coord": [
               44.24655,
               -71.33782
-            ]
-          },
-          {
-            "mile": 5.97,
-            "elev": 4783,
-            "coord": [
-              44.24649,
-              -71.33803
             ]
           },
           {
@@ -3741,27 +3360,11 @@
             ]
           },
           {
-            "mile": 6.03,
-            "elev": 4703,
-            "coord": [
-              44.246,
-              -71.33844
-            ]
-          },
-          {
             "mile": 6.07,
             "elev": 4673,
             "coord": [
               44.2454,
               -71.33862
-            ]
-          },
-          {
-            "mile": 6.09,
-            "elev": 4659,
-            "coord": [
-              44.24527,
-              -71.33905
             ]
           },
           {
@@ -3773,27 +3376,11 @@
             ]
           },
           {
-            "mile": 6.17,
-            "elev": 4599,
-            "coord": [
-              44.24437,
-              -71.33955
-            ]
-          },
-          {
             "mile": 6.2,
             "elev": 4547,
             "coord": [
               44.24397,
               -71.34007
-            ]
-          },
-          {
-            "mile": 6.23,
-            "elev": 4528,
-            "coord": [
-              44.24392,
-              -71.34048
             ]
           },
           {
@@ -3805,27 +3392,11 @@
             ]
           },
           {
-            "mile": 6.31,
-            "elev": 4466,
-            "coord": [
-              44.24341,
-              -71.34177
-            ]
-          },
-          {
             "mile": 6.37,
             "elev": 4435,
             "coord": [
               44.24307,
               -71.34275
-            ]
-          },
-          {
-            "mile": 6.41,
-            "elev": 4413,
-            "coord": [
-              44.24262,
-              -71.34332
             ]
           },
           {
@@ -3837,27 +3408,11 @@
             ]
           },
           {
-            "mile": 6.48,
-            "elev": 4447,
-            "coord": [
-              44.24263,
-              -71.3444
-            ]
-          },
-          {
             "mile": 6.51,
             "elev": 4446,
             "coord": [
               44.24247,
               -71.34499
-            ]
-          },
-          {
-            "mile": 6.53,
-            "elev": 4436,
-            "coord": [
-              44.24235,
-              -71.34517
             ]
           },
           {
@@ -3869,27 +3424,11 @@
             ]
           },
           {
-            "mile": 6.55,
-            "elev": 4442,
-            "coord": [
-              44.24217,
-              -71.34557
-            ]
-          },
-          {
             "mile": 6.58,
             "elev": 4462,
             "coord": [
               44.24242,
               -71.34578
-            ]
-          },
-          {
-            "mile": 6.59,
-            "elev": 4496,
-            "coord": [
-              44.24233,
-              -71.34594
             ]
           },
           {
@@ -3901,27 +3440,11 @@
             ]
           },
           {
-            "mile": 6.63,
-            "elev": 4545,
-            "coord": [
-              44.24203,
-              -71.34635
-            ]
-          },
-          {
             "mile": 6.65,
             "elev": 4573,
             "coord": [
               44.24192,
               -71.34659
-            ]
-          },
-          {
-            "mile": 6.66,
-            "elev": 4589,
-            "coord": [
-              44.24176,
-              -71.34676
             ]
           },
           {
@@ -3933,14 +3456,6 @@
             ]
           },
           {
-            "mile": 6.71,
-            "elev": 4638,
-            "coord": [
-              44.24147,
-              -71.34761
-            ]
-          },
-          {
             "mile": 6.75,
             "elev": 4674,
             "coord": [
@@ -3949,27 +3464,11 @@
             ]
           },
           {
-            "mile": 6.78,
-            "elev": 4700,
-            "coord": [
-              44.24107,
-              -71.34878
-            ]
-          },
-          {
             "mile": 6.83,
             "elev": 4741,
             "coord": [
               44.24081,
               -71.34972
-            ]
-          },
-          {
-            "mile": 6.87,
-            "elev": 4758,
-            "coord": [
-              44.24059,
-              -71.3503
             ]
           },
           {
@@ -3995,6 +3494,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

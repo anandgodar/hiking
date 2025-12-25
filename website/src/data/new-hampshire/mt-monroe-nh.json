@@ -4,7 +4,7 @@
   "state": "New Hampshire",
   "state_slug": "new-hampshire",
   "elevation": 5384,
-  "mountain_hero": "https://images.unsplash.com/photo-1506362839958-b95603417e29",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
   "tags": [
     "4000_footer",
@@ -47,36 +47,6 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Washington",
-      "slug": "mt-washington-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 6288,
-      "distance_miles": 1.4
-    },
-    {
-      "name": "Mount Eisenhower",
-      "slug": "mt-eisenhower-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4780,
-      "distance_miles": 1.7
-    },
-    {
-      "name": "Mount Isolation",
-      "slug": "mt-isolation-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4004,
-      "distance_miles": 2.8
-    },
-    {
-      "name": "Mount Pierce",
-      "slug": "mt-pierce-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4310,
-      "distance_miles": 3.0
-    }
-  ],
   "current_conditions": {
     "ai_summary": "A spectacular hike located in New Hampshire. Standing at 5384 feet, Mount Monroe offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
@@ -86,7 +56,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 5384 feet, Mount Monroe is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Ammonoosuc Ravine Trail**, a **6.8 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Washington**, which is just 1.4 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 5384 feet, Mount Monroe is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Ammonoosuc Ravine Trail**, a **6.8 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Ammonoosuc Ravine Trail",
@@ -95,6 +65,7 @@
         "waterfalls",
         "hut_stop"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 4.9,
         "gain": 2646,
@@ -1095,27 +1066,11 @@
             ]
           },
           {
-            "mile": 0.07,
-            "elev": 2811,
-            "coord": [
-              44.26827,
-              -71.34886
-            ]
-          },
-          {
             "mile": 0.23,
             "elev": 2883,
             "coord": [
               44.26887,
               -71.34587
-            ]
-          },
-          {
-            "mile": 0.32,
-            "elev": 2868,
-            "coord": [
-              44.26911,
-              -71.34415
             ]
           },
           {
@@ -1127,27 +1082,11 @@
             ]
           },
           {
-            "mile": 0.62,
-            "elev": 3023,
-            "coord": [
-              44.26949,
-              -71.33821
-            ]
-          },
-          {
             "mile": 0.75,
             "elev": 3104,
             "coord": [
               44.26897,
               -71.33585
-            ]
-          },
-          {
-            "mile": 0.86,
-            "elev": 3149,
-            "coord": [
-              44.26771,
-              -71.33448
             ]
           },
           {
@@ -1159,27 +1098,11 @@
             ]
           },
           {
-            "mile": 1.02,
-            "elev": 3235,
-            "coord": [
-              44.26692,
-              -71.33212
-            ]
-          },
-          {
             "mile": 1.13,
             "elev": 3304,
             "coord": [
               44.26727,
               -71.33006
-            ]
-          },
-          {
-            "mile": 1.23,
-            "elev": 3390,
-            "coord": [
-              44.26741,
-              -71.32805
             ]
           },
           {
@@ -1191,27 +1114,11 @@
             ]
           },
           {
-            "mile": 1.31,
-            "elev": 3484,
-            "coord": [
-              44.26766,
-              -71.32657
-            ]
-          },
-          {
             "mile": 1.38,
             "elev": 3642,
             "coord": [
               44.26744,
               -71.32527
-            ]
-          },
-          {
-            "mile": 1.41,
-            "elev": 3715,
-            "coord": [
-              44.26711,
-              -71.3248
             ]
           },
           {
@@ -1223,27 +1130,11 @@
             ]
           },
           {
-            "mile": 1.5,
-            "elev": 3904,
-            "coord": [
-              44.26629,
-              -71.32362
-            ]
-          },
-          {
             "mile": 1.55,
             "elev": 4033,
             "coord": [
               44.26566,
               -71.32308
-            ]
-          },
-          {
-            "mile": 1.6,
-            "elev": 4122,
-            "coord": [
-              44.26502,
-              -71.32324
             ]
           },
           {
@@ -1255,27 +1146,11 @@
             ]
           },
           {
-            "mile": 1.7,
-            "elev": 4327,
-            "coord": [
-              44.26388,
-              -71.32209
-            ]
-          },
-          {
             "mile": 1.78,
             "elev": 4432,
             "coord": [
               44.26302,
               -71.32124
-            ]
-          },
-          {
-            "mile": 1.85,
-            "elev": 4562,
-            "coord": [
-              44.26216,
-              -71.32067
             ]
           },
           {
@@ -1287,27 +1162,11 @@
             ]
           },
           {
-            "mile": 1.97,
-            "elev": 4796,
-            "coord": [
-              44.26062,
-              -71.31995
-            ]
-          },
-          {
             "mile": 1.99,
             "elev": 4827,
             "coord": [
               44.26038,
               -71.31986
-            ]
-          },
-          {
-            "mile": 2.02,
-            "elev": 4884,
-            "coord": [
-              44.26007,
-              -71.31972
             ]
           },
           {
@@ -1319,27 +1178,11 @@
             ]
           },
           {
-            "mile": 2.07,
-            "elev": 4949,
-            "coord": [
-              44.25936,
-              -71.31959
-            ]
-          },
-          {
             "mile": 2.1,
             "elev": 4982,
             "coord": [
               44.25905,
               -71.31928
-            ]
-          },
-          {
-            "mile": 2.12,
-            "elev": 5000,
-            "coord": [
-              44.25874,
-              -71.31926
             ]
           },
           {
@@ -1351,14 +1194,6 @@
             ]
           },
           {
-            "mile": 2.19,
-            "elev": 5055,
-            "coord": [
-              44.25776,
-              -71.31891
-            ]
-          },
-          {
             "mile": 2.25,
             "elev": 5140,
             "coord": [
@@ -1367,27 +1202,11 @@
             ]
           },
           {
-            "mile": 2.29,
-            "elev": 5223,
-            "coord": [
-              44.25664,
-              -71.31993
-            ]
-          },
-          {
             "mile": 2.32,
             "elev": 5289,
             "coord": [
               44.25657,
               -71.3204
-            ]
-          },
-          {
-            "mile": 2.35,
-            "elev": 5321,
-            "coord": [
-              44.25627,
-              -71.32062
             ]
           },
           {
@@ -1421,6 +1240,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

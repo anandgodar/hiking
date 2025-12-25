@@ -55,18 +55,18 @@
       "distance_miles": 2.0
     },
     {
-      "name": "Mount Willard",
-      "slug": "mount-willard-nh",
+      "name": "Arethusa Falls",
+      "slug": "arethusa-falls-nh",
       "state_slug": "new-hampshire",
-      "elevation": 2850,
-      "distance_miles": 4.9
+      "elevation": 2500,
+      "distance_miles": 3.0
     },
     {
-      "name": "Mount Webster",
-      "slug": "mount-webster-nh",
+      "name": "Ripley Falls",
+      "slug": "ripley-falls-nh",
       "state_slug": "new-hampshire",
-      "elevation": 3910,
-      "distance_miles": 5.3
+      "elevation": 1900,
+      "distance_miles": 3.6
     }
   ],
   "current_conditions": {
@@ -87,6 +87,7 @@
         "wilderness",
         "ledges"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 3.8,
         "gain": 735,
@@ -562,27 +563,11 @@
             ]
           },
           {
-            "mile": 0.06,
-            "elev": 983,
-            "coord": [
-              44.10715,
-              -71.35204
-            ]
-          },
-          {
             "mile": 0.12,
             "elev": 995,
             "coord": [
               44.10797,
               -71.35226
-            ]
-          },
-          {
-            "mile": 0.22,
-            "elev": 1013,
-            "coord": [
-              44.10935,
-              -71.35286
             ]
           },
           {
@@ -594,27 +579,11 @@
             ]
           },
           {
-            "mile": 0.46,
-            "elev": 1027,
-            "coord": [
-              44.11265,
-              -71.35381
-            ]
-          },
-          {
             "mile": 0.59,
             "elev": 1003,
             "coord": [
               44.11453,
               -71.35415
-            ]
-          },
-          {
-            "mile": 0.84,
-            "elev": 991,
-            "coord": [
-              44.11802,
-              -71.35393
             ]
           },
           {
@@ -626,27 +595,11 @@
             ]
           },
           {
-            "mile": 0.91,
-            "elev": 992,
-            "coord": [
-              44.11891,
-              -71.35381
-            ]
-          },
-          {
             "mile": 0.95,
             "elev": 992,
             "coord": [
               44.11956,
               -71.35396
-            ]
-          },
-          {
-            "mile": 1.01,
-            "elev": 989,
-            "coord": [
-              44.12042,
-              -71.35405
             ]
           },
           {
@@ -658,14 +611,6 @@
             ]
           },
           {
-            "mile": 1.17,
-            "elev": 1009,
-            "coord": [
-              44.12051,
-              -71.35151
-            ]
-          },
-          {
             "mile": 1.27,
             "elev": 1031,
             "coord": [
@@ -674,27 +619,11 @@
             ]
           },
           {
-            "mile": 1.43,
-            "elev": 1103,
-            "coord": [
-              44.12192,
-              -71.34771
-            ]
-          },
-          {
             "mile": 1.57,
             "elev": 1219,
             "coord": [
               44.12325,
               -71.34592
-            ]
-          },
-          {
-            "mile": 1.7,
-            "elev": 1363,
-            "coord": [
-              44.12412,
-              -71.34387
             ]
           },
           {
@@ -720,6 +649,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

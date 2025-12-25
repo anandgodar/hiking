@@ -1,0 +1,613 @@
+{
+  "name": "Fletcher Cascades",
+  "slug": "fletcher-cascades-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 2103,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Waterfall",
+    "Sandwich Range",
+    "Waterville Valley",
+    "White Mountains",
+    "Quiet Trails"
+  ],
+  "lat": 43.9306,
+  "lon": -71.4879,
+  "trails_config": [
+    {
+      "name": "Drakes Brook to Fletcher Cascades",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.2,
+      "tags": [
+        "best",
+        "waterfall",
+        "stream",
+        "shaded"
+      ],
+      "description": "A scenic valley climb to a beautiful set of cascades tucked in the Sandwich Range Wilderness\u2014great when you want a quieter White Mountain waterfall day. Early starts give you the most peaceful brook soundtrack.",
+      "parking_info": "Drakes Brook / Sandwich Mountain Trailhead Parking, Rt 49, Waterville Valley",
+      "start_lat": 43.9383,
+      "start_lon": -71.5114,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Fletcher Cascades",
+          "type": "waterfall",
+          "lat": 43.9306,
+          "lon": -71.4879
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Shell Cascade",
+      "slug": "shell-cascade-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1509,
+      "distance_miles": 2.3
+    },
+    {
+      "name": "Middle Tripyramid",
+      "slug": "middle-tripyramid-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4140,
+      "distance_miles": 3.3
+    },
+    {
+      "name": "Mount Whiteface",
+      "slug": "mount-whiteface-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4020,
+      "distance_miles": 3.5
+    },
+    {
+      "name": "North Tripyramid",
+      "slug": "north-tripyramid-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4180,
+      "distance_miles": 3.5
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New Hampshire's premier peaks, Fletcher Cascades rises to 2103 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2103 feet, Fletcher Cascades is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Drakes Brook to Fletcher Cascades**, a **3.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Shell Cascade**, which is just 2.3 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Drakes Brook to Fletcher Cascades",
+      "tags": [
+        "best",
+        "waterfall",
+        "stream",
+        "shaded"
+      ],
+      "smart_logic": {},
+      "stats": {
+        "distance": 2.8,
+        "gain": 566,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 2.1
+      },
+      "geo": {
+        "path": [
+          [
+            43.93833,
+            -71.51138,
+            1413
+          ],
+          [
+            43.93829,
+            -71.51129,
+            1414
+          ],
+          [
+            43.93825,
+            -71.51099,
+            1419
+          ],
+          [
+            43.93848,
+            -71.51073,
+            1426
+          ],
+          [
+            43.93849,
+            -71.51071,
+            1426
+          ],
+          [
+            43.9387,
+            -71.51019,
+            1438
+          ],
+          [
+            43.9385,
+            -71.50966,
+            1447
+          ],
+          [
+            43.93829,
+            -71.50924,
+            1451
+          ],
+          [
+            43.93745,
+            -71.50835,
+            1439
+          ],
+          [
+            43.93705,
+            -71.50777,
+            1459
+          ],
+          [
+            43.93696,
+            -71.50763,
+            1458
+          ],
+          [
+            43.93685,
+            -71.5075,
+            1459
+          ],
+          [
+            43.93676,
+            -71.50733,
+            1463
+          ],
+          [
+            43.9367,
+            -71.50715,
+            1467
+          ],
+          [
+            43.93659,
+            -71.50678,
+            1477
+          ],
+          [
+            43.93651,
+            -71.50649,
+            1477
+          ],
+          [
+            43.93651,
+            -71.50611,
+            1480
+          ],
+          [
+            43.93654,
+            -71.50556,
+            1483
+          ],
+          [
+            43.93652,
+            -71.50523,
+            1498
+          ],
+          [
+            43.93643,
+            -71.50486,
+            1506
+          ],
+          [
+            43.93637,
+            -71.50462,
+            1517
+          ],
+          [
+            43.93625,
+            -71.50439,
+            1522
+          ],
+          [
+            43.936,
+            -71.50407,
+            1529
+          ],
+          [
+            43.93594,
+            -71.504,
+            1529
+          ],
+          [
+            43.93593,
+            -71.50364,
+            1536
+          ],
+          [
+            43.93592,
+            -71.50337,
+            1539
+          ],
+          [
+            43.93592,
+            -71.50312,
+            1549
+          ],
+          [
+            43.93593,
+            -71.50305,
+            1556
+          ],
+          [
+            43.93581,
+            -71.50277,
+            1554
+          ],
+          [
+            43.93575,
+            -71.50255,
+            1556
+          ],
+          [
+            43.93568,
+            -71.50231,
+            1556
+          ],
+          [
+            43.93556,
+            -71.50203,
+            1558
+          ],
+          [
+            43.93544,
+            -71.50174,
+            1559
+          ],
+          [
+            43.93535,
+            -71.50147,
+            1562
+          ],
+          [
+            43.9353,
+            -71.50119,
+            1567
+          ],
+          [
+            43.93525,
+            -71.50086,
+            1567
+          ],
+          [
+            43.93523,
+            -71.50056,
+            1573
+          ],
+          [
+            43.93517,
+            -71.50029,
+            1576
+          ],
+          [
+            43.93506,
+            -71.5,
+            1587
+          ],
+          [
+            43.93489,
+            -71.49969,
+            1595
+          ],
+          [
+            43.93474,
+            -71.49939,
+            1600
+          ],
+          [
+            43.93459,
+            -71.49918,
+            1594
+          ],
+          [
+            43.93444,
+            -71.49907,
+            1595
+          ],
+          [
+            43.93429,
+            -71.49894,
+            1600
+          ],
+          [
+            43.9342,
+            -71.49881,
+            1605
+          ],
+          [
+            43.93397,
+            -71.49844,
+            1621
+          ],
+          [
+            43.93384,
+            -71.49816,
+            1633
+          ],
+          [
+            43.93373,
+            -71.49788,
+            1641
+          ],
+          [
+            43.93356,
+            -71.49755,
+            1648
+          ],
+          [
+            43.93343,
+            -71.49731,
+            1663
+          ],
+          [
+            43.93327,
+            -71.49702,
+            1672
+          ],
+          [
+            43.93307,
+            -71.49675,
+            1678
+          ],
+          [
+            43.93282,
+            -71.49651,
+            1677
+          ],
+          [
+            43.93264,
+            -71.49639,
+            1674
+          ],
+          [
+            43.93248,
+            -71.49634,
+            1673
+          ],
+          [
+            43.93234,
+            -71.49626,
+            1673
+          ],
+          [
+            43.93224,
+            -71.49615,
+            1676
+          ],
+          [
+            43.93209,
+            -71.49585,
+            1686
+          ],
+          [
+            43.93186,
+            -71.49539,
+            1700
+          ],
+          [
+            43.93167,
+            -71.49513,
+            1710
+          ],
+          [
+            43.93141,
+            -71.49479,
+            1723
+          ],
+          [
+            43.93112,
+            -71.49439,
+            1733
+          ],
+          [
+            43.93097,
+            -71.49415,
+            1742
+          ],
+          [
+            43.93086,
+            -71.49384,
+            1752
+          ],
+          [
+            43.93067,
+            -71.49362,
+            1757
+          ],
+          [
+            43.93045,
+            -71.49342,
+            1766
+          ],
+          [
+            43.9302,
+            -71.49325,
+            1767
+          ],
+          [
+            43.92992,
+            -71.49302,
+            1772
+          ],
+          [
+            43.92969,
+            -71.49286,
+            1778
+          ],
+          [
+            43.92954,
+            -71.49272,
+            1780
+          ],
+          [
+            43.92951,
+            -71.49264,
+            1782
+          ],
+          [
+            43.92949,
+            -71.49258,
+            1784
+          ],
+          [
+            43.92943,
+            -71.49226,
+            1794
+          ],
+          [
+            43.92942,
+            -71.49177,
+            1804
+          ],
+          [
+            43.92941,
+            -71.49124,
+            1830
+          ],
+          [
+            43.92941,
+            -71.49061,
+            1863
+          ],
+          [
+            43.92936,
+            -71.49028,
+            1878
+          ],
+          [
+            43.92936,
+            -71.48981,
+            1909
+          ],
+          [
+            43.92933,
+            -71.48937,
+            1933
+          ],
+          [
+            43.92936,
+            -71.48914,
+            1930
+          ],
+          [
+            43.92936,
+            -71.48886,
+            1936
+          ],
+          [
+            43.92933,
+            -71.48878,
+            1950
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1413,
+            "coord": [
+              43.93833,
+              -71.51138
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 1458,
+            "coord": [
+              43.93696,
+              -71.50763
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 1517,
+            "coord": [
+              43.93637,
+              -71.50462
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 1556,
+            "coord": [
+              43.93568,
+              -71.50231
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 1600,
+            "coord": [
+              43.93474,
+              -71.49939
+            ]
+          },
+          {
+            "mile": 0.86,
+            "elev": 1672,
+            "coord": [
+              43.93327,
+              -71.49702
+            ]
+          },
+          {
+            "mile": 1.04,
+            "elev": 1723,
+            "coord": [
+              43.93141,
+              -71.49479
+            ]
+          },
+          {
+            "mile": 1.21,
+            "elev": 1782,
+            "coord": [
+              43.92951,
+              -71.49264
+            ]
+          },
+          {
+            "mile": 1.4,
+            "elev": 1936,
+            "coord": [
+              43.92936,
+              -71.48886
+            ]
+          },
+          {
+            "mile": 1.4,
+            "elev": 1950,
+            "coord": [
+              43.92933,
+              -71.48878
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.93833,
+            -71.51138,
+            1413
+          ],
+          "summit": [
+            43.9306,
+            -71.4879,
+            2103
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -41,6 +41,13 @@
   ],
   "nearby_peaks": [
     {
+      "name": "Fletcher Cascades",
+      "slug": "fletcher-cascades-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2103,
+      "distance_miles": 8.1
+    },
+    {
       "name": "Mount Percival",
       "slug": "mount-percival-nh",
       "state_slug": "new-hampshire",
@@ -60,13 +67,6 @@
       "state_slug": "new-hampshire",
       "elevation": 2605,
       "distance_miles": 8.4
-    },
-    {
-      "name": "Mount Whiteface",
-      "slug": "mount-whiteface-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4020,
-      "distance_miles": 9.2
     }
   ],
   "current_conditions": {
@@ -78,7 +78,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2630 feet, Mount Israel is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Wentworth Trail**, a **4.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Percival**, which is just 8.2 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2630 feet, Mount Israel is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Wentworth Trail**, a **4.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Fletcher Cascades**, which is just 8.1 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Wentworth Trail",
@@ -87,6 +87,7 @@
         "quiet",
         "quick hike"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 2.6,
         "gain": 389,
@@ -312,27 +313,11 @@
             ]
           },
           {
-            "mile": 0.25,
-            "elev": 715,
-            "coord": [
-              43.81347,
-              -71.44676
-            ]
-          },
-          {
             "mile": 0.37,
             "elev": 703,
             "coord": [
               43.8117,
               -71.44647
-            ]
-          },
-          {
-            "mile": 0.51,
-            "elev": 750,
-            "coord": [
-              43.81119,
-              -71.44852
             ]
           },
           {
@@ -344,27 +329,11 @@
             ]
           },
           {
-            "mile": 0.79,
-            "elev": 857,
-            "coord": [
-              43.81165,
-              -71.45403
-            ]
-          },
-          {
             "mile": 0.94,
             "elev": 932,
             "coord": [
               43.8119,
               -71.45698
-            ]
-          },
-          {
-            "mile": 1.19,
-            "elev": 1004,
-            "coord": [
-              43.81358,
-              -71.45977
             ]
           },
           {
@@ -390,6 +359,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

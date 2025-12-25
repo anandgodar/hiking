@@ -48,6 +48,13 @@
       "distance_miles": 0.5
     },
     {
+      "name": "Glen Ellis Falls",
+      "slug": "glen-ellis-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1900,
+      "distance_miles": 1.5
+    },
+    {
       "name": "Carter Dome",
       "slug": "carter-dome-nh",
       "state_slug": "new-hampshire",
@@ -60,17 +67,10 @@
       "state_slug": "new-hampshire",
       "elevation": 4430,
       "distance_miles": 3.6
-    },
-    {
-      "name": "Middle Carter Mountain",
-      "slug": "middle-carter-mountain-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4610,
-      "distance_miles": 4.0
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Wildcat Mountain D rises to 4062 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of New Hampshire on Wildcat Mountain D. At 4062 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -87,6 +87,7 @@
         "gradual",
         "viewpoints"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 0.4,
         "gain": 225,
@@ -152,14 +153,6 @@
             ]
           },
           {
-            "mile": 0.11,
-            "elev": 3725,
-            "coord": [
-              44.25319,
-              -71.22333
-            ]
-          },
-          {
             "mile": 0.21,
             "elev": 3822,
             "coord": [
@@ -182,6 +175,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

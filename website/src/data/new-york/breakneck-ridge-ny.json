@@ -4,7 +4,7 @@
   "state": "New York",
   "state_slug": "new-york",
   "elevation": 1260,
-  "mountain_hero": "https://images.unsplash.com/photo-1605218427368-2b0d7759a224?q=80&w=2000",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
     "hudson_highlands",
@@ -83,6 +83,7 @@
         "scramble",
         "steep"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 0.3,
         "gain": 0,
@@ -218,27 +219,11 @@
             ]
           },
           {
-            "mile": 0.07,
-            "elev": 138,
-            "coord": [
-              41.44365,
-              -73.9782
-            ]
-          },
-          {
             "mile": 0.14,
             "elev": 138,
             "coord": [
               41.44446,
               -73.97867
-            ]
-          },
-          {
-            "mile": 0.22,
-            "elev": 138,
-            "coord": [
-              41.44389,
-              -73.97837
             ]
           },
           {
@@ -272,6 +257,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

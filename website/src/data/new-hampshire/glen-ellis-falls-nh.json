@@ -4,75 +4,77 @@
   "state": "New Hampshire",
   "state_slug": "new-hampshire",
   "elevation": 1900,
-  "mountain_hero": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
-  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
   "tags": [
-    "waterfall",
-    "iconic",
-    "pinkham_notch",
-    "family_friendly"
+    "Waterfall",
+    "Short Hike",
+    "Presidential Range",
+    "White Mountains",
+    "Family Friendly"
   ],
-  "lat": 44.2447,
-  "lon": -71.2505,
+  "lat": 44.2514,
+  "lon": -71.2531,
   "trails_config": [
     {
       "name": "Glen Ellis Falls Trail",
       "type": "Out & Back",
-      "difficulty": "Easy",
-      "distance_miles": 0.4,
+      "difficulty": "Moderate",
+      "distance_miles": 0.6,
       "tags": [
         "best",
-        "short",
-        "stairs"
+        "family-friendly",
+        "scenic",
+        "photography"
       ],
-      "description": "One of NH's most famous falls. A 64-foot plunge through a narrow rock chute. The trail features a series of stone stairs and tunnels.",
-      "parking_info": "Glen Ellis Falls Parking, NH-16, Jackson, NH",
-      "start_lat": 44.2465,
-      "start_lon": -71.252,
+      "description": "A short, stair-stepped descent to a powerful plunge into a rocky gorge\u2014one of the best roadside waterfalls on Route 16. Morning light is great for photos; the climb out is brief but steep.",
+      "parking_info": "Glen Ellis Falls Scenic Area Parking, NH-16",
+      "start_lat": 44.2515,
+      "start_lon": -71.2529,
       "via_lat": null,
       "via_lon": null,
       "features": [
         {
-          "name": "Glen Ellis Falls Overlook",
+          "name": "Glen Ellis Falls Viewpoint",
           "type": "waterfall",
-          "lat": 44.2447,
-          "lon": -71.2505
+          "lat": 44.2514,
+          "lon": -71.2531
         }
       ]
     }
   ],
   "nearby_peaks": [
     {
-      "name": "Crystal Cascade",
-      "slug": "crystal-cascade-nh",
+      "name": "Wildcat Mountain D",
+      "slug": "wildcat-mountain-d-nh",
       "state_slug": "new-hampshire",
-      "elevation": 2300,
-      "distance_miles": 1.1
-    },
-    {
-      "name": "Wildcat Mountain (Peak D)",
-      "slug": "wildcat-d-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4050,
+      "elevation": 4062,
       "distance_miles": 1.5
     },
     {
-      "name": "Thompson Falls",
-      "slug": "thompson-falls-nh",
+      "name": "Wildcat Mountain A",
+      "slug": "wildcat-mountain-a-nh",
       "state_slug": "new-hampshire",
-      "elevation": 2100,
-      "distance_miles": 1.8
+      "elevation": 4422,
+      "distance_miles": 1.6
     },
     {
       "name": "Mount Washington",
-      "slug": "mt-washington-nh",
+      "slug": "mount-washington-nh",
       "state_slug": "new-hampshire",
       "elevation": 6288,
-      "distance_miles": 3.2
+      "distance_miles": 2.8
+    },
+    {
+      "name": "Mount Monroe",
+      "slug": "mount-monroe-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 5384,
+      "distance_miles": 3.4
     }
   ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New Hampshire on Glen Ellis Falls. At 1900 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 1900 feet, Glen Ellis Falls offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -80,138 +82,68 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1900 feet, Glen Ellis Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Glen Ellis Falls Trail**, a **0.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Crystal Cascade**, which is just 1.1 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1900 feet, Glen Ellis Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Glen Ellis Falls Trail**, a **0.6 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Wildcat Mountain D**, which is just 1.5 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Glen Ellis Falls Trail",
       "tags": [
         "best",
-        "short",
-        "stairs"
+        "family-friendly",
+        "scenic",
+        "photography"
       ],
+      "smart_logic": {},
       "stats": {
-        "distance": 0.2,
-        "gain": 68,
+        "distance": 0.0,
+        "gain": 0,
         "type": "Out & Back",
-        "difficulty": "Easy",
-        "time": 0.2
+        "difficulty": "Moderate",
+        "time": 0.0
       },
       "geo": {
         "path": [
           [
-            44.2465,
-            -71.25148,
-            2009
+            44.25147,
+            -71.2536,
+            2017
           ],
           [
-            44.24624,
-            -71.25149,
-            1993
-          ],
-          [
-            44.24595,
-            -71.25146,
-            1992
-          ],
-          [
-            44.24576,
-            -71.25144,
-            1990
-          ],
-          [
-            44.24577,
-            -71.25133,
-            1991
-          ],
-          [
-            44.24579,
-            -71.25124,
-            1990
-          ],
-          [
-            44.24586,
-            -71.25109,
-            2006
-          ],
-          [
-            44.24589,
-            -71.25101,
-            2023
-          ],
-          [
-            44.24591,
-            -71.25094,
-            2023
-          ],
-          [
-            44.24591,
-            -71.25086,
-            2036
-          ],
-          [
-            44.24588,
-            -71.25081,
-            2047
-          ],
-          [
-            44.24585,
-            -71.25076,
-            2047
-          ],
-          [
-            44.24584,
-            -71.25068,
-            2057
+            44.25138,
+            -71.25359,
+            2017
           ]
         ],
         "chart": [
           {
             "mile": 0,
-            "elev": 2009,
+            "elev": 2017,
             "coord": [
-              44.2465,
-              -71.25148
+              44.25147,
+              -71.2536
             ]
           },
           {
-            "mile": 0.06,
-            "elev": 1990,
+            "mile": 0.01,
+            "elev": 2017,
             "coord": [
-              44.24579,
-              -71.25124
-            ]
-          },
-          {
-            "mile": 0.09,
-            "elev": 2047,
-            "coord": [
-              44.24588,
-              -71.25081
-            ]
-          },
-          {
-            "mile": 0.09,
-            "elev": 2057,
-            "coord": [
-              44.24584,
-              -71.25068
+              44.25138,
+              -71.25359
             ]
           }
         ],
         "markers": {
           "start": [
-            44.2465,
-            -71.25148,
-            2009
+            44.25147,
+            -71.2536,
+            2017
           ],
           "summit": [
-            44.2447,
-            -71.2505,
+            44.2514,
+            -71.2531,
             1900
           ]
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

@@ -41,38 +41,8 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Arethusa Falls",
-      "slug": "arethusa-falls-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2200,
-      "distance_miles": 1.8
-    },
-    {
-      "name": "Ripley Falls",
-      "slug": "ripley-falls-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1400,
-      "distance_miles": 2.1
-    },
-    {
-      "name": "Mount Webster",
-      "slug": "mt-webster-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 3911,
-      "distance_miles": 4.8
-    },
-    {
-      "name": "Mount Jackson",
-      "slug": "mt-jackson-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4052,
-      "distance_miles": 5.1
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 3119 feet, Mount Crawford offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Crawford rises to 3119 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -80,7 +50,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 3119 feet, Mount Crawford is a standout peak in New Hampshire. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Davis Path**, a **5.0 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Arethusa Falls**, which is just 1.8 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 3119 feet, Mount Crawford is a standout peak in New Hampshire. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Davis Path**, a **5.0 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Davis Path",
@@ -89,6 +59,7 @@
         "scenic",
         "exposed"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 1.9,
         "gain": 1221,
@@ -354,27 +325,11 @@
             ]
           },
           {
-            "mile": 0.12,
-            "elev": 2121,
-            "coord": [
-              44.1279,
-              -71.33777
-            ]
-          },
-          {
             "mile": 0.25,
             "elev": 2336,
             "coord": [
               44.1289,
               -71.33561
-            ]
-          },
-          {
-            "mile": 0.35,
-            "elev": 2527,
-            "coord": [
-              44.12925,
-              -71.33397
             ]
           },
           {
@@ -386,14 +341,6 @@
             ]
           },
           {
-            "mile": 0.61,
-            "elev": 2831,
-            "coord": [
-              44.13248,
-              -71.33234
-            ]
-          },
-          {
             "mile": 0.72,
             "elev": 2881,
             "coord": [
@@ -402,27 +349,11 @@
             ]
           },
           {
-            "mile": 0.79,
-            "elev": 2969,
-            "coord": [
-              44.13476,
-              -71.33083
-            ]
-          },
-          {
             "mile": 0.86,
             "elev": 3046,
             "coord": [
               44.13565,
               -71.33129
-            ]
-          },
-          {
-            "mile": 0.92,
-            "elev": 3101,
-            "coord": [
-              44.13642,
-              -71.33186
             ]
           },
           {
@@ -448,6 +379,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

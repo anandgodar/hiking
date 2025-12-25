@@ -41,38 +41,8 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Hedgehog",
-      "slug": "mt-hedgehog-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2533,
-      "distance_miles": 1.6
-    },
-    {
-      "name": "Sabbaday Falls",
-      "slug": "sabbaday-falls-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1450,
-      "distance_miles": 2.5
-    },
-    {
-      "name": "Mount Passaconaway",
-      "slug": "mt-passaconaway-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4043,
-      "distance_miles": 2.9
-    },
-    {
-      "name": "Rocky Gorge",
-      "slug": "rocky-gorge-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1150,
-      "distance_miles": 3.9
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Potash Mountain rises to 2680 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2680 feet, Potash Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -80,7 +50,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2680 feet, Potash Mountain is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Potash Mountain Trail**, a **4.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Hedgehog**, which is just 1.6 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2680 feet, Potash Mountain is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Potash Mountain Trail**, a **4.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Potash Mountain Trail",
@@ -89,6 +59,7 @@
         "scenic",
         "foliage"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 3.7,
         "gain": 97,
@@ -554,27 +525,11 @@
             ]
           },
           {
-            "mile": 0.16,
-            "elev": 1239,
-            "coord": [
-              43.99887,
-              -71.34831
-            ]
-          },
-          {
             "mile": 0.29,
             "elev": 1234,
             "coord": [
               43.99923,
               -71.35078
-            ]
-          },
-          {
-            "mile": 0.38,
-            "elev": 1233,
-            "coord": [
-              43.99992,
-              -71.35225
             ]
           },
           {
@@ -586,27 +541,11 @@
             ]
           },
           {
-            "mile": 0.59,
-            "elev": 1219,
-            "coord": [
-              43.9999,
-              -71.35367
-            ]
-          },
-          {
             "mile": 0.67,
             "elev": 1232,
             "coord": [
               43.9992,
               -71.35499
-            ]
-          },
-          {
-            "mile": 0.77,
-            "elev": 1238,
-            "coord": [
-              43.99801,
-              -71.35605
             ]
           },
           {
@@ -618,27 +557,11 @@
             ]
           },
           {
-            "mile": 1.06,
-            "elev": 1233,
-            "coord": [
-              43.99615,
-              -71.35121
-            ]
-          },
-          {
             "mile": 1.13,
             "elev": 1239,
             "coord": [
               43.99576,
               -71.35053
-            ]
-          },
-          {
-            "mile": 1.24,
-            "elev": 1247,
-            "coord": [
-              43.99423,
-              -71.35038
             ]
           },
           {
@@ -650,14 +573,6 @@
             ]
           },
           {
-            "mile": 1.39,
-            "elev": 1251,
-            "coord": [
-              43.99291,
-              -71.34899
-            ]
-          },
-          {
             "mile": 1.46,
             "elev": 1251,
             "coord": [
@@ -666,27 +581,11 @@
             ]
           },
           {
-            "mile": 1.57,
-            "elev": 1269,
-            "coord": [
-              43.99065,
-              -71.34732
-            ]
-          },
-          {
             "mile": 1.68,
             "elev": 1285,
             "coord": [
               43.98927,
               -71.34626
-            ]
-          },
-          {
-            "mile": 1.77,
-            "elev": 1276,
-            "coord": [
-              43.98807,
-              -71.34579
             ]
           },
           {
@@ -712,6 +611,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

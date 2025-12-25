@@ -41,38 +41,8 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Glen Ellis Falls",
-      "slug": "glen-ellis-falls-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1900,
-      "distance_miles": 1.1
-    },
-    {
-      "name": "Thompson Falls",
-      "slug": "thompson-falls-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2100,
-      "distance_miles": 1.5
-    },
-    {
-      "name": "Wildcat Mountain (Peak D)",
-      "slug": "wildcat-d-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4050,
-      "distance_miles": 1.9
-    },
-    {
-      "name": "Mount Washington",
-      "slug": "mt-washington-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 6288,
-      "distance_miles": 2.4
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New Hampshire on Crystal Cascade. At 2300 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "One of New Hampshire's premier peaks, Crystal Cascade rises to 2300 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -80,7 +50,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2300 feet, Crystal Cascade is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Tuckerman Ravine Trail (Lower Section)**, a **0.8 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Glen Ellis Falls**, which is just 1.1 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2300 feet, Crystal Cascade is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Tuckerman Ravine Trail (Lower Section)**, a **0.8 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Tuckerman Ravine Trail (Lower Section)",
@@ -89,6 +59,7 @@
         "accessible",
         "short"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 0.8,
         "gain": 235,
@@ -289,14 +260,6 @@
             ]
           },
           {
-            "mile": 0.05,
-            "elev": 2042,
-            "coord": [
-              44.25797,
-              -71.25331
-            ]
-          },
-          {
             "mile": 0.13,
             "elev": 2073,
             "coord": [
@@ -305,27 +268,11 @@
             ]
           },
           {
-            "mile": 0.21,
-            "elev": 2110,
-            "coord": [
-              44.25993,
-              -71.25499
-            ]
-          },
-          {
             "mile": 0.26,
             "elev": 2141,
             "coord": [
               44.26054,
               -71.25543
-            ]
-          },
-          {
-            "mile": 0.31,
-            "elev": 2160,
-            "coord": [
-              44.26088,
-              -71.25609
             ]
           },
           {
@@ -359,6 +306,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

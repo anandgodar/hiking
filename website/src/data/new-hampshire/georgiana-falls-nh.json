@@ -1,0 +1,512 @@
+{
+  "name": "Georgiana Falls",
+  "slug": "georgiana-falls-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 1631,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Waterfall",
+    "Swimming Hole",
+    "Lincoln NH",
+    "Family Friendly",
+    "White Mountains"
+  ],
+  "lat": 44.0776,
+  "lon": -71.6992,
+  "trails_config": [
+    {
+      "name": "Georgiana Falls Path",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 1.5,
+      "tags": [
+        "best",
+        "swimming",
+        "scenic",
+        "shaded"
+      ],
+      "description": "A short local favorite with cascades, slickrock, and deep pools\u2014an easy way to get a waterfall fix near Lincoln. After rain, the flow is loud and impressive, but the rocks get very slippery.",
+      "parking_info": "Georgiana Falls Path Parking, Georgiana Falls Rd (off Rt 3), Lincoln",
+      "start_lat": 44.0671,
+      "start_lon": -71.6888,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Georgiana Falls Main Cascades",
+          "type": "waterfall",
+          "lat": 44.0776,
+          "lon": -71.6992
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Upper Harvard Falls (Harvard Brook)",
+      "slug": "upper-harvard-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1606,
+      "distance_miles": 0.0
+    },
+    {
+      "name": "Flume Gorge (Franconia Notch)",
+      "slug": "flume-gorge-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1200,
+      "distance_miles": 1.6
+    },
+    {
+      "name": "Mount Pemigewasset",
+      "slug": "mount-pemigewasset-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2557,
+      "distance_miles": 1.7
+    },
+    {
+      "name": "Mount Flume",
+      "slug": "mount-flume-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4328,
+      "distance_miles": 2.9
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "Experience the beauty of New Hampshire on Georgiana Falls. At 1631 feet, this summit commands impressive views of the surrounding wilderness.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1631 feet, Georgiana Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Georgiana Falls Path**, a **1.5 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Upper Harvard Falls (Harvard Brook)**, which is just 0.0 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Georgiana Falls Path",
+      "tags": [
+        "best",
+        "swimming",
+        "scenic",
+        "shaded"
+      ],
+      "smart_logic": {},
+      "stats": {
+        "distance": 2.1,
+        "gain": 759,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 1.8
+      },
+      "geo": {
+        "path": [
+          [
+            44.06705,
+            -71.68881,
+            905
+          ],
+          [
+            44.06711,
+            -71.68927,
+            910
+          ],
+          [
+            44.06715,
+            -71.68958,
+            923
+          ],
+          [
+            44.06722,
+            -71.68997,
+            904
+          ],
+          [
+            44.06725,
+            -71.69009,
+            905
+          ],
+          [
+            44.06728,
+            -71.69012,
+            906
+          ],
+          [
+            44.06732,
+            -71.69016,
+            907
+          ],
+          [
+            44.06741,
+            -71.69017,
+            910
+          ],
+          [
+            44.06788,
+            -71.69012,
+            918
+          ],
+          [
+            44.06801,
+            -71.69012,
+            919
+          ],
+          [
+            44.06809,
+            -71.69016,
+            920
+          ],
+          [
+            44.06813,
+            -71.69023,
+            920
+          ],
+          [
+            44.06817,
+            -71.69035,
+            923
+          ],
+          [
+            44.0682,
+            -71.69047,
+            927
+          ],
+          [
+            44.06819,
+            -71.69068,
+            929
+          ],
+          [
+            44.06821,
+            -71.69087,
+            931
+          ],
+          [
+            44.0682,
+            -71.69108,
+            936
+          ],
+          [
+            44.06825,
+            -71.6913,
+            946
+          ],
+          [
+            44.06834,
+            -71.69153,
+            947
+          ],
+          [
+            44.06841,
+            -71.69178,
+            952
+          ],
+          [
+            44.06844,
+            -71.69196,
+            955
+          ],
+          [
+            44.06859,
+            -71.69222,
+            960
+          ],
+          [
+            44.0691,
+            -71.69279,
+            969
+          ],
+          [
+            44.06924,
+            -71.693,
+            971
+          ],
+          [
+            44.06928,
+            -71.69321,
+            977
+          ],
+          [
+            44.0693,
+            -71.69349,
+            982
+          ],
+          [
+            44.06938,
+            -71.69375,
+            998
+          ],
+          [
+            44.06957,
+            -71.69401,
+            1009
+          ],
+          [
+            44.06991,
+            -71.6943,
+            1034
+          ],
+          [
+            44.07028,
+            -71.69469,
+            1034
+          ],
+          [
+            44.07059,
+            -71.69491,
+            1041
+          ],
+          [
+            44.07081,
+            -71.69521,
+            1047
+          ],
+          [
+            44.07089,
+            -71.69552,
+            1053
+          ],
+          [
+            44.07096,
+            -71.69575,
+            1061
+          ],
+          [
+            44.07105,
+            -71.69594,
+            1066
+          ],
+          [
+            44.07108,
+            -71.69617,
+            1069
+          ],
+          [
+            44.07105,
+            -71.69643,
+            1077
+          ],
+          [
+            44.07098,
+            -71.69691,
+            1087
+          ],
+          [
+            44.07099,
+            -71.69711,
+            1093
+          ],
+          [
+            44.07105,
+            -71.69728,
+            1104
+          ],
+          [
+            44.07115,
+            -71.6974,
+            1114
+          ],
+          [
+            44.07134,
+            -71.69754,
+            1124
+          ],
+          [
+            44.07164,
+            -71.69766,
+            1135
+          ],
+          [
+            44.0719,
+            -71.69775,
+            1148
+          ],
+          [
+            44.07246,
+            -71.69776,
+            1183
+          ],
+          [
+            44.07283,
+            -71.69767,
+            1196
+          ],
+          [
+            44.07309,
+            -71.69729,
+            1219
+          ],
+          [
+            44.07317,
+            -71.69714,
+            1227
+          ],
+          [
+            44.07329,
+            -71.69708,
+            1238
+          ],
+          [
+            44.07344,
+            -71.6971,
+            1248
+          ],
+          [
+            44.07366,
+            -71.6971,
+            1262
+          ],
+          [
+            44.07385,
+            -71.69729,
+            1262
+          ],
+          [
+            44.07406,
+            -71.69755,
+            1274
+          ],
+          [
+            44.07421,
+            -71.69794,
+            1310
+          ],
+          [
+            44.07447,
+            -71.69793,
+            1353
+          ],
+          [
+            44.07464,
+            -71.69804,
+            1379
+          ],
+          [
+            44.07486,
+            -71.69832,
+            1386
+          ],
+          [
+            44.07513,
+            -71.69844,
+            1405
+          ],
+          [
+            44.07545,
+            -71.69853,
+            1423
+          ],
+          [
+            44.07575,
+            -71.69853,
+            1449
+          ],
+          [
+            44.07603,
+            -71.69859,
+            1485
+          ],
+          [
+            44.0764,
+            -71.69876,
+            1527
+          ],
+          [
+            44.07663,
+            -71.6989,
+            1525
+          ],
+          [
+            44.0771,
+            -71.69913,
+            1595
+          ],
+          [
+            44.07756,
+            -71.69938,
+            1643
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 905,
+            "coord": [
+              44.06705,
+              -71.68881
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 920,
+            "coord": [
+              44.06809,
+              -71.69016
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 955,
+            "coord": [
+              44.06844,
+              -71.69196
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 1041,
+            "coord": [
+              44.07059,
+              -71.69491
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 1114,
+            "coord": [
+              44.07115,
+              -71.6974
+            ]
+          },
+          {
+            "mile": 0.77,
+            "elev": 1262,
+            "coord": [
+              44.07366,
+              -71.6971
+            ]
+          },
+          {
+            "mile": 0.96,
+            "elev": 1485,
+            "coord": [
+              44.07603,
+              -71.69859
+            ]
+          },
+          {
+            "mile": 1.07,
+            "elev": 1643,
+            "coord": [
+              44.07756,
+              -71.69938
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.06705,
+            -71.68881,
+            905
+          ],
+          "summit": [
+            44.0776,
+            -71.6992,
+            1631
+          ]
+        }
+      }
+    }
+  ]
+}

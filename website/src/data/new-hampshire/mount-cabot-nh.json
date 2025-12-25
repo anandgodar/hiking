@@ -66,6 +66,7 @@
         "forest",
         "cabin"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 0.6,
         "gain": 369,
@@ -136,14 +137,6 @@
             ]
           },
           {
-            "mile": 0.18,
-            "elev": 2558,
-            "coord": [
-              44.53729,
-              -71.39822
-            ]
-          },
-          {
             "mile": 0.32,
             "elev": 2709,
             "coord": [
@@ -166,6 +159,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

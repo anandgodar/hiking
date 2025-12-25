@@ -70,7 +70,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New Hampshire on Whiteface Mountain (Belknap). At 1670 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "One of New Hampshire's premier peaks, Whiteface Mountain (Belknap) rises to 1670 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -87,6 +87,7 @@
         "ledges",
         "quiet"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 2.5,
         "gain": 81,
@@ -422,27 +423,11 @@
             ]
           },
           {
-            "mile": 0.12,
-            "elev": 927,
-            "coord": [
-              43.52281,
-              -71.28605
-            ]
-          },
-          {
             "mile": 0.25,
             "elev": 925,
             "coord": [
               43.5223,
               -71.2835
-            ]
-          },
-          {
-            "mile": 0.35,
-            "elev": 913,
-            "coord": [
-              43.52251,
-              -71.28168
             ]
           },
           {
@@ -454,27 +439,11 @@
             ]
           },
           {
-            "mile": 0.53,
-            "elev": 886,
-            "coord": [
-              43.52179,
-              -71.2786
-            ]
-          },
-          {
             "mile": 0.62,
             "elev": 806,
             "coord": [
               43.52075,
               -71.27796
-            ]
-          },
-          {
-            "mile": 0.74,
-            "elev": 718,
-            "coord": [
-              43.51968,
-              -71.27628
             ]
           },
           {
@@ -486,27 +455,11 @@
             ]
           },
           {
-            "mile": 0.86,
-            "elev": 656,
-            "coord": [
-              43.51917,
-              -71.27401
-            ]
-          },
-          {
             "mile": 0.9,
             "elev": 650,
             "coord": [
               43.51943,
               -71.27336
-            ]
-          },
-          {
-            "mile": 1.01,
-            "elev": 642,
-            "coord": [
-              43.52068,
-              -71.27318
             ]
           },
           {
@@ -540,6 +493,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

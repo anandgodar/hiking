@@ -4,7 +4,7 @@
   "state_slug": "new-hampshire",
   "state": "New Hampshire",
   "elevation": 2212,
-  "mountain_hero": "https://images.unsplash.com/photo-1506362839958-b95603417e29",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
   "tags": [
     "52_with_a_view",
@@ -42,38 +42,8 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Morgan",
-      "slug": "mt-morgan-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2220,
-      "distance_miles": 0.7
-    },
-    {
-      "name": "Beede Falls",
-      "slug": "beede-falls-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 950,
-      "distance_miles": 1.7
-    },
-    {
-      "name": "Mount Israel",
-      "slug": "mt-israel-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2620,
-      "distance_miles": 6.9
-    },
-    {
-      "name": "Welch and Dickey Mountain",
-      "slug": "welch-dickey-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2734,
-      "distance_miles": 7.1
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2212 feet, Mount Percival offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Percival. At 2212 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -81,7 +51,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2212 feet, Mount Percival is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mt Percival Trail via Cave Route**, a **4.8 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Morgan**, which is just 0.7 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2212 feet, Mount Percival is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mt Percival Trail via Cave Route**, a **4.8 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Mt Percival Trail via Cave Route",
@@ -90,6 +60,7 @@
         "caves",
         "scenic"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 3.2,
         "gain": 451,
@@ -830,27 +801,11 @@
             ]
           },
           {
-            "mile": 0.04,
-            "elev": 2191,
-            "coord": [
-              43.80487,
-              -71.56394
-            ]
-          },
-          {
             "mile": 0.07,
             "elev": 2201,
             "coord": [
               43.80522,
               -71.56401
-            ]
-          },
-          {
-            "mile": 0.15,
-            "elev": 2191,
-            "coord": [
-              43.80644,
-              -71.56373
             ]
           },
           {
@@ -862,27 +817,11 @@
             ]
           },
           {
-            "mile": 0.25,
-            "elev": 2176,
-            "coord": [
-              43.80775,
-              -71.56302
-            ]
-          },
-          {
             "mile": 0.29,
             "elev": 2188,
             "coord": [
               43.80814,
               -71.56251
-            ]
-          },
-          {
-            "mile": 0.32,
-            "elev": 2181,
-            "coord": [
-              43.8085,
-              -71.56219
             ]
           },
           {
@@ -894,27 +833,11 @@
             ]
           },
           {
-            "mile": 0.4,
-            "elev": 2148,
-            "coord": [
-              43.80933,
-              -71.56118
-            ]
-          },
-          {
             "mile": 0.44,
             "elev": 2147,
             "coord": [
               43.80948,
               -71.5605
-            ]
-          },
-          {
-            "mile": 0.48,
-            "elev": 2111,
-            "coord": [
-              43.80963,
-              -71.55972
             ]
           },
           {
@@ -926,27 +849,11 @@
             ]
           },
           {
-            "mile": 0.55,
-            "elev": 2172,
-            "coord": [
-              43.80934,
-              -71.55869
-            ]
-          },
-          {
             "mile": 0.59,
             "elev": 2173,
             "coord": [
               43.80956,
               -71.5581
-            ]
-          },
-          {
-            "mile": 0.62,
-            "elev": 2172,
-            "coord": [
-              43.80975,
-              -71.55755
             ]
           },
           {
@@ -958,27 +865,11 @@
             ]
           },
           {
-            "mile": 0.68,
-            "elev": 2168,
-            "coord": [
-              43.80996,
-              -71.55668
-            ]
-          },
-          {
             "mile": 0.77,
             "elev": 2106,
             "coord": [
               43.81068,
               -71.55535
-            ]
-          },
-          {
-            "mile": 0.85,
-            "elev": 2066,
-            "coord": [
-              43.81175,
-              -71.55491
             ]
           },
           {
@@ -990,27 +881,11 @@
             ]
           },
           {
-            "mile": 0.98,
-            "elev": 1999,
-            "coord": [
-              43.81214,
-              -71.55285
-            ]
-          },
-          {
             "mile": 1.04,
             "elev": 1991,
             "coord": [
               43.81271,
               -71.5522
-            ]
-          },
-          {
-            "mile": 1.08,
-            "elev": 1964,
-            "coord": [
-              43.81298,
-              -71.55158
             ]
           },
           {
@@ -1022,27 +897,11 @@
             ]
           },
           {
-            "mile": 1.23,
-            "elev": 2075,
-            "coord": [
-              43.81293,
-              -71.54914
-            ]
-          },
-          {
             "mile": 1.3,
             "elev": 2062,
             "coord": [
               43.81298,
               -71.54775
-            ]
-          },
-          {
-            "mile": 1.41,
-            "elev": 2123,
-            "coord": [
-              43.8142,
-              -71.54715
             ]
           },
           {
@@ -1076,6 +935,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

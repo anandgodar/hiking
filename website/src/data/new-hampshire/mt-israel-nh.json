@@ -34,38 +34,8 @@
       "features": []
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Whiteface",
-      "slug": "mt-whiteface-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4020,
-      "distance_miles": 3.5
-    },
-    {
-      "name": "Beede Falls",
-      "slug": "beede-falls-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 950,
-      "distance_miles": 5.3
-    },
-    {
-      "name": "North Tripyramid",
-      "slug": "north-tripyramid-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4180,
-      "distance_miles": 5.3
-    },
-    {
-      "name": "Mount Passaconaway",
-      "slug": "mt-passaconaway-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4043,
-      "distance_miles": 5.5
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2620 feet, Mount Israel offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Israel rises to 2620 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -73,7 +43,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2620 feet, Mount Israel is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Wentworth Trail**, a **4.0 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Whiteface**, which is just 3.5 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2620 feet, Mount Israel is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Wentworth Trail**, a **4.0 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Wentworth Trail",
@@ -82,6 +52,7 @@
         "scenic",
         "foliage"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 2.4,
         "gain": 418,
@@ -472,27 +443,11 @@
             ]
           },
           {
-            "mile": 0.12,
-            "elev": 1209,
-            "coord": [
-              43.88208,
-              -71.45459
-            ]
-          },
-          {
             "mile": 0.18,
             "elev": 1229,
             "coord": [
               43.88244,
               -71.45571
-            ]
-          },
-          {
-            "mile": 0.25,
-            "elev": 1237,
-            "coord": [
-              43.88325,
-              -71.45658
             ]
           },
           {
@@ -504,27 +459,11 @@
             ]
           },
           {
-            "mile": 0.38,
-            "elev": 1256,
-            "coord": [
-              43.88489,
-              -71.4567
-            ]
-          },
-          {
             "mile": 0.44,
             "elev": 1277,
             "coord": [
               43.8857,
               -71.45745
-            ]
-          },
-          {
-            "mile": 0.5,
-            "elev": 1293,
-            "coord": [
-              43.88636,
-              -71.45812
             ]
           },
           {
@@ -536,14 +475,6 @@
             ]
           },
           {
-            "mile": 0.59,
-            "elev": 1331,
-            "coord": [
-              43.88739,
-              -71.45883
-            ]
-          },
-          {
             "mile": 0.63,
             "elev": 1343,
             "coord": [
@@ -552,27 +483,11 @@
             ]
           },
           {
-            "mile": 0.73,
-            "elev": 1381,
-            "coord": [
-              43.88928,
-              -71.45964
-            ]
-          },
-          {
             "mile": 0.86,
             "elev": 1445,
             "coord": [
               43.89097,
               -71.46003
-            ]
-          },
-          {
-            "mile": 0.99,
-            "elev": 1506,
-            "coord": [
-              43.89268,
-              -71.45939
             ]
           },
           {
@@ -606,6 +521,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

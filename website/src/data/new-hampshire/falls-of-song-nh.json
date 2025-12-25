@@ -41,17 +41,8 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Roberts",
-      "slug": "mt-roberts-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2582,
-      "distance_miles": 1.7
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 1200 feet, Falls of Song offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Falls of Song. At 1200 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -59,7 +50,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1200 feet, Falls of Song is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Shannon Brook Trail**, a **1.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Roberts**, which is just 1.7 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1200 feet, Falls of Song is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Shannon Brook Trail**, a **1.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Shannon Brook Trail",
@@ -68,6 +59,7 @@
         "accessible",
         "short"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 4.0,
         "gain": 80,
@@ -783,27 +775,11 @@
             ]
           },
           {
-            "mile": 0.06,
-            "elev": 1485,
-            "coord": [
-              43.73828,
-              -71.32893
-            ]
-          },
-          {
             "mile": 0.11,
             "elev": 1449,
             "coord": [
               43.73756,
               -71.32908
-            ]
-          },
-          {
-            "mile": 0.17,
-            "elev": 1440,
-            "coord": [
-              43.73681,
-              -71.32905
             ]
           },
           {
@@ -815,27 +791,11 @@
             ]
           },
           {
-            "mile": 0.28,
-            "elev": 1442,
-            "coord": [
-              43.73562,
-              -71.32869
-            ]
-          },
-          {
             "mile": 0.34,
             "elev": 1402,
             "coord": [
               43.73512,
               -71.32777
-            ]
-          },
-          {
-            "mile": 0.39,
-            "elev": 1355,
-            "coord": [
-              43.73493,
-              -71.32694
             ]
           },
           {
@@ -847,27 +807,11 @@
             ]
           },
           {
-            "mile": 0.55,
-            "elev": 1328,
-            "coord": [
-              43.73459,
-              -71.32772
-            ]
-          },
-          {
             "mile": 0.58,
             "elev": 1337,
             "coord": [
               43.73445,
               -71.32836
-            ]
-          },
-          {
-            "mile": 0.63,
-            "elev": 1336,
-            "coord": [
-              43.73399,
-              -71.32896
             ]
           },
           {
@@ -879,27 +823,11 @@
             ]
           },
           {
-            "mile": 0.73,
-            "elev": 1331,
-            "coord": [
-              43.73377,
-              -71.32732
-            ]
-          },
-          {
             "mile": 0.8,
             "elev": 1308,
             "coord": [
               43.73357,
               -71.32612
-            ]
-          },
-          {
-            "mile": 0.85,
-            "elev": 1277,
-            "coord": [
-              43.73323,
-              -71.32515
             ]
           },
           {
@@ -911,27 +839,11 @@
             ]
           },
           {
-            "mile": 0.95,
-            "elev": 1248,
-            "coord": [
-              43.73207,
-              -71.32445
-            ]
-          },
-          {
             "mile": 1.05,
             "elev": 1210,
             "coord": [
               43.73141,
               -71.3261
-            ]
-          },
-          {
-            "mile": 1.14,
-            "elev": 1147,
-            "coord": [
-              43.73043,
-              -71.32722
             ]
           },
           {
@@ -943,27 +855,11 @@
             ]
           },
           {
-            "mile": 1.32,
-            "elev": 1032,
-            "coord": [
-              43.72998,
-              -71.33061
-            ]
-          },
-          {
             "mile": 1.35,
             "elev": 1007,
             "coord": [
               43.72998,
               -71.33124
-            ]
-          },
-          {
-            "mile": 1.46,
-            "elev": 946,
-            "coord": [
-              43.73096,
-              -71.33288
             ]
           },
           {
@@ -975,27 +871,11 @@
             ]
           },
           {
-            "mile": 1.72,
-            "elev": 903,
-            "coord": [
-              43.73376,
-              -71.33618
-            ]
-          },
-          {
             "mile": 1.86,
             "elev": 875,
             "coord": [
               43.73517,
               -71.33834
-            ]
-          },
-          {
-            "mile": 1.95,
-            "elev": 829,
-            "coord": [
-              43.73573,
-              -71.33999
             ]
           },
           {
@@ -1021,6 +901,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

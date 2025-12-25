@@ -3,41 +3,42 @@
   "slug": "dianas-baths-nh",
   "state": "New Hampshire",
   "state_slug": "new-hampshire",
-  "elevation": 600,
-  "mountain_hero": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+  "elevation": 720,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
   "tags": [
-    "waterfall",
-    "best_hikes",
-    "family_friendly",
-    "photography",
-    "swimming_hole"
+    "Waterfall",
+    "Swimming Hole",
+    "Family Friendly",
+    "North Conway",
+    "White Mountains"
   ],
-  "lat": 44.0754,
-  "lon": -71.1643,
+  "lat": 44.0714,
+  "lon": -71.1602,
   "trails_config": [
     {
       "name": "Diana's Baths Trail",
       "type": "Out & Back",
-      "difficulty": "Easy",
+      "difficulty": "Moderate",
       "distance_miles": 1.3,
       "tags": [
         "best",
-        "accessible",
-        "waterfalls"
+        "family-friendly",
+        "swimming",
+        "scenic"
       ],
-      "description": "An extremely popular, ADA-accessible trail leading to a series of cascading pools and waterfalls on Lucy Brook. Perfect for families.",
-      "parking_info": "Diana's Baths Parking Lot, West Side Rd, Bartlett, NH",
-      "start_lat": 44.0735,
-      "start_lon": -71.1663,
+      "description": "A favorite North Conway outing with a gentle walk to a long stretch of cascades, granite slides, and pools. Great for families and summer cooling, but expect crowds\u2014sunrise or weekday mornings are the sweet spot.",
+      "parking_info": "Diana's Baths Trailhead Parking, West Side Rd, North Conway",
+      "start_lat": 44.0746,
+      "start_lon": -71.1638,
       "via_lat": null,
       "via_lon": null,
       "features": [
         {
           "name": "Diana's Baths Cascades",
           "type": "waterfall",
-          "lat": 44.0754,
-          "lon": -71.1643
+          "lat": 44.0714,
+          "lon": -71.1602
         }
       ]
     }
@@ -45,35 +46,35 @@
   "nearby_peaks": [
     {
       "name": "North Moat Mountain",
-      "slug": "north-moat-nh",
+      "slug": "north-moat-mountain-nh",
       "state_slug": "new-hampshire",
-      "elevation": 3196,
-      "distance_miles": 2.0
+      "elevation": 3202,
+      "distance_miles": 2.2
     },
     {
-      "name": "Lower Falls",
-      "slug": "lower-falls-nh",
+      "name": "Jackson Falls",
+      "slug": "jackson-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 771,
+      "distance_miles": 5.4
+    },
+    {
+      "name": "Lower Falls (Swift River)",
+      "slug": "lower-falls-swift-river-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 948,
+      "distance_miles": 5.7
+    },
+    {
+      "name": "Rocky Gorge Scenic Area (Swift River)",
+      "slug": "rocky-gorge-swift-river-nh",
       "state_slug": "new-hampshire",
       "elevation": 1100,
-      "distance_miles": 7.0
-    },
-    {
-      "name": "Rocky Gorge",
-      "slug": "rocky-gorge-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1150,
-      "distance_miles": 7.8
-    },
-    {
-      "name": "Mount Hedgehog",
-      "slug": "mt-hedgehog-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2533,
-      "distance_miles": 9.3
+      "distance_miles": 7.5
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 600 feet, Diana's Baths offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 720 feet, Diana's Baths offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -81,148 +82,40 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 600 feet, Diana's Baths is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Diana's Baths Trail**, a **1.3 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **North Moat Mountain**, which is just 2.0 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 720 feet, Diana's Baths is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Diana's Baths Trail**, a **1.3 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **North Moat Mountain**, which is just 2.2 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Diana's Baths Trail",
       "tags": [
         "best",
-        "accessible",
-        "waterfalls"
+        "family-friendly",
+        "swimming",
+        "scenic"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 0.7,
-        "gain": 33,
+        "gain": 6,
         "type": "Out & Back",
-        "difficulty": "Easy",
+        "difficulty": "Moderate",
         "time": 0.5
       },
       "geo": {
         "path": [
           [
-            44.07443,
-            -71.16596,
-            531
-          ],
-          [
-            44.07442,
-            -71.16592,
-            531
-          ],
-          [
-            44.07442,
-            -71.16572,
-            533
-          ],
-          [
-            44.07441,
-            -71.16551,
-            537
-          ],
-          [
-            44.07441,
-            -71.16545,
-            540
-          ],
-          [
-            44.07446,
-            -71.16538,
-            541
-          ],
-          [
-            44.07451,
-            -71.16538,
-            541
-          ],
-          [
-            44.07455,
-            -71.16536,
-            547
-          ],
-          [
-            44.07459,
-            -71.16533,
-            547
-          ],
-          [
-            44.07459,
-            -71.16529,
-            547
-          ],
-          [
-            44.07454,
-            -71.16522,
-            551
-          ],
-          [
-            44.07448,
-            -71.16516,
-            552
-          ],
-          [
-            44.07443,
-            -71.16504,
+            44.07453,
+            -71.1638,
             553
           ],
           [
-            44.0744,
-            -71.16491,
+            44.07453,
+            -71.16348,
             554
           ],
           [
-            44.07442,
-            -71.16481,
-            553
-          ],
-          [
-            44.07447,
-            -71.16475,
+            44.07457,
+            -71.1634,
             554
-          ],
-          [
-            44.07449,
-            -71.16469,
-            553
-          ],
-          [
-            44.07451,
-            -71.16449,
-            553
-          ],
-          [
-            44.07452,
-            -71.16431,
-            553
-          ],
-          [
-            44.07454,
-            -71.16417,
-            551
-          ],
-          [
-            44.07463,
-            -71.16409,
-            550
-          ],
-          [
-            44.07465,
-            -71.16409,
-            550
-          ],
-          [
-            44.07471,
-            -71.16406,
-            551
-          ],
-          [
-            44.07473,
-            -71.16397,
-            550
-          ],
-          [
-            44.07474,
-            -71.16345,
-            553
           ],
           [
             44.07466,
@@ -235,121 +128,100 @@
             552
           ],
           [
-            44.07616,
-            -71.16337,
-            554
+            44.07429,
+            -71.16288,
+            552
           ],
           [
-            44.07597,
-            -71.16389,
-            556
+            44.0738,
+            -71.16264,
+            546
           ],
           [
-            44.07591,
-            -71.16411,
-            556
+            44.07326,
+            -71.16234,
+            551
           ],
           [
-            44.07591,
-            -71.16413,
-            556
+            44.0728,
+            -71.16205,
+            550
           ],
           [
-            44.07584,
-            -71.1642,
-            557
+            44.07223,
+            -71.16173,
+            550
           ],
           [
-            44.07574,
-            -71.16435,
-            556
+            44.0721,
+            -71.16166,
+            550
           ],
           [
-            44.07569,
-            -71.1645,
-            556
+            44.07135,
+            -71.1612,
+            546
+          ],
+          [
+            44.07104,
+            -71.16101,
+            545
+          ],
+          [
+            44.07103,
+            -71.161,
+            545
+          ],
+          [
+            44.07108,
+            -71.16055,
+            544
+          ],
+          [
+            44.07113,
+            -71.16014,
+            543
           ]
         ],
         "chart": [
           {
             "mile": 0,
-            "elev": 531,
-            "coord": [
-              44.07443,
-              -71.16596
-            ]
-          },
-          {
-            "mile": 0.03,
-            "elev": 541,
-            "coord": [
-              44.07446,
-              -71.16538
-            ]
-          },
-          {
-            "mile": 0.05,
-            "elev": 551,
-            "coord": [
-              44.07454,
-              -71.16522
-            ]
-          },
-          {
-            "mile": 0.08,
-            "elev": 554,
-            "coord": [
-              44.07447,
-              -71.16475
-            ]
-          },
-          {
-            "mile": 0.11,
-            "elev": 550,
-            "coord": [
-              44.07463,
-              -71.16409
-            ]
-          },
-          {
-            "mile": 0.16,
             "elev": 553,
             "coord": [
-              44.07466,
-              -71.16334
+              44.07453,
+              -71.1638
             ]
           },
           {
-            "mile": 0.32,
-            "elev": 556,
+            "mile": 0.23,
+            "elev": 550,
             "coord": [
-              44.07591,
-              -71.16413
+              44.0721,
+              -71.16166
             ]
           },
           {
-            "mile": 0.34,
-            "elev": 556,
+            "mile": 0.36,
+            "elev": 543,
             "coord": [
-              44.07569,
-              -71.1645
+              44.07113,
+              -71.16014
             ]
           }
         ],
         "markers": {
           "start": [
-            44.07443,
-            -71.16596,
-            531
+            44.07453,
+            -71.1638,
+            553
           ],
           "summit": [
-            44.0754,
-            -71.1643,
-            600
+            44.0714,
+            -71.1602,
+            720
           ]
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

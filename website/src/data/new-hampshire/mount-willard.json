@@ -4,7 +4,7 @@
   "state_slug": "new-hampshire",
   "state": "New Hampshire",
   "elevation": 2865,
-  "mountain_hero": "https://images.unsplash.com/photo-1629854490748-0d3d5489069a",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
   "tags": [
     "52_with_a_view",
@@ -43,36 +43,6 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Webster",
-      "slug": "mt-webster-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 3911,
-      "distance_miles": 0.8
-    },
-    {
-      "name": "Mount Jackson",
-      "slug": "mt-jackson-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4052,
-      "distance_miles": 0.9
-    },
-    {
-      "name": "Mount Avalon",
-      "slug": "mt-avalon-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 3442,
-      "distance_miles": 1.7
-    },
-    {
-      "name": "Mount Willey",
-      "slug": "mt-willey-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4285,
-      "distance_miles": 2.1
-    }
-  ],
   "current_conditions": {
     "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2865 feet, Mount Willard offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
@@ -82,7 +52,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2865 feet, Mount Willard is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mount Willard Trail**, a **3.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Webster**, which is just 0.8 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2865 feet, Mount Willard is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mount Willard Trail**, a **3.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Mount Willard Trail",
@@ -92,6 +62,7 @@
         "epic_views",
         "dog_friendly"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 4.2,
         "gain": 1170,
@@ -1157,27 +1128,11 @@
             ]
           },
           {
-            "mile": 0.04,
-            "elev": 1899,
-            "coord": [
-              44.22378,
-              -71.41067
-            ]
-          },
-          {
             "mile": 0.1,
             "elev": 1906,
             "coord": [
               44.22318,
               -71.41084
-            ]
-          },
-          {
-            "mile": 0.18,
-            "elev": 1903,
-            "coord": [
-              44.2221,
-              -71.41138
             ]
           },
           {
@@ -1189,27 +1144,11 @@
             ]
           },
           {
-            "mile": 0.29,
-            "elev": 1909,
-            "coord": [
-              44.22075,
-              -71.41097
-            ]
-          },
-          {
             "mile": 0.34,
             "elev": 1919,
             "coord": [
               44.22021,
               -71.41044
-            ]
-          },
-          {
-            "mile": 0.38,
-            "elev": 1917,
-            "coord": [
-              44.21961,
-              -71.41026
             ]
           },
           {
@@ -1221,27 +1160,11 @@
             ]
           },
           {
-            "mile": 0.48,
-            "elev": 1893,
-            "coord": [
-              44.21831,
-              -71.41078
-            ]
-          },
-          {
             "mile": 0.51,
             "elev": 1890,
             "coord": [
               44.21786,
               -71.41083
-            ]
-          },
-          {
-            "mile": 0.55,
-            "elev": 1891,
-            "coord": [
-              44.21725,
-              -71.41058
             ]
           },
           {
@@ -1253,27 +1176,11 @@
             ]
           },
           {
-            "mile": 0.68,
-            "elev": 1889,
-            "coord": [
-              44.21574,
-              -71.40902
-            ]
-          },
-          {
             "mile": 0.77,
             "elev": 1893,
             "coord": [
               44.21517,
               -71.40776
-            ]
-          },
-          {
-            "mile": 0.81,
-            "elev": 1926,
-            "coord": [
-              44.21576,
-              -71.40746
             ]
           },
           {
@@ -1285,27 +1192,11 @@
             ]
           },
           {
-            "mile": 0.97,
-            "elev": 2105,
-            "coord": [
-              44.21645,
-              -71.40456
-            ]
-          },
-          {
             "mile": 0.99,
             "elev": 2137,
             "coord": [
               44.21624,
               -71.40434
-            ]
-          },
-          {
-            "mile": 1.07,
-            "elev": 2186,
-            "coord": [
-              44.21511,
-              -71.40386
             ]
           },
           {
@@ -1317,27 +1208,11 @@
             ]
           },
           {
-            "mile": 1.24,
-            "elev": 2324,
-            "coord": [
-              44.21306,
-              -71.40219
-            ]
-          },
-          {
             "mile": 1.31,
             "elev": 2414,
             "coord": [
               44.21229,
               -71.40156
-            ]
-          },
-          {
-            "mile": 1.37,
-            "elev": 2406,
-            "coord": [
-              44.21161,
-              -71.40085
             ]
           },
           {
@@ -1349,27 +1224,11 @@
             ]
           },
           {
-            "mile": 1.44,
-            "elev": 2456,
-            "coord": [
-              44.21084,
-              -71.39981
-            ]
-          },
-          {
             "mile": 1.5,
             "elev": 2444,
             "coord": [
               44.21027,
               -71.39907
-            ]
-          },
-          {
-            "mile": 1.54,
-            "elev": 2476,
-            "coord": [
-              44.2103,
-              -71.39831
             ]
           },
           {
@@ -1381,27 +1240,11 @@
             ]
           },
           {
-            "mile": 1.57,
-            "elev": 2508,
-            "coord": [
-              44.20996,
-              -71.3979
-            ]
-          },
-          {
             "mile": 1.6,
             "elev": 2534,
             "coord": [
               44.21002,
               -71.39734
-            ]
-          },
-          {
-            "mile": 1.65,
-            "elev": 2534,
-            "coord": [
-              44.20956,
-              -71.39657
             ]
           },
           {
@@ -1413,27 +1256,11 @@
             ]
           },
           {
-            "mile": 1.72,
-            "elev": 2606,
-            "coord": [
-              44.20878,
-              -71.39561
-            ]
-          },
-          {
             "mile": 1.77,
             "elev": 2645,
             "coord": [
               44.20813,
               -71.39526
-            ]
-          },
-          {
-            "mile": 1.82,
-            "elev": 2685,
-            "coord": [
-              44.20753,
-              -71.3949
             ]
           },
           {
@@ -1445,14 +1272,6 @@
             ]
           },
           {
-            "mile": 1.86,
-            "elev": 2716,
-            "coord": [
-              44.20698,
-              -71.39438
-            ]
-          },
-          {
             "mile": 1.89,
             "elev": 2749,
             "coord": [
@@ -1461,27 +1280,11 @@
             ]
           },
           {
-            "mile": 1.94,
-            "elev": 2787,
-            "coord": [
-              44.20602,
-              -71.39365
-            ]
-          },
-          {
             "mile": 2.02,
             "elev": 2776,
             "coord": [
               44.20538,
               -71.3926
-            ]
-          },
-          {
-            "mile": 2.05,
-            "elev": 2775,
-            "coord": [
-              44.20489,
-              -71.39293
             ]
           },
           {
@@ -1507,6 +1310,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

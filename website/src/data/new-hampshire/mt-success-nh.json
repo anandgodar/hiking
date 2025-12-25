@@ -41,17 +41,8 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Old Speck Mountain",
-      "slug": "old-speck-mountain-me",
-      "state_slug": "maine",
-      "elevation": 4180,
-      "distance_miles": 8.0
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New Hampshire on Mount Success. At 3565 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Success rises to 3565 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -59,7 +50,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 3565 feet, Mount Success is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Success Trail**, a **6.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Old Speck Mountain**, which is just 8.0 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 3565 feet, Mount Success is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Success Trail**, a **6.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Success Trail",
@@ -68,6 +59,7 @@
         "remote",
         "views"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 2.2,
         "gain": 617,
@@ -358,27 +350,11 @@
             ]
           },
           {
-            "mile": 0.1,
-            "elev": 3077,
-            "coord": [
-              44.47949,
-              -71.04858
-            ]
-          },
-          {
             "mile": 0.21,
             "elev": 3051,
             "coord": [
               44.47858,
               -71.04669
-            ]
-          },
-          {
-            "mile": 0.31,
-            "elev": 3063,
-            "coord": [
-              44.47815,
-              -71.04502
             ]
           },
           {
@@ -390,14 +366,6 @@
             ]
           },
           {
-            "mile": 0.59,
-            "elev": 3188,
-            "coord": [
-              44.47832,
-              -71.03961
-            ]
-          },
-          {
             "mile": 0.67,
             "elev": 3239,
             "coord": [
@@ -406,27 +374,11 @@
             ]
           },
           {
-            "mile": 0.74,
-            "elev": 3312,
-            "coord": [
-              44.47624,
-              -71.03901
-            ]
-          },
-          {
             "mile": 0.81,
             "elev": 3325,
             "coord": [
               44.47549,
               -71.03984
-            ]
-          },
-          {
-            "mile": 0.98,
-            "elev": 3444,
-            "coord": [
-              44.47314,
-              -71.03973
             ]
           },
           {
@@ -460,6 +412,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

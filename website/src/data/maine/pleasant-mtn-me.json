@@ -4,13 +4,23 @@
   "state": "Maine",
   "state_slug": "maine",
   "elevation": 2006,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
-    "Lake Views",
-    "Southern Maine",
-    "Family Friendly"
+    "lakes_region",
+    "moderate",
+    "ski_area",
+    "views"
   ],
   "lat": 44.0253,
   "lon": -70.8178,
+  "current_conditions": {
+    "ai_summary": "Southern Maine's highest peak offers friendly terrain and expansive views of the White Mountains to the west. Very popular for day hikes.",
+    "risk_factors": [
+      "Crowded on weekends"
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Pleasant Mountain lives up to its name. The Ledges Trail offers open slab walking with constant views of Moose Pond and, on clear days, Mount Washington looming in the distance.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">A moderate climb that is accessible to fit families. The Ledges trail is steep initially but mellows out on the ridge.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Local Insight</h4>\n        <p class=\"text-sm text-emerald-800\">The Southwest Ridge trail is longer but far less crowded than Ledges if you want solitude.</p>\n    </div>\n    ",
   "trails_config": [
     {
       "name": "Ledges Trail",
@@ -18,38 +28,42 @@
       "difficulty": "Moderate",
       "distance_miles": 3.6,
       "tags": [
-        "best",
-        "short",
-        "views"
+        "popular",
+        "views",
+        "dog_friendly"
       ],
-      "description": "Short, popular hike offering expansive views of Moose Pond and the White Mountains in the distance.",
-      "parking_info": "Ledges Trailhead, Mountain Rd, Bridgton, ME",
+      "description": "The most popular route, featuring open granite ledges with views west.",
+      "parking_info": "Ledges Trailhead on Mountain Rd",
       "start_lat": 44.0375,
       "start_lon": -70.8039,
-      "via_lat": null,
-      "via_lon": null,
-      "features": []
+      "smart_logic": {
+        "access_type": "standard",
+        "routing_strategy": "standard",
+        "ui_alert": null
+      },
+      "features": [
+        {
+          "name": "Main Summit",
+          "type": "summit",
+          "lat": 44.0253,
+          "lon": -70.8178
+        }
+      ]
     }
   ],
-  "nearby_peaks": [],
-  "current_conditions": {
-    "ai_summary": "Experience the beauty of Maine on Pleasant Mountain. At 2006 feet, this summit commands impressive views of the surrounding wilderness.",
-    "risk_factors": [
-      "Weather changes rapidly above treeline.",
-      "Bring extra water and layers.",
-      "Check local trail conditions before departing.",
-      "Start early to avoid afternoon storms."
-    ]
-  },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2006 feet, Pleasant Mountain is a standout peak in Maine. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Ledges Trail**, a **3.6 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Ledges Trail",
       "tags": [
-        "best",
-        "short",
-        "views"
+        "popular",
+        "views",
+        "dog_friendly"
       ],
+      "smart_logic": {
+        "access_type": "standard",
+        "routing_strategy": "standard",
+        "ui_alert": null
+      },
       "stats": {
         "distance": 4.6,
         "gain": 1273,
@@ -1015,27 +1029,11 @@
             ]
           },
           {
-            "mile": 0.15,
-            "elev": 495,
-            "coord": [
-              44.03574,
-              -70.801
-            ]
-          },
-          {
             "mile": 0.22,
             "elev": 490,
             "coord": [
               44.03476,
               -70.80062
-            ]
-          },
-          {
-            "mile": 0.28,
-            "elev": 484,
-            "coord": [
-              44.03382,
-              -70.80048
             ]
           },
           {
@@ -1047,27 +1045,11 @@
             ]
           },
           {
-            "mile": 0.39,
-            "elev": 505,
-            "coord": [
-              44.0323,
-              -70.80014
-            ]
-          },
-          {
             "mile": 0.5,
             "elev": 496,
             "coord": [
               44.03075,
               -70.79947
-            ]
-          },
-          {
-            "mile": 0.59,
-            "elev": 510,
-            "coord": [
-              44.02946,
-              -70.79928
             ]
           },
           {
@@ -1079,27 +1061,11 @@
             ]
           },
           {
-            "mile": 0.78,
-            "elev": 490,
-            "coord": [
-              44.02684,
-              -70.79838
-            ]
-          },
-          {
             "mile": 0.84,
             "elev": 487,
             "coord": [
               44.02591,
               -70.79813
-            ]
-          },
-          {
-            "mile": 0.9,
-            "elev": 482,
-            "coord": [
-              44.02506,
-              -70.79773
             ]
           },
           {
@@ -1111,27 +1077,11 @@
             ]
           },
           {
-            "mile": 0.99,
-            "elev": 509,
-            "coord": [
-              44.02452,
-              -70.79819
-            ]
-          },
-          {
             "mile": 1.01,
             "elev": 514,
             "coord": [
               44.02487,
               -70.79841
-            ]
-          },
-          {
-            "mile": 1.11,
-            "elev": 550,
-            "coord": [
-              44.02473,
-              -70.80008
             ]
           },
           {
@@ -1143,27 +1093,11 @@
             ]
           },
           {
-            "mile": 1.22,
-            "elev": 623,
-            "coord": [
-              44.02412,
-              -70.80212
-            ]
-          },
-          {
             "mile": 1.27,
             "elev": 664,
             "coord": [
               44.02392,
               -70.80296
-            ]
-          },
-          {
-            "mile": 1.34,
-            "elev": 727,
-            "coord": [
-              44.02409,
-              -70.80451
             ]
           },
           {
@@ -1175,27 +1109,11 @@
             ]
           },
           {
-            "mile": 1.48,
-            "elev": 833,
-            "coord": [
-              44.02404,
-              -70.80714
-            ]
-          },
-          {
             "mile": 1.54,
             "elev": 859,
             "coord": [
               44.02429,
               -70.80812
-            ]
-          },
-          {
-            "mile": 1.57,
-            "elev": 903,
-            "coord": [
-              44.02405,
-              -70.80856
             ]
           },
           {
@@ -1207,27 +1125,11 @@
             ]
           },
           {
-            "mile": 1.64,
-            "elev": 999,
-            "coord": [
-              44.02383,
-              -70.80944
-            ]
-          },
-          {
             "mile": 1.71,
             "elev": 1072,
             "coord": [
               44.02349,
               -70.81014
-            ]
-          },
-          {
-            "mile": 1.77,
-            "elev": 1133,
-            "coord": [
-              44.02428,
-              -70.81086
             ]
           },
           {
@@ -1239,27 +1141,11 @@
             ]
           },
           {
-            "mile": 1.84,
-            "elev": 1244,
-            "coord": [
-              44.02406,
-              -70.81186
-            ]
-          },
-          {
             "mile": 1.89,
             "elev": 1289,
             "coord": [
               44.02336,
               -70.81184
-            ]
-          },
-          {
-            "mile": 1.92,
-            "elev": 1334,
-            "coord": [
-              44.02325,
-              -70.81235
             ]
           },
           {
@@ -1271,14 +1157,6 @@
             ]
           },
           {
-            "mile": 2.0,
-            "elev": 1421,
-            "coord": [
-              44.02256,
-              -70.81359
-            ]
-          },
-          {
             "mile": 2.08,
             "elev": 1469,
             "coord": [
@@ -1287,27 +1165,11 @@
             ]
           },
           {
-            "mile": 2.16,
-            "elev": 1541,
-            "coord": [
-              44.02301,
-              -70.8165
-            ]
-          },
-          {
             "mile": 2.21,
             "elev": 1565,
             "coord": [
               44.02322,
               -70.81741
-            ]
-          },
-          {
-            "mile": 2.28,
-            "elev": 1646,
-            "coord": [
-              44.02384,
-              -70.81863
             ]
           },
           {
@@ -1334,5 +1196,5 @@
       }
     }
   ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  "nearby_peaks": []
 }

@@ -4,7 +4,7 @@
   "state": "Vermont",
   "state_slug": "vermont",
   "elevation": 3861,
-  "mountain_hero": "https://images.unsplash.com/photo-1574972765324-71737e462d73?q=80&w=2000",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
     "long_trail",
@@ -36,7 +36,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of Vermont on Jay Peak. At 3861 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "One of Vermont's premier peaks, Jay Peak rises to 3861 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -53,6 +53,7 @@
         "views",
         "northern"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 3.5,
         "gain": 1685,
@@ -608,27 +609,11 @@
             ]
           },
           {
-            "mile": 0.12,
-            "elev": 2237,
-            "coord": [
-              44.91289,
-              -72.50546
-            ]
-          },
-          {
             "mile": 0.17,
             "elev": 2237,
             "coord": [
               44.9128,
               -72.50627
-            ]
-          },
-          {
-            "mile": 0.22,
-            "elev": 2247,
-            "coord": [
-              44.91317,
-              -72.50721
             ]
           },
           {
@@ -640,27 +625,11 @@
             ]
           },
           {
-            "mile": 0.39,
-            "elev": 2259,
-            "coord": [
-              44.91394,
-              -72.51002
-            ]
-          },
-          {
             "mile": 0.42,
             "elev": 2301,
             "coord": [
               44.91417,
               -72.50936
-            ]
-          },
-          {
-            "mile": 0.46,
-            "elev": 2346,
-            "coord": [
-              44.91463,
-              -72.50917
             ]
           },
           {
@@ -672,27 +641,11 @@
             ]
           },
           {
-            "mile": 0.62,
-            "elev": 2579,
-            "coord": [
-              44.9162,
-              -72.51028
-            ]
-          },
-          {
             "mile": 0.91,
             "elev": 2908,
             "coord": [
               44.91868,
               -72.51485
-            ]
-          },
-          {
-            "mile": 1.05,
-            "elev": 3024,
-            "coord": [
-              44.9202,
-              -72.51643
             ]
           },
           {
@@ -704,27 +657,11 @@
             ]
           },
           {
-            "mile": 1.19,
-            "elev": 3131,
-            "coord": [
-              44.92074,
-              -72.51855
-            ]
-          },
-          {
             "mile": 1.28,
             "elev": 3238,
             "coord": [
               44.92051,
               -72.52043
-            ]
-          },
-          {
-            "mile": 1.34,
-            "elev": 3334,
-            "coord": [
-              44.92089,
-              -72.52132
             ]
           },
           {
@@ -736,14 +673,6 @@
             ]
           },
           {
-            "mile": 1.49,
-            "elev": 3565,
-            "coord": [
-              44.9217,
-              -72.52381
-            ]
-          },
-          {
             "mile": 1.56,
             "elev": 3654,
             "coord": [
@@ -752,27 +681,11 @@
             ]
           },
           {
-            "mile": 1.61,
-            "elev": 3759,
-            "coord": [
-              44.92278,
-              -72.52427
-            ]
-          },
-          {
             "mile": 1.65,
             "elev": 3785,
             "coord": [
               44.92331,
               -72.5248
-            ]
-          },
-          {
-            "mile": 1.72,
-            "elev": 3853,
-            "coord": [
-              44.92411,
-              -72.52556
             ]
           },
           {
@@ -798,6 +711,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

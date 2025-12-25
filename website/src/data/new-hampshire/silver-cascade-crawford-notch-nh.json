@@ -1,0 +1,159 @@
+{
+  "name": "Silver Cascade (Crawford Notch)",
+  "slug": "silver-cascade-crawford-notch-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 1634,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Waterfall",
+    "Roadside",
+    "Crawford Notch",
+    "White Mountains",
+    "Photography"
+  ],
+  "lat": 44.2071,
+  "lon": -71.4037,
+  "trails_config": [
+    {
+      "name": "Silver Cascade Roadside Scramble",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 0.3,
+      "tags": [
+        "best",
+        "roadside",
+        "scenic",
+        "quick-stop"
+      ],
+      "description": "An easy roadside classic with a big vertical look\u2014excellent for quick photos during foliage or spring runoff. Stay off wet ledges near the chute and keep kids close to the trail.",
+      "parking_info": "Silver Cascade Parking (Crawford Notch State Park), US-302",
+      "start_lat": 44.2065,
+      "start_lon": -71.4031,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Silver Cascade",
+          "type": "waterfall",
+          "lat": 44.2071,
+          "lon": -71.4037
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Flume Cascade (Crawford Notch)",
+      "slug": "flume-cascade-crawford-notch-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1650,
+      "distance_miles": 0.2
+    },
+    {
+      "name": "Mount Field",
+      "slug": "mount-field-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4340,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Mount Avalon",
+      "slug": "mount-avalon-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3440,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Mount Jackson",
+      "slug": "mount-jackson-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4052,
+      "distance_miles": 1.5
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New Hampshire's premier peaks, Silver Cascade (Crawford Notch) rises to 1634 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1634 feet, Silver Cascade (Crawford Notch) is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Silver Cascade Roadside Scramble**, a **0.3 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Flume Cascade (Crawford Notch)**, which is just 0.2 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Silver Cascade Roadside Scramble",
+      "tags": [
+        "best",
+        "roadside",
+        "scenic",
+        "quick-stop"
+      ],
+      "smart_logic": {},
+      "stats": {
+        "distance": 0.1,
+        "gain": 28,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.1
+      },
+      "geo": {
+        "path": [
+          [
+            44.2065,
+            -71.40308,
+            1677
+          ],
+          [
+            44.20675,
+            -71.40319,
+            1683
+          ],
+          [
+            44.20685,
+            -71.40324,
+            1683
+          ],
+          [
+            44.20717,
+            -71.40338,
+            1705
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1677,
+            "coord": [
+              44.2065,
+              -71.40308
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1705,
+            "coord": [
+              44.20717,
+              -71.40338
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.2065,
+            -71.40308,
+            1677
+          ],
+          "summit": [
+            44.2071,
+            -71.4037,
+            1634
+          ]
+        }
+      }
+    }
+  ]
+}

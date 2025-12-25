@@ -4,14 +4,24 @@
   "state": "Maine",
   "state_slug": "maine",
   "elevation": 4170,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
-    "4000 Footer",
-    "Tower Views",
-    "Mahoosuc Range",
-    "Waterfalls"
+    "4000_footer",
+    "fire_tower",
+    "waterfall",
+    "grafton_notch"
   ],
   "lat": 44.5714,
   "lon": -70.9547,
+  "current_conditions": {
+    "ai_summary": "The third-highest peak in Maine offers a forested climb in the rugged Grafton Notch. A fire tower at the summit guarantees unobstructed 360-degree views.",
+    "risk_factors": [
+      "Steep drop-offs at Eyebrow Trail",
+      "Ice lingers late into spring"
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Located in the rugged Mahoosuc Range, Old Speck is a classic heavy hitter. The trail passes the stunning Screw Auger Falls before ascending through boreal forest to a summit tower overlooking the White Mountains.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">A relentless uphill slog. The standard route is well-graded but long, while the Eyebrow Trail variation adds technical exposure early on.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Local Insight</h4>\n        <p class=\"text-sm text-emerald-800\">Don't miss the 0.2-mile detour to the gorge at the bottom; it's one of the best roadside waterfalls in New England.</p>\n    </div>\n    ",
   "trails_config": [
     {
       "name": "Old Speck Trail",
@@ -20,55 +30,50 @@
       "distance_miles": 7.6,
       "tags": [
         "best",
-        "popular",
-        "waterfalls"
+        "4000_footer",
+        "forest"
       ],
-      "description": "Steady climb passing cascade waterfalls. Summit is wooded but has an observation tower.",
-      "parking_info": "Grafton Notch State Park Parking, ME-26",
-      "start_lat": 44.5896,
+      "description": "The standard AT approach from the Grafton Notch parking lot.",
+      "parking_info": "Grafton Notch State Park Lot",
+      "start_lat": 44.59,
       "start_lon": -70.9472,
-      "via_lat": null,
-      "via_lon": null,
+      "smart_logic": {
+        "access_type": "standard",
+        "routing_strategy": "standard",
+        "ui_alert": null
+      },
       "features": [
         {
           "name": "Screw Auger Falls",
           "type": "waterfall",
           "lat": 44.5775,
           "lon": -70.9333
+        },
+        {
+          "name": "Summit Fire Tower",
+          "type": "viewpoint",
+          "lat": 44.5714,
+          "lon": -70.9547
         }
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Success",
-      "slug": "mt-success-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 3565,
-      "distance_miles": 8.0
-    }
-  ],
-  "current_conditions": {
-    "ai_summary": "Experience the beauty of Maine on Old Speck Mountain. At 4170 feet, this summit commands impressive views of the surrounding wilderness.",
-    "risk_factors": [
-      "Weather changes rapidly above treeline.",
-      "Bring extra water and layers.",
-      "Check local trail conditions before departing.",
-      "Start early to avoid afternoon storms."
-    ]
-  },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4170 feet, Old Speck Mountain is a standout peak in Maine. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Old Speck Trail**, a **7.6 mile** route gaining significant elevation. As part of the **Maine 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Success**, which is just 8.0 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Old Speck Trail",
       "tags": [
         "best",
-        "popular",
-        "waterfalls"
+        "4000_footer",
+        "forest"
       ],
+      "smart_logic": {
+        "access_type": "standard",
+        "routing_strategy": "standard",
+        "ui_alert": null
+      },
       "stats": {
         "distance": 6.4,
-        "gain": 2858,
+        "gain": 2857,
         "type": "Out & Back",
         "difficulty": "Hard",
         "time": 5.7
@@ -76,19 +81,9 @@
       "geo": {
         "path": [
           [
-            44.58983,
-            -70.94719,
-            1493
-          ],
-          [
-            44.58983,
-            -70.94713,
-            1493
-          ],
-          [
-            44.58998,
-            -70.94708,
-            1491
+            44.59003,
+            -70.94714,
+            1492
           ],
           [
             44.59025,
@@ -864,262 +859,134 @@
         "chart": [
           {
             "mile": 0,
-            "elev": 1493,
+            "elev": 1492,
             "coord": [
-              44.58983,
-              -70.94719
+              44.59003,
+              -70.94714
             ]
           },
           {
-            "mile": 0.07,
-            "elev": 1510,
+            "mile": 0.21,
+            "elev": 1590,
             "coord": [
-              44.59046,
-              -70.94791
+              44.58993,
+              -70.95067
             ]
           },
           {
-            "mile": 0.18,
-            "elev": 1555,
+            "mile": 0.45,
+            "elev": 1931,
             "coord": [
-              44.5904,
-              -70.95012
+              44.58888,
+              -70.95325
             ]
           },
           {
-            "mile": 0.34,
-            "elev": 1706,
+            "mile": 0.62,
+            "elev": 2166,
             "coord": [
-              44.58832,
-              -70.951
+              44.58873,
+              -70.9555
             ]
           },
           {
-            "mile": 0.44,
-            "elev": 1853,
+            "mile": 0.84,
+            "elev": 2390,
             "coord": [
-              44.5889,
-              -70.95272
+              44.58866,
+              -70.9588
             ]
           },
           {
-            "mile": 0.56,
-            "elev": 2026,
+            "mile": 0.99,
+            "elev": 2496,
             "coord": [
-              44.5887,
-              -70.95413
+              44.58987,
+              -70.95684
             ]
           },
           {
-            "mile": 0.61,
-            "elev": 2125,
+            "mile": 1.21,
+            "elev": 2681,
             "coord": [
-              44.58885,
-              -70.95504
+              44.59223,
+              -70.95817
             ]
           },
           {
-            "mile": 0.7,
-            "elev": 2256,
+            "mile": 1.46,
+            "elev": 2836,
             "coord": [
-              44.58825,
-              -70.95619
+              44.59051,
+              -70.96215
             ]
           },
           {
-            "mile": 0.83,
-            "elev": 2370,
+            "mile": 1.66,
+            "elev": 3126,
             "coord": [
-              44.58869,
-              -70.95838
+              44.58777,
+              -70.9631
             ]
           },
           {
-            "mile": 0.91,
-            "elev": 2409,
+            "mile": 1.9,
+            "elev": 3259,
             "coord": [
-              44.58918,
-              -70.95838
+              44.58457,
+              -70.96374
             ]
           },
           {
-            "mile": 0.97,
-            "elev": 2448,
+            "mile": 2.11,
+            "elev": 3334,
             "coord": [
-              44.58962,
-              -70.95757
+              44.58213,
+              -70.9641
             ]
           },
           {
-            "mile": 1.11,
-            "elev": 2543,
+            "mile": 2.32,
+            "elev": 3376,
             "coord": [
-              44.59122,
-              -70.95682
+              44.58005,
+              -70.96196
             ]
           },
           {
-            "mile": 1.19,
-            "elev": 2652,
+            "mile": 2.61,
+            "elev": 3649,
             "coord": [
-              44.59176,
-              -70.95797
+              44.57678,
+              -70.95963
             ]
           },
           {
-            "mile": 1.32,
-            "elev": 2725,
+            "mile": 2.78,
+            "elev": 3802,
             "coord": [
-              44.592,
-              -70.96004
+              44.57464,
+              -70.95893
             ]
           },
           {
-            "mile": 1.44,
-            "elev": 2789,
+            "mile": 2.98,
+            "elev": 4037,
             "coord": [
-              44.59095,
-              -70.96185
+              44.57218,
+              -70.95825
             ]
           },
           {
-            "mile": 1.55,
-            "elev": 2939,
+            "mile": 3.07,
+            "elev": 4090,
             "coord": [
-              44.58951,
-              -70.96237
+              44.57194,
+              -70.95686
             ]
           },
           {
-            "mile": 1.63,
-            "elev": 3058,
-            "coord": [
-              44.58846,
-              -70.96282
-            ]
-          },
-          {
-            "mile": 1.74,
-            "elev": 3190,
-            "coord": [
-              44.58703,
-              -70.9633
-            ]
-          },
-          {
-            "mile": 1.89,
-            "elev": 3257,
-            "coord": [
-              44.58492,
-              -70.96328
-            ]
-          },
-          {
-            "mile": 1.99,
-            "elev": 3296,
-            "coord": [
-              44.58385,
-              -70.96457
-            ]
-          },
-          {
-            "mile": 2.09,
-            "elev": 3354,
-            "coord": [
-              44.5825,
-              -70.96469
-            ]
-          },
-          {
-            "mile": 2.18,
-            "elev": 3359,
-            "coord": [
-              44.58136,
-              -70.96437
-            ]
-          },
-          {
-            "mile": 2.29,
-            "elev": 3366,
-            "coord": [
-              44.58046,
-              -70.96279
-            ]
-          },
-          {
-            "mile": 2.42,
-            "elev": 3476,
-            "coord": [
-              44.57943,
-              -70.96067
-            ]
-          },
-          {
-            "mile": 2.59,
-            "elev": 3701,
-            "coord": [
-              44.5773,
-              -70.95914
-            ]
-          },
-          {
-            "mile": 2.68,
-            "elev": 3677,
-            "coord": [
-              44.57619,
-              -70.95954
-            ]
-          },
-          {
-            "mile": 2.76,
-            "elev": 3758,
-            "coord": [
-              44.57515,
-              -70.95934
-            ]
-          },
-          {
-            "mile": 2.84,
-            "elev": 3819,
-            "coord": [
-              44.5741,
-              -70.95903
-            ]
-          },
-          {
-            "mile": 2.95,
-            "elev": 3941,
-            "coord": [
-              44.57251,
-              -70.95897
-            ]
-          },
-          {
-            "mile": 3.01,
-            "elev": 4061,
-            "coord": [
-              44.57202,
-              -70.95834
-            ]
-          },
-          {
-            "mile": 3.05,
-            "elev": 4088,
-            "coord": [
-              44.57199,
-              -70.95763
-            ]
-          },
-          {
-            "mile": 3.19,
-            "elev": 4157,
-            "coord": [
-              44.57128,
-              -70.955
-            ]
-          },
-          {
-            "mile": 3.2,
+            "mile": 3.18,
             "elev": 4166,
             "coord": [
               44.57122,
@@ -1129,9 +996,9 @@
         ],
         "markers": {
           "start": [
-            44.58983,
-            -70.94719,
-            1493
+            44.59003,
+            -70.94714,
+            1492
           ],
           "summit": [
             44.5714,
@@ -1142,5 +1009,5 @@
       }
     }
   ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  "nearby_peaks": []
 }

@@ -4,7 +4,7 @@
   "state": "Vermont",
   "state_slug": "vermont",
   "elevation": 3940,
-  "mountain_hero": "https://images.unsplash.com/photo-1548684078-d4508920155b?q=80&w=2000",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
     "appalachian_trail",
@@ -43,7 +43,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in Vermont. Standing at 3940 feet, Stratton Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of Vermont on Stratton Mountain. At 3940 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -60,6 +60,7 @@
         "fire_tower",
         "historic"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 5.4,
         "gain": 1493,
@@ -895,27 +896,11 @@
             ]
           },
           {
-            "mile": 0.1,
-            "elev": 2515,
-            "coord": [
-              43.06654,
-              -72.95152
-            ]
-          },
-          {
             "mile": 0.19,
             "elev": 2539,
             "coord": [
               43.06703,
               -72.95
-            ]
-          },
-          {
-            "mile": 0.28,
-            "elev": 2571,
-            "coord": [
-              43.06792,
-              -72.94913
             ]
           },
           {
@@ -927,27 +912,11 @@
             ]
           },
           {
-            "mile": 0.53,
-            "elev": 2664,
-            "coord": [
-              43.06891,
-              -72.94552
-            ]
-          },
-          {
             "mile": 0.64,
             "elev": 2760,
             "coord": [
               43.07012,
               -72.94457
-            ]
-          },
-          {
-            "mile": 0.71,
-            "elev": 2788,
-            "coord": [
-              43.0708,
-              -72.94365
             ]
           },
           {
@@ -959,27 +928,11 @@
             ]
           },
           {
-            "mile": 0.89,
-            "elev": 2962,
-            "coord": [
-              43.07228,
-              -72.94276
-            ]
-          },
-          {
             "mile": 0.92,
             "elev": 2989,
             "coord": [
               43.07235,
               -72.94225
-            ]
-          },
-          {
-            "mile": 1.0,
-            "elev": 3054,
-            "coord": [
-              43.07296,
-              -72.94115
             ]
           },
           {
@@ -991,27 +944,11 @@
             ]
           },
           {
-            "mile": 1.24,
-            "elev": 3219,
-            "coord": [
-              43.07572,
-              -72.93867
-            ]
-          },
-          {
             "mile": 1.47,
             "elev": 3270,
             "coord": [
               43.07721,
               -72.93457
-            ]
-          },
-          {
-            "mile": 1.61,
-            "elev": 3319,
-            "coord": [
-              43.07792,
-              -72.93206
             ]
           },
           {
@@ -1023,27 +960,11 @@
             ]
           },
           {
-            "mile": 1.75,
-            "elev": 3417,
-            "coord": [
-              43.07942,
-              -72.93136
-            ]
-          },
-          {
             "mile": 1.82,
             "elev": 3475,
             "coord": [
               43.0799,
               -72.93009
-            ]
-          },
-          {
-            "mile": 1.94,
-            "elev": 3559,
-            "coord": [
-              43.08076,
-              -72.92831
             ]
           },
           {
@@ -1055,27 +976,11 @@
             ]
           },
           {
-            "mile": 2.21,
-            "elev": 3741,
-            "coord": [
-              43.08333,
-              -72.927
-            ]
-          },
-          {
             "mile": 2.31,
             "elev": 3819,
             "coord": [
               43.08397,
               -72.92557
-            ]
-          },
-          {
-            "mile": 2.38,
-            "elev": 3885,
-            "coord": [
-              43.08486,
-              -72.92588
             ]
           },
           {
@@ -1087,27 +992,11 @@
             ]
           },
           {
-            "mile": 2.44,
-            "elev": 3909,
-            "coord": [
-              43.08528,
-              -72.92484
-            ]
-          },
-          {
             "mile": 2.48,
             "elev": 3931,
             "coord": [
               43.08576,
               -72.92491
-            ]
-          },
-          {
-            "mile": 2.52,
-            "elev": 3939,
-            "coord": [
-              43.08641,
-              -72.92489
             ]
           },
           {
@@ -1119,27 +1008,11 @@
             ]
           },
           {
-            "mile": 2.56,
-            "elev": 3924,
-            "coord": [
-              43.08693,
-              -72.92481
-            ]
-          },
-          {
             "mile": 2.61,
             "elev": 3886,
             "coord": [
               43.08762,
               -72.92472
-            ]
-          },
-          {
-            "mile": 2.64,
-            "elev": 3861,
-            "coord": [
-              43.08808,
-              -72.92466
             ]
           },
           {
@@ -1173,6 +1046,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

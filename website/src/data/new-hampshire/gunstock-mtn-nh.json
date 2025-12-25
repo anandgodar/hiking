@@ -41,38 +41,8 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Rowe",
-      "slug": "mt-rowe-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1680,
-      "distance_miles": 0.8
-    },
-    {
-      "name": "Mount Belknap",
-      "slug": "mt-belknap-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2382,
-      "distance_miles": 0.9
-    },
-    {
-      "name": "Mount Rand",
-      "slug": "mt-rand-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1883,
-      "distance_miles": 1.1
-    },
-    {
-      "name": "Mount Klem",
-      "slug": "mt-klem-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2001,
-      "distance_miles": 1.4
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2250 feet, Gunstock Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "One of New Hampshire's premier peaks, Gunstock Mountain rises to 2250 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -80,7 +50,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2250 feet, Gunstock Mountain is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Gunstock Mountain Trail**, a **3.0 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Rowe**, which is just 0.8 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2250 feet, Gunstock Mountain is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Gunstock Mountain Trail**, a **3.0 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Gunstock Mountain Trail",
@@ -89,6 +59,7 @@
         "lake_views",
         "popular"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 2.0,
         "gain": 616,
@@ -524,27 +495,11 @@
             ]
           },
           {
-            "mile": 0.06,
-            "elev": 935,
-            "coord": [
-              43.5408,
-              -71.36365
-            ]
-          },
-          {
             "mile": 0.11,
             "elev": 945,
             "coord": [
               43.54026,
               -71.36433
-            ]
-          },
-          {
-            "mile": 0.16,
-            "elev": 951,
-            "coord": [
-              43.54017,
-              -71.36526
             ]
           },
           {
@@ -556,27 +511,11 @@
             ]
           },
           {
-            "mile": 0.22,
-            "elev": 971,
-            "coord": [
-              43.53983,
-              -71.36612
-            ]
-          },
-          {
             "mile": 0.29,
             "elev": 1009,
             "coord": [
               43.53887,
               -71.36645
-            ]
-          },
-          {
-            "mile": 0.35,
-            "elev": 1034,
-            "coord": [
-              43.53823,
-              -71.36696
             ]
           },
           {
@@ -588,27 +527,11 @@
             ]
           },
           {
-            "mile": 0.47,
-            "elev": 1087,
-            "coord": [
-              43.53658,
-              -71.36759
-            ]
-          },
-          {
             "mile": 0.58,
             "elev": 1179,
             "coord": [
               43.53524,
               -71.36858
-            ]
-          },
-          {
-            "mile": 0.65,
-            "elev": 1223,
-            "coord": [
-              43.53471,
-              -71.36982
             ]
           },
           {
@@ -620,27 +543,11 @@
             ]
           },
           {
-            "mile": 0.76,
-            "elev": 1339,
-            "coord": [
-              43.5335,
-              -71.3706
-            ]
-          },
-          {
             "mile": 0.81,
             "elev": 1377,
             "coord": [
               43.53284,
               -71.37113
-            ]
-          },
-          {
-            "mile": 0.87,
-            "elev": 1406,
-            "coord": [
-              43.53214,
-              -71.37179
             ]
           },
           {
@@ -674,6 +581,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

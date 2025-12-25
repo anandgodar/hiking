@@ -4,7 +4,7 @@
   "state": "Vermont",
   "state_slug": "vermont",
   "elevation": 3850,
-  "mountain_hero": "https://images.unsplash.com/photo-1629854490748-0d3d5489069a?q=80&w=2000",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
     "southern_vt",
@@ -42,7 +42,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "One of Vermont's premier peaks, Equinox Mountain rises to 3850 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in Vermont. Standing at 3850 feet, Equinox Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -59,6 +59,7 @@
         "steep",
         "views"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 5.8,
         "gain": 2410,
@@ -809,27 +810,11 @@
             ]
           },
           {
-            "mile": 0.04,
-            "elev": 904,
-            "coord": [
-              43.16214,
-              -73.07507
-            ]
-          },
-          {
             "mile": 0.2,
             "elev": 954,
             "coord": [
               43.16278,
               -73.07757
-            ]
-          },
-          {
-            "mile": 0.31,
-            "elev": 1018,
-            "coord": [
-              43.16239,
-              -73.07952
             ]
           },
           {
@@ -841,27 +826,11 @@
             ]
           },
           {
-            "mile": 0.46,
-            "elev": 1071,
-            "coord": [
-              43.16247,
-              -73.08235
-            ]
-          },
-          {
             "mile": 0.57,
             "elev": 1118,
             "coord": [
               43.16393,
               -73.08314
-            ]
-          },
-          {
-            "mile": 0.68,
-            "elev": 1139,
-            "coord": [
-              43.1642,
-              -73.08497
             ]
           },
           {
@@ -873,27 +842,11 @@
             ]
           },
           {
-            "mile": 0.88,
-            "elev": 1189,
-            "coord": [
-              43.16209,
-              -73.08694
-            ]
-          },
-          {
             "mile": 0.95,
             "elev": 1189,
             "coord": [
               43.16117,
               -73.08744
-            ]
-          },
-          {
-            "mile": 1.05,
-            "elev": 1229,
-            "coord": [
-              43.16142,
-              -73.08892
             ]
           },
           {
@@ -905,27 +858,11 @@
             ]
           },
           {
-            "mile": 1.24,
-            "elev": 1322,
-            "coord": [
-              43.16359,
-              -73.08988
-            ]
-          },
-          {
             "mile": 1.33,
             "elev": 1353,
             "coord": [
               43.16432,
               -73.0903
-            ]
-          },
-          {
-            "mile": 1.43,
-            "elev": 1417,
-            "coord": [
-              43.16422,
-              -73.09211
             ]
           },
           {
@@ -937,27 +874,11 @@
             ]
           },
           {
-            "mile": 1.65,
-            "elev": 1666,
-            "coord": [
-              43.16617,
-              -73.09455
-            ]
-          },
-          {
             "mile": 1.71,
             "elev": 1760,
             "coord": [
               43.1663,
               -73.09567
-            ]
-          },
-          {
-            "mile": 1.83,
-            "elev": 1895,
-            "coord": [
-              43.16787,
-              -73.09629
             ]
           },
           {
@@ -969,27 +890,11 @@
             ]
           },
           {
-            "mile": 2.02,
-            "elev": 2139,
-            "coord": [
-              43.16896,
-              -73.09841
-            ]
-          },
-          {
             "mile": 2.12,
             "elev": 2246,
             "coord": [
               43.16806,
               -73.09966
-            ]
-          },
-          {
-            "mile": 2.2,
-            "elev": 2347,
-            "coord": [
-              43.16697,
-              -73.10046
             ]
           },
           {
@@ -1001,27 +906,11 @@
             ]
           },
           {
-            "mile": 2.42,
-            "elev": 2612,
-            "coord": [
-              43.16615,
-              -73.10413
-            ]
-          },
-          {
             "mile": 2.5,
             "elev": 2744,
             "coord": [
               43.1664,
               -73.10502
-            ]
-          },
-          {
-            "mile": 2.63,
-            "elev": 2930,
-            "coord": [
-              43.1653,
-              -73.10715
             ]
           },
           {
@@ -1055,6 +944,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

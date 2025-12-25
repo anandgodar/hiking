@@ -70,7 +70,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Mount Piper rises to 2044 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2044 feet, Mount Piper offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -87,6 +87,7 @@
         "open summit",
         "kids"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 3.3,
         "gain": 765,
@@ -582,27 +583,11 @@
             ]
           },
           {
-            "mile": 0.09,
-            "elev": 971,
-            "coord": [
-              43.49376,
-              -71.31725
-            ]
-          },
-          {
             "mile": 0.18,
             "elev": 969,
             "coord": [
               43.49362,
               -71.31884
-            ]
-          },
-          {
-            "mile": 0.25,
-            "elev": 969,
-            "coord": [
-              43.49464,
-              -71.3189
             ]
           },
           {
@@ -614,27 +599,11 @@
             ]
           },
           {
-            "mile": 0.42,
-            "elev": 987,
-            "coord": [
-              43.49523,
-              -71.32162
-            ]
-          },
-          {
             "mile": 0.5,
             "elev": 1026,
             "coord": [
               43.49633,
               -71.32214
-            ]
-          },
-          {
-            "mile": 0.64,
-            "elev": 1092,
-            "coord": [
-              43.49818,
-              -71.32287
             ]
           },
           {
@@ -646,27 +615,11 @@
             ]
           },
           {
-            "mile": 0.83,
-            "elev": 1196,
-            "coord": [
-              43.50089,
-              -71.32321
-            ]
-          },
-          {
             "mile": 0.91,
             "elev": 1282,
             "coord": [
               43.50197,
               -71.3229
-            ]
-          },
-          {
-            "mile": 0.98,
-            "elev": 1336,
-            "coord": [
-              43.50295,
-              -71.32264
             ]
           },
           {
@@ -678,14 +631,6 @@
             ]
           },
           {
-            "mile": 1.17,
-            "elev": 1602,
-            "coord": [
-              43.50335,
-              -71.31927
-            ]
-          },
-          {
             "mile": 1.25,
             "elev": 1626,
             "coord": [
@@ -694,27 +639,11 @@
             ]
           },
           {
-            "mile": 1.31,
-            "elev": 1636,
-            "coord": [
-              43.50338,
-              -71.3175
-            ]
-          },
-          {
             "mile": 1.38,
             "elev": 1668,
             "coord": [
               43.50441,
               -71.31726
-            ]
-          },
-          {
-            "mile": 1.45,
-            "elev": 1645,
-            "coord": [
-              43.50395,
-              -71.31637
             ]
           },
           {
@@ -748,6 +677,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

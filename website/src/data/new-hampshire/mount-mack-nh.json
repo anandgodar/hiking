@@ -70,7 +70,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 1945 feet, Mount Mack offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Mack. At 1945 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -87,6 +87,7 @@
         "ledges",
         "loop option"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 5.5,
         "gain": 282,
@@ -612,27 +613,11 @@
             ]
           },
           {
-            "mile": 0.14,
-            "elev": 519,
-            "coord": [
-              43.55827,
-              -71.32611
-            ]
-          },
-          {
             "mile": 0.37,
             "elev": 533,
             "coord": [
               43.55662,
               -71.32221
-            ]
-          },
-          {
-            "mile": 0.49,
-            "elev": 560,
-            "coord": [
-              43.5556,
-              -71.32027
             ]
           },
           {
@@ -644,27 +629,11 @@
             ]
           },
           {
-            "mile": 0.75,
-            "elev": 603,
-            "coord": [
-              43.5538,
-              -71.31577
-            ]
-          },
-          {
             "mile": 0.93,
             "elev": 603,
             "coord": [
               43.55283,
               -71.3125
-            ]
-          },
-          {
-            "mile": 0.98,
-            "elev": 603,
-            "coord": [
-              43.55235,
-              -71.31184
             ]
           },
           {
@@ -676,27 +645,11 @@
             ]
           },
           {
-            "mile": 1.31,
-            "elev": 602,
-            "coord": [
-              43.54875,
-              -71.30764
-            ]
-          },
-          {
             "mile": 1.44,
             "elev": 581,
             "coord": [
               43.54719,
               -71.30614
-            ]
-          },
-          {
-            "mile": 1.55,
-            "elev": 563,
-            "coord": [
-              43.54605,
-              -71.30457
             ]
           },
           {
@@ -708,27 +661,11 @@
             ]
           },
           {
-            "mile": 1.8,
-            "elev": 549,
-            "coord": [
-              43.54325,
-              -71.30151
-            ]
-          },
-          {
             "mile": 1.97,
             "elev": 520,
             "coord": [
               43.54082,
               -71.30064
-            ]
-          },
-          {
-            "mile": 2.05,
-            "elev": 530,
-            "coord": [
-              43.54032,
-              -71.30186
             ]
           },
           {
@@ -740,27 +677,11 @@
             ]
           },
           {
-            "mile": 2.27,
-            "elev": 583,
-            "coord": [
-              43.53936,
-              -71.30583
-            ]
-          },
-          {
             "mile": 2.34,
             "elev": 598,
             "coord": [
               43.53912,
               -71.30722
-            ]
-          },
-          {
-            "mile": 2.6,
-            "elev": 646,
-            "coord": [
-              43.53892,
-              -71.31242
             ]
           },
           {
@@ -786,6 +707,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

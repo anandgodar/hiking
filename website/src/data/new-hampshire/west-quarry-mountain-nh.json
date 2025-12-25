@@ -72,7 +72,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, West Quarry Mountain rises to 1894 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of New Hampshire on West Quarry Mountain. At 1894 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -89,6 +89,7 @@
         "woods",
         "loop"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 4.7,
         "gain": 602,
@@ -1024,27 +1025,11 @@
             ]
           },
           {
-            "mile": 0.05,
-            "elev": 803,
-            "coord": [
-              43.56379,
-              -71.34742
-            ]
-          },
-          {
             "mile": 0.14,
             "elev": 761,
             "coord": [
               43.56429,
               -71.34584
-            ]
-          },
-          {
-            "mile": 0.22,
-            "elev": 681,
-            "coord": [
-              43.56494,
-              -71.34509
             ]
           },
           {
@@ -1056,27 +1041,11 @@
             ]
           },
           {
-            "mile": 0.5,
-            "elev": 613,
-            "coord": [
-              43.5673,
-              -71.34381
-            ]
-          },
-          {
             "mile": 0.62,
             "elev": 627,
             "coord": [
               43.5685,
               -71.34241
-            ]
-          },
-          {
-            "mile": 0.71,
-            "elev": 624,
-            "coord": [
-              43.56772,
-              -71.34096
             ]
           },
           {
@@ -1088,27 +1057,11 @@
             ]
           },
           {
-            "mile": 1.15,
-            "elev": 521,
-            "coord": [
-              43.56309,
-              -71.33556
-            ]
-          },
-          {
             "mile": 1.2,
             "elev": 510,
             "coord": [
               43.5625,
               -71.33503
-            ]
-          },
-          {
-            "mile": 1.27,
-            "elev": 518,
-            "coord": [
-              43.56175,
-              -71.33393
             ]
           },
           {
@@ -1120,27 +1073,11 @@
             ]
           },
           {
-            "mile": 1.66,
-            "elev": 518,
-            "coord": [
-              43.55873,
-              -71.32766
-            ]
-          },
-          {
             "mile": 1.93,
             "elev": 615,
             "coord": [
               43.55493,
               -71.32672
-            ]
-          },
-          {
-            "mile": 1.97,
-            "elev": 616,
-            "coord": [
-              43.55429,
-              -71.327
             ]
           },
           {
@@ -1152,27 +1089,11 @@
             ]
           },
           {
-            "mile": 2.17,
-            "elev": 682,
-            "coord": [
-              43.55242,
-              -71.32995
-            ]
-          },
-          {
             "mile": 2.33,
             "elev": 698,
             "coord": [
               43.55133,
               -71.33269
-            ]
-          },
-          {
-            "mile": 2.42,
-            "elev": 682,
-            "coord": [
-              43.55199,
-              -71.331
             ]
           },
           {
@@ -1184,27 +1105,11 @@
             ]
           },
           {
-            "mile": 2.66,
-            "elev": 620,
-            "coord": [
-              43.55402,
-              -71.32729
-            ]
-          },
-          {
             "mile": 2.71,
             "elev": 616,
             "coord": [
               43.5547,
               -71.32674
-            ]
-          },
-          {
-            "mile": 2.91,
-            "elev": 573,
-            "coord": [
-              43.55755,
-              -71.32732
             ]
           },
           {
@@ -1216,27 +1121,11 @@
             ]
           },
           {
-            "mile": 3.31,
-            "elev": 519,
-            "coord": [
-              43.56123,
-              -71.33252
-            ]
-          },
-          {
             "mile": 3.41,
             "elev": 516,
             "coord": [
               43.56195,
               -71.33431
-            ]
-          },
-          {
-            "mile": 3.5,
-            "elev": 517,
-            "coord": [
-              43.56296,
-              -71.33543
             ]
           },
           {
@@ -1248,27 +1137,11 @@
             ]
           },
           {
-            "mile": 3.82,
-            "elev": 614,
-            "coord": [
-              43.56666,
-              -71.3391
-            ]
-          },
-          {
             "mile": 4.01,
             "elev": 626,
             "coord": [
               43.56828,
               -71.34194
-            ]
-          },
-          {
-            "mile": 4.14,
-            "elev": 616,
-            "coord": [
-              43.56747,
-              -71.34363
             ]
           },
           {
@@ -1280,27 +1153,11 @@
             ]
           },
           {
-            "mile": 4.39,
-            "elev": 685,
-            "coord": [
-              43.56534,
-              -71.34581
-            ]
-          },
-          {
             "mile": 4.48,
             "elev": 710,
             "coord": [
               43.56453,
               -71.34506
-            ]
-          },
-          {
-            "mile": 4.59,
-            "elev": 792,
-            "coord": [
-              43.5639,
-              -71.34706
             ]
           },
           {
@@ -1334,6 +1191,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

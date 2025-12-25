@@ -47,36 +47,6 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Mount Field",
-      "slug": "mt-field-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4340,
-      "distance_miles": 1.1
-    },
-    {
-      "name": "Mount Avalon",
-      "slug": "mt-avalon-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 3442,
-      "distance_miles": 1.6
-    },
-    {
-      "name": "Mount Webster",
-      "slug": "mt-webster-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 3911,
-      "distance_miles": 2.1
-    },
-    {
-      "name": "Mount Willard",
-      "slug": "mount-willard",
-      "state_slug": "new-hampshire",
-      "elevation": 2865,
-      "distance_miles": 2.1
-    }
-  ],
   "current_conditions": {
     "ai_summary": "One of New Hampshire's premier peaks, Mount Willey rises to 4285 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
@@ -86,7 +56,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4285 feet, Mount Willey is a standout peak in New Hampshire. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Willey Range Trail via Kedron Flume**, a **5.4 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Field**, which is just 1.1 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4285 feet, Mount Willey is a standout peak in New Hampshire. Known for its rugged and challenging terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Willey Range Trail via Kedron Flume**, a **5.4 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Willey Range Trail via Kedron Flume",
@@ -95,6 +65,7 @@
         "steep",
         "waterfalls"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 2.4,
         "gain": 1659,
@@ -535,27 +506,11 @@
             ]
           },
           {
-            "mile": 0.08,
-            "elev": 2878,
-            "coord": [
-              44.17437,
-              -71.41374
-            ]
-          },
-          {
             "mile": 0.15,
             "elev": 2834,
             "coord": [
               44.1746,
               -71.41231
-            ]
-          },
-          {
-            "mile": 0.23,
-            "elev": 2751,
-            "coord": [
-              44.17488,
-              -71.41082
             ]
           },
           {
@@ -567,27 +522,11 @@
             ]
           },
           {
-            "mile": 0.41,
-            "elev": 2698,
-            "coord": [
-              44.17639,
-              -71.40944
-            ]
-          },
-          {
             "mile": 0.48,
             "elev": 2777,
             "coord": [
               44.17728,
               -71.40992
-            ]
-          },
-          {
-            "mile": 0.57,
-            "elev": 2859,
-            "coord": [
-              44.17771,
-              -71.41163
             ]
           },
           {
@@ -599,27 +538,11 @@
             ]
           },
           {
-            "mile": 0.71,
-            "elev": 3078,
-            "coord": [
-              44.17884,
-              -71.4139
-            ]
-          },
-          {
             "mile": 0.84,
             "elev": 3417,
             "coord": [
               44.17992,
               -71.4159
-            ]
-          },
-          {
-            "mile": 0.88,
-            "elev": 3554,
-            "coord": [
-              44.18003,
-              -71.4168
             ]
           },
           {
@@ -631,27 +554,11 @@
             ]
           },
           {
-            "mile": 1.0,
-            "elev": 3820,
-            "coord": [
-              44.1815,
-              -71.41792
-            ]
-          },
-          {
             "mile": 1.06,
             "elev": 3991,
             "coord": [
               44.18203,
               -71.41891
-            ]
-          },
-          {
-            "mile": 1.14,
-            "elev": 4125,
-            "coord": [
-              44.18288,
-              -71.41962
             ]
           },
           {
@@ -685,6 +592,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

@@ -48,6 +48,13 @@
       "distance_miles": 2.6
     },
     {
+      "name": "Shell Cascade",
+      "slug": "shell-cascade-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1509,
+      "distance_miles": 2.8
+    },
+    {
       "name": "East Osceola",
       "slug": "east-osceola-nh",
       "state_slug": "new-hampshire",
@@ -60,13 +67,6 @@
       "state_slug": "new-hampshire",
       "elevation": 2605,
       "distance_miles": 3.8
-    },
-    {
-      "name": "North Tripyramid",
-      "slug": "north-tripyramid-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4180,
-      "distance_miles": 5.8
     }
   ],
   "current_conditions": {
@@ -87,6 +87,7 @@
         "family friendly",
         "ski slope view"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 0.2,
         "gain": 88,
@@ -217,27 +218,11 @@
             ]
           },
           {
-            "mile": 0.02,
-            "elev": 3966,
-            "coord": [
-              43.9663,
-              -71.55722
-            ]
-          },
-          {
             "mile": 0.04,
             "elev": 3991,
             "coord": [
               43.9662,
               -71.55692
-            ]
-          },
-          {
-            "mile": 0.07,
-            "elev": 4010,
-            "coord": [
-              43.96646,
-              -71.55655
             ]
           },
           {
@@ -271,6 +256,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

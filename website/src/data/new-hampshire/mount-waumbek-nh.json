@@ -49,7 +49,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Mount Waumbek rises to 4006 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4006 feet, Mount Waumbek offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -66,6 +66,7 @@
         "heritage",
         "winter favorite"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 1.8,
         "gain": 967,
@@ -346,27 +347,11 @@
             ]
           },
           {
-            "mile": 0.06,
-            "elev": 2263,
-            "coord": [
-              44.4223,
-              -71.45459
-            ]
-          },
-          {
             "mile": 0.13,
             "elev": 2328,
             "coord": [
               44.42248,
               -71.45312
-            ]
-          },
-          {
-            "mile": 0.22,
-            "elev": 2421,
-            "coord": [
-              44.42312,
-              -71.45169
             ]
           },
           {
@@ -378,14 +363,6 @@
             ]
           },
           {
-            "mile": 0.4,
-            "elev": 2642,
-            "coord": [
-              44.42351,
-              -71.4483
-            ]
-          },
-          {
             "mile": 0.48,
             "elev": 2756,
             "coord": [
@@ -394,27 +371,11 @@
             ]
           },
           {
-            "mile": 0.54,
-            "elev": 2812,
-            "coord": [
-              44.42434,
-              -71.44583
-            ]
-          },
-          {
             "mile": 0.6,
             "elev": 2901,
             "coord": [
               44.42471,
               -71.44459
-            ]
-          },
-          {
-            "mile": 0.71,
-            "elev": 3008,
-            "coord": [
-              44.42592,
-              -71.44332
             ]
           },
           {
@@ -448,6 +409,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

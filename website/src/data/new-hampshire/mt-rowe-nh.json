@@ -41,38 +41,8 @@
       ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "Gunstock Mountain",
-      "slug": "gunstock-mtn-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2250,
-      "distance_miles": 0.8
-    },
-    {
-      "name": "Mount Rand",
-      "slug": "mt-rand-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1883,
-      "distance_miles": 1.5
-    },
-    {
-      "name": "Mount Klem",
-      "slug": "mt-klem-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2001,
-      "distance_miles": 1.5
-    },
-    {
-      "name": "Mount Belknap",
-      "slug": "mt-belknap-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2382,
-      "distance_miles": 1.6
-    }
-  ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Mount Rowe rises to 1680 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 1680 feet, Mount Rowe offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -80,7 +50,7 @@
       "Start early to avoid afternoon storms."
     ]
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1680 feet, Mount Rowe is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mt Rowe Trail**, a **2.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Gunstock Mountain**, which is just 0.8 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1680 feet, Mount Rowe is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mt Rowe Trail**, a **2.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">This peak stands relatively isolated, offering a solitary summit experience.</p>\n    </div>\n    ",
   "trails": [
     {
       "name": "Mt Rowe Trail",
@@ -89,6 +59,7 @@
         "short",
         "popular"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 0.4,
         "gain": 24,
@@ -219,27 +190,11 @@
             ]
           },
           {
-            "mile": 0.06,
-            "elev": 935,
-            "coord": [
-              43.5408,
-              -71.36365
-            ]
-          },
-          {
             "mile": 0.11,
             "elev": 945,
             "coord": [
               43.54026,
               -71.36433
-            ]
-          },
-          {
-            "mile": 0.16,
-            "elev": 951,
-            "coord": [
-              43.54017,
-              -71.36526
             ]
           },
           {
@@ -273,6 +228,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

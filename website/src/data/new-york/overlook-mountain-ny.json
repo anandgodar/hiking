@@ -4,7 +4,7 @@
   "state": "New York",
   "state_slug": "new-york",
   "elevation": 3140,
-  "mountain_hero": "https://images.unsplash.com/photo-1572979927962-d6c4728564db?q=80&w=2000",
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
     "catskills",
@@ -74,6 +74,7 @@
         "ruins",
         "popular"
       ],
+      "smart_logic": {},
       "stats": {
         "distance": 3.9,
         "gain": 323,
@@ -714,27 +715,11 @@
             ]
           },
           {
-            "mile": 0.06,
-            "elev": 1633,
-            "coord": [
-              42.07234,
-              -74.13741
-            ]
-          },
-          {
             "mile": 0.09,
             "elev": 1615,
             "coord": [
               42.07251,
               -74.13782
-            ]
-          },
-          {
-            "mile": 0.19,
-            "elev": 1565,
-            "coord": [
-              42.0721,
-              -74.13952
             ]
           },
           {
@@ -746,27 +731,11 @@
             ]
           },
           {
-            "mile": 0.27,
-            "elev": 1526,
-            "coord": [
-              42.07314,
-              -74.13923
-            ]
-          },
-          {
             "mile": 0.33,
             "elev": 1485,
             "coord": [
               42.07365,
               -74.14024
-            ]
-          },
-          {
-            "mile": 0.42,
-            "elev": 1465,
-            "coord": [
-              42.07441,
-              -74.14023
             ]
           },
           {
@@ -778,27 +747,11 @@
             ]
           },
           {
-            "mile": 0.7,
-            "elev": 1470,
-            "coord": [
-              42.07671,
-              -74.13569
-            ]
-          },
-          {
             "mile": 0.78,
             "elev": 1486,
             "coord": [
               42.07726,
               -74.13429
-            ]
-          },
-          {
-            "mile": 0.88,
-            "elev": 1505,
-            "coord": [
-              42.07724,
-              -74.1323
             ]
           },
           {
@@ -810,27 +763,11 @@
             ]
           },
           {
-            "mile": 1.2,
-            "elev": 1668,
-            "coord": [
-              42.07524,
-              -74.12686
-            ]
-          },
-          {
             "mile": 1.27,
             "elev": 1690,
             "coord": [
               42.07436,
               -74.12635
-            ]
-          },
-          {
-            "mile": 1.32,
-            "elev": 1695,
-            "coord": [
-              42.0738,
-              -74.12583
             ]
           },
           {
@@ -842,27 +779,11 @@
             ]
           },
           {
-            "mile": 1.52,
-            "elev": 1749,
-            "coord": [
-              42.07157,
-              -74.12368
-            ]
-          },
-          {
             "mile": 1.57,
             "elev": 1760,
             "coord": [
               42.07116,
               -74.12288
-            ]
-          },
-          {
-            "mile": 1.59,
-            "elev": 1751,
-            "coord": [
-              42.07091,
-              -74.12265
             ]
           },
           {
@@ -874,27 +795,11 @@
             ]
           },
           {
-            "mile": 1.72,
-            "elev": 1675,
-            "coord": [
-              42.06936,
-              -74.12382
-            ]
-          },
-          {
             "mile": 1.78,
             "elev": 1631,
             "coord": [
               42.06897,
               -74.12285
-            ]
-          },
-          {
-            "mile": 1.81,
-            "elev": 1615,
-            "coord": [
-              42.06871,
-              -74.12233
             ]
           },
           {
@@ -928,6 +833,5 @@
         }
       }
     }
-  ],
-  "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+  ]
 }

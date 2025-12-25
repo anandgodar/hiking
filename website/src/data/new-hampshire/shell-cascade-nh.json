@@ -1,0 +1,149 @@
+{
+  "name": "Shell Cascade",
+  "slug": "shell-cascade-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 1509,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Waterfall",
+    "Sandwich Range",
+    "Short Hike",
+    "White Mountains",
+    "Hidden Gem"
+  ],
+  "lat": 43.9298,
+  "lon": -71.5348,
+  "trails_config": [
+    {
+      "name": "Shell Cascade Short Walk",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 0.4,
+      "tags": [
+        "best",
+        "family-friendly",
+        "quick",
+        "scenic"
+      ],
+      "description": "A quick, low-commitment waterfall stop with a classic \u2018woodsy cascade\u2019 vibe\u2014perfect for families or as a bonus stop on a Sandwich Range day. Best after rain when the brook is lively.",
+      "parking_info": "Shell Cascade Trailhead Parking (Sandwich Notch area)",
+      "start_lat": 43.9299,
+      "start_lon": -71.535,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Shell Cascade",
+          "type": "waterfall",
+          "lat": 43.9298,
+          "lon": -71.5348
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Welch & Dickey Mountains",
+      "slug": "welch-dickey-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2605,
+      "distance_miles": 1.7
+    },
+    {
+      "name": "Fletcher Cascades",
+      "slug": "fletcher-cascades-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2103,
+      "distance_miles": 2.3
+    },
+    {
+      "name": "Mount Tecumseh",
+      "slug": "mount-tecumseh-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4003,
+      "distance_miles": 2.8
+    },
+    {
+      "name": "Mount Osceola",
+      "slug": "mount-osceola-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4340,
+      "distance_miles": 4.8
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 1509 feet, Shell Cascade offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1509 feet, Shell Cascade is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Shell Cascade Short Walk**, a **0.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Welch & Dickey Mountains**, which is just 1.7 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Shell Cascade Short Walk",
+      "tags": [
+        "best",
+        "family-friendly",
+        "quick",
+        "scenic"
+      ],
+      "smart_logic": {},
+      "stats": {
+        "distance": 0.0,
+        "gain": 0,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.0
+      },
+      "geo": {
+        "path": [
+          [
+            43.93216,
+            -71.53236,
+            1500
+          ],
+          [
+            43.93214,
+            -71.53232,
+            1500
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1500,
+            "coord": [
+              43.93216,
+              -71.53236
+            ]
+          },
+          {
+            "mile": 0.0,
+            "elev": 1500,
+            "coord": [
+              43.93214,
+              -71.53232
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.93216,
+            -71.53236,
+            1500
+          ],
+          "summit": [
+            43.9298,
+            -71.5348,
+            1509
+          ]
+        }
+      }
+    }
+  ]
+}
