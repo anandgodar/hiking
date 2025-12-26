@@ -61,7 +61,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of Vermont on Camel's Hump. At 4083 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "A spectacular hike located in Vermont. Standing at 4083 feet, Camel's Hump offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -79,6 +79,14 @@
         "shortest"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Burrows Trailhead, Camels Hump Rd, Huntington, VT",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Burrows%20Trailhead%2C%20Camels%20Hump%20Rd%2C%20Huntington%2C%20VT",
+        "start_coords": [
+          44.311,
+          -72.915
+        ]
+      },
       "stats": {
         "distance": 6.2,
         "gain": 2570,
@@ -1419,6 +1427,14 @@
         "less_crowded"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Monroe Trailhead, Camel's Hump Rd, Duxbury, VT",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Monroe%20Trailhead%2C%20Camel%27s%20Hump%20Rd%2C%20Duxbury%2C%20VT",
+        "start_coords": [
+          44.321,
+          -72.855
+        ]
+      },
       "stats": {
         "distance": 6.7,
         "gain": 2824,

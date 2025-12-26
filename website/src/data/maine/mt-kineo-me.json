@@ -51,7 +51,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "One of Maine's premier peaks, Mount Kineo rises to 1789 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of Maine on Mount Kineo. At 1789 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -75,6 +75,14 @@
           "title": "Boat Access Only",
           "message": "The trailhead is on the island. You must take the Kineo Shuttle from Rockwood to reach this start point."
         }
+      },
+      "logistics": {
+        "parking_info": "Rockwood Boat Launch (Shuttle Required), Rockwood, ME",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Rockwood%20Boat%20Launch%20%28Shuttle%20Required%29%2C%20Rockwood%2C%20ME",
+        "start_coords": [
+          45.6975,
+          -69.7342
+        ]
       },
       "stats": {
         "distance": 3.7,

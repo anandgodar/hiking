@@ -28,6 +28,12 @@
         "shaded"
       ],
       "description": "A steady forest climb to a tall cascade that shines after rain\u2014one of the best waterfall hikes near the Kancamagus corridor. In peak foliage, this trail is pure postcard New England.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Champney Falls Trailhead Parking, Champney Falls Rd / Rt 16",
       "start_lat": 43.9899,
       "start_lon": -71.2991,
@@ -54,6 +60,12 @@
         "steep"
       ],
       "description": "Turn your waterfall hike into an iconic Chocorua day: waterfalls low, wide-open summit views high. Expect rock scrambles near the top and big rewards for effort on clear days.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Champney Falls Trailhead Parking, Champney Falls Rd / Rt 16",
       "start_lat": 43.9899,
       "start_lon": -71.2991,
@@ -100,7 +112,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Champney Falls (Mount Chocorua) rises to 1860 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of New Hampshire on Champney Falls (Mount Chocorua). At 1860 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -119,6 +131,18 @@
         "shaded"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Champney Falls Trailhead Parking, Champney Falls Rd / Rt 16",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Champney%20Falls%20Trailhead%20Parking%2C%20Champney%20Falls%20Rd%20/%20Rt%2016",
+        "start_coords": [
+          43.9899,
+          -71.2991
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 3.2,
         "gain": 680,
@@ -659,6 +683,18 @@
         "steep"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Champney Falls Trailhead Parking, Champney Falls Rd / Rt 16",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Champney%20Falls%20Trailhead%20Parking%2C%20Champney%20Falls%20Rd%20/%20Rt%2016",
+        "start_coords": [
+          43.9899,
+          -71.2991
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 3.2,
         "gain": 680,

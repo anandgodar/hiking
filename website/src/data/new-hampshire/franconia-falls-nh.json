@@ -28,6 +28,12 @@
         "scenic"
       ],
       "description": "A wilderness-style walk to wide granite cascades and pools\u2014one of the best swimming-hole waterfall hikes in the Whites. Plan for a longer day and bring bug spray in summer; early starts help with parking.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Lincoln Woods Trailhead Parking, Kancamagus Hwy (NH-112), Lincoln",
       "start_lat": 44.038,
       "start_lon": -71.6697,
@@ -54,6 +60,12 @@
         "scenic"
       ],
       "description": "Add variety by looping past Black Pond for a quieter forest-and-water combo, then finish at the cascades for a dip. This is a great shoulder-season hike when the river is lively but crowds are lighter.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Lincoln Woods Trailhead Parking, Kancamagus Hwy (NH-112), Lincoln",
       "start_lat": 44.038,
       "start_lon": -71.6697,
@@ -100,7 +112,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Franconia Falls rises to 1555 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 1555 feet, Franconia Falls offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -119,6 +131,18 @@
         "scenic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Lincoln Woods Trailhead Parking, Kancamagus Hwy (NH-112), Lincoln",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Woods%20Trailhead%20Parking%2C%20Kancamagus%20Hwy%20%28NH-112%29%2C%20Lincoln",
+        "start_coords": [
+          44.038,
+          -71.6697
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 16.7,
         "gain": 929,
@@ -2384,6 +2408,18 @@
         "scenic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Lincoln Woods Trailhead Parking, Kancamagus Hwy (NH-112), Lincoln",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Woods%20Trailhead%20Parking%2C%20Kancamagus%20Hwy%20%28NH-112%29%2C%20Lincoln",
+        "start_coords": [
+          44.038,
+          -71.6697
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 16.6,
         "gain": 1217,

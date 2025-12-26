@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import TrailDashboard from '../../components/TrailDashboard';
 import SiteFooter from '../../components/SiteFooter.astro';
 import TrailSchema from '../../components/TrailSchema.astro';
-// FIX 1: Added .jsx extension for clarity
+// FIX 1: Added .jsx extension explicitly to prevent editor import errors
 import { SmartTrailAlert } from '../../components/SmartTrailAlert.jsx';
 
 export async function getStaticPaths() {
@@ -20,10 +20,12 @@ export async function getStaticPaths() {
 const { mountain } = Astro.props;
 const { state } = Astro.params;
 
+// Helper: Format 'new-hampshire' -> 'New Hampshire'
 const stateName = state
     ? state.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
     : 'Back';
 
+// Fallback logic for Hero Image
 const bgImage = mountain.mountain_hero || mountain.image || `https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000`;
 ---
 
@@ -34,6 +36,8 @@ const bgImage = mountain.mountain_hero || mountain.image || `https://images.unsp
 
   {/* --- HERO SECTION --- */}
   <div class="relative h-[550px] flex items-end pb-16 group overflow-hidden">
+
+    {/* Dynamic Background Image */}
     <div class="absolute inset-0">
         <img
             src={bgImage}
@@ -41,9 +45,11 @@ const bgImage = mountain.mountain_hero || mountain.image || `https://images.unsp
             alt={mountain.name}
             transition:name={`img-${mountain.slug}`}
         />
+        {/* Gradients for readability */}
         <div class="absolute inset-0 bg-gradient-to-b from-stone-900/60 via-transparent to-stone-900/90"></div>
     </div>
 
+    {/* --- BREADCRUMB NAVIGATION --- */}
     <div class="absolute top-0 left-0 w-full p-6 z-20">
         <nav class="max-w-7xl mx-auto flex items-center gap-2 text-xs font-bold text-white/80 uppercase tracking-widest drop-shadow-md">
             <a href="/" class="hover:text-emerald-400 transition-colors flex items-center gap-1">Home</a>
@@ -54,6 +60,7 @@ const bgImage = mountain.mountain_hero || mountain.image || `https://images.unsp
         </nav>
     </div>
 
+    {/* HERO CONTENT */}
     <div class="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row justify-between items-end gap-6">
             <div>
@@ -61,9 +68,23 @@ const bgImage = mountain.mountain_hero || mountain.image || `https://images.unsp
                     <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
                     Live Conditions
                 </span>
+
                 <h1 class="font-serif text-5xl md:text-7xl font-black text-white mb-4 shadow-sm tracking-tight">
                     {mountain.name}
                 </h1>
+
+                {/* FIX 2: NAVIGATE BUTTON (Uses the new 'logistics' field from main.py) */}
+                {mountain.trails?.[0]?.logistics?.directions_url && (
+                    <a
+                        href={mountain.trails[0].logistics.directions_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 px-4 py-2 bg-white text-stone-900 text-sm font-bold rounded-lg hover:bg-stone-100 transition-colors shadow-lg mb-6"
+                    >
+                        <span>🚗</span> Navigate to Trailhead
+                    </a>
+                )}
+
                 <div class="flex items-center gap-6 text-stone-300 font-medium">
                     <div class="flex items-center gap-2">
                         <span class="text-2xl">⛰️</span>
@@ -89,7 +110,7 @@ const bgImage = mountain.mountain_hero || mountain.image || `https://images.unsp
   {/* --- MAIN CONTENT GRID --- */}
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
-    {/* FIX 2: Added Key Prop */}
+    {/* FIX 3: SMART ALERTS (Added 'key' prop to fix editor error) */}
     {mountain.trails?.map((trail) => (
        trail.smart_logic?.ui_alert && (
          <SmartTrailAlert
@@ -100,9 +121,76 @@ const bgImage = mountain.mountain_hero || mountain.image || `https://images.unsp
        )
     ))}
 
+ {/* 2. DASHBOARD (Map, Stats, Weather) */}
     <TrailDashboard client:only="react" mountain={mountain} />
 
+    {/* --- NEW: TRAILHEAD LOGISTICS BLOCK --- */}
+    {/* This appears underneath the map dashboard */}
+    {mountain.trails?.[0]?.logistics && (
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
 
+            {/* Left: Directions Card */}
+            <div class="bg-stone-50 p-6 rounded-2xl border border-stone-100 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-stone-900 font-bold font-serif text-lg mb-2">Trailhead & Parking</h3>
+                    <p class="text-stone-600 text-sm mb-4">
+                        {mountain.trails[0].logistics.parking_info}
+                    </p>
+                </div>
+                <a
+                    href={mountain.trails[0].logistics.directions_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex items-center justify-center gap-2 w-full py-3 bg-white border border-stone-200 text-stone-900 font-bold rounded-xl hover:bg-stone-100 transition-colors shadow-sm text-sm"
+                >
+                    <span>🚗</span> Open in Google Maps
+                </a>
+            </div>
+
+            {/* Right: Smart Details Grid */}
+            <div class="bg-white p-6 rounded-2xl border border-stone-100 shadow-sm">
+                <h3 class="text-stone-900 font-bold font-serif text-lg mb-4 flex items-center gap-2">
+                    <span>🅿️</span> Access Details
+                </h3>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {/* Capacity */}
+                    <div class="p-3 bg-stone-50 rounded-lg">
+                        <div class="text-[10px] uppercase text-stone-400 font-bold tracking-wider mb-1">Capacity</div>
+                        <div class="font-medium text-stone-800 text-sm">
+                            {mountain.trails[0].logistics.capacity || "Unknown"}
+                        </div>
+                    </div>
+
+                    {/* Busy Status */}
+                    <div class="p-3 bg-amber-50 rounded-lg">
+                        <div class="text-[10px] uppercase text-amber-800/60 font-bold tracking-wider mb-1">Busy Times</div>
+                        <div class="font-medium text-amber-900 text-sm">
+                            {mountain.trails[0].logistics.status || "Standard traffic"}
+                        </div>
+                    </div>
+
+                    {/* Fees */}
+                    <div class="p-3 bg-stone-50 rounded-lg">
+                        <div class="text-[10px] uppercase text-stone-400 font-bold tracking-wider mb-1">Fees / Permits</div>
+                        <div class="font-medium text-stone-800 text-sm">
+                            {mountain.trails[0].logistics.fee || "Free"}
+                        </div>
+                    </div>
+
+                    {/* Shuttle/Notes */}
+                    {mountain.trails[0].logistics.shuttle && (
+                         <div class="p-3 bg-blue-50 rounded-lg">
+                            <div class="text-[10px] uppercase text-blue-800/60 font-bold tracking-wider mb-1">Shuttle Info</div>
+                            <div class="font-medium text-blue-900 text-sm">
+                                {mountain.trails[0].logistics.shuttle}
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </div>
+        </div>
+    )}
 
   </div>
 

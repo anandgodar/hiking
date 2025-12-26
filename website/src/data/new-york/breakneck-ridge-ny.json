@@ -66,7 +66,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New York's premier peaks, Breakneck Ridge rises to 1260 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of New York on Breakneck Ridge. At 1260 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -84,6 +84,14 @@
         "steep"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Route 9D Parking (or MetroNorth Breakneck Stop), Cold Spring, NY",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Route%209D%20Parking%20%28or%20MetroNorth%20Breakneck%20Stop%29%2C%20Cold%20Spring%2C%20NY",
+        "start_coords": [
+          41.443,
+          -73.977
+        ]
+      },
       "stats": {
         "distance": 0.3,
         "gain": 0,

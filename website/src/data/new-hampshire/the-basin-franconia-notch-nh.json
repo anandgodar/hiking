@@ -28,6 +28,12 @@
         "family-friendly"
       ],
       "description": "A short, well-built path to a famous glacial pothole where the Pemigewasset River churns into a natural granite bowl. Ideal for a quick stop with big scenery\u2014especially during high water.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "The Basin Parking (Franconia Notch State Park), I-93 / Franconia Notch Pkwy",
       "start_lat": 44.1547,
       "start_lon": -71.6807,
@@ -93,6 +99,18 @@
         "family-friendly"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "The Basin Parking (Franconia Notch State Park), I-93 / Franconia Notch Pkwy",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=The%20Basin%20Parking%20%28Franconia%20Notch%20State%20Park%29%2C%20I-93%20/%20Franconia%20Notch%20Pkwy",
+        "start_coords": [
+          44.1547,
+          -71.6807
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 0.1,
         "gain": 18,

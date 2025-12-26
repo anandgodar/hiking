@@ -26,6 +26,12 @@
         "lake"
       ],
       "description": "A scenic loop starting at Lafayette Campground: ascend via the Hi-Cannon Trail, which features a wooden ladder climb and views of Franconia Ridge, to reach Cannon\u2019s summit tower. Descend by the Kinsman Ridge Trail past the famous cliffs, then down to Lonesome Lake, where the AMC hut and tranquil waters offer a perfect rest stop. The loop finishes on the Lonesome Lake Trail. This loop is steep in parts, but the variety of features \u2014 from ladder scrambles to lake views \u2014 makes it memorable.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Lafayette Place Campground, I-93 Franconia Notch",
       "start_lat": 44.1444,
       "start_lon": -71.6837,
@@ -78,7 +84,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Cannon Mountain rises to 4100 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of New Hampshire on Cannon Mountain. At 4100 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -96,6 +102,18 @@
         "lake"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Lafayette Place Campground, I-93 Franconia Notch",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Lafayette%20Place%20Campground%2C%20I-93%20Franconia%20Notch",
+        "start_coords": [
+          44.1444,
+          -71.6837
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 4.7,
         "gain": 2497,

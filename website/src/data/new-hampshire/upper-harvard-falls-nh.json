@@ -27,6 +27,12 @@
         "shaded"
       ],
       "description": "Keep going past the lower cascades for a bigger waterfall payoff deeper in the Harvard Brook gorge. This is a great option when you want fewer people and more sound-of-water immersion.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Georgiana Falls Path Parking, Georgiana Falls Rd (off Rt 3), Lincoln",
       "start_lat": 44.0671,
       "start_lon": -71.6888,
@@ -98,6 +104,18 @@
         "shaded"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Georgiana Falls Path Parking, Georgiana Falls Rd (off Rt 3), Lincoln",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Georgiana%20Falls%20Path%20Parking%2C%20Georgiana%20Falls%20Rd%20%28off%20Rt%203%29%2C%20Lincoln",
+        "start_coords": [
+          44.0671,
+          -71.6888
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 2.1,
         "gain": 747,

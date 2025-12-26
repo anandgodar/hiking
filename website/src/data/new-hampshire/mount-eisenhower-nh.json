@@ -26,6 +26,12 @@
         "scenic"
       ],
       "description": "A straightforward climb via Edmands Path, known for its moderate grades and excellent footing. It leads hikers to the Eisenhower summit cone with expansive views of Mount Washington and the southern Presidentials, often cited as one of the best summit vistas for relatively little effort.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Edmands Path Trailhead, Mt Clinton Rd",
       "start_lat": 44.2545,
       "start_lon": -71.3753,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4760 feet, Mount Eisenhower offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Eisenhower. At 4760 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "scenic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Edmands Path Trailhead, Mt Clinton Rd",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Edmands%20Path%20Trailhead%2C%20Mt%20Clinton%20Rd",
+        "start_coords": [
+          44.2545,
+          -71.3753
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 3.1,
         "gain": 1994,

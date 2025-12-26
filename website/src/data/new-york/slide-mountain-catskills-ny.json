@@ -51,7 +51,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New York. Standing at 4180 feet, Slide Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "One of New York's premier peaks, Slide Mountain rises to 4180 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -69,6 +69,14 @@
         "classic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Woodland Valley Campground, Phoenicia, NY",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Woodland%20Valley%20Campground%2C%20Phoenicia%2C%20NY",
+        "start_coords": [
+          42.036,
+          -74.36
+        ]
+      },
       "stats": {
         "distance": 14.0,
         "gain": 5281,

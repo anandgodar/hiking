@@ -26,6 +26,12 @@
         "winter favorite"
       ],
       "description": "A gentle, meandering trail that leads hikers first to Mt. Starr King (with its famous stone fireplace and a peek at the Presidential summits through the trees) and then onward along a ridge to the wooded summit of Mt. Waumbek. Just past Waumbek\u2019s summit, a cleared viewpoint offers a striking view back toward the Presidentials. This route\u2019s modest grades and protected route make it a popular winter 4K, and a great introductory hike for the northern White Mountains.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Starr King Trailhead, Starr King Rd (Jefferson)",
       "start_lat": 44.4335,
       "start_lon": -71.4617,
@@ -49,7 +55,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4006 feet, Mount Waumbek offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Waumbek. At 4006 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -67,6 +73,18 @@
         "winter favorite"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Starr King Trailhead, Starr King Rd (Jefferson)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Starr%20King%20Trailhead%2C%20Starr%20King%20Rd%20%28Jefferson%29",
+        "start_coords": [
+          44.4335,
+          -71.4617
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 1.8,
         "gain": 967,

@@ -43,7 +43,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of Vermont on Killington Peak. At 4235 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "A spectacular hike located in Vermont. Standing at 4235 feet, Killington Peak offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -61,6 +61,14 @@
         "views"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Bucklin Trailhead, Wheelerville Rd, Mendon, VT",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Bucklin%20Trailhead%2C%20Wheelerville%20Rd%2C%20Mendon%2C%20VT",
+        "start_coords": [
+          43.612,
+          -72.87
+        ]
+      },
       "stats": {
         "distance": 8.9,
         "gain": 2527,

@@ -26,6 +26,12 @@
         "out-and-back"
       ],
       "description": "A remote out-and-back trek from Zealand Road: hike past Zealand Falls Hut and over Mount Guyot via the Twinway, then take the spur to West Bond\u2019s small, rocky summit. West Bond offers a jaw-dropping perch with dramatic views of Bondcliff and the depths of the wilderness. Often combined with nearby Bonds for a legendary day.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Zealand Trailhead, Zealand Rd",
       "start_lat": 44.2581,
       "start_lon": -71.5341,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New Hampshire on West Bond. At 4540 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4540 feet, West Bond offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "out-and-back"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Zealand Trailhead, Zealand Rd",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Zealand%20Trailhead%2C%20Zealand%20Rd",
+        "start_coords": [
+          44.2581,
+          -71.5341
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 31.2,
         "gain": 3479,

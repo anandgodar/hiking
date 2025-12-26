@@ -28,6 +28,12 @@
         "glacial"
       ],
       "description": "A classic boardwalk-and-gorge experience with tight granite walls, rushing water, and multiple photo stops\u2014one of New Hampshire\u2019s best family-friendly nature walks. Morning visits often feel calmer and cooler in summer.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Flume Gorge Visitor Center Parking, Franconia Notch State Park",
       "start_lat": 44.0968,
       "start_lon": -71.6814,
@@ -80,7 +86,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 1200 feet, Flume Gorge (Franconia Notch) offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Flume Gorge (Franconia Notch). At 1200 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -99,6 +105,18 @@
         "glacial"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Flume Gorge Visitor Center Parking, Franconia Notch State Park",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Flume%20Gorge%20Visitor%20Center%20Parking%2C%20Franconia%20Notch%20State%20Park",
+        "start_coords": [
+          44.0968,
+          -71.6814
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 1.0,
         "gain": 255,

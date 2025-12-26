@@ -26,6 +26,12 @@
         "wooded"
       ],
       "description": "Starting near the Crawford Depot, the A\u2013Z Trail winds gradually up through evergreen forest. A final short spur leads to Mount Tom\u2019s summit, which is wooded but has a fine viewpoint near the top overlooking the Crawford Notch area. This hike is relatively moderate in effort and often combined with Mount Field. It\u2019s known for its birding opportunities (especially gray jays at the summit clearing) and gentle grades.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "AMC Highland Center, US-302",
       "start_lat": 44.2107,
       "start_lon": -71.414,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Mount Tom rises to 4051 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4051 feet, Mount Tom offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "wooded"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "AMC Highland Center, US-302",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=AMC%20Highland%20Center%2C%20US-302",
+        "start_coords": [
+          44.2107,
+          -71.414
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 6.4,
         "gain": 2292,

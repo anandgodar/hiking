@@ -26,6 +26,12 @@
         "loop"
       ],
       "description": "A challenging loop for adventurous hikers: follow Livermore Trail to the base of North Tripyramid\u2019s infamous North Slide, a steep scramble up exposed open rock that tests your nerve (not safe when wet). After summiting North Tripyramid, traverse to Middle Tripyramid and descend via the loose gravelly South Slide. This loop provides an adrenaline rush and unique views from the slide, truly earning its place among the Terrifying 25.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Livermore Trailhead, Livermore Rd (Waterville Valley)",
       "start_lat": 43.9653,
       "start_lon": -71.5044,
@@ -90,6 +96,18 @@
         "loop"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Livermore Trailhead, Livermore Rd (Waterville Valley)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Livermore%20Trailhead%2C%20Livermore%20Rd%20%28Waterville%20Valley%29",
+        "start_coords": [
+          43.9653,
+          -71.5044
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 14.7,
         "gain": 4059,

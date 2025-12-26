@@ -26,6 +26,12 @@
         "popular"
       ],
       "description": "New England\u2019s iconic loop: ascend past waterfalls via Falling Waters Trail, traverse the open Franconia Ridge (Mount Lincoln and Lafayette) with constant panoramic views, then descend the Greenleaf Trail and Old Bridle Path. This hard loop is famed for its autumn foliage and stunning ridgeline vistas.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Lafayette Place Parking, I-93 Franconia Notch",
       "start_lat": 44.1427,
       "start_lon": -71.6834,
@@ -90,6 +96,18 @@
         "popular"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Lafayette Place Parking, I-93 Franconia Notch",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Lafayette%20Place%20Parking%2C%20I-93%20Franconia%20Notch",
+        "start_coords": [
+          44.1427,
+          -71.6834
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 10.0,
         "gain": 4490,

@@ -27,6 +27,12 @@
         "scenic"
       ],
       "description": "A short but steeper roadside scramble to enjoy the sound and spray of a classic Crawford Notch cascade. Best in spring runoff; traction helps when the rock is damp.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Crawford Notch Scenic View Area Parking (near Flume Cascade), US-302",
       "start_lat": 44.2097,
       "start_lon": -71.4046,
@@ -92,6 +98,18 @@
         "scenic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Crawford Notch Scenic View Area Parking (near Flume Cascade), US-302",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Crawford%20Notch%20Scenic%20View%20Area%20Parking%20%28near%20Flume%20Cascade%29%2C%20US-302",
+        "start_coords": [
+          44.2097,
+          -71.4046
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 0.1,
         "gain": 0,

@@ -79,7 +79,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New York on Mount Colden. At 4714 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "A spectacular hike located in New York. Standing at 4714 feet, Mount Colden offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -98,6 +98,14 @@
         "ladders"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "ADK Loj Parking ($), Lake Placid, NY",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=ADK%20Loj%20Parking%20%28%24%29%2C%20Lake%20Placid%2C%20NY",
+        "start_coords": [
+          44.1829,
+          -73.9626
+        ]
+      },
       "stats": {
         "distance": 16.4,
         "gain": 4834,
@@ -4725,12 +4733,12 @@
           [
             44.17021,
             -74.00018,
-            2156
+            2157
           ],
           [
             44.17029,
             -74.00005,
-            2153
+            2154
           ],
           [
             44.17027,

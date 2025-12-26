@@ -26,6 +26,12 @@
         "wilderness"
       ],
       "description": "A lollipop loop hike tackling both North and South Hancock. After a moderate walk in along Hancock Notch and Cedar Brook, the trail splits: a brutally steep ascent of North Hancock via a rocky slide, then a wooded ridge to South Hancock, and finally a steep descent. Views from North Hancock\u2019s outlook, especially of the Arrow Slide and Franconia Ridge, make the effort worthwhile.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Hancock Overlook, Kancamagus Hwy (NH-112)",
       "start_lat": 44.0849,
       "start_lon": -71.5351,
@@ -90,6 +96,18 @@
         "wilderness"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Hancock Overlook, Kancamagus Hwy (NH-112)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Hancock%20Overlook%2C%20Kancamagus%20Hwy%20%28NH-112%29",
+        "start_coords": [
+          44.0849,
+          -71.5351
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 7.0,
         "gain": 1863,

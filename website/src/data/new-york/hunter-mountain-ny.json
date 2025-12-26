@@ -51,7 +51,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New York. Standing at 4040 feet, Hunter Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New York on Hunter Mountain. At 4040 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -69,6 +69,14 @@
         "horses"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Spruceton Road Trailhead, West Kill, NY",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Spruceton%20Road%20Trailhead%2C%20West%20Kill%2C%20NY",
+        "start_coords": [
+          42.193,
+          -74.272
+        ]
+      },
       "stats": {
         "distance": 5.8,
         "gain": 1686,

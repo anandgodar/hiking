@@ -26,6 +26,12 @@
         "wildlife"
       ],
       "description": "An exciting ascent from Ferncroft via the Blueberry Ledge Trail. The route starts gently through hardwoods and past a historic homestead, then steepens significantly, ascending a series of open granite ledges that require hand-and-foot climbing. These ledges provide fantastic views south to Lake Winnipesaukee. The true wooded summit of Whiteface is just beyond the last ledge (marked by a cairn). Many hikers spot spruce grouse in this area. Caution is needed descending the ledges on the return.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Ferncroft Parking, Ferncroft Rd (Wonalancet)",
       "start_lat": 43.8983,
       "start_lon": -71.3817,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New Hampshire on Mount Whiteface. At 4020 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Whiteface rises to 4020 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "wildlife"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Ferncroft Parking, Ferncroft Rd (Wonalancet)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Ferncroft%20Parking%2C%20Ferncroft%20Rd%20%28Wonalancet%29",
+        "start_coords": [
+          43.8983,
+          -71.3817
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 18.2,
         "gain": 3583,

@@ -26,6 +26,12 @@
         "wildlife"
       ],
       "description": "Branch off the Webster-Jackson Trail at the fork to climb Mount Webster\u2019s side via the Webster Branch. The trail ascends steadily and includes a few scrambles near the summit. Atop Mount Webster, you\u2019re greeted by the dramatic cliff edge known as the Webster Cliffs, with sheer drop-offs and breathtaking views down Crawford Notch. Many continue on to Mount Jackson and loop back down, creating a scenic figure-eight. The cliffs are a notorious peregrine falcon nesting area, so keep an eye out for soaring birds of prey.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Webster-Jackson Trailhead, NH-302 (Crawford Notch)",
       "start_lat": 44.2038,
       "start_lon": -71.3903,
@@ -90,6 +96,18 @@
         "wildlife"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Webster-Jackson Trailhead, NH-302 (Crawford Notch)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Webster-Jackson%20Trailhead%2C%20NH-302%20%28Crawford%20Notch%29",
+        "start_coords": [
+          44.2038,
+          -71.3903
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 7.1,
         "gain": 1864,

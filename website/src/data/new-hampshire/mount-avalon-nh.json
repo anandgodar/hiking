@@ -26,6 +26,12 @@
         "notch view"
       ],
       "description": "Starting right behind the railroad depot at Crawford Notch, the Avalon Trail leads gently at first, then steeply for the last 0.5 mile to the summit of Mt. Avalon. The rocky spur at the top delivers a jaw-dropping view down Crawford Notch and across to Mt. Webster\u2019s cliffs. Many hikers stop here en route to higher peaks like Field and Tom, but Avalon itself is a worthy destination for an afternoon hike, offering one of the best low-elevation views in the Whites.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Crawford Depot (AMC Highland Center), US-302",
       "start_lat": 44.2107,
       "start_lon": -71.414,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 3440 feet, Mount Avalon offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Avalon. At 3440 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "notch view"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Crawford Depot (AMC Highland Center), US-302",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Crawford%20Depot%20%28AMC%20Highland%20Center%29%2C%20US-302",
+        "start_coords": [
+          44.2107,
+          -71.414
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 12.6,
         "gain": 3159,

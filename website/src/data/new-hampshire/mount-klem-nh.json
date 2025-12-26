@@ -26,6 +26,12 @@
         "connector"
       ],
       "description": "Mount Klem, a wooded summit with no significant views, is often a checkmark on the Belknap list rather than a standalone destination. A common way to include Klem is by looping it with Mount Mack and Round Pond. From Round Pond, follow the Klem-Mack Loop trail over Klem\u2019s gentle summit (marked by a sign in the woods). Though Klem itself lacks vistas, a short spur to a near-summit ledge provides a glimpse of Lake Winnipesaukee. This loop is about enjoying the quiet forest and hitting multiple peaks rather than summit views, and is best for dedicated peak-baggers or those seeking solitude.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Round Pond / Wood Road Trailhead, Gilford",
       "start_lat": 43.5616,
       "start_lon": -71.327,
@@ -72,7 +78,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New Hampshire on Mount Klem. At 2001 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Klem rises to 2001 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -90,6 +96,18 @@
         "connector"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Round Pond / Wood Road Trailhead, Gilford",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Round%20Pond%20/%20Wood%20Road%20Trailhead%2C%20Gilford",
+        "start_coords": [
+          43.5616,
+          -71.327
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 3.2,
         "gain": 600,

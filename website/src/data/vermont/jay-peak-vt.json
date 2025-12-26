@@ -36,7 +36,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "One of Vermont's premier peaks, Jay Peak rises to 3861 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of Vermont on Jay Peak. At 3861 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -54,6 +54,14 @@
         "northern"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "VT-242 Long Trail Parking, Jay, VT",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=VT-242%20Long%20Trail%20Parking%2C%20Jay%2C%20VT",
+        "start_coords": [
+          44.912,
+          -72.502
+        ]
+      },
       "stats": {
         "distance": 3.5,
         "gain": 1685,

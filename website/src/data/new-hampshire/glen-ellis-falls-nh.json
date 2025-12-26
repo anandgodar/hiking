@@ -28,6 +28,12 @@
         "photography"
       ],
       "description": "A short, stair-stepped descent to a powerful plunge into a rocky gorge\u2014one of the best roadside waterfalls on Route 16. Morning light is great for photos; the climb out is brief but steep.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Glen Ellis Falls Scenic Area Parking, NH-16",
       "start_lat": 44.2515,
       "start_lon": -71.2529,
@@ -74,7 +80,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 1900 feet, Glen Ellis Falls offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Glen Ellis Falls. At 1900 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -93,6 +99,18 @@
         "photography"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Glen Ellis Falls Scenic Area Parking, NH-16",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Glen%20Ellis%20Falls%20Scenic%20Area%20Parking%2C%20NH-16",
+        "start_coords": [
+          44.2515,
+          -71.2529
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 0.0,
         "gain": 0,

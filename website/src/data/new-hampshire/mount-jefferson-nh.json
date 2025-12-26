@@ -26,6 +26,12 @@
         "ridge"
       ],
       "description": "The shortest path to big alpine views, Caps Ridge ascends steeply over a series of rocky \u2018caps\u2019. This hard hike rewards with an open summit panorama and a thrilling above-treeline scramble for relatively little mileage.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Caps Ridge Trail Parking, Jefferson Notch Rd",
       "start_lat": 44.3041,
       "start_lon": -71.3659,
@@ -49,6 +55,12 @@
         "remote"
       ],
       "description": "An epic and demanding route that climbs via the Six Husbands Trail with its famous ladders and sheer ledges. This expert loop traverses wild Great Gulf terrain and requires an overnight or car spot for a safe return, showcasing Mount Jefferson\u2019s most rugged side.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Great Gulf Trailhead, NH-16",
       "start_lat": 44.2888,
       "start_lon": -71.2334,
@@ -95,7 +107,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Mount Jefferson rises to 5712 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 5712 feet, Mount Jefferson offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -113,6 +125,18 @@
         "ridge"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Caps Ridge Trail Parking, Jefferson Notch Rd",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Caps%20Ridge%20Trail%20Parking%2C%20Jefferson%20Notch%20Rd",
+        "start_coords": [
+          44.3041,
+          -71.3659
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 7.3,
         "gain": 3284,
@@ -2160,6 +2184,18 @@
         "remote"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Great Gulf Trailhead, NH-16",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Great%20Gulf%20Trailhead%2C%20NH-16",
+        "start_coords": [
+          44.2888,
+          -71.2334
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 27.1,
         "gain": 7248,

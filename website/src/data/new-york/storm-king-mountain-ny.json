@@ -57,7 +57,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New York on Storm King Mountain. At 1340 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "One of New York's premier peaks, Storm King Mountain rises to 1340 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -75,6 +75,14 @@
         "river_views"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Route 9W Parking, Cornwall-on-Hudson, NY",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Route%209W%20Parking%2C%20Cornwall-on-Hudson%2C%20NY",
+        "start_coords": [
+          41.42,
+          -74.0
+        ]
+      },
       "stats": {
         "distance": 2.5,
         "gain": 892,

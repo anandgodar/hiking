@@ -65,6 +65,14 @@
         "routing_strategy": "truncate_at_poi",
         "ui_alert": null
       },
+      "logistics": {
+        "parking_info": "Moxie Falls Trailhead Parking",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Moxie%20Falls%20Trailhead%20Parking",
+        "start_coords": [
+          45.371,
+          -69.923
+        ]
+      },
       "stats": {
         "distance": 21.5,
         "gain": 526,

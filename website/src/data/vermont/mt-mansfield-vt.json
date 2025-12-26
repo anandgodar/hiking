@@ -75,7 +75,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "One of Vermont's premier peaks, Mount Mansfield rises to 4393 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of Vermont on Mount Mansfield. At 4393 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -93,6 +93,14 @@
         "exposed_ridge"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Underhill State Park, Mountain Rd, Underhill, VT",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Underhill%20State%20Park%2C%20Mountain%20Rd%2C%20Underhill%2C%20VT",
+        "start_coords": [
+          44.5309,
+          -72.8465
+        ]
+      },
       "stats": {
         "distance": 4.5,
         "gain": 2615,
@@ -1860,6 +1868,14 @@
         "ladders"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Smugglers Notch Parking (VT-108), Stowe, VT",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Smugglers%20Notch%20Parking%20%28VT-108%29%2C%20Stowe%2C%20VT",
+        "start_coords": [
+          44.555,
+          -72.795
+        ]
+      },
       "stats": {
         "distance": 3.8,
         "gain": 2631,

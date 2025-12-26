@@ -28,6 +28,12 @@
         "scenic"
       ],
       "description": "A short walk to a popular set of cascades and pools\u2014one of the best quick nature breaks in southern New Hampshire. Great after rain, but expect slippery rock near the water\u2019s edge.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Purgatory Falls Dow Rd Parking, Lyndeborough",
       "start_lat": 42.8735,
       "start_lon": -71.6996,
@@ -54,6 +60,12 @@
         "waterfalls"
       ],
       "description": "A great \u2018little-big\u2019 hike: waterfalls along the brook plus an open viewpoint on the Wah Lum loop. This is one of the best reward-for-effort loops in southern NH, especially in late-afternoon light.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Purgatory Falls Dow Rd Parking, Lyndeborough",
       "start_lat": 42.8735,
       "start_lon": -71.6996,
@@ -77,7 +89,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of New Hampshire on Purgatory Falls (Lyndeborough). At 594 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 594 feet, Purgatory Falls (Lyndeborough) offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -96,6 +108,18 @@
         "scenic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Purgatory Falls Dow Rd Parking, Lyndeborough",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Purgatory%20Falls%20Dow%20Rd%20Parking%2C%20Lyndeborough",
+        "start_coords": [
+          42.8735,
+          -71.6996
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 2.5,
         "gain": 340,
@@ -883,6 +907,18 @@
         "waterfalls"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Purgatory Falls Dow Rd Parking, Lyndeborough",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Purgatory%20Falls%20Dow%20Rd%20Parking%2C%20Lyndeborough",
+        "start_coords": [
+          42.8735,
+          -71.6996
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 3.1,
         "gain": 733,

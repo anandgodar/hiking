@@ -27,6 +27,12 @@
         "shaded"
       ],
       "description": "A quick, shady walk to a graceful cascade tucked in the woods\u2014perfect when you want a waterfall without a long climb. Best during spring runoff and after steady rain.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Ripley Falls / Ethan Pond Trailhead Parking, Rt 302 (Crawford Notch)",
       "start_lat": 44.167,
       "start_lon": -71.3859,
@@ -92,6 +98,18 @@
         "shaded"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Ripley Falls / Ethan Pond Trailhead Parking, Rt 302 (Crawford Notch)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Ripley%20Falls%20/%20Ethan%20Pond%20Trailhead%20Parking%2C%20Rt%20302%20%28Crawford%20Notch%29",
+        "start_coords": [
+          44.167,
+          -71.3859
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 1.0,
         "gain": 371,

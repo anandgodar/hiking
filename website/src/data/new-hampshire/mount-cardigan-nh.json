@@ -26,6 +26,12 @@
         "scenic"
       ],
       "description": "A short yet spectacular hike in central New Hampshire. The West Ridge Trail climbs moderately through mixed forest to reach Cardigan\u2019s expansive bare summit. With a historic fire tower at the peak, hikers have unobstructed views in all directions\u2014particularly glorious at sunrise or during fall foliage. The granite dome of Mount Cardigan is often windy, providing a true alpine feel at a relatively modest elevation. A must-do for families and peak-baggers alike.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Cardigan Mountain State Park (West Ridge Trailhead), Cardigan Mountain Rd",
       "start_lat": 43.6464,
       "start_lon": -71.9123,
@@ -49,6 +55,12 @@
         "loop"
       ],
       "description": "For a technical ascent, tackle the Holt Trail from the AMC Cardigan Lodge side. This notorious trail goes straight up sheer rock slabs and requires careful route-finding and scrambling\u2014earning its terrifying reputation. After summiting, descend via the gentler Clark and Manning Trails to form a loop back to the lodge. Only experienced hikers should attempt Holt Trail, but those who do are rewarded with an exhilarating climb and the same fantastic 360\u00b0 summit views of New Hampshire and Vermont.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "AMC Cardigan Lodge, Shem Valley Rd",
       "start_lat": 43.6424,
       "start_lon": -71.9041,
@@ -66,7 +78,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 3149 feet, Mount Cardigan offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Cardigan rises to 3149 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -84,6 +96,18 @@
         "scenic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Cardigan Mountain State Park (West Ridge Trailhead), Cardigan Mountain Rd",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Cardigan%20Mountain%20State%20Park%20%28West%20Ridge%20Trailhead%29%2C%20Cardigan%20Mountain%20Rd",
+        "start_coords": [
+          43.6464,
+          -71.9123
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 0.9,
         "gain": 412,
@@ -376,6 +400,18 @@
         "loop"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "AMC Cardigan Lodge, Shem Valley Rd",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=AMC%20Cardigan%20Lodge%2C%20Shem%20Valley%20Rd",
+        "start_coords": [
+          43.6424,
+          -71.9041
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 2.5,
         "gain": 1431,

@@ -72,7 +72,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New York. Standing at 4240 feet, Big Slide Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New York on Big Slide Mountain. At 4240 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -90,6 +90,14 @@
         "views"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "The Garden Parking Lot ($), Keene Valley, NY",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=The%20Garden%20Parking%20Lot%20%28%24%29%2C%20Keene%20Valley%2C%20NY",
+        "start_coords": [
+          44.189,
+          -73.816
+        ]
+      },
       "stats": {
         "distance": 8.9,
         "gain": 3416,

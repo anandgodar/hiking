@@ -72,7 +72,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New York's premier peaks, Cascade Mountain rises to 4098 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of New York on Cascade Mountain. At 4098 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -90,6 +90,14 @@
         "family_friendly"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Route 73 Parking Areas, Keene, NY",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Route%2073%20Parking%20Areas%2C%20Keene%2C%20NY",
+        "start_coords": [
+          44.219,
+          -73.887
+        ]
+      },
       "stats": {
         "distance": 4.5,
         "gain": 2030,

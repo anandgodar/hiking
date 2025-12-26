@@ -28,6 +28,12 @@
         "shaded"
       ],
       "description": "A scenic valley climb to a beautiful set of cascades tucked in the Sandwich Range Wilderness\u2014great when you want a quieter White Mountain waterfall day. Early starts give you the most peaceful brook soundtrack.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Drakes Brook / Sandwich Mountain Trailhead Parking, Rt 49, Waterville Valley",
       "start_lat": 43.9383,
       "start_lon": -71.5114,
@@ -74,7 +80,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Fletcher Cascades rises to 2103 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "Experience the beauty of New Hampshire on Fletcher Cascades. At 2103 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -93,6 +99,18 @@
         "shaded"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Drakes Brook / Sandwich Mountain Trailhead Parking, Rt 49, Waterville Valley",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Drakes%20Brook%20/%20Sandwich%20Mountain%20Trailhead%20Parking%2C%20Rt%2049%2C%20Waterville%20Valley",
+        "start_coords": [
+          43.9383,
+          -71.5114
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 2.8,
         "gain": 566,

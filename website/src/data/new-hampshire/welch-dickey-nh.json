@@ -26,6 +26,12 @@
         "sunny"
       ],
       "description": "A classic low-elevation loop known for its extensive open ledges and superb views. The trail ascends Welch Mountain first, emerging onto bare slabs with continuous vistas of the valley and surrounding peaks. It then traverses to Dickey Mountain, where more ledges (and a neat rock overhang) await. The descent winds gently down through forest. This hike is especially great on a cool autumn day or a sunny winter afternoon, offering big scenery for a modest effort. Be cautious on the smooth granite if wet.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Welch-Dickey Trailhead, Orris Rd (off NH-49)",
       "start_lat": 43.9113,
       "start_lon": -71.5683,
@@ -90,6 +96,18 @@
         "sunny"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Welch-Dickey Trailhead, Orris Rd (off NH-49)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Welch-Dickey%20Trailhead%2C%20Orris%20Rd%20%28off%20NH-49%29",
+        "start_coords": [
+          43.9113,
+          -71.5683
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 1.4,
         "gain": 140,

@@ -26,6 +26,12 @@
         "view spur"
       ],
       "description": "A largely gradual hike via Gale River Trail (which has been rerouted to avoid river crossings) leads to Galehead Hut, a perfect rest stop nestled below Galehead. A short but steep spur from the hut ascends to Galehead\u2019s wooded summit. While the summit itself has no views, just before it an outlook called The Twin Brook Outlook offers a beautiful vista of the Twins and Bonds. Many hikers enjoy relaxing at the hut and admiring the nearby South Twin and Garfield slopes after tagging Galehead\u2019s summit.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Gale River Trailhead, Gale River Loop Rd",
       "start_lat": 44.2037,
       "start_lon": -71.6114,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4024 feet, Mount Galehead offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Galehead. At 4024 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "view spur"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Gale River Trailhead, Gale River Loop Rd",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Gale%20River%20Trailhead%2C%20Gale%20River%20Loop%20Rd",
+        "start_coords": [
+          44.2037,
+          -71.6114
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 11.4,
         "gain": 2663,

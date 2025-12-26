@@ -26,6 +26,12 @@
         "panoramic"
       ],
       "description": "One of the finest shorter hikes in Crawford Notch. Follow the Davis Path\u2019s initial steady climb (steep in a couple spots) to a signed spur for Mount Crawford. The spur leads to extensive open granite slabs at the summit, dropping off steeply on one side. Mount Crawford\u2019s vantage point is extraordinary\u2014looking down the entire length of Crawford Notch framed by steep cliffs and up at Mount Washington\u2019s summit cone. It\u2019s a relatively quick hike with a huge scenic payoff, perfect for a half-day adventure or sunset hike (with headlamps).",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Davis Path Trailhead, US-302 (Notchland)",
       "start_lat": 44.1065,
       "start_lon": -71.3447,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 3120 feet, Mount Crawford offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Crawford. At 3120 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "panoramic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Davis Path Trailhead, US-302 (Notchland)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Davis%20Path%20Trailhead%2C%20US-302%20%28Notchland%29",
+        "start_coords": [
+          44.1065,
+          -71.3447
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 2.0,
         "gain": 99,

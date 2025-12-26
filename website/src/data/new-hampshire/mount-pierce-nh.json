@@ -26,6 +26,12 @@
         "alpine"
       ],
       "description": "New England\u2019s oldest continuously used mountain trail leads gently to Mount Pierce. This is a family-friendly hike with moderate grades all the way to treeline. The final push rewards hikers with a beautiful open summit outlook encompassing Mount Washington and the southern Presidential Range. It\u2019s a favorite for winter hikers and beginners tackling the high peaks.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Crawford Path Trailhead (AMC Highland Center), US-302",
       "start_lat": 44.2107,
       "start_lon": -71.414,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4312 feet, Mount Pierce offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Pierce rises to 4312 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "alpine"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Crawford Path Trailhead (AMC Highland Center), US-302",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Crawford%20Path%20Trailhead%20%28AMC%20Highland%20Center%29%2C%20US-302",
+        "start_coords": [
+          44.2107,
+          -71.414
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 7.9,
         "gain": 2555,

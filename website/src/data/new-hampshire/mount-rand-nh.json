@@ -26,6 +26,12 @@
         "quiet"
       ],
       "description": "Mount Rand is a lightly visited peak in the Belknaps, often approached from trails near Mt. Klem or West Quarry. The East Gilford Trail (Quarry Trail) can be used to access Rand via an old logging road and then a trail spur. The summit is forested with limited views, but one can find a south-facing outlook nearby with glimpses of Lake Winnipesaukee. This is a hike for those completing the Belknap 12 list; it offers solitude and an immersive woodland experience rather than sweeping vistas, making it a nice escape for an experienced hiker seeking quiet.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Gate at end of Wood Road (access to Quarry Trail), Gilford",
       "start_lat": 43.5662,
       "start_lon": -71.3243,
@@ -88,6 +94,18 @@
         "quiet"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Gate at end of Wood Road (access to Quarry Trail), Gilford",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Gate%20at%20end%20of%20Wood%20Road%20%28access%20to%20Quarry%20Trail%29%2C%20Gilford",
+        "start_coords": [
+          43.5662,
+          -71.3243
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 25.1,
         "gain": 315,

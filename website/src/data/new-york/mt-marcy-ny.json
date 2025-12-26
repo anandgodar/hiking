@@ -79,7 +79,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New York. Standing at 5344 feet, Mount Marcy offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "Experience the beauty of New York on Mount Marcy. At 5344 feet, this summit commands impressive views of the surrounding wilderness.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -97,6 +97,14 @@
         "long"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "ADK Loj Parking ($), Lake Placid, NY",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=ADK%20Loj%20Parking%20%28%24%29%2C%20Lake%20Placid%2C%20NY",
+        "start_coords": [
+          44.1829,
+          -73.9626
+        ]
+      },
       "stats": {
         "distance": 14.0,
         "gain": 3552,

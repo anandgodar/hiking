@@ -26,6 +26,12 @@
         "summit views"
       ],
       "description": "A delightful hike from Crawford Notch that splits to climb Mount Jackson directly. The trail passes Silver Cascade Brook and has a few steep ledge scrambles near the top. Jackson\u2019s summit is open granite, giving hiker-friendly 360\u00b0 views, including a head-on view of Mount Washington and neighboring Mount Webster\u2019s cliffs. Gray jays often greet hikers here, making for a fun and family-friendly summit experience.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "Webster-Jackson Trailhead, NH-302 (Crawford Notch)",
       "start_lat": 44.2038,
       "start_lon": -71.3903,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Mount Jackson rises to 4052 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4052 feet, Mount Jackson offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "summit views"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Webster-Jackson Trailhead, NH-302 (Crawford Notch)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Webster-Jackson%20Trailhead%2C%20NH-302%20%28Crawford%20Notch%29",
+        "start_coords": [
+          44.2038,
+          -71.3903
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 1.8,
         "gain": 1201,

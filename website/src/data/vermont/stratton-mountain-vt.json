@@ -43,7 +43,7 @@
   ],
   "nearby_peaks": [],
   "current_conditions": {
-    "ai_summary": "Experience the beauty of Vermont on Stratton Mountain. At 3940 feet, this summit commands impressive views of the surrounding wilderness.",
+    "ai_summary": "A spectacular hike located in Vermont. Standing at 3940 feet, Stratton Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -61,6 +61,14 @@
         "historic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Stratton Mtn Parking, Arlington-Stratton Rd, Stratton, VT",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Stratton%20Mtn%20Parking%2C%20Arlington-Stratton%20Rd%2C%20Stratton%2C%20VT",
+        "start_coords": [
+          43.067,
+          -72.955
+        ]
+      },
       "stats": {
         "distance": 5.4,
         "gain": 1493,

@@ -51,7 +51,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of Vermont's premier peaks, Mount Abraham rises to 4006 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in Vermont. Standing at 4006 feet, Mount Abraham offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -69,6 +69,14 @@
         "alpine"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Lincoln Gap Parking, Lincoln Gap Rd, Warren, VT",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Lincoln%20Gap%20Parking%2C%20Lincoln%20Gap%20Rd%2C%20Warren%2C%20VT",
+        "start_coords": [
+          44.095,
+          -72.928
+        ]
+      },
       "stats": {
         "distance": 4.9,
         "gain": 1934,

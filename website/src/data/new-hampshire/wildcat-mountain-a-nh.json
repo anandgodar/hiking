@@ -26,6 +26,12 @@
         "notch views"
       ],
       "description": "Starting on the gentle 19-Mile Brook, this route becomes steep after Carter Notch Hut as it climbs the Wildcat Ridge Trail\u2019s wooden steps and ledges to Wildcat A. The summit ledge provides a dramatic view down into Carter Notch and across to the Carter-Moriah range. The effort is tough but the vantage into the notch\u2019s cliff-flanked lakes is unforgettable.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "parking_info": "19-Mile Brook Trailhead, NH-16",
       "start_lat": 44.2676,
       "start_lon": -71.1543,
@@ -70,7 +76,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 4422 feet, Wildcat Mountain A offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "ai_summary": "One of New Hampshire's premier peaks, Wildcat Mountain A rises to 4422 feet. It is known for its rugged terrain and panoramic vistas.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -88,6 +94,18 @@
         "notch views"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "19-Mile Brook Trailhead, NH-16",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=19-Mile%20Brook%20Trailhead%2C%20NH-16",
+        "start_coords": [
+          44.2676,
+          -71.1543
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
       "stats": {
         "distance": 11.6,
         "gain": 2877,

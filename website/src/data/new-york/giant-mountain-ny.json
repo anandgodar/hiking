@@ -58,7 +58,7 @@
     }
   ],
   "current_conditions": {
-    "ai_summary": "One of New York's premier peaks, Giant Mountain rises to 4627 feet. It is known for its rugged terrain and panoramic vistas.",
+    "ai_summary": "A spectacular hike located in New York. Standing at 4627 feet, Giant Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [
       "Weather changes rapidly above treeline.",
       "Bring extra water and layers.",
@@ -76,6 +76,14 @@
         "scenic"
       ],
       "smart_logic": {},
+      "logistics": {
+        "parking_info": "Route 73 Trailhead (near Chapel Pond), Keene Valley, NY",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Route%2073%20Trailhead%20%28near%20Chapel%20Pond%29%2C%20Keene%20Valley%2C%20NY",
+        "start_coords": [
+          44.138,
+          -73.743
+        ]
+      },
       "stats": {
         "distance": 5.4,
         "gain": 3122,
