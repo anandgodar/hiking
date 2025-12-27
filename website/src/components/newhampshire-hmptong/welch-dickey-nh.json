@@ -1,0 +1,571 @@
+{
+  "name": "Welch & Dickey Mountains",
+  "slug": "welch-dickey-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 2605,
+  "mountain_hero": "https://images.unsplash.com/photo-1654939328475-4026a2126441",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "52 WAV",
+    "Loop",
+    "Views",
+    "Family Friendly"
+  ],
+  "lat": 43.912,
+  "lon": -71.559,
+  "trails_config": [
+    {
+      "name": "Welch-Dickey Loop Trail",
+      "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 4.4,
+      "tags": [
+        "loop",
+        "open ledges",
+        "sunny"
+      ],
+      "description": "A classic low-elevation loop known for its extensive open ledges and superb views. The trail ascends Welch Mountain first, emerging onto bare slabs with continuous vistas of the valley and surrounding peaks. It then traverses to Dickey Mountain, where more ledges (and a neat rock overhang) await. The descent winds gently down through forest. This hike is especially great on a cool autumn day or a sunny winter afternoon, offering big scenery for a modest effort. Be cautious on the smooth granite if wet.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "parking_info": "Welch-Dickey Trailhead, Orris Rd (off NH-49)",
+      "start_lat": 43.9113,
+      "start_lon": -71.5683,
+      "via_lat": 43.9114,
+      "via_lon": -71.5502,
+      "features": [
+        {
+          "name": "Dickey Ledge Arch",
+          "type": "viewpoint",
+          "lat": 43.9134,
+          "lon": -71.5535
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Shell Cascade",
+      "slug": "shell-cascade-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1509,
+      "distance_miles": 1.7
+    },
+    {
+      "name": "Fletcher Cascades",
+      "slug": "fletcher-cascades-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2103,
+      "distance_miles": 3.8
+    },
+    {
+      "name": "Mount Tecumseh",
+      "slug": "mount-tecumseh-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4003,
+      "distance_miles": 3.8
+    },
+    {
+      "name": "Mount Osceola",
+      "slug": "mount-osceola-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4340,
+      "distance_miles": 6.2
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "A spectacular hike located in New Hampshire. Standing at 2605 feet, Welch & Dickey Mountains offers breathtaking views and a rewarding challenge for hikers of all levels.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2605 feet, Welch & Dickey Mountains is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Welch-Dickey Loop Trail**, a **4.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Shell Cascade**, which is just 1.7 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Welch-Dickey Loop Trail",
+      "tags": [
+        "loop",
+        "open ledges",
+        "sunny"
+      ],
+      "smart_logic": {},
+      "logistics": {
+        "parking_info": "Welch-Dickey Trailhead, Orris Rd (off NH-49)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Welch-Dickey%20Trailhead%2C%20Orris%20Rd%20%28off%20NH-49%29",
+        "start_coords": [
+          43.9113,
+          -71.5683
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "stats": {
+        "distance": 1.4,
+        "gain": 140,
+        "type": "Loop",
+        "difficulty": "Moderate",
+        "time": 1.0
+      },
+      "geo": {
+        "path": [
+          [
+            43.91,
+            -71.56492,
+            1025
+          ],
+          [
+            43.91029,
+            -71.56469,
+            1027
+          ],
+          [
+            43.91054,
+            -71.56444,
+            1032
+          ],
+          [
+            43.91058,
+            -71.56437,
+            1031
+          ],
+          [
+            43.91063,
+            -71.56432,
+            1034
+          ],
+          [
+            43.91079,
+            -71.56406,
+            1041
+          ],
+          [
+            43.91093,
+            -71.5638,
+            1036
+          ],
+          [
+            43.91108,
+            -71.56346,
+            1041
+          ],
+          [
+            43.91112,
+            -71.56335,
+            1036
+          ],
+          [
+            43.91131,
+            -71.56285,
+            1039
+          ],
+          [
+            43.91142,
+            -71.56258,
+            1043
+          ],
+          [
+            43.91156,
+            -71.56231,
+            1049
+          ],
+          [
+            43.91167,
+            -71.56212,
+            1047
+          ],
+          [
+            43.91184,
+            -71.56189,
+            1054
+          ],
+          [
+            43.91204,
+            -71.56168,
+            1049
+          ],
+          [
+            43.91255,
+            -71.56127,
+            1061
+          ],
+          [
+            43.9127,
+            -71.56111,
+            1060
+          ],
+          [
+            43.91284,
+            -71.56094,
+            1058
+          ],
+          [
+            43.91299,
+            -71.56068,
+            1057
+          ],
+          [
+            43.91312,
+            -71.56042,
+            1063
+          ],
+          [
+            43.9133,
+            -71.55996,
+            1082
+          ],
+          [
+            43.91404,
+            -71.55802,
+            1092
+          ],
+          [
+            43.91417,
+            -71.55759,
+            1092
+          ],
+          [
+            43.91424,
+            -71.55731,
+            1093
+          ],
+          [
+            43.91429,
+            -71.55701,
+            1092
+          ],
+          [
+            43.91431,
+            -71.55664,
+            1094
+          ],
+          [
+            43.91431,
+            -71.55635,
+            1095
+          ],
+          [
+            43.91428,
+            -71.55595,
+            1099
+          ],
+          [
+            43.91425,
+            -71.55556,
+            1106
+          ],
+          [
+            43.91422,
+            -71.55526,
+            1109
+          ],
+          [
+            43.91422,
+            -71.55503,
+            1110
+          ],
+          [
+            43.91424,
+            -71.55459,
+            1113
+          ],
+          [
+            43.91427,
+            -71.55431,
+            1111
+          ],
+          [
+            43.91434,
+            -71.55387,
+            1113
+          ],
+          [
+            43.91441,
+            -71.55359,
+            1113
+          ],
+          [
+            43.91451,
+            -71.55324,
+            1115
+          ],
+          [
+            43.91467,
+            -71.55283,
+            1115
+          ],
+          [
+            43.91451,
+            -71.55324,
+            1115
+          ],
+          [
+            43.91441,
+            -71.55359,
+            1113
+          ],
+          [
+            43.91434,
+            -71.55387,
+            1113
+          ],
+          [
+            43.91427,
+            -71.55431,
+            1111
+          ],
+          [
+            43.91424,
+            -71.55459,
+            1113
+          ],
+          [
+            43.91422,
+            -71.55503,
+            1110
+          ],
+          [
+            43.91422,
+            -71.55526,
+            1109
+          ],
+          [
+            43.91425,
+            -71.55556,
+            1106
+          ],
+          [
+            43.91428,
+            -71.55595,
+            1099
+          ],
+          [
+            43.91431,
+            -71.55635,
+            1095
+          ],
+          [
+            43.91431,
+            -71.55664,
+            1094
+          ],
+          [
+            43.91429,
+            -71.55701,
+            1092
+          ],
+          [
+            43.91424,
+            -71.55731,
+            1093
+          ],
+          [
+            43.91417,
+            -71.55759,
+            1092
+          ],
+          [
+            43.91404,
+            -71.55802,
+            1092
+          ],
+          [
+            43.91312,
+            -71.56042,
+            1063
+          ],
+          [
+            43.91299,
+            -71.56068,
+            1057
+          ],
+          [
+            43.91284,
+            -71.56094,
+            1058
+          ],
+          [
+            43.9127,
+            -71.56111,
+            1060
+          ],
+          [
+            43.91255,
+            -71.56127,
+            1061
+          ],
+          [
+            43.91204,
+            -71.56168,
+            1049
+          ],
+          [
+            43.91184,
+            -71.56189,
+            1054
+          ],
+          [
+            43.91167,
+            -71.56212,
+            1047
+          ],
+          [
+            43.91156,
+            -71.56231,
+            1049
+          ],
+          [
+            43.91142,
+            -71.56258,
+            1043
+          ],
+          [
+            43.91131,
+            -71.56285,
+            1039
+          ],
+          [
+            43.91112,
+            -71.56335,
+            1036
+          ],
+          [
+            43.91108,
+            -71.56346,
+            1041
+          ],
+          [
+            43.91093,
+            -71.5638,
+            1036
+          ],
+          [
+            43.91079,
+            -71.56406,
+            1041
+          ],
+          [
+            43.91063,
+            -71.56432,
+            1034
+          ],
+          [
+            43.91058,
+            -71.56437,
+            1031
+          ],
+          [
+            43.91054,
+            -71.56444,
+            1032
+          ],
+          [
+            43.91029,
+            -71.56469,
+            1027
+          ],
+          [
+            43.91,
+            -71.56492,
+            1025
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1025,
+            "coord": [
+              43.91,
+              -71.56492
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 1043,
+            "coord": [
+              43.91142,
+              -71.56258
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 1082,
+            "coord": [
+              43.9133,
+              -71.55996
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 1110,
+            "coord": [
+              43.91422,
+              -71.55503
+            ]
+          },
+          {
+            "mile": 0.8,
+            "elev": 1111,
+            "coord": [
+              43.91427,
+              -71.55431
+            ]
+          },
+          {
+            "mile": 0.97,
+            "elev": 1092,
+            "coord": [
+              43.91417,
+              -71.55759
+            ]
+          },
+          {
+            "mile": 1.27,
+            "elev": 1049,
+            "coord": [
+              43.91156,
+              -71.56231
+            ]
+          },
+          {
+            "mile": 1.42,
+            "elev": 1027,
+            "coord": [
+              43.91029,
+              -71.56469
+            ]
+          },
+          {
+            "mile": 1.44,
+            "elev": 1025,
+            "coord": [
+              43.91,
+              -71.56492
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.91,
+            -71.56492,
+            1025
+          ],
+          "summit": [
+            43.912,
+            -71.559,
+            2605
+          ]
+        }
+      },
+      "id": "25a67cf4"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "name": "Glen Ellis Falls",
+  "slug": "glen-ellis-falls-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 1900,
+  "mountain_hero": "https://source.unsplash.com/1600x900/?glen-ellis-falls,new-hampshire,waterfall",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Waterfall",
+    "Short Hike",
+    "Presidential Range",
+    "White Mountains",
+    "Family Friendly"
+  ],
+  "lat": 44.2514,
+  "lon": -71.2531,
+  "trails_config": [
+    {
+      "name": "Glen Ellis Falls Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 0.6,
+      "tags": [
+        "best",
+        "family-friendly",
+        "scenic",
+        "photography"
+      ],
+      "description": "A short, stair-stepped descent to a powerful plunge into a rocky gorge\u2014one of the best roadside waterfalls on Route 16. Morning light is great for photos; the climb out is brief but steep.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "parking_info": "Glen Ellis Falls Scenic Area Parking, NH-16",
+      "start_lat": 44.2515,
+      "start_lon": -71.2529,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Glen Ellis Falls Viewpoint",
+          "type": "waterfall",
+          "lat": 44.2514,
+          "lon": -71.2531
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Wildcat Mountain D",
+      "slug": "wildcat-mountain-d-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4062,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Wildcat Mountain A",
+      "slug": "wildcat-mountain-a-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4422,
+      "distance_miles": 1.6
+    },
+    {
+      "name": "Mount Washington",
+      "slug": "mount-washington-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 6288,
+      "distance_miles": 2.8
+    },
+    {
+      "name": "Mount Monroe",
+      "slug": "mount-monroe-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 5384,
+      "distance_miles": 3.4
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "Experience the beauty of New Hampshire on Glen Ellis Falls. At 1900 feet, this summit commands impressive views of the surrounding wilderness.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 1900 feet, Glen Ellis Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Glen Ellis Falls Trail**, a **0.6 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Wildcat Mountain D**, which is just 1.5 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Glen Ellis Falls Trail",
+      "tags": [
+        "best",
+        "family-friendly",
+        "scenic",
+        "photography"
+      ],
+      "smart_logic": {},
+      "logistics": {
+        "parking_info": "Glen Ellis Falls Scenic Area Parking, NH-16",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Glen%20Ellis%20Falls%20Scenic%20Area%20Parking%2C%20NH-16",
+        "start_coords": [
+          44.2515,
+          -71.2529
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "stats": {
+        "distance": 0.0,
+        "gain": 0,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.0
+      },
+      "geo": {
+        "path": [
+          [
+            44.25147,
+            -71.2536,
+            2017
+          ],
+          [
+            44.25138,
+            -71.25359,
+            2017
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2017,
+            "coord": [
+              44.25147,
+              -71.2536
+            ]
+          },
+          {
+            "mile": 0.01,
+            "elev": 2017,
+            "coord": [
+              44.25138,
+              -71.25359
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.25147,
+            -71.2536,
+            2017
+          ],
+          "summit": [
+            44.2514,
+            -71.2531,
+            1900
+          ]
+        }
+      },
+      "id": "3e4e2080"
+    }
+  ]
+}

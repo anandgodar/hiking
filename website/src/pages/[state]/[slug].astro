@@ -1,199 +1,232 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import TrailDashboard from '../../components/TrailDashboard';
-import SiteFooter from '../../components/SiteFooter.astro';
-import TrailSchema from '../../components/TrailSchema.astro';
-// FIX 1: Added .jsx extension explicitly to prevent editor import errors
-import { SmartTrailAlert } from '../../components/SmartTrailAlert.jsx';
+/**
+ * Mountain Detail Page
+ * Location: src/pages/[state]/[slug].astro
+ *
+ * THIS IS A PAGE FILE - NOT A COMPONENT
+ * Must have getStaticPaths() for dynamic routing
+ */
 
+// Layout
+import Layout from '../../layouts/Layout.astro';
+
+// Phase 1-3 Components
+import SEOHead from '../../components/SEOHead.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import SeasonalGuide from '../../components/SeasonalGuide.astro';
+import SafetySection from '../../components/SafetySection.astro';
+import DownloadsSection from '../../components/DownloadsSection.astro';
+
+// Existing Components
+import TrailSchema from '../../components/TrailSchema.astro';
+import SocialPulse from '../../components/SocialPulse.astro';
+import NearbyPeaksAstro from '../../components/NearbyPeaks.astro';
+import Footer from '../../components/Footer.astro';
+
+// React Components
+import TrailDashboard from '../../components/TrailDashboard.jsx';
+import WeatherWidget from '../../components/WeatherWidget.jsx';
+
+// REQUIRED: getStaticPaths for dynamic routes
 export async function getStaticPaths() {
-  const allFiles = await Astro.glob('../../data/*/*.json');
-  return allFiles.map(file => {
-      const data = file.default;
-      return {
-          params: { state: data.state_slug, slug: data.slug },
-          props: { mountain: data }
-      };
+  const modules = import.meta.glob('../../data/*/*.json', { eager: true });
+
+  return Object.entries(modules).map(([path, data]) => {
+    const mountain = data.default || data;
+    // Normalize state_slug
+    let stateSlug = mountain.state_slug || 'new-hampshire';
+    if (stateSlug === 'nh') stateSlug = 'new-hampshire';
+    if (stateSlug === 'me') stateSlug = 'maine';
+    if (stateSlug === 'vt') stateSlug = 'vermont';
+    if (stateSlug === 'ny') stateSlug = 'new-york';
+
+    return {
+      params: {
+        state: stateSlug,
+        slug: mountain.slug
+      },
+      props: { mountain: { ...mountain, state_slug: stateSlug } }
+    };
   });
 }
 
 const { mountain } = Astro.props;
-const { state } = Astro.params;
 
-// Helper: Format 'new-hampshire' -> 'New Hampshire'
-const stateName = state
-    ? state.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
-    : 'Back';
+// Extract page content
+const pageContent = mountain.page_content || {};
+const engagement = mountain.engagement || {};
+const seo = mountain.seo || {};
 
-// Fallback logic for Hero Image
-const bgImage = mountain.mountain_hero || mountain.image || `https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000`;
+// Trail count - check both data structures
+const trailCount = mountain.trails?.length || mountain.trails_config?.length || 0;
 ---
 
-<Layout title={mountain.name} description={mountain.generated_description}>
-  <slot name="head">
-    <TrailSchema mountain={mountain} stateName={stateName} />
-  </slot>
+<Layout title={seo.meta_title || `${mountain.name} Trail Guide`}>
+  <SEOHead slot="head" mountain={mountain} />
+  <TrailSchema slot="head" mountain={mountain} />
 
-  {/* --- HERO SECTION --- */}
-  <div class="relative h-[550px] flex items-end pb-16 group overflow-hidden">
-
-    {/* Dynamic Background Image */}
-    <div class="absolute inset-0">
+  <main class="min-h-screen bg-stone-50">
+    <!-- Hero Section -->
+    <section class="hero relative h-[70vh] min-h-[500px] overflow-hidden">
+      <div class="absolute inset-0">
         <img
-            src={bgImage}
-            class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-[2s]"
-            alt={mountain.name}
-            transition:name={`img-${mountain.slug}`}
+          src={mountain.mountain_hero || '/images/default-hero.jpg'}
+          alt={`${mountain.name} summit view`}
+          class="w-full h-full object-cover"
+          loading="eager"
         />
-        {/* Gradients for readability */}
-        <div class="absolute inset-0 bg-gradient-to-b from-stone-900/60 via-transparent to-stone-900/90"></div>
-    </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+      </div>
 
-    {/* --- BREADCRUMB NAVIGATION --- */}
-    <div class="absolute top-0 left-0 w-full p-6 z-20">
-        <nav class="max-w-7xl mx-auto flex items-center gap-2 text-xs font-bold text-white/80 uppercase tracking-widest drop-shadow-md">
-            <a href="/" class="hover:text-emerald-400 transition-colors flex items-center gap-1">Home</a>
-            <span class="opacity-30">/</span>
-            <a href={`/${state}`} class="hover:text-emerald-400 transition-colors">{stateName}</a>
-            <span class="opacity-30">/</span>
-            <span class="text-emerald-400">{mountain.name}</span>
+      <div class="relative h-full flex flex-col justify-end pb-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <!-- Breadcrumb -->
+        <nav class="mb-4" aria-label="Breadcrumb">
+          <ol class="flex items-center gap-2 text-sm text-white/70">
+            <li><a href="/" class="hover:text-white">Home</a></li>
+            <li>/</li>
+            <li><a href={`/${mountain.state_slug}`} class="hover:text-white capitalize">{mountain.state || mountain.state_slug?.replace('-', ' ')}</a></li>
+            <li>/</li>
+            <li class="text-white font-medium">{mountain.name}</li>
+          </ol>
         </nav>
-    </div>
 
-    {/* HERO CONTENT */}
-    <div class="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-col md:flex-row justify-between items-end gap-6">
+        <!-- H1 Title -->
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">
+          {mountain.name}
+        </h1>
+
+        <p class="text-xl text-white/90 mb-6">
+          {mountain.elevation?.toLocaleString()} ft | {trailCount} trails | {mountain.state || mountain.state_slug?.replace('-', ' ')}
+        </p>
+
+        <!-- Quick Stats -->
+        <div class="flex flex-wrap gap-4">
+          <div class="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+            <span class="text-white/70 text-sm">Elevation</span>
+            <p class="text-white font-bold">{mountain.elevation?.toLocaleString()} ft</p>
+          </div>
+
+          <div class="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+            <span class="text-white/70 text-sm">Trails</span>
+            <p class="text-white font-bold">{trailCount} routes</p>
+          </div>
+
+          {(mountain.trails?.[0]?.difficulty || mountain.trails?.[0]?.stats?.difficulty || mountain.trails_config?.[0]?.difficulty) && (
+            <div class="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
+              <span class="text-white/70 text-sm">Difficulty</span>
+              <p class="text-white font-bold">
+                {mountain.trails?.[0]?.difficulty || mountain.trails?.[0]?.stats?.difficulty || mountain.trails_config?.[0]?.difficulty}
+              </p>
+            </div>
+          )}
+
+          {mountain.tags?.includes('4000 Footer') && (
+            <div class="bg-emerald-500/90 backdrop-blur-sm rounded-lg px-4 py-2">
+              <span class="text-white/90 text-sm">Peak List</span>
+              <p class="text-white font-bold">NH 4000-Footer</p>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <div class="max-w-7xl mx-auto px-4 md:px-8 py-8">
+
+      <!-- Trail Dashboard - Shows when trail data exists -->
+      {mountain.trails && mountain.trails.length > 0 && (
+        <section class="-mt-24 relative z-10 mb-12" id="trails">
+          <TrailDashboard
+            client:only="react"
+            mountain={mountain}
+          />
+        </section>
+      )}
+
+      <!-- Fallback when no processed trail data -->
+      {(!mountain.trails || mountain.trails.length === 0) && (
+        <section class="-mt-24 relative z-10 mb-12 bg-white rounded-2xl shadow-xl p-8">
+          <div class="text-center py-8">
+            <svg class="w-16 h-16 mx-auto text-stone-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+            </svg>
+            <h2 class="text-2xl font-bold text-stone-900 mb-2">Trail Maps Coming Soon</h2>
+            <p class="text-stone-600 max-w-md mx-auto">
+              We're working on detailed trail maps for {mountain.name}.
+              Check back soon for interactive routes and elevation profiles.
+            </p>
+          </div>
+
+          <!-- Basic Info Grid -->
+          <div class="mt-8 grid md:grid-cols-2 gap-6">
+            <div class="bg-stone-50 rounded-xl p-6">
+              <h3 class="font-bold text-stone-900 mb-4">Summit Information</h3>
+              <dl class="space-y-3">
+                <div class="flex justify-between">
+                  <dt class="text-stone-500">Elevation</dt>
+                  <dd class="font-bold">{mountain.elevation?.toLocaleString()} ft</dd>
+                </div>
+                <div class="flex justify-between">
+                  <dt class="text-stone-500">Coordinates</dt>
+                  <dd class="font-mono text-sm">{mountain.lat?.toFixed(4)}, {mountain.lon?.toFixed(4)}</dd>
+                </div>
+                <div class="flex justify-between">
+                  <dt class="text-stone-500">State</dt>
+                  <dd class="font-bold capitalize">{mountain.state || mountain.state_slug?.replace('-', ' ')}</dd>
+                </div>
+              </dl>
+            </div>
+
+            <!-- Weather Widget -->
             <div>
-                <span class="inline-flex items-center gap-2 py-1 px-3 rounded-full bg-emerald-500/20 backdrop-blur-md border border-emerald-400/30 text-emerald-100 text-[10px] font-bold uppercase tracking-widest mb-6">
-                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                    Live Conditions
-                </span>
-
-                <h1 class="font-serif text-5xl md:text-7xl font-black text-white mb-4 shadow-sm tracking-tight">
-                    {mountain.name}
-                </h1>
-
-                {/* FIX 2: NAVIGATE BUTTON (Uses the new 'logistics' field from main.py) */}
-                {mountain.trails?.[0]?.logistics?.directions_url && (
-                    <a
-                        href={mountain.trails[0].logistics.directions_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="inline-flex items-center gap-2 px-4 py-2 bg-white text-stone-900 text-sm font-bold rounded-lg hover:bg-stone-100 transition-colors shadow-lg mb-6"
-                    >
-                        <span>🚗</span> Navigate to Trailhead
-                    </a>
-                )}
-
-                <div class="flex items-center gap-6 text-stone-300 font-medium">
-                    <div class="flex items-center gap-2">
-                        <span class="text-2xl">⛰️</span>
-                        <div>
-                            <div class="text-xs uppercase text-stone-500 font-bold tracking-wider">Elevation</div>
-                            <div class="text-white">{mountain.elevation.toLocaleString()} ft</div>
-                        </div>
-                    </div>
-                    <div class="w-px h-8 bg-white/10"></div>
-                    <div class="flex items-center gap-2">
-                        <span class="text-2xl">📍</span>
-                        <div>
-                            <div class="text-xs uppercase text-stone-500 font-bold tracking-wider">Coordinates</div>
-                            <div class="text-white">{mountain.lat.toFixed(3)}, {mountain.lon.toFixed(3)}</div>
-                        </div>
-                    </div>
-                </div>
+              <WeatherWidget
+                client:only="react"
+                lat={mountain.lat}
+                lon={mountain.lon}
+                elevation={mountain.elevation}
+              />
             </div>
+          </div>
+        </section>
+      )}
+
+      <!-- Additional Content -->
+      <div class="space-y-8 mt-8">
+
+        <!-- Description -->
+        {mountain.generated_description && (
+          <section class="bg-white rounded-xl p-6 border border-stone-200" id="about">
+            <h2 class="text-2xl font-bold text-stone-900 mb-4">About {mountain.name}</h2>
+            <div class="prose prose-stone max-w-none" set:html={mountain.generated_description} />
+          </section>
+        )}
+
+        <!-- FAQ Section -->
+        <FAQSection faqs={pageContent.faqs} mountainName={mountain.name} />
+
+        <!-- Seasonal Guide -->
+        <SeasonalGuide seasons={pageContent.seasonal_guide} elevation={mountain.elevation} />
+
+        <!-- Safety Section -->
+        <SafetySection safety={pageContent.safety} mountainName={mountain.name} elevation={mountain.elevation} />
+
+        <!-- Downloads -->
+        <div class="bg-white rounded-xl border border-stone-200 p-6">
+          <DownloadsSection mountain={mountain} downloads={engagement.downloads} />
         </div>
+      </div>
+
+      <!-- Nearby Peaks -->
+      {mountain.nearby_peaks && mountain.nearby_peaks.length > 0 && (
+        <NearbyPeaksAstro
+          peaks={mountain.nearby_peaks}
+          currentMountain={mountain.name}
+          stateSlug={mountain.state_slug}
+        />
+      )}
     </div>
-  </div>
 
-  {/* --- MAIN CONTENT GRID --- */}
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-
-    {/* FIX 3: SMART ALERTS (Added 'key' prop to fix editor error) */}
-    {mountain.trails?.map((trail) => (
-       trail.smart_logic?.ui_alert && (
-         <SmartTrailAlert
-           key={trail.name}
-           client:idle
-           smartLogic={trail.smart_logic}
-         />
-       )
-    ))}
-
- {/* 2. DASHBOARD (Map, Stats, Weather) */}
-    <TrailDashboard client:only="react" mountain={mountain} />
-
-    {/* --- NEW: TRAILHEAD LOGISTICS BLOCK --- */}
-    {/* This appears underneath the map dashboard */}
-    {mountain.trails?.[0]?.logistics && (
-        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-
-            {/* Left: Directions Card */}
-            <div class="bg-stone-50 p-6 rounded-2xl border border-stone-100 flex flex-col justify-between">
-                <div>
-                    <h3 class="text-stone-900 font-bold font-serif text-lg mb-2">Trailhead & Parking</h3>
-                    <p class="text-stone-600 text-sm mb-4">
-                        {mountain.trails[0].logistics.parking_info}
-                    </p>
-                </div>
-                <a
-                    href={mountain.trails[0].logistics.directions_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="flex items-center justify-center gap-2 w-full py-3 bg-white border border-stone-200 text-stone-900 font-bold rounded-xl hover:bg-stone-100 transition-colors shadow-sm text-sm"
-                >
-                    <span>🚗</span> Open in Google Maps
-                </a>
-            </div>
-
-            {/* Right: Smart Details Grid */}
-            <div class="bg-white p-6 rounded-2xl border border-stone-100 shadow-sm">
-                <h3 class="text-stone-900 font-bold font-serif text-lg mb-4 flex items-center gap-2">
-                    <span>🅿️</span> Access Details
-                </h3>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {/* Capacity */}
-                    <div class="p-3 bg-stone-50 rounded-lg">
-                        <div class="text-[10px] uppercase text-stone-400 font-bold tracking-wider mb-1">Capacity</div>
-                        <div class="font-medium text-stone-800 text-sm">
-                            {mountain.trails[0].logistics.capacity || "Unknown"}
-                        </div>
-                    </div>
-
-                    {/* Busy Status */}
-                    <div class="p-3 bg-amber-50 rounded-lg">
-                        <div class="text-[10px] uppercase text-amber-800/60 font-bold tracking-wider mb-1">Busy Times</div>
-                        <div class="font-medium text-amber-900 text-sm">
-                            {mountain.trails[0].logistics.status || "Standard traffic"}
-                        </div>
-                    </div>
-
-                    {/* Fees */}
-                    <div class="p-3 bg-stone-50 rounded-lg">
-                        <div class="text-[10px] uppercase text-stone-400 font-bold tracking-wider mb-1">Fees / Permits</div>
-                        <div class="font-medium text-stone-800 text-sm">
-                            {mountain.trails[0].logistics.fee || "Free"}
-                        </div>
-                    </div>
-
-                    {/* Shuttle/Notes */}
-                    {mountain.trails[0].logistics.shuttle && (
-                         <div class="p-3 bg-blue-50 rounded-lg">
-                            <div class="text-[10px] uppercase text-blue-800/60 font-bold tracking-wider mb-1">Shuttle Info</div>
-                            <div class="font-medium text-blue-900 text-sm">
-                                {mountain.trails[0].logistics.shuttle}
-                            </div>
-                        </div>
-                    )}
-                </div>
-            </div>
-        </div>
-    )}
-
-  </div>
-
-  <SiteFooter />
-
+    <!-- Footer -->
+    <Footer />
+  </main>
 </Layout>

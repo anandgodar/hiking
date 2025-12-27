@@ -1,0 +1,279 @@
+{
+  "name": "Mount Tecumseh",
+  "slug": "mount-tecumseh-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 4003,
+  "mountain_hero": "https://images.unsplash.com/photo-1654939328475-4026a2126441",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "4000 Footer",
+    "Waterville Valley",
+    "Family Friendly",
+    "Ski Area"
+  ],
+  "lat": 43.9667,
+  "lon": -71.5567,
+  "trails_config": [
+    {
+      "name": "Mount Tecumseh Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 5.0,
+      "tags": [
+        "short",
+        "family friendly",
+        "ski slope view"
+      ],
+      "description": "Shortest of the 4,000-footers, Tecumseh offers a quick hike with a big reward. From the Waterville Valley ski area, the trail climbs steadily with good footing and some long switchbacks. Near the top it parallels an open ski slope with an excellent viewpoint. The summit has a limited outlook, but a nearby viewpoint on a side path showcases the Sandwich Range. This hike is perfect for beginners and families, and is very popular in winter as well.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "parking_info": "Mt. Tecumseh Trailhead (Waterville Valley Ski Resort), Tripoli Rd",
+      "start_lat": 43.9661,
+      "start_lon": -71.5573,
+      "features": [
+        {
+          "name": "Sosman Trail View",
+          "type": "viewpoint",
+          "lat": 43.9686,
+          "lon": -71.562
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Mount Osceola",
+      "slug": "mount-osceola-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4340,
+      "distance_miles": 2.6
+    },
+    {
+      "name": "Shell Cascade",
+      "slug": "shell-cascade-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1509,
+      "distance_miles": 2.8
+    },
+    {
+      "name": "East Osceola",
+      "slug": "east-osceola-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4156,
+      "distance_miles": 3.2
+    },
+    {
+      "name": "Welch & Dickey Mountains",
+      "slug": "welch-dickey-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2605,
+      "distance_miles": 3.8
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Tecumseh rises to 4003 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4003 feet, Mount Tecumseh is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mount Tecumseh Trail**, a **5.0 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Osceola**, which is just 2.6 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Mount Tecumseh Trail",
+      "tags": [
+        "short",
+        "family friendly",
+        "ski slope view"
+      ],
+      "smart_logic": {},
+      "logistics": {
+        "parking_info": "Mt. Tecumseh Trailhead (Waterville Valley Ski Resort), Tripoli Rd",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Mt.%20Tecumseh%20Trailhead%20%28Waterville%20Valley%20Ski%20Resort%29%2C%20Tripoli%20Rd",
+        "start_coords": [
+          43.9661,
+          -71.5573
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "stats": {
+        "distance": 0.2,
+        "gain": 88,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.2
+      },
+      "geo": {
+        "path": [
+          [
+            43.96611,
+            -71.55744,
+            3928
+          ],
+          [
+            43.96613,
+            -71.55743,
+            3929
+          ],
+          [
+            43.96624,
+            -71.55739,
+            3941
+          ],
+          [
+            43.9663,
+            -71.55731,
+            3955
+          ],
+          [
+            43.96632,
+            -71.55727,
+            3955
+          ],
+          [
+            43.9663,
+            -71.55722,
+            3966
+          ],
+          [
+            43.96625,
+            -71.55719,
+            3967
+          ],
+          [
+            43.96617,
+            -71.55715,
+            3965
+          ],
+          [
+            43.96613,
+            -71.5571,
+            3974
+          ],
+          [
+            43.96614,
+            -71.55701,
+            3983
+          ],
+          [
+            43.9662,
+            -71.55692,
+            3991
+          ],
+          [
+            43.96621,
+            -71.5568,
+            4003
+          ],
+          [
+            43.96631,
+            -71.55672,
+            4009
+          ],
+          [
+            43.96637,
+            -71.55669,
+            4009
+          ],
+          [
+            43.96641,
+            -71.5566,
+            4012
+          ],
+          [
+            43.96646,
+            -71.55655,
+            4010
+          ],
+          [
+            43.96652,
+            -71.55656,
+            4007
+          ],
+          [
+            43.96655,
+            -71.55653,
+            4007
+          ],
+          [
+            43.96656,
+            -71.55658,
+            4009
+          ],
+          [
+            43.96657,
+            -71.55664,
+            4009
+          ],
+          [
+            43.9666,
+            -71.55668,
+            4003
+          ],
+          [
+            43.96666,
+            -71.55676,
+            3996
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 3928,
+            "coord": [
+              43.96611,
+              -71.55744
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 3991,
+            "coord": [
+              43.9662,
+              -71.55692
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 4003,
+            "coord": [
+              43.9666,
+              -71.55668
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 3996,
+            "coord": [
+              43.96666,
+              -71.55676
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.96611,
+            -71.55744,
+            3928
+          ],
+          "summit": [
+            43.9667,
+            -71.5567,
+            4003
+          ]
+        }
+      },
+      "id": "8abf593d"
+    }
+  ]
+}

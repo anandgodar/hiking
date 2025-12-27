@@ -1,0 +1,101 @@
+{
+  "name": "Mount Piper",
+  "slug": "mount-piper-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 2044,
+  "mountain_hero": "https://images.unsplash.com/photo-1637100295339-775b4712d069",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Belknap Range",
+    "Views",
+    "Family Friendly",
+    "Sunset"
+  ],
+  "lat": 43.5004,
+  "lon": -71.3177,
+  "trails_config": [
+    {
+      "name": "Piper Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Easy",
+      "distance_miles": 3.0,
+      "tags": [
+        "short",
+        "open summit",
+        "kids"
+      ],
+      "description": "A quick hike to a delightful little peak. Starting from the end of Belknap Mountain Road, the Piper Mountain Trail climbs gradually to the open ledgy summit of Piper. The top features a rock fire ring and expansive views over Lake Winnipesaukee and the Belknap Range. It\u2019s a wonderful spot for a picnic or sunset. The gentle grade and short distance make this a popular hike for families and those seeking a quick payoff. Many loop this with Whiteface or other nearby peaks for a longer outing.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day",
+        "shuttle": null
+      },
+      "parking_info": "Piper Mt Trailhead, Belknap Mountain Rd (near end)",
+      "start_lat": 43.5004,
+      "start_lon": -71.3177,
+      "features": [
+        {
+          "name": "Piper Summit Fire Ring",
+          "type": "viewpoint",
+          "lat": 43.5004,
+          "lon": -71.3177
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Mount Anna",
+      "slug": "mount-anna-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1660,
+      "distance_miles": 1.7
+    },
+    {
+      "name": "Straightback Mountain",
+      "slug": "straightback-mountain-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1890,
+      "distance_miles": 2.1
+    },
+    {
+      "name": "Whiteface Mountain (Belknap)",
+      "slug": "whiteface-mountain-belknap-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1670,
+      "distance_miles": 2.7
+    },
+    {
+      "name": "Mount Mack",
+      "slug": "mount-mack-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1945,
+      "distance_miles": 2.8
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "Experience the beauty of New Hampshire on Mount Piper. At 2044 feet, this summit commands impressive views of the surrounding wilderness.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2044 feet, Mount Piper is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Piper Mountain Trail**, a **3.0 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Anna**, which is just 1.7 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Piper Mountain Trail",
+      "lat": 43.5004,
+      "lon": -71.3177,
+      "id": "74e05e74"
+    }
+  ],
+  "social_pulse": 7,
+  "meta": {
+    "refined_by_ai": true,
+    "last_audit": "2025-12-26"
+  }
+}

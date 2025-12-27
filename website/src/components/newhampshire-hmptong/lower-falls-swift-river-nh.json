@@ -1,0 +1,1344 @@
+{
+  "name": "Lower Falls (Swift River)",
+  "slug": "lower-falls-swift-river-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 948,
+  "mountain_hero": "https://source.unsplash.com/1600x900/?lower-falls,swift-river,new-hampshire,waterfall",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Waterfall",
+    "Swimming Hole",
+    "Kancamagus Highway",
+    "Family Friendly",
+    "White Mountains"
+  ],
+  "lat": 44.0159,
+  "lon": -71.2457,
+  "trails_config": [
+    {
+      "name": "Lower Falls Riverside Loop",
+      "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 1.8,
+      "tags": [
+        "best",
+        "swimming",
+        "scenic",
+        "easy-access"
+      ],
+      "description": "A classic Kancamagus Highway stop with big granite ledges, deep pools, and constant river sound\u2014one of the best reward-for-effort walks in the Whites. Go early for golden-hour light and fewer crowds, and use extra caution on wet rock.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "parking_info": "Lower Falls Recreation Site Parking, Kancamagus Highway (NH-112)",
+      "start_lat": 44.0159,
+      "start_lon": -71.2457,
+      "via_lat": 44.0167,
+      "via_lon": -71.2442,
+      "features": [
+        {
+          "name": "Lower Falls Main Pools",
+          "type": "waterfall",
+          "lat": 44.0159,
+          "lon": -71.2457
+        },
+        {
+          "name": "Swift River Ledges",
+          "type": "viewpoint",
+          "lat": 44.0164,
+          "lon": -71.2449
+        }
+      ]
+    },
+    {
+      "name": "Lower Falls Quick View (Boardwalk + Ledges)",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 0.4,
+      "tags": [
+        "best",
+        "family-friendly",
+        "swimming",
+        "sunset"
+      ],
+      "description": "A short stroll from the lot to the most photogenic ledges and pools\u2014perfect for a quick waterfall fix on a Kancamagus scenic drive. Late afternoon often brings the best light on the river.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "parking_info": "Lower Falls Recreation Site Parking, Kancamagus Highway (NH-112)",
+      "start_lat": 44.0159,
+      "start_lon": -71.2457,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Lower Falls Viewing Ledges",
+          "type": "viewpoint",
+          "lat": 44.0162,
+          "lon": -71.2452
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Rocky Gorge Scenic Area (Swift River)",
+      "slug": "rocky-gorge-swift-river-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1100,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Mount Chocorua",
+      "slug": "mount-chocorua-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3490,
+      "distance_miles": 2.6
+    },
+    {
+      "name": "Champney Falls (Mount Chocorua)",
+      "slug": "champney-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1860,
+      "distance_miles": 3.5
+    },
+    {
+      "name": "Diana's Baths",
+      "slug": "dianas-baths-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 720,
+      "distance_miles": 5.7
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New Hampshire's premier peaks, Lower Falls (Swift River) rises to 948 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 948 feet, Lower Falls (Swift River) is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Lower Falls Riverside Loop**, a **1.8 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Rocky Gorge Scenic Area (Swift River)**, which is just 1.8 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Lower Falls Riverside Loop",
+      "tags": [
+        "best",
+        "swimming",
+        "scenic",
+        "easy-access"
+      ],
+      "smart_logic": {},
+      "logistics": {
+        "parking_info": "Lower Falls Recreation Site Parking, Kancamagus Highway (NH-112)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Lower%20Falls%20Recreation%20Site%20Parking%2C%20Kancamagus%20Highway%20%28NH-112%29",
+        "start_coords": [
+          44.0159,
+          -71.2457
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "stats": {
+        "distance": 3.3,
+        "gain": 263,
+        "type": "Loop",
+        "difficulty": "Moderate",
+        "time": 2.3
+      },
+      "geo": {
+        "path": [
+          [
+            44.01592,
+            -71.24567,
+            949
+          ],
+          [
+            44.01592,
+            -71.24567,
+            949
+          ],
+          [
+            44.01589,
+            -71.24564,
+            949
+          ],
+          [
+            44.0158,
+            -71.24559,
+            949
+          ],
+          [
+            44.01573,
+            -71.24561,
+            948
+          ],
+          [
+            44.01561,
+            -71.24574,
+            947
+          ],
+          [
+            44.0156,
+            -71.24572,
+            947
+          ],
+          [
+            44.01547,
+            -71.24563,
+            945
+          ],
+          [
+            44.01524,
+            -71.2455,
+            941
+          ],
+          [
+            44.01468,
+            -71.24526,
+            933
+          ],
+          [
+            44.01426,
+            -71.24508,
+            928
+          ],
+          [
+            44.01278,
+            -71.24447,
+            930
+          ],
+          [
+            44.01195,
+            -71.24417,
+            926
+          ],
+          [
+            44.01151,
+            -71.24401,
+            920
+          ],
+          [
+            44.0112,
+            -71.24393,
+            917
+          ],
+          [
+            44.01061,
+            -71.24383,
+            913
+          ],
+          [
+            44.00973,
+            -71.24373,
+            909
+          ],
+          [
+            44.00927,
+            -71.24367,
+            906
+          ],
+          [
+            44.00897,
+            -71.24361,
+            904
+          ],
+          [
+            44.00869,
+            -71.24352,
+            903
+          ],
+          [
+            44.00771,
+            -71.24312,
+            896
+          ],
+          [
+            44.00744,
+            -71.24299,
+            894
+          ],
+          [
+            44.00684,
+            -71.24272,
+            891
+          ],
+          [
+            44.00635,
+            -71.2425,
+            889
+          ],
+          [
+            44.00636,
+            -71.24244,
+            888
+          ],
+          [
+            44.00636,
+            -71.24233,
+            887
+          ],
+          [
+            44.00633,
+            -71.24226,
+            885
+          ],
+          [
+            44.00625,
+            -71.24212,
+            881
+          ],
+          [
+            44.00602,
+            -71.24176,
+            880
+          ],
+          [
+            44.00584,
+            -71.24146,
+            879
+          ],
+          [
+            44.00581,
+            -71.24142,
+            878
+          ],
+          [
+            44.00575,
+            -71.24127,
+            875
+          ],
+          [
+            44.00573,
+            -71.24119,
+            876
+          ],
+          [
+            44.00573,
+            -71.24109,
+            874
+          ],
+          [
+            44.00576,
+            -71.24094,
+            870
+          ],
+          [
+            44.00589,
+            -71.24044,
+            879
+          ],
+          [
+            44.00591,
+            -71.24035,
+            880
+          ],
+          [
+            44.00597,
+            -71.2404,
+            885
+          ],
+          [
+            44.00606,
+            -71.24047,
+            881
+          ],
+          [
+            44.00615,
+            -71.24049,
+            884
+          ],
+          [
+            44.00624,
+            -71.24055,
+            887
+          ],
+          [
+            44.00641,
+            -71.24064,
+            890
+          ],
+          [
+            44.00663,
+            -71.24078,
+            889
+          ],
+          [
+            44.00678,
+            -71.24083,
+            895
+          ],
+          [
+            44.00721,
+            -71.24095,
+            889
+          ],
+          [
+            44.0073,
+            -71.24099,
+            890
+          ],
+          [
+            44.00756,
+            -71.24123,
+            892
+          ],
+          [
+            44.00767,
+            -71.24135,
+            894
+          ],
+          [
+            44.0078,
+            -71.24144,
+            895
+          ],
+          [
+            44.00786,
+            -71.24147,
+            895
+          ],
+          [
+            44.008,
+            -71.24147,
+            895
+          ],
+          [
+            44.00815,
+            -71.24148,
+            897
+          ],
+          [
+            44.00855,
+            -71.24161,
+            897
+          ],
+          [
+            44.00888,
+            -71.24178,
+            897
+          ],
+          [
+            44.00919,
+            -71.24195,
+            896
+          ],
+          [
+            44.00935,
+            -71.24209,
+            896
+          ],
+          [
+            44.00948,
+            -71.24215,
+            895
+          ],
+          [
+            44.00956,
+            -71.24213,
+            895
+          ],
+          [
+            44.00984,
+            -71.24197,
+            898
+          ],
+          [
+            44.00998,
+            -71.24185,
+            904
+          ],
+          [
+            44.01009,
+            -71.24181,
+            904
+          ],
+          [
+            44.01021,
+            -71.24181,
+            905
+          ],
+          [
+            44.01043,
+            -71.24185,
+            907
+          ],
+          [
+            44.01062,
+            -71.24193,
+            909
+          ],
+          [
+            44.0109,
+            -71.24209,
+            910
+          ],
+          [
+            44.01103,
+            -71.24217,
+            912
+          ],
+          [
+            44.01112,
+            -71.24221,
+            916
+          ],
+          [
+            44.01126,
+            -71.24223,
+            906
+          ],
+          [
+            44.01141,
+            -71.24224,
+            906
+          ],
+          [
+            44.01154,
+            -71.24226,
+            908
+          ],
+          [
+            44.01162,
+            -71.2423,
+            908
+          ],
+          [
+            44.01173,
+            -71.24237,
+            907
+          ],
+          [
+            44.01199,
+            -71.2426,
+            910
+          ],
+          [
+            44.01249,
+            -71.24314,
+            914
+          ],
+          [
+            44.01285,
+            -71.24338,
+            918
+          ],
+          [
+            44.01302,
+            -71.24347,
+            920
+          ],
+          [
+            44.01315,
+            -71.24353,
+            921
+          ],
+          [
+            44.01329,
+            -71.24356,
+            923
+          ],
+          [
+            44.01341,
+            -71.24357,
+            928
+          ],
+          [
+            44.01361,
+            -71.24358,
+            934
+          ],
+          [
+            44.01438,
+            -71.24339,
+            948
+          ],
+          [
+            44.01483,
+            -71.24326,
+            958
+          ],
+          [
+            44.01559,
+            -71.24299,
+            976
+          ],
+          [
+            44.01571,
+            -71.24295,
+            978
+          ],
+          [
+            44.0158,
+            -71.24295,
+            979
+          ],
+          [
+            44.0159,
+            -71.24296,
+            981
+          ],
+          [
+            44.01598,
+            -71.243,
+            981
+          ],
+          [
+            44.01607,
+            -71.24305,
+            982
+          ],
+          [
+            44.01625,
+            -71.24311,
+            982
+          ],
+          [
+            44.01664,
+            -71.24329,
+            986
+          ],
+          [
+            44.01675,
+            -71.24341,
+            983
+          ],
+          [
+            44.01681,
+            -71.24348,
+            981
+          ],
+          [
+            44.01689,
+            -71.24355,
+            975
+          ],
+          [
+            44.01697,
+            -71.24361,
+            978
+          ],
+          [
+            44.01689,
+            -71.24355,
+            975
+          ],
+          [
+            44.01681,
+            -71.24348,
+            981
+          ],
+          [
+            44.01675,
+            -71.24341,
+            983
+          ],
+          [
+            44.01664,
+            -71.24329,
+            986
+          ],
+          [
+            44.01625,
+            -71.24311,
+            982
+          ],
+          [
+            44.01607,
+            -71.24305,
+            982
+          ],
+          [
+            44.01598,
+            -71.243,
+            981
+          ],
+          [
+            44.0159,
+            -71.24296,
+            981
+          ],
+          [
+            44.0158,
+            -71.24295,
+            979
+          ],
+          [
+            44.01571,
+            -71.24295,
+            978
+          ],
+          [
+            44.01559,
+            -71.24299,
+            976
+          ],
+          [
+            44.01483,
+            -71.24326,
+            958
+          ],
+          [
+            44.01438,
+            -71.24339,
+            948
+          ],
+          [
+            44.01361,
+            -71.24358,
+            934
+          ],
+          [
+            44.01341,
+            -71.24357,
+            928
+          ],
+          [
+            44.01329,
+            -71.24356,
+            923
+          ],
+          [
+            44.01315,
+            -71.24353,
+            921
+          ],
+          [
+            44.01302,
+            -71.24347,
+            920
+          ],
+          [
+            44.01285,
+            -71.24338,
+            918
+          ],
+          [
+            44.01249,
+            -71.24314,
+            914
+          ],
+          [
+            44.01199,
+            -71.2426,
+            910
+          ],
+          [
+            44.01173,
+            -71.24237,
+            907
+          ],
+          [
+            44.01162,
+            -71.2423,
+            908
+          ],
+          [
+            44.01154,
+            -71.24226,
+            908
+          ],
+          [
+            44.01141,
+            -71.24224,
+            906
+          ],
+          [
+            44.01126,
+            -71.24223,
+            906
+          ],
+          [
+            44.01112,
+            -71.24221,
+            916
+          ],
+          [
+            44.01103,
+            -71.24217,
+            912
+          ],
+          [
+            44.0109,
+            -71.24209,
+            910
+          ],
+          [
+            44.01062,
+            -71.24193,
+            909
+          ],
+          [
+            44.01043,
+            -71.24185,
+            907
+          ],
+          [
+            44.01021,
+            -71.24181,
+            905
+          ],
+          [
+            44.01009,
+            -71.24181,
+            904
+          ],
+          [
+            44.00998,
+            -71.24185,
+            904
+          ],
+          [
+            44.00984,
+            -71.24197,
+            898
+          ],
+          [
+            44.00956,
+            -71.24213,
+            895
+          ],
+          [
+            44.00948,
+            -71.24215,
+            895
+          ],
+          [
+            44.00935,
+            -71.24209,
+            896
+          ],
+          [
+            44.00919,
+            -71.24195,
+            896
+          ],
+          [
+            44.00888,
+            -71.24178,
+            897
+          ],
+          [
+            44.00855,
+            -71.24161,
+            897
+          ],
+          [
+            44.00815,
+            -71.24148,
+            897
+          ],
+          [
+            44.008,
+            -71.24147,
+            895
+          ],
+          [
+            44.00786,
+            -71.24147,
+            895
+          ],
+          [
+            44.0078,
+            -71.24144,
+            895
+          ],
+          [
+            44.00767,
+            -71.24135,
+            894
+          ],
+          [
+            44.00756,
+            -71.24123,
+            892
+          ],
+          [
+            44.0073,
+            -71.24099,
+            890
+          ],
+          [
+            44.00721,
+            -71.24095,
+            889
+          ],
+          [
+            44.00678,
+            -71.24083,
+            895
+          ],
+          [
+            44.00663,
+            -71.24078,
+            889
+          ],
+          [
+            44.00641,
+            -71.24064,
+            890
+          ],
+          [
+            44.00624,
+            -71.24055,
+            887
+          ],
+          [
+            44.00615,
+            -71.24049,
+            884
+          ],
+          [
+            44.00606,
+            -71.24047,
+            881
+          ],
+          [
+            44.00597,
+            -71.2404,
+            885
+          ],
+          [
+            44.00591,
+            -71.24035,
+            880
+          ],
+          [
+            44.00589,
+            -71.24044,
+            879
+          ],
+          [
+            44.00576,
+            -71.24094,
+            870
+          ],
+          [
+            44.00573,
+            -71.24109,
+            874
+          ],
+          [
+            44.00573,
+            -71.24119,
+            876
+          ],
+          [
+            44.00575,
+            -71.24127,
+            875
+          ],
+          [
+            44.00581,
+            -71.24142,
+            878
+          ],
+          [
+            44.00584,
+            -71.24146,
+            879
+          ],
+          [
+            44.00602,
+            -71.24176,
+            880
+          ],
+          [
+            44.00625,
+            -71.24212,
+            881
+          ],
+          [
+            44.00633,
+            -71.24226,
+            885
+          ],
+          [
+            44.00636,
+            -71.24233,
+            887
+          ],
+          [
+            44.00636,
+            -71.24244,
+            888
+          ],
+          [
+            44.00635,
+            -71.2425,
+            889
+          ],
+          [
+            44.00684,
+            -71.24272,
+            891
+          ],
+          [
+            44.00744,
+            -71.24299,
+            894
+          ],
+          [
+            44.00771,
+            -71.24312,
+            896
+          ],
+          [
+            44.00869,
+            -71.24352,
+            903
+          ],
+          [
+            44.00897,
+            -71.24361,
+            904
+          ],
+          [
+            44.00927,
+            -71.24367,
+            906
+          ],
+          [
+            44.00973,
+            -71.24373,
+            909
+          ],
+          [
+            44.01061,
+            -71.24383,
+            913
+          ],
+          [
+            44.0112,
+            -71.24393,
+            917
+          ],
+          [
+            44.01151,
+            -71.24401,
+            920
+          ],
+          [
+            44.01195,
+            -71.24417,
+            926
+          ],
+          [
+            44.01278,
+            -71.24447,
+            930
+          ],
+          [
+            44.01426,
+            -71.24508,
+            928
+          ],
+          [
+            44.01468,
+            -71.24526,
+            933
+          ],
+          [
+            44.01524,
+            -71.2455,
+            941
+          ],
+          [
+            44.01547,
+            -71.24563,
+            945
+          ],
+          [
+            44.0156,
+            -71.24572,
+            947
+          ],
+          [
+            44.01561,
+            -71.24574,
+            947
+          ],
+          [
+            44.01573,
+            -71.24561,
+            948
+          ],
+          [
+            44.0158,
+            -71.24559,
+            949
+          ],
+          [
+            44.01589,
+            -71.24564,
+            949
+          ],
+          [
+            44.01592,
+            -71.24567,
+            949
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 949,
+            "coord": [
+              44.01592,
+              -71.24567
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 928,
+            "coord": [
+              44.01426,
+              -71.24508
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 896,
+            "coord": [
+              44.00771,
+              -71.24312
+            ]
+          },
+          {
+            "mile": 0.75,
+            "elev": 878,
+            "coord": [
+              44.00581,
+              -71.24142
+            ]
+          },
+          {
+            "mile": 0.84,
+            "elev": 887,
+            "coord": [
+              44.00624,
+              -71.24055
+            ]
+          },
+          {
+            "mile": 0.97,
+            "elev": 895,
+            "coord": [
+              44.008,
+              -71.24147
+            ]
+          },
+          {
+            "mile": 1.12,
+            "elev": 904,
+            "coord": [
+              44.01009,
+              -71.24181
+            ]
+          },
+          {
+            "mile": 1.23,
+            "elev": 908,
+            "coord": [
+              44.01162,
+              -71.2423
+            ]
+          },
+          {
+            "mile": 1.44,
+            "elev": 948,
+            "coord": [
+              44.01438,
+              -71.24339
+            ]
+          },
+          {
+            "mile": 1.61,
+            "elev": 983,
+            "coord": [
+              44.01675,
+              -71.24341
+            ]
+          },
+          {
+            "mile": 1.71,
+            "elev": 981,
+            "coord": [
+              44.01598,
+              -71.243
+            ]
+          },
+          {
+            "mile": 1.91,
+            "elev": 921,
+            "coord": [
+              44.01315,
+              -71.24353
+            ]
+          },
+          {
+            "mile": 2.06,
+            "elev": 916,
+            "coord": [
+              44.01112,
+              -71.24221
+            ]
+          },
+          {
+            "mile": 2.18,
+            "elev": 895,
+            "coord": [
+              44.00948,
+              -71.24215
+            ]
+          },
+          {
+            "mile": 2.33,
+            "elev": 892,
+            "coord": [
+              44.00756,
+              -71.24123
+            ]
+          },
+          {
+            "mile": 2.45,
+            "elev": 880,
+            "coord": [
+              44.00591,
+              -71.24035
+            ]
+          },
+          {
+            "mile": 2.56,
+            "elev": 885,
+            "coord": [
+              44.00633,
+              -71.24226
+            ]
+          },
+          {
+            "mile": 2.82,
+            "elev": 909,
+            "coord": [
+              44.00973,
+              -71.24373
+            ]
+          },
+          {
+            "mile": 3.24,
+            "elev": 947,
+            "coord": [
+              44.0156,
+              -71.24572
+            ]
+          },
+          {
+            "mile": 3.26,
+            "elev": 949,
+            "coord": [
+              44.01592,
+              -71.24567
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.01592,
+            -71.24567,
+            949
+          ],
+          "summit": [
+            44.0159,
+            -71.2457,
+            948
+          ]
+        }
+      },
+      "id": "ac3328ef"
+    },
+    {
+      "name": "Lower Falls Quick View (Boardwalk + Ledges)",
+      "tags": [
+        "best",
+        "family-friendly",
+        "swimming",
+        "sunset"
+      ],
+      "smart_logic": {},
+      "logistics": {
+        "parking_info": "Lower Falls Recreation Site Parking, Kancamagus Highway (NH-112)",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Lower%20Falls%20Recreation%20Site%20Parking%2C%20Kancamagus%20Highway%20%28NH-112%29",
+        "start_coords": [
+          44.0159,
+          -71.2457
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "stats": {
+        "distance": 0.0,
+        "gain": 0,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.0
+      },
+      "geo": {
+        "path": [
+          [
+            44.01592,
+            -71.24567,
+            949
+          ],
+          [
+            44.01592,
+            -71.24567,
+            949
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 949,
+            "coord": [
+              44.01592,
+              -71.24567
+            ]
+          },
+          {
+            "mile": 0.0,
+            "elev": 949,
+            "coord": [
+              44.01592,
+              -71.24567
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.01592,
+            -71.24567,
+            949
+          ],
+          "summit": [
+            44.0159,
+            -71.2457,
+            948
+          ]
+        }
+      },
+      "id": "c30bc797"
+    }
+  ]
+}

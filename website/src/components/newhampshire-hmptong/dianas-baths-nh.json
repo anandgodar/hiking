@@ -1,0 +1,246 @@
+{
+  "name": "Diana's Baths",
+  "slug": "dianas-baths-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 720,
+  "mountain_hero": "https://source.unsplash.com/1600x900/?dianas-baths,new-hampshire,waterfall",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Waterfall",
+    "Swimming Hole",
+    "Family Friendly",
+    "North Conway",
+    "White Mountains"
+  ],
+  "lat": 44.0714,
+  "lon": -71.1602,
+  "trails_config": [
+    {
+      "name": "Diana's Baths Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 1.3,
+      "tags": [
+        "best",
+        "family-friendly",
+        "swimming",
+        "scenic"
+      ],
+      "description": "A favorite North Conway outing with a gentle walk to a long stretch of cascades, granite slides, and pools. Great for families and summer cooling, but expect crowds\u2014sunrise or weekday mornings are the sweet spot.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "parking_info": "Diana's Baths Trailhead Parking, West Side Rd, North Conway",
+      "start_lat": 44.0746,
+      "start_lon": -71.1638,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Diana's Baths Cascades",
+          "type": "waterfall",
+          "lat": 44.0714,
+          "lon": -71.1602
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "North Moat Mountain",
+      "slug": "north-moat-mountain-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3202,
+      "distance_miles": 2.2
+    },
+    {
+      "name": "Jackson Falls",
+      "slug": "jackson-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 771,
+      "distance_miles": 5.4
+    },
+    {
+      "name": "Lower Falls (Swift River)",
+      "slug": "lower-falls-swift-river-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 948,
+      "distance_miles": 5.7
+    },
+    {
+      "name": "Rocky Gorge Scenic Area (Swift River)",
+      "slug": "rocky-gorge-swift-river-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1100,
+      "distance_miles": 7.5
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "Experience the beauty of New Hampshire on Diana's Baths. At 720 feet, this summit commands impressive views of the surrounding wilderness.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 720 feet, Diana's Baths is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Diana's Baths Trail**, a **1.3 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **North Moat Mountain**, which is just 2.2 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Diana's Baths Trail",
+      "tags": [
+        "best",
+        "family-friendly",
+        "swimming",
+        "scenic"
+      ],
+      "smart_logic": {},
+      "logistics": {
+        "parking_info": "Diana's Baths Trailhead Parking, West Side Rd, North Conway",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Diana%27s%20Baths%20Trailhead%20Parking%2C%20West%20Side%20Rd%2C%20North%20Conway",
+        "start_coords": [
+          44.0746,
+          -71.1638
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "stats": {
+        "distance": 0.7,
+        "gain": 6,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.5
+      },
+      "geo": {
+        "path": [
+          [
+            44.07453,
+            -71.1638,
+            553
+          ],
+          [
+            44.07453,
+            -71.16348,
+            554
+          ],
+          [
+            44.07457,
+            -71.1634,
+            554
+          ],
+          [
+            44.07466,
+            -71.16334,
+            553
+          ],
+          [
+            44.07468,
+            -71.16304,
+            552
+          ],
+          [
+            44.07429,
+            -71.16288,
+            552
+          ],
+          [
+            44.0738,
+            -71.16264,
+            546
+          ],
+          [
+            44.07326,
+            -71.16234,
+            551
+          ],
+          [
+            44.0728,
+            -71.16205,
+            550
+          ],
+          [
+            44.07223,
+            -71.16173,
+            550
+          ],
+          [
+            44.0721,
+            -71.16166,
+            550
+          ],
+          [
+            44.07135,
+            -71.1612,
+            546
+          ],
+          [
+            44.07104,
+            -71.16101,
+            545
+          ],
+          [
+            44.07103,
+            -71.161,
+            545
+          ],
+          [
+            44.07108,
+            -71.16055,
+            544
+          ],
+          [
+            44.07113,
+            -71.16014,
+            543
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 553,
+            "coord": [
+              44.07453,
+              -71.1638
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 550,
+            "coord": [
+              44.0721,
+              -71.16166
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 543,
+            "coord": [
+              44.07113,
+              -71.16014
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.07453,
+            -71.1638,
+            553
+          ],
+          "summit": [
+            44.0714,
+            -71.1602,
+            720
+          ]
+        }
+      },
+      "id": "20ca93ee"
+    }
+  ]
+}

@@ -15,9 +15,19 @@ let DefaultIcon = L.icon({
 });
 L.Marker.prototype.options.icon = DefaultIcon;
 
-export default function TrailMap({ lat, lon, name }) {
-  // Mock Path (Triangle) - We will replace this with real GPX later
-  const trailPath = data.gpx_path;
+// FIXED: Added trails prop and removed reference to undefined 'data'
+export default function TrailMap({ lat, lon, name, trails }) {
+  // Get trail path from the first trail's geo data, or use empty array
+  const trailPath = trails?.[0]?.geo?.path?.map(p => [p[0], p[1]]) || [];
+
+  // If no valid coordinates, show placeholder
+  if (!lat || !lon) {
+    return (
+      <div className="h-80 w-full rounded-3xl overflow-hidden border border-stone-200 bg-stone-100 flex items-center justify-center">
+        <p className="text-stone-500">Map coordinates unavailable</p>
+      </div>
+    );
+  }
 
   return (
     <div className="h-80 w-full rounded-3xl overflow-hidden border border-white/20 shadow-2xl relative group">
@@ -26,16 +36,16 @@ export default function TrailMap({ lat, lon, name }) {
           center={[lat, lon]}
           zoom={14}
           scrollWheelZoom={false}
-          zoomControl={false} // Hides the ugly +/- buttons for a clean look
+          zoomControl={false}
           style={{ height: "100%", width: "100%" }}
        >
-        {/* 1. SATELLITE LAYER (Much clearer for mountains) */}
+        {/* SATELLITE LAYER */}
         <TileLayer
-          attribution='Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+          attribution='Tiles &copy; Esri'
           url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
         />
 
-        {/* 2. HYBRID LABELS (Road names overlaid on top) */}
+        {/* HYBRID LABELS */}
         <TileLayer
           url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-hybrid/{z}/{x}/{y}{r}.png"
           opacity={0.5}
@@ -45,16 +55,18 @@ export default function TrailMap({ lat, lon, name }) {
           <Popup className="text-xs font-bold">{name} Summit</Popup>
         </Marker>
 
-        {/* 3. NEON TRAIL LINE (High Contrast) */}
-        <Polyline
-            positions={trailPath}
-            pathOptions={{
-                color: '#39ff14', // Neon Green
-                weight: 5,
-                opacity: 0.9,
-                lineCap: 'round'
-            }}
-        />
+        {/* TRAIL LINE - Only render if we have path data */}
+        {trailPath.length > 0 && (
+          <Polyline
+              positions={trailPath}
+              pathOptions={{
+                  color: '#39ff14',
+                  weight: 5,
+                  opacity: 0.9,
+                  lineCap: 'round'
+              }}
+          />
+        )}
       </MapContainer>
 
       {/* Custom Overlay UI */}

@@ -1,0 +1,182 @@
+{
+  "name": "Mount Cabot",
+  "slug": "mount-cabot-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 4170,
+  "mountain_hero": "https://images.unsplash.com/photo-1637100295339-775b4712d069",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "4000 Footer",
+    "North Country",
+    "Remote",
+    "Cabin"
+  ],
+  "lat": 44.5418,
+  "lon": -71.387,
+  "trails_config": [
+    {
+      "name": "Bunnell Notch Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 9.6,
+      "tags": [
+        "isolation",
+        "forest",
+        "cabin"
+      ],
+      "description": "This northernmost 4,000-footer is a long but relatively gentle hike. The Bunnell Notch Trail leads through mossy forests and past a scenic bog, eventually climbing to Cabot\u2019s summit area. Near the top sits Cabot Cabin (a rustic shelter), and just beyond lies the high point marked by a sign. Though views are limited at the summit itself, a nearby outlook on the spur path provides a nice vista over the forests of the Pilot Range. Cabot\u2019s remote setting gives it a quiet, wild character.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "parking_info": "York Pond Trailhead (Berlin Fish Hatchery), York Pond Rd",
+      "start_lat": 44.5356,
+      "start_lon": -71.408,
+      "features": [
+        {
+          "name": "Cabot Cabin",
+          "type": "hut",
+          "lat": 44.5414,
+          "lon": -71.3878
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Mount Waumbek",
+      "slug": "mount-waumbek-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4006,
+      "distance_miles": 8.3
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Cabot rises to 4170 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4170 feet, Mount Cabot is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Bunnell Notch Trail**, a **9.6 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Waumbek**, which is just 8.3 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Bunnell Notch Trail",
+      "tags": [
+        "isolation",
+        "forest",
+        "cabin"
+      ],
+      "smart_logic": {},
+      "logistics": {
+        "parking_info": "York Pond Trailhead (Berlin Fish Hatchery), York Pond Rd",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=York%20Pond%20Trailhead%20%28Berlin%20Fish%20Hatchery%29%2C%20York%20Pond%20Rd",
+        "start_coords": [
+          44.5356,
+          -71.408
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "stats": {
+        "distance": 0.6,
+        "gain": 369,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.6
+      },
+      "geo": {
+        "path": [
+          [
+            44.53907,
+            -71.40084,
+            2340
+          ],
+          [
+            44.53897,
+            -71.40072,
+            2354
+          ],
+          [
+            44.53878,
+            -71.40041,
+            2378
+          ],
+          [
+            44.53815,
+            -71.39925,
+            2490
+          ],
+          [
+            44.5378,
+            -71.39871,
+            2523
+          ],
+          [
+            44.53729,
+            -71.39822,
+            2558
+          ],
+          [
+            44.53681,
+            -71.39783,
+            2579
+          ],
+          [
+            44.53628,
+            -71.39718,
+            2645
+          ],
+          [
+            44.53593,
+            -71.39668,
+            2679
+          ],
+          [
+            44.53578,
+            -71.39643,
+            2709
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2340,
+            "coord": [
+              44.53907,
+              -71.40084
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 2709,
+            "coord": [
+              44.53578,
+              -71.39643
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.53907,
+            -71.40084,
+            2340
+          ],
+          "summit": [
+            44.5418,
+            -71.387,
+            4170
+          ]
+        }
+      },
+      "id": "8267a232"
+    }
+  ]
+}

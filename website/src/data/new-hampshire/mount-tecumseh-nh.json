@@ -4,45 +4,34 @@
   "state": "New Hampshire",
   "state_slug": "new-hampshire",
   "elevation": 4003,
-  "mountain_hero": "https://images.unsplash.com/photo-1654939328475-4026a2126441",
+  "lat": 43.9667,
+  "lon": -71.5567,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
   "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
   "tags": [
     "4000 Footer",
-    "Waterville Valley",
-    "Family Friendly",
-    "Ski Area"
+    "NH 48",
+    "Views"
   ],
-  "lat": 43.9667,
-  "lon": -71.5567,
   "trails_config": [
     {
       "name": "Mount Tecumseh Trail",
+      "osm_name": "Mount Tecumseh Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
-      "distance_miles": 5.0,
-      "tags": [
-        "short",
-        "family friendly",
-        "ski slope view"
-      ],
-      "description": "Shortest of the 4,000-footers, Tecumseh offers a quick hike with a big reward. From the Waterville Valley ski area, the trail climbs steadily with good footing and some long switchbacks. Near the top it parallels an open ski slope with an excellent viewpoint. The summit has a limited outlook, but a nearby viewpoint on a side path showcases the Sandwich Range. This hike is perfect for beginners and families, and is very popular in winter as well.",
+      "difficulty": "Hard",
+      "distance_miles": 4.4,
+      "elevation_gain": 2000,
+      "tags": [],
+      "description": "Trail to Mount Tecumseh summit.",
+      "parking_info": "Waterville Valley Ski Area, Tripoli Rd",
       "parking_details": {
         "capacity": "Medium (~40 cars)",
-        "status": "Fills quickly on weekends",
-        "fee": "$5/day (Public Launch)",
-        "shuttle": "Kineo Shuttle ($15 round-trip)"
+        "status": "Check conditions",
+        "fee": "Check Signage",
+        "shuttle": null
       },
-      "parking_info": "Mt. Tecumseh Trailhead (Waterville Valley Ski Resort), Tripoli Rd",
       "start_lat": 43.9661,
-      "start_lon": -71.5573,
-      "features": [
-        {
-          "name": "Sosman Trail View",
-          "type": "viewpoint",
-          "lat": 43.9686,
-          "lon": -71.562
-        }
-      ]
+      "start_lon": -71.5573
     }
   ],
   "nearby_peaks": [
@@ -54,217 +43,1159 @@
       "distance_miles": 2.6
     },
     {
-      "name": "Shell Cascade",
-      "slug": "shell-cascade-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 1509,
-      "distance_miles": 2.8
-    },
-    {
-      "name": "East Osceola",
-      "slug": "east-osceola-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4156,
-      "distance_miles": 3.2
-    },
-    {
-      "name": "Welch & Dickey Mountains",
+      "name": "Welch Dickey",
       "slug": "welch-dickey-nh",
       "state_slug": "new-hampshire",
-      "elevation": 2605,
-      "distance_miles": 3.8
+      "elevation": 2734,
+      "distance_miles": 4.7
+    },
+    {
+      "name": "Mount Hancock",
+      "slug": "mount-hancock-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4420,
+      "distance_miles": 8.6
     }
   ],
-  "current_conditions": {
-    "ai_summary": "One of New Hampshire's premier peaks, Mount Tecumseh rises to 4003 feet. It is known for its rugged terrain and panoramic vistas.",
-    "risk_factors": [
-      "Weather changes rapidly above treeline.",
-      "Bring extra water and layers.",
-      "Check local trail conditions before departing.",
-      "Start early to avoid afternoon storms."
-    ]
+  "social_pulse": 6,
+  "reviews": [
+    {
+      "author": "HikerUsername1",
+      "rating": 5,
+      "text": "Stunning views from the top, worth the climb!",
+      "time": "2 days ago"
+    },
+    {
+      "author": "TrailExplorer",
+      "rating": 4,
+      "text": "Trail was challenging but well-marked. Great experience!",
+      "time": "1 week ago"
+    },
+    {
+      "author": "OutdoorFan",
+      "rating": 5,
+      "text": "Loved the wildflowers along the trail. Beautiful hike!",
+      "time": "4 days ago"
+    }
+  ],
+  "meta": {
+    "refined_by_ai": true,
+    "last_audit": "2025-12-27",
+    "last_updated": "2025-12-27T10:14:43.745735",
+    "pipeline_version": "3.0"
   },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 4003 feet, Mount Tecumseh is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Mount Tecumseh Trail**, a **5.0 mile** route gaining significant elevation. As part of the **NH48 4000-Footers**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Mount Osceola**, which is just 2.6 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
   "trails": [
     {
+      "id": "8abf593d",
       "name": "Mount Tecumseh Trail",
-      "tags": [
-        "short",
-        "family friendly",
-        "ski slope view"
-      ],
-      "smart_logic": {},
+      "type": "Out & Back",
+      "description": "Trail to Mount Tecumseh summit.",
+      "tags": [],
       "logistics": {
-        "parking_info": "Mt. Tecumseh Trailhead (Waterville Valley Ski Resort), Tripoli Rd",
-        "directions_url": "https://www.google.com/maps/search/?api=1&query=Mt.%20Tecumseh%20Trailhead%20%28Waterville%20Valley%20Ski%20Resort%29%2C%20Tripoli%20Rd",
         "start_coords": [
           43.9661,
           -71.5573
         ],
+        "parking_info": "Waterville Valley Ski Area, Tripoli Rd",
+        "directions_url": "https://www.google.com/maps/dir//43.9661,-71.5573",
         "capacity": "Medium (~40 cars)",
-        "status": "Fills quickly on weekends",
-        "fee": "$5/day (Public Launch)",
-        "shuttle": "Kineo Shuttle ($15 round-trip)"
+        "status": "Check conditions",
+        "fee": "Check Signage",
+        "shuttle": null
       },
       "stats": {
-        "distance": 0.2,
-        "gain": 88,
+        "distance": 2.3,
+        "gain": 1744,
+        "max_elev": 4009,
+        "min_elev": 2412,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 0.2
+        "difficulty": "Hard",
+        "time": 1.6
       },
       "geo": {
         "path": [
           [
-            43.96611,
-            -71.55744,
-            3928
+            43.958235,
+            -71.535783,
+            2412
           ],
           [
-            43.96613,
-            -71.55743,
-            3929
+            43.958074,
+            -71.536083,
+            2418
+          ],
+          [
+            43.957904,
+            -71.536389,
+            2434
+          ],
+          [
+            43.9578,
+            -71.536793,
+            2441
+          ],
+          [
+            43.957722,
+            -71.537112,
+            2461
+          ],
+          [
+            43.957612,
+            -71.537425,
+            2477
+          ],
+          [
+            43.957506,
+            -71.537801,
+            2490
+          ],
+          [
+            43.957479,
+            -71.537942,
+            2496
+          ],
+          [
+            43.957401,
+            -71.538439,
+            2511
+          ],
+          [
+            43.957254,
+            -71.538458,
+            2515
+          ],
+          [
+            43.956969,
+            -71.538503,
+            2530
+          ],
+          [
+            43.956785,
+            -71.53865,
+            2549
+          ],
+          [
+            43.956597,
+            -71.538975,
+            2569
+          ],
+          [
+            43.956436,
+            -71.539224,
+            2587
+          ],
+          [
+            43.956262,
+            -71.539409,
+            2604
+          ],
+          [
+            43.956182,
+            -71.539469,
+            2615
+          ],
+          [
+            43.956121,
+            -71.539485,
+            2615
+          ],
+          [
+            43.956057,
+            -71.539471,
+            2625
+          ],
+          [
+            43.955902,
+            -71.539376,
+            2647
+          ],
+          [
+            43.955851,
+            -71.539361,
+            2647
+          ],
+          [
+            43.955797,
+            -71.539387,
+            2660
+          ],
+          [
+            43.955743,
+            -71.539479,
+            2660
+          ],
+          [
+            43.955678,
+            -71.539677,
+            2672
+          ],
+          [
+            43.955495,
+            -71.540513,
+            2707
+          ],
+          [
+            43.955582,
+            -71.541246,
+            2725
+          ],
+          [
+            43.955798,
+            -71.541795,
+            2737
+          ],
+          [
+            43.956073,
+            -71.542395,
+            2767
+          ],
+          [
+            43.956418,
+            -71.542828,
+            2810
+          ],
+          [
+            43.956519,
+            -71.543032,
+            2826
+          ],
+          [
+            43.956542,
+            -71.543294,
+            2842
+          ],
+          [
+            43.956542,
+            -71.543926,
+            2868
+          ],
+          [
+            43.956574,
+            -71.544557,
+            2898
+          ],
+          [
+            43.956712,
+            -71.544959,
+            2936
+          ],
+          [
+            43.956849,
+            -71.54538,
+            2951
+          ],
+          [
+            43.957015,
+            -71.546229,
+            2982
+          ],
+          [
+            43.957217,
+            -71.547453,
+            3019
+          ],
+          [
+            43.957267,
+            -71.548015,
+            3052
+          ],
+          [
+            43.957355,
+            -71.548346,
+            3094
+          ],
+          [
+            43.957345,
+            -71.548551,
+            3113
+          ],
+          [
+            43.957258,
+            -71.548723,
+            3121
+          ],
+          [
+            43.95718,
+            -71.548838,
+            3121
+          ],
+          [
+            43.957166,
+            -71.548972,
+            3128
+          ],
+          [
+            43.957267,
+            -71.549061,
+            3141
+          ],
+          [
+            43.957433,
+            -71.549093,
+            3164
+          ],
+          [
+            43.95769,
+            -71.548946,
+            3183
+          ],
+          [
+            43.958021,
+            -71.548608,
+            3184
+          ],
+          [
+            43.95842,
+            -71.548028,
+            3242
+          ],
+          [
+            43.958503,
+            -71.547747,
+            3263
+          ],
+          [
+            43.95865,
+            -71.547096,
+            3301
+          ],
+          [
+            43.958732,
+            -71.546873,
+            3312
+          ],
+          [
+            43.958865,
+            -71.546758,
+            3318
+          ],
+          [
+            43.959031,
+            -71.546752,
+            3332
+          ],
+          [
+            43.959279,
+            -71.546879,
+            3362
+          ],
+          [
+            43.959481,
+            -71.547103,
+            3385
+          ],
+          [
+            43.959531,
+            -71.547236,
+            3396
+          ],
+          [
+            43.959568,
+            -71.547645,
+            3421
+          ],
+          [
+            43.959577,
+            -71.547855,
+            3430
+          ],
+          [
+            43.959508,
+            -71.548117,
+            3433
+          ],
+          [
+            43.959536,
+            -71.548346,
+            3442
+          ],
+          [
+            43.959637,
+            -71.549157,
+            3452
+          ],
+          [
+            43.9596,
+            -71.549667,
+            3455
+          ],
+          [
+            43.959513,
+            -71.550114,
+            3467
+          ],
+          [
+            43.959169,
+            -71.551409,
+            3549
+          ],
+          [
+            43.958535,
+            -71.553654,
+            3741
+          ],
+          [
+            43.958388,
+            -71.554177,
+            3784
+          ],
+          [
+            43.958392,
+            -71.554477,
+            3802
+          ],
+          [
+            43.958333,
+            -71.55463,
+            3806
+          ],
+          [
+            43.958131,
+            -71.554777,
+            3798
+          ],
+          [
+            43.958066,
+            -71.554878,
+            3800
+          ],
+          [
+            43.958029,
+            -71.554959,
+            3793
+          ],
+          [
+            43.958032,
+            -71.555046,
+            3795
+          ],
+          [
+            43.958056,
+            -71.555109,
+            3803
+          ],
+          [
+            43.958093,
+            -71.555144,
+            3803
+          ],
+          [
+            43.958167,
+            -71.555198,
+            3810
+          ],
+          [
+            43.958239,
+            -71.555251,
+            3810
+          ],
+          [
+            43.958338,
+            -71.555333,
+            3825
+          ],
+          [
+            43.958462,
+            -71.555426,
+            3834
+          ],
+          [
+            43.958543,
+            -71.555508,
+            3840
+          ],
+          [
+            43.95863,
+            -71.555587,
+            3844
+          ],
+          [
+            43.958696,
+            -71.555618,
+            3844
+          ],
+          [
+            43.958762,
+            -71.55565,
+            3846
+          ],
+          [
+            43.958841,
+            -71.555695,
+            3847
+          ],
+          [
+            43.958908,
+            -71.555743,
+            3848
+          ],
+          [
+            43.958956,
+            -71.555858,
+            3848
+          ],
+          [
+            43.959006,
+            -71.555933,
+            3848
+          ],
+          [
+            43.959097,
+            -71.555997,
+            3848
+          ],
+          [
+            43.959167,
+            -71.556032,
+            3848
+          ],
+          [
+            43.959385,
+            -71.556052,
+            3847
+          ],
+          [
+            43.959458,
+            -71.556034,
+            3847
+          ],
+          [
+            43.959602,
+            -71.555987,
+            3846
+          ],
+          [
+            43.95978,
+            -71.555958,
+            3841
+          ],
+          [
+            43.959865,
+            -71.555983,
+            3837
+          ],
+          [
+            43.960076,
+            -71.556145,
+            3832
+          ],
+          [
+            43.960166,
+            -71.556185,
+            3828
+          ],
+          [
+            43.960442,
+            -71.556196,
+            3819
+          ],
+          [
+            43.96069,
+            -71.556302,
+            3814
+          ],
+          [
+            43.960742,
+            -71.556368,
+            3812
+          ],
+          [
+            43.960847,
+            -71.556598,
+            3815
+          ],
+          [
+            43.960876,
+            -71.556676,
+            3816
+          ],
+          [
+            43.960969,
+            -71.55676,
+            3815
+          ],
+          [
+            43.961005,
+            -71.556838,
+            3815
+          ],
+          [
+            43.96101,
+            -71.556994,
+            3816
+          ],
+          [
+            43.961046,
+            -71.557095,
+            3816
+          ],
+          [
+            43.961123,
+            -71.55718,
+            3815
+          ],
+          [
+            43.96133,
+            -71.557268,
+            3815
+          ],
+          [
+            43.961465,
+            -71.557383,
+            3816
+          ],
+          [
+            43.961555,
+            -71.557437,
+            3817
+          ],
+          [
+            43.961722,
+            -71.557466,
+            3822
+          ],
+          [
+            43.961818,
+            -71.557541,
+            3828
+          ],
+          [
+            43.961898,
+            -71.557554,
+            3835
+          ],
+          [
+            43.961975,
+            -71.557527,
+            3838
+          ],
+          [
+            43.962046,
+            -71.557539,
+            3842
+          ],
+          [
+            43.962077,
+            -71.557592,
+            3842
+          ],
+          [
+            43.962115,
+            -71.557743,
+            3843
+          ],
+          [
+            43.962185,
+            -71.557772,
+            3847
+          ],
+          [
+            43.962225,
+            -71.557809,
+            3847
+          ],
+          [
+            43.96232,
+            -71.557809,
+            3849
+          ],
+          [
+            43.962426,
+            -71.557846,
+            3848
+          ],
+          [
+            43.962531,
+            -71.557838,
+            3841
+          ],
+          [
+            43.962582,
+            -71.557869,
+            3841
+          ],
+          [
+            43.962628,
+            -71.558043,
+            3825
+          ],
+          [
+            43.962648,
+            -71.55812,
+            3820
+          ],
+          [
+            43.962674,
+            -71.558149,
+            3811
+          ],
+          [
+            43.962725,
+            -71.558152,
+            3808
+          ],
+          [
+            43.962892,
+            -71.558144,
+            3806
+          ],
+          [
+            43.963104,
+            -71.558088,
+            3804
+          ],
+          [
+            43.963213,
+            -71.558105,
+            3804
+          ],
+          [
+            43.963334,
+            -71.55817,
+            3802
+          ],
+          [
+            43.963473,
+            -71.558214,
+            3803
+          ],
+          [
+            43.963667,
+            -71.55832,
+            3801
+          ],
+          [
+            43.963735,
+            -71.558317,
+            3801
+          ],
+          [
+            43.963828,
+            -71.558253,
+            3802
+          ],
+          [
+            43.963913,
+            -71.558083,
+            3807
+          ],
+          [
+            43.963943,
+            -71.557915,
+            3810
+          ],
+          [
+            43.963936,
+            -71.557752,
+            3809
+          ],
+          [
+            43.964012,
+            -71.55762,
+            3811
+          ],
+          [
+            43.964127,
+            -71.557585,
+            3811
+          ],
+          [
+            43.964558,
+            -71.557423,
+            3839
+          ],
+          [
+            43.964803,
+            -71.557268,
+            3845
+          ],
+          [
+            43.964907,
+            -71.557152,
+            3844
+          ],
+          [
+            43.964965,
+            -71.557069,
+            3841
+          ],
+          [
+            43.96524,
+            -71.556736,
+            3825
+          ],
+          [
+            43.965325,
+            -71.556581,
+            3828
+          ],
+          [
+            43.965458,
+            -71.556222,
+            3812
+          ],
+          [
+            43.965533,
+            -71.556112,
+            3818
+          ],
+          [
+            43.96591,
+            -71.555739,
+            3810
+          ],
+          [
+            43.966063,
+            -71.555638,
+            3816
           ],
           [
             43.96624,
-            -71.55739,
-            3941
-          ],
-          [
-            43.9663,
-            -71.55731,
-            3955
+            -71.555611,
+            3834
           ],
           [
             43.96632,
-            -71.55727,
-            3955
+            -71.555681,
+            3860
           ],
           [
-            43.9663,
-            -71.55722,
-            3966
+            43.966686,
+            -71.555616,
+            3877
           ],
           [
-            43.96625,
-            -71.55719,
-            3967
+            43.966892,
+            -71.55573,
+            3892
           ],
           [
-            43.96617,
-            -71.55715,
-            3965
+            43.966968,
+            -71.555861,
+            3910
           ],
           [
-            43.96613,
-            -71.5571,
-            3974
+            43.966958,
+            -71.555972,
+            3919
           ],
           [
-            43.96614,
-            -71.55701,
-            3983
+            43.966921,
+            -71.556074,
+            3932
           ],
           [
-            43.9662,
-            -71.55692,
-            3991
+            43.966818,
+            -71.556359,
+            3970
           ],
           [
-            43.96621,
-            -71.5568,
-            4003
+            43.966756,
+            -71.556462,
+            3987
           ],
           [
-            43.96631,
-            -71.55672,
-            4009
-          ],
-          [
-            43.96637,
-            -71.55669,
-            4009
-          ],
-          [
-            43.96641,
-            -71.5566,
-            4012
-          ],
-          [
-            43.96646,
-            -71.55655,
-            4010
-          ],
-          [
-            43.96652,
-            -71.55656,
-            4007
-          ],
-          [
-            43.96655,
-            -71.55653,
-            4007
-          ],
-          [
-            43.96656,
-            -71.55658,
-            4009
-          ],
-          [
-            43.96657,
-            -71.55664,
-            4009
-          ],
-          [
-            43.9666,
-            -71.55668,
-            4003
-          ],
-          [
-            43.96666,
-            -71.55676,
+            43.966698,
+            -71.556505,
             3996
+          ],
+          [
+            43.966554,
+            -71.556529,
+            4007
+          ],
+          [
+            43.966555,
+            -71.556576,
+            4009
+          ],
+          [
+            43.966567,
+            -71.556637,
+            4009
+          ],
+          [
+            43.966601,
+            -71.556677,
+            4003
+          ],
+          [
+            43.966658,
+            -71.556758,
+            4003
           ]
         ],
         "chart": [
           {
             "mile": 0,
-            "elev": 3928,
+            "elev": 2412,
             "coord": [
-              43.96611,
-              -71.55744
+              43.958235,
+              -71.535783
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 2477,
+            "coord": [
+              43.957612,
+              -71.537425
             ]
           },
           {
             "mile": 0.04,
-            "elev": 3991,
+            "elev": 2530,
             "coord": [
-              43.9662,
-              -71.55692
+              43.956969,
+              -71.538503
             ]
           },
           {
-            "mile": 0.09,
+            "mile": 0.04,
+            "elev": 2615,
+            "coord": [
+              43.956182,
+              -71.539469
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 2660,
+            "coord": [
+              43.955797,
+              -71.539387
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 2737,
+            "coord": [
+              43.955798,
+              -71.541795
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 2868,
+            "coord": [
+              43.956542,
+              -71.543926
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 3019,
+            "coord": [
+              43.957217,
+              -71.547453
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 3121,
+            "coord": [
+              43.95718,
+              -71.548838
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 3184,
+            "coord": [
+              43.958021,
+              -71.548608
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 3318,
+            "coord": [
+              43.958865,
+              -71.546758
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 3421,
+            "coord": [
+              43.959568,
+              -71.547645
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 3455,
+            "coord": [
+              43.9596,
+              -71.549667
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 3802,
+            "coord": [
+              43.958392,
+              -71.554477
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 3795,
+            "coord": [
+              43.958032,
+              -71.555046
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 3825,
+            "coord": [
+              43.958338,
+              -71.555333
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 3846,
+            "coord": [
+              43.958762,
+              -71.55565
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 3848,
+            "coord": [
+              43.959097,
+              -71.555997
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 3841,
+            "coord": [
+              43.95978,
+              -71.555958
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 3814,
+            "coord": [
+              43.96069,
+              -71.556302
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 3815,
+            "coord": [
+              43.961005,
+              -71.556838
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 3816,
+            "coord": [
+              43.961465,
+              -71.557383
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 3838,
+            "coord": [
+              43.961975,
+              -71.557527
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 3847,
+            "coord": [
+              43.962225,
+              -71.557809
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 3825,
+            "coord": [
+              43.962628,
+              -71.558043
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 3804,
+            "coord": [
+              43.963104,
+              -71.558088
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 3801,
+            "coord": [
+              43.963735,
+              -71.558317
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 3811,
+            "coord": [
+              43.964012,
+              -71.55762
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 3841,
+            "coord": [
+              43.964965,
+              -71.557069
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 3810,
+            "coord": [
+              43.96591,
+              -71.555739
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 3892,
+            "coord": [
+              43.966892,
+              -71.55573
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 3987,
+            "coord": [
+              43.966756,
+              -71.556462
+            ]
+          },
+          {
+            "mile": 0.46,
             "elev": 4003,
             "coord": [
-              43.9666,
-              -71.55668
-            ]
-          },
-          {
-            "mile": 0.09,
-            "elev": 3996,
-            "coord": [
-              43.96666,
-              -71.55676
+              43.966601,
+              -71.556677
             ]
           }
         ],
         "markers": {
           "start": [
-            43.96611,
-            -71.55744,
-            3928
+            43.958235,
+            -71.535783,
+            2412
           ],
           "summit": [
             43.9667,
@@ -272,7 +1203,359 @@
             4003
           ]
         }
-      }
+      },
+      "features": []
     }
-  ]
+  ],
+  "seo": {
+    "meta_title": "Mount Tecumseh Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Plan your Mount Tecumseh hike with live conditions, 1 trail maps & parking info. NH 4000-Footer at 4,003 ft.",
+    "canonical_url": "/trails/new-hampshire/mount-tecumseh-nh",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Tecumseh",
+      "description": "Mount Tecumseh is a 4,003 foot peak in New Hampshire offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.9667,
+        "longitude": -71.5567,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4003,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New Hampshire",
+        "addressCountry": "US"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 3,
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "HikerUsername1"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 5
+          },
+          "reviewBody": "Stunning views from the top, worth the climb!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "TrailExplorer"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 4
+          },
+          "reviewBody": "Trail was challenging but well-marked. Great experience!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "OutdoorFan"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 5
+          },
+          "reviewBody": "Loved the wildflowers along the trail. Beautiful hike!"
+        }
+      ],
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Tecumseh Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 43.9661,
+            "longitude": -71.5573
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Tecumseh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Mount Tecumseh take 2-4 hours round trip. The most popular trail is 4.4 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Tecumseh hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Tecumseh is rated Hard. At 4,003 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Tecumseh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Mount Tecumseh. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Tecumseh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Tecumseh Trail, offering Trail to Mount Tecumseh summit.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Tecumseh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Mount Tecumseh is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Mount Tecumseh",
+      "subtitle": "NH 4000-Footer \u2022 4,003 ft",
+      "quick_stats": {
+        "elevation": "4,003 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate to Hard",
+        "list_name": "NH 4000-Footers"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,003 feet, Mount Tecumseh ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mount Tecumseh Trail**, covers 4.4 miles and is rated \n    Hard. Trail to Mount Tecumseh summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Osceola lies just 2.6 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, snow above 3000ft until May",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": false
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Best weather, occasional afternoon thunderstorms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Peak foliage late Sept, early snow possible in October",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Full winter conditions, extreme cold and wind above treeline",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Winter hiking requires specialized skills and gear. Never hike alone. Check avalanche conditions for steeper terrain.",
+        "crowd_level": "Low",
+        "recommended": false
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "\u26a0\ufe0f ALPINE ZONE: Weather changes rapidly. Turn back if conditions deteriorate.",
+        "Winter conditions in effect - full mountaineering gear required",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        },
+        {
+          "item": "Extra warm layer for summit",
+          "critical": true
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "2:00 PM recommended for summit"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Mount Tecumseh?",
+        "answer": "Most routes on Mount Tecumseh take 2-4 hours round trip. The most popular trail is 4.4 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Mount Tecumseh hard to hike?",
+        "answer": "Mount Tecumseh is rated Hard. At 4,003 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Mount Tecumseh?",
+        "answer": "No hiking permit is required for Mount Tecumseh. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Mount Tecumseh?",
+        "answer": "The most popular route is the Mount Tecumseh Trail, offering Trail to Mount Tecumseh summit.."
+      },
+      {
+        "question": "When is the best time to hike Mount Tecumseh?",
+        "answer": "The best hiking season for Mount Tecumseh is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Mount Osceola",
+        "slug": "mount-osceola-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4340,
+        "distance_miles": 2.6,
+        "link_text": "Hike Mount Osceola",
+        "combo_suggestion": "Combine Mount Tecumseh with Mount Osceola for a longer day",
+        "comparison": "Higher summit (+337 ft)"
+      },
+      {
+        "name": "Welch Dickey",
+        "slug": "welch-dickey-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 2734,
+        "distance_miles": 4.7,
+        "link_text": "Hike Welch Dickey",
+        "combo_suggestion": "Combine Mount Tecumseh with Welch Dickey for a longer day",
+        "comparison": "Shorter climb (1269 ft less)"
+      },
+      {
+        "name": "Mount Hancock",
+        "slug": "mount-hancock-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4420,
+        "distance_miles": 8.6,
+        "link_text": "Hike Mount Hancock",
+        "combo_suggestion": "Combine Mount Tecumseh with Mount Hancock for a longer day",
+        "comparison": "Higher summit (+417 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Mount Tecumseh? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Mount Tecumseh Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "mount-tecumseh-nh-all-trails.gpx",
+        "label": "Download All Mount Tecumseh Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "mount-tecumseh-nh-trail-guide.pdf",
+        "label": "Mount Tecumseh Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "mount-tecumseh-nh-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Mount%20Tecumseh!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,003 feet, Mount Tecumseh ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mount Tecumseh Trail**, covers 4.4 miles and is rated \n    Hard. Trail to Mount Tecumseh summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Osceola lies just 2.6 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

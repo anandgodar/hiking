@@ -1,10 +1,18 @@
 ---
+/**
+ * Tag Listing Page
+ * Location: src/pages/[state]/hikes/[tag].astro
+ *
+ * FIXED: Uses import.meta.glob instead of deprecated Astro.glob
+ */
 import Layout from '../../../layouts/Layout.astro';
 import MountainCard from '../../../components/MountainCard.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 
 export async function getStaticPaths() {
-  const allFiles = await Astro.glob('../../../data/*/*.json');
+  // FIXED: Use import.meta.glob instead of Astro.glob
+  const allFiles = import.meta.glob('../../../data/*/*.json', { eager: true });
+  const allMountains = Object.values(allFiles).map(f => f.default || f);
 
   // --- NORMALIZER ---
   const normalizeTag = (tag) => {
@@ -17,8 +25,7 @@ export async function getStaticPaths() {
   };
 
   const mountainsByState = {};
-  allFiles.forEach(file => {
-      const m = file.default;
+  allMountains.forEach(m => {
       const stateSlug = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
 
       if (!mountainsByState[stateSlug]) {

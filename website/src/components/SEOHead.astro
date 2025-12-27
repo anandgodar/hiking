@@ -1,42 +1,175 @@
 ---
-export interface Props {
-  title: string;
-  description: string;
+/**
+ * SEO Head Component - Phase 1 Critical Fix
+ * Location: src/components/SEOHead.astro
+ * 
+ * FIXED: Now handles undefined mountain prop gracefully
+ * Can be used on homepage, listing pages, and detail pages
+ */
+
+interface Props {
+  // For mountain detail pages
+  mountain?: {
+    name: string;
+    slug: string;
+    elevation?: number;
+    state?: string;
+    state_slug?: string;
+    lat?: number;
+    lon?: number;
+    mountain_hero?: string;
+    seo?: {
+      meta_title?: string;
+      meta_description?: string;
+      schema_place?: object;
+      schema_faq?: object;
+    };
+    trails?: Array<any>;
+    reviews?: Array<any>;
+  };
+  // For non-mountain pages (homepage, listing pages, etc.)
+  title?: string;
+  description?: string;
   image?: string;
+  canonicalUrl?: string;
   type?: 'website' | 'article';
 }
 
-const {
-    title,
-    description,
-    image = "/images/social-default.jpg", // You can add a default image to your public folder later
-    type = "website"
-} = Astro.props;
+const { mountain, title: propTitle, description: propDescription, image: propImage, canonicalUrl: propCanonical, type = 'website' } = Astro.props;
 
-// Construct absolute URLs for social sharing
-const canonicalURL = new URL(Astro.url.pathname, Astro.site || "http://localhost:4321");
-const socialImageURL = new URL(image, Astro.site || "http://localhost:4321");
+// Determine if this is a mountain detail page or generic page
+const isMountainPage = !!mountain;
+
+// Build meta values with fallbacks
+const title = isMountainPage 
+  ? (mountain.seo?.meta_title || `${mountain.name} Trail Guide | Hiking Routes & Maps`)
+  : (propTitle || 'Summit Seeker | New Hampshire Hiking Trails');
+
+const description = isMountainPage
+  ? (mountain.seo?.meta_description || `Explore ${mountain.name} (${mountain.elevation?.toLocaleString() || ''} ft) in ${mountain.state || 'New Hampshire'}. Trail maps, conditions, and hiking information.`)
+  : (propDescription || 'Discover the best hiking trails in New Hampshire. Trail guides, maps, conditions, and tips for the White Mountains and beyond.');
+
+const canonicalUrl = isMountainPage
+  ? `https://summitseeker.com/${mountain.state_slug || 'new-hampshire'}/hikes/${mountain.slug}`
+  : (propCanonical || Astro.url.href);
+
+const ogImage = isMountainPage
+  ? (mountain.mountain_hero || 'https://summitseeker.com/images/default-mountain.jpg')
+  : (propImage || 'https://summitseeker.com/images/og-default.jpg');
+
+// Schema.org structured data (only for mountain pages)
+const schemaPlace = isMountainPage ? (mountain.seo?.schema_place || {
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": mountain.name,
+  "description": description,
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": mountain.lat,
+    "longitude": mountain.lon,
+    "elevation": {
+      "@type": "QuantitativeValue",
+      "value": mountain.elevation,
+      "unitCode": "FOT"
+    }
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": mountain.state || 'NH',
+    "addressCountry": "US"
+  }
+}) : null;
+
+const schemaFaq = isMountainPage ? mountain.seo?.schema_faq : null;
+
+// Breadcrumb schema (only for mountain pages)
+const breadcrumbSchema = isMountainPage ? {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://summitseeker.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": mountain.state || 'New Hampshire',
+      "item": `https://summitseeker.com/${mountain.state_slug || 'new-hampshire'}`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": mountain.name,
+      "item": canonicalUrl
+    }
+  ]
+} : null;
+
+// Website schema for homepage
+const websiteSchema = !isMountainPage ? {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Summit Seeker",
+  "url": "https://summitseeker.com",
+  "description": description,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://summitseeker.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+} : null;
 ---
 
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<meta name="generator" content={Astro.generator} />
-
-<link rel="canonical" href={canonicalURL} />
-
+<!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
 
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalUrl} />
+
+<!-- Open Graph / Facebook -->
 <meta property="og:type" content={type} />
-<meta property="og:url" content={canonicalURL} />
+<meta property="og:url" content={canonicalUrl} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={socialImageURL} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:site_name" content="Summit Seeker" />
+<meta property="og:locale" content="en_US" />
 
+<!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={canonicalURL} />
+<meta property="twitter:url" content={canonicalUrl} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={socialImageURL} />
+<meta property="twitter:image" content={ogImage} />
+
+<!-- Geo Tags (only for mountain pages) -->
+{isMountainPage && mountain.lat && mountain.lon && (
+  <>
+    <meta name="geo.region" content={`US-${mountain.state === 'New Hampshire' ? 'NH' : (mountain.state?.substring(0,2).toUpperCase() || 'NH')}`} />
+    <meta name="geo.placename" content={mountain.name} />
+    <meta name="geo.position" content={`${mountain.lat};${mountain.lon}`} />
+    <meta name="ICBM" content={`${mountain.lat}, ${mountain.lon}`} />
+  </>
+)}
+
+<!-- Schema.org Structured Data -->
+{schemaPlace && (
+  <script type="application/ld+json" set:html={JSON.stringify(schemaPlace)} />
+)}
+
+{schemaFaq && (
+  <script type="application/ld+json" set:html={JSON.stringify(schemaFaq)} />
+)}
+
+{breadcrumbSchema && (
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+)}
+
+{websiteSchema && (
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+)}

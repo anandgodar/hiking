@@ -1,219 +1,193 @@
 ---
+/**
+ * Homepage - Main Site Index
+ * Location: src/pages/index.astro
+ *
+ * FIXED: All emojis replaced with SVG icons
+ */
 import Layout from '../layouts/Layout.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import MountainCard from '../components/MountainCard.astro';
 import GlobalSearch from '../components/GlobalSearch.astro';
 
-// DATA
-const allFiles = await Astro.glob('../data/*/*.json');
+// Load all mountains
+const allFiles = import.meta.glob('../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles).map(f => f.default || f);
 
-// SEARCH INDEX
-const searchIndex = allFiles.map(file => {
-    const m = file.default;
-    const stateUrl = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
-    return {
-        title: m.name,
-        type: 'Mountain',
-        subtitle: m.state_name || m.state_slug,
-        url: `/${stateUrl}/${m.slug}`,
-        image: m.image,
-        tags: m.tags || []
-    };
+// Normalize state slug
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s;
+};
+
+// Search Index
+const searchIndex = allMountains.map(m => ({
+  title: m.name,
+  type: 'Mountain',
+  subtitle: m.state || m.state_slug,
+  url: `/${normalizeState(m.state_slug)}/${m.slug}`,
+  image: m.mountain_hero || m.image,
+  tags: m.tags || []
+}));
+
+// Group by state
+const stateGroups = {};
+allMountains.forEach(m => {
+  const state = normalizeState(m.state_slug);
+  if (!stateGroups[state]) stateGroups[state] = [];
+  stateGroups[state].push(m);
 });
 
-// FEATURED
-const featuredHikes = allFiles
-    .map(f => f.default)
-    .filter(m => JSON.stringify(m.tags).toLowerCase().includes('best'))
-    .sort((a, b) => b.elevation - a.elevation)
-    .slice(0, 4);
-
-// GLOBAL CATEGORIES
+// Featured categories - NO EMOJIS
 const categories = [
-    { name: "4000 Footers", icon: "🏔️", slug: "4000-footer" },
-    { name: "Waterfalls", icon: "💧", slug: "waterfall" },
-    { name: "With a View", icon: "🔭", slug: "52-with-a-view" },
-    { name: "Dog Friendly", icon: "🐾", slug: "dog-friendly" },
-    { name: "Fire Towers", icon: "🔥", slug: "fire-tower" },
+  { id: '4000-footer', title: '4000 Footers', icon: 'mountain' },
+  { id: 'waterfall', title: 'Waterfalls', icon: 'water' },
+  { id: 'view', title: 'With a View', icon: 'eye' },
+  { id: 'dog-friendly', title: 'Dog Friendly', icon: 'paw' },
+  { id: 'fire-tower', title: 'Fire Towers', icon: 'tower' },
 ];
 
-// --- FIXED: RELIABLE IMAGES FOR STATE CARDS ---
-const stateCards = [
-    {
-        slug: 'new-hampshire',
-        name: 'New Hampshire',
-        count: 48,
-        coords: [44.0, -71.5],
-        // White Mountains - Reliable ID
-        image: 'https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=1000'
-    },
-    {
-        slug: 'maine',
-        name: 'Maine',
-        count: 14,
-        coords: [45.0, -69.0],
-        // Acadia/Coast - Reliable IDhttps://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000
-        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000'
-    },
-    {
-        slug: 'vermont',
-        name: 'Vermont',
-        count: 5,
-        coords: [44.0, -72.7],
-        // Green Mountains - Reliable ID
-        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000'
-    },
-    {
-        slug: 'new-york',
-        name: 'New York',
-        count: 46,
-        coords: [43.0, -75.0],
-        // Adirondacks - Reliable ID
-        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000'
-    }
+// State cards
+const states = [
+  { slug: 'new-hampshire', name: 'New Hampshire', image: 'https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=800', count: stateGroups['new-hampshire']?.length || 0 },
+  { slug: 'maine', name: 'Maine', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800', count: stateGroups['maine']?.length || 0 },
+  { slug: 'vermont', name: 'Vermont', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800', count: stateGroups['vermont']?.length || 0 },
+  { slug: 'new-york', name: 'New York', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800', count: stateGroups['new-york']?.length || 0 },
 ];
+
+// Top rated mountains
+const topMountains = allMountains
+  .sort((a, b) => (b.elevation || 0) - (a.elevation || 0))
+  .slice(0, 4);
+
+// Icon SVG helper
+const getIconSvg = (iconName) => {
+  const icons = {
+    mountain: '<path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/>',
+    water: '<path d="M12 2c-5.33 4.55-8 8.48-8 11.8 0 4.98 3.8 8.2 8 8.2s8-3.22 8-8.2c0-3.32-2.67-7.25-8-11.8z"/>',
+    eye: '<path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>',
+    paw: '<path d="M4.5 12c-.83 0-1.5-.67-1.5-1.5S3.67 9 4.5 9 6 9.67 6 10.5 5.33 12 4.5 12zm3-4C6.67 8 6 7.33 6 6.5S6.67 5 7.5 5 9 5.67 9 6.5 8.33 8 7.5 8zm5-1c-.83 0-1.5-.67-1.5-1.5S11.67 4 12.5 4s1.5.67 1.5 1.5S13.33 7 12.5 7zm4 1c-.83 0-1.5-.67-1.5-1.5S15.67 5 16.5 5s1.5.67 1.5 1.5S17.33 8 16.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>',
+    tower: '<path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm6 9.09c0 4-2.55 7.7-6 8.83-3.45-1.13-6-4.82-6-8.83V6.31l6-2.25 6 2.25v4.78z"/>',
+    location: '<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>',
+    compass: '<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5.5-2.5l7.51-3.49L17.5 6.5 9.99 9.99 6.5 17.5zm5.5-6.6c.61 0 1.1.49 1.1 1.1s-.49 1.1-1.1 1.1-1.1-.49-1.1-1.1.49-1.1 1.1-1.1z"/>'
+  };
+  return icons[iconName] || icons.mountain;
+};
 ---
 
-<Layout title="Summit Seeker" description="The ultimate trail database.">
+<Layout title="Summit Seeker - Northeast Trail Guide" description="Find your next hiking adventure in New Hampshire, Maine, Vermont, and New York.">
 
-    {/* HERO */}
-    <div class="relative h-screen min-h-[700px] flex flex-col justify-center items-center text-center overflow-hidden">
-        <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2400" class="w-full h-full object-cover scale-110" alt="Hero" />
-            <div class="absolute inset-0 bg-gradient-to-b from-stone-900/60 via-transparent to-stone-900/90"></div>
-        </div>
-
-        <div class="relative z-10 w-full max-w-4xl px-4 mt-16 space-y-8">
-            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 shadow-xl mb-4">
-                <span class="text-white font-bold tracking-widest text-xs uppercase">Summit Seeker Database</span>
-            </div>
-            <h1 class="text-6xl md:text-8xl font-black text-white tracking-tight drop-shadow-2xl">
-                ANSWER THE <br/> <span class="text-transparent bg-clip-text bg-gradient-to-br from-emerald-300 to-cyan-300">CALL OF THE WILD</span>
-            </h1>
-
-            {/* SEARCH */}
-            <div class="max-w-2xl mx-auto w-full">
-                <GlobalSearch searchIndex={searchIndex} />
-            </div>
-
-            {/* GLOBAL BADGES */}
-            <div class="flex flex-wrap justify-center gap-3 pt-6">
-                {categories.map(cat => (
-                    <a href={`/discover/${cat.slug}`} class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-white font-bold text-sm hover:bg-white hover:text-stone-900 transition-all">
-                        <span>{cat.icon}</span> {cat.name}
-                    </a>
-                ))}
-            </div>
-        </div>
+  <!-- HERO SECTION -->
+  <div class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+        class="w-full h-full object-cover"
+        alt="Mountain wilderness"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/60 via-stone-900/40 to-stone-900/80"></div>
     </div>
 
-    {/* SCALABLE REGION SELECTOR */}
-    <section class="bg-stone-50 py-20 -mt-8 relative z-20 rounded-t-[3rem]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <!-- Tagline -->
+      <p class="text-white/60 text-sm font-bold uppercase tracking-[0.3em] mb-4">
+        Answer The
+      </p>
+      <h1 class="text-6xl md:text-8xl font-black text-white mb-4 tracking-tight">
+        <span class="text-emerald-400">Call of the Wild</span>
+      </h1>
 
-            {/* HEADER WITH CONTROLS */}
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
-                <h2 class="text-3xl font-black text-stone-900 flex items-center gap-3">
-                    <span class="text-emerald-500 text-4xl">🗺️</span> Select Your Region
-                </h2>
+      <!-- Search Bar -->
+      <div class="max-w-2xl mx-auto mt-8 mb-8">
+        <GlobalSearch searchIndex={searchIndex} />
+      </div>
 
-                <div class="flex flex-wrap gap-3">
-                    {/* State Filter Input */}
-                    <div class="relative">
-                        <input type="text" id="state-filter" placeholder="Filter states..." class="pl-10 pr-4 py-3 rounded-full border border-stone-200 bg-white text-sm font-bold focus:ring-2 focus:ring-emerald-500 outline-none shadow-sm" />
-                        <span class="absolute left-4 top-3.5 text-stone-400">🔍</span>
-                    </div>
+      <!-- Category Pills - SVG icons instead of emojis -->
+      <div class="flex flex-wrap justify-center gap-3 mt-8">
+        {categories.map(cat => (
+          <a
+            href={`/new-hampshire/hikes/${cat.id}`}
+            class="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white text-sm font-bold hover:bg-white/20 transition-all"
+          >
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" set:html={getIconSvg(cat.icon)} />
+            {cat.title}
+          </a>
+        ))}
+      </div>
+    </div>
 
-                    {/* Location Button */}
-                    <button id="find-near-me" class="flex items-center gap-2 px-6 py-3 rounded-full bg-stone-900 text-white text-sm font-bold hover:bg-emerald-600 transition-all shadow-lg">
-                        <span>📍</span> Find Near Me
-                    </button>
-                </div>
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- SELECT YOUR REGION -->
+  <section class="bg-stone-50 py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-center gap-3 mb-8">
+        <svg class="w-8 h-8 text-emerald-600" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+        </svg>
+        <h2 class="text-3xl font-bold text-stone-900">Select Your Region</h2>
+      </div>
+
+      <div class="flex items-center gap-4 mb-8">
+        <input
+          type="text"
+          placeholder="Filter states..."
+          class="flex-1 max-w-xs px-4 py-2 border border-stone-200 rounded-xl text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+        />
+        <button class="flex items-center gap-2 px-4 py-2 bg-stone-900 text-white rounded-xl text-sm font-bold hover:bg-stone-800 transition">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          Find Near Me
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {states.filter(s => s.count > 0).map(state => (
+          <a
+            href={`/${state.slug}`}
+            class="group relative h-64 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
+          >
+            <img
+              src={state.image}
+              alt={state.name}
+              class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+            <div class="absolute bottom-4 left-4 text-white">
+              <h3 class="text-xl font-bold">{state.name}</h3>
+              <p class="text-white/70 text-sm">{state.count} adventures</p>
             </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 
-            {/* STATE GRID */}
-            <div id="state-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                {stateCards.map(state => (
-                    <a href={`/${state.slug}`} class="state-card group relative aspect-[3/4] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2" data-name={state.name.toLowerCase()} data-lat={state.coords[0]} data-lon={state.coords[1]}>
-                        <img src={state.image} alt={state.name} class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                        <div class="absolute bottom-0 left-0 p-6">
-                            <span class="text-white/60 font-mono text-xs uppercase tracking-widest">{state.count} Trails</span>
-                            <h3 class="text-3xl font-black text-white leading-none mt-1">{state.name}</h3>
-                            <div class="h-1 w-8 bg-emerald-500 mt-3 group-hover:w-full transition-all duration-500 rounded-full"></div>
-                        </div>
-                    </a>
-                ))}
-            </div>
-        </div>
-    </section>
+  <!-- LEGENDARY ADVENTURES -->
+  <section class="bg-white py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-stone-900 mb-2">Legendary Adventures</h2>
+        <p class="text-stone-500">Highest rated climbs across the entire database.</p>
+      </div>
 
-    {/* FEATURED HIKES */}
-    <section class="bg-white py-20 border-t border-stone-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-12 text-center">
-                <h2 class="text-4xl md:text-5xl font-black text-stone-900">Legendary Adventures</h2>
-                <p class="text-stone-500 mt-2">Highest rated climbs across the entire database.</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                {featuredHikes.map(mountain => <MountainCard mountain={mountain} />)}
-            </div>
-        </div>
-    </section>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {topMountains.map(m => (
+          <MountainCard mountain={{...m, state_slug: normalizeState(m.state_slug)}} />
+        ))}
+      </div>
+    </div>
+  </section>
 
-    <SiteFooter />
+  <SiteFooter />
 </Layout>
-
-<script>
-    // --- FILTER STATES LOGIC ---
-    const filterInput = document.getElementById('state-filter');
-    const cards = document.querySelectorAll('.state-card');
-
-    if (filterInput) {
-        filterInput.addEventListener('input', (e) => {
-            const val = e.target.value.toLowerCase();
-            cards.forEach(card => {
-                if (card.dataset.name.includes(val)) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        });
-    }
-
-    // --- "FIND NEAR ME" LOGIC ---
-    const btn = document.getElementById('find-near-me');
-    if (btn) {
-        btn.addEventListener('click', () => {
-            if (!navigator.geolocation) return alert("Geolocation not supported.");
-
-            btn.innerHTML = "⏳ Locating...";
-
-            navigator.geolocation.getCurrentPosition((pos) => {
-                const userLat = pos.coords.latitude;
-                const userLon = pos.coords.longitude;
-
-                let closestState = null;
-                let minDist = Infinity;
-
-                cards.forEach(card => {
-                    const lat = parseFloat(card.dataset.lat);
-                    const lon = parseFloat(card.dataset.lon);
-                    const dist = Math.sqrt(Math.pow(lat - userLat, 2) + Math.pow(lon - userLon, 2));
-
-                    if (dist < minDist) {
-                        minDist = dist;
-                        closestState = card.getAttribute('href');
-                    }
-                });
-
-                if (closestState) window.location.href = closestState;
-                else btn.innerHTML = "❌ No state found";
-
-            }, () => {
-                btn.innerHTML = "⚠️ Location Denied";
-            });
-        });
-    }
-</script>

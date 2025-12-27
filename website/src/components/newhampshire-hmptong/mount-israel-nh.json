@@ -1,0 +1,382 @@
+{
+  "name": "Mount Israel",
+  "slug": "mount-israel-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 2630,
+  "mountain_hero": "https://images.unsplash.com/photo-1654939328475-4026a2126441",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "52 WAV",
+    "Views",
+    "Family Friendly",
+    "Southern Whites"
+  ],
+  "lat": 43.815,
+  "lon": -71.459,
+  "trails_config": [
+    {
+      "name": "Wentworth Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.2,
+      "tags": [
+        "ledges",
+        "quiet",
+        "quick hike"
+      ],
+      "description": "A short, enjoyable climb from Mead Base in Sandwich. The Wentworth Trail leads steadily up through forests to open ledges near the summit of Mt. Israel. These ledges provide excellent views northward to the Sandwich Range and Whiteface/Passaconaway. The summit itself is partially open with similar vistas. This is a lesser-known peak offering serenity, making it one of the best rewards for minimal effort in the area.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "parking_info": "Mead Base Conservation Center, Diamond Ledge Rd",
+      "start_lat": 43.8172,
+      "start_lon": -71.4455,
+      "features": [
+        {
+          "name": "Summit Ledge",
+          "type": "viewpoint",
+          "lat": 43.814,
+          "lon": -71.458
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "Fletcher Cascades",
+      "slug": "fletcher-cascades-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2103,
+      "distance_miles": 8.1
+    },
+    {
+      "name": "Mount Percival",
+      "slug": "mount-percival-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2212,
+      "distance_miles": 8.2
+    },
+    {
+      "name": "Mount Morgan",
+      "slug": "mount-morgan-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2200,
+      "distance_miles": 8.4
+    },
+    {
+      "name": "Welch & Dickey Mountains",
+      "slug": "welch-dickey-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2605,
+      "distance_miles": 8.4
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "One of New Hampshire's premier peaks, Mount Israel rises to 2630 feet. It is known for its rugged terrain and panoramic vistas.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 2630 feet, Mount Israel is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Wentworth Trail**, a **4.2 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **Fletcher Cascades**, which is just 8.1 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Wentworth Trail",
+      "tags": [
+        "ledges",
+        "quiet",
+        "quick hike"
+      ],
+      "smart_logic": {},
+      "logistics": {
+        "parking_info": "Mead Base Conservation Center, Diamond Ledge Rd",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Mead%20Base%20Conservation%20Center%2C%20Diamond%20Ledge%20Rd",
+        "start_coords": [
+          43.8172,
+          -71.4455
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "stats": {
+        "distance": 2.6,
+        "gain": 389,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 1.9
+      },
+      "geo": {
+        "path": [
+          [
+            43.81703,
+            -71.44722,
+            720
+          ],
+          [
+            43.81659,
+            -71.44713,
+            716
+          ],
+          [
+            43.81561,
+            -71.44694,
+            717
+          ],
+          [
+            43.81531,
+            -71.44692,
+            715
+          ],
+          [
+            43.81422,
+            -71.4469,
+            710
+          ],
+          [
+            43.81347,
+            -71.44676,
+            715
+          ],
+          [
+            43.81303,
+            -71.44665,
+            714
+          ],
+          [
+            43.81251,
+            -71.44655,
+            708
+          ],
+          [
+            43.81221,
+            -71.4465,
+            701
+          ],
+          [
+            43.81197,
+            -71.44646,
+            701
+          ],
+          [
+            43.8117,
+            -71.44647,
+            703
+          ],
+          [
+            43.81118,
+            -71.44656,
+            705
+          ],
+          [
+            43.81102,
+            -71.44673,
+            709
+          ],
+          [
+            43.81113,
+            -71.44722,
+            717
+          ],
+          [
+            43.81119,
+            -71.44786,
+            731
+          ],
+          [
+            43.81119,
+            -71.44852,
+            750
+          ],
+          [
+            43.81114,
+            -71.44909,
+            761
+          ],
+          [
+            43.81112,
+            -71.44984,
+            774
+          ],
+          [
+            43.8111,
+            -71.45079,
+            791
+          ],
+          [
+            43.81115,
+            -71.4516,
+            806
+          ],
+          [
+            43.81119,
+            -71.45187,
+            807
+          ],
+          [
+            43.81124,
+            -71.45223,
+            811
+          ],
+          [
+            43.81133,
+            -71.45268,
+            817
+          ],
+          [
+            43.81143,
+            -71.45309,
+            830
+          ],
+          [
+            43.81154,
+            -71.45354,
+            843
+          ],
+          [
+            43.81165,
+            -71.45403,
+            857
+          ],
+          [
+            43.81173,
+            -71.45464,
+            877
+          ],
+          [
+            43.81177,
+            -71.45523,
+            891
+          ],
+          [
+            43.81178,
+            -71.45556,
+            899
+          ],
+          [
+            43.81184,
+            -71.45655,
+            922
+          ],
+          [
+            43.8119,
+            -71.45698,
+            932
+          ],
+          [
+            43.81233,
+            -71.45889,
+            965
+          ],
+          [
+            43.81249,
+            -71.45935,
+            971
+          ],
+          [
+            43.81306,
+            -71.46058,
+            994
+          ],
+          [
+            43.8131,
+            -71.46046,
+            993
+          ],
+          [
+            43.81358,
+            -71.45977,
+            1004
+          ],
+          [
+            43.81391,
+            -71.45955,
+            1027
+          ],
+          [
+            43.81413,
+            -71.45936,
+            1039
+          ],
+          [
+            43.81451,
+            -71.45932,
+            1059
+          ],
+          [
+            43.81492,
+            -71.45897,
+            1083
+          ],
+          [
+            43.815,
+            -71.45897,
+            1083
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 720,
+            "coord": [
+              43.81703,
+              -71.44722
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 703,
+            "coord": [
+              43.8117,
+              -71.44647
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 807,
+            "coord": [
+              43.81119,
+              -71.45187
+            ]
+          },
+          {
+            "mile": 0.94,
+            "elev": 932,
+            "coord": [
+              43.8119,
+              -71.45698
+            ]
+          },
+          {
+            "mile": 1.3,
+            "elev": 1083,
+            "coord": [
+              43.815,
+              -71.45897
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.81703,
+            -71.44722,
+            720
+          ],
+          "summit": [
+            43.815,
+            -71.459,
+            2630
+          ]
+        }
+      },
+      "id": "4c8d4821"
+    }
+  ]
+}

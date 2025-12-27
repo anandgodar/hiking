@@ -1,0 +1,139 @@
+---
+/**
+ * Downloads Section Component - Phase 3 Engagement
+ * Location: src/components/DownloadsSection.astro
+ */
+
+interface Props {
+  mountain: {
+    name: string;
+    slug: string;
+    trails?: Array<{
+      name: string;
+      geo?: {
+        path: Array<[number, number, number]>;
+      };
+    }>;
+  };
+  downloads?: any;
+}
+
+const { mountain, downloads } = Astro.props;
+---
+
+<section class="downloads-section py-6" id="downloads">
+  <h3 class="text-lg font-bold text-stone-900 mb-4 flex items-center gap-2">
+    <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+    </svg>
+    Downloads
+  </h3>
+  
+  <div class="space-y-3">
+    <button 
+      class="gpx-download-btn w-full bg-emerald-600 text-white font-medium py-3 px-4 rounded-lg hover:bg-emerald-700 transition-colors flex items-center justify-center gap-2"
+      data-mountain-slug={mountain.slug}
+      data-mountain-name={mountain.name}
+    >
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+      </svg>
+      Download GPX
+    </button>
+    
+    <button 
+      onclick="window.print()"
+      class="w-full bg-stone-100 text-stone-700 font-medium py-3 px-4 rounded-lg hover:bg-stone-200 transition-colors flex items-center justify-center gap-2"
+    >
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+      </svg>
+      Print Trail Guide
+    </button>
+    
+    <div class="flex gap-2">
+      <button 
+        class="share-copy-btn flex-1 bg-stone-100 text-stone-700 font-medium py-2.5 px-3 rounded-lg hover:bg-stone-200 transition-colors flex items-center justify-center gap-2"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+        </svg>
+        Copy Link
+      </button>
+      <a 
+        href={`https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20${encodeURIComponent(mountain.name)}!&url=${encodeURIComponent(`https://summitseeker.com/new-hampshire/hikes/${mountain.slug}`)}`}
+        target="_blank"
+        rel="noopener"
+        class="flex-1 bg-stone-100 text-stone-700 font-medium py-2.5 px-3 rounded-lg hover:bg-stone-200 transition-colors flex items-center justify-center"
+      >
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+  
+  <p class="mt-3 text-xs text-stone-500">
+    GPX works with Gaia GPS, AllTrails, Garmin, and more.
+  </p>
+</section>
+
+<script define:vars={{ mountainSlug: mountain.slug, mountainName: mountain.name, trails: mountain.trails }}>
+  document.querySelectorAll('.gpx-download-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      let gpxContent = `<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Summit Seeker" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>${mountainName} Trails</name>
+    <time>${new Date().toISOString()}</time>
+  </metadata>`;
+
+      if (trails && trails.length) {
+        trails.forEach(trail => {
+          if (trail.geo?.path?.length) {
+            gpxContent += `
+  <trk>
+    <name>${trail.name}</name>
+    <trkseg>`;
+            trail.geo.path.forEach(point => {
+              gpxContent += `
+      <trkpt lat="${point[0]}" lon="${point[1]}">
+        <ele>${point[2] || 0}</ele>
+      </trkpt>`;
+            });
+            gpxContent += `
+    </trkseg>
+  </trk>`;
+          }
+        });
+      }
+
+      gpxContent += '\n</gpx>';
+
+      const blob = new Blob([gpxContent], { type: 'application/gpx+xml' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${mountainSlug}-trails.gpx`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    });
+  });
+
+  document.querySelectorAll('.share-copy-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        const originalHTML = btn.innerHTML;
+        btn.innerHTML = '<svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Copied!';
+        setTimeout(() => {
+          btn.innerHTML = originalHTML;
+        }, 2000);
+      } catch (err) {
+        console.error('Copy failed:', err);
+      }
+    });
+  });
+</script>

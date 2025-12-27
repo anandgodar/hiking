@@ -1,0 +1,80 @@
+---
+/**
+ * Nearby Peaks Component - Phase 2 Internal Linking
+ * Location: src/components/NearbyPeaks.astro
+ */
+
+interface NearbyPeak {
+  name: string;
+  slug: string;
+  state_slug?: string;
+  elevation: number;
+  distance_miles: number;
+}
+
+interface Props {
+  peaks?: NearbyPeak[];
+  currentMountain?: string;
+  stateSlug?: string;
+}
+
+const { peaks, currentMountain = 'this peak', stateSlug = 'new-hampshire' } = Astro.props;
+
+if (!peaks || peaks.length === 0) {
+  return null;
+}
+
+const nearbyPeaks = peaks
+  .sort((a, b) => a.distance_miles - b.distance_miles)
+  .slice(0, 6);
+---
+
+<section class="nearby-peaks-section py-8 mt-8 border-t border-stone-200" id="nearby">
+  <h2 class="text-2xl font-bold text-stone-900 mb-2">
+    Nearby Peaks
+  </h2>
+  <p class="text-stone-600 mb-6">
+    Explore other mountains near {currentMountain}. Great for peak-bagging or planning your next adventure.
+  </p>
+
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+    {nearbyPeaks.map((peak) => (
+      <a 
+        href={`/${peak.state_slug || stateSlug}/hikes/${peak.slug}`}
+        class="group bg-white rounded-xl border border-stone-200 p-4 hover:border-emerald-300 hover:shadow-md transition-all"
+      >
+        <div class="flex items-center justify-between mb-2">
+          <svg class="w-6 h-6 text-stone-400 group-hover:text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21l6-6m0 0l6 6m-6-6V3m6 6l6-6m-6 6l6 6" />
+          </svg>
+          <span class="text-xs text-stone-500">
+            {peak.distance_miles} mi
+          </span>
+        </div>
+        
+        <h3 class="font-medium text-stone-900 text-sm group-hover:text-emerald-700 transition-colors line-clamp-2 mb-1">
+          {peak.name}
+        </h3>
+        
+        <p class="text-xs text-stone-500">
+          {peak.elevation.toLocaleString()} ft
+        </p>
+      </a>
+    ))}
+  </div>
+
+  {nearbyPeaks.length >= 2 && (
+    <div class="mt-6 bg-emerald-50 border border-emerald-200 rounded-xl p-4">
+      <h4 class="font-medium text-emerald-900 mb-2 flex items-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+        </svg>
+        Peak Bagging Tip
+      </h4>
+      <p class="text-sm text-emerald-800">
+        {nearbyPeaks[0].name} is only {nearbyPeaks[0].distance_miles} miles away. 
+        Consider combining these peaks for a bigger day or overnight trip!
+      </p>
+    </div>
+  )}
+</section>

@@ -1,0 +1,168 @@
+{
+  "name": "Jackson Falls",
+  "slug": "jackson-falls-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 771,
+  "mountain_hero": "https://source.unsplash.com/1600x900/?jackson-falls,new-hampshire,waterfall",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Waterfall",
+    "Roadside",
+    "Mount Washington Valley",
+    "Swimming Hole",
+    "Family Friendly"
+  ],
+  "lat": 44.1481,
+  "lon": -71.1812,
+  "trails_config": [
+    {
+      "name": "Jackson Falls Riverside Walk",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 0.4,
+      "tags": [
+        "best",
+        "swimming",
+        "quick-stop",
+        "scenic"
+      ],
+      "description": "A classic village waterfall with broad ledges and slide-like drops\u2014perfect for a quick stop or a sunny picnic. In summer, it\u2019s one of the most popular swimming-hole style waterfalls in the valley.",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "parking_info": "Jackson Falls Parking Area, NH-16A, Jackson",
+      "start_lat": 44.1481,
+      "start_lon": -71.1812,
+      "via_lat": null,
+      "via_lon": null,
+      "features": [
+        {
+          "name": "Jackson Falls",
+          "type": "waterfall",
+          "lat": 44.1481,
+          "lon": -71.1812
+        }
+      ]
+    }
+  ],
+  "nearby_peaks": [
+    {
+      "name": "North Moat Mountain",
+      "slug": "north-moat-mountain-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3202,
+      "distance_miles": 3.3
+    },
+    {
+      "name": "Diana's Baths",
+      "slug": "dianas-baths-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 720,
+      "distance_miles": 5.4
+    },
+    {
+      "name": "Mount Resolution",
+      "slug": "mount-resolution-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3400,
+      "distance_miles": 6.1
+    },
+    {
+      "name": "Wildcat Mountain D",
+      "slug": "wildcat-mountain-d-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4062,
+      "distance_miles": 7.5
+    }
+  ],
+  "current_conditions": {
+    "ai_summary": "Experience the beauty of New Hampshire on Jackson Falls. At 771 feet, this summit commands impressive views of the surrounding wilderness.",
+    "risk_factors": [
+      "Weather changes rapidly above treeline.",
+      "Bring extra water and layers.",
+      "Check local trail conditions before departing.",
+      "Start early to avoid afternoon storms."
+    ]
+  },
+  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Standing at 771 feet, Jackson Falls is a standout peak in New Hampshire. Known for its approachable and scenic terrain, it offers a quintessential hiking experience.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Hikers often choose the **Jackson Falls Riverside Walk**, a **0.4 mile** route gaining significant elevation. As part of the **local peak challenge**, it draws peak-baggers from across the region.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Peak Bagging Logic</h4>\n        <p class=\"text-sm text-emerald-800\">**Peak Bagging Opportunity:** Consider connecting this hike with **North Moat Mountain**, which is just 3.3 miles away. Linking these peaks is a popular way to maximize your day on the trail.</p>\n    </div>\n    ",
+  "trails": [
+    {
+      "name": "Jackson Falls Riverside Walk",
+      "tags": [
+        "best",
+        "swimming",
+        "quick-stop",
+        "scenic"
+      ],
+      "smart_logic": {},
+      "logistics": {
+        "parking_info": "Jackson Falls Parking Area, NH-16A, Jackson",
+        "directions_url": "https://www.google.com/maps/search/?api=1&query=Jackson%20Falls%20Parking%20Area%2C%20NH-16A%2C%20Jackson",
+        "start_coords": [
+          44.1481,
+          -71.1812
+        ],
+        "capacity": "Medium (~40 cars)",
+        "status": "Fills quickly on weekends",
+        "fee": "$5/day (Public Launch)",
+        "shuttle": "Kineo Shuttle ($15 round-trip)"
+      },
+      "stats": {
+        "distance": 0.0,
+        "gain": 0,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.0
+      },
+      "geo": {
+        "path": [
+          [
+            44.14809,
+            -71.18159,
+            781
+          ],
+          [
+            44.14809,
+            -71.18159,
+            781
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 781,
+            "coord": [
+              44.14809,
+              -71.18159
+            ]
+          },
+          {
+            "mile": 0.0,
+            "elev": 781,
+            "coord": [
+              44.14809,
+              -71.18159
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.14809,
+            -71.18159,
+            781
+          ],
+          "summit": [
+            44.1481,
+            -71.1812,
+            771
+          ]
+        }
+      },
+      "id": "6618a9fc"
+    }
+  ]
+}
