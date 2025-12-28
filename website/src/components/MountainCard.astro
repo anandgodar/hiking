@@ -1,4 +1,8 @@
 ---
+/**
+ * Mountain Card Component
+ * FIXED: URL now includes /hikes/ path segment
+ */
 const { mountain, showState = false } = Astro.props;
 
 // Safety Checks
@@ -6,9 +10,16 @@ const mainTrail = mountain.trails?.[0] || mountain.trails_config?.[0] || {};
 const stats = mainTrail.stats || {};
 const image = mountain.mountain_hero || mountain.image || "https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=800";
 
+// Normalize state slug
+const stateSlug = mountain.state_slug === 'nh' ? 'new-hampshire'
+  : mountain.state_slug === 'me' ? 'maine'
+  : mountain.state_slug === 'vt' ? 'vermont'
+  : mountain.state_slug === 'ny' ? 'new-york'
+  : mountain.state_slug || 'new-hampshire';
+
 // Helper for Difficulty Color
 const getDiffColor = (d) => {
-    if (d === 'Hard' || d === 'Expert') return 'text-orange-600 bg-orange-50 border-orange-100';
+    if (d === 'Hard' || d === 'Expert' || d === 'Strenuous') return 'text-orange-600 bg-orange-50 border-orange-100';
     if (d === 'Easy') return 'text-emerald-600 bg-emerald-50 border-emerald-100';
     return 'text-yellow-600 bg-yellow-50 border-yellow-100';
 };
@@ -17,7 +28,8 @@ const getDiffColor = (d) => {
 const difficulty = stats.difficulty || mainTrail.difficulty || 'Moderate';
 ---
 
-<a href={`/${mountain.state_slug}/${mountain.slug}`} class="group flex flex-col bg-white border border-stone-200 rounded-2xl overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">
+<!-- FIXED: Added /hikes/ to URL path -->
+<a href={`/${stateSlug}/hikes/${mountain.slug}`} class="group flex flex-col bg-white border border-stone-200 rounded-2xl overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">
     <!-- IMAGE HEADER -->
     <div class="h-48 relative overflow-hidden">
         <img
@@ -36,7 +48,7 @@ const difficulty = stats.difficulty || mainTrail.difficulty || 'Moderate';
         <!-- Optional State Badge -->
         {showState && (
             <div class="absolute top-3 left-3 bg-white/20 backdrop-blur text-white text-[10px] font-bold px-2 py-1 rounded border border-white/20 uppercase">
-                {mountain.state_slug?.replace('-', ' ')}
+                {stateSlug.replace(/-/g, ' ')}
             </div>
         )}
 

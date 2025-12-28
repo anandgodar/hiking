@@ -3,7 +3,9 @@
  * Homepage - Main Site Index
  * Location: src/pages/index.astro
  *
+ * FIXED: All URLs now include /hikes/ path segment
  * FIXED: All emojis replaced with SVG icons
+ * FIXED: State search filter now functional
  */
 import Layout from '../layouts/Layout.astro';
 import SiteFooter from '../components/SiteFooter.astro';
@@ -23,12 +25,12 @@ const normalizeState = (s) => {
   return s;
 };
 
-// Search Index
+// Search Index - FIXED: Added /hikes/ to URL
 const searchIndex = allMountains.map(m => ({
   title: m.name,
   type: 'Mountain',
   subtitle: m.state || m.state_slug,
-  url: `/${normalizeState(m.state_slug)}/${m.slug}`,
+  url: `/${normalizeState(m.state_slug)}/hikes/${m.slug}`,
   image: m.mountain_hero || m.image,
   tags: m.tags || []
 }));
@@ -76,6 +78,9 @@ const getIconSvg = (iconName) => {
   };
   return icons[iconName] || icons.mountain;
 };
+
+// States with trails for filter
+const activeStates = states.filter(s => s.count > 0);
 ---
 
 <Layout title="Summit Seeker - Northeast Trail Guide" description="Find your next hiking adventure in New Hampshire, Maine, Vermont, and New York.">
@@ -105,7 +110,7 @@ const getIconSvg = (iconName) => {
         <GlobalSearch searchIndex={searchIndex} />
       </div>
 
-      <!-- Category Pills - SVG icons instead of emojis -->
+      <!-- Category Pills - SVG icons instead of emojis, FIXED: /hikes/ in URL -->
       <div class="flex flex-wrap justify-center gap-3 mt-8">
         {categories.map(cat => (
           <a
@@ -137,25 +142,54 @@ const getIconSvg = (iconName) => {
         <h2 class="text-3xl font-bold text-stone-900">Select Your Region</h2>
       </div>
 
-      <div class="flex items-center gap-4 mb-8">
-        <input
-          type="text"
-          placeholder="Filter states..."
-          class="flex-1 max-w-xs px-4 py-2 border border-stone-200 rounded-xl text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
-        />
-        <button class="flex items-center gap-2 px-4 py-2 bg-stone-900 text-white rounded-xl text-sm font-bold hover:bg-stone-800 transition">
-          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+      <!-- SEARCH & FILTER BAR -->
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-8">
+        <div class="relative flex-1 max-w-md">
+          <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-stone-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
-          Find Near Me
+          <input
+            type="text"
+            id="state-filter"
+            placeholder="Search states (e.g., New Hampshire, Maine...)"
+            class="w-full pl-12 pr-4 py-3 border border-stone-200 rounded-2xl text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent shadow-sm bg-white"
+          />
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="text-sm text-stone-500 hidden sm:block" id="state-count">
+            {activeStates.length} regions available
+          </span>
+          <button
+            id="clear-filter"
+            class="hidden items-center gap-2 px-3 py-2 text-stone-500 hover:text-stone-700 text-sm font-medium transition"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+            Clear
+          </button>
+        </div>
+      </div>
+
+      <!-- NO RESULTS MESSAGE (hidden by default) -->
+      <div id="no-results" class="hidden text-center py-12">
+        <svg class="w-16 h-16 mx-auto text-stone-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <p class="text-stone-500 font-medium">No regions match your search</p>
+        <button id="reset-search" class="mt-4 text-emerald-600 font-bold hover:underline">
+          Show all regions
         </button>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {states.filter(s => s.count > 0).map(state => (
+      <!-- STATE CARDS GRID -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="states-grid">
+        {activeStates.map(state => (
           <a
             href={`/${state.slug}`}
-            class="group relative h-64 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
+            class="state-card group relative h-64 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
+            data-state-name={state.name.toLowerCase()}
+            data-state-slug={state.slug}
           >
             <img
               src={state.image}
@@ -191,3 +225,83 @@ const getIconSvg = (iconName) => {
 
   <SiteFooter />
 </Layout>
+
+<script>
+  // State filter functionality
+  const filterInput = document.getElementById('state-filter');
+  const statesGrid = document.getElementById('states-grid');
+  const stateCards = document.querySelectorAll('.state-card');
+  const stateCount = document.getElementById('state-count');
+  const noResults = document.getElementById('no-results');
+  const clearBtn = document.getElementById('clear-filter');
+  const resetBtn = document.getElementById('reset-search');
+  const totalStates = stateCards.length;
+
+  function filterStates(query) {
+    const searchQuery = query.toLowerCase().trim();
+    let visibleCount = 0;
+
+    stateCards.forEach(card => {
+      const stateName = card.dataset.stateName || '';
+      const stateSlug = card.dataset.stateSlug || '';
+      const matches = !searchQuery ||
+                      stateName.includes(searchQuery) ||
+                      stateSlug.includes(searchQuery);
+
+      if (matches) {
+        card.style.display = 'block';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // Update count text
+    if (stateCount) {
+      stateCount.textContent = searchQuery
+        ? `${visibleCount} of ${totalStates} regions`
+        : `${totalStates} regions available`;
+    }
+
+    // Show/hide no results message
+    if (noResults) {
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+
+    // Show/hide clear button
+    if (clearBtn) {
+      clearBtn.style.display = searchQuery ? 'flex' : 'none';
+    }
+
+    // Show/hide grid
+    if (statesGrid) {
+      statesGrid.style.display = visibleCount === 0 ? 'none' : 'grid';
+    }
+  }
+
+  function clearFilter() {
+    if (filterInput) {
+      filterInput.value = '';
+      filterStates('');
+      filterInput.focus();
+    }
+  }
+
+  // Event listeners
+  filterInput?.addEventListener('input', (e) => {
+    filterStates(e.target.value);
+  });
+
+  clearBtn?.addEventListener('click', clearFilter);
+  resetBtn?.addEventListener('click', clearFilter);
+
+  // Handle Enter key - navigate to first visible state
+  filterInput?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const firstVisible = document.querySelector('.state-card[style="display: block;"], .state-card:not([style*="display: none"])');
+      if (firstVisible) {
+        window.location.href = firstVisible.href;
+      }
+    }
+  });
+</script>

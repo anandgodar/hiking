@@ -1,35 +1,35 @@
 ---
 /**
  * Mountain Detail Page
- * Location: src/pages/[state]/[slug].astro
+ * Location: src/pages/[state]/hikes/[slug].astro
  *
- * THIS IS A PAGE FILE - NOT A COMPONENT
- * Must have getStaticPaths() for dynamic routing
+ * FIXED: Import paths updated for /hikes/ subdirectory (3 levels deep)
  */
 
-// Layout
-import Layout from '../../layouts/Layout.astro';
+// Layout - now 3 levels up
+import Layout from '../../../layouts/Layout.astro';
 
 // Phase 1-3 Components
-import SEOHead from '../../components/SEOHead.astro';
-import FAQSection from '../../components/FAQSection.astro';
-import SeasonalGuide from '../../components/SeasonalGuide.astro';
-import SafetySection from '../../components/SafetySection.astro';
-import DownloadsSection from '../../components/DownloadsSection.astro';
+import SEOHead from '../../../components/SEOHead.astro';
+import FAQSection from '../../../components/FAQSection.astro';
+import SeasonalGuide from '../../../components/SeasonalGuide.astro';
+import SafetySection from '../../../components/SafetySection.astro';
+import DownloadsSection from '../../../components/DownloadsSection.astro';
 
 // Existing Components
-import TrailSchema from '../../components/TrailSchema.astro';
-import SocialPulse from '../../components/SocialPulse.astro';
-import NearbyPeaksAstro from '../../components/NearbyPeaks.astro';
-import Footer from '../../components/Footer.astro';
+import TrailSchema from '../../../components/TrailSchema.astro';
+import SocialPulse from '../../../components/SocialPulse.astro';
+import NearbyPeaksAstro from '../../../components/NearbyPeaks.astro';
+import Footer from '../../../components/Footer.astro';
 
 // React Components
-import TrailDashboard from '../../components/TrailDashboard.jsx';
-import WeatherWidget from '../../components/WeatherWidget.jsx';
+import TrailDashboard from '../../../components/TrailDashboard.jsx';
+import WeatherWidget from '../../../components/WeatherWidget.jsx';
 
 // REQUIRED: getStaticPaths for dynamic routes
 export async function getStaticPaths() {
-  const modules = import.meta.glob('../../data/*/*.json', { eager: true });
+  // Data is now 3 levels up
+  const modules = import.meta.glob('../../../data/*/*.json', { eager: true });
 
   return Object.entries(modules).map(([path, data]) => {
     const mountain = data.default || data;
@@ -135,7 +135,7 @@ const trailCount = mountain.trails?.length || mountain.trails_config?.length || 
 
       <!-- Trail Dashboard - Shows when trail data exists -->
       {mountain.trails && mountain.trails.length > 0 && (
-        <section class="-mt-24 relative z-10 mb-12" id="trails">
+        <section class="mt-8 relative z-10 mb-12" id="trails">
           <TrailDashboard
             client:only="react"
             mountain={mountain}
@@ -200,6 +200,12 @@ const trailCount = mountain.trails?.length || mountain.trails_config?.length || 
             <div class="prose prose-stone max-w-none" set:html={mountain.generated_description} />
           </section>
         )}
+
+        <!-- User Reviews - Using fixed component -->
+        <SocialPulse
+          userReviews={mountain.user_reviews}
+          mountainName={mountain.name}
+        />
 
         <!-- FAQ Section -->
         <FAQSection faqs={pageContent.faqs} mountainName={mountain.name} />

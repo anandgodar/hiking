@@ -1,13 +1,28 @@
 ---
+/**
+ * Tag Page
+ * Location: src/pages/tags/[tag].astro
+ *
+ * FIXED: Uses import.meta.glob instead of deprecated Astro.glob
+ */
 import Layout from '../../layouts/Layout.astro';
 import MountainCard from '../../components/MountainCard.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 
 export async function getStaticPaths() {
-  const allFiles = await Astro.glob('../../data/*/*.json');
-  const allMountains = allFiles.map(f => f.default);
+  // FIXED: Use import.meta.glob instead of Astro.glob
+  const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+  const allMountains = Object.values(allFiles).map(f => f.default || f);
 
-  // 1. Harvest all unique tags from all mountains
+  const normalizeState = (s) => {
+    if (s === 'nh') return 'new-hampshire';
+    if (s === 'me') return 'maine';
+    if (s === 'vt') return 'vermont';
+    if (s === 'ny') return 'new-york';
+    return s;
+  };
+
+  // Harvest all unique tags from all mountains
   const tagSet = new Set();
   allMountains.forEach(m => {
       // Collect Tags
@@ -24,7 +39,10 @@ export async function getStaticPaths() {
       const filtered = allMountains.filter(m => {
           const t = JSON.stringify([m.tags, m.features, m.trails]).toLowerCase();
           return t.includes(tag);
-      });
+      }).map(m => ({
+          ...m,
+          state_slug: normalizeState(m.state_slug)
+      }));
       return { params: { tag }, props: { mountains: filtered, tag } };
   });
 }
@@ -33,12 +51,12 @@ const { mountains, tag } = Astro.props;
 
 // Formatting the Title (e.g., "waterfall" -> "Waterfall Hikes")
 const formattedTitle = tag.charAt(0).toUpperCase() + tag.slice(1).replace(/_/g, ' ');
-const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000";
+const heroImage = mountains[0]?.mountain_hero || mountains[0]?.image || "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000";
 ---
 
 <Layout title={`Best ${formattedTitle} Trails`} description={`Explore top rated ${formattedTitle} hiking trails.`}>
 
-    {/* HERO */}
+    <!-- Hero -->
     <div class="relative h-[40vh] min-h-[300px] flex items-center justify-center overflow-hidden">
         <div class="absolute inset-0">
             <img src={heroImage} class="w-full h-full object-cover blur-[2px] scale-105" alt={formattedTitle} />
@@ -55,7 +73,7 @@ const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464
         </div>
     </div>
 
-    {/* GRID */}
+    <!-- Grid -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {mountains.map(m => (

@@ -3,7 +3,7 @@
  * State Index Page
  * Location: src/pages/[state]/index.astro
  *
- * FIXED: All emojis replaced with SVG icons
+ * FIXED: All URLs now include /hikes/ path segment
  * FIXED: Uses import.meta.glob instead of deprecated Astro.glob
  */
 import Layout from '../../layouts/Layout.astro';
@@ -40,7 +40,7 @@ export async function getStaticPaths() {
 
 const { mountains, stateSlug } = Astro.props;
 
-// Search Index
+// Search Index - FIXED: Added /hikes/ to URL
 const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
 const allMountains = Object.values(allFiles).map(f => f.default || f);
 const searchIndex = allMountains.map(m => {
@@ -49,13 +49,13 @@ const searchIndex = allMountains.map(m => {
     title: m.name,
     type: 'Mountain',
     subtitle: m.state || m.state_slug,
-    url: `/${sUrl}/${m.slug}`,
+    url: `/${sUrl}/hikes/${m.slug}`,
     image: m.mountain_hero || m.image,
     tags: m.tags || []
   };
 });
 
-// State Configuration - NO EMOJIS, use icon names instead
+// State Configuration
 const stateConfig = {
   'new-hampshire': {
     name: "New Hampshire",
@@ -212,7 +212,7 @@ const getIconSvg = (iconName) => {
 
   <div class="bg-stone-50 py-12 space-y-24 relative z-10">
 
-    <!-- DISCOVERY BAR -->
+    <!-- DISCOVERY BAR - FIXED: /hikes/ in URL -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-24 relative z-20">
       <div class="bg-white/95 backdrop-blur-xl p-8 rounded-[2rem] shadow-2xl shadow-stone-900/10 border border-stone-100">
         <h3 class="font-serif text-xl font-bold text-stone-900 mb-6 flex items-center gap-2">
@@ -245,7 +245,7 @@ const getIconSvg = (iconName) => {
       </div>
     </div>
 
-    <!-- SWIMLANES -->
+    <!-- SWIMLANES - FIXED: /hikes/ in URL -->
     {config.featuredCollections.map(c => {
       const items = getCollectionItems(c.id);
       if (items.length === 0) return null;

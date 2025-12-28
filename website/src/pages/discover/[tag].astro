@@ -1,10 +1,19 @@
 ---
+/**
+ * Discover Tag Page - Cross-State Tag Listings
+ * Location: src/pages/discover/[tag].astro
+ *
+ * FIXED: Uses import.meta.glob instead of deprecated Astro.glob
+ * FIXED: SVG icon instead of emoji for search
+ */
 import Layout from '../../layouts/Layout.astro';
 import MountainCard from '../../components/MountainCard.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 
 export async function getStaticPaths() {
-  const allFiles = await Astro.glob('../../data/*/*.json');
+  // FIXED: Use import.meta.glob instead of Astro.glob
+  const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+  const allMountains = Object.values(allFiles).map(f => f.default || f);
 
   const normalizeTag = (tag) => {
       if (!tag) return '';
@@ -15,10 +24,17 @@ export async function getStaticPaths() {
           .replace(/[^\w\-]+/g, '');
   };
 
+  const normalizeState = (s) => {
+    if (s === 'nh') return 'new-hampshire';
+    if (s === 'me') return 'maine';
+    if (s === 'vt') return 'vermont';
+    if (s === 'ny') return 'new-york';
+    return s;
+  };
+
   const allTags = new Set();
 
-  allFiles.forEach(file => {
-      const m = file.default;
+  allMountains.forEach(m => {
       const tags = [
           ...(m.tags || []),
           ...(m.features?.map(f => f.type) || []),
@@ -30,8 +46,7 @@ export async function getStaticPaths() {
   });
 
   return Array.from(allTags).map(tagSlug => {
-      const matchingMountains = allFiles
-          .map(f => f.default)
+      const matchingMountains = allMountains
           .filter(m => {
               const allSearchableTags = [
                   ...(m.tags || []),
@@ -41,7 +56,11 @@ export async function getStaticPaths() {
               ].filter(Boolean).map(t => normalizeTag(t));
 
               return allSearchableTags.includes(tagSlug);
-          });
+          })
+          .map(m => ({
+              ...m,
+              state_slug: normalizeState(m.state_slug)
+          }));
 
       return {
           params: { tag: tagSlug },
@@ -54,11 +73,12 @@ const { mountains, tagSlug } = Astro.props;
 
 const byState = {};
 mountains.forEach(m => {
-    if (!byState[m.state_slug]) byState[m.state_slug] = [];
-    byState[m.state_slug].push(m);
+    const stateSlug = m.state_slug || 'new-hampshire';
+    if (!byState[stateSlug]) byState[stateSlug] = [];
+    byState[stateSlug].push(m);
 });
 
-// --- PRETTY TITLE MAPPER ---
+// Pretty title mapper
 const getPrettyTitle = (t) => {
     if (t === 'best') return 'Best Hikes';
     if (t === 'best-hike') return 'Best Hikes';
@@ -68,10 +88,10 @@ const getPrettyTitle = (t) => {
 }
 const prettyTag = getPrettyTitle(tagSlug);
 
-const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b";
+const heroImage = mountains[0]?.mountain_hero || mountains[0]?.image || "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b";
 ---
 
-<Layout title={`Best ${prettyTag} Hikes`} description={`Explore top-rated ${prettyTag} trails.`}>
+<Layout title={`Best ${prettyTag} Hikes`} description={`Explore top-rated ${prettyTag} trails across the Northeast.`}>
 
     <div class="relative h-[45vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <div class="absolute inset-0">
@@ -81,7 +101,7 @@ const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464
         </div>
 
         <div class="relative z-10 text-center px-4 w-full max-w-4xl">
-            {/* STANDARDIZED BREADCRUMB */}
+            <!-- Breadcrumb -->
             <nav class="flex justify-center items-center gap-3 text-sm font-bold text-white/90 uppercase tracking-widest mb-6 drop-shadow-md">
                 <a href="/" class="hover:text-emerald-400 transition-colors border-b border-transparent hover:border-emerald-400 pb-0.5">Home</a>
                 <span class="opacity-50">/</span>
@@ -96,18 +116,21 @@ const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464
 
             <div class="inline-flex items-center gap-3 px-6 py-2.5 rounded-full bg-stone-900/50 backdrop-blur-md border border-white/20 text-white font-medium text-sm shadow-xl">
                 <span id="total-count" class="font-bold text-emerald-400">{mountains.length}</span> Trails Found
-                <span class="text-white/30">•</span>
+                <span class="text-white/30">|</span>
                 <span>{Object.keys(byState).length} States</span>
             </div>
         </div>
     </div>
 
-    {/* TOOLBAR: High Contrast */}
+    <!-- Toolbar -->
     <div class="sticky top-0 z-30 bg-white shadow-md border-b border-stone-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex flex-col sm:flex-row gap-4 items-center justify-between">
                 <div class="relative w-full sm:w-96 group">
-                    <span class="absolute left-4 top-3.5 text-stone-400 group-focus-within:text-emerald-500 transition-colors">🔍</span>
+                    <!-- SVG icon instead of emoji -->
+                    <svg class="absolute left-4 top-3.5 w-4 h-4 text-stone-400 group-focus-within:text-emerald-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
                     <input
                         type="text"
                         id="page-search"
@@ -122,14 +145,17 @@ const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464
         </div>
     </div>
 
-    {/* CONTENT */}
+    <!-- Content -->
     <div class="bg-stone-50 py-16 min-h-screen">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16" id="state-sections">
             {Object.entries(byState).map(([stateSlug, stateMountains]) => (
                 <section class="state-group" data-state={stateSlug}>
                     <div class="flex items-end justify-between mb-8 border-b border-stone-200 pb-4">
                         <div class="flex items-center gap-3">
-                            <span class="text-3xl">📍</span>
+                            <!-- SVG icon instead of emoji -->
+                            <svg class="w-8 h-8 text-emerald-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
                             <h2 class="text-3xl font-black text-stone-900 capitalize">
                                 {stateSlug.replace(/-/g, ' ')}
                             </h2>
@@ -140,7 +166,7 @@ const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {stateMountains.map(m => (
-                            <div class="searchable-item" data-name={m.name.toLowerCase()} data-tags={JSON.stringify(m.tags).toLowerCase()}>
+                            <div class="searchable-item" data-name={m.name.toLowerCase()} data-tags={JSON.stringify(m.tags || []).toLowerCase()}>
                                 <MountainCard mountain={m} />
                             </div>
                         ))}
@@ -161,15 +187,15 @@ const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464
     const noResultsMsg = document.getElementById('no-results');
     const feedbackMsg = document.getElementById('results-feedback');
 
-    searchInput.addEventListener('input', (e) => {
+    searchInput?.addEventListener('input', (e) => {
         const query = e.target.value.toLowerCase();
         let visibleCount = 0;
         stateGroups.forEach(group => {
             const items = group.querySelectorAll('.searchable-item');
             let groupHasVisibleItems = false;
             items.forEach(item => {
-                const name = item.dataset.name;
-                const tags = item.dataset.tags;
+                const name = item.dataset.name || '';
+                const tags = item.dataset.tags || '';
                 const isMatch = name.includes(query) || tags.includes(query);
                 if (isMatch) {
                     item.style.display = 'block';
@@ -181,7 +207,9 @@ const heroImage = mountains[0]?.image || "https://images.unsplash.com/photo-1464
             });
             group.style.display = groupHasVisibleItems ? 'block' : 'none';
         });
-        noResultsMsg.classList.toggle('hidden', visibleCount > 0);
-        feedbackMsg.textContent = query ? `Found ${visibleCount} matches` : 'Showing all results';
+        noResultsMsg?.classList.toggle('hidden', visibleCount > 0);
+        if (feedbackMsg) {
+            feedbackMsg.textContent = query ? `Found ${visibleCount} matches` : 'Showing all results';
+        }
     });
 </script>

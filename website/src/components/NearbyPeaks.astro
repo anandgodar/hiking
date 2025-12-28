@@ -1,7 +1,7 @@
 ---
 /**
  * Nearby Peaks Component - Phase 2 Internal Linking
- * Location: src/components/NearbyPeaks.astro
+ * FIXED: URL now includes /hikes/ path segment
  */
 
 interface NearbyPeak {
@@ -24,6 +24,15 @@ if (!peaks || peaks.length === 0) {
   return null;
 }
 
+// Helper to normalize state slug
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s || stateSlug;
+};
+
 const nearbyPeaks = peaks
   .sort((a, b) => a.distance_miles - b.distance_miles)
   .slice(0, 6);
@@ -39,25 +48,26 @@ const nearbyPeaks = peaks
 
   <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
     {nearbyPeaks.map((peak) => (
-      <a 
-        href={`/${peak.state_slug || stateSlug}/hikes/${peak.slug}`}
+      <!-- FIXED: Added /hikes/ to URL path -->
+      <a
+        href={`/${normalizeState(peak.state_slug)}/hikes/${peak.slug}`}
         class="group bg-white rounded-xl border border-stone-200 p-4 hover:border-emerald-300 hover:shadow-md transition-all"
       >
         <div class="flex items-center justify-between mb-2">
           <svg class="w-6 h-6 text-stone-400 group-hover:text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21l6-6m0 0l6 6m-6-6V3m6 6l6-6m-6 6l6 6" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z" />
           </svg>
           <span class="text-xs text-stone-500">
             {peak.distance_miles} mi
           </span>
         </div>
-        
+
         <h3 class="font-medium text-stone-900 text-sm group-hover:text-emerald-700 transition-colors line-clamp-2 mb-1">
           {peak.name}
         </h3>
-        
+
         <p class="text-xs text-stone-500">
-          {peak.elevation.toLocaleString()} ft
+          {peak.elevation?.toLocaleString()} ft
         </p>
       </a>
     ))}
@@ -72,7 +82,7 @@ const nearbyPeaks = peaks
         Peak Bagging Tip
       </h4>
       <p class="text-sm text-emerald-800">
-        {nearbyPeaks[0].name} is only {nearbyPeaks[0].distance_miles} miles away. 
+        {nearbyPeaks[0].name} is only {nearbyPeaks[0].distance_miles} miles away.
         Consider combining these peaks for a bigger day or overnight trip!
       </p>
     </div>
