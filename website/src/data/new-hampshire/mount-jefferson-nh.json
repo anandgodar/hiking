@@ -20,7 +20,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 5.4,
-      "elevation_gain": 2300,
+      "elevation_gain": 2700,
       "tags": [],
       "description": "Trail to Mount Jefferson summit.",
       "parking_info": "Caps Ridge Trail Parking, Jefferson Notch Rd",
@@ -39,7 +39,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 9.4,
-      "elevation_gain": 3000,
+      "elevation_gain": 4700,
       "tags": [],
       "description": "Trail to Mount Jefferson summit.",
       "parking_info": "Great Gulf Trailhead",
@@ -58,7 +58,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 9.2,
-      "elevation_gain": 2900,
+      "elevation_gain": 4600,
       "tags": [],
       "description": "Trail to Mount Jefferson summit.",
       "parking_info": "Castle Trail Parking, US-2",
@@ -72,6 +72,12 @@
       "start_lon": -71.3587
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [
     {
       "name": "Mount Adams",
@@ -95,11 +101,11 @@
       "distance_miles": 2.6
     },
     {
-      "name": "Mount Willard",
-      "slug": "mount-willard-nh",
+      "name": "Mount Monroe",
+      "slug": "mount-monroe-nh",
       "state_slug": "new-hampshire",
-      "elevation": 2865,
-      "distance_miles": 8.4
+      "elevation": 5372,
+      "distance_miles": 3.4
     }
   ],
   "social_pulse": 7,
@@ -123,12 +129,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:46:23.149144",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "a8aa5027",
@@ -6738,14 +6738,14 @@
         "comparison": "Shorter climb (345 ft less)"
       },
       {
-        "name": "Mount Willard",
-        "slug": "mount-willard-nh",
+        "name": "Mount Monroe",
+        "slug": "mount-monroe-nh",
         "state_slug": "new-hampshire",
-        "elevation": 2865,
-        "distance_miles": 8.4,
-        "link_text": "Hike Mount Willard",
-        "combo_suggestion": "Combine Mount Jefferson with Mount Willard for a longer day",
-        "comparison": "Shorter climb (2847 ft less)"
+        "elevation": 5372,
+        "distance_miles": 3.4,
+        "link_text": "Hike Mount Monroe",
+        "combo_suggestion": "Combine Mount Jefferson with Mount Monroe for a longer day",
+        "comparison": "Shorter climb (340 ft less)"
       }
     ]
   },
@@ -6779,5 +6779,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,712 feet, Mount Jefferson ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Caps Ridge Trail**, covers 5.4 miles and is rated \n    Hard. Trail to Mount Jefferson summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Adams lies just 1.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,712 feet, Mount Jefferson ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Caps Ridge Trail**, covers 5.4 miles and is rated \n    Hard. Trail to Mount Jefferson summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Adams lies just 1.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T01:05:51.349055",
+    "pipeline_version": "3.0"
+  }
 }

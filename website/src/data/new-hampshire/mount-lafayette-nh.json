@@ -20,7 +20,7 @@
       "type": "Loop",
       "difficulty": "Hard",
       "distance_miles": 7.8,
-      "elevation_gain": 3200,
+      "elevation_gain": 3900,
       "tags": [],
       "description": "Trail to Mount Lafayette summit.",
       "parking_info": "Lafayette Place Parking, I-93 Franconia Notch",
@@ -41,7 +41,7 @@
       "type": "Loop",
       "difficulty": "Hard",
       "distance_miles": 7.8,
-      "elevation_gain": 3200,
+      "elevation_gain": 3900,
       "tags": [],
       "description": "Trail to Mount Lafayette summit.",
       "parking_info": "Lafayette Place Parking, I-93 Franconia Notch",
@@ -62,7 +62,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 7.8,
-      "elevation_gain": 3200,
+      "elevation_gain": 3900,
       "tags": [],
       "description": "Trail to Mount Lafayette summit.",
       "parking_info": "Lafayette Place Parking, I-93 Franconia Notch",
@@ -81,7 +81,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 7.8,
-      "elevation_gain": 3200,
+      "elevation_gain": 3900,
       "tags": [],
       "description": "Trail to Mount Lafayette summit.",
       "parking_info": "Lafayette Place Parking, I-93 Franconia Notch",
@@ -100,7 +100,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 7.8,
-      "elevation_gain": 3200,
+      "elevation_gain": 3900,
       "tags": [],
       "description": "Trail to Mount Lafayette summit.",
       "parking_info": "Lafayette Place Parking, I-93 Franconia Notch",
@@ -133,6 +133,12 @@
       "start_lon": -71.6627
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [
     {
       "name": "Mount Lincoln",
@@ -140,6 +146,13 @@
       "state_slug": "new-hampshire",
       "elevation": 5089,
       "distance_miles": 0.9
+    },
+    {
+      "name": "Owl's Head",
+      "slug": "owls-head-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4025,
+      "distance_miles": 2.3
     },
     {
       "name": "Mount Garfield",
@@ -154,13 +167,6 @@
       "state_slug": "new-hampshire",
       "elevation": 4100,
       "distance_miles": 2.7
-    },
-    {
-      "name": "Mount Liberty",
-      "slug": "mount-liberty-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4459,
-      "distance_miles": 3.1
     }
   ],
   "social_pulse": 8,
@@ -184,12 +190,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:37:39.580804",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "ecca87d3",
@@ -19935,6 +19935,16 @@
         "comparison": "Shorter climb (171 ft less)"
       },
       {
+        "name": "Owl's Head",
+        "slug": "owls-head-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4025,
+        "distance_miles": 2.3,
+        "link_text": "Hike Owl's Head",
+        "combo_suggestion": "Combine Mount Lafayette with Owl's Head for a longer day",
+        "comparison": "Shorter climb (1235 ft less)"
+      },
+      {
         "name": "Mount Garfield",
         "slug": "mount-garfield-nh",
         "state_slug": "new-hampshire",
@@ -19953,16 +19963,6 @@
         "link_text": "Hike Cannon Mountain",
         "combo_suggestion": "Combine Mount Lafayette with Cannon Mountain for a longer day",
         "comparison": "Shorter climb (1160 ft less)"
-      },
-      {
-        "name": "Mount Liberty",
-        "slug": "mount-liberty-nh",
-        "state_slug": "new-hampshire",
-        "elevation": 4459,
-        "distance_miles": 3.1,
-        "link_text": "Hike Mount Liberty",
-        "combo_suggestion": "Combine Mount Lafayette with Mount Liberty for a longer day",
-        "comparison": "Shorter climb (801 ft less)"
       }
     ]
   },
@@ -19996,5 +19996,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,260 feet, Mount Lafayette ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Franconia Ridge Loop**, covers 7.8 miles and is rated \n    Hard. Trail to Mount Lafayette summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Lincoln lies just 0.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,260 feet, Mount Lafayette ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Franconia Ridge Loop**, covers 7.8 miles and is rated \n    Hard. Trail to Mount Lafayette summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Lincoln lies just 0.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:46:06.991209",
+    "pipeline_version": "3.0"
+  }
 }

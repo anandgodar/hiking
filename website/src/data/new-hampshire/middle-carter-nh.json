@@ -1,0 +1,1944 @@
+{
+  "name": "Middle Carter",
+  "slug": "middle-carter-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 4610,
+  "lat": 44.3028,
+  "lon": -71.1678,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "4000 Footer",
+    "NH 48"
+  ],
+  "trails_config": [
+    {
+      "name": "Carter-Moriah Trail to Middle Carter",
+      "osm_name": "Carter-Moriah Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.8,
+      "elevation_gain": 3500,
+      "tags": [],
+      "description": "Wooded summit on the Carter Range traverse.",
+      "parking_info": "Nineteen Mile Brook Trailhead, NH-16",
+      "parking_details": {
+        "capacity": "Medium (~25 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3012,
+      "start_lon": -71.2032
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "South Carter",
+      "slug": "south-carter-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4430,
+      "distance_miles": 1.0
+    },
+    {
+      "name": "Carter Dome",
+      "slug": "carter-dome-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4832,
+      "distance_miles": 2.5
+    },
+    {
+      "name": "Mount Moriah",
+      "slug": "mount-moriah-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4049,
+      "distance_miles": 3.2
+    },
+    {
+      "name": "Wildcat A",
+      "slug": "wildcat-a-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4422,
+      "distance_miles": 3.5
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T01:05:10.324307",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-28T01:05:51.295359",
+    "pipeline_version": "3.0"
+  },
+  "trails": [
+    {
+      "id": "062090eb",
+      "name": "Carter-Moriah Trail to Middle Carter",
+      "type": "Out & Back",
+      "description": "Wooded summit on the Carter Range traverse.",
+      "tags": [],
+      "logistics": {
+        "start_coords": [
+          44.3012,
+          -71.2032
+        ],
+        "parking_info": "Nineteen Mile Brook Trailhead, NH-16",
+        "directions_url": "https://www.google.com/maps/dir//44.3012,-71.2032",
+        "capacity": "Medium (~25 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 3.1,
+        "gain": 2823,
+        "max_elev": 4619,
+        "min_elev": 1980,
+        "type": "Out & Back",
+        "difficulty": "Hard",
+        "time": 2.5
+      },
+      "geo": {
+        "path": [
+          [
+            44.304259,
+            -71.207004,
+            1980
+          ],
+          [
+            44.304331,
+            -71.206932,
+            1992
+          ],
+          [
+            44.304386,
+            -71.206886,
+            2001
+          ],
+          [
+            44.304454,
+            -71.206811,
+            2013
+          ],
+          [
+            44.304492,
+            -71.20677,
+            2013
+          ],
+          [
+            44.304795,
+            -71.206275,
+            2057
+          ],
+          [
+            44.304936,
+            -71.206158,
+            2071
+          ],
+          [
+            44.305104,
+            -71.206103,
+            2086
+          ],
+          [
+            44.305366,
+            -71.205961,
+            2099
+          ],
+          [
+            44.305916,
+            -71.205558,
+            2125
+          ],
+          [
+            44.306091,
+            -71.20529,
+            2148
+          ],
+          [
+            44.306733,
+            -71.204684,
+            2170
+          ],
+          [
+            44.307043,
+            -71.203931,
+            2219
+          ],
+          [
+            44.30732,
+            -71.202595,
+            2302
+          ],
+          [
+            44.30732,
+            -71.202427,
+            2315
+          ],
+          [
+            44.30743,
+            -71.202197,
+            2328
+          ],
+          [
+            44.307382,
+            -71.202028,
+            2348
+          ],
+          [
+            44.307507,
+            -71.201556,
+            2376
+          ],
+          [
+            44.307608,
+            -71.201295,
+            2396
+          ],
+          [
+            44.3077,
+            -71.201143,
+            2400
+          ],
+          [
+            44.307828,
+            -71.200787,
+            2432
+          ],
+          [
+            44.308321,
+            -71.200023,
+            2480
+          ],
+          [
+            44.308546,
+            -71.199464,
+            2517
+          ],
+          [
+            44.308851,
+            -71.199053,
+            2553
+          ],
+          [
+            44.309118,
+            -71.198808,
+            2555
+          ],
+          [
+            44.309331,
+            -71.198502,
+            2581
+          ],
+          [
+            44.309436,
+            -71.198438,
+            2574
+          ],
+          [
+            44.309512,
+            -71.198307,
+            2589
+          ],
+          [
+            44.309548,
+            -71.198227,
+            2594
+          ],
+          [
+            44.309635,
+            -71.198125,
+            2601
+          ],
+          [
+            44.309759,
+            -71.19783,
+            2629
+          ],
+          [
+            44.310184,
+            -71.196899,
+            2715
+          ],
+          [
+            44.310409,
+            -71.196658,
+            2735
+          ],
+          [
+            44.311105,
+            -71.196307,
+            2759
+          ],
+          [
+            44.311443,
+            -71.195914,
+            2802
+          ],
+          [
+            44.311593,
+            -71.195652,
+            2813
+          ],
+          [
+            44.311683,
+            -71.195519,
+            2821
+          ],
+          [
+            44.311767,
+            -71.19527,
+            2835
+          ],
+          [
+            44.31184,
+            -71.194997,
+            2848
+          ],
+          [
+            44.311831,
+            -71.194706,
+            2857
+          ],
+          [
+            44.311733,
+            -71.194543,
+            2861
+          ],
+          [
+            44.311597,
+            -71.194437,
+            2876
+          ],
+          [
+            44.311512,
+            -71.194173,
+            2885
+          ],
+          [
+            44.311424,
+            -71.194056,
+            2901
+          ],
+          [
+            44.311303,
+            -71.194005,
+            2900
+          ],
+          [
+            44.311049,
+            -71.193871,
+            2906
+          ],
+          [
+            44.311026,
+            -71.19374,
+            2914
+          ],
+          [
+            44.311168,
+            -71.193465,
+            2937
+          ],
+          [
+            44.311691,
+            -71.192988,
+            2963
+          ],
+          [
+            44.311845,
+            -71.192751,
+            2970
+          ],
+          [
+            44.311922,
+            -71.192103,
+            2992
+          ],
+          [
+            44.312041,
+            -71.191528,
+            3012
+          ],
+          [
+            44.312185,
+            -71.191268,
+            3026
+          ],
+          [
+            44.312433,
+            -71.191069,
+            3036
+          ],
+          [
+            44.312635,
+            -71.190975,
+            3039
+          ],
+          [
+            44.312982,
+            -71.191035,
+            3052
+          ],
+          [
+            44.313272,
+            -71.190724,
+            3076
+          ],
+          [
+            44.313321,
+            -71.190591,
+            3077
+          ],
+          [
+            44.313459,
+            -71.189762,
+            3100
+          ],
+          [
+            44.31367,
+            -71.189497,
+            3107
+          ],
+          [
+            44.313804,
+            -71.189285,
+            3109
+          ],
+          [
+            44.31386,
+            -71.189042,
+            3108
+          ],
+          [
+            44.31388,
+            -71.18887,
+            3108
+          ],
+          [
+            44.313878,
+            -71.188688,
+            3109
+          ],
+          [
+            44.313859,
+            -71.188203,
+            3121
+          ],
+          [
+            44.313959,
+            -71.187523,
+            3144
+          ],
+          [
+            44.314039,
+            -71.187174,
+            3145
+          ],
+          [
+            44.314064,
+            -71.1869,
+            3151
+          ],
+          [
+            44.313983,
+            -71.186556,
+            3153
+          ],
+          [
+            44.313939,
+            -71.186384,
+            3162
+          ],
+          [
+            44.313858,
+            -71.186291,
+            3172
+          ],
+          [
+            44.313762,
+            -71.186235,
+            3183
+          ],
+          [
+            44.313576,
+            -71.186223,
+            3197
+          ],
+          [
+            44.313374,
+            -71.186065,
+            3217
+          ],
+          [
+            44.313258,
+            -71.185967,
+            3228
+          ],
+          [
+            44.313177,
+            -71.186056,
+            3233
+          ],
+          [
+            44.313065,
+            -71.186016,
+            3245
+          ],
+          [
+            44.312924,
+            -71.185865,
+            3267
+          ],
+          [
+            44.312845,
+            -71.18581,
+            3276
+          ],
+          [
+            44.312598,
+            -71.185625,
+            3295
+          ],
+          [
+            44.312387,
+            -71.184979,
+            3331
+          ],
+          [
+            44.312152,
+            -71.184547,
+            3355
+          ],
+          [
+            44.311933,
+            -71.18425,
+            3383
+          ],
+          [
+            44.311433,
+            -71.183798,
+            3422
+          ],
+          [
+            44.311303,
+            -71.183761,
+            3428
+          ],
+          [
+            44.311134,
+            -71.183526,
+            3439
+          ],
+          [
+            44.310602,
+            -71.183213,
+            3474
+          ],
+          [
+            44.310516,
+            -71.183117,
+            3479
+          ],
+          [
+            44.310348,
+            -71.182811,
+            3497
+          ],
+          [
+            44.310208,
+            -71.182332,
+            3521
+          ],
+          [
+            44.310104,
+            -71.181683,
+            3549
+          ],
+          [
+            44.310115,
+            -71.181241,
+            3567
+          ],
+          [
+            44.310064,
+            -71.18095,
+            3579
+          ],
+          [
+            44.309996,
+            -71.180769,
+            3594
+          ],
+          [
+            44.309582,
+            -71.180097,
+            3651
+          ],
+          [
+            44.30958,
+            -71.179894,
+            3674
+          ],
+          [
+            44.309631,
+            -71.17975,
+            3678
+          ],
+          [
+            44.309722,
+            -71.179531,
+            3694
+          ],
+          [
+            44.309878,
+            -71.178961,
+            3722
+          ],
+          [
+            44.309902,
+            -71.178695,
+            3744
+          ],
+          [
+            44.309819,
+            -71.178281,
+            3770
+          ],
+          [
+            44.309845,
+            -71.178096,
+            3786
+          ],
+          [
+            44.309927,
+            -71.177939,
+            3802
+          ],
+          [
+            44.310032,
+            -71.177666,
+            3824
+          ],
+          [
+            44.310083,
+            -71.177257,
+            3853
+          ],
+          [
+            44.310309,
+            -71.176578,
+            3893
+          ],
+          [
+            44.310339,
+            -71.176219,
+            3918
+          ],
+          [
+            44.31045,
+            -71.175476,
+            3962
+          ],
+          [
+            44.310431,
+            -71.174929,
+            4000
+          ],
+          [
+            44.310436,
+            -71.174597,
+            4028
+          ],
+          [
+            44.310344,
+            -71.174125,
+            4066
+          ],
+          [
+            44.310324,
+            -71.173716,
+            4092
+          ],
+          [
+            44.310453,
+            -71.173496,
+            4113
+          ],
+          [
+            44.310548,
+            -71.173207,
+            4131
+          ],
+          [
+            44.310576,
+            -71.173042,
+            4143
+          ],
+          [
+            44.310464,
+            -71.172782,
+            4157
+          ],
+          [
+            44.310484,
+            -71.172667,
+            4170
+          ],
+          [
+            44.310522,
+            -71.172556,
+            4177
+          ],
+          [
+            44.310696,
+            -71.172249,
+            4195
+          ],
+          [
+            44.310706,
+            -71.172114,
+            4209
+          ],
+          [
+            44.310711,
+            -71.171986,
+            4217
+          ],
+          [
+            44.310895,
+            -71.171538,
+            4248
+          ],
+          [
+            44.310828,
+            -71.171179,
+            4271
+          ],
+          [
+            44.310915,
+            -71.1709,
+            4286
+          ],
+          [
+            44.31094,
+            -71.170679,
+            4291
+          ],
+          [
+            44.310926,
+            -71.170393,
+            4302
+          ],
+          [
+            44.310871,
+            -71.170211,
+            4314
+          ],
+          [
+            44.310855,
+            -71.170061,
+            4329
+          ],
+          [
+            44.310732,
+            -71.169798,
+            4357
+          ],
+          [
+            44.310657,
+            -71.169613,
+            4372
+          ],
+          [
+            44.310492,
+            -71.169365,
+            4393
+          ],
+          [
+            44.310497,
+            -71.16924,
+            4408
+          ],
+          [
+            44.310344,
+            -71.168878,
+            4445
+          ],
+          [
+            44.310281,
+            -71.168653,
+            4458
+          ],
+          [
+            44.310282,
+            -71.168533,
+            4463
+          ],
+          [
+            44.310252,
+            -71.168477,
+            4467
+          ],
+          [
+            44.310215,
+            -71.168426,
+            4467
+          ],
+          [
+            44.310174,
+            -71.168331,
+            4472
+          ],
+          [
+            44.310118,
+            -71.16821,
+            4475
+          ],
+          [
+            44.310124,
+            -71.168138,
+            4478
+          ],
+          [
+            44.310102,
+            -71.168042,
+            4481
+          ],
+          [
+            44.310063,
+            -71.167785,
+            4492
+          ],
+          [
+            44.309919,
+            -71.167747,
+            4491
+          ],
+          [
+            44.30976,
+            -71.167731,
+            4490
+          ],
+          [
+            44.309522,
+            -71.16776,
+            4496
+          ],
+          [
+            44.309147,
+            -71.167762,
+            4513
+          ],
+          [
+            44.308999,
+            -71.167831,
+            4516
+          ],
+          [
+            44.308928,
+            -71.167848,
+            4515
+          ],
+          [
+            44.30886,
+            -71.167851,
+            4515
+          ],
+          [
+            44.308795,
+            -71.167714,
+            4523
+          ],
+          [
+            44.308775,
+            -71.167593,
+            4527
+          ],
+          [
+            44.308702,
+            -71.167458,
+            4542
+          ],
+          [
+            44.308669,
+            -71.167404,
+            4544
+          ],
+          [
+            44.308594,
+            -71.167392,
+            4555
+          ],
+          [
+            44.308528,
+            -71.16729,
+            4554
+          ],
+          [
+            44.308451,
+            -71.167178,
+            4553
+          ],
+          [
+            44.308356,
+            -71.167166,
+            4550
+          ],
+          [
+            44.30815,
+            -71.167174,
+            4544
+          ],
+          [
+            44.307918,
+            -71.167177,
+            4549
+          ],
+          [
+            44.307705,
+            -71.167114,
+            4562
+          ],
+          [
+            44.307501,
+            -71.16711,
+            4568
+          ],
+          [
+            44.307293,
+            -71.167024,
+            4582
+          ],
+          [
+            44.3072,
+            -71.167114,
+            4579
+          ],
+          [
+            44.307104,
+            -71.167151,
+            4567
+          ],
+          [
+            44.306918,
+            -71.167214,
+            4562
+          ],
+          [
+            44.306821,
+            -71.167333,
+            4553
+          ],
+          [
+            44.306664,
+            -71.167385,
+            4551
+          ],
+          [
+            44.306599,
+            -71.167446,
+            4550
+          ],
+          [
+            44.306496,
+            -71.1676,
+            4546
+          ],
+          [
+            44.306382,
+            -71.167699,
+            4540
+          ],
+          [
+            44.306167,
+            -71.167701,
+            4535
+          ],
+          [
+            44.305872,
+            -71.167893,
+            4538
+          ],
+          [
+            44.305749,
+            -71.167893,
+            4544
+          ],
+          [
+            44.305658,
+            -71.167907,
+            4550
+          ],
+          [
+            44.305586,
+            -71.167963,
+            4559
+          ],
+          [
+            44.305495,
+            -71.168023,
+            4556
+          ],
+          [
+            44.305467,
+            -71.168059,
+            4557
+          ],
+          [
+            44.305472,
+            -71.168076,
+            4557
+          ],
+          [
+            44.305484,
+            -71.168092,
+            4557
+          ],
+          [
+            44.305504,
+            -71.168107,
+            4557
+          ],
+          [
+            44.305516,
+            -71.168131,
+            4557
+          ],
+          [
+            44.305537,
+            -71.168178,
+            4562
+          ],
+          [
+            44.305532,
+            -71.168246,
+            4564
+          ],
+          [
+            44.305533,
+            -71.168291,
+            4564
+          ],
+          [
+            44.30555,
+            -71.168373,
+            4562
+          ],
+          [
+            44.305542,
+            -71.168406,
+            4562
+          ],
+          [
+            44.305507,
+            -71.168438,
+            4558
+          ],
+          [
+            44.305483,
+            -71.168504,
+            4558
+          ],
+          [
+            44.305461,
+            -71.168614,
+            4554
+          ],
+          [
+            44.305407,
+            -71.168684,
+            4554
+          ],
+          [
+            44.305392,
+            -71.16872,
+            4555
+          ],
+          [
+            44.305353,
+            -71.168758,
+            4553
+          ],
+          [
+            44.30532,
+            -71.168766,
+            4553
+          ],
+          [
+            44.305275,
+            -71.168706,
+            4561
+          ],
+          [
+            44.305237,
+            -71.168668,
+            4555
+          ],
+          [
+            44.305203,
+            -71.168675,
+            4555
+          ],
+          [
+            44.305176,
+            -71.168634,
+            4575
+          ],
+          [
+            44.305141,
+            -71.168598,
+            4567
+          ],
+          [
+            44.3051,
+            -71.168581,
+            4567
+          ],
+          [
+            44.305065,
+            -71.168548,
+            4585
+          ],
+          [
+            44.305029,
+            -71.1685,
+            4576
+          ],
+          [
+            44.304987,
+            -71.168499,
+            4588
+          ],
+          [
+            44.304947,
+            -71.168517,
+            4588
+          ],
+          [
+            44.30486,
+            -71.168515,
+            4589
+          ],
+          [
+            44.304787,
+            -71.168551,
+            4589
+          ],
+          [
+            44.304726,
+            -71.168544,
+            4589
+          ],
+          [
+            44.304605,
+            -71.168515,
+            4586
+          ],
+          [
+            44.304488,
+            -71.168502,
+            4584
+          ],
+          [
+            44.304393,
+            -71.168483,
+            4580
+          ],
+          [
+            44.304338,
+            -71.168446,
+            4575
+          ],
+          [
+            44.304301,
+            -71.168475,
+            4575
+          ],
+          [
+            44.304272,
+            -71.168502,
+            4575
+          ],
+          [
+            44.304244,
+            -71.168533,
+            4564
+          ],
+          [
+            44.304216,
+            -71.168538,
+            4564
+          ],
+          [
+            44.304096,
+            -71.168438,
+            4552
+          ],
+          [
+            44.304057,
+            -71.168415,
+            4552
+          ],
+          [
+            44.304019,
+            -71.168389,
+            4552
+          ],
+          [
+            44.303993,
+            -71.168378,
+            4552
+          ],
+          [
+            44.303968,
+            -71.168346,
+            4572
+          ],
+          [
+            44.303952,
+            -71.168298,
+            4565
+          ],
+          [
+            44.303924,
+            -71.168274,
+            4565
+          ],
+          [
+            44.303888,
+            -71.168268,
+            4583
+          ],
+          [
+            44.30386,
+            -71.168225,
+            4579
+          ],
+          [
+            44.303821,
+            -71.168201,
+            4579
+          ],
+          [
+            44.303803,
+            -71.168163,
+            4579
+          ],
+          [
+            44.303766,
+            -71.16814,
+            4583
+          ],
+          [
+            44.303725,
+            -71.168138,
+            4583
+          ],
+          [
+            44.303705,
+            -71.16816,
+            4590
+          ],
+          [
+            44.303684,
+            -71.168158,
+            4598
+          ],
+          [
+            44.303667,
+            -71.16813,
+            4588
+          ],
+          [
+            44.303659,
+            -71.168102,
+            4588
+          ],
+          [
+            44.303641,
+            -71.168085,
+            4588
+          ],
+          [
+            44.303624,
+            -71.168093,
+            4588
+          ],
+          [
+            44.303606,
+            -71.168118,
+            4597
+          ],
+          [
+            44.303587,
+            -71.168141,
+            4597
+          ],
+          [
+            44.30354,
+            -71.168133,
+            4597
+          ],
+          [
+            44.303479,
+            -71.168099,
+            4607
+          ],
+          [
+            44.303437,
+            -71.168078,
+            4607
+          ],
+          [
+            44.303394,
+            -71.168029,
+            4601
+          ],
+          [
+            44.303303,
+            -71.167895,
+            4606
+          ],
+          [
+            44.30326,
+            -71.167843,
+            4605
+          ],
+          [
+            44.30322,
+            -71.167812,
+            4617
+          ],
+          [
+            44.303178,
+            -71.167749,
+            4610
+          ],
+          [
+            44.30313,
+            -71.167766,
+            4608
+          ],
+          [
+            44.303093,
+            -71.167785,
+            4619
+          ],
+          [
+            44.303037,
+            -71.16782,
+            4611
+          ],
+          [
+            44.302934,
+            -71.167922,
+            4613
+          ],
+          [
+            44.302883,
+            -71.167936,
+            4613
+          ],
+          [
+            44.302848,
+            -71.167952,
+            4612
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1980,
+            "coord": [
+              44.304259,
+              -71.207004
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 2099,
+            "coord": [
+              44.305366,
+              -71.205961
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 2348,
+            "coord": [
+              44.307382,
+              -71.202028
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 2555,
+            "coord": [
+              44.309118,
+              -71.198808
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 2735,
+            "coord": [
+              44.310409,
+              -71.196658
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 2861,
+            "coord": [
+              44.311733,
+              -71.194543
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 2963,
+            "coord": [
+              44.311691,
+              -71.192988
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 3076,
+            "coord": [
+              44.313272,
+              -71.190724
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 3121,
+            "coord": [
+              44.313859,
+              -71.188203
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 3197,
+            "coord": [
+              44.313576,
+              -71.186223
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 3331,
+            "coord": [
+              44.312387,
+              -71.184979
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 3497,
+            "coord": [
+              44.310348,
+              -71.182811
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 3678,
+            "coord": [
+              44.309631,
+              -71.17975
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 3853,
+            "coord": [
+              44.310083,
+              -71.177257
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 4113,
+            "coord": [
+              44.310453,
+              -71.173496
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 4217,
+            "coord": [
+              44.310711,
+              -71.171986
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 4357,
+            "coord": [
+              44.310732,
+              -71.169798
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 4467,
+            "coord": [
+              44.310215,
+              -71.168426
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 4496,
+            "coord": [
+              44.309522,
+              -71.16776
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 4544,
+            "coord": [
+              44.308669,
+              -71.167404
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 4568,
+            "coord": [
+              44.307501,
+              -71.16711
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 4546,
+            "coord": [
+              44.306496,
+              -71.1676
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 4557,
+            "coord": [
+              44.305467,
+              -71.168059
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 4562,
+            "coord": [
+              44.30555,
+              -71.168373
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 4553,
+            "coord": [
+              44.30532,
+              -71.168766
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 4576,
+            "coord": [
+              44.305029,
+              -71.1685
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 4580,
+            "coord": [
+              44.304393,
+              -71.168483
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 4552,
+            "coord": [
+              44.304019,
+              -71.168389
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 4579,
+            "coord": [
+              44.303803,
+              -71.168163
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 4588,
+            "coord": [
+              44.303624,
+              -71.168093
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 4605,
+            "coord": [
+              44.30326,
+              -71.167843
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 4612,
+            "coord": [
+              44.302848,
+              -71.167952
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.304259,
+            -71.207004,
+            1980
+          ],
+          "summit": [
+            44.3028,
+            -71.1678,
+            4610
+          ]
+        }
+      },
+      "features": []
+    }
+  ],
+  "seo": {
+    "meta_title": "Middle Carter Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Plan your Middle Carter hike with live conditions, 1 trail maps & parking info. NH 4000-Footer at 4,610 ft.",
+    "canonical_url": "/trails/new-hampshire/middle-carter-nh",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Middle Carter",
+      "description": "Middle Carter is a 4,610 foot peak in New Hampshire offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.3028,
+        "longitude": -71.1678,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4610,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New Hampshire",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Carter-Moriah Trail to Middle Carter",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.3012,
+            "longitude": -71.2032
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Middle Carter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Middle Carter take 4-6 hours round trip. The most popular trail is 9.8 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Middle Carter hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Middle Carter is rated Hard. At 4,610 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Middle Carter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Middle Carter. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Middle Carter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Carter-Moriah Trail to Middle Carter, offering Wooded summit on the Carter Range traverse.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Middle Carter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Middle Carter is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Middle Carter",
+      "subtitle": "NH 4000-Footer \u2022 4,610 ft",
+      "quick_stats": {
+        "elevation": "4,610 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate to Hard",
+        "list_name": "NH 4000-Footers"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,610 feet, Middle Carter ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Carter-Moriah Trail to Middle Carter**, covers 9.8 miles and is rated \n    Hard. Wooded summit on the Carter Range traverse.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** South Carter lies just 1.0 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, snow above 3000ft until May",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": false
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Best weather, occasional afternoon thunderstorms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Peak foliage late Sept, early snow possible in October",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Full winter conditions, extreme cold and wind above treeline",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Winter hiking requires specialized skills and gear. Never hike alone. Check avalanche conditions for steeper terrain.",
+        "crowd_level": "Low",
+        "recommended": false
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "\u26a0\ufe0f ALPINE ZONE: Weather changes rapidly. Turn back if conditions deteriorate.",
+        "Winter conditions in effect - full mountaineering gear required",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        },
+        {
+          "item": "Extra warm layer for summit",
+          "critical": true
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "2:00 PM recommended for summit"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Middle Carter?",
+        "answer": "Most routes on Middle Carter take 4-6 hours round trip. The most popular trail is 9.8 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Middle Carter hard to hike?",
+        "answer": "Middle Carter is rated Hard. At 4,610 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Middle Carter?",
+        "answer": "No hiking permit is required for Middle Carter. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Middle Carter?",
+        "answer": "The most popular route is the Carter-Moriah Trail to Middle Carter, offering Wooded summit on the Carter Range traverse.."
+      },
+      {
+        "question": "When is the best time to hike Middle Carter?",
+        "answer": "The best hiking season for Middle Carter is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "South Carter",
+        "slug": "south-carter-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4430,
+        "distance_miles": 1.0,
+        "link_text": "Hike South Carter",
+        "combo_suggestion": "Combine Middle Carter with South Carter for a longer day",
+        "comparison": "Shorter climb (180 ft less)"
+      },
+      {
+        "name": "Carter Dome",
+        "slug": "carter-dome-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4832,
+        "distance_miles": 2.5,
+        "link_text": "Hike Carter Dome",
+        "combo_suggestion": "Combine Middle Carter with Carter Dome for a longer day",
+        "comparison": "Higher summit (+222 ft)"
+      },
+      {
+        "name": "Mount Moriah",
+        "slug": "mount-moriah-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4049,
+        "distance_miles": 3.2,
+        "link_text": "Hike Mount Moriah",
+        "combo_suggestion": "Combine Middle Carter with Mount Moriah for a longer day",
+        "comparison": "Shorter climb (561 ft less)"
+      },
+      {
+        "name": "Wildcat A",
+        "slug": "wildcat-a-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4422,
+        "distance_miles": 3.5,
+        "link_text": "Hike Wildcat A",
+        "combo_suggestion": "Combine Middle Carter with Wildcat A for a longer day",
+        "comparison": "Shorter climb (188 ft less)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Middle Carter? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Carter-Moriah Trail to Middle Carter"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "middle-carter-nh-all-trails.gpx",
+        "label": "Download All Middle Carter Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "middle-carter-nh-trail-guide.pdf",
+        "label": "Middle Carter Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "middle-carter-nh-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Middle%20Carter!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,610 feet, Middle Carter ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Carter-Moriah Trail to Middle Carter**, covers 9.8 miles and is rated \n    Hard. Wooded summit on the Carter Range traverse.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** South Carter lies just 1.0 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

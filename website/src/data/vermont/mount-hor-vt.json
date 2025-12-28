@@ -1,0 +1,1217 @@
+{
+  "name": "Mount Hor",
+  "slug": "mount-hor-vt",
+  "state": "Vermont",
+  "state_slug": "vermont",
+  "elevation": 2648,
+  "lat": 44.75,
+  "lon": -72.07,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "Views",
+    "Lake Views",
+    "Easy"
+  ],
+  "trails_config": [
+    {
+      "name": "Mount Hor Trail",
+      "osm_name": "Mount Hor Trail",
+      "type": "Out & Back",
+      "difficulty": "Easy",
+      "distance_miles": 3.6,
+      "elevation_gain": 700,
+      "tags": [
+        "Easy",
+        "Views"
+      ],
+      "description": "Moderate climb with stunning Lake Willoughby views.",
+      "parking_info": "CCC Road Trailhead",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.7517,
+      "start_lon": -72.0917
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Mount Pisgah",
+      "slug": "mount-pisgah-vt",
+      "state_slug": "vermont",
+      "elevation": 2751,
+      "distance_miles": 1.1
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T11:42:38.213864",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "ELEVATION_MISMATCH: Mount Hor Trail calculated 57ft but seed says 700ft. Using seed value."
+    ],
+    "last_updated": "2025-12-28T11:46:59.988872",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "c72c2db3",
+      "name": "Mount Hor Trail",
+      "type": "Out & Back",
+      "difficulty": "Easy",
+      "distance_miles": 3.6,
+      "elevation_gain": 700,
+      "description": "Moderate climb with stunning Lake Willoughby views.",
+      "tags": [
+        "Easy",
+        "Views"
+      ],
+      "parking_info": "CCC Road Trailhead",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.7517,
+      "start_lon": -72.0917,
+      "logistics": {
+        "start_coords": [
+          44.7517,
+          -72.0917
+        ],
+        "parking_info": "CCC Road Trailhead",
+        "directions_url": "https://www.google.com/maps/dir//44.7517,-72.0917",
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 1.9,
+        "gain": 700,
+        "max_elev": 1617,
+        "min_elev": 1309,
+        "type": "Out & Back",
+        "difficulty": "Easy",
+        "time": 1.0,
+        "_distance_source": "calculated",
+        "_original_calculated_gain": 57
+      },
+      "geo": {
+        "path": [
+          [
+            44.750353,
+            -72.093503,
+            1582
+          ],
+          [
+            44.749878,
+            -72.092799,
+            1597
+          ],
+          [
+            44.749646,
+            -72.092516,
+            1603
+          ],
+          [
+            44.749149,
+            -72.091964,
+            1616
+          ],
+          [
+            44.749034,
+            -72.09183,
+            1617
+          ],
+          [
+            44.748867,
+            -72.091602,
+            1617
+          ],
+          [
+            44.748712,
+            -72.091366,
+            1612
+          ],
+          [
+            44.748573,
+            -72.091127,
+            1612
+          ],
+          [
+            44.748508,
+            -72.091005,
+            1610
+          ],
+          [
+            44.747908,
+            -72.089783,
+            1600
+          ],
+          [
+            44.747795,
+            -72.089587,
+            1599
+          ],
+          [
+            44.747634,
+            -72.089339,
+            1598
+          ],
+          [
+            44.747546,
+            -72.089219,
+            1598
+          ],
+          [
+            44.747452,
+            -72.089103,
+            1597
+          ],
+          [
+            44.747302,
+            -72.088937,
+            1595
+          ],
+          [
+            44.746425,
+            -72.088061,
+            1585
+          ],
+          [
+            44.746091,
+            -72.087685,
+            1575
+          ],
+          [
+            44.745596,
+            -72.087076,
+            1563
+          ],
+          [
+            44.745377,
+            -72.08679,
+            1557
+          ],
+          [
+            44.745169,
+            -72.086495,
+            1553
+          ],
+          [
+            44.744933,
+            -72.086135,
+            1548
+          ],
+          [
+            44.744785,
+            -72.085889,
+            1542
+          ],
+          [
+            44.744697,
+            -72.085729,
+            1540
+          ],
+          [
+            44.744538,
+            -72.085443,
+            1536
+          ],
+          [
+            44.744304,
+            -72.084994,
+            1532
+          ],
+          [
+            44.744086,
+            -72.084538,
+            1526
+          ],
+          [
+            44.743881,
+            -72.084074,
+            1519
+          ],
+          [
+            44.743446,
+            -72.083149,
+            1502
+          ],
+          [
+            44.742751,
+            -72.081751,
+            1465
+          ],
+          [
+            44.742516,
+            -72.081216,
+            1452
+          ],
+          [
+            44.742512,
+            -72.081138,
+            1450
+          ],
+          [
+            44.742506,
+            -72.081024,
+            1447
+          ],
+          [
+            44.742502,
+            -72.080888,
+            1442
+          ],
+          [
+            44.742506,
+            -72.080747,
+            1443
+          ],
+          [
+            44.742528,
+            -72.080603,
+            1444
+          ],
+          [
+            44.742546,
+            -72.080532,
+            1444
+          ],
+          [
+            44.742599,
+            -72.080393,
+            1442
+          ],
+          [
+            44.742669,
+            -72.080265,
+            1442
+          ],
+          [
+            44.742929,
+            -72.079819,
+            1440
+          ],
+          [
+            44.743212,
+            -72.079392,
+            1438
+          ],
+          [
+            44.743546,
+            -72.079015,
+            1432
+          ],
+          [
+            44.744231,
+            -72.078284,
+            1425
+          ],
+          [
+            44.74459,
+            -72.077925,
+            1424
+          ],
+          [
+            44.744681,
+            -72.077842,
+            1424
+          ],
+          [
+            44.744967,
+            -72.077581,
+            1424
+          ],
+          [
+            44.745373,
+            -72.077267,
+            1427
+          ],
+          [
+            44.745552,
+            -72.077134,
+            1429
+          ],
+          [
+            44.745733,
+            -72.077008,
+            1430
+          ],
+          [
+            44.745857,
+            -72.076931,
+            1430
+          ],
+          [
+            44.746051,
+            -72.076832,
+            1427
+          ],
+          [
+            44.746186,
+            -72.076778,
+            1426
+          ],
+          [
+            44.746397,
+            -72.076715,
+            1424
+          ],
+          [
+            44.748371,
+            -72.076305,
+            1399
+          ],
+          [
+            44.749012,
+            -72.076165,
+            1390
+          ],
+          [
+            44.749294,
+            -72.076088,
+            1388
+          ],
+          [
+            44.749503,
+            -72.076023,
+            1385
+          ],
+          [
+            44.750121,
+            -72.075801,
+            1379
+          ],
+          [
+            44.750884,
+            -72.075516,
+            1371
+          ],
+          [
+            44.751167,
+            -72.075433,
+            1365
+          ],
+          [
+            44.751314,
+            -72.075403,
+            1360
+          ],
+          [
+            44.751463,
+            -72.075386,
+            1358
+          ],
+          [
+            44.751773,
+            -72.07538,
+            1343
+          ],
+          [
+            44.752113,
+            -72.075392,
+            1331
+          ],
+          [
+            44.752064,
+            -72.075267,
+            1331
+          ],
+          [
+            44.752027,
+            -72.075137,
+            1331
+          ],
+          [
+            44.752019,
+            -72.07507,
+            1330
+          ],
+          [
+            44.752017,
+            -72.074997,
+            1329
+          ],
+          [
+            44.752027,
+            -72.074923,
+            1329
+          ],
+          [
+            44.752045,
+            -72.074848,
+            1331
+          ],
+          [
+            44.752103,
+            -72.074709,
+            1326
+          ],
+          [
+            44.752209,
+            -72.074513,
+            1323
+          ],
+          [
+            44.752299,
+            -72.074233,
+            1325
+          ],
+          [
+            44.752343,
+            -72.074022,
+            1326
+          ],
+          [
+            44.752255,
+            -72.073899,
+            1326
+          ],
+          [
+            44.752165,
+            -72.07379,
+            1325
+          ],
+          [
+            44.751674,
+            -72.073254,
+            1324
+          ],
+          [
+            44.751285,
+            -72.072814,
+            1329
+          ],
+          [
+            44.751121,
+            -72.072648,
+            1328
+          ],
+          [
+            44.751008,
+            -72.07255,
+            1329
+          ],
+          [
+            44.750923,
+            -72.072442,
+            1329
+          ],
+          [
+            44.750858,
+            -72.072321,
+            1329
+          ],
+          [
+            44.750747,
+            -72.072067,
+            1321
+          ],
+          [
+            44.750688,
+            -72.071945,
+            1319
+          ],
+          [
+            44.750481,
+            -72.07156,
+            1310
+          ],
+          [
+            44.75036,
+            -72.071351,
+            1310
+          ],
+          [
+            44.750246,
+            -72.071184,
+            1309
+          ],
+          [
+            44.749984,
+            -72.070878,
+            1310
+          ],
+          [
+            44.749886,
+            -72.070772,
+            1309
+          ],
+          [
+            44.74971,
+            -72.070604,
+            1311
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1582,
+            "coord": [
+              44.750353,
+              -72.093503
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 1603,
+            "coord": [
+              44.749646,
+              -72.092516
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 1617,
+            "coord": [
+              44.749034,
+              -72.09183
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1612,
+            "coord": [
+              44.748712,
+              -72.091366
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1610,
+            "coord": [
+              44.748508,
+              -72.091005
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 1599,
+            "coord": [
+              44.747795,
+              -72.089587
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 1598,
+            "coord": [
+              44.747546,
+              -72.089219
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 1595,
+            "coord": [
+              44.747302,
+              -72.088937
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 1575,
+            "coord": [
+              44.746091,
+              -72.087685
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 1557,
+            "coord": [
+              44.745377,
+              -72.08679
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 1548,
+            "coord": [
+              44.744933,
+              -72.086135
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 1540,
+            "coord": [
+              44.744697,
+              -72.085729
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 1532,
+            "coord": [
+              44.744304,
+              -72.084994
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 1519,
+            "coord": [
+              44.743881,
+              -72.084074
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 1465,
+            "coord": [
+              44.742751,
+              -72.081751
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 1450,
+            "coord": [
+              44.742512,
+              -72.081138
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 1442,
+            "coord": [
+              44.742502,
+              -72.080888
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 1444,
+            "coord": [
+              44.742528,
+              -72.080603
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 1442,
+            "coord": [
+              44.742599,
+              -72.080393
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 1440,
+            "coord": [
+              44.742929,
+              -72.079819
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 1432,
+            "coord": [
+              44.743546,
+              -72.079015
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 1424,
+            "coord": [
+              44.74459,
+              -72.077925
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 1424,
+            "coord": [
+              44.744967,
+              -72.077581
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 1429,
+            "coord": [
+              44.745552,
+              -72.077134
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 1430,
+            "coord": [
+              44.745857,
+              -72.076931
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 1426,
+            "coord": [
+              44.746186,
+              -72.076778
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 1399,
+            "coord": [
+              44.748371,
+              -72.076305
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 1388,
+            "coord": [
+              44.749294,
+              -72.076088
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 1379,
+            "coord": [
+              44.750121,
+              -72.075801
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 1365,
+            "coord": [
+              44.751167,
+              -72.075433
+            ]
+          },
+          {
+            "mile": 0.71,
+            "elev": 1358,
+            "coord": [
+              44.751463,
+              -72.075386
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 1331,
+            "coord": [
+              44.752113,
+              -72.075392
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 1331,
+            "coord": [
+              44.752027,
+              -72.075137
+            ]
+          },
+          {
+            "mile": 0.75,
+            "elev": 1329,
+            "coord": [
+              44.752017,
+              -72.074997
+            ]
+          },
+          {
+            "mile": 0.75,
+            "elev": 1331,
+            "coord": [
+              44.752045,
+              -72.074848
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 1323,
+            "coord": [
+              44.752209,
+              -72.074513
+            ]
+          },
+          {
+            "mile": 0.77,
+            "elev": 1326,
+            "coord": [
+              44.752343,
+              -72.074022
+            ]
+          },
+          {
+            "mile": 0.78,
+            "elev": 1325,
+            "coord": [
+              44.752165,
+              -72.07379
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 1329,
+            "coord": [
+              44.751285,
+              -72.072814
+            ]
+          },
+          {
+            "mile": 0.83,
+            "elev": 1329,
+            "coord": [
+              44.751008,
+              -72.07255
+            ]
+          },
+          {
+            "mile": 0.83,
+            "elev": 1329,
+            "coord": [
+              44.750858,
+              -72.072321
+            ]
+          },
+          {
+            "mile": 0.84,
+            "elev": 1319,
+            "coord": [
+              44.750688,
+              -72.071945
+            ]
+          },
+          {
+            "mile": 0.85,
+            "elev": 1310,
+            "coord": [
+              44.75036,
+              -72.071351
+            ]
+          },
+          {
+            "mile": 0.88,
+            "elev": 1310,
+            "coord": [
+              44.749984,
+              -72.070878
+            ]
+          },
+          {
+            "mile": 0.89,
+            "elev": 1311,
+            "coord": [
+              44.74971,
+              -72.070604
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.750353,
+            -72.093503,
+            1582
+          ],
+          "summit": [
+            44.75,
+            -72.07,
+            2648
+          ]
+        }
+      },
+      "features": []
+    }
+  ],
+  "seo": {
+    "meta_title": "Mount Hor Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Mount Hor (2,648 ft) in Vermont. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/vermont/mount-hor-vt",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Hor",
+      "description": "Mount Hor is a 2,648 foot peak in Vermont offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.75,
+        "longitude": -72.07,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2648,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Vermont",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Hor Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.7517,
+            "longitude": -72.0917
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Hor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Mount Hor take 1-3 hours round trip. The most popular trail is 3.6 miles with Easy difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Hor hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Hor is rated Easy. At 2,648 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Hor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Mount Hor. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Hor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Hor Trail, offering Moderate climb with stunning Lake Willoughby views.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Hor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Mount Hor is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Mount Hor",
+      "subtitle": "New Hampshire Trail Destination \u2022 2,648 ft",
+      "quick_stats": {
+        "elevation": "2,648 ft",
+        "trail_count": 1,
+        "difficulty": "Easy",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,648 feet, Mount Hor offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mount Hor Trail**, covers 3.6 miles and is rated \n    Easy. Moderate climb with stunning Lake Willoughby views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Pisgah lies just 1.1 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Mount Hor?",
+        "answer": "Most routes on Mount Hor take 1-3 hours round trip. The most popular trail is 3.6 miles with Easy difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Mount Hor hard to hike?",
+        "answer": "Mount Hor is rated Easy. At 2,648 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Mount Hor?",
+        "answer": "No hiking permit is required for Mount Hor. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Mount Hor?",
+        "answer": "The most popular route is the Mount Hor Trail, offering Moderate climb with stunning Lake Willoughby views.."
+      },
+      {
+        "question": "When is the best time to hike Mount Hor?",
+        "answer": "The best hiking season for Mount Hor is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Mount Pisgah",
+        "slug": "mount-pisgah-vt",
+        "state_slug": "vermont",
+        "elevation": 2751,
+        "distance_miles": 1.1,
+        "link_text": "Hike Mount Pisgah",
+        "combo_suggestion": "Combine Mount Hor with Mount Pisgah for a longer day",
+        "comparison": "Higher summit (+103 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Mount Hor? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Mount Hor Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "mount-hor-vt-all-trails.gpx",
+        "label": "Download All Mount Hor Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "mount-hor-vt-trail-guide.pdf",
+        "label": "Mount Hor Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "mount-hor-vt-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Mount%20Hor!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,648 feet, Mount Hor offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mount Hor Trail**, covers 3.6 miles and is rated \n    Easy. Moderate climb with stunning Lake Willoughby views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Pisgah lies just 1.1 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

@@ -34,7 +34,20 @@
       "start_lon": -71.575
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [
+    {
+      "name": "Galehead Mountain",
+      "slug": "galehead-mountain-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4024,
+      "distance_miles": 1.9
+    },
     {
       "name": "Mount Lafayette",
       "slug": "mount-lafayette-nh",
@@ -43,25 +56,18 @@
       "distance_miles": 2.5
     },
     {
-      "name": "Mount Lincoln",
-      "slug": "mount-lincoln-nh",
+      "name": "South Twin Mountain",
+      "slug": "south-twin-mountain-nh",
       "state_slug": "new-hampshire",
-      "elevation": 5089,
-      "distance_miles": 3.2
+      "elevation": 4902,
+      "distance_miles": 2.8
     },
     {
-      "name": "Cannon Mountain",
-      "slug": "cannon-mountain-nh",
+      "name": "North Twin Mountain",
+      "slug": "north-twin-mountain-nh",
       "state_slug": "new-hampshire",
-      "elevation": 4100,
-      "distance_miles": 4.8
-    },
-    {
-      "name": "Mount Liberty",
-      "slug": "mount-liberty-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4459,
-      "distance_miles": 5.2
+      "elevation": 4761,
+      "distance_miles": 2.9
     }
   ],
   "social_pulse": 7,
@@ -85,12 +91,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:38:10.565092",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "9681ec93",
@@ -1641,7 +1641,7 @@
         "list_name": "NH 4000-Footers"
       }
     },
-    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,500 feet, Mount Garfield ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Garfield Trail**, covers 6.0 miles and is rated \n    Hard. Trail to Mount Garfield summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Lafayette lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,500 feet, Mount Garfield ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Garfield Trail**, covers 6.0 miles and is rated \n    Hard. Trail to Mount Garfield summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Galehead Mountain lies just 1.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
     "seasonal_guide": {
       "spring": {
         "months": "March - May",
@@ -1790,6 +1790,16 @@
     ],
     "nearby_peaks": [
       {
+        "name": "Galehead Mountain",
+        "slug": "galehead-mountain-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4024,
+        "distance_miles": 1.9,
+        "link_text": "Hike Galehead Mountain",
+        "combo_suggestion": "Combine Mount Garfield with Galehead Mountain for a longer day",
+        "comparison": "Shorter climb (476 ft less)"
+      },
+      {
         "name": "Mount Lafayette",
         "slug": "mount-lafayette-nh",
         "state_slug": "new-hampshire",
@@ -1800,34 +1810,24 @@
         "comparison": "Higher summit (+760 ft)"
       },
       {
-        "name": "Mount Lincoln",
-        "slug": "mount-lincoln-nh",
+        "name": "South Twin Mountain",
+        "slug": "south-twin-mountain-nh",
         "state_slug": "new-hampshire",
-        "elevation": 5089,
-        "distance_miles": 3.2,
-        "link_text": "Hike Mount Lincoln",
-        "combo_suggestion": "Combine Mount Garfield with Mount Lincoln for a longer day",
-        "comparison": "Higher summit (+589 ft)"
+        "elevation": 4902,
+        "distance_miles": 2.8,
+        "link_text": "Hike South Twin Mountain",
+        "combo_suggestion": "Combine Mount Garfield with South Twin Mountain for a longer day",
+        "comparison": "Higher summit (+402 ft)"
       },
       {
-        "name": "Cannon Mountain",
-        "slug": "cannon-mountain-nh",
+        "name": "North Twin Mountain",
+        "slug": "north-twin-mountain-nh",
         "state_slug": "new-hampshire",
-        "elevation": 4100,
-        "distance_miles": 4.8,
-        "link_text": "Hike Cannon Mountain",
-        "combo_suggestion": "Combine Mount Garfield with Cannon Mountain for a longer day",
-        "comparison": "Shorter climb (400 ft less)"
-      },
-      {
-        "name": "Mount Liberty",
-        "slug": "mount-liberty-nh",
-        "state_slug": "new-hampshire",
-        "elevation": 4459,
-        "distance_miles": 5.2,
-        "link_text": "Hike Mount Liberty",
-        "combo_suggestion": "Combine Mount Garfield with Mount Liberty for a longer day",
-        "comparison": "Shorter climb (41 ft less)"
+        "elevation": 4761,
+        "distance_miles": 2.9,
+        "link_text": "Hike North Twin Mountain",
+        "combo_suggestion": "Combine Mount Garfield with North Twin Mountain for a longer day",
+        "comparison": "Higher summit (+261 ft)"
       }
     ]
   },
@@ -1861,5 +1861,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,500 feet, Mount Garfield ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Garfield Trail**, covers 6.0 miles and is rated \n    Hard. Trail to Mount Garfield summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Lafayette lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,500 feet, Mount Garfield ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Garfield Trail**, covers 6.0 miles and is rated \n    Hard. Trail to Mount Garfield summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Galehead Mountain lies just 1.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:48:50.154674",
+    "pipeline_version": "3.0"
+  }
 }

@@ -4,1324 +4,880 @@
   "state": "Maine",
   "state_slug": "maine",
   "elevation": 1058,
-  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
-  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "lat": 44.3489,
+  "lon": -68.1894,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
   "tags": [
-    "acadia",
-    "danger",
-    "iron_rungs",
-    "wildlife_closure"
+    "Acadia",
+    "Iron Rungs",
+    "Expert",
+    "Iconic"
   ],
-  "lat": 44.352,
-  "lon": -68.192,
-  "current_conditions": {
-    "ai_summary": "The most dangerous and thrilling hike in Acadia. Ascends the vertical east face of Champlain Mountain using iron rungs.",
-    "risk_factors": [
-      "Falcon nesting closures (Mar-Aug)",
-      "Fatal fall risk",
-      "No descending"
-    ]
-  },
-  "generated_description": "\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Experience</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">The Precipice is a non-technical climb rather than a hike. You cling to the side of Champlain Mountain with the ocean roaring below, ascending ladders and narrow shelves.</p>\n\n    <h3 class=\"text-lg font-bold text-stone-900 mb-2 font-serif\">The Challenge</h3>\n    <p class=\"mb-4 text-stone-600 leading-relaxed\">Extremely demanding mentally. Physical strength is required to pull up rungs. Do not attempt to descend this trail.</p>\n\n    <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6\">\n        <h4 class=\"text-xs font-bold text-emerald-900 uppercase tracking-wider mb-2\">Local Insight</h4>\n        <p class=\"text-sm text-emerald-800\">This trail is usually closed for Peregrine Falcon nesting from March until August. Check the NPS site before you go.</p>\n    </div>\n    ",
   "trails_config": [
     {
-      "name": "Precipice Loop (via Orange & Black)",
-      "type": "Loop",
+      "name": "Precipice Trail",
+      "osm_name": "Precipice Trail",
+      "type": "Out & Back",
       "difficulty": "Expert",
-      "distance_miles": 2.1,
+      "distance_miles": 1.6,
+      "elevation_gain": 1000,
       "tags": [
-        "thrill",
-        "exposed",
-        "iron_rungs"
+        "Iron Rungs",
+        "Ladders",
+        "Expert Only"
       ],
-      "description": "Ascend the Precipice, traverse the summit, and descend via the Orange & Black path.",
-      "parking_info": "Precipice Trailhead",
-      "start_lat": 44.3495,
-      "start_lon": -68.187,
-      "smart_logic": {
-        "access_type": "standard",
-        "routing_strategy": "standard",
-        "ui_alert": {
-          "title": "Frequent Closures",
-          "message": "Often closed spring/summer for falcon nesting. Fatalities have occurred here; dry weather only."
-        }
+      "description": "Most challenging trail in Acadia. Closed during peregrine falcon nesting (spring/summer).",
+      "parking_info": "Precipice Trailhead, Park Loop Road",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Closed Mar-Aug for falcon nesting",
+        "fee": "Acadia Park Pass required",
+        "shuttle": null
       },
+      "start_lat": 44.3411,
+      "start_lon": -68.1822,
       "features": [
         {
-          "name": "Champlain Mtn Summit",
-          "type": "summit",
-          "lat": 44.352,
-          "lon": -68.192
+          "name": "Warning Sign",
+          "lat": 44.3422,
+          "lon": -68.1844,
+          "type": "landmark",
+          "mile": 0.1
+        },
+        {
+          "name": "First Cliff Section",
+          "lat": 44.3444,
+          "lon": -68.1867,
+          "type": "scramble",
+          "mile": 0.3
+        },
+        {
+          "name": "Iron Bridge",
+          "lat": 44.3467,
+          "lon": -68.1878,
+          "type": "landmark",
+          "mile": 0.5
+        },
+        {
+          "name": "Final Ladders",
+          "lat": 44.3478,
+          "lon": -68.1889,
+          "type": "ladder",
+          "mile": 0.7
         }
       ]
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "The Beehive",
+      "slug": "beehive-me",
+      "state_slug": "maine",
+      "elevation": 520,
+      "distance_miles": 1.3
+    },
+    {
+      "name": "Cadillac Mountain",
+      "slug": "cadillac-mountain-me",
+      "state_slug": "maine",
+      "elevation": 1530,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Jordan Pond",
+      "slug": "jordan-pond-me",
+      "state_slug": "maine",
+      "elevation": 274,
+      "distance_miles": 3.7
+    },
+    {
+      "name": "Penobscot Mountain",
+      "slug": "penobscot-mountain-me",
+      "state_slug": "maine",
+      "elevation": 1194,
+      "distance_miles": 4.2
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:13:55.760976",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "ELEVATION_MISMATCH: Precipice Trail calculated 294ft but seed says 1000ft. Using seed value."
+    ],
+    "last_updated": "2025-12-28T16:13:55.767186",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
-      "name": "Precipice Loop (via Orange & Black)",
+      "id": "f16d7b59",
+      "name": "Precipice Trail",
+      "type": "Out & Back",
+      "difficulty": "Expert",
+      "distance_miles": 1.6,
+      "elevation_gain": 1000,
+      "description": "Most challenging trail in Acadia. Closed during peregrine falcon nesting (spring/summer).",
       "tags": [
-        "thrill",
-        "exposed",
-        "iron_rungs"
+        "Iron Rungs",
+        "Ladders",
+        "Expert Only"
       ],
-      "smart_logic": {
-        "access_type": "standard",
-        "routing_strategy": "standard",
-        "ui_alert": {
-          "title": "Frequent Closures",
-          "message": "Often closed spring/summer for falcon nesting. Fatalities have occurred here; dry weather only."
-        }
+      "parking_info": "Precipice Trailhead, Park Loop Road",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Closed Mar-Aug for falcon nesting",
+        "fee": "Acadia Park Pass required",
+        "shuttle": null
       },
+      "start_lat": 44.3411,
+      "start_lon": -68.1822,
       "logistics": {
-        "parking_info": "Precipice Trailhead",
-        "directions_url": "https://www.google.com/maps/search/?api=1&query=Precipice%20Trailhead",
         "start_coords": [
-          44.3495,
-          -68.187
-        ]
+          44.3411,
+          -68.1822
+        ],
+        "parking_info": "Precipice Trailhead, Park Loop Road",
+        "directions_url": "https://www.google.com/maps/dir//44.3411,-68.1822",
+        "capacity": "Small (~20 cars)",
+        "status": "Closed Mar-Aug for falcon nesting",
+        "fee": "Acadia Park Pass required",
+        "shuttle": null
       },
       "stats": {
-        "distance": 2.4,
-        "gain": 948,
-        "type": "Loop",
+        "distance": 0.7,
+        "gain": 1000,
+        "max_elev": 292,
+        "min_elev": 41,
+        "type": "Out & Back",
         "difficulty": "Expert",
-        "time": 2.1
+        "time": 0.7,
+        "_distance_source": "calculated",
+        "_original_calculated_gain": 294,
+        "_elevation_source": "seed_override"
       },
       "geo": {
         "path": [
           [
-            44.34953,
-            -68.18773,
-            101
+            44.3411,
+            -68.1822,
+            54
           ],
           [
-            44.34955,
-            -68.18773,
-            101
+            44.341507425477886,
+            -68.18263999999999,
+            47
           ],
           [
-            44.34982,
-            -68.18773,
-            101
+            44.341843260793574,
+            -68.18307999999999,
+            44
           ],
           [
-            44.34987,
-            -68.18774,
-            101
+            44.34206326079358,
+            -68.18352,
+            41
           ],
           [
-            44.35007,
-            -68.18773,
-            101
+            44.34216742547789,
+            -68.18396,
+            42
           ],
           [
-            44.35075,
-            -68.18785,
-            101
+            44.3422,
+            -68.1844,
+            45
           ],
           [
-            44.35112,
-            -68.18794,
-            102
+            44.342907888362525,
+            -68.18486,
+            46
           ],
           [
-            44.35156,
-            -68.18804,
+            44.34351345247576,
+            -68.18532,
+            50
+          ],
+          [
+            44.34395345247576,
+            -68.18578,
+            59
+          ],
+          [
+            44.34422788836253,
+            -68.18624,
+            73
+          ],
+          [
+            44.3444,
+            -68.1867,
+            76
+          ],
+          [
+            44.34509685179538,
+            -68.18692,
+            97
+          ],
+          [
+            44.34570323425523,
+            -68.18714,
+            83
+          ],
+          [
+            44.34616323425523,
+            -68.18736,
+            88
+          ],
+          [
+            44.34647685179539,
+            -68.18758,
+            91
+          ],
+          [
+            44.3467,
+            -68.1878,
+            99
+          ],
+          [
+            44.34692,
+            -68.18802,
             103
           ],
           [
-            44.35185,
-            -68.18809,
-            103
+            44.347139999999996,
+            -68.18824,
+            114
           ],
           [
-            44.35212,
-            -68.18808,
-            105
+            44.34736,
+            -68.18846,
+            126
           ],
           [
-            44.35245,
-            -68.18804,
-            107
+            44.34758,
+            -68.18868,
+            173
           ],
           [
-            44.35333,
-            -68.18788,
-            118
+            44.3478,
+            -68.1889,
+            268
           ],
           [
-            44.35376,
-            -68.18785,
-            125
+            44.34802,
+            -68.18900000000001,
+            282
           ],
           [
-            44.35438,
-            -68.18784,
-            134
+            44.34824,
+            -68.18910000000001,
+            274
           ],
           [
-            44.3551,
-            -68.18793,
-            147
+            44.34846,
+            -68.1892,
+            253
           ],
           [
-            44.35557,
-            -68.18803,
-            158
+            44.34868,
+            -68.1893,
+            279
           ],
           [
-            44.35596,
-            -68.18814,
-            169
-          ],
-          [
-            44.35632,
-            -68.18828,
-            181
-          ],
-          [
-            44.35683,
-            -68.18848,
-            194
-          ],
-          [
-            44.35684,
-            -68.18869,
-            200
-          ],
-          [
-            44.35687,
-            -68.18886,
-            215
-          ],
-          [
-            44.35695,
-            -68.18905,
-            230
-          ],
-          [
-            44.35698,
-            -68.18919,
-            251
-          ],
-          [
-            44.35693,
-            -68.18941,
-            272
-          ],
-          [
-            44.35693,
-            -68.18964,
-            295
-          ],
-          [
-            44.35692,
-            -68.18974,
-            300
-          ],
-          [
-            44.35689,
-            -68.18982,
-            304
-          ],
-          [
-            44.3567,
-            -68.19011,
-            328
-          ],
-          [
-            44.35661,
-            -68.19039,
-            359
-          ],
-          [
-            44.3566,
-            -68.19057,
-            372
-          ],
-          [
-            44.3566,
-            -68.19078,
-            390
-          ],
-          [
-            44.35657,
-            -68.19099,
-            398
-          ],
-          [
-            44.35659,
-            -68.19105,
-            424
-          ],
-          [
-            44.35661,
-            -68.19108,
-            424
-          ],
-          [
-            44.35666,
-            -68.19111,
-            424
-          ],
-          [
-            44.35669,
-            -68.19113,
-            455
-          ],
-          [
-            44.35673,
-            -68.19116,
-            455
-          ],
-          [
-            44.35676,
-            -68.19114,
-            464
-          ],
-          [
-            44.35681,
-            -68.19109,
-            459
-          ],
-          [
-            44.35684,
-            -68.19107,
-            459
-          ],
-          [
-            44.35686,
-            -68.19104,
-            465
-          ],
-          [
-            44.35689,
-            -68.19101,
-            461
-          ],
-          [
-            44.35692,
-            -68.19098,
-            461
-          ],
-          [
-            44.35695,
-            -68.19096,
-            462
-          ],
-          [
-            44.35701,
-            -68.19096,
-            462
-          ],
-          [
-            44.35704,
-            -68.19097,
-            466
-          ],
-          [
-            44.35708,
-            -68.19099,
-            466
-          ],
-          [
-            44.3571,
-            -68.19104,
-            469
-          ],
-          [
-            44.35713,
-            -68.19106,
-            475
-          ],
-          [
-            44.35717,
-            -68.19108,
-            475
-          ],
-          [
-            44.35721,
-            -68.19109,
-            475
-          ],
-          [
-            44.35724,
-            -68.1911,
-            482
-          ],
-          [
-            44.35728,
-            -68.19112,
-            488
-          ],
-          [
-            44.35732,
-            -68.19113,
-            493
-          ],
-          [
-            44.35734,
-            -68.19117,
-            493
-          ],
-          [
-            44.35735,
-            -68.19123,
-            505
-          ],
-          [
-            44.35737,
-            -68.19129,
-            505
-          ],
-          [
-            44.35744,
-            -68.19132,
-            518
-          ],
-          [
-            44.3575,
-            -68.19137,
-            518
-          ],
-          [
-            44.35752,
-            -68.1914,
-            523
-          ],
-          [
-            44.35753,
-            -68.1915,
-            527
-          ],
-          [
-            44.35754,
-            -68.19152,
-            527
-          ],
-          [
-            44.35755,
-            -68.19158,
-            528
-          ],
-          [
-            44.35761,
-            -68.19161,
-            535
-          ],
-          [
-            44.35763,
-            -68.19164,
-            535
-          ],
-          [
-            44.35766,
-            -68.19169,
-            534
-          ],
-          [
-            44.35775,
-            -68.19175,
-            533
-          ],
-          [
-            44.35779,
-            -68.19177,
-            526
-          ],
-          [
-            44.35781,
-            -68.19178,
-            526
-          ],
-          [
-            44.35771,
-            -68.19212,
-            531
-          ],
-          [
-            44.35747,
-            -68.19244,
-            562
-          ],
-          [
-            44.3574,
-            -68.19247,
-            570
-          ],
-          [
-            44.35717,
-            -68.19242,
-            593
-          ],
-          [
-            44.35698,
-            -68.19247,
-            608
-          ],
-          [
-            44.35663,
-            -68.1925,
-            638
-          ],
-          [
-            44.35654,
-            -68.19249,
-            646
-          ],
-          [
-            44.35641,
-            -68.19244,
-            651
-          ],
-          [
-            44.35621,
-            -68.19242,
-            661
-          ],
-          [
-            44.35613,
-            -68.19243,
-            666
-          ],
-          [
-            44.35598,
-            -68.19256,
-            679
-          ],
-          [
-            44.35579,
-            -68.1926,
-            690
-          ],
-          [
-            44.3556,
-            -68.19267,
-            701
-          ],
-          [
-            44.35535,
-            -68.19267,
-            720
-          ],
-          [
-            44.35506,
-            -68.19282,
-            737
-          ],
-          [
-            44.35488,
-            -68.19285,
-            756
-          ],
-          [
-            44.35476,
-            -68.19293,
-            771
-          ],
-          [
-            44.35467,
-            -68.19305,
-            785
-          ],
-          [
-            44.35458,
-            -68.19313,
-            795
-          ],
-          [
-            44.35451,
-            -68.19314,
-            803
-          ],
-          [
-            44.35432,
-            -68.19309,
-            815
-          ],
-          [
-            44.35403,
-            -68.19312,
-            834
-          ],
-          [
-            44.35389,
-            -68.19319,
-            843
-          ],
-          [
-            44.3536,
-            -68.19344,
-            878
-          ],
-          [
-            44.35344,
-            -68.19368,
-            891
-          ],
-          [
-            44.35331,
-            -68.19376,
-            914
-          ],
-          [
-            44.35317,
-            -68.19381,
-            925
-          ],
-          [
-            44.35303,
-            -68.1939,
-            941
-          ],
-          [
-            44.35285,
-            -68.19408,
-            965
-          ],
-          [
-            44.35279,
-            -68.19408,
-            965
-          ],
-          [
-            44.35252,
-            -68.19405,
-            994
-          ],
-          [
-            44.3524,
-            -68.194,
-            1007
-          ],
-          [
-            44.35229,
-            -68.194,
-            1011
-          ],
-          [
-            44.3522,
-            -68.19401,
-            1013
-          ],
-          [
-            44.35229,
-            -68.194,
-            1011
-          ],
-          [
-            44.3524,
-            -68.194,
-            1007
-          ],
-          [
-            44.35252,
-            -68.19405,
-            994
-          ],
-          [
-            44.35279,
-            -68.19408,
-            965
-          ],
-          [
-            44.35285,
-            -68.19408,
-            965
-          ],
-          [
-            44.35303,
-            -68.1939,
-            941
-          ],
-          [
-            44.35317,
-            -68.19381,
-            925
-          ],
-          [
-            44.35331,
-            -68.19376,
-            914
-          ],
-          [
-            44.35344,
-            -68.19368,
-            891
-          ],
-          [
-            44.3536,
-            -68.19344,
-            878
-          ],
-          [
-            44.35389,
-            -68.19319,
-            843
-          ],
-          [
-            44.35403,
-            -68.19312,
-            834
-          ],
-          [
-            44.35432,
-            -68.19309,
-            815
-          ],
-          [
-            44.35451,
-            -68.19314,
-            803
-          ],
-          [
-            44.35458,
-            -68.19313,
-            795
-          ],
-          [
-            44.35467,
-            -68.19305,
-            785
-          ],
-          [
-            44.35476,
-            -68.19293,
-            771
-          ],
-          [
-            44.35488,
-            -68.19285,
-            756
-          ],
-          [
-            44.35506,
-            -68.19282,
-            737
-          ],
-          [
-            44.35535,
-            -68.19267,
-            720
-          ],
-          [
-            44.3556,
-            -68.19267,
-            701
-          ],
-          [
-            44.35579,
-            -68.1926,
-            690
-          ],
-          [
-            44.35598,
-            -68.19256,
-            679
-          ],
-          [
-            44.35613,
-            -68.19243,
-            666
-          ],
-          [
-            44.35621,
-            -68.19242,
-            661
-          ],
-          [
-            44.35641,
-            -68.19244,
-            651
-          ],
-          [
-            44.35654,
-            -68.19249,
-            646
-          ],
-          [
-            44.35663,
-            -68.1925,
-            638
-          ],
-          [
-            44.35698,
-            -68.19247,
-            608
-          ],
-          [
-            44.35717,
-            -68.19242,
-            593
-          ],
-          [
-            44.3574,
-            -68.19247,
-            570
-          ],
-          [
-            44.35747,
-            -68.19244,
-            562
-          ],
-          [
-            44.35771,
-            -68.19212,
-            531
-          ],
-          [
-            44.35781,
-            -68.19178,
-            526
-          ],
-          [
-            44.35779,
-            -68.19177,
-            526
-          ],
-          [
-            44.35775,
-            -68.19175,
-            533
-          ],
-          [
-            44.35766,
-            -68.19169,
-            534
-          ],
-          [
-            44.35763,
-            -68.19164,
-            535
-          ],
-          [
-            44.35761,
-            -68.19161,
-            535
-          ],
-          [
-            44.35755,
-            -68.19158,
-            528
-          ],
-          [
-            44.35754,
-            -68.19152,
-            527
-          ],
-          [
-            44.35753,
-            -68.1915,
-            527
-          ],
-          [
-            44.35752,
-            -68.1914,
-            523
-          ],
-          [
-            44.3575,
-            -68.19137,
-            518
-          ],
-          [
-            44.35744,
-            -68.19132,
-            518
-          ],
-          [
-            44.35737,
-            -68.19129,
-            505
-          ],
-          [
-            44.35735,
-            -68.19123,
-            505
-          ],
-          [
-            44.35734,
-            -68.19117,
-            493
-          ],
-          [
-            44.35732,
-            -68.19113,
-            493
-          ],
-          [
-            44.35728,
-            -68.19112,
-            488
-          ],
-          [
-            44.35724,
-            -68.1911,
-            482
-          ],
-          [
-            44.35721,
-            -68.19109,
-            475
-          ],
-          [
-            44.35717,
-            -68.19108,
-            475
-          ],
-          [
-            44.35713,
-            -68.19106,
-            475
-          ],
-          [
-            44.3571,
-            -68.19104,
-            469
-          ],
-          [
-            44.35708,
-            -68.19099,
-            466
-          ],
-          [
-            44.35704,
-            -68.19097,
-            466
-          ],
-          [
-            44.35701,
-            -68.19096,
-            462
-          ],
-          [
-            44.35695,
-            -68.19096,
-            462
-          ],
-          [
-            44.35692,
-            -68.19098,
-            461
-          ],
-          [
-            44.35689,
-            -68.19101,
-            461
-          ],
-          [
-            44.35686,
-            -68.19104,
-            465
-          ],
-          [
-            44.35684,
-            -68.19107,
-            459
-          ],
-          [
-            44.35681,
-            -68.19109,
-            459
-          ],
-          [
-            44.35676,
-            -68.19114,
-            464
-          ],
-          [
-            44.35673,
-            -68.19116,
-            455
-          ],
-          [
-            44.35669,
-            -68.19113,
-            455
-          ],
-          [
-            44.35666,
-            -68.19111,
-            424
-          ],
-          [
-            44.35661,
-            -68.19108,
-            424
-          ],
-          [
-            44.35659,
-            -68.19105,
-            424
-          ],
-          [
-            44.35657,
-            -68.19099,
-            398
-          ],
-          [
-            44.3566,
-            -68.19078,
-            390
-          ],
-          [
-            44.3566,
-            -68.19057,
-            372
-          ],
-          [
-            44.35661,
-            -68.19039,
-            359
-          ],
-          [
-            44.3567,
-            -68.19011,
-            328
-          ],
-          [
-            44.35689,
-            -68.18982,
-            304
-          ],
-          [
-            44.35692,
-            -68.18974,
-            300
-          ],
-          [
-            44.35693,
-            -68.18964,
-            295
-          ],
-          [
-            44.35693,
-            -68.18941,
-            272
-          ],
-          [
-            44.35698,
-            -68.18919,
-            251
-          ],
-          [
-            44.35695,
-            -68.18905,
-            230
-          ],
-          [
-            44.35687,
-            -68.18886,
-            215
-          ],
-          [
-            44.35684,
-            -68.18869,
-            200
-          ],
-          [
-            44.35683,
-            -68.18848,
-            194
-          ],
-          [
-            44.35632,
-            -68.18828,
-            181
-          ],
-          [
-            44.35596,
-            -68.18814,
-            169
-          ],
-          [
-            44.35557,
-            -68.18803,
-            158
-          ],
-          [
-            44.3551,
-            -68.18793,
-            147
-          ],
-          [
-            44.35438,
-            -68.18784,
-            134
-          ],
-          [
-            44.35376,
-            -68.18785,
-            125
-          ],
-          [
-            44.35333,
-            -68.18788,
-            118
-          ],
-          [
-            44.35245,
-            -68.18804,
-            107
-          ],
-          [
-            44.35212,
-            -68.18808,
-            105
-          ],
-          [
-            44.35185,
-            -68.18809,
-            103
-          ],
-          [
-            44.35156,
-            -68.18804,
-            103
-          ],
-          [
-            44.35112,
-            -68.18794,
-            102
-          ],
-          [
-            44.35075,
-            -68.18785,
-            101
-          ],
-          [
-            44.35007,
-            -68.18773,
-            101
-          ],
-          [
-            44.34987,
-            -68.18774,
-            101
-          ],
-          [
-            44.34982,
-            -68.18773,
-            101
-          ],
-          [
-            44.34955,
-            -68.18773,
-            101
-          ],
-          [
-            44.34953,
-            -68.18773,
-            101
+            44.3489,
+            -68.1894,
+            292
           ]
         ],
         "chart": [
           {
             "mile": 0,
-            "elev": 101,
+            "elev": 54,
             "coord": [
-              44.34953,
-              -68.18773
+              44.3411,
+              -68.1822
             ]
           },
           {
-            "mile": 0.2,
-            "elev": 107,
+            "mile": 0.04,
+            "elev": 47,
             "coord": [
-              44.35245,
-              -68.18804
+              44.341507425477886,
+              -68.18263999999999
             ]
           },
           {
-            "mile": 0.53,
-            "elev": 215,
+            "mile": 0.07,
+            "elev": 44,
             "coord": [
-              44.35687,
-              -68.18886
+              44.341843260793574,
+              -68.18307999999999
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 41,
+            "coord": [
+              44.34206326079358,
+              -68.18352
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 42,
+            "coord": [
+              44.34216742547789,
+              -68.18396
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 45,
+            "coord": [
+              44.3422,
+              -68.1844
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 46,
+            "coord": [
+              44.342907888362525,
+              -68.18486
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 50,
+            "coord": [
+              44.34351345247576,
+              -68.18532
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 59,
+            "coord": [
+              44.34395345247576,
+              -68.18578
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 73,
+            "coord": [
+              44.34422788836253,
+              -68.18624
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 76,
+            "coord": [
+              44.3444,
+              -68.1867
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 97,
+            "coord": [
+              44.34509685179538,
+              -68.18692
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 83,
+            "coord": [
+              44.34570323425523,
+              -68.18714
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 88,
+            "coord": [
+              44.34616323425523,
+              -68.18736
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 91,
+            "coord": [
+              44.34647685179539,
+              -68.18758
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 99,
+            "coord": [
+              44.3467,
+              -68.1878
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 103,
+            "coord": [
+              44.34692,
+              -68.18802
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 114,
+            "coord": [
+              44.347139999999996,
+              -68.18824
+            ]
+          },
+          {
+            "mile": 0.56,
+            "elev": 126,
+            "coord": [
+              44.34736,
+              -68.18846
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 173,
+            "coord": [
+              44.34758,
+              -68.18868
+            ]
+          },
+          {
+            "mile": 0.6,
+            "elev": 268,
+            "coord": [
+              44.3478,
+              -68.1889
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 282,
+            "coord": [
+              44.34802,
+              -68.18900000000001
             ]
           },
           {
             "mile": 0.63,
-            "elev": 390,
+            "elev": 274,
             "coord": [
-              44.3566,
-              -68.19078
+              44.34824,
+              -68.18910000000001
             ]
           },
           {
-            "mile": 0.67,
-            "elev": 465,
+            "mile": 0.64,
+            "elev": 253,
             "coord": [
-              44.35686,
-              -68.19104
+              44.34846,
+              -68.1892
             ]
           },
           {
-            "mile": 0.7,
-            "elev": 475,
+            "mile": 0.66,
+            "elev": 279,
             "coord": [
-              44.35721,
-              -68.19109
+              44.34868,
+              -68.1893
             ]
           },
           {
-            "mile": 0.73,
-            "elev": 527,
+            "mile": 0.68,
+            "elev": 292,
             "coord": [
-              44.35753,
-              -68.1915
-            ]
-          },
-          {
-            "mile": 0.8,
-            "elev": 562,
-            "coord": [
-              44.35747,
-              -68.19244
-            ]
-          },
-          {
-            "mile": 0.92,
-            "elev": 690,
-            "coord": [
-              44.35579,
-              -68.1926
-            ]
-          },
-          {
-            "mile": 1.04,
-            "elev": 834,
-            "coord": [
-              44.35403,
-              -68.19312
-            ]
-          },
-          {
-            "mile": 1.17,
-            "elev": 1007,
-            "coord": [
-              44.3524,
-              -68.194
-            ]
-          },
-          {
-            "mile": 1.27,
-            "elev": 914,
-            "coord": [
-              44.35331,
-              -68.19376
-            ]
-          },
-          {
-            "mile": 1.39,
-            "elev": 756,
-            "coord": [
-              44.35488,
-              -68.19285
-            ]
-          },
-          {
-            "mile": 1.51,
-            "elev": 638,
-            "coord": [
-              44.35663,
-              -68.1925
-            ]
-          },
-          {
-            "mile": 1.63,
-            "elev": 535,
-            "coord": [
-              44.35763,
-              -68.19164
-            ]
-          },
-          {
-            "mile": 1.66,
-            "elev": 493,
-            "coord": [
-              44.35734,
-              -68.19117
-            ]
-          },
-          {
-            "mile": 1.69,
-            "elev": 462,
-            "coord": [
-              44.35701,
-              -68.19096
-            ]
-          },
-          {
-            "mile": 1.72,
-            "elev": 424,
-            "coord": [
-              44.35666,
-              -68.19111
-            ]
-          },
-          {
-            "mile": 1.8,
-            "elev": 295,
-            "coord": [
-              44.35693,
-              -68.18964
-            ]
-          },
-          {
-            "mile": 1.98,
-            "elev": 147,
-            "coord": [
-              44.3551,
-              -68.18793
-            ]
-          },
-          {
-            "mile": 2.33,
-            "elev": 101,
-            "coord": [
-              44.35007,
-              -68.18773
-            ]
-          },
-          {
-            "mile": 2.37,
-            "elev": 101,
-            "coord": [
-              44.34953,
-              -68.18773
+              44.3489,
+              -68.1894
             ]
           }
         ],
         "markers": {
           "start": [
-            44.34953,
-            -68.18773,
-            101
+            44.3411,
+            -68.1822
           ],
           "summit": [
-            44.352,
-            -68.192,
+            44.3489,
+            -68.1894,
             1058
+          ],
+          "stop_0": [
+            44.3422,
+            -68.1844,
+            "Warning Sign"
+          ],
+          "stop_1": [
+            44.3444,
+            -68.1867,
+            "First Cliff Section"
+          ],
+          "stop_2": [
+            44.3467,
+            -68.1878,
+            "Iron Bridge"
+          ],
+          "stop_3": [
+            44.3478,
+            -68.1889,
+            "Final Ladders"
           ]
         }
-      }
+      },
+      "features": [
+        {
+          "name": "Warning Sign",
+          "lat": 44.3422,
+          "lon": -68.1844,
+          "type": "landmark",
+          "mile": 0.1
+        },
+        {
+          "name": "First Cliff Section",
+          "lat": 44.3444,
+          "lon": -68.1867,
+          "type": "scramble",
+          "mile": 0.3
+        },
+        {
+          "name": "Iron Bridge",
+          "lat": 44.3467,
+          "lon": -68.1878,
+          "type": "landmark",
+          "mile": 0.5
+        },
+        {
+          "name": "Final Ladders",
+          "lat": 44.3478,
+          "lon": -68.1889,
+          "type": "ladder",
+          "mile": 0.7
+        }
+      ]
     }
   ],
-  "nearby_peaks": [
-    {
-      "name": "The Beehive",
-      "slug": "the-beehive-me",
-      "state_slug": "maine",
-      "elevation": 520,
-      "distance_miles": 1.4
+  "seo": {
+    "meta_title": "Precipice Trail Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Precipice Trail (1,058 ft) in Maine. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/maine/precipice-trail-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Precipice Trail",
+      "description": "Precipice Trail is a 1,058 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.3489,
+        "longitude": -68.1894,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1058,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Precipice Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.3411,
+            "longitude": -68.1822
+          }
+        }
+      ]
     },
-    {
-      "name": "Cadillac Mountain",
-      "slug": "cadillac-mtn-me",
-      "state_slug": "maine",
-      "elevation": 1530,
-      "distance_miles": 1.6
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Precipice Trail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Precipice Trail take 0-2 hours round trip. The most popular trail is 1.6 miles with Expert difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Precipice Trail hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Precipice Trail is rated Expert. At 1,058 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Precipice Trail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Precipice Trail. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Precipice Trail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Precipice Trail, offering Most challenging trail in Acadia. Closed during peregrine falcon nesting (spring/summer).."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Precipice Trail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Precipice Trail is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
     }
-  ]
+  },
+  "page_content": {
+    "hero": {
+      "title": "Precipice Trail",
+      "subtitle": "New Hampshire Trail Destination \u2022 1,058 ft",
+      "quick_stats": {
+        "elevation": "1,058 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate to Expert",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,058 feet, Precipice Trail offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Precipice Trail**, covers 1.6 miles and is rated \n    Expert. Most challenging trail in Acadia. Closed during peregrine falcon nesting (spring/summer).</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** The Beehive lies just 1.3 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Precipice Trail?",
+        "answer": "Most routes on Precipice Trail take 0-2 hours round trip. The most popular trail is 1.6 miles with Expert difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Precipice Trail hard to hike?",
+        "answer": "Precipice Trail is rated Expert. At 1,058 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Precipice Trail?",
+        "answer": "No hiking permit is required for Precipice Trail. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Precipice Trail?",
+        "answer": "The most popular route is the Precipice Trail, offering Most challenging trail in Acadia. Closed during peregrine falcon nesting (spring/summer).."
+      },
+      {
+        "question": "When is the best time to hike Precipice Trail?",
+        "answer": "The best hiking season for Precipice Trail is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "The Beehive",
+        "slug": "beehive-me",
+        "state_slug": "maine",
+        "elevation": 520,
+        "distance_miles": 1.3,
+        "link_text": "Hike The Beehive",
+        "combo_suggestion": "Combine Precipice Trail with The Beehive for a longer day",
+        "comparison": "Shorter climb (538 ft less)"
+      },
+      {
+        "name": "Cadillac Mountain",
+        "slug": "cadillac-mountain-me",
+        "state_slug": "maine",
+        "elevation": 1530,
+        "distance_miles": 1.8,
+        "link_text": "Hike Cadillac Mountain",
+        "combo_suggestion": "Combine Precipice Trail with Cadillac Mountain for a longer day",
+        "comparison": "Higher summit (+472 ft)"
+      },
+      {
+        "name": "Jordan Pond",
+        "slug": "jordan-pond-me",
+        "state_slug": "maine",
+        "elevation": 274,
+        "distance_miles": 3.7,
+        "link_text": "Hike Jordan Pond",
+        "combo_suggestion": "Combine Precipice Trail with Jordan Pond for a longer day",
+        "comparison": "Shorter climb (784 ft less)"
+      },
+      {
+        "name": "Penobscot Mountain",
+        "slug": "penobscot-mountain-me",
+        "state_slug": "maine",
+        "elevation": 1194,
+        "distance_miles": 4.2,
+        "link_text": "Hike Penobscot Mountain",
+        "combo_suggestion": "Combine Precipice Trail with Penobscot Mountain for a longer day",
+        "comparison": "Higher summit (+136 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Precipice Trail? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Precipice Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "precipice-trail-me-all-trails.gpx",
+        "label": "Download All Precipice Trail Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "precipice-trail-me-trail-guide.pdf",
+        "label": "Precipice Trail Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "precipice-trail-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Precipice%20Trail!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,058 feet, Precipice Trail offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Precipice Trail**, covers 1.6 miles and is rated \n    Expert. Most challenging trail in Acadia. Closed during peregrine falcon nesting (spring/summer).</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** The Beehive lies just 1.3 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

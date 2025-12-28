@@ -20,7 +20,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 4.1,
-      "elevation_gain": 2000,
+      "elevation_gain": 2050,
       "tags": [],
       "description": "Trail to Mount Osceola summit.",
       "parking_info": "Tripoli Road Parking",
@@ -39,7 +39,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 4.1,
-      "elevation_gain": 2000,
+      "elevation_gain": 2050,
       "tags": [],
       "description": "Trail to Mount Osceola summit.",
       "parking_info": "Tripoli Road Parking",
@@ -58,7 +58,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 5.6,
-      "elevation_gain": 2500,
+      "elevation_gain": 2800,
       "tags": [],
       "description": "Trail to Mount Osceola summit.",
       "parking_info": "Greeley Ponds Trailhead, Kancamagus Highway",
@@ -72,6 +72,12 @@
       "start_lon": -71.495
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [
     {
       "name": "Mount Tecumseh",
@@ -81,25 +87,25 @@
       "distance_miles": 2.6
     },
     {
+      "name": "North Tripyramid",
+      "slug": "north-tripyramid-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4180,
+      "distance_miles": 5.1
+    },
+    {
+      "name": "Middle Tripyramid",
+      "slug": "middle-tripyramid-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4140,
+      "distance_miles": 5.3
+    },
+    {
       "name": "Mount Hancock",
       "slug": "mount-hancock-nh",
       "state_slug": "new-hampshire",
       "elevation": 4420,
       "distance_miles": 6.0
-    },
-    {
-      "name": "Welch Dickey",
-      "slug": "welch-dickey-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 2734,
-      "distance_miles": 7.3
-    },
-    {
-      "name": "Mount Carrigain",
-      "slug": "mount-carrigain-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4700,
-      "distance_miles": 7.7
     }
   ],
   "social_pulse": 7,
@@ -123,12 +129,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:16:58.798712",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "90e65d33",
@@ -5508,6 +5508,26 @@
         "comparison": "Shorter climb (337 ft less)"
       },
       {
+        "name": "North Tripyramid",
+        "slug": "north-tripyramid-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4180,
+        "distance_miles": 5.1,
+        "link_text": "Hike North Tripyramid",
+        "combo_suggestion": "Combine Mount Osceola with North Tripyramid for a longer day",
+        "comparison": "Shorter climb (160 ft less)"
+      },
+      {
+        "name": "Middle Tripyramid",
+        "slug": "middle-tripyramid-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4140,
+        "distance_miles": 5.3,
+        "link_text": "Hike Middle Tripyramid",
+        "combo_suggestion": "Combine Mount Osceola with Middle Tripyramid for a longer day",
+        "comparison": "Shorter climb (200 ft less)"
+      },
+      {
         "name": "Mount Hancock",
         "slug": "mount-hancock-nh",
         "state_slug": "new-hampshire",
@@ -5516,26 +5536,6 @@
         "link_text": "Hike Mount Hancock",
         "combo_suggestion": "Combine Mount Osceola with Mount Hancock for a longer day",
         "comparison": "Higher summit (+80 ft)"
-      },
-      {
-        "name": "Welch Dickey",
-        "slug": "welch-dickey-nh",
-        "state_slug": "new-hampshire",
-        "elevation": 2734,
-        "distance_miles": 7.3,
-        "link_text": "Hike Welch Dickey",
-        "combo_suggestion": "Combine Mount Osceola with Welch Dickey for a longer day",
-        "comparison": "Shorter climb (1606 ft less)"
-      },
-      {
-        "name": "Mount Carrigain",
-        "slug": "mount-carrigain-nh",
-        "state_slug": "new-hampshire",
-        "elevation": 4700,
-        "distance_miles": 7.7,
-        "link_text": "Hike Mount Carrigain",
-        "combo_suggestion": "Combine Mount Osceola with Mount Carrigain for a longer day",
-        "comparison": "Higher summit (+360 ft)"
       }
     ]
   },
@@ -5569,5 +5569,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,340 feet, Mount Osceola ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mt. Osceola Trail**, covers 4.1 miles and is rated \n    Hard. Trail to Mount Osceola summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Tecumseh lies just 2.6 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,340 feet, Mount Osceola ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mt. Osceola Trail**, covers 4.1 miles and is rated \n    Hard. Trail to Mount Osceola summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Tecumseh lies just 2.6 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:40:53.338485",
+    "pipeline_version": "3.0"
+  }
 }

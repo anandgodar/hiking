@@ -20,14 +20,14 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 4.9,
-      "elevation_gain": 1600,
+      "elevation_gain": 2450,
       "tags": [],
       "description": "Trail to Mount Moosilauke summit.",
       "parking_info": "Ravine Lodge, Ravine Rd, Warren",
       "parking_details": {
         "capacity": "Medium (~30 cars)",
         "status": "Check conditions",
-        "fee": "Free",
+        "fee": "Free (DOC)",
         "shuttle": null
       },
       "start_lat": 44.0244,
@@ -39,14 +39,14 @@
       "type": "Loop",
       "difficulty": "Hard",
       "distance_miles": 4.9,
-      "elevation_gain": 1600,
+      "elevation_gain": 2450,
       "tags": [],
       "description": "Trail to Mount Moosilauke summit.",
       "parking_info": "Ravine Lodge, Ravine Rd, Warren",
       "parking_details": {
         "capacity": "Medium (~30 cars)",
         "status": "Check conditions",
-        "fee": "Free",
+        "fee": "Free (DOC)",
         "shuttle": null
       },
       "start_lat": 44.0244,
@@ -60,7 +60,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 6.2,
-      "elevation_gain": 2000,
+      "elevation_gain": 3100,
       "tags": [],
       "description": "Trail to Mount Moosilauke summit.",
       "parking_info": "Beaver Brook Trailhead, NH-112",
@@ -74,7 +74,28 @@
       "start_lon": -71.7973
     }
   ],
-  "nearby_peaks": [],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "South Kinsman",
+      "slug": "south-kinsman-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4358,
+      "distance_miles": 8.2
+    },
+    {
+      "name": "North Kinsman",
+      "slug": "north-kinsman-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4293,
+      "distance_miles": 8.8
+    }
+  ],
   "social_pulse": 7,
   "reviews": [
     {
@@ -96,12 +117,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:19:10.170706",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "91e4e0cb",
@@ -118,7 +133,7 @@
         "directions_url": "https://www.google.com/maps/dir//44.0244,-71.8147",
         "capacity": "Medium (~30 cars)",
         "status": "Check conditions",
-        "fee": "Free",
+        "fee": "Free (DOC)",
         "shuttle": null
       },
       "stats": {
@@ -1320,7 +1335,7 @@
         "directions_url": "https://www.google.com/maps/dir//44.0244,-71.8147",
         "capacity": "Medium (~30 cars)",
         "status": "Check conditions",
-        "fee": "Free",
+        "fee": "Free (DOC)",
         "shuttle": null
       },
       "stats": {
@@ -5257,7 +5272,7 @@
         "list_name": "NH 4000-Footers"
       }
     },
-    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,802 feet, Mount Moosilauke ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Gorge Brook Trail**, covers 4.9 miles and is rated \n    Hard. Trail to Mount Moosilauke summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,802 feet, Mount Moosilauke ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Gorge Brook Trail**, covers 4.9 miles and is rated \n    Hard. Trail to Mount Moosilauke summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** South Kinsman lies just 8.2 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
     "seasonal_guide": {
       "spring": {
         "months": "March - May",
@@ -5404,7 +5419,28 @@
         "answer": "The best hiking season for Mount Moosilauke is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
       }
     ],
-    "nearby_peaks": []
+    "nearby_peaks": [
+      {
+        "name": "South Kinsman",
+        "slug": "south-kinsman-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4358,
+        "distance_miles": 8.2,
+        "link_text": "Hike South Kinsman",
+        "combo_suggestion": "Combine Mount Moosilauke with South Kinsman for a longer day",
+        "comparison": "Shorter climb (444 ft less)"
+      },
+      {
+        "name": "North Kinsman",
+        "slug": "north-kinsman-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4293,
+        "distance_miles": 8.8,
+        "link_text": "Hike North Kinsman",
+        "combo_suggestion": "Combine Mount Moosilauke with North Kinsman for a longer day",
+        "comparison": "Shorter climb (509 ft less)"
+      }
+    ]
   },
   "engagement": {
     "trip_report_prompts": [
@@ -5436,5 +5472,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,802 feet, Mount Moosilauke ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Gorge Brook Trail**, covers 4.9 miles and is rated \n    Hard. Trail to Mount Moosilauke summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,802 feet, Mount Moosilauke ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Gorge Brook Trail**, covers 4.9 miles and is rated \n    Hard. Trail to Mount Moosilauke summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** South Kinsman lies just 8.2 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:40:53.380475",
+    "pipeline_version": "3.0"
+  }
 }

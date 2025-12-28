@@ -1,0 +1,676 @@
+{
+  "name": "Angel Falls",
+  "slug": "angel-falls-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 1800,
+  "lat": 44.8978,
+  "lon": -70.6806,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "Waterfall",
+    "Moderate",
+    "Scenic"
+  ],
+  "trails_config": [
+    {
+      "name": "Angel Falls Trail",
+      "osm_name": "Angel Falls Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 1.0,
+      "elevation_gain": 249,
+      "tags": [
+        "Waterfall"
+      ],
+      "description": "One of Maine's tallest and most impressive waterfalls.",
+      "parking_info": "Angel Falls Trailhead",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions - stream crossings may be difficult",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.8956,
+      "start_lon": -70.6767,
+      "features": [
+        {
+          "name": "Stream Crossing",
+          "lat": 44.8967,
+          "lon": -70.6778,
+          "type": "water",
+          "mile": 0.3
+        },
+        {
+          "name": "Angel Falls Base",
+          "lat": 44.8978,
+          "lon": -70.6806,
+          "type": "waterfall",
+          "mile": 0.5
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "The Horn",
+      "slug": "the-horn-me",
+      "state_slug": "maine",
+      "elevation": 4023,
+      "distance_miles": 8.6
+    },
+    {
+      "name": "Saddleback Mountain",
+      "slug": "saddleback-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4120,
+      "distance_miles": 9.1
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:14:36.546253",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "ELEVATION_ZERO: Angel Falls Trail calculated 0ft gain (likely TIFF error). Using seed value 249ft."
+    ],
+    "last_updated": "2025-12-28T16:14:36.552442",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "b97d63e2",
+      "name": "Angel Falls Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 1.0,
+      "elevation_gain": 249,
+      "description": "One of Maine's tallest and most impressive waterfalls.",
+      "tags": [
+        "Waterfall"
+      ],
+      "parking_info": "Angel Falls Trailhead",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions - stream crossings may be difficult",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.8956,
+      "start_lon": -70.6767,
+      "logistics": {
+        "start_coords": [
+          44.8956,
+          -70.6767
+        ],
+        "parking_info": "Angel Falls Trailhead",
+        "directions_url": "https://www.google.com/maps/dir//44.8956,-70.6767",
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions - stream crossings may be difficult",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 0.3,
+        "gain": 249,
+        "max_elev": 2112,
+        "min_elev": 2039,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.2,
+        "_distance_source": "calculated",
+        "_original_calculated_gain": 0,
+        "_elevation_source": "seed_override"
+      },
+      "geo": {
+        "path": [
+          [
+            44.8956,
+            -70.6767,
+            2112
+          ],
+          [
+            44.89582,
+            -70.67692,
+            2110
+          ],
+          [
+            44.89604,
+            -70.67714,
+            2106
+          ],
+          [
+            44.896260000000005,
+            -70.67736000000001,
+            2104
+          ],
+          [
+            44.896480000000004,
+            -70.67758,
+            2102
+          ],
+          [
+            44.8967,
+            -70.6778,
+            2097
+          ],
+          [
+            44.897141506607134,
+            -70.67836,
+            2086
+          ],
+          [
+            44.897498405219075,
+            -70.67892,
+            2073
+          ],
+          [
+            44.897718405219074,
+            -70.67948,
+            2060
+          ],
+          [
+            44.89780150660713,
+            -70.68004,
+            2049
+          ],
+          [
+            44.8978,
+            -70.6806,
+            2039
+          ],
+          [
+            44.8978,
+            -70.6806,
+            2039
+          ],
+          [
+            44.8978,
+            -70.6806,
+            2039
+          ],
+          [
+            44.8978,
+            -70.6806,
+            2039
+          ],
+          [
+            44.8978,
+            -70.6806,
+            2039
+          ],
+          [
+            44.8978,
+            -70.6806,
+            2039
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2112,
+            "coord": [
+              44.8956,
+              -70.6767
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 2110,
+            "coord": [
+              44.89582,
+              -70.67692
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 2106,
+            "coord": [
+              44.89604,
+              -70.67714
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 2104,
+            "coord": [
+              44.896260000000005,
+              -70.67736000000001
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 2102,
+            "coord": [
+              44.896480000000004,
+              -70.67758
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 2097,
+            "coord": [
+              44.8967,
+              -70.6778
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 2086,
+            "coord": [
+              44.897141506607134,
+              -70.67836
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 2073,
+            "coord": [
+              44.897498405219075,
+              -70.67892
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 2060,
+            "coord": [
+              44.897718405219074,
+              -70.67948
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 2049,
+            "coord": [
+              44.89780150660713,
+              -70.68004
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2039,
+            "coord": [
+              44.8978,
+              -70.6806
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2039,
+            "coord": [
+              44.8978,
+              -70.6806
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2039,
+            "coord": [
+              44.8978,
+              -70.6806
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2039,
+            "coord": [
+              44.8978,
+              -70.6806
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2039,
+            "coord": [
+              44.8978,
+              -70.6806
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2039,
+            "coord": [
+              44.8978,
+              -70.6806
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.8956,
+            -70.6767
+          ],
+          "summit": [
+            44.8978,
+            -70.6806,
+            1800
+          ],
+          "stop_0": [
+            44.8967,
+            -70.6778,
+            "Stream Crossing"
+          ],
+          "stop_1": [
+            44.8978,
+            -70.6806,
+            "Angel Falls Base"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Stream Crossing",
+          "lat": 44.8967,
+          "lon": -70.6778,
+          "type": "water",
+          "mile": 0.3
+        },
+        {
+          "name": "Angel Falls Base",
+          "lat": 44.8978,
+          "lon": -70.6806,
+          "type": "waterfall",
+          "mile": 0.5
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "Angel Falls Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Angel Falls (1,800 ft) in Maine. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/maine/angel-falls-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Angel Falls",
+      "description": "Angel Falls is a 1,800 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.8978,
+        "longitude": -70.6806,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1800,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Angel Falls Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.8956,
+            "longitude": -70.6767
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Angel Falls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Angel Falls take 0-2 hours round trip. The most popular trail is 1.0 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Angel Falls hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Angel Falls is rated Moderate. At 1,800 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Angel Falls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Angel Falls. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Angel Falls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Angel Falls Trail, offering One of Maine's tallest and most impressive waterfalls.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Angel Falls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Angel Falls is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Angel Falls",
+      "subtitle": "Scenic Waterfall Destination",
+      "quick_stats": {
+        "elevation": "1,800 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,800 feet, Angel Falls offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Angel Falls Trail**, covers 1.0 miles and is rated \n    Moderate. One of Maine's tallest and most impressive waterfalls.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** The Horn lies just 8.6 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Angel Falls?",
+        "answer": "Most routes on Angel Falls take 0-2 hours round trip. The most popular trail is 1.0 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Angel Falls hard to hike?",
+        "answer": "Angel Falls is rated Moderate. At 1,800 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Angel Falls?",
+        "answer": "No hiking permit is required for Angel Falls. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Angel Falls?",
+        "answer": "The most popular route is the Angel Falls Trail, offering One of Maine's tallest and most impressive waterfalls.."
+      },
+      {
+        "question": "When is the best time to hike Angel Falls?",
+        "answer": "The best hiking season for Angel Falls is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "The Horn",
+        "slug": "the-horn-me",
+        "state_slug": "maine",
+        "elevation": 4023,
+        "distance_miles": 8.6,
+        "link_text": "Hike The Horn",
+        "combo_suggestion": "Combine Angel Falls with The Horn for a longer day",
+        "comparison": "Higher summit (+2223 ft)"
+      },
+      {
+        "name": "Saddleback Mountain",
+        "slug": "saddleback-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4120,
+        "distance_miles": 9.1,
+        "link_text": "Hike Saddleback Mountain",
+        "combo_suggestion": "Combine Angel Falls with Saddleback Mountain for a longer day",
+        "comparison": "Higher summit (+2320 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Angel Falls? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Angel Falls Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "angel-falls-me-all-trails.gpx",
+        "label": "Download All Angel Falls Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "angel-falls-me-trail-guide.pdf",
+        "label": "Angel Falls Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "angel-falls-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Angel%20Falls!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,800 feet, Angel Falls offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Angel Falls Trail**, covers 1.0 miles and is rated \n    Moderate. One of Maine's tallest and most impressive waterfalls.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** The Horn lies just 8.6 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

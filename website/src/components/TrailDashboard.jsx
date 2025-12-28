@@ -6,12 +6,44 @@ import NearbyPeaks from './NearbyPeaks';
 /**
  * Trail Dashboard Component - PRODUCTION VERSION
  *
+ * FIXED: Now handles both 'trails' and 'trails_config' data structures
  * REMOVED: Fake "Hiker Pulse" with hardcoded 4.8 rating and 124 reviews
  * REMOVED: Fake "94% of hikers recommend" stat
  * KEPT: All legitimate trail data display
  */
 const TrailDashboard = ({ mountain }) => {
-    const [selectedTrail, setSelectedTrail] = useState(mountain.trails?.[0] || {});
+    // FIXED: Use trails OR trails_config, normalize the data structure
+    const rawTrails = mountain.trails || mountain.trails_config || [];
+
+    // Normalize trails to have consistent structure
+    const trails = rawTrails.map(trail => ({
+        ...trail,
+        // Ensure stats object exists with fallbacks
+        stats: trail.stats || {
+            distance: trail.distance_miles || 0,
+            gain: trail.elevation_gain || 0,
+            time: trail.estimated_time || calculateTime(trail.distance_miles, trail.elevation_gain),
+            difficulty: trail.difficulty || 'Moderate'
+        },
+        // Ensure geo object exists (may be empty for trails_config)
+        geo: trail.geo || {
+            path: [],
+            markers: {
+                start: [trail.start_lat || mountain.lat, trail.start_lon || mountain.lon],
+                summit: [mountain.lat, mountain.lon]
+            },
+            chart: []
+        },
+        // Preserve other fields
+        name: trail.name,
+        type: trail.type || 'Out & Back',
+        difficulty: trail.difficulty || trail.stats?.difficulty || 'Moderate',
+        description: trail.description || '',
+        parking_info: trail.parking_info || '',
+        parking_details: trail.parking_details || {}
+    }));
+
+    const [selectedTrail, setSelectedTrail] = useState(trails[0] || {});
 
     // Safety: Ensure stats exist
     const stats = selectedTrail.stats || {};
@@ -20,8 +52,8 @@ const TrailDashboard = ({ mountain }) => {
     const summitLat = mountain.lat;
     const summitLon = mountain.lon;
     const trailStart = selectedTrail.geo?.markers?.start;
-    const baseLat = trailStart ? trailStart[0] : summitLat;
-    const baseLon = trailStart ? trailStart[1] : summitLon;
+    const baseLat = trailStart ? trailStart[0] : (selectedTrail.start_lat || summitLat);
+    const baseLon = trailStart ? trailStart[1] : (selectedTrail.start_lon || summitLon);
 
     // Helper: Determine difficulty color
     const getDiffColor = (diff) => {
@@ -33,6 +65,9 @@ const TrailDashboard = ({ mountain }) => {
     // Check for real user reviews (from sanitized data)
     const userReviews = mountain.user_reviews || { enabled: false, count: 0 };
     const hasRealReviews = userReviews.enabled && userReviews.count > 0;
+
+    // Get current difficulty
+    const currentDifficulty = selectedTrail.difficulty || stats.difficulty || 'Moderate';
 
     return (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
@@ -60,14 +95,12 @@ const TrailDashboard = ({ mountain }) => {
 
                 {/* 2. MAP COMPONENT */}
                 <RouteExplorer
-                    trails={mountain.trails}
+                    trails={trails}
                     lat={mountain.lat}
                     lon={mountain.lon}
                     activeTrail={selectedTrail}
                     onTrailSelect={setSelectedTrail}
                 />
-
-                {/* 3. RICH TEXT DESCRIPTION */}
 
             </div>
 
@@ -78,8 +111,8 @@ const TrailDashboard = ({ mountain }) => {
                 <div className="bg-white border border-stone-200 rounded-3xl overflow-hidden shadow-sm">
                     <div className="bg-stone-50 p-4 border-b border-stone-100 flex justify-between items-center">
                         <h3 className="font-bold text-stone-700 text-sm">Route Details</h3>
-                        <span className={`text-[10px] font-bold px-2 py-1 rounded border ${getDiffColor(stats.difficulty)} uppercase`}>
-                            {stats.difficulty || 'Moderate'}
+                        <span className={`text-[10px] font-bold px-2 py-1 rounded border ${getDiffColor(currentDifficulty)} uppercase`}>
+                            {currentDifficulty}
                         </span>
                     </div>
 
@@ -96,7 +129,7 @@ const TrailDashboard = ({ mountain }) => {
                             <div className="p-4 border-b border-stone-100 hover:bg-stone-50 transition-colors">
                                 <div className="text-stone-400 text-[10px] uppercase font-bold tracking-wider mb-1">Gain</div>
                                 <div className="text-xl font-black text-stone-800 flex items-baseline gap-1">
-                                    {stats.gain || 0}<span className="text-xs font-normal text-stone-500">ft</span>
+                                    {stats.gain || selectedTrail.elevation_gain || 0}<span className="text-xs font-normal text-stone-500">ft</span>
                                 </div>
                             </div>
                             {/* Time */}
@@ -193,5 +226,15 @@ const TrailDashboard = ({ mountain }) => {
         </div>
     );
 };
+
+// Helper function to estimate hiking time
+function calculateTime(distance, gain) {
+    if (!distance) return null;
+    // Naismith's rule: 3 mph + 1 hour per 2000ft gain
+    const baseTime = distance / 3;
+    const gainTime = (gain || 0) / 2000;
+    const total = baseTime + gainTime;
+    return total.toFixed(1);
+}
 
 export default TrailDashboard;

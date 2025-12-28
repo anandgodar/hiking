@@ -1,0 +1,1181 @@
+{
+  "name": "Spaulding Mountain",
+  "slug": "spaulding-mountain-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 4010,
+  "lat": 45.0167,
+  "lon": -70.3,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "4000 Footer",
+    "AT"
+  ],
+  "trails_config": [
+    {
+      "name": "Appalachian Trail",
+      "osm_name": "Appalachian Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 7.2,
+      "elevation_gain": 2400,
+      "tags": [
+        "Appalachian Trail"
+      ],
+      "description": "AT route passing Spaulding between Sugarloaf and Abraham.",
+      "parking_info": "Caribou Valley Road",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 45.06,
+      "start_lon": -70.35,
+      "features": [
+        {
+          "name": "Spaulding Lean-to",
+          "lat": 45.0211,
+          "lon": -70.3044,
+          "type": "shelter",
+          "mile": 3.0
+        },
+        {
+          "name": "Summit Spur",
+          "lat": 45.0178,
+          "lon": -70.3011,
+          "type": "junction",
+          "mile": 3.4
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Sugarloaf Mountain",
+      "slug": "sugarloaf-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4237,
+      "distance_miles": 1.2
+    },
+    {
+      "name": "Mount Abraham",
+      "slug": "mount-abraham-me",
+      "state_slug": "maine",
+      "elevation": 4049,
+      "distance_miles": 3.5
+    },
+    {
+      "name": "Crocker Mountain",
+      "slug": "crocker-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4228,
+      "distance_miles": 4.2
+    },
+    {
+      "name": "South Crocker Mountain",
+      "slug": "south-crocker-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4048,
+      "distance_miles": 4.8
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:16:22.685486",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "SPARSE_GEOMETRY: Appalachian Trail has only 52 points for 7.2mi (7.2 pts/mi)"
+    ],
+    "last_updated": "2025-12-28T16:16:22.705188",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "a972ebba",
+      "name": "Appalachian Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 7.2,
+      "elevation_gain": 2400,
+      "description": "AT route passing Spaulding between Sugarloaf and Abraham.",
+      "tags": [
+        "Appalachian Trail"
+      ],
+      "parking_info": "Caribou Valley Road",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 45.06,
+      "start_lon": -70.35,
+      "logistics": {
+        "start_coords": [
+          45.06,
+          -70.35
+        ],
+        "parking_info": "Caribou Valley Road",
+        "directions_url": "https://www.google.com/maps/dir//45.06,-70.35",
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 4.3,
+        "gain": 2411,
+        "max_elev": 4154,
+        "min_elev": 1767,
+        "type": "Out & Back",
+        "difficulty": "Hard",
+        "time": 2.6,
+        "_distance_source": "calculated",
+        "_elevation_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            45.06,
+            -70.35,
+            2024
+          ],
+          [
+            45.0590512195122,
+            -70.34888780487805,
+            2016
+          ],
+          [
+            45.058102439024395,
+            -70.3477756097561,
+            1987
+          ],
+          [
+            45.057153658536585,
+            -70.34666341463414,
+            1971
+          ],
+          [
+            45.05620487804878,
+            -70.34555121951219,
+            1984
+          ],
+          [
+            45.05525609756098,
+            -70.34443902439024,
+            1991
+          ],
+          [
+            45.054307317073174,
+            -70.34332682926829,
+            1966
+          ],
+          [
+            45.057642306716275,
+            -70.34221463414633,
+            1859
+          ],
+          [
+            45.05723254045266,
+            -70.34110243902438,
+            1767
+          ],
+          [
+            45.05679447217275,
+            -70.33999024390243,
+            1819
+          ],
+          [
+            45.056325104814235,
+            -70.33887804878049,
+            1915
+          ],
+          [
+            45.05582162499025,
+            -70.33776585365854,
+            1959
+          ],
+          [
+            45.055281419499416,
+            -70.33665365853658,
+            2007
+          ],
+          [
+            45.05470209066121,
+            -70.33554146341463,
+            2062
+          ],
+          [
+            45.054081470386436,
+            -70.33442926829268,
+            2107
+          ],
+          [
+            45.05341763290047,
+            -70.33331707317073,
+            2162
+          ],
+          [
+            45.05270890604448,
+            -70.33220487804877,
+            2215
+          ],
+          [
+            45.05195388108831,
+            -70.33109268292682,
+            2292
+          ],
+          [
+            45.05115142099744,
+            -70.32998048780487,
+            2371
+          ],
+          [
+            45.05030066710562,
+            -70.32886829268293,
+            2449
+          ],
+          [
+            45.04940104415379,
+            -70.32775609756098,
+            2534
+          ],
+          [
+            45.04845226366598,
+            -70.32664390243902,
+            2588
+          ],
+          [
+            45.0474543256422,
+            -70.32553170731707,
+            2645
+          ],
+          [
+            45.04640751855842,
+            -70.32441951219512,
+            2699
+          ],
+          [
+            45.04531241767368,
+            -70.32330731707317,
+            2735
+          ],
+          [
+            45.04416988165424,
+            -70.32219512195122,
+            2777
+          ],
+          [
+            45.04298104753461,
+            -70.32108292682926,
+            2844
+          ],
+          [
+            45.04174732404497,
+            -70.31997073170731,
+            2976
+          ],
+          [
+            45.040470383344136,
+            -70.31885853658537,
+            3083
+          ],
+          [
+            45.039152151206736,
+            -70.31774634146342,
+            3274
+          ],
+          [
+            45.03779479572195,
+            -70.31663414634146,
+            3410
+          ],
+          [
+            45.03640071457033,
+            -70.31552195121951,
+            3577
+          ],
+          [
+            45.03497252095323,
+            -70.31440975609756,
+            3780
+          ],
+          [
+            45.03351302825754,
+            -70.31329756097561,
+            3977
+          ],
+          [
+            45.032025233545546,
+            -70.31218536585367,
+            4154
+          ],
+          [
+            45.026792682926825,
+            -70.3110731707317,
+            3515
+          ],
+          [
+            45.02584390243902,
+            -70.30996097560975,
+            3335
+          ],
+          [
+            45.02489512195122,
+            -70.3088487804878,
+            3134
+          ],
+          [
+            45.023946341463414,
+            -70.30773658536586,
+            2960
+          ],
+          [
+            45.022997560975604,
+            -70.3066243902439,
+            2747
+          ],
+          [
+            45.0220487804878,
+            -70.30551219512195,
+            2533
+          ],
+          [
+            45.0211,
+            -70.3044,
+            2401
+          ],
+          [
+            45.02083411117586,
+            -70.30374,
+            2361
+          ],
+          [
+            45.020417685277884,
+            -70.30308000000001,
+            2317
+          ],
+          [
+            45.01975768527789,
+            -70.30242,
+            2278
+          ],
+          [
+            45.018854111175855,
+            -70.30176,
+            2241
+          ],
+          [
+            45.0178,
+            -70.3011,
+            2223
+          ],
+          [
+            45.01758,
+            -70.30088,
+            2221
+          ],
+          [
+            45.017360000000004,
+            -70.30066000000001,
+            2221
+          ],
+          [
+            45.01714,
+            -70.30044,
+            2221
+          ],
+          [
+            45.01692,
+            -70.30022,
+            2225
+          ],
+          [
+            45.0167,
+            -70.3,
+            2214
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2024,
+            "coord": [
+              45.06,
+              -70.35
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 2016,
+            "coord": [
+              45.0590512195122,
+              -70.34888780487805
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 1987,
+            "coord": [
+              45.058102439024395,
+              -70.3477756097561
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 1971,
+            "coord": [
+              45.057153658536585,
+              -70.34666341463414
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 1984,
+            "coord": [
+              45.05620487804878,
+              -70.34555121951219
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 1991,
+            "coord": [
+              45.05525609756098,
+              -70.34443902439024
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 1966,
+            "coord": [
+              45.054307317073174,
+              -70.34332682926829
+            ]
+          },
+          {
+            "mile": 0.75,
+            "elev": 1859,
+            "coord": [
+              45.057642306716275,
+              -70.34221463414633
+            ]
+          },
+          {
+            "mile": 0.81,
+            "elev": 1767,
+            "coord": [
+              45.05723254045266,
+              -70.34110243902438
+            ]
+          },
+          {
+            "mile": 0.87,
+            "elev": 1819,
+            "coord": [
+              45.05679447217275,
+              -70.33999024390243
+            ]
+          },
+          {
+            "mile": 0.93,
+            "elev": 1915,
+            "coord": [
+              45.056325104814235,
+              -70.33887804878049
+            ]
+          },
+          {
+            "mile": 1.0,
+            "elev": 1959,
+            "coord": [
+              45.05582162499025,
+              -70.33776585365854
+            ]
+          },
+          {
+            "mile": 1.07,
+            "elev": 2007,
+            "coord": [
+              45.055281419499416,
+              -70.33665365853658
+            ]
+          },
+          {
+            "mile": 1.13,
+            "elev": 2062,
+            "coord": [
+              45.05470209066121,
+              -70.33554146341463
+            ]
+          },
+          {
+            "mile": 1.2,
+            "elev": 2107,
+            "coord": [
+              45.054081470386436,
+              -70.33442926829268
+            ]
+          },
+          {
+            "mile": 1.27,
+            "elev": 2162,
+            "coord": [
+              45.05341763290047,
+              -70.33331707317073
+            ]
+          },
+          {
+            "mile": 1.35,
+            "elev": 2215,
+            "coord": [
+              45.05270890604448,
+              -70.33220487804877
+            ]
+          },
+          {
+            "mile": 1.42,
+            "elev": 2292,
+            "coord": [
+              45.05195388108831,
+              -70.33109268292682
+            ]
+          },
+          {
+            "mile": 1.5,
+            "elev": 2371,
+            "coord": [
+              45.05115142099744,
+              -70.32998048780487
+            ]
+          },
+          {
+            "mile": 1.58,
+            "elev": 2449,
+            "coord": [
+              45.05030066710562,
+              -70.32886829268293
+            ]
+          },
+          {
+            "mile": 1.66,
+            "elev": 2534,
+            "coord": [
+              45.04940104415379,
+              -70.32775609756098
+            ]
+          },
+          {
+            "mile": 1.75,
+            "elev": 2588,
+            "coord": [
+              45.04845226366598,
+              -70.32664390243902
+            ]
+          },
+          {
+            "mile": 1.84,
+            "elev": 2645,
+            "coord": [
+              45.0474543256422,
+              -70.32553170731707
+            ]
+          },
+          {
+            "mile": 1.93,
+            "elev": 2699,
+            "coord": [
+              45.04640751855842,
+              -70.32441951219512
+            ]
+          },
+          {
+            "mile": 2.02,
+            "elev": 2735,
+            "coord": [
+              45.04531241767368,
+              -70.32330731707317
+            ]
+          },
+          {
+            "mile": 2.11,
+            "elev": 2777,
+            "coord": [
+              45.04416988165424,
+              -70.32219512195122
+            ]
+          },
+          {
+            "mile": 2.21,
+            "elev": 2844,
+            "coord": [
+              45.04298104753461,
+              -70.32108292682926
+            ]
+          },
+          {
+            "mile": 2.31,
+            "elev": 2976,
+            "coord": [
+              45.04174732404497,
+              -70.31997073170731
+            ]
+          },
+          {
+            "mile": 2.42,
+            "elev": 3083,
+            "coord": [
+              45.040470383344136,
+              -70.31885853658537
+            ]
+          },
+          {
+            "mile": 2.52,
+            "elev": 3274,
+            "coord": [
+              45.039152151206736,
+              -70.31774634146342
+            ]
+          },
+          {
+            "mile": 2.63,
+            "elev": 3410,
+            "coord": [
+              45.03779479572195,
+              -70.31663414634146
+            ]
+          },
+          {
+            "mile": 2.74,
+            "elev": 3577,
+            "coord": [
+              45.03640071457033,
+              -70.31552195121951
+            ]
+          },
+          {
+            "mile": 2.86,
+            "elev": 3780,
+            "coord": [
+              45.03497252095323,
+              -70.31440975609756
+            ]
+          },
+          {
+            "mile": 2.97,
+            "elev": 3977,
+            "coord": [
+              45.03351302825754,
+              -70.31329756097561
+            ]
+          },
+          {
+            "mile": 3.09,
+            "elev": 4154,
+            "coord": [
+              45.032025233545546,
+              -70.31218536585367
+            ]
+          },
+          {
+            "mile": 3.45,
+            "elev": 3515,
+            "coord": [
+              45.026792682926825,
+              -70.3110731707317
+            ]
+          },
+          {
+            "mile": 3.54,
+            "elev": 3335,
+            "coord": [
+              45.02584390243902,
+              -70.30996097560975
+            ]
+          },
+          {
+            "mile": 3.62,
+            "elev": 3134,
+            "coord": [
+              45.02489512195122,
+              -70.3088487804878
+            ]
+          },
+          {
+            "mile": 3.71,
+            "elev": 2960,
+            "coord": [
+              45.023946341463414,
+              -70.30773658536586
+            ]
+          },
+          {
+            "mile": 3.79,
+            "elev": 2747,
+            "coord": [
+              45.022997560975604,
+              -70.3066243902439
+            ]
+          },
+          {
+            "mile": 3.88,
+            "elev": 2533,
+            "coord": [
+              45.0220487804878,
+              -70.30551219512195
+            ]
+          },
+          {
+            "mile": 3.96,
+            "elev": 2401,
+            "coord": [
+              45.0211,
+              -70.3044
+            ]
+          },
+          {
+            "mile": 4.0,
+            "elev": 2361,
+            "coord": [
+              45.02083411117586,
+              -70.30374
+            ]
+          },
+          {
+            "mile": 4.04,
+            "elev": 2317,
+            "coord": [
+              45.020417685277884,
+              -70.30308000000001
+            ]
+          },
+          {
+            "mile": 4.1,
+            "elev": 2278,
+            "coord": [
+              45.01975768527789,
+              -70.30242
+            ]
+          },
+          {
+            "mile": 4.17,
+            "elev": 2241,
+            "coord": [
+              45.018854111175855,
+              -70.30176
+            ]
+          },
+          {
+            "mile": 4.25,
+            "elev": 2223,
+            "coord": [
+              45.0178,
+              -70.3011
+            ]
+          },
+          {
+            "mile": 4.27,
+            "elev": 2221,
+            "coord": [
+              45.01758,
+              -70.30088
+            ]
+          },
+          {
+            "mile": 4.29,
+            "elev": 2221,
+            "coord": [
+              45.017360000000004,
+              -70.30066000000001
+            ]
+          },
+          {
+            "mile": 4.31,
+            "elev": 2221,
+            "coord": [
+              45.01714,
+              -70.30044
+            ]
+          },
+          {
+            "mile": 4.32,
+            "elev": 2225,
+            "coord": [
+              45.01692,
+              -70.30022
+            ]
+          },
+          {
+            "mile": 4.34,
+            "elev": 2214,
+            "coord": [
+              45.0167,
+              -70.3
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            45.06,
+            -70.35
+          ],
+          "summit": [
+            45.0167,
+            -70.3,
+            4010
+          ],
+          "stop_0": [
+            45.0211,
+            -70.3044,
+            "Spaulding Lean-to"
+          ],
+          "stop_1": [
+            45.0178,
+            -70.3011,
+            "Summit Spur"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Spaulding Lean-to",
+          "lat": 45.0211,
+          "lon": -70.3044,
+          "type": "shelter",
+          "mile": 3.0
+        },
+        {
+          "name": "Summit Spur",
+          "lat": 45.0178,
+          "lon": -70.3011,
+          "type": "junction",
+          "mile": 3.4
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "Spaulding Mountain Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Plan your Spaulding Mountain hike with live conditions, 1 trail maps & parking info. NH 4000-Footer at 4,010 ft.",
+    "canonical_url": "/trails/maine/spaulding-mountain-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Spaulding Mountain",
+      "description": "Spaulding Mountain is a 4,010 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.0167,
+        "longitude": -70.3,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4010,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Appalachian Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 45.06,
+            "longitude": -70.35
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Spaulding Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Spaulding Mountain take 3-5 hours round trip. The most popular trail is 7.2 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Spaulding Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spaulding Mountain is rated Hard. At 4,010 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Spaulding Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Spaulding Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Spaulding Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Appalachian Trail, offering AT route passing Spaulding between Sugarloaf and Abraham.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Spaulding Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Spaulding Mountain is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Spaulding Mountain",
+      "subtitle": "NH 4000-Footer \u2022 4,010 ft",
+      "quick_stats": {
+        "elevation": "4,010 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate to Hard",
+        "list_name": "Maine 4000-Footers"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,010 feet, Spaulding Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Appalachian Trail**, covers 7.2 miles and is rated \n    Hard. AT route passing Spaulding between Sugarloaf and Abraham.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Sugarloaf Mountain lies just 1.2 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, snow above 3000ft until May",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": false
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Best weather, occasional afternoon thunderstorms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Peak foliage late Sept, early snow possible in October",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Full winter conditions, extreme cold and wind above treeline",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Winter hiking requires specialized skills and gear. Never hike alone. Check avalanche conditions for steeper terrain.",
+        "crowd_level": "Low",
+        "recommended": false
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "\u26a0\ufe0f ALPINE ZONE: Weather changes rapidly. Turn back if conditions deteriorate.",
+        "Winter conditions in effect - full mountaineering gear required",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        },
+        {
+          "item": "Extra warm layer for summit",
+          "critical": true
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "2:00 PM recommended for summit"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Spaulding Mountain?",
+        "answer": "Most routes on Spaulding Mountain take 3-5 hours round trip. The most popular trail is 7.2 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Spaulding Mountain hard to hike?",
+        "answer": "Spaulding Mountain is rated Hard. At 4,010 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Spaulding Mountain?",
+        "answer": "No hiking permit is required for Spaulding Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Spaulding Mountain?",
+        "answer": "The most popular route is the Appalachian Trail, offering AT route passing Spaulding between Sugarloaf and Abraham.."
+      },
+      {
+        "question": "When is the best time to hike Spaulding Mountain?",
+        "answer": "The best hiking season for Spaulding Mountain is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Sugarloaf Mountain",
+        "slug": "sugarloaf-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4237,
+        "distance_miles": 1.2,
+        "link_text": "Hike Sugarloaf Mountain",
+        "combo_suggestion": "Combine Spaulding Mountain with Sugarloaf Mountain for a longer day",
+        "comparison": "Higher summit (+227 ft)"
+      },
+      {
+        "name": "Mount Abraham",
+        "slug": "mount-abraham-me",
+        "state_slug": "maine",
+        "elevation": 4049,
+        "distance_miles": 3.5,
+        "link_text": "Hike Mount Abraham",
+        "combo_suggestion": "Combine Spaulding Mountain with Mount Abraham for a longer day",
+        "comparison": "Higher summit (+39 ft)"
+      },
+      {
+        "name": "Crocker Mountain",
+        "slug": "crocker-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4228,
+        "distance_miles": 4.2,
+        "link_text": "Hike Crocker Mountain",
+        "combo_suggestion": "Combine Spaulding Mountain with Crocker Mountain for a longer day",
+        "comparison": "Higher summit (+218 ft)"
+      },
+      {
+        "name": "South Crocker Mountain",
+        "slug": "south-crocker-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4048,
+        "distance_miles": 4.8,
+        "link_text": "Hike South Crocker Mountain",
+        "combo_suggestion": "Combine Spaulding Mountain with South Crocker Mountain for a longer day",
+        "comparison": "Higher summit (+38 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Spaulding Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Appalachian Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "spaulding-mountain-me-all-trails.gpx",
+        "label": "Download All Spaulding Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "spaulding-mountain-me-trail-guide.pdf",
+        "label": "Spaulding Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "spaulding-mountain-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Spaulding%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,010 feet, Spaulding Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Appalachian Trail**, covers 7.2 miles and is rated \n    Hard. AT route passing Spaulding between Sugarloaf and Abraham.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Sugarloaf Mountain lies just 1.2 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

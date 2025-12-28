@@ -1,0 +1,1314 @@
+{
+  "name": "Haystack Mountain",
+  "slug": "haystack-mountain-vt",
+  "state": "Vermont",
+  "state_slug": "vermont",
+  "elevation": 3420,
+  "lat": 42.9392,
+  "lon": -72.9092,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "Views",
+    "Remote",
+    "Southern VT"
+  ],
+  "trails_config": [
+    {
+      "name": "Haystack Mountain Trail",
+      "osm_name": "Haystack Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.2,
+      "elevation_gain": 1100,
+      "tags": [],
+      "description": "Quiet trail to a remote summit with nice views.",
+      "parking_info": "Binney Brook Rd Trailhead",
+      "parking_details": {
+        "capacity": "Small (~8 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 42.9233,
+      "start_lon": -72.9183
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Glastenbury Mountain",
+      "slug": "glastenbury-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3748,
+      "distance_miles": 7.7
+    },
+    {
+      "name": "Stratton Mountain",
+      "slug": "stratton-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3936,
+      "distance_miles": 10.0
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T11:13:36.850828",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-28T11:14:17.637379",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "cbaf2dbb",
+      "name": "Haystack Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.2,
+      "elevation_gain": 1100,
+      "description": "Quiet trail to a remote summit with nice views.",
+      "tags": [],
+      "parking_info": "Binney Brook Rd Trailhead",
+      "parking_details": {
+        "capacity": "Small (~8 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 42.9233,
+      "start_lon": -72.9183,
+      "logistics": {
+        "start_coords": [
+          42.9233,
+          -72.9183
+        ],
+        "parking_info": "Binney Brook Rd Trailhead",
+        "directions_url": "https://www.google.com/maps/dir//42.9233,-72.9183",
+        "capacity": "Small (~8 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 1.3,
+        "gain": 459,
+        "max_elev": 3433,
+        "min_elev": 3152,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.7,
+        "_distance_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            42.923836,
+            -72.917347,
+            3152
+          ],
+          [
+            42.923706,
+            -72.917101,
+            3171
+          ],
+          [
+            42.92369,
+            -72.916871,
+            3178
+          ],
+          [
+            42.924112,
+            -72.916621,
+            3193
+          ],
+          [
+            42.92413,
+            -72.916479,
+            3198
+          ],
+          [
+            42.924275,
+            -72.916454,
+            3198
+          ],
+          [
+            42.924361,
+            -72.916301,
+            3199
+          ],
+          [
+            42.924457,
+            -72.916106,
+            3192
+          ],
+          [
+            42.92451,
+            -72.916001,
+            3189
+          ],
+          [
+            42.924613,
+            -72.915941,
+            3190
+          ],
+          [
+            42.924734,
+            -72.915895,
+            3211
+          ],
+          [
+            42.924792,
+            -72.915855,
+            3211
+          ],
+          [
+            42.924891,
+            -72.915783,
+            3218
+          ],
+          [
+            42.925054,
+            -72.91572,
+            3222
+          ],
+          [
+            42.925182,
+            -72.915807,
+            3229
+          ],
+          [
+            42.925275,
+            -72.915799,
+            3232
+          ],
+          [
+            42.925397,
+            -72.915871,
+            3240
+          ],
+          [
+            42.92556,
+            -72.915902,
+            3245
+          ],
+          [
+            42.925664,
+            -72.915942,
+            3249
+          ],
+          [
+            42.925752,
+            -72.91603,
+            3252
+          ],
+          [
+            42.925833,
+            -72.916069,
+            3252
+          ],
+          [
+            42.925932,
+            -72.916061,
+            3252
+          ],
+          [
+            42.92606,
+            -72.915982,
+            3252
+          ],
+          [
+            42.926176,
+            -72.915887,
+            3255
+          ],
+          [
+            42.926257,
+            -72.915799,
+            3253
+          ],
+          [
+            42.926647,
+            -72.915767,
+            3250
+          ],
+          [
+            42.926728,
+            -72.91572,
+            3247
+          ],
+          [
+            42.926827,
+            -72.915744,
+            3241
+          ],
+          [
+            42.926961,
+            -72.915783,
+            3231
+          ],
+          [
+            42.927048,
+            -72.915736,
+            3227
+          ],
+          [
+            42.927153,
+            -72.915728,
+            3222
+          ],
+          [
+            42.927351,
+            -72.915775,
+            3210
+          ],
+          [
+            42.927467,
+            -72.915807,
+            3207
+          ],
+          [
+            42.927618,
+            -72.915839,
+            3210
+          ],
+          [
+            42.927816,
+            -72.915887,
+            3209
+          ],
+          [
+            42.927903,
+            -72.915887,
+            3209
+          ],
+          [
+            42.928037,
+            -72.916006,
+            3210
+          ],
+          [
+            42.928182,
+            -72.91618,
+            3216
+          ],
+          [
+            42.928355,
+            -72.916395,
+            3221
+          ],
+          [
+            42.92848,
+            -72.916377,
+            3215
+          ],
+          [
+            42.928645,
+            -72.91644,
+            3222
+          ],
+          [
+            42.928763,
+            -72.916476,
+            3225
+          ],
+          [
+            42.928855,
+            -72.91653,
+            3234
+          ],
+          [
+            42.929026,
+            -72.916718,
+            3238
+          ],
+          [
+            42.929086,
+            -72.9167,
+            3245
+          ],
+          [
+            42.929211,
+            -72.916664,
+            3245
+          ],
+          [
+            42.929308,
+            -72.916733,
+            3252
+          ],
+          [
+            42.929389,
+            -72.91682,
+            3260
+          ],
+          [
+            42.929453,
+            -72.916844,
+            3266
+          ],
+          [
+            42.929546,
+            -72.916947,
+            3280
+          ],
+          [
+            42.929649,
+            -72.916997,
+            3283
+          ],
+          [
+            42.929775,
+            -72.917048,
+            3292
+          ],
+          [
+            42.929932,
+            -72.91714,
+            3310
+          ],
+          [
+            42.930096,
+            -72.917374,
+            3323
+          ],
+          [
+            42.930267,
+            -72.917435,
+            3331
+          ],
+          [
+            42.930357,
+            -72.917415,
+            3336
+          ],
+          [
+            42.930499,
+            -72.917425,
+            3338
+          ],
+          [
+            42.930595,
+            -72.917506,
+            3336
+          ],
+          [
+            42.930789,
+            -72.917801,
+            3336
+          ],
+          [
+            42.930871,
+            -72.917893,
+            3336
+          ],
+          [
+            42.93096,
+            -72.917897,
+            3337
+          ],
+          [
+            42.931065,
+            -72.91791,
+            3337
+          ],
+          [
+            42.931218,
+            -72.918002,
+            3340
+          ],
+          [
+            42.931323,
+            -72.918041,
+            3341
+          ],
+          [
+            42.931485,
+            -72.917897,
+            3355
+          ],
+          [
+            42.931562,
+            -72.91791,
+            3355
+          ],
+          [
+            42.931648,
+            -72.917949,
+            3354
+          ],
+          [
+            42.931791,
+            -72.91791,
+            3350
+          ],
+          [
+            42.931921,
+            -72.917738,
+            3347
+          ],
+          [
+            42.932008,
+            -72.917682,
+            3341
+          ],
+          [
+            42.932113,
+            -72.917698,
+            3340
+          ],
+          [
+            42.932258,
+            -72.917722,
+            3330
+          ],
+          [
+            42.932461,
+            -72.917746,
+            3322
+          ],
+          [
+            42.932589,
+            -72.917738,
+            3319
+          ],
+          [
+            42.932694,
+            -72.917658,
+            3312
+          ],
+          [
+            42.932845,
+            -72.917643,
+            3309
+          ],
+          [
+            42.932938,
+            -72.917619,
+            3306
+          ],
+          [
+            42.933049,
+            -72.917523,
+            3300
+          ],
+          [
+            42.933194,
+            -72.917539,
+            3292
+          ],
+          [
+            42.933322,
+            -72.917619,
+            3290
+          ],
+          [
+            42.93338,
+            -72.917674,
+            3287
+          ],
+          [
+            42.933438,
+            -72.917698,
+            3284
+          ],
+          [
+            42.933592,
+            -72.917736,
+            3279
+          ],
+          [
+            42.933727,
+            -72.917636,
+            3272
+          ],
+          [
+            42.933825,
+            -72.917686,
+            3270
+          ],
+          [
+            42.933935,
+            -72.91782,
+            3268
+          ],
+          [
+            42.934046,
+            -72.917837,
+            3267
+          ],
+          [
+            42.934352,
+            -72.917714,
+            3259
+          ],
+          [
+            42.934529,
+            -72.917606,
+            3256
+          ],
+          [
+            42.934681,
+            -72.917436,
+            3252
+          ],
+          [
+            42.934837,
+            -72.917339,
+            3249
+          ],
+          [
+            42.934929,
+            -72.917429,
+            3254
+          ],
+          [
+            42.935028,
+            -72.917492,
+            3259
+          ],
+          [
+            42.9351,
+            -72.917645,
+            3271
+          ],
+          [
+            42.935205,
+            -72.917689,
+            3277
+          ],
+          [
+            42.935403,
+            -72.917761,
+            3285
+          ],
+          [
+            42.935548,
+            -72.917824,
+            3289
+          ],
+          [
+            42.935719,
+            -72.917986,
+            3294
+          ],
+          [
+            42.935807,
+            -72.918041,
+            3297
+          ],
+          [
+            42.935993,
+            -72.918017,
+            3294
+          ],
+          [
+            42.936208,
+            -72.917961,
+            3303
+          ],
+          [
+            42.936353,
+            -72.918017,
+            3312
+          ],
+          [
+            42.936458,
+            -72.918112,
+            3323
+          ],
+          [
+            42.936626,
+            -72.918223,
+            3334
+          ],
+          [
+            42.936784,
+            -72.918196,
+            3341
+          ],
+          [
+            42.937081,
+            -72.918097,
+            3361
+          ],
+          [
+            42.937272,
+            -72.918016,
+            3365
+          ],
+          [
+            42.937337,
+            -72.918043,
+            3370
+          ],
+          [
+            42.937449,
+            -72.918079,
+            3370
+          ],
+          [
+            42.937673,
+            -72.918097,
+            3372
+          ],
+          [
+            42.937818,
+            -72.918169,
+            3377
+          ],
+          [
+            42.937955,
+            -72.918285,
+            3385
+          ],
+          [
+            42.938067,
+            -72.918366,
+            3391
+          ],
+          [
+            42.938258,
+            -72.918357,
+            3394
+          ],
+          [
+            42.938414,
+            -72.918441,
+            3399
+          ],
+          [
+            42.9386,
+            -72.918536,
+            3404
+          ],
+          [
+            42.938675,
+            -72.91856,
+            3405
+          ],
+          [
+            42.938739,
+            -72.918536,
+            3405
+          ],
+          [
+            42.938803,
+            -72.918552,
+            3408
+          ],
+          [
+            42.938896,
+            -72.918631,
+            3412
+          ],
+          [
+            42.93896,
+            -72.918631,
+            3412
+          ],
+          [
+            42.93907,
+            -72.918576,
+            3411
+          ],
+          [
+            42.93918,
+            -72.91852,
+            3418
+          ],
+          [
+            42.939233,
+            -72.918486,
+            3417
+          ],
+          [
+            42.939393,
+            -72.918395,
+            3424
+          ],
+          [
+            42.93948,
+            -72.918347,
+            3429
+          ],
+          [
+            42.939618,
+            -72.918304,
+            3432
+          ],
+          [
+            42.939705,
+            -72.91824,
+            3433
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 3152,
+            "coord": [
+              42.923836,
+              -72.917347
+            ]
+          },
+          {
+            "mile": 0.01,
+            "elev": 3198,
+            "coord": [
+              42.92413,
+              -72.916479
+            ]
+          },
+          {
+            "mile": 0.01,
+            "elev": 3189,
+            "coord": [
+              42.92451,
+              -72.916001
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 3218,
+            "coord": [
+              42.924891,
+              -72.915783
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 3240,
+            "coord": [
+              42.925397,
+              -72.915871
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 3252,
+            "coord": [
+              42.925833,
+              -72.916069
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 3253,
+            "coord": [
+              42.926257,
+              -72.915799
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 3231,
+            "coord": [
+              42.926961,
+              -72.915783
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 3207,
+            "coord": [
+              42.927467,
+              -72.915807
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 3210,
+            "coord": [
+              42.928037,
+              -72.916006
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 3222,
+            "coord": [
+              42.928645,
+              -72.91644
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 3245,
+            "coord": [
+              42.929086,
+              -72.9167
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 3266,
+            "coord": [
+              42.929453,
+              -72.916844
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 3310,
+            "coord": [
+              42.929932,
+              -72.91714
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 3338,
+            "coord": [
+              42.930499,
+              -72.917425
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 3337,
+            "coord": [
+              42.93096,
+              -72.917897
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 3355,
+            "coord": [
+              42.931485,
+              -72.917897
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 3347,
+            "coord": [
+              42.931921,
+              -72.917738
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 3322,
+            "coord": [
+              42.932461,
+              -72.917746
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 3306,
+            "coord": [
+              42.932938,
+              -72.917619
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 3287,
+            "coord": [
+              42.93338,
+              -72.917674
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 3270,
+            "coord": [
+              42.933825,
+              -72.917686
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 3256,
+            "coord": [
+              42.934529,
+              -72.917606
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 3259,
+            "coord": [
+              42.935028,
+              -72.917492
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 3289,
+            "coord": [
+              42.935548,
+              -72.917824
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 3303,
+            "coord": [
+              42.936208,
+              -72.917961
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 3341,
+            "coord": [
+              42.936784,
+              -72.918196
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 3370,
+            "coord": [
+              42.937449,
+              -72.918079
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 3391,
+            "coord": [
+              42.938067,
+              -72.918366
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 3405,
+            "coord": [
+              42.938675,
+              -72.91856
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 3412,
+            "coord": [
+              42.93896,
+              -72.918631
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 3424,
+            "coord": [
+              42.939393,
+              -72.918395
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            42.923836,
+            -72.917347,
+            3152
+          ],
+          "summit": [
+            42.9392,
+            -72.9092,
+            3420
+          ]
+        }
+      },
+      "features": []
+    }
+  ],
+  "seo": {
+    "meta_title": "Haystack Mountain Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Haystack Mountain (3,420 ft) in Vermont. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/vermont/haystack-mountain-vt",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Haystack Mountain",
+      "description": "Haystack Mountain is a 3,420 foot peak in Vermont offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.9392,
+        "longitude": -72.9092,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3420,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Vermont",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Haystack Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.9233,
+            "longitude": -72.9183
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Haystack Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Haystack Mountain take 2-4 hours round trip. The most popular trail is 4.2 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Haystack Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haystack Mountain is rated Moderate. At 3,420 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Haystack Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Haystack Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Haystack Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Haystack Mountain Trail, offering Quiet trail to a remote summit with nice views.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Haystack Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Haystack Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Haystack Mountain",
+      "subtitle": "Classic White Mountain Peak \u2022 3,420 ft",
+      "quick_stats": {
+        "elevation": "3,420 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,420 feet, Haystack Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Haystack Mountain Trail**, covers 4.2 miles and is rated \n    Moderate. Quiet trail to a remote summit with nice views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Glastenbury Mountain lies just 7.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Haystack Mountain?",
+        "answer": "Most routes on Haystack Mountain take 2-4 hours round trip. The most popular trail is 4.2 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Haystack Mountain hard to hike?",
+        "answer": "Haystack Mountain is rated Moderate. At 3,420 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Haystack Mountain?",
+        "answer": "No hiking permit is required for Haystack Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Haystack Mountain?",
+        "answer": "The most popular route is the Haystack Mountain Trail, offering Quiet trail to a remote summit with nice views.."
+      },
+      {
+        "question": "When is the best time to hike Haystack Mountain?",
+        "answer": "The best hiking season for Haystack Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Glastenbury Mountain",
+        "slug": "glastenbury-mountain-vt",
+        "state_slug": "vermont",
+        "elevation": 3748,
+        "distance_miles": 7.7,
+        "link_text": "Hike Glastenbury Mountain",
+        "combo_suggestion": "Combine Haystack Mountain with Glastenbury Mountain for a longer day",
+        "comparison": "Higher summit (+328 ft)"
+      },
+      {
+        "name": "Stratton Mountain",
+        "slug": "stratton-mountain-vt",
+        "state_slug": "vermont",
+        "elevation": 3936,
+        "distance_miles": 10.0,
+        "link_text": "Hike Stratton Mountain",
+        "combo_suggestion": "Combine Haystack Mountain with Stratton Mountain for a longer day",
+        "comparison": "Higher summit (+516 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Haystack Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Haystack Mountain Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "haystack-mountain-vt-all-trails.gpx",
+        "label": "Download All Haystack Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "haystack-mountain-vt-trail-guide.pdf",
+        "label": "Haystack Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "haystack-mountain-vt-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Haystack%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,420 feet, Haystack Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Haystack Mountain Trail**, covers 4.2 miles and is rated \n    Moderate. Quiet trail to a remote summit with nice views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Glastenbury Mountain lies just 7.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

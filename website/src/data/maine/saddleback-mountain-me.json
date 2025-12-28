@@ -1,0 +1,1781 @@
+{
+  "name": "Saddleback Mountain",
+  "slug": "saddleback-mountain-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 4120,
+  "lat": 44.9367,
+  "lon": -70.5033,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "4000 Footer",
+    "AT",
+    "Alpine Zone",
+    "Ski Area"
+  ],
+  "trails_config": [
+    {
+      "name": "Berry Pickers Trail",
+      "osm_name": "Berry Pickers Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 10.0,
+      "elevation_gain": 2892,
+      "tags": [
+        "Appalachian Trail"
+      ],
+      "description": "Approach via Fly Rod Crosby Trail to AT. Can combine with The Horn.",
+      "parking_info": "Berry Pickers Trailhead",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "High clearance recommended",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.9133,
+      "start_lon": -70.5367,
+      "features": [
+        {
+          "name": "Eddy Pond",
+          "lat": 44.9256,
+          "lon": -70.5178,
+          "type": "pond",
+          "mile": 2.5
+        },
+        {
+          "name": "Saddleback Junior",
+          "lat": 44.9311,
+          "lon": -70.5089,
+          "type": "summit",
+          "mile": 3.5
+        },
+        {
+          "name": "The Horn Junction",
+          "lat": 44.9344,
+          "lon": -70.5044,
+          "type": "junction",
+          "mile": 4.2
+        }
+      ]
+    },
+    {
+      "name": "Ski Slope Route",
+      "osm_name": "Saddleback Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 5.0,
+      "elevation_gain": 2100,
+      "tags": [
+        "Ski Area"
+      ],
+      "description": "Ascent via ski trails to summit.",
+      "parking_info": "Saddleback Base Lodge",
+      "parking_details": {
+        "capacity": "Large (200+ cars)",
+        "status": "Check with resort",
+        "fee": "May require fee",
+        "shuttle": null
+      },
+      "start_lat": 44.9256,
+      "start_lon": -70.4933,
+      "features": [
+        {
+          "name": "Mid-Station",
+          "lat": 44.9311,
+          "lon": -70.4989,
+          "type": "landmark",
+          "mile": 1.8
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "The Horn",
+      "slug": "the-horn-me",
+      "state_slug": "maine",
+      "elevation": 4023,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Crocker Mountain",
+      "slug": "crocker-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4228,
+      "distance_miles": 8.9
+    },
+    {
+      "name": "Angel Falls",
+      "slug": "angel-falls-me",
+      "state_slug": "maine",
+      "elevation": 1800,
+      "distance_miles": 9.1
+    },
+    {
+      "name": "South Crocker Mountain",
+      "slug": "south-crocker-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4048,
+      "distance_miles": 9.1
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:14:36.553257",
+    "refiner_version": "2.1.0",
+    "validation_issues": 3,
+    "validation_log": [
+      "DISTANCE_UNDERESTIMATE: Berry Pickers Trail calculated 2.2mi but seed says 10.0mi. Using seed value.",
+      "DISTANCE_UNDERESTIMATE: Ski Slope Route calculated 0.9mi but seed says 5.0mi. Using seed value.",
+      "SPARSE_GEOMETRY: Ski Slope Route has only 11 points for 5.0mi (2.2 pts/mi)"
+    ],
+    "last_updated": "2025-12-28T16:15:17.213494",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "640c39d4",
+      "name": "Berry Pickers Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 10.0,
+      "elevation_gain": 2892,
+      "description": "Approach via Fly Rod Crosby Trail to AT. Can combine with The Horn.",
+      "tags": [
+        "Appalachian Trail"
+      ],
+      "parking_info": "Berry Pickers Trailhead",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "High clearance recommended",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.9133,
+      "start_lon": -70.5367,
+      "logistics": {
+        "start_coords": [
+          44.9133,
+          -70.5367
+        ],
+        "parking_info": "Berry Pickers Trailhead",
+        "directions_url": "https://www.google.com/maps/dir//44.9133,-70.5367",
+        "capacity": "Small (~10 cars)",
+        "status": "High clearance recommended",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 10.0,
+        "gain": 1560,
+        "max_elev": 4119,
+        "min_elev": 2640,
+        "type": "Out & Back",
+        "difficulty": "Hard",
+        "time": 4.1,
+        "_original_calculated_distance": 2.2,
+        "_distance_source": "seed_override",
+        "_elevation_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            44.915513,
+            -70.526619,
+            2653
+          ],
+          [
+            44.915683,
+            -70.526693,
+            2669
+          ],
+          [
+            44.91594,
+            -70.526736,
+            2675
+          ],
+          [
+            44.916052,
+            -70.526701,
+            2675
+          ],
+          [
+            44.91623,
+            -70.526403,
+            2662
+          ],
+          [
+            44.916288,
+            -70.526048,
+            2660
+          ],
+          [
+            44.916272,
+            -70.525655,
+            2659
+          ],
+          [
+            44.916436,
+            -70.525382,
+            2665
+          ],
+          [
+            44.916736,
+            -70.525043,
+            2665
+          ],
+          [
+            44.916867,
+            -70.52473,
+            2659
+          ],
+          [
+            44.916871,
+            -70.52391,
+            2659
+          ],
+          [
+            44.917047,
+            -70.523542,
+            2649
+          ],
+          [
+            44.917174,
+            -70.523185,
+            2653
+          ],
+          [
+            44.917231,
+            -70.523118,
+            2652
+          ],
+          [
+            44.917305,
+            -70.523112,
+            2652
+          ],
+          [
+            44.91752,
+            -70.523187,
+            2648
+          ],
+          [
+            44.917846,
+            -70.523224,
+            2645
+          ],
+          [
+            44.918012,
+            -70.523364,
+            2644
+          ],
+          [
+            44.918304,
+            -70.523539,
+            2642
+          ],
+          [
+            44.91857,
+            -70.523761,
+            2642
+          ],
+          [
+            44.918933,
+            -70.524185,
+            2641
+          ],
+          [
+            44.919212,
+            -70.524467,
+            2640
+          ],
+          [
+            44.919314,
+            -70.524459,
+            2642
+          ],
+          [
+            44.919524,
+            -70.524443,
+            2649
+          ],
+          [
+            44.919824,
+            -70.524499,
+            2651
+          ],
+          [
+            44.920021,
+            -70.524499,
+            2660
+          ],
+          [
+            44.920171,
+            -70.524483,
+            2665
+          ],
+          [
+            44.920527,
+            -70.524349,
+            2683
+          ],
+          [
+            44.920791,
+            -70.524325,
+            2699
+          ],
+          [
+            44.921093,
+            -70.524223,
+            2707
+          ],
+          [
+            44.921277,
+            -70.524121,
+            2714
+          ],
+          [
+            44.921334,
+            -70.524006,
+            2724
+          ],
+          [
+            44.921359,
+            -70.52367,
+            2747
+          ],
+          [
+            44.921602,
+            -70.523426,
+            2772
+          ],
+          [
+            44.921706,
+            -70.523332,
+            2793
+          ],
+          [
+            44.921797,
+            -70.523299,
+            2808
+          ],
+          [
+            44.921966,
+            -70.523322,
+            2833
+          ],
+          [
+            44.922369,
+            -70.523075,
+            2870
+          ],
+          [
+            44.922513,
+            -70.522942,
+            2887
+          ],
+          [
+            44.92272,
+            -70.522903,
+            2905
+          ],
+          [
+            44.922811,
+            -70.522761,
+            2926
+          ],
+          [
+            44.922897,
+            -70.522501,
+            2936
+          ],
+          [
+            44.923235,
+            -70.522251,
+            2981
+          ],
+          [
+            44.923381,
+            -70.522082,
+            3005
+          ],
+          [
+            44.923429,
+            -70.521999,
+            3014
+          ],
+          [
+            44.923408,
+            -70.521884,
+            3018
+          ],
+          [
+            44.92336,
+            -70.521716,
+            3029
+          ],
+          [
+            44.923339,
+            -70.521535,
+            3041
+          ],
+          [
+            44.923453,
+            -70.521441,
+            3050
+          ],
+          [
+            44.923592,
+            -70.521385,
+            3057
+          ],
+          [
+            44.923703,
+            -70.521194,
+            3074
+          ],
+          [
+            44.923882,
+            -70.520752,
+            3093
+          ],
+          [
+            44.923913,
+            -70.520234,
+            3123
+          ],
+          [
+            44.924141,
+            -70.520047,
+            3141
+          ],
+          [
+            44.924355,
+            -70.519856,
+            3157
+          ],
+          [
+            44.924467,
+            -70.519526,
+            3196
+          ],
+          [
+            44.924728,
+            -70.519135,
+            3219
+          ],
+          [
+            44.924857,
+            -70.518711,
+            3242
+          ],
+          [
+            44.925194,
+            -70.517861,
+            3311
+          ],
+          [
+            44.925361,
+            -70.51752,
+            3339
+          ],
+          [
+            44.925366,
+            -70.517356,
+            3354
+          ],
+          [
+            44.925449,
+            -70.516951,
+            3389
+          ],
+          [
+            44.925694,
+            -70.517089,
+            3408
+          ],
+          [
+            44.926124,
+            -70.516623,
+            3475
+          ],
+          [
+            44.926472,
+            -70.515914,
+            3560
+          ],
+          [
+            44.926423,
+            -70.515671,
+            3576
+          ],
+          [
+            44.926441,
+            -70.515542,
+            3588
+          ],
+          [
+            44.92645,
+            -70.515174,
+            3617
+          ],
+          [
+            44.926462,
+            -70.515005,
+            3622
+          ],
+          [
+            44.926469,
+            -70.514975,
+            3626
+          ],
+          [
+            44.926624,
+            -70.515015,
+            3636
+          ],
+          [
+            44.926852,
+            -70.514867,
+            3674
+          ],
+          [
+            44.926938,
+            -70.514698,
+            3689
+          ],
+          [
+            44.926918,
+            -70.514609,
+            3698
+          ],
+          [
+            44.926871,
+            -70.513977,
+            3741
+          ],
+          [
+            44.926893,
+            -70.513942,
+            3741
+          ],
+          [
+            44.926942,
+            -70.513935,
+            3741
+          ],
+          [
+            44.927155,
+            -70.51386,
+            3752
+          ],
+          [
+            44.927253,
+            -70.513965,
+            3750
+          ],
+          [
+            44.927337,
+            -70.514001,
+            3755
+          ],
+          [
+            44.927373,
+            -70.513943,
+            3760
+          ],
+          [
+            44.927365,
+            -70.513685,
+            3778
+          ],
+          [
+            44.927491,
+            -70.513549,
+            3785
+          ],
+          [
+            44.927584,
+            -70.513483,
+            3791
+          ],
+          [
+            44.92778,
+            -70.513412,
+            3797
+          ],
+          [
+            44.928375,
+            -70.513051,
+            3818
+          ],
+          [
+            44.928664,
+            -70.512935,
+            3824
+          ],
+          [
+            44.928763,
+            -70.512884,
+            3832
+          ],
+          [
+            44.928943,
+            -70.512829,
+            3851
+          ],
+          [
+            44.929419,
+            -70.512478,
+            3875
+          ],
+          [
+            44.929574,
+            -70.512445,
+            3886
+          ],
+          [
+            44.929701,
+            -70.512319,
+            3893
+          ],
+          [
+            44.929836,
+            -70.5121,
+            3907
+          ],
+          [
+            44.929942,
+            -70.512062,
+            3908
+          ],
+          [
+            44.930326,
+            -70.511584,
+            3926
+          ],
+          [
+            44.930585,
+            -70.511281,
+            3936
+          ],
+          [
+            44.9308,
+            -70.511053,
+            3943
+          ],
+          [
+            44.930991,
+            -70.510828,
+            3956
+          ],
+          [
+            44.931069,
+            -70.510609,
+            3965
+          ],
+          [
+            44.931174,
+            -70.51052,
+            3971
+          ],
+          [
+            44.931256,
+            -70.510347,
+            3973
+          ],
+          [
+            44.931402,
+            -70.510165,
+            3974
+          ],
+          [
+            44.931551,
+            -70.509947,
+            3973
+          ],
+          [
+            44.931596,
+            -70.509899,
+            3974
+          ],
+          [
+            44.931873,
+            -70.509611,
+            3986
+          ],
+          [
+            44.931991,
+            -70.509413,
+            3990
+          ],
+          [
+            44.932169,
+            -70.509292,
+            4000
+          ],
+          [
+            44.932253,
+            -70.509132,
+            4009
+          ],
+          [
+            44.932436,
+            -70.508973,
+            4018
+          ],
+          [
+            44.93257,
+            -70.508857,
+            4023
+          ],
+          [
+            44.932662,
+            -70.508789,
+            4028
+          ],
+          [
+            44.932806,
+            -70.508758,
+            4032
+          ],
+          [
+            44.933027,
+            -70.508661,
+            4038
+          ],
+          [
+            44.933163,
+            -70.508644,
+            4035
+          ],
+          [
+            44.933373,
+            -70.508602,
+            4037
+          ],
+          [
+            44.933404,
+            -70.508591,
+            4037
+          ],
+          [
+            44.933596,
+            -70.508425,
+            4059
+          ],
+          [
+            44.933655,
+            -70.508244,
+            4068
+          ],
+          [
+            44.933741,
+            -70.508045,
+            4078
+          ],
+          [
+            44.933798,
+            -70.507936,
+            4079
+          ],
+          [
+            44.933939,
+            -70.507788,
+            4082
+          ],
+          [
+            44.934361,
+            -70.50742,
+            4099
+          ],
+          [
+            44.934537,
+            -70.507159,
+            4100
+          ],
+          [
+            44.934706,
+            -70.507005,
+            4102
+          ],
+          [
+            44.93489,
+            -70.506759,
+            4096
+          ],
+          [
+            44.935208,
+            -70.506712,
+            4078
+          ],
+          [
+            44.93547,
+            -70.506629,
+            4070
+          ],
+          [
+            44.935677,
+            -70.506363,
+            4063
+          ],
+          [
+            44.935727,
+            -70.506259,
+            4060
+          ],
+          [
+            44.935827,
+            -70.506054,
+            4059
+          ],
+          [
+            44.935865,
+            -70.505939,
+            4062
+          ],
+          [
+            44.935936,
+            -70.505738,
+            4076
+          ],
+          [
+            44.936046,
+            -70.505617,
+            4088
+          ],
+          [
+            44.936143,
+            -70.505111,
+            4108
+          ],
+          [
+            44.936271,
+            -70.504983,
+            4111
+          ],
+          [
+            44.936452,
+            -70.504763,
+            4119
+          ],
+          [
+            44.936527,
+            -70.504655,
+            4117
+          ],
+          [
+            44.936604,
+            -70.504572,
+            4111
+          ],
+          [
+            44.936665,
+            -70.504506,
+            4110
+          ],
+          [
+            44.936907,
+            -70.504219,
+            4097
+          ],
+          [
+            44.93697,
+            -70.504181,
+            4093
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2653,
+            "coord": [
+              44.915513,
+              -70.526619
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 2662,
+            "coord": [
+              44.91623,
+              -70.526403
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 2665,
+            "coord": [
+              44.916736,
+              -70.525043
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 2653,
+            "coord": [
+              44.917174,
+              -70.523185
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 2645,
+            "coord": [
+              44.917846,
+              -70.523224
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 2641,
+            "coord": [
+              44.918933,
+              -70.524185
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 2651,
+            "coord": [
+              44.919824,
+              -70.524499
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 2699,
+            "coord": [
+              44.920791,
+              -70.524325
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 2747,
+            "coord": [
+              44.921359,
+              -70.52367
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 2833,
+            "coord": [
+              44.921966,
+              -70.523322
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 2926,
+            "coord": [
+              44.922811,
+              -70.522761
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 3014,
+            "coord": [
+              44.923429,
+              -70.521999
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 3050,
+            "coord": [
+              44.923453,
+              -70.521441
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 3123,
+            "coord": [
+              44.923913,
+              -70.520234
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 3219,
+            "coord": [
+              44.924728,
+              -70.519135
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 3354,
+            "coord": [
+              44.925366,
+              -70.517356
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 3560,
+            "coord": [
+              44.926472,
+              -70.515914
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 3622,
+            "coord": [
+              44.926462,
+              -70.515005
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 3689,
+            "coord": [
+              44.926938,
+              -70.514698
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 3741,
+            "coord": [
+              44.926942,
+              -70.513935
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 3760,
+            "coord": [
+              44.927373,
+              -70.513943
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 3797,
+            "coord": [
+              44.92778,
+              -70.513412
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 3851,
+            "coord": [
+              44.928943,
+              -70.512829
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 3907,
+            "coord": [
+              44.929836,
+              -70.5121
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 3943,
+            "coord": [
+              44.9308,
+              -70.511053
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 3973,
+            "coord": [
+              44.931256,
+              -70.510347
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 3986,
+            "coord": [
+              44.931873,
+              -70.509611
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 4018,
+            "coord": [
+              44.932436,
+              -70.508973
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 4038,
+            "coord": [
+              44.933027,
+              -70.508661
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 4059,
+            "coord": [
+              44.933596,
+              -70.508425
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 4082,
+            "coord": [
+              44.933939,
+              -70.507788
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 4096,
+            "coord": [
+              44.93489,
+              -70.506759
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 4060,
+            "coord": [
+              44.935727,
+              -70.506259
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 4088,
+            "coord": [
+              44.936046,
+              -70.505617
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 4117,
+            "coord": [
+              44.936527,
+              -70.504655
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 4093,
+            "coord": [
+              44.93697,
+              -70.504181
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.9133,
+            -70.5367
+          ],
+          "summit": [
+            44.9367,
+            -70.5033,
+            4120
+          ],
+          "stop_0": [
+            44.9256,
+            -70.5178,
+            "Eddy Pond"
+          ],
+          "stop_1": [
+            44.9311,
+            -70.5089,
+            "Saddleback Junior"
+          ],
+          "stop_2": [
+            44.9344,
+            -70.5044,
+            "The Horn Junction"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Eddy Pond",
+          "lat": 44.9256,
+          "lon": -70.5178,
+          "type": "pond",
+          "mile": 2.5
+        },
+        {
+          "name": "Saddleback Junior",
+          "lat": 44.9311,
+          "lon": -70.5089,
+          "type": "summit",
+          "mile": 3.5
+        },
+        {
+          "name": "The Horn Junction",
+          "lat": 44.9344,
+          "lon": -70.5044,
+          "type": "junction",
+          "mile": 4.2
+        }
+      ]
+    },
+    {
+      "id": "e86f977a",
+      "name": "Ski Slope Route",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 5.0,
+      "elevation_gain": 2100,
+      "description": "Ascent via ski trails to summit.",
+      "tags": [
+        "Ski Area"
+      ],
+      "parking_info": "Saddleback Base Lodge",
+      "parking_details": {
+        "capacity": "Large (200+ cars)",
+        "status": "Check with resort",
+        "fee": "May require fee",
+        "shuttle": null
+      },
+      "start_lat": 44.9256,
+      "start_lon": -70.4933,
+      "logistics": {
+        "start_coords": [
+          44.9256,
+          -70.4933
+        ],
+        "parking_info": "Saddleback Base Lodge",
+        "directions_url": "https://www.google.com/maps/dir//44.9256,-70.4933",
+        "capacity": "Large (200+ cars)",
+        "status": "Check with resort",
+        "fee": "May require fee",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 5.0,
+        "gain": 1548,
+        "max_elev": 4025,
+        "min_elev": 2477,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 2.4,
+        "_original_calculated_distance": 0.9,
+        "_distance_source": "seed_override",
+        "_elevation_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            44.9256,
+            -70.4933,
+            2477
+          ],
+          [
+            44.92736122510171,
+            -70.49442,
+            2713
+          ],
+          [
+            44.92886988468878,
+            -70.49554,
+            2854
+          ],
+          [
+            44.929969884688774,
+            -70.49666,
+            2923
+          ],
+          [
+            44.93066122510171,
+            -70.49778,
+            3024
+          ],
+          [
+            44.9311,
+            -70.4989,
+            3112
+          ],
+          [
+            44.932844716493044,
+            -70.49978,
+            3135
+          ],
+          [
+            44.93435081251908,
+            -70.50066,
+            3429
+          ],
+          [
+            44.93547081251908,
+            -70.50154,
+            3733
+          ],
+          [
+            44.936204716493044,
+            -70.50242,
+            3893
+          ],
+          [
+            44.9367,
+            -70.5033,
+            4025
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2477,
+            "coord": [
+              44.9256,
+              -70.4933
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 2713,
+            "coord": [
+              44.92736122510171,
+              -70.49442
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 2854,
+            "coord": [
+              44.92886988468878,
+              -70.49554
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 2923,
+            "coord": [
+              44.929969884688774,
+              -70.49666
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 3024,
+            "coord": [
+              44.93066122510171,
+              -70.49778
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 3112,
+            "coord": [
+              44.9311,
+              -70.4989
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 3135,
+            "coord": [
+              44.932844716493044,
+              -70.49978
+            ]
+          },
+          {
+            "mile": 0.72,
+            "elev": 3429,
+            "coord": [
+              44.93435081251908,
+              -70.50066
+            ]
+          },
+          {
+            "mile": 0.81,
+            "elev": 3733,
+            "coord": [
+              44.93547081251908,
+              -70.50154
+            ]
+          },
+          {
+            "mile": 0.88,
+            "elev": 3893,
+            "coord": [
+              44.936204716493044,
+              -70.50242
+            ]
+          },
+          {
+            "mile": 0.93,
+            "elev": 4025,
+            "coord": [
+              44.9367,
+              -70.5033
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.9256,
+            -70.4933
+          ],
+          "summit": [
+            44.9367,
+            -70.5033,
+            4120
+          ],
+          "stop_0": [
+            44.9311,
+            -70.4989,
+            "Mid-Station"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Mid-Station",
+          "lat": 44.9311,
+          "lon": -70.4989,
+          "type": "landmark",
+          "mile": 1.8
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "Saddleback Mountain Trail Guide | 2 Routes, Maps & Conditions",
+    "meta_description": "Plan your Saddleback Mountain hike with live conditions, 2 trail maps & parking info. NH 4000-Footer at 4,120 ft.",
+    "canonical_url": "/trails/maine/saddleback-mountain-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Saddleback Mountain",
+      "description": "Saddleback Mountain is a 4,120 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.9367,
+        "longitude": -70.5033,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4120,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Berry Pickers Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.9133,
+            "longitude": -70.5367
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "Ski Slope Route",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.9256,
+            "longitude": -70.4933
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Saddleback Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Saddleback Mountain take 5-7 hours round trip. The most popular trail is 10.0 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Saddleback Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saddleback Mountain is rated Hard. At 4,120 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Saddleback Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Saddleback Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Saddleback Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Berry Pickers Trail, offering Approach via Fly Rod Crosby Trail to AT. Can combine with The Horn.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Saddleback Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Saddleback Mountain is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Saddleback Mountain",
+      "subtitle": "NH 4000-Footer \u2022 4,120 ft",
+      "quick_stats": {
+        "elevation": "4,120 ft",
+        "trail_count": 2,
+        "difficulty": "Moderate to Hard",
+        "list_name": "Maine 4000-Footers"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,120 feet, Saddleback Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Berry Pickers Trail**, covers 10.0 miles and is rated \n    Hard. Approach via Fly Rod Crosby Trail to AT. Can combine with The Horn.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** The Horn lies just 0.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, snow above 3000ft until May",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": false
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Best weather, occasional afternoon thunderstorms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Peak foliage late Sept, early snow possible in October",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Full winter conditions, extreme cold and wind above treeline",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Winter hiking requires specialized skills and gear. Never hike alone. Check avalanche conditions for steeper terrain.",
+        "crowd_level": "Low",
+        "recommended": false
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "\u26a0\ufe0f ALPINE ZONE: Weather changes rapidly. Turn back if conditions deteriorate.",
+        "Winter conditions in effect - full mountaineering gear required",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        },
+        {
+          "item": "Extra warm layer for summit",
+          "critical": true
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "2:00 PM recommended for summit"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Saddleback Mountain?",
+        "answer": "Most routes on Saddleback Mountain take 5-7 hours round trip. The most popular trail is 10.0 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Saddleback Mountain hard to hike?",
+        "answer": "Saddleback Mountain is rated Hard. At 4,120 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Saddleback Mountain?",
+        "answer": "No hiking permit is required for Saddleback Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Saddleback Mountain?",
+        "answer": "The most popular route is the Berry Pickers Trail, offering Approach via Fly Rod Crosby Trail to AT. Can combine with The Horn.."
+      },
+      {
+        "question": "When is the best time to hike Saddleback Mountain?",
+        "answer": "The best hiking season for Saddleback Mountain is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "The Horn",
+        "slug": "the-horn-me",
+        "state_slug": "maine",
+        "elevation": 4023,
+        "distance_miles": 0.8,
+        "link_text": "Hike The Horn",
+        "combo_suggestion": "Combine Saddleback Mountain with The Horn for a longer day",
+        "comparison": "Shorter climb (97 ft less)"
+      },
+      {
+        "name": "Crocker Mountain",
+        "slug": "crocker-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4228,
+        "distance_miles": 8.9,
+        "link_text": "Hike Crocker Mountain",
+        "combo_suggestion": "Combine Saddleback Mountain with Crocker Mountain for a longer day",
+        "comparison": "Higher summit (+108 ft)"
+      },
+      {
+        "name": "Angel Falls",
+        "slug": "angel-falls-me",
+        "state_slug": "maine",
+        "elevation": 1800,
+        "distance_miles": 9.1,
+        "link_text": "Hike Angel Falls",
+        "combo_suggestion": "Combine Saddleback Mountain with Angel Falls for a longer day",
+        "comparison": "Shorter climb (2320 ft less)"
+      },
+      {
+        "name": "South Crocker Mountain",
+        "slug": "south-crocker-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4048,
+        "distance_miles": 9.1,
+        "link_text": "Hike South Crocker Mountain",
+        "combo_suggestion": "Combine Saddleback Mountain with South Crocker Mountain for a longer day",
+        "comparison": "Shorter climb (72 ft less)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Saddleback Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Berry Pickers Trail, Ski Slope Route"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "saddleback-mountain-me-all-trails.gpx",
+        "label": "Download All Saddleback Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "saddleback-mountain-me-trail-guide.pdf",
+        "label": "Saddleback Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "saddleback-mountain-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Saddleback%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,120 feet, Saddleback Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Berry Pickers Trail**, covers 10.0 miles and is rated \n    Hard. Approach via Fly Rod Crosby Trail to AT. Can combine with The Horn.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** The Horn lies just 0.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

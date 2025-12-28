@@ -1,0 +1,1829 @@
+{
+  "name": "The Horn",
+  "slug": "the-horn-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 4023,
+  "lat": 44.9433,
+  "lon": -70.5178,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "4000 Footer",
+    "AT"
+  ],
+  "trails_config": [
+    {
+      "name": "Appalachian Trail (via Saddleback)",
+      "osm_name": "Appalachian Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 11.0,
+      "elevation_gain": 3100,
+      "tags": [
+        "Appalachian Trail"
+      ],
+      "description": "Traverse from Saddleback to The Horn on exposed AT ridge.",
+      "parking_info": "Berry Pickers Trailhead",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "High clearance recommended",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.9133,
+      "start_lon": -70.5367,
+      "features": [
+        {
+          "name": "Saddleback Summit",
+          "lat": 44.9367,
+          "lon": -70.5033,
+          "type": "summit",
+          "mile": 5.0
+        },
+        {
+          "name": "Saddleback-Horn Col",
+          "lat": 44.94,
+          "lon": -70.51,
+          "type": "junction",
+          "mile": 5.3
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Saddleback Mountain",
+      "slug": "saddleback-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4120,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Angel Falls",
+      "slug": "angel-falls-me",
+      "state_slug": "maine",
+      "elevation": 1800,
+      "distance_miles": 8.6
+    },
+    {
+      "name": "Crocker Mountain",
+      "slug": "crocker-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4228,
+      "distance_miles": 9.1
+    },
+    {
+      "name": "South Crocker Mountain",
+      "slug": "south-crocker-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4048,
+      "distance_miles": 9.2
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:15:17.217318",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "ELEVATION_MISMATCH: Appalachian Trail (via Saddleback) calculated 770ft but seed says 3100ft. Using seed value."
+    ],
+    "last_updated": "2025-12-28T16:15:42.010754",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "5b5ede0a",
+      "name": "Appalachian Trail (via Saddleback)",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 11.0,
+      "elevation_gain": 3100,
+      "description": "Traverse from Saddleback to The Horn on exposed AT ridge.",
+      "tags": [
+        "Appalachian Trail"
+      ],
+      "parking_info": "Berry Pickers Trailhead",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "High clearance recommended",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.9133,
+      "start_lon": -70.5367,
+      "logistics": {
+        "start_coords": [
+          44.9133,
+          -70.5367
+        ],
+        "parking_info": "Berry Pickers Trailhead",
+        "directions_url": "https://www.google.com/maps/dir//44.9133,-70.5367",
+        "capacity": "Small (~10 cars)",
+        "status": "High clearance recommended",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 4.0,
+        "gain": 3100,
+        "max_elev": 2793,
+        "min_elev": 2458,
+        "type": "Out & Back",
+        "difficulty": "Hard",
+        "time": 2.9,
+        "_distance_source": "calculated",
+        "_original_calculated_gain": 770,
+        "_elevation_source": "seed_override"
+      },
+      "geo": {
+        "path": [
+          [
+            44.915513,
+            -70.526619,
+            2653
+          ],
+          [
+            44.915683,
+            -70.526693,
+            2669
+          ],
+          [
+            44.91594,
+            -70.526736,
+            2675
+          ],
+          [
+            44.916052,
+            -70.526701,
+            2675
+          ],
+          [
+            44.91623,
+            -70.526403,
+            2662
+          ],
+          [
+            44.916288,
+            -70.526048,
+            2660
+          ],
+          [
+            44.916272,
+            -70.525655,
+            2659
+          ],
+          [
+            44.916436,
+            -70.525382,
+            2665
+          ],
+          [
+            44.916736,
+            -70.525043,
+            2665
+          ],
+          [
+            44.916867,
+            -70.52473,
+            2659
+          ],
+          [
+            44.916871,
+            -70.52391,
+            2659
+          ],
+          [
+            44.917047,
+            -70.523542,
+            2649
+          ],
+          [
+            44.917174,
+            -70.523185,
+            2653
+          ],
+          [
+            44.917231,
+            -70.523118,
+            2652
+          ],
+          [
+            44.917305,
+            -70.523112,
+            2652
+          ],
+          [
+            44.91752,
+            -70.523187,
+            2648
+          ],
+          [
+            44.917846,
+            -70.523224,
+            2645
+          ],
+          [
+            44.918012,
+            -70.523364,
+            2644
+          ],
+          [
+            44.918304,
+            -70.523539,
+            2642
+          ],
+          [
+            44.91857,
+            -70.523761,
+            2642
+          ],
+          [
+            44.918933,
+            -70.524185,
+            2641
+          ],
+          [
+            44.919212,
+            -70.524467,
+            2640
+          ],
+          [
+            44.919314,
+            -70.524459,
+            2642
+          ],
+          [
+            44.919524,
+            -70.524443,
+            2649
+          ],
+          [
+            44.919824,
+            -70.524499,
+            2651
+          ],
+          [
+            44.920021,
+            -70.524499,
+            2660
+          ],
+          [
+            44.920228,
+            -70.524749,
+            2661
+          ],
+          [
+            44.920813,
+            -70.525392,
+            2656
+          ],
+          [
+            44.921338,
+            -70.526551,
+            2643
+          ],
+          [
+            44.921745,
+            -70.527323,
+            2632
+          ],
+          [
+            44.921961,
+            -70.528525,
+            2612
+          ],
+          [
+            44.922515,
+            -70.529126,
+            2599
+          ],
+          [
+            44.922814,
+            -70.529334,
+            2589
+          ],
+          [
+            44.923693,
+            -70.529073,
+            2584
+          ],
+          [
+            44.924289,
+            -70.528725,
+            2570
+          ],
+          [
+            44.924792,
+            -70.528886,
+            2554
+          ],
+          [
+            44.925265,
+            -70.528758,
+            2543
+          ],
+          [
+            44.925853,
+            -70.529072,
+            2533
+          ],
+          [
+            44.925979,
+            -70.529673,
+            2520
+          ],
+          [
+            44.926404,
+            -70.530113,
+            2516
+          ],
+          [
+            44.927012,
+            -70.530907,
+            2524
+          ],
+          [
+            44.927054,
+            -70.53159,
+            2523
+          ],
+          [
+            44.927332,
+            -70.531825,
+            2538
+          ],
+          [
+            44.927425,
+            -70.532081,
+            2530
+          ],
+          [
+            44.926978,
+            -70.533327,
+            2505
+          ],
+          [
+            44.926218,
+            -70.533694,
+            2485
+          ],
+          [
+            44.926477,
+            -70.533965,
+            2498
+          ],
+          [
+            44.926747,
+            -70.534271,
+            2511
+          ],
+          [
+            44.926998,
+            -70.534555,
+            2524
+          ],
+          [
+            44.927317,
+            -70.534812,
+            2540
+          ],
+          [
+            44.927681,
+            -70.535113,
+            2552
+          ],
+          [
+            44.927913,
+            -70.53522,
+            2570
+          ],
+          [
+            44.928004,
+            -70.535188,
+            2575
+          ],
+          [
+            44.92811,
+            -70.535054,
+            2583
+          ],
+          [
+            44.928179,
+            -70.534882,
+            2596
+          ],
+          [
+            44.928213,
+            -70.5347,
+            2595
+          ],
+          [
+            44.928262,
+            -70.534399,
+            2603
+          ],
+          [
+            44.928316,
+            -70.53426,
+            2602
+          ],
+          [
+            44.928426,
+            -70.534099,
+            2613
+          ],
+          [
+            44.928547,
+            -70.533986,
+            2614
+          ],
+          [
+            44.928638,
+            -70.533949,
+            2616
+          ],
+          [
+            44.929128,
+            -70.533895,
+            2629
+          ],
+          [
+            44.929406,
+            -70.533868,
+            2639
+          ],
+          [
+            44.92947,
+            -70.533804,
+            2642
+          ],
+          [
+            44.929611,
+            -70.533482,
+            2645
+          ],
+          [
+            44.929698,
+            -70.533423,
+            2646
+          ],
+          [
+            44.929892,
+            -70.533348,
+            2648
+          ],
+          [
+            44.929959,
+            -70.533346,
+            2650
+          ],
+          [
+            44.930134,
+            -70.533014,
+            2663
+          ],
+          [
+            44.930285,
+            -70.532649,
+            2676
+          ],
+          [
+            44.930574,
+            -70.532445,
+            2683
+          ],
+          [
+            44.930908,
+            -70.532306,
+            2685
+          ],
+          [
+            44.931288,
+            -70.532134,
+            2690
+          ],
+          [
+            44.931569,
+            -70.532016,
+            2700
+          ],
+          [
+            44.931759,
+            -70.532027,
+            2702
+          ],
+          [
+            44.931918,
+            -70.532306,
+            2707
+          ],
+          [
+            44.932108,
+            -70.53296,
+            2721
+          ],
+          [
+            44.932382,
+            -70.533282,
+            2735
+          ],
+          [
+            44.932746,
+            -70.533668,
+            2761
+          ],
+          [
+            44.932838,
+            -70.534247,
+            2774
+          ],
+          [
+            44.933096,
+            -70.534805,
+            2782
+          ],
+          [
+            44.933149,
+            -70.535288,
+            2789
+          ],
+          [
+            44.933407,
+            -70.5359,
+            2793
+          ],
+          [
+            44.933369,
+            -70.53694,
+            2781
+          ],
+          [
+            44.93356,
+            -70.537484,
+            2769
+          ],
+          [
+            44.933632,
+            -70.537457,
+            2765
+          ],
+          [
+            44.933902,
+            -70.537479,
+            2752
+          ],
+          [
+            44.934027,
+            -70.537784,
+            2744
+          ],
+          [
+            44.934035,
+            -70.537924,
+            2744
+          ],
+          [
+            44.934043,
+            -70.538337,
+            2741
+          ],
+          [
+            44.934153,
+            -70.538423,
+            2740
+          ],
+          [
+            44.934422,
+            -70.538594,
+            2741
+          ],
+          [
+            44.934605,
+            -70.538621,
+            2747
+          ],
+          [
+            44.934794,
+            -70.538594,
+            2741
+          ],
+          [
+            44.935026,
+            -70.538492,
+            2738
+          ],
+          [
+            44.935121,
+            -70.538369,
+            2733
+          ],
+          [
+            44.93517,
+            -70.538208,
+            2731
+          ],
+          [
+            44.935205,
+            -70.538026,
+            2730
+          ],
+          [
+            44.935216,
+            -70.537833,
+            2733
+          ],
+          [
+            44.935254,
+            -70.537575,
+            2732
+          ],
+          [
+            44.935281,
+            -70.537361,
+            2733
+          ],
+          [
+            44.935319,
+            -70.537232,
+            2732
+          ],
+          [
+            44.935406,
+            -70.537098,
+            2728
+          ],
+          [
+            44.935531,
+            -70.536931,
+            2732
+          ],
+          [
+            44.935649,
+            -70.536829,
+            2732
+          ],
+          [
+            44.935827,
+            -70.536824,
+            2735
+          ],
+          [
+            44.935983,
+            -70.536797,
+            2737
+          ],
+          [
+            44.936207,
+            -70.536862,
+            2732
+          ],
+          [
+            44.936446,
+            -70.536888,
+            2731
+          ],
+          [
+            44.936773,
+            -70.536738,
+            2736
+          ],
+          [
+            44.937046,
+            -70.536626,
+            2737
+          ],
+          [
+            44.937263,
+            -70.536513,
+            2735
+          ],
+          [
+            44.93746,
+            -70.536368,
+            2735
+          ],
+          [
+            44.937631,
+            -70.53618,
+            2735
+          ],
+          [
+            44.937802,
+            -70.535971,
+            2734
+          ],
+          [
+            44.937973,
+            -70.535767,
+            2730
+          ],
+          [
+            44.938041,
+            -70.535821,
+            2730
+          ],
+          [
+            44.93817,
+            -70.535977,
+            2724
+          ],
+          [
+            44.938303,
+            -70.536068,
+            2718
+          ],
+          [
+            44.938451,
+            -70.536207,
+            2713
+          ],
+          [
+            44.938599,
+            -70.536352,
+            2712
+          ],
+          [
+            44.938713,
+            -70.536486,
+            2706
+          ],
+          [
+            44.938812,
+            -70.536577,
+            2705
+          ],
+          [
+            44.938899,
+            -70.536599,
+            2703
+          ],
+          [
+            44.939002,
+            -70.536604,
+            2701
+          ],
+          [
+            44.939112,
+            -70.536551,
+            2703
+          ],
+          [
+            44.939363,
+            -70.536379,
+            2703
+          ],
+          [
+            44.939579,
+            -70.536255,
+            2700
+          ],
+          [
+            44.939769,
+            -70.536121,
+            2692
+          ],
+          [
+            44.94002,
+            -70.535977,
+            2684
+          ],
+          [
+            44.940191,
+            -70.535794,
+            2677
+          ],
+          [
+            44.940384,
+            -70.535617,
+            2670
+          ],
+          [
+            44.940551,
+            -70.535403,
+            2666
+          ],
+          [
+            44.940703,
+            -70.535193,
+            2659
+          ],
+          [
+            44.940802,
+            -70.53492,
+            2658
+          ],
+          [
+            44.940863,
+            -70.534609,
+            2655
+          ],
+          [
+            44.940935,
+            -70.534394,
+            2647
+          ],
+          [
+            44.941121,
+            -70.534035,
+            2632
+          ],
+          [
+            44.941257,
+            -70.533675,
+            2633
+          ],
+          [
+            44.941587,
+            -70.532835,
+            2615
+          ],
+          [
+            44.942207,
+            -70.531253,
+            2601
+          ],
+          [
+            44.942322,
+            -70.530993,
+            2598
+          ],
+          [
+            44.942466,
+            -70.530668,
+            2593
+          ],
+          [
+            44.942782,
+            -70.530188,
+            2576
+          ],
+          [
+            44.94288,
+            -70.529806,
+            2577
+          ],
+          [
+            44.94311,
+            -70.529286,
+            2570
+          ],
+          [
+            44.943291,
+            -70.528966,
+            2565
+          ],
+          [
+            44.943738,
+            -70.528135,
+            2553
+          ],
+          [
+            44.944411,
+            -70.527155,
+            2528
+          ],
+          [
+            44.94459,
+            -70.526968,
+            2520
+          ],
+          [
+            44.944739,
+            -70.526976,
+            2510
+          ],
+          [
+            44.944854,
+            -70.527025,
+            2507
+          ],
+          [
+            44.944941,
+            -70.527108,
+            2501
+          ],
+          [
+            44.94505,
+            -70.527781,
+            2481
+          ],
+          [
+            44.945125,
+            -70.527928,
+            2477
+          ],
+          [
+            44.94524,
+            -70.527968,
+            2474
+          ],
+          [
+            44.945363,
+            -70.527902,
+            2470
+          ],
+          [
+            44.945631,
+            -70.527823,
+            2461
+          ],
+          [
+            44.945678,
+            -70.52773,
+            2460
+          ],
+          [
+            44.945744,
+            -70.527706,
+            2458
+          ],
+          [
+            44.945742,
+            -70.527572,
+            2459
+          ],
+          [
+            44.945878,
+            -70.52717,
+            2460
+          ],
+          [
+            44.945777,
+            -70.527121,
+            2460
+          ],
+          [
+            44.945764,
+            -70.527083,
+            2460
+          ],
+          [
+            44.945775,
+            -70.526984,
+            2461
+          ],
+          [
+            44.945766,
+            -70.526943,
+            2462
+          ],
+          [
+            44.945663,
+            -70.526719,
+            2472
+          ],
+          [
+            44.945541,
+            -70.526485,
+            2488
+          ],
+          [
+            44.945475,
+            -70.526367,
+            2490
+          ],
+          [
+            44.945444,
+            -70.52628,
+            2496
+          ],
+          [
+            44.945383,
+            -70.525999,
+            2502
+          ],
+          [
+            44.945367,
+            -70.525915,
+            2507
+          ],
+          [
+            44.945334,
+            -70.525856,
+            2507
+          ],
+          [
+            44.945316,
+            -70.525803,
+            2510
+          ],
+          [
+            44.945316,
+            -70.525748,
+            2510
+          ],
+          [
+            44.94532,
+            -70.525723,
+            2513
+          ],
+          [
+            44.945507,
+            -70.525786,
+            2502
+          ],
+          [
+            44.945612,
+            -70.525805,
+            2497
+          ],
+          [
+            44.945674,
+            -70.525799,
+            2491
+          ],
+          [
+            44.946003,
+            -70.525763,
+            2478
+          ],
+          [
+            44.94605,
+            -70.525758,
+            2474
+          ],
+          [
+            44.946072,
+            -70.525732,
+            2478
+          ],
+          [
+            44.946196,
+            -70.525601,
+            2476
+          ],
+          [
+            44.94626,
+            -70.525541,
+            2473
+          ],
+          [
+            44.946283,
+            -70.525569,
+            2471
+          ],
+          [
+            44.946322,
+            -70.52565,
+            2465
+          ],
+          [
+            44.946301,
+            -70.52486,
+            2480
+          ],
+          [
+            44.946244,
+            -70.524683,
+            2484
+          ],
+          [
+            44.946005,
+            -70.524522,
+            2497
+          ],
+          [
+            44.945705,
+            -70.524426,
+            2512
+          ],
+          [
+            44.945546,
+            -70.524324,
+            2524
+          ],
+          [
+            44.945416,
+            -70.52419,
+            2529
+          ],
+          [
+            44.945246,
+            -70.524002,
+            2542
+          ],
+          [
+            44.945151,
+            -70.523916,
+            2548
+          ],
+          [
+            44.945075,
+            -70.523788,
+            2557
+          ],
+          [
+            44.944957,
+            -70.523519,
+            2564
+          ],
+          [
+            44.944855,
+            -70.523326,
+            2575
+          ],
+          [
+            44.944691,
+            -70.523085,
+            2586
+          ],
+          [
+            44.944577,
+            -70.52287,
+            2598
+          ],
+          [
+            44.944501,
+            -70.522677,
+            2606
+          ],
+          [
+            44.944429,
+            -70.522398,
+            2616
+          ],
+          [
+            44.944414,
+            -70.522162,
+            2618
+          ],
+          [
+            44.94441,
+            -70.521792,
+            2624
+          ],
+          [
+            44.944384,
+            -70.521513,
+            2628
+          ],
+          [
+            44.944277,
+            -70.52118,
+            2638
+          ],
+          [
+            44.944194,
+            -70.520843,
+            2646
+          ],
+          [
+            44.944076,
+            -70.520451,
+            2661
+          ],
+          [
+            44.943974,
+            -70.520054,
+            2678
+          ],
+          [
+            44.943894,
+            -70.519662,
+            2686
+          ],
+          [
+            44.943803,
+            -70.519271,
+            2697
+          ],
+          [
+            44.943772,
+            -70.519163,
+            2704
+          ],
+          [
+            44.943567,
+            -70.518783,
+            2720
+          ],
+          [
+            44.9434,
+            -70.518455,
+            2737
+          ],
+          [
+            44.943218,
+            -70.518107,
+            2752
+          ],
+          [
+            44.943146,
+            -70.517989,
+            2760
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2653,
+            "coord": [
+              44.915513,
+              -70.526619
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 2665,
+            "coord": [
+              44.916436,
+              -70.525382
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 2652,
+            "coord": [
+              44.917305,
+              -70.523112
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 2640,
+            "coord": [
+              44.919212,
+              -70.524467
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 2643,
+            "coord": [
+              44.921338,
+              -70.526551
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 2554,
+            "coord": [
+              44.924792,
+              -70.528886
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 2538,
+            "coord": [
+              44.927332,
+              -70.531825
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 2540,
+            "coord": [
+              44.927317,
+              -70.534812
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 2603,
+            "coord": [
+              44.928262,
+              -70.534399
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 2642,
+            "coord": [
+              44.92947,
+              -70.533804
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 2683,
+            "coord": [
+              44.930574,
+              -70.532445
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2735,
+            "coord": [
+              44.932382,
+              -70.533282
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 2769,
+            "coord": [
+              44.93356,
+              -70.537484
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 2741,
+            "coord": [
+              44.934422,
+              -70.538594
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 2733,
+            "coord": [
+              44.935216,
+              -70.537833
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 2735,
+            "coord": [
+              44.935827,
+              -70.536824
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 2735,
+            "coord": [
+              44.93746,
+              -70.536368
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 2713,
+            "coord": [
+              44.938451,
+              -70.536207
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 2703,
+            "coord": [
+              44.939363,
+              -70.536379
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 2659,
+            "coord": [
+              44.940703,
+              -70.535193
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 2601,
+            "coord": [
+              44.942207,
+              -70.531253
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 2553,
+            "coord": [
+              44.943738,
+              -70.528135
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 2477,
+            "coord": [
+              44.945125,
+              -70.527928
+            ]
+          },
+          {
+            "mile": 0.57,
+            "elev": 2460,
+            "coord": [
+              44.945878,
+              -70.52717
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 2490,
+            "coord": [
+              44.945475,
+              -70.526367
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 2513,
+            "coord": [
+              44.94532,
+              -70.525723
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 2476,
+            "coord": [
+              44.946196,
+              -70.525601
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 2512,
+            "coord": [
+              44.945705,
+              -70.524426
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 2575,
+            "coord": [
+              44.944855,
+              -70.523326
+            ]
+          },
+          {
+            "mile": 0.63,
+            "elev": 2628,
+            "coord": [
+              44.944384,
+              -70.521513
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 2704,
+            "coord": [
+              44.943772,
+              -70.519163
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.9133,
+            -70.5367
+          ],
+          "summit": [
+            44.9433,
+            -70.5178,
+            4023
+          ],
+          "stop_0": [
+            44.9367,
+            -70.5033,
+            "Saddleback Summit"
+          ],
+          "stop_1": [
+            44.94,
+            -70.51,
+            "Saddleback-Horn Col"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Saddleback Summit",
+          "lat": 44.9367,
+          "lon": -70.5033,
+          "type": "summit",
+          "mile": 5.0
+        },
+        {
+          "name": "Saddleback-Horn Col",
+          "lat": 44.94,
+          "lon": -70.51,
+          "type": "junction",
+          "mile": 5.3
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "The Horn Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Plan your The Horn hike with live conditions, 1 trail maps & parking info. NH 4000-Footer at 4,023 ft.",
+    "canonical_url": "/trails/maine/the-horn-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "The Horn",
+      "description": "The Horn is a 4,023 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.9433,
+        "longitude": -70.5178,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4023,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Appalachian Trail (via Saddleback)",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.9133,
+            "longitude": -70.5367
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike The Horn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on The Horn take 5-7 hours round trip. The most popular trail is 11.0 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is The Horn hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Horn is rated Hard. At 4,023 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike The Horn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for The Horn. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike The Horn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Appalachian Trail (via Saddleback), offering Traverse from Saddleback to The Horn on exposed AT ridge.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike The Horn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for The Horn is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "The Horn",
+      "subtitle": "NH 4000-Footer \u2022 4,023 ft",
+      "quick_stats": {
+        "elevation": "4,023 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate to Hard",
+        "list_name": "Maine 4000-Footers"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,023 feet, The Horn ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Appalachian Trail (via Saddleback)**, covers 11.0 miles and is rated \n    Hard. Traverse from Saddleback to The Horn on exposed AT ridge.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Saddleback Mountain lies just 0.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, snow above 3000ft until May",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": false
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Best weather, occasional afternoon thunderstorms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Peak foliage late Sept, early snow possible in October",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Full winter conditions, extreme cold and wind above treeline",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Winter hiking requires specialized skills and gear. Never hike alone. Check avalanche conditions for steeper terrain.",
+        "crowd_level": "Low",
+        "recommended": false
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "\u26a0\ufe0f ALPINE ZONE: Weather changes rapidly. Turn back if conditions deteriorate.",
+        "Winter conditions in effect - full mountaineering gear required",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        },
+        {
+          "item": "Extra warm layer for summit",
+          "critical": true
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "2:00 PM recommended for summit"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike The Horn?",
+        "answer": "Most routes on The Horn take 5-7 hours round trip. The most popular trail is 11.0 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is The Horn hard to hike?",
+        "answer": "The Horn is rated Hard. At 4,023 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike The Horn?",
+        "answer": "No hiking permit is required for The Horn. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike The Horn?",
+        "answer": "The most popular route is the Appalachian Trail (via Saddleback), offering Traverse from Saddleback to The Horn on exposed AT ridge.."
+      },
+      {
+        "question": "When is the best time to hike The Horn?",
+        "answer": "The best hiking season for The Horn is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Saddleback Mountain",
+        "slug": "saddleback-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4120,
+        "distance_miles": 0.8,
+        "link_text": "Hike Saddleback Mountain",
+        "combo_suggestion": "Combine The Horn with Saddleback Mountain for a longer day",
+        "comparison": "Higher summit (+97 ft)"
+      },
+      {
+        "name": "Angel Falls",
+        "slug": "angel-falls-me",
+        "state_slug": "maine",
+        "elevation": 1800,
+        "distance_miles": 8.6,
+        "link_text": "Hike Angel Falls",
+        "combo_suggestion": "Combine The Horn with Angel Falls for a longer day",
+        "comparison": "Shorter climb (2223 ft less)"
+      },
+      {
+        "name": "Crocker Mountain",
+        "slug": "crocker-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4228,
+        "distance_miles": 9.1,
+        "link_text": "Hike Crocker Mountain",
+        "combo_suggestion": "Combine The Horn with Crocker Mountain for a longer day",
+        "comparison": "Higher summit (+205 ft)"
+      },
+      {
+        "name": "South Crocker Mountain",
+        "slug": "south-crocker-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4048,
+        "distance_miles": 9.2,
+        "link_text": "Hike South Crocker Mountain",
+        "combo_suggestion": "Combine The Horn with South Crocker Mountain for a longer day",
+        "comparison": "Higher summit (+25 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up The Horn? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Appalachian Trail (via Saddleback)"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "the-horn-me-all-trails.gpx",
+        "label": "Download All The Horn Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "the-horn-me-trail-guide.pdf",
+        "label": "The Horn Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "the-horn-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20The%20Horn!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,023 feet, The Horn ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Appalachian Trail (via Saddleback)**, covers 11.0 miles and is rated \n    Hard. Traverse from Saddleback to The Horn on exposed AT ridge.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Saddleback Mountain lies just 0.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

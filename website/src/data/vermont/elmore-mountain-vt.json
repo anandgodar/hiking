@@ -1,0 +1,1568 @@
+{
+  "name": "Elmore Mountain",
+  "slug": "elmore-mountain-vt",
+  "state": "Vermont",
+  "state_slug": "vermont",
+  "elevation": 2608,
+  "lat": 44.5294,
+  "lon": -72.5208,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "Fire Tower",
+    "Views",
+    "State Park",
+    "Family Friendly"
+  ],
+  "trails_config": [
+    {
+      "name": "Elmore Mountain Trail",
+      "osm_name": "Elmore Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.0,
+      "elevation_gain": 1450,
+      "tags": [
+        "Fire Tower"
+      ],
+      "description": "Scenic climb to fire tower in Elmore State Park.",
+      "parking_info": "Elmore State Park",
+      "parking_details": {
+        "capacity": "Large (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$4/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 44.5217,
+      "start_lon": -72.5333
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Stowe Pinnacle",
+      "slug": "stowe-pinnacle-vt",
+      "state_slug": "vermont",
+      "elevation": 2740,
+      "distance_miles": 7.9
+    },
+    {
+      "name": "Mount Hunger",
+      "slug": "mount-hunger-vt",
+      "state_slug": "vermont",
+      "elevation": 3539,
+      "distance_miles": 9.9
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T11:33:02.782038",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "ELEVATION_MISMATCH: Elmore Mountain Trail calculated 129ft but seed says 1450ft. Using seed value."
+    ],
+    "last_updated": "2025-12-28T11:33:43.452492",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "723543a0",
+      "name": "Elmore Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.0,
+      "elevation_gain": 1450,
+      "description": "Scenic climb to fire tower in Elmore State Park.",
+      "tags": [
+        "Fire Tower"
+      ],
+      "parking_info": "Elmore State Park",
+      "parking_details": {
+        "capacity": "Large (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$4/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 44.5217,
+      "start_lon": -72.5333,
+      "logistics": {
+        "start_coords": [
+          44.5217,
+          -72.5333
+        ],
+        "parking_info": "Elmore State Park",
+        "directions_url": "https://www.google.com/maps/dir//44.5217,-72.5333",
+        "capacity": "Large (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$4/adult (State Park)",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 2.8,
+        "gain": 1450,
+        "max_elev": 1405,
+        "min_elev": 1143,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 1.7,
+        "_distance_source": "calculated",
+        "_original_calculated_gain": 129
+      },
+      "geo": {
+        "path": [
+          [
+            44.521546,
+            -72.533199,
+            1372
+          ],
+          [
+            44.521669,
+            -72.532828,
+            1374
+          ],
+          [
+            44.522373,
+            -72.532255,
+            1391
+          ],
+          [
+            44.523278,
+            -72.532288,
+            1400
+          ],
+          [
+            44.523728,
+            -72.532301,
+            1405
+          ],
+          [
+            44.524352,
+            -72.531729,
+            1393
+          ],
+          [
+            44.524713,
+            -72.531479,
+            1393
+          ],
+          [
+            44.525149,
+            -72.531637,
+            1395
+          ],
+          [
+            44.525304,
+            -72.531537,
+            1392
+          ],
+          [
+            44.525323,
+            -72.531387,
+            1390
+          ],
+          [
+            44.525502,
+            -72.531123,
+            1371
+          ],
+          [
+            44.525878,
+            -72.530901,
+            1356
+          ],
+          [
+            44.526384,
+            -72.530803,
+            1339
+          ],
+          [
+            44.52679,
+            -72.530776,
+            1322
+          ],
+          [
+            44.526959,
+            -72.530692,
+            1313
+          ],
+          [
+            44.527068,
+            -72.530581,
+            1306
+          ],
+          [
+            44.52781,
+            -72.529034,
+            1241
+          ],
+          [
+            44.527921,
+            -72.52894,
+            1237
+          ],
+          [
+            44.528031,
+            -72.528864,
+            1233
+          ],
+          [
+            44.528147,
+            -72.528824,
+            1228
+          ],
+          [
+            44.528361,
+            -72.52885,
+            1222
+          ],
+          [
+            44.528432,
+            -72.528868,
+            1221
+          ],
+          [
+            44.528491,
+            -72.528908,
+            1221
+          ],
+          [
+            44.528578,
+            -72.528999,
+            1220
+          ],
+          [
+            44.528662,
+            -72.529139,
+            1220
+          ],
+          [
+            44.528845,
+            -72.529358,
+            1218
+          ],
+          [
+            44.528993,
+            -72.529517,
+            1214
+          ],
+          [
+            44.529202,
+            -72.529715,
+            1208
+          ],
+          [
+            44.529366,
+            -72.529858,
+            1202
+          ],
+          [
+            44.529646,
+            -72.530092,
+            1193
+          ],
+          [
+            44.529712,
+            -72.530158,
+            1191
+          ],
+          [
+            44.529901,
+            -72.530346,
+            1187
+          ],
+          [
+            44.530035,
+            -72.530426,
+            1182
+          ],
+          [
+            44.530195,
+            -72.530547,
+            1173
+          ],
+          [
+            44.530252,
+            -72.530591,
+            1180
+          ],
+          [
+            44.530382,
+            -72.530654,
+            1179
+          ],
+          [
+            44.530521,
+            -72.530692,
+            1179
+          ],
+          [
+            44.530947,
+            -72.530761,
+            1174
+          ],
+          [
+            44.531451,
+            -72.530798,
+            1175
+          ],
+          [
+            44.531663,
+            -72.530837,
+            1179
+          ],
+          [
+            44.531944,
+            -72.53092,
+            1184
+          ],
+          [
+            44.532076,
+            -72.530979,
+            1189
+          ],
+          [
+            44.532201,
+            -72.531049,
+            1191
+          ],
+          [
+            44.532305,
+            -72.531115,
+            1195
+          ],
+          [
+            44.532588,
+            -72.531311,
+            1199
+          ],
+          [
+            44.532886,
+            -72.531692,
+            1195
+          ],
+          [
+            44.53312,
+            -72.53197,
+            1191
+          ],
+          [
+            44.533267,
+            -72.532128,
+            1188
+          ],
+          [
+            44.533421,
+            -72.532278,
+            1186
+          ],
+          [
+            44.533582,
+            -72.532405,
+            1186
+          ],
+          [
+            44.533662,
+            -72.532461,
+            1186
+          ],
+          [
+            44.533752,
+            -72.532507,
+            1185
+          ],
+          [
+            44.533852,
+            -72.532527,
+            1184
+          ],
+          [
+            44.533926,
+            -72.532534,
+            1183
+          ],
+          [
+            44.53404,
+            -72.53254,
+            1182
+          ],
+          [
+            44.534186,
+            -72.532531,
+            1181
+          ],
+          [
+            44.534405,
+            -72.532519,
+            1179
+          ],
+          [
+            44.534623,
+            -72.532519,
+            1178
+          ],
+          [
+            44.534834,
+            -72.532531,
+            1177
+          ],
+          [
+            44.535057,
+            -72.532577,
+            1177
+          ],
+          [
+            44.53521,
+            -72.532634,
+            1178
+          ],
+          [
+            44.535511,
+            -72.532808,
+            1177
+          ],
+          [
+            44.535682,
+            -72.532919,
+            1175
+          ],
+          [
+            44.535801,
+            -72.532995,
+            1175
+          ],
+          [
+            44.535907,
+            -72.533074,
+            1174
+          ],
+          [
+            44.536083,
+            -72.533181,
+            1176
+          ],
+          [
+            44.536263,
+            -72.533268,
+            1179
+          ],
+          [
+            44.536407,
+            -72.533348,
+            1184
+          ],
+          [
+            44.536532,
+            -72.533435,
+            1186
+          ],
+          [
+            44.536637,
+            -72.533517,
+            1187
+          ],
+          [
+            44.536815,
+            -72.533623,
+            1188
+          ],
+          [
+            44.536962,
+            -72.53367,
+            1187
+          ],
+          [
+            44.537095,
+            -72.533687,
+            1186
+          ],
+          [
+            44.537236,
+            -72.533684,
+            1187
+          ],
+          [
+            44.537373,
+            -72.533663,
+            1187
+          ],
+          [
+            44.537518,
+            -72.533633,
+            1188
+          ],
+          [
+            44.537743,
+            -72.533572,
+            1187
+          ],
+          [
+            44.53843,
+            -72.533384,
+            1184
+          ],
+          [
+            44.538627,
+            -72.533326,
+            1183
+          ],
+          [
+            44.539068,
+            -72.533167,
+            1182
+          ],
+          [
+            44.539259,
+            -72.533085,
+            1182
+          ],
+          [
+            44.539409,
+            -72.533002,
+            1180
+          ],
+          [
+            44.53953,
+            -72.53291,
+            1177
+          ],
+          [
+            44.539698,
+            -72.53278,
+            1173
+          ],
+          [
+            44.53997,
+            -72.532517,
+            1166
+          ],
+          [
+            44.540255,
+            -72.532309,
+            1161
+          ],
+          [
+            44.540549,
+            -72.532092,
+            1156
+          ],
+          [
+            44.540669,
+            -72.532006,
+            1152
+          ],
+          [
+            44.540771,
+            -72.531905,
+            1151
+          ],
+          [
+            44.540839,
+            -72.531805,
+            1148
+          ],
+          [
+            44.540894,
+            -72.531647,
+            1148
+          ],
+          [
+            44.540926,
+            -72.531465,
+            1146
+          ],
+          [
+            44.540935,
+            -72.531326,
+            1146
+          ],
+          [
+            44.540941,
+            -72.530924,
+            1146
+          ],
+          [
+            44.540954,
+            -72.530673,
+            1145
+          ],
+          [
+            44.540965,
+            -72.53051,
+            1145
+          ],
+          [
+            44.541006,
+            -72.530242,
+            1145
+          ],
+          [
+            44.541071,
+            -72.529901,
+            1144
+          ],
+          [
+            44.541141,
+            -72.52967,
+            1144
+          ],
+          [
+            44.541174,
+            -72.529582,
+            1144
+          ],
+          [
+            44.541217,
+            -72.529489,
+            1144
+          ],
+          [
+            44.541271,
+            -72.529397,
+            1144
+          ],
+          [
+            44.541356,
+            -72.529271,
+            1145
+          ],
+          [
+            44.541504,
+            -72.529119,
+            1147
+          ],
+          [
+            44.541614,
+            -72.529029,
+            1147
+          ],
+          [
+            44.541812,
+            -72.528843,
+            1148
+          ],
+          [
+            44.541846,
+            -72.528794,
+            1147
+          ],
+          [
+            44.541863,
+            -72.528771,
+            1147
+          ],
+          [
+            44.541903,
+            -72.528707,
+            1147
+          ],
+          [
+            44.541955,
+            -72.52861,
+            1147
+          ],
+          [
+            44.542006,
+            -72.528477,
+            1147
+          ],
+          [
+            44.54204,
+            -72.528329,
+            1146
+          ],
+          [
+            44.54206,
+            -72.528181,
+            1146
+          ],
+          [
+            44.542067,
+            -72.528128,
+            1146
+          ],
+          [
+            44.542075,
+            -72.527914,
+            1146
+          ],
+          [
+            44.542064,
+            -72.52748,
+            1147
+          ],
+          [
+            44.542048,
+            -72.52714,
+            1147
+          ],
+          [
+            44.542036,
+            -72.526838,
+            1148
+          ],
+          [
+            44.542035,
+            -72.526698,
+            1149
+          ],
+          [
+            44.542039,
+            -72.526558,
+            1149
+          ],
+          [
+            44.542056,
+            -72.526397,
+            1151
+          ],
+          [
+            44.542088,
+            -72.526289,
+            1152
+          ],
+          [
+            44.54216,
+            -72.526111,
+            1153
+          ],
+          [
+            44.54225,
+            -72.525942,
+            1154
+          ],
+          [
+            44.54235,
+            -72.525754,
+            1154
+          ],
+          [
+            44.542473,
+            -72.52555,
+            1154
+          ],
+          [
+            44.542208,
+            -72.525312,
+            1151
+          ],
+          [
+            44.542016,
+            -72.525128,
+            1149
+          ],
+          [
+            44.541857,
+            -72.524962,
+            1147
+          ],
+          [
+            44.541815,
+            -72.524911,
+            1147
+          ],
+          [
+            44.541697,
+            -72.524762,
+            1145
+          ],
+          [
+            44.541566,
+            -72.524579,
+            1144
+          ],
+          [
+            44.541451,
+            -72.524393,
+            1143
+          ],
+          [
+            44.541442,
+            -72.524377,
+            1143
+          ],
+          [
+            44.541343,
+            -72.524203,
+            1143
+          ],
+          [
+            44.541255,
+            -72.524046,
+            1143
+          ],
+          [
+            44.54107,
+            -72.523754,
+            1144
+          ],
+          [
+            44.540993,
+            -72.523635,
+            1145
+          ],
+          [
+            44.540917,
+            -72.523533,
+            1145
+          ],
+          [
+            44.540778,
+            -72.523373,
+            1147
+          ],
+          [
+            44.540638,
+            -72.523243,
+            1147
+          ],
+          [
+            44.540508,
+            -72.52313,
+            1149
+          ],
+          [
+            44.540452,
+            -72.523085,
+            1149
+          ],
+          [
+            44.540041,
+            -72.522759,
+            1151
+          ],
+          [
+            44.540013,
+            -72.522737,
+            1151
+          ],
+          [
+            44.539825,
+            -72.522587,
+            1151
+          ],
+          [
+            44.539566,
+            -72.522389,
+            1154
+          ],
+          [
+            44.539232,
+            -72.522151,
+            1158
+          ],
+          [
+            44.5386,
+            -72.521738,
+            1166
+          ],
+          [
+            44.538564,
+            -72.521785,
+            1165
+          ],
+          [
+            44.538508,
+            -72.521835,
+            1165
+          ],
+          [
+            44.538418,
+            -72.521893,
+            1163
+          ],
+          [
+            44.538291,
+            -72.521956,
+            1162
+          ],
+          [
+            44.538221,
+            -72.52197,
+            1161
+          ],
+          [
+            44.538083,
+            -72.521966,
+            1161
+          ],
+          [
+            44.537772,
+            -72.521914,
+            1161
+          ],
+          [
+            44.537726,
+            -72.521906,
+            1161
+          ],
+          [
+            44.537623,
+            -72.521878,
+            1161
+          ],
+          [
+            44.537435,
+            -72.521827,
+            1162
+          ],
+          [
+            44.537377,
+            -72.521812,
+            1162
+          ],
+          [
+            44.537191,
+            -72.521743,
+            1163
+          ],
+          [
+            44.537029,
+            -72.521683,
+            1164
+          ],
+          [
+            44.536741,
+            -72.521577,
+            1165
+          ],
+          [
+            44.536698,
+            -72.521561,
+            1165
+          ],
+          [
+            44.536362,
+            -72.521427,
+            1168
+          ],
+          [
+            44.536023,
+            -72.521299,
+            1168
+          ],
+          [
+            44.535999,
+            -72.521291,
+            1168
+          ],
+          [
+            44.535337,
+            -72.521067,
+            1168
+          ],
+          [
+            44.534649,
+            -72.520841,
+            1166
+          ],
+          [
+            44.533307,
+            -72.520292,
+            1166
+          ],
+          [
+            44.53264,
+            -72.520009,
+            1166
+          ],
+          [
+            44.532311,
+            -72.519859,
+            1167
+          ],
+          [
+            44.531978,
+            -72.519719,
+            1168
+          ],
+          [
+            44.531922,
+            -72.519703,
+            1168
+          ],
+          [
+            44.531847,
+            -72.519682,
+            1167
+          ],
+          [
+            44.531714,
+            -72.519667,
+            1166
+          ],
+          [
+            44.530998,
+            -72.51967,
+            1160
+          ],
+          [
+            44.530637,
+            -72.519642,
+            1160
+          ],
+          [
+            44.529929,
+            -72.519506,
+            1161
+          ],
+          [
+            44.52955,
+            -72.519425,
+            1160
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1372,
+            "coord": [
+              44.521546,
+              -72.533199
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 1393,
+            "coord": [
+              44.524713,
+              -72.531479
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 1339,
+            "coord": [
+              44.526384,
+              -72.530803
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 1233,
+            "coord": [
+              44.528031,
+              -72.528864
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 1220,
+            "coord": [
+              44.528662,
+              -72.529139
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 1191,
+            "coord": [
+              44.529712,
+              -72.530158
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 1179,
+            "coord": [
+              44.530521,
+              -72.530692
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 1191,
+            "coord": [
+              44.532201,
+              -72.531049
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 1186,
+            "coord": [
+              44.533421,
+              -72.532278
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 1182,
+            "coord": [
+              44.53404,
+              -72.53254
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 1178,
+            "coord": [
+              44.53521,
+              -72.532634
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 1179,
+            "coord": [
+              44.536263,
+              -72.533268
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 1186,
+            "coord": [
+              44.537095,
+              -72.533687
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 1183,
+            "coord": [
+              44.538627,
+              -72.533326
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 1166,
+            "coord": [
+              44.53997,
+              -72.532517
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 1148,
+            "coord": [
+              44.540894,
+              -72.531647
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 1145,
+            "coord": [
+              44.541006,
+              -72.530242
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 1145,
+            "coord": [
+              44.541356,
+              -72.529271
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 1147,
+            "coord": [
+              44.541903,
+              -72.528707
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 1146,
+            "coord": [
+              44.542075,
+              -72.527914
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 1151,
+            "coord": [
+              44.542056,
+              -72.526397
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 1151,
+            "coord": [
+              44.542208,
+              -72.525312
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 1143,
+            "coord": [
+              44.541451,
+              -72.524393
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 1145,
+            "coord": [
+              44.540917,
+              -72.523533
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 1151,
+            "coord": [
+              44.540013,
+              -72.522737
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 1165,
+            "coord": [
+              44.538508,
+              -72.521835
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 1161,
+            "coord": [
+              44.537726,
+              -72.521906
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 1165,
+            "coord": [
+              44.536741,
+              -72.521577
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 1166,
+            "coord": [
+              44.534649,
+              -72.520841
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 1167,
+            "coord": [
+              44.531847,
+              -72.519682
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.521546,
+            -72.533199,
+            1372
+          ],
+          "summit": [
+            44.5294,
+            -72.5208,
+            2608
+          ]
+        }
+      },
+      "features": []
+    }
+  ],
+  "seo": {
+    "meta_title": "Elmore Mountain Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Elmore Mountain (2,608 ft) in Vermont. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/vermont/elmore-mountain-vt",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Elmore Mountain",
+      "description": "Elmore Mountain is a 2,608 foot peak in Vermont offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.5294,
+        "longitude": -72.5208,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2608,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Vermont",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Elmore Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.5217,
+            "longitude": -72.5333
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Elmore Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Elmore Mountain take 1-3 hours round trip. The most popular trail is 3.0 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Elmore Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elmore Mountain is rated Moderate. At 2,608 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Elmore Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Elmore Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Elmore Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Elmore Mountain Trail, offering Scenic climb to fire tower in Elmore State Park.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Elmore Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Elmore Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Elmore Mountain",
+      "subtitle": "Historic Fire Tower Summit \u2022 2,608 ft",
+      "quick_stats": {
+        "elevation": "2,608 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,608 feet, Elmore Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Elmore Mountain Trail**, covers 3.0 miles and is rated \n    Moderate. Scenic climb to fire tower in Elmore State Park.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Stowe Pinnacle lies just 7.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Elmore Mountain?",
+        "answer": "Most routes on Elmore Mountain take 1-3 hours round trip. The most popular trail is 3.0 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Elmore Mountain hard to hike?",
+        "answer": "Elmore Mountain is rated Moderate. At 2,608 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Elmore Mountain?",
+        "answer": "No hiking permit is required for Elmore Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Elmore Mountain?",
+        "answer": "The most popular route is the Elmore Mountain Trail, offering Scenic climb to fire tower in Elmore State Park.."
+      },
+      {
+        "question": "When is the best time to hike Elmore Mountain?",
+        "answer": "The best hiking season for Elmore Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Stowe Pinnacle",
+        "slug": "stowe-pinnacle-vt",
+        "state_slug": "vermont",
+        "elevation": 2740,
+        "distance_miles": 7.9,
+        "link_text": "Hike Stowe Pinnacle",
+        "combo_suggestion": "Combine Elmore Mountain with Stowe Pinnacle for a longer day",
+        "comparison": "Higher summit (+132 ft)"
+      },
+      {
+        "name": "Mount Hunger",
+        "slug": "mount-hunger-vt",
+        "state_slug": "vermont",
+        "elevation": 3539,
+        "distance_miles": 9.9,
+        "link_text": "Hike Mount Hunger",
+        "combo_suggestion": "Combine Elmore Mountain with Mount Hunger for a longer day",
+        "comparison": "Higher summit (+931 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Elmore Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Elmore Mountain Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "elmore-mountain-vt-all-trails.gpx",
+        "label": "Download All Elmore Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "elmore-mountain-vt-trail-guide.pdf",
+        "label": "Elmore Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "elmore-mountain-vt-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Elmore%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,608 feet, Elmore Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Elmore Mountain Trail**, covers 3.0 miles and is rated \n    Moderate. Scenic climb to fire tower in Elmore State Park.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Stowe Pinnacle lies just 7.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

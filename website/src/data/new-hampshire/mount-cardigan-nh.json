@@ -19,14 +19,14 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 2.4,
-      "elevation_gain": 900,
+      "elevation_gain": 1220,
       "tags": [],
       "description": "Trail to Mount Cardigan summit.",
       "parking_info": "Cardigan Lodge (AMC), Shem Valley Rd, Alexandria",
       "parking_details": {
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
-        "fee": "$5/day (WMNF)",
+        "fee": "$5/day",
         "shuttle": null
       },
       "start_lat": 43.6498,
@@ -38,14 +38,14 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 2.3,
-      "elevation_gain": 800,
+      "elevation_gain": 1150,
       "tags": [],
       "description": "Trail to Mount Cardigan summit.",
       "parking_info": "Cardigan Lodge (AMC), Shem Valley Rd, Alexandria",
       "parking_details": {
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
-        "fee": "$5/day (WMNF)",
+        "fee": "$5/day",
         "shuttle": null
       },
       "start_lat": 43.6498,
@@ -57,14 +57,14 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 3.4,
-      "elevation_gain": 1000,
+      "elevation_gain": 1700,
       "tags": [],
       "description": "Trail to Mount Cardigan summit.",
       "parking_info": "Cardigan State Park, Orange",
       "parking_details": {
         "capacity": "Small (~20 cars)",
         "status": "Check conditions",
-        "fee": "$4/adult (State Park)",
+        "fee": "$4/adult",
         "shuttle": null
       },
       "start_lat": 43.6485,
@@ -76,20 +76,26 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 2.6,
-      "elevation_gain": 850,
+      "elevation_gain": 1300,
       "tags": [],
       "description": "Trail to Mount Cardigan summit.",
       "parking_info": "Cardigan Lodge (AMC), Shem Valley Rd, Alexandria",
       "parking_details": {
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
-        "fee": "$5/day (WMNF)",
+        "fee": "$5/day",
         "shuttle": null
       },
       "start_lat": 43.6498,
       "start_lon": -71.9415
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [],
   "social_pulse": 7,
   "reviews": [
@@ -112,12 +118,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:11:18.647103",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "c54c91bf",
@@ -134,7 +134,7 @@
         "directions_url": "https://www.google.com/maps/dir//43.6498,-71.9415",
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
-        "fee": "$5/day (WMNF)",
+        "fee": "$5/day",
         "shuttle": null
       },
       "stats": {
@@ -1633,7 +1633,7 @@
         "directions_url": "https://www.google.com/maps/dir//43.6498,-71.9415",
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
-        "fee": "$5/day (WMNF)",
+        "fee": "$5/day",
         "shuttle": null
       },
       "stats": {
@@ -3132,7 +3132,7 @@
         "directions_url": "https://www.google.com/maps/dir//43.6485,-71.8705",
         "capacity": "Small (~20 cars)",
         "status": "Check conditions",
-        "fee": "$4/adult (State Park)",
+        "fee": "$4/adult",
         "shuttle": null
       },
       "stats": {
@@ -4037,7 +4037,7 @@
         "directions_url": "https://www.google.com/maps/dir//43.6498,-71.9415",
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
-        "fee": "$5/day (WMNF)",
+        "fee": "$5/day",
         "shuttle": null
       },
       "stats": {
@@ -5866,5 +5866,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,121 feet, Mount Cardigan offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **West Ridge Trail**, covers 2.4 miles and is rated \n    Moderate. Trail to Mount Cardigan summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,121 feet, Mount Cardigan offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **West Ridge Trail**, covers 2.4 miles and is rated \n    Moderate. Trail to Mount Cardigan summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:36:05.904094",
+    "pipeline_version": "3.0"
+  }
 }

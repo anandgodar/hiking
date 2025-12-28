@@ -1,0 +1,647 @@
+{
+  "name": "Mount Agamenticus",
+  "slug": "mount-agamenticus-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 692,
+  "lat": 43.2217,
+  "lon": -70.6878,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "Easy",
+    "Views",
+    "Family Friendly",
+    "Coastal"
+  ],
+  "trails_config": [
+    {
+      "name": "Ring Trail",
+      "osm_name": "Ring Trail",
+      "type": "Loop",
+      "difficulty": "Easy",
+      "distance_miles": 1.5,
+      "elevation_gain": 350,
+      "tags": [
+        "Easy",
+        "Family",
+        "Views"
+      ],
+      "description": "Easy loop with views to ocean and mountains. Can drive to summit too.",
+      "parking_info": "Mount Agamenticus Base Parking",
+      "parking_details": {
+        "capacity": "Large (~50 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.2183,
+      "start_lon": -70.685,
+      "features": [
+        {
+          "name": "Learning Lodge",
+          "lat": 43.2217,
+          "lon": -70.6878,
+          "type": "landmark",
+          "mile": 0.5
+        },
+        {
+          "name": "Summit Overlook",
+          "lat": 43.2222,
+          "lon": -70.6883,
+          "type": "viewpoint",
+          "mile": 0.6
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [],
+  "meta": {
+    "refined_at": "2025-12-28T16:13:55.627071",
+    "refiner_version": "2.1.0",
+    "validation_issues": 2,
+    "validation_log": [
+      "DISTANCE_UNDERESTIMATE: Ring Trail calculated 0.4mi but seed says 1.5mi. Using seed value.",
+      "ELEVATION_ZERO: Ring Trail calculated 0ft gain (likely TIFF error). Using seed value 350ft."
+    ],
+    "last_updated": "2025-12-28T16:13:55.701517",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "2099c0dd",
+      "name": "Ring Trail",
+      "type": "Loop",
+      "difficulty": "Easy",
+      "distance_miles": 1.5,
+      "elevation_gain": 350,
+      "description": "Easy loop with views to ocean and mountains. Can drive to summit too.",
+      "tags": [
+        "Easy",
+        "Family",
+        "Views"
+      ],
+      "parking_info": "Mount Agamenticus Base Parking",
+      "parking_details": {
+        "capacity": "Large (~50 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.2183,
+      "start_lon": -70.685,
+      "logistics": {
+        "start_coords": [
+          43.2183,
+          -70.685
+        ],
+        "parking_info": "Mount Agamenticus Base Parking",
+        "directions_url": "https://www.google.com/maps/dir//43.2183,-70.685",
+        "capacity": "Large (~50 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 1.5,
+        "gain": 350,
+        "max_elev": 692,
+        "min_elev": 692,
+        "type": "Loop",
+        "difficulty": "Easy",
+        "time": 0.7,
+        "_original_calculated_distance": 0.4,
+        "_distance_source": "seed_override",
+        "_original_calculated_gain": 0,
+        "_elevation_source": "seed_override"
+      },
+      "geo": {
+        "path": [
+          [
+            43.2183,
+            -70.685,
+            0
+          ],
+          [
+            43.219366517106614,
+            -70.68556,
+            0
+          ],
+          [
+            43.22028539781573,
+            -70.68612,
+            0
+          ],
+          [
+            43.22096539781573,
+            -70.68668,
+            0
+          ],
+          [
+            43.22140651710661,
+            -70.68724,
+            0
+          ],
+          [
+            43.2217,
+            -70.6878,
+            0
+          ],
+          [
+            43.2218,
+            -70.6879,
+            0
+          ],
+          [
+            43.2219,
+            -70.688,
+            0
+          ],
+          [
+            43.222,
+            -70.68809999999999,
+            0
+          ],
+          [
+            43.2221,
+            -70.6882,
+            0
+          ],
+          [
+            43.2222,
+            -70.6883,
+            0
+          ],
+          [
+            43.2221,
+            -70.6882,
+            0
+          ],
+          [
+            43.222,
+            -70.68809999999999,
+            0
+          ],
+          [
+            43.2219,
+            -70.688,
+            0
+          ],
+          [
+            43.2218,
+            -70.6879,
+            0
+          ],
+          [
+            43.2217,
+            -70.6878,
+            0
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 0,
+            "coord": [
+              43.2183,
+              -70.685
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 0,
+            "coord": [
+              43.219366517106614,
+              -70.68556
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 0,
+            "coord": [
+              43.22028539781573,
+              -70.68612
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 0,
+            "coord": [
+              43.22096539781573,
+              -70.68668
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 0,
+            "coord": [
+              43.22140651710661,
+              -70.68724
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 0,
+            "coord": [
+              43.2217,
+              -70.6878
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 0,
+            "coord": [
+              43.2218,
+              -70.6879
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 0,
+            "coord": [
+              43.2219,
+              -70.688
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 0,
+            "coord": [
+              43.222,
+              -70.68809999999999
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 0,
+            "coord": [
+              43.2221,
+              -70.6882
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 0,
+            "coord": [
+              43.2222,
+              -70.6883
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 0,
+            "coord": [
+              43.2221,
+              -70.6882
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 0,
+            "coord": [
+              43.222,
+              -70.68809999999999
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 0,
+            "coord": [
+              43.2219,
+              -70.688
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 0,
+            "coord": [
+              43.2218,
+              -70.6879
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 0,
+            "coord": [
+              43.2217,
+              -70.6878
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.2183,
+            -70.685
+          ],
+          "summit": [
+            43.2217,
+            -70.6878,
+            692
+          ],
+          "stop_0": [
+            43.2217,
+            -70.6878,
+            "Learning Lodge"
+          ],
+          "stop_1": [
+            43.2222,
+            -70.6883,
+            "Summit Overlook"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Learning Lodge",
+          "lat": 43.2217,
+          "lon": -70.6878,
+          "type": "landmark",
+          "mile": 0.5
+        },
+        {
+          "name": "Summit Overlook",
+          "lat": 43.2222,
+          "lon": -70.6883,
+          "type": "viewpoint",
+          "mile": 0.6
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "Mount Agamenticus Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Mount Agamenticus (692 ft) in Maine. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/maine/mount-agamenticus-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Agamenticus",
+      "description": "Mount Agamenticus is a 692 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.2217,
+        "longitude": -70.6878,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 692,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Ring Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 43.2183,
+            "longitude": -70.685
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Agamenticus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Mount Agamenticus take 0-2 hours round trip. The most popular trail is 1.5 miles with Easy difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Agamenticus hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Agamenticus is rated Easy. At 692 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Agamenticus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Mount Agamenticus. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Agamenticus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Ring Trail, offering Easy loop with views to ocean and mountains. Can drive to summit too.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Agamenticus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Mount Agamenticus is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Mount Agamenticus",
+      "subtitle": "New Hampshire Trail Destination \u2022 692 ft",
+      "quick_stats": {
+        "elevation": "692 ft",
+        "trail_count": 1,
+        "difficulty": "Easy",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 692 feet, Mount Agamenticus offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Ring Trail**, covers 1.5 miles and is rated \n    Easy. Easy loop with views to ocean and mountains. Can drive to summit too.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Mount Agamenticus?",
+        "answer": "Most routes on Mount Agamenticus take 0-2 hours round trip. The most popular trail is 1.5 miles with Easy difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Mount Agamenticus hard to hike?",
+        "answer": "Mount Agamenticus is rated Easy. At 692 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Mount Agamenticus?",
+        "answer": "No hiking permit is required for Mount Agamenticus. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Mount Agamenticus?",
+        "answer": "The most popular route is the Ring Trail, offering Easy loop with views to ocean and mountains. Can drive to summit too.."
+      },
+      {
+        "question": "When is the best time to hike Mount Agamenticus?",
+        "answer": "The best hiking season for Mount Agamenticus is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": []
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Mount Agamenticus? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Ring Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "mount-agamenticus-me-all-trails.gpx",
+        "label": "Download All Mount Agamenticus Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "mount-agamenticus-me-trail-guide.pdf",
+        "label": "Mount Agamenticus Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "mount-agamenticus-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Mount%20Agamenticus!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 692 feet, Mount Agamenticus offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Ring Trail**, covers 1.5 miles and is rated \n    Easy. Easy loop with views to ocean and mountains. Can drive to summit too.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
+}

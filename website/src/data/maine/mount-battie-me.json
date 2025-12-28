@@ -1,0 +1,643 @@
+{
+  "name": "Camden Hills - Mount Battie",
+  "slug": "mount-battie-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 800,
+  "lat": 44.2178,
+  "lon": -69.0539,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "Views",
+    "Coastal",
+    "State Park",
+    "Tower"
+  ],
+  "trails_config": [
+    {
+      "name": "Mount Battie Trail",
+      "osm_name": "Mount Battie Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 1.0,
+      "elevation_gain": 600,
+      "tags": [
+        "Views",
+        "Tower"
+      ],
+      "description": "Short steep climb to stone tower with harbor views.",
+      "parking_info": "Camden Hills State Park",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "State Park fee",
+        "shuttle": null
+      },
+      "start_lat": 44.2133,
+      "start_lon": -69.05,
+      "features": [
+        {
+          "name": "Tablelands Overlook",
+          "lat": 44.2156,
+          "lon": -69.0522,
+          "type": "viewpoint",
+          "mile": 0.3
+        },
+        {
+          "name": "Stone Tower",
+          "lat": 44.2178,
+          "lon": -69.0539,
+          "type": "tower",
+          "mile": 0.5
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [],
+  "meta": {
+    "refined_at": "2025-12-28T16:13:55.728498",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "ELEVATION_MISMATCH: Mount Battie Trail calculated 31ft but seed says 600ft. Using seed value."
+    ],
+    "last_updated": "2025-12-28T16:13:55.739748",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "30b9b38d",
+      "name": "Mount Battie Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 1.0,
+      "elevation_gain": 600,
+      "description": "Short steep climb to stone tower with harbor views.",
+      "tags": [
+        "Views",
+        "Tower"
+      ],
+      "parking_info": "Camden Hills State Park",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "State Park fee",
+        "shuttle": null
+      },
+      "start_lat": 44.2133,
+      "start_lon": -69.05,
+      "logistics": {
+        "start_coords": [
+          44.2133,
+          -69.05
+        ],
+        "parking_info": "Camden Hills State Park",
+        "directions_url": "https://www.google.com/maps/dir//44.2133,-69.05",
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "State Park fee",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 0.4,
+        "gain": 600,
+        "max_elev": 42,
+        "min_elev": 11,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.4,
+        "_distance_source": "calculated",
+        "_original_calculated_gain": 31,
+        "_elevation_source": "seed_override"
+      },
+      "geo": {
+        "path": [
+          [
+            44.2133,
+            -69.05,
+            0
+          ],
+          [
+            44.21403191193452,
+            -69.05044,
+            0
+          ],
+          [
+            44.21465996275199,
+            -69.05087999999999,
+            0
+          ],
+          [
+            44.21511996275199,
+            -69.05132,
+            0
+          ],
+          [
+            44.21541191193452,
+            -69.05176,
+            0
+          ],
+          [
+            44.2156,
+            -69.0522,
+            0
+          ],
+          [
+            44.21628514665742,
+            -69.05254,
+            0
+          ],
+          [
+            44.216876655623935,
+            -69.05288,
+            19
+          ],
+          [
+            44.21731665562394,
+            -69.05322,
+            11
+          ],
+          [
+            44.21760514665742,
+            -69.05356,
+            27
+          ],
+          [
+            44.2178,
+            -69.0539,
+            42
+          ],
+          [
+            44.2178,
+            -69.0539,
+            42
+          ],
+          [
+            44.2178,
+            -69.0539,
+            42
+          ],
+          [
+            44.2178,
+            -69.0539,
+            42
+          ],
+          [
+            44.2178,
+            -69.0539,
+            42
+          ],
+          [
+            44.2178,
+            -69.0539,
+            42
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 0,
+            "coord": [
+              44.2133,
+              -69.05
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 0,
+            "coord": [
+              44.21403191193452,
+              -69.05044
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 0,
+            "coord": [
+              44.21465996275199,
+              -69.05087999999999
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 0,
+            "coord": [
+              44.21511996275199,
+              -69.05132
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 0,
+            "coord": [
+              44.21541191193452,
+              -69.05176
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 0,
+            "coord": [
+              44.2156,
+              -69.0522
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 0,
+            "coord": [
+              44.21628514665742,
+              -69.05254
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 19,
+            "coord": [
+              44.216876655623935,
+              -69.05288
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 11,
+            "coord": [
+              44.21731665562394,
+              -69.05322
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 27,
+            "coord": [
+              44.21760514665742,
+              -69.05356
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 42,
+            "coord": [
+              44.2178,
+              -69.0539
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 42,
+            "coord": [
+              44.2178,
+              -69.0539
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 42,
+            "coord": [
+              44.2178,
+              -69.0539
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 42,
+            "coord": [
+              44.2178,
+              -69.0539
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 42,
+            "coord": [
+              44.2178,
+              -69.0539
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 42,
+            "coord": [
+              44.2178,
+              -69.0539
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.2133,
+            -69.05
+          ],
+          "summit": [
+            44.2178,
+            -69.0539,
+            800
+          ],
+          "stop_0": [
+            44.2156,
+            -69.0522,
+            "Tablelands Overlook"
+          ],
+          "stop_1": [
+            44.2178,
+            -69.0539,
+            "Stone Tower"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Tablelands Overlook",
+          "lat": 44.2156,
+          "lon": -69.0522,
+          "type": "viewpoint",
+          "mile": 0.3
+        },
+        {
+          "name": "Stone Tower",
+          "lat": 44.2178,
+          "lon": -69.0539,
+          "type": "tower",
+          "mile": 0.5
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "Camden Hills - Mount Battie Hiking Guide | Maps & Trail Info",
+    "meta_description": "Explore Camden Hills - Mount Battie (800 ft) in Maine. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/maine/mount-battie-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Camden Hills - Mount Battie",
+      "description": "Camden Hills - Mount Battie is a 800 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.2178,
+        "longitude": -69.0539,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 800,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Battie Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.2133,
+            "longitude": -69.05
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Camden Hills - Mount Battie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Camden Hills - Mount Battie take 0-2 hours round trip. The most popular trail is 1.0 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Camden Hills - Mount Battie hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Camden Hills - Mount Battie is rated Moderate. At 800 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Camden Hills - Mount Battie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Camden Hills - Mount Battie. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Camden Hills - Mount Battie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Battie Trail, offering Short steep climb to stone tower with harbor views.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Camden Hills - Mount Battie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Camden Hills - Mount Battie is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Camden Hills - Mount Battie",
+      "subtitle": "New Hampshire Trail Destination \u2022 800 ft",
+      "quick_stats": {
+        "elevation": "800 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 800 feet, Camden Hills - Mount Battie offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mount Battie Trail**, covers 1.0 miles and is rated \n    Moderate. Short steep climb to stone tower with harbor views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Camden Hills - Mount Battie?",
+        "answer": "Most routes on Camden Hills - Mount Battie take 0-2 hours round trip. The most popular trail is 1.0 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Camden Hills - Mount Battie hard to hike?",
+        "answer": "Camden Hills - Mount Battie is rated Moderate. At 800 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Camden Hills - Mount Battie?",
+        "answer": "No hiking permit is required for Camden Hills - Mount Battie. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Camden Hills - Mount Battie?",
+        "answer": "The most popular route is the Mount Battie Trail, offering Short steep climb to stone tower with harbor views.."
+      },
+      {
+        "question": "When is the best time to hike Camden Hills - Mount Battie?",
+        "answer": "The best hiking season for Camden Hills - Mount Battie is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": []
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Camden Hills - Mount Battie? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Mount Battie Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "mount-battie-me-all-trails.gpx",
+        "label": "Download All Camden Hills - Mount Battie Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "mount-battie-me-trail-guide.pdf",
+        "label": "Camden Hills - Mount Battie Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "mount-battie-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Camden%20Hills%20-%20Mount%20Battie!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 800 feet, Camden Hills - Mount Battie offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mount Battie Trail**, covers 1.0 miles and is rated \n    Moderate. Short steep climb to stone tower with harbor views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
+}

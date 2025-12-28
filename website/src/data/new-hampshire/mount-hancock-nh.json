@@ -20,7 +20,7 @@
       "type": "Loop",
       "difficulty": "Hard",
       "distance_miles": 5.2,
-      "elevation_gain": 2000,
+      "elevation_gain": 2600,
       "tags": [],
       "description": "Trail to Mount Hancock summit.",
       "parking_info": "Hancock Trailhead, Kancamagus Highway",
@@ -36,6 +36,12 @@
       "via_lon": -71.4943
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [
     {
       "name": "Mount Carrigain",
@@ -45,25 +51,25 @@
       "distance_miles": 2.5
     },
     {
-      "name": "Mount Osceola",
-      "slug": "mount-osceola-nh",
+      "name": "Bondcliff",
+      "slug": "bondcliff-nh",
       "state_slug": "new-hampshire",
-      "elevation": 4340,
-      "distance_miles": 6.0
+      "elevation": 4265,
+      "distance_miles": 4.5
     },
     {
-      "name": "Mount Flume",
-      "slug": "mount-flume-nh",
+      "name": "Mount Bond",
+      "slug": "mount-bond-nh",
       "state_slug": "new-hampshire",
-      "elevation": 4328,
-      "distance_miles": 6.9
+      "elevation": 4698,
+      "distance_miles": 5.1
     },
     {
-      "name": "Mount Liberty",
-      "slug": "mount-liberty-nh",
+      "name": "West Bond",
+      "slug": "west-bond-nh",
       "state_slug": "new-hampshire",
-      "elevation": 4459,
-      "distance_miles": 7.7
+      "elevation": 4540,
+      "distance_miles": 5.4
     }
   ],
   "social_pulse": 7,
@@ -87,12 +93,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:20:29.167154",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "bbe3e940",
@@ -2829,34 +2829,34 @@
         "comparison": "Higher summit (+280 ft)"
       },
       {
-        "name": "Mount Osceola",
-        "slug": "mount-osceola-nh",
+        "name": "Bondcliff",
+        "slug": "bondcliff-nh",
         "state_slug": "new-hampshire",
-        "elevation": 4340,
-        "distance_miles": 6.0,
-        "link_text": "Hike Mount Osceola",
-        "combo_suggestion": "Combine Mount Hancock with Mount Osceola for a longer day",
-        "comparison": "Shorter climb (80 ft less)"
+        "elevation": 4265,
+        "distance_miles": 4.5,
+        "link_text": "Hike Bondcliff",
+        "combo_suggestion": "Combine Mount Hancock with Bondcliff for a longer day",
+        "comparison": "Shorter climb (155 ft less)"
       },
       {
-        "name": "Mount Flume",
-        "slug": "mount-flume-nh",
+        "name": "Mount Bond",
+        "slug": "mount-bond-nh",
         "state_slug": "new-hampshire",
-        "elevation": 4328,
-        "distance_miles": 6.9,
-        "link_text": "Hike Mount Flume",
-        "combo_suggestion": "Combine Mount Hancock with Mount Flume for a longer day",
-        "comparison": "Shorter climb (92 ft less)"
+        "elevation": 4698,
+        "distance_miles": 5.1,
+        "link_text": "Hike Mount Bond",
+        "combo_suggestion": "Combine Mount Hancock with Mount Bond for a longer day",
+        "comparison": "Higher summit (+278 ft)"
       },
       {
-        "name": "Mount Liberty",
-        "slug": "mount-liberty-nh",
+        "name": "West Bond",
+        "slug": "west-bond-nh",
         "state_slug": "new-hampshire",
-        "elevation": 4459,
-        "distance_miles": 7.7,
-        "link_text": "Hike Mount Liberty",
-        "combo_suggestion": "Combine Mount Hancock with Mount Liberty for a longer day",
-        "comparison": "Higher summit (+39 ft)"
+        "elevation": 4540,
+        "distance_miles": 5.4,
+        "link_text": "Hike West Bond",
+        "combo_suggestion": "Combine Mount Hancock with West Bond for a longer day",
+        "comparison": "Higher summit (+120 ft)"
       }
     ]
   },
@@ -2890,5 +2890,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,420 feet, Mount Hancock ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Hancock Loop Trail**, covers 5.2 miles and is rated \n    Hard. Trail to Mount Hancock summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Carrigain lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,420 feet, Mount Hancock ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Hancock Loop Trail**, covers 5.2 miles and is rated \n    Hard. Trail to Mount Hancock summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Carrigain lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:40:53.407768",
+    "pipeline_version": "3.0"
+  }
 }

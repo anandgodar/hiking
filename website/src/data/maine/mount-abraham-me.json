@@ -1,0 +1,1323 @@
+{
+  "name": "Mount Abraham",
+  "slug": "mount-abraham-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 4049,
+  "lat": 44.9667,
+  "lon": -70.2833,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "4000 Footer",
+    "Alpine Zone",
+    "Fire Tower"
+  ],
+  "trails_config": [
+    {
+      "name": "Fire Warden's Trail",
+      "osm_name": "Fire Warden's Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.0,
+      "elevation_gain": 2800,
+      "tags": [
+        "Fire Tower",
+        "Alpine Zone"
+      ],
+      "description": "Classic route to fire tower ruins. Second largest alpine zone in Maine.",
+      "parking_info": "Fire Warden's Trail Parking, Kingfield",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.9433,
+      "start_lon": -70.2467,
+      "features": [
+        {
+          "name": "Rapid Stream Crossing",
+          "lat": 44.9511,
+          "lon": -70.2567,
+          "type": "water",
+          "mile": 1.5
+        },
+        {
+          "name": "Treeline",
+          "lat": 44.9622,
+          "lon": -70.2744,
+          "type": "landmark",
+          "mile": 3.2
+        },
+        {
+          "name": "Fire Tower Ruins",
+          "lat": 44.9667,
+          "lon": -70.2833,
+          "type": "fire_tower",
+          "mile": 4.0
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Spaulding Mountain",
+      "slug": "spaulding-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4010,
+      "distance_miles": 3.5
+    },
+    {
+      "name": "Sugarloaf Mountain",
+      "slug": "sugarloaf-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4237,
+      "distance_miles": 4.7
+    },
+    {
+      "name": "Crocker Mountain",
+      "slug": "crocker-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4228,
+      "distance_miles": 6.7
+    },
+    {
+      "name": "South Crocker Mountain",
+      "slug": "south-crocker-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4048,
+      "distance_miles": 7.4
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:15:42.013735",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-28T16:16:22.683393",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "278bf686",
+      "name": "Fire Warden's Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.0,
+      "elevation_gain": 2800,
+      "description": "Classic route to fire tower ruins. Second largest alpine zone in Maine.",
+      "tags": [
+        "Fire Tower",
+        "Alpine Zone"
+      ],
+      "parking_info": "Fire Warden's Trail Parking, Kingfield",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.9433,
+      "start_lon": -70.2467,
+      "logistics": {
+        "start_coords": [
+          44.9433,
+          -70.2467
+        ],
+        "parking_info": "Fire Warden's Trail Parking, Kingfield",
+        "directions_url": "https://www.google.com/maps/dir//44.9433,-70.2467",
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 5.1,
+        "gain": 1364,
+        "max_elev": 2123,
+        "min_elev": 847,
+        "type": "Out & Back",
+        "difficulty": "Hard",
+        "time": 2.4,
+        "_distance_source": "calculated",
+        "_elevation_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            44.940238,
+            -70.246048,
+            921
+          ],
+          [
+            44.940254,
+            -70.245897,
+            914
+          ],
+          [
+            44.940178,
+            -70.243733,
+            878
+          ],
+          [
+            44.940965,
+            -70.242729,
+            872
+          ],
+          [
+            44.941544,
+            -70.242342,
+            874
+          ],
+          [
+            44.94191,
+            -70.240877,
+            863
+          ],
+          [
+            44.941955,
+            -70.239184,
+            863
+          ],
+          [
+            44.942561,
+            -70.238006,
+            868
+          ],
+          [
+            44.94347,
+            -70.236743,
+            860
+          ],
+          [
+            44.944364,
+            -70.236069,
+            847
+          ],
+          [
+            44.94538,
+            -70.236337,
+            885
+          ],
+          [
+            44.945588,
+            -70.236449,
+            892
+          ],
+          [
+            44.946653,
+            -70.237022,
+            928
+          ],
+          [
+            44.947377,
+            -70.237499,
+            949
+          ],
+          [
+            44.950008,
+            -70.239231,
+            986
+          ],
+          [
+            44.950933,
+            -70.240581,
+            1005
+          ],
+          [
+            44.951418,
+            -70.241951,
+            1022
+          ],
+          [
+            44.951706,
+            -70.244117,
+            1060
+          ],
+          [
+            44.951889,
+            -70.245364,
+            1072
+          ],
+          [
+            44.952376,
+            -70.246462,
+            1080
+          ],
+          [
+            44.952894,
+            -70.246806,
+            1080
+          ],
+          [
+            44.953608,
+            -70.247428,
+            1079
+          ],
+          [
+            44.955006,
+            -70.248567,
+            1080
+          ],
+          [
+            44.956662,
+            -70.248803,
+            1071
+          ],
+          [
+            44.957847,
+            -70.249211,
+            1063
+          ],
+          [
+            44.958925,
+            -70.249468,
+            1051
+          ],
+          [
+            44.960551,
+            -70.249597,
+            1037
+          ],
+          [
+            44.961658,
+            -70.249426,
+            1037
+          ],
+          [
+            44.962812,
+            -70.250005,
+            1036
+          ],
+          [
+            44.963951,
+            -70.250091,
+            1024
+          ],
+          [
+            44.964909,
+            -70.250134,
+            1008
+          ],
+          [
+            44.965739,
+            -70.249942,
+            1005
+          ],
+          [
+            44.966222,
+            -70.251222,
+            1023
+          ],
+          [
+            44.966662,
+            -70.253002,
+            1048
+          ],
+          [
+            44.967133,
+            -70.254827,
+            1075
+          ],
+          [
+            44.967786,
+            -70.256521,
+            1091
+          ],
+          [
+            44.967816,
+            -70.257698,
+            1113
+          ],
+          [
+            44.967755,
+            -70.258943,
+            1132
+          ],
+          [
+            44.967862,
+            -70.259869,
+            1144
+          ],
+          [
+            44.968051,
+            -70.260266,
+            1156
+          ],
+          [
+            44.967939,
+            -70.260249,
+            1154
+          ],
+          [
+            44.968,
+            -70.26045,
+            1158
+          ],
+          [
+            44.968129,
+            -70.260632,
+            1159
+          ],
+          [
+            44.96803,
+            -70.261437,
+            1177
+          ],
+          [
+            44.96819,
+            -70.262113,
+            1203
+          ],
+          [
+            44.96825,
+            -70.262252,
+            1200
+          ],
+          [
+            44.968144,
+            -70.262853,
+            1222
+          ],
+          [
+            44.968053,
+            -70.263046,
+            1224
+          ],
+          [
+            44.968121,
+            -70.263411,
+            1231
+          ],
+          [
+            44.968326,
+            -70.26399,
+            1237
+          ],
+          [
+            44.968395,
+            -70.264323,
+            1244
+          ],
+          [
+            44.968288,
+            -70.264688,
+            1252
+          ],
+          [
+            44.968159,
+            -70.265074,
+            1268
+          ],
+          [
+            44.968106,
+            -70.265557,
+            1281
+          ],
+          [
+            44.968023,
+            -70.265793,
+            1290
+          ],
+          [
+            44.967947,
+            -70.266029,
+            1296
+          ],
+          [
+            44.967954,
+            -70.266286,
+            1303
+          ],
+          [
+            44.967856,
+            -70.266522,
+            1306
+          ],
+          [
+            44.967795,
+            -70.266791,
+            1314
+          ],
+          [
+            44.967901,
+            -70.267305,
+            1334
+          ],
+          [
+            44.96803,
+            -70.26781,
+            1344
+          ],
+          [
+            44.968387,
+            -70.268035,
+            1361
+          ],
+          [
+            44.968698,
+            -70.268089,
+            1392
+          ],
+          [
+            44.969101,
+            -70.268239,
+            1414
+          ],
+          [
+            44.969404,
+            -70.268636,
+            1426
+          ],
+          [
+            44.969632,
+            -70.269054,
+            1436
+          ],
+          [
+            44.969829,
+            -70.269516,
+            1446
+          ],
+          [
+            44.970027,
+            -70.269956,
+            1465
+          ],
+          [
+            44.970429,
+            -70.270599,
+            1486
+          ],
+          [
+            44.970558,
+            -70.270985,
+            1498
+          ],
+          [
+            44.970732,
+            -70.271382,
+            1506
+          ],
+          [
+            44.970641,
+            -70.271812,
+            1518
+          ],
+          [
+            44.970991,
+            -70.272305,
+            1535
+          ],
+          [
+            44.971446,
+            -70.272799,
+            1559
+          ],
+          [
+            44.971734,
+            -70.273217,
+            1567
+          ],
+          [
+            44.971977,
+            -70.273657,
+            1575
+          ],
+          [
+            44.972243,
+            -70.274129,
+            1586
+          ],
+          [
+            44.972592,
+            -70.274547,
+            1603
+          ],
+          [
+            44.972835,
+            -70.274891,
+            1605
+          ],
+          [
+            44.973101,
+            -70.275298,
+            1609
+          ],
+          [
+            44.973586,
+            -70.275899,
+            1620
+          ],
+          [
+            44.973822,
+            -70.276425,
+            1633
+          ],
+          [
+            44.974087,
+            -70.276833,
+            1640
+          ],
+          [
+            44.97433,
+            -70.277316,
+            1654
+          ],
+          [
+            44.974543,
+            -70.277949,
+            1661
+          ],
+          [
+            44.974664,
+            -70.278624,
+            1680
+          ],
+          [
+            44.974748,
+            -70.279397,
+            1697
+          ],
+          [
+            44.974748,
+            -70.279987,
+            1715
+          ],
+          [
+            44.974596,
+            -70.280684,
+            1736
+          ],
+          [
+            44.974573,
+            -70.281457,
+            1754
+          ],
+          [
+            44.974545,
+            -70.281598,
+            1760
+          ],
+          [
+            44.97426,
+            -70.281366,
+            1765
+          ],
+          [
+            44.973501,
+            -70.284112,
+            1852
+          ],
+          [
+            44.972681,
+            -70.286194,
+            1928
+          ],
+          [
+            44.971983,
+            -70.287138,
+            1967
+          ],
+          [
+            44.971542,
+            -70.287567,
+            1986
+          ],
+          [
+            44.970601,
+            -70.288232,
+            2015
+          ],
+          [
+            44.969159,
+            -70.288125,
+            2071
+          ],
+          [
+            44.9684,
+            -70.287524,
+            2114
+          ],
+          [
+            44.967702,
+            -70.286816,
+            2120
+          ],
+          [
+            44.967034,
+            -70.286473,
+            2123
+          ],
+          [
+            44.966275,
+            -70.286044,
+            2119
+          ],
+          [
+            44.965804,
+            -70.284584,
+            2087
+          ],
+          [
+            44.965616,
+            -70.284012,
+            2071
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 921,
+            "coord": [
+              44.940238,
+              -70.246048
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 872,
+            "coord": [
+              44.940965,
+              -70.242729
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 863,
+            "coord": [
+              44.941955,
+              -70.239184
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 847,
+            "coord": [
+              44.944364,
+              -70.236069
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 928,
+            "coord": [
+              44.946653,
+              -70.237022
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1005,
+            "coord": [
+              44.950933,
+              -70.240581
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 1072,
+            "coord": [
+              44.951889,
+              -70.245364
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 1079,
+            "coord": [
+              44.953608,
+              -70.247428
+            ]
+          },
+          {
+            "mile": 0.6,
+            "elev": 1063,
+            "coord": [
+              44.957847,
+              -70.249211
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 1037,
+            "coord": [
+              44.961658,
+              -70.249426
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 1008,
+            "coord": [
+              44.964909,
+              -70.250134
+            ]
+          },
+          {
+            "mile": 0.84,
+            "elev": 1048,
+            "coord": [
+              44.966662,
+              -70.253002
+            ]
+          },
+          {
+            "mile": 0.9,
+            "elev": 1113,
+            "coord": [
+              44.967816,
+              -70.257698
+            ]
+          },
+          {
+            "mile": 0.92,
+            "elev": 1156,
+            "coord": [
+              44.968051,
+              -70.260266
+            ]
+          },
+          {
+            "mile": 0.93,
+            "elev": 1159,
+            "coord": [
+              44.968129,
+              -70.260632
+            ]
+          },
+          {
+            "mile": 0.94,
+            "elev": 1200,
+            "coord": [
+              44.96825,
+              -70.262252
+            ]
+          },
+          {
+            "mile": 0.96,
+            "elev": 1231,
+            "coord": [
+              44.968121,
+              -70.263411
+            ]
+          },
+          {
+            "mile": 0.98,
+            "elev": 1252,
+            "coord": [
+              44.968288,
+              -70.264688
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 1290,
+            "coord": [
+              44.968023,
+              -70.265793
+            ]
+          },
+          {
+            "mile": 1.0,
+            "elev": 1306,
+            "coord": [
+              44.967856,
+              -70.266522
+            ]
+          },
+          {
+            "mile": 1.03,
+            "elev": 1344,
+            "coord": [
+              44.96803,
+              -70.26781
+            ]
+          },
+          {
+            "mile": 1.06,
+            "elev": 1414,
+            "coord": [
+              44.969101,
+              -70.268239
+            ]
+          },
+          {
+            "mile": 1.08,
+            "elev": 1446,
+            "coord": [
+              44.969829,
+              -70.269516
+            ]
+          },
+          {
+            "mile": 1.11,
+            "elev": 1498,
+            "coord": [
+              44.970558,
+              -70.270985
+            ]
+          },
+          {
+            "mile": 1.14,
+            "elev": 1535,
+            "coord": [
+              44.970991,
+              -70.272305
+            ]
+          },
+          {
+            "mile": 1.17,
+            "elev": 1575,
+            "coord": [
+              44.971977,
+              -70.273657
+            ]
+          },
+          {
+            "mile": 1.19,
+            "elev": 1605,
+            "coord": [
+              44.972835,
+              -70.274891
+            ]
+          },
+          {
+            "mile": 1.22,
+            "elev": 1633,
+            "coord": [
+              44.973822,
+              -70.276425
+            ]
+          },
+          {
+            "mile": 1.26,
+            "elev": 1661,
+            "coord": [
+              44.974543,
+              -70.277949
+            ]
+          },
+          {
+            "mile": 1.28,
+            "elev": 1715,
+            "coord": [
+              44.974748,
+              -70.279987
+            ]
+          },
+          {
+            "mile": 1.29,
+            "elev": 1760,
+            "coord": [
+              44.974545,
+              -70.281598
+            ]
+          },
+          {
+            "mile": 1.41,
+            "elev": 1928,
+            "coord": [
+              44.972681,
+              -70.286194
+            ]
+          },
+          {
+            "mile": 1.48,
+            "elev": 2015,
+            "coord": [
+              44.970601,
+              -70.288232
+            ]
+          },
+          {
+            "mile": 1.54,
+            "elev": 2120,
+            "coord": [
+              44.967702,
+              -70.286816
+            ]
+          },
+          {
+            "mile": 1.62,
+            "elev": 2087,
+            "coord": [
+              44.965804,
+              -70.284584
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.9433,
+            -70.2467
+          ],
+          "summit": [
+            44.9667,
+            -70.2833,
+            4049
+          ],
+          "stop_0": [
+            44.9511,
+            -70.2567,
+            "Rapid Stream Crossing"
+          ],
+          "stop_1": [
+            44.9622,
+            -70.2744,
+            "Treeline"
+          ],
+          "stop_2": [
+            44.9667,
+            -70.2833,
+            "Fire Tower Ruins"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Rapid Stream Crossing",
+          "lat": 44.9511,
+          "lon": -70.2567,
+          "type": "water",
+          "mile": 1.5
+        },
+        {
+          "name": "Treeline",
+          "lat": 44.9622,
+          "lon": -70.2744,
+          "type": "landmark",
+          "mile": 3.2
+        },
+        {
+          "name": "Fire Tower Ruins",
+          "lat": 44.9667,
+          "lon": -70.2833,
+          "type": "fire_tower",
+          "mile": 4.0
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "Mount Abraham Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Plan your Mount Abraham hike with live conditions, 1 trail maps & parking info. NH 4000-Footer at 4,049 ft.",
+    "canonical_url": "/trails/maine/mount-abraham-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Abraham",
+      "description": "Mount Abraham is a 4,049 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.9667,
+        "longitude": -70.2833,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4049,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Fire Warden's Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.9433,
+            "longitude": -70.2467
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Abraham?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Mount Abraham take 4-6 hours round trip. The most popular trail is 8.0 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Abraham hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Abraham is rated Hard. At 4,049 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Abraham?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Mount Abraham. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Abraham?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Fire Warden's Trail, offering Classic route to fire tower ruins. Second largest alpine zone in Maine.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Abraham?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Mount Abraham is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Mount Abraham",
+      "subtitle": "NH 4000-Footer \u2022 4,049 ft",
+      "quick_stats": {
+        "elevation": "4,049 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate to Hard",
+        "list_name": "Maine 4000-Footers"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,049 feet, Mount Abraham ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Fire Warden's Trail**, covers 8.0 miles and is rated \n    Hard. Classic route to fire tower ruins. Second largest alpine zone in Maine.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Spaulding Mountain lies just 3.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, snow above 3000ft until May",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": false
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Best weather, occasional afternoon thunderstorms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Peak foliage late Sept, early snow possible in October",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Full winter conditions, extreme cold and wind above treeline",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Winter hiking requires specialized skills and gear. Never hike alone. Check avalanche conditions for steeper terrain.",
+        "crowd_level": "Low",
+        "recommended": false
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "\u26a0\ufe0f ALPINE ZONE: Weather changes rapidly. Turn back if conditions deteriorate.",
+        "Winter conditions in effect - full mountaineering gear required",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        },
+        {
+          "item": "Extra warm layer for summit",
+          "critical": true
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "2:00 PM recommended for summit"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Mount Abraham?",
+        "answer": "Most routes on Mount Abraham take 4-6 hours round trip. The most popular trail is 8.0 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Mount Abraham hard to hike?",
+        "answer": "Mount Abraham is rated Hard. At 4,049 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Mount Abraham?",
+        "answer": "No hiking permit is required for Mount Abraham. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Mount Abraham?",
+        "answer": "The most popular route is the Fire Warden's Trail, offering Classic route to fire tower ruins. Second largest alpine zone in Maine.."
+      },
+      {
+        "question": "When is the best time to hike Mount Abraham?",
+        "answer": "The best hiking season for Mount Abraham is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Spaulding Mountain",
+        "slug": "spaulding-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4010,
+        "distance_miles": 3.5,
+        "link_text": "Hike Spaulding Mountain",
+        "combo_suggestion": "Combine Mount Abraham with Spaulding Mountain for a longer day",
+        "comparison": "Shorter climb (39 ft less)"
+      },
+      {
+        "name": "Sugarloaf Mountain",
+        "slug": "sugarloaf-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4237,
+        "distance_miles": 4.7,
+        "link_text": "Hike Sugarloaf Mountain",
+        "combo_suggestion": "Combine Mount Abraham with Sugarloaf Mountain for a longer day",
+        "comparison": "Higher summit (+188 ft)"
+      },
+      {
+        "name": "Crocker Mountain",
+        "slug": "crocker-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4228,
+        "distance_miles": 6.7,
+        "link_text": "Hike Crocker Mountain",
+        "combo_suggestion": "Combine Mount Abraham with Crocker Mountain for a longer day",
+        "comparison": "Higher summit (+179 ft)"
+      },
+      {
+        "name": "South Crocker Mountain",
+        "slug": "south-crocker-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4048,
+        "distance_miles": 7.4,
+        "link_text": "Hike South Crocker Mountain",
+        "combo_suggestion": "Combine Mount Abraham with South Crocker Mountain for a longer day",
+        "comparison": "Shorter climb (1 ft less)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Mount Abraham? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Fire Warden's Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "mount-abraham-me-all-trails.gpx",
+        "label": "Download All Mount Abraham Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "mount-abraham-me-trail-guide.pdf",
+        "label": "Mount Abraham Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "mount-abraham-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Mount%20Abraham!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,049 feet, Mount Abraham ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Fire Warden's Trail**, covers 8.0 miles and is rated \n    Hard. Classic route to fire tower ruins. Second largest alpine zone in Maine.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Spaulding Mountain lies just 3.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

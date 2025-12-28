@@ -1,0 +1,1127 @@
+{
+  "name": "Snake Mountain",
+  "slug": "snake-mountain-vt",
+  "state": "Vermont",
+  "state_slug": "vermont",
+  "elevation": 1287,
+  "lat": 44.0678,
+  "lon": -73.1644,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "Views",
+    "Easy",
+    "Family Friendly",
+    "Lake Views"
+  ],
+  "trails_config": [
+    {
+      "name": "Snake Mountain Trail",
+      "osm_name": "Snake Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Easy",
+      "distance_miles": 3.6,
+      "elevation_gain": 900,
+      "tags": [
+        "Easy",
+        "Views"
+      ],
+      "description": "Gentle climb to historic hotel ruins with Adirondack views.",
+      "parking_info": "Snake Mountain WMA Parking",
+      "parking_details": {
+        "capacity": "Medium (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.06,
+      "start_lon": -73.155
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [],
+  "meta": {
+    "refined_at": "2025-12-28T11:25:01.793526",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "ELEVATION_MISMATCH: Snake Mountain Trail calculated 232ft but seed says 900ft. Using seed value."
+    ],
+    "last_updated": "2025-12-28T11:25:42.399739",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "af4dd003",
+      "name": "Snake Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Easy",
+      "distance_miles": 3.6,
+      "elevation_gain": 900,
+      "description": "Gentle climb to historic hotel ruins with Adirondack views.",
+      "tags": [
+        "Easy",
+        "Views"
+      ],
+      "parking_info": "Snake Mountain WMA Parking",
+      "parking_details": {
+        "capacity": "Medium (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.06,
+      "start_lon": -73.155,
+      "logistics": {
+        "start_coords": [
+          44.06,
+          -73.155
+        ],
+        "parking_info": "Snake Mountain WMA Parking",
+        "directions_url": "https://www.google.com/maps/dir//44.06,-73.155",
+        "capacity": "Medium (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 1.8,
+        "gain": 900,
+        "max_elev": 376,
+        "min_elev": 218,
+        "type": "Out & Back",
+        "difficulty": "Easy",
+        "time": 1.1,
+        "_distance_source": "calculated",
+        "_original_calculated_gain": 232
+      },
+      "geo": {
+        "path": [
+          [
+            44.058699,
+            -73.1549,
+            258
+          ],
+          [
+            44.058692,
+            -73.155068,
+            259
+          ],
+          [
+            44.058692,
+            -73.155287,
+            260
+          ],
+          [
+            44.05871,
+            -73.155939,
+            266
+          ],
+          [
+            44.058707,
+            -73.156449,
+            266
+          ],
+          [
+            44.058704,
+            -73.156508,
+            265
+          ],
+          [
+            44.058704,
+            -73.156566,
+            265
+          ],
+          [
+            44.058698,
+            -73.156618,
+            267
+          ],
+          [
+            44.058696,
+            -73.156669,
+            268
+          ],
+          [
+            44.058679,
+            -73.156891,
+            269
+          ],
+          [
+            44.058657,
+            -73.157108,
+            270
+          ],
+          [
+            44.058629,
+            -73.157324,
+            272
+          ],
+          [
+            44.058596,
+            -73.157541,
+            275
+          ],
+          [
+            44.058509,
+            -73.157972,
+            286
+          ],
+          [
+            44.058474,
+            -73.158119,
+            288
+          ],
+          [
+            44.058441,
+            -73.158256,
+            291
+          ],
+          [
+            44.058296,
+            -73.158819,
+            306
+          ],
+          [
+            44.058187,
+            -73.159159,
+            315
+          ],
+          [
+            44.058126,
+            -73.159288,
+            322
+          ],
+          [
+            44.058055,
+            -73.159416,
+            325
+          ],
+          [
+            44.058015,
+            -73.159477,
+            329
+          ],
+          [
+            44.057928,
+            -73.159592,
+            333
+          ],
+          [
+            44.057694,
+            -73.159876,
+            342
+          ],
+          [
+            44.057563,
+            -73.160052,
+            351
+          ],
+          [
+            44.057391,
+            -73.160374,
+            358
+          ],
+          [
+            44.05726,
+            -73.160716,
+            360
+          ],
+          [
+            44.057141,
+            -73.161062,
+            363
+          ],
+          [
+            44.056919,
+            -73.16175,
+            369
+          ],
+          [
+            44.056813,
+            -73.162102,
+            370
+          ],
+          [
+            44.056714,
+            -73.162455,
+            372
+          ],
+          [
+            44.056188,
+            -73.164562,
+            376
+          ],
+          [
+            44.05603,
+            -73.165206,
+            371
+          ],
+          [
+            44.055797,
+            -73.166159,
+            374
+          ],
+          [
+            44.055762,
+            -73.166302,
+            372
+          ],
+          [
+            44.055649,
+            -73.166738,
+            369
+          ],
+          [
+            44.055411,
+            -73.167545,
+            362
+          ],
+          [
+            44.055723,
+            -73.167699,
+            359
+          ],
+          [
+            44.056124,
+            -73.167876,
+            353
+          ],
+          [
+            44.056457,
+            -73.168015,
+            349
+          ],
+          [
+            44.0568,
+            -73.168135,
+            343
+          ],
+          [
+            44.057131,
+            -73.168234,
+            337
+          ],
+          [
+            44.057464,
+            -73.168291,
+            334
+          ],
+          [
+            44.057851,
+            -73.168327,
+            328
+          ],
+          [
+            44.058169,
+            -73.168313,
+            322
+          ],
+          [
+            44.058471,
+            -73.168299,
+            318
+          ],
+          [
+            44.0589,
+            -73.16826,
+            312
+          ],
+          [
+            44.059339,
+            -73.168218,
+            306
+          ],
+          [
+            44.06005,
+            -73.168125,
+            296
+          ],
+          [
+            44.06048,
+            -73.168074,
+            289
+          ],
+          [
+            44.060907,
+            -73.16803,
+            284
+          ],
+          [
+            44.06112,
+            -73.168017,
+            280
+          ],
+          [
+            44.061336,
+            -73.168013,
+            277
+          ],
+          [
+            44.061554,
+            -73.168017,
+            276
+          ],
+          [
+            44.061775,
+            -73.16803,
+            273
+          ],
+          [
+            44.062428,
+            -73.168101,
+            270
+          ],
+          [
+            44.062783,
+            -73.168152,
+            261
+          ],
+          [
+            44.062866,
+            -73.16817,
+            261
+          ],
+          [
+            44.063102,
+            -73.168219,
+            218
+          ],
+          [
+            44.063208,
+            -73.168242,
+            218
+          ],
+          [
+            44.063284,
+            -73.168261,
+            218
+          ],
+          [
+            44.06342,
+            -73.168295,
+            248
+          ],
+          [
+            44.06363,
+            -73.168353,
+            268
+          ],
+          [
+            44.063839,
+            -73.168421,
+            268
+          ],
+          [
+            44.064047,
+            -73.168499,
+            269
+          ],
+          [
+            44.06425,
+            -73.168582,
+            269
+          ],
+          [
+            44.06484,
+            -73.168839,
+            275
+          ],
+          [
+            44.064957,
+            -73.168909,
+            276
+          ],
+          [
+            44.065275,
+            -73.169069,
+            280
+          ],
+          [
+            44.065652,
+            -73.16929,
+            286
+          ],
+          [
+            44.066022,
+            -73.169533,
+            291
+          ],
+          [
+            44.066262,
+            -73.169703,
+            294
+          ],
+          [
+            44.066488,
+            -73.169891,
+            298
+          ],
+          [
+            44.067021,
+            -73.170258,
+            304
+          ],
+          [
+            44.067201,
+            -73.16961,
+            303
+          ],
+          [
+            44.067308,
+            -73.16875,
+            299
+          ],
+          [
+            44.067414,
+            -73.167901,
+            312
+          ],
+          [
+            44.067611,
+            -73.166318,
+            292
+          ],
+          [
+            44.067712,
+            -73.165412,
+            301
+          ],
+          [
+            44.06777,
+            -73.165331,
+            301
+          ],
+          [
+            44.067842,
+            -73.164956,
+            303
+          ],
+          [
+            44.067803,
+            -73.164902,
+            303
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 258,
+            "coord": [
+              44.058699,
+              -73.1549
+            ]
+          },
+          {
+            "mile": 0.01,
+            "elev": 260,
+            "coord": [
+              44.058692,
+              -73.155287
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 266,
+            "coord": [
+              44.058707,
+              -73.156449
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 265,
+            "coord": [
+              44.058704,
+              -73.156566
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 268,
+            "coord": [
+              44.058696,
+              -73.156669
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 270,
+            "coord": [
+              44.058657,
+              -73.157108
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 275,
+            "coord": [
+              44.058596,
+              -73.157541
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 288,
+            "coord": [
+              44.058474,
+              -73.158119
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 306,
+            "coord": [
+              44.058296,
+              -73.158819
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 322,
+            "coord": [
+              44.058126,
+              -73.159288
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 329,
+            "coord": [
+              44.058015,
+              -73.159477
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 342,
+            "coord": [
+              44.057694,
+              -73.159876
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 358,
+            "coord": [
+              44.057391,
+              -73.160374
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 363,
+            "coord": [
+              44.057141,
+              -73.161062
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 370,
+            "coord": [
+              44.056813,
+              -73.162102
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 376,
+            "coord": [
+              44.056188,
+              -73.164562
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 374,
+            "coord": [
+              44.055797,
+              -73.166159
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 369,
+            "coord": [
+              44.055649,
+              -73.166738
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 359,
+            "coord": [
+              44.055723,
+              -73.167699
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 349,
+            "coord": [
+              44.056457,
+              -73.168015
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 337,
+            "coord": [
+              44.057131,
+              -73.168234
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 328,
+            "coord": [
+              44.057851,
+              -73.168327
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 318,
+            "coord": [
+              44.058471,
+              -73.168299
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 306,
+            "coord": [
+              44.059339,
+              -73.168218
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 289,
+            "coord": [
+              44.06048,
+              -73.168074
+            ]
+          },
+          {
+            "mile": 0.57,
+            "elev": 280,
+            "coord": [
+              44.06112,
+              -73.168017
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 276,
+            "coord": [
+              44.061554,
+              -73.168017
+            ]
+          },
+          {
+            "mile": 0.63,
+            "elev": 270,
+            "coord": [
+              44.062428,
+              -73.168101
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 261,
+            "coord": [
+              44.062866,
+              -73.16817
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 218,
+            "coord": [
+              44.063208,
+              -73.168242
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 248,
+            "coord": [
+              44.06342,
+              -73.168295
+            ]
+          },
+          {
+            "mile": 0.67,
+            "elev": 268,
+            "coord": [
+              44.063839,
+              -73.168421
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 269,
+            "coord": [
+              44.06425,
+              -73.168582
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 276,
+            "coord": [
+              44.064957,
+              -73.168909
+            ]
+          },
+          {
+            "mile": 0.72,
+            "elev": 286,
+            "coord": [
+              44.065652,
+              -73.16929
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 294,
+            "coord": [
+              44.066262,
+              -73.169703
+            ]
+          },
+          {
+            "mile": 0.78,
+            "elev": 304,
+            "coord": [
+              44.067021,
+              -73.170258
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 299,
+            "coord": [
+              44.067308,
+              -73.16875
+            ]
+          },
+          {
+            "mile": 0.9,
+            "elev": 292,
+            "coord": [
+              44.067611,
+              -73.166318
+            ]
+          },
+          {
+            "mile": 0.91,
+            "elev": 301,
+            "coord": [
+              44.06777,
+              -73.165331
+            ]
+          },
+          {
+            "mile": 0.91,
+            "elev": 303,
+            "coord": [
+              44.067803,
+              -73.164902
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.058699,
+            -73.1549,
+            258
+          ],
+          "summit": [
+            44.0678,
+            -73.1644,
+            1287
+          ]
+        }
+      },
+      "features": []
+    }
+  ],
+  "seo": {
+    "meta_title": "Snake Mountain Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Snake Mountain (1,287 ft) in Vermont. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/vermont/snake-mountain-vt",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Snake Mountain",
+      "description": "Snake Mountain is a 1,287 foot peak in Vermont offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.0678,
+        "longitude": -73.1644,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1287,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Vermont",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Snake Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.06,
+            "longitude": -73.155
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Snake Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Snake Mountain take 1-3 hours round trip. The most popular trail is 3.6 miles with Easy difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Snake Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Snake Mountain is rated Easy. At 1,287 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Snake Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Snake Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Snake Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Snake Mountain Trail, offering Gentle climb to historic hotel ruins with Adirondack views.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Snake Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Snake Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Snake Mountain",
+      "subtitle": "New Hampshire Trail Destination \u2022 1,287 ft",
+      "quick_stats": {
+        "elevation": "1,287 ft",
+        "trail_count": 1,
+        "difficulty": "Easy",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,287 feet, Snake Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Snake Mountain Trail**, covers 3.6 miles and is rated \n    Easy. Gentle climb to historic hotel ruins with Adirondack views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Snake Mountain?",
+        "answer": "Most routes on Snake Mountain take 1-3 hours round trip. The most popular trail is 3.6 miles with Easy difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Snake Mountain hard to hike?",
+        "answer": "Snake Mountain is rated Easy. At 1,287 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Snake Mountain?",
+        "answer": "No hiking permit is required for Snake Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Snake Mountain?",
+        "answer": "The most popular route is the Snake Mountain Trail, offering Gentle climb to historic hotel ruins with Adirondack views.."
+      },
+      {
+        "question": "When is the best time to hike Snake Mountain?",
+        "answer": "The best hiking season for Snake Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": []
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Snake Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Snake Mountain Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "snake-mountain-vt-all-trails.gpx",
+        "label": "Download All Snake Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "snake-mountain-vt-trail-guide.pdf",
+        "label": "Snake Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "snake-mountain-vt-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Snake%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,287 feet, Snake Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Snake Mountain Trail**, covers 3.6 miles and is rated \n    Easy. Gentle climb to historic hotel ruins with Adirondack views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
+}

@@ -20,7 +20,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 4.2,
-      "elevation_gain": 2000,
+      "elevation_gain": 2100,
       "tags": [],
       "description": "Trail to Cannon Mountain summit.",
       "parking_info": "Cannon Mountain Tramway Parking",
@@ -39,7 +39,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 4.2,
-      "elevation_gain": 2000,
+      "elevation_gain": 2100,
       "tags": [],
       "description": "Trail to Cannon Mountain summit.",
       "parking_info": "Cannon Mountain Tramway Parking",
@@ -58,7 +58,7 @@
       "type": "Loop",
       "difficulty": "Hard",
       "distance_miles": 4.6,
-      "elevation_gain": 2100,
+      "elevation_gain": 2300,
       "tags": [],
       "description": "Trail to Cannon Mountain summit.",
       "parking_info": "Lafayette Place / Lonesome Lake Trailhead",
@@ -79,7 +79,7 @@
       "type": "Out & Back",
       "difficulty": "Hard",
       "distance_miles": 2.0,
-      "elevation_gain": 800,
+      "elevation_gain": 1000,
       "tags": [],
       "description": "Trail to Cannon Mountain summit.",
       "parking_info": "Lafayette Place / Lonesome Lake Trailhead",
@@ -93,7 +93,20 @@
       "start_lon": -71.6834
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [
+    {
+      "name": "North Kinsman",
+      "slug": "north-kinsman-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4293,
+      "distance_miles": 2.5
+    },
     {
       "name": "Mount Lincoln",
       "slug": "mount-lincoln-nh",
@@ -109,18 +122,11 @@
       "distance_miles": 2.7
     },
     {
-      "name": "Mount Liberty",
-      "slug": "mount-liberty-nh",
+      "name": "South Kinsman",
+      "slug": "south-kinsman-nh",
       "state_slug": "new-hampshire",
-      "elevation": 4459,
-      "distance_miles": 4.0
-    },
-    {
-      "name": "Mount Flume",
-      "slug": "mount-flume-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 4328,
-      "distance_miles": 4.8
+      "elevation": 4358,
+      "distance_miles": 3.0
     }
   ],
   "social_pulse": 7,
@@ -144,12 +150,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:33:50.747898",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "124b9f72",
@@ -8945,7 +8945,7 @@
         "list_name": "NH 4000-Footers"
       }
     },
-    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,100 feet, Cannon Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Kinsman Ridge Trail**, covers 4.2 miles and is rated \n    Hard. Trail to Cannon Mountain summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Lincoln lies just 2.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,100 feet, Cannon Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Kinsman Ridge Trail**, covers 4.2 miles and is rated \n    Hard. Trail to Cannon Mountain summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** North Kinsman lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
     "seasonal_guide": {
       "spring": {
         "months": "March - May",
@@ -9094,6 +9094,16 @@
     ],
     "nearby_peaks": [
       {
+        "name": "North Kinsman",
+        "slug": "north-kinsman-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4293,
+        "distance_miles": 2.5,
+        "link_text": "Hike North Kinsman",
+        "combo_suggestion": "Combine Cannon Mountain with North Kinsman for a longer day",
+        "comparison": "Higher summit (+193 ft)"
+      },
+      {
         "name": "Mount Lincoln",
         "slug": "mount-lincoln-nh",
         "state_slug": "new-hampshire",
@@ -9114,24 +9124,14 @@
         "comparison": "Higher summit (+1160 ft)"
       },
       {
-        "name": "Mount Liberty",
-        "slug": "mount-liberty-nh",
+        "name": "South Kinsman",
+        "slug": "south-kinsman-nh",
         "state_slug": "new-hampshire",
-        "elevation": 4459,
-        "distance_miles": 4.0,
-        "link_text": "Hike Mount Liberty",
-        "combo_suggestion": "Combine Cannon Mountain with Mount Liberty for a longer day",
-        "comparison": "Higher summit (+359 ft)"
-      },
-      {
-        "name": "Mount Flume",
-        "slug": "mount-flume-nh",
-        "state_slug": "new-hampshire",
-        "elevation": 4328,
-        "distance_miles": 4.8,
-        "link_text": "Hike Mount Flume",
-        "combo_suggestion": "Combine Cannon Mountain with Mount Flume for a longer day",
-        "comparison": "Higher summit (+228 ft)"
+        "elevation": 4358,
+        "distance_miles": 3.0,
+        "link_text": "Hike South Kinsman",
+        "combo_suggestion": "Combine Cannon Mountain with South Kinsman for a longer day",
+        "comparison": "Higher summit (+258 ft)"
       }
     ]
   },
@@ -9165,5 +9165,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,100 feet, Cannon Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Kinsman Ridge Trail**, covers 4.2 miles and is rated \n    Hard. Trail to Cannon Mountain summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Lincoln lies just 2.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,100 feet, Cannon Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Kinsman Ridge Trail**, covers 4.2 miles and is rated \n    Hard. Trail to Cannon Mountain summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** North Kinsman lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:46:06.818659",
+    "pipeline_version": "3.0"
+  }
 }

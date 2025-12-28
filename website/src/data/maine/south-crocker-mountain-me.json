@@ -1,0 +1,830 @@
+{
+  "name": "South Crocker Mountain",
+  "slug": "south-crocker-mountain-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 4048,
+  "lat": 45.0417,
+  "lon": -70.3917,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "4000 Footer",
+    "AT"
+  ],
+  "trails_config": [
+    {
+      "name": "Appalachian Trail",
+      "osm_name": "Appalachian Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 5.2,
+      "elevation_gain": 2000,
+      "tags": [
+        "Appalachian Trail"
+      ],
+      "description": "AT approach to South Crocker.",
+      "parking_info": "Route 27 AT Crossing",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 45.0667,
+      "start_lon": -70.4167,
+      "features": [
+        {
+          "name": "Brook Crossing",
+          "lat": 45.0567,
+          "lon": -70.4067,
+          "type": "water",
+          "mile": 1.0
+        },
+        {
+          "name": "Crocker Col",
+          "lat": 45.0478,
+          "lon": -70.3956,
+          "type": "junction",
+          "mile": 2.2
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Crocker Mountain",
+      "slug": "crocker-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4228,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Sugarloaf Mountain",
+      "slug": "sugarloaf-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4237,
+      "distance_miles": 3.9
+    },
+    {
+      "name": "Spaulding Mountain",
+      "slug": "spaulding-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4010,
+      "distance_miles": 4.8
+    },
+    {
+      "name": "Mount Abraham",
+      "slug": "mount-abraham-me",
+      "state_slug": "maine",
+      "elevation": 4049,
+      "distance_miles": 7.4
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:17:28.173788",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "SPARSE_GEOMETRY: Appalachian Trail has only 25 points for 5.2mi (4.8 pts/mi)"
+    ],
+    "last_updated": "2025-12-28T16:17:28.177233",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "a972ebba",
+      "name": "Appalachian Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 5.2,
+      "elevation_gain": 2000,
+      "description": "AT approach to South Crocker.",
+      "tags": [
+        "Appalachian Trail"
+      ],
+      "parking_info": "Route 27 AT Crossing",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 45.0667,
+      "start_lon": -70.4167,
+      "logistics": {
+        "start_coords": [
+          45.0667,
+          -70.4167
+        ],
+        "parking_info": "Route 27 AT Crossing",
+        "directions_url": "https://www.google.com/maps/dir//45.0667,-70.4167",
+        "capacity": "Small (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 2.2,
+        "gain": 1567,
+        "max_elev": 3714,
+        "min_elev": 2169,
+        "type": "Out & Back",
+        "difficulty": "Hard",
+        "time": 1.5,
+        "_distance_source": "calculated",
+        "_elevation_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            45.0667,
+            -70.4167,
+            2169
+          ],
+          [
+            45.0657,
+            -70.4157,
+            2218
+          ],
+          [
+            45.06589398820773,
+            -70.41470000000001,
+            2197
+          ],
+          [
+            45.065343383782384,
+            -70.4137,
+            2214
+          ],
+          [
+            45.06463191350229,
+            -70.4127,
+            2237
+          ],
+          [
+            45.06373133406816,
+            -70.4117,
+            2267
+          ],
+          [
+            45.06263191350229,
+            -70.4107,
+            2307
+          ],
+          [
+            45.061343383782386,
+            -70.4097,
+            2384
+          ],
+          [
+            45.05989398820774,
+            -70.4087,
+            2526
+          ],
+          [
+            45.0577,
+            -70.4077,
+            2797
+          ],
+          [
+            45.0567,
+            -70.4067,
+            2952
+          ],
+          [
+            45.05571111111111,
+            -70.40546666666667,
+            3067
+          ],
+          [
+            45.05598772116282,
+            -70.40423333333334,
+            3127
+          ],
+          [
+            45.05543833544368,
+            -70.403,
+            3235
+          ],
+          [
+            45.05468330130688,
+            -70.40176666666667,
+            3345
+          ],
+          [
+            45.053694412418,
+            -70.40053333333333,
+            3450
+          ],
+          [
+            45.05247166877702,
+            -70.3993,
+            3532
+          ],
+          [
+            45.051043276718374,
+            -70.39806666666667,
+            3574
+          ],
+          [
+            45.04878888888889,
+            -70.39683333333333,
+            3573
+          ],
+          [
+            45.0478,
+            -70.3956,
+            3691
+          ],
+          [
+            45.04723241623958,
+            -70.39482,
+            3714
+          ],
+          [
+            45.04641563165046,
+            -70.39404,
+            3665
+          ],
+          [
+            45.04519563165046,
+            -70.39326,
+            3525
+          ],
+          [
+            45.043572416239584,
+            -70.39248,
+            3222
+          ],
+          [
+            45.0417,
+            -70.3917,
+            3036
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2169,
+            "coord": [
+              45.0667,
+              -70.4167
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 2218,
+            "coord": [
+              45.0657,
+              -70.4157
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 2197,
+            "coord": [
+              45.06589398820773,
+              -70.41470000000001
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 2214,
+            "coord": [
+              45.065343383782384,
+              -70.4137
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 2237,
+            "coord": [
+              45.06463191350229,
+              -70.4127
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 2267,
+            "coord": [
+              45.06373133406816,
+              -70.4117
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 2307,
+            "coord": [
+              45.06263191350229,
+              -70.4107
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 2384,
+            "coord": [
+              45.061343383782386,
+              -70.4097
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 2526,
+            "coord": [
+              45.05989398820774,
+              -70.4087
+            ]
+          },
+          {
+            "mile": 0.81,
+            "elev": 2797,
+            "coord": [
+              45.0577,
+              -70.4077
+            ]
+          },
+          {
+            "mile": 0.89,
+            "elev": 2952,
+            "coord": [
+              45.0567,
+              -70.4067
+            ]
+          },
+          {
+            "mile": 0.98,
+            "elev": 3067,
+            "coord": [
+              45.05571111111111,
+              -70.40546666666667
+            ]
+          },
+          {
+            "mile": 1.05,
+            "elev": 3127,
+            "coord": [
+              45.05598772116282,
+              -70.40423333333334
+            ]
+          },
+          {
+            "mile": 1.12,
+            "elev": 3235,
+            "coord": [
+              45.05543833544368,
+              -70.403
+            ]
+          },
+          {
+            "mile": 1.2,
+            "elev": 3345,
+            "coord": [
+              45.05468330130688,
+              -70.40176666666667
+            ]
+          },
+          {
+            "mile": 1.29,
+            "elev": 3450,
+            "coord": [
+              45.053694412418,
+              -70.40053333333333
+            ]
+          },
+          {
+            "mile": 1.39,
+            "elev": 3532,
+            "coord": [
+              45.05247166877702,
+              -70.3993
+            ]
+          },
+          {
+            "mile": 1.51,
+            "elev": 3574,
+            "coord": [
+              45.051043276718374,
+              -70.39806666666667
+            ]
+          },
+          {
+            "mile": 1.68,
+            "elev": 3573,
+            "coord": [
+              45.04878888888889,
+              -70.39683333333333
+            ]
+          },
+          {
+            "mile": 1.77,
+            "elev": 3691,
+            "coord": [
+              45.0478,
+              -70.3956
+            ]
+          },
+          {
+            "mile": 1.82,
+            "elev": 3714,
+            "coord": [
+              45.04723241623958,
+              -70.39482
+            ]
+          },
+          {
+            "mile": 1.89,
+            "elev": 3665,
+            "coord": [
+              45.04641563165046,
+              -70.39404
+            ]
+          },
+          {
+            "mile": 1.98,
+            "elev": 3525,
+            "coord": [
+              45.04519563165046,
+              -70.39326
+            ]
+          },
+          {
+            "mile": 2.1,
+            "elev": 3222,
+            "coord": [
+              45.043572416239584,
+              -70.39248
+            ]
+          },
+          {
+            "mile": 2.24,
+            "elev": 3036,
+            "coord": [
+              45.0417,
+              -70.3917
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            45.0667,
+            -70.4167
+          ],
+          "summit": [
+            45.0417,
+            -70.3917,
+            4048
+          ],
+          "stop_0": [
+            45.0567,
+            -70.4067,
+            "Brook Crossing"
+          ],
+          "stop_1": [
+            45.0478,
+            -70.3956,
+            "Crocker Col"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Brook Crossing",
+          "lat": 45.0567,
+          "lon": -70.4067,
+          "type": "water",
+          "mile": 1.0
+        },
+        {
+          "name": "Crocker Col",
+          "lat": 45.0478,
+          "lon": -70.3956,
+          "type": "junction",
+          "mile": 2.2
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "South Crocker Mountain Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Plan your South Crocker Mountain hike with live conditions, 1 trail maps & parking info. NH 4000-Footer at 4,048 ft.",
+    "canonical_url": "/trails/maine/south-crocker-mountain-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "South Crocker Mountain",
+      "description": "South Crocker Mountain is a 4,048 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.0417,
+        "longitude": -70.3917,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4048,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Appalachian Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 45.0667,
+            "longitude": -70.4167
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike South Crocker Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on South Crocker Mountain take 2-4 hours round trip. The most popular trail is 5.2 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is South Crocker Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "South Crocker Mountain is rated Hard. At 4,048 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike South Crocker Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for South Crocker Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike South Crocker Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Appalachian Trail, offering AT approach to South Crocker.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike South Crocker Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for South Crocker Mountain is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "South Crocker Mountain",
+      "subtitle": "NH 4000-Footer \u2022 4,048 ft",
+      "quick_stats": {
+        "elevation": "4,048 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate to Hard",
+        "list_name": "Maine 4000-Footers"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,048 feet, South Crocker Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Appalachian Trail**, covers 5.2 miles and is rated \n    Hard. AT approach to South Crocker.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Crocker Mountain lies just 0.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, snow above 3000ft until May",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": false
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Best weather, occasional afternoon thunderstorms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Peak foliage late Sept, early snow possible in October",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Full winter conditions, extreme cold and wind above treeline",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Winter hiking requires specialized skills and gear. Never hike alone. Check avalanche conditions for steeper terrain.",
+        "crowd_level": "Low",
+        "recommended": false
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "\u26a0\ufe0f ALPINE ZONE: Weather changes rapidly. Turn back if conditions deteriorate.",
+        "Winter conditions in effect - full mountaineering gear required",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        },
+        {
+          "item": "Extra warm layer for summit",
+          "critical": true
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "2:00 PM recommended for summit"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike South Crocker Mountain?",
+        "answer": "Most routes on South Crocker Mountain take 2-4 hours round trip. The most popular trail is 5.2 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is South Crocker Mountain hard to hike?",
+        "answer": "South Crocker Mountain is rated Hard. At 4,048 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike South Crocker Mountain?",
+        "answer": "No hiking permit is required for South Crocker Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike South Crocker Mountain?",
+        "answer": "The most popular route is the Appalachian Trail, offering AT approach to South Crocker.."
+      },
+      {
+        "question": "When is the best time to hike South Crocker Mountain?",
+        "answer": "The best hiking season for South Crocker Mountain is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Crocker Mountain",
+        "slug": "crocker-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4228,
+        "distance_miles": 0.7,
+        "link_text": "Hike Crocker Mountain",
+        "combo_suggestion": "Combine South Crocker Mountain with Crocker Mountain for a longer day",
+        "comparison": "Higher summit (+180 ft)"
+      },
+      {
+        "name": "Sugarloaf Mountain",
+        "slug": "sugarloaf-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4237,
+        "distance_miles": 3.9,
+        "link_text": "Hike Sugarloaf Mountain",
+        "combo_suggestion": "Combine South Crocker Mountain with Sugarloaf Mountain for a longer day",
+        "comparison": "Higher summit (+189 ft)"
+      },
+      {
+        "name": "Spaulding Mountain",
+        "slug": "spaulding-mountain-me",
+        "state_slug": "maine",
+        "elevation": 4010,
+        "distance_miles": 4.8,
+        "link_text": "Hike Spaulding Mountain",
+        "combo_suggestion": "Combine South Crocker Mountain with Spaulding Mountain for a longer day",
+        "comparison": "Shorter climb (38 ft less)"
+      },
+      {
+        "name": "Mount Abraham",
+        "slug": "mount-abraham-me",
+        "state_slug": "maine",
+        "elevation": 4049,
+        "distance_miles": 7.4,
+        "link_text": "Hike Mount Abraham",
+        "combo_suggestion": "Combine South Crocker Mountain with Mount Abraham for a longer day",
+        "comparison": "Higher summit (+1 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up South Crocker Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Appalachian Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "south-crocker-mountain-me-all-trails.gpx",
+        "label": "Download All South Crocker Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "south-crocker-mountain-me-trail-guide.pdf",
+        "label": "South Crocker Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "south-crocker-mountain-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20South%20Crocker%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,048 feet, South Crocker Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Appalachian Trail**, covers 5.2 miles and is rated \n    Hard. AT approach to South Crocker.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Crocker Mountain lies just 0.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

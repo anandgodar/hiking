@@ -4,6 +4,7 @@
  * Location: src/pages/[state]/hikes/[slug].astro
  *
  * FIXED: Import paths updated for /hikes/ subdirectory (3 levels deep)
+ * FIXED: Now handles both 'trails' and 'trails_config' data structures
  */
 
 // Layout - now 3 levels up
@@ -57,8 +58,13 @@ const pageContent = mountain.page_content || {};
 const engagement = mountain.engagement || {};
 const seo = mountain.seo || {};
 
-// Trail count - check both data structures
-const trailCount = mountain.trails?.length || mountain.trails_config?.length || 0;
+// FIXED: Check both data structures for trails
+const trails = mountain.trails || mountain.trails_config || [];
+const hasTrails = trails.length > 0;
+const trailCount = trails.length;
+
+// Get first trail's difficulty
+const firstTrailDifficulty = trails[0]?.difficulty || trails[0]?.stats?.difficulty || null;
 ---
 
 <Layout title={seo.meta_title || `${mountain.name} Trail Guide`}>
@@ -111,12 +117,10 @@ const trailCount = mountain.trails?.length || mountain.trails_config?.length || 
             <p class="text-white font-bold">{trailCount} routes</p>
           </div>
 
-          {(mountain.trails?.[0]?.difficulty || mountain.trails?.[0]?.stats?.difficulty || mountain.trails_config?.[0]?.difficulty) && (
+          {firstTrailDifficulty && (
             <div class="bg-white/20 backdrop-blur-sm rounded-lg px-4 py-2">
               <span class="text-white/70 text-sm">Difficulty</span>
-              <p class="text-white font-bold">
-                {mountain.trails?.[0]?.difficulty || mountain.trails?.[0]?.stats?.difficulty || mountain.trails_config?.[0]?.difficulty}
-              </p>
+              <p class="text-white font-bold">{firstTrailDifficulty}</p>
             </div>
           )}
 
@@ -133,8 +137,8 @@ const trailCount = mountain.trails?.length || mountain.trails_config?.length || 
     <!-- Main Content Area -->
     <div class="max-w-7xl mx-auto px-4 md:px-8 py-8">
 
-      <!-- Trail Dashboard - Shows when trail data exists -->
-      {mountain.trails && mountain.trails.length > 0 && (
+      <!-- Trail Dashboard - Shows when trail data exists (either trails or trails_config) -->
+      {hasTrails && (
         <section class="mt-8 relative z-10 mb-12" id="trails">
           <TrailDashboard
             client:only="react"
@@ -143,8 +147,8 @@ const trailCount = mountain.trails?.length || mountain.trails_config?.length || 
         </section>
       )}
 
-      <!-- Fallback when no processed trail data -->
-      {(!mountain.trails || mountain.trails.length === 0) && (
+      <!-- Fallback when no trail data at all -->
+      {!hasTrails && (
         <section class="-mt-24 relative z-10 mb-12 bg-white rounded-2xl shadow-xl p-8">
           <div class="text-center py-8">
             <svg class="w-16 h-16 mx-auto text-stone-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

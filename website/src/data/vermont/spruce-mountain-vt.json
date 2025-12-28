@@ -1,0 +1,1559 @@
+{
+  "name": "Spruce Mountain",
+  "slug": "spruce-mountain-vt",
+  "state": "Vermont",
+  "state_slug": "vermont",
+  "elevation": 3037,
+  "lat": 44.2369,
+  "lon": -72.4653,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "Fire Tower",
+    "Views",
+    "Moderate"
+  ],
+  "trails_config": [
+    {
+      "name": "Spruce Mountain Trail",
+      "osm_name": "Spruce Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.4,
+      "elevation_gain": 1300,
+      "tags": [
+        "Fire Tower"
+      ],
+      "description": "Pleasant hike to restored fire tower with panoramic views.",
+      "parking_info": "Spruce Mountain Trailhead, Plainfield",
+      "parking_details": {
+        "capacity": "Small (~12 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.2483,
+      "start_lon": -72.4333
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [],
+  "meta": {
+    "refined_at": "2025-12-28T11:27:53.724245",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-28T11:28:34.398088",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "e6bde73c",
+      "name": "Spruce Mountain Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.4,
+      "elevation_gain": 1300,
+      "description": "Pleasant hike to restored fire tower with panoramic views.",
+      "tags": [
+        "Fire Tower"
+      ],
+      "parking_info": "Spruce Mountain Trailhead, Plainfield",
+      "parking_details": {
+        "capacity": "Small (~12 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.2483,
+      "start_lon": -72.4333,
+      "logistics": {
+        "start_coords": [
+          44.2483,
+          -72.4333
+        ],
+        "parking_info": "Spruce Mountain Trailhead, Plainfield",
+        "directions_url": "https://www.google.com/maps/dir//44.2483,-72.4333",
+        "capacity": "Small (~12 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 3.5,
+        "gain": 486,
+        "max_elev": 1390,
+        "min_elev": 980,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 1.4,
+        "_distance_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            44.248658,
+            -72.434326,
+            1269
+          ],
+          [
+            44.248351,
+            -72.434535,
+            1279
+          ],
+          [
+            44.247822,
+            -72.434911,
+            1302
+          ],
+          [
+            44.247593,
+            -72.435089,
+            1310
+          ],
+          [
+            44.247374,
+            -72.435279,
+            1318
+          ],
+          [
+            44.247317,
+            -72.435332,
+            1318
+          ],
+          [
+            44.247038,
+            -72.435593,
+            1322
+          ],
+          [
+            44.246845,
+            -72.435774,
+            1327
+          ],
+          [
+            44.246677,
+            -72.435917,
+            1329
+          ],
+          [
+            44.246561,
+            -72.436009,
+            1333
+          ],
+          [
+            44.245642,
+            -72.436626,
+            1354
+          ],
+          [
+            44.24547,
+            -72.436741,
+            1356
+          ],
+          [
+            44.245337,
+            -72.436831,
+            1361
+          ],
+          [
+            44.244145,
+            -72.437682,
+            1388
+          ],
+          [
+            44.243563,
+            -72.438121,
+            1390
+          ],
+          [
+            44.242902,
+            -72.438653,
+            1390
+          ],
+          [
+            44.242542,
+            -72.438943,
+            1389
+          ],
+          [
+            44.242109,
+            -72.439329,
+            1384
+          ],
+          [
+            44.241959,
+            -72.439488,
+            1380
+          ],
+          [
+            44.241735,
+            -72.439774,
+            1372
+          ],
+          [
+            44.24157,
+            -72.440018,
+            1364
+          ],
+          [
+            44.241385,
+            -72.440336,
+            1353
+          ],
+          [
+            44.241217,
+            -72.440659,
+            1343
+          ],
+          [
+            44.240869,
+            -72.44138,
+            1321
+          ],
+          [
+            44.240543,
+            -72.441958,
+            1294
+          ],
+          [
+            44.240451,
+            -72.442155,
+            1290
+          ],
+          [
+            44.24032,
+            -72.442353,
+            1288
+          ],
+          [
+            44.240289,
+            -72.4424,
+            1288
+          ],
+          [
+            44.240114,
+            -72.442634,
+            1288
+          ],
+          [
+            44.240067,
+            -72.442689,
+            1289
+          ],
+          [
+            44.239713,
+            -72.44304,
+            1292
+          ],
+          [
+            44.239147,
+            -72.44349,
+            1303
+          ],
+          [
+            44.239038,
+            -72.443588,
+            1305
+          ],
+          [
+            44.238935,
+            -72.443691,
+            1307
+          ],
+          [
+            44.238839,
+            -72.443803,
+            1310
+          ],
+          [
+            44.238753,
+            -72.443921,
+            1313
+          ],
+          [
+            44.238673,
+            -72.444046,
+            1317
+          ],
+          [
+            44.238342,
+            -72.444689,
+            1329
+          ],
+          [
+            44.238283,
+            -72.444823,
+            1331
+          ],
+          [
+            44.238097,
+            -72.445297,
+            1337
+          ],
+          [
+            44.238014,
+            -72.445499,
+            1340
+          ],
+          [
+            44.237683,
+            -72.446234,
+            1350
+          ],
+          [
+            44.237584,
+            -72.446432,
+            1353
+          ],
+          [
+            44.237373,
+            -72.446824,
+            1359
+          ],
+          [
+            44.23699,
+            -72.447454,
+            1370
+          ],
+          [
+            44.236786,
+            -72.447759,
+            1374
+          ],
+          [
+            44.23637,
+            -72.448357,
+            1379
+          ],
+          [
+            44.235952,
+            -72.448941,
+            1379
+          ],
+          [
+            44.23575,
+            -72.449236,
+            1376
+          ],
+          [
+            44.235584,
+            -72.449463,
+            1372
+          ],
+          [
+            44.235381,
+            -72.449799,
+            1365
+          ],
+          [
+            44.235176,
+            -72.450103,
+            1359
+          ],
+          [
+            44.234784,
+            -72.450698,
+            1352
+          ],
+          [
+            44.233983,
+            -72.451955,
+            1331
+          ],
+          [
+            44.233822,
+            -72.452209,
+            1323
+          ],
+          [
+            44.233315,
+            -72.453009,
+            1295
+          ],
+          [
+            44.233241,
+            -72.453138,
+            1292
+          ],
+          [
+            44.232764,
+            -72.453866,
+            1275
+          ],
+          [
+            44.232591,
+            -72.4541,
+            1272
+          ],
+          [
+            44.232408,
+            -72.454325,
+            1269
+          ],
+          [
+            44.232162,
+            -72.45459,
+            1262
+          ],
+          [
+            44.231845,
+            -72.454893,
+            1251
+          ],
+          [
+            44.231567,
+            -72.455135,
+            1242
+          ],
+          [
+            44.231285,
+            -72.455368,
+            1234
+          ],
+          [
+            44.230939,
+            -72.455631,
+            1226
+          ],
+          [
+            44.230819,
+            -72.455711,
+            1222
+          ],
+          [
+            44.230593,
+            -72.455891,
+            1218
+          ],
+          [
+            44.230436,
+            -72.456041,
+            1216
+          ],
+          [
+            44.230338,
+            -72.456149,
+            1214
+          ],
+          [
+            44.230086,
+            -72.45646,
+            1203
+          ],
+          [
+            44.230229,
+            -72.45687,
+            1200
+          ],
+          [
+            44.23034,
+            -72.457138,
+            1198
+          ],
+          [
+            44.230819,
+            -72.458197,
+            1186
+          ],
+          [
+            44.231078,
+            -72.4588,
+            1178
+          ],
+          [
+            44.231521,
+            -72.459802,
+            1161
+          ],
+          [
+            44.232239,
+            -72.461481,
+            1125
+          ],
+          [
+            44.232539,
+            -72.462153,
+            1108
+          ],
+          [
+            44.232958,
+            -72.463045,
+            1085
+          ],
+          [
+            44.232976,
+            -72.463142,
+            1082
+          ],
+          [
+            44.232979,
+            -72.463238,
+            1079
+          ],
+          [
+            44.232973,
+            -72.463368,
+            1075
+          ],
+          [
+            44.232885,
+            -72.463496,
+            1071
+          ],
+          [
+            44.232799,
+            -72.463608,
+            1068
+          ],
+          [
+            44.232587,
+            -72.463903,
+            1062
+          ],
+          [
+            44.231995,
+            -72.464702,
+            1063
+          ],
+          [
+            44.231887,
+            -72.464849,
+            1060
+          ],
+          [
+            44.231729,
+            -72.465098,
+            1052
+          ],
+          [
+            44.231484,
+            -72.465471,
+            1043
+          ],
+          [
+            44.231372,
+            -72.465641,
+            1039
+          ],
+          [
+            44.231302,
+            -72.465768,
+            1039
+          ],
+          [
+            44.231209,
+            -72.465968,
+            1036
+          ],
+          [
+            44.231078,
+            -72.466316,
+            1026
+          ],
+          [
+            44.230989,
+            -72.466513,
+            1022
+          ],
+          [
+            44.230954,
+            -72.466574,
+            1022
+          ],
+          [
+            44.230831,
+            -72.466848,
+            1012
+          ],
+          [
+            44.230743,
+            -72.467042,
+            1007
+          ],
+          [
+            44.230634,
+            -72.46731,
+            1002
+          ],
+          [
+            44.230145,
+            -72.468609,
+            985
+          ],
+          [
+            44.230079,
+            -72.4688,
+            984
+          ],
+          [
+            44.230022,
+            -72.468965,
+            983
+          ],
+          [
+            44.230095,
+            -72.469062,
+            982
+          ],
+          [
+            44.230106,
+            -72.469077,
+            983
+          ],
+          [
+            44.230132,
+            -72.469142,
+            983
+          ],
+          [
+            44.230152,
+            -72.46921,
+            983
+          ],
+          [
+            44.230161,
+            -72.469281,
+            982
+          ],
+          [
+            44.230186,
+            -72.469352,
+            981
+          ],
+          [
+            44.230277,
+            -72.469784,
+            980
+          ],
+          [
+            44.230365,
+            -72.470175,
+            982
+          ],
+          [
+            44.230486,
+            -72.470711,
+            993
+          ],
+          [
+            44.230555,
+            -72.471072,
+            1004
+          ],
+          [
+            44.230587,
+            -72.471286,
+            1014
+          ],
+          [
+            44.230603,
+            -72.471434,
+            1019
+          ],
+          [
+            44.230629,
+            -72.471822,
+            1028
+          ],
+          [
+            44.230638,
+            -72.471949,
+            1031
+          ],
+          [
+            44.230642,
+            -72.472057,
+            1032
+          ],
+          [
+            44.230659,
+            -72.472533,
+            1042
+          ],
+          [
+            44.230668,
+            -72.47268,
+            1044
+          ],
+          [
+            44.230678,
+            -72.472753,
+            1046
+          ],
+          [
+            44.23069,
+            -72.473033,
+            1052
+          ],
+          [
+            44.230812,
+            -72.473015,
+            1053
+          ],
+          [
+            44.231015,
+            -72.473006,
+            1058
+          ],
+          [
+            44.231418,
+            -72.472944,
+            1072
+          ],
+          [
+            44.232158,
+            -72.472837,
+            1094
+          ],
+          [
+            44.23234,
+            -72.472798,
+            1099
+          ],
+          [
+            44.232446,
+            -72.472776,
+            1102
+          ],
+          [
+            44.232665,
+            -72.472707,
+            1107
+          ],
+          [
+            44.23279,
+            -72.472668,
+            1112
+          ],
+          [
+            44.233127,
+            -72.472539,
+            1121
+          ],
+          [
+            44.233732,
+            -72.472295,
+            1133
+          ],
+          [
+            44.2338,
+            -72.472272,
+            1133
+          ],
+          [
+            44.233941,
+            -72.47224,
+            1132
+          ],
+          [
+            44.234014,
+            -72.472231,
+            1132
+          ],
+          [
+            44.23416,
+            -72.472239,
+            1132
+          ],
+          [
+            44.234232,
+            -72.472254,
+            1132
+          ],
+          [
+            44.234303,
+            -72.472277,
+            1133
+          ],
+          [
+            44.23437,
+            -72.472306,
+            1133
+          ],
+          [
+            44.234497,
+            -72.472373,
+            1134
+          ],
+          [
+            44.234611,
+            -72.472455,
+            1134
+          ],
+          [
+            44.234882,
+            -72.472696,
+            1138
+          ],
+          [
+            44.23494,
+            -72.472741,
+            1139
+          ],
+          [
+            44.235001,
+            -72.47278,
+            1141
+          ],
+          [
+            44.235067,
+            -72.47281,
+            1141
+          ],
+          [
+            44.235209,
+            -72.472841,
+            1145
+          ],
+          [
+            44.235351,
+            -72.472842,
+            1147
+          ],
+          [
+            44.235422,
+            -72.472834,
+            1149
+          ],
+          [
+            44.235634,
+            -72.472787,
+            1153
+          ],
+          [
+            44.235842,
+            -72.472719,
+            1157
+          ],
+          [
+            44.235949,
+            -72.472676,
+            1157
+          ],
+          [
+            44.23611,
+            -72.47261,
+            1158
+          ],
+          [
+            44.236765,
+            -72.47229,
+            1168
+          ],
+          [
+            44.23696,
+            -72.472188,
+            1169
+          ],
+          [
+            44.237467,
+            -72.4719,
+            1169
+          ],
+          [
+            44.237839,
+            -72.471675,
+            1168
+          ],
+          [
+            44.238142,
+            -72.471475,
+            1166
+          ],
+          [
+            44.238432,
+            -72.471245,
+            1164
+          ],
+          [
+            44.238372,
+            -72.471158,
+            1163
+          ],
+          [
+            44.238285,
+            -72.471123,
+            1162
+          ],
+          [
+            44.238168,
+            -72.471139,
+            1162
+          ],
+          [
+            44.238097,
+            -72.471112,
+            1162
+          ],
+          [
+            44.238041,
+            -72.471029,
+            1162
+          ],
+          [
+            44.237985,
+            -72.470927,
+            1162
+          ],
+          [
+            44.237909,
+            -72.470876,
+            1162
+          ],
+          [
+            44.237828,
+            -72.470884,
+            1162
+          ],
+          [
+            44.237676,
+            -72.470951,
+            1161
+          ],
+          [
+            44.237445,
+            -72.471056,
+            1160
+          ],
+          [
+            44.237267,
+            -72.471107,
+            1159
+          ],
+          [
+            44.237123,
+            -72.471088,
+            1162
+          ],
+          [
+            44.237044,
+            -72.471024,
+            1162
+          ],
+          [
+            44.236982,
+            -72.470903,
+            1165
+          ],
+          [
+            44.236955,
+            -72.470756,
+            1166
+          ],
+          [
+            44.236944,
+            -72.470544,
+            1166
+          ],
+          [
+            44.236927,
+            -72.470369,
+            1170
+          ],
+          [
+            44.236867,
+            -72.470206,
+            1172
+          ],
+          [
+            44.236767,
+            -72.47009,
+            1179
+          ],
+          [
+            44.236571,
+            -72.469975,
+            1183
+          ],
+          [
+            44.236477,
+            -72.469873,
+            1186
+          ],
+          [
+            44.236448,
+            -72.46976,
+            1187
+          ],
+          [
+            44.23646,
+            -72.469629,
+            1190
+          ],
+          [
+            44.236488,
+            -72.469444,
+            1197
+          ],
+          [
+            44.236508,
+            -72.469052,
+            1205
+          ],
+          [
+            44.236562,
+            -72.468881,
+            1208
+          ],
+          [
+            44.236636,
+            -72.468712,
+            1213
+          ],
+          [
+            44.236731,
+            -72.468596,
+            1220
+          ],
+          [
+            44.236915,
+            -72.468519,
+            1228
+          ],
+          [
+            44.237271,
+            -72.468409,
+            1241
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 1269,
+            "coord": [
+              44.248658,
+              -72.434326
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 1322,
+            "coord": [
+              44.247038,
+              -72.435593
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 1361,
+            "coord": [
+              44.245337,
+              -72.436831
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1380,
+            "coord": [
+              44.241959,
+              -72.439488
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 1294,
+            "coord": [
+              44.240543,
+              -72.441958
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 1292,
+            "coord": [
+              44.239713,
+              -72.44304
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 1317,
+            "coord": [
+              44.238673,
+              -72.444046
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 1353,
+            "coord": [
+              44.237584,
+              -72.446432
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 1376,
+            "coord": [
+              44.23575,
+              -72.449236
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 1323,
+            "coord": [
+              44.233822,
+              -72.452209
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 1262,
+            "coord": [
+              44.232162,
+              -72.45459
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 1218,
+            "coord": [
+              44.230593,
+              -72.455891
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 1186,
+            "coord": [
+              44.230819,
+              -72.458197
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 1082,
+            "coord": [
+              44.232976,
+              -72.463142
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 1063,
+            "coord": [
+              44.231995,
+              -72.464702
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 1036,
+            "coord": [
+              44.231209,
+              -72.465968
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 1002,
+            "coord": [
+              44.230634,
+              -72.46731
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 983,
+            "coord": [
+              44.230132,
+              -72.469142
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 993,
+            "coord": [
+              44.230486,
+              -72.470711
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1032,
+            "coord": [
+              44.230642,
+              -72.472057
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 1058,
+            "coord": [
+              44.231015,
+              -72.473006
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 1112,
+            "coord": [
+              44.23279,
+              -72.472668
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 1132,
+            "coord": [
+              44.23416,
+              -72.472239
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 1138,
+            "coord": [
+              44.234882,
+              -72.472696
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 1149,
+            "coord": [
+              44.235422,
+              -72.472834
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 1169,
+            "coord": [
+              44.23696,
+              -72.472188
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 1162,
+            "coord": [
+              44.238285,
+              -72.471123
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 1162,
+            "coord": [
+              44.237828,
+              -72.470884
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 1165,
+            "coord": [
+              44.236982,
+              -72.470903
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 1183,
+            "coord": [
+              44.236571,
+              -72.469975
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 1208,
+            "coord": [
+              44.236562,
+              -72.468881
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.248658,
+            -72.434326,
+            1269
+          ],
+          "summit": [
+            44.2369,
+            -72.4653,
+            3037
+          ]
+        }
+      },
+      "features": []
+    }
+  ],
+  "seo": {
+    "meta_title": "Spruce Mountain Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Spruce Mountain (3,037 ft) in Vermont. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/vermont/spruce-mountain-vt",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Spruce Mountain",
+      "description": "Spruce Mountain is a 3,037 foot peak in Vermont offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.2369,
+        "longitude": -72.4653,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3037,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Vermont",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Spruce Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.2483,
+            "longitude": -72.4333
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Spruce Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Spruce Mountain take 2-4 hours round trip. The most popular trail is 4.4 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Spruce Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spruce Mountain is rated Moderate. At 3,037 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Spruce Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Spruce Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Spruce Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Spruce Mountain Trail, offering Pleasant hike to restored fire tower with panoramic views.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Spruce Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Spruce Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Spruce Mountain",
+      "subtitle": "Historic Fire Tower Summit \u2022 3,037 ft",
+      "quick_stats": {
+        "elevation": "3,037 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,037 feet, Spruce Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Spruce Mountain Trail**, covers 4.4 miles and is rated \n    Moderate. Pleasant hike to restored fire tower with panoramic views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Spruce Mountain?",
+        "answer": "Most routes on Spruce Mountain take 2-4 hours round trip. The most popular trail is 4.4 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Spruce Mountain hard to hike?",
+        "answer": "Spruce Mountain is rated Moderate. At 3,037 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Spruce Mountain?",
+        "answer": "No hiking permit is required for Spruce Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Spruce Mountain?",
+        "answer": "The most popular route is the Spruce Mountain Trail, offering Pleasant hike to restored fire tower with panoramic views.."
+      },
+      {
+        "question": "When is the best time to hike Spruce Mountain?",
+        "answer": "The best hiking season for Spruce Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": []
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Spruce Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Spruce Mountain Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "spruce-mountain-vt-all-trails.gpx",
+        "label": "Download All Spruce Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "spruce-mountain-vt-trail-guide.pdf",
+        "label": "Spruce Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "spruce-mountain-vt-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Spruce%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,037 feet, Spruce Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Spruce Mountain Trail**, covers 4.4 miles and is rated \n    Moderate. Pleasant hike to restored fire tower with panoramic views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
+}

@@ -19,7 +19,7 @@
       "type": "Loop",
       "difficulty": "Moderate",
       "distance_miles": 3.6,
-      "elevation_gain": 800,
+      "elevation_gain": 1800,
       "tags": [],
       "description": "Trail to Welch Dickey summit.",
       "parking_info": "Welch-Dickey Trailhead, Orris Rd, Thornton",
@@ -40,7 +40,7 @@
       "type": "Loop",
       "difficulty": "Moderate",
       "distance_miles": 3.6,
-      "elevation_gain": 800,
+      "elevation_gain": 1800,
       "tags": [],
       "description": "Trail to Welch Dickey summit.",
       "parking_info": "Welch-Dickey Trailhead, Orris Rd, Thornton",
@@ -56,6 +56,12 @@
       "via_lon": -71.5875
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [
     {
       "name": "Mount Tecumseh",
@@ -70,6 +76,20 @@
       "state_slug": "new-hampshire",
       "elevation": 4340,
       "distance_miles": 7.3
+    },
+    {
+      "name": "Middle Tripyramid",
+      "slug": "middle-tripyramid-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4140,
+      "distance_miles": 8.3
+    },
+    {
+      "name": "North Tripyramid",
+      "slug": "north-tripyramid-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4180,
+      "distance_miles": 8.8
     }
   ],
   "social_pulse": 7,
@@ -93,12 +113,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:12:15.931677",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "882b5471",
@@ -1911,6 +1925,26 @@
         "link_text": "Hike Mount Osceola",
         "combo_suggestion": "Combine Welch Dickey with Mount Osceola for a longer day",
         "comparison": "Higher summit (+1606 ft)"
+      },
+      {
+        "name": "Middle Tripyramid",
+        "slug": "middle-tripyramid-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4140,
+        "distance_miles": 8.3,
+        "link_text": "Hike Middle Tripyramid",
+        "combo_suggestion": "Combine Welch Dickey with Middle Tripyramid for a longer day",
+        "comparison": "Higher summit (+1406 ft)"
+      },
+      {
+        "name": "North Tripyramid",
+        "slug": "north-tripyramid-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4180,
+        "distance_miles": 8.8,
+        "link_text": "Hike North Tripyramid",
+        "combo_suggestion": "Combine Welch Dickey with North Tripyramid for a longer day",
+        "comparison": "Higher summit (+1446 ft)"
       }
     ]
   },
@@ -1944,5 +1978,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,734 feet, Welch Dickey offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Welch-Dickey Loop**, covers 3.6 miles and is rated \n    Moderate. Trail to Welch Dickey summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Tecumseh lies just 4.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,734 feet, Welch Dickey offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Welch-Dickey Loop**, covers 3.6 miles and is rated \n    Moderate. Trail to Welch Dickey summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Tecumseh lies just 4.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:36:05.918026",
+    "pipeline_version": "3.0"
+  }
 }

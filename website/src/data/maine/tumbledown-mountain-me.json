@@ -1,0 +1,1152 @@
+{
+  "name": "Tumbledown Mountain",
+  "slug": "tumbledown-mountain-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 3068,
+  "lat": 44.7533,
+  "lon": -70.5417,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "Views",
+    "Alpine Pond",
+    "Popular"
+  ],
+  "trails_config": [
+    {
+      "name": "Brook Trail",
+      "osm_name": "Brook Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 5.0,
+      "elevation_gain": 1900,
+      "tags": [
+        "Pond",
+        "Views"
+      ],
+      "description": "Most popular route to alpine pond and summit.",
+      "parking_info": "Byron Road Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.7611,
+      "start_lon": -70.52,
+      "features": [
+        {
+          "name": "Brook Crossings",
+          "lat": 44.7578,
+          "lon": -70.5278,
+          "type": "water",
+          "mile": 1.0
+        },
+        {
+          "name": "Tumbledown Pond",
+          "lat": 44.7544,
+          "lon": -70.5378,
+          "type": "pond",
+          "mile": 2.0
+        },
+        {
+          "name": "Fat Man's Misery (Chimney)",
+          "lat": 44.7533,
+          "lon": -70.54,
+          "type": "scramble",
+          "mile": 2.3
+        }
+      ]
+    },
+    {
+      "name": "Loop Trail",
+      "osm_name": "Tumbledown Loop Trail",
+      "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 5.5,
+      "elevation_gain": 1800,
+      "tags": [
+        "Loop"
+      ],
+      "description": "Loop option combining Brook and Parker Ridge trails.",
+      "parking_info": "Byron Road Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.7611,
+      "start_lon": -70.52,
+      "via_lat": 44.75,
+      "via_lon": -70.55,
+      "features": [
+        {
+          "name": "Parker Ridge Junction",
+          "lat": 44.7556,
+          "lon": -70.5144,
+          "type": "junction",
+          "mile": 0.5
+        },
+        {
+          "name": "Little Jackson View",
+          "lat": 44.7522,
+          "lon": -70.5322,
+          "type": "viewpoint",
+          "mile": 2.5
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [],
+  "meta": {
+    "refined_at": "2025-12-28T16:14:36.530404",
+    "refiner_version": "2.1.0",
+    "validation_issues": 4,
+    "validation_log": [
+      "DISTANCE_UNDERESTIMATE: Brook Trail calculated 1.3mi but seed says 5.0mi. Using seed value.",
+      "ELEVATION_MISMATCH: Brook Trail calculated 457ft but seed says 1900ft. Using seed value.",
+      "SPARSE_GEOMETRY: Brook Trail has only 22 points for 5.0mi (4.4 pts/mi)",
+      "SPARSE_GEOMETRY: Loop Trail has only 21 points for 5.5mi (3.8 pts/mi)"
+    ],
+    "last_updated": "2025-12-28T16:14:36.545117",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "ed4d8e87",
+      "name": "Brook Trail",
+      "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 5.0,
+      "elevation_gain": 1900,
+      "description": "Most popular route to alpine pond and summit.",
+      "tags": [
+        "Pond",
+        "Views"
+      ],
+      "parking_info": "Byron Road Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.7611,
+      "start_lon": -70.52,
+      "logistics": {
+        "start_coords": [
+          44.7611,
+          -70.52
+        ],
+        "parking_info": "Byron Road Trailhead",
+        "directions_url": "https://www.google.com/maps/dir//44.7611,-70.52",
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 5.0,
+        "gain": 1900,
+        "max_elev": 3428,
+        "min_elev": 2869,
+        "type": "Out & Back",
+        "difficulty": "Hard",
+        "time": 2.6,
+        "_original_calculated_distance": 1.3,
+        "_distance_source": "seed_override",
+        "_original_calculated_gain": 457,
+        "_elevation_source": "seed_override"
+      },
+      "geo": {
+        "path": [
+          [
+            44.7611,
+            -70.52,
+            3428
+          ],
+          [
+            44.76106958632102,
+            -70.52156,
+            3382
+          ],
+          [
+            44.76079869206626,
+            -70.52311999999999,
+            3380
+          ],
+          [
+            44.76013869206626,
+            -70.52468,
+            3104
+          ],
+          [
+            44.75908958632102,
+            -70.52624,
+            2963
+          ],
+          [
+            44.7578,
+            -70.5278,
+            2900
+          ],
+          [
+            44.757887513050335,
+            -70.52946666666666,
+            3065
+          ],
+          [
+            44.7577997391738,
+            -70.53113333333333,
+            3134
+          ],
+          [
+            44.75740835943401,
+            -70.53280000000001,
+            3213
+          ],
+          [
+            44.75666640584046,
+            -70.53446666666667,
+            3294
+          ],
+          [
+            44.755620846383664,
+            -70.53613333333334,
+            3315
+          ],
+          [
+            44.7544,
+            -70.5378,
+            3357
+          ],
+          [
+            44.754366543607055,
+            -70.53824,
+            3336
+          ],
+          [
+            44.7542618338966,
+            -70.53868,
+            3276
+          ],
+          [
+            44.7540418338966,
+            -70.53912000000001,
+            3160
+          ],
+          [
+            44.75370654360706,
+            -70.53956000000001,
+            3052
+          ],
+          [
+            44.7533,
+            -70.54,
+            2971
+          ],
+          [
+            44.7533,
+            -70.54034,
+            2938
+          ],
+          [
+            44.7533,
+            -70.54068000000001,
+            2916
+          ],
+          [
+            44.7533,
+            -70.54102,
+            2906
+          ],
+          [
+            44.7533,
+            -70.54136000000001,
+            2896
+          ],
+          [
+            44.7533,
+            -70.5417,
+            2869
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 3428,
+            "coord": [
+              44.7611,
+              -70.52
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 3382,
+            "coord": [
+              44.76106958632102,
+              -70.52156
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 3380,
+            "coord": [
+              44.76079869206626,
+              -70.52311999999999
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 3104,
+            "coord": [
+              44.76013869206626,
+              -70.52468
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 2963,
+            "coord": [
+              44.75908958632102,
+              -70.52624
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 2900,
+            "coord": [
+              44.7578,
+              -70.5278
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 3065,
+            "coord": [
+              44.757887513050335,
+              -70.52946666666666
+            ]
+          },
+          {
+            "mile": 0.63,
+            "elev": 3134,
+            "coord": [
+              44.7577997391738,
+              -70.53113333333333
+            ]
+          },
+          {
+            "mile": 0.72,
+            "elev": 3213,
+            "coord": [
+              44.75740835943401,
+              -70.53280000000001
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 3294,
+            "coord": [
+              44.75666640584046,
+              -70.53446666666667
+            ]
+          },
+          {
+            "mile": 0.92,
+            "elev": 3315,
+            "coord": [
+              44.755620846383664,
+              -70.53613333333334
+            ]
+          },
+          {
+            "mile": 1.04,
+            "elev": 3357,
+            "coord": [
+              44.7544,
+              -70.5378
+            ]
+          },
+          {
+            "mile": 1.06,
+            "elev": 3336,
+            "coord": [
+              44.754366543607055,
+              -70.53824
+            ]
+          },
+          {
+            "mile": 1.09,
+            "elev": 3276,
+            "coord": [
+              44.7542618338966,
+              -70.53868
+            ]
+          },
+          {
+            "mile": 1.11,
+            "elev": 3160,
+            "coord": [
+              44.7540418338966,
+              -70.53912000000001
+            ]
+          },
+          {
+            "mile": 1.15,
+            "elev": 3052,
+            "coord": [
+              44.75370654360706,
+              -70.53956000000001
+            ]
+          },
+          {
+            "mile": 1.18,
+            "elev": 2971,
+            "coord": [
+              44.7533,
+              -70.54
+            ]
+          },
+          {
+            "mile": 1.2,
+            "elev": 2938,
+            "coord": [
+              44.7533,
+              -70.54034
+            ]
+          },
+          {
+            "mile": 1.21,
+            "elev": 2916,
+            "coord": [
+              44.7533,
+              -70.54068000000001
+            ]
+          },
+          {
+            "mile": 1.23,
+            "elev": 2906,
+            "coord": [
+              44.7533,
+              -70.54102
+            ]
+          },
+          {
+            "mile": 1.25,
+            "elev": 2896,
+            "coord": [
+              44.7533,
+              -70.54136000000001
+            ]
+          },
+          {
+            "mile": 1.26,
+            "elev": 2869,
+            "coord": [
+              44.7533,
+              -70.5417
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.7611,
+            -70.52
+          ],
+          "summit": [
+            44.7533,
+            -70.5417,
+            3068
+          ],
+          "stop_0": [
+            44.7578,
+            -70.5278,
+            "Brook Crossings"
+          ],
+          "stop_1": [
+            44.7544,
+            -70.5378,
+            "Tumbledown Pond"
+          ],
+          "stop_2": [
+            44.7533,
+            -70.54,
+            "Fat Man's Misery (Chimney)"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Brook Crossings",
+          "lat": 44.7578,
+          "lon": -70.5278,
+          "type": "water",
+          "mile": 1.0
+        },
+        {
+          "name": "Tumbledown Pond",
+          "lat": 44.7544,
+          "lon": -70.5378,
+          "type": "pond",
+          "mile": 2.0
+        },
+        {
+          "name": "Fat Man's Misery (Chimney)",
+          "lat": 44.7533,
+          "lon": -70.54,
+          "type": "scramble",
+          "mile": 2.3
+        }
+      ]
+    },
+    {
+      "id": "d7013877",
+      "name": "Loop Trail",
+      "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 5.5,
+      "elevation_gain": 1800,
+      "description": "Loop option combining Brook and Parker Ridge trails.",
+      "tags": [
+        "Loop"
+      ],
+      "parking_info": "Byron Road Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.7611,
+      "start_lon": -70.52,
+      "logistics": {
+        "start_coords": [
+          44.7611,
+          -70.52
+        ],
+        "parking_info": "Byron Road Trailhead",
+        "directions_url": "https://www.google.com/maps/dir//44.7611,-70.52",
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 2.0,
+        "gain": 871,
+        "max_elev": 3428,
+        "min_elev": 2659,
+        "type": "Loop",
+        "difficulty": "Hard",
+        "time": 1.1,
+        "_distance_source": "calculated",
+        "_elevation_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            44.7611,
+            -70.52,
+            3428
+          ],
+          [
+            44.76066188168306,
+            -70.51888,
+            3354
+          ],
+          [
+            44.75997094705973,
+            -70.51776,
+            3323
+          ],
+          [
+            44.758870947059734,
+            -70.51664,
+            3166
+          ],
+          [
+            44.75736188168307,
+            -70.51552,
+            2880
+          ],
+          [
+            44.7556,
+            -70.5144,
+            2667
+          ],
+          [
+            44.75526,
+            -70.51617999999999,
+            2715
+          ],
+          [
+            44.75619910279811,
+            -70.51796,
+            2777
+          ],
+          [
+            44.75634053396575,
+            -70.51974,
+            2757
+          ],
+          [
+            44.756309631802445,
+            -70.52152,
+            2734
+          ],
+          [
+            44.756076139658354,
+            -70.5233,
+            2685
+          ],
+          [
+            44.75562963180244,
+            -70.52508,
+            2659
+          ],
+          [
+            44.75498053396574,
+            -70.52686,
+            2750
+          ],
+          [
+            44.75415910279811,
+            -70.52864,
+            2858
+          ],
+          [
+            44.75254,
+            -70.53042,
+            2852
+          ],
+          [
+            44.7522,
+            -70.5322,
+            2976
+          ],
+          [
+            44.75308804864987,
+            -70.53410000000001,
+            3271
+          ],
+          [
+            44.75372092542163,
+            -70.536,
+            3414
+          ],
+          [
+            44.75394092542164,
+            -70.53790000000001,
+            3305
+          ],
+          [
+            44.753748048649875,
+            -70.5398,
+            3028
+          ],
+          [
+            44.7533,
+            -70.5417,
+            2869
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 3428,
+            "coord": [
+              44.7611,
+              -70.52
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 3354,
+            "coord": [
+              44.76066188168306,
+              -70.51888
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 3323,
+            "coord": [
+              44.75997094705973,
+              -70.51776
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 3166,
+            "coord": [
+              44.758870947059734,
+              -70.51664
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 2880,
+            "coord": [
+              44.75736188168307,
+              -70.51552
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 2667,
+            "coord": [
+              44.7556,
+              -70.5144
+            ]
+          },
+          {
+            "mile": 0.57,
+            "elev": 2715,
+            "coord": [
+              44.75526,
+              -70.51617999999999
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 2777,
+            "coord": [
+              44.75619910279811,
+              -70.51796
+            ]
+          },
+          {
+            "mile": 0.77,
+            "elev": 2757,
+            "coord": [
+              44.75634053396575,
+              -70.51974
+            ]
+          },
+          {
+            "mile": 0.86,
+            "elev": 2734,
+            "coord": [
+              44.756309631802445,
+              -70.52152
+            ]
+          },
+          {
+            "mile": 0.95,
+            "elev": 2685,
+            "coord": [
+              44.756076139658354,
+              -70.5233
+            ]
+          },
+          {
+            "mile": 1.04,
+            "elev": 2659,
+            "coord": [
+              44.75562963180244,
+              -70.52508
+            ]
+          },
+          {
+            "mile": 1.14,
+            "elev": 2750,
+            "coord": [
+              44.75498053396574,
+              -70.52686
+            ]
+          },
+          {
+            "mile": 1.24,
+            "elev": 2858,
+            "coord": [
+              44.75415910279811,
+              -70.52864
+            ]
+          },
+          {
+            "mile": 1.38,
+            "elev": 2852,
+            "coord": [
+              44.75254,
+              -70.53042
+            ]
+          },
+          {
+            "mile": 1.47,
+            "elev": 2976,
+            "coord": [
+              44.7522,
+              -70.5322
+            ]
+          },
+          {
+            "mile": 1.59,
+            "elev": 3271,
+            "coord": [
+              44.75308804864987,
+              -70.53410000000001
+            ]
+          },
+          {
+            "mile": 1.69,
+            "elev": 3414,
+            "coord": [
+              44.75372092542163,
+              -70.536
+            ]
+          },
+          {
+            "mile": 1.78,
+            "elev": 3305,
+            "coord": [
+              44.75394092542164,
+              -70.53790000000001
+            ]
+          },
+          {
+            "mile": 1.88,
+            "elev": 3028,
+            "coord": [
+              44.753748048649875,
+              -70.5398
+            ]
+          },
+          {
+            "mile": 1.98,
+            "elev": 2869,
+            "coord": [
+              44.7533,
+              -70.5417
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.7611,
+            -70.52
+          ],
+          "summit": [
+            44.7533,
+            -70.5417,
+            3068
+          ],
+          "stop_0": [
+            44.7556,
+            -70.5144,
+            "Parker Ridge Junction"
+          ],
+          "stop_1": [
+            44.7522,
+            -70.5322,
+            "Little Jackson View"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Parker Ridge Junction",
+          "lat": 44.7556,
+          "lon": -70.5144,
+          "type": "junction",
+          "mile": 0.5
+        },
+        {
+          "name": "Little Jackson View",
+          "lat": 44.7522,
+          "lon": -70.5322,
+          "type": "viewpoint",
+          "mile": 2.5
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "Tumbledown Mountain Trail Guide | 2 Routes, Maps & Conditions",
+    "meta_description": "Explore Tumbledown Mountain (3,068 ft) in Maine. 2 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/maine/tumbledown-mountain-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Tumbledown Mountain",
+      "description": "Tumbledown Mountain is a 3,068 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.7533,
+        "longitude": -70.5417,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3068,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Brook Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.7611,
+            "longitude": -70.52
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "Loop Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.7611,
+            "longitude": -70.52
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Tumbledown Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Tumbledown Mountain take 2-4 hours round trip. The most popular trail is 5.0 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Tumbledown Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tumbledown Mountain is rated Hard. At 3,068 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Tumbledown Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Tumbledown Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Tumbledown Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Brook Trail, offering Most popular route to alpine pond and summit.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Tumbledown Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Tumbledown Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Tumbledown Mountain",
+      "subtitle": "Classic White Mountain Peak \u2022 3,068 ft",
+      "quick_stats": {
+        "elevation": "3,068 ft",
+        "trail_count": 2,
+        "difficulty": "Moderate to Hard",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,068 feet, Tumbledown Mountain offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Brook Trail**, covers 5.0 miles and is rated \n    Hard. Most popular route to alpine pond and summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Tumbledown Mountain?",
+        "answer": "Most routes on Tumbledown Mountain take 2-4 hours round trip. The most popular trail is 5.0 miles with Hard difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Tumbledown Mountain hard to hike?",
+        "answer": "Tumbledown Mountain is rated Hard. At 3,068 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Tumbledown Mountain?",
+        "answer": "No hiking permit is required for Tumbledown Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Tumbledown Mountain?",
+        "answer": "The most popular route is the Brook Trail, offering Most popular route to alpine pond and summit.."
+      },
+      {
+        "question": "When is the best time to hike Tumbledown Mountain?",
+        "answer": "The best hiking season for Tumbledown Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": []
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Tumbledown Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Brook Trail, Loop Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "tumbledown-mountain-me-all-trails.gpx",
+        "label": "Download All Tumbledown Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "tumbledown-mountain-me-trail-guide.pdf",
+        "label": "Tumbledown Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "tumbledown-mountain-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Tumbledown%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,068 feet, Tumbledown Mountain offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Brook Trail**, covers 5.0 miles and is rated \n    Hard. Most popular route to alpine pond and summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
+}

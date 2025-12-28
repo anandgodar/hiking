@@ -1,0 +1,1587 @@
+{
+  "name": "Okemo Mountain",
+  "slug": "okemo-mountain-vt",
+  "state": "Vermont",
+  "state_slug": "vermont",
+  "elevation": 3343,
+  "lat": 43.4014,
+  "lon": -72.7172,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "tags": [
+    "Views",
+    "Fire Tower",
+    "Ski Area"
+  ],
+  "trails_config": [
+    {
+      "name": "Healdville Trail",
+      "osm_name": "Healdville Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 5.8,
+      "elevation_gain": 2100,
+      "tags": [
+        "Fire Tower"
+      ],
+      "description": "Hiking trail to summit fire tower with 360\u00b0 views.",
+      "parking_info": "Healdville Trailhead, Station Rd",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.3867,
+      "start_lon": -72.7633
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [],
+  "meta": {
+    "refined_at": "2025-12-28T11:17:50.452089",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "ELEVATION_MISMATCH: Healdville Trail calculated 149ft but seed says 2100ft. Using seed value."
+    ],
+    "last_updated": "2025-12-28T11:18:14.987280",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "d33c403c",
+      "name": "Healdville Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 5.8,
+      "elevation_gain": 2100,
+      "description": "Hiking trail to summit fire tower with 360\u00b0 views.",
+      "tags": [
+        "Fire Tower"
+      ],
+      "parking_info": "Healdville Trailhead, Station Rd",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.3867,
+      "start_lon": -72.7633,
+      "logistics": {
+        "start_coords": [
+          43.3867,
+          -72.7633
+        ],
+        "parking_info": "Healdville Trailhead, Station Rd",
+        "directions_url": "https://www.google.com/maps/dir//43.3867,-72.7633",
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 3.7,
+        "gain": 2100,
+        "max_elev": 2504,
+        "min_elev": 1285,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 2.3,
+        "_distance_source": "calculated",
+        "_original_calculated_gain": 149
+      },
+      "geo": {
+        "path": [
+          [
+            43.38677,
+            -72.763342,
+            2504
+          ],
+          [
+            43.386927,
+            -72.762844,
+            2501
+          ],
+          [
+            43.387123,
+            -72.762523,
+            2491
+          ],
+          [
+            43.387265,
+            -72.762047,
+            2481
+          ],
+          [
+            43.387596,
+            -72.760951,
+            2461
+          ],
+          [
+            43.387686,
+            -72.760465,
+            2453
+          ],
+          [
+            43.387957,
+            -72.760216,
+            2438
+          ],
+          [
+            43.388355,
+            -72.760041,
+            2415
+          ],
+          [
+            43.388769,
+            -72.760051,
+            2408
+          ],
+          [
+            43.38928,
+            -72.759554,
+            2419
+          ],
+          [
+            43.389423,
+            -72.759079,
+            2427
+          ],
+          [
+            43.389588,
+            -72.758789,
+            2436
+          ],
+          [
+            43.390114,
+            -72.758696,
+            2454
+          ],
+          [
+            43.390793,
+            -72.758562,
+            2482
+          ],
+          [
+            43.390267,
+            -72.757232,
+            2470
+          ],
+          [
+            43.390115,
+            -72.7564,
+            2449
+          ],
+          [
+            43.390148,
+            -72.755812,
+            2430
+          ],
+          [
+            43.390306,
+            -72.754979,
+            2415
+          ],
+          [
+            43.390378,
+            -72.75422,
+            2398
+          ],
+          [
+            43.390332,
+            -72.753713,
+            2379
+          ],
+          [
+            43.390102,
+            -72.752998,
+            2347
+          ],
+          [
+            43.390102,
+            -72.752519,
+            2331
+          ],
+          [
+            43.390115,
+            -72.751533,
+            2304
+          ],
+          [
+            43.390063,
+            -72.750908,
+            2310
+          ],
+          [
+            43.389892,
+            -72.750257,
+            2310
+          ],
+          [
+            43.388771,
+            -72.747995,
+            2293
+          ],
+          [
+            43.388366,
+            -72.747475,
+            2288
+          ],
+          [
+            43.388206,
+            -72.74704,
+            2282
+          ],
+          [
+            43.387948,
+            -72.746055,
+            2277
+          ],
+          [
+            43.387779,
+            -72.745449,
+            2267
+          ],
+          [
+            43.387517,
+            -72.744641,
+            2245
+          ],
+          [
+            43.387525,
+            -72.744103,
+            2224
+          ],
+          [
+            43.387686,
+            -72.743632,
+            2215
+          ],
+          [
+            43.38785,
+            -72.743381,
+            2210
+          ],
+          [
+            43.387948,
+            -72.743148,
+            2202
+          ],
+          [
+            43.38801,
+            -72.742628,
+            2182
+          ],
+          [
+            43.387992,
+            -72.742065,
+            2149
+          ],
+          [
+            43.387868,
+            -72.741398,
+            2110
+          ],
+          [
+            43.387912,
+            -72.741092,
+            2099
+          ],
+          [
+            43.388041,
+            -72.740811,
+            2090
+          ],
+          [
+            43.388117,
+            -72.740407,
+            2082
+          ],
+          [
+            43.388055,
+            -72.739672,
+            2056
+          ],
+          [
+            43.38817,
+            -72.739158,
+            2050
+          ],
+          [
+            43.388068,
+            -72.738534,
+            2033
+          ],
+          [
+            43.388068,
+            -72.738008,
+            2021
+          ],
+          [
+            43.388041,
+            -72.737837,
+            2018
+          ],
+          [
+            43.387766,
+            -72.737518,
+            2004
+          ],
+          [
+            43.386769,
+            -72.736588,
+            1957
+          ],
+          [
+            43.386236,
+            -72.736037,
+            1923
+          ],
+          [
+            43.386018,
+            -72.735248,
+            1898
+          ],
+          [
+            43.385979,
+            -72.734972,
+            1894
+          ],
+          [
+            43.38596,
+            -72.734838,
+            1891
+          ],
+          [
+            43.385933,
+            -72.734685,
+            1887
+          ],
+          [
+            43.38564,
+            -72.73444,
+            1865
+          ],
+          [
+            43.385423,
+            -72.734275,
+            1855
+          ],
+          [
+            43.385488,
+            -72.734127,
+            1852
+          ],
+          [
+            43.38562,
+            -72.733827,
+            1844
+          ],
+          [
+            43.385932,
+            -72.733473,
+            1838
+          ],
+          [
+            43.386244,
+            -72.733247,
+            1836
+          ],
+          [
+            43.386298,
+            -72.733022,
+            1822
+          ],
+          [
+            43.386415,
+            -72.732968,
+            1823
+          ],
+          [
+            43.386751,
+            -72.733011,
+            1834
+          ],
+          [
+            43.386844,
+            -72.732861,
+            1828
+          ],
+          [
+            43.386868,
+            -72.732518,
+            1823
+          ],
+          [
+            43.386907,
+            -72.732003,
+            1802
+          ],
+          [
+            43.387008,
+            -72.731885,
+            1799
+          ],
+          [
+            43.387328,
+            -72.73182,
+            1802
+          ],
+          [
+            43.38771,
+            -72.73152,
+            1799
+          ],
+          [
+            43.387839,
+            -72.731062,
+            1785
+          ],
+          [
+            43.387982,
+            -72.730912,
+            1784
+          ],
+          [
+            43.388165,
+            -72.730733,
+            1782
+          ],
+          [
+            43.388418,
+            -72.730569,
+            1783
+          ],
+          [
+            43.388663,
+            -72.730458,
+            1781
+          ],
+          [
+            43.388876,
+            -72.730412,
+            1783
+          ],
+          [
+            43.389252,
+            -72.730297,
+            1782
+          ],
+          [
+            43.389622,
+            -72.730205,
+            1783
+          ],
+          [
+            43.389678,
+            -72.730198,
+            1784
+          ],
+          [
+            43.389772,
+            -72.730069,
+            1781
+          ],
+          [
+            43.389971,
+            -72.730013,
+            1780
+          ],
+          [
+            43.390186,
+            -72.730002,
+            1773
+          ],
+          [
+            43.390489,
+            -72.730044,
+            1771
+          ],
+          [
+            43.390461,
+            -72.729928,
+            1767
+          ],
+          [
+            43.390449,
+            -72.729739,
+            1761
+          ],
+          [
+            43.390485,
+            -72.729547,
+            1756
+          ],
+          [
+            43.390563,
+            -72.729377,
+            1751
+          ],
+          [
+            43.390664,
+            -72.72924,
+            1746
+          ],
+          [
+            43.390837,
+            -72.729065,
+            1738
+          ],
+          [
+            43.391224,
+            -72.728656,
+            1728
+          ],
+          [
+            43.391299,
+            -72.728506,
+            1721
+          ],
+          [
+            43.391295,
+            -72.728339,
+            1718
+          ],
+          [
+            43.391203,
+            -72.728207,
+            1713
+          ],
+          [
+            43.391059,
+            -72.728189,
+            1713
+          ],
+          [
+            43.390918,
+            -72.728162,
+            1711
+          ],
+          [
+            43.390789,
+            -72.728067,
+            1704
+          ],
+          [
+            43.390697,
+            -72.727914,
+            1697
+          ],
+          [
+            43.390658,
+            -72.727721,
+            1693
+          ],
+          [
+            43.390628,
+            -72.727432,
+            1678
+          ],
+          [
+            43.390606,
+            -72.727143,
+            1672
+          ],
+          [
+            43.390577,
+            -72.726852,
+            1663
+          ],
+          [
+            43.390522,
+            -72.726582,
+            1653
+          ],
+          [
+            43.390312,
+            -72.726078,
+            1634
+          ],
+          [
+            43.390197,
+            -72.725848,
+            1628
+          ],
+          [
+            43.390092,
+            -72.725724,
+            1619
+          ],
+          [
+            43.389972,
+            -72.725631,
+            1614
+          ],
+          [
+            43.389797,
+            -72.725468,
+            1604
+          ],
+          [
+            43.389632,
+            -72.725283,
+            1596
+          ],
+          [
+            43.389568,
+            -72.725104,
+            1591
+          ],
+          [
+            43.389583,
+            -72.724899,
+            1588
+          ],
+          [
+            43.389599,
+            -72.724852,
+            1588
+          ],
+          [
+            43.38962,
+            -72.72479,
+            1586
+          ],
+          [
+            43.389646,
+            -72.724715,
+            1588
+          ],
+          [
+            43.389719,
+            -72.72455,
+            1586
+          ],
+          [
+            43.389952,
+            -72.723962,
+            1567
+          ],
+          [
+            43.389974,
+            -72.723774,
+            1560
+          ],
+          [
+            43.389961,
+            -72.723682,
+            1557
+          ],
+          [
+            43.389925,
+            -72.723497,
+            1552
+          ],
+          [
+            43.389918,
+            -72.7234,
+            1550
+          ],
+          [
+            43.389932,
+            -72.723302,
+            1547
+          ],
+          [
+            43.389977,
+            -72.72321,
+            1545
+          ],
+          [
+            43.390041,
+            -72.723136,
+            1543
+          ],
+          [
+            43.390162,
+            -72.723061,
+            1540
+          ],
+          [
+            43.390285,
+            -72.722974,
+            1527
+          ],
+          [
+            43.390379,
+            -72.722842,
+            1519
+          ],
+          [
+            43.390452,
+            -72.722683,
+            1514
+          ],
+          [
+            43.390492,
+            -72.72256,
+            1512
+          ],
+          [
+            43.390921,
+            -72.722466,
+            1509
+          ],
+          [
+            43.391007,
+            -72.722442,
+            1509
+          ],
+          [
+            43.3912,
+            -72.722389,
+            1506
+          ],
+          [
+            43.391274,
+            -72.722351,
+            1506
+          ],
+          [
+            43.391332,
+            -72.722321,
+            1505
+          ],
+          [
+            43.391453,
+            -72.722221,
+            1502
+          ],
+          [
+            43.391561,
+            -72.722099,
+            1499
+          ],
+          [
+            43.391701,
+            -72.721887,
+            1489
+          ],
+          [
+            43.391837,
+            -72.721667,
+            1484
+          ],
+          [
+            43.391952,
+            -72.721535,
+            1475
+          ],
+          [
+            43.392085,
+            -72.721439,
+            1471
+          ],
+          [
+            43.392286,
+            -72.721355,
+            1464
+          ],
+          [
+            43.392753,
+            -72.721147,
+            1447
+          ],
+          [
+            43.392813,
+            -72.721125,
+            1444
+          ],
+          [
+            43.393721,
+            -72.7208,
+            1410
+          ],
+          [
+            43.393845,
+            -72.720745,
+            1413
+          ],
+          [
+            43.393974,
+            -72.720642,
+            1411
+          ],
+          [
+            43.394051,
+            -72.720525,
+            1416
+          ],
+          [
+            43.394102,
+            -72.720378,
+            1419
+          ],
+          [
+            43.394155,
+            -72.720187,
+            1413
+          ],
+          [
+            43.394124,
+            -72.720002,
+            1406
+          ],
+          [
+            43.394092,
+            -72.719694,
+            1395
+          ],
+          [
+            43.394012,
+            -72.719047,
+            1384
+          ],
+          [
+            43.393964,
+            -72.718765,
+            1374
+          ],
+          [
+            43.393913,
+            -72.71859,
+            1361
+          ],
+          [
+            43.393803,
+            -72.718278,
+            1352
+          ],
+          [
+            43.393964,
+            -72.718198,
+            1351
+          ],
+          [
+            43.394181,
+            -72.718123,
+            1349
+          ],
+          [
+            43.39467,
+            -72.717987,
+            1347
+          ],
+          [
+            43.394882,
+            -72.717945,
+            1345
+          ],
+          [
+            43.395099,
+            -72.717924,
+            1345
+          ],
+          [
+            43.395293,
+            -72.717928,
+            1345
+          ],
+          [
+            43.395442,
+            -72.717948,
+            1347
+          ],
+          [
+            43.395664,
+            -72.717954,
+            1352
+          ],
+          [
+            43.395943,
+            -72.717943,
+            1365
+          ],
+          [
+            43.396436,
+            -72.717912,
+            1372
+          ],
+          [
+            43.396932,
+            -72.717837,
+            1373
+          ],
+          [
+            43.397428,
+            -72.717755,
+            1367
+          ],
+          [
+            43.397932,
+            -72.717733,
+            1364
+          ],
+          [
+            43.398077,
+            -72.717736,
+            1353
+          ],
+          [
+            43.398221,
+            -72.717762,
+            1349
+          ],
+          [
+            43.398361,
+            -72.717813,
+            1348
+          ],
+          [
+            43.398376,
+            -72.717821,
+            1348
+          ],
+          [
+            43.398429,
+            -72.717848,
+            1345
+          ],
+          [
+            43.398742,
+            -72.718009,
+            1337
+          ],
+          [
+            43.399172,
+            -72.718165,
+            1333
+          ],
+          [
+            43.399769,
+            -72.718373,
+            1334
+          ],
+          [
+            43.399895,
+            -72.718411,
+            1333
+          ],
+          [
+            43.400321,
+            -72.718498,
+            1331
+          ],
+          [
+            43.400532,
+            -72.718518,
+            1322
+          ],
+          [
+            43.400669,
+            -72.718503,
+            1312
+          ],
+          [
+            43.400804,
+            -72.718463,
+            1306
+          ],
+          [
+            43.401009,
+            -72.718348,
+            1295
+          ],
+          [
+            43.401068,
+            -72.718266,
+            1289
+          ],
+          [
+            43.401093,
+            -72.718221,
+            1286
+          ],
+          [
+            43.401122,
+            -72.718167,
+            1287
+          ],
+          [
+            43.401184,
+            -72.71804,
+            1286
+          ],
+          [
+            43.401207,
+            -72.717983,
+            1288
+          ],
+          [
+            43.401225,
+            -72.717682,
+            1285
+          ],
+          [
+            43.401369,
+            -72.717795,
+            1289
+          ],
+          [
+            43.401382,
+            -72.71769,
+            1289
+          ],
+          [
+            43.401367,
+            -72.71758,
+            1287
+          ],
+          [
+            43.401302,
+            -72.717483,
+            1287
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2504,
+            "coord": [
+              43.38677,
+              -72.763342
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 2438,
+            "coord": [
+              43.387957,
+              -72.760216
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 2454,
+            "coord": [
+              43.390114,
+              -72.758696
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 2398,
+            "coord": [
+              43.390378,
+              -72.75422
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 2310,
+            "coord": [
+              43.389892,
+              -72.750257
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 2245,
+            "coord": [
+              43.387517,
+              -72.744641
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 2149,
+            "coord": [
+              43.387992,
+              -72.742065
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 2050,
+            "coord": [
+              43.38817,
+              -72.739158
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 1923,
+            "coord": [
+              43.386236,
+              -72.736037
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 1855,
+            "coord": [
+              43.385423,
+              -72.734275
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 1823,
+            "coord": [
+              43.386415,
+              -72.732968
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 1802,
+            "coord": [
+              43.387328,
+              -72.73182
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 1781,
+            "coord": [
+              43.388663,
+              -72.730458
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 1780,
+            "coord": [
+              43.389971,
+              -72.730013
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 1751,
+            "coord": [
+              43.390563,
+              -72.729377
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 1713,
+            "coord": [
+              43.391203,
+              -72.728207
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 1678,
+            "coord": [
+              43.390628,
+              -72.727432
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1619,
+            "coord": [
+              43.390092,
+              -72.725724
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1588,
+            "coord": [
+              43.389599,
+              -72.724852
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 1557,
+            "coord": [
+              43.389961,
+              -72.723682
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 1540,
+            "coord": [
+              43.390162,
+              -72.723061
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 1509,
+            "coord": [
+              43.391007,
+              -72.722442
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 1489,
+            "coord": [
+              43.391701,
+              -72.721887
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 1444,
+            "coord": [
+              43.392813,
+              -72.721125
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 1413,
+            "coord": [
+              43.394155,
+              -72.720187
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 1352,
+            "coord": [
+              43.393803,
+              -72.718278
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 1345,
+            "coord": [
+              43.395293,
+              -72.717928
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 1367,
+            "coord": [
+              43.397428,
+              -72.717755
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 1345,
+            "coord": [
+              43.398429,
+              -72.717848
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 1322,
+            "coord": [
+              43.400532,
+              -72.718518
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 1287,
+            "coord": [
+              43.401122,
+              -72.718167
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 1287,
+            "coord": [
+              43.401367,
+              -72.71758
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            43.38677,
+            -72.763342,
+            2504
+          ],
+          "summit": [
+            43.4014,
+            -72.7172,
+            3343
+          ]
+        }
+      },
+      "features": []
+    }
+  ],
+  "seo": {
+    "meta_title": "Okemo Mountain Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Okemo Mountain (3,343 ft) in Vermont. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/vermont/okemo-mountain-vt",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Okemo Mountain",
+      "description": "Okemo Mountain is a 3,343 foot peak in Vermont offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.4014,
+        "longitude": -72.7172,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3343,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Vermont",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Healdville Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 43.3867,
+            "longitude": -72.7633
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Okemo Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Okemo Mountain take 2-4 hours round trip. The most popular trail is 5.8 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Okemo Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Okemo Mountain is rated Moderate. At 3,343 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Okemo Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Okemo Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Okemo Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Healdville Trail, offering Hiking trail to summit fire tower with 360\u00b0 views.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Okemo Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Okemo Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Okemo Mountain",
+      "subtitle": "Historic Fire Tower Summit \u2022 3,343 ft",
+      "quick_stats": {
+        "elevation": "3,343 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,343 feet, Okemo Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Healdville Trail**, covers 5.8 miles and is rated \n    Moderate. Hiking trail to summit fire tower with 360\u00b0 views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Okemo Mountain?",
+        "answer": "Most routes on Okemo Mountain take 2-4 hours round trip. The most popular trail is 5.8 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Okemo Mountain hard to hike?",
+        "answer": "Okemo Mountain is rated Moderate. At 3,343 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Okemo Mountain?",
+        "answer": "No hiking permit is required for Okemo Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Okemo Mountain?",
+        "answer": "The most popular route is the Healdville Trail, offering Hiking trail to summit fire tower with 360\u00b0 views.."
+      },
+      {
+        "question": "When is the best time to hike Okemo Mountain?",
+        "answer": "The best hiking season for Okemo Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": []
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Okemo Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Healdville Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "okemo-mountain-vt-all-trails.gpx",
+        "label": "Download All Okemo Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "okemo-mountain-vt-trail-guide.pdf",
+        "label": "Okemo Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "okemo-mountain-vt-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Okemo%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,343 feet, Okemo Mountain offers one of Vermont's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Healdville Trail**, covers 5.8 miles and is rated \n    Moderate. Hiking trail to summit fire tower with 360\u00b0 views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
+}

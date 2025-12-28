@@ -19,7 +19,7 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 5.4,
-      "elevation_gain": 1200,
+      "elevation_gain": 2700,
       "tags": [],
       "description": "Trail to Mount Chocorua summit.",
       "parking_info": "Piper Trail Parking, NH-16, Chocorua",
@@ -38,7 +38,7 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 4.6,
-      "elevation_gain": 1000,
+      "elevation_gain": 2300,
       "tags": [],
       "description": "Trail to Mount Chocorua summit.",
       "parking_info": "Champney Falls Trailhead, Kancamagus Highway",
@@ -57,7 +57,7 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 5.4,
-      "elevation_gain": 1100,
+      "elevation_gain": 2700,
       "tags": [],
       "description": "Trail to Mount Chocorua summit.",
       "parking_info": "Liberty Trail Parking",
@@ -71,13 +71,40 @@
       "start_lon": -71.2879
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [
     {
-      "name": "Dianas Baths",
-      "slug": "dianas-baths-nh",
+      "name": "Mount Passaconaway",
+      "slug": "mount-passaconaway-nh",
       "state_slug": "new-hampshire",
-      "elevation": 700,
-      "distance_miles": 9.8
+      "elevation": 4043,
+      "distance_miles": 5.4
+    },
+    {
+      "name": "Mount Whiteface",
+      "slug": "mount-whiteface-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4020,
+      "distance_miles": 6.7
+    },
+    {
+      "name": "Middle Tripyramid",
+      "slug": "middle-tripyramid-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4140,
+      "distance_miles": 8.5
+    },
+    {
+      "name": "North Tripyramid",
+      "slug": "north-tripyramid-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4180,
+      "distance_miles": 8.5
     }
   ],
   "social_pulse": 7,
@@ -101,12 +128,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:13:56.982924",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "905f9d31",
@@ -5067,7 +5088,7 @@
         "list_name": "local hiking destination"
       }
     },
-    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,490 feet, Mount Chocorua offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Piper Trail**, covers 5.4 miles and is rated \n    Moderate. Trail to Mount Chocorua summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Dianas Baths lies just 9.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,490 feet, Mount Chocorua offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Piper Trail**, covers 5.4 miles and is rated \n    Moderate. Trail to Mount Chocorua summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Passaconaway lies just 5.4 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
     "seasonal_guide": {
       "spring": {
         "months": "March - May",
@@ -5211,14 +5232,44 @@
     ],
     "nearby_peaks": [
       {
-        "name": "Dianas Baths",
-        "slug": "dianas-baths-nh",
+        "name": "Mount Passaconaway",
+        "slug": "mount-passaconaway-nh",
         "state_slug": "new-hampshire",
-        "elevation": 700,
-        "distance_miles": 9.8,
-        "link_text": "Hike Dianas Baths",
-        "combo_suggestion": "Combine Mount Chocorua with Dianas Baths for a longer day",
-        "comparison": "Shorter climb (2790 ft less)"
+        "elevation": 4043,
+        "distance_miles": 5.4,
+        "link_text": "Hike Mount Passaconaway",
+        "combo_suggestion": "Combine Mount Chocorua with Mount Passaconaway for a longer day",
+        "comparison": "Higher summit (+553 ft)"
+      },
+      {
+        "name": "Mount Whiteface",
+        "slug": "mount-whiteface-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4020,
+        "distance_miles": 6.7,
+        "link_text": "Hike Mount Whiteface",
+        "combo_suggestion": "Combine Mount Chocorua with Mount Whiteface for a longer day",
+        "comparison": "Higher summit (+530 ft)"
+      },
+      {
+        "name": "Middle Tripyramid",
+        "slug": "middle-tripyramid-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4140,
+        "distance_miles": 8.5,
+        "link_text": "Hike Middle Tripyramid",
+        "combo_suggestion": "Combine Mount Chocorua with Middle Tripyramid for a longer day",
+        "comparison": "Higher summit (+650 ft)"
+      },
+      {
+        "name": "North Tripyramid",
+        "slug": "north-tripyramid-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4180,
+        "distance_miles": 8.5,
+        "link_text": "Hike North Tripyramid",
+        "combo_suggestion": "Combine Mount Chocorua with North Tripyramid for a longer day",
+        "comparison": "Higher summit (+690 ft)"
       }
     ]
   },
@@ -5252,5 +5303,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,490 feet, Mount Chocorua offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Piper Trail**, covers 5.4 miles and is rated \n    Moderate. Trail to Mount Chocorua summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Dianas Baths lies just 9.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,490 feet, Mount Chocorua offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Piper Trail**, covers 5.4 miles and is rated \n    Moderate. Trail to Mount Chocorua summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Passaconaway lies just 5.4 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:37:29.178869",
+    "pipeline_version": "3.0"
+  }
 }

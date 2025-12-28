@@ -1,0 +1,895 @@
+{
+  "name": "Jordan Pond",
+  "slug": "jordan-pond-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 274,
+  "lat": 44.3217,
+  "lon": -68.2528,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "Acadia",
+    "Easy",
+    "Scenic",
+    "Family Friendly"
+  ],
+  "trails_config": [
+    {
+      "name": "Jordan Pond Path",
+      "osm_name": "Jordan Pond Path",
+      "type": "Loop",
+      "difficulty": "Easy",
+      "distance_miles": 3.3,
+      "elevation_gain": 200,
+      "tags": [
+        "Easy",
+        "Family",
+        "Views"
+      ],
+      "description": "Easy loop around crystal-clear pond with views of The Bubbles.",
+      "parking_info": "Jordan Pond House",
+      "parking_details": {
+        "capacity": "Large (~100 cars)",
+        "status": "Fills by mid-morning in summer",
+        "fee": "Acadia Park Pass required",
+        "shuttle": "Island Explorer available"
+      },
+      "start_lat": 44.3194,
+      "start_lon": -68.2533,
+      "features": [
+        {
+          "name": "Jordan Pond House",
+          "lat": 44.3194,
+          "lon": -68.2533,
+          "type": "restaurant",
+          "mile": 0.0
+        },
+        {
+          "name": "East Shore Boardwalk",
+          "lat": 44.3278,
+          "lon": -68.25,
+          "type": "boardwalk",
+          "mile": 1.0
+        },
+        {
+          "name": "The Bubbles View",
+          "lat": 44.3311,
+          "lon": -68.2489,
+          "type": "viewpoint",
+          "mile": 1.5
+        },
+        {
+          "name": "North End Boat Launch",
+          "lat": 44.3333,
+          "lon": -68.2511,
+          "type": "landmark",
+          "mile": 1.8
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Penobscot Mountain",
+      "slug": "penobscot-mountain-me",
+      "state_slug": "maine",
+      "elevation": 1194,
+      "distance_miles": 0.6
+    },
+    {
+      "name": "Cadillac Mountain",
+      "slug": "cadillac-mountain-me",
+      "state_slug": "maine",
+      "elevation": 1530,
+      "distance_miles": 2.5
+    },
+    {
+      "name": "The Beehive",
+      "slug": "beehive-me",
+      "state_slug": "maine",
+      "elevation": 520,
+      "distance_miles": 3.3
+    },
+    {
+      "name": "Precipice Trail",
+      "slug": "precipice-trail-me",
+      "state_slug": "maine",
+      "elevation": 1058,
+      "distance_miles": 3.7
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:13:55.749589",
+    "refiner_version": "2.1.0",
+    "validation_issues": 1,
+    "validation_log": [
+      "SPARSE_GEOMETRY: Jordan Pond Path has only 27 points for 3.3mi (8.2 pts/mi)"
+    ],
+    "last_updated": "2025-12-28T16:13:55.753280",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "d44b2861",
+      "name": "Jordan Pond Path",
+      "type": "Loop",
+      "difficulty": "Easy",
+      "distance_miles": 3.3,
+      "elevation_gain": 200,
+      "description": "Easy loop around crystal-clear pond with views of The Bubbles.",
+      "tags": [
+        "Easy",
+        "Family",
+        "Views"
+      ],
+      "parking_info": "Jordan Pond House",
+      "parking_details": {
+        "capacity": "Large (~100 cars)",
+        "status": "Fills by mid-morning in summer",
+        "fee": "Acadia Park Pass required",
+        "shuttle": "Island Explorer available"
+      },
+      "start_lat": 44.3194,
+      "start_lon": -68.2533,
+      "logistics": {
+        "start_coords": [
+          44.3194,
+          -68.2533
+        ],
+        "parking_info": "Jordan Pond House",
+        "directions_url": "https://www.google.com/maps/dir//44.3194,-68.2533",
+        "capacity": "Large (~100 cars)",
+        "status": "Fills by mid-morning in summer",
+        "fee": "Acadia Park Pass required",
+        "shuttle": "Island Explorer available"
+      },
+      "stats": {
+        "distance": 1.9,
+        "gain": 362,
+        "max_elev": 600,
+        "min_elev": 272,
+        "type": "Loop",
+        "difficulty": "Easy",
+        "time": 0.8,
+        "_distance_source": "calculated",
+        "_elevation_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            44.3194,
+            -68.2533,
+            303
+          ],
+          [
+            44.3206,
+            -68.25282857142857,
+            305
+          ],
+          [
+            44.32293073279001,
+            -68.25235714285714,
+            296
+          ],
+          [
+            44.324410000726395,
+            -68.2518857142857,
+            272
+          ],
+          [
+            44.3256100007264,
+            -68.25141428571429,
+            272
+          ],
+          [
+            44.32653073279001,
+            -68.25094285714286,
+            272
+          ],
+          [
+            44.326600000000006,
+            -68.25047142857143,
+            306
+          ],
+          [
+            44.3278,
+            -68.25,
+            384
+          ],
+          [
+            44.328790499345935,
+            -68.24978,
+            453
+          ],
+          [
+            44.329654759174986,
+            -68.24956,
+            484
+          ],
+          [
+            44.33031475917498,
+            -68.24934,
+            546
+          ],
+          [
+            44.33077049934594,
+            -68.24912,
+            559
+          ],
+          [
+            44.3311,
+            -68.2489,
+            600
+          ],
+          [
+            44.33180376939004,
+            -68.24934,
+            558
+          ],
+          [
+            44.33240678783829,
+            -68.24978,
+            489
+          ],
+          [
+            44.332846787838285,
+            -68.25022,
+            459
+          ],
+          [
+            44.33312376939005,
+            -68.25066,
+            423
+          ],
+          [
+            44.3333,
+            -68.2511,
+            387
+          ],
+          [
+            44.332011111111115,
+            -68.25128888888888,
+            313
+          ],
+          [
+            44.33196463141684,
+            -68.25147777777777,
+            303
+          ],
+          [
+            44.33110722671308,
+            -68.25166666666667,
+            279
+          ],
+          [
+            44.33004792576369,
+            -68.25185555555555,
+            272
+          ],
+          [
+            44.32875903687479,
+            -68.25204444444444,
+            272
+          ],
+          [
+            44.32724056004641,
+            -68.25223333333332,
+            272
+          ],
+          [
+            44.3255201869724,
+            -68.25242222222222,
+            272
+          ],
+          [
+            44.32298888888889,
+            -68.25261111111111,
+            293
+          ],
+          [
+            44.3217,
+            -68.2528,
+            304
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 303,
+            "coord": [
+              44.3194,
+              -68.2533
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 305,
+            "coord": [
+              44.3206,
+              -68.25282857142857
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 296,
+            "coord": [
+              44.32293073279001,
+              -68.25235714285714
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 272,
+            "coord": [
+              44.324410000726395,
+              -68.2518857142857
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 272,
+            "coord": [
+              44.3256100007264,
+              -68.25141428571429
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 272,
+            "coord": [
+              44.32653073279001,
+              -68.25094285714286
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 306,
+            "coord": [
+              44.326600000000006,
+              -68.25047142857143
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 384,
+            "coord": [
+              44.3278,
+              -68.25
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 453,
+            "coord": [
+              44.328790499345935,
+              -68.24978
+            ]
+          },
+          {
+            "mile": 0.75,
+            "elev": 484,
+            "coord": [
+              44.329654759174986,
+              -68.24956
+            ]
+          },
+          {
+            "mile": 0.79,
+            "elev": 546,
+            "coord": [
+              44.33031475917498,
+              -68.24934
+            ]
+          },
+          {
+            "mile": 0.83,
+            "elev": 559,
+            "coord": [
+              44.33077049934594,
+              -68.24912
+            ]
+          },
+          {
+            "mile": 0.85,
+            "elev": 600,
+            "coord": [
+              44.3311,
+              -68.2489
+            ]
+          },
+          {
+            "mile": 0.91,
+            "elev": 558,
+            "coord": [
+              44.33180376939004,
+              -68.24934
+            ]
+          },
+          {
+            "mile": 0.95,
+            "elev": 489,
+            "coord": [
+              44.33240678783829,
+              -68.24978
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 459,
+            "coord": [
+              44.332846787838285,
+              -68.25022
+            ]
+          },
+          {
+            "mile": 1.02,
+            "elev": 423,
+            "coord": [
+              44.33312376939005,
+              -68.25066
+            ]
+          },
+          {
+            "mile": 1.04,
+            "elev": 387,
+            "coord": [
+              44.3333,
+              -68.2511
+            ]
+          },
+          {
+            "mile": 1.13,
+            "elev": 313,
+            "coord": [
+              44.332011111111115,
+              -68.25128888888888
+            ]
+          },
+          {
+            "mile": 1.14,
+            "elev": 303,
+            "coord": [
+              44.33196463141684,
+              -68.25147777777777
+            ]
+          },
+          {
+            "mile": 1.2,
+            "elev": 279,
+            "coord": [
+              44.33110722671308,
+              -68.25166666666667
+            ]
+          },
+          {
+            "mile": 1.28,
+            "elev": 272,
+            "coord": [
+              44.33004792576369,
+              -68.25185555555555
+            ]
+          },
+          {
+            "mile": 1.37,
+            "elev": 272,
+            "coord": [
+              44.32875903687479,
+              -68.25204444444444
+            ]
+          },
+          {
+            "mile": 1.47,
+            "elev": 272,
+            "coord": [
+              44.32724056004641,
+              -68.25223333333332
+            ]
+          },
+          {
+            "mile": 1.59,
+            "elev": 272,
+            "coord": [
+              44.3255201869724,
+              -68.25242222222222
+            ]
+          },
+          {
+            "mile": 1.77,
+            "elev": 293,
+            "coord": [
+              44.32298888888889,
+              -68.25261111111111
+            ]
+          },
+          {
+            "mile": 1.86,
+            "elev": 304,
+            "coord": [
+              44.3217,
+              -68.2528
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.3194,
+            -68.2533
+          ],
+          "summit": [
+            44.3217,
+            -68.2528,
+            274
+          ],
+          "stop_0": [
+            44.3194,
+            -68.2533,
+            "Jordan Pond House"
+          ],
+          "stop_1": [
+            44.3278,
+            -68.25,
+            "East Shore Boardwalk"
+          ],
+          "stop_2": [
+            44.3311,
+            -68.2489,
+            "The Bubbles View"
+          ],
+          "stop_3": [
+            44.3333,
+            -68.2511,
+            "North End Boat Launch"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Jordan Pond House",
+          "lat": 44.3194,
+          "lon": -68.2533,
+          "type": "restaurant",
+          "mile": 0.0
+        },
+        {
+          "name": "East Shore Boardwalk",
+          "lat": 44.3278,
+          "lon": -68.25,
+          "type": "boardwalk",
+          "mile": 1.0
+        },
+        {
+          "name": "The Bubbles View",
+          "lat": 44.3311,
+          "lon": -68.2489,
+          "type": "viewpoint",
+          "mile": 1.5
+        },
+        {
+          "name": "North End Boat Launch",
+          "lat": 44.3333,
+          "lon": -68.2511,
+          "type": "landmark",
+          "mile": 1.8
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "Jordan Pond Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Jordan Pond (274 ft) in Maine. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/maine/jordan-pond-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Jordan Pond",
+      "description": "Jordan Pond is a 274 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.3217,
+        "longitude": -68.2528,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 274,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Jordan Pond Path",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.3194,
+            "longitude": -68.2533
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Jordan Pond?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Jordan Pond take 1-3 hours round trip. The most popular trail is 3.3 miles with Easy difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Jordan Pond hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jordan Pond is rated Easy. At 274 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Jordan Pond?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Jordan Pond. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Jordan Pond?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Jordan Pond Path, offering Easy loop around crystal-clear pond with views of The Bubbles.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Jordan Pond?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Jordan Pond is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Jordan Pond",
+      "subtitle": "New Hampshire Trail Destination \u2022 274 ft",
+      "quick_stats": {
+        "elevation": "274 ft",
+        "trail_count": 1,
+        "difficulty": "Easy",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 274 feet, Jordan Pond offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Jordan Pond Path**, covers 3.3 miles and is rated \n    Easy. Easy loop around crystal-clear pond with views of The Bubbles.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Penobscot Mountain lies just 0.6 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Jordan Pond?",
+        "answer": "Most routes on Jordan Pond take 1-3 hours round trip. The most popular trail is 3.3 miles with Easy difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Jordan Pond hard to hike?",
+        "answer": "Jordan Pond is rated Easy. At 274 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Jordan Pond?",
+        "answer": "No hiking permit is required for Jordan Pond. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Jordan Pond?",
+        "answer": "The most popular route is the Jordan Pond Path, offering Easy loop around crystal-clear pond with views of The Bubbles.."
+      },
+      {
+        "question": "When is the best time to hike Jordan Pond?",
+        "answer": "The best hiking season for Jordan Pond is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Penobscot Mountain",
+        "slug": "penobscot-mountain-me",
+        "state_slug": "maine",
+        "elevation": 1194,
+        "distance_miles": 0.6,
+        "link_text": "Hike Penobscot Mountain",
+        "combo_suggestion": "Combine Jordan Pond with Penobscot Mountain for a longer day",
+        "comparison": "Higher summit (+920 ft)"
+      },
+      {
+        "name": "Cadillac Mountain",
+        "slug": "cadillac-mountain-me",
+        "state_slug": "maine",
+        "elevation": 1530,
+        "distance_miles": 2.5,
+        "link_text": "Hike Cadillac Mountain",
+        "combo_suggestion": "Combine Jordan Pond with Cadillac Mountain for a longer day",
+        "comparison": "Higher summit (+1256 ft)"
+      },
+      {
+        "name": "The Beehive",
+        "slug": "beehive-me",
+        "state_slug": "maine",
+        "elevation": 520,
+        "distance_miles": 3.3,
+        "link_text": "Hike The Beehive",
+        "combo_suggestion": "Combine Jordan Pond with The Beehive for a longer day",
+        "comparison": "Higher summit (+246 ft)"
+      },
+      {
+        "name": "Precipice Trail",
+        "slug": "precipice-trail-me",
+        "state_slug": "maine",
+        "elevation": 1058,
+        "distance_miles": 3.7,
+        "link_text": "Hike Precipice Trail",
+        "combo_suggestion": "Combine Jordan Pond with Precipice Trail for a longer day",
+        "comparison": "Higher summit (+784 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Jordan Pond? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Jordan Pond Path"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "jordan-pond-me-all-trails.gpx",
+        "label": "Download All Jordan Pond Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "jordan-pond-me-trail-guide.pdf",
+        "label": "Jordan Pond Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "jordan-pond-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Jordan%20Pond!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 274 feet, Jordan Pond offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Jordan Pond Path**, covers 3.3 miles and is rated \n    Easy. Easy loop around crystal-clear pond with views of The Bubbles.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Penobscot Mountain lies just 0.6 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

@@ -1,0 +1,1375 @@
+{
+  "name": "Cadillac Mountain",
+  "slug": "cadillac-mountain-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 1530,
+  "lat": 44.3525,
+  "lon": -68.2256,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "Acadia",
+    "Sunrise",
+    "Views",
+    "Iconic"
+  ],
+  "trails_config": [
+    {
+      "name": "North Ridge Trail",
+      "osm_name": "North Ridge Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.4,
+      "elevation_gain": 1350,
+      "tags": [
+        "Sunrise",
+        "Views"
+      ],
+      "description": "Popular sunrise hike. First place to see sunrise in continental US.",
+      "parking_info": "North Ridge Trailhead, Park Loop Road",
+      "parking_details": {
+        "capacity": "Medium (~25 cars)",
+        "status": "Arrives early for sunrise",
+        "fee": "Acadia Park Pass required",
+        "shuttle": "Island Explorer available"
+      },
+      "start_lat": 44.3711,
+      "start_lon": -68.2244,
+      "features": [
+        {
+          "name": "Granite Ledges Viewpoint",
+          "lat": 44.3644,
+          "lon": -68.2256,
+          "type": "viewpoint",
+          "mile": 1.0
+        },
+        {
+          "name": "Bar Harbor Overlook",
+          "lat": 44.3578,
+          "lon": -68.2267,
+          "type": "viewpoint",
+          "mile": 1.8
+        },
+        {
+          "name": "Summit Gift Shop",
+          "lat": 44.3528,
+          "lon": -68.2256,
+          "type": "landmark",
+          "mile": 2.2
+        }
+      ]
+    },
+    {
+      "name": "South Ridge Trail",
+      "osm_name": "South Ridge Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 7.0,
+      "elevation_gain": 1350,
+      "tags": [
+        "Views"
+      ],
+      "description": "Longer approach with sweeping ocean views.",
+      "parking_info": "Blackwoods Campground",
+      "parking_details": {
+        "capacity": "Large",
+        "status": "Check conditions",
+        "fee": "Acadia Park Pass required",
+        "shuttle": "Island Explorer available"
+      },
+      "start_lat": 44.3133,
+      "start_lon": -68.2089,
+      "features": [
+        {
+          "name": "Eagles Crag",
+          "lat": 44.3244,
+          "lon": -68.2156,
+          "type": "viewpoint",
+          "mile": 1.5
+        },
+        {
+          "name": "Featherbed",
+          "lat": 44.3389,
+          "lon": -68.2211,
+          "type": "pond",
+          "mile": 2.8
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Precipice Trail",
+      "slug": "precipice-trail-me",
+      "state_slug": "maine",
+      "elevation": 1058,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "The Beehive",
+      "slug": "beehive-me",
+      "state_slug": "maine",
+      "elevation": 520,
+      "distance_miles": 2.4
+    },
+    {
+      "name": "Jordan Pond",
+      "slug": "jordan-pond-me",
+      "state_slug": "maine",
+      "elevation": 274,
+      "distance_miles": 2.5
+    },
+    {
+      "name": "Penobscot Mountain",
+      "slug": "penobscot-mountain-me",
+      "state_slug": "maine",
+      "elevation": 1194,
+      "distance_miles": 3.1
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:13:55.768186",
+    "refiner_version": "2.1.0",
+    "validation_issues": 3,
+    "validation_log": [
+      "DISTANCE_UNDERESTIMATE: North Ridge Trail calculated 1.3mi but seed says 4.4mi. Using seed value.",
+      "SPARSE_GEOMETRY: North Ridge Trail has only 21 points for 4.4mi (4.8 pts/mi)",
+      "SPARSE_GEOMETRY: South Ridge Trail has only 34 points for 7.0mi (4.9 pts/mi)"
+    ],
+    "last_updated": "2025-12-28T16:13:55.786707",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "cb18dac1",
+      "name": "North Ridge Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.4,
+      "elevation_gain": 1350,
+      "description": "Popular sunrise hike. First place to see sunrise in continental US.",
+      "tags": [
+        "Sunrise",
+        "Views"
+      ],
+      "parking_info": "North Ridge Trailhead, Park Loop Road",
+      "parking_details": {
+        "capacity": "Medium (~25 cars)",
+        "status": "Arrives early for sunrise",
+        "fee": "Acadia Park Pass required",
+        "shuttle": "Island Explorer available"
+      },
+      "start_lat": 44.3711,
+      "start_lon": -68.2244,
+      "logistics": {
+        "start_coords": [
+          44.3711,
+          -68.2244
+        ],
+        "parking_info": "North Ridge Trailhead, Park Loop Road",
+        "directions_url": "https://www.google.com/maps/dir//44.3711,-68.2244",
+        "capacity": "Medium (~25 cars)",
+        "status": "Arrives early for sunrise",
+        "fee": "Acadia Park Pass required",
+        "shuttle": "Island Explorer available"
+      },
+      "stats": {
+        "distance": 4.4,
+        "gain": 1181,
+        "max_elev": 1504,
+        "min_elev": 323,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 2.1,
+        "_original_calculated_distance": 1.3,
+        "_distance_source": "seed_override",
+        "_elevation_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            44.3711,
+            -68.2244,
+            323
+          ],
+          [
+            44.37041796206888,
+            -68.22464000000001,
+            341
+          ],
+          [
+            44.36948460499076,
+            -68.22488,
+            368
+          ],
+          [
+            44.36814460499076,
+            -68.22512,
+            388
+          ],
+          [
+            44.36639796206888,
+            -68.22536,
+            504
+          ],
+          [
+            44.3644,
+            -68.2256,
+            646
+          ],
+          [
+            44.36372743613835,
+            -68.22582,
+            680
+          ],
+          [
+            44.36280757367739,
+            -68.22604,
+            748
+          ],
+          [
+            44.36148757367738,
+            -68.22626,
+            919
+          ],
+          [
+            44.35976743613834,
+            -68.22648,
+            1133
+          ],
+          [
+            44.3578,
+            -68.2267,
+            1308
+          ],
+          [
+            44.35729304218587,
+            -68.22648,
+            1353
+          ],
+          [
+            44.35659775901464,
+            -68.22626,
+            1378
+          ],
+          [
+            44.355597759014636,
+            -68.22604,
+            1412
+          ],
+          [
+            44.35429304218587,
+            -68.22582,
+            1471
+          ],
+          [
+            44.3528,
+            -68.2256,
+            1501
+          ],
+          [
+            44.352740000000004,
+            -68.2256,
+            1503
+          ],
+          [
+            44.35268,
+            -68.2256,
+            1504
+          ],
+          [
+            44.35262,
+            -68.2256,
+            1504
+          ],
+          [
+            44.35256,
+            -68.2256,
+            1504
+          ],
+          [
+            44.3525,
+            -68.2256,
+            1502
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 323,
+            "coord": [
+              44.3711,
+              -68.2244
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 341,
+            "coord": [
+              44.37041796206888,
+              -68.22464000000001
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 368,
+            "coord": [
+              44.36948460499076,
+              -68.22488
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 388,
+            "coord": [
+              44.36814460499076,
+              -68.22512
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 504,
+            "coord": [
+              44.36639796206888,
+              -68.22536
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 646,
+            "coord": [
+              44.3644,
+              -68.2256
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 680,
+            "coord": [
+              44.36372743613835,
+              -68.22582
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 748,
+            "coord": [
+              44.36280757367739,
+              -68.22604
+            ]
+          },
+          {
+            "mile": 0.67,
+            "elev": 919,
+            "coord": [
+              44.36148757367738,
+              -68.22626
+            ]
+          },
+          {
+            "mile": 0.79,
+            "elev": 1133,
+            "coord": [
+              44.35976743613834,
+              -68.22648
+            ]
+          },
+          {
+            "mile": 0.93,
+            "elev": 1308,
+            "coord": [
+              44.3578,
+              -68.2267
+            ]
+          },
+          {
+            "mile": 0.96,
+            "elev": 1353,
+            "coord": [
+              44.35729304218587,
+              -68.22648
+            ]
+          },
+          {
+            "mile": 1.01,
+            "elev": 1378,
+            "coord": [
+              44.35659775901464,
+              -68.22626
+            ]
+          },
+          {
+            "mile": 1.08,
+            "elev": 1412,
+            "coord": [
+              44.355597759014636,
+              -68.22604
+            ]
+          },
+          {
+            "mile": 1.17,
+            "elev": 1471,
+            "coord": [
+              44.35429304218587,
+              -68.22582
+            ]
+          },
+          {
+            "mile": 1.28,
+            "elev": 1501,
+            "coord": [
+              44.3528,
+              -68.2256
+            ]
+          },
+          {
+            "mile": 1.28,
+            "elev": 1503,
+            "coord": [
+              44.352740000000004,
+              -68.2256
+            ]
+          },
+          {
+            "mile": 1.28,
+            "elev": 1504,
+            "coord": [
+              44.35268,
+              -68.2256
+            ]
+          },
+          {
+            "mile": 1.29,
+            "elev": 1504,
+            "coord": [
+              44.35262,
+              -68.2256
+            ]
+          },
+          {
+            "mile": 1.29,
+            "elev": 1504,
+            "coord": [
+              44.35256,
+              -68.2256
+            ]
+          },
+          {
+            "mile": 1.3,
+            "elev": 1502,
+            "coord": [
+              44.3525,
+              -68.2256
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.3711,
+            -68.2244
+          ],
+          "summit": [
+            44.3525,
+            -68.2256,
+            1530
+          ],
+          "stop_0": [
+            44.3644,
+            -68.2256,
+            "Granite Ledges Viewpoint"
+          ],
+          "stop_1": [
+            44.3578,
+            -68.2267,
+            "Bar Harbor Overlook"
+          ],
+          "stop_2": [
+            44.3528,
+            -68.2256,
+            "Summit Gift Shop"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Granite Ledges Viewpoint",
+          "lat": 44.3644,
+          "lon": -68.2256,
+          "type": "viewpoint",
+          "mile": 1.0
+        },
+        {
+          "name": "Bar Harbor Overlook",
+          "lat": 44.3578,
+          "lon": -68.2267,
+          "type": "viewpoint",
+          "mile": 1.8
+        },
+        {
+          "name": "Summit Gift Shop",
+          "lat": 44.3528,
+          "lon": -68.2256,
+          "type": "landmark",
+          "mile": 2.2
+        }
+      ]
+    },
+    {
+      "id": "ccdca64f",
+      "name": "South Ridge Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 7.0,
+      "elevation_gain": 1350,
+      "description": "Longer approach with sweeping ocean views.",
+      "tags": [
+        "Views"
+      ],
+      "parking_info": "Blackwoods Campground",
+      "parking_details": {
+        "capacity": "Large",
+        "status": "Check conditions",
+        "fee": "Acadia Park Pass required",
+        "shuttle": "Island Explorer available"
+      },
+      "start_lat": 44.3133,
+      "start_lon": -68.2089,
+      "logistics": {
+        "start_coords": [
+          44.3133,
+          -68.2089
+        ],
+        "parking_info": "Blackwoods Campground",
+        "directions_url": "https://www.google.com/maps/dir//44.3133,-68.2089",
+        "capacity": "Large",
+        "status": "Check conditions",
+        "fee": "Acadia Park Pass required",
+        "shuttle": "Island Explorer available"
+      },
+      "stats": {
+        "distance": 2.9,
+        "gain": 1409,
+        "max_elev": 1502,
+        "min_elev": 147,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 1.7,
+        "_distance_source": "calculated",
+        "_elevation_source": "calculated"
+      },
+      "geo": {
+        "path": [
+          [
+            44.3133,
+            -68.2089,
+            215
+          ],
+          [
+            44.314409999999995,
+            -68.20957,
+            210
+          ],
+          [
+            44.31669831077228,
+            -68.21024,
+            157
+          ],
+          [
+            44.31825180564366,
+            -68.21091,
+            147
+          ],
+          [
+            44.31964654687886,
+            -68.21158,
+            166
+          ],
+          [
+            44.32085466202186,
+            -68.21225,
+            178
+          ],
+          [
+            44.32186654687885,
+            -68.21292,
+            165
+          ],
+          [
+            44.322691805643665,
+            -68.21359,
+            187
+          ],
+          [
+            44.32335831077228,
+            -68.21426,
+            197
+          ],
+          [
+            44.32329,
+            -68.21493,
+            224
+          ],
+          [
+            44.3244,
+            -68.2156,
+            306
+          ],
+          [
+            44.32560833333333,
+            -68.21605833333334,
+            371
+          ],
+          [
+            44.328061797483215,
+            -68.21651666666666,
+            532
+          ],
+          [
+            44.32978588088769,
+            -68.21697499999999,
+            590
+          ],
+          [
+            44.33138996316967,
+            -68.21743333333333,
+            625
+          ],
+          [
+            44.332847074692296,
+            -68.21789166666667,
+            642
+          ],
+          [
+            44.3341402616331,
+            -68.21835,
+            651
+          ],
+          [
+            44.335263741358965,
+            -68.21880833333333,
+            654
+          ],
+          [
+            44.336223296503,
+            -68.21926666666667,
+            638
+          ],
+          [
+            44.3370358808877,
+            -68.21972500000001,
+            719
+          ],
+          [
+            44.33772846414988,
+            -68.22018333333334,
+            757
+          ],
+          [
+            44.33769166666667,
+            -68.22064166666667,
+            779
+          ],
+          [
+            44.3389,
+            -68.2211,
+            754
+          ],
+          [
+            44.34013636363637,
+            -68.2215090909091,
+            785
+          ],
+          [
+            44.34262502658428,
+            -68.22191818181818,
+            991
+          ],
+          [
+            44.34435965180112,
+            -68.22232727272728,
+            1006
+          ],
+          [
+            44.34595245698547,
+            -68.22273636363637,
+            1018
+          ],
+          [
+            44.347374565362955,
+            -68.22314545454546,
+            1076
+          ],
+          [
+            44.34861092899932,
+            -68.22355454545455,
+            1221
+          ],
+          [
+            44.349661547894556,
+            -68.22396363636364,
+            1309
+          ],
+          [
+            44.350541469982936,
+            -68.22437272727272,
+            1405
+          ],
+          [
+            44.35127957203883,
+            -68.22478181818182,
+            1468
+          ],
+          [
+            44.35126363636363,
+            -68.22519090909091,
+            1485
+          ],
+          [
+            44.3525,
+            -68.2256,
+            1502
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 215,
+            "coord": [
+              44.3133,
+              -68.2089
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 210,
+            "coord": [
+              44.314409999999995,
+              -68.20957
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 157,
+            "coord": [
+              44.31669831077228,
+              -68.21024
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 147,
+            "coord": [
+              44.31825180564366,
+              -68.21091
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 166,
+            "coord": [
+              44.31964654687886,
+              -68.21158
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 178,
+            "coord": [
+              44.32085466202186,
+              -68.21225
+            ]
+          },
+          {
+            "mile": 0.63,
+            "elev": 165,
+            "coord": [
+              44.32186654687885,
+              -68.21292
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 187,
+            "coord": [
+              44.322691805643665,
+              -68.21359
+            ]
+          },
+          {
+            "mile": 0.75,
+            "elev": 197,
+            "coord": [
+              44.32335831077228,
+              -68.21426
+            ]
+          },
+          {
+            "mile": 0.78,
+            "elev": 224,
+            "coord": [
+              44.32329,
+              -68.21493
+            ]
+          },
+          {
+            "mile": 0.87,
+            "elev": 306,
+            "coord": [
+              44.3244,
+              -68.2156
+            ]
+          },
+          {
+            "mile": 0.95,
+            "elev": 371,
+            "coord": [
+              44.32560833333333,
+              -68.21605833333334
+            ]
+          },
+          {
+            "mile": 1.12,
+            "elev": 532,
+            "coord": [
+              44.328061797483215,
+              -68.21651666666666
+            ]
+          },
+          {
+            "mile": 1.24,
+            "elev": 590,
+            "coord": [
+              44.32978588088769,
+              -68.21697499999999
+            ]
+          },
+          {
+            "mile": 1.36,
+            "elev": 625,
+            "coord": [
+              44.33138996316967,
+              -68.21743333333333
+            ]
+          },
+          {
+            "mile": 1.46,
+            "elev": 642,
+            "coord": [
+              44.332847074692296,
+              -68.21789166666667
+            ]
+          },
+          {
+            "mile": 1.55,
+            "elev": 651,
+            "coord": [
+              44.3341402616331,
+              -68.21835
+            ]
+          },
+          {
+            "mile": 1.63,
+            "elev": 654,
+            "coord": [
+              44.335263741358965,
+              -68.21880833333333
+            ]
+          },
+          {
+            "mile": 1.7,
+            "elev": 638,
+            "coord": [
+              44.336223296503,
+              -68.21926666666667
+            ]
+          },
+          {
+            "mile": 1.76,
+            "elev": 719,
+            "coord": [
+              44.3370358808877,
+              -68.21972500000001
+            ]
+          },
+          {
+            "mile": 1.82,
+            "elev": 757,
+            "coord": [
+              44.33772846414988,
+              -68.22018333333334
+            ]
+          },
+          {
+            "mile": 1.84,
+            "elev": 779,
+            "coord": [
+              44.33769166666667,
+              -68.22064166666667
+            ]
+          },
+          {
+            "mile": 1.93,
+            "elev": 754,
+            "coord": [
+              44.3389,
+              -68.2211
+            ]
+          },
+          {
+            "mile": 2.01,
+            "elev": 785,
+            "coord": [
+              44.34013636363637,
+              -68.2215090909091
+            ]
+          },
+          {
+            "mile": 2.19,
+            "elev": 991,
+            "coord": [
+              44.34262502658428,
+              -68.22191818181818
+            ]
+          },
+          {
+            "mile": 2.31,
+            "elev": 1006,
+            "coord": [
+              44.34435965180112,
+              -68.22232727272728
+            ]
+          },
+          {
+            "mile": 2.42,
+            "elev": 1018,
+            "coord": [
+              44.34595245698547,
+              -68.22273636363637
+            ]
+          },
+          {
+            "mile": 2.52,
+            "elev": 1076,
+            "coord": [
+              44.347374565362955,
+              -68.22314545454546
+            ]
+          },
+          {
+            "mile": 2.61,
+            "elev": 1221,
+            "coord": [
+              44.34861092899932,
+              -68.22355454545455
+            ]
+          },
+          {
+            "mile": 2.68,
+            "elev": 1309,
+            "coord": [
+              44.349661547894556,
+              -68.22396363636364
+            ]
+          },
+          {
+            "mile": 2.75,
+            "elev": 1405,
+            "coord": [
+              44.350541469982936,
+              -68.22437272727272
+            ]
+          },
+          {
+            "mile": 2.8,
+            "elev": 1468,
+            "coord": [
+              44.35127957203883,
+              -68.22478181818182
+            ]
+          },
+          {
+            "mile": 2.82,
+            "elev": 1485,
+            "coord": [
+              44.35126363636363,
+              -68.22519090909091
+            ]
+          },
+          {
+            "mile": 2.91,
+            "elev": 1502,
+            "coord": [
+              44.3525,
+              -68.2256
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.3133,
+            -68.2089
+          ],
+          "summit": [
+            44.3525,
+            -68.2256,
+            1530
+          ],
+          "stop_0": [
+            44.3244,
+            -68.2156,
+            "Eagles Crag"
+          ],
+          "stop_1": [
+            44.3389,
+            -68.2211,
+            "Featherbed"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Eagles Crag",
+          "lat": 44.3244,
+          "lon": -68.2156,
+          "type": "viewpoint",
+          "mile": 1.5
+        },
+        {
+          "name": "Featherbed",
+          "lat": 44.3389,
+          "lon": -68.2211,
+          "type": "pond",
+          "mile": 2.8
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "Cadillac Mountain Trail Guide | 2 Routes, Maps & Conditions",
+    "meta_description": "Explore Cadillac Mountain (1,530 ft) in Maine. 2 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/maine/cadillac-mountain-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Cadillac Mountain",
+      "description": "Cadillac Mountain is a 1,530 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.3525,
+        "longitude": -68.2256,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1530,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "North Ridge Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.3711,
+            "longitude": -68.2244
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "South Ridge Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.3133,
+            "longitude": -68.2089
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Cadillac Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Cadillac Mountain take 2-4 hours round trip. The most popular trail is 4.4 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cadillac Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cadillac Mountain is rated Moderate. At 1,530 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Cadillac Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Cadillac Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Cadillac Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the North Ridge Trail, offering Popular sunrise hike. First place to see sunrise in continental US.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Cadillac Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Cadillac Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Cadillac Mountain",
+      "subtitle": "New Hampshire Trail Destination \u2022 1,530 ft",
+      "quick_stats": {
+        "elevation": "1,530 ft",
+        "trail_count": 2,
+        "difficulty": "Moderate",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,530 feet, Cadillac Mountain offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **North Ridge Trail**, covers 4.4 miles and is rated \n    Moderate. Popular sunrise hike. First place to see sunrise in continental US.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Precipice Trail lies just 1.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Cadillac Mountain?",
+        "answer": "Most routes on Cadillac Mountain take 2-4 hours round trip. The most popular trail is 4.4 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Cadillac Mountain hard to hike?",
+        "answer": "Cadillac Mountain is rated Moderate. At 1,530 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Cadillac Mountain?",
+        "answer": "No hiking permit is required for Cadillac Mountain. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Cadillac Mountain?",
+        "answer": "The most popular route is the North Ridge Trail, offering Popular sunrise hike. First place to see sunrise in continental US.."
+      },
+      {
+        "question": "When is the best time to hike Cadillac Mountain?",
+        "answer": "The best hiking season for Cadillac Mountain is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Precipice Trail",
+        "slug": "precipice-trail-me",
+        "state_slug": "maine",
+        "elevation": 1058,
+        "distance_miles": 1.8,
+        "link_text": "Hike Precipice Trail",
+        "combo_suggestion": "Combine Cadillac Mountain with Precipice Trail for a longer day",
+        "comparison": "Shorter climb (472 ft less)"
+      },
+      {
+        "name": "The Beehive",
+        "slug": "beehive-me",
+        "state_slug": "maine",
+        "elevation": 520,
+        "distance_miles": 2.4,
+        "link_text": "Hike The Beehive",
+        "combo_suggestion": "Combine Cadillac Mountain with The Beehive for a longer day",
+        "comparison": "Shorter climb (1010 ft less)"
+      },
+      {
+        "name": "Jordan Pond",
+        "slug": "jordan-pond-me",
+        "state_slug": "maine",
+        "elevation": 274,
+        "distance_miles": 2.5,
+        "link_text": "Hike Jordan Pond",
+        "combo_suggestion": "Combine Cadillac Mountain with Jordan Pond for a longer day",
+        "comparison": "Shorter climb (1256 ft less)"
+      },
+      {
+        "name": "Penobscot Mountain",
+        "slug": "penobscot-mountain-me",
+        "state_slug": "maine",
+        "elevation": 1194,
+        "distance_miles": 3.1,
+        "link_text": "Hike Penobscot Mountain",
+        "combo_suggestion": "Combine Cadillac Mountain with Penobscot Mountain for a longer day",
+        "comparison": "Shorter climb (336 ft less)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Cadillac Mountain? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? North Ridge Trail, South Ridge Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "cadillac-mountain-me-all-trails.gpx",
+        "label": "Download All Cadillac Mountain Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "cadillac-mountain-me-trail-guide.pdf",
+        "label": "Cadillac Mountain Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "cadillac-mountain-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Cadillac%20Mountain!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,530 feet, Cadillac Mountain offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **North Ridge Trail**, covers 4.4 miles and is rated \n    Moderate. Popular sunrise hike. First place to see sunrise in continental US.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Precipice Trail lies just 1.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

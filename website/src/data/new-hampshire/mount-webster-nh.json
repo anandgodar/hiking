@@ -1,0 +1,1194 @@
+{
+  "name": "Mount Webster",
+  "slug": "mount-webster-nh",
+  "state": "New Hampshire",
+  "state_slug": "new-hampshire",
+  "elevation": 3910,
+  "lat": 44.1944,
+  "lon": -71.37,
+  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
+  "state_hero": "https://images.unsplash.com/photo-1589656966895-2f33e7653819",
+  "tags": [
+    "Views",
+    "Cliffs"
+  ],
+  "trails_config": [
+    {
+      "name": "Webster-Jackson Trail",
+      "osm_name": "Webster-Jackson Trail",
+      "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 5.6,
+      "elevation_gain": 2050,
+      "tags": [],
+      "description": "Trail to Webster summit with spectacular cliff views.",
+      "parking_info": "Crawford Notch State Park, US-302",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "$4/day",
+        "shuttle": null
+      },
+      "start_lat": 44.2001,
+      "start_lon": -71.3766
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Mount Jackson",
+      "slug": "mount-jackson-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4052,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Mount Willard",
+      "slug": "mount-willard-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2865,
+      "distance_miles": 1.3
+    },
+    {
+      "name": "Mount Pierce",
+      "slug": "mount-pierce-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4312,
+      "distance_miles": 2.3
+    },
+    {
+      "name": "Arethusa Falls",
+      "slug": "arethusa-falls-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2000,
+      "distance_miles": 2.8
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T00:49:31.213021",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-28T00:50:11.937541",
+    "pipeline_version": "3.0"
+  },
+  "trails": [
+    {
+      "id": "d247eba7",
+      "name": "Webster-Jackson Trail",
+      "type": "Out & Back",
+      "description": "Trail to Webster summit with spectacular cliff views.",
+      "tags": [],
+      "logistics": {
+        "start_coords": [
+          44.2001,
+          -71.3766
+        ],
+        "parking_info": "Crawford Notch State Park, US-302",
+        "directions_url": "https://www.google.com/maps/dir//44.2001,-71.3766",
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "$4/day",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 0.5,
+        "gain": 9,
+        "max_elev": 3851,
+        "min_elev": 3254,
+        "type": "Out & Back",
+        "difficulty": "Moderate",
+        "time": 0.2
+      },
+      "geo": {
+        "path": [
+          [
+            44.2001,
+            -71.3766,
+            3851
+          ],
+          [
+            44.200076572590355,
+            -71.37652048192771,
+            3846
+          ],
+          [
+            44.20005210997572,
+            -71.37644096385542,
+            3845
+          ],
+          [
+            44.200025600635406,
+            -71.37636144578313,
+            3844
+          ],
+          [
+            44.19999607987538,
+            -71.37628192771083,
+            3842
+          ],
+          [
+            44.199962651899384,
+            -71.37620240963855,
+            3840
+          ],
+          [
+            44.19992451030369,
+            -71.37612289156627,
+            3840
+          ],
+          [
+            44.19988095652664,
+            -71.37604337349397,
+            3829
+          ],
+          [
+            44.19983141583098,
+            -71.37596385542169,
+            3825
+          ],
+          [
+            44.199775450453124,
+            -71.37588433734939,
+            3819
+          ],
+          [
+            44.19971276961869,
+            -71.3758048192771,
+            3810
+          ],
+          [
+            44.199643236195094,
+            -71.37572530120481,
+            3810
+          ],
+          [
+            44.19956686982894,
+            -71.37564578313253,
+            3798
+          ],
+          [
+            44.19948384649657,
+            -71.37556626506024,
+            3787
+          ],
+          [
+            44.19939449447792,
+            -71.37548674698795,
+            3775
+          ],
+          [
+            44.19929928684586,
+            -71.37540722891566,
+            3762
+          ],
+          [
+            44.19919883064281,
+            -71.37532771084337,
+            3749
+          ],
+          [
+            44.19909385299237,
+            -71.37524819277108,
+            3739
+          ],
+          [
+            44.19898518446357,
+            -71.3751686746988,
+            3730
+          ],
+          [
+            44.19887374006838,
+            -71.3750891566265,
+            3717
+          ],
+          [
+            44.198760498327374,
+            -71.37500963855422,
+            3712
+          ],
+          [
+            44.19864647888228,
+            -71.37493012048192,
+            3702
+          ],
+          [
+            44.198532719167794,
+            -71.37485060240964,
+            3693
+          ],
+          [
+            44.19842025067626,
+            -71.37477108433735,
+            3679
+          ],
+          [
+            44.19831007535837,
+            -71.37469156626506,
+            3670
+          ],
+          [
+            44.19820314269968,
+            -71.37461204819277,
+            3661
+          ],
+          [
+            44.198100327997516,
+            -71.37453253012048,
+            3651
+          ],
+          [
+            44.198002412335164,
+            -71.37445301204819,
+            3649
+          ],
+          [
+            44.19791006471162,
+            -71.37437349397591,
+            3638
+          ],
+          [
+            44.19782382673568,
+            -71.37429397590361,
+            3626
+          ],
+          [
+            44.19774410023456,
+            -71.37421445783133,
+            3612
+          ],
+          [
+            44.19767113806055,
+            -71.37413493975903,
+            3600
+          ],
+          [
+            44.19760503830605,
+            -71.37405542168675,
+            3594
+          ],
+          [
+            44.197545742059376,
+            -71.37397590361445,
+            3578
+          ],
+          [
+            44.197493034752505,
+            -71.37389638554217,
+            3571
+          ],
+          [
+            44.197446551070215,
+            -71.37381686746988,
+            3567
+          ],
+          [
+            44.19740578330805,
+            -71.37373734939759,
+            3557
+          ],
+          [
+            44.19737009298797,
+            -71.3736578313253,
+            3552
+          ],
+          [
+            44.197338725466025,
+            -71.373578313253,
+            3546
+          ],
+          [
+            44.197310827197704,
+            -71.37349879518072,
+            3531
+          ],
+          [
+            44.197285465266035,
+            -71.37341927710844,
+            3521
+          ],
+          [
+            44.19726164872563,
+            -71.37333975903614,
+            3521
+          ],
+          [
+            44.19723835127437,
+            -71.37326024096386,
+            3512
+          ],
+          [
+            44.197214534733966,
+            -71.37318072289156,
+            3498
+          ],
+          [
+            44.1971891728023,
+            -71.37310120481928,
+            3488
+          ],
+          [
+            44.197161274533975,
+            -71.373021686747,
+            3487
+          ],
+          [
+            44.197129907012034,
+            -71.3729421686747,
+            3490
+          ],
+          [
+            44.19709421669195,
+            -71.37286265060241,
+            3480
+          ],
+          [
+            44.197053448929786,
+            -71.37278313253012,
+            3480
+          ],
+          [
+            44.197006965247496,
+            -71.37270361445783,
+            3472
+          ],
+          [
+            44.196954257940625,
+            -71.37262409638555,
+            3474
+          ],
+          [
+            44.19689496169395,
+            -71.37254457831325,
+            3468
+          ],
+          [
+            44.19682886193945,
+            -71.37246506024097,
+            3458
+          ],
+          [
+            44.19675589976544,
+            -71.37238554216867,
+            3448
+          ],
+          [
+            44.19667617326432,
+            -71.37230602409639,
+            3448
+          ],
+          [
+            44.19658993528838,
+            -71.37222650602409,
+            3438
+          ],
+          [
+            44.19649758766484,
+            -71.37214698795181,
+            3429
+          ],
+          [
+            44.196399672002485,
+            -71.37206746987952,
+            3415
+          ],
+          [
+            44.19629685730032,
+            -71.37198795180723,
+            3403
+          ],
+          [
+            44.19618992464163,
+            -71.37190843373494,
+            3387
+          ],
+          [
+            44.196079749323744,
+            -71.37182891566265,
+            3378
+          ],
+          [
+            44.19596728083221,
+            -71.37174939759036,
+            3371
+          ],
+          [
+            44.19585352111772,
+            -71.37166987951808,
+            3361
+          ],
+          [
+            44.19573950167263,
+            -71.37159036144578,
+            3344
+          ],
+          [
+            44.19562625993162,
+            -71.3715108433735,
+            3337
+          ],
+          [
+            44.195514815536434,
+            -71.3714313253012,
+            3330
+          ],
+          [
+            44.19540614700763,
+            -71.37135180722892,
+            3320
+          ],
+          [
+            44.195301169357194,
+            -71.37127228915664,
+            3310
+          ],
+          [
+            44.195200713154144,
+            -71.37119277108434,
+            3304
+          ],
+          [
+            44.19510550552208,
+            -71.37111325301206,
+            3299
+          ],
+          [
+            44.19501615350343,
+            -71.37103373493976,
+            3294
+          ],
+          [
+            44.19493313017106,
+            -71.37095421686747,
+            3290
+          ],
+          [
+            44.19485676380491,
+            -71.37087469879519,
+            3286
+          ],
+          [
+            44.19478723038131,
+            -71.3707951807229,
+            3283
+          ],
+          [
+            44.194724549546876,
+            -71.37071566265061,
+            3283
+          ],
+          [
+            44.19466858416902,
+            -71.37063614457831,
+            3277
+          ],
+          [
+            44.19461904347336,
+            -71.37055662650603,
+            3266
+          ],
+          [
+            44.19457548969631,
+            -71.37047710843373,
+            3269
+          ],
+          [
+            44.19453734810062,
+            -71.37039759036145,
+            3270
+          ],
+          [
+            44.19450392012462,
+            -71.37031807228917,
+            3263
+          ],
+          [
+            44.194474399364594,
+            -71.37023855421687,
+            3263
+          ],
+          [
+            44.19444789002428,
+            -71.37015903614459,
+            3262
+          ],
+          [
+            44.194423427409646,
+            -71.37007951807229,
+            3254
+          ],
+          [
+            44.1944,
+            -71.37,
+            3254
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 3851,
+            "coord": [
+              44.2001,
+              -71.3766
+            ]
+          },
+          {
+            "mile": 0.0,
+            "elev": 3845,
+            "coord": [
+              44.20005210997572,
+              -71.37644096385542
+            ]
+          },
+          {
+            "mile": 0.01,
+            "elev": 3842,
+            "coord": [
+              44.19999607987538,
+              -71.37628192771083
+            ]
+          },
+          {
+            "mile": 0.01,
+            "elev": 3840,
+            "coord": [
+              44.19992451030369,
+              -71.37612289156627
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 3825,
+            "coord": [
+              44.19983141583098,
+              -71.37596385542169
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 3810,
+            "coord": [
+              44.19971276961869,
+              -71.3758048192771
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 3798,
+            "coord": [
+              44.19956686982894,
+              -71.37564578313253
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 3775,
+            "coord": [
+              44.19939449447792,
+              -71.37548674698795
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 3749,
+            "coord": [
+              44.19919883064281,
+              -71.37532771084337
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 3730,
+            "coord": [
+              44.19898518446357,
+              -71.3751686746988
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 3712,
+            "coord": [
+              44.198760498327374,
+              -71.37500963855422
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 3693,
+            "coord": [
+              44.198532719167794,
+              -71.37485060240964
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 3670,
+            "coord": [
+              44.19831007535837,
+              -71.37469156626506
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 3651,
+            "coord": [
+              44.198100327997516,
+              -71.37453253012048
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 3638,
+            "coord": [
+              44.19791006471162,
+              -71.37437349397591
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 3612,
+            "coord": [
+              44.19774410023456,
+              -71.37421445783133
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 3594,
+            "coord": [
+              44.19760503830605,
+              -71.37405542168675
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 3571,
+            "coord": [
+              44.197493034752505,
+              -71.37389638554217
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 3557,
+            "coord": [
+              44.19740578330805,
+              -71.37373734939759
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 3546,
+            "coord": [
+              44.197338725466025,
+              -71.373578313253
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 3521,
+            "coord": [
+              44.197285465266035,
+              -71.37341927710844
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 3512,
+            "coord": [
+              44.19723835127437,
+              -71.37326024096386
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 3488,
+            "coord": [
+              44.1971891728023,
+              -71.37310120481928
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 3490,
+            "coord": [
+              44.197129907012034,
+              -71.3729421686747
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 3480,
+            "coord": [
+              44.197053448929786,
+              -71.37278313253012
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 3474,
+            "coord": [
+              44.196954257940625,
+              -71.37262409638555
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 3458,
+            "coord": [
+              44.19682886193945,
+              -71.37246506024097
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 3448,
+            "coord": [
+              44.19667617326432,
+              -71.37230602409639
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 3429,
+            "coord": [
+              44.19649758766484,
+              -71.37214698795181
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 3403,
+            "coord": [
+              44.19629685730032,
+              -71.37198795180723
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 3378,
+            "coord": [
+              44.196079749323744,
+              -71.37182891566265
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 3361,
+            "coord": [
+              44.19585352111772,
+              -71.37166987951808
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 3337,
+            "coord": [
+              44.19562625993162,
+              -71.3715108433735
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 3320,
+            "coord": [
+              44.19540614700763,
+              -71.37135180722892
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 3304,
+            "coord": [
+              44.195200713154144,
+              -71.37119277108434
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 3294,
+            "coord": [
+              44.19501615350343,
+              -71.37103373493976
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 3286,
+            "coord": [
+              44.19485676380491,
+              -71.37087469879519
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 3283,
+            "coord": [
+              44.194724549546876,
+              -71.37071566265061
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 3266,
+            "coord": [
+              44.19461904347336,
+              -71.37055662650603
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 3270,
+            "coord": [
+              44.19453734810062,
+              -71.37039759036145
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 3263,
+            "coord": [
+              44.194474399364594,
+              -71.37023855421687
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 3254,
+            "coord": [
+              44.194423427409646,
+              -71.37007951807229
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            44.2001,
+            -71.3766,
+            3851
+          ],
+          "summit": [
+            44.1944,
+            -71.37,
+            3910
+          ]
+        }
+      },
+      "features": []
+    }
+  ],
+  "seo": {
+    "meta_title": "Mount Webster Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Explore Mount Webster (3,910 ft) in New Hampshire. 1 trails with maps, elevation profiles & current conditions.",
+    "canonical_url": "/trails/new-hampshire/mount-webster-nh",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Webster",
+      "description": "Mount Webster is a 3,910 foot peak in New Hampshire offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.1944,
+        "longitude": -71.37,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3910,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New Hampshire",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Webster-Jackson Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.2001,
+            "longitude": -71.3766
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Webster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on Mount Webster take 2-4 hours round trip. The most popular trail is 5.6 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Webster hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Webster is rated Moderate. At 3,910 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Webster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for Mount Webster. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Webster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Webster-Jackson Trail, offering Trail to Webster summit with spectacular cliff views.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Webster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for Mount Webster is April through November. Spring wildflowers and fall foliage are particularly scenic."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "Mount Webster",
+      "subtitle": "Classic White Mountain Peak \u2022 3,910 ft",
+      "quick_stats": {
+        "elevation": "3,910 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate",
+        "list_name": "local hiking destination"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,910 feet, Mount Webster offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Webster-Jackson Trail**, covers 5.6 miles and is rated \n    Moderate. Trail to Webster summit with spectacular cliff views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Jackson lies just 0.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, wildflowers emerging",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": true
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Warm, humid, occasional storms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Stunning foliage, cooler temps",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Snow-covered trails, shorter days",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Traction devices recommended. Start early for daylight.",
+        "crowd_level": "Low",
+        "recommended": true
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "Icy conditions possible",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "Allow 2+ hours before sunset"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike Mount Webster?",
+        "answer": "Most routes on Mount Webster take 2-4 hours round trip. The most popular trail is 5.6 miles with Moderate difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is Mount Webster hard to hike?",
+        "answer": "Mount Webster is rated Moderate. At 3,910 feet, the trail offers a rewarding hike suitable for most fitness levels. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike Mount Webster?",
+        "answer": "No hiking permit is required for Mount Webster. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike Mount Webster?",
+        "answer": "The most popular route is the Webster-Jackson Trail, offering Trail to Webster summit with spectacular cliff views.."
+      },
+      {
+        "question": "When is the best time to hike Mount Webster?",
+        "answer": "The best hiking season for Mount Webster is April through November. Spring wildflowers and fall foliage are particularly scenic."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Mount Jackson",
+        "slug": "mount-jackson-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4052,
+        "distance_miles": 0.7,
+        "link_text": "Hike Mount Jackson",
+        "combo_suggestion": "Combine Mount Webster with Mount Jackson for a longer day",
+        "comparison": "Higher summit (+142 ft)"
+      },
+      {
+        "name": "Mount Willard",
+        "slug": "mount-willard-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 2865,
+        "distance_miles": 1.3,
+        "link_text": "Hike Mount Willard",
+        "combo_suggestion": "Combine Mount Webster with Mount Willard for a longer day",
+        "comparison": "Shorter climb (1045 ft less)"
+      },
+      {
+        "name": "Mount Pierce",
+        "slug": "mount-pierce-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 4312,
+        "distance_miles": 2.3,
+        "link_text": "Hike Mount Pierce",
+        "combo_suggestion": "Combine Mount Webster with Mount Pierce for a longer day",
+        "comparison": "Higher summit (+402 ft)"
+      },
+      {
+        "name": "Arethusa Falls",
+        "slug": "arethusa-falls-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 2000,
+        "distance_miles": 2.8,
+        "link_text": "Hike Arethusa Falls",
+        "combo_suggestion": "Combine Mount Webster with Arethusa Falls for a longer day",
+        "comparison": "Shorter climb (1910 ft less)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up Mount Webster? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Webster-Jackson Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "mount-webster-nh-all-trails.gpx",
+        "label": "Download All Mount Webster Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "mount-webster-nh-trail-guide.pdf",
+        "label": "Mount Webster Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "mount-webster-nh-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20Mount%20Webster!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,910 feet, Mount Webster offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Webster-Jackson Trail**, covers 5.6 miles and is rated \n    Moderate. Trail to Webster summit with spectacular cliff views.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Jackson lies just 0.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

@@ -1,0 +1,906 @@
+{
+  "name": "North Brother",
+  "slug": "north-brother-me",
+  "state": "Maine",
+  "state_slug": "maine",
+  "elevation": 4151,
+  "lat": 45.9456,
+  "lon": -68.9867,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "tags": [
+    "4000 Footer",
+    "Baxter"
+  ],
+  "trails_config": [
+    {
+      "name": "Marston Trail",
+      "osm_name": "Marston Trail",
+      "type": "Out & Back",
+      "difficulty": "Strenuous",
+      "distance_miles": 9.6,
+      "elevation_gain": 3050,
+      "tags": [],
+      "description": "Primary route to The Brothers. Can combine with South Brother.",
+      "parking_info": "Slide Dam Picnic Area",
+      "parking_details": {
+        "capacity": "Medium (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Baxter day use fee",
+        "shuttle": null
+      },
+      "start_lat": 45.9622,
+      "start_lon": -69.0289,
+      "features": [
+        {
+          "name": "Marston Brook Crossing",
+          "lat": 45.9578,
+          "lon": -69.0156,
+          "type": "water",
+          "mile": 1.2
+        },
+        {
+          "name": "Brothers Junction",
+          "lat": 45.9511,
+          "lon": -68.9978,
+          "type": "junction",
+          "mile": 3.5
+        },
+        {
+          "name": "South Brother Spur",
+          "lat": 45.9478,
+          "lon": -68.9922,
+          "type": "junction",
+          "mile": 4.0
+        }
+      ]
+    }
+  ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
+  "nearby_peaks": [
+    {
+      "name": "Hamlin Peak",
+      "slug": "hamlin-peak-me",
+      "state_slug": "maine",
+      "elevation": 4756,
+      "distance_miles": 3.3
+    },
+    {
+      "name": "Mount Katahdin - Baxter Peak",
+      "slug": "mount-katahdin-baxter-peak-me",
+      "state_slug": "maine",
+      "elevation": 5269,
+      "distance_miles": 4.2
+    }
+  ],
+  "meta": {
+    "refined_at": "2025-12-28T16:21:44.837651",
+    "refiner_version": "2.1.0",
+    "validation_issues": 3,
+    "validation_log": [
+      "DISTANCE_UNDERESTIMATE: Marston Trail calculated 1.2mi but seed says 9.6mi. Using seed value.",
+      "ELEVATION_MISMATCH: Marston Trail calculated 850ft but seed says 3050ft. Using seed value.",
+      "SPARSE_GEOMETRY: Marston Trail has only 32 points for 9.6mi (3.3 pts/mi)"
+    ],
+    "last_updated": "2025-12-28T16:22:25.610954",
+    "pipeline_version": "3.1"
+  },
+  "trails": [
+    {
+      "id": "0bb39c70",
+      "name": "Marston Trail",
+      "type": "Out & Back",
+      "difficulty": "Strenuous",
+      "distance_miles": 9.6,
+      "elevation_gain": 3050,
+      "description": "Primary route to The Brothers. Can combine with South Brother.",
+      "tags": [],
+      "parking_info": "Slide Dam Picnic Area",
+      "parking_details": {
+        "capacity": "Medium (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Baxter day use fee",
+        "shuttle": null
+      },
+      "start_lat": 45.9622,
+      "start_lon": -69.0289,
+      "logistics": {
+        "start_coords": [
+          45.9622,
+          -69.0289
+        ],
+        "parking_info": "Slide Dam Picnic Area",
+        "directions_url": "https://www.google.com/maps/dir//45.9622,-69.0289",
+        "capacity": "Medium (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Baxter day use fee",
+        "shuttle": null
+      },
+      "stats": {
+        "distance": 9.6,
+        "gain": 3050,
+        "max_elev": 3459,
+        "min_elev": 2609,
+        "type": "Out & Back",
+        "difficulty": "Strenuous",
+        "time": 4.7,
+        "_original_calculated_distance": 1.2,
+        "_distance_source": "seed_override",
+        "_original_calculated_gain": 850,
+        "_elevation_source": "seed_override"
+      },
+      "geo": {
+        "path": [
+          [
+            45.956442,
+            -69.016283,
+            2609
+          ],
+          [
+            45.956017,
+            -69.015966,
+            2631
+          ],
+          [
+            45.955559,
+            -69.015773,
+            2672
+          ],
+          [
+            45.955166,
+            -69.015671,
+            2694
+          ],
+          [
+            45.954945,
+            -69.015419,
+            2717
+          ],
+          [
+            45.955134,
+            -69.015066,
+            2762
+          ],
+          [
+            45.955249,
+            -69.014324,
+            2851
+          ],
+          [
+            45.955217,
+            -69.013721,
+            2905
+          ],
+          [
+            45.955077,
+            -69.013045,
+            2977
+          ],
+          [
+            45.955229,
+            -69.012601,
+            3023
+          ],
+          [
+            45.955064,
+            -69.012202,
+            3056
+          ],
+          [
+            45.955097,
+            -69.011077,
+            3151
+          ],
+          [
+            45.954943,
+            -69.009588,
+            3191
+          ],
+          [
+            45.95443,
+            -69.007205,
+            3207
+          ],
+          [
+            45.953747,
+            -69.005734,
+            3245
+          ],
+          [
+            45.953129,
+            -69.003972,
+            3333
+          ],
+          [
+            45.953268,
+            -69.003735,
+            3336
+          ],
+          [
+            45.953308,
+            -69.002954,
+            3367
+          ],
+          [
+            45.953246,
+            -69.002157,
+            3387
+          ],
+          [
+            45.952651,
+            -69.000686,
+            3433
+          ],
+          [
+            45.95246,
+            -68.99959,
+            3459
+          ],
+          [
+            45.952556,
+            -68.998769,
+            3454
+          ],
+          [
+            45.952395,
+            -68.998349,
+            3450
+          ],
+          [
+            45.952252,
+            -68.997806,
+            3445
+          ],
+          [
+            45.952132,
+            -68.997741,
+            3444
+          ],
+          [
+            45.951867,
+            -68.997312,
+            3439
+          ],
+          [
+            45.951739,
+            -68.996865,
+            3436
+          ],
+          [
+            45.951535,
+            -68.996355,
+            3430
+          ],
+          [
+            45.951218,
+            -68.995893,
+            3418
+          ],
+          [
+            45.951438,
+            -68.995503,
+            3414
+          ],
+          [
+            45.95175,
+            -68.994826,
+            3403
+          ],
+          [
+            45.951978,
+            -68.994063,
+            3388
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0,
+            "elev": 2609,
+            "coord": [
+              45.956442,
+              -69.016283
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 2631,
+            "coord": [
+              45.956017,
+              -69.015966
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 2672,
+            "coord": [
+              45.955559,
+              -69.015773
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 2694,
+            "coord": [
+              45.955166,
+              -69.015671
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 2717,
+            "coord": [
+              45.954945,
+              -69.015419
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 2762,
+            "coord": [
+              45.955134,
+              -69.015066
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 2851,
+            "coord": [
+              45.955249,
+              -69.014324
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 2905,
+            "coord": [
+              45.955217,
+              -69.013721
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 2977,
+            "coord": [
+              45.955077,
+              -69.013045
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 3023,
+            "coord": [
+              45.955229,
+              -69.012601
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 3056,
+            "coord": [
+              45.955064,
+              -69.012202
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 3151,
+            "coord": [
+              45.955097,
+              -69.011077
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 3191,
+            "coord": [
+              45.954943,
+              -69.009588
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 3207,
+            "coord": [
+              45.95443,
+              -69.007205
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 3245,
+            "coord": [
+              45.953747,
+              -69.005734
+            ]
+          },
+          {
+            "mile": 0.71,
+            "elev": 3333,
+            "coord": [
+              45.953129,
+              -69.003972
+            ]
+          },
+          {
+            "mile": 0.72,
+            "elev": 3336,
+            "coord": [
+              45.953268,
+              -69.003735
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 3367,
+            "coord": [
+              45.953308,
+              -69.002954
+            ]
+          },
+          {
+            "mile": 0.8,
+            "elev": 3387,
+            "coord": [
+              45.953246,
+              -69.002157
+            ]
+          },
+          {
+            "mile": 0.88,
+            "elev": 3433,
+            "coord": [
+              45.952651,
+              -69.000686
+            ]
+          },
+          {
+            "mile": 0.94,
+            "elev": 3459,
+            "coord": [
+              45.95246,
+              -68.99959
+            ]
+          },
+          {
+            "mile": 0.98,
+            "elev": 3454,
+            "coord": [
+              45.952556,
+              -68.998769
+            ]
+          },
+          {
+            "mile": 1.0,
+            "elev": 3450,
+            "coord": [
+              45.952395,
+              -68.998349
+            ]
+          },
+          {
+            "mile": 1.03,
+            "elev": 3445,
+            "coord": [
+              45.952252,
+              -68.997806
+            ]
+          },
+          {
+            "mile": 1.04,
+            "elev": 3444,
+            "coord": [
+              45.952132,
+              -68.997741
+            ]
+          },
+          {
+            "mile": 1.06,
+            "elev": 3439,
+            "coord": [
+              45.951867,
+              -68.997312
+            ]
+          },
+          {
+            "mile": 1.09,
+            "elev": 3436,
+            "coord": [
+              45.951739,
+              -68.996865
+            ]
+          },
+          {
+            "mile": 1.11,
+            "elev": 3430,
+            "coord": [
+              45.951535,
+              -68.996355
+            ]
+          },
+          {
+            "mile": 1.15,
+            "elev": 3418,
+            "coord": [
+              45.951218,
+              -68.995893
+            ]
+          },
+          {
+            "mile": 1.17,
+            "elev": 3414,
+            "coord": [
+              45.951438,
+              -68.995503
+            ]
+          },
+          {
+            "mile": 1.21,
+            "elev": 3403,
+            "coord": [
+              45.95175,
+              -68.994826
+            ]
+          },
+          {
+            "mile": 1.25,
+            "elev": 3388,
+            "coord": [
+              45.951978,
+              -68.994063
+            ]
+          }
+        ],
+        "markers": {
+          "start": [
+            45.9622,
+            -69.0289
+          ],
+          "summit": [
+            45.9456,
+            -68.9867,
+            4151
+          ],
+          "stop_0": [
+            45.9578,
+            -69.0156,
+            "Marston Brook Crossing"
+          ],
+          "stop_1": [
+            45.9511,
+            -68.9978,
+            "Brothers Junction"
+          ],
+          "stop_2": [
+            45.9478,
+            -68.9922,
+            "South Brother Spur"
+          ]
+        }
+      },
+      "features": [
+        {
+          "name": "Marston Brook Crossing",
+          "lat": 45.9578,
+          "lon": -69.0156,
+          "type": "water",
+          "mile": 1.2
+        },
+        {
+          "name": "Brothers Junction",
+          "lat": 45.9511,
+          "lon": -68.9978,
+          "type": "junction",
+          "mile": 3.5
+        },
+        {
+          "name": "South Brother Spur",
+          "lat": 45.9478,
+          "lon": -68.9922,
+          "type": "junction",
+          "mile": 4.0
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "meta_title": "North Brother Trail Guide | 1 Routes, Maps & Conditions",
+    "meta_description": "Plan your North Brother hike with live conditions, 1 trail maps & parking info. NH 4000-Footer at 4,151 ft.",
+    "canonical_url": "/trails/maine/north-brother-me",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "North Brother",
+      "description": "North Brother is a 4,151 foot peak in Maine offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.9456,
+        "longitude": -68.9867,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4151,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maine",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Marston Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 45.9622,
+            "longitude": -69.0289
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike North Brother?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most routes on North Brother take 4-6 hours round trip. The most popular trail is 9.6 miles with Strenuous difficulty. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is North Brother hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "North Brother is rated Strenuous. At 4,151 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike North Brother?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hiking permit is required for North Brother. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike North Brother?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Marston Trail, offering Primary route to The Brothers. Can combine with South Brother.."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike North Brother?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hiking season for North Brother is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "page_content": {
+    "hero": {
+      "title": "North Brother",
+      "subtitle": "NH 4000-Footer \u2022 4,151 ft",
+      "quick_stats": {
+        "elevation": "4,151 ft",
+        "trail_count": 1,
+        "difficulty": "Moderate",
+        "list_name": "Maine 4000-Footers"
+      }
+    },
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,151 feet, North Brother ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This strenuous \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Marston Trail**, covers 9.6 miles and is rated \n    Strenuous. Primary route to The Brothers. Can combine with South Brother.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Hamlin Peak lies just 3.3 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "seasonal_guide": {
+      "spring": {
+        "months": "March - May",
+        "icon": "\ud83c\udf38",
+        "title": "Spring Conditions",
+        "conditions": "Muddy trails, snow above 3000ft until May",
+        "gear": [
+          "Waterproof boots",
+          "Gaiters",
+          "Extra layers",
+          "Microspikes (if snow)"
+        ],
+        "tips": "Trail closures for mud season (April-May). Check conditions before heading out.",
+        "crowd_level": "Low",
+        "recommended": false
+      },
+      "summer": {
+        "months": "June - August",
+        "icon": "\u2600\ufe0f",
+        "title": "Summer Conditions",
+        "conditions": "Best weather, occasional afternoon thunderstorms",
+        "gear": [
+          "Sun protection",
+          "Bug spray",
+          "3L water minimum",
+          "Rain layer"
+        ],
+        "tips": "Start early to avoid afternoon storms and parking issues. Peak crowds on weekends.",
+        "crowd_level": "High",
+        "recommended": true
+      },
+      "fall": {
+        "months": "September - November",
+        "icon": "\ud83c\udf42",
+        "title": "Fall Conditions",
+        "conditions": "Peak foliage late Sept, early snow possible in October",
+        "gear": [
+          "Layers",
+          "Headlamp",
+          "Warm hat/gloves",
+          "Rain gear"
+        ],
+        "tips": "Peak foliage brings peak crowds. Weekday hikes recommended. Watch for ice above treeline in late October.",
+        "crowd_level": "Very High (foliage season)",
+        "recommended": true
+      },
+      "winter": {
+        "months": "December - February",
+        "icon": "\u2744\ufe0f",
+        "title": "Winter Conditions",
+        "conditions": "Full winter conditions, extreme cold and wind above treeline",
+        "gear": [
+          "Snowshoes/crampons",
+          "Insulated boots",
+          "Balaclava",
+          "Hand/toe warmers",
+          "Emergency bivy"
+        ],
+        "tips": "Winter hiking requires specialized skills and gear. Never hike alone. Check avalanche conditions for steeper terrain.",
+        "crowd_level": "Low",
+        "recommended": false
+      }
+    },
+    "safety": {
+      "current_hazards": [
+        "\u26a0\ufe0f ALPINE ZONE: Weather changes rapidly. Turn back if conditions deteriorate.",
+        "Winter conditions in effect - full mountaineering gear required",
+        "Hypothermia risk - temperatures 20-40\u00b0F colder at summit",
+        "Short daylight hours - carry headlamp",
+        "Trail markers may be buried under snow"
+      ],
+      "essential_gear": [
+        {
+          "item": "Map & Compass/GPS",
+          "critical": true
+        },
+        {
+          "item": "Extra layers (temps 20-30\u00b0 colder at summit)",
+          "critical": true
+        },
+        {
+          "item": "Rain/wind shell",
+          "critical": true
+        },
+        {
+          "item": "Headlamp with extra batteries",
+          "critical": true
+        },
+        {
+          "item": "First aid kit",
+          "critical": true
+        },
+        {
+          "item": "3L water minimum",
+          "critical": true
+        },
+        {
+          "item": "High-calorie snacks",
+          "critical": false
+        },
+        {
+          "item": "Sun protection",
+          "critical": false
+        },
+        {
+          "item": "Emergency whistle",
+          "critical": false
+        },
+        {
+          "item": "Fire starter",
+          "critical": false
+        },
+        {
+          "item": "Extra warm layer for summit",
+          "critical": true
+        }
+      ],
+      "emergency_contacts": {
+        "nh_fish_game": "603-271-3361",
+        "search_rescue": "911",
+        "ami_weather": "603-356-2137"
+      },
+      "turn_around_time": "2:00 PM recommended for summit"
+    },
+    "faqs": [
+      {
+        "question": "How long does it take to hike North Brother?",
+        "answer": "Most routes on North Brother take 4-6 hours round trip. The most popular trail is 9.6 miles with Strenuous difficulty. Start early, especially on weekends when parking fills quickly."
+      },
+      {
+        "question": "Is North Brother hard to hike?",
+        "answer": "North Brother is rated Strenuous. At 4,151 feet, expect challenging terrain above treeline with potential for rapid weather changes. Proper footwear and preparation are essential."
+      },
+      {
+        "question": "Do I need a permit to hike North Brother?",
+        "answer": "No hiking permit is required for North Brother. However, parking fees may apply at trailheads (typically $3-5/day for WMNF or state parks). A WMNF parking pass covers most White Mountain trailheads."
+      },
+      {
+        "question": "What is the best trail to hike North Brother?",
+        "answer": "The most popular route is the Marston Trail, offering Primary route to The Brothers. Can combine with South Brother.."
+      },
+      {
+        "question": "When is the best time to hike North Brother?",
+        "answer": "The best hiking season for North Brother is late May through October. Summer and fall offer the best conditions, though expect crowds on weekends. Winter hiking requires specialized gear and experience."
+      }
+    ],
+    "nearby_peaks": [
+      {
+        "name": "Hamlin Peak",
+        "slug": "hamlin-peak-me",
+        "state_slug": "maine",
+        "elevation": 4756,
+        "distance_miles": 3.3,
+        "link_text": "Hike Hamlin Peak",
+        "combo_suggestion": "Combine North Brother with Hamlin Peak for a longer day",
+        "comparison": "Higher summit (+605 ft)"
+      },
+      {
+        "name": "Mount Katahdin - Baxter Peak",
+        "slug": "mount-katahdin-baxter-peak-me",
+        "state_slug": "maine",
+        "elevation": 5269,
+        "distance_miles": 4.2,
+        "link_text": "Hike Mount Katahdin - Baxter Peak",
+        "combo_suggestion": "Combine North Brother with Mount Katahdin - Baxter Peak for a longer day",
+        "comparison": "Higher summit (+1118 ft)"
+      }
+    ]
+  },
+  "engagement": {
+    "trip_report_prompts": [
+      "How was your hike up North Brother? Share your experience!",
+      "Help other hikers - report current trail conditions",
+      "\ud83d\udcf7 Add photos from your summit!",
+      "Rate the trails you hiked today",
+      "Which trail did you take? Marston Trail"
+    ],
+    "downloads": {
+      "gpx_all": {
+        "filename": "north-brother-me-all-trails.gpx",
+        "label": "Download All North Brother Trails (GPX)",
+        "description": "Import into your GPS device or hiking app"
+      },
+      "pdf_guide": {
+        "filename": "north-brother-me-trail-guide.pdf",
+        "label": "North Brother Trail Guide (PDF)",
+        "description": "Printable guide with maps and trail info"
+      },
+      "offline_map": {
+        "filename": "north-brother-me-offline-map.mbtiles",
+        "label": "Offline Map Tiles",
+        "description": "For Avenza, Gaia GPS, or similar apps"
+      }
+    },
+    "share_links": {
+      "twitter": "https://twitter.com/intent/tweet?text=Planning%20my%20hike%20up%20North%20Brother!",
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u="
+    }
+  },
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,151 feet, North Brother ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This strenuous \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Marston Trail**, covers 9.6 miles and is rated \n    Strenuous. Primary route to The Brothers. Can combine with South Brother.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Hamlin Peak lies just 3.3 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+}

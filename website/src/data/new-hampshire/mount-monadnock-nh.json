@@ -168,28 +168,19 @@
       "start_lon": -72.115
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [],
-  "social_pulse": 9,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the summit, worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "White Dot Trail was busy but beautiful. Bring water!",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the Pumpelly Trail, great scenery and challenging!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-28T00:36:05.672937",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-28T00:36:05.812503",
+    "pipeline_version": "3.0"
+  },
   "trails": [
     {
       "id": "afd11f70",
@@ -18130,51 +18121,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the summit, worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "White Dot Trail was busy but beautiful. Bring water!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the Pumpelly Trail, great scenery and challenging!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -18470,9 +18416,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,165 feet, Mount Monadnock offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **White Dot Trail**, covers 3.6 miles and is rated \n    Moderate. Trail to Mount Monadnock summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-27T10:03:10.828574",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,165 feet, Mount Monadnock offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **White Dot Trail**, covers 3.6 miles and is rated \n    Moderate. Trail to Mount Monadnock summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
 }

@@ -19,7 +19,7 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 2.2,
-      "elevation_gain": 800,
+      "elevation_gain": 1100,
       "tags": [],
       "description": "Trail to Mount Kearsarge summit.",
       "parking_info": "Winslow State Park, Kearsarge Mountain Rd, Wilmot",
@@ -38,7 +38,7 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 2.0,
-      "elevation_gain": 700,
+      "elevation_gain": 1000,
       "tags": [],
       "description": "Trail to Mount Kearsarge summit.",
       "parking_info": "Winslow State Park, Kearsarge Mountain Rd, Wilmot",
@@ -57,7 +57,7 @@
       "type": "Loop",
       "difficulty": "Moderate",
       "distance_miles": 2.2,
-      "elevation_gain": 800,
+      "elevation_gain": 1100,
       "tags": [],
       "description": "Trail to Mount Kearsarge summit.",
       "parking_info": "Winslow State Park, Kearsarge Mountain Rd, Wilmot",
@@ -78,7 +78,7 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 2.4,
-      "elevation_gain": 850,
+      "elevation_gain": 1200,
       "tags": [],
       "description": "Trail to Mount Kearsarge summit.",
       "parking_info": "Rollins State Park, Kearsarge Mountain Rd, Warner",
@@ -97,7 +97,7 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 2.3,
-      "elevation_gain": 600,
+      "elevation_gain": 1150,
       "tags": [],
       "description": "Trail to Mount Kearsarge summit.",
       "parking_info": "Lincoln Trail Parking, Kearsarge Valley Rd",
@@ -111,6 +111,12 @@
       "start_lon": -71.8234
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [],
   "social_pulse": 6,
   "reviews": [
@@ -133,12 +139,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:06:16.806313",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "72693d28",
@@ -2927,5 +2927,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,930 feet, Mount Kearsarge offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Winslow Trail**, covers 2.2 miles and is rated \n    Moderate. Trail to Mount Kearsarge summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,930 feet, Mount Kearsarge offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Winslow Trail**, covers 2.2 miles and is rated \n    Moderate. Trail to Mount Kearsarge summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:36:05.838682",
+    "pipeline_version": "3.0"
+  }
 }

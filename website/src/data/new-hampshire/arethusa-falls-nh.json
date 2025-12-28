@@ -19,7 +19,7 @@
       "type": "Out & Back",
       "difficulty": "Moderate",
       "distance_miles": 1.6,
-      "elevation_gain": 600,
+      "elevation_gain": 800,
       "tags": [],
       "description": "Trail to Arethusa Falls summit.",
       "parking_info": "Arethusa Falls Trailhead, US-302",
@@ -38,7 +38,7 @@
       "type": "Loop",
       "difficulty": "Moderate",
       "distance_miles": 3.0,
-      "elevation_gain": 800,
+      "elevation_gain": 1500,
       "tags": [],
       "description": "Trail to Arethusa Falls summit.",
       "parking_info": "Arethusa Falls Trailhead, US-302",
@@ -54,7 +54,20 @@
       "via_lon": -71.3672
     }
   ],
+  "user_reviews": {
+    "enabled": false,
+    "message": "User reviews coming soon!",
+    "count": 0,
+    "average_rating": null
+  },
   "nearby_peaks": [
+    {
+      "name": "Mount Webster",
+      "slug": "mount-webster-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3910,
+      "distance_miles": 2.8
+    },
     {
       "name": "Mount Willard",
       "slug": "mount-willard-nh",
@@ -63,25 +76,18 @@
       "distance_miles": 3.3
     },
     {
-      "name": "Mount Carrigain",
-      "slug": "mount-carrigain-nh",
+      "name": "Mount Willey",
+      "slug": "mount-willey-nh",
       "state_slug": "new-hampshire",
-      "elevation": 4700,
-      "distance_miles": 5.7
+      "elevation": 4285,
+      "distance_miles": 3.4
     },
     {
-      "name": "Mount Hancock",
-      "slug": "mount-hancock-nh",
+      "name": "Mount Jackson",
+      "slug": "mount-jackson-nh",
       "state_slug": "new-hampshire",
-      "elevation": 4420,
-      "distance_miles": 8.0
-    },
-    {
-      "name": "Mount Washington",
-      "slug": "mount-washington-nh",
-      "state_slug": "new-hampshire",
-      "elevation": 6288,
-      "distance_miles": 8.7
+      "elevation": 4052,
+      "distance_miles": 3.4
     }
   ],
   "social_pulse": 7,
@@ -105,12 +111,6 @@
       "time": "4 days ago"
     }
   ],
-  "meta": {
-    "refined_by_ai": true,
-    "last_audit": "2025-12-27",
-    "last_updated": "2025-12-27T10:25:43.569111",
-    "pipeline_version": "3.0"
-  },
   "trails": [
     {
       "id": "c94c1991",
@@ -2620,7 +2620,7 @@
         "list_name": "local hiking destination"
       }
     },
-    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,000 feet, Arethusa Falls offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Arethusa Falls Trail**, covers 1.6 miles and is rated \n    Moderate. Trail to Arethusa Falls summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Willard lies just 3.3 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,000 feet, Arethusa Falls offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Arethusa Falls Trail**, covers 1.6 miles and is rated \n    Moderate. Trail to Arethusa Falls summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Webster lies just 2.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
     "seasonal_guide": {
       "spring": {
         "months": "March - May",
@@ -2764,6 +2764,16 @@
     ],
     "nearby_peaks": [
       {
+        "name": "Mount Webster",
+        "slug": "mount-webster-nh",
+        "state_slug": "new-hampshire",
+        "elevation": 3910,
+        "distance_miles": 2.8,
+        "link_text": "Hike Mount Webster",
+        "combo_suggestion": "Combine Arethusa Falls with Mount Webster for a longer day",
+        "comparison": "Higher summit (+1910 ft)"
+      },
+      {
         "name": "Mount Willard",
         "slug": "mount-willard-nh",
         "state_slug": "new-hampshire",
@@ -2774,34 +2784,24 @@
         "comparison": "Higher summit (+865 ft)"
       },
       {
-        "name": "Mount Carrigain",
-        "slug": "mount-carrigain-nh",
+        "name": "Mount Willey",
+        "slug": "mount-willey-nh",
         "state_slug": "new-hampshire",
-        "elevation": 4700,
-        "distance_miles": 5.7,
-        "link_text": "Hike Mount Carrigain",
-        "combo_suggestion": "Combine Arethusa Falls with Mount Carrigain for a longer day",
-        "comparison": "Higher summit (+2700 ft)"
+        "elevation": 4285,
+        "distance_miles": 3.4,
+        "link_text": "Hike Mount Willey",
+        "combo_suggestion": "Combine Arethusa Falls with Mount Willey for a longer day",
+        "comparison": "Higher summit (+2285 ft)"
       },
       {
-        "name": "Mount Hancock",
-        "slug": "mount-hancock-nh",
+        "name": "Mount Jackson",
+        "slug": "mount-jackson-nh",
         "state_slug": "new-hampshire",
-        "elevation": 4420,
-        "distance_miles": 8.0,
-        "link_text": "Hike Mount Hancock",
-        "combo_suggestion": "Combine Arethusa Falls with Mount Hancock for a longer day",
-        "comparison": "Higher summit (+2420 ft)"
-      },
-      {
-        "name": "Mount Washington",
-        "slug": "mount-washington-nh",
-        "state_slug": "new-hampshire",
-        "elevation": 6288,
-        "distance_miles": 8.7,
-        "link_text": "Hike Mount Washington",
-        "combo_suggestion": "Combine Arethusa Falls with Mount Washington for a longer day",
-        "comparison": "Higher summit (+4288 ft)"
+        "elevation": 4052,
+        "distance_miles": 3.4,
+        "link_text": "Hike Mount Jackson",
+        "combo_suggestion": "Combine Arethusa Falls with Mount Jackson for a longer day",
+        "comparison": "Higher summit (+2052 ft)"
       }
     ]
   },
@@ -2835,5 +2835,9 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,000 feet, Arethusa Falls offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Arethusa Falls Trail**, covers 1.6 miles and is rated \n    Moderate. Trail to Arethusa Falls summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Willard lies just 3.3 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,000 feet, Arethusa Falls offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Arethusa Falls Trail**, covers 1.6 miles and is rated \n    Moderate. Trail to Arethusa Falls summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Webster lies just 2.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+  "meta": {
+    "last_updated": "2025-12-28T00:46:06.742370",
+    "pipeline_version": "3.0"
+  }
 }
