@@ -4,8 +4,8 @@
   "state": "Maine",
   "state_slug": "maine",
   "elevation": 520,
-  "lat": 44.3308,
-  "lon": -68.1875,
+  "lat": 44.332,
+  "lon": -68.1863,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
   "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
   "tags": [
@@ -35,31 +35,50 @@
         "fee": "Acadia Park Pass required",
         "shuttle": "Island Explorer available"
       },
-      "start_lat": 44.3289,
-      "start_lon": -68.1833,
-      "via_lat": 44.3267,
-      "via_lon": -68.1911,
+      "start_lat": 44.3302,
+      "start_lon": -68.184,
       "features": [
         {
+          "name": "Trail Start",
+          "lat": 44.3305,
+          "lon": -68.1845,
+          "type": "trailhead",
+          "mile": 0.1
+        },
+        {
           "name": "First Iron Rungs",
-          "lat": 44.3297,
-          "lon": -68.1856,
+          "lat": 44.3312,
+          "lon": -68.1855,
           "type": "scramble",
           "mile": 0.3
         },
         {
           "name": "Ladder Section",
-          "lat": 44.3303,
-          "lon": -68.1867,
+          "lat": 44.3318,
+          "lon": -68.186,
           "type": "ladder",
           "mile": 0.4
         },
         {
-          "name": "Sand Beach Overlook",
-          "lat": 44.3308,
-          "lon": -68.1875,
-          "type": "viewpoint",
+          "name": "Beehive Summit",
+          "lat": 44.332,
+          "lon": -68.1863,
+          "type": "summit",
           "mile": 0.5
+        },
+        {
+          "name": "Sand Beach Overlook",
+          "lat": 44.3315,
+          "lon": -68.187,
+          "type": "viewpoint",
+          "mile": 0.6
+        },
+        {
+          "name": "The Bowl Junction",
+          "lat": 44.329,
+          "lon": -68.1895,
+          "type": "junction",
+          "mile": 0.9
         },
         {
           "name": "The Bowl",
@@ -83,7 +102,7 @@
       "slug": "precipice-trail-me",
       "state_slug": "maine",
       "elevation": 1058,
-      "distance_miles": 1.3
+      "distance_miles": 1.2
     },
     {
       "name": "Cadillac Mountain",
@@ -97,21 +116,25 @@
       "slug": "jordan-pond-me",
       "state_slug": "maine",
       "elevation": 274,
-      "distance_miles": 3.3
+      "distance_miles": 3.4
     },
     {
       "name": "Penobscot Mountain",
       "slug": "penobscot-mountain-me",
       "state_slug": "maine",
       "elevation": 1194,
-      "distance_miles": 3.8
+      "distance_miles": 3.9
     }
   ],
   "meta": {
     "refined_at": "2025-12-28T16:13:55.754405",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T16:13:55.759938",
-    "pipeline_version": "3.1"
+    "last_updated": "2025-12-28T18:01:18.970035",
+    "pipeline_version": "3.1",
+    "validation_issues": 1,
+    "validation_log": [
+      "ELEVATION_ZERO: Beehive Loop Trail calculated 0ft gain (likely TIFF error). Using seed value 488ft."
+    ]
   },
   "trails": [
     {
@@ -134,25 +157,25 @@
         "fee": "Acadia Park Pass required",
         "shuttle": "Island Explorer available"
       },
-      "start_lat": 44.3289,
-      "start_lon": -68.1833,
+      "start_lat": 44.3302,
+      "start_lon": -68.184,
       "logistics": {
         "start_coords": [
-          44.3289,
-          -68.1833
+          44.3302,
+          -68.184
         ],
         "parking_info": "Sand Beach Parking",
-        "directions_url": "https://www.google.com/maps/dir//44.3289,-68.1833",
+        "directions_url": "https://www.google.com/maps/dir//44.3302,-68.184",
         "capacity": "Large (100+ cars)",
         "status": "Fills early in summer",
         "fee": "Acadia Park Pass required",
         "shuttle": "Island Explorer available"
       },
       "stats": {
-        "distance": 0.9,
-        "gain": 402,
+        "distance": 1.1,
+        "gain": 308,
         "max_elev": 329,
-        "min_elev": 2,
+        "min_elev": 35,
         "type": "Loop",
         "difficulty": "Hard",
         "time": 0.5,
@@ -162,104 +185,179 @@
       "geo": {
         "path": [
           [
-            44.3289,
-            -68.1833,
-            2
+            44.3302,
+            -68.184,
+            35
           ],
           [
-            44.329238690188056,
-            -68.18376,
-            11
+            44.330259999999996,
+            -68.1841,
+            36
           ],
           [
-            44.32950912679773,
-            -68.18422,
-            45
+            44.33032,
+            -68.1842,
+            37
           ],
           [
-            44.32966912679773,
-            -68.18468,
-            59
+            44.33038,
+            -68.1843,
+            38
           ],
           [
-            44.32971869018806,
-            -68.18513999999999,
-            91
-          ],
-          [
-            44.3297,
-            -68.1856,
-            135
-          ],
-          [
-            44.329820000000005,
-            -68.18581999999999,
-            136
-          ],
-          [
-            44.32994,
-            -68.18603999999999,
-            142
-          ],
-          [
-            44.33006,
-            -68.18626,
-            141
-          ],
-          [
-            44.33018,
-            -68.18648,
-            145
-          ],
-          [
-            44.3303,
-            -68.1867,
-            151
-          ],
-          [
-            44.330400000000004,
-            -68.18686,
-            161
+            44.33044,
+            -68.1844,
+            40
           ],
           [
             44.3305,
-            -68.18702,
-            166
+            -68.1845,
+            40
           ],
           [
-            44.330600000000004,
-            -68.18718,
-            176
+            44.33064,
+            -68.1847,
+            45
           ],
           [
-            44.3307,
-            -68.18734,
-            181
+            44.330780000000004,
+            -68.1849,
+            56
           ],
           [
-            44.3308,
+            44.33092,
+            -68.1851,
+            68
+          ],
+          [
+            44.33106,
+            -68.1853,
+            66
+          ],
+          [
+            44.3312,
+            -68.1855,
+            74
+          ],
+          [
+            44.331320000000005,
+            -68.18560000000001,
+            73
+          ],
+          [
+            44.33144,
+            -68.18570000000001,
+            76
+          ],
+          [
+            44.33156,
+            -68.1858,
+            80
+          ],
+          [
+            44.33168,
+            -68.1859,
+            89
+          ],
+          [
+            44.3318,
+            -68.186,
+            96
+          ],
+          [
+            44.33184,
+            -68.18606000000001,
+            103
+          ],
+          [
+            44.33188,
+            -68.18612,
+            110
+          ],
+          [
+            44.331920000000004,
+            -68.18618000000001,
+            110
+          ],
+          [
+            44.33196,
+            -68.18624,
+            117
+          ],
+          [
+            44.332,
+            -68.1863,
+            123
+          ],
+          [
+            44.3319,
+            -68.18644,
+            127
+          ],
+          [
+            44.3318,
+            -68.18658,
+            135
+          ],
+          [
+            44.3317,
+            -68.18672,
+            139
+          ],
+          [
+            44.3316,
+            -68.18686,
+            147
+          ],
+          [
+            44.3315,
+            -68.187,
+            152
+          ],
+          [
+            44.331299741252415,
             -68.1875,
-            179
+            175
           ],
           [
-            44.3304520497161,
-            -68.18822,
-            221
+            44.330984991534244,
+            -68.188,
+            193
           ],
           [
-            44.329923792485026,
-            -68.18894,
-            221
+            44.33048499153424,
+            -68.18849999999999,
+            213
           ],
           [
-            44.32910379248503,
-            -68.18966,
-            214
+            44.32979974125242,
+            -68.189,
+            223
           ],
           [
-            44.327992049716094,
-            -68.19038,
+            44.329,
+            -68.1895,
+            212
+          ],
+          [
+            44.32879040241285,
+            -68.18982,
+            217
+          ],
+          [
+            44.32848515961485,
+            -68.19014,
+            267
+          ],
+          [
+            44.32802515961485,
+            -68.19046,
             329
+          ],
+          [
+            44.327410402412845,
+            -68.19078,
+            324
           ],
           [
             44.3267,
@@ -267,194 +365,314 @@
             271
           ],
           [
-            44.327992049716094,
-            -68.19038,
-            329
+            44.328375725155375,
+            -68.19014,
+            270
           ],
           [
-            44.32910379248503,
-            -68.18966,
-            214
+            44.32981626422912,
+            -68.18918000000001,
+            215
           ],
           [
-            44.329923792485026,
-            -68.18894,
-            221
-          ],
-          [
-            44.3304520497161,
+            44.330876264229126,
             -68.18822,
-            221
+            199
           ],
           [
-            44.3308,
-            -68.1875,
-            179
+            44.33155572515537,
+            -68.18726000000001,
+            165
+          ],
+          [
+            44.332,
+            -68.1863,
+            123
           ]
         ],
         "chart": [
           {
             "mile": 0,
-            "elev": 2,
+            "elev": 35,
             "coord": [
-              44.3289,
-              -68.1833
+              44.3302,
+              -68.184
+            ]
+          },
+          {
+            "mile": 0.01,
+            "elev": 36,
+            "coord": [
+              44.330259999999996,
+              -68.1841
+            ]
+          },
+          {
+            "mile": 0.01,
+            "elev": 37,
+            "coord": [
+              44.33032,
+              -68.1842
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 38,
+            "coord": [
+              44.33038,
+              -68.1843
             ]
           },
           {
             "mile": 0.03,
-            "elev": 11,
+            "elev": 40,
             "coord": [
-              44.329238690188056,
-              -68.18376
+              44.33044,
+              -68.1844
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 40,
+            "coord": [
+              44.3305,
+              -68.1845
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 45,
+            "coord": [
+              44.33064,
+              -68.1847
             ]
           },
           {
             "mile": 0.06,
-            "elev": 45,
+            "elev": 56,
             "coord": [
-              44.32950912679773,
-              -68.18422
+              44.330780000000004,
+              -68.1849
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 68,
+            "coord": [
+              44.33092,
+              -68.1851
             ]
           },
           {
             "mile": 0.09,
-            "elev": 59,
+            "elev": 66,
             "coord": [
-              44.32966912679773,
-              -68.18468
+              44.33106,
+              -68.1853
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 74,
+            "coord": [
+              44.3312,
+              -68.1855
             ]
           },
           {
             "mile": 0.11,
-            "elev": 91,
+            "elev": 73,
             "coord": [
-              44.32971869018806,
-              -68.18513999999999
+              44.331320000000005,
+              -68.18560000000001
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 76,
+            "coord": [
+              44.33144,
+              -68.18570000000001
             ]
           },
           {
             "mile": 0.13,
-            "elev": 135,
+            "elev": 80,
             "coord": [
-              44.3297,
-              -68.1856
+              44.33156,
+              -68.1858
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 89,
+            "coord": [
+              44.33168,
+              -68.1859
             ]
           },
           {
             "mile": 0.15,
-            "elev": 136,
+            "elev": 96,
             "coord": [
-              44.329820000000005,
-              -68.18581999999999
+              44.3318,
+              -68.186
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 103,
+            "coord": [
+              44.33184,
+              -68.18606000000001
             ]
           },
           {
             "mile": 0.16,
-            "elev": 142,
+            "elev": 110,
             "coord": [
-              44.32994,
-              -68.18603999999999
+              44.33188,
+              -68.18612
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 110,
+            "coord": [
+              44.331920000000004,
+              -68.18618000000001
             ]
           },
           {
             "mile": 0.17,
-            "elev": 141,
+            "elev": 117,
             "coord": [
-              44.33006,
-              -68.18626
+              44.33196,
+              -68.18624
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 123,
+            "coord": [
+              44.332,
+              -68.1863
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 127,
+            "coord": [
+              44.3319,
+              -68.18644
             ]
           },
           {
             "mile": 0.19,
-            "elev": 145,
+            "elev": 135,
             "coord": [
-              44.33018,
-              -68.18648
+              44.3318,
+              -68.18658
             ]
           },
           {
             "mile": 0.2,
-            "elev": 151,
+            "elev": 139,
             "coord": [
-              44.3303,
-              -68.1867
+              44.3317,
+              -68.18672
             ]
           },
           {
             "mile": 0.21,
-            "elev": 161,
+            "elev": 147,
             "coord": [
-              44.330400000000004,
+              44.3316,
               -68.18686
             ]
           },
           {
             "mile": 0.22,
-            "elev": 166,
+            "elev": 152,
             "coord": [
-              44.3305,
-              -68.18702
-            ]
-          },
-          {
-            "mile": 0.23,
-            "elev": 176,
-            "coord": [
-              44.330600000000004,
-              -68.18718
-            ]
-          },
-          {
-            "mile": 0.24,
-            "elev": 181,
-            "coord": [
-              44.3307,
-              -68.18734
+              44.3315,
+              -68.187
             ]
           },
           {
             "mile": 0.25,
-            "elev": 179,
+            "elev": 175,
             "coord": [
-              44.3308,
+              44.331299741252415,
               -68.1875
             ]
           },
           {
-            "mile": 0.3,
-            "elev": 221,
+            "mile": 0.28,
+            "elev": 193,
             "coord": [
-              44.3304520497161,
-              -68.18822
+              44.330984991534244,
+              -68.188
             ]
           },
           {
-            "mile": 0.35,
-            "elev": 221,
+            "mile": 0.32,
+            "elev": 213,
             "coord": [
-              44.329923792485026,
-              -68.18894
+              44.33048499153424,
+              -68.18849999999999
             ]
           },
           {
-            "mile": 0.42,
-            "elev": 214,
+            "mile": 0.38,
+            "elev": 223,
             "coord": [
-              44.32910379248503,
-              -68.18966
+              44.32979974125242,
+              -68.189
             ]
           },
           {
-            "mile": 0.5,
+            "mile": 0.44,
+            "elev": 212,
+            "coord": [
+              44.329,
+              -68.1895
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 217,
+            "coord": [
+              44.32879040241285,
+              -68.18982
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 267,
+            "coord": [
+              44.32848515961485,
+              -68.19014
+            ]
+          },
+          {
+            "mile": 0.52,
             "elev": 329,
             "coord": [
-              44.327992049716094,
-              -68.19038
+              44.32802515961485,
+              -68.19046
             ]
           },
           {
-            "mile": 0.6,
+            "mile": 0.57,
+            "elev": 324,
+            "coord": [
+              44.327410402412845,
+              -68.19078
+            ]
+          },
+          {
+            "mile": 0.62,
             "elev": 271,
             "coord": [
               44.3267,
@@ -462,72 +680,87 @@
             ]
           },
           {
-            "mile": 0.69,
-            "elev": 329,
+            "mile": 0.74,
+            "elev": 270,
             "coord": [
-              44.327992049716094,
-              -68.19038
+              44.328375725155375,
+              -68.19014
             ]
           },
           {
-            "mile": 0.78,
-            "elev": 214,
+            "mile": 0.85,
+            "elev": 215,
             "coord": [
-              44.32910379248503,
-              -68.18966
-            ]
-          },
-          {
-            "mile": 0.84,
-            "elev": 221,
-            "coord": [
-              44.329923792485026,
-              -68.18894
-            ]
-          },
-          {
-            "mile": 0.89,
-            "elev": 221,
-            "coord": [
-              44.3304520497161,
-              -68.18822
+              44.32981626422912,
+              -68.18918000000001
             ]
           },
           {
             "mile": 0.94,
-            "elev": 179,
+            "elev": 199,
             "coord": [
-              44.3308,
-              -68.1875
+              44.330876264229126,
+              -68.18822
+            ]
+          },
+          {
+            "mile": 1.01,
+            "elev": 165,
+            "coord": [
+              44.33155572515537,
+              -68.18726000000001
+            ]
+          },
+          {
+            "mile": 1.06,
+            "elev": 123,
+            "coord": [
+              44.332,
+              -68.1863
             ]
           }
         ],
         "markers": {
           "start": [
-            44.3289,
-            -68.1833
+            44.3302,
+            -68.184
           ],
           "summit": [
-            44.3308,
-            -68.1875,
+            44.332,
+            -68.1863,
             520
           ],
           "stop_0": [
-            44.3297,
-            -68.1856,
-            "First Iron Rungs"
+            44.3305,
+            -68.1845,
+            "Trail Start"
           ],
           "stop_1": [
-            44.3303,
-            -68.1867,
-            "Ladder Section"
+            44.3312,
+            -68.1855,
+            "First Iron Rungs"
           ],
           "stop_2": [
-            44.3308,
-            -68.1875,
-            "Sand Beach Overlook"
+            44.3318,
+            -68.186,
+            "Ladder Section"
           ],
           "stop_3": [
+            44.332,
+            -68.1863,
+            "Beehive Summit"
+          ],
+          "stop_4": [
+            44.3315,
+            -68.187,
+            "Sand Beach Overlook"
+          ],
+          "stop_5": [
+            44.329,
+            -68.1895,
+            "The Bowl Junction"
+          ],
+          "stop_6": [
             44.3267,
             -68.1911,
             "The Bowl"
@@ -536,25 +769,46 @@
       },
       "features": [
         {
+          "name": "Trail Start",
+          "lat": 44.3305,
+          "lon": -68.1845,
+          "type": "trailhead",
+          "mile": 0.1
+        },
+        {
           "name": "First Iron Rungs",
-          "lat": 44.3297,
-          "lon": -68.1856,
+          "lat": 44.3312,
+          "lon": -68.1855,
           "type": "scramble",
           "mile": 0.3
         },
         {
           "name": "Ladder Section",
-          "lat": 44.3303,
-          "lon": -68.1867,
+          "lat": 44.3318,
+          "lon": -68.186,
           "type": "ladder",
           "mile": 0.4
         },
         {
-          "name": "Sand Beach Overlook",
-          "lat": 44.3308,
-          "lon": -68.1875,
-          "type": "viewpoint",
+          "name": "Beehive Summit",
+          "lat": 44.332,
+          "lon": -68.1863,
+          "type": "summit",
           "mile": 0.5
+        },
+        {
+          "name": "Sand Beach Overlook",
+          "lat": 44.3315,
+          "lon": -68.187,
+          "type": "viewpoint",
+          "mile": 0.6
+        },
+        {
+          "name": "The Bowl Junction",
+          "lat": 44.329,
+          "lon": -68.1895,
+          "type": "junction",
+          "mile": 0.9
         },
         {
           "name": "The Bowl",
@@ -577,8 +831,8 @@
       "description": "The Beehive is a 520 foot peak in Maine offering hiking trails with scenic views.",
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 44.3308,
-        "longitude": -68.1875,
+        "latitude": 44.332,
+        "longitude": -68.1863,
         "elevation": {
           "@type": "QuantitativeValue",
           "value": 520,
@@ -597,8 +851,8 @@
           "additionalType": "HikingTrail",
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 44.3289,
-            "longitude": -68.1833
+            "latitude": 44.3302,
+            "longitude": -68.184
           }
         }
       ]
@@ -661,7 +915,7 @@
         "list_name": "local hiking destination"
       }
     },
-    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 520 feet, The Beehive offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Beehive Loop Trail**, covers 1.4 miles and is rated \n    Hard. Thrilling climb with iron rungs and ladders. Not for those afraid of heights.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Precipice Trail lies just 1.3 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
+    "description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 520 feet, The Beehive offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Beehive Loop Trail**, covers 1.4 miles and is rated \n    Hard. Thrilling climb with iron rungs and ladders. Not for those afraid of heights.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Precipice Trail lies just 1.2 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
     "seasonal_guide": {
       "spring": {
         "months": "March - May",
@@ -809,7 +1063,7 @@
         "slug": "precipice-trail-me",
         "state_slug": "maine",
         "elevation": 1058,
-        "distance_miles": 1.3,
+        "distance_miles": 1.2,
         "link_text": "Hike Precipice Trail",
         "combo_suggestion": "Combine The Beehive with Precipice Trail for a longer day",
         "comparison": "Higher summit (+538 ft)"
@@ -829,7 +1083,7 @@
         "slug": "jordan-pond-me",
         "state_slug": "maine",
         "elevation": 274,
-        "distance_miles": 3.3,
+        "distance_miles": 3.4,
         "link_text": "Hike Jordan Pond",
         "combo_suggestion": "Combine The Beehive with Jordan Pond for a longer day",
         "comparison": "Shorter climb (246 ft less)"
@@ -839,7 +1093,7 @@
         "slug": "penobscot-mountain-me",
         "state_slug": "maine",
         "elevation": 1194,
-        "distance_miles": 3.8,
+        "distance_miles": 3.9,
         "link_text": "Hike Penobscot Mountain",
         "combo_suggestion": "Combine The Beehive with Penobscot Mountain for a longer day",
         "comparison": "Higher summit (+674 ft)"
@@ -876,5 +1130,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 520 feet, The Beehive offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Beehive Loop Trail**, covers 1.4 miles and is rated \n    Hard. Thrilling climb with iron rungs and ladders. Not for those afraid of heights.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Precipice Trail lies just 1.3 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 520 feet, The Beehive offers one of Maine's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Beehive Loop Trail**, covers 1.4 miles and is rated \n    Hard. Thrilling climb with iron rungs and ladders. Not for those afraid of heights.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Precipice Trail lies just 1.2 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }
