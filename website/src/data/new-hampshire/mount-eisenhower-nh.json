@@ -91,18 +91,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:57:41.275665",
+    "refined_at": "2025-12-29T14:33:44.337298",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:59:02.939627",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:34:33.982781",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "065e66ca",
       "name": "Edmands Path",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 6.6,
+      "elevation_gain": 2750,
       "description": "Gradual, well-graded trail to Eisenhower summit.",
       "tags": [],
+      "parking_info": "Edmands Path Trailhead, Mt Clinton Rd",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2268,
+      "start_lon": -71.3894,
       "logistics": {
         "start_coords": [
           44.2268,
@@ -116,13 +128,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.0,
+        "distance": 6.6,
         "gain": 2147,
         "max_elev": 4758,
         "min_elev": 2901,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.1
+        "time": 3.3
       },
       "geo": {
         "path": [
@@ -1946,8 +1958,20 @@
       "id": "078c9382",
       "name": "Crawford Path to Eisenhower",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 6.4,
+      "elevation_gain": 2850,
       "description": "Classic route via Crawford Path and Eisenhower Loop.",
       "tags": [],
+      "parking_info": "Crawford Notch Depot",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2177,
+      "start_lon": -71.4108,
       "logistics": {
         "start_coords": [
           44.2177,
@@ -1961,13 +1985,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.2,
+        "distance": 6.4,
         "gain": 3163,
         "max_elev": 4758,
         "min_elev": 1890,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.0
+        "time": 3.7
       },
       "geo": {
         "path": [

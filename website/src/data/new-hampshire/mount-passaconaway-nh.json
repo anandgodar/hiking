@@ -89,18 +89,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:37:29.183803",
+    "refined_at": "2025-12-29T13:35:09.871744",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:38:50.638416",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:36:00.907738",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "7f1a6625",
       "name": "Dicey's Mill Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 9.2,
+      "elevation_gain": 2850,
       "description": "Most popular route to Passaconaway summit.",
       "tags": [],
+      "parking_info": "Ferncroft Rd Trailhead",
+      "parking_details": {
+        "capacity": "Small (~12 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.935,
+      "start_lon": -71.338,
       "logistics": {
         "start_coords": [
           43.935,
@@ -114,13 +126,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.4,
+        "distance": 9.2,
         "gain": 2717,
         "max_elev": 4026,
         "min_elev": 1936,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.5
+        "time": 4.4
       },
       "geo": {
         "path": [
@@ -1822,8 +1834,20 @@
       "id": "17b3c022",
       "name": "Blueberry Ledge Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.4,
+      "elevation_gain": 2800,
       "description": "Steeper route with excellent blueberry picking in season.",
       "tags": [],
+      "parking_info": "Ferncroft Rd Trailhead",
+      "parking_details": {
+        "capacity": "Small (~12 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.935,
+      "start_lon": -71.338,
       "logistics": {
         "start_coords": [
           43.935,
@@ -1837,13 +1861,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.4,
+        "distance": 8.4,
         "gain": 2717,
         "max_elev": 4026,
         "min_elev": 1936,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 2.5
+        "time": 4.2
       },
       "geo": {
         "path": [

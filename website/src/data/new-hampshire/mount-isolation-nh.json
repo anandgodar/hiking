@@ -91,18 +91,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:54:16.773387",
+    "refined_at": "2025-12-29T14:31:20.535738",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:55:38.518831",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:32:26.237667",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "4f54465c",
       "name": "Rocky Branch Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 14.6,
+      "elevation_gain": 3100,
       "description": "Long approach to remote summit with 360-degree views.",
       "tags": [],
+      "parking_info": "Rocky Branch Trailhead, NH-16",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2235,
+      "start_lon": -71.229,
       "logistics": {
         "start_coords": [
           44.2235,
@@ -116,13 +128,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 11.8,
+        "distance": 14.6,
         "gain": 4750,
         "max_elev": 5175,
         "min_elev": 1149,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 6.3
+        "time": 7.2
       },
       "geo": {
         "path": [
@@ -4846,8 +4858,20 @@
       "id": "ee40b5e5",
       "name": "Glen Boulder Trail to Isolation",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 12.0,
+      "elevation_gain": 4200,
       "description": "Strenuous route via Boott Spur Link and Davis Path.",
       "tags": [],
+      "parking_info": "Pinkham Notch Visitor Center",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2575,
+      "start_lon": -71.2532,
       "logistics": {
         "start_coords": [
           44.2575,
@@ -4861,13 +4885,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.2,
+        "distance": 12.0,
         "gain": 3924,
         "max_elev": 5175,
         "min_elev": 2015,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.0
+        "time": 6.0
       },
       "geo": {
         "path": [

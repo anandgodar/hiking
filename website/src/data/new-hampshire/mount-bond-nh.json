@@ -91,18 +91,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:44:04.062300",
+    "refined_at": "2025-12-29T13:48:45.834075",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:45:25.936403",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:49:51.751420",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "e66f912a",
       "name": "Zealand Trail to Bond",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 19.0,
+      "elevation_gain": 3800,
       "description": "Long but scenic route via Zealand Falls Hut to Bond summit.",
       "tags": [],
+      "parking_info": "Zealand Trailhead, Zealand Rd",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2262,
+      "start_lon": -71.4768,
       "logistics": {
         "start_coords": [
           44.2262,
@@ -116,13 +128,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 9.3,
+        "distance": 19.0,
         "gain": 4101,
         "max_elev": 4692,
         "min_elev": 1933,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 5.2
+        "time": 8.4
       },
       "geo": {
         "path": [
@@ -4599,8 +4611,20 @@
       "id": "97a5d03f",
       "name": "Lincoln Woods to Bond",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 19.6,
+      "elevation_gain": 3950,
       "description": "Approach via Franconia Brook and Bondcliff Trail.",
       "tags": [],
+      "parking_info": "Lincoln Woods Trailhead, Kancamagus Hwy",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.0635,
+      "start_lon": -71.5895,
       "logistics": {
         "start_coords": [
           44.0635,
@@ -4614,13 +4638,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 17.0,
+        "distance": 19.6,
         "gain": 5228,
         "max_elev": 4692,
         "min_elev": 1154,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 8.3
+        "time": 9.1
       },
       "geo": {
         "path": [

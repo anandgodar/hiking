@@ -108,34 +108,31 @@
       "distance_miles": 5.5
     }
   ],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the summit, worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Challenging trails, but the scenery is incredible.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the Madison Gulf Trail, great elevation gain!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T14:51:55.070347",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T14:53:41.782104",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "bded7c78",
       "name": "Valley Way Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.2,
+      "elevation_gain": 4100,
       "description": "Trail to Mount Madison summit.",
       "tags": [],
+      "parking_info": "Appalachia Trailhead, US-2",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3653,
+      "start_lon": -71.2531,
       "logistics": {
         "start_coords": [
           44.3653,
@@ -149,13 +146,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.5,
+        "distance": 8.2,
         "gain": 4260,
         "max_elev": 5357,
         "min_elev": 1303,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.6
+        "time": 4.9
       },
       "geo": {
         "path": [
@@ -1435,8 +1432,20 @@
       "id": "ca61f622",
       "name": "Osgood Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.8,
+      "elevation_gain": 4400,
       "description": "Trail to Mount Madison summit.",
       "tags": [],
+      "parking_info": "Osgood Trail Parking",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3519,
+      "start_lon": -71.2268,
       "logistics": {
         "start_coords": [
           44.3519,
@@ -1450,13 +1459,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.5,
+        "distance": 8.8,
         "gain": 3945,
         "max_elev": 5357,
         "min_elev": 1635,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.1
+        "time": 4.9
       },
       "geo": {
         "path": [
@@ -2622,8 +2631,20 @@
       "id": "92799aa9",
       "name": "Madison Gulf Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.8,
+      "elevation_gain": 4400,
       "description": "Trail to Mount Madison summit.",
       "tags": [],
+      "parking_info": "Madison Gulf Trail Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "Check Signage",
+        "shuttle": null
+      },
+      "start_lat": 44.329,
+      "start_lon": -71.228,
       "logistics": {
         "start_coords": [
           44.329,
@@ -2637,13 +2658,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.9,
+        "distance": 8.8,
         "gain": 4413,
         "max_elev": 5357,
         "min_elev": 1211,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.2
+        "time": 5.1
       },
       "geo": {
         "path": [
@@ -4584,51 +4605,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the summit, worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Challenging trails, but the scenery is incredible."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the Madison Gulf Trail, great elevation gain!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -4940,9 +4916,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,367 feet, Mount Madison ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Valley Way Trail**, covers 8.2 miles and is rated \n    Hard. Trail to Mount Madison summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Adams lies just 0.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T01:05:51.487267",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,367 feet, Mount Madison ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Valley Way Trail**, covers 8.2 miles and is rated \n    Hard. Trail to Mount Madison summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Adams lies just 0.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

@@ -118,34 +118,31 @@
     "average_rating": null
   },
   "nearby_peaks": [],
-  "social_pulse": 6,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the summit, worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Moderate trails, great for a family outing.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the Winslow Trail, beautiful scenery throughout!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:24:47.641191",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:27:38.849592",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "72693d28",
       "name": "Winslow Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.2,
+      "elevation_gain": 1100,
       "description": "Trail to Mount Kearsarge summit.",
       "tags": [],
+      "parking_info": "Winslow State Park, Kearsarge Mountain Rd, Wilmot",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$4/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 43.3652,
+      "start_lon": -71.8542,
       "logistics": {
         "start_coords": [
           43.3652,
@@ -159,13 +156,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 0.4,
+        "distance": 2.2,
         "gain": 20,
         "max_elev": 2036,
         "min_elev": 1575,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 0.2
+        "time": 0.7
       },
       "geo": {
         "path": [
@@ -620,8 +617,20 @@
       "id": "0f9f4191",
       "name": "Barlow Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.0,
+      "elevation_gain": 1000,
       "description": "Trail to Mount Kearsarge summit.",
       "tags": [],
+      "parking_info": "Winslow State Park, Kearsarge Mountain Rd, Wilmot",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$4/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 43.3648,
+      "start_lon": -71.8538,
       "logistics": {
         "start_coords": [
           43.3648,
@@ -635,13 +644,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 0.4,
+        "distance": 2.0,
         "gain": 14,
         "max_elev": 2044,
         "min_elev": 1568,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 0.1
+        "time": 0.7
       },
       "geo": {
         "path": [
@@ -1057,8 +1066,20 @@
       "id": "d8b25568",
       "name": "Winslow & Barlow Loop",
       "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 2.2,
+      "elevation_gain": 1100,
       "description": "Trail to Mount Kearsarge summit.",
       "tags": [],
+      "parking_info": "Winslow State Park, Kearsarge Mountain Rd, Wilmot",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$4/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 43.3652,
+      "start_lon": -71.8542,
       "logistics": {
         "start_coords": [
           43.3652,
@@ -1072,13 +1093,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 1.8,
-        "gain": 582,
+        "distance": 2.2,
+        "gain": 1100,
         "max_elev": 2169,
         "min_elev": 1633,
         "type": "Loop",
         "difficulty": "Moderate",
-        "time": 0.9
+        "time": 1.3
       },
       "geo": {
         "path": [
@@ -1533,8 +1554,20 @@
       "id": "be993320",
       "name": "Rollins Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.4,
+      "elevation_gain": 1200,
       "description": "Trail to Mount Kearsarge summit.",
       "tags": [],
+      "parking_info": "Rollins State Park, Kearsarge Mountain Rd, Warner",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "$4/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 43.3847,
+      "start_lon": -71.8523,
       "logistics": {
         "start_coords": [
           43.3847,
@@ -1548,13 +1581,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 1.3,
+        "distance": 2.4,
         "gain": 99,
         "max_elev": 2516,
         "min_elev": 1578,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 0.5
+        "time": 0.8
       },
       "geo": {
         "path": [
@@ -2048,8 +2081,20 @@
       "id": "7fc4fa55",
       "name": "Lincoln Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.3,
+      "elevation_gain": 1150,
       "description": "Trail to Mount Kearsarge summit.",
       "tags": [],
+      "parking_info": "Lincoln Trail Parking, Kearsarge Valley Rd",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.3701,
+      "start_lon": -71.8234,
       "logistics": {
         "start_coords": [
           43.3701,
@@ -2063,13 +2108,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 0.9,
+        "distance": 2.3,
         "gain": 440,
         "max_elev": 1511,
         "min_elev": 1086,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 0.5
+        "time": 1.0
       },
       "geo": {
         "path": [
@@ -2597,51 +2642,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the summit, worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Moderate trails, great for a family outing."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the Winslow Trail, beautiful scenery throughout!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -2927,9 +2927,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,930 feet, Mount Kearsarge offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Winslow Trail**, covers 2.2 miles and is rated \n    Moderate. Trail to Mount Kearsarge summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:36:05.838682",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,930 feet, Mount Kearsarge offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Winslow Trail**, covers 2.2 miles and is rated \n    Moderate. Trail to Mount Kearsarge summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
 }

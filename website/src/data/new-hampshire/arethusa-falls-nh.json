@@ -90,34 +90,31 @@
       "distance_miles": 3.4
     }
   ],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views at the falls, well worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Moderate trail, great for families. Some muddy spots.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "The sound of the falls is mesmerizing. A must-visit!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:50:32.630096",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:51:37.685233",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "c94c1991",
       "name": "Arethusa Falls Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 1.6,
+      "elevation_gain": 800,
       "description": "Trail to Arethusa Falls summit.",
       "tags": [],
+      "parking_info": "Arethusa Falls Trailhead, US-302",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.1617,
+      "start_lon": -71.3568,
       "logistics": {
         "start_coords": [
           44.1617,
@@ -131,13 +128,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 1.9,
+        "distance": 1.6,
         "gain": 247,
         "max_elev": 1307,
         "min_elev": 1140,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 0.8
+        "time": 0.7
       },
       "geo": {
         "path": [
@@ -1032,8 +1029,20 @@
       "id": "f5879eac",
       "name": "Arethusa-Ripley Falls Loop",
       "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 3.0,
+      "elevation_gain": 1500,
       "description": "Trail to Arethusa Falls summit.",
       "tags": [],
+      "parking_info": "Arethusa Falls Trailhead, US-302",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.1617,
+      "start_lon": -71.3568,
       "logistics": {
         "start_coords": [
           44.1617,
@@ -1047,13 +1056,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.9,
-        "gain": 532,
+        "distance": 3.0,
+        "gain": 1500,
         "max_elev": 1307,
         "min_elev": 1140,
         "type": "Loop",
         "difficulty": "Moderate",
-        "time": 1.6
+        "time": 1.8
       },
       "geo": {
         "path": [
@@ -2494,51 +2503,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views at the falls, well worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Moderate trail, great for families. Some muddy spots."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "The sound of the falls is mesmerizing. A must-visit!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -2835,9 +2799,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,000 feet, Arethusa Falls offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Arethusa Falls Trail**, covers 1.6 miles and is rated \n    Moderate. Trail to Arethusa Falls summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Webster lies just 2.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:46:06.742370",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,000 feet, Arethusa Falls offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Arethusa Falls Trail**, covers 1.6 miles and is rated \n    Moderate. Trail to Arethusa Falls summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Webster lies just 2.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

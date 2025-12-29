@@ -176,18 +176,30 @@
   },
   "nearby_peaks": [],
   "meta": {
-    "refined_at": "2025-12-28T00:36:05.672937",
+    "refined_at": "2025-12-29T13:20:41.511562",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:36:05.812503",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:24:47.628293",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "afd11f70",
       "name": "White Dot Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.6,
+      "elevation_gain": 1800,
       "description": "Trail to Mount Monadnock summit.",
       "tags": [],
+      "parking_info": "Monadnock State Park Headquarters, Poole Rd, Jaffrey",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 42.8459,
+      "start_lon": -72.0985,
       "logistics": {
         "start_coords": [
           42.8459,
@@ -201,13 +213,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.5,
+        "distance": 3.6,
         "gain": 1885,
         "max_elev": 3135,
         "min_elev": 1355,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.8
+        "time": 2.1
       },
       "geo": {
         "path": [
@@ -2044,8 +2056,20 @@
       "id": "a57796cf",
       "name": "White Cross Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.7,
+      "elevation_gain": 1850,
       "description": "Trail to Mount Monadnock summit.",
       "tags": [],
+      "parking_info": "Monadnock State Park Headquarters, Poole Rd, Jaffrey",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 42.8459,
+      "start_lon": -72.0985,
       "logistics": {
         "start_coords": [
           42.8459,
@@ -2059,13 +2083,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.5,
+        "distance": 3.7,
         "gain": 1885,
         "max_elev": 3135,
         "min_elev": 1355,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.8
+        "time": 2.2
       },
       "geo": {
         "path": [
@@ -3902,8 +3926,20 @@
       "id": "eca3d1ed",
       "name": "White Dot & White Cross Loop",
       "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 3.6,
+      "elevation_gain": 1800,
       "description": "Trail to Mount Monadnock summit.",
       "tags": [],
+      "parking_info": "Monadnock State Park Headquarters, Poole Rd, Jaffrey",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 42.8459,
+      "start_lon": -72.0985,
       "logistics": {
         "start_coords": [
           42.8459,
@@ -3917,13 +3953,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.6,
-        "gain": 2145,
+        "distance": 3.6,
+        "gain": 1800,
         "max_elev": 3135,
         "min_elev": 1355,
         "type": "Loop",
         "difficulty": "Moderate",
-        "time": 2.6
+        "time": 2.1
       },
       "geo": {
         "path": [
@@ -7552,8 +7588,20 @@
       "id": "54ff2f73",
       "name": "Pumpelly Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.0,
+      "elevation_gain": 2000,
       "description": "Trail to Mount Monadnock summit.",
       "tags": [],
+      "parking_info": "Pumpelly Trailhead, Route 101, Dublin",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 42.8867,
+      "start_lon": -72.0631,
       "logistics": {
         "start_coords": [
           42.8867,
@@ -7567,7 +7615,7 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.1,
+        "distance": 4.0,
         "gain": 2114,
         "max_elev": 3165,
         "min_elev": 1457,
@@ -9682,8 +9730,20 @@
       "id": "b7d68420",
       "name": "Marlboro Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.8,
+      "elevation_gain": 1900,
       "description": "Trail to Mount Monadnock summit.",
       "tags": [],
+      "parking_info": "Marlboro Trail Parking, Shaker Farm Rd",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 42.8594,
+      "start_lon": -72.1478,
       "logistics": {
         "start_coords": [
           42.8594,
@@ -9697,13 +9757,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.3,
+        "distance": 3.8,
         "gain": 2142,
         "max_elev": 3165,
         "min_elev": 1228,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.5
+        "time": 2.3
       },
       "geo": {
         "path": [
@@ -12137,8 +12197,20 @@
       "id": "c8400fb3",
       "name": "Dublin Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.3,
+      "elevation_gain": 1650,
       "description": "Trail to Mount Monadnock summit.",
       "tags": [],
+      "parking_info": "Dublin Trail Parking, Old Troy Rd",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 42.8892,
+      "start_lon": -72.1122,
       "logistics": {
         "start_coords": [
           42.8892,
@@ -12152,13 +12224,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.9,
+        "distance": 3.3,
         "gain": 1857,
         "max_elev": 3165,
         "min_elev": 1428,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.9
+        "time": 2.0
       },
       "geo": {
         "path": [
@@ -14257,8 +14329,20 @@
       "id": "9c3a921e",
       "name": "Red Spot Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.5,
+      "elevation_gain": 1750,
       "description": "Trail to Mount Monadnock summit.",
       "tags": [],
+      "parking_info": "Monadnock State Park Headquarters, Poole Rd, Jaffrey",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/adult (State Park)",
+        "shuttle": null
+      },
+      "start_lat": 42.8459,
+      "start_lon": -72.0985,
       "logistics": {
         "start_coords": [
           42.8459,
@@ -14272,13 +14356,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.5,
+        "distance": 3.5,
         "gain": 1885,
         "max_elev": 3135,
         "min_elev": 1355,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.8
+        "time": 2.1
       },
       "geo": {
         "path": [
@@ -16115,8 +16199,20 @@
       "id": "4fcae2d1",
       "name": "Birchtoft Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.8,
+      "elevation_gain": 1900,
       "description": "Trail to Mount Monadnock summit.",
       "tags": [],
+      "parking_info": "Gilson Pond Parking",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$5/adult",
+        "shuttle": null
+      },
+      "start_lat": 42.832,
+      "start_lon": -72.115,
       "logistics": {
         "start_coords": [
           42.832,
@@ -16130,13 +16226,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.6,
+        "distance": 3.8,
         "gain": 1785,
         "max_elev": 3165,
         "min_elev": 1498,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.8
+        "time": 2.2
       },
       "geo": {
         "path": [

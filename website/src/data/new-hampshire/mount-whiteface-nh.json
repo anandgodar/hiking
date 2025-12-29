@@ -90,18 +90,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:36:05.919876",
+    "refined_at": "2025-12-29T13:33:04.003190",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:37:29.128965",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:33:56.038686",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "17b3c022",
       "name": "Blueberry Ledge Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.6,
+      "elevation_gain": 2750,
       "description": "Challenging route with excellent views from ledges.",
       "tags": [],
+      "parking_info": "Ferncroft Rd Trailhead",
+      "parking_details": {
+        "capacity": "Small (~12 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.935,
+      "start_lon": -71.338,
       "logistics": {
         "start_coords": [
           43.935,
@@ -115,13 +127,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.7,
+        "distance": 8.6,
         "gain": 3739,
         "max_elev": 4015,
         "min_elev": 1936,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.8
+        "time": 4.7
       },
       "geo": {
         "path": [
@@ -5365,8 +5377,20 @@
       "id": "c3dace6d",
       "name": "Flat Mountain Pond Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 12.0,
+      "elevation_gain": 2500,
       "description": "Longer, more gradual approach.",
       "tags": [],
+      "parking_info": "Whiteface Intervale Rd",
+      "parking_details": {
+        "capacity": "Small (~8 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.915,
+      "start_lon": -71.41,
       "logistics": {
         "start_coords": [
           43.915,
@@ -5380,13 +5404,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 1.4,
+        "distance": 12.0,
         "gain": 2119,
         "max_elev": 4001,
         "min_elev": 1901,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.5
+        "time": 5.1
       },
       "geo": {
         "path": [

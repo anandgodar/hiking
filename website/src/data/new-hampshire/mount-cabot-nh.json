@@ -69,18 +69,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T01:07:53.856846",
+    "refined_at": "2025-12-29T14:55:44.283237",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T01:09:15.494665",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:56:35.141281",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "8267a232",
       "name": "Bunnell Notch Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 10.4,
+      "elevation_gain": 2800,
       "description": "Standard route to Cabot with historic fire tower cabin.",
       "tags": [],
+      "parking_info": "York Pond Rd Trailhead",
+      "parking_details": {
+        "capacity": "Small (~12 cars)",
+        "status": "Check road conditions in winter",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.535,
+      "start_lon": -71.363,
       "logistics": {
         "start_coords": [
           44.535,
@@ -94,13 +106,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.0,
+        "distance": 10.4,
         "gain": 2257,
         "max_elev": 4165,
         "min_elev": 2495,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.5
+        "time": 4.6
       },
       "geo": {
         "path": [
@@ -1614,8 +1626,20 @@
       "id": "ca4c4af1",
       "name": "Unknown Pond Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 11.2,
+      "elevation_gain": 2650,
       "description": "Alternative route via scenic Unknown Pond.",
       "tags": [],
+      "parking_info": "Mill Brook Rd Trailhead",
+      "parking_details": {
+        "capacity": "Small (~8 cars)",
+        "status": "Check road conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.49,
+      "start_lon": -71.465,
       "logistics": {
         "start_coords": [
           44.49,
@@ -1629,13 +1653,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 13.5,
+        "distance": 11.2,
         "gain": 4459,
         "max_elev": 4165,
         "min_elev": 1314,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 6.7
+        "time": 6.0
       },
       "geo": {
         "path": [

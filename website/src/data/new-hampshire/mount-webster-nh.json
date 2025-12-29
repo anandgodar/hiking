@@ -70,18 +70,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:49:31.213021",
+    "refined_at": "2025-12-29T14:26:37.669185",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:50:11.937541",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:27:06.962771",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "d247eba7",
       "name": "Webster-Jackson Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 5.6,
+      "elevation_gain": 2050,
       "description": "Trail to Webster summit with spectacular cliff views.",
       "tags": [],
+      "parking_info": "Crawford Notch State Park, US-302",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "$4/day",
+        "shuttle": null
+      },
+      "start_lat": 44.2001,
+      "start_lon": -71.3766,
       "logistics": {
         "start_coords": [
           44.2001,
@@ -95,13 +107,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 0.5,
+        "distance": 5.6,
         "gain": 9,
         "max_elev": 3851,
         "min_elev": 3254,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 0.2
+        "time": 1.9
       },
       "geo": {
         "path": [

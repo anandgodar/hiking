@@ -92,18 +92,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:39:31.587151",
+    "refined_at": "2025-12-29T13:36:49.475298",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:40:53.292863",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:38:11.307845",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "13aeb14e",
       "name": "North Slide Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 10.2,
+      "elevation_gain": 2950,
       "description": "Extremely steep rock slide scramble. Not for beginners.",
       "tags": [],
+      "parking_info": "Livermore Rd Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.9485,
+      "start_lon": -71.4915,
       "logistics": {
         "start_coords": [
           43.9485,
@@ -117,13 +129,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 7.6,
+        "distance": 10.2,
         "gain": 2916,
         "max_elev": 4163,
         "min_elev": 1456,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.0
+        "time": 4.9
       },
       "geo": {
         "path": [
@@ -2920,8 +2932,20 @@
       "id": "4fb477e7",
       "name": "Tripyramid Loop",
       "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 11.0,
+      "elevation_gain": 3050,
       "description": "Classic loop hitting North and Middle peaks. North Slide up recommended.",
       "tags": [],
+      "parking_info": "Livermore Rd Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.9485,
+      "start_lon": -71.4915,
       "logistics": {
         "start_coords": [
           43.9485,
@@ -2935,13 +2959,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 15.4,
-        "gain": 3615,
+        "distance": 11.0,
+        "gain": 3050,
         "max_elev": 4163,
         "min_elev": 1456,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 6.9
+        "time": 5.2
       },
       "geo": {
         "path": [

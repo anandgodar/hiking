@@ -72,18 +72,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:45:25.944971",
+    "refined_at": "2025-12-29T13:49:51.759761",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:46:06.716472",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:50:32.625834",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "4afa2555",
       "name": "West Bond Spur from Bond",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 20.0,
+      "elevation_gain": 4100,
       "description": "Short spur from Bond summit to West Bond. Usually done as part of Bonds traverse.",
       "tags": [],
+      "parking_info": "Zealand Trailhead, Zealand Rd",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2262,
+      "start_lon": -71.4768,
       "logistics": {
         "start_coords": [
           44.2262,
@@ -97,13 +109,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 9.2,
+        "distance": 20.0,
         "gain": 4019,
         "max_elev": 4579,
         "min_elev": 1933,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 5.1
+        "time": 8.7
       },
       "geo": {
         "path": [

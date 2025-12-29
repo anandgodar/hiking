@@ -48,34 +48,31 @@
       "distance_miles": 9.8
     }
   ],
-  "social_pulse": 6,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Beautiful scenery and great swimming spots!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Nice trail, but can get crowded on weekends.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the views and the waterfalls along the way!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:41:43.969016",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:42:09.136961",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "20ca93ee",
       "name": "Diana's Baths Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 0.4,
+      "elevation_gain": 200,
       "description": "Trail to Dianas Baths summit.",
       "tags": [],
+      "parking_info": "Diana's Baths Parking, West Side Rd, Bartlett",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.0579,
+      "start_lon": -71.1475,
       "logistics": {
         "start_coords": [
           44.0579,
@@ -89,13 +86,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 0.7,
+        "distance": 0.4,
         "gain": 36,
         "max_elev": 508,
         "min_elev": 480,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 0.3
+        "time": 0.2
       },
       "geo": {
         "path": [
@@ -467,51 +464,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Beautiful scenery and great swimming spots!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Nice trail, but can get crowded on weekends."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the views and the waterfalls along the way!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -768,9 +720,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 700 feet, Dianas Baths offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Diana's Baths Trail**, covers 0.4 miles and is rated \n    Moderate. Trail to Dianas Baths summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Chocorua lies just 9.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:40:53.386576",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 700 feet, Dianas Baths offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Diana's Baths Trail**, covers 0.4 miles and is rated \n    Moderate. Trail to Dianas Baths summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Chocorua lies just 9.8 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

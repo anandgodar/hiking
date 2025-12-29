@@ -129,34 +129,31 @@
       "distance_miles": 3.0
     }
   ],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Amazing views from the summit! Worth the hike.",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Kinsman Ridge Trail was challenging but rewarding.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the Hi-Cannon Trail, great scenery all around.",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:51:37.689860",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:53:49.918324",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "124b9f72",
       "name": "Kinsman Ridge Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 4.2,
+      "elevation_gain": 2100,
       "description": "Trail to Cannon Mountain summit.",
       "tags": [],
+      "parking_info": "Cannon Mountain Tramway Parking",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.1633,
+      "start_lon": -71.6847,
       "logistics": {
         "start_coords": [
           44.1633,
@@ -170,7 +167,7 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.3,
+        "distance": 4.2,
         "gain": 2507,
         "max_elev": 4068,
         "min_elev": 1753,
@@ -2231,8 +2228,20 @@
       "id": "1e9a9bca",
       "name": "Hi-Cannon Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 4.2,
+      "elevation_gain": 2100,
       "description": "Trail to Cannon Mountain summit.",
       "tags": [],
+      "parking_info": "Cannon Mountain Tramway Parking",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.1633,
+      "start_lon": -71.6847,
       "logistics": {
         "start_coords": [
           44.1633,
@@ -2246,7 +2255,7 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.3,
+        "distance": 4.2,
         "gain": 2507,
         "max_elev": 4068,
         "min_elev": 1753,
@@ -4307,8 +4316,20 @@
       "id": "ff222c13",
       "name": "Hi-Cannon & Lonesome Lake Loop",
       "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 4.6,
+      "elevation_gain": 2300,
       "description": "Trail to Cannon Mountain summit.",
       "tags": [],
+      "parking_info": "Lafayette Place / Lonesome Lake Trailhead",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.1427,
+      "start_lon": -71.6834,
       "logistics": {
         "start_coords": [
           44.1427,
@@ -4322,13 +4343,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.6,
-        "gain": 2739,
+        "distance": 4.6,
+        "gain": 2300,
         "max_elev": 4068,
         "min_elev": 1754,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 3.2
+        "time": 2.7
       },
       "geo": {
         "path": [
@@ -7327,8 +7348,20 @@
       "id": "68753794",
       "name": "Lonesome Lake Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 2.0,
+      "elevation_gain": 1000,
       "description": "Trail to Cannon Mountain summit.",
       "tags": [],
+      "parking_info": "Lafayette Place / Lonesome Lake Trailhead",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.1427,
+      "start_lon": -71.6834,
       "logistics": {
         "start_coords": [
           44.1427,
@@ -7342,7 +7375,7 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.2,
+        "distance": 2.0,
         "gain": 2396,
         "max_elev": 4068,
         "min_elev": 1754,
@@ -8799,51 +8832,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Amazing views from the summit! Worth the hike."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Kinsman Ridge Trail was challenging but rewarding."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the Hi-Cannon Trail, great scenery all around."
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -9165,9 +9153,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,100 feet, Cannon Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Kinsman Ridge Trail**, covers 4.2 miles and is rated \n    Hard. Trail to Cannon Mountain summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** North Kinsman lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:46:06.818659",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,100 feet, Cannon Mountain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Kinsman Ridge Trail**, covers 4.2 miles and is rated \n    Hard. Trail to Cannon Mountain summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** North Kinsman lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

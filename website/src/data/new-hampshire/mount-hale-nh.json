@@ -71,18 +71,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:55:38.531449",
+    "refined_at": "2025-12-29T14:32:26.243919",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:56:19.665450",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:32:51.318905",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "d0c85252",
       "name": "Hale Brook Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.4,
+      "elevation_gain": 2300,
       "description": "Shortest route to a NH 4000-footer. Great beginner peak.",
       "tags": [],
+      "parking_info": "Hale Brook Trailhead, Zealand Rd",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2405,
+      "start_lon": -71.4915,
       "logistics": {
         "start_coords": [
           44.2405,
@@ -96,13 +108,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.5,
+        "distance": 4.4,
         "gain": 2533,
         "max_elev": 4063,
         "min_elev": 1725,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 3.4
+        "time": 2.7
       },
       "geo": {
         "path": [

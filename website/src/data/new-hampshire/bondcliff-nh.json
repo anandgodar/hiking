@@ -73,18 +73,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:42:55.946043",
+    "refined_at": "2025-12-29T13:47:14.262526",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:43:36.761625",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:47:39.122025",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "70c3a1bb",
       "name": "Lincoln Woods to Bondcliff",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 17.8,
+      "elevation_gain": 3650,
       "description": "Classic route to one of NH's most iconic viewpoints.",
       "tags": [],
+      "parking_info": "Lincoln Woods Trailhead, Kancamagus Hwy",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.0635,
+      "start_lon": -71.5895,
       "logistics": {
         "start_coords": [
           44.0635,
@@ -98,13 +110,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 8.7,
+        "distance": 17.8,
         "gain": 3341,
         "max_elev": 4221,
         "min_elev": 1147,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.6
+        "time": 7.6
       },
       "geo": {
         "path": [

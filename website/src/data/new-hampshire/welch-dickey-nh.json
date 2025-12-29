@@ -92,34 +92,31 @@
       "distance_miles": 8.8
     }
   ],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the top, worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Great trail, but some sections were muddy.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the loop! Beautiful scenery all around.",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:31:58.612231",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:33:04.001099",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "882b5471",
       "name": "Welch-Dickey Loop",
       "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 3.6,
+      "elevation_gain": 1800,
       "description": "Trail to Welch Dickey summit.",
       "tags": [],
+      "parking_info": "Welch-Dickey Trailhead, Orris Rd, Thornton",
+      "parking_details": {
+        "capacity": "Medium (~50 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.8978,
+      "start_lon": -71.5928,
       "logistics": {
         "start_coords": [
           43.8978,
@@ -133,13 +130,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 1.5,
-        "gain": 163,
+        "distance": 3.6,
+        "gain": 1800,
         "max_elev": 1067,
         "min_elev": 959,
         "type": "Loop",
         "difficulty": "Moderate",
-        "time": 0.6
+        "time": 2.1
       },
       "geo": {
         "path": [
@@ -867,8 +864,20 @@
       "id": "25a67cf4",
       "name": "Welch-Dickey Loop Trail",
       "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 3.6,
+      "elevation_gain": 1800,
       "description": "Trail to Welch Dickey summit.",
       "tags": [],
+      "parking_info": "Welch-Dickey Trailhead, Orris Rd, Thornton",
+      "parking_details": {
+        "capacity": "Medium (~50 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.8978,
+      "start_lon": -71.5928,
       "logistics": {
         "start_coords": [
           43.8978,
@@ -882,13 +891,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 1.5,
-        "gain": 163,
+        "distance": 3.6,
+        "gain": 1800,
         "max_elev": 1067,
         "min_elev": 959,
         "type": "Loop",
         "difficulty": "Moderate",
-        "time": 0.6
+        "time": 2.1
       },
       "geo": {
         "path": [
@@ -1637,51 +1646,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the top, worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Great trail, but some sections were muddy."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the loop! Beautiful scenery all around."
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -1978,9 +1942,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,734 feet, Welch Dickey offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Welch-Dickey Loop**, covers 3.6 miles and is rated \n    Moderate. Trail to Welch Dickey summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Tecumseh lies just 4.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:36:05.918026",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 2,734 feet, Welch Dickey offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Welch-Dickey Loop**, covers 3.6 miles and is rated \n    Moderate. Trail to Welch Dickey summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Tecumseh lies just 4.7 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

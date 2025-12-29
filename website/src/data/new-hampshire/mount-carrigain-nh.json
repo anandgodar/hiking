@@ -70,34 +70,31 @@
       "distance_miles": 5.9
     }
   ],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Amazing views from the summit, worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Trail was challenging but well-marked. Loved it!",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "The scenery is breathtaking, especially at sunset!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:42:33.028567",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:43:13.739305",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "a551d667",
       "name": "Signal Ridge Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 6.4,
+      "elevation_gain": 3200,
       "description": "Trail to Mount Carrigain summit.",
       "tags": [],
+      "parking_info": "Signal Ridge Trailhead, Sawyer River Rd",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.0601,
+      "start_lon": -71.3985,
       "logistics": {
         "start_coords": [
           44.0601,
@@ -111,13 +108,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 8.8,
+        "distance": 6.4,
         "gain": 4018,
         "max_elev": 4678,
         "min_elev": 1504,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 5.0
+        "time": 4.1
       },
       "geo": {
         "path": [
@@ -2915,51 +2912,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Amazing views from the summit, worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Trail was challenging but well-marked. Loved it!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "The scenery is breathtaking, especially at sunset!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -3251,9 +3203,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,700 feet, Mount Carrigain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Signal Ridge Trail**, covers 6.4 miles and is rated \n    Hard. Trail to Mount Carrigain summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Hancock lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:40:53.431912",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,700 feet, Mount Carrigain ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Signal Ridge Trail**, covers 6.4 miles and is rated \n    Hard. Trail to Mount Carrigain summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Hancock lies just 2.5 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

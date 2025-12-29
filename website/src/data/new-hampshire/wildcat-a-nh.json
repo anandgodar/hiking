@@ -90,18 +90,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T01:01:46.006064",
+    "refined_at": "2025-12-29T14:37:01.164738",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T01:03:07.523729",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:37:51.120932",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "497b2ed6",
       "name": "Wildcat Ridge Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 6.8,
+      "elevation_gain": 2800,
       "description": "Challenging trail over all Wildcat peaks with views of Presidentials.",
       "tags": [],
+      "parking_info": "Pinkham Notch Visitor Center, NH-16",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2575,
+      "start_lon": -71.2532,
       "logistics": {
         "start_coords": [
           44.2575,
@@ -115,13 +127,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.4,
+        "distance": 6.8,
         "gain": 3321,
         "max_elev": 4394,
         "min_elev": 1943,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.1
+        "time": 3.9
       },
       "geo": {
         "path": [
@@ -2201,8 +2213,20 @@
       "id": "638d479e",
       "name": "Nineteen Mile Brook to Wildcat A",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 7.8,
+      "elevation_gain": 2650,
       "description": "Approach via Carter Notch and Wildcat Ridge Trail.",
       "tags": [],
+      "parking_info": "Nineteen Mile Brook Trailhead, NH-16",
+      "parking_details": {
+        "capacity": "Medium (~25 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3012,
+      "start_lon": -71.2032,
       "logistics": {
         "start_coords": [
           44.3012,
@@ -2216,13 +2240,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.5,
+        "distance": 7.8,
         "gain": 3100,
         "max_elev": 4393,
         "min_elev": 1398,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.4
+        "time": 4.2
       },
       "geo": {
         "path": [

@@ -90,18 +90,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T01:05:51.491296",
+    "refined_at": "2025-12-29T14:53:41.787926",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T01:07:13.035312",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:55:03.444641",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "2da8d06b",
       "name": "Carter-Moriah Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.0,
+      "elevation_gain": 3100,
       "description": "Northern terminus of Carter Range with excellent views.",
       "tags": [],
+      "parking_info": "Bangor St Trailhead, Gorham",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.39,
+      "start_lon": -71.165,
       "logistics": {
         "start_coords": [
           44.39,
@@ -115,7 +127,7 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 8.8,
+        "distance": 9.0,
         "gain": 3834,
         "max_elev": 4015,
         "min_elev": 718,
@@ -2496,8 +2508,20 @@
       "id": "bc0a28b1",
       "name": "Stony Brook Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 9.0,
+      "elevation_gain": 2850,
       "description": "Quieter approach from the east side.",
       "tags": [],
+      "parking_info": "North Rd Trailhead, Shelburne",
+      "parking_details": {
+        "capacity": "Small (~8 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.37,
+      "start_lon": -71.08,
       "logistics": {
         "start_coords": [
           44.37,
@@ -2511,13 +2535,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.6,
+        "distance": 9.0,
         "gain": 3200,
         "max_elev": 4015,
         "min_elev": 1779,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 3.1
+        "time": 4.6
       },
       "geo": {
         "path": [

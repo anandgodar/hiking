@@ -186,34 +186,31 @@
       "distance_miles": 4.8
     }
   ],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the summit, worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Challenging trails, but the scenery is amazing.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the Airline Trail, great conditions!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T14:47:55.377601",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T14:51:55.056675",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "7d03bcd4",
       "name": "Airline Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.0,
+      "elevation_gain": 4500,
       "description": "Trail to Mount Adams summit.",
       "tags": [],
+      "parking_info": "Appalachia Trailhead, US-2",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3653,
+      "start_lon": -71.2531,
       "logistics": {
         "start_coords": [
           44.3653,
@@ -227,13 +224,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.5,
+        "distance": 9.0,
         "gain": 4612,
         "max_elev": 5791,
         "min_elev": 1226,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.2
+        "time": 5.3
       },
       "geo": {
         "path": [
@@ -1526,8 +1523,20 @@
       "id": "da6a26f3",
       "name": "Airline Trail (via Durand Ridge)",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.0,
+      "elevation_gain": 4500,
       "description": "Trail to Mount Adams summit.",
       "tags": [],
+      "parking_info": "Appalachia Trailhead, US-2",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3653,
+      "start_lon": -71.2531,
       "logistics": {
         "start_coords": [
           44.3653,
@@ -1541,13 +1550,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.5,
+        "distance": 9.0,
         "gain": 4612,
         "max_elev": 5791,
         "min_elev": 1226,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.2
+        "time": 5.3
       },
       "geo": {
         "path": [
@@ -2840,8 +2849,20 @@
       "id": "3d60f83f",
       "name": "King Ravine Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.0,
+      "elevation_gain": 4500,
       "description": "Trail to Mount Adams summit.",
       "tags": [],
+      "parking_info": "Appalachia Trailhead, US-2",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3653,
+      "start_lon": -71.2531,
       "logistics": {
         "start_coords": [
           44.3653,
@@ -2855,13 +2876,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.5,
+        "distance": 9.0,
         "gain": 4612,
         "max_elev": 5791,
         "min_elev": 1226,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.2
+        "time": 5.3
       },
       "geo": {
         "path": [
@@ -4154,8 +4175,20 @@
       "id": "424624bd",
       "name": "King Ravine Route",
       "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 9.0,
+      "elevation_gain": 4500,
       "description": "Trail to Mount Adams summit.",
       "tags": [],
+      "parking_info": "Appalachia Trailhead, US-2",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3653,
+      "start_lon": -71.2531,
       "logistics": {
         "start_coords": [
           44.3653,
@@ -4169,13 +4202,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 10.9,
-        "gain": 4840,
+        "distance": 9.0,
+        "gain": 4500,
         "max_elev": 5791,
         "min_elev": 1226,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 6.0
+        "time": 5.2
       },
       "geo": {
         "path": [
@@ -7044,8 +7077,20 @@
       "id": "bded7c78",
       "name": "Valley Way Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.0,
+      "elevation_gain": 4500,
       "description": "Trail to Mount Adams summit.",
       "tags": [],
+      "parking_info": "Appalachia Trailhead, US-2",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3653,
+      "start_lon": -71.2531,
       "logistics": {
         "start_coords": [
           44.3653,
@@ -7059,13 +7104,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.5,
+        "distance": 9.0,
         "gain": 4612,
         "max_elev": 5791,
         "min_elev": 1226,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.2
+        "time": 5.3
       },
       "geo": {
         "path": [
@@ -8358,8 +8403,20 @@
       "id": "604d659f",
       "name": "Lowe's Path",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.2,
+      "elevation_gain": 4600,
       "description": "Trail to Mount Adams summit.",
       "tags": [],
+      "parking_info": "Lowe's Path Trailhead",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.3738,
+      "start_lon": -71.3042,
       "logistics": {
         "start_coords": [
           44.3738,
@@ -8373,13 +8430,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.4,
+        "distance": 9.2,
         "gain": 4622,
         "max_elev": 5791,
         "min_elev": 1270,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.1
+        "time": 5.4
       },
       "geo": {
         "path": [
@@ -9911,8 +9968,20 @@
       "id": "3ca3621b",
       "name": "Star Lake Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.9,
+      "elevation_gain": 4450,
       "description": "Trail to Mount Adams summit.",
       "tags": [],
+      "parking_info": "Appalachia Trailhead, US-2",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3653,
+      "start_lon": -71.2531,
       "logistics": {
         "start_coords": [
           44.3653,
@@ -9926,13 +9995,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.5,
+        "distance": 8.9,
         "gain": 4612,
         "max_elev": 5791,
         "min_elev": 1226,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.2
+        "time": 5.3
       },
       "geo": {
         "path": [
@@ -11246,51 +11315,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the summit, worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Challenging trails, but the scenery is amazing."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the Airline Trail, great conditions!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -11632,9 +11656,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,793 feet, Mount Adams ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Airline Trail**, covers 9.0 miles and is rated \n    Hard. Trail to Mount Adams summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Madison lies just 0.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T01:05:51.445222",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,793 feet, Mount Adams ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Airline Trail**, covers 9.0 miles and is rated \n    Hard. Trail to Mount Adams summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Madison lies just 0.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

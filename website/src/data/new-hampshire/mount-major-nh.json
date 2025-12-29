@@ -99,34 +99,31 @@
     "average_rating": null
   },
   "nearby_peaks": [],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the summit, worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Great trails, but can get crowded on weekends.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the Mount Major Loop Trail, beautiful scenery!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:27:38.854963",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:29:48.926294",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "68693b52",
       "name": "Mount Major Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.2,
+      "elevation_gain": 1100,
       "description": "Trail to Mount Major summit.",
       "tags": [],
+      "parking_info": "Mount Major Trailhead, NH-11, Alton Bay",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.4987,
+      "start_lon": -71.2699,
       "logistics": {
         "start_coords": [
           43.4987,
@@ -140,13 +137,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.8,
+        "distance": 2.2,
         "gain": 849,
         "max_elev": 1331,
         "min_elev": 534,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.4
+        "time": 1.2
       },
       "geo": {
         "path": [
@@ -1025,8 +1022,20 @@
       "id": "ed4d8e87",
       "name": "Brook Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.2,
+      "elevation_gain": 1100,
       "description": "Trail to Mount Major summit.",
       "tags": [],
+      "parking_info": "Mount Major Trailhead, NH-11, Alton Bay",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.4987,
+      "start_lon": -71.2699,
       "logistics": {
         "start_coords": [
           43.4987,
@@ -1040,13 +1049,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.8,
+        "distance": 2.2,
         "gain": 849,
         "max_elev": 1331,
         "min_elev": 534,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.4
+        "time": 1.2
       },
       "geo": {
         "path": [
@@ -1925,8 +1934,20 @@
       "id": "f1087e62",
       "name": "Mount Major Loop Trail",
       "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 2.2,
+      "elevation_gain": 1100,
       "description": "Trail to Mount Major summit.",
       "tags": [],
+      "parking_info": "Mount Major Trailhead, NH-11, Alton Bay",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.4987,
+      "start_lon": -71.2699,
       "logistics": {
         "start_coords": [
           43.4987,
@@ -1940,13 +1961,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.8,
-        "gain": 906,
+        "distance": 2.2,
+        "gain": 1100,
         "max_elev": 1235,
         "min_elev": 651,
         "type": "Loop",
         "difficulty": "Moderate",
-        "time": 1.4
+        "time": 1.3
       },
       "geo": {
         "path": [
@@ -2401,8 +2422,20 @@
       "id": "c6601c91",
       "name": "Boulder Loop Trail",
       "type": "Loop",
+      "difficulty": "Moderate",
+      "distance_miles": 2.2,
+      "elevation_gain": 1100,
       "description": "Trail to Mount Major summit.",
       "tags": [],
+      "parking_info": "Mount Major Trailhead, NH-11, Alton Bay",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.4987,
+      "start_lon": -71.2699,
       "logistics": {
         "start_coords": [
           43.4987,
@@ -2416,13 +2449,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.8,
-        "gain": 906,
+        "distance": 2.2,
+        "gain": 1100,
         "max_elev": 1235,
         "min_elev": 651,
         "type": "Loop",
         "difficulty": "Moderate",
-        "time": 1.4
+        "time": 1.3
       },
       "geo": {
         "path": [
@@ -2898,51 +2931,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the summit, worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Great trails, but can get crowded on weekends."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the Mount Major Loop Trail, beautiful scenery!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -3218,9 +3206,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,786 feet, Mount Major offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mount Major Trail**, covers 2.2 miles and is rated \n    Moderate. Trail to Mount Major summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:36:05.860373",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 1,786 feet, Mount Major offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Mount Major Trail**, covers 2.2 miles and is rated \n    Moderate. Trail to Mount Major summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
 }

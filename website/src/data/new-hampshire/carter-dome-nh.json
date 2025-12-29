@@ -90,18 +90,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T01:03:07.533345",
+    "refined_at": "2025-12-29T14:37:51.125890",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T01:04:29.313856",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:38:56.572106",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "fc6b8931",
       "name": "Nineteen Mile Brook Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 10.0,
+      "elevation_gain": 3400,
       "description": "Route via Carter Notch Hut to Carter Dome summit.",
       "tags": [],
+      "parking_info": "Nineteen Mile Brook Trailhead, NH-16",
+      "parking_details": {
+        "capacity": "Medium (~25 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3012,
+      "start_lon": -71.2032,
       "logistics": {
         "start_coords": [
           44.3012,
@@ -115,13 +127,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.0,
+        "distance": 10.0,
         "gain": 3641,
         "max_elev": 4838,
         "min_elev": 1398,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.8
+        "time": 5.2
       },
       "geo": {
         "path": [
@@ -2370,8 +2382,20 @@
       "id": "2da8d06b",
       "name": "Carter-Moriah Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 10.2,
+      "elevation_gain": 3600,
       "description": "Scenic route to Carter Dome from Gorham.",
       "tags": [],
+      "parking_info": "Bangor St Trailhead, Gorham",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.39,
+      "start_lon": -71.165,
       "logistics": {
         "start_coords": [
           44.39,
@@ -2385,13 +2409,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 22.4,
+        "distance": 10.2,
         "gain": 6852,
         "max_elev": 4838,
         "min_elev": 779,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 10.9
+        "time": 6.8
       },
       "geo": {
         "path": [

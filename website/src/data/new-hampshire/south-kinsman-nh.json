@@ -90,18 +90,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:40:53.514340",
+    "refined_at": "2025-12-29T13:45:27.079933",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:42:15.129306",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:46:48.661399",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "f950877f",
       "name": "Kinsman Ridge Trail via Lonesome Lake",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.8,
+      "elevation_gain": 3200,
       "description": "Route via Lonesome Lake Hut to South Kinsman summit.",
       "tags": [],
+      "parking_info": "Lafayette Place Campground, Franconia Notch",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.1423,
+      "start_lon": -71.6815,
       "logistics": {
         "start_coords": [
           44.1423,
@@ -115,13 +127,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.6,
+        "distance": 8.8,
         "gain": 3247,
         "max_elev": 4332,
         "min_elev": 1754,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.2
+        "time": 4.6
       },
       "geo": {
         "path": [
@@ -3363,8 +3375,20 @@
       "id": "4e4b728a",
       "name": "Mt Kinsman Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 10.4,
+      "elevation_gain": 3200,
       "description": "Direct route from NH-116 to both Kinsman summits.",
       "tags": [],
+      "parking_info": "Kinsman Trailhead, NH-116",
+      "parking_details": {
+        "capacity": "Small (~12 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.0967,
+      "start_lon": -71.7695,
       "logistics": {
         "start_coords": [
           44.0967,
@@ -3378,13 +3402,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.6,
+        "distance": 10.4,
         "gain": 2545,
         "max_elev": 4335,
         "min_elev": 2197,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 2.5
+        "time": 4.7
       },
       "geo": {
         "path": [

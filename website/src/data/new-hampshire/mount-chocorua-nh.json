@@ -107,34 +107,31 @@
       "distance_miles": 8.5
     }
   ],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the summit, worth every step!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Piper Trail was challenging but rewarding. Great hike!",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Champney Falls Trail had beautiful scenery and nice waterfalls.",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:33:56.045787",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:35:09.866415",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "905f9d31",
       "name": "Piper Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 5.4,
+      "elevation_gain": 2700,
       "description": "Trail to Mount Chocorua summit.",
       "tags": [],
+      "parking_info": "Piper Trail Parking, NH-16, Chocorua",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.9318,
+      "start_lon": -71.2366,
       "logistics": {
         "start_coords": [
           43.9318,
@@ -148,13 +145,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.6,
+        "distance": 5.4,
         "gain": 3064,
         "max_elev": 3488,
         "min_elev": 633,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 3.4
+        "time": 3.3
       },
       "geo": {
         "path": [
@@ -2166,8 +2163,20 @@
       "id": "1050b698",
       "name": "Champney Falls Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 4.6,
+      "elevation_gain": 2300,
       "description": "Trail to Mount Chocorua summit.",
       "tags": [],
+      "parking_info": "Champney Falls Trailhead, Kancamagus Highway",
+      "parking_details": {
+        "capacity": "Medium (~25 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.989,
+      "start_lon": -71.318,
       "logistics": {
         "start_coords": [
           43.989,
@@ -2181,7 +2190,7 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.5,
+        "distance": 4.6,
         "gain": 2431,
         "max_elev": 3488,
         "min_elev": 1225,
@@ -3767,8 +3776,20 @@
       "id": "2c05175a",
       "name": "Liberty Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 5.4,
+      "elevation_gain": 2700,
       "description": "Trail to Mount Chocorua summit.",
       "tags": [],
+      "parking_info": "Liberty Trail Parking",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 43.9289,
+      "start_lon": -71.2879,
       "logistics": {
         "start_coords": [
           43.9289,
@@ -3782,13 +3803,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.2,
+        "distance": 5.4,
         "gain": 2199,
         "max_elev": 3488,
         "min_elev": 1309,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.8
+        "time": 2.9
       },
       "geo": {
         "path": [
@@ -4952,51 +4973,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the summit, worth every step!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Piper Trail was challenging but rewarding. Great hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Champney Falls Trail had beautiful scenery and nice waterfalls."
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -5303,9 +5279,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,490 feet, Mount Chocorua offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Piper Trail**, covers 5.4 miles and is rated \n    Moderate. Trail to Mount Chocorua summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Passaconaway lies just 5.4 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:37:29.178869",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,490 feet, Mount Chocorua offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Piper Trail**, covers 5.4 miles and is rated \n    Moderate. Trail to Mount Chocorua summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Passaconaway lies just 5.4 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

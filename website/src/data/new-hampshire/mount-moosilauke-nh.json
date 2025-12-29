@@ -96,34 +96,31 @@
       "distance_miles": 8.8
     }
   ],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the summit, worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Gorge Brook Trail was challenging but rewarding.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the wildflowers along the Beaver Brook Trail!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:39:57.615827",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:41:43.964852",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "91e4e0cb",
       "name": "Gorge Brook Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 4.9,
+      "elevation_gain": 2450,
       "description": "Trail to Mount Moosilauke summit.",
       "tags": [],
+      "parking_info": "Ravine Lodge, Ravine Rd, Warren",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free (DOC)",
+        "shuttle": null
+      },
+      "start_lat": 44.0244,
+      "start_lon": -71.8147,
       "logistics": {
         "start_coords": [
           44.0244,
@@ -137,13 +134,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 1.6,
+        "distance": 4.9,
         "gain": 1024,
         "max_elev": 4795,
         "min_elev": 4045,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 1.0
+        "time": 2.1
       },
       "geo": {
         "path": [
@@ -1324,8 +1321,20 @@
       "id": "6a4b6533",
       "name": "Gorge Brook & Carriage Loop",
       "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 4.9,
+      "elevation_gain": 2450,
       "description": "Trail to Mount Moosilauke summit.",
       "tags": [],
+      "parking_info": "Ravine Lodge, Ravine Rd, Warren",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free (DOC)",
+        "shuttle": null
+      },
+      "start_lat": 44.0244,
+      "start_lon": -71.8147,
       "logistics": {
         "start_coords": [
           44.0244,
@@ -1339,13 +1348,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.1,
-        "gain": 1298,
+        "distance": 4.9,
+        "gain": 2450,
         "max_elev": 4795,
         "min_elev": 4045,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 1.7
+        "time": 2.9
       },
       "geo": {
         "path": [
@@ -3377,8 +3386,20 @@
       "id": "441252e0",
       "name": "Beaver Brook Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 6.2,
+      "elevation_gain": 3100,
       "description": "Trail to Mount Moosilauke summit.",
       "tags": [],
+      "parking_info": "Beaver Brook Trailhead, NH-112",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.0462,
+      "start_lon": -71.7973,
       "logistics": {
         "start_coords": [
           44.0462,
@@ -3392,13 +3413,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.6,
+        "distance": 6.2,
         "gain": 3316,
         "max_elev": 4795,
         "min_elev": 1782,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 2.9
+        "time": 3.7
       },
       "geo": {
         "path": [
@@ -5136,51 +5157,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the summit, worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Gorge Brook Trail was challenging but rewarding."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the wildflowers along the Beaver Brook Trail!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -5472,9 +5448,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,802 feet, Mount Moosilauke ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Gorge Brook Trail**, covers 4.9 miles and is rated \n    Hard. Trail to Mount Moosilauke summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** South Kinsman lies just 8.2 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:40:53.380475",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 4,802 feet, Mount Moosilauke ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Gorge Brook Trail**, covers 4.9 miles and is rated \n    Hard. Trail to Mount Moosilauke summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** South Kinsman lies just 8.2 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

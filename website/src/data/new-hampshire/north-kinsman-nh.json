@@ -71,18 +71,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:42:15.133718",
+    "refined_at": "2025-12-29T13:46:48.665741",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:42:55.940894",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:47:14.258988",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "124b9f72",
       "name": "Kinsman Ridge Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.6,
+      "elevation_gain": 3400,
       "description": "Rugged trail via Lonesome Lake and Kinsman Pond to both Kinsmans.",
       "tags": [],
+      "parking_info": "Lafayette Place Campground, Franconia Notch",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.1423,
+      "start_lon": -71.6815,
       "logistics": {
         "start_coords": [
           44.1423,
@@ -96,13 +108,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.9,
+        "distance": 9.6,
         "gain": 2930,
         "max_elev": 4292,
         "min_elev": 1754,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 2.7
+        "time": 4.7
       },
       "geo": {
         "path": [

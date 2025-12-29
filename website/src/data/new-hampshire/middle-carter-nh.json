@@ -70,18 +70,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T01:05:10.324307",
+    "refined_at": "2025-12-29T14:45:12.173979",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T01:05:51.295359",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:45:52.917011",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "062090eb",
       "name": "Carter-Moriah Trail to Middle Carter",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.8,
+      "elevation_gain": 3500,
       "description": "Wooded summit on the Carter Range traverse.",
       "tags": [],
+      "parking_info": "Nineteen Mile Brook Trailhead, NH-16",
+      "parking_details": {
+        "capacity": "Medium (~25 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.3012,
+      "start_lon": -71.2032,
       "logistics": {
         "start_coords": [
           44.3012,
@@ -95,13 +107,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.1,
+        "distance": 9.8,
         "gain": 2823,
         "max_elev": 4619,
         "min_elev": 1980,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 2.5
+        "time": 4.7
       },
       "geo": {
         "path": [

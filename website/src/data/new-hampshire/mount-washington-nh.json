@@ -224,34 +224,31 @@
       "distance_miles": 3.5
     }
   ],
-  "social_pulse": 9,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the summit, worth every step!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Challenging trails but the scenery is breathtaking.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the Tuckerman Ravine Trail, great experience!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T14:38:56.579883",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T14:44:47.444619",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "87742c37",
       "name": "Tuckerman Ravine Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.5,
+      "elevation_gain": 4250,
       "description": "Trail to Mount Washington summit.",
       "tags": [],
+      "parking_info": "Pinkham Notch Visitor Center",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2575,
+      "start_lon": -71.2532,
       "logistics": {
         "start_coords": [
           44.2575,
@@ -265,13 +262,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.6,
+        "distance": 8.5,
         "gain": 4354,
         "max_elev": 6280,
         "min_elev": 2024,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.4
+        "time": 5.0
       },
       "geo": {
         "path": [
@@ -2505,8 +2502,20 @@
       "id": "599299c5",
       "name": "Tuckerman Ravine & Lion Head Loop",
       "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 8.5,
+      "elevation_gain": 4250,
       "description": "Trail to Mount Washington summit.",
       "tags": [],
+      "parking_info": "Pinkham Notch Visitor Center",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2575,
+      "start_lon": -71.2532,
       "logistics": {
         "start_coords": [
           44.2575,
@@ -2520,13 +2529,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 7.0,
-        "gain": 4385,
+        "distance": 8.5,
+        "gain": 4250,
         "max_elev": 6280,
         "min_elev": 2024,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 4.5
+        "time": 5.0
       },
       "geo": {
         "path": [
@@ -6705,8 +6714,20 @@
       "id": "168671d7",
       "name": "Lion Head Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.5,
+      "elevation_gain": 4250,
       "description": "Trail to Mount Washington summit.",
       "tags": [],
+      "parking_info": "Pinkham Notch Visitor Center",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2575,
+      "start_lon": -71.2532,
       "logistics": {
         "start_coords": [
           44.2575,
@@ -6720,13 +6741,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.6,
+        "distance": 8.5,
         "gain": 4354,
         "max_elev": 6280,
         "min_elev": 2024,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.4
+        "time": 5.0
       },
       "geo": {
         "path": [
@@ -8960,8 +8981,20 @@
       "id": "1c8fed28",
       "name": "Huntington Ravine Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.6,
+      "elevation_gain": 4300,
       "description": "Trail to Mount Washington summit.",
       "tags": [],
+      "parking_info": "Pinkham Notch Visitor Center",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2575,
+      "start_lon": -71.2532,
       "logistics": {
         "start_coords": [
           44.2575,
@@ -8975,13 +9008,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.6,
+        "distance": 8.6,
         "gain": 4354,
         "max_elev": 6280,
         "min_elev": 2024,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.4
+        "time": 5.0
       },
       "geo": {
         "path": [
@@ -11215,8 +11248,20 @@
       "id": "88b16026",
       "name": "Boott Spur Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 9.0,
+      "elevation_gain": 4500,
       "description": "Trail to Mount Washington summit.",
       "tags": [],
+      "parking_info": "Pinkham Notch Visitor Center",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2575,
+      "start_lon": -71.2532,
       "logistics": {
         "start_coords": [
           44.2575,
@@ -11230,13 +11275,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.6,
+        "distance": 9.0,
         "gain": 4354,
         "max_elev": 6280,
         "min_elev": 2024,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.4
+        "time": 5.2
       },
       "geo": {
         "path": [
@@ -13470,8 +13515,20 @@
       "id": "9efb3408",
       "name": "Ammonoosuc Ravine Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 7.6,
+      "elevation_gain": 3800,
       "description": "Trail to Mount Washington summit.",
       "tags": [],
+      "parking_info": "Ammonoosuc Ravine Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2703,
+      "start_lon": -71.3504,
       "logistics": {
         "start_coords": [
           44.2703,
@@ -13485,13 +13542,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.3,
+        "distance": 7.6,
         "gain": 3876,
         "max_elev": 6280,
         "min_elev": 2653,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.4
+        "time": 4.5
       },
       "geo": {
         "path": [
@@ -17653,8 +17710,20 @@
       "id": "8f75c8e2",
       "name": "Jewell Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 7.6,
+      "elevation_gain": 3800,
       "description": "Trail to Mount Washington summit.",
       "tags": [],
+      "parking_info": "Ammonoosuc Ravine Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2703,
+      "start_lon": -71.3504,
       "logistics": {
         "start_coords": [
           44.2703,
@@ -17668,13 +17737,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.3,
+        "distance": 7.6,
         "gain": 3876,
         "max_elev": 6280,
         "min_elev": 2653,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.4
+        "time": 4.5
       },
       "geo": {
         "path": [
@@ -21836,8 +21905,20 @@
       "id": "d96fb608",
       "name": "Crawford Path",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.6,
+      "elevation_gain": 4300,
       "description": "Trail to Mount Washington summit.",
       "tags": [],
+      "parking_info": "Crawford Notch Depot",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2177,
+      "start_lon": -71.4108,
       "logistics": {
         "start_coords": [
           44.2177,
@@ -21851,13 +21932,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 9.7,
+        "distance": 8.6,
         "gain": 4899,
         "max_elev": 6280,
         "min_elev": 1890,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 5.7
+        "time": 5.3
       },
       "geo": {
         "path": [
@@ -27551,8 +27632,20 @@
       "id": "fb8f30c4",
       "name": "Great Gulf Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.6,
+      "elevation_gain": 4300,
       "description": "Trail to Mount Washington summit.",
       "tags": [],
+      "parking_info": "Great Gulf Trailhead",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.329,
+      "start_lon": -71.228,
       "logistics": {
         "start_coords": [
           44.329,
@@ -27566,13 +27659,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 9.7,
+        "distance": 8.6,
         "gain": 5270,
         "max_elev": 6280,
         "min_elev": 1237,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 5.9
+        "time": 5.5
       },
       "geo": {
         "path": [
@@ -31117,51 +31210,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the summit, worth every step!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Challenging trails but the scenery is breathtaking."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the Tuckerman Ravine Trail, great experience!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -31503,9 +31551,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 6,288 feet, Mount Washington ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Tuckerman Ravine Trail**, covers 8.5 miles and is rated \n    Hard. Trail to Mount Washington summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Monroe lies just 1.4 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T01:04:29.579742",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 6,288 feet, Mount Washington ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Tuckerman Ravine Trail**, covers 8.5 miles and is rated \n    Hard. Trail to Mount Washington summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Monroe lies just 1.4 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

@@ -97,34 +97,31 @@
     "average_rating": null
   },
   "nearby_peaks": [],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Amazing views from the summit, worth the hike!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "West Ridge Trail was well-maintained and scenic.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the Manning Trail, great elevation gain!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:29:48.931315",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:31:58.606160",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "c54c91bf",
       "name": "West Ridge Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.4,
+      "elevation_gain": 1220,
       "description": "Trail to Mount Cardigan summit.",
       "tags": [],
+      "parking_info": "Cardigan Lodge (AMC), Shem Valley Rd, Alexandria",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day",
+        "shuttle": null
+      },
+      "start_lat": 43.6498,
+      "start_lon": -71.9415,
       "logistics": {
         "start_coords": [
           43.6498,
@@ -138,13 +135,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.7,
+        "distance": 2.4,
         "gain": 1751,
         "max_elev": 3146,
         "min_elev": 1460,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.1
+        "time": 1.7
       },
       "geo": {
         "path": [
@@ -1622,8 +1619,20 @@
       "id": "507d7c10",
       "name": "Clark Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.3,
+      "elevation_gain": 1150,
       "description": "Trail to Mount Cardigan summit.",
       "tags": [],
+      "parking_info": "Cardigan Lodge (AMC), Shem Valley Rd, Alexandria",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day",
+        "shuttle": null
+      },
+      "start_lat": 43.6498,
+      "start_lon": -71.9415,
       "logistics": {
         "start_coords": [
           43.6498,
@@ -1637,13 +1646,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.7,
+        "distance": 2.3,
         "gain": 1751,
         "max_elev": 3146,
         "min_elev": 1460,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.1
+        "time": 1.6
       },
       "geo": {
         "path": [
@@ -3121,8 +3130,20 @@
       "id": "cd785247",
       "name": "Manning Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 3.4,
+      "elevation_gain": 1700,
       "description": "Trail to Mount Cardigan summit.",
       "tags": [],
+      "parking_info": "Cardigan State Park, Orange",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Check conditions",
+        "fee": "$4/adult",
+        "shuttle": null
+      },
+      "start_lat": 43.6485,
+      "start_lon": -71.8705,
       "logistics": {
         "start_coords": [
           43.6485,
@@ -3136,13 +3157,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.2,
+        "distance": 3.4,
         "gain": 1388,
         "max_elev": 2663,
         "min_elev": 1332,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.4
+        "time": 1.8
       },
       "geo": {
         "path": [
@@ -4026,8 +4047,20 @@
       "id": "cd448661",
       "name": "Holt Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 2.6,
+      "elevation_gain": 1300,
       "description": "Trail to Mount Cardigan summit.",
       "tags": [],
+      "parking_info": "Cardigan Lodge (AMC), Shem Valley Rd, Alexandria",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "$5/day",
+        "shuttle": null
+      },
+      "start_lat": 43.6498,
+      "start_lon": -71.9415,
       "logistics": {
         "start_coords": [
           43.6498,
@@ -4041,13 +4074,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.7,
+        "distance": 2.6,
         "gain": 1751,
         "max_elev": 3146,
         "min_elev": 1460,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.1
+        "time": 1.7
       },
       "geo": {
         "path": [
@@ -5546,51 +5579,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Amazing views from the summit, worth the hike!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "West Ridge Trail was well-maintained and scenic."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the Manning Trail, great elevation gain!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -5866,9 +5854,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,121 feet, Mount Cardigan offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **West Ridge Trail**, covers 2.4 miles and is rated \n    Moderate. Trail to Mount Cardigan summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:36:05.904094",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">Rising to 3,121 feet, Mount Cardigan offers one of New Hampshire's finest hiking experiences. \n        Whether you're seeking panoramic views, a family-friendly outing, or a quick escape into nature, \n        this peak delivers.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **West Ridge Trail**, covers 2.4 miles and is rated \n    Moderate. Trail to Mount Cardigan summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">This peak offers a standalone hiking experience with minimal nearby alternatives.</p>\n        </div>\n    </div>\n    "
 }

@@ -72,18 +72,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:38:50.642240",
+    "refined_at": "2025-12-29T13:36:00.911857",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:39:31.570349",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T13:36:25.180169",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "d4557901",
       "name": "Tripyramid Loop via South Slide",
       "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 11.0,
+      "elevation_gain": 3050,
       "description": "Loop via South Slide (easier) up and North Slide down.",
       "tags": [],
+      "parking_info": "Livermore Rd Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 43.9485,
+      "start_lon": -71.4915,
       "logistics": {
         "start_coords": [
           43.9485,
@@ -97,13 +109,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 14.4,
-        "gain": 3588,
+        "distance": 11.0,
+        "gain": 3050,
         "max_elev": 4163,
         "min_elev": 1456,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 6.6
+        "time": 5.2
       },
       "geo": {
         "path": [

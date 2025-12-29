@@ -71,18 +71,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:48:50.156779",
+    "refined_at": "2025-12-29T14:25:56.770904",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:49:31.210738",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:26:37.665760",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "332e7b54",
       "name": "Gale River Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 10.0,
+      "elevation_gain": 3400,
       "description": "Scenic route via Galehead Hut to South Twin.",
       "tags": [],
+      "parking_info": "Gale River Trailhead, Gale River Loop Rd",
+      "parking_details": {
+        "capacity": "Small (~20 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.218,
+      "start_lon": -71.613,
       "logistics": {
         "start_coords": [
           44.218,
@@ -96,13 +108,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.4,
+        "distance": 10.0,
         "gain": 3543,
         "max_elev": 4892,
         "min_elev": 1592,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.9
+        "time": 5.1
       },
       "geo": {
         "path": [

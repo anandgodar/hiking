@@ -70,18 +70,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:46:07.004355",
+    "refined_at": "2025-12-29T14:23:05.311375",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:46:47.852271",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:23:46.108748",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "da184642",
       "name": "Zealand Trail to Zealand",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 11.2,
+      "elevation_gain": 2100,
       "description": "Scenic flat approach via Zealand Falls Hut, then steep to summit.",
       "tags": [],
+      "parking_info": "Zealand Trailhead, Zealand Rd",
+      "parking_details": {
+        "capacity": "Medium (~30 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2262,
+      "start_lon": -71.4768,
       "logistics": {
         "start_coords": [
           44.2262,
@@ -95,13 +107,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 7.9,
+        "distance": 11.2,
         "gain": 3481,
         "max_elev": 4510,
         "min_elev": 1933,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 4.4
+        "time": 5.5
       },
       "geo": {
         "path": [

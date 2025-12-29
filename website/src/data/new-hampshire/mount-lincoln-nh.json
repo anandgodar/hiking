@@ -72,34 +72,31 @@
       "distance_miles": 2.7
     }
   ],
-  "social_pulse": 7,
-  "reviews": [
-    {
-      "author": "HikerUsername1",
-      "rating": 5,
-      "text": "Stunning views from the summit, worth every step!",
-      "time": "2 days ago"
-    },
-    {
-      "author": "TrailExplorer",
-      "rating": 4,
-      "text": "Great trail, but the rocks can be tricky in spots.",
-      "time": "1 week ago"
-    },
-    {
-      "author": "OutdoorFan",
-      "rating": 5,
-      "text": "Loved the Franconia Ridge Loop, amazing scenery!",
-      "time": "4 days ago"
-    }
-  ],
+  "meta": {
+    "refined_at": "2025-12-29T13:48:04.964834",
+    "refiner_version": "2.1.0",
+    "last_updated": "2025-12-29T13:48:45.830561",
+    "pipeline_version": "3.1"
+  },
   "trails": [
     {
       "id": "199fcd2b",
       "name": "Franconia Ridge Loop (via Falling Waters)",
       "type": "Loop",
+      "difficulty": "Hard",
+      "distance_miles": 7.8,
+      "elevation_gain": 3900,
       "description": "Trail to Mount Lincoln summit.",
       "tags": [],
+      "parking_info": "Franconia Ridge Loop (via Falling Waters) Trailhead",
+      "parking_details": {
+        "capacity": "Medium (~40 cars)",
+        "status": "Check conditions",
+        "fee": "Check Signage",
+        "shuttle": null
+      },
+      "start_lat": 44.1427,
+      "start_lon": -71.6834,
       "logistics": {
         "start_coords": [
           44.1427,
@@ -113,13 +110,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 7.2,
-        "gain": 3969,
+        "distance": 7.8,
+        "gain": 3900,
         "max_elev": 5017,
         "min_elev": 1754,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 4.4
+        "time": 4.5
       },
       "geo": {
         "path": [
@@ -4704,51 +4701,6 @@
         "addressRegion": "New Hampshire",
         "addressCountry": "US"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": 4.7,
-        "reviewCount": 3,
-        "bestRating": 5,
-        "worstRating": 1
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "HikerUsername1"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Stunning views from the summit, worth every step!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "TrailExplorer"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 4
-          },
-          "reviewBody": "Great trail, but the rocks can be tricky in spots."
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "OutdoorFan"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": 5
-          },
-          "reviewBody": "Loved the Franconia Ridge Loop, amazing scenery!"
-        }
-      ],
       "containsPlace": [
         {
           "@type": "Place",
@@ -5040,9 +4992,5 @@
       "facebook": "https://www.facebook.com/sharer/sharer.php?u="
     }
   },
-  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,089 feet, Mount Lincoln ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Franconia Ridge Loop (via Falling Waters)**, covers 7.8 miles and is rated \n    Hard. Trail to Mount Lincoln summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Lafayette lies just 0.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    ",
-  "meta": {
-    "last_updated": "2025-12-28T00:44:04.056694",
-    "pipeline_version": "3.0"
-  }
+  "generated_description": "\n    <div class=\"mountain-description prose prose-stone max-w-none\">\n        <p class=\"text-lg text-stone-700 leading-relaxed mb-6\">At 5,089 feet, Mount Lincoln ranks among New Hampshire's celebrated 4000-Footers\u2014a \n        collection of 48 peaks that challenge and inspire hikers throughout the Northeast. This hard \n        summit offers a quintessential White Mountain experience.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Popular Routes</h2>\n        <p class=\"text-stone-600 leading-relaxed mb-4\">The most popular route, **Franconia Ridge Loop (via Falling Waters)**, covers 7.8 miles and is rated \n    Hard. Trail to Mount Lincoln summit.</p>\n\n        <h2 class=\"text-xl font-bold text-stone-900 mt-8 mb-4\">Peak Bagging</h2>\n        <div class=\"bg-emerald-50 border border-emerald-100 p-4 rounded-xl\">\n            <p class=\"text-emerald-800\">**Extend Your Adventure:** Mount Lafayette lies just 0.9 \n        miles away, making it an excellent addition for ambitious hikers looking to bag multiple summits.</p>\n        </div>\n    </div>\n    "
 }

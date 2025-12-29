@@ -56,18 +56,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T01:07:13.040416",
+    "refined_at": "2025-12-29T14:55:03.449767",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T01:07:53.852952",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:55:44.281106",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "ff3e7628",
       "name": "Starr King Trail",
       "type": "Out & Back",
+      "difficulty": "Moderate",
+      "distance_miles": 7.2,
+      "elevation_gain": 2700,
       "description": "Route via Mount Starr King to Waumbek summit.",
       "tags": [],
+      "parking_info": "Starr King Trailhead, US-2 Jefferson",
+      "parking_details": {
+        "capacity": "Small (~10 cars)",
+        "status": "Check conditions",
+        "fee": "Free",
+        "shuttle": null
+      },
+      "start_lat": 44.42,
+      "start_lon": -71.472,
       "logistics": {
         "start_coords": [
           44.42,
@@ -81,13 +93,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.0,
+        "distance": 7.2,
         "gain": 2844,
         "max_elev": 3991,
         "min_elev": 1383,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.7
+        "time": 3.8
       },
       "geo": {
         "path": [

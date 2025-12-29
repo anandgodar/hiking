@@ -71,18 +71,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:52:14.181154",
+    "refined_at": "2025-12-29T14:29:34.146062",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T00:52:55.011244",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:30:14.890498",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "d27a765a",
       "name": "North Twin Trail",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 8.6,
+      "elevation_gain": 2950,
       "description": "Direct route to North Twin with spectacular views.",
       "tags": [],
+      "parking_info": "Haystack Road Trailhead",
+      "parking_details": {
+        "capacity": "Small (~15 cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.226,
+      "start_lon": -71.594,
       "logistics": {
         "start_coords": [
           44.226,
@@ -96,13 +108,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 8.0,
+        "distance": 8.6,
         "gain": 3379,
         "max_elev": 4699,
         "min_elev": 1616,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.4
+        "time": 4.6
       },
       "geo": {
         "path": [

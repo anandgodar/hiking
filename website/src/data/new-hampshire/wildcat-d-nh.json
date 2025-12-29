@@ -91,18 +91,30 @@
     }
   ],
   "meta": {
-    "refined_at": "2025-12-28T00:59:02.947463",
+    "refined_at": "2025-12-29T14:34:33.986723",
     "refiner_version": "2.1.0",
-    "last_updated": "2025-12-28T01:00:24.403363",
-    "pipeline_version": "3.0"
+    "last_updated": "2025-12-29T14:35:55.443202",
+    "pipeline_version": "3.1"
   },
   "trails": [
     {
       "id": "107e6d7c",
       "name": "Wildcat Ridge Trail to D",
       "type": "Out & Back",
+      "difficulty": "Hard",
+      "distance_miles": 5.6,
+      "elevation_gain": 2200,
       "description": "Trail to Wildcat D with gondola views option.",
       "tags": [],
+      "parking_info": "Pinkham Notch Visitor Center, NH-16",
+      "parking_details": {
+        "capacity": "Large (100+ cars)",
+        "status": "Check conditions",
+        "fee": "Free (WMNF)",
+        "shuttle": null
+      },
+      "start_lat": 44.2575,
+      "start_lon": -71.2532,
       "logistics": {
         "start_coords": [
           44.2575,
@@ -116,13 +128,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.8,
+        "distance": 5.6,
         "gain": 2318,
         "max_elev": 4035,
         "min_elev": 1943,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 2.1
+        "time": 3.0
       },
       "geo": {
         "path": [
@@ -1471,8 +1483,20 @@
       "id": "ac351f27",
       "name": "Gondola + Hike",
       "type": "Point to Point",
+      "difficulty": "Easy",
+      "distance_miles": 1.0,
+      "elevation_gain": 200,
       "description": "Take gondola up, short hike to true summit. Seasonal.",
       "tags": [],
+      "parking_info": "Wildcat Mountain Ski Area",
+      "parking_details": {
+        "capacity": "Large (200+ cars)",
+        "status": "Seasonal - check gondola schedule",
+        "fee": "Gondola ticket required",
+        "shuttle": null
+      },
+      "start_lat": 44.249,
+      "start_lon": -71.235,
       "logistics": {
         "start_coords": [
           44.249,
@@ -1486,13 +1510,13 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 0.8,
+        "distance": 1.0,
         "gain": 497,
         "max_elev": 4035,
         "min_elev": 3643,
         "type": "Point to Point",
         "difficulty": "Easy",
-        "time": 0.5
+        "time": 0.6
       },
       "geo": {
         "path": [
