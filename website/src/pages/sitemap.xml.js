@@ -1,17 +1,16 @@
 export async function GET() {
-  const siteUrl = "https://summitseeker.io"; // REPLACE THIS with your actual domain when deployed
+  const siteUrl = "https://summitseeker.io";
 
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
-  const pages = new Set();
+  const pages = [];
 
-  // 2. Add Static & Category Pages
-  pages.add(`${siteUrl}/`);
-  pages.add(`${siteUrl}/privacy`);
-  pages.add(`${siteUrl}/terms`);
+  // 2. Add Homepage with highest priority
+  pages.push({ url: `${siteUrl}/`, priority: 1.0, changefreq: 'daily' });
 
   const states = new Set();
   const discoverTags = new Set();
+  const mountainPages = [];
 
   Object.values(allFiles).forEach(file => {
     const m = file.default;
@@ -20,8 +19,12 @@ export async function GET() {
     const stateSlug = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
     states.add(stateSlug);
 
-    // Add Mountain Page
-    pages.add(`${siteUrl}/${stateSlug}/${m.slug}`);
+    // Add Mountain Page with high priority (main content)
+    mountainPages.push({
+      url: `${siteUrl}/${stateSlug}/hikes/${m.slug}`,
+      priority: 0.9,
+      changefreq: 'weekly'
+    });
 
     // Collect Tags for Discover Pages
     const tags = [
@@ -41,27 +44,53 @@ export async function GET() {
     });
   });
 
-  // 3. Add State & Discover URLs
+  // 3. Add State Pages (medium-high priority)
   states.forEach(s => {
-      pages.add(`${siteUrl}/${s}`);
-      discoverTags.forEach(t => {
-          pages.add(`${siteUrl}/${s}/hikes/${t}`);
+      pages.push({
+        url: `${siteUrl}/${s}`,
+        priority: 0.8,
+        changefreq: 'weekly'
       });
   });
 
-  discoverTags.forEach(t => {
-      pages.add(`${siteUrl}/discover/${t}`);
+  // 4. Add State-specific tag pages (medium priority)
+  states.forEach(s => {
+      discoverTags.forEach(t => {
+          pages.push({
+            url: `${siteUrl}/${s}/hikes/${t}`,
+            priority: 0.6,
+            changefreq: 'weekly'
+          });
+      });
   });
 
-  // 4. Generate XML
+  // 5. Add Discover tag pages (medium priority)
+  discoverTags.forEach(t => {
+      pages.push({
+        url: `${siteUrl}/discover/${t}`,
+        priority: 0.7,
+        changefreq: 'weekly'
+      });
+  });
+
+  // 6. Add static pages (lower priority)
+  pages.push({ url: `${siteUrl}/privacy`, priority: 0.3, changefreq: 'monthly' });
+  pages.push({ url: `${siteUrl}/terms`, priority: 0.3, changefreq: 'monthly' });
+
+  // 7. Combine all pages
+  const allPages = [...pages, ...mountainPages];
+
+  // 8. Generate XML
+  const lastmod = new Date().toISOString().split('T')[0];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      ${[...pages].map(url => `
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+            xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      ${allPages.map(page => `
         <url>
-          <loc>${url}</loc>
-          <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
-          <changefreq>weekly</changefreq>
-          <priority>0.8</priority>
+          <loc>${page.url}</loc>
+          <lastmod>${lastmod}</lastmod>
+          <changefreq>${page.changefreq}</changefreq>
+          <priority>${page.priority}</priority>
         </url>
       `).join('')}
     </urlset>`;

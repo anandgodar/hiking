@@ -18,6 +18,25 @@ const {
 <!doctype html>
 <html lang="en" class="scroll-smooth">
 	<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- Preconnect to external domains for performance -->
+        <link rel="preconnect" href="https://api.mapbox.com" crossorigin />
+        <link rel="preconnect" href="https://api.open-meteo.com" crossorigin />
+        <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+        <link rel="dns-prefetch" href="https://api.mapbox.com" />
+        <link rel="dns-prefetch" href="https://api.open-meteo.com" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.svg" />
+
+        <!-- Theme Color -->
+        <meta name="theme-color" content="#059669" />
+        <meta name="msapplication-TileColor" content="#059669" />
+
         <SEOHead title={title} description={description} image={image} />
 	</head>
 	<body class="bg-stone-50 text-stone-900 font-sans antialiased min-h-screen flex flex-col">

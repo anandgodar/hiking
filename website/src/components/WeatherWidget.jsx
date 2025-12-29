@@ -28,7 +28,7 @@ export default function WeatherWidget({ lat, lon, elevation }) {
       }
     }
     fetchWeather();
-  }, [lat, lon]);
+  }, [lat, lon, elevation]);
 
   // SMART ADJUSTMENT FUNCTION
   const getAdjustedTemp = (apiTemp) => {

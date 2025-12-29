@@ -50,12 +50,12 @@ const description = isMountainPage
   : (propDescription || 'Discover the best hiking trails in New Hampshire. Trail guides, maps, conditions, and tips for the White Mountains and beyond.');
 
 const canonicalUrl = isMountainPage
-  ? `https://summitseeker.com/${mountain.state_slug || 'new-hampshire'}/hikes/${mountain.slug}`
+  ? `https://summitseeker.io/${mountain.state_slug || 'new-hampshire'}/hikes/${mountain.slug}`
   : (propCanonical || Astro.url.href);
 
 const ogImage = isMountainPage
-  ? (mountain.mountain_hero || 'https://summitseeker.com/images/default-mountain.jpg')
-  : (propImage || 'https://summitseeker.com/images/og-default.jpg');
+  ? (mountain.mountain_hero || 'https://summitseeker.io/images/default-mountain.jpg')
+  : (propImage || 'https://summitseeker.io/images/og-default.jpg');
 
 // Schema.org structured data (only for mountain pages)
 const schemaPlace = isMountainPage ? (mountain.seo?.schema_place || {
@@ -91,13 +91,13 @@ const breadcrumbSchema = isMountainPage ? {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://summitseeker.com"
+      "item": "https://summitseeker.io"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": mountain.state || 'New Hampshire',
-      "item": `https://summitseeker.com/${mountain.state_slug || 'new-hampshire'}`
+      "item": `https://summitseeker.io/${mountain.state_slug || 'new-hampshire'}`
     },
     {
       "@type": "ListItem",
@@ -113,12 +113,32 @@ const websiteSchema = !isMountainPage ? {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Summit Seeker",
-  "url": "https://summitseeker.com",
+  "url": "https://summitseeker.io",
   "description": description,
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://summitseeker.com/search?q={search_term_string}",
+    "target": "https://summitseeker.io/search?q={search_term_string}",
     "query-input": "required name=search_term_string"
+  }
+} : null;
+
+// Organization schema for brand recognition
+const organizationSchema = !isMountainPage ? {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Summit Seeker",
+  "url": "https://summitseeker.io",
+  "logo": "https://summitseeker.io/favicon.svg",
+  "description": "Your comprehensive guide to hiking trails in New England. Detailed trail maps, conditions, and expert hiking information.",
+  "sameAs": [
+    "https://twitter.com/summitseekerapp",
+    "https://facebook.com/summitseekerapp",
+    "https://instagram.com/summitseekerapp"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Customer Support",
+    "email": "hello@summitseeker.io"
   }
 } : null;
 ---
@@ -127,6 +147,9 @@ const websiteSchema = !isMountainPage ? {
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta name="keywords" content={isMountainPage ? `${mountain.name}, hiking, trail guide, ${mountain.state}, ${mountain.elevation} ft, outdoor recreation, New England hiking` : 'hiking trails, trail guides, New England hiking, White Mountains, outdoor adventure'} />
+<meta name="author" content="Summit Seeker" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalUrl} />
@@ -146,6 +169,8 @@ const websiteSchema = !isMountainPage ? {
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={ogImage} />
+<meta name="twitter:site" content="@summitseekerapp" />
+<meta name="twitter:creator" content="@summitseekerapp" />
 
 <!-- Geo Tags (only for mountain pages) -->
 {isMountainPage && mountain.lat && mountain.lon && (
@@ -172,4 +197,8 @@ const websiteSchema = !isMountainPage ? {
 
 {websiteSchema && (
   <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+)}
+
+{organizationSchema && (
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
 )}
