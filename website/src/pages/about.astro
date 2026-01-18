@@ -1,0 +1,181 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+const currentYear = new Date().getFullYear();
+---
+
+<Layout
+  title="About Summit Seeker | USA's Free Hiking Trail Database 2026"
+  description="Learn about Summit Seeker - the comprehensive free hiking trail database covering all 50 US states. Our mission, story, and commitment to the hiking community."
+>
+  <!-- Header/Navigation -->
+  <header class="bg-stone-900 border-b border-stone-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="/" class="flex items-center gap-2 text-white hover:text-emerald-400 transition-colors">
+          <svg class="w-7 h-7 text-emerald-500" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L2 22h20L12 2zm0 5l6.5 13h-13L12 7z"/>
+          </svg>
+          <span class="font-black tracking-widest uppercase text-lg">Summit Seeker</span>
+        </a>
+        <nav class="flex items-center gap-6 text-sm font-medium">
+          <a href="/" class="text-stone-300 hover:text-white transition-colors">Home</a>
+          <a href="/about" class="text-emerald-400">About</a>
+          <a href="/contact" class="text-stone-300 hover:text-white transition-colors">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-emerald-900 via-stone-900 to-stone-900 text-white py-20">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-5xl md:text-6xl font-black mb-6">About Summit Seeker</h1>
+        <p class="text-xl text-emerald-100 leading-relaxed">
+          We're building America's most comprehensive free hiking trail database—one trail at a time.
+        </p>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="py-16 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Our Mission -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">Our Mission</h2>
+          <p class="text-stone-700 leading-relaxed">
+            Summit Seeker was created with a simple mission: <strong>make detailed hiking trail information freely accessible to everyone</strong>. We believe that exploring the outdoors shouldn't require expensive subscriptions or paywalls. Every hiker deserves access to accurate trail maps, elevation profiles, safety information, and planning tools—completely free.
+          </p>
+        </div>
+
+        <!-- Why We Built This -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">Why We Built This</h2>
+          <p class="text-stone-700 leading-relaxed mb-4">
+            As passionate hikers ourselves, we've experienced the frustration of:
+          </p>
+          <ul class="space-y-2 text-stone-700 ml-6">
+            <li>Paywalled trail information on other platforms</li>
+            <li>Incomplete or outdated trail descriptions</li>
+            <li>Scattered information across dozens of sources</li>
+            <li>Lack of detailed safety information and seasonal considerations</li>
+          </ul>
+          <p class="text-stone-700 leading-relaxed mt-4">
+            We started Summit Seeker to solve these problems. Our platform provides comprehensive trail guides with interactive maps, elevation charts, parking details, seasonal tips, and safety warnings—all in one place, all for free.
+          </p>
+        </div>
+
+        <!-- What We Cover -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">What We Cover</h2>
+          <p class="text-stone-700 leading-relaxed mb-4">
+            Summit Seeker is expanding to cover all 50 states with detailed information including:
+          </p>
+          <ul class="space-y-2 text-stone-700 ml-6">
+            <li><strong>Interactive trail maps</strong> with GPS coordinates and waypoints</li>
+            <li><strong>Elevation profiles</strong> showing climb patterns and difficulty</li>
+            <li><strong>Parking information</strong> with exact coordinates and fees</li>
+            <li><strong>Seasonal guides</strong> for optimal visit timing</li>
+            <li><strong>Safety warnings</strong> and emergency contact information</li>
+            <li><strong>Trail features</strong> like waterfalls, lakes, summits, and viewpoints</li>
+            <li><strong>Difficulty ratings</strong> based on distance, elevation gain, and terrain</li>
+          </ul>
+        </div>
+
+        <!-- Our Commitment -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">Our Commitment to You</h2>
+          <div class="bg-emerald-50 border-l-4 border-emerald-500 p-6 my-6">
+            <p class="text-stone-800 font-semibold mb-2">100% Free. Forever.</p>
+            <p class="text-stone-700 text-sm">
+              Summit Seeker will always provide core trail information completely free. We're supported by display advertising and affiliate partnerships with outdoor gear retailers—never paywalls or subscriptions.
+            </p>
+          </div>
+          <ul class="space-y-3 text-stone-700">
+            <li><strong>✓ Accurate Information:</strong> We verify trail data through official sources (National Park Service, USFS, state parks) and hiker feedback.</li>
+            <li><strong>✓ Regular Updates:</strong> Trail conditions change—we continuously update our database with seasonal closures, permit requirements, and route changes.</li>
+            <li><strong>✓ Safety First:</strong> Every trail includes safety warnings, emergency contacts, and hazard information.</li>
+            <li><strong>✓ Community-Driven:</strong> We welcome corrections and updates from hikers who've recently completed trails.</li>
+          </ul>
+        </div>
+
+        <!-- Current Coverage -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">Current Coverage</h2>
+          <p class="text-stone-700 leading-relaxed mb-4">
+            We're actively expanding nationwide! Currently documenting trails in:
+          </p>
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-3 my-6">
+            <div class="bg-stone-100 p-3 rounded">
+              <span class="font-bold text-emerald-600">California</span>
+              <p class="text-xs text-stone-600">15 trails</p>
+            </div>
+            <div class="bg-stone-100 p-3 rounded">
+              <span class="font-bold text-emerald-600">New Hampshire</span>
+              <p class="text-xs text-stone-600">48 trails</p>
+            </div>
+            <div class="bg-stone-100 p-3 rounded">
+              <span class="font-bold text-emerald-600">Maine</span>
+              <p class="text-xs text-stone-600">42 trails</p>
+            </div>
+            <div class="bg-stone-100 p-3 rounded">
+              <span class="font-bold text-emerald-600">Vermont</span>
+              <p class="text-xs text-stone-600">28 trails</p>
+            </div>
+            <div class="bg-stone-100 p-3 rounded">
+              <span class="font-bold text-emerald-600">New York</span>
+              <p class="text-xs text-stone-600">5 trails</p>
+            </div>
+            <div class="bg-stone-100 p-3 rounded opacity-50">
+              <span class="font-bold text-stone-500">More states...</span>
+              <p class="text-xs text-stone-500">Coming 2026</p>
+            </div>
+          </div>
+          <p class="text-stone-700 text-sm italic">
+            Next up: Colorado, Washington, Arizona, Utah, Oregon, North Carolina, Montana, Wyoming, Tennessee, and Alaska.
+          </p>
+        </div>
+
+        <!-- Data Sources -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">Our Data Sources</h2>
+          <p class="text-stone-700 leading-relaxed mb-4">
+            We source trail information from official, publicly available sources:
+          </p>
+          <ul class="space-y-2 text-stone-700 ml-6">
+            <li>National Park Service (NPS) trail data</li>
+            <li>US Forest Service (USFS) recreation databases</li>
+            <li>State park systems and land management agencies</li>
+            <li>GPS tracks and elevation data from USGS and public GIS sources</li>
+            <li>Verified hiker reports and feedback</li>
+          </ul>
+        </div>
+
+        <!-- Contact CTA -->
+        <div class="bg-stone-900 text-white p-8 rounded-lg text-center mt-12">
+          <h2 class="text-2xl font-black mb-3">Have Questions or Feedback?</h2>
+          <p class="text-stone-300 mb-6">We'd love to hear from you. Report trail issues, suggest new trails, or just say hi!</p>
+          <a href="/contact" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-3 rounded-lg transition-colors">
+            Contact Us
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <SiteFooter />
+</Layout>
+
+<style>
+  .prose ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  .prose li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+</style>

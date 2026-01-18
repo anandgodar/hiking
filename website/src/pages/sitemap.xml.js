@@ -89,8 +89,11 @@ export async function GET() {
   });
 
   // 6. Add static pages (lower priority)
+  pages.push({ url: `${siteUrl}/about`, priority: 0.5, changefreq: 'monthly' });
+  pages.push({ url: `${siteUrl}/contact`, priority: 0.5, changefreq: 'monthly' });
   pages.push({ url: `${siteUrl}/privacy`, priority: 0.3, changefreq: 'monthly' });
   pages.push({ url: `${siteUrl}/terms`, priority: 0.3, changefreq: 'monthly' });
+  pages.push({ url: `${siteUrl}/disclaimer`, priority: 0.3, changefreq: 'monthly' });
 
   // 7. Generate XML with images
   const lastmod = new Date().toISOString().split('T')[0];

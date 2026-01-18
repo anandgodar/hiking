@@ -9,6 +9,7 @@ const currentYear = new Date().getFullYear();
 
 // Available states - this could be passed as props in a production setup
 const availableStates = [
+  { slug: 'california', name: 'California' },
   { slug: 'new-hampshire', name: 'New Hampshire' },
   { slug: 'maine', name: 'Maine' },
   { slug: 'vermont', name: 'Vermont' },
@@ -109,10 +110,12 @@ const defaultState = 'new-hampshire';
             <div class="col-span-1 md:col-span-2">
                 <h3 class="text-white font-bold uppercase tracking-widest text-xs mb-6">Resources</h3>
                 <ul class="space-y-4 text-sm font-medium">
+                    <li><a href="/about" class="hover:text-emerald-400 transition-colors">About Us</a></li>
+                    <li><a href="/contact" class="hover:text-emerald-400 transition-colors">Contact</a></li>
                     <li><a href="/privacy" class="hover:text-emerald-400 transition-colors">Privacy Policy</a></li>
                     <li><a href="/terms" class="hover:text-emerald-400 transition-colors">Terms of Service</a></li>
+                    <li><a href="/disclaimer" class="hover:text-emerald-400 transition-colors">Disclaimer</a></li>
                     <li><a href="/sitemap.xml" class="hover:text-emerald-400 transition-colors">Sitemap</a></li>
-                    <li><a href="mailto:hello@summitseeker.io" class="hover:text-emerald-400 transition-colors">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -121,9 +124,11 @@ const defaultState = 'new-hampshire';
         <div class="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-stone-500 font-medium uppercase tracking-wider">
             <p>&copy; {currentYear} Summit Seeker. Built with Astro.</p>
             <div class="flex gap-6">
+                <a href="/about" class="hover:text-white transition-colors">About</a>
+                <a href="/contact" class="hover:text-white transition-colors">Contact</a>
                 <a href="/privacy" class="hover:text-white transition-colors">Privacy</a>
                 <a href="/terms" class="hover:text-white transition-colors">Terms</a>
-                <a href="/sitemap.xml" class="hover:text-white transition-colors">Sitemap</a>
+                <a href="/disclaimer" class="hover:text-white transition-colors">Disclaimer</a>
             </div>
         </div>
     </div>

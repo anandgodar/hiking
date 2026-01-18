@@ -1,0 +1,243 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+const currentYear = new Date().getFullYear();
+---
+
+<Layout
+  title="Disclaimer | Summit Seeker Trail Information"
+  description="Important safety disclaimer and limitation of liability for Summit Seeker hiking trail information. Read before using our trail guides."
+>
+  <!-- Header/Navigation -->
+  <header class="bg-stone-900 border-b border-stone-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="/" class="flex items-center gap-2 text-white hover:text-emerald-400 transition-colors">
+          <svg class="w-7 h-7 text-emerald-500" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L2 22h20L12 2zm0 5l6.5 13h-13L12 7z"/>
+          </svg>
+          <span class="font-black tracking-widest uppercase text-lg">Summit Seeker</span>
+        </a>
+        <nav class="flex items-center gap-6 text-sm font-medium">
+          <a href="/" class="text-stone-300 hover:text-white transition-colors">Home</a>
+          <a href="/about" class="text-stone-300 hover:text-white transition-colors">About</a>
+          <a href="/contact" class="text-stone-300 hover:text-white transition-colors">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-orange-900 via-stone-900 to-stone-900 text-white py-16">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-5xl md:text-6xl font-black mb-6">Disclaimer</h1>
+        <p class="text-xl text-orange-100 leading-relaxed">
+          Important safety information and limitations of liability
+        </p>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="py-16 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Critical Warning -->
+        <div class="bg-orange-100 border-l-4 border-orange-600 p-6 mb-12">
+          <h2 class="text-xl font-black text-orange-900 mb-3">⚠️ READ BEFORE HIKING</h2>
+          <p class="text-orange-900 font-semibold mb-2">
+            Hiking involves inherent risks. You assume all responsibility for your safety.
+          </p>
+          <p class="text-orange-800 text-sm">
+            Summit Seeker provides trail information for educational and planning purposes only.
+            This information does not replace proper planning, training, equipment, and judgment.
+            Always check current conditions before hiking.
+          </p>
+        </div>
+
+        <!-- Last Updated -->
+        <p class="text-sm text-stone-500 mb-8">
+          <strong>Last Updated:</strong> January 2026
+        </p>
+
+        <!-- Section 1: General Disclaimer -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">1. General Information Disclaimer</h2>
+          <p class="text-stone-700 leading-relaxed">
+            The information provided on Summit Seeker ("the Website") is for general informational and educational
+            purposes only. While we strive for accuracy, we make no representations or warranties of any kind,
+            express or implied, about the completeness, accuracy, reliability, suitability, or availability of the
+            information, products, services, or related graphics contained on the Website.
+          </p>
+          <p class="text-stone-700 leading-relaxed mt-4">
+            Trail conditions, regulations, closures, and hazards change frequently due to weather, seasonal factors,
+            natural events, and administrative decisions. Information on this Website may be outdated or incomplete.
+          </p>
+        </div>
+
+        <!-- Section 2: Hiking Risk -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">2. Assumption of Risk</h2>
+          <p class="text-stone-700 leading-relaxed mb-4">
+            <strong>Hiking and outdoor recreation activities are inherently dangerous and involve risks including but not limited to:</strong>
+          </p>
+          <ul class="space-y-2 text-stone-700 ml-6 list-disc">
+            <li>Falls, injuries, or death from uneven terrain, steep slopes, cliffs, and unstable surfaces</li>
+            <li>Severe weather including lightning, hypothermia, heat exhaustion, and frostbite</li>
+            <li>Getting lost or disoriented on trails</li>
+            <li>Wildlife encounters including bears, moose, snakes, and insects</li>
+            <li>Avalanches, rockfall, flooding, and other natural hazards</li>
+            <li>Equipment failure or inadequate preparation</li>
+            <li>Medical emergencies in remote locations with limited cell service</li>
+            <li>Trail closures, private property conflicts, or permit violations</li>
+          </ul>
+          <p class="text-stone-700 leading-relaxed mt-4">
+            <strong>By using the information on this Website, you acknowledge and accept these risks.</strong>
+            You are solely responsible for your safety, decisions, and actions while hiking.
+          </p>
+        </div>
+
+        <!-- Section 3: No Professional Advice -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">3. Not Professional Advice</h2>
+          <p class="text-stone-700 leading-relaxed">
+            Summit Seeker does not provide professional hiking guidance, wilderness survival training,
+            medical advice, or route-specific safety assessments. The content on this Website should not be
+            considered a substitute for:
+          </p>
+          <ul class="space-y-2 text-stone-700 ml-6 list-disc mt-4">
+            <li>Professional wilderness guide services</li>
+            <li>Official park service or forest service information</li>
+            <li>Current weather forecasts and avalanche reports</li>
+            <li>Personal fitness assessments and medical clearance</li>
+            <li>Professional outdoor skills training</li>
+          </ul>
+          <p class="text-stone-700 leading-relaxed mt-4">
+            Always verify trail conditions with official sources (National Park Service, US Forest Service,
+            state parks) before hiking. Contact local ranger stations for current conditions, closures, and permits.
+          </p>
+        </div>
+
+        <!-- Section 4: Limitation of Liability -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">4. Limitation of Liability</h2>
+          <p class="text-stone-700 leading-relaxed">
+            To the fullest extent permitted by law, Summit Seeker, its owners, operators, contributors,
+            and affiliates shall not be liable for any loss, injury, claim, liability, or damage of any kind
+            resulting from:
+          </p>
+          <ul class="space-y-2 text-stone-700 ml-6 list-disc mt-4">
+            <li>Your use of or reliance on information provided on this Website</li>
+            <li>Errors, inaccuracies, or omissions in trail information, maps, or descriptions</li>
+            <li>Outdated information due to changing trail conditions or regulations</li>
+            <li>Injuries, accidents, or deaths occurring during hiking activities</li>
+            <li>Property damage or theft occurring on trails or at trailheads</li>
+            <li>Third-party content, links, or recommendations</li>
+            <li>Technical issues, website downtime, or data loss</li>
+          </ul>
+          <p class="text-stone-700 leading-relaxed mt-4 font-semibold">
+            YOU USE THIS WEBSITE AND ITS INFORMATION AT YOUR OWN RISK.
+          </p>
+        </div>
+
+        <!-- Section 5: Third-Party Links -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">5. Third-Party Links and Affiliate Disclosure</h2>
+          <p class="text-stone-700 leading-relaxed">
+            Summit Seeker may contain links to external websites and affiliate partnerships with outdoor gear
+            retailers (REI, Amazon, Backcountry, etc.). We are not responsible for the content, accuracy,
+            or privacy practices of third-party websites. We may earn commissions from qualifying purchases
+            through affiliate links, which helps support our free trail database.
+          </p>
+          <p class="text-stone-700 leading-relaxed mt-4">
+            Product recommendations are for informational purposes only. We do not guarantee product suitability,
+            quality, or performance. Always research and test gear before relying on it in wilderness settings.
+          </p>
+        </div>
+
+        <!-- Section 6: No Endorsement -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">6. No Endorsement of Specific Trails</h2>
+          <p class="text-stone-700 leading-relaxed">
+            Inclusion of a trail on Summit Seeker does not constitute an endorsement, recommendation, or
+            guarantee that the trail is safe, appropriate, or legal for your use. Trail difficulty ratings
+            are subjective and based on general assessments—your personal fitness, experience, weather conditions,
+            and time of year significantly affect trail difficulty.
+          </p>
+          <p class="text-stone-700 leading-relaxed mt-4">
+            Some trails may cross private property, require permits, have seasonal closures, or be illegal
+            to access. It is your responsibility to verify access rights and regulations before hiking.
+          </p>
+        </div>
+
+        <!-- Section 7: User-Generated Content -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">7. User-Generated Content</h2>
+          <p class="text-stone-700 leading-relaxed">
+            If we accept user comments, reviews, or trail reports in the future, such content represents
+            the views of individual users, not Summit Seeker. We do not verify user-submitted information
+            and are not responsible for its accuracy. Do not rely solely on user reviews for safety decisions.
+          </p>
+        </div>
+
+        <!-- Section 8: Emergency Contact -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">8. Emergencies</h2>
+          <p class="text-stone-700 leading-relaxed">
+            <strong class="text-orange-600">IN CASE OF EMERGENCY, CALL 911 IMMEDIATELY.</strong> Do not contact
+            Summit Seeker for emergency assistance. We are not an emergency response service. Emergency contacts
+            listed on trail pages are provided for informational purposes—program them into your phone before hiking.
+          </p>
+          <div class="bg-orange-50 p-4 rounded-lg mt-4">
+            <p class="text-stone-800 font-semibold text-sm">
+              🚨 Emergency Preparedness Checklist:
+            </p>
+            <ul class="text-stone-700 text-sm mt-2 space-y-1 ml-6 list-disc">
+              <li>Tell someone your hiking plans and expected return time</li>
+              <li>Carry a charged phone with offline maps downloaded</li>
+              <li>Bring the Ten Essentials (navigation, sun protection, insulation, illumination, first aid, fire, repair kit, nutrition, hydration, emergency shelter)</li>
+              <li>Check weather forecasts and trail conditions before departing</li>
+              <li>Know your limits and turn back if conditions deteriorate</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Section 9: Changes to Disclaimer -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">9. Changes to This Disclaimer</h2>
+          <p class="text-stone-700 leading-relaxed">
+            We reserve the right to modify this disclaimer at any time without notice. Continued use of
+            the Website after changes constitutes acceptance of the updated disclaimer. Check this page
+            periodically for updates.
+          </p>
+        </div>
+
+        <!-- Final Statement -->
+        <div class="bg-stone-900 text-white p-8 rounded-lg text-center mt-12">
+          <h2 class="text-2xl font-black mb-3">By Using This Website</h2>
+          <p class="text-stone-300 mb-4">
+            You acknowledge that you have read, understood, and agree to this disclaimer and our
+            <a href="/terms" class="text-emerald-400 hover:text-emerald-300 underline">Terms of Service</a>.
+          </p>
+          <p class="text-stone-400 text-sm">
+            Questions? <a href="/contact" class="text-emerald-400 hover:text-emerald-300 underline">Contact us</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <SiteFooter />
+</Layout>
+
+<style>
+  .prose ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  .prose li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+</style>
