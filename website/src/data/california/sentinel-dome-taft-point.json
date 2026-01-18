@@ -78,6 +78,23 @@
 
   "generated_description": "<p>This easy 5-mile loop combines two of Yosemite's most spectacular viewpoints: Sentinel Dome's 360-degree panorama and Taft Point's vertigo-inducing cliff edge. Both accessible from the same trailhead on Glacier Point Road, these short hikes deliver world-class views with minimal effort.</p><p>Sentinel Dome (8,122 ft) offers one of Yosemite's best panoramic views—see Half Dome, El Capitan, Yosemite Falls, and the High Sierra in one sweep. Taft Point features a sheer 3,000-foot drop to Yosemite Valley floor and the dramatic Fissures, deep cracks in the granite cliff edge.</p>",
 
+  "nearby_peaks": [
+    {
+      "name": "Half Dome",
+      "slug": "half-dome-yosemite",
+      "state_slug": "california",
+      "elevation": 8842,
+      "distance_miles": 4.8
+    },
+    {
+      "name": "Clouds Rest",
+      "slug": "clouds-rest-yosemite",
+      "state_slug": "california",
+      "elevation": 9926,
+      "distance_miles": 7.1
+    }
+  ],
+
   "page_content": {
     "faqs": [
       {
@@ -113,5 +130,15 @@
   "seo": {
     "meta_title": "Sentinel Dome & Taft Point Hike 2026 | Best Yosemite Sunset Views",
     "meta_description": "Complete guide to hiking Sentinel Dome & Taft Point in Yosemite. Easy 5-mile loop or separate 2.2-mile hikes. Best sunset spot in the park with 360° views. Tips for The Fissures and cliff safety."
-  }
+  },
+
+  "data_sources": {
+    "verified_by": "National Park Service - Yosemite",
+    "primary_url": "https://www.nps.gov/yose/planyourvisit/sentineldome.htm",
+    "verification_date": "2026-01-18",
+    "elevation_source": "USGS Topo - Yosemite",
+    "gps_source": "NPS Official Yosemite Map",
+    "distance_source": "NPS trail signage and official website",
+    "notes": "Loop distance from Glacier Point trailhead per NPS signage. Elevations from USGS topo (Sentinel Dome 8,122 ft)."
+}
 }
