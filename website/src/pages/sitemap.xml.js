@@ -16,14 +16,24 @@ export async function GET() {
     const m = file.default;
 
     // Normalize State Slug
-    const stateSlug = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
+    const normalizeState = (s) => {
+      if (s === 'nh') return 'new-hampshire';
+      if (s === 'me') return 'maine';
+      if (s === 'vt') return 'vermont';
+      if (s === 'ny') return 'new-york';
+      if (s === 'ca' || s === 'CA') return 'california';
+      return s;
+    };
+
+    const stateSlug = normalizeState(m.state_slug);
     states.add(stateSlug);
 
     // Add Mountain Page with high priority (main content)
     mountainPages.push({
       url: `${siteUrl}/${stateSlug}/hikes/${m.slug}`,
       priority: 0.9,
-      changefreq: 'weekly'
+      changefreq: 'weekly',
+      mountain: m
     });
 
     // Collect Tags for Discover Pages
@@ -53,15 +63,20 @@ export async function GET() {
       });
   });
 
-  // 4. Add State-specific tag pages (medium priority)
-  states.forEach(s => {
-      discoverTags.forEach(t => {
-          pages.push({
-            url: `${siteUrl}/${s}/hikes/${t}`,
-            priority: 0.6,
-            changefreq: 'weekly'
-          });
-      });
+  // 4. Add "Near Me" pages (high priority - local SEO)
+  const nearMePages = [
+    { city: 'boston', priority: 0.85 },
+    { city: 'portland-maine', priority: 0.85 },
+    { city: 'burlington-vermont', priority: 0.85 },
+    { city: 'los-angeles', priority: 0.85 }
+  ];
+
+  nearMePages.forEach(({ city, priority }) => {
+    pages.push({
+      url: `${siteUrl}/near/${city}`,
+      priority: priority,
+      changefreq: 'weekly'
+    });
   });
 
   // 5. Add Discover tag pages (medium priority)
@@ -77,16 +92,12 @@ export async function GET() {
   pages.push({ url: `${siteUrl}/privacy`, priority: 0.3, changefreq: 'monthly' });
   pages.push({ url: `${siteUrl}/terms`, priority: 0.3, changefreq: 'monthly' });
 
-  // 7. Combine all pages
-  const allPages = [...pages, ...mountainPages];
-
-  // 8. Generate XML with images
+  // 7. Generate XML with images
   const lastmod = new Date().toISOString().split('T')[0];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-            xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-            xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-      ${allPages.map(page => `
+            xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      ${pages.map(page => `
         <url>
           <loc>${page.url}</loc>
           <lastmod>${lastmod}</lastmod>
@@ -95,24 +106,20 @@ export async function GET() {
         </url>
       `).join('')}
       ${mountainPages.map(page => {
-        const mountain = Object.values(allFiles).find(f => {
-          const m = f.default || f;
-          return page.url.includes(m.slug);
-        });
-        const m = mountain?.default || mountain;
-        return m?.mountain_hero ? `
+        const m = page.mountain;
+        return `
         <url>
           <loc>${page.url}</loc>
           <lastmod>${lastmod}</lastmod>
           <changefreq>${page.changefreq}</changefreq>
-          <priority>${page.priority}</priority>
+          <priority>${page.priority}</priority>${m?.mountain_hero ? `
           <image:image>
             <image:loc>${m.mountain_hero}</image:loc>
             <image:title>${m.name} Trail</image:title>
-            <image:caption>Hiking trail to ${m.name} summit at ${m.elevation} feet</image:caption>
-          </image:image>
+            <image:caption>Hiking trail to ${m.name}${m.elevation ? ` summit at ${m.elevation} feet` : ''}</image:caption>
+          </image:image>` : ''}
         </url>
-        ` : '';
+        `;
       }).join('')}
     </urlset>`;
 
