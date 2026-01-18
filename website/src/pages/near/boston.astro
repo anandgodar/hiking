@@ -1,0 +1,491 @@
+---
+/**
+ * Best Hikes Near Boston, Massachusetts
+ * High-value SEO landing page targeting "hiking near boston" (2,400 searches/month)
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles).map(f => f.default || f);
+
+// Boston coordinates
+const bostonLat = 42.3601;
+const bostonLon = -71.0589;
+
+// Calculate distance from Boston
+const calculateDistance = (lat, lon) => {
+  const R = 3959; // Earth's radius in miles
+  const dLat = (lat - bostonLat) * Math.PI / 180;
+  const dLon = (lon - bostonLon) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(bostonLat * Math.PI / 180) * Math.cos(lat * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Filter trails within 150 miles of Boston and sort by distance
+const nearbyHikes = allMountains
+  .filter(m => m.lat && m.lon)
+  .map(m => ({
+    ...m,
+    distance: calculateDistance(m.lat, m.lon),
+    driveTime: Math.round(calculateDistance(m.lat, m.lon) / 50 * 60) // Rough estimate: 50mph avg
+  }))
+  .filter(m => m.distance <= 150)
+  .sort((a, b) => a.distance - b.distance);
+
+// Top picks by category
+const closestHikes = nearbyHikes.slice(0, 5);
+const easyHikes = nearbyHikes.filter(m => {
+  const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
+  return difficulty.toLowerCase().includes('easy') || difficulty.toLowerCase().includes('beginner');
+}).slice(0, 5);
+const moderateHikes = nearbyHikes.filter(m => {
+  const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
+  return difficulty.toLowerCase().includes('moderate');
+}).slice(0, 5);
+const waterfallHikes = nearbyHikes.filter(m =>
+  m.tags?.some(tag => tag.toLowerCase().includes('waterfall'))
+).slice(0, 5);
+
+// Normalize state slug
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s;
+};
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the closest hiking trail to Boston?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `The closest major hiking trails to Boston are ${closestHikes[0]?.name} (${Math.round(closestHikes[0]?.distance)} miles, ${closestHikes[0]?.driveTime} minutes) and ${closestHikes[1]?.name} (${Math.round(closestHikes[1]?.distance)} miles, ${closestHikes[1]?.driveTime} minutes). Both offer excellent day hikes within 2 hours of downtown Boston.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best easy hikes near Boston?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best easy hiking trails near Boston for beginners and families include Mount Major (${easyHikes.find(h => h.name.includes('Major'))?.driveTime || '90'} minutes from Boston), offering panoramic views with moderate effort, and several waterfall hikes in the White Mountains region."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far is the White Mountains from Boston?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The White Mountains of New Hampshire are approximately 120-140 miles from Boston, making them a 2-2.5 hour drive. This makes them perfect for day trips or weekend hiking adventures from the Boston area."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I hike near Boston in winter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Many trails near Boston are hikeable year-round. For winter hiking, bring microspikes or crampons, dress in layers, and start with easier trails. Popular winter hikes include Mount Monadnock, Mount Major, and trails in Franconia Notch State Park."
+      }
+    }
+  ]
+};
+
+// LocalBusiness Schema for Boston area
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "TouristInformationCenter",
+  "name": "Best Hiking Trails Near Boston - Summit Seeker",
+  "description": "Comprehensive guide to the best hiking trails within 2-3 hours of Boston, Massachusetts",
+  "url": "https://summitseeker.io/near/boston",
+  "areaServed": {
+    "@type": "City",
+    "name": "Boston",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Boston",
+      "addressRegion": "MA",
+      "addressCountry": "US"
+    }
+  }
+};
+---
+
+<Layout
+  title="Best Hikes Near Boston 2026 | 50+ Trails Within 2 Hours (With Drive Times)"
+  description="Discover the 50 best hiking trails near Boston, MA. From easy family hikes to challenging mountain climbs, all within 2-3 hours. Includes drive times, maps, difficulty ratings & parking info for White Mountains, NH & Southern Maine."
+>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} slot="head" />
+
+  <!-- Hero Section -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=2000"
+        class="w-full h-full object-cover"
+        alt="White Mountains hiking trails near Boston Massachusetts with mountain peaks and forest scenery"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <!-- Breadcrumb -->
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li><a href="/near" class="hover:text-white transition-colors">Near Me</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Boston</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-blue-500/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} Trails Within 150 Miles
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-blue-400">Boston</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        {nearbyHikes.length} incredible hiking trails within 2-3 hours of Boston, from easy family walks to challenging mountain climbs
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 text-sm">
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Closest:</span> <span class="text-white font-bold">{Math.round(closestHikes[0]?.distance)} miles</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Drive Time:</span> <span class="text-white font-bold">{closestHikes[0]?.driveTime} min - 2.5 hrs</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Difficulty:</span> <span class="text-white font-bold">Easy to Expert</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Quick Navigation -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 mb-12 border border-stone-200">
+        <h2 class="text-lg font-bold text-stone-900 mb-4">Jump to Section:</h2>
+        <div class="flex flex-wrap gap-3">
+          <a href="#closest" class="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors font-medium text-sm">
+            ⚡ Closest Trails
+          </a>
+          <a href="#easy" class="px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100 transition-colors font-medium text-sm">
+            🥾 Easy Hikes
+          </a>
+          <a href="#moderate" class="px-4 py-2 bg-amber-50 text-amber-700 rounded-lg hover:bg-amber-100 transition-colors font-medium text-sm">
+            ⛰️ Moderate Hikes
+          </a>
+          <a href="#waterfalls" class="px-4 py-2 bg-cyan-50 text-cyan-700 rounded-lg hover:bg-cyan-100 transition-colors font-medium text-sm">
+            💧 Waterfall Hikes
+          </a>
+          <a href="#all" class="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors font-medium text-sm">
+            📍 All {nearbyHikes.length} Trails
+          </a>
+        </div>
+      </div>
+
+      <!-- Intro Content -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Why Boston is Perfect for Hiking</h2>
+
+        <p class="text-stone-700 leading-relaxed">
+          Living in Boston gives you incredible access to some of New England's best hiking trails. Within just 2-3 hours,
+          you can escape the city and find yourself on mountain summits with panoramic views, beside cascading waterfalls,
+          or exploring pristine forests in the White Mountains of New Hampshire, Southern Maine, and Vermont's Green Mountains.
+        </p>
+
+        <p class="text-stone-700 leading-relaxed">
+          Whether you're looking for an easy morning hike before brunch or a challenging all-day adventure, this guide covers
+          the {nearbyHikes.length} best trails accessible from Boston. Each trail includes:
+        </p>
+
+        <ul class="space-y-2 text-stone-700">
+          <li>✓ <strong>Exact distance from Boston</strong> (and estimated drive time)</li>
+          <li>✓ <strong>Trail difficulty rating</strong> (easy, moderate, hard)</li>
+          <li>✓ <strong>Elevation gain & distance</strong></li>
+          <li>✓ <strong>Parking information & fees</strong></li>
+          <li>✓ <strong>Interactive trail maps</strong></li>
+          <li>✓ <strong>Real-time weather conditions</strong></li>
+        </ul>
+      </div>
+
+      <!-- Closest Hikes Section -->
+      {closestHikes.length > 0 && (
+        <section id="closest" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-blue-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⚡</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">5 Closest Trails to Boston</h2>
+              <p class="text-stone-600">Perfect for quick day trips</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {closestHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                  {mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Easy Hikes Section -->
+      {easyHikes.length > 0 && (
+        <section id="easy" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🥾</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Best Easy Hikes Near Boston</h2>
+              <p class="text-stone-600">Great for beginners, families, and casual hikers</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {easyHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-emerald-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  EASY
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Moderate Hikes Section -->
+      {moderateHikes.length > 0 && (
+        <section id="moderate" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-amber-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⛰️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Moderate Hiking Trails</h2>
+              <p class="text-stone-600">Intermediate trails with rewarding views</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {moderateHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  MODERATE
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Waterfall Hikes Section -->
+      {waterfallHikes.length > 0 && (
+        <section id="waterfalls" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-cyan-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">💧</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Waterfall Hikes Near Boston</h2>
+              <p class="text-stone-600">Scenic trails featuring waterfalls and swimming holes</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {waterfallHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-cyan-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  WATERFALL
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Trails Section -->
+      <section id="all" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-purple-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📍</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All {nearbyHikes.length} Trails Near Boston</h2>
+            <p class="text-stone-600">Sorted by distance from Boston</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {nearbyHikes.slice(0, 40).map(mountain => (
+            <div class="relative">
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+              <div class="absolute bottom-4 left-4 bg-black/70 text-white px-2 py-1 rounded text-xs font-bold">
+                {Math.round(mountain.distance)} mi • {mountain.driveTime} min
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="bg-white rounded-2xl p-8 shadow-lg border border-stone-200 mb-16">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is the closest hiking trail to Boston?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The closest major hiking trail to Boston is <strong>{closestHikes[0]?.name}</strong>, located just {Math.round(closestHikes[0]?.distance)} miles away
+              ({closestHikes[0]?.driveTime} minute drive). This trail offers {closestHikes[0]?.elevation?.toLocaleString()} ft elevation and is perfect for a quick day hike from the city.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What are the best easy hikes near Boston for beginners?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The best easy hikes near Boston include Mount Major, Welch-Dickey Loop, and several waterfall trails in the White Mountains.
+              These trails offer beautiful scenery without requiring advanced hiking experience or fitness levels.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>How far are the White Mountains from Boston?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The White Mountains of New Hampshire are approximately 120-140 miles from Boston, making them a 2-2.5 hour drive north.
+              This proximity makes them ideal for day trips or weekend hiking adventures. Popular areas include Franconia Notch, Crawford Notch, and the Pinkham Notch area.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Do I need a parking pass for hiking trails near Boston?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Many trails in the White Mountain National Forest require a Recreation Pass ($5 daily or $30 annual).
+              State parks like Franconia Notch and some trailheads have parking fees. Check each trail's parking information page for specific requirements.
+              Some trails have free parking, especially in off-season.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Can I hike near Boston in winter?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Yes! Many trails near Boston are excellent for winter hiking. You'll need microspikes or crampons for icy conditions,
+              insulated layers, and winter hiking boots. Start with easier trails like Mount Major or Mount Monadnock before attempting
+              more challenging winter hikes. Always check weather conditions and avalanche forecasts for higher peaks.
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Hiking Tips for Boston Area -->
+      <section class="bg-gradient-to-br from-emerald-50 to-blue-50 rounded-2xl p-8 border border-emerald-200">
+        <h2 class="text-2xl font-bold text-stone-900 mb-6">Essential Tips for Hiking Near Boston</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🚗</span> Getting There
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Leave early (7-8am) to avoid traffic and secure parking</li>
+              <li>• Check real-time traffic on I-93 North before leaving</li>
+              <li>• Have exact change or credit card for parking fees</li>
+              <li>• Download offline maps in case of poor cell service</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🎒</span> What to Bring
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Water: 2+ liters per person</li>
+              <li>• Snacks: Trail mix, energy bars, fruit</li>
+              <li>• Layers: Weather changes quickly in mountains</li>
+              <li>• First aid kit & headlamp</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">📅</span> Best Times to Visit
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• <strong>Summer (Jun-Aug):</strong> Best weather, most crowded</li>
+              <li>• <strong>Fall (Sep-Oct):</strong> Stunning foliage, moderate crowds</li>
+              <li>• <strong>Spring (Apr-May):</strong> Mud season, waterfalls at peak</li>
+              <li>• <strong>Winter (Dec-Mar):</strong> Requires winter gear, least crowded</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">⚠️</span> Safety First
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Check weather forecast before leaving</li>
+              <li>• Tell someone your hiking plans</li>
+              <li>• Turn back if weather deteriorates</li>
+              <li>• Stay on marked trails</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>

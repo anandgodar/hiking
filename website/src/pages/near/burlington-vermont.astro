@@ -1,0 +1,349 @@
+---
+/**
+ * Best Hiking Trails Near Burlington, Vermont
+ * SEO landing page targeting "hiking near burlington vt" (880 searches/month)
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles).map(f => f.default || f);
+
+// Burlington, VT coordinates
+const burlingtonLat = 44.4759;
+const burlingtonLon = -73.2121;
+
+// Calculate distance
+const calculateDistance = (lat, lon) => {
+  const R = 3959;
+  const dLat = (lat - burlingtonLat) * Math.PI / 180;
+  const dLon = (lon - burlingtonLon) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(burlingtonLat * Math.PI / 180) * Math.cos(lat * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Filter trails within 100 miles of Burlington
+const nearbyHikes = allMountains
+  .filter(m => m.lat && m.lon)
+  .map(m => ({
+    ...m,
+    distance: calculateDistance(m.lat, m.lon),
+    driveTime: Math.round(calculateDistance(m.lat, m.lon) / 45 * 60)
+  }))
+  .filter(m => m.distance <= 100)
+  .sort((a, b) => a.distance - b.distance);
+
+// Vermont-specific trails
+const vermontTrails = nearbyHikes.filter(m => m.state_slug === 'vt' || m.state === 'Vermont').slice(0, 12);
+const closestHikes = nearbyHikes.slice(0, 6);
+const greenMountainTrails = vermontTrails.filter(m =>
+  m.name.toLowerCase().includes('mountain') || m.name.toLowerCase().includes('peak')
+).slice(0, 8);
+
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s;
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best hike near Burlington, Vermont?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best hikes near Burlington, VT include Mount Mansfield (Vermont's highest peak), Camel's Hump, Mount Philo State Park, and Stowe Pinnacle. Mount Mansfield offers challenging summit climbs while Mount Philo provides easier family-friendly trails with Lake Champlain views."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far is Mount Mansfield from Burlington?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mount Mansfield is approximately 35 miles from Burlington, Vermont, making it about a 45-60 minute scenic drive through the Green Mountains. It's Vermont's highest peak at 4,393 feet and offers multiple trail options for all skill levels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there easy hikes near Burlington for families?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Mount Philo State Park (20 minutes from Burlington) offers an easy 1.2-mile hike with stunning Lake Champlain views. Other family-friendly options include Stowe Pinnacle and Snake Mountain, all featuring moderate elevation gain and well-maintained trails perfect for kids."
+      }
+    }
+  ]
+};
+---
+
+<Layout
+  title="Best Hiking Trails Near Burlington, VT 2026 | Green Mountains & Lake Champlain"
+  description="Discover the best hiking trails near Burlington, Vermont. From Mount Mansfield to Camel's Hump, explore Green Mountain peaks, Lake Champlain views & forest trails within 1 hour. Complete trail guides with maps & drive times."
+>
+
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+
+  <!-- Hero -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+        class="w-full h-full object-cover"
+        alt="Green Mountains hiking trails near Burlington Vermont with mountain ridges and forest landscape"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li><a href="/near" class="hover:text-white transition-colors">Near Me</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Burlington, Vermont</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-emerald-600/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} Green Mountain Trails
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-emerald-400">Burlington, Vermont</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        Explore {nearbyHikes.length} stunning Green Mountain trails from Vermont's outdoor capital
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 text-sm">
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Closest:</span> <span class="text-white font-bold">{Math.round(closestHikes[0]?.distance)} miles</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Highest Peak:</span> <span class="text-white font-bold">4,393 ft</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Views:</span> <span class="text-white font-bold">Lake Champlain & Adirondacks</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Quick Nav -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 mb-12 border border-stone-200">
+        <h2 class="text-lg font-bold text-stone-900 mb-4">Explore by Category:</h2>
+        <div class="flex flex-wrap gap-3">
+          <a href="#closest" class="px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100 transition-colors font-medium text-sm">
+            ⚡ Closest to Burlington
+          </a>
+          <a href="#green-mountains" class="px-4 py-2 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition-colors font-medium text-sm">
+            🏔️ Green Mountain Peaks
+          </a>
+          <a href="#all" class="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors font-medium text-sm">
+            📍 All {nearbyHikes.length} Trails
+          </a>
+        </div>
+      </div>
+
+      <!-- Intro -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Burlington: Vermont's Hiking Paradise</h2>
+        <p class="text-stone-700 leading-relaxed">
+          Burlington sits at the heart of Vermont's outdoor playground, with {nearbyHikes.length} hiking trails within easy reach.
+          From the shores of Lake Champlain to the summits of the Green Mountains, you'll find trails for every skill level.
+          Hike Mount Mansfield (VT's highest peak), explore Camel's Hump's alpine tundra, or enjoy sunset views from Mount Philo—all within an hour's drive.
+        </p>
+
+        <ul class="space-y-2 text-stone-700">
+          <li>✓ <strong>Close proximity:</strong> Most trails under 1 hour from downtown</li>
+          <li>✓ <strong>Variety:</strong> Lake views, mountain summits, forest walks, fire towers</li>
+          <li>✓ <strong>Accessibility:</strong> Easy family hikes to challenging alpine climbs</li>
+          <li>✓ <strong>Scenic drives:</strong> Beautiful routes through classic Vermont countryside</li>
+        </ul>
+      </div>
+
+      <!-- Closest Hikes -->
+      {closestHikes.length > 0 && (
+        <section id="closest" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⚡</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Closest Trails to Burlington</h2>
+              <p class="text-stone-600">Perfect for after-work or morning hikes</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {closestHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-emerald-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                  {mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Green Mountain Peaks -->
+      {greenMountainTrails.length > 0 && (
+        <section id="green-mountains" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-green-600 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🏔️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Green Mountain Peaks</h2>
+              <p class="text-stone-600">Classic Vermont high peaks with panoramic views</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {greenMountainTrails.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  {mountain.elevation?.toLocaleString()} ft
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Trails -->
+      <section id="all" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-purple-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📍</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All {nearbyHikes.length} Trails Near Burlington</h2>
+            <p class="text-stone-600">Complete list sorted by distance</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {nearbyHikes.map(mountain => (
+            <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+          ))}
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="bg-white rounded-2xl p-8 shadow-lg border border-stone-200 mb-16">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is the best hike near Burlington?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The best hikes near Burlington include <strong>Mount Mansfield</strong> (VT's highest peak, 45 min drive),
+              <strong>Camel's Hump</strong> (iconic alpine summit, 1 hour), and <strong>Mount Philo</strong> (easy family hike with Lake Champlain views, 20 min).
+              Each offers unique Vermont scenery and varying difficulty levels.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Are there easy hikes near Burlington for families?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Yes! <strong>Mount Philo State Park</strong> offers an easy 1.2-mile loop with stunning Lake Champlain views, perfect for kids.
+              <strong>Snake Mountain</strong> and <strong>Stowe Pinnacle</strong> are also family-friendly with moderate elevation gain and rewarding summit views.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>When is the best time to hike near Burlington?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              <strong>Late spring through fall (May-October)</strong> offers the best hiking weather. September-October provides spectacular fall foliage.
+              Summer (June-August) can be buggy but offers the most stable weather. Winter hiking (December-March) requires microspikes and experience.
+              April is "mud season"—trails are often closed or very muddy.
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Tips -->
+      <section class="bg-gradient-to-br from-emerald-50 to-green-50 rounded-2xl p-8 border border-emerald-200">
+        <h2 class="text-2xl font-bold text-stone-900 mb-6">Burlington Hiking Tips</h2>
+
+        <div class="grid md:grid-cols-2 gap-6 text-stone-700">
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🚗</span> Getting to Trailheads
+            </h3>
+            <ul class="space-y-2">
+              <li>• Most trails: 20-60 minute scenic drives from downtown</li>
+              <li>• Route 100: Vermont's most scenic highway to Stowe area</li>
+              <li>• I-89: Quick access to northern Green Mountains</li>
+              <li>• Limited cell service in mountains—download maps offline</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🌲</span> Vermont-Specific Tips
+            </h3>
+            <ul class="space-y-2">
+              <li>• Mud season (April): Many trails closed for erosion control</li>
+              <li>• Black flies (May-June): Bring bug spray and head nets</li>
+              <li>• Fall foliage (late Sep-Oct): Expect crowds, arrive early</li>
+              <li>• Winter: Ice is common even on easy trails</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🎒</span> What to Bring
+            </h3>
+            <ul class="space-y-2">
+              <li>• Layers: Weather changes quickly at elevation</li>
+              <li>• Bug spray: Essential May-July</li>
+              <li>• Water: 2+ liters per person</li>
+              <li>• Microspikes: For ice (Oct-May)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🏪</span> Local Resources
+            </h3>
+            <ul class="space-y-2">
+              <li>• Outdoor Gear Exchange (Burlington): Gear & advice</li>
+              <li>• Green Mountain Club: Trail conditions & maps</li>
+              <li>• Local breweries: Perfect post-hike stops</li>
+              <li>• Farm stands: Fresh Vermont snacks on drive home</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>
