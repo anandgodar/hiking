@@ -1,0 +1,68 @@
+{
+  "name": "Bridalveil Fall",
+  "slug": "bridalveil-fall-yosemite",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 4000,
+  "lat": 37.7168,
+  "lon": -119.6469,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Easy", "Waterfall", "Wheelchair Accessible", "Short", "Iconic"],
+
+  "trails": [
+    {
+      "name": "Bridalveil Fall Trail",
+      "difficulty": "Easy",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 0.5,
+        "gain": 50,
+        "time": 0.5,
+        "difficulty": "Easy"
+      },
+      "parking_info": "Bridalveil Fall parking lot, direct access from valley. Very popular.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "Bridalveil Fall parking",
+        "coords": [37.7171, -119.6483]
+      },
+      "tags": ["620 Feet", "Paved Trail", "Family Perfect"],
+
+      "geo": {
+        "markers": {
+          "start": [37.7171, -119.6483],
+          "summit": [37.7168, -119.6469]
+        }
+      }
+    }
+  ],
+
+  "generated_description": "<p>Bridalveil Fall is one of Yosemite's most iconic and accessible waterfalls, visible from many valley viewpoints and cascading 620 feet in a delicate veil-like stream. This incredibly short 0.5-mile round trip is perfect for all ages and abilities, including wheelchairs (though the final approach is steep and may require assistance).</p><p>In spring, Bridalveil roars with snowmelt and sprays mist over the entire viewing area. By late summer, the flow decreases to a gentle veil—hence the name. Either season offers unique beauty and photo opportunities of this Yosemite classic.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Bridalveil Fall?",
+        "answer": "Only 15-30 minutes round trip! It's a 0.5-mile paved trail (0.25 miles each way) with minimal elevation gain. Most visitors spend more time at the viewpoint taking photos than actually hiking. Perfect for a quick Yosemite experience when time is limited."
+      },
+      {
+        "question": "Can I hike to the top of Bridalveil Fall?",
+        "answer": "No established trail goes to the top of Bridalveil Fall. The official trail leads to a base viewing area only. There are unmaintained routes to the top but they're dangerous, unofficial, and not recommended. The base view is spectacular and safe."
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "Viewing area slippery when wet from spray",
+        "Final approach is steep—wheelchairs may need assistance",
+        "Parking lot extremely crowded—arrive early",
+        "Winter ice can make trail hazardous"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Bridalveil Fall Yosemite 2026 | Easy 0.5-Mile Waterfall Hike",
+    "meta_description": "Complete guide to Bridalveil Fall in Yosemite National Park. Easy 0.5-mile paved trail to 620-foot waterfall. Wheelchair accessible, perfect for families and all ages. Best time to visit tips."
+  }
+}

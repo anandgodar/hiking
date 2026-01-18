@@ -66,7 +66,15 @@ const defaultSeasons = {
   }
 };
 
-const displaySeasons = seasons || defaultSeasons;
+// Handle both array and object formats for seasons data
+let displaySeasons = defaultSeasons;
+
+// If seasons is an array (new California format), skip rendering this component
+if (Array.isArray(seasons)) {
+  displaySeasons = null; // Will hide the component
+} else if (seasons && typeof seasons === 'object') {
+  displaySeasons = seasons;
+}
 
 const seasonColors = {
   spring: { bg: "bg-green-50", border: "border-green-200", text: "text-green-700", icon: "M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707" },
@@ -76,6 +84,7 @@ const seasonColors = {
 };
 ---
 
+{displaySeasons && (
 <section class="seasonal-guide py-8" id="when-to-visit">
   <h2 class="text-2xl font-bold text-stone-900 mb-6 flex items-center gap-2">
     <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -86,7 +95,7 @@ const seasonColors = {
 
   <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
     {Object.entries(displaySeasons).map(([season, info]) => {
-      const colors = seasonColors[season];
+      const colors = seasonColors[season] || seasonColors.summer; // Fallback to summer colors
       const isCurrent = season === currentSeason;
       
       return (
@@ -154,3 +163,4 @@ const seasonColors = {
     </p>
   </div>
 </section>
+)}

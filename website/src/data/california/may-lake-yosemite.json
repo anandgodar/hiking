@@ -1,0 +1,106 @@
+{
+  "name": "May Lake",
+  "slug": "may-lake-yosemite",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 9329,
+  "lat": 37.8425,
+  "lon": -119.4910,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Easy", "Alpine Lake", "High Sierra Camp", "Family-Friendly", "Mount Hoffmann Views"],
+
+  "trails": [
+    {
+      "name": "May Lake Trail",
+      "difficulty": "Easy",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 2.4,
+        "gain": 500,
+        "time": 2,
+        "difficulty": "Easy"
+      },
+      "parking_info": "May Lake Trailhead, Tioga Road. Small parking lot, arrive early.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "May Lake Trailhead",
+        "coords": [37.8495, -119.4980]
+      },
+      "tags": ["High Sierra Camp", "Short Hike", "Mount Hoffmann Base"],
+
+      "geo": {
+        "markers": {
+          "start": [37.8495, -119.4980],
+          "summit": [37.8425, -119.4910]
+        },
+        "path": [
+          [37.8495, -119.4980],
+          [37.8475, -119.4960],
+          [37.8455, -119.4940],
+          [37.8435, -119.4925],
+          [37.8425, -119.4910]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 8829},
+          {"distance": 0.6, "elevation": 9000},
+          {"distance": 1.2, "elevation": 9329}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "May Lake",
+          "type": "lake",
+          "lat": 37.8425,
+          "lon": -119.4910,
+          "mile": 1.2
+        },
+        {
+          "name": "May Lake High Sierra Camp",
+          "type": "campsite",
+          "lat": 37.8420,
+          "lon": -119.4905,
+          "mile": 1.2
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>May Lake is one of Yosemite's most accessible High Sierra lakes, requiring only a 2.4-mile round trip hike with gradual elevation gain. This beautiful alpine lake sits beneath the towering face of Mount Hoffmann (10,850 ft) at 9,329 feet elevation, offering stunning High Country scenery without the typical multi-day backpacking commitment.</p><p>The lake features one of Yosemite's six High Sierra Camps, where reservations (lottery-based) provide tent cabins, breakfast, and dinner—making this a popular first High Sierra backpacking experience. Day hikers can picnic by the lake, enjoy the mountain reflections, and even continue to Mount Hoffmann summit for those seeking more adventure.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "Can I hike to May Lake and back in a few hours?",
+        "answer": "Yes! It's only 2.4 miles round trip with 500 feet elevation gain. Most hikers complete it in 1.5-2 hours, including lake time. Perfect for families, as a warm-up hike, or when you want High Sierra scenery without a major time commitment."
+      },
+      {
+        "question": "What is May Lake High Sierra Camp?",
+        "answer": "One of five tent cabin camps in Yosemite's backcountry offering meals and lodging. Reservations are by lottery (apply in fall for next summer). Day hikers are welcome to visit the area, but camp dining is for overnight guests only. It's a popular destination that adds interesting cultural elements to the hike."
+      },
+      {
+        "question": "Can I swim in May Lake?",
+        "answer": "Swimming is allowed but the water is COLD (even in summer, maybe 50-60°F). It's shallow near shore. Many people wade in on hot days but few actually swim. Better for quick dips than laps. The scenery makes up for the chilly water!"
+      },
+      {
+        "question": "Can I hike Mount Hoffmann from May Lake?",
+        "answer": "Yes! May Lake is the starting point for Mount Hoffmann (10,850 ft). From the lake, it's an additional 2 miles and 1,500 ft gain to the summit—making it 6.4 miles total round trip. Hoffmann offers 360-degree views of Yosemite's High Sierra and is worth the effort if you have energy."
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "High elevation (9,300 ft)—take it slow if not acclimatized",
+        "Afternoon thunderstorms possible July-August",
+        "Mosquitoes intense in early season (June-early July)",
+        "Small parking lot fills early on summer weekends",
+        "Tioga Road closes in winter—seasonal access only"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "May Lake Hike Yosemite 2026 | Easy 2.4-Mile High Sierra Lake Trail",
+    "meta_description": "Complete guide to hiking May Lake in Yosemite. Easy 2.4-mile trail to beautiful alpine lake beneath Mount Hoffmann. Family-friendly High Sierra access with High Sierra Camp info."
+  }
+}

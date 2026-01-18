@@ -37,6 +37,15 @@ const {
         <meta name="theme-color" content="#059669" />
         <meta name="msapplication-TileColor" content="#059669" />
 
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-53Y7JKL9DN"></script>
+        <script is:inline>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-53Y7JKL9DN');
+        </script>
+
         <SEOHead title={title} description={description} image={image} />
 	</head>
 	<body class="bg-stone-50 text-stone-900 font-sans antialiased min-h-screen flex flex-col">

@@ -1,0 +1,204 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<Layout
+  title="Contact Summit Seeker | Get in Touch with Our Team"
+  description="Contact Summit Seeker for trail corrections, partnership inquiries, technical support, or general questions. We're here to help you plan your next adventure."
+>
+  <!-- Header/Navigation -->
+  <header class="bg-stone-900 border-b border-stone-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="/" class="flex items-center gap-2 text-white hover:text-emerald-400 transition-colors">
+          <svg class="w-7 h-7 text-emerald-500" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2L2 22h20L12 2zm0 5l6.5 13h-13L12 7z"/>
+          </svg>
+          <span class="font-black tracking-widest uppercase text-lg">Summit Seeker</span>
+        </a>
+        <nav class="flex items-center gap-6 text-sm font-medium">
+          <a href="/" class="text-stone-300 hover:text-white transition-colors">Home</a>
+          <a href="/about" class="text-stone-300 hover:text-white transition-colors">About</a>
+          <a href="/contact" class="text-emerald-400">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-emerald-900 via-stone-900 to-stone-900 text-white py-20">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-5xl md:text-6xl font-black mb-6">Contact Us</h1>
+        <p class="text-xl text-emerald-100 leading-relaxed">
+          Have questions, feedback, or trail updates? We're here to help.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="py-16 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Primary Contact -->
+        <div class="mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-6">Get in Touch</h2>
+          <div class="bg-emerald-50 border-l-4 border-emerald-600 p-6 mb-8">
+            <p class="text-stone-800 font-semibold mb-2">📧 Email Us</p>
+            <p class="text-stone-700 mb-3">
+              For all inquiries, please email us at:
+            </p>
+            <a href="mailto:hello@summitseeker.io" class="text-emerald-600 hover:text-emerald-700 font-bold text-lg">
+              hello@summitseeker.io
+            </a>
+            <p class="text-stone-600 text-sm mt-3">
+              We typically respond within 24-48 hours during business days.
+            </p>
+          </div>
+        </div>
+
+        <!-- Contact Reasons Grid -->
+        <div class="grid md:grid-cols-2 gap-6 mb-12">
+
+          <!-- Trail Corrections -->
+          <div class="bg-stone-50 p-6 rounded-lg border border-stone-200">
+            <div class="flex items-start gap-3 mb-3">
+              <svg class="w-6 h-6 text-blue-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <div>
+                <h3 class="font-bold text-stone-900 text-lg">Report Trail Issues</h3>
+                <p class="text-stone-700 text-sm mt-2">
+                  Found outdated information, closed trails, or incorrect details? Let us know so we can update our database.
+                </p>
+                <p class="text-xs text-stone-500 mt-2">
+                  Include: Trail name, state, and specific issue
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Suggest New Trails -->
+          <div class="bg-stone-50 p-6 rounded-lg border border-stone-200">
+            <div class="flex items-start gap-3 mb-3">
+              <svg class="w-6 h-6 text-emerald-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+              </svg>
+              <div>
+                <h3 class="font-bold text-stone-900 text-lg">Suggest New Trails</h3>
+                <p class="text-stone-700 text-sm mt-2">
+                  Know an amazing trail we haven't covered? We're actively expanding and would love your recommendations.
+                </p>
+                <p class="text-xs text-stone-500 mt-2">
+                  Include: Trail name, location, difficulty, highlights
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partnership Inquiries -->
+          <div class="bg-stone-50 p-6 rounded-lg border border-stone-200">
+            <div class="flex items-start gap-3 mb-3">
+              <svg class="w-6 h-6 text-purple-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+              <div>
+                <h3 class="font-bold text-stone-900 text-lg">Business Partnerships</h3>
+                <p class="text-stone-700 text-sm mt-2">
+                  Interested in advertising, affiliate partnerships, or sponsorships? We work with outdoor brands and local businesses.
+                </p>
+                <p class="text-xs text-stone-500 mt-2">
+                  Subject line: "Partnership Inquiry"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Technical Issues -->
+          <div class="bg-stone-50 p-6 rounded-lg border border-stone-200">
+            <div class="flex items-start gap-3 mb-3">
+              <svg class="w-6 h-6 text-orange-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+              </svg>
+              <div>
+                <h3 class="font-bold text-stone-900 text-lg">Technical Support</h3>
+                <p class="text-stone-700 text-sm mt-2">
+                  Experiencing website issues, broken links, or map problems? Report bugs so we can fix them quickly.
+                </p>
+                <p class="text-xs text-stone-500 mt-2">
+                  Include: Browser, device, and what happened
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- General Information -->
+        <div class="prose prose-lg max-w-none mb-12">
+          <h2 class="text-3xl font-black text-stone-900 mb-4">General Information</h2>
+
+          <div class="bg-stone-100 p-6 rounded-lg mb-6">
+            <h3 class="font-bold text-stone-900 mb-2">Response Time</h3>
+            <p class="text-stone-700 text-sm">
+              We aim to respond to all emails within 24-48 hours during business days (Monday-Friday).
+              Weekend emails will be addressed on the following Monday.
+            </p>
+          </div>
+
+          <div class="bg-stone-100 p-6 rounded-lg mb-6">
+            <h3 class="font-bold text-stone-900 mb-2">Emergency Situations</h3>
+            <p class="text-stone-700 text-sm">
+              <strong>⚠️ For trail emergencies, lost hikers, or urgent safety issues, do NOT email us.</strong>
+              Call 911 immediately or contact the appropriate park/forest service. Summit Seeker is an information resource,
+              not an emergency response service.
+            </p>
+          </div>
+
+          <div class="bg-stone-100 p-6 rounded-lg">
+            <h3 class="font-bold text-stone-900 mb-2">Media Inquiries</h3>
+            <p class="text-stone-700 text-sm">
+              Press and media inquiries are welcome. Please include "MEDIA" in your subject line
+              and provide details about your publication and story angle.
+            </p>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="bg-stone-900 text-white p-8 rounded-lg text-center">
+          <h2 class="text-2xl font-black mb-4">Connect on Social Media</h2>
+          <p class="text-stone-300 mb-6">
+            Follow us for trail updates, hiking tips, and outdoor inspiration
+          </p>
+          <div class="flex justify-center gap-4">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+               class="w-12 h-12 flex items-center justify-center rounded-full bg-stone-800 hover:bg-emerald-600 transition-all"
+               aria-label="Twitter">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+               class="w-12 h-12 flex items-center justify-center rounded-full bg-stone-800 hover:bg-emerald-600 transition-all"
+               aria-label="Instagram">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="https://github.com/anandgodar/hiking" target="_blank" rel="noopener noreferrer"
+               class="w-12 h-12 flex items-center justify-center rounded-full bg-stone-800 hover:bg-emerald-600 transition-all"
+               aria-label="GitHub">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <SiteFooter />
+</Layout>

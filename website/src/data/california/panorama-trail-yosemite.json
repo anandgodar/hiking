@@ -1,0 +1,113 @@
+{
+  "name": "Panorama Trail",
+  "slug": "panorama-trail-yosemite",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 7214,
+  "lat": 37.7293,
+  "lon": -119.5743,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Moderate", "One-Way", "Waterfalls", "Glacier Point", "Scenic"],
+
+  "trails": [
+    {
+      "name": "Panorama Trail (Glacier Point to Valley)",
+      "difficulty": "Moderate",
+      "type": "Point to Point",
+      "stats": {
+        "distance": 8.5,
+        "gain": 200,
+        "time": 5,
+        "difficulty": "Moderate"
+      },
+      "parking_info": "Start at Glacier Point. Requires shuttle or two cars. One-way downhill hike.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "Glacier Point",
+        "coords": [37.7293, -119.5743]
+      },
+      "tags": ["Nevada Fall", "Illilouette Fall", "Downhill", "Three Waterfalls"],
+
+      "geo": {
+        "markers": {
+          "start": [37.7293, -119.5743],
+          "summit": [37.7318, -119.5585]
+        },
+        "path": [
+          [37.7293, -119.5743],
+          [37.7280, -119.5650],
+          [37.7270, -119.5550],
+          [37.7280, -119.5450],
+          [37.7305, -119.5335],
+          [37.7318, -119.5585]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 7214},
+          {"distance": 2, "elevation": 6000},
+          {"distance": 4, "elevation": 5900},
+          {"distance": 6, "elevation": 5000},
+          {"distance": 8.5, "elevation": 4035}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "Illilouette Fall",
+          "type": "waterfall",
+          "lat": 37.7270,
+          "lon": -119.5610,
+          "mile": 2.5
+        },
+        {
+          "name": "Panorama Point",
+          "type": "viewpoint",
+          "lat": 37.7280,
+          "lon": -119.5500,
+          "mile": 4.0
+        },
+        {
+          "name": "Nevada Fall",
+          "type": "waterfall",
+          "lat": 37.7305,
+          "lon": -119.5335,
+          "mile": 5.5
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>The Panorama Trail is widely considered one of Yosemite's most scenic hikes, starting at Glacier Point and descending 8.5 miles to Yosemite Valley via three magnificent waterfalls: Illilouette Fall, Nevada Fall, and Vernal Fall. This one-way downhill route offers constantly changing perspectives of Half Dome, Liberty Cap, and the Valley floor.</p><p>Since it's mostly downhill (3,200 feet descent), the Panorama Trail is easier on your lungs than the reverse direction but harder on your knees. Many hikers consider this the perfect Yosemite sampler, combining valley views, waterfalls, High Sierra scenery, and the famous Mist Trail in one epic day.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How do I get back from the Panorama Trail?",
+        "answer": "It's a one-way trail! Options: 1) Arrange a shuttle ride from valley back to Glacier Point (check Yosemite tour companies), 2) Leave a car at each end (requires 2 cars and 1-hour drive between trailheads), 3) Take the Glacier Point Tour bus up, hike down (tour bus operates summer only). Most people use option #3."
+      },
+      {
+        "question": "Should I hike Panorama Trail up or down?",
+        "answer": "DOWN from Glacier Point to Valley is strongly recommended. It's still challenging (8.5 miles, hard on knees) but far easier than climbing 3,200 feet uphill. Going up would be extremely strenuous and take 8-10 hours. Down takes 4-6 hours for most hikers."
+      },
+      {
+        "question": "When is Glacier Point Road open?",
+        "answer": "Late May/early June through October/November typically. The Panorama Trail is only practical when Glacier Point Road is open. In winter, you can ski to Glacier Point but it's a multi-day adventure (16+ miles each way)."
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "One-way hike requires shuttle arrangement—plan ahead",
+        "Hard on knees—3,200 ft descent over 8.5 miles",
+        "Bring trekking poles to ease knee strain",
+        "Start early—takes 4-6 hours",
+        "Slippery granite near Nevada/Vernal Falls",
+        "Glacier Point Road closes in winter"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Panorama Trail Yosemite 2026 | Glacier Point to Valley via 3 Waterfalls",
+    "meta_description": "Complete guide to hiking Panorama Trail in Yosemite. 8.5-mile one-way descent from Glacier Point past Illilouette, Nevada & Vernal Falls. How to arrange shuttle, best direction, and trail tips."
+  }
+}

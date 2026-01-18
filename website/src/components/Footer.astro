@@ -39,6 +39,15 @@ const currentYear = new Date().getFullYear();
       <h3 class="text-white text-xs font-bold uppercase tracking-widest mb-4">Explore Regions</h3>
       <ul class="space-y-3 text-sm">
         <li>
+          <a href="/california" class="hover:text-emerald-400 transition flex items-center gap-2">
+            <svg class="w-4 h-4 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+            California
+          </a>
+        </li>
+        <li>
           <a href="/new-hampshire" class="hover:text-emerald-400 transition flex items-center gap-2">
             <svg class="w-4 h-4 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
@@ -121,16 +130,22 @@ const currentYear = new Date().getFullYear();
       <h3 class="text-white text-xs font-bold uppercase tracking-widest mb-4">Resources</h3>
       <ul class="space-y-3 text-sm">
         <li>
+          <a href="/about" class="hover:text-white transition">About Us</a>
+        </li>
+        <li>
+          <a href="/contact" class="hover:text-white transition">Contact</a>
+        </li>
+        <li>
           <a href="/privacy" class="hover:text-white transition">Privacy Policy</a>
         </li>
         <li>
           <a href="/terms" class="hover:text-white transition">Terms of Service</a>
         </li>
         <li>
-          <a href="/sitemap.xml" class="hover:text-white transition">Sitemap</a>
+          <a href="/disclaimer" class="hover:text-white transition">Disclaimer</a>
         </li>
         <li>
-          <a href="mailto:hello@summitseeker.io" class="hover:text-white transition">Contact Us</a>
+          <a href="/sitemap.xml" class="hover:text-white transition">Sitemap</a>
         </li>
       </ul>
     </div>
@@ -143,9 +158,11 @@ const currentYear = new Date().getFullYear();
         &copy; {currentYear} Summit Seeker. Built with Astro.
       </p>
       <div class="flex gap-6 text-xs">
+        <a href="/about" class="text-slate-600 hover:text-white transition">ABOUT</a>
+        <a href="/contact" class="text-slate-600 hover:text-white transition">CONTACT</a>
         <a href="/privacy" class="text-slate-600 hover:text-white transition">PRIVACY</a>
         <a href="/terms" class="text-slate-600 hover:text-white transition">TERMS</a>
-        <a href="/sitemap.xml" class="text-slate-600 hover:text-white transition">SITEMAP</a>
+        <a href="/disclaimer" class="text-slate-600 hover:text-white transition">DISCLAIMER</a>
       </div>
     </div>
   </div>

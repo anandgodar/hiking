@@ -1,0 +1,111 @@
+{
+  "name": "Upper Yosemite Fall",
+  "slug": "upper-yosemite-fall",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 6526,
+  "lat": 37.7567,
+  "lon": -119.5967,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Waterfall", "Strenuous", "Tallest Fall", "Switchbacks", "Valley Views"],
+
+  "trails": [
+    {
+      "name": "Upper Yosemite Fall Trail",
+      "difficulty": "Strenuous",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 7.2,
+        "gain": 2700,
+        "time": 6,
+        "difficulty": "Strenuous"
+      },
+      "parking_info": "Yosemite Falls Trailhead, Yosemite Valley. Limited parking.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "Yosemite Falls parking",
+        "coords": [37.7456, -119.5965]
+      },
+      "tags": ["2,425 Feet Total Height", "Columbia Rock", "Exposed Switchbacks"],
+
+      "geo": {
+        "markers": {
+          "start": [37.7456, -119.5965],
+          "summit": [37.7567, -119.5967]
+        },
+        "path": [
+          [37.7456, -119.5965],
+          [37.7470, -119.5970],
+          [37.7490, -119.5975],
+          [37.7510, -119.5980],
+          [37.7530, -119.5985],
+          [37.7550, -119.5975],
+          [37.7567, -119.5967]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 3950},
+          {"distance": 1.0, "elevation": 5031},
+          {"distance": 2.0, "elevation": 5800},
+          {"distance": 3.0, "elevation": 6300},
+          {"distance": 3.6, "elevation": 6526}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "Columbia Rock",
+          "type": "viewpoint",
+          "lat": 37.7490,
+          "lon": -119.5975,
+          "mile": 1.0
+        },
+        {
+          "name": "Upper Yosemite Fall Overlook",
+          "type": "viewpoint",
+          "lat": 37.7567,
+          "lon": -119.5967,
+          "mile": 3.6
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>The Upper Yosemite Fall Trail climbs 2,700 feet via relentless switchbacks to reach the top of North America's tallest waterfall. At 2,425 feet total (combining upper, middle, and lower falls), Yosemite Falls is among the world's highest waterfalls and the park's most iconic cascade.</p><p>This 7.2-mile round trip is one of Yosemite's most strenuous day hikes, but rewards persistence with spectacular views of Yosemite Valley, Half Dome, and the thundering brink of Upper Yosemite Fall. In spring, feel the ground shake as thousands of gallons per second plunge over the cliff.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "When does Yosemite Falls flow?",
+        "answer": "Peak flow is April-June during snowmelt. The falls roar with maximum power in May. By late July-August, flow decreases significantly. In drought years, the falls can completely dry up by late summer, becoming just a wet streak on the cliff."
+      },
+      {
+        "question": "Can I turn around at Columbia Rock?",
+        "answer": "Yes! Columbia Rock (1 mile, 1,000 ft gain) makes an excellent shorter hike with fantastic valley views. It's a popular turnaround point for those not ready for the full 2,700-foot climb. About 30-40% of hikers stop here."
+      },
+      {
+        "question": "How difficult is Upper Yosemite Fall?",
+        "answer": "Very strenuous. The 2,700-foot elevation gain over 3.6 miles is relentless with 60+ switchbacks. Exposed sections get very hot in summer. Plan 6-8 hours round trip. Start before 7am in summer to avoid peak heat. Not recommended for beginners."
+      },
+      {
+        "question": "Is there water on the trail?",
+        "answer": "No reliable water sources. A small creek near the 2-mile mark may be seasonal. Bring 3-4 liters, especially in summer when temperatures on exposed switchbacks can exceed 95°F. Many hikers underestimate water needs."
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "Extremely strenuous—2,700 ft gain with steep grades",
+        "Exposed switchbacks with intense sun and heat in summer",
+        "No shade for long stretches—heat exhaustion common",
+        "Bring 3-4 liters of water minimum",
+        "Dangerous railings near fall's edge—stay back",
+        "Falls completely dry in late summer some years"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Upper Yosemite Fall Trail 2026 | Hike to North America's Tallest Waterfall",
+    "meta_description": "Complete guide to hiking Upper Yosemite Fall. Strenuous 7.2-mile trail to the top of 2,425-foot Yosemite Falls. Best time to hike, water needs, and tips for this challenging Yosemite Valley climb."
+  }
+}
