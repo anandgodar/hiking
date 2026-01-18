@@ -1,0 +1,248 @@
+---
+/**
+ * Best Hikes Near Portland, Maine
+ * SEO landing page targeting "hiking near portland maine" (1,300 searches/month)
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles).map(f => f.default || f);
+
+// Portland, ME coordinates
+const portlandLat = 43.6591;
+const portlandLon = -70.2568;
+
+// Calculate distance
+const calculateDistance = (lat, lon) => {
+  const R = 3959;
+  const dLat = (lat - portlandLat) * Math.PI / 180;
+  const dLon = (lon - portlandLon) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(portlandLat * Math.PI / 180) * Math.cos(lat * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Filter trails within 100 miles of Portland
+const nearbyHikes = allMountains
+  .filter(m => m.lat && m.lon)
+  .map(m => ({
+    ...m,
+    distance: calculateDistance(m.lat, m.lon),
+    driveTime: Math.round(calculateDistance(m.lat, m.lon) / 45 * 60)
+  }))
+  .filter(m => m.distance <= 100)
+  .sort((a, b) => a.distance - b.distance);
+
+// Prioritize Maine trails
+const maineTrails = nearbyHikes.filter(m => m.state_slug === 'me' || m.state === 'Maine').slice(0, 8);
+const coastalHikes = nearbyHikes.filter(m =>
+  m.tags?.some(tag => tag.toLowerCase().includes('coast') || tag.toLowerCase().includes('ocean')) ||
+  m.name.toLowerCase().includes('acadia') ||
+  m.name.toLowerCase().includes('cadillac')
+).slice(0, 6);
+const waterfallHikes = nearbyHikes.filter(m =>
+  m.tags?.some(tag => tag.toLowerCase().includes('waterfall'))
+).slice(0, 6);
+
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s;
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best hike near Portland, Maine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best hikes near Portland, Maine include Cadillac Mountain in Acadia National Park (2.5 hours), Mount Katahdin in Baxter State Park (3.5 hours), and closer options like Bradbury Mountain State Park (30 minutes). Each offers unique Maine coastal and mountain scenery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far is Acadia National Park from Portland?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Acadia National Park is approximately 140 miles from Portland, Maine, making it a 2.5-3 hour scenic drive up the coast. It's perfect for a day trip or weekend adventure, featuring trails like Cadillac Mountain, Precipice Trail, and Beehive Trail."
+      }
+    }
+  ]
+};
+---
+
+<Layout
+  title="Best Hikes Near Portland, Maine 2026 | Acadia, Coastal & Mountain Trails"
+  description="Discover the best hiking trails near Portland, ME. From Acadia National Park to Mount Katahdin, explore coastal cliffs, mountain summits & waterfall hikes within 1-3 hours. With maps, drive times & parking info."
+>
+
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+
+  <!-- Hero -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+        class="w-full h-full object-cover"
+        alt="Acadia National Park coastal hiking trails near Portland Maine with rocky shoreline and ocean views"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li><a href="/near" class="hover:text-white transition-colors">Near Me</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Portland, Maine</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-blue-600/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} Trails • Coastal & Mountain Adventures
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-blue-400">Portland, Maine</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        From Acadia's coastal cliffs to Mount Katahdin's summit, explore {nearbyHikes.length} incredible Maine hiking trails
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Intro -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Portland: Gateway to Maine's Best Hiking</h2>
+        <p class="text-stone-700 leading-relaxed">
+          Portland, Maine offers unparalleled access to diverse hiking experiences. Within 30 minutes, you can hike coastal trails
+          with ocean views. Drive 2-3 hours north to reach Acadia National Park's iconic peaks or Baxter State Park's wilderness.
+          From easy seaside walks to challenging mountain climbs, Portland hikers have {nearbyHikes.length} trails to explore.
+        </p>
+      </div>
+
+      <!-- Maine Trails Section -->
+      {maineTrails.length > 0 && (
+        <section class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-blue-600 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🌲</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Best Maine Trails Near Portland</h2>
+              <p class="text-stone-600">Quintessential Maine hiking experiences</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {maineTrails.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                  {mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Coastal/Acadia Section -->
+      {coastalHikes.length > 0 && (
+        <section class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-cyan-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🌊</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Acadia National Park & Coastal Trails</h2>
+              <p class="text-stone-600">Iconic ocean views and rocky coastlines</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {coastalHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-cyan-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  COASTAL
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Waterfalls -->
+      {waterfallHikes.length > 0 && (
+        <section class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">💧</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Waterfall Hikes</h2>
+              <p class="text-stone-600">Maine's most scenic cascades</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {waterfallHikes.map(mountain => (
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Trails -->
+      <section class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-purple-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📍</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All Trails Near Portland</h2>
+            <p class="text-stone-600">{nearbyHikes.length} hikes within 100 miles</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {nearbyHikes.map(mountain => (
+            <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+          ))}
+        </div>
+      </section>
+
+      <!-- Tips Section -->
+      <section class="bg-gradient-to-br from-blue-50 to-emerald-50 rounded-2xl p-8 border border-blue-200">
+        <h2 class="text-2xl font-bold text-stone-900 mb-6">Hiking Tips for Portland Area</h2>
+        <div class="grid md:grid-cols-2 gap-6 text-stone-700">
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3">🚗 Best Routes from Portland</h3>
+            <ul class="space-y-2">
+              <li>• <strong>Acadia:</strong> Take I-295 N to US-1 N (2.5 hours)</li>
+              <li>• <strong>Baxter State Park:</strong> I-95 N to I-395 N (3.5 hours)</li>
+              <li>• <strong>White Mountains:</strong> US-302 W (2 hours)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3">📅 Best Seasons</h3>
+            <ul class="space-y-2">
+              <li>• <strong>Summer:</strong> Best for coastal hikes, warm ocean breezes</li>
+              <li>• <strong>Fall:</strong> Peak foliage September-October</li>
+              <li>• <strong>Winter:</strong> Microspikes essential for ice</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>
