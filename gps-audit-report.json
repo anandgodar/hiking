@@ -1,0 +1,2424 @@
+[
+  {
+    "name": "May Lake",
+    "state": "California",
+    "file": "may-lake-yosemite.json",
+    "issues": [
+      "Very low GPS density: 2.1 pts/mi (need 15+)",
+      "Missing elevation data in path"
+    ],
+    "warnings": [
+      "Too few chart points: 3 (recommend 10+)",
+      "Path very straight: 0.99 (may be oversimplified)"
+    ],
+    "quality_score": 15,
+    "stats": {
+      "gps_points": 5,
+      "distance_mi": 2.4,
+      "points_per_mile": 2.1,
+      "has_elevation": false,
+      "chart_points": 3,
+      "quality": "POOR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Potato Chip Rock",
+    "state": "California",
+    "file": "potato-chip-rock.json",
+    "issues": [
+      "Very low GPS density: 1.0 pts/mi (need 15+)",
+      "Missing elevation data in path"
+    ],
+    "warnings": [
+      "Path very straight: 0.99 (may be oversimplified)"
+    ],
+    "quality_score": 20,
+    "stats": {
+      "gps_points": 7,
+      "distance_mi": 7.2,
+      "points_per_mile": 1.0,
+      "has_elevation": false,
+      "chart_points": 5,
+      "quality": "POOR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Upper Yosemite Fall",
+    "state": "California",
+    "file": "upper-yosemite-fall.json",
+    "issues": [
+      "Very low GPS density: 1.0 pts/mi (need 15+)",
+      "Missing elevation data in path"
+    ],
+    "warnings": [
+      "Path very straight: 0.96 (may be oversimplified)"
+    ],
+    "quality_score": 20,
+    "stats": {
+      "gps_points": 7,
+      "distance_mi": 7.2,
+      "points_per_mile": 1.0,
+      "has_elevation": false,
+      "chart_points": 5,
+      "quality": "POOR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Mission Peak",
+    "state": "California",
+    "file": "mission-peak.json",
+    "issues": [
+      "Very low GPS density: 1.1 pts/mi (need 15+)",
+      "Missing elevation data in path"
+    ],
+    "warnings": [
+      "Path very straight: 1.00 (may be oversimplified)"
+    ],
+    "quality_score": 20,
+    "stats": {
+      "gps_points": 7,
+      "distance_mi": 6.2,
+      "points_per_mile": 1.1,
+      "has_elevation": false,
+      "chart_points": 5,
+      "quality": "POOR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Clouds Rest",
+    "state": "California",
+    "file": "clouds-rest-yosemite.json",
+    "issues": [
+      "Very low GPS density: 0.4 pts/mi (need 15+)",
+      "Missing elevation data in path"
+    ],
+    "warnings": [
+      "Path very straight: 0.96 (may be oversimplified)"
+    ],
+    "quality_score": 20,
+    "stats": {
+      "gps_points": 6,
+      "distance_mi": 14.5,
+      "points_per_mile": 0.4,
+      "has_elevation": false,
+      "chart_points": 5,
+      "quality": "POOR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Mirror Lake",
+    "state": "California",
+    "file": "mirror-lake-yosemite.json",
+    "issues": [
+      "Very low GPS density: 1.4 pts/mi (need 15+)",
+      "Missing elevation data in path"
+    ],
+    "warnings": [
+      "Too few chart points: 4 (recommend 10+)"
+    ],
+    "quality_score": 25,
+    "stats": {
+      "gps_points": 7,
+      "distance_mi": 5.0,
+      "points_per_mile": 1.4,
+      "has_elevation": false,
+      "chart_points": 4,
+      "quality": "POOR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Sentinel Dome & Taft Point",
+    "state": "California",
+    "file": "sentinel-dome-taft-point.json",
+    "issues": [
+      "Very low GPS density: 1.4 pts/mi (need 15+)",
+      "Missing elevation data in path"
+    ],
+    "warnings": [
+      "Too few chart points: 4 (recommend 10+)"
+    ],
+    "quality_score": 25,
+    "stats": {
+      "gps_points": 7,
+      "distance_mi": 5.0,
+      "points_per_mile": 1.4,
+      "has_elevation": false,
+      "chart_points": 4,
+      "quality": "POOR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Cathedral Lakes",
+    "state": "California",
+    "file": "cathedral-lakes-yosemite.json",
+    "issues": [
+      "Very low GPS density: 0.6 pts/mi (need 15+)",
+      "Missing elevation data in path"
+    ],
+    "warnings": [
+      "Too few chart points: 4 (recommend 10+)"
+    ],
+    "quality_score": 25,
+    "stats": {
+      "gps_points": 5,
+      "distance_mi": 8.0,
+      "points_per_mile": 0.6,
+      "has_elevation": false,
+      "chart_points": 4,
+      "quality": "POOR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Panorama Trail",
+    "state": "California",
+    "file": "panorama-trail-yosemite.json",
+    "issues": [
+      "Very low GPS density: 0.7 pts/mi (need 15+)",
+      "Missing elevation data in path"
+    ],
+    "warnings": [],
+    "quality_score": 30,
+    "stats": {
+      "gps_points": 6,
+      "distance_mi": 8.5,
+      "points_per_mile": 0.7,
+      "has_elevation": false,
+      "chart_points": 5,
+      "quality": "POOR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Mount Whitney",
+    "state": "California",
+    "file": "mount-whitney.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 13.7 pts/mi (recommend 15+)",
+      "Path very straight: 0.99 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 301,
+      "distance_mi": 22.0,
+      "points_per_mile": 13.7,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "FAIR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Vernal Fall",
+    "state": "California",
+    "file": "mist-trail-vernal-fall.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 14.1 pts/mi (recommend 15+)",
+      "Path very straight: 1.00 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 76,
+      "distance_mi": 5.4,
+      "points_per_mile": 14.1,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "FAIR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Half Dome",
+    "state": "California",
+    "file": "half-dome-yosemite.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 9.6 pts/mi (recommend 15+)",
+      "Path very straight: 0.99 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 136,
+      "distance_mi": 14.2,
+      "points_per_mile": 9.6,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "FAIR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Mount Kearsarge",
+    "state": "New Hampshire",
+    "file": "mount-kearsarge-nh.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 15.0 pts/mi (recommend 15+)",
+      "Path very straight: 0.91 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 33,
+      "distance_mi": 2.2,
+      "points_per_mile": 15.0,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "FAIR"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Hamlin Peak",
+    "state": "Maine",
+    "file": "hamlin-peak-me.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 14.9 pts/mi (recommend 15+)"
+    ],
+    "quality_score": 80,
+    "stats": {
+      "gps_points": 158,
+      "distance_mi": 10.6,
+      "points_per_mile": 14.9,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "FAIR"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Lower Yosemite Fall",
+    "state": "California",
+    "file": "lower-yosemite-fall.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 1.00 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 21,
+      "distance_mi": 1.0,
+      "points_per_mile": 21.0,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Bridalveil Fall",
+    "state": "California",
+    "file": "bridalveil-fall-yosemite.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 1.00 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 11,
+      "distance_mi": 0.5,
+      "points_per_mile": 22.0,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Nevada Fall",
+    "state": "California",
+    "file": "nevada-fall-yosemite.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 0.90 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 106,
+      "distance_mi": 6.9,
+      "points_per_mile": 15.4,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Bigelow Mountain - West Peak",
+    "state": "Maine",
+    "file": "bigelow-west-peak-me.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 0.92 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 172,
+      "distance_mi": 3.4,
+      "points_per_mile": 50.6,
+      "has_elevation": true,
+      "chart_points": 35,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Mount Pisgah",
+    "state": "Vermont",
+    "file": "mount-pisgah-vt.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 0.98 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 69,
+      "distance_mi": 1.5,
+      "points_per_mile": 46.0,
+      "has_elevation": true,
+      "chart_points": 35,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Mount Jackson",
+    "state": "New Hampshire",
+    "file": "mount-jackson-nh.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 0.92 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 78,
+      "distance_mi": 5.2,
+      "points_per_mile": 15.0,
+      "has_elevation": true,
+      "chart_points": 39,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Dianas Baths",
+    "state": "New Hampshire",
+    "file": "dianas-baths-nh.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 0.97 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 25,
+      "distance_mi": 0.4,
+      "points_per_mile": 62.5,
+      "has_elevation": true,
+      "chart_points": 25,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Webster",
+    "state": "New Hampshire",
+    "file": "mount-webster-nh.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 0.97 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 84,
+      "distance_mi": 5.6,
+      "points_per_mile": 15.0,
+      "has_elevation": true,
+      "chart_points": 42,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Breakneck Ridge",
+    "state": "New York",
+    "file": "breakneck-ridge-ny.json",
+    "issues": [],
+    "warnings": [
+      "Too few chart points: 4 (recommend 10+)"
+    ],
+    "quality_score": 95,
+    "stats": {
+      "gps_points": 23,
+      "distance_mi": 0.3,
+      "points_per_mile": 76.7,
+      "has_elevation": true,
+      "chart_points": 4,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Camden Hills - Mount Battie",
+    "state": "Maine",
+    "file": "mount-battie-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 54,
+      "distance_mi": 0.5,
+      "points_per_mile": 108.0,
+      "has_elevation": true,
+      "chart_points": 54,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Bradbury Mountain",
+    "state": "Maine",
+    "file": "bradbury-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 54,
+      "distance_mi": 1.4,
+      "points_per_mile": 38.6,
+      "has_elevation": true,
+      "chart_points": 54,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Angel Falls",
+    "state": "Maine",
+    "file": "angel-falls-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 112,
+      "distance_mi": 1.0,
+      "points_per_mile": 112.0,
+      "has_elevation": true,
+      "chart_points": 38,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Saddleback Mountain",
+    "state": "Maine",
+    "file": "saddleback-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 501,
+      "distance_mi": 6.7,
+      "points_per_mile": 74.8,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Sugarloaf Mountain",
+    "state": "Maine",
+    "file": "sugarloaf-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 14275,
+      "distance_mi": 10.4,
+      "points_per_mile": 1372.6,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Gulf Hagas",
+    "state": "Maine",
+    "file": "gulf-hagas-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 501,
+      "distance_mi": 8.7,
+      "points_per_mile": 57.6,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Mount Agamenticus",
+    "state": "Maine",
+    "file": "mount-agamenticus-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 184,
+      "distance_mi": 1.7,
+      "points_per_mile": 108.2,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "The Horn",
+    "state": "Maine",
+    "file": "the-horn-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 14275,
+      "distance_mi": 11.0,
+      "points_per_mile": 1297.7,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Crocker Mountain",
+    "state": "Maine",
+    "file": "crocker-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 501,
+      "distance_mi": 18.3,
+      "points_per_mile": 27.4,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Bigelow Mountain - Avery Peak",
+    "state": "Maine",
+    "file": "bigelow-avery-peak-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 14275,
+      "distance_mi": 9.0,
+      "points_per_mile": 1586.1,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Mount Abraham",
+    "state": "Maine",
+    "file": "mount-abraham-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 501,
+      "distance_mi": 8.0,
+      "points_per_mile": 62.6,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "The Beehive",
+    "state": "Maine",
+    "file": "beehive-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 41,
+      "distance_mi": 1.1,
+      "points_per_mile": 37.3,
+      "has_elevation": true,
+      "chart_points": 41,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Moxie Falls",
+    "state": "Maine",
+    "file": "moxie-falls-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 26,
+      "distance_mi": 0.3,
+      "points_per_mile": 86.7,
+      "has_elevation": true,
+      "chart_points": 26,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Precipice Trail",
+    "state": "Maine",
+    "file": "precipice-trail-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 76,
+      "distance_mi": 1.0,
+      "points_per_mile": 76.0,
+      "has_elevation": true,
+      "chart_points": 38,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Mount Katahdin - Baxter Peak",
+    "state": "Maine",
+    "file": "mount-katahdin-baxter-peak-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 242,
+      "distance_mi": 3.8,
+      "points_per_mile": 63.7,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "South Crocker Mountain",
+    "state": "Maine",
+    "file": "south-crocker-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 14275,
+      "distance_mi": 5.2,
+      "points_per_mile": 2745.2,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Old Speck Mountain",
+    "state": "Maine",
+    "file": "old-speck-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 163,
+      "distance_mi": 4.6,
+      "points_per_mile": 35.4,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Penobscot Mountain",
+    "state": "Maine",
+    "file": "penobscot-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 155,
+      "distance_mi": 1.8,
+      "points_per_mile": 86.1,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Spaulding Mountain",
+    "state": "Maine",
+    "file": "spaulding-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 14275,
+      "distance_mi": 7.2,
+      "points_per_mile": 1982.6,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Cadillac Mountain",
+    "state": "Maine",
+    "file": "cadillac-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 591,
+      "distance_mi": 4.4,
+      "points_per_mile": 134.3,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "North Brother",
+    "state": "Maine",
+    "file": "north-brother-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 156,
+      "distance_mi": 5.3,
+      "points_per_mile": 29.4,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Mount Blue",
+    "state": "Maine",
+    "file": "mount-blue-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 66,
+      "distance_mi": 1.4,
+      "points_per_mile": 47.1,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Tumbledown Mountain",
+    "state": "Maine",
+    "file": "tumbledown-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 114,
+      "distance_mi": 1.9,
+      "points_per_mile": 60.0,
+      "has_elevation": true,
+      "chart_points": 38,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Pleasant Mountain",
+    "state": "Maine",
+    "file": "pleasant-mountain-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 159,
+      "distance_mi": 1.7,
+      "points_per_mile": 93.5,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Jordan Pond",
+    "state": "Maine",
+    "file": "jordan-pond-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 127,
+      "distance_mi": 1.7,
+      "points_per_mile": 74.7,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Step Falls",
+    "state": "Maine",
+    "file": "step-falls-me.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 37,
+      "distance_mi": 0.5,
+      "points_per_mile": 74.0,
+      "has_elevation": true,
+      "chart_points": 37,
+      "quality": "GOOD"
+    },
+    "state_slug": "maine"
+  },
+  {
+    "name": "Mount Mansfield",
+    "state": "Vermont",
+    "file": "mount-mansfield-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 608,
+      "distance_mi": 6.6,
+      "points_per_mile": 92.1,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Glastenbury Mountain",
+    "state": "Vermont",
+    "file": "glastenbury-mountain-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 1140,
+      "distance_mi": 12.7,
+      "points_per_mile": 89.8,
+      "has_elevation": true,
+      "chart_points": 30,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Snake Mountain",
+    "state": "Vermont",
+    "file": "snake-mountain-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 81,
+      "distance_mi": 1.8,
+      "points_per_mile": 45.0,
+      "has_elevation": true,
+      "chart_points": 41,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Mount Ascutney",
+    "state": "Vermont",
+    "file": "mount-ascutney-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 461,
+      "distance_mi": 5.4,
+      "points_per_mile": 85.4,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Stowe Pinnacle",
+    "state": "Vermont",
+    "file": "stowe-pinnacle-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 217,
+      "distance_mi": 3.7,
+      "points_per_mile": 58.6,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Killington Peak",
+    "state": "Vermont",
+    "file": "killington-peak-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 344,
+      "distance_mi": 2.9,
+      "points_per_mile": 118.6,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Mount Ellen",
+    "state": "Vermont",
+    "file": "mount-ellen-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 499,
+      "distance_mi": 6.1,
+      "points_per_mile": 81.8,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Jay Peak",
+    "state": "Vermont",
+    "file": "jay-peak-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 221,
+      "distance_mi": 3.0,
+      "points_per_mile": 73.7,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Burke Mountain",
+    "state": "Vermont",
+    "file": "burke-mountain-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 211,
+      "distance_mi": 2.1,
+      "points_per_mile": 100.5,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Elmore Mountain",
+    "state": "Vermont",
+    "file": "elmore-mountain-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 180,
+      "distance_mi": 2.8,
+      "points_per_mile": 64.3,
+      "has_elevation": true,
+      "chart_points": 30,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Mount Philo",
+    "state": "Vermont",
+    "file": "mount-philo-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 61,
+      "distance_mi": 0.6,
+      "points_per_mile": 101.7,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Mount Equinox",
+    "state": "Vermont",
+    "file": "mount-equinox-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 192,
+      "distance_mi": 3.7,
+      "points_per_mile": 51.9,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Pico Peak",
+    "state": "Vermont",
+    "file": "pico-peak-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 958,
+      "distance_mi": 5.8,
+      "points_per_mile": 165.2,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Spruce Mountain",
+    "state": "Vermont",
+    "file": "spruce-mountain-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 185,
+      "distance_mi": 3.5,
+      "points_per_mile": 52.9,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "White Rocks",
+    "state": "Vermont",
+    "file": "white-rocks-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 30,
+      "distance_mi": 1.9,
+      "points_per_mile": 15.8,
+      "has_elevation": true,
+      "chart_points": 30,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Camel's Hump",
+    "state": "Vermont",
+    "file": "camels-hump-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 750,
+      "distance_mi": 9.4,
+      "points_per_mile": 79.8,
+      "has_elevation": true,
+      "chart_points": 30,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Mount Hunger",
+    "state": "Vermont",
+    "file": "mount-hunger-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 239,
+      "distance_mi": 4.3,
+      "points_per_mile": 55.6,
+      "has_elevation": true,
+      "chart_points": 35,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Mount Abraham",
+    "state": "Vermont",
+    "file": "mount-abraham-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 379,
+      "distance_mi": 2.3,
+      "points_per_mile": 164.8,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Okemo Mountain",
+    "state": "Vermont",
+    "file": "okemo-mountain-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 188,
+      "distance_mi": 3.7,
+      "points_per_mile": 50.8,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Bromley Mountain",
+    "state": "Vermont",
+    "file": "bromley-mountain-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 310,
+      "distance_mi": 5.1,
+      "points_per_mile": 60.8,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Mount Hor",
+    "state": "Vermont",
+    "file": "mount-hor-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 89,
+      "distance_mi": 1.9,
+      "points_per_mile": 46.8,
+      "has_elevation": true,
+      "chart_points": 45,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Haystack Mountain",
+    "state": "Vermont",
+    "file": "haystack-mountain-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 128,
+      "distance_mi": 1.3,
+      "points_per_mile": 98.5,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Stratton Mountain",
+    "state": "Vermont",
+    "file": "stratton-mountain-vt.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 189,
+      "distance_mi": 3.0,
+      "points_per_mile": 63.0,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "vermont"
+  },
+  {
+    "name": "Algonquin Peak",
+    "state": "New York",
+    "file": "algonquin-peak-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 228,
+      "distance_mi": 7.3,
+      "points_per_mile": 31.2,
+      "has_elevation": true,
+      "chart_points": 24,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Slide Mountain",
+    "state": "New York",
+    "file": "slide-mountain-catskills-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 1291,
+      "distance_mi": 14.0,
+      "points_per_mile": 92.2,
+      "has_elevation": true,
+      "chart_points": 130,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Storm King Mountain",
+    "state": "New York",
+    "file": "storm-king-mountain-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 185,
+      "distance_mi": 2.5,
+      "points_per_mile": 74.0,
+      "has_elevation": true,
+      "chart_points": 20,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Whiteface Mountain",
+    "state": "New York",
+    "file": "whiteface-mountain-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 230,
+      "distance_mi": 10.6,
+      "points_per_mile": 21.7,
+      "has_elevation": true,
+      "chart_points": 24,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Wittenberg Mountain",
+    "state": "New York",
+    "file": "wittenberg-mountain-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 805,
+      "distance_mi": 19.5,
+      "points_per_mile": 41.3,
+      "has_elevation": true,
+      "chart_points": 82,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Giant Mountain",
+    "state": "New York",
+    "file": "giant-mountain-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 226,
+      "distance_mi": 5.4,
+      "points_per_mile": 41.9,
+      "has_elevation": true,
+      "chart_points": 24,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Mount Colden",
+    "state": "New York",
+    "file": "mt-colden-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 1035,
+      "distance_mi": 16.4,
+      "points_per_mile": 63.1,
+      "has_elevation": true,
+      "chart_points": 105,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Overlook Mountain",
+    "state": "New York",
+    "file": "overlook-mountain-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 124,
+      "distance_mi": 3.9,
+      "points_per_mile": 31.8,
+      "has_elevation": true,
+      "chart_points": 14,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Hunter Mountain",
+    "state": "New York",
+    "file": "hunter-mountain-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 218,
+      "distance_mi": 5.8,
+      "points_per_mile": 37.6,
+      "has_elevation": true,
+      "chart_points": 23,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Anthony's Nose",
+    "state": "New York",
+    "file": "anthonys-nose-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 233,
+      "distance_mi": 3.4,
+      "points_per_mile": 68.5,
+      "has_elevation": true,
+      "chart_points": 25,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Cascade Mountain",
+    "state": "New York",
+    "file": "cascade-mountain-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 387,
+      "distance_mi": 4.5,
+      "points_per_mile": 86.0,
+      "has_elevation": true,
+      "chart_points": 40,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Big Slide Mountain",
+    "state": "New York",
+    "file": "big-slide-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 543,
+      "distance_mi": 8.9,
+      "points_per_mile": 61.0,
+      "has_elevation": true,
+      "chart_points": 56,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Mount Marcy",
+    "state": "New York",
+    "file": "mt-marcy-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 406,
+      "distance_mi": 14.0,
+      "points_per_mile": 29.0,
+      "has_elevation": true,
+      "chart_points": 42,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Bear Mountain",
+    "state": "New York",
+    "file": "bear-mountain-ny.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 398,
+      "distance_mi": 3.9,
+      "points_per_mile": 102.1,
+      "has_elevation": true,
+      "chart_points": 41,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-york"
+  },
+  {
+    "name": "Mount Whiteface",
+    "state": "New Hampshire",
+    "file": "mount-whiteface-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 994,
+      "distance_mi": 8.6,
+      "points_per_mile": 115.6,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Lafayette",
+    "state": "New Hampshire",
+    "file": "mount-lafayette-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 761,
+      "distance_mi": 8.9,
+      "points_per_mile": 85.5,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Adams",
+    "state": "New Hampshire",
+    "file": "mount-adams-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 199,
+      "distance_mi": 9.0,
+      "points_per_mile": 22.1,
+      "has_elevation": true,
+      "chart_points": 34,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Major",
+    "state": "New Hampshire",
+    "file": "mount-major-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 121,
+      "distance_mi": 2.2,
+      "points_per_mile": 55.0,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Hale",
+    "state": "New Hampshire",
+    "file": "mount-hale-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 348,
+      "distance_mi": 4.4,
+      "points_per_mile": 79.1,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Pierce",
+    "state": "New Hampshire",
+    "file": "mount-pierce-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 288,
+      "distance_mi": 6.4,
+      "points_per_mile": 45.0,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Carrigain",
+    "state": "New Hampshire",
+    "file": "mount-carrigain-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 499,
+      "distance_mi": 6.4,
+      "points_per_mile": 78.0,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Middle Tripyramid",
+    "state": "New Hampshire",
+    "file": "middle-tripyramid-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 1559,
+      "distance_mi": 11.0,
+      "points_per_mile": 141.7,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Cardigan",
+    "state": "New Hampshire",
+    "file": "mount-cardigan-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 236,
+      "distance_mi": 2.4,
+      "points_per_mile": 98.3,
+      "has_elevation": true,
+      "chart_points": 34,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Bond",
+    "state": "New Hampshire",
+    "file": "mount-bond-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 839,
+      "distance_mi": 19.0,
+      "points_per_mile": 44.2,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Field",
+    "state": "New Hampshire",
+    "file": "mount-field-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 469,
+      "distance_mi": 6.2,
+      "points_per_mile": 75.6,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Cannon Mountain",
+    "state": "New Hampshire",
+    "file": "cannon-mountain-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 353,
+      "distance_mi": 4.2,
+      "points_per_mile": 84.0,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Chocorua",
+    "state": "New Hampshire",
+    "file": "mount-chocorua-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 346,
+      "distance_mi": 5.4,
+      "points_per_mile": 64.1,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Bondcliff",
+    "state": "New Hampshire",
+    "file": "bondcliff-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 481,
+      "distance_mi": 17.8,
+      "points_per_mile": 27.0,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "South Carter",
+    "state": "New Hampshire",
+    "file": "south-carter-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 314,
+      "distance_mi": 9.4,
+      "points_per_mile": 33.4,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Waumbek",
+    "state": "New Hampshire",
+    "file": "mount-waumbek-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 296,
+      "distance_mi": 7.2,
+      "points_per_mile": 41.1,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Moriah",
+    "state": "New Hampshire",
+    "file": "mount-moriah-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 417,
+      "distance_mi": 9.0,
+      "points_per_mile": 46.3,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Monroe",
+    "state": "New Hampshire",
+    "file": "mount-monroe-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 228,
+      "distance_mi": 6.2,
+      "points_per_mile": 36.8,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Tom",
+    "state": "New Hampshire",
+    "file": "mount-tom-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 386,
+      "distance_mi": 5.8,
+      "points_per_mile": 66.6,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Willard",
+    "state": "New Hampshire",
+    "file": "mount-willard-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 268,
+      "distance_mi": 1.8,
+      "points_per_mile": 148.9,
+      "has_elevation": true,
+      "chart_points": 34,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Owl's Head",
+    "state": "New Hampshire",
+    "file": "owls-head-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 369,
+      "distance_mi": 18.0,
+      "points_per_mile": 20.5,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Monadnock",
+    "state": "New Hampshire",
+    "file": "mount-monadnock-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 311,
+      "distance_mi": 3.6,
+      "points_per_mile": 86.4,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "South Kinsman",
+    "state": "New Hampshire",
+    "file": "south-kinsman-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 592,
+      "distance_mi": 8.8,
+      "points_per_mile": 67.3,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Welch Dickey",
+    "state": "New Hampshire",
+    "file": "welch-dickey-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 54,
+      "distance_mi": 3.6,
+      "points_per_mile": 15.0,
+      "has_elevation": true,
+      "chart_points": 54,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "South Twin Mountain",
+    "state": "New Hampshire",
+    "file": "south-twin-mountain-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 387,
+      "distance_mi": 10.0,
+      "points_per_mile": 38.7,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Cabot",
+    "state": "New Hampshire",
+    "file": "mount-cabot-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 248,
+      "distance_mi": 10.4,
+      "points_per_mile": 23.8,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Lincoln",
+    "state": "New Hampshire",
+    "file": "mount-lincoln-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 858,
+      "distance_mi": 7.8,
+      "points_per_mile": 110.0,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Carter Dome",
+    "state": "New Hampshire",
+    "file": "carter-dome-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 395,
+      "distance_mi": 10.0,
+      "points_per_mile": 39.5,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "North Twin Mountain",
+    "state": "New Hampshire",
+    "file": "north-twin-mountain-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 357,
+      "distance_mi": 8.6,
+      "points_per_mile": 41.5,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Zealand",
+    "state": "New Hampshire",
+    "file": "mount-zealand-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 572,
+      "distance_mi": 11.2,
+      "points_per_mile": 51.1,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Flume",
+    "state": "New Hampshire",
+    "file": "mount-flume-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 541,
+      "distance_mi": 6.2,
+      "points_per_mile": 87.3,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Madison",
+    "state": "New Hampshire",
+    "file": "mount-madison-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 198,
+      "distance_mi": 8.2,
+      "points_per_mile": 24.1,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "North Tripyramid",
+    "state": "New Hampshire",
+    "file": "north-tripyramid-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 503,
+      "distance_mi": 10.2,
+      "points_per_mile": 49.3,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Liberty",
+    "state": "New Hampshire",
+    "file": "mount-liberty-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 435,
+      "distance_mi": 6.4,
+      "points_per_mile": 68.0,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Moosilauke",
+    "state": "New Hampshire",
+    "file": "mount-moosilauke-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 175,
+      "distance_mi": 4.9,
+      "points_per_mile": 35.7,
+      "has_elevation": true,
+      "chart_points": 35,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "West Bond",
+    "state": "New Hampshire",
+    "file": "west-bond-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 776,
+      "distance_mi": 20.0,
+      "points_per_mile": 38.8,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Washington",
+    "state": "New Hampshire",
+    "file": "mount-washington-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 392,
+      "distance_mi": 8.5,
+      "points_per_mile": 46.1,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Arethusa Falls",
+    "state": "New Hampshire",
+    "file": "arethusa-falls-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 113,
+      "distance_mi": 1.6,
+      "points_per_mile": 70.6,
+      "has_elevation": true,
+      "chart_points": 38,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Passaconaway",
+    "state": "New Hampshire",
+    "file": "mount-passaconaway-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 284,
+      "distance_mi": 9.2,
+      "points_per_mile": 30.9,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Osceola",
+    "state": "New Hampshire",
+    "file": "mount-osceola-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 211,
+      "distance_mi": 4.1,
+      "points_per_mile": 51.5,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Isolation",
+    "state": "New Hampshire",
+    "file": "mount-isolation-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 890,
+      "distance_mi": 14.6,
+      "points_per_mile": 61.0,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Garfield",
+    "state": "New Hampshire",
+    "file": "mount-garfield-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 221,
+      "distance_mi": 6.0,
+      "points_per_mile": 36.8,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Wildcat D",
+    "state": "New Hampshire",
+    "file": "wildcat-d-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 215,
+      "distance_mi": 5.6,
+      "points_per_mile": 38.4,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Eisenhower",
+    "state": "New Hampshire",
+    "file": "mount-eisenhower-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 310,
+      "distance_mi": 6.6,
+      "points_per_mile": 47.0,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Willey",
+    "state": "New Hampshire",
+    "file": "mount-willey-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 363,
+      "distance_mi": 7.6,
+      "points_per_mile": 47.8,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Tecumseh",
+    "state": "New Hampshire",
+    "file": "mount-tecumseh-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 424,
+      "distance_mi": 4.4,
+      "points_per_mile": 96.4,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "North Kinsman",
+    "state": "New Hampshire",
+    "file": "north-kinsman-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 453,
+      "distance_mi": 9.6,
+      "points_per_mile": 47.2,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Middle Carter",
+    "state": "New Hampshire",
+    "file": "middle-carter-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 249,
+      "distance_mi": 9.8,
+      "points_per_mile": 25.4,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Jefferson",
+    "state": "New Hampshire",
+    "file": "mount-jefferson-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 345,
+      "distance_mi": 5.4,
+      "points_per_mile": 63.9,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Mount Hancock",
+    "state": "New Hampshire",
+    "file": "mount-hancock-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 428,
+      "distance_mi": 5.2,
+      "points_per_mile": 82.3,
+      "has_elevation": true,
+      "chart_points": 31,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Galehead Mountain",
+    "state": "New Hampshire",
+    "file": "galehead-mountain-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 352,
+      "distance_mi": 10.2,
+      "points_per_mile": 34.5,
+      "has_elevation": true,
+      "chart_points": 32,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  },
+  {
+    "name": "Wildcat A",
+    "state": "New Hampshire",
+    "file": "wildcat-a-nh.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 358,
+      "distance_mi": 6.8,
+      "points_per_mile": 52.6,
+      "has_elevation": true,
+      "chart_points": 33,
+      "quality": "GOOD"
+    },
+    "state_slug": "new-hampshire"
+  }
+]

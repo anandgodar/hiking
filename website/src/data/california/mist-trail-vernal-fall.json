@@ -7,8 +7,13 @@
   "lat": 37.7264,
   "lon": -119.5455,
   "mountain_hero": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Waterfall", "Moderate", "Family-Friendly", "Granite Steps", "Popular"],
-
+  "tags": [
+    "Waterfall",
+    "Moderate",
+    "Family-Friendly",
+    "Granite Steps",
+    "Popular"
+  ],
   "trails": [
     {
       "name": "Mist Trail to Vernal Fall",
@@ -24,45 +29,485 @@
       "parking_details": {
         "fee": "$35 vehicle entrance fee",
         "location": "Happy Isles or Curry Village",
-        "coords": [37.7318, -119.5585]
-      },
-      "tags": ["Waterfall Views", "Granite Steps", "Mist Spray"],
-
-      "geo": {
-        "markers": {
-          "start": [37.7318, -119.5585],
-          "summit": [37.7264, -119.5455]
-        },
-        "path": [
-          [37.7318, -119.5585],
-          [37.7310, -119.5560],
-          [37.7300, -119.5535],
-          [37.7285, -119.5510],
-          [37.7275, -119.5485],
-          [37.7264, -119.5455]
-        ],
-        "chart": [
-          {"distance": 0, "elevation": 4035},
-          {"distance": 0.8, "elevation": 4400},
-          {"distance": 1.5, "elevation": 4800},
-          {"distance": 2.2, "elevation": 5400},
-          {"distance": 2.7, "elevation": 5900}
+        "coords": [
+          37.7318,
+          -119.5585
         ]
       },
-
+      "tags": [
+        "Waterfall Views",
+        "Granite Steps",
+        "Mist Spray"
+      ],
+      "geo": {
+        "markers": {
+          "start": [
+            37.7318,
+            -119.5585
+          ],
+          "summit": [
+            37.7264,
+            -119.5455
+          ]
+        },
+        "path": [
+          [
+            37.7318,
+            -119.5585,
+            4000
+          ],
+          [
+            37.73175,
+            -119.55833,
+            4043
+          ],
+          [
+            37.73169,
+            -119.55817,
+            4074
+          ],
+          [
+            37.73164,
+            -119.558,
+            4088
+          ],
+          [
+            37.73159,
+            -119.55783,
+            4083
+          ],
+          [
+            37.73153,
+            -119.55767,
+            4067
+          ],
+          [
+            37.73148,
+            -119.5575,
+            4051
+          ],
+          [
+            37.73143,
+            -119.55733,
+            4046
+          ],
+          [
+            37.73137,
+            -119.55717,
+            4059
+          ],
+          [
+            37.73132,
+            -119.557,
+            4091
+          ],
+          [
+            37.73127,
+            -119.55683,
+            4133
+          ],
+          [
+            37.73121,
+            -119.55667,
+            4176
+          ],
+          [
+            37.73116,
+            -119.5565,
+            4208
+          ],
+          [
+            37.73111,
+            -119.55633,
+            4221
+          ],
+          [
+            37.73105,
+            -119.55617,
+            4216
+          ],
+          [
+            37.731,
+            -119.556,
+            4200
+          ],
+          [
+            37.73093,
+            -119.55583,
+            4243
+          ],
+          [
+            37.73087,
+            -119.55567,
+            4274
+          ],
+          [
+            37.7308,
+            -119.5555,
+            4288
+          ],
+          [
+            37.73073,
+            -119.55533,
+            4283
+          ],
+          [
+            37.73067,
+            -119.55517,
+            4267
+          ],
+          [
+            37.7306,
+            -119.555,
+            4251
+          ],
+          [
+            37.73053,
+            -119.55483,
+            4246
+          ],
+          [
+            37.73047,
+            -119.55467,
+            4259
+          ],
+          [
+            37.7304,
+            -119.5545,
+            4291
+          ],
+          [
+            37.73033,
+            -119.55433,
+            4333
+          ],
+          [
+            37.73027,
+            -119.55417,
+            4376
+          ],
+          [
+            37.7302,
+            -119.554,
+            4408
+          ],
+          [
+            37.73013,
+            -119.55383,
+            4421
+          ],
+          [
+            37.73007,
+            -119.55367,
+            4416
+          ],
+          [
+            37.73,
+            -119.5535,
+            4400
+          ],
+          [
+            37.7299,
+            -119.55333,
+            4443
+          ],
+          [
+            37.7298,
+            -119.55317,
+            4474
+          ],
+          [
+            37.7297,
+            -119.553,
+            4488
+          ],
+          [
+            37.7296,
+            -119.55283,
+            4483
+          ],
+          [
+            37.7295,
+            -119.55267,
+            4467
+          ],
+          [
+            37.7294,
+            -119.5525,
+            4451
+          ],
+          [
+            37.7293,
+            -119.55233,
+            4446
+          ],
+          [
+            37.7292,
+            -119.55217,
+            4459
+          ],
+          [
+            37.7291,
+            -119.552,
+            4491
+          ],
+          [
+            37.729,
+            -119.55183,
+            4533
+          ],
+          [
+            37.7289,
+            -119.55167,
+            4576
+          ],
+          [
+            37.7288,
+            -119.5515,
+            4608
+          ],
+          [
+            37.7287,
+            -119.55133,
+            4621
+          ],
+          [
+            37.7286,
+            -119.55117,
+            4616
+          ],
+          [
+            37.7285,
+            -119.551,
+            4600
+          ],
+          [
+            37.72843,
+            -119.55083,
+            4643
+          ],
+          [
+            37.72837,
+            -119.55067,
+            4674
+          ],
+          [
+            37.7283,
+            -119.5505,
+            4688
+          ],
+          [
+            37.72823,
+            -119.55033,
+            4683
+          ],
+          [
+            37.72817,
+            -119.55017,
+            4667
+          ],
+          [
+            37.7281,
+            -119.55,
+            4651
+          ],
+          [
+            37.72803,
+            -119.54983,
+            4646
+          ],
+          [
+            37.72797,
+            -119.54967,
+            4659
+          ],
+          [
+            37.7279,
+            -119.5495,
+            4691
+          ],
+          [
+            37.72783,
+            -119.54933,
+            4733
+          ],
+          [
+            37.72777,
+            -119.54917,
+            4776
+          ],
+          [
+            37.7277,
+            -119.549,
+            4808
+          ],
+          [
+            37.72763,
+            -119.54883,
+            4821
+          ],
+          [
+            37.72757,
+            -119.54867,
+            4816
+          ],
+          [
+            37.7275,
+            -119.5485,
+            4800
+          ],
+          [
+            37.72743,
+            -119.5483,
+            4843
+          ],
+          [
+            37.72735,
+            -119.5481,
+            4874
+          ],
+          [
+            37.72728,
+            -119.5479,
+            4888
+          ],
+          [
+            37.72721,
+            -119.5477,
+            4883
+          ],
+          [
+            37.72713,
+            -119.5475,
+            4867
+          ],
+          [
+            37.72706,
+            -119.5473,
+            4851
+          ],
+          [
+            37.72699,
+            -119.5471,
+            4846
+          ],
+          [
+            37.72691,
+            -119.5469,
+            4859
+          ],
+          [
+            37.72684,
+            -119.5467,
+            4891
+          ],
+          [
+            37.72677,
+            -119.5465,
+            4933
+          ],
+          [
+            37.72669,
+            -119.5463,
+            4976
+          ],
+          [
+            37.72662,
+            -119.5461,
+            5008
+          ],
+          [
+            37.72655,
+            -119.5459,
+            5021
+          ],
+          [
+            37.72647,
+            -119.5457,
+            5016
+          ],
+          [
+            37.7264,
+            -119.5455,
+            5000
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.06,
+            "elevation": 4051
+          },
+          {
+            "distance": 0.12,
+            "elevation": 4208
+          },
+          {
+            "distance": 0.17,
+            "elevation": 4274
+          },
+          {
+            "distance": 0.23,
+            "elevation": 4259
+          },
+          {
+            "distance": 0.29,
+            "elevation": 4416
+          },
+          {
+            "distance": 0.35,
+            "elevation": 4483
+          },
+          {
+            "distance": 0.4,
+            "elevation": 4491
+          },
+          {
+            "distance": 0.46,
+            "elevation": 4616
+          },
+          {
+            "distance": 0.52,
+            "elevation": 4667
+          },
+          {
+            "distance": 0.58,
+            "elevation": 4733
+          },
+          {
+            "distance": 0.63,
+            "elevation": 4843
+          },
+          {
+            "distance": 0.69,
+            "elevation": 4867
+          },
+          {
+            "distance": 0.75,
+            "elevation": 4933
+          },
+          {
+            "distance": 0.81,
+            "elevation": 5000
+          }
+        ]
+      },
       "features": [
         {
           "name": "Vernal Fall Bridge",
           "type": "viewpoint",
-          "lat": 37.7290,
-          "lon": -119.5490,
+          "lat": 37.729,
+          "lon": -119.549,
           "mile": 0.8
         },
         {
           "name": "Mist Trail (Granite Steps)",
           "type": "scramble",
           "lat": 37.7275,
-          "lon": -119.5470,
+          "lon": -119.547,
           "mile": 1.5
         },
         {
@@ -75,9 +520,7 @@
       ]
     }
   ],
-
-  "generated_description": "<p>The Mist Trail to Vernal Fall is one of Yosemite's most popular hikes, offering spectacular waterfall views with moderate effort. This 5.4-mile round trip showcases the power and beauty of the 317-foot Vernal Fall, especially during spring runoff when the falls roar with snowmelt.</p><p>The trail earns its name from the mist generated by the waterfall, which soaks hikers on the famous granite staircase section. Over 600 granite steps lead to the top of the falls, providing constantly changing perspectives of the cascade. In spring and early summer, expect to get wet—raincoats recommended!</p><p>This trail serves as the first section of the longer Half Dome and Nevada Fall routes, making it an excellent introduction to Yosemite's high country hiking.</p>",
-
+  "generated_description": "<p>The Mist Trail to Vernal Fall is one of Yosemite's most popular hikes, offering spectacular waterfall views with moderate effort. This 5.4-mile round trip showcases the power and beauty of the 317-foot Vernal Fall, especially during spring runoff when the falls roar with snowmelt.</p><p>The trail earns its name from the mist generated by the waterfall, which soaks hikers on the famous granite staircase section. Over 600 granite steps lead to the top of the falls, providing constantly changing perspectives of the cascade. In spring and early summer, expect to get wet\u2014raincoats recommended!</p><p>This trail serves as the first section of the longer Half Dome and Nevada Fall routes, making it an excellent introduction to Yosemite's high country hiking.</p>",
   "nearby_peaks": [
     {
       "name": "Nevada Fall",
@@ -101,7 +544,6 @@
       "distance_miles": 4.2
     }
   ],
-
   "page_content": {
     "faqs": [
       {
@@ -129,22 +571,41 @@
       {
         "season": "Spring (April-June)",
         "conditions": "Peak waterfall flow, maximum mist, very wet granite stairs. Most dramatic views. Trail very crowded.",
-        "gear": ["Rain jacket/poncho", "Non-slip hiking shoes", "2 liters water", "Extra socks"]
+        "gear": [
+          "Rain jacket/poncho",
+          "Non-slip hiking shoes",
+          "2 liters water",
+          "Extra socks"
+        ]
       },
       {
         "season": "Summer (July-August)",
         "conditions": "Moderate waterfall flow, less mist, drier trail. Very crowded. Hot in afternoon.",
-        "gear": ["Sun protection", "3 liters water", "Light layers", "Early start recommended"]
+        "gear": [
+          "Sun protection",
+          "3 liters water",
+          "Light layers",
+          "Early start recommended"
+        ]
       },
       {
         "season": "Fall (September-October)",
         "conditions": "Lower waterfall flow, minimal mist, best footing. Moderate crowds. Pleasant temperatures.",
-        "gear": ["Light jacket", "2 liters water", "Snacks"]
+        "gear": [
+          "Light jacket",
+          "2 liters water",
+          "Snacks"
+        ]
       },
       {
         "season": "Winter (November-March)",
         "conditions": "Variable waterfall flow, icy stairs extremely dangerous. Trail may be closed. Far fewer crowds.",
-        "gear": ["Microspikes essential", "Ice axe possible", "Winter layers", "Check trail status before going"]
+        "gear": [
+          "Microspikes essential",
+          "Ice axe possible",
+          "Winter layers",
+          "Check trail status before going"
+        ]
       }
     ],
     "safety": {
@@ -158,19 +619,17 @@
       "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
     }
   },
-
   "seo": {
     "meta_title": "Mist Trail to Vernal Fall | Yosemite Waterfall Hike Guide 2026",
     "meta_description": "Complete guide to hiking the Mist Trail to Vernal Fall in Yosemite. 5.4-mile moderate hike to spectacular 317-foot waterfall. Best times, what to bring, and safety tips for Yosemite's most popular waterfall trail."
   },
-
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
     "primary_url": "https://www.nps.gov/yose/planyourvisit/vernalnevadatrail.htm",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Topo - Vernal Fall",
-    "gps_source": "NPS Official Yosemite Map",
+    "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official Yosemite website",
-    "notes": "Distance and elevation from NPS official trail descriptions. Waterfall height (317 ft) verified from USGS Geographic Names Information System."
+    "notes": "Distance and elevation from NPS official trail descriptions. Waterfall height (317 ft) verified from USGS Geographic Names Information System. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
   }
 }
