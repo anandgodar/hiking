@@ -113,11 +113,21 @@ const websiteSchema = !isMountainPage ? {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Summit Seeker",
+  "alternateName": "SummitSeeker.io",
   "url": "https://summitseeker.io",
   "description": description,
+  "inLanguage": "en-US",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Summit Seeker",
+    "url": "https://summitseeker.io"
+  },
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://summitseeker.io/search?q={search_term_string}",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://summitseeker.io/search?q={search_term_string}"
+    },
     "query-input": "required name=search_term_string"
   }
 } : null;

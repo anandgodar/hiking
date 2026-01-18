@@ -23,7 +23,6 @@ export default function WeatherWidget({ lat, lon, elevation }) {
         setModelElevation(data.elevation || elevation); // Capture the model's elevation
         setLoading(false);
       } catch (e) {
-        console.error("Weather error", e);
         setLoading(false);
       }
     }
@@ -69,10 +68,8 @@ export default function WeatherWidget({ lat, lon, elevation }) {
         <div className="flex items-center gap-4">
              <div className="text-5xl">{getWeatherIcon(current.weathercode)}</div>
              <div>
-                <h3 className="text-xs font-bold uppercase text-stone-400 tracking-widest flex items-center gap-1">
+                <h3 className="text-xs font-bold uppercase text-stone-400 tracking-widest">
                     Summit Conditions
-                    {/* Debug Tooltip */}
-                    <span className="cursor-help text-[8px] bg-stone-100 px-1 rounded text-stone-300" title={`Model Elev: ${modelElevation}' vs Real: ${elevation}'`}>ℹ</span>
                 </h3>
                 <div className="flex items-baseline gap-2">
                     {/* DISPLAY CORRECTED TEMP */}
