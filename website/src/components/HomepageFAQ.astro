@@ -1,0 +1,97 @@
+---
+/**
+ * Homepage FAQ Component
+ * Optimized for SEO and Featured Snippets
+ * Includes FAQ Schema markup
+ */
+
+const faqs = [
+  {
+    question: "What are the best hiking trails in New England?",
+    answer: "The best hiking trails in New England include Mount Washington in New Hampshire (highest peak in the Northeast), Cadillac Mountain in Maine's Acadia National Park, Mount Mansfield in Vermont, and Mount Marcy in New York's Adirondacks. SummitSeeker features 120+ curated trails with detailed maps and guides."
+  },
+  {
+    question: "When is the best time to hike in New Hampshire and Maine?",
+    answer: "The best hiking season in New Hampshire and Maine is typically from late May through October. Summer (June-August) offers the most stable weather, while September-October provides stunning fall foliage. Winter hiking (December-March) requires specialized gear and experience."
+  },
+  {
+    question: "Do I need a parking pass for New Hampshire hiking trails?",
+    answer: "Many New Hampshire trails require a parking pass. The White Mountain National Forest requires a Recreation Pass ($5 daily or $30 annual). State parks like Franconia Notch also require fees. Maine's Baxter State Park charges vehicle fees. Check each trail's parking information on SummitSeeker for specific requirements."
+  },
+  {
+    question: "What is a 4000 footer in New Hampshire?",
+    answer: "A 4000 footer refers to New Hampshire's 48 mountain peaks over 4,000 feet in elevation. Completing all 48 is a popular hiking challenge. The NH 4000 Footer Club awards certificates to hikers who summit all peaks. Popular 4000 footers include Mount Lafayette, Mount Washington, and the Franconia Ridge."
+  },
+  {
+    question: "How difficult is hiking Mount Washington?",
+    answer: "Mount Washington is considered very difficult due to extreme weather, 4,000+ feet of elevation gain, and typically 8-10 hour round trips. The most popular routes are the Tuckerman Ravine Trail (8.4 miles) and the Ammonoosuc Ravine Trail (9.2 miles). Only attempt with proper gear, fitness, and weather awareness."
+  },
+  {
+    question: "Are dogs allowed on New England hiking trails?",
+    answer: "Most New England trails allow dogs on leash. However, dogs are prohibited in Baxter State Park (Maine) and restricted in some state parks during nesting season. Always check trail-specific regulations. Popular dog-friendly hikes include Mount Major (NH), Welch-Dickey Loop (NH), and most Green Mountain trails (VT)."
+  },
+  {
+    question: "What gear do I need for White Mountains hiking?",
+    answer: "Essential White Mountains hiking gear includes: sturdy hiking boots, moisture-wicking clothing layers, rain jacket, backpack, water (2+ liters), snacks, map/GPS, first aid kit, headlamp, and sun protection. For 4000 footers, add trekking poles, warm layers, and emergency shelter. Winter requires microspikes, crampons, and insulated gear."
+  },
+  {
+    question: "How long does it take to hike popular New Hampshire trails?",
+    answer: "Hiking times vary by trail: Mount Major (2-3 hours round trip), Welch-Dickey Loop (4-5 hours), Mount Lafayette via Old Bridle Path (6-8 hours), and Mount Washington (8-10 hours). SummitSeeker provides estimated times for each trail based on distance, elevation gain, and difficulty."
+  }
+];
+
+// FAQ Schema for SEO
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
+---
+
+<section class="bg-white py-20">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <div class="inline-block px-4 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+        Hiking FAQ
+      </div>
+      <h2 class="text-4xl font-bold text-stone-900 mb-4">Frequently Asked Questions</h2>
+      <p class="text-stone-600 text-lg">Everything you need to know about hiking in New England</p>
+    </div>
+
+    <div class="space-y-4">
+      {faqs.map((faq, index) => (
+        <details class="group bg-stone-50 border border-stone-200 rounded-xl overflow-hidden hover:border-emerald-300 transition-all">
+          <summary class="flex justify-between items-center cursor-pointer p-6 font-bold text-stone-900 text-lg list-none hover:bg-stone-100 transition-colors">
+            <span class="pr-8">{faq.question}</span>
+            <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </summary>
+          <div class="px-6 pb-6 text-stone-700 leading-relaxed">
+            {faq.answer}
+          </div>
+        </details>
+      ))}
+    </div>
+
+    <div class="mt-12 text-center">
+      <p class="text-stone-500 mb-4">Still have questions?</p>
+      <a href="/contact" class="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition-colors shadow-lg hover:shadow-xl">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+        </svg>
+        Contact Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Schema for SEO -->
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />

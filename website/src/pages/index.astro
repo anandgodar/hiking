@@ -11,6 +11,7 @@ import Layout from '../layouts/Layout.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import MountainCard from '../components/MountainCard.astro';
 import GlobalSearch from '../components/GlobalSearch.astro';
+import HomepageFAQ from '../components/HomepageFAQ.astro';
 
 // Load all mountains
 const allFiles = import.meta.glob('../data/*/*.json', { eager: true });
@@ -83,7 +84,10 @@ const getIconSvg = (iconName) => {
 const activeStates = states.filter(s => s.count > 0);
 ---
 
-<Layout title="Summit Seeker - Northeast Trail Guide" description="Find your next hiking adventure in New Hampshire, Maine, Vermont, and New York.">
+<Layout
+  title="Best Hiking Trails in New England 2026 | NH, ME, VT Trail Maps & Guides"
+  description="Discover 120+ curated hiking trails in New Hampshire, Maine, Vermont & New York. Detailed trail maps, elevation profiles, weather forecasts, and real-time conditions for White Mountains, Acadia, Green Mountains & Adirondacks."
+>
 
   <!-- HERO SECTION -->
   <div class="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -99,11 +103,14 @@ const activeStates = states.filter(s => s.count > 0);
     <div class="relative z-10 w-full max-w-5xl px-4 text-center">
       <!-- Tagline -->
       <p class="text-white/60 text-sm font-bold uppercase tracking-[0.3em] mb-4">
-        Answer The
+        Discover New England's Best
       </p>
-      <h1 class="text-6xl md:text-8xl font-black text-white mb-4 tracking-tight">
-        <span class="text-emerald-400">Call of the Wild</span>
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-4 tracking-tight leading-tight">
+        <span class="text-emerald-400">Hiking Trails</span> & Mountain Guides
       </h1>
+      <p class="text-white/80 text-lg md:text-xl mb-6 max-w-3xl mx-auto">
+        Explore 120+ curated trails across New Hampshire, Maine, Vermont & New York with detailed maps, elevation profiles & real-time conditions
+      </p>
 
       <!-- Search Bar -->
       <div class="max-w-2xl mx-auto mt-8 mb-8">
@@ -222,6 +229,9 @@ const activeStates = states.filter(s => s.count > 0);
       </div>
     </div>
   </section>
+
+  <!-- FAQ Section -->
+  <HomepageFAQ />
 
   <SiteFooter />
 </Layout>

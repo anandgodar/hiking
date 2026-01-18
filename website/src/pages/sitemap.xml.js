@@ -80,11 +80,12 @@ export async function GET() {
   // 7. Combine all pages
   const allPages = [...pages, ...mountainPages];
 
-  // 8. Generate XML
+  // 8. Generate XML with images
   const lastmod = new Date().toISOString().split('T')[0];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-            xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+            xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+            xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
       ${allPages.map(page => `
         <url>
           <loc>${page.url}</loc>
@@ -93,6 +94,26 @@ export async function GET() {
           <priority>${page.priority}</priority>
         </url>
       `).join('')}
+      ${mountainPages.map(page => {
+        const mountain = Object.values(allFiles).find(f => {
+          const m = f.default || f;
+          return page.url.includes(m.slug);
+        });
+        const m = mountain?.default || mountain;
+        return m?.mountain_hero ? `
+        <url>
+          <loc>${page.url}</loc>
+          <lastmod>${lastmod}</lastmod>
+          <changefreq>${page.changefreq}</changefreq>
+          <priority>${page.priority}</priority>
+          <image:image>
+            <image:loc>${m.mountain_hero}</image:loc>
+            <image:title>${m.name} Trail</image:title>
+            <image:caption>Hiking trail to ${m.name} summit at ${m.elevation} feet</image:caption>
+          </image:image>
+        </url>
+        ` : '';
+      }).join('')}
     </urlset>`;
 
   return new Response(sitemap, {
