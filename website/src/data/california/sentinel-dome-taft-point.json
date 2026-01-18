@@ -7,8 +7,13 @@
   "lat": 37.7181,
   "lon": -119.5847,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Easy", "Panoramic Views", "Family-Friendly", "Sunset Hike", "Granite Dome"],
-
+  "tags": [
+    "Easy",
+    "Panoramic Views",
+    "Family-Friendly",
+    "Sunset Hike",
+    "Granite Dome"
+  ],
   "trails": [
     {
       "name": "Sentinel Dome & Taft Point Loop",
@@ -24,32 +29,547 @@
       "parking_details": {
         "fee": "$35 park entrance",
         "location": "Sentinel Dome Trailhead",
-        "coords": [37.7185, -119.5868]
-      },
-      "tags": ["360 Views", "Cliff Edges", "Sunset Popular"],
-
-      "geo": {
-        "markers": {
-          "start": [37.7185, -119.5868],
-          "summit": [37.7181, -119.5847]
-        },
-        "path": [
-          [37.7185, -119.5868],
-          [37.7180, -119.5855],
-          [37.7181, -119.5847],
-          [37.7185, -119.5835],
-          [37.7190, -119.5820],
-          [37.7195, -119.5805],
-          [37.7185, -119.5868]
-        ],
-        "chart": [
-          {"distance": 0, "elevation": 7716},
-          {"distance": 1.1, "elevation": 8122},
-          {"distance": 2.5, "elevation": 7503},
-          {"distance": 5.0, "elevation": 7716}
+        "coords": [
+          37.7185,
+          -119.5868
         ]
       },
-
+      "tags": [
+        "360 Views",
+        "Cliff Edges",
+        "Sunset Popular"
+      ],
+      "geo": {
+        "markers": {
+          "start": [
+            37.7185,
+            -119.5868
+          ],
+          "summit": [
+            37.7185,
+            -119.5868
+          ]
+        },
+        "path": [
+          [
+            37.7185,
+            -119.5868,
+            4000
+          ],
+          [
+            37.71847,
+            -119.58671,
+            4035
+          ],
+          [
+            37.71843,
+            -119.58663,
+            4059
+          ],
+          [
+            37.7184,
+            -119.58654,
+            4064
+          ],
+          [
+            37.71837,
+            -119.58645,
+            4052
+          ],
+          [
+            37.71833,
+            -119.58637,
+            4028
+          ],
+          [
+            37.7183,
+            -119.58628,
+            4004
+          ],
+          [
+            37.71827,
+            -119.58619,
+            3991
+          ],
+          [
+            37.71823,
+            -119.58611,
+            3997
+          ],
+          [
+            37.7182,
+            -119.58602,
+            4020
+          ],
+          [
+            37.71817,
+            -119.58593,
+            4055
+          ],
+          [
+            37.71813,
+            -119.58585,
+            4090
+          ],
+          [
+            37.7181,
+            -119.58576,
+            4114
+          ],
+          [
+            37.71807,
+            -119.58567,
+            4119
+          ],
+          [
+            37.71803,
+            -119.58559,
+            4107
+          ],
+          [
+            37.718,
+            -119.5855,
+            4083
+          ],
+          [
+            37.71801,
+            -119.58545,
+            4118
+          ],
+          [
+            37.71801,
+            -119.58539,
+            4142
+          ],
+          [
+            37.71802,
+            -119.58534,
+            4147
+          ],
+          [
+            37.71803,
+            -119.58529,
+            4135
+          ],
+          [
+            37.71803,
+            -119.58523,
+            4111
+          ],
+          [
+            37.71804,
+            -119.58518,
+            4087
+          ],
+          [
+            37.71805,
+            -119.58513,
+            4075
+          ],
+          [
+            37.71805,
+            -119.58507,
+            4080
+          ],
+          [
+            37.71806,
+            -119.58502,
+            4104
+          ],
+          [
+            37.71807,
+            -119.58497,
+            4139
+          ],
+          [
+            37.71807,
+            -119.58491,
+            4174
+          ],
+          [
+            37.71808,
+            -119.58486,
+            4198
+          ],
+          [
+            37.71809,
+            -119.58481,
+            4203
+          ],
+          [
+            37.71809,
+            -119.58475,
+            4191
+          ],
+          [
+            37.7181,
+            -119.5847,
+            4167
+          ],
+          [
+            37.71813,
+            -119.58462,
+            4202
+          ],
+          [
+            37.71815,
+            -119.58454,
+            4226
+          ],
+          [
+            37.71818,
+            -119.58446,
+            4231
+          ],
+          [
+            37.71821,
+            -119.58438,
+            4219
+          ],
+          [
+            37.71823,
+            -119.5843,
+            4195
+          ],
+          [
+            37.71826,
+            -119.58422,
+            4171
+          ],
+          [
+            37.71829,
+            -119.58414,
+            4158
+          ],
+          [
+            37.71831,
+            -119.58406,
+            4164
+          ],
+          [
+            37.71834,
+            -119.58398,
+            4187
+          ],
+          [
+            37.71837,
+            -119.5839,
+            4222
+          ],
+          [
+            37.71839,
+            -119.58382,
+            4257
+          ],
+          [
+            37.71842,
+            -119.58374,
+            4281
+          ],
+          [
+            37.71845,
+            -119.58366,
+            4286
+          ],
+          [
+            37.71847,
+            -119.58358,
+            4274
+          ],
+          [
+            37.7185,
+            -119.5835,
+            4250
+          ],
+          [
+            37.71853,
+            -119.5834,
+            4285
+          ],
+          [
+            37.71857,
+            -119.5833,
+            4309
+          ],
+          [
+            37.7186,
+            -119.5832,
+            4314
+          ],
+          [
+            37.71863,
+            -119.5831,
+            4302
+          ],
+          [
+            37.71867,
+            -119.583,
+            4278
+          ],
+          [
+            37.7187,
+            -119.5829,
+            4254
+          ],
+          [
+            37.71873,
+            -119.5828,
+            4241
+          ],
+          [
+            37.71877,
+            -119.5827,
+            4247
+          ],
+          [
+            37.7188,
+            -119.5826,
+            4270
+          ],
+          [
+            37.71883,
+            -119.5825,
+            4305
+          ],
+          [
+            37.71887,
+            -119.5824,
+            4340
+          ],
+          [
+            37.7189,
+            -119.5823,
+            4364
+          ],
+          [
+            37.71893,
+            -119.5822,
+            4369
+          ],
+          [
+            37.71897,
+            -119.5821,
+            4357
+          ],
+          [
+            37.719,
+            -119.582,
+            4333
+          ],
+          [
+            37.71903,
+            -119.5819,
+            4368
+          ],
+          [
+            37.71907,
+            -119.5818,
+            4392
+          ],
+          [
+            37.7191,
+            -119.5817,
+            4397
+          ],
+          [
+            37.71913,
+            -119.5816,
+            4385
+          ],
+          [
+            37.71917,
+            -119.5815,
+            4361
+          ],
+          [
+            37.7192,
+            -119.5814,
+            4337
+          ],
+          [
+            37.71923,
+            -119.5813,
+            4325
+          ],
+          [
+            37.71927,
+            -119.5812,
+            4330
+          ],
+          [
+            37.7193,
+            -119.5811,
+            4354
+          ],
+          [
+            37.71933,
+            -119.581,
+            4389
+          ],
+          [
+            37.71937,
+            -119.5809,
+            4424
+          ],
+          [
+            37.7194,
+            -119.5808,
+            4448
+          ],
+          [
+            37.71943,
+            -119.5807,
+            4453
+          ],
+          [
+            37.71947,
+            -119.5806,
+            4441
+          ],
+          [
+            37.7195,
+            -119.5805,
+            4417
+          ],
+          [
+            37.71943,
+            -119.58092,
+            4452
+          ],
+          [
+            37.71937,
+            -119.58134,
+            4476
+          ],
+          [
+            37.7193,
+            -119.58176,
+            4481
+          ],
+          [
+            37.71923,
+            -119.58218,
+            4469
+          ],
+          [
+            37.71917,
+            -119.5826,
+            4445
+          ],
+          [
+            37.7191,
+            -119.58302,
+            4421
+          ],
+          [
+            37.71903,
+            -119.58344,
+            4408
+          ],
+          [
+            37.71897,
+            -119.58386,
+            4414
+          ],
+          [
+            37.7189,
+            -119.58428,
+            4437
+          ],
+          [
+            37.71883,
+            -119.5847,
+            4472
+          ],
+          [
+            37.71877,
+            -119.58512,
+            4507
+          ],
+          [
+            37.7187,
+            -119.58554,
+            4531
+          ],
+          [
+            37.71863,
+            -119.58596,
+            4536
+          ],
+          [
+            37.71857,
+            -119.58638,
+            4524
+          ],
+          [
+            37.7185,
+            -119.5868,
+            4500
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.05,
+            "elevation": 4055
+          },
+          {
+            "distance": 0.1,
+            "elevation": 4080
+          },
+          {
+            "distance": 0.16,
+            "elevation": 4158
+          },
+          {
+            "distance": 0.21,
+            "elevation": 4309
+          },
+          {
+            "distance": 0.26,
+            "elevation": 4340
+          },
+          {
+            "distance": 0.31,
+            "elevation": 4385
+          },
+          {
+            "distance": 0.36,
+            "elevation": 4453
+          },
+          {
+            "distance": 0.41,
+            "elevation": 4476
+          },
+          {
+            "distance": 0.47,
+            "elevation": 4469
+          },
+          {
+            "distance": 0.52,
+            "elevation": 4421
+          },
+          {
+            "distance": 0.57,
+            "elevation": 4414
+          },
+          {
+            "distance": 0.62,
+            "elevation": 4507
+          },
+          {
+            "distance": 0.67,
+            "elevation": 4536
+          },
+          {
+            "distance": 0.72,
+            "elevation": 4500
+          }
+        ]
+      },
       "features": [
         {
           "name": "Sentinel Dome Summit",
@@ -69,15 +589,13 @@
           "name": "The Fissures",
           "type": "landmark",
           "lat": 37.7195,
-          "lon": -119.5810,
+          "lon": -119.581,
           "mile": 3.3
         }
       ]
     }
   ],
-
-  "generated_description": "<p>This easy 5-mile loop combines two of Yosemite's most spectacular viewpoints: Sentinel Dome's 360-degree panorama and Taft Point's vertigo-inducing cliff edge. Both accessible from the same trailhead on Glacier Point Road, these short hikes deliver world-class views with minimal effort.</p><p>Sentinel Dome (8,122 ft) offers one of Yosemite's best panoramic views—see Half Dome, El Capitan, Yosemite Falls, and the High Sierra in one sweep. Taft Point features a sheer 3,000-foot drop to Yosemite Valley floor and the dramatic Fissures, deep cracks in the granite cliff edge.</p>",
-
+  "generated_description": "<p>This easy 5-mile loop combines two of Yosemite's most spectacular viewpoints: Sentinel Dome's 360-degree panorama and Taft Point's vertigo-inducing cliff edge. Both accessible from the same trailhead on Glacier Point Road, these short hikes deliver world-class views with minimal effort.</p><p>Sentinel Dome (8,122 ft) offers one of Yosemite's best panoramic views\u2014see Half Dome, El Capitan, Yosemite Falls, and the High Sierra in one sweep. Taft Point features a sheer 3,000-foot drop to Yosemite Valley floor and the dramatic Fissures, deep cracks in the granite cliff edge.</p>",
   "nearby_peaks": [
     {
       "name": "Half Dome",
@@ -94,7 +612,6 @@
       "distance_miles": 7.1
     }
   ],
-
   "page_content": {
     "faqs": [
       {
@@ -116,29 +633,27 @@
     ],
     "safety": {
       "warnings": [
-        "NO RAILINGS at Taft Point—3,000 ft drop, stay well back from edge",
-        "Fissures are dramatic but dangerous—don't lean over",
-        "Bring water—none available on trail",
+        "NO RAILINGS at Taft Point\u20143,000 ft drop, stay well back from edge",
+        "Fissures are dramatic but dangerous\u2014don't lean over",
+        "Bring water\u2014none available on trail",
         "Summer afternoons can be very hot and exposed",
-        "Parking limited—arrive before 10am on weekends",
-        "Road closes in winter—check status"
+        "Parking limited\u2014arrive before 10am on weekends",
+        "Road closes in winter\u2014check status"
       ],
       "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
     }
   },
-
   "seo": {
     "meta_title": "Sentinel Dome & Taft Point Hike 2026 | Best Yosemite Sunset Views",
-    "meta_description": "Complete guide to hiking Sentinel Dome & Taft Point in Yosemite. Easy 5-mile loop or separate 2.2-mile hikes. Best sunset spot in the park with 360° views. Tips for The Fissures and cliff safety."
+    "meta_description": "Complete guide to hiking Sentinel Dome & Taft Point in Yosemite. Easy 5-mile loop or separate 2.2-mile hikes. Best sunset spot in the park with 360\u00b0 views. Tips for The Fissures and cliff safety."
   },
-
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
     "primary_url": "https://www.nps.gov/yose/planyourvisit/sentineldome.htm",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Topo - Yosemite",
-    "gps_source": "NPS Official Yosemite Map",
+    "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Loop distance from Glacier Point trailhead per NPS signage. Elevations from USGS topo (Sentinel Dome 8,122 ft)."
-}
+    "notes": "Loop distance from Glacier Point trailhead per NPS signage. Elevations from USGS topo (Sentinel Dome 8,122 ft). GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+  }
 }

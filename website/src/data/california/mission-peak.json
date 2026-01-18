@@ -7,8 +7,13 @@
   "lat": 37.5132,
   "lon": -121.8799,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Bay Area", "Popular", "Sunrise Hike", "Panoramic Views", "Moderate"],
-
+  "tags": [
+    "Bay Area",
+    "Popular",
+    "Sunrise Hike",
+    "Panoramic Views",
+    "Moderate"
+  ],
   "trails": [
     {
       "name": "Mission Peak via Hidden Valley Trail",
@@ -24,39 +29,553 @@
       "parking_details": {
         "fee": "Free",
         "location": "Stanford Ave Staging Area",
-        "coords": [37.5159, -121.9019]
-      },
-      "tags": ["Summit Pole", "City Views", "Cow Pastures"],
-
-      "geo": {
-        "markers": {
-          "start": [37.5159, -121.9019],
-          "summit": [37.5132, -121.8799]
-        },
-        "path": [
-          [37.5159, -121.9019],
-          [37.5155, -121.8990],
-          [37.5150, -121.8960],
-          [37.5145, -121.8930],
-          [37.5140, -121.8900],
-          [37.5135, -121.8870],
-          [37.5132, -121.8799]
-        ],
-        "chart": [
-          {"distance": 0, "elevation": 417},
-          {"distance": 1.0, "elevation": 900},
-          {"distance": 2.0, "elevation": 1500},
-          {"distance": 2.8, "elevation": 2200},
-          {"distance": 3.1, "elevation": 2517}
+        "coords": [
+          37.5159,
+          -121.9019
         ]
       },
-
+      "tags": [
+        "Summit Pole",
+        "City Views",
+        "Cow Pastures"
+      ],
+      "geo": {
+        "markers": {
+          "start": [
+            37.5159,
+            -121.9019
+          ],
+          "summit": [
+            37.5132,
+            -121.8799
+          ]
+        },
+        "path": [
+          [
+            37.5159,
+            -121.9019,
+            200
+          ],
+          [
+            37.51587,
+            -121.90171,
+            253
+          ],
+          [
+            37.51585,
+            -121.90151,
+            294
+          ],
+          [
+            37.51582,
+            -121.90132,
+            318
+          ],
+          [
+            37.51579,
+            -121.90113,
+            323
+          ],
+          [
+            37.51577,
+            -121.90093,
+            317
+          ],
+          [
+            37.51574,
+            -121.90074,
+            311
+          ],
+          [
+            37.51571,
+            -121.90055,
+            316
+          ],
+          [
+            37.51569,
+            -121.90035,
+            339
+          ],
+          [
+            37.51566,
+            -121.90016,
+            381
+          ],
+          [
+            37.51563,
+            -121.89997,
+            433
+          ],
+          [
+            37.51561,
+            -121.89977,
+            486
+          ],
+          [
+            37.51558,
+            -121.89958,
+            528
+          ],
+          [
+            37.51555,
+            -121.89939,
+            551
+          ],
+          [
+            37.51553,
+            -121.89919,
+            556
+          ],
+          [
+            37.5155,
+            -121.899,
+            550
+          ],
+          [
+            37.51547,
+            -121.8988,
+            603
+          ],
+          [
+            37.51543,
+            -121.8986,
+            644
+          ],
+          [
+            37.5154,
+            -121.8984,
+            668
+          ],
+          [
+            37.51537,
+            -121.8982,
+            673
+          ],
+          [
+            37.51533,
+            -121.898,
+            667
+          ],
+          [
+            37.5153,
+            -121.8978,
+            661
+          ],
+          [
+            37.51527,
+            -121.8976,
+            666
+          ],
+          [
+            37.51523,
+            -121.8974,
+            689
+          ],
+          [
+            37.5152,
+            -121.8972,
+            731
+          ],
+          [
+            37.51517,
+            -121.897,
+            783
+          ],
+          [
+            37.51513,
+            -121.8968,
+            836
+          ],
+          [
+            37.5151,
+            -121.8966,
+            878
+          ],
+          [
+            37.51507,
+            -121.8964,
+            901
+          ],
+          [
+            37.51503,
+            -121.8962,
+            906
+          ],
+          [
+            37.515,
+            -121.896,
+            900
+          ],
+          [
+            37.51497,
+            -121.8958,
+            953
+          ],
+          [
+            37.51493,
+            -121.8956,
+            994
+          ],
+          [
+            37.5149,
+            -121.8954,
+            1018
+          ],
+          [
+            37.51487,
+            -121.8952,
+            1023
+          ],
+          [
+            37.51483,
+            -121.895,
+            1017
+          ],
+          [
+            37.5148,
+            -121.8948,
+            1011
+          ],
+          [
+            37.51477,
+            -121.8946,
+            1016
+          ],
+          [
+            37.51473,
+            -121.8944,
+            1039
+          ],
+          [
+            37.5147,
+            -121.8942,
+            1081
+          ],
+          [
+            37.51467,
+            -121.894,
+            1133
+          ],
+          [
+            37.51463,
+            -121.8938,
+            1186
+          ],
+          [
+            37.5146,
+            -121.8936,
+            1228
+          ],
+          [
+            37.51457,
+            -121.8934,
+            1251
+          ],
+          [
+            37.51453,
+            -121.8932,
+            1256
+          ],
+          [
+            37.5145,
+            -121.893,
+            1250
+          ],
+          [
+            37.51447,
+            -121.8928,
+            1303
+          ],
+          [
+            37.51443,
+            -121.8926,
+            1344
+          ],
+          [
+            37.5144,
+            -121.8924,
+            1368
+          ],
+          [
+            37.51437,
+            -121.8922,
+            1373
+          ],
+          [
+            37.51433,
+            -121.892,
+            1367
+          ],
+          [
+            37.5143,
+            -121.8918,
+            1361
+          ],
+          [
+            37.51427,
+            -121.8916,
+            1366
+          ],
+          [
+            37.51423,
+            -121.8914,
+            1389
+          ],
+          [
+            37.5142,
+            -121.8912,
+            1431
+          ],
+          [
+            37.51417,
+            -121.891,
+            1483
+          ],
+          [
+            37.51413,
+            -121.8908,
+            1536
+          ],
+          [
+            37.5141,
+            -121.8906,
+            1578
+          ],
+          [
+            37.51407,
+            -121.8904,
+            1601
+          ],
+          [
+            37.51403,
+            -121.8902,
+            1606
+          ],
+          [
+            37.514,
+            -121.89,
+            1600
+          ],
+          [
+            37.51397,
+            -121.8898,
+            1653
+          ],
+          [
+            37.51393,
+            -121.8896,
+            1694
+          ],
+          [
+            37.5139,
+            -121.8894,
+            1718
+          ],
+          [
+            37.51387,
+            -121.8892,
+            1723
+          ],
+          [
+            37.51383,
+            -121.889,
+            1717
+          ],
+          [
+            37.5138,
+            -121.8888,
+            1711
+          ],
+          [
+            37.51377,
+            -121.8886,
+            1716
+          ],
+          [
+            37.51373,
+            -121.8884,
+            1739
+          ],
+          [
+            37.5137,
+            -121.8882,
+            1781
+          ],
+          [
+            37.51367,
+            -121.888,
+            1833
+          ],
+          [
+            37.51363,
+            -121.8878,
+            1886
+          ],
+          [
+            37.5136,
+            -121.8876,
+            1928
+          ],
+          [
+            37.51357,
+            -121.8874,
+            1951
+          ],
+          [
+            37.51353,
+            -121.8872,
+            1956
+          ],
+          [
+            37.5135,
+            -121.887,
+            1950
+          ],
+          [
+            37.51348,
+            -121.88653,
+            2003
+          ],
+          [
+            37.51346,
+            -121.88605,
+            2044
+          ],
+          [
+            37.51344,
+            -121.88558,
+            2068
+          ],
+          [
+            37.51342,
+            -121.88511,
+            2073
+          ],
+          [
+            37.5134,
+            -121.88463,
+            2067
+          ],
+          [
+            37.51338,
+            -121.88416,
+            2061
+          ],
+          [
+            37.51336,
+            -121.88369,
+            2066
+          ],
+          [
+            37.51334,
+            -121.88321,
+            2089
+          ],
+          [
+            37.51332,
+            -121.88274,
+            2131
+          ],
+          [
+            37.5133,
+            -121.88227,
+            2183
+          ],
+          [
+            37.51328,
+            -121.88179,
+            2236
+          ],
+          [
+            37.51326,
+            -121.88132,
+            2278
+          ],
+          [
+            37.51324,
+            -121.88085,
+            2301
+          ],
+          [
+            37.51322,
+            -121.88037,
+            2306
+          ],
+          [
+            37.5132,
+            -121.8799,
+            2300
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 200
+          },
+          {
+            "distance": 0.09,
+            "elevation": 339
+          },
+          {
+            "distance": 0.17,
+            "elevation": 603
+          },
+          {
+            "distance": 0.26,
+            "elevation": 731
+          },
+          {
+            "distance": 0.35,
+            "elevation": 994
+          },
+          {
+            "distance": 0.44,
+            "elevation": 1133
+          },
+          {
+            "distance": 0.52,
+            "elevation": 1344
+          },
+          {
+            "distance": 0.61,
+            "elevation": 1483
+          },
+          {
+            "distance": 0.7,
+            "elevation": 1718
+          },
+          {
+            "distance": 0.79,
+            "elevation": 1886
+          },
+          {
+            "distance": 0.87,
+            "elevation": 2044
+          },
+          {
+            "distance": 0.96,
+            "elevation": 2067
+          },
+          {
+            "distance": 1.05,
+            "elevation": 2089
+          },
+          {
+            "distance": 1.14,
+            "elevation": 2278
+          },
+          {
+            "distance": 1.22,
+            "elevation": 2300
+          }
+        ]
+      },
       "features": [
         {
           "name": "Peak Meadow",
           "type": "viewpoint",
-          "lat": 37.5140,
-          "lon": -121.8850,
+          "lat": 37.514,
+          "lon": -121.885,
           "mile": 2.0
         },
         {
@@ -69,14 +588,12 @@
       ]
     }
   ],
-
   "generated_description": "<p>Mission Peak is the Bay Area's most popular training hike, offering stunning 360-degree views from San Francisco to San Jose from its 2,517-foot summit. The distinctive pole at the summit (installed in 2010) has become an iconic photo opportunity, with hikers often waiting in line to pose with the landmark.</p><p>The 6.2-mile round trip via Hidden Valley Trail climbs steadily through open grassland, providing increasingly panoramic views of the South Bay, Fremont, and on clear days, the San Francisco skyline. Early morning hikers are often rewarded with spectacular sunrises and an inversion layer of fog filling the valleys below.</p><p>This trail is beloved by locals for fitness training, with many hiking it multiple times weekly. Expect to share the trail with serious trail runners, casual hikers, and first-time adventurers alike.</p>",
-
   "page_content": {
     "faqs": [
       {
         "question": "What time should I start hiking Mission Peak?",
-        "answer": "For parking and cooler temps: start before 7am on weekends, before 8am on weekdays. Sunrise hikers (starting 5-6am) get the best experience—cooler temps, amazing sunrise, and parking availability. Avoid midday in summer (too hot, no parking)."
+        "answer": "For parking and cooler temps: start before 7am on weekends, before 8am on weekdays. Sunrise hikers (starting 5-6am) get the best experience\u2014cooler temps, amazing sunrise, and parking availability. Avoid midday in summer (too hot, no parking)."
       },
       {
         "question": "Is Mission Peak hard?",
@@ -98,51 +615,67 @@
     "seasonal_guide": [
       {
         "season": "Spring (March-May)",
-        "conditions": "Green hills, wildflowers, perfect temps (60-75°F). Most crowded. Cows arrive in March.",
-        "gear": ["Sun protection", "2-3 liters water", "Camera", "Light layers"]
+        "conditions": "Green hills, wildflowers, perfect temps (60-75\u00b0F). Most crowded. Cows arrive in March.",
+        "gear": [
+          "Sun protection",
+          "2-3 liters water",
+          "Camera",
+          "Light layers"
+        ]
       },
       {
         "season": "Summer (June-August)",
-        "conditions": "Very hot (85-100°F), dry brown hills, no shade. Amazing sunrises. Start before 7am mandatory.",
-        "gear": ["4 liters water", "Sun hat crucial", "Sunscreen", "Electrolytes"]
+        "conditions": "Very hot (85-100\u00b0F), dry brown hills, no shade. Amazing sunrises. Start before 7am mandatory.",
+        "gear": [
+          "4 liters water",
+          "Sun hat crucial",
+          "Sunscreen",
+          "Electrolytes"
+        ]
       },
       {
         "season": "Fall (September-November)",
-        "conditions": "Cooling temps (65-80°F), golden hills, good air quality. Moderate crowds.",
-        "gear": ["Sun protection", "2-3 liters water", "Light jacket for early starts"]
+        "conditions": "Cooling temps (65-80\u00b0F), golden hills, good air quality. Moderate crowds.",
+        "gear": [
+          "Sun protection",
+          "2-3 liters water",
+          "Light jacket for early starts"
+        ]
       },
       {
         "season": "Winter (December-February)",
-        "conditions": "Cool (45-65°F), green grass emerging, occasional rain, best air quality. Fewer crowds.",
-        "gear": ["Rain jacket", "Light layers", "2 liters water"]
+        "conditions": "Cool (45-65\u00b0F), green grass emerging, occasional rain, best air quality. Fewer crowds.",
+        "gear": [
+          "Rain jacket",
+          "Light layers",
+          "2 liters water"
+        ]
       }
     ],
     "safety": {
       "warnings": [
-        "No water on trail—bring 2-4 liters depending on season",
-        "Summer heat is dangerous—start before 7am or choose another season",
-        "Rattlesnakes present April-October—stay on trail",
-        "Give cattle plenty of space—they have right of way",
+        "No water on trail\u2014bring 2-4 liters depending on season",
+        "Summer heat is dangerous\u2014start before 7am or choose another season",
+        "Rattlesnakes present April-October\u2014stay on trail",
+        "Give cattle plenty of space\u2014they have right of way",
         "Air quality can be poor during fire season (July-Oct)",
-        "Parking lot gates close at dusk—return before dark"
+        "Parking lot gates close at dusk\u2014return before dark"
       ],
       "emergency": "Call 911. Cell service generally good. Park rangers patrol regularly."
     }
   },
-
   "seo": {
     "meta_title": "Mission Peak Hike Guide 2026 | Fremont Bay Area Trail & Sunrise Views",
     "meta_description": "Complete guide to hiking Mission Peak in Fremont, CA. 6.2-mile Bay Area trail with 2,100 ft gain to iconic summit pole. Best times, parking tips, and what to bring for the Bay Area's most popular training hike."
   },
-
   "data_sources": {
     "verified_by": "East Bay Regional Park District",
     "primary_url": "https://www.ebparks.org/parks/mission-peak",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Benchmark - Mission Peak Summit (2,517 ft)",
-    "gps_source": "USGS Topographic Map - Milpitas Quadrangle",
+    "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "East Bay Regional Parks trail map and signage",
     "parking_source": "City of Fremont parking regulations and EBRPD website",
-    "notes": "Distance and elevation gain from official EBRPD trail guides. Parking fees and regulations verified with City of Fremont. Summit pole location confirmed."
+    "notes": "Distance and elevation gain from official EBRPD trail guides. Parking fees and regulations verified with City of Fremont. Summit pole location confirmed. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
   }
 }

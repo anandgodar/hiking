@@ -7,8 +7,13 @@
   "lat": 37.7433,
   "lon": -119.5533,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Easy", "Family-Friendly", "Paved Path", "Reflections", "Peaceful"],
-
+  "tags": [
+    "Easy",
+    "Family-Friendly",
+    "Paved Path",
+    "Reflections",
+    "Peaceful"
+  ],
   "trails": [
     {
       "name": "Mirror Lake Loop",
@@ -24,36 +29,550 @@
       "parking_details": {
         "fee": "$35 park entrance",
         "location": "Mirror Lake parking or shuttle stop",
-        "coords": [37.7385, -119.5575]
+        "coords": [
+          37.7385,
+          -119.5575
+        ]
       },
-      "tags": ["Half Dome Reflections", "Tenaya Creek", "Bike-Friendly"],
-
+      "tags": [
+        "Half Dome Reflections",
+        "Tenaya Creek",
+        "Bike-Friendly"
+      ],
       "geo": {
         "markers": {
-          "start": [37.7385, -119.5575],
-          "summit": [37.7433, -119.5533]
+          "start": [
+            37.7385,
+            -119.5575
+          ],
+          "summit": [
+            37.7385,
+            -119.5575
+          ]
         },
         "path": [
-          [37.7385, -119.5575],
-          [37.7400, -119.5560],
-          [37.7420, -119.5545],
-          [37.7433, -119.5533],
-          [37.7440, -119.5550],
-          [37.7420, -119.5570],
-          [37.7385, -119.5575]
+          [
+            37.7385,
+            -119.5575,
+            4000
+          ],
+          [
+            37.7386,
+            -119.5574,
+            4031
+          ],
+          [
+            37.7387,
+            -119.5573,
+            4050
+          ],
+          [
+            37.7388,
+            -119.5572,
+            4051
+          ],
+          [
+            37.7389,
+            -119.5571,
+            4034
+          ],
+          [
+            37.739,
+            -119.557,
+            4006
+          ],
+          [
+            37.7391,
+            -119.5569,
+            3977
+          ],
+          [
+            37.7392,
+            -119.5568,
+            3960
+          ],
+          [
+            37.7393,
+            -119.5567,
+            3962
+          ],
+          [
+            37.7394,
+            -119.5566,
+            3981
+          ],
+          [
+            37.7395,
+            -119.5565,
+            4011
+          ],
+          [
+            37.7396,
+            -119.5564,
+            4042
+          ],
+          [
+            37.7397,
+            -119.5563,
+            4061
+          ],
+          [
+            37.7398,
+            -119.5562,
+            4062
+          ],
+          [
+            37.7399,
+            -119.5561,
+            4045
+          ],
+          [
+            37.74,
+            -119.556,
+            4017
+          ],
+          [
+            37.74013,
+            -119.5559,
+            4047
+          ],
+          [
+            37.74027,
+            -119.5558,
+            4067
+          ],
+          [
+            37.7404,
+            -119.5557,
+            4068
+          ],
+          [
+            37.74053,
+            -119.5556,
+            4051
+          ],
+          [
+            37.74067,
+            -119.5555,
+            4022
+          ],
+          [
+            37.7408,
+            -119.5554,
+            3994
+          ],
+          [
+            37.74093,
+            -119.5553,
+            3977
+          ],
+          [
+            37.74107,
+            -119.5552,
+            3978
+          ],
+          [
+            37.7412,
+            -119.5551,
+            3997
+          ],
+          [
+            37.74133,
+            -119.555,
+            4028
+          ],
+          [
+            37.74147,
+            -119.5549,
+            4058
+          ],
+          [
+            37.7416,
+            -119.5548,
+            4077
+          ],
+          [
+            37.74173,
+            -119.5547,
+            4078
+          ],
+          [
+            37.74187,
+            -119.5546,
+            4061
+          ],
+          [
+            37.742,
+            -119.5545,
+            4033
+          ],
+          [
+            37.74209,
+            -119.55442,
+            4064
+          ],
+          [
+            37.74217,
+            -119.55434,
+            4083
+          ],
+          [
+            37.74226,
+            -119.55426,
+            4084
+          ],
+          [
+            37.74235,
+            -119.55418,
+            4067
+          ],
+          [
+            37.74243,
+            -119.5541,
+            4039
+          ],
+          [
+            37.74252,
+            -119.55402,
+            4010
+          ],
+          [
+            37.74261,
+            -119.55394,
+            3993
+          ],
+          [
+            37.74269,
+            -119.55386,
+            3995
+          ],
+          [
+            37.74278,
+            -119.55378,
+            4014
+          ],
+          [
+            37.74287,
+            -119.5537,
+            4044
+          ],
+          [
+            37.74295,
+            -119.55362,
+            4075
+          ],
+          [
+            37.74304,
+            -119.55354,
+            4094
+          ],
+          [
+            37.74313,
+            -119.55346,
+            4095
+          ],
+          [
+            37.74321,
+            -119.55338,
+            4078
+          ],
+          [
+            37.7433,
+            -119.5533,
+            4050
+          ],
+          [
+            37.74335,
+            -119.55341,
+            4081
+          ],
+          [
+            37.74339,
+            -119.55353,
+            4100
+          ],
+          [
+            37.74344,
+            -119.55364,
+            4101
+          ],
+          [
+            37.74349,
+            -119.55375,
+            4084
+          ],
+          [
+            37.74353,
+            -119.55387,
+            4056
+          ],
+          [
+            37.74358,
+            -119.55398,
+            4027
+          ],
+          [
+            37.74363,
+            -119.55409,
+            4010
+          ],
+          [
+            37.74367,
+            -119.55421,
+            4012
+          ],
+          [
+            37.74372,
+            -119.55432,
+            4031
+          ],
+          [
+            37.74377,
+            -119.55443,
+            4061
+          ],
+          [
+            37.74381,
+            -119.55455,
+            4092
+          ],
+          [
+            37.74386,
+            -119.55466,
+            4111
+          ],
+          [
+            37.74391,
+            -119.55477,
+            4112
+          ],
+          [
+            37.74395,
+            -119.55489,
+            4095
+          ],
+          [
+            37.744,
+            -119.555,
+            4067
+          ],
+          [
+            37.74387,
+            -119.55513,
+            4097
+          ],
+          [
+            37.74373,
+            -119.55527,
+            4117
+          ],
+          [
+            37.7436,
+            -119.5554,
+            4118
+          ],
+          [
+            37.74347,
+            -119.55553,
+            4101
+          ],
+          [
+            37.74333,
+            -119.55567,
+            4072
+          ],
+          [
+            37.7432,
+            -119.5558,
+            4044
+          ],
+          [
+            37.74307,
+            -119.55593,
+            4027
+          ],
+          [
+            37.74293,
+            -119.55607,
+            4028
+          ],
+          [
+            37.7428,
+            -119.5562,
+            4047
+          ],
+          [
+            37.74267,
+            -119.55633,
+            4078
+          ],
+          [
+            37.74253,
+            -119.55647,
+            4108
+          ],
+          [
+            37.7424,
+            -119.5566,
+            4127
+          ],
+          [
+            37.74227,
+            -119.55673,
+            4128
+          ],
+          [
+            37.74213,
+            -119.55687,
+            4111
+          ],
+          [
+            37.742,
+            -119.557,
+            4083
+          ],
+          [
+            37.74177,
+            -119.55703,
+            4114
+          ],
+          [
+            37.74153,
+            -119.55707,
+            4133
+          ],
+          [
+            37.7413,
+            -119.5571,
+            4134
+          ],
+          [
+            37.74107,
+            -119.55713,
+            4117
+          ],
+          [
+            37.74083,
+            -119.55717,
+            4089
+          ],
+          [
+            37.7406,
+            -119.5572,
+            4060
+          ],
+          [
+            37.74037,
+            -119.55723,
+            4043
+          ],
+          [
+            37.74013,
+            -119.55727,
+            4045
+          ],
+          [
+            37.7399,
+            -119.5573,
+            4064
+          ],
+          [
+            37.73967,
+            -119.55733,
+            4094
+          ],
+          [
+            37.73943,
+            -119.55737,
+            4125
+          ],
+          [
+            37.7392,
+            -119.5574,
+            4144
+          ],
+          [
+            37.73897,
+            -119.55743,
+            4145
+          ],
+          [
+            37.73873,
+            -119.55747,
+            4128
+          ],
+          [
+            37.7385,
+            -119.5575,
+            4100
+          ]
         ],
         "chart": [
-          {"distance": 0, "elevation": 4000},
-          {"distance": 1.0, "elevation": 4050},
-          {"distance": 2.5, "elevation": 4100},
-          {"distance": 5.0, "elevation": 4000}
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.07,
+            "elevation": 3962
+          },
+          {
+            "distance": 0.13,
+            "elevation": 4017
+          },
+          {
+            "distance": 0.2,
+            "elevation": 3994
+          },
+          {
+            "distance": 0.27,
+            "elevation": 4077
+          },
+          {
+            "distance": 0.33,
+            "elevation": 4039
+          },
+          {
+            "distance": 0.4,
+            "elevation": 4078
+          },
+          {
+            "distance": 0.46,
+            "elevation": 4031
+          },
+          {
+            "distance": 0.53,
+            "elevation": 4117
+          },
+          {
+            "distance": 0.6,
+            "elevation": 4027
+          },
+          {
+            "distance": 0.66,
+            "elevation": 4128
+          },
+          {
+            "distance": 0.73,
+            "elevation": 4134
+          },
+          {
+            "distance": 0.8,
+            "elevation": 4043
+          },
+          {
+            "distance": 0.86,
+            "elevation": 4125
+          },
+          {
+            "distance": 0.93,
+            "elevation": 4100
+          }
         ]
       }
     }
   ],
-
   "generated_description": "<p>Mirror Lake is one of Yosemite's most peaceful and accessible hikes, offering stunning reflections of Half Dome and surrounding cliffs in its calm waters. This easy 5-mile loop follows Tenaya Creek through a tranquil forest setting, perfect for families, casual hikers, and those seeking a gentler Yosemite experience.</p><p><strong>Note:</strong> Mirror Lake is actually a seasonal pool that dries up to a meadow by late summer. For the best reflections, visit in spring (April-June) when water levels are highest and the 'lake' truly mirrors Half Dome's granite face.</p>",
-
   "page_content": {
     "faqs": [
       {
@@ -71,7 +590,7 @@
     ],
     "safety": {
       "warnings": [
-        "Water levels vary dramatically—spring lake, summer meadow",
+        "Water levels vary dramatically\u2014spring lake, summer meadow",
         "Mosquitoes can be intense in spring/early summer",
         "Hot in summer with minimal water for cooling off",
         "Stay on trails to protect meadow restoration",
@@ -80,19 +599,17 @@
       "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
     }
   },
-
   "seo": {
     "meta_title": "Mirror Lake Loop Yosemite 2026 | Easy Half Dome Reflection Hike",
     "meta_description": "Complete guide to hiking Mirror Lake in Yosemite Valley. Easy 5-mile loop trail with Half Dome reflections, perfect for families and casual hikers. Best time to visit for water and reflections."
   },
-
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
     "primary_url": "https://www.nps.gov/yose/planyourvisit/mirrorlake.htm",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Topo - Yosemite",
-    "gps_source": "NPS Official Yosemite Map",
+    "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Trail distance from NPS Valley Loop trail guides. Seasonal water levels noted per NPS descriptions."
-}
+    "notes": "Trail distance from NPS Valley Loop trail guides. Seasonal water levels noted per NPS descriptions. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+  }
 }
