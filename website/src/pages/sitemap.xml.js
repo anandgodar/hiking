@@ -95,14 +95,25 @@ export async function GET() {
   pages.push({ url: `${siteUrl}/terms`, priority: 0.3, changefreq: 'monthly' });
   pages.push({ url: `${siteUrl}/disclaimer`, priority: 0.3, changefreq: 'monthly' });
 
-  // 7. Generate XML with images
+  // 7. XML escape function to prevent parsing errors
+  const escapeXml = (str) => {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  };
+
+  // 8. Generate XML with images
   const lastmod = new Date().toISOString().split('T')[0];
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
             xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       ${pages.map(page => `
         <url>
-          <loc>${page.url}</loc>
+          <loc>${escapeXml(page.url)}</loc>
           <lastmod>${lastmod}</lastmod>
           <changefreq>${page.changefreq}</changefreq>
           <priority>${page.priority}</priority>
@@ -112,14 +123,14 @@ export async function GET() {
         const m = page.mountain;
         return `
         <url>
-          <loc>${page.url}</loc>
+          <loc>${escapeXml(page.url)}</loc>
           <lastmod>${lastmod}</lastmod>
           <changefreq>${page.changefreq}</changefreq>
           <priority>${page.priority}</priority>${m?.mountain_hero ? `
           <image:image>
-            <image:loc>${m.mountain_hero}</image:loc>
-            <image:title>${m.name} Trail</image:title>
-            <image:caption>Hiking trail to ${m.name}${m.elevation ? ` summit at ${m.elevation} feet` : ''}</image:caption>
+            <image:loc>${escapeXml(m.mountain_hero)}</image:loc>
+            <image:title>${escapeXml(m.name)} Trail</image:title>
+            <image:caption>Hiking trail to ${escapeXml(m.name)}${m.elevation ? ` summit at ${m.elevation} feet` : ''}</image:caption>
           </image:image>` : ''}
         </url>
         `;
