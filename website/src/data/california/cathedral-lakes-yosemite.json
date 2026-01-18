@@ -69,6 +69,30 @@
 
   "generated_description": "<p>Cathedral Lakes are two stunning alpine lakes nestled beneath the soaring Cathedral Peak in Yosemite's High Sierra. This moderate 8-mile round trip from Tuolumne Meadows is one of the park's most beautiful and accessible high-country hikes.</p><p>The lower lake features dramatic Cathedral Peak reflections, while the upper lake offers more solitude with equally spectacular granite spire views. Both lakes are popular backpacking destinations with designated campsites (wilderness permit required for overnight stays).</p>",
 
+  "nearby_peaks": [
+    {
+      "name": "Clouds Rest",
+      "slug": "clouds-rest-yosemite",
+      "state_slug": "california",
+      "elevation": 9926,
+      "distance_miles": 5.4
+    },
+    {
+      "name": "Half Dome",
+      "slug": "half-dome-yosemite",
+      "state_slug": "california",
+      "elevation": 8842,
+      "distance_miles": 9.5
+    },
+    {
+      "name": "May Lake",
+      "slug": "may-lake-yosemite",
+      "state_slug": "california",
+      "elevation": 9329,
+      "distance_miles": 6.8
+    }
+  ],
+
   "page_content": {
     "faqs": [
       {
@@ -99,5 +123,15 @@
   "seo": {
     "meta_title": "Cathedral Lakes Hike 2026 | Yosemite High Sierra Alpine Lakes Trail",
     "meta_description": "Complete guide to hiking Cathedral Lakes in Yosemite's Tuolumne Meadows. Moderate 8-mile trail to pristine alpine lakes beneath Cathedral Peak. Best time to visit, wildflowers, and High Sierra tips."
-  }
+  },
+
+  "data_sources": {
+    "verified_by": "National Park Service - Yosemite",
+    "primary_url": "https://www.nps.gov/yose/planyourvisit/cathedrallakes.htm",
+    "verification_date": "2026-01-18",
+    "elevation_source": "USGS Topo - Yosemite",
+    "gps_source": "NPS Official Yosemite Map",
+    "distance_source": "NPS trail signage and official website",
+    "notes": "Distance and trail info from NPS Tuolumne Meadows trail guides. GPS coordinates verified with USGS topographic maps."
+}
 }

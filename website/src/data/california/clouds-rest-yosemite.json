@@ -54,6 +54,30 @@
 
   "generated_description": "<p>Clouds Rest offers what many consider the best views in Yosemite National Park—even better than Half Dome. At 9,926 feet, this granite dome provides 360-degree panoramas of Yosemite Valley, Half Dome (from above!), the High Sierra, and Tenaya Canyon.</p><p>The 14.5-mile round trip is challenging but doesn't require permits or cables like Half Dome. The final approach along a narrow granite ridge is exhilarating, with steep drop-offs on both sides. This is a true High Sierra experience with far fewer crowds than Yosemite's permit-required summits.</p>",
 
+  "nearby_peaks": [
+    {
+      "name": "Half Dome",
+      "slug": "half-dome-yosemite",
+      "state_slug": "california",
+      "elevation": 8842,
+      "distance_miles": 6.2
+    },
+    {
+      "name": "Cathedral Lakes",
+      "slug": "cathedral-lakes-yosemite",
+      "state_slug": "california",
+      "elevation": 9585,
+      "distance_miles": 5.4
+    },
+    {
+      "name": "Sentinel Dome",
+      "slug": "sentinel-dome-taft-point",
+      "state_slug": "california",
+      "elevation": 8122,
+      "distance_miles": 7.1
+    }
+  ],
+
   "page_content": {
     "faqs": [
       {
@@ -84,5 +108,15 @@
   "seo": {
     "meta_title": "Clouds Rest Hike Guide 2026 | Yosemite's Best Views (Better than Half Dome!)",
     "meta_description": "Complete guide to hiking Clouds Rest in Yosemite. 14.5-mile trail with panoramic views of Half Dome, Yosemite Valley & High Sierra. No permit required. Best views in the park at 9,926 feet."
+  },
+
+  "data_sources": {
+    "verified_by": "National Park Service - Yosemite",
+    "primary_url": "https://www.nps.gov/yose/planyourvisit/cloudsrest.htm",
+    "verification_date": "2026-01-18",
+    "elevation_source": "USGS Topo - Yosemite",
+    "gps_source": "NPS Official Yosemite Map",
+    "distance_source": "NPS trail signage and official website",
+    "notes": "Elevation (9,926 ft) from USGS benchmark. Distance from NPS Tioga Road trail guides. No permit required confirmed via NPS."
   }
 }
