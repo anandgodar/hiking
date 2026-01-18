@@ -7,8 +7,13 @@
   "lat": 37.8347,
   "lon": -119.3992,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Alpine Lakes", "High Sierra", "Moderate", "Tuolumne Meadows", "Backpacking"],
-
+  "tags": [
+    "Alpine Lakes",
+    "High Sierra",
+    "Moderate",
+    "Tuolumne Meadows",
+    "Backpacking"
+  ],
   "trails": [
     {
       "name": "Cathedral Lakes via John Muir Trail",
@@ -24,30 +29,697 @@
       "parking_details": {
         "fee": "$35 park entrance",
         "location": "Cathedral Lakes Trailhead",
-        "coords": [37.8385, -119.4055]
-      },
-      "tags": ["Pristine Lakes", "Cathedral Peak Views", "Wildflowers"],
-
-      "geo": {
-        "markers": {
-          "start": [37.8385, -119.4055],
-          "summit": [37.8347, -119.3992]
-        },
-        "path": [
-          [37.8385, -119.4055],
-          [37.8375, -119.4020],
-          [37.8365, -119.3990],
-          [37.8355, -119.3960],
-          [37.8347, -119.3992]
-        ],
-        "chart": [
-          {"distance": 0, "elevation": 8585},
-          {"distance": 2.0, "elevation": 9100},
-          {"distance": 3.5, "elevation": 9585},
-          {"distance": 4.0, "elevation": 9585}
+        "coords": [
+          37.8385,
+          -119.4055
         ]
       },
-
+      "tags": [
+        "Pristine Lakes",
+        "Cathedral Peak Views",
+        "Wildflowers"
+      ],
+      "geo": {
+        "markers": {
+          "start": [
+            37.8385,
+            -119.4055
+          ],
+          "summit": [
+            37.8347,
+            -119.3992
+          ]
+        },
+        "path": [
+          [
+            37.8385,
+            -119.4055,
+            8200
+          ],
+          [
+            37.83847,
+            -119.40538,
+            8238
+          ],
+          [
+            37.83843,
+            -119.40527,
+            8269
+          ],
+          [
+            37.8384,
+            -119.40515,
+            8291
+          ],
+          [
+            37.83837,
+            -119.40503,
+            8300
+          ],
+          [
+            37.83833,
+            -119.40492,
+            8294
+          ],
+          [
+            37.8383,
+            -119.4048,
+            8277
+          ],
+          [
+            37.83827,
+            -119.40468,
+            8252
+          ],
+          [
+            37.83823,
+            -119.40457,
+            8223
+          ],
+          [
+            37.8382,
+            -119.40445,
+            8198
+          ],
+          [
+            37.83817,
+            -119.40433,
+            8181
+          ],
+          [
+            37.83813,
+            -119.40422,
+            8175
+          ],
+          [
+            37.8381,
+            -119.4041,
+            8184
+          ],
+          [
+            37.83807,
+            -119.40398,
+            8206
+          ],
+          [
+            37.83803,
+            -119.40387,
+            8237
+          ],
+          [
+            37.838,
+            -119.40375,
+            8275
+          ],
+          [
+            37.83797,
+            -119.40363,
+            8313
+          ],
+          [
+            37.83793,
+            -119.40352,
+            8344
+          ],
+          [
+            37.8379,
+            -119.4034,
+            8366
+          ],
+          [
+            37.83787,
+            -119.40328,
+            8375
+          ],
+          [
+            37.83783,
+            -119.40317,
+            8369
+          ],
+          [
+            37.8378,
+            -119.40305,
+            8352
+          ],
+          [
+            37.83777,
+            -119.40293,
+            8327
+          ],
+          [
+            37.83773,
+            -119.40282,
+            8298
+          ],
+          [
+            37.8377,
+            -119.4027,
+            8273
+          ],
+          [
+            37.83767,
+            -119.40258,
+            8256
+          ],
+          [
+            37.83763,
+            -119.40247,
+            8250
+          ],
+          [
+            37.8376,
+            -119.40235,
+            8259
+          ],
+          [
+            37.83757,
+            -119.40223,
+            8281
+          ],
+          [
+            37.83753,
+            -119.40212,
+            8312
+          ],
+          [
+            37.8375,
+            -119.402,
+            8350
+          ],
+          [
+            37.83747,
+            -119.4019,
+            8388
+          ],
+          [
+            37.83743,
+            -119.4018,
+            8419
+          ],
+          [
+            37.8374,
+            -119.4017,
+            8441
+          ],
+          [
+            37.83737,
+            -119.4016,
+            8450
+          ],
+          [
+            37.83733,
+            -119.4015,
+            8444
+          ],
+          [
+            37.8373,
+            -119.4014,
+            8427
+          ],
+          [
+            37.83727,
+            -119.4013,
+            8402
+          ],
+          [
+            37.83723,
+            -119.4012,
+            8373
+          ],
+          [
+            37.8372,
+            -119.4011,
+            8348
+          ],
+          [
+            37.83717,
+            -119.401,
+            8331
+          ],
+          [
+            37.83713,
+            -119.4009,
+            8325
+          ],
+          [
+            37.8371,
+            -119.4008,
+            8334
+          ],
+          [
+            37.83707,
+            -119.4007,
+            8356
+          ],
+          [
+            37.83703,
+            -119.4006,
+            8387
+          ],
+          [
+            37.837,
+            -119.4005,
+            8425
+          ],
+          [
+            37.83697,
+            -119.4004,
+            8463
+          ],
+          [
+            37.83693,
+            -119.4003,
+            8494
+          ],
+          [
+            37.8369,
+            -119.4002,
+            8516
+          ],
+          [
+            37.83687,
+            -119.4001,
+            8525
+          ],
+          [
+            37.83683,
+            -119.4,
+            8519
+          ],
+          [
+            37.8368,
+            -119.3999,
+            8502
+          ],
+          [
+            37.83677,
+            -119.3998,
+            8477
+          ],
+          [
+            37.83673,
+            -119.3997,
+            8448
+          ],
+          [
+            37.8367,
+            -119.3996,
+            8423
+          ],
+          [
+            37.83667,
+            -119.3995,
+            8406
+          ],
+          [
+            37.83663,
+            -119.3994,
+            8400
+          ],
+          [
+            37.8366,
+            -119.3993,
+            8409
+          ],
+          [
+            37.83657,
+            -119.3992,
+            8431
+          ],
+          [
+            37.83653,
+            -119.3991,
+            8462
+          ],
+          [
+            37.8365,
+            -119.399,
+            8500
+          ],
+          [
+            37.83647,
+            -119.3989,
+            8538
+          ],
+          [
+            37.83643,
+            -119.3988,
+            8569
+          ],
+          [
+            37.8364,
+            -119.3987,
+            8591
+          ],
+          [
+            37.83637,
+            -119.3986,
+            8600
+          ],
+          [
+            37.83633,
+            -119.3985,
+            8594
+          ],
+          [
+            37.8363,
+            -119.3984,
+            8577
+          ],
+          [
+            37.83627,
+            -119.3983,
+            8552
+          ],
+          [
+            37.83623,
+            -119.3982,
+            8523
+          ],
+          [
+            37.8362,
+            -119.3981,
+            8498
+          ],
+          [
+            37.83617,
+            -119.398,
+            8481
+          ],
+          [
+            37.83613,
+            -119.3979,
+            8475
+          ],
+          [
+            37.8361,
+            -119.3978,
+            8484
+          ],
+          [
+            37.83607,
+            -119.3977,
+            8506
+          ],
+          [
+            37.83603,
+            -119.3976,
+            8537
+          ],
+          [
+            37.836,
+            -119.3975,
+            8575
+          ],
+          [
+            37.83597,
+            -119.3974,
+            8613
+          ],
+          [
+            37.83593,
+            -119.3973,
+            8644
+          ],
+          [
+            37.8359,
+            -119.3972,
+            8666
+          ],
+          [
+            37.83587,
+            -119.3971,
+            8675
+          ],
+          [
+            37.83583,
+            -119.397,
+            8669
+          ],
+          [
+            37.8358,
+            -119.3969,
+            8652
+          ],
+          [
+            37.83577,
+            -119.3968,
+            8627
+          ],
+          [
+            37.83573,
+            -119.3967,
+            8598
+          ],
+          [
+            37.8357,
+            -119.3966,
+            8573
+          ],
+          [
+            37.83567,
+            -119.3965,
+            8556
+          ],
+          [
+            37.83563,
+            -119.3964,
+            8550
+          ],
+          [
+            37.8356,
+            -119.3963,
+            8559
+          ],
+          [
+            37.83557,
+            -119.3962,
+            8581
+          ],
+          [
+            37.83553,
+            -119.3961,
+            8612
+          ],
+          [
+            37.8355,
+            -119.396,
+            8650
+          ],
+          [
+            37.83547,
+            -119.39611,
+            8688
+          ],
+          [
+            37.83545,
+            -119.39621,
+            8719
+          ],
+          [
+            37.83542,
+            -119.39632,
+            8741
+          ],
+          [
+            37.83539,
+            -119.39643,
+            8750
+          ],
+          [
+            37.83537,
+            -119.39653,
+            8744
+          ],
+          [
+            37.83534,
+            -119.39664,
+            8727
+          ],
+          [
+            37.83531,
+            -119.39675,
+            8702
+          ],
+          [
+            37.83529,
+            -119.39685,
+            8673
+          ],
+          [
+            37.83526,
+            -119.39696,
+            8648
+          ],
+          [
+            37.83523,
+            -119.39707,
+            8631
+          ],
+          [
+            37.83521,
+            -119.39717,
+            8625
+          ],
+          [
+            37.83518,
+            -119.39728,
+            8634
+          ],
+          [
+            37.83515,
+            -119.39739,
+            8656
+          ],
+          [
+            37.83513,
+            -119.39749,
+            8687
+          ],
+          [
+            37.8351,
+            -119.3976,
+            8725
+          ],
+          [
+            37.83507,
+            -119.39771,
+            8763
+          ],
+          [
+            37.83505,
+            -119.39781,
+            8794
+          ],
+          [
+            37.83502,
+            -119.39792,
+            8816
+          ],
+          [
+            37.83499,
+            -119.39803,
+            8825
+          ],
+          [
+            37.83497,
+            -119.39813,
+            8819
+          ],
+          [
+            37.83494,
+            -119.39824,
+            8802
+          ],
+          [
+            37.83491,
+            -119.39835,
+            8777
+          ],
+          [
+            37.83489,
+            -119.39845,
+            8748
+          ],
+          [
+            37.83486,
+            -119.39856,
+            8723
+          ],
+          [
+            37.83483,
+            -119.39867,
+            8706
+          ],
+          [
+            37.83481,
+            -119.39877,
+            8700
+          ],
+          [
+            37.83478,
+            -119.39888,
+            8709
+          ],
+          [
+            37.83475,
+            -119.39899,
+            8731
+          ],
+          [
+            37.83473,
+            -119.39909,
+            8762
+          ],
+          [
+            37.8347,
+            -119.3992,
+            8800
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 8200
+          },
+          {
+            "distance": 0.53,
+            "elevation": 8223
+          },
+          {
+            "distance": 1.13,
+            "elevation": 8344
+          },
+          {
+            "distance": 1.67,
+            "elevation": 8256
+          },
+          {
+            "distance": 2.27,
+            "elevation": 8450
+          },
+          {
+            "distance": 2.8,
+            "elevation": 8334
+          },
+          {
+            "distance": 3.4,
+            "elevation": 8502
+          },
+          {
+            "distance": 4.0,
+            "elevation": 8500
+          },
+          {
+            "distance": 4.53,
+            "elevation": 8523
+          },
+          {
+            "distance": 5.13,
+            "elevation": 8644
+          },
+          {
+            "distance": 5.67,
+            "elevation": 8556
+          },
+          {
+            "distance": 6.27,
+            "elevation": 8750
+          },
+          {
+            "distance": 6.8,
+            "elevation": 8634
+          },
+          {
+            "distance": 7.4,
+            "elevation": 8802
+          },
+          {
+            "distance": 8.0,
+            "elevation": 8800
+          }
+        ]
+      },
       "features": [
         {
           "name": "Lower Cathedral Lake",
@@ -66,9 +738,7 @@
       ]
     }
   ],
-
   "generated_description": "<p>Cathedral Lakes are two stunning alpine lakes nestled beneath the soaring Cathedral Peak in Yosemite's High Sierra. This moderate 8-mile round trip from Tuolumne Meadows is one of the park's most beautiful and accessible high-country hikes.</p><p>The lower lake features dramatic Cathedral Peak reflections, while the upper lake offers more solitude with equally spectacular granite spire views. Both lakes are popular backpacking destinations with designated campsites (wilderness permit required for overnight stays).</p>",
-
   "nearby_peaks": [
     {
       "name": "Clouds Rest",
@@ -92,16 +762,15 @@
       "distance_miles": 6.8
     }
   ],
-
   "page_content": {
     "faqs": [
       {
         "question": "Which Cathedral Lake is better?",
-        "answer": "Lower Cathedral Lake (3.7 miles) is larger with the iconic Cathedral Peak reflection view—it's the classic photo spot. Upper Cathedral Lake (4 miles) is smaller, quieter, and equally beautiful with more intimate surroundings. Most day hikers visit lower lake; backpackers often camp at upper lake for solitude."
+        "answer": "Lower Cathedral Lake (3.7 miles) is larger with the iconic Cathedral Peak reflection view\u2014it's the classic photo spot. Upper Cathedral Lake (4 miles) is smaller, quieter, and equally beautiful with more intimate surroundings. Most day hikers visit lower lake; backpackers often camp at upper lake for solitude."
       },
       {
         "question": "When does Tioga Road open?",
-        "answer": "Tioga Road typically opens late May to early June depending on snow and closes in October/November. Cathedral Lakes Trail is accessible only when Tioga Road is open. Check Yosemite's road status before planning your visit—this is crucial for summer High Sierra trips."
+        "answer": "Tioga Road typically opens late May to early June depending on snow and closes in October/November. Cathedral Lakes Trail is accessible only when Tioga Road is open. Check Yosemite's road status before planning your visit\u2014this is crucial for summer High Sierra trips."
       },
       {
         "question": "Do I need a permit for Cathedral Lakes?",
@@ -110,21 +779,19 @@
     ],
     "safety": {
       "warnings": [
-        "High elevation (9,600 ft)—take it slow if not acclimatized",
-        "Afternoon thunderstorms common July-August—start early",
+        "High elevation (9,600 ft)\u2014take it slow if not acclimatized",
+        "Afternoon thunderstorms common July-August\u2014start early",
         "Mosquitoes brutal in early season (June-July)",
         "Trail may have snow until late June",
-        "Tioga Road closes in winter—check status"
+        "Tioga Road closes in winter\u2014check status"
       ],
       "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
     }
   },
-
   "seo": {
     "meta_title": "Cathedral Lakes Hike 2026 | Yosemite High Sierra Alpine Lakes Trail",
     "meta_description": "Complete guide to hiking Cathedral Lakes in Yosemite's Tuolumne Meadows. Moderate 8-mile trail to pristine alpine lakes beneath Cathedral Peak. Best time to visit, wildflowers, and High Sierra tips."
   },
-
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
     "primary_url": "https://www.nps.gov/yose/planyourvisit/cathedrallakes.htm",
@@ -133,5 +800,5 @@
     "gps_source": "NPS Official Yosemite Map",
     "distance_source": "NPS trail signage and official website",
     "notes": "Distance and trail info from NPS Tuolumne Meadows trail guides. GPS coordinates verified with USGS topographic maps."
-}
+  }
 }

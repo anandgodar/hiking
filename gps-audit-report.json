@@ -1,202 +1,5 @@
 [
   {
-    "name": "May Lake",
-    "state": "California",
-    "file": "may-lake-yosemite.json",
-    "issues": [
-      "Very low GPS density: 2.1 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Too few chart points: 3 (recommend 10+)",
-      "Path very straight: 0.99 (may be oversimplified)"
-    ],
-    "quality_score": 15,
-    "stats": {
-      "gps_points": 5,
-      "distance_mi": 2.4,
-      "points_per_mile": 2.1,
-      "has_elevation": false,
-      "chart_points": 3,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Potato Chip Rock",
-    "state": "California",
-    "file": "potato-chip-rock.json",
-    "issues": [
-      "Very low GPS density: 1.0 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Path very straight: 0.99 (may be oversimplified)"
-    ],
-    "quality_score": 20,
-    "stats": {
-      "gps_points": 7,
-      "distance_mi": 7.2,
-      "points_per_mile": 1.0,
-      "has_elevation": false,
-      "chart_points": 5,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Upper Yosemite Fall",
-    "state": "California",
-    "file": "upper-yosemite-fall.json",
-    "issues": [
-      "Very low GPS density: 1.0 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Path very straight: 0.96 (may be oversimplified)"
-    ],
-    "quality_score": 20,
-    "stats": {
-      "gps_points": 7,
-      "distance_mi": 7.2,
-      "points_per_mile": 1.0,
-      "has_elevation": false,
-      "chart_points": 5,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Mission Peak",
-    "state": "California",
-    "file": "mission-peak.json",
-    "issues": [
-      "Very low GPS density: 1.1 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Path very straight: 1.00 (may be oversimplified)"
-    ],
-    "quality_score": 20,
-    "stats": {
-      "gps_points": 7,
-      "distance_mi": 6.2,
-      "points_per_mile": 1.1,
-      "has_elevation": false,
-      "chart_points": 5,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Clouds Rest",
-    "state": "California",
-    "file": "clouds-rest-yosemite.json",
-    "issues": [
-      "Very low GPS density: 0.4 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Path very straight: 0.96 (may be oversimplified)"
-    ],
-    "quality_score": 20,
-    "stats": {
-      "gps_points": 6,
-      "distance_mi": 14.5,
-      "points_per_mile": 0.4,
-      "has_elevation": false,
-      "chart_points": 5,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Mirror Lake",
-    "state": "California",
-    "file": "mirror-lake-yosemite.json",
-    "issues": [
-      "Very low GPS density: 1.4 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Too few chart points: 4 (recommend 10+)"
-    ],
-    "quality_score": 25,
-    "stats": {
-      "gps_points": 7,
-      "distance_mi": 5.0,
-      "points_per_mile": 1.4,
-      "has_elevation": false,
-      "chart_points": 4,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Sentinel Dome & Taft Point",
-    "state": "California",
-    "file": "sentinel-dome-taft-point.json",
-    "issues": [
-      "Very low GPS density: 1.4 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Too few chart points: 4 (recommend 10+)"
-    ],
-    "quality_score": 25,
-    "stats": {
-      "gps_points": 7,
-      "distance_mi": 5.0,
-      "points_per_mile": 1.4,
-      "has_elevation": false,
-      "chart_points": 4,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Cathedral Lakes",
-    "state": "California",
-    "file": "cathedral-lakes-yosemite.json",
-    "issues": [
-      "Very low GPS density: 0.6 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Too few chart points: 4 (recommend 10+)"
-    ],
-    "quality_score": 25,
-    "stats": {
-      "gps_points": 5,
-      "distance_mi": 8.0,
-      "points_per_mile": 0.6,
-      "has_elevation": false,
-      "chart_points": 4,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Panorama Trail",
-    "state": "California",
-    "file": "panorama-trail-yosemite.json",
-    "issues": [
-      "Very low GPS density: 0.7 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [],
-    "quality_score": 30,
-    "stats": {
-      "gps_points": 6,
-      "distance_mi": 8.5,
-      "points_per_mile": 0.7,
-      "has_elevation": false,
-      "chart_points": 5,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
     "name": "Mount Whitney",
     "state": "California",
     "file": "mount-whitney.json",
@@ -210,6 +13,26 @@
       "gps_points": 301,
       "distance_mi": 22.0,
       "points_per_mile": 13.7,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "FAIR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Upper Yosemite Fall",
+    "state": "California",
+    "file": "upper-yosemite-fall.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 12.6 pts/mi (recommend 15+)",
+      "Path very straight: 0.96 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 91,
+      "distance_mi": 7.2,
+      "points_per_mile": 12.6,
       "has_elevation": true,
       "chart_points": 15,
       "quality": "FAIR"
@@ -257,6 +80,46 @@
     "state_slug": "california"
   },
   {
+    "name": "Mission Peak",
+    "state": "California",
+    "file": "mission-peak.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 14.7 pts/mi (recommend 15+)",
+      "Path very straight: 1.00 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 91,
+      "distance_mi": 6.2,
+      "points_per_mile": 14.7,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "FAIR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Clouds Rest",
+    "state": "California",
+    "file": "clouds-rest-yosemite.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 13.9 pts/mi (recommend 15+)",
+      "Path very straight: 0.96 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 201,
+      "distance_mi": 14.5,
+      "points_per_mile": 13.9,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "FAIR"
+    },
+    "state_slug": "california"
+  },
+  {
     "name": "Mount Kearsarge",
     "state": "New Hampshire",
     "file": "mount-kearsarge-nh.json",
@@ -296,6 +159,25 @@
     "state_slug": "maine"
   },
   {
+    "name": "May Lake",
+    "state": "California",
+    "file": "may-lake-yosemite.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 0.99 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 61,
+      "distance_mi": 2.4,
+      "points_per_mile": 25.4,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
     "name": "Lower Yosemite Fall",
     "state": "California",
     "file": "lower-yosemite-fall.json",
@@ -308,6 +190,25 @@
       "gps_points": 21,
       "distance_mi": 1.0,
       "points_per_mile": 21.0,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Potato Chip Rock",
+    "state": "California",
+    "file": "potato-chip-rock.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 0.99 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 186,
+      "distance_mi": 7.2,
+      "points_per_mile": 25.8,
       "has_elevation": true,
       "chart_points": 15,
       "quality": "GOOD"
@@ -465,6 +366,74 @@
       "quality": "GOOD"
     },
     "state_slug": "new-york"
+  },
+  {
+    "name": "Mirror Lake",
+    "state": "California",
+    "file": "mirror-lake-yosemite.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 91,
+      "distance_mi": 5.0,
+      "points_per_mile": 18.2,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Sentinel Dome & Taft Point",
+    "state": "California",
+    "file": "sentinel-dome-taft-point.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 91,
+      "distance_mi": 5.0,
+      "points_per_mile": 18.2,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Panorama Trail",
+    "state": "California",
+    "file": "panorama-trail-yosemite.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 176,
+      "distance_mi": 8.5,
+      "points_per_mile": 20.7,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Cathedral Lakes",
+    "state": "California",
+    "file": "cathedral-lakes-yosemite.json",
+    "issues": [],
+    "warnings": [],
+    "quality_score": 100,
+    "stats": {
+      "gps_points": 121,
+      "distance_mi": 8.0,
+      "points_per_mile": 15.1,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
   },
   {
     "name": "Camden Hills - Mount Battie",

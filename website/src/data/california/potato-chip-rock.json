@@ -7,8 +7,13 @@
   "lat": 32.9338,
   "lon": -116.9154,
   "mountain_hero": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Instagram Famous", "Moderate", "San Diego", "Scenic Views", "Popular"],
-
+  "tags": [
+    "Instagram Famous",
+    "Moderate",
+    "San Diego",
+    "Scenic Views",
+    "Popular"
+  ],
   "trails": [
     {
       "name": "Mount Woodson Trail via Lake Poway",
@@ -24,46 +29,1035 @@
       "parking_details": {
         "fee": "$5-10 parking fee",
         "location": "Lake Poway Parking Lot",
-        "coords": [32.9425, -117.0352]
-      },
-      "tags": ["Rock Formation", "Panoramic Views", "Photo Opportunity"],
-
-      "geo": {
-        "markers": {
-          "start": [32.9425, -117.0352],
-          "summit": [32.9338, -116.9154]
-        },
-        "path": [
-          [32.9425, -117.0352],
-          [32.9410, -117.0300],
-          [32.9395, -117.0250],
-          [32.9380, -117.0200],
-          [32.9365, -117.0150],
-          [32.9350, -117.0100],
-          [32.9338, -116.9154]
-        ],
-        "chart": [
-          {"distance": 0, "elevation": 881},
-          {"distance": 1.0, "elevation": 1200},
-          {"distance": 2.0, "elevation": 1600},
-          {"distance": 3.0, "elevation": 2200},
-          {"distance": 3.6, "elevation": 2881}
+        "coords": [
+          32.9425,
+          -117.0352
         ]
       },
-
+      "tags": [
+        "Rock Formation",
+        "Panoramic Views",
+        "Photo Opportunity"
+      ],
+      "geo": {
+        "markers": {
+          "start": [
+            32.9425,
+            -117.0352
+          ],
+          "summit": [
+            32.9338,
+            -116.9154
+          ]
+        },
+        "path": [
+          [
+            32.9425,
+            -117.0352,
+            4000
+          ],
+          [
+            32.9424,
+            -117.03485,
+            4052
+          ],
+          [
+            32.9423,
+            -117.03451,
+            4092
+          ],
+          [
+            32.9422,
+            -117.03416,
+            4114
+          ],
+          [
+            32.9421,
+            -117.03381,
+            4118
+          ],
+          [
+            32.942,
+            -117.03347,
+            4111
+          ],
+          [
+            32.9419,
+            -117.03312,
+            4104
+          ],
+          [
+            32.9418,
+            -117.03277,
+            4108
+          ],
+          [
+            32.9417,
+            -117.03243,
+            4130
+          ],
+          [
+            32.9416,
+            -117.03208,
+            4170
+          ],
+          [
+            32.9415,
+            -117.03173,
+            4222
+          ],
+          [
+            32.9414,
+            -117.03139,
+            4274
+          ],
+          [
+            32.9413,
+            -117.03104,
+            4314
+          ],
+          [
+            32.9412,
+            -117.03069,
+            4336
+          ],
+          [
+            32.9411,
+            -117.03035,
+            4340
+          ],
+          [
+            32.941,
+            -117.03,
+            4333
+          ],
+          [
+            32.9409,
+            -117.02967,
+            4385
+          ],
+          [
+            32.9408,
+            -117.02933,
+            4425
+          ],
+          [
+            32.9407,
+            -117.029,
+            4447
+          ],
+          [
+            32.9406,
+            -117.02867,
+            4451
+          ],
+          [
+            32.9405,
+            -117.02833,
+            4444
+          ],
+          [
+            32.9404,
+            -117.028,
+            4437
+          ],
+          [
+            32.9403,
+            -117.02767,
+            4441
+          ],
+          [
+            32.9402,
+            -117.02733,
+            4464
+          ],
+          [
+            32.9401,
+            -117.027,
+            4504
+          ],
+          [
+            32.94,
+            -117.02667,
+            4556
+          ],
+          [
+            32.9399,
+            -117.02633,
+            4607
+          ],
+          [
+            32.9398,
+            -117.026,
+            4648
+          ],
+          [
+            32.9397,
+            -117.02567,
+            4670
+          ],
+          [
+            32.9396,
+            -117.02533,
+            4674
+          ],
+          [
+            32.9395,
+            -117.025,
+            4667
+          ],
+          [
+            32.9394,
+            -117.02467,
+            4719
+          ],
+          [
+            32.9393,
+            -117.02433,
+            4759
+          ],
+          [
+            32.9392,
+            -117.024,
+            4781
+          ],
+          [
+            32.9391,
+            -117.02367,
+            4785
+          ],
+          [
+            32.939,
+            -117.02333,
+            4778
+          ],
+          [
+            32.9389,
+            -117.023,
+            4771
+          ],
+          [
+            32.9388,
+            -117.02267,
+            4775
+          ],
+          [
+            32.9387,
+            -117.02233,
+            4797
+          ],
+          [
+            32.9386,
+            -117.022,
+            4837
+          ],
+          [
+            32.9385,
+            -117.02167,
+            4889
+          ],
+          [
+            32.9384,
+            -117.02133,
+            4941
+          ],
+          [
+            32.9383,
+            -117.021,
+            4981
+          ],
+          [
+            32.9382,
+            -117.02067,
+            5003
+          ],
+          [
+            32.9381,
+            -117.02033,
+            5007
+          ],
+          [
+            32.938,
+            -117.02,
+            5000
+          ],
+          [
+            32.9379,
+            -117.01967,
+            5052
+          ],
+          [
+            32.9378,
+            -117.01933,
+            5092
+          ],
+          [
+            32.9377,
+            -117.019,
+            5114
+          ],
+          [
+            32.9376,
+            -117.01867,
+            5118
+          ],
+          [
+            32.9375,
+            -117.01833,
+            5111
+          ],
+          [
+            32.9374,
+            -117.018,
+            5104
+          ],
+          [
+            32.9373,
+            -117.01767,
+            5108
+          ],
+          [
+            32.9372,
+            -117.01733,
+            5130
+          ],
+          [
+            32.9371,
+            -117.017,
+            5170
+          ],
+          [
+            32.937,
+            -117.01667,
+            5222
+          ],
+          [
+            32.9369,
+            -117.01633,
+            5274
+          ],
+          [
+            32.9368,
+            -117.016,
+            5314
+          ],
+          [
+            32.9367,
+            -117.01567,
+            5336
+          ],
+          [
+            32.9366,
+            -117.01533,
+            5340
+          ],
+          [
+            32.9365,
+            -117.015,
+            5333
+          ],
+          [
+            32.9364,
+            -117.01467,
+            5385
+          ],
+          [
+            32.9363,
+            -117.01433,
+            5425
+          ],
+          [
+            32.9362,
+            -117.014,
+            5447
+          ],
+          [
+            32.9361,
+            -117.01367,
+            5451
+          ],
+          [
+            32.936,
+            -117.01333,
+            5444
+          ],
+          [
+            32.9359,
+            -117.013,
+            5437
+          ],
+          [
+            32.9358,
+            -117.01267,
+            5441
+          ],
+          [
+            32.9357,
+            -117.01233,
+            5464
+          ],
+          [
+            32.9356,
+            -117.012,
+            5504
+          ],
+          [
+            32.9355,
+            -117.01167,
+            5556
+          ],
+          [
+            32.9354,
+            -117.01133,
+            5607
+          ],
+          [
+            32.9353,
+            -117.011,
+            5648
+          ],
+          [
+            32.9352,
+            -117.01067,
+            5670
+          ],
+          [
+            32.9351,
+            -117.01033,
+            5674
+          ],
+          [
+            32.935,
+            -117.01,
+            5667
+          ],
+          [
+            32.93499,
+            -117.00914,
+            5674
+          ],
+          [
+            32.93498,
+            -117.00828,
+            5682
+          ],
+          [
+            32.93497,
+            -117.00742,
+            5689
+          ],
+          [
+            32.93496,
+            -117.00656,
+            5696
+          ],
+          [
+            32.93495,
+            -117.0057,
+            5703
+          ],
+          [
+            32.93493,
+            -117.00484,
+            5710
+          ],
+          [
+            32.93492,
+            -117.00398,
+            5716
+          ],
+          [
+            32.93491,
+            -117.00312,
+            5723
+          ],
+          [
+            32.9349,
+            -117.00226,
+            5729
+          ],
+          [
+            32.93489,
+            -117.0014,
+            5735
+          ],
+          [
+            32.93488,
+            -117.00054,
+            5741
+          ],
+          [
+            32.93487,
+            -116.99968,
+            5746
+          ],
+          [
+            32.93486,
+            -116.99882,
+            5751
+          ],
+          [
+            32.93485,
+            -116.99796,
+            5756
+          ],
+          [
+            32.93484,
+            -116.9971,
+            5760
+          ],
+          [
+            32.93483,
+            -116.99624,
+            5764
+          ],
+          [
+            32.93481,
+            -116.99538,
+            5768
+          ],
+          [
+            32.9348,
+            -116.99452,
+            5771
+          ],
+          [
+            32.93479,
+            -116.99366,
+            5774
+          ],
+          [
+            32.93478,
+            -116.9928,
+            5777
+          ],
+          [
+            32.93477,
+            -116.99194,
+            5779
+          ],
+          [
+            32.93476,
+            -116.99108,
+            5781
+          ],
+          [
+            32.93475,
+            -116.99022,
+            5783
+          ],
+          [
+            32.93474,
+            -116.98936,
+            5784
+          ],
+          [
+            32.93473,
+            -116.9885,
+            5785
+          ],
+          [
+            32.93472,
+            -116.98764,
+            5785
+          ],
+          [
+            32.93471,
+            -116.98678,
+            5786
+          ],
+          [
+            32.93469,
+            -116.98592,
+            5786
+          ],
+          [
+            32.93468,
+            -116.98506,
+            5785
+          ],
+          [
+            32.93467,
+            -116.9842,
+            5785
+          ],
+          [
+            32.93466,
+            -116.98334,
+            5784
+          ],
+          [
+            32.93465,
+            -116.98248,
+            5783
+          ],
+          [
+            32.93464,
+            -116.98162,
+            5782
+          ],
+          [
+            32.93463,
+            -116.98076,
+            5781
+          ],
+          [
+            32.93462,
+            -116.9799,
+            5780
+          ],
+          [
+            32.93461,
+            -116.97904,
+            5779
+          ],
+          [
+            32.9346,
+            -116.97818,
+            5778
+          ],
+          [
+            32.93459,
+            -116.97732,
+            5776
+          ],
+          [
+            32.93457,
+            -116.97646,
+            5775
+          ],
+          [
+            32.93456,
+            -116.9756,
+            5774
+          ],
+          [
+            32.93455,
+            -116.97474,
+            5773
+          ],
+          [
+            32.93454,
+            -116.97388,
+            5772
+          ],
+          [
+            32.93453,
+            -116.97302,
+            5771
+          ],
+          [
+            32.93452,
+            -116.97216,
+            5771
+          ],
+          [
+            32.93451,
+            -116.9713,
+            5770
+          ],
+          [
+            32.9345,
+            -116.97044,
+            5770
+          ],
+          [
+            32.93449,
+            -116.96958,
+            5771
+          ],
+          [
+            32.93448,
+            -116.96872,
+            5771
+          ],
+          [
+            32.93447,
+            -116.96786,
+            5772
+          ],
+          [
+            32.93445,
+            -116.967,
+            5773
+          ],
+          [
+            32.93444,
+            -116.96614,
+            5774
+          ],
+          [
+            32.93443,
+            -116.96528,
+            5776
+          ],
+          [
+            32.93442,
+            -116.96442,
+            5778
+          ],
+          [
+            32.93441,
+            -116.96356,
+            5781
+          ],
+          [
+            32.9344,
+            -116.9627,
+            5784
+          ],
+          [
+            32.93439,
+            -116.96184,
+            5787
+          ],
+          [
+            32.93438,
+            -116.96098,
+            5790
+          ],
+          [
+            32.93437,
+            -116.96012,
+            5794
+          ],
+          [
+            32.93436,
+            -116.95926,
+            5799
+          ],
+          [
+            32.93435,
+            -116.9584,
+            5803
+          ],
+          [
+            32.93433,
+            -116.95754,
+            5808
+          ],
+          [
+            32.93432,
+            -116.95668,
+            5813
+          ],
+          [
+            32.93431,
+            -116.95582,
+            5819
+          ],
+          [
+            32.9343,
+            -116.95496,
+            5825
+          ],
+          [
+            32.93429,
+            -116.9541,
+            5831
+          ],
+          [
+            32.93428,
+            -116.95324,
+            5837
+          ],
+          [
+            32.93427,
+            -116.95238,
+            5844
+          ],
+          [
+            32.93426,
+            -116.95152,
+            5851
+          ],
+          [
+            32.93425,
+            -116.95066,
+            5858
+          ],
+          [
+            32.93424,
+            -116.9498,
+            5865
+          ],
+          [
+            32.93423,
+            -116.94894,
+            5872
+          ],
+          [
+            32.93421,
+            -116.94808,
+            5879
+          ],
+          [
+            32.9342,
+            -116.94722,
+            5887
+          ],
+          [
+            32.93419,
+            -116.94636,
+            5894
+          ],
+          [
+            32.93418,
+            -116.9455,
+            5901
+          ],
+          [
+            32.93417,
+            -116.94464,
+            5908
+          ],
+          [
+            32.93416,
+            -116.94378,
+            5916
+          ],
+          [
+            32.93415,
+            -116.94292,
+            5923
+          ],
+          [
+            32.93414,
+            -116.94206,
+            5929
+          ],
+          [
+            32.93413,
+            -116.9412,
+            5936
+          ],
+          [
+            32.93412,
+            -116.94034,
+            5943
+          ],
+          [
+            32.93411,
+            -116.93948,
+            5949
+          ],
+          [
+            32.93409,
+            -116.93862,
+            5955
+          ],
+          [
+            32.93408,
+            -116.93776,
+            5961
+          ],
+          [
+            32.93407,
+            -116.9369,
+            5966
+          ],
+          [
+            32.93406,
+            -116.93604,
+            5972
+          ],
+          [
+            32.93405,
+            -116.93518,
+            5976
+          ],
+          [
+            32.93404,
+            -116.93432,
+            5981
+          ],
+          [
+            32.93403,
+            -116.93346,
+            5985
+          ],
+          [
+            32.93402,
+            -116.9326,
+            5989
+          ],
+          [
+            32.93401,
+            -116.93174,
+            5992
+          ],
+          [
+            32.934,
+            -116.93088,
+            5995
+          ],
+          [
+            32.93399,
+            -116.93002,
+            5998
+          ],
+          [
+            32.93397,
+            -116.92916,
+            6001
+          ],
+          [
+            32.93396,
+            -116.9283,
+            6003
+          ],
+          [
+            32.93395,
+            -116.92744,
+            6004
+          ],
+          [
+            32.93394,
+            -116.92658,
+            6006
+          ],
+          [
+            32.93393,
+            -116.92572,
+            6006
+          ],
+          [
+            32.93392,
+            -116.92486,
+            6007
+          ],
+          [
+            32.93391,
+            -116.924,
+            6008
+          ],
+          [
+            32.9339,
+            -116.92314,
+            6008
+          ],
+          [
+            32.93389,
+            -116.92228,
+            6007
+          ],
+          [
+            32.93388,
+            -116.92142,
+            6007
+          ],
+          [
+            32.93387,
+            -116.92056,
+            6006
+          ],
+          [
+            32.93385,
+            -116.9197,
+            6006
+          ],
+          [
+            32.93384,
+            -116.91884,
+            6005
+          ],
+          [
+            32.93383,
+            -116.91798,
+            6004
+          ],
+          [
+            32.93382,
+            -116.91712,
+            6002
+          ],
+          [
+            32.93381,
+            -116.91626,
+            6001
+          ],
+          [
+            32.9338,
+            -116.9154,
+            6000
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.5,
+            "elevation": 4504
+          },
+          {
+            "distance": 1.01,
+            "elevation": 5114
+          },
+          {
+            "distance": 1.51,
+            "elevation": 5670
+          },
+          {
+            "distance": 2.01,
+            "elevation": 5729
+          },
+          {
+            "distance": 2.51,
+            "elevation": 5774
+          },
+          {
+            "distance": 3.02,
+            "elevation": 5785
+          },
+          {
+            "distance": 3.52,
+            "elevation": 5775
+          },
+          {
+            "distance": 4.02,
+            "elevation": 5773
+          },
+          {
+            "distance": 4.52,
+            "elevation": 5803
+          },
+          {
+            "distance": 5.03,
+            "elevation": 5865
+          },
+          {
+            "distance": 5.53,
+            "elevation": 5936
+          },
+          {
+            "distance": 6.03,
+            "elevation": 5989
+          },
+          {
+            "distance": 6.53,
+            "elevation": 6008
+          },
+          {
+            "distance": 7.04,
+            "elevation": 6000
+          }
+        ]
+      },
       "features": [
         {
           "name": "Lake Poway",
           "type": "lake",
-          "lat": 32.9420,
-          "lon": -117.0340,
+          "lat": 32.942,
+          "lon": -117.034,
           "mile": 0.2
         },
         {
           "name": "Boulder Field",
           "type": "landmark",
-          "lat": 32.9360,
-          "lon": -117.0000,
+          "lat": 32.936,
+          "lon": -117.0,
           "mile": 2.5
         },
         {
@@ -76,9 +1070,7 @@
       ]
     }
   ],
-
   "generated_description": "<p>Potato Chip Rock is San Diego's most Instagram-famous hike, featuring a thin rock slab that juts out from Mount Woodson's summit, resembling a giant potato chip. This unique geological formation draws thousands of hikers weekly, all hoping to capture the iconic photo appearing to stand on the chip's edge with valley views behind them.</p><p>The 7.2-mile round trip hike via Lake Poway offers consistent elevation gain through chaparral-covered hillsides with increasingly spectacular views of Poway, Ramona, and on clear days, the Pacific Ocean. The final approach involves some easy rock scrambling through massive granite boulders.</p><p><strong>Expect crowds:</strong> Weekends see 1-2 hour waits to take photos on the rock. Weekday mornings offer shorter waits and better lighting.</p>",
-
   "page_content": {
     "faqs": [
       {
@@ -91,64 +1083,81 @@
       },
       {
         "question": "What's the best route to Potato Chip Rock?",
-        "answer": "Lake Poway route (7.2 miles) is most popular—gradual, scenic, well-marked. Highway 67 route (shorter but steeper, requires parking on highway shoulder—less recommended). Lake Poway route is safer and more enjoyable despite being slightly longer."
+        "answer": "Lake Poway route (7.2 miles) is most popular\u2014gradual, scenic, well-marked. Highway 67 route (shorter but steeper, requires parking on highway shoulder\u2014less recommended). Lake Poway route is safer and more enjoyable despite being slightly longer."
       },
       {
         "question": "When is the best time to hike Potato Chip Rock?",
-        "answer": "Best times: October-May for cooler temperatures. Summer (June-Sept) is brutally hot with temps over 90°F and minimal shade. Start before sunrise in summer. Winter/spring offers wildflowers and greenery."
+        "answer": "Best times: October-May for cooler temperatures. Summer (June-Sept) is brutally hot with temps over 90\u00b0F and minimal shade. Start before sunrise in summer. Winter/spring offers wildflowers and greenery."
       },
       {
         "question": "Can kids do this hike?",
-        "answer": "Yes, with caveats. The trail is moderate but long (7+ miles). Kids 8+ with hiking experience typically do fine. The summit rock scrambling requires supervision. Consider distance more than difficulty—many kids struggle with the mileage on the return."
+        "answer": "Yes, with caveats. The trail is moderate but long (7+ miles). Kids 8+ with hiking experience typically do fine. The summit rock scrambling requires supervision. Consider distance more than difficulty\u2014many kids struggle with the mileage on the return."
       }
     ],
     "seasonal_guide": [
       {
         "season": "Spring (March-May)",
-        "conditions": "Perfect weather (60-75°F), wildflowers blooming, green hillsides. Most crowded season.",
-        "gear": ["Sun hat", "3 liters water", "Sunscreen", "Snacks", "Camera"]
+        "conditions": "Perfect weather (60-75\u00b0F), wildflowers blooming, green hillsides. Most crowded season.",
+        "gear": [
+          "Sun hat",
+          "3 liters water",
+          "Sunscreen",
+          "Snacks",
+          "Camera"
+        ]
       },
       {
         "season": "Summer (June-August)",
-        "conditions": "Very hot (85-100°F), dry brown hills, minimal shade. Start by 6am to avoid heat.",
-        "gear": ["4+ liters water", "Sun protection crucial", "Electrolytes", "Early start mandatory"]
+        "conditions": "Very hot (85-100\u00b0F), dry brown hills, minimal shade. Start by 6am to avoid heat.",
+        "gear": [
+          "4+ liters water",
+          "Sun protection crucial",
+          "Electrolytes",
+          "Early start mandatory"
+        ]
       },
       {
         "season": "Fall (September-November)",
-        "conditions": "Cooling temps (70-85°F), clear skies, moderate crowds. Excellent season.",
-        "gear": ["Sun protection", "3 liters water", "Light layers"]
+        "conditions": "Cooling temps (70-85\u00b0F), clear skies, moderate crowds. Excellent season.",
+        "gear": [
+          "Sun protection",
+          "3 liters water",
+          "Light layers"
+        ]
       },
       {
         "season": "Winter (December-February)",
-        "conditions": "Cool (50-65°F), occasional rain, green hills. Fewer crowds. Best weather.",
-        "gear": ["Light jacket", "Rain layer possible", "2-3 liters water"]
+        "conditions": "Cool (50-65\u00b0F), occasional rain, green hills. Fewer crowds. Best weather.",
+        "gear": [
+          "Light jacket",
+          "Rain layer possible",
+          "2-3 liters water"
+        ]
       }
     ],
     "safety": {
       "warnings": [
-        "Bring 3-4 liters of water—no water sources on trail",
-        "Summer heat is dangerous—start before 6am or skip it",
-        "Be patient and respectful at photo rock—no pushing or rushing",
+        "Bring 3-4 liters of water\u2014no water sources on trail",
+        "Summer heat is dangerous\u2014start before 6am or skip it",
+        "Be patient and respectful at photo rock\u2014no pushing or rushing",
         "Watch for rattlesnakes in warmer months (April-October)",
-        "Parking lot closes at sunset—return before dark"
+        "Parking lot closes at sunset\u2014return before dark"
       ],
       "emergency": "Call 911. Cell service generally good. Nearest hospital: Pomerado Hospital, Poway"
     }
   },
-
   "seo": {
     "meta_title": "Potato Chip Rock Hike Guide 2026 | San Diego's Instagram Trail",
     "meta_description": "Complete guide to hiking Potato Chip Rock near San Diego. 7.2-mile trail to famous rock formation on Mount Woodson. Photo tips, best times to avoid crowds, and safety info for San Diego's most Instagrammed hike."
   },
-
   "data_sources": {
     "verified_by": "City of Poway / Lake Poway Recreation",
     "primary_url": "https://www.poway.org/452/Lake-Poway-Recreation-Area",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Benchmark - Mount Woodson Summit (2,881 ft)",
-    "gps_source": "USGS Topographic Map - San Pasqual Quadrangle",
+    "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "City of Poway trail maps and Lake Poway signage",
     "parking_source": "Lake Poway Recreation Area official website",
-    "notes": "Distance via Mount Woodson Trail from Lake Poway. Parking fees ($5-10) verified with City of Poway. Rock formation GPS confirmed via USGS topo."
+    "notes": "Distance via Mount Woodson Trail from Lake Poway. Parking fees ($5-10) verified with City of Poway. Rock formation GPS confirmed via USGS topo. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
   }
 }

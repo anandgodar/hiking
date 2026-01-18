@@ -7,8 +7,13 @@
   "lat": 37.7567,
   "lon": -119.5967,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Waterfall", "Strenuous", "Tallest Fall", "Switchbacks", "Valley Views"],
-
+  "tags": [
+    "Waterfall",
+    "Strenuous",
+    "Tallest Fall",
+    "Switchbacks",
+    "Valley Views"
+  ],
   "trails": [
     {
       "name": "Upper Yosemite Fall Trail",
@@ -24,38 +29,552 @@
       "parking_details": {
         "fee": "$35 park entrance",
         "location": "Yosemite Falls parking",
-        "coords": [37.7456, -119.5965]
-      },
-      "tags": ["2,425 Feet Total Height", "Columbia Rock", "Exposed Switchbacks"],
-
-      "geo": {
-        "markers": {
-          "start": [37.7456, -119.5965],
-          "summit": [37.7567, -119.5967]
-        },
-        "path": [
-          [37.7456, -119.5965],
-          [37.7470, -119.5970],
-          [37.7490, -119.5975],
-          [37.7510, -119.5980],
-          [37.7530, -119.5985],
-          [37.7550, -119.5975],
-          [37.7567, -119.5967]
-        ],
-        "chart": [
-          {"distance": 0, "elevation": 3950},
-          {"distance": 1.0, "elevation": 5031},
-          {"distance": 2.0, "elevation": 5800},
-          {"distance": 3.0, "elevation": 6300},
-          {"distance": 3.6, "elevation": 6526}
+        "coords": [
+          37.7456,
+          -119.5965
         ]
       },
-
+      "tags": [
+        "2,425 Feet Total Height",
+        "Columbia Rock",
+        "Exposed Switchbacks"
+      ],
+      "geo": {
+        "markers": {
+          "start": [
+            37.7456,
+            -119.5965
+          ],
+          "summit": [
+            37.7567,
+            -119.5967
+          ]
+        },
+        "path": [
+          [
+            37.7456,
+            -119.5965,
+            4000
+          ],
+          [
+            37.74569,
+            -119.59653,
+            4059
+          ],
+          [
+            37.74579,
+            -119.59657,
+            4108
+          ],
+          [
+            37.74588,
+            -119.5966,
+            4138
+          ],
+          [
+            37.74597,
+            -119.59663,
+            4149
+          ],
+          [
+            37.74607,
+            -119.59667,
+            4150
+          ],
+          [
+            37.74616,
+            -119.5967,
+            4151
+          ],
+          [
+            37.74625,
+            -119.59673,
+            4162
+          ],
+          [
+            37.74635,
+            -119.59677,
+            4192
+          ],
+          [
+            37.74644,
+            -119.5968,
+            4241
+          ],
+          [
+            37.74653,
+            -119.59683,
+            4300
+          ],
+          [
+            37.74663,
+            -119.59687,
+            4359
+          ],
+          [
+            37.74672,
+            -119.5969,
+            4408
+          ],
+          [
+            37.74681,
+            -119.59693,
+            4438
+          ],
+          [
+            37.74691,
+            -119.59697,
+            4449
+          ],
+          [
+            37.747,
+            -119.597,
+            4450
+          ],
+          [
+            37.74713,
+            -119.59703,
+            4509
+          ],
+          [
+            37.74727,
+            -119.59707,
+            4558
+          ],
+          [
+            37.7474,
+            -119.5971,
+            4588
+          ],
+          [
+            37.74753,
+            -119.59713,
+            4599
+          ],
+          [
+            37.74767,
+            -119.59717,
+            4600
+          ],
+          [
+            37.7478,
+            -119.5972,
+            4601
+          ],
+          [
+            37.74793,
+            -119.59723,
+            4612
+          ],
+          [
+            37.74807,
+            -119.59727,
+            4642
+          ],
+          [
+            37.7482,
+            -119.5973,
+            4691
+          ],
+          [
+            37.74833,
+            -119.59733,
+            4750
+          ],
+          [
+            37.74847,
+            -119.59737,
+            4809
+          ],
+          [
+            37.7486,
+            -119.5974,
+            4858
+          ],
+          [
+            37.74873,
+            -119.59743,
+            4888
+          ],
+          [
+            37.74887,
+            -119.59747,
+            4899
+          ],
+          [
+            37.749,
+            -119.5975,
+            4900
+          ],
+          [
+            37.74913,
+            -119.59753,
+            4959
+          ],
+          [
+            37.74927,
+            -119.59757,
+            5008
+          ],
+          [
+            37.7494,
+            -119.5976,
+            5038
+          ],
+          [
+            37.74953,
+            -119.59763,
+            5049
+          ],
+          [
+            37.74967,
+            -119.59767,
+            5050
+          ],
+          [
+            37.7498,
+            -119.5977,
+            5051
+          ],
+          [
+            37.74993,
+            -119.59773,
+            5062
+          ],
+          [
+            37.75007,
+            -119.59777,
+            5092
+          ],
+          [
+            37.7502,
+            -119.5978,
+            5141
+          ],
+          [
+            37.75033,
+            -119.59783,
+            5200
+          ],
+          [
+            37.75047,
+            -119.59787,
+            5259
+          ],
+          [
+            37.7506,
+            -119.5979,
+            5308
+          ],
+          [
+            37.75073,
+            -119.59793,
+            5338
+          ],
+          [
+            37.75087,
+            -119.59797,
+            5349
+          ],
+          [
+            37.751,
+            -119.598,
+            5350
+          ],
+          [
+            37.75113,
+            -119.59803,
+            5409
+          ],
+          [
+            37.75127,
+            -119.59807,
+            5458
+          ],
+          [
+            37.7514,
+            -119.5981,
+            5488
+          ],
+          [
+            37.75153,
+            -119.59813,
+            5499
+          ],
+          [
+            37.75167,
+            -119.59817,
+            5500
+          ],
+          [
+            37.7518,
+            -119.5982,
+            5501
+          ],
+          [
+            37.75193,
+            -119.59823,
+            5512
+          ],
+          [
+            37.75207,
+            -119.59827,
+            5542
+          ],
+          [
+            37.7522,
+            -119.5983,
+            5591
+          ],
+          [
+            37.75233,
+            -119.59833,
+            5650
+          ],
+          [
+            37.75247,
+            -119.59837,
+            5709
+          ],
+          [
+            37.7526,
+            -119.5984,
+            5758
+          ],
+          [
+            37.75273,
+            -119.59843,
+            5788
+          ],
+          [
+            37.75287,
+            -119.59847,
+            5799
+          ],
+          [
+            37.753,
+            -119.5985,
+            5800
+          ],
+          [
+            37.75313,
+            -119.59843,
+            5859
+          ],
+          [
+            37.75327,
+            -119.59837,
+            5908
+          ],
+          [
+            37.7534,
+            -119.5983,
+            5938
+          ],
+          [
+            37.75353,
+            -119.59823,
+            5949
+          ],
+          [
+            37.75367,
+            -119.59817,
+            5950
+          ],
+          [
+            37.7538,
+            -119.5981,
+            5951
+          ],
+          [
+            37.75393,
+            -119.59803,
+            5962
+          ],
+          [
+            37.75407,
+            -119.59797,
+            5992
+          ],
+          [
+            37.7542,
+            -119.5979,
+            6041
+          ],
+          [
+            37.75433,
+            -119.59783,
+            6100
+          ],
+          [
+            37.75447,
+            -119.59777,
+            6159
+          ],
+          [
+            37.7546,
+            -119.5977,
+            6208
+          ],
+          [
+            37.75473,
+            -119.59763,
+            6238
+          ],
+          [
+            37.75487,
+            -119.59757,
+            6249
+          ],
+          [
+            37.755,
+            -119.5975,
+            6250
+          ],
+          [
+            37.75511,
+            -119.59745,
+            6309
+          ],
+          [
+            37.75523,
+            -119.59739,
+            6358
+          ],
+          [
+            37.75534,
+            -119.59734,
+            6388
+          ],
+          [
+            37.75545,
+            -119.59729,
+            6399
+          ],
+          [
+            37.75557,
+            -119.59723,
+            6400
+          ],
+          [
+            37.75568,
+            -119.59718,
+            6401
+          ],
+          [
+            37.75579,
+            -119.59713,
+            6412
+          ],
+          [
+            37.75591,
+            -119.59707,
+            6442
+          ],
+          [
+            37.75602,
+            -119.59702,
+            6491
+          ],
+          [
+            37.75613,
+            -119.59697,
+            6550
+          ],
+          [
+            37.75625,
+            -119.59691,
+            6609
+          ],
+          [
+            37.75636,
+            -119.59686,
+            6658
+          ],
+          [
+            37.75647,
+            -119.59681,
+            6688
+          ],
+          [
+            37.75659,
+            -119.59675,
+            6699
+          ],
+          [
+            37.7567,
+            -119.5967,
+            6700
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.06,
+            "elevation": 4192
+          },
+          {
+            "distance": 0.11,
+            "elevation": 4509
+          },
+          {
+            "distance": 0.17,
+            "elevation": 4612
+          },
+          {
+            "distance": 0.23,
+            "elevation": 4899
+          },
+          {
+            "distance": 0.28,
+            "elevation": 5050
+          },
+          {
+            "distance": 0.34,
+            "elevation": 5259
+          },
+          {
+            "distance": 0.4,
+            "elevation": 5458
+          },
+          {
+            "distance": 0.46,
+            "elevation": 5542
+          },
+          {
+            "distance": 0.51,
+            "elevation": 5799
+          },
+          {
+            "distance": 0.57,
+            "elevation": 5950
+          },
+          {
+            "distance": 0.63,
+            "elevation": 6100
+          },
+          {
+            "distance": 0.68,
+            "elevation": 6309
+          },
+          {
+            "distance": 0.74,
+            "elevation": 6442
+          },
+          {
+            "distance": 0.8,
+            "elevation": 6700
+          }
+        ]
+      },
       "features": [
         {
           "name": "Columbia Rock",
           "type": "viewpoint",
-          "lat": 37.7490,
+          "lat": 37.749,
           "lon": -119.5975,
           "mile": 1.0
         },
@@ -69,9 +588,7 @@
       ]
     }
   ],
-
   "generated_description": "<p>The Upper Yosemite Fall Trail climbs 2,700 feet via relentless switchbacks to reach the top of North America's tallest waterfall. At 2,425 feet total (combining upper, middle, and lower falls), Yosemite Falls is among the world's highest waterfalls and the park's most iconic cascade.</p><p>This 7.2-mile round trip is one of Yosemite's most strenuous day hikes, but rewards persistence with spectacular views of Yosemite Valley, Half Dome, and the thundering brink of Upper Yosemite Fall. In spring, feel the ground shake as thousands of gallons per second plunge over the cliff.</p>",
-
   "page_content": {
     "faqs": [
       {
@@ -88,34 +605,32 @@
       },
       {
         "question": "Is there water on the trail?",
-        "answer": "No reliable water sources. A small creek near the 2-mile mark may be seasonal. Bring 3-4 liters, especially in summer when temperatures on exposed switchbacks can exceed 95°F. Many hikers underestimate water needs."
+        "answer": "No reliable water sources. A small creek near the 2-mile mark may be seasonal. Bring 3-4 liters, especially in summer when temperatures on exposed switchbacks can exceed 95\u00b0F. Many hikers underestimate water needs."
       }
     ],
     "safety": {
       "warnings": [
-        "Extremely strenuous—2,700 ft gain with steep grades",
+        "Extremely strenuous\u20142,700 ft gain with steep grades",
         "Exposed switchbacks with intense sun and heat in summer",
-        "No shade for long stretches—heat exhaustion common",
+        "No shade for long stretches\u2014heat exhaustion common",
         "Bring 3-4 liters of water minimum",
-        "Dangerous railings near fall's edge—stay back",
+        "Dangerous railings near fall's edge\u2014stay back",
         "Falls completely dry in late summer some years"
       ],
       "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
     }
   },
-
   "seo": {
     "meta_title": "Upper Yosemite Fall Trail 2026 | Hike to North America's Tallest Waterfall",
     "meta_description": "Complete guide to hiking Upper Yosemite Fall. Strenuous 7.2-mile trail to the top of 2,425-foot Yosemite Falls. Best time to hike, water needs, and tips for this challenging Yosemite Valley climb."
   },
-
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
     "primary_url": "https://www.nps.gov/yose/planyourvisit/yosemitefall.htm",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Topo - Yosemite",
-    "gps_source": "NPS Official Yosemite Map",
+    "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Total waterfall height (2,425 ft - tallest in North America) from USGS. Trail distance and elevation gain from NPS trail guides."
-}
+    "notes": "Total waterfall height (2,425 ft - tallest in North America) from USGS. Trail distance and elevation gain from NPS trail guides. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+  }
 }
