@@ -281,7 +281,6 @@ const RouteExplorer = ({ trails, lat, lon, activeTrail, onTrailSelect }) => {
         // Fallback: generate path only if backend failed
         const numPoints = Math.max(20, Math.min(40, Math.floor(trailDistance * 8)));
         path = createCurvedPath(startPos, summitPos, numPoints, isLoop);
-        console.log(`Generated fallback path for ${activeTrail.name} (${numPoints} pts)`);
     }
 
     // Ensure path endpoints match markers

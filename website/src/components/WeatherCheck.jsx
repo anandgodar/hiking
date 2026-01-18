@@ -13,7 +13,6 @@ const WeatherCheck = ({ lat, lon, baseLat, baseLon }) => {
   const activeLat = mode === 'summit' ? lat : safeBaseLat;
   const activeLon = mode === 'summit' ? lon : safeBaseLon;
 
-  // Debug: Check if coordinates are effectively the same (some trails start near summit or data is missing)
   const isIdentical = (Math.abs(lat - safeBaseLat) < 0.001) && (Math.abs(lon - safeBaseLon) < 0.001);
 
   useEffect(() => {
@@ -34,7 +33,6 @@ const WeatherCheck = ({ lat, lon, baseLat, baseLon }) => {
             if (data.error || !data.current) throw new Error("Weather API Error");
             setWeather(data);
           } catch (e) {
-            console.error(e);
             setError(true);
           } finally {
             setLoading(false);
