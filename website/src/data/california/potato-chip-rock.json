@@ -1,0 +1,143 @@
+{
+  "name": "Potato Chip Rock",
+  "slug": "potato-chip-rock",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 2881,
+  "lat": 32.9338,
+  "lon": -116.9154,
+  "mountain_hero": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Instagram Famous", "Moderate", "San Diego", "Scenic Views", "Popular"],
+
+  "trails": [
+    {
+      "name": "Mount Woodson Trail via Lake Poway",
+      "difficulty": "Moderate",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 7.2,
+        "gain": 2000,
+        "time": 4,
+        "difficulty": "Moderate"
+      },
+      "parking_info": "Lake Poway Recreation Area. Parking fee $5-10 on weekends.",
+      "parking_details": {
+        "fee": "$5-10 parking fee",
+        "location": "Lake Poway Parking Lot",
+        "coords": [32.9425, -117.0352]
+      },
+      "tags": ["Rock Formation", "Panoramic Views", "Photo Opportunity"],
+
+      "geo": {
+        "markers": {
+          "start": [32.9425, -117.0352],
+          "summit": [32.9338, -116.9154]
+        },
+        "path": [
+          [32.9425, -117.0352],
+          [32.9410, -117.0300],
+          [32.9395, -117.0250],
+          [32.9380, -117.0200],
+          [32.9365, -117.0150],
+          [32.9350, -117.0100],
+          [32.9338, -116.9154]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 881},
+          {"distance": 1.0, "elevation": 1200},
+          {"distance": 2.0, "elevation": 1600},
+          {"distance": 3.0, "elevation": 2200},
+          {"distance": 3.6, "elevation": 2881}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "Lake Poway",
+          "type": "lake",
+          "lat": 32.9420,
+          "lon": -117.0340,
+          "mile": 0.2
+        },
+        {
+          "name": "Boulder Field",
+          "type": "landmark",
+          "lat": 32.9360,
+          "lon": -117.0000,
+          "mile": 2.5
+        },
+        {
+          "name": "Potato Chip Rock",
+          "type": "landmark",
+          "lat": 32.9338,
+          "lon": -116.9154,
+          "mile": 3.6
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>Potato Chip Rock is San Diego's most Instagram-famous hike, featuring a thin rock slab that juts out from Mount Woodson's summit, resembling a giant potato chip. This unique geological formation draws thousands of hikers weekly, all hoping to capture the iconic photo appearing to stand on the chip's edge with valley views behind them.</p><p>The 7.2-mile round trip hike via Lake Poway offers consistent elevation gain through chaparral-covered hillsides with increasingly spectacular views of Poway, Ramona, and on clear days, the Pacific Ocean. The final approach involves some easy rock scrambling through massive granite boulders.</p><p><strong>Expect crowds:</strong> Weekends see 1-2 hour waits to take photos on the rock. Weekday mornings offer shorter waits and better lighting.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long is the wait for photos at Potato Chip Rock?",
+        "answer": "Wait times vary dramatically: Weekday mornings (6-9am): 0-15 minutes. Weekends (9am-2pm): 1-2 hours! Summer weekends can see 2+ hour waits. For minimal wait, start hiking by 6am on weekends or hike weekdays."
+      },
+      {
+        "question": "Is Potato Chip Rock dangerous?",
+        "answer": "The rock itself is stable and safe when dry. The danger comes from: 1) Long drop-off on far side, 2) Crowding and pushing, 3) Wet/slippery conditions. Stay alert, take turns, and don't rush photos. Several injuries occur annually from falls while posing."
+      },
+      {
+        "question": "What's the best route to Potato Chip Rock?",
+        "answer": "Lake Poway route (7.2 miles) is most popular—gradual, scenic, well-marked. Highway 67 route (shorter but steeper, requires parking on highway shoulder—less recommended). Lake Poway route is safer and more enjoyable despite being slightly longer."
+      },
+      {
+        "question": "When is the best time to hike Potato Chip Rock?",
+        "answer": "Best times: October-May for cooler temperatures. Summer (June-Sept) is brutally hot with temps over 90°F and minimal shade. Start before sunrise in summer. Winter/spring offers wildflowers and greenery."
+      },
+      {
+        "question": "Can kids do this hike?",
+        "answer": "Yes, with caveats. The trail is moderate but long (7+ miles). Kids 8+ with hiking experience typically do fine. The summit rock scrambling requires supervision. Consider distance more than difficulty—many kids struggle with the mileage on the return."
+      }
+    ],
+    "seasonal_guide": [
+      {
+        "season": "Spring (March-May)",
+        "conditions": "Perfect weather (60-75°F), wildflowers blooming, green hillsides. Most crowded season.",
+        "gear": ["Sun hat", "3 liters water", "Sunscreen", "Snacks", "Camera"]
+      },
+      {
+        "season": "Summer (June-August)",
+        "conditions": "Very hot (85-100°F), dry brown hills, minimal shade. Start by 6am to avoid heat.",
+        "gear": ["4+ liters water", "Sun protection crucial", "Electrolytes", "Early start mandatory"]
+      },
+      {
+        "season": "Fall (September-November)",
+        "conditions": "Cooling temps (70-85°F), clear skies, moderate crowds. Excellent season.",
+        "gear": ["Sun protection", "3 liters water", "Light layers"]
+      },
+      {
+        "season": "Winter (December-February)",
+        "conditions": "Cool (50-65°F), occasional rain, green hills. Fewer crowds. Best weather.",
+        "gear": ["Light jacket", "Rain layer possible", "2-3 liters water"]
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "Bring 3-4 liters of water—no water sources on trail",
+        "Summer heat is dangerous—start before 6am or skip it",
+        "Be patient and respectful at photo rock—no pushing or rushing",
+        "Watch for rattlesnakes in warmer months (April-October)",
+        "Parking lot closes at sunset—return before dark"
+      ],
+      "emergency": "Call 911. Cell service generally good. Nearest hospital: Pomerado Hospital, Poway"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Potato Chip Rock Hike Guide 2026 | San Diego's Instagram Trail",
+    "meta_description": "Complete guide to hiking Potato Chip Rock near San Diego. 7.2-mile trail to famous rock formation on Mount Woodson. Photo tips, best times to avoid crowds, and safety info for San Diego's most Instagrammed hike."
+  }
+}

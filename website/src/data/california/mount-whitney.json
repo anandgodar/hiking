@@ -1,0 +1,160 @@
+{
+  "name": "Mount Whitney",
+  "slug": "mount-whitney",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 14505,
+  "lat": 36.5786,
+  "lon": -118.2920,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Highest Peak", "14er", "Permit Required", "Strenuous", "Alpine", "Bucket List"],
+
+  "trails": [
+    {
+      "name": "Mount Whitney Trail",
+      "difficulty": "Strenuous",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 22.0,
+        "gain": 6100,
+        "time": 14,
+        "difficulty": "Strenuous"
+      },
+      "parking_info": "Whitney Portal, Lone Pine. Overnight parking only with permit. Day use lot separate.",
+      "parking_details": {
+        "fee": "$15 day use, included with overnight permit",
+        "location": "Whitney Portal",
+        "coords": [36.5858, -118.2385]
+      },
+      "tags": ["Highest Summit", "Alpine Zone", "Altitude", "Switchbacks"],
+
+      "geo": {
+        "markers": {
+          "start": [36.5858, -118.2385],
+          "summit": [36.5786, -118.2920]
+        },
+        "path": [
+          [36.5858, -118.2385],
+          [36.5840, -118.2450],
+          [36.5820, -118.2520],
+          [36.5800, -118.2600],
+          [36.5790, -118.2700],
+          [36.5785, -118.2800],
+          [36.5786, -118.2920]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 8360},
+          {"distance": 2.5, "elevation": 9600},
+          {"distance": 4.0, "elevation": 10400},
+          {"distance": 6.5, "elevation": 12000},
+          {"distance": 8.7, "elevation": 13600},
+          {"distance": 10.7, "elevation": 14300},
+          {"distance": 11.0, "elevation": 14505}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "Lone Pine Lake",
+          "type": "lake",
+          "lat": 36.5840,
+          "lon": -118.2465,
+          "mile": 2.8
+        },
+        {
+          "name": "Outpost Camp",
+          "type": "campsite",
+          "lat": 36.5815,
+          "lon": -118.2545,
+          "mile": 3.5
+        },
+        {
+          "name": "Trail Camp",
+          "type": "campsite",
+          "lat": 36.5790,
+          "lon": -118.2680,
+          "mile": 6.3
+        },
+        {
+          "name": "Trail Crest",
+          "type": "viewpoint",
+          "lat": 36.5785,
+          "lon": -118.2885,
+          "mile": 8.5
+        },
+        {
+          "name": "Mount Whitney Summit",
+          "type": "summit",
+          "lat": 36.5786,
+          "lon": -118.2920,
+          "mile": 11.0
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>Mount Whitney is the highest peak in the contiguous United States at 14,505 feet, making it a bucket-list summit for hikers nationwide. The 22-mile round trip from Whitney Portal gains over 6,100 feet of elevation, passing through multiple life zones from pine forest to alpine tundra.</p><p>The Mount Whitney Trail is one of America's most famous hiking routes, featuring 97 switchbacks, stunning High Sierra scenery, and the satisfaction of standing atop the Lower 48's highest point. On clear days, summiteers enjoy views spanning from the Owens Valley floor 10,000 feet below to the Sierra Nevada crest extending for hundreds of miles.</p><p><strong>Permits are extremely competitive:</strong> Apply via recreation.gov lottery (February) for May-October dates. Day hike and overnight permits are separate lotteries. Success rates are typically 10-20% in the main lottery.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "Do I need a permit for Mount Whitney?",
+        "answer": "Yes, permits are required year-round. May 1-Nov 1: lottery permits via recreation.gov (apply in February). Extremely competitive—10-20% success rate. Nov 2-April 30: Self-issue permits at Eastern Sierra InterAgency Visitor Center, first-come first-served. Day hiking and overnight permits are separate lotteries."
+      },
+      {
+        "question": "Can I hike Mount Whitney in one day?",
+        "answer": "Yes, but it's extremely challenging. The 22-mile round trip with 6,100 ft gain typically takes 12-18 hours. Most day hikers start between midnight-3am to summit by noon and avoid afternoon thunderstorms. Requires excellent fitness and altitude acclimatization. Many prefer to split over 2-3 days backpacking."
+      },
+      {
+        "question": "What's the success rate for summiting Mount Whitney?",
+        "answer": "Approximately 60-70% of permit holders successfully summit. Main reasons for turning back: altitude sickness, weather, insufficient fitness, or starting too late. Acclimatizing in the Eastern Sierra for 2-3 days before your hike dramatically improves success rates."
+      },
+      {
+        "question": "When is the best time to hike Mount Whitney?",
+        "answer": "July-September offers the best weather and snow-free conditions. July: longest days, possible snow patches. August: most stable weather, most crowded. September: fewer crowds, cooler temps, fall colors. June has significant snow requiring ice axe/crampons. October is possible but unpredictable weather and cold."
+      },
+      {
+        "question": "How do I prevent altitude sickness on Mount Whitney?",
+        "answer": "1) Spend 2-3 days at 8,000-10,000 ft before attempting (camp at Whitney Portal or hike nearby peaks), 2) Ascend slowly—consider camping at Trail Camp (12,000 ft) the night before summit, 3) Stay hydrated (4+ liters/day), 4) Consider Diamox (prescription), 5) Turn back if symptoms worsen. Don't underestimate altitude."
+      }
+    ],
+    "seasonal_guide": [
+      {
+        "season": "Summer (July-August)",
+        "conditions": "Best weather, snow-free trail, warmest temps. Very crowded. Afternoon thunderstorms common—summit by noon.",
+        "gear": ["4+ liters water", "Warm layers (freezing at summit)", "Rain jacket", "Headlamp", "Trekking poles", "Sun protection"]
+      },
+      {
+        "season": "Early Season (May-June)",
+        "conditions": "Significant snow, ice axe & crampons required, fewer crowds, longer days, very cold nights.",
+        "gear": ["Ice axe", "Crampons", "Mountaineering experience", "5+ liters water", "Winter layers", "Avalanche awareness"]
+      },
+      {
+        "season": "Fall (September-October)",
+        "conditions": "Excellent weather early Sept, cooling temps, fall colors, fewer crowds. Oct is unpredictable with possible snow.",
+        "gear": ["Warm layers", "Possible microspikes", "4 liters water", "Cold weather sleeping bag if backpacking"]
+      },
+      {
+        "season": "Winter (November-April)",
+        "conditions": "Expert mountaineering only. Deep snow, avalanche hazard, extreme cold, technical climbing sections. Self-issue permits available.",
+        "gear": ["Full winter mountaineering gear", "Avalanche equipment", "Extensive experience required"]
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "Altitude sickness is the #1 reason for failure—acclimatize for 2-3 days first",
+        "Afternoon thunderstorms are dangerous—be off summit by noon",
+        "Hypothermia is possible even in summer—bring warm layers",
+        "No water sources after Guitar Lake area—carry 4-5 liters",
+        "Cell service is unreliable—have offline maps and emergency plan",
+        "Start day hikes between midnight-3am to finish before dark and storms"
+      ],
+      "emergency": "Call 911 (unreliable cell service). Inyo County Sheriff for rescue: 760-878-0383. Consider personal locator beacon (PLB) or satellite messenger."
+    }
+  },
+
+  "seo": {
+    "meta_title": "Mount Whitney Hike Guide 2026 | Permits, Training & Summit Tips",
+    "meta_description": "Complete guide to hiking Mount Whitney, the highest peak in the lower 48 states. How to get permits, training tips, best time to summit, and safety info for the 22-mile, 14,505 ft peak in California's Sierra Nevada."
+  }
+}

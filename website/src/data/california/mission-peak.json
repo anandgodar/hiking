@@ -1,0 +1,137 @@
+{
+  "name": "Mission Peak",
+  "slug": "mission-peak",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 2517,
+  "lat": 37.5132,
+  "lon": -121.8799,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Bay Area", "Popular", "Sunrise Hike", "Panoramic Views", "Moderate"],
+
+  "trails": [
+    {
+      "name": "Mission Peak via Hidden Valley Trail",
+      "difficulty": "Moderate",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 6.2,
+        "gain": 2100,
+        "time": 3.5,
+        "difficulty": "Moderate"
+      },
+      "parking_info": "Stanford Avenue Staging Area, Fremont. Free parking. Lot fills by 8am weekends.",
+      "parking_details": {
+        "fee": "Free",
+        "location": "Stanford Ave Staging Area",
+        "coords": [37.5159, -121.9019]
+      },
+      "tags": ["Summit Pole", "City Views", "Cow Pastures"],
+
+      "geo": {
+        "markers": {
+          "start": [37.5159, -121.9019],
+          "summit": [37.5132, -121.8799]
+        },
+        "path": [
+          [37.5159, -121.9019],
+          [37.5155, -121.8990],
+          [37.5150, -121.8960],
+          [37.5145, -121.8930],
+          [37.5140, -121.8900],
+          [37.5135, -121.8870],
+          [37.5132, -121.8799]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 417},
+          {"distance": 1.0, "elevation": 900},
+          {"distance": 2.0, "elevation": 1500},
+          {"distance": 2.8, "elevation": 2200},
+          {"distance": 3.1, "elevation": 2517}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "Peak Meadow",
+          "type": "viewpoint",
+          "lat": 37.5140,
+          "lon": -121.8850,
+          "mile": 2.0
+        },
+        {
+          "name": "Summit Pole",
+          "type": "landmark",
+          "lat": 37.5132,
+          "lon": -121.8799,
+          "mile": 3.1
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>Mission Peak is the Bay Area's most popular training hike, offering stunning 360-degree views from San Francisco to San Jose from its 2,517-foot summit. The distinctive pole at the summit (installed in 2010) has become an iconic photo opportunity, with hikers often waiting in line to pose with the landmark.</p><p>The 6.2-mile round trip via Hidden Valley Trail climbs steadily through open grassland, providing increasingly panoramic views of the South Bay, Fremont, and on clear days, the San Francisco skyline. Early morning hikers are often rewarded with spectacular sunrises and an inversion layer of fog filling the valleys below.</p><p>This trail is beloved by locals for fitness training, with many hiking it multiple times weekly. Expect to share the trail with serious trail runners, casual hikers, and first-time adventurers alike.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "What time should I start hiking Mission Peak?",
+        "answer": "For parking and cooler temps: start before 7am on weekends, before 8am on weekdays. Sunrise hikers (starting 5-6am) get the best experience—cooler temps, amazing sunrise, and parking availability. Avoid midday in summer (too hot, no parking)."
+      },
+      {
+        "question": "Is Mission Peak hard?",
+        "answer": "It's moderate difficulty with sustained climbing. The 2,100-foot elevation gain over 3.1 miles makes it challenging for beginners. The trail is well-maintained and straightforward, but the steep grade and minimal shade can be tough. Good for fitness building."
+      },
+      {
+        "question": "Can I bring my dog to Mission Peak?",
+        "answer": "Yes! Dogs are allowed on-leash. However, be aware: 1) Cows are present March-October, 2) Trail is steep and rocky in sections, 3) Very hot in summer (dangerous for dogs), 4) Bring water for your dog. Many locals hike with dogs successfully."
+      },
+      {
+        "question": "Are there really cows on Mission Peak?",
+        "answer": "Yes! Cattle graze on Mission Peak March-October as part of vegetation management. They're generally docile but give them space. Keep dogs leashed and controlled. Don't approach or feed cows. Watch for cow pies on the trail."
+      },
+      {
+        "question": "What's the best season for Mission Peak?",
+        "answer": "Winter-Spring (December-April) offers green hills, wildflowers, cooler temps, and clearer air quality. Summer (June-Sept) is very hot with brown hills but stunning sunrises. Fall (Oct-Nov) has moderate temps and fewer crowds."
+      }
+    ],
+    "seasonal_guide": [
+      {
+        "season": "Spring (March-May)",
+        "conditions": "Green hills, wildflowers, perfect temps (60-75°F). Most crowded. Cows arrive in March.",
+        "gear": ["Sun protection", "2-3 liters water", "Camera", "Light layers"]
+      },
+      {
+        "season": "Summer (June-August)",
+        "conditions": "Very hot (85-100°F), dry brown hills, no shade. Amazing sunrises. Start before 7am mandatory.",
+        "gear": ["4 liters water", "Sun hat crucial", "Sunscreen", "Electrolytes"]
+      },
+      {
+        "season": "Fall (September-November)",
+        "conditions": "Cooling temps (65-80°F), golden hills, good air quality. Moderate crowds.",
+        "gear": ["Sun protection", "2-3 liters water", "Light jacket for early starts"]
+      },
+      {
+        "season": "Winter (December-February)",
+        "conditions": "Cool (45-65°F), green grass emerging, occasional rain, best air quality. Fewer crowds.",
+        "gear": ["Rain jacket", "Light layers", "2 liters water"]
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "No water on trail—bring 2-4 liters depending on season",
+        "Summer heat is dangerous—start before 7am or choose another season",
+        "Rattlesnakes present April-October—stay on trail",
+        "Give cattle plenty of space—they have right of way",
+        "Air quality can be poor during fire season (July-Oct)",
+        "Parking lot gates close at dusk—return before dark"
+      ],
+      "emergency": "Call 911. Cell service generally good. Park rangers patrol regularly."
+    }
+  },
+
+  "seo": {
+    "meta_title": "Mission Peak Hike Guide 2026 | Fremont Bay Area Trail & Sunrise Views",
+    "meta_description": "Complete guide to hiking Mission Peak in Fremont, CA. 6.2-mile Bay Area trail with 2,100 ft gain to iconic summit pole. Best times, parking tips, and what to bring for the Bay Area's most popular training hike."
+  }
+}

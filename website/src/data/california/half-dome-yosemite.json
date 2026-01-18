@@ -1,0 +1,155 @@
+{
+  "name": "Half Dome",
+  "slug": "half-dome-yosemite",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 8842,
+  "lat": 37.7459,
+  "lon": -119.5332,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Iconic Summit", "Permit Required", "Cable Route", "Strenuous", "Granite Dome"],
+
+  "trails": [
+    {
+      "name": "Half Dome via Mist Trail",
+      "difficulty": "Strenuous",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 14.2,
+        "gain": 4800,
+        "time": 10,
+        "difficulty": "Strenuous"
+      },
+      "parking_info": "Half Dome/Mist Trail Trailhead, Yosemite Valley. Parking fills by 7am in summer.",
+      "parking_details": {
+        "fee": "$35 vehicle entrance fee",
+        "location": "Curry Village Day Use Parking",
+        "coords": [37.7318, -119.5585]
+      },
+      "tags": ["Cable Ladder", "Waterfall Views", "Granite Scrambling"],
+
+      "geo": {
+        "markers": {
+          "start": [37.7318, -119.5585],
+          "summit": [37.7459, -119.5332]
+        },
+        "path": [
+          [37.7318, -119.5585],
+          [37.7330, -119.5570],
+          [37.7345, -119.5550],
+          [37.7360, -119.5525],
+          [37.7380, -119.5500],
+          [37.7400, -119.5470],
+          [37.7420, -119.5440],
+          [37.7435, -119.5400],
+          [37.7450, -119.5360],
+          [37.7459, -119.5332]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 4035},
+          {"distance": 0.8, "elevation": 4400},
+          {"distance": 2.0, "elevation": 5000},
+          {"distance": 3.0, "elevation": 5900},
+          {"distance": 5.0, "elevation": 7000},
+          {"distance": 6.5, "elevation": 8000},
+          {"distance": 7.1, "elevation": 8842}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "Vernal Fall",
+          "type": "waterfall",
+          "lat": 37.7264,
+          "lon": -119.5455,
+          "mile": 2.5
+        },
+        {
+          "name": "Nevada Fall",
+          "type": "waterfall",
+          "lat": 37.7305,
+          "lon": -119.5335,
+          "mile": 4.0
+        },
+        {
+          "name": "Sub Dome",
+          "type": "viewpoint",
+          "lat": 37.7445,
+          "lon": -119.5345,
+          "mile": 6.5
+        },
+        {
+          "name": "Cable Route",
+          "type": "scramble",
+          "lat": 37.7452,
+          "lon": -119.5338,
+          "mile": 6.8
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>Half Dome is Yosemite National Park's most iconic summit and one of the most recognizable granite formations in the world. Rising 4,737 feet above Yosemite Valley, this massive granite dome offers unparalleled 360-degree views of Yosemite's High Sierra landscape.</p><p>The 14.2-mile round-trip hike is extremely strenuous, gaining 4,800 feet of elevation. The route passes two magnificent waterfalls—Vernal Fall and Nevada Fall—before the final ascent up the famous cable route. The cables, installed each spring and removed in fall, allow hikers to climb the final 400 feet of slick granite to the summit.</p><p><strong>Permit Required:</strong> Due to overwhelming popularity, Half Dome requires a permit year-round. Permits are distributed via lottery (apply at recreation.gov) and are extremely competitive during summer months.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "Do I need a permit to hike Half Dome?",
+        "answer": "Yes, Half Dome requires a permit year-round. Day hikers need a Half Dome permit obtained through the recreation.gov lottery system. The preseason lottery (March) awards about 225 permits per day for May-September. A daily lottery awards remaining permits 2 days in advance. Permits cost $10 application + $10 per person if awarded."
+      },
+      {
+        "question": "When are the Half Dome cables up?",
+        "answer": "The cables are typically installed in late May (Memorial Day weekend) and removed in early October (after Columbus Day), weather permitting. Climbing Half Dome without cables requires technical climbing skills and equipment. Check Yosemite's website for current cable status."
+      },
+      {
+        "question": "How difficult is Half Dome?",
+        "answer": "Half Dome is extremely strenuous. The 14.2-mile hike with 4,800 feet of elevation gain typically takes 10-14 hours. The cable section is physically and mentally demanding, requiring upper body strength and comfort with heights. Not recommended for beginners or those with fear of heights."
+      },
+      {
+        "question": "What time should I start hiking Half Dome?",
+        "answer": "Start between 5:00-7:00am to avoid afternoon thunderstorms and heat. Most hikers take 6-8 hours to reach the summit and 4-6 hours to descend. Being on the summit during a thunderstorm is extremely dangerous."
+      },
+      {
+        "question": "Can I hike Half Dome in one day?",
+        "answer": "Yes, Half Dome is typically done as a challenging day hike. Strong hikers complete it in 10-12 hours. Some prefer to backpack and camp in Little Yosemite Valley (requires wilderness permit) to split the hike over 2 days and avoid the pre-dawn start."
+      }
+    ],
+    "seasonal_guide": [
+      {
+        "season": "Summer (June-August)",
+        "conditions": "Cables up, best weather, most crowded. Permits very competitive. Start early to avoid afternoon thunderstorms.",
+        "gear": ["Gloves for cables", "3+ liters water", "Sun protection", "Headlamp", "Snacks/lunch"]
+      },
+      {
+        "season": "Spring (May)",
+        "conditions": "Cables just installed, waterfalls at peak flow, snow possible at higher elevations. Fewer crowds.",
+        "gear": ["Microspikes possible", "Rain jacket", "Extra layers", "4+ liters water"]
+      },
+      {
+        "season": "Fall (September-October)",
+        "conditions": "Cables still up early fall, cooler temps, stable weather, waterfalls dry. Moderate crowds.",
+        "gear": ["Warm layers", "Gloves", "3 liters water", "Headlamp"]
+      },
+      {
+        "season": "Winter (November-April)",
+        "conditions": "Cables down, technical climbing required. Snow and ice common. Wilderness permit needed instead of Half Dome permit.",
+        "gear": ["Technical climbing gear", "Ice axe", "Crampons", "Winter mountaineering experience required"]
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "Permit required year-round - enforce strictly",
+        "Cables extremely dangerous when wet or during storms",
+        "Lightning strikes occur on summit - descend if thunderstorms approach",
+        "No water sources after Merced River - carry 3-4 liters minimum",
+        "Several deaths occur annually - take this hike seriously"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992. Cell service unreliable in valley."
+    }
+  },
+
+  "seo": {
+    "meta_title": "Half Dome Hike Guide 2026 | Yosemite Permits, Cables & Trail Map",
+    "meta_description": "Complete guide to hiking Half Dome in Yosemite National Park. How to get permits, cable route details, best time to hike & safety tips for this iconic 14.2-mile trail with 4,800 ft elevation gain."
+  }
+}
