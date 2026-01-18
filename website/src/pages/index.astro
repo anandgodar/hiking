@@ -55,6 +55,7 @@ const categories = [
 
 // State cards
 const states = [
+  { slug: 'california', name: 'California', image: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800', count: stateGroups['california']?.length || 0 },
   { slug: 'new-hampshire', name: 'New Hampshire', image: 'https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=800', count: stateGroups['new-hampshire']?.length || 0 },
   { slug: 'maine', name: 'Maine', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800', count: stateGroups['maine']?.length || 0 },
   { slug: 'vermont', name: 'Vermont', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800', count: stateGroups['vermont']?.length || 0 },
@@ -111,8 +112,11 @@ const activeStates = states.filter(s => s.count > 0);
       <p class="text-white/80 text-lg md:text-xl mb-6 max-w-3xl mx-auto">
         Comprehensive trail guides with detailed maps, elevation profiles & real-time weather for all 50 states
       </p>
-      <div class="inline-block px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white/90 text-sm mb-6">
-        🚀 Currently: 120+ trails in New England • Expanding Nationwide
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white/90 text-sm mb-6">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+        </svg>
+        Currently: 138+ trails in 5 states • Expanding Nationwide
       </div>
 
       <!-- Search Bar -->
@@ -120,11 +124,11 @@ const activeStates = states.filter(s => s.count > 0);
         <GlobalSearch searchIndex={searchIndex} />
       </div>
 
-      <!-- Category Pills - SVG icons instead of emojis, FIXED: /hikes/ in URL -->
+      <!-- Category Pills - SVG icons, discover pages -->
       <div class="flex flex-wrap justify-center gap-3 mt-8">
         {categories.map(cat => (
           <a
-            href={`/new-hampshire/hikes/${cat.id}`}
+            href={`/discover/${cat.id}`}
             class="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white text-sm font-bold hover:bg-white/20 transition-all"
           >
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" set:html={getIconSvg(cat.icon)} />
@@ -220,8 +224,11 @@ const activeStates = states.filter(s => s.count > 0);
   <!-- COMING SOON STATES -->
   <section class="bg-gradient-to-br from-emerald-600 to-emerald-800 py-16">
     <div class="max-w-7xl mx-auto px-4 text-center">
-      <div class="inline-block px-4 py-1.5 bg-white/20 backdrop-blur-md border border-white/30 rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
-        🚀 Nationwide Expansion in Progress
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/20 backdrop-blur-md border border-white/30 rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+        </svg>
+        Nationwide Expansion in Progress
       </div>
 
       <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Expanding to All 50 States</h2>
@@ -231,19 +238,21 @@ const activeStates = states.filter(s => s.count > 0);
 
       <div class="grid grid-cols-2 md:grid-cols-5 gap-4 max-w-4xl mx-auto">
         {[
-          { name: 'California', trails: '200+', icon: '🌲' },
-          { name: 'Colorado', trails: '150+', icon: '⛰️' },
-          { name: 'Washington', trails: '120+', icon: '🌲' },
-          { name: 'Arizona', trails: '100+', icon: '🌵' },
-          { name: 'Utah', trails: '100+', icon: '🏜️' },
-          { name: 'Oregon', trails: '100+', icon: '🌲' },
-          { name: 'North Carolina', trails: '80+', icon: '🍂' },
-          { name: 'Tennessee', trails: '80+', icon: '🏔️' },
-          { name: 'Montana', trails: '80+', icon: '⛰️' },
-          { name: 'Wyoming', trails: '70+', icon: '🦬' }
+          { name: 'Colorado', trails: '150+' },
+          { name: 'Washington', trails: '120+' },
+          { name: 'Arizona', trails: '100+' },
+          { name: 'Utah', trails: '100+' },
+          { name: 'Oregon', trails: '100+' },
+          { name: 'North Carolina', trails: '80+' },
+          { name: 'Tennessee', trails: '80+' },
+          { name: 'Montana', trails: '80+' },
+          { name: 'Wyoming', trails: '70+' },
+          { name: 'Alaska', trails: '60+' }
         ].map(state => (
           <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/20 transition-all">
-            <div class="text-3xl mb-2">{state.icon}</div>
+            <svg class="w-8 h-8 mx-auto mb-2 text-emerald-200" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/>
+            </svg>
             <div class="text-white font-bold text-sm mb-1">{state.name}</div>
             <div class="text-emerald-200 text-xs">{state.trails} trails</div>
           </div>
