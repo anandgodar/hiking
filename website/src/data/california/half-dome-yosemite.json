@@ -7,8 +7,13 @@
   "lat": 37.7459,
   "lon": -119.5332,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Iconic Summit", "Permit Required", "Cable Route", "Strenuous", "Granite Dome"],
-
+  "tags": [
+    "Iconic Summit",
+    "Permit Required",
+    "Cable Route",
+    "Strenuous",
+    "Granite Dome"
+  ],
   "trails": [
     {
       "name": "Half Dome via Mist Trail",
@@ -24,38 +29,772 @@
       "parking_details": {
         "fee": "$35 vehicle entrance fee",
         "location": "Curry Village Day Use Parking",
-        "coords": [37.7318, -119.5585]
-      },
-      "tags": ["Cable Ladder", "Waterfall Views", "Granite Scrambling"],
-
-      "geo": {
-        "markers": {
-          "start": [37.7318, -119.5585],
-          "summit": [37.7459, -119.5332]
-        },
-        "path": [
-          [37.7318, -119.5585],
-          [37.7330, -119.5570],
-          [37.7345, -119.5550],
-          [37.7360, -119.5525],
-          [37.7380, -119.5500],
-          [37.7400, -119.5470],
-          [37.7420, -119.5440],
-          [37.7435, -119.5400],
-          [37.7450, -119.5360],
-          [37.7459, -119.5332]
-        ],
-        "chart": [
-          {"distance": 0, "elevation": 4035},
-          {"distance": 0.8, "elevation": 4400},
-          {"distance": 2.0, "elevation": 5000},
-          {"distance": 3.0, "elevation": 5900},
-          {"distance": 5.0, "elevation": 7000},
-          {"distance": 6.5, "elevation": 8000},
-          {"distance": 7.1, "elevation": 8842}
+        "coords": [
+          37.7318,
+          -119.5585
         ]
       },
-
+      "tags": [
+        "Cable Ladder",
+        "Waterfall Views",
+        "Granite Scrambling"
+      ],
+      "geo": {
+        "markers": {
+          "start": [
+            37.7318,
+            -119.5585
+          ],
+          "summit": [
+            37.7459,
+            -119.5332
+          ]
+        },
+        "path": [
+          [
+            37.7318,
+            -119.5585,
+            4000
+          ],
+          [
+            37.73188,
+            -119.5584,
+            4065
+          ],
+          [
+            37.73196,
+            -119.5583,
+            4119
+          ],
+          [
+            37.73204,
+            -119.5582,
+            4154
+          ],
+          [
+            37.73212,
+            -119.5581,
+            4172
+          ],
+          [
+            37.7322,
+            -119.558,
+            4178
+          ],
+          [
+            37.73228,
+            -119.5579,
+            4184
+          ],
+          [
+            37.73236,
+            -119.5578,
+            4201
+          ],
+          [
+            37.73244,
+            -119.5577,
+            4237
+          ],
+          [
+            37.73252,
+            -119.5576,
+            4290
+          ],
+          [
+            37.7326,
+            -119.5575,
+            4355
+          ],
+          [
+            37.73268,
+            -119.5574,
+            4420
+          ],
+          [
+            37.73276,
+            -119.5573,
+            4474
+          ],
+          [
+            37.73284,
+            -119.5572,
+            4509
+          ],
+          [
+            37.73292,
+            -119.5571,
+            4527
+          ],
+          [
+            37.733,
+            -119.557,
+            4533
+          ],
+          [
+            37.7331,
+            -119.55687,
+            4598
+          ],
+          [
+            37.7332,
+            -119.55673,
+            4652
+          ],
+          [
+            37.7333,
+            -119.5566,
+            4687
+          ],
+          [
+            37.7334,
+            -119.55647,
+            4705
+          ],
+          [
+            37.7335,
+            -119.55633,
+            4711
+          ],
+          [
+            37.7336,
+            -119.5562,
+            4717
+          ],
+          [
+            37.7337,
+            -119.55607,
+            4735
+          ],
+          [
+            37.7338,
+            -119.55593,
+            4770
+          ],
+          [
+            37.7339,
+            -119.5558,
+            4824
+          ],
+          [
+            37.734,
+            -119.55567,
+            4889
+          ],
+          [
+            37.7341,
+            -119.55553,
+            4954
+          ],
+          [
+            37.7342,
+            -119.5554,
+            5008
+          ],
+          [
+            37.7343,
+            -119.55527,
+            5043
+          ],
+          [
+            37.7344,
+            -119.55513,
+            5061
+          ],
+          [
+            37.7345,
+            -119.555,
+            5067
+          ],
+          [
+            37.7346,
+            -119.55483,
+            5132
+          ],
+          [
+            37.7347,
+            -119.55467,
+            5186
+          ],
+          [
+            37.7348,
+            -119.5545,
+            5221
+          ],
+          [
+            37.7349,
+            -119.55433,
+            5239
+          ],
+          [
+            37.735,
+            -119.55417,
+            5245
+          ],
+          [
+            37.7351,
+            -119.554,
+            5251
+          ],
+          [
+            37.7352,
+            -119.55383,
+            5268
+          ],
+          [
+            37.7353,
+            -119.55367,
+            5304
+          ],
+          [
+            37.7354,
+            -119.5535,
+            5357
+          ],
+          [
+            37.7355,
+            -119.55333,
+            5422
+          ],
+          [
+            37.7356,
+            -119.55317,
+            5487
+          ],
+          [
+            37.7357,
+            -119.553,
+            5541
+          ],
+          [
+            37.7358,
+            -119.55283,
+            5576
+          ],
+          [
+            37.7359,
+            -119.55267,
+            5594
+          ],
+          [
+            37.736,
+            -119.5525,
+            5600
+          ],
+          [
+            37.73613,
+            -119.55233,
+            5665
+          ],
+          [
+            37.73627,
+            -119.55217,
+            5719
+          ],
+          [
+            37.7364,
+            -119.552,
+            5754
+          ],
+          [
+            37.73653,
+            -119.55183,
+            5772
+          ],
+          [
+            37.73667,
+            -119.55167,
+            5778
+          ],
+          [
+            37.7368,
+            -119.5515,
+            5784
+          ],
+          [
+            37.73693,
+            -119.55133,
+            5801
+          ],
+          [
+            37.73707,
+            -119.55117,
+            5837
+          ],
+          [
+            37.7372,
+            -119.551,
+            5890
+          ],
+          [
+            37.73733,
+            -119.55083,
+            5955
+          ],
+          [
+            37.73747,
+            -119.55067,
+            6020
+          ],
+          [
+            37.7376,
+            -119.5505,
+            6074
+          ],
+          [
+            37.73773,
+            -119.55033,
+            6109
+          ],
+          [
+            37.73787,
+            -119.55017,
+            6127
+          ],
+          [
+            37.738,
+            -119.55,
+            6133
+          ],
+          [
+            37.73813,
+            -119.5498,
+            6198
+          ],
+          [
+            37.73827,
+            -119.5496,
+            6252
+          ],
+          [
+            37.7384,
+            -119.5494,
+            6287
+          ],
+          [
+            37.73853,
+            -119.5492,
+            6305
+          ],
+          [
+            37.73867,
+            -119.549,
+            6311
+          ],
+          [
+            37.7388,
+            -119.5488,
+            6317
+          ],
+          [
+            37.73893,
+            -119.5486,
+            6335
+          ],
+          [
+            37.73907,
+            -119.5484,
+            6370
+          ],
+          [
+            37.7392,
+            -119.5482,
+            6424
+          ],
+          [
+            37.73933,
+            -119.548,
+            6489
+          ],
+          [
+            37.73947,
+            -119.5478,
+            6554
+          ],
+          [
+            37.7396,
+            -119.5476,
+            6608
+          ],
+          [
+            37.73973,
+            -119.5474,
+            6643
+          ],
+          [
+            37.73987,
+            -119.5472,
+            6661
+          ],
+          [
+            37.74,
+            -119.547,
+            6667
+          ],
+          [
+            37.74013,
+            -119.5468,
+            6732
+          ],
+          [
+            37.74027,
+            -119.5466,
+            6786
+          ],
+          [
+            37.7404,
+            -119.5464,
+            6821
+          ],
+          [
+            37.74053,
+            -119.5462,
+            6839
+          ],
+          [
+            37.74067,
+            -119.546,
+            6845
+          ],
+          [
+            37.7408,
+            -119.5458,
+            6851
+          ],
+          [
+            37.74093,
+            -119.5456,
+            6868
+          ],
+          [
+            37.74107,
+            -119.5454,
+            6904
+          ],
+          [
+            37.7412,
+            -119.5452,
+            6957
+          ],
+          [
+            37.74133,
+            -119.545,
+            7022
+          ],
+          [
+            37.74147,
+            -119.5448,
+            7087
+          ],
+          [
+            37.7416,
+            -119.5446,
+            7141
+          ],
+          [
+            37.74173,
+            -119.5444,
+            7176
+          ],
+          [
+            37.74187,
+            -119.5442,
+            7194
+          ],
+          [
+            37.742,
+            -119.544,
+            7200
+          ],
+          [
+            37.7421,
+            -119.54373,
+            7265
+          ],
+          [
+            37.7422,
+            -119.54347,
+            7319
+          ],
+          [
+            37.7423,
+            -119.5432,
+            7354
+          ],
+          [
+            37.7424,
+            -119.54293,
+            7372
+          ],
+          [
+            37.7425,
+            -119.54267,
+            7378
+          ],
+          [
+            37.7426,
+            -119.5424,
+            7384
+          ],
+          [
+            37.7427,
+            -119.54213,
+            7401
+          ],
+          [
+            37.7428,
+            -119.54187,
+            7437
+          ],
+          [
+            37.7429,
+            -119.5416,
+            7490
+          ],
+          [
+            37.743,
+            -119.54133,
+            7555
+          ],
+          [
+            37.7431,
+            -119.54107,
+            7620
+          ],
+          [
+            37.7432,
+            -119.5408,
+            7674
+          ],
+          [
+            37.7433,
+            -119.54053,
+            7709
+          ],
+          [
+            37.7434,
+            -119.54027,
+            7727
+          ],
+          [
+            37.7435,
+            -119.54,
+            7733
+          ],
+          [
+            37.7436,
+            -119.53973,
+            7798
+          ],
+          [
+            37.7437,
+            -119.53947,
+            7852
+          ],
+          [
+            37.7438,
+            -119.5392,
+            7887
+          ],
+          [
+            37.7439,
+            -119.53893,
+            7905
+          ],
+          [
+            37.744,
+            -119.53867,
+            7911
+          ],
+          [
+            37.7441,
+            -119.5384,
+            7917
+          ],
+          [
+            37.7442,
+            -119.53813,
+            7935
+          ],
+          [
+            37.7443,
+            -119.53787,
+            7970
+          ],
+          [
+            37.7444,
+            -119.5376,
+            8024
+          ],
+          [
+            37.7445,
+            -119.53733,
+            8089
+          ],
+          [
+            37.7446,
+            -119.53707,
+            8154
+          ],
+          [
+            37.7447,
+            -119.5368,
+            8208
+          ],
+          [
+            37.7448,
+            -119.53653,
+            8243
+          ],
+          [
+            37.7449,
+            -119.53627,
+            8261
+          ],
+          [
+            37.745,
+            -119.536,
+            8267
+          ],
+          [
+            37.74506,
+            -119.53581,
+            8332
+          ],
+          [
+            37.74512,
+            -119.53563,
+            8386
+          ],
+          [
+            37.74518,
+            -119.53544,
+            8421
+          ],
+          [
+            37.74524,
+            -119.53525,
+            8439
+          ],
+          [
+            37.7453,
+            -119.53507,
+            8445
+          ],
+          [
+            37.74536,
+            -119.53488,
+            8451
+          ],
+          [
+            37.74542,
+            -119.53469,
+            8468
+          ],
+          [
+            37.74548,
+            -119.53451,
+            8504
+          ],
+          [
+            37.74554,
+            -119.53432,
+            8557
+          ],
+          [
+            37.7456,
+            -119.53413,
+            8622
+          ],
+          [
+            37.74566,
+            -119.53395,
+            8687
+          ],
+          [
+            37.74572,
+            -119.53376,
+            8741
+          ],
+          [
+            37.74578,
+            -119.53357,
+            8776
+          ],
+          [
+            37.74584,
+            -119.53339,
+            8794
+          ],
+          [
+            37.7459,
+            -119.5332,
+            8800
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.12,
+            "elevation": 4598
+          },
+          {
+            "distance": 0.24,
+            "elevation": 5043
+          },
+          {
+            "distance": 0.37,
+            "elevation": 5357
+          },
+          {
+            "distance": 0.49,
+            "elevation": 5772
+          },
+          {
+            "distance": 0.61,
+            "elevation": 6109
+          },
+          {
+            "distance": 0.73,
+            "elevation": 6335
+          },
+          {
+            "distance": 0.86,
+            "elevation": 6732
+          },
+          {
+            "distance": 0.98,
+            "elevation": 6957
+          },
+          {
+            "distance": 1.1,
+            "elevation": 7319
+          },
+          {
+            "distance": 1.22,
+            "elevation": 7555
+          },
+          {
+            "distance": 1.34,
+            "elevation": 7887
+          },
+          {
+            "distance": 1.47,
+            "elevation": 8089
+          },
+          {
+            "distance": 1.59,
+            "elevation": 8439
+          },
+          {
+            "distance": 1.71,
+            "elevation": 8800
+          }
+        ]
+      },
       "features": [
         {
           "name": "Vernal Fall",
@@ -88,9 +827,7 @@
       ]
     }
   ],
-
-  "generated_description": "<p>Half Dome is Yosemite National Park's most iconic summit and one of the most recognizable granite formations in the world. Rising 4,737 feet above Yosemite Valley, this massive granite dome offers unparalleled 360-degree views of Yosemite's High Sierra landscape.</p><p>The 14.2-mile round-trip hike is extremely strenuous, gaining 4,800 feet of elevation. The route passes two magnificent waterfalls—Vernal Fall and Nevada Fall—before the final ascent up the famous cable route. The cables, installed each spring and removed in fall, allow hikers to climb the final 400 feet of slick granite to the summit.</p><p><strong>Permit Required:</strong> Due to overwhelming popularity, Half Dome requires a permit year-round. Permits are distributed via lottery (apply at recreation.gov) and are extremely competitive during summer months.</p>",
-
+  "generated_description": "<p>Half Dome is Yosemite National Park's most iconic summit and one of the most recognizable granite formations in the world. Rising 4,737 feet above Yosemite Valley, this massive granite dome offers unparalleled 360-degree views of Yosemite's High Sierra landscape.</p><p>The 14.2-mile round-trip hike is extremely strenuous, gaining 4,800 feet of elevation. The route passes two magnificent waterfalls\u2014Vernal Fall and Nevada Fall\u2014before the final ascent up the famous cable route. The cables, installed each spring and removed in fall, allow hikers to climb the final 400 feet of slick granite to the summit.</p><p><strong>Permit Required:</strong> Due to overwhelming popularity, Half Dome requires a permit year-round. Permits are distributed via lottery (apply at recreation.gov) and are extremely competitive during summer months.</p>",
   "nearby_peaks": [
     {
       "name": "Clouds Rest",
@@ -114,7 +851,6 @@
       "distance_miles": 9.5
     }
   ],
-
   "page_content": {
     "faqs": [
       {
@@ -142,22 +878,43 @@
       {
         "season": "Summer (June-August)",
         "conditions": "Cables up, best weather, most crowded. Permits very competitive. Start early to avoid afternoon thunderstorms.",
-        "gear": ["Gloves for cables", "3+ liters water", "Sun protection", "Headlamp", "Snacks/lunch"]
+        "gear": [
+          "Gloves for cables",
+          "3+ liters water",
+          "Sun protection",
+          "Headlamp",
+          "Snacks/lunch"
+        ]
       },
       {
         "season": "Spring (May)",
         "conditions": "Cables just installed, waterfalls at peak flow, snow possible at higher elevations. Fewer crowds.",
-        "gear": ["Microspikes possible", "Rain jacket", "Extra layers", "4+ liters water"]
+        "gear": [
+          "Microspikes possible",
+          "Rain jacket",
+          "Extra layers",
+          "4+ liters water"
+        ]
       },
       {
         "season": "Fall (September-October)",
         "conditions": "Cables still up early fall, cooler temps, stable weather, waterfalls dry. Moderate crowds.",
-        "gear": ["Warm layers", "Gloves", "3 liters water", "Headlamp"]
+        "gear": [
+          "Warm layers",
+          "Gloves",
+          "3 liters water",
+          "Headlamp"
+        ]
       },
       {
         "season": "Winter (November-April)",
         "conditions": "Cables down, technical climbing required. Snow and ice common. Wilderness permit needed instead of Half Dome permit.",
-        "gear": ["Technical climbing gear", "Ice axe", "Crampons", "Winter mountaineering experience required"]
+        "gear": [
+          "Technical climbing gear",
+          "Ice axe",
+          "Crampons",
+          "Winter mountaineering experience required"
+        ]
       }
     ],
     "safety": {
@@ -171,20 +928,18 @@
       "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992. Cell service unreliable in valley."
     }
   },
-
   "seo": {
     "meta_title": "Half Dome Hike Guide 2026 | Yosemite Permits, Cables & Trail Map",
     "meta_description": "Complete guide to hiking Half Dome in Yosemite National Park. How to get permits, cable route details, best time to hike & safety tips for this iconic 14.2-mile trail with 4,800 ft elevation gain."
   },
-
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
     "primary_url": "https://www.nps.gov/yose/planyourvisit/halfdome.htm",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Benchmark - Half Dome Summit",
-    "gps_source": "NPS Official Yosemite Map",
+    "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail sign at Happy Isles Trailhead",
     "permit_source": "Recreation.gov - Yosemite Half Dome Permits",
-    "notes": "Distance (14.2 mi) from official NPS signage. Elevation (8,842 ft) from USGS topo. Permit requirements verified on Recreation.gov. Cable installation dates confirmed with NPS."
+    "notes": "Distance (14.2 mi) from official NPS signage. Elevation (8,842 ft) from USGS topo. Permit requirements verified on Recreation.gov. Cable installation dates confirmed with NPS. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
   }
 }

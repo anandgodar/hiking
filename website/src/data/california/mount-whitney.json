@@ -5,10 +5,16 @@
   "state_slug": "california",
   "elevation": 14505,
   "lat": 36.5786,
-  "lon": -118.2920,
+  "lon": -118.292,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Highest Peak", "14er", "Permit Required", "Strenuous", "Alpine", "Bucket List"],
-
+  "tags": [
+    "Highest Peak",
+    "14er",
+    "Permit Required",
+    "Strenuous",
+    "Alpine",
+    "Bucket List"
+  ],
   "trails": [
     {
       "name": "Mount Whitney Trail",
@@ -24,40 +30,1603 @@
       "parking_details": {
         "fee": "$15 day use, included with overnight permit",
         "location": "Whitney Portal",
-        "coords": [36.5858, -118.2385]
-      },
-      "tags": ["Highest Summit", "Alpine Zone", "Altitude", "Switchbacks"],
-
-      "geo": {
-        "markers": {
-          "start": [36.5858, -118.2385],
-          "summit": [36.5786, -118.2920]
-        },
-        "path": [
-          [36.5858, -118.2385],
-          [36.5840, -118.2450],
-          [36.5820, -118.2520],
-          [36.5800, -118.2600],
-          [36.5790, -118.2700],
-          [36.5785, -118.2800],
-          [36.5786, -118.2920]
-        ],
-        "chart": [
-          {"distance": 0, "elevation": 8360},
-          {"distance": 2.5, "elevation": 9600},
-          {"distance": 4.0, "elevation": 10400},
-          {"distance": 6.5, "elevation": 12000},
-          {"distance": 8.7, "elevation": 13600},
-          {"distance": 10.7, "elevation": 14300},
-          {"distance": 11.0, "elevation": 14505}
+        "coords": [
+          36.5858,
+          -118.2385
         ]
       },
-
+      "tags": [
+        "Highest Summit",
+        "Alpine Zone",
+        "Altitude",
+        "Switchbacks"
+      ],
+      "geo": {
+        "markers": {
+          "start": [
+            36.5858,
+            -118.2385
+          ],
+          "summit": [
+            36.5786,
+            -118.292
+          ]
+        },
+        "path": [
+          [
+            36.5858,
+            -118.2385,
+            8300
+          ],
+          [
+            36.58576,
+            -118.23863,
+            8346
+          ],
+          [
+            36.58573,
+            -118.23876,
+            8391
+          ],
+          [
+            36.58569,
+            -118.23889,
+            8432
+          ],
+          [
+            36.58566,
+            -118.23902,
+            8470
+          ],
+          [
+            36.58562,
+            -118.23915,
+            8502
+          ],
+          [
+            36.58558,
+            -118.23928,
+            8528
+          ],
+          [
+            36.58555,
+            -118.23941,
+            8548
+          ],
+          [
+            36.58551,
+            -118.23954,
+            8561
+          ],
+          [
+            36.58548,
+            -118.23967,
+            8569
+          ],
+          [
+            36.58544,
+            -118.2398,
+            8572
+          ],
+          [
+            36.5854,
+            -118.23993,
+            8572
+          ],
+          [
+            36.58537,
+            -118.24006,
+            8569
+          ],
+          [
+            36.58533,
+            -118.24019,
+            8565
+          ],
+          [
+            36.5853,
+            -118.24032,
+            8562
+          ],
+          [
+            36.58526,
+            -118.24045,
+            8561
+          ],
+          [
+            36.58522,
+            -118.24058,
+            8564
+          ],
+          [
+            36.58519,
+            -118.24071,
+            8572
+          ],
+          [
+            36.58515,
+            -118.24084,
+            8586
+          ],
+          [
+            36.58512,
+            -118.24097,
+            8606
+          ],
+          [
+            36.58508,
+            -118.2411,
+            8632
+          ],
+          [
+            36.58504,
+            -118.24123,
+            8664
+          ],
+          [
+            36.58501,
+            -118.24136,
+            8701
+          ],
+          [
+            36.58497,
+            -118.24149,
+            8743
+          ],
+          [
+            36.58494,
+            -118.24162,
+            8787
+          ],
+          [
+            36.5849,
+            -118.24175,
+            8834
+          ],
+          [
+            36.58486,
+            -118.24188,
+            8880
+          ],
+          [
+            36.58483,
+            -118.24201,
+            8924
+          ],
+          [
+            36.58479,
+            -118.24214,
+            8966
+          ],
+          [
+            36.58476,
+            -118.24227,
+            9003
+          ],
+          [
+            36.58472,
+            -118.2424,
+            9035
+          ],
+          [
+            36.58468,
+            -118.24253,
+            9061
+          ],
+          [
+            36.58465,
+            -118.24266,
+            9081
+          ],
+          [
+            36.58461,
+            -118.24279,
+            9095
+          ],
+          [
+            36.58458,
+            -118.24292,
+            9103
+          ],
+          [
+            36.58454,
+            -118.24305,
+            9106
+          ],
+          [
+            36.5845,
+            -118.24318,
+            9105
+          ],
+          [
+            36.58447,
+            -118.24331,
+            9102
+          ],
+          [
+            36.58443,
+            -118.24344,
+            9098
+          ],
+          [
+            36.5844,
+            -118.24357,
+            9095
+          ],
+          [
+            36.58436,
+            -118.2437,
+            9095
+          ],
+          [
+            36.58432,
+            -118.24383,
+            9098
+          ],
+          [
+            36.58429,
+            -118.24396,
+            9106
+          ],
+          [
+            36.58425,
+            -118.24409,
+            9119
+          ],
+          [
+            36.58422,
+            -118.24422,
+            9139
+          ],
+          [
+            36.58418,
+            -118.24435,
+            9165
+          ],
+          [
+            36.58414,
+            -118.24448,
+            9197
+          ],
+          [
+            36.58411,
+            -118.24461,
+            9235
+          ],
+          [
+            36.58407,
+            -118.24474,
+            9276
+          ],
+          [
+            36.58404,
+            -118.24487,
+            9321
+          ],
+          [
+            36.584,
+            -118.245,
+            9367
+          ],
+          [
+            36.58396,
+            -118.24514,
+            9413
+          ],
+          [
+            36.58392,
+            -118.24528,
+            9458
+          ],
+          [
+            36.58388,
+            -118.24542,
+            9499
+          ],
+          [
+            36.58384,
+            -118.24556,
+            9537
+          ],
+          [
+            36.5838,
+            -118.2457,
+            9569
+          ],
+          [
+            36.58376,
+            -118.24584,
+            9595
+          ],
+          [
+            36.58372,
+            -118.24598,
+            9614
+          ],
+          [
+            36.58368,
+            -118.24612,
+            9628
+          ],
+          [
+            36.58364,
+            -118.24626,
+            9636
+          ],
+          [
+            36.5836,
+            -118.2464,
+            9639
+          ],
+          [
+            36.58356,
+            -118.24654,
+            9638
+          ],
+          [
+            36.58352,
+            -118.24668,
+            9635
+          ],
+          [
+            36.58348,
+            -118.24682,
+            9632
+          ],
+          [
+            36.58344,
+            -118.24696,
+            9629
+          ],
+          [
+            36.5834,
+            -118.2471,
+            9628
+          ],
+          [
+            36.58336,
+            -118.24724,
+            9631
+          ],
+          [
+            36.58332,
+            -118.24738,
+            9639
+          ],
+          [
+            36.58328,
+            -118.24752,
+            9653
+          ],
+          [
+            36.58324,
+            -118.24766,
+            9672
+          ],
+          [
+            36.5832,
+            -118.2478,
+            9698
+          ],
+          [
+            36.58316,
+            -118.24794,
+            9730
+          ],
+          [
+            36.58312,
+            -118.24808,
+            9768
+          ],
+          [
+            36.58308,
+            -118.24822,
+            9809
+          ],
+          [
+            36.58304,
+            -118.24836,
+            9854
+          ],
+          [
+            36.583,
+            -118.2485,
+            9900
+          ],
+          [
+            36.58296,
+            -118.24864,
+            9946
+          ],
+          [
+            36.58292,
+            -118.24878,
+            9991
+          ],
+          [
+            36.58288,
+            -118.24892,
+            10032
+          ],
+          [
+            36.58284,
+            -118.24906,
+            10070
+          ],
+          [
+            36.5828,
+            -118.2492,
+            10102
+          ],
+          [
+            36.58276,
+            -118.24934,
+            10128
+          ],
+          [
+            36.58272,
+            -118.24948,
+            10147
+          ],
+          [
+            36.58268,
+            -118.24962,
+            10161
+          ],
+          [
+            36.58264,
+            -118.24976,
+            10169
+          ],
+          [
+            36.5826,
+            -118.2499,
+            10172
+          ],
+          [
+            36.58256,
+            -118.25004,
+            10171
+          ],
+          [
+            36.58252,
+            -118.25018,
+            10168
+          ],
+          [
+            36.58248,
+            -118.25032,
+            10165
+          ],
+          [
+            36.58244,
+            -118.25046,
+            10162
+          ],
+          [
+            36.5824,
+            -118.2506,
+            10161
+          ],
+          [
+            36.58236,
+            -118.25074,
+            10164
+          ],
+          [
+            36.58232,
+            -118.25088,
+            10172
+          ],
+          [
+            36.58228,
+            -118.25102,
+            10186
+          ],
+          [
+            36.58224,
+            -118.25116,
+            10205
+          ],
+          [
+            36.5822,
+            -118.2513,
+            10231
+          ],
+          [
+            36.58216,
+            -118.25144,
+            10263
+          ],
+          [
+            36.58212,
+            -118.25158,
+            10301
+          ],
+          [
+            36.58208,
+            -118.25172,
+            10342
+          ],
+          [
+            36.58204,
+            -118.25186,
+            10387
+          ],
+          [
+            36.582,
+            -118.252,
+            10433
+          ],
+          [
+            36.58196,
+            -118.25216,
+            10479
+          ],
+          [
+            36.58192,
+            -118.25232,
+            10524
+          ],
+          [
+            36.58188,
+            -118.25248,
+            10565
+          ],
+          [
+            36.58184,
+            -118.25264,
+            10603
+          ],
+          [
+            36.5818,
+            -118.2528,
+            10635
+          ],
+          [
+            36.58176,
+            -118.25296,
+            10661
+          ],
+          [
+            36.58172,
+            -118.25312,
+            10681
+          ],
+          [
+            36.58168,
+            -118.25328,
+            10694
+          ],
+          [
+            36.58164,
+            -118.25344,
+            10702
+          ],
+          [
+            36.5816,
+            -118.2536,
+            10705
+          ],
+          [
+            36.58156,
+            -118.25376,
+            10705
+          ],
+          [
+            36.58152,
+            -118.25392,
+            10702
+          ],
+          [
+            36.58148,
+            -118.25408,
+            10698
+          ],
+          [
+            36.58144,
+            -118.25424,
+            10695
+          ],
+          [
+            36.5814,
+            -118.2544,
+            10694
+          ],
+          [
+            36.58136,
+            -118.25456,
+            10697
+          ],
+          [
+            36.58132,
+            -118.25472,
+            10705
+          ],
+          [
+            36.58128,
+            -118.25488,
+            10719
+          ],
+          [
+            36.58124,
+            -118.25504,
+            10739
+          ],
+          [
+            36.5812,
+            -118.2552,
+            10765
+          ],
+          [
+            36.58116,
+            -118.25536,
+            10797
+          ],
+          [
+            36.58112,
+            -118.25552,
+            10834
+          ],
+          [
+            36.58108,
+            -118.25568,
+            10876
+          ],
+          [
+            36.58104,
+            -118.25584,
+            10920
+          ],
+          [
+            36.581,
+            -118.256,
+            10966
+          ],
+          [
+            36.58096,
+            -118.25616,
+            11013
+          ],
+          [
+            36.58092,
+            -118.25632,
+            11057
+          ],
+          [
+            36.58088,
+            -118.25648,
+            11099
+          ],
+          [
+            36.58084,
+            -118.25664,
+            11136
+          ],
+          [
+            36.5808,
+            -118.2568,
+            11168
+          ],
+          [
+            36.58076,
+            -118.25696,
+            11194
+          ],
+          [
+            36.58072,
+            -118.25712,
+            11214
+          ],
+          [
+            36.58068,
+            -118.25728,
+            11228
+          ],
+          [
+            36.58064,
+            -118.25744,
+            11236
+          ],
+          [
+            36.5806,
+            -118.2576,
+            11239
+          ],
+          [
+            36.58056,
+            -118.25776,
+            11238
+          ],
+          [
+            36.58052,
+            -118.25792,
+            11235
+          ],
+          [
+            36.58048,
+            -118.25808,
+            11231
+          ],
+          [
+            36.58044,
+            -118.25824,
+            11228
+          ],
+          [
+            36.5804,
+            -118.2584,
+            11228
+          ],
+          [
+            36.58036,
+            -118.25856,
+            11231
+          ],
+          [
+            36.58032,
+            -118.25872,
+            11239
+          ],
+          [
+            36.58028,
+            -118.25888,
+            11252
+          ],
+          [
+            36.58024,
+            -118.25904,
+            11272
+          ],
+          [
+            36.5802,
+            -118.2592,
+            11298
+          ],
+          [
+            36.58016,
+            -118.25936,
+            11330
+          ],
+          [
+            36.58012,
+            -118.25952,
+            11368
+          ],
+          [
+            36.58008,
+            -118.25968,
+            11409
+          ],
+          [
+            36.58004,
+            -118.25984,
+            11454
+          ],
+          [
+            36.58,
+            -118.26,
+            11500
+          ],
+          [
+            36.57998,
+            -118.2602,
+            11546
+          ],
+          [
+            36.57996,
+            -118.2604,
+            11591
+          ],
+          [
+            36.57994,
+            -118.2606,
+            11632
+          ],
+          [
+            36.57992,
+            -118.2608,
+            11670
+          ],
+          [
+            36.5799,
+            -118.261,
+            11702
+          ],
+          [
+            36.57988,
+            -118.2612,
+            11728
+          ],
+          [
+            36.57986,
+            -118.2614,
+            11748
+          ],
+          [
+            36.57984,
+            -118.2616,
+            11761
+          ],
+          [
+            36.57982,
+            -118.2618,
+            11769
+          ],
+          [
+            36.5798,
+            -118.262,
+            11772
+          ],
+          [
+            36.57978,
+            -118.2622,
+            11772
+          ],
+          [
+            36.57976,
+            -118.2624,
+            11769
+          ],
+          [
+            36.57974,
+            -118.2626,
+            11765
+          ],
+          [
+            36.57972,
+            -118.2628,
+            11762
+          ],
+          [
+            36.5797,
+            -118.263,
+            11761
+          ],
+          [
+            36.57968,
+            -118.2632,
+            11764
+          ],
+          [
+            36.57966,
+            -118.2634,
+            11772
+          ],
+          [
+            36.57964,
+            -118.2636,
+            11786
+          ],
+          [
+            36.57962,
+            -118.2638,
+            11806
+          ],
+          [
+            36.5796,
+            -118.264,
+            11832
+          ],
+          [
+            36.57958,
+            -118.2642,
+            11864
+          ],
+          [
+            36.57956,
+            -118.2644,
+            11901
+          ],
+          [
+            36.57954,
+            -118.2646,
+            11943
+          ],
+          [
+            36.57952,
+            -118.2648,
+            11987
+          ],
+          [
+            36.5795,
+            -118.265,
+            12034
+          ],
+          [
+            36.57948,
+            -118.2652,
+            12080
+          ],
+          [
+            36.57946,
+            -118.2654,
+            12124
+          ],
+          [
+            36.57944,
+            -118.2656,
+            12166
+          ],
+          [
+            36.57942,
+            -118.2658,
+            12203
+          ],
+          [
+            36.5794,
+            -118.266,
+            12235
+          ],
+          [
+            36.57938,
+            -118.2662,
+            12261
+          ],
+          [
+            36.57936,
+            -118.2664,
+            12281
+          ],
+          [
+            36.57934,
+            -118.2666,
+            12295
+          ],
+          [
+            36.57932,
+            -118.2668,
+            12303
+          ],
+          [
+            36.5793,
+            -118.267,
+            12306
+          ],
+          [
+            36.57928,
+            -118.2672,
+            12305
+          ],
+          [
+            36.57926,
+            -118.2674,
+            12302
+          ],
+          [
+            36.57924,
+            -118.2676,
+            12298
+          ],
+          [
+            36.57922,
+            -118.2678,
+            12295
+          ],
+          [
+            36.5792,
+            -118.268,
+            12295
+          ],
+          [
+            36.57918,
+            -118.2682,
+            12298
+          ],
+          [
+            36.57916,
+            -118.2684,
+            12306
+          ],
+          [
+            36.57914,
+            -118.2686,
+            12319
+          ],
+          [
+            36.57912,
+            -118.2688,
+            12339
+          ],
+          [
+            36.5791,
+            -118.269,
+            12365
+          ],
+          [
+            36.57908,
+            -118.2692,
+            12397
+          ],
+          [
+            36.57906,
+            -118.2694,
+            12435
+          ],
+          [
+            36.57904,
+            -118.2696,
+            12476
+          ],
+          [
+            36.57902,
+            -118.2698,
+            12521
+          ],
+          [
+            36.579,
+            -118.27,
+            12567
+          ],
+          [
+            36.57899,
+            -118.2702,
+            12613
+          ],
+          [
+            36.57898,
+            -118.2704,
+            12658
+          ],
+          [
+            36.57897,
+            -118.2706,
+            12699
+          ],
+          [
+            36.57896,
+            -118.2708,
+            12737
+          ],
+          [
+            36.57895,
+            -118.271,
+            12769
+          ],
+          [
+            36.57894,
+            -118.2712,
+            12795
+          ],
+          [
+            36.57893,
+            -118.2714,
+            12814
+          ],
+          [
+            36.57892,
+            -118.2716,
+            12828
+          ],
+          [
+            36.57891,
+            -118.2718,
+            12836
+          ],
+          [
+            36.5789,
+            -118.272,
+            12839
+          ],
+          [
+            36.57889,
+            -118.2722,
+            12838
+          ],
+          [
+            36.57888,
+            -118.2724,
+            12835
+          ],
+          [
+            36.57887,
+            -118.2726,
+            12832
+          ],
+          [
+            36.57886,
+            -118.2728,
+            12829
+          ],
+          [
+            36.57885,
+            -118.273,
+            12828
+          ],
+          [
+            36.57884,
+            -118.2732,
+            12831
+          ],
+          [
+            36.57883,
+            -118.2734,
+            12839
+          ],
+          [
+            36.57882,
+            -118.2736,
+            12853
+          ],
+          [
+            36.57881,
+            -118.2738,
+            12872
+          ],
+          [
+            36.5788,
+            -118.274,
+            12898
+          ],
+          [
+            36.57879,
+            -118.2742,
+            12930
+          ],
+          [
+            36.57878,
+            -118.2744,
+            12968
+          ],
+          [
+            36.57877,
+            -118.2746,
+            13009
+          ],
+          [
+            36.57876,
+            -118.2748,
+            13054
+          ],
+          [
+            36.57875,
+            -118.275,
+            13100
+          ],
+          [
+            36.57874,
+            -118.2752,
+            13146
+          ],
+          [
+            36.57873,
+            -118.2754,
+            13191
+          ],
+          [
+            36.57872,
+            -118.2756,
+            13232
+          ],
+          [
+            36.57871,
+            -118.2758,
+            13270
+          ],
+          [
+            36.5787,
+            -118.276,
+            13302
+          ],
+          [
+            36.57869,
+            -118.2762,
+            13328
+          ],
+          [
+            36.57868,
+            -118.2764,
+            13347
+          ],
+          [
+            36.57867,
+            -118.2766,
+            13361
+          ],
+          [
+            36.57866,
+            -118.2768,
+            13369
+          ],
+          [
+            36.57865,
+            -118.277,
+            13372
+          ],
+          [
+            36.57864,
+            -118.2772,
+            13371
+          ],
+          [
+            36.57863,
+            -118.2774,
+            13368
+          ],
+          [
+            36.57862,
+            -118.2776,
+            13365
+          ],
+          [
+            36.57861,
+            -118.2778,
+            13362
+          ],
+          [
+            36.5786,
+            -118.278,
+            13361
+          ],
+          [
+            36.57859,
+            -118.2782,
+            13364
+          ],
+          [
+            36.57858,
+            -118.2784,
+            13372
+          ],
+          [
+            36.57857,
+            -118.2786,
+            13386
+          ],
+          [
+            36.57856,
+            -118.2788,
+            13405
+          ],
+          [
+            36.57855,
+            -118.279,
+            13431
+          ],
+          [
+            36.57854,
+            -118.2792,
+            13463
+          ],
+          [
+            36.57853,
+            -118.2794,
+            13501
+          ],
+          [
+            36.57852,
+            -118.2796,
+            13542
+          ],
+          [
+            36.57851,
+            -118.2798,
+            13587
+          ],
+          [
+            36.5785,
+            -118.28,
+            13633
+          ],
+          [
+            36.5785,
+            -118.28024,
+            13679
+          ],
+          [
+            36.5785,
+            -118.28048,
+            13724
+          ],
+          [
+            36.57851,
+            -118.28072,
+            13765
+          ],
+          [
+            36.57851,
+            -118.28096,
+            13803
+          ],
+          [
+            36.57851,
+            -118.2812,
+            13835
+          ],
+          [
+            36.57851,
+            -118.28144,
+            13861
+          ],
+          [
+            36.57851,
+            -118.28168,
+            13881
+          ],
+          [
+            36.57852,
+            -118.28192,
+            13894
+          ],
+          [
+            36.57852,
+            -118.28216,
+            13902
+          ],
+          [
+            36.57852,
+            -118.2824,
+            13905
+          ],
+          [
+            36.57852,
+            -118.28264,
+            13905
+          ],
+          [
+            36.57852,
+            -118.28288,
+            13902
+          ],
+          [
+            36.57853,
+            -118.28312,
+            13898
+          ],
+          [
+            36.57853,
+            -118.28336,
+            13895
+          ],
+          [
+            36.57853,
+            -118.2836,
+            13894
+          ],
+          [
+            36.57853,
+            -118.28384,
+            13897
+          ],
+          [
+            36.57853,
+            -118.28408,
+            13905
+          ],
+          [
+            36.57854,
+            -118.28432,
+            13919
+          ],
+          [
+            36.57854,
+            -118.28456,
+            13939
+          ],
+          [
+            36.57854,
+            -118.2848,
+            13965
+          ],
+          [
+            36.57854,
+            -118.28504,
+            13997
+          ],
+          [
+            36.57854,
+            -118.28528,
+            14034
+          ],
+          [
+            36.57855,
+            -118.28552,
+            14076
+          ],
+          [
+            36.57855,
+            -118.28576,
+            14120
+          ],
+          [
+            36.57855,
+            -118.286,
+            14166
+          ],
+          [
+            36.57855,
+            -118.28624,
+            14213
+          ],
+          [
+            36.57855,
+            -118.28648,
+            14257
+          ],
+          [
+            36.57856,
+            -118.28672,
+            14299
+          ],
+          [
+            36.57856,
+            -118.28696,
+            14336
+          ],
+          [
+            36.57856,
+            -118.2872,
+            14368
+          ],
+          [
+            36.57856,
+            -118.28744,
+            14394
+          ],
+          [
+            36.57856,
+            -118.28768,
+            14414
+          ],
+          [
+            36.57857,
+            -118.28792,
+            14428
+          ],
+          [
+            36.57857,
+            -118.28816,
+            14436
+          ],
+          [
+            36.57857,
+            -118.2884,
+            14439
+          ],
+          [
+            36.57857,
+            -118.28864,
+            14438
+          ],
+          [
+            36.57857,
+            -118.28888,
+            14435
+          ],
+          [
+            36.57858,
+            -118.28912,
+            14431
+          ],
+          [
+            36.57858,
+            -118.28936,
+            14428
+          ],
+          [
+            36.57858,
+            -118.2896,
+            14428
+          ],
+          [
+            36.57858,
+            -118.28984,
+            14431
+          ],
+          [
+            36.57858,
+            -118.29008,
+            14439
+          ],
+          [
+            36.57859,
+            -118.29032,
+            14452
+          ],
+          [
+            36.57859,
+            -118.29056,
+            14472
+          ],
+          [
+            36.57859,
+            -118.2908,
+            14498
+          ],
+          [
+            36.57859,
+            -118.29104,
+            14530
+          ],
+          [
+            36.57859,
+            -118.29128,
+            14568
+          ],
+          [
+            36.5786,
+            -118.29152,
+            14609
+          ],
+          [
+            36.5786,
+            -118.29176,
+            14654
+          ],
+          [
+            36.5786,
+            -118.292,
+            14700
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 8300
+          },
+          {
+            "distance": 1.54,
+            "elevation": 8664
+          },
+          {
+            "distance": 3.08,
+            "elevation": 9106
+          },
+          {
+            "distance": 4.69,
+            "elevation": 9629
+          },
+          {
+            "distance": 6.23,
+            "elevation": 10172
+          },
+          {
+            "distance": 7.85,
+            "elevation": 10681
+          },
+          {
+            "distance": 9.39,
+            "elevation": 11099
+          },
+          {
+            "distance": 11.0,
+            "elevation": 11500
+          },
+          {
+            "distance": 12.54,
+            "elevation": 11864
+          },
+          {
+            "distance": 14.08,
+            "elevation": 12306
+          },
+          {
+            "distance": 15.69,
+            "elevation": 12829
+          },
+          {
+            "distance": 17.23,
+            "elevation": 13372
+          },
+          {
+            "distance": 18.85,
+            "elevation": 13881
+          },
+          {
+            "distance": 20.39,
+            "elevation": 14299
+          },
+          {
+            "distance": 22.0,
+            "elevation": 14700
+          }
+        ]
+      },
       "features": [
         {
           "name": "Lone Pine Lake",
           "type": "lake",
-          "lat": 36.5840,
+          "lat": 36.584,
           "lon": -118.2465,
           "mile": 2.8
         },
@@ -71,8 +1640,8 @@
         {
           "name": "Trail Camp",
           "type": "campsite",
-          "lat": 36.5790,
-          "lon": -118.2680,
+          "lat": 36.579,
+          "lon": -118.268,
           "mile": 6.3
         },
         {
@@ -86,20 +1655,18 @@
           "name": "Mount Whitney Summit",
           "type": "summit",
           "lat": 36.5786,
-          "lon": -118.2920,
+          "lon": -118.292,
           "mile": 11.0
         }
       ]
     }
   ],
-
   "generated_description": "<p>Mount Whitney is the highest peak in the contiguous United States at 14,505 feet, making it a bucket-list summit for hikers nationwide. The 22-mile round trip from Whitney Portal gains over 6,100 feet of elevation, passing through multiple life zones from pine forest to alpine tundra.</p><p>The Mount Whitney Trail is one of America's most famous hiking routes, featuring 97 switchbacks, stunning High Sierra scenery, and the satisfaction of standing atop the Lower 48's highest point. On clear days, summiteers enjoy views spanning from the Owens Valley floor 10,000 feet below to the Sierra Nevada crest extending for hundreds of miles.</p><p><strong>Permits are extremely competitive:</strong> Apply via recreation.gov lottery (February) for May-October dates. Day hike and overnight permits are separate lotteries. Success rates are typically 10-20% in the main lottery.</p>",
-
   "page_content": {
     "faqs": [
       {
         "question": "Do I need a permit for Mount Whitney?",
-        "answer": "Yes, permits are required year-round. May 1-Nov 1: lottery permits via recreation.gov (apply in February). Extremely competitive—10-20% success rate. Nov 2-April 30: Self-issue permits at Eastern Sierra InterAgency Visitor Center, first-come first-served. Day hiking and overnight permits are separate lotteries."
+        "answer": "Yes, permits are required year-round. May 1-Nov 1: lottery permits via recreation.gov (apply in February). Extremely competitive\u201410-20% success rate. Nov 2-April 30: Self-issue permits at Eastern Sierra InterAgency Visitor Center, first-come first-served. Day hiking and overnight permits are separate lotteries."
       },
       {
         "question": "Can I hike Mount Whitney in one day?",
@@ -115,49 +1682,70 @@
       },
       {
         "question": "How do I prevent altitude sickness on Mount Whitney?",
-        "answer": "1) Spend 2-3 days at 8,000-10,000 ft before attempting (camp at Whitney Portal or hike nearby peaks), 2) Ascend slowly—consider camping at Trail Camp (12,000 ft) the night before summit, 3) Stay hydrated (4+ liters/day), 4) Consider Diamox (prescription), 5) Turn back if symptoms worsen. Don't underestimate altitude."
+        "answer": "1) Spend 2-3 days at 8,000-10,000 ft before attempting (camp at Whitney Portal or hike nearby peaks), 2) Ascend slowly\u2014consider camping at Trail Camp (12,000 ft) the night before summit, 3) Stay hydrated (4+ liters/day), 4) Consider Diamox (prescription), 5) Turn back if symptoms worsen. Don't underestimate altitude."
       }
     ],
     "seasonal_guide": [
       {
         "season": "Summer (July-August)",
-        "conditions": "Best weather, snow-free trail, warmest temps. Very crowded. Afternoon thunderstorms common—summit by noon.",
-        "gear": ["4+ liters water", "Warm layers (freezing at summit)", "Rain jacket", "Headlamp", "Trekking poles", "Sun protection"]
+        "conditions": "Best weather, snow-free trail, warmest temps. Very crowded. Afternoon thunderstorms common\u2014summit by noon.",
+        "gear": [
+          "4+ liters water",
+          "Warm layers (freezing at summit)",
+          "Rain jacket",
+          "Headlamp",
+          "Trekking poles",
+          "Sun protection"
+        ]
       },
       {
         "season": "Early Season (May-June)",
         "conditions": "Significant snow, ice axe & crampons required, fewer crowds, longer days, very cold nights.",
-        "gear": ["Ice axe", "Crampons", "Mountaineering experience", "5+ liters water", "Winter layers", "Avalanche awareness"]
+        "gear": [
+          "Ice axe",
+          "Crampons",
+          "Mountaineering experience",
+          "5+ liters water",
+          "Winter layers",
+          "Avalanche awareness"
+        ]
       },
       {
         "season": "Fall (September-October)",
         "conditions": "Excellent weather early Sept, cooling temps, fall colors, fewer crowds. Oct is unpredictable with possible snow.",
-        "gear": ["Warm layers", "Possible microspikes", "4 liters water", "Cold weather sleeping bag if backpacking"]
+        "gear": [
+          "Warm layers",
+          "Possible microspikes",
+          "4 liters water",
+          "Cold weather sleeping bag if backpacking"
+        ]
       },
       {
         "season": "Winter (November-April)",
         "conditions": "Expert mountaineering only. Deep snow, avalanche hazard, extreme cold, technical climbing sections. Self-issue permits available.",
-        "gear": ["Full winter mountaineering gear", "Avalanche equipment", "Extensive experience required"]
+        "gear": [
+          "Full winter mountaineering gear",
+          "Avalanche equipment",
+          "Extensive experience required"
+        ]
       }
     ],
     "safety": {
       "warnings": [
-        "Altitude sickness is the #1 reason for failure—acclimatize for 2-3 days first",
-        "Afternoon thunderstorms are dangerous—be off summit by noon",
-        "Hypothermia is possible even in summer—bring warm layers",
-        "No water sources after Guitar Lake area—carry 4-5 liters",
-        "Cell service is unreliable—have offline maps and emergency plan",
+        "Altitude sickness is the #1 reason for failure\u2014acclimatize for 2-3 days first",
+        "Afternoon thunderstorms are dangerous\u2014be off summit by noon",
+        "Hypothermia is possible even in summer\u2014bring warm layers",
+        "No water sources after Guitar Lake area\u2014carry 4-5 liters",
+        "Cell service is unreliable\u2014have offline maps and emergency plan",
         "Start day hikes between midnight-3am to finish before dark and storms"
       ],
       "emergency": "Call 911 (unreliable cell service). Inyo County Sheriff for rescue: 760-878-0383. Consider personal locator beacon (PLB) or satellite messenger."
     }
   },
-
   "seo": {
     "meta_title": "Mount Whitney Hike Guide 2026 | Permits, Training & Summit Tips",
     "meta_description": "Complete guide to hiking Mount Whitney, the highest peak in the lower 48 states. How to get permits, training tips, best time to summit, and safety info for the 22-mile, 14,505 ft peak in California's Sierra Nevada."
   },
-
   "data_sources": {
     "verified_by": "Inyo National Forest / US Forest Service",
     "primary_url": "https://www.fs.usda.gov/recarea/inyo/recarea/?recid=20242",

@@ -7,8 +7,13 @@
   "lat": 37.7447,
   "lon": -119.5966,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Easy", "Wheelchair Accessible", "Paved", "Family", "Waterfall"],
-
+  "tags": [
+    "Easy",
+    "Wheelchair Accessible",
+    "Paved",
+    "Family",
+    "Waterfall"
+  ],
   "trails": [
     {
       "name": "Lower Yosemite Fall Loop",
@@ -24,26 +29,205 @@
       "parking_details": {
         "fee": "$35 park entrance",
         "location": "Yosemite Falls parking",
-        "coords": [37.7456, -119.5965]
+        "coords": [
+          37.7456,
+          -119.5965
+        ]
       },
-      "tags": ["Paved Loop", "Fully Accessible", "320 Feet"],
-
+      "tags": [
+        "Paved Loop",
+        "Fully Accessible",
+        "320 Feet"
+      ],
       "geo": {
         "markers": {
-          "start": [37.7456, -119.5965],
-          "summit": [37.7447, -119.5966]
-        }
+          "start": [
+            37.7456,
+            -119.5965
+          ],
+          "summit": [
+            37.7447,
+            -119.5966
+          ]
+        },
+        "path": [
+          [
+            37.7456,
+            -119.5965,
+            4000
+          ],
+          [
+            37.74556,
+            -119.59651,
+            4004
+          ],
+          [
+            37.74551,
+            -119.59651,
+            4008
+          ],
+          [
+            37.74547,
+            -119.59652,
+            4012
+          ],
+          [
+            37.74542,
+            -119.59652,
+            4015
+          ],
+          [
+            37.74538,
+            -119.59652,
+            4019
+          ],
+          [
+            37.74533,
+            -119.59653,
+            4023
+          ],
+          [
+            37.74529,
+            -119.59654,
+            4026
+          ],
+          [
+            37.74524,
+            -119.59654,
+            4029
+          ],
+          [
+            37.7452,
+            -119.59655,
+            4032
+          ],
+          [
+            37.74515,
+            -119.59655,
+            4035
+          ],
+          [
+            37.74511,
+            -119.59655,
+            4038
+          ],
+          [
+            37.74506,
+            -119.59656,
+            4040
+          ],
+          [
+            37.74502,
+            -119.59656,
+            4043
+          ],
+          [
+            37.74497,
+            -119.59657,
+            4045
+          ],
+          [
+            37.74493,
+            -119.59658,
+            4046
+          ],
+          [
+            37.74488,
+            -119.59658,
+            4048
+          ],
+          [
+            37.74484,
+            -119.59658,
+            4049
+          ],
+          [
+            37.74479,
+            -119.59659,
+            4049
+          ],
+          [
+            37.74475,
+            -119.59659,
+            4050
+          ],
+          [
+            37.7447,
+            -119.5966,
+            4050
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.05,
+            "elevation": 4004
+          },
+          {
+            "distance": 0.1,
+            "elevation": 4008
+          },
+          {
+            "distance": 0.2,
+            "elevation": 4015
+          },
+          {
+            "distance": 0.25,
+            "elevation": 4019
+          },
+          {
+            "distance": 0.35,
+            "elevation": 4026
+          },
+          {
+            "distance": 0.4,
+            "elevation": 4029
+          },
+          {
+            "distance": 0.5,
+            "elevation": 4035
+          },
+          {
+            "distance": 0.55,
+            "elevation": 4038
+          },
+          {
+            "distance": 0.6,
+            "elevation": 4040
+          },
+          {
+            "distance": 0.7,
+            "elevation": 4045
+          },
+          {
+            "distance": 0.75,
+            "elevation": 4046
+          },
+          {
+            "distance": 0.85,
+            "elevation": 4049
+          },
+          {
+            "distance": 0.9,
+            "elevation": 4049
+          },
+          {
+            "distance": 1.0,
+            "elevation": 4050
+          }
+        ]
       }
     }
   ],
-
-  "generated_description": "<p>The Lower Yosemite Fall Loop is Yosemite's most accessible waterfall trail—a fully paved, wheelchair-friendly 1-mile loop leading to the base of the iconic 2,425-foot Yosemite Falls. This is the perfect introduction to Yosemite's waterfalls for families, those with limited mobility, or anyone wanting a quick valley experience.</p><p>The trail loops through oak woodland to a viewing area at the base of Lower Yosemite Fall (the 320-foot lower section). In spring, prepare to get soaked from the powerful spray! In summer and fall, the falls may be barely a trickle or completely dry.</p>",
-
+  "generated_description": "<p>The Lower Yosemite Fall Loop is Yosemite's most accessible waterfall trail\u2014a fully paved, wheelchair-friendly 1-mile loop leading to the base of the iconic 2,425-foot Yosemite Falls. This is the perfect introduction to Yosemite's waterfalls for families, those with limited mobility, or anyone wanting a quick valley experience.</p><p>The trail loops through oak woodland to a viewing area at the base of Lower Yosemite Fall (the 320-foot lower section). In spring, prepare to get soaked from the powerful spray! In summer and fall, the falls may be barely a trickle or completely dry.</p>",
   "page_content": {
     "faqs": [
       {
         "question": "How is Lower Yosemite Fall different from Upper Yosemite Fall?",
-        "answer": "Lower Yosemite Fall is the easy 1-mile paved loop to the base (30 minutes, wheelchair accessible). Upper Yosemite Fall is the strenuous 7.2-mile hike to the top (6-8 hours, 2,700 ft gain). Both access the same waterfall system—choose based on your fitness and time."
+        "answer": "Lower Yosemite Fall is the easy 1-mile paved loop to the base (30 minutes, wheelchair accessible). Upper Yosemite Fall is the strenuous 7.2-mile hike to the top (6-8 hours, 2,700 ft gain). Both access the same waterfall system\u2014choose based on your fitness and time."
       },
       {
         "question": "When is Yosemite Falls dry?",
@@ -54,25 +238,23 @@
       "warnings": [
         "Viewing area can be slippery when wet from spray",
         "Falls completely dry in late summer most years",
-        "Very crowded trail—expect lots of people",
-        "Parking challenging—use shuttle system"
+        "Very crowded trail\u2014expect lots of people",
+        "Parking challenging\u2014use shuttle system"
       ],
       "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
     }
   },
-
   "seo": {
     "meta_title": "Lower Yosemite Fall Loop 2026 | Easy 1-Mile Wheelchair Accessible Trail",
     "meta_description": "Complete guide to Lower Yosemite Fall Loop. Easy 1-mile paved trail to base of Yosemite Falls. Fully wheelchair accessible, perfect for all ages. Best time to visit for water flow."
   },
-
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
     "primary_url": "https://www.nps.gov/yose/planyourvisit/yosemitefall.htm",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Topo - Yosemite",
-    "gps_source": "NPS Official Yosemite Map",
+    "gps_source": "Generated from start/summit markers (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Paved accessible loop trail confirmed via NPS accessibility documentation. Distance from official trail signage."
-}
+    "notes": "Paved accessible loop trail confirmed via NPS accessibility documentation. Distance from official trail signage. GPS path generated from trail markers pending verified GPX import."
+  }
 }

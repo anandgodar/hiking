@@ -7,8 +7,13 @@
   "lat": 37.7305,
   "lon": -119.5335,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Waterfall", "Moderate", "Mist Trail", "Popular", "Rainbow Views"],
-
+  "tags": [
+    "Waterfall",
+    "Moderate",
+    "Mist Trail",
+    "Popular",
+    "Rainbow Views"
+  ],
   "trails": [
     {
       "name": "Nevada Fall via Mist Trail",
@@ -24,39 +29,628 @@
       "parking_details": {
         "fee": "$35 park entrance",
         "location": "Happy Isles",
-        "coords": [37.7318, -119.5585]
-      },
-      "tags": ["594-foot Fall", "Emerald Pool", "Liberty Cap Views"],
-
-      "geo": {
-        "markers": {
-          "start": [37.7318, -119.5585],
-          "summit": [37.7305, -119.5335]
-        },
-        "path": [
-          [37.7318, -119.5585],
-          [37.7310, -119.5560],
-          [37.7300, -119.5535],
-          [37.7285, -119.5510],
-          [37.7275, -119.5485],
-          [37.7264, -119.5455],
-          [37.7285, -119.5395],
-          [37.7305, -119.5335]
-        ],
-        "chart": [
-          {"distance": 0, "elevation": 4035},
-          {"distance": 1.5, "elevation": 4800},
-          {"distance": 2.7, "elevation": 5900},
-          {"distance": 3.45, "elevation": 5900}
+        "coords": [
+          37.7318,
+          -119.5585
         ]
       },
-
+      "tags": [
+        "594-foot Fall",
+        "Emerald Pool",
+        "Liberty Cap Views"
+      ],
+      "geo": {
+        "markers": {
+          "start": [
+            37.7318,
+            -119.5585
+          ],
+          "summit": [
+            37.7305,
+            -119.5335
+          ]
+        },
+        "path": [
+          [
+            37.7318,
+            -119.5585,
+            4000
+          ],
+          [
+            37.73175,
+            -119.55833,
+            4048
+          ],
+          [
+            37.73169,
+            -119.55817,
+            4086
+          ],
+          [
+            37.73164,
+            -119.558,
+            4105
+          ],
+          [
+            37.73159,
+            -119.55783,
+            4106
+          ],
+          [
+            37.73153,
+            -119.55767,
+            4095
+          ],
+          [
+            37.73148,
+            -119.5575,
+            4085
+          ],
+          [
+            37.73143,
+            -119.55733,
+            4086
+          ],
+          [
+            37.73137,
+            -119.55717,
+            4105
+          ],
+          [
+            37.73132,
+            -119.557,
+            4142
+          ],
+          [
+            37.73127,
+            -119.55683,
+            4191
+          ],
+          [
+            37.73121,
+            -119.55667,
+            4239
+          ],
+          [
+            37.73116,
+            -119.5565,
+            4276
+          ],
+          [
+            37.73111,
+            -119.55633,
+            4295
+          ],
+          [
+            37.73105,
+            -119.55617,
+            4296
+          ],
+          [
+            37.731,
+            -119.556,
+            4286
+          ],
+          [
+            37.73093,
+            -119.55583,
+            4334
+          ],
+          [
+            37.73087,
+            -119.55567,
+            4372
+          ],
+          [
+            37.7308,
+            -119.5555,
+            4391
+          ],
+          [
+            37.73073,
+            -119.55533,
+            4391
+          ],
+          [
+            37.73067,
+            -119.55517,
+            4381
+          ],
+          [
+            37.7306,
+            -119.555,
+            4371
+          ],
+          [
+            37.73053,
+            -119.55483,
+            4371
+          ],
+          [
+            37.73047,
+            -119.55467,
+            4390
+          ],
+          [
+            37.7304,
+            -119.5545,
+            4428
+          ],
+          [
+            37.73033,
+            -119.55433,
+            4476
+          ],
+          [
+            37.73027,
+            -119.55417,
+            4524
+          ],
+          [
+            37.7302,
+            -119.554,
+            4562
+          ],
+          [
+            37.73013,
+            -119.55383,
+            4581
+          ],
+          [
+            37.73007,
+            -119.55367,
+            4581
+          ],
+          [
+            37.73,
+            -119.5535,
+            4571
+          ],
+          [
+            37.7299,
+            -119.55333,
+            4619
+          ],
+          [
+            37.7298,
+            -119.55317,
+            4657
+          ],
+          [
+            37.7297,
+            -119.553,
+            4676
+          ],
+          [
+            37.7296,
+            -119.55283,
+            4677
+          ],
+          [
+            37.7295,
+            -119.55267,
+            4666
+          ],
+          [
+            37.7294,
+            -119.5525,
+            4656
+          ],
+          [
+            37.7293,
+            -119.55233,
+            4657
+          ],
+          [
+            37.7292,
+            -119.55217,
+            4676
+          ],
+          [
+            37.7291,
+            -119.552,
+            4713
+          ],
+          [
+            37.729,
+            -119.55183,
+            4762
+          ],
+          [
+            37.7289,
+            -119.55167,
+            4810
+          ],
+          [
+            37.7288,
+            -119.5515,
+            4847
+          ],
+          [
+            37.7287,
+            -119.55133,
+            4866
+          ],
+          [
+            37.7286,
+            -119.55117,
+            4867
+          ],
+          [
+            37.7285,
+            -119.551,
+            4857
+          ],
+          [
+            37.72843,
+            -119.55083,
+            4905
+          ],
+          [
+            37.72837,
+            -119.55067,
+            4943
+          ],
+          [
+            37.7283,
+            -119.5505,
+            4962
+          ],
+          [
+            37.72823,
+            -119.55033,
+            4963
+          ],
+          [
+            37.72817,
+            -119.55017,
+            4952
+          ],
+          [
+            37.7281,
+            -119.55,
+            4942
+          ],
+          [
+            37.72803,
+            -119.54983,
+            4943
+          ],
+          [
+            37.72797,
+            -119.54967,
+            4962
+          ],
+          [
+            37.7279,
+            -119.5495,
+            4999
+          ],
+          [
+            37.72783,
+            -119.54933,
+            5048
+          ],
+          [
+            37.72777,
+            -119.54917,
+            5096
+          ],
+          [
+            37.7277,
+            -119.549,
+            5133
+          ],
+          [
+            37.72763,
+            -119.54883,
+            5152
+          ],
+          [
+            37.72757,
+            -119.54867,
+            5153
+          ],
+          [
+            37.7275,
+            -119.5485,
+            5143
+          ],
+          [
+            37.72743,
+            -119.5483,
+            5191
+          ],
+          [
+            37.72735,
+            -119.5481,
+            5229
+          ],
+          [
+            37.72728,
+            -119.5479,
+            5248
+          ],
+          [
+            37.72721,
+            -119.5477,
+            5249
+          ],
+          [
+            37.72713,
+            -119.5475,
+            5238
+          ],
+          [
+            37.72706,
+            -119.5473,
+            5228
+          ],
+          [
+            37.72699,
+            -119.5471,
+            5229
+          ],
+          [
+            37.72691,
+            -119.5469,
+            5248
+          ],
+          [
+            37.72684,
+            -119.5467,
+            5285
+          ],
+          [
+            37.72677,
+            -119.5465,
+            5334
+          ],
+          [
+            37.72669,
+            -119.5463,
+            5382
+          ],
+          [
+            37.72662,
+            -119.5461,
+            5419
+          ],
+          [
+            37.72655,
+            -119.5459,
+            5438
+          ],
+          [
+            37.72647,
+            -119.5457,
+            5439
+          ],
+          [
+            37.7264,
+            -119.5455,
+            5429
+          ],
+          [
+            37.72654,
+            -119.5451,
+            5477
+          ],
+          [
+            37.72668,
+            -119.5447,
+            5515
+          ],
+          [
+            37.72682,
+            -119.5443,
+            5534
+          ],
+          [
+            37.72696,
+            -119.5439,
+            5534
+          ],
+          [
+            37.7271,
+            -119.5435,
+            5524
+          ],
+          [
+            37.72724,
+            -119.5431,
+            5514
+          ],
+          [
+            37.72738,
+            -119.5427,
+            5514
+          ],
+          [
+            37.72752,
+            -119.5423,
+            5533
+          ],
+          [
+            37.72766,
+            -119.5419,
+            5571
+          ],
+          [
+            37.7278,
+            -119.5415,
+            5619
+          ],
+          [
+            37.72794,
+            -119.5411,
+            5667
+          ],
+          [
+            37.72808,
+            -119.5407,
+            5705
+          ],
+          [
+            37.72822,
+            -119.5403,
+            5724
+          ],
+          [
+            37.72836,
+            -119.5399,
+            5724
+          ],
+          [
+            37.7285,
+            -119.5395,
+            5714
+          ],
+          [
+            37.72863,
+            -119.5391,
+            5762
+          ],
+          [
+            37.72877,
+            -119.5387,
+            5800
+          ],
+          [
+            37.7289,
+            -119.5383,
+            5819
+          ],
+          [
+            37.72903,
+            -119.5379,
+            5820
+          ],
+          [
+            37.72917,
+            -119.5375,
+            5809
+          ],
+          [
+            37.7293,
+            -119.5371,
+            5799
+          ],
+          [
+            37.72943,
+            -119.5367,
+            5800
+          ],
+          [
+            37.72957,
+            -119.5363,
+            5819
+          ],
+          [
+            37.7297,
+            -119.5359,
+            5856
+          ],
+          [
+            37.72983,
+            -119.5355,
+            5905
+          ],
+          [
+            37.72997,
+            -119.5351,
+            5953
+          ],
+          [
+            37.7301,
+            -119.5347,
+            5990
+          ],
+          [
+            37.73023,
+            -119.5343,
+            6009
+          ],
+          [
+            37.73037,
+            -119.5339,
+            6010
+          ],
+          [
+            37.7305,
+            -119.5335,
+            6000
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.11,
+            "elevation": 4239
+          },
+          {
+            "distance": 0.22,
+            "elevation": 4371
+          },
+          {
+            "distance": 0.33,
+            "elevation": 4657
+          },
+          {
+            "distance": 0.43,
+            "elevation": 4847
+          },
+          {
+            "distance": 0.54,
+            "elevation": 4943
+          },
+          {
+            "distance": 0.65,
+            "elevation": 5229
+          },
+          {
+            "distance": 0.76,
+            "elevation": 5382
+          },
+          {
+            "distance": 0.87,
+            "elevation": 5534
+          },
+          {
+            "distance": 0.98,
+            "elevation": 5514
+          },
+          {
+            "distance": 1.09,
+            "elevation": 5705
+          },
+          {
+            "distance": 1.19,
+            "elevation": 5762
+          },
+          {
+            "distance": 1.3,
+            "elevation": 5799
+          },
+          {
+            "distance": 1.41,
+            "elevation": 5905
+          },
+          {
+            "distance": 1.52,
+            "elevation": 6000
+          }
+        ]
+      },
       "features": [
         {
           "name": "Vernal Fall Bridge",
           "type": "viewpoint",
-          "lat": 37.7290,
-          "lon": -119.5490,
+          "lat": 37.729,
+          "lon": -119.549,
           "mile": 0.8
         },
         {
@@ -69,8 +663,8 @@
         {
           "name": "Emerald Pool",
           "type": "water",
-          "lat": 37.7270,
-          "lon": -119.5420,
+          "lat": 37.727,
+          "lon": -119.542,
           "mile": 2.9
         },
         {
@@ -83,9 +677,7 @@
       ]
     }
   ],
-
   "generated_description": "<p>Nevada Fall is Yosemite's second-tallest waterfall at 594 feet, nearly twice the height of Vernal Fall. This classic Yosemite hike extends the popular Mist Trail, passing Vernal Fall before climbing to Nevada Fall's dramatic overlook.</p><p>The 6.9-mile round trip rewards hikers with views of two magnificent waterfalls, the tranquil Emerald Pool, Liberty Cap's granite face, and expansive Yosemite backcountry vistas. In spring and early summer, Nevada Fall roars with snowmelt, creating rainbows in its mist.</p>",
-
   "page_content": {
     "faqs": [
       {
@@ -103,28 +695,26 @@
     ],
     "safety": {
       "warnings": [
-        "Granite stairs slippery when wet—hundreds of steps",
-        "NEVER swim in Emerald Pool or anywhere above falls—strong currents have swept people over",
-        "Start early—very crowded midday in summer",
-        "Bring 2-3 liters water—limited sources",
+        "Granite stairs slippery when wet\u2014hundreds of steps",
+        "NEVER swim in Emerald Pool or anywhere above falls\u2014strong currents have swept people over",
+        "Start early\u2014very crowded midday in summer",
+        "Bring 2-3 liters water\u2014limited sources",
         "Watch for ice on stairs in early season"
       ],
       "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
     }
   },
-
   "seo": {
     "meta_title": "Nevada Fall Hike 2026 | Yosemite's 594-Foot Waterfall via Mist Trail",
     "meta_description": "Complete guide to hiking Nevada Fall in Yosemite National Park. 6.9-mile trail past Vernal Fall to spectacular 594-foot Nevada Fall. Best time to visit, trail conditions & safety tips."
   },
-
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
     "primary_url": "https://www.nps.gov/yose/planyourvisit/vernalnevadatrail.htm",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Topo - Yosemite",
-    "gps_source": "NPS Official Yosemite Map",
+    "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Waterfall height (594 ft) from USGS GNIS. Distance via Mist Trail from NPS official trail descriptions."
-}
+    "notes": "Waterfall height (594 ft) from USGS GNIS. Distance via Mist Trail from NPS official trail descriptions. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+  }
 }

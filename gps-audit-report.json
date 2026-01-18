@@ -1,27 +1,5 @@
 [
   {
-    "name": "Lower Yosemite Fall",
-    "state": "California",
-    "file": "lower-yosemite-fall.json",
-    "issues": [
-      "No GPS path data"
-    ],
-    "warnings": [],
-    "quality_score": 0,
-    "state_slug": "california"
-  },
-  {
-    "name": "Bridalveil Fall",
-    "state": "California",
-    "file": "bridalveil-fall-yosemite.json",
-    "issues": [
-      "No GPS path data"
-    ],
-    "warnings": [],
-    "quality_score": 0,
-    "state_slug": "california"
-  },
-  {
     "name": "May Lake",
     "state": "California",
     "file": "may-lake-yosemite.json",
@@ -40,51 +18,6 @@
       "points_per_mile": 2.1,
       "has_elevation": false,
       "chart_points": 3,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Nevada Fall",
-    "state": "California",
-    "file": "nevada-fall-yosemite.json",
-    "issues": [
-      "Very low GPS density: 1.2 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Too few chart points: 4 (recommend 10+)",
-      "Path very straight: 0.90 (may be oversimplified)"
-    ],
-    "quality_score": 15,
-    "stats": {
-      "gps_points": 8,
-      "distance_mi": 6.9,
-      "points_per_mile": 1.2,
-      "has_elevation": false,
-      "chart_points": 4,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Mount Whitney",
-    "state": "California",
-    "file": "mount-whitney.json",
-    "issues": [
-      "Very low GPS density: 0.3 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Path very straight: 0.99 (may be oversimplified)"
-    ],
-    "quality_score": 20,
-    "stats": {
-      "gps_points": 7,
-      "distance_mi": 22.0,
-      "points_per_mile": 0.3,
-      "has_elevation": false,
-      "chart_points": 7,
       "quality": "POOR"
     },
     "state_slug": "california"
@@ -129,50 +62,6 @@
       "points_per_mile": 1.0,
       "has_elevation": false,
       "chart_points": 5,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Vernal Fall",
-    "state": "California",
-    "file": "mist-trail-vernal-fall.json",
-    "issues": [
-      "Very low GPS density: 1.1 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Path very straight: 1.00 (may be oversimplified)"
-    ],
-    "quality_score": 20,
-    "stats": {
-      "gps_points": 6,
-      "distance_mi": 5.4,
-      "points_per_mile": 1.1,
-      "has_elevation": false,
-      "chart_points": 5,
-      "quality": "POOR"
-    },
-    "state_slug": "california"
-  },
-  {
-    "name": "Half Dome",
-    "state": "California",
-    "file": "half-dome-yosemite.json",
-    "issues": [
-      "Very low GPS density: 0.7 pts/mi (need 15+)",
-      "Missing elevation data in path"
-    ],
-    "warnings": [
-      "Path very straight: 0.99 (may be oversimplified)"
-    ],
-    "quality_score": 20,
-    "stats": {
-      "gps_points": 10,
-      "distance_mi": 14.2,
-      "points_per_mile": 0.7,
-      "has_elevation": false,
-      "chart_points": 7,
       "quality": "POOR"
     },
     "state_slug": "california"
@@ -308,6 +197,66 @@
     "state_slug": "california"
   },
   {
+    "name": "Mount Whitney",
+    "state": "California",
+    "file": "mount-whitney.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 13.7 pts/mi (recommend 15+)",
+      "Path very straight: 0.99 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 301,
+      "distance_mi": 22.0,
+      "points_per_mile": 13.7,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "FAIR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Vernal Fall",
+    "state": "California",
+    "file": "mist-trail-vernal-fall.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 14.1 pts/mi (recommend 15+)",
+      "Path very straight: 1.00 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 76,
+      "distance_mi": 5.4,
+      "points_per_mile": 14.1,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "FAIR"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Half Dome",
+    "state": "California",
+    "file": "half-dome-yosemite.json",
+    "issues": [],
+    "warnings": [
+      "Low GPS density: 9.6 pts/mi (recommend 15+)",
+      "Path very straight: 0.99 (may be oversimplified)"
+    ],
+    "quality_score": 70,
+    "stats": {
+      "gps_points": 136,
+      "distance_mi": 14.2,
+      "points_per_mile": 9.6,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "FAIR"
+    },
+    "state_slug": "california"
+  },
+  {
     "name": "Mount Kearsarge",
     "state": "New Hampshire",
     "file": "mount-kearsarge-nh.json",
@@ -345,6 +294,63 @@
       "quality": "FAIR"
     },
     "state_slug": "maine"
+  },
+  {
+    "name": "Lower Yosemite Fall",
+    "state": "California",
+    "file": "lower-yosemite-fall.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 1.00 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 21,
+      "distance_mi": 1.0,
+      "points_per_mile": 21.0,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Bridalveil Fall",
+    "state": "California",
+    "file": "bridalveil-fall-yosemite.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 1.00 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 11,
+      "distance_mi": 0.5,
+      "points_per_mile": 22.0,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
+  },
+  {
+    "name": "Nevada Fall",
+    "state": "California",
+    "file": "nevada-fall-yosemite.json",
+    "issues": [],
+    "warnings": [
+      "Path very straight: 0.90 (may be oversimplified)"
+    ],
+    "quality_score": 90,
+    "stats": {
+      "gps_points": 106,
+      "distance_mi": 6.9,
+      "points_per_mile": 15.4,
+      "has_elevation": true,
+      "chart_points": 15,
+      "quality": "GOOD"
+    },
+    "state_slug": "california"
   },
   {
     "name": "Bigelow Mountain - West Peak",

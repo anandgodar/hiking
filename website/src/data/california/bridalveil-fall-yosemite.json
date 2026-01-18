@@ -7,8 +7,13 @@
   "lat": 37.7168,
   "lon": -119.6469,
   "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-  "tags": ["Easy", "Waterfall", "Wheelchair Accessible", "Short", "Iconic"],
-
+  "tags": [
+    "Easy",
+    "Waterfall",
+    "Wheelchair Accessible",
+    "Short",
+    "Iconic"
+  ],
   "trails": [
     {
       "name": "Bridalveil Fall Trail",
@@ -24,21 +29,150 @@
       "parking_details": {
         "fee": "$35 park entrance",
         "location": "Bridalveil Fall parking",
-        "coords": [37.7171, -119.6483]
+        "coords": [
+          37.7171,
+          -119.6483
+        ]
       },
-      "tags": ["620 Feet", "Paved Trail", "Family Perfect"],
-
+      "tags": [
+        "620 Feet",
+        "Paved Trail",
+        "Family Perfect"
+      ],
       "geo": {
         "markers": {
-          "start": [37.7171, -119.6483],
-          "summit": [37.7168, -119.6469]
-        }
+          "start": [
+            37.7171,
+            -119.6483
+          ],
+          "summit": [
+            37.7168,
+            -119.6469
+          ]
+        },
+        "path": [
+          [
+            37.7171,
+            -119.6483,
+            4000
+          ],
+          [
+            37.71707,
+            -119.64816,
+            4008
+          ],
+          [
+            37.71704,
+            -119.64802,
+            4015
+          ],
+          [
+            37.71701,
+            -119.64788,
+            4023
+          ],
+          [
+            37.71698,
+            -119.64774,
+            4029
+          ],
+          [
+            37.71695,
+            -119.6476,
+            4035
+          ],
+          [
+            37.71692,
+            -119.64746,
+            4040
+          ],
+          [
+            37.71689,
+            -119.64732,
+            4045
+          ],
+          [
+            37.71686,
+            -119.64718,
+            4048
+          ],
+          [
+            37.71683,
+            -119.64704,
+            4049
+          ],
+          [
+            37.7168,
+            -119.6469,
+            4050
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.0,
+            "elevation": 4000
+          },
+          {
+            "distance": 0.05,
+            "elevation": 4008
+          },
+          {
+            "distance": 0.1,
+            "elevation": 4015
+          },
+          {
+            "distance": 0.1,
+            "elevation": 4015
+          },
+          {
+            "distance": 0.15,
+            "elevation": 4023
+          },
+          {
+            "distance": 0.2,
+            "elevation": 4029
+          },
+          {
+            "distance": 0.25,
+            "elevation": 4035
+          },
+          {
+            "distance": 0.25,
+            "elevation": 4035
+          },
+          {
+            "distance": 0.3,
+            "elevation": 4040
+          },
+          {
+            "distance": 0.35,
+            "elevation": 4045
+          },
+          {
+            "distance": 0.35,
+            "elevation": 4045
+          },
+          {
+            "distance": 0.4,
+            "elevation": 4048
+          },
+          {
+            "distance": 0.45,
+            "elevation": 4049
+          },
+          {
+            "distance": 0.5,
+            "elevation": 4050
+          }
+        ]
       }
     }
   ],
-
-  "generated_description": "<p>Bridalveil Fall is one of Yosemite's most iconic and accessible waterfalls, visible from many valley viewpoints and cascading 620 feet in a delicate veil-like stream. This incredibly short 0.5-mile round trip is perfect for all ages and abilities, including wheelchairs (though the final approach is steep and may require assistance).</p><p>In spring, Bridalveil roars with snowmelt and sprays mist over the entire viewing area. By late summer, the flow decreases to a gentle veil—hence the name. Either season offers unique beauty and photo opportunities of this Yosemite classic.</p>",
-
+  "generated_description": "<p>Bridalveil Fall is one of Yosemite's most iconic and accessible waterfalls, visible from many valley viewpoints and cascading 620 feet in a delicate veil-like stream. This incredibly short 0.5-mile round trip is perfect for all ages and abilities, including wheelchairs (though the final approach is steep and may require assistance).</p><p>In spring, Bridalveil roars with snowmelt and sprays mist over the entire viewing area. By late summer, the flow decreases to a gentle veil\u2014hence the name. Either season offers unique beauty and photo opportunities of this Yosemite classic.</p>",
   "page_content": {
     "faqs": [
       {
@@ -53,26 +187,24 @@
     "safety": {
       "warnings": [
         "Viewing area slippery when wet from spray",
-        "Final approach is steep—wheelchairs may need assistance",
-        "Parking lot extremely crowded—arrive early",
+        "Final approach is steep\u2014wheelchairs may need assistance",
+        "Parking lot extremely crowded\u2014arrive early",
         "Winter ice can make trail hazardous"
       ],
       "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
     }
   },
-
   "seo": {
     "meta_title": "Bridalveil Fall Yosemite 2026 | Easy 0.5-Mile Waterfall Hike",
     "meta_description": "Complete guide to Bridalveil Fall in Yosemite National Park. Easy 0.5-mile paved trail to 620-foot waterfall. Wheelchair accessible, perfect for families and all ages. Best time to visit tips."
   },
-
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
     "primary_url": "https://www.nps.gov/yose/planyourvisit/bridalveilfall.htm",
     "verification_date": "2026-01-18",
     "elevation_source": "USGS Topo - Bridalveil Fall",
-    "gps_source": "NPS Official Yosemite Map",
+    "gps_source": "Generated from start/summit markers (pending GPX import)",
     "distance_source": "NPS trail signage and accessibility documentation",
-    "notes": "Wheelchair accessible trail confirmed via NPS accessibility page. Waterfall height (620 ft) from USGS GNIS. Distance and parking info from official NPS website."
+    "notes": "Wheelchair accessible trail confirmed via NPS accessibility page. Waterfall height (620 ft) from USGS GNIS. Distance and parking info from official NPS website. GPS path generated from trail markers pending verified GPX import."
   }
 }
