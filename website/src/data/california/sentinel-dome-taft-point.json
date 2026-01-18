@@ -1,0 +1,117 @@
+{
+  "name": "Sentinel Dome & Taft Point",
+  "slug": "sentinel-dome-taft-point",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 8122,
+  "lat": 37.7181,
+  "lon": -119.5847,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Easy", "Panoramic Views", "Family-Friendly", "Sunset Hike", "Granite Dome"],
+
+  "trails": [
+    {
+      "name": "Sentinel Dome & Taft Point Loop",
+      "difficulty": "Easy",
+      "type": "Loop",
+      "stats": {
+        "distance": 5.0,
+        "gain": 500,
+        "time": 3,
+        "difficulty": "Easy"
+      },
+      "parking_info": "Sentinel Dome/Taft Point Trailhead, Glacier Point Road. Limited parking.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "Sentinel Dome Trailhead",
+        "coords": [37.7185, -119.5868]
+      },
+      "tags": ["360 Views", "Cliff Edges", "Sunset Popular"],
+
+      "geo": {
+        "markers": {
+          "start": [37.7185, -119.5868],
+          "summit": [37.7181, -119.5847]
+        },
+        "path": [
+          [37.7185, -119.5868],
+          [37.7180, -119.5855],
+          [37.7181, -119.5847],
+          [37.7185, -119.5835],
+          [37.7190, -119.5820],
+          [37.7195, -119.5805],
+          [37.7185, -119.5868]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 7716},
+          {"distance": 1.1, "elevation": 8122},
+          {"distance": 2.5, "elevation": 7503},
+          {"distance": 5.0, "elevation": 7716}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "Sentinel Dome Summit",
+          "type": "viewpoint",
+          "lat": 37.7181,
+          "lon": -119.5847,
+          "mile": 1.1
+        },
+        {
+          "name": "Taft Point",
+          "type": "viewpoint",
+          "lat": 37.7198,
+          "lon": -119.5802,
+          "mile": 3.5
+        },
+        {
+          "name": "The Fissures",
+          "type": "landmark",
+          "lat": 37.7195,
+          "lon": -119.5810,
+          "mile": 3.3
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>This easy 5-mile loop combines two of Yosemite's most spectacular viewpoints: Sentinel Dome's 360-degree panorama and Taft Point's vertigo-inducing cliff edge. Both accessible from the same trailhead on Glacier Point Road, these short hikes deliver world-class views with minimal effort.</p><p>Sentinel Dome (8,122 ft) offers one of Yosemite's best panoramic views—see Half Dome, El Capitan, Yosemite Falls, and the High Sierra in one sweep. Taft Point features a sheer 3,000-foot drop to Yosemite Valley floor and the dramatic Fissures, deep cracks in the granite cliff edge.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "Can I do both Sentinel Dome and Taft Point in one hike?",
+        "answer": "Absolutely! The 5-mile loop connects both, taking 2.5-3 hours. Or do them separately: Sentinel Dome is 2.2 miles round trip, Taft Point is 2.2 miles round trip. Most people do the loop to see both spectacular viewpoints in one outing."
+      },
+      {
+        "question": "Which is better for sunset: Sentinel Dome or Taft Point?",
+        "answer": "Sentinel Dome is THE best sunset spot in Yosemite! 360-degree views mean you see sunset colors in all directions, including Half Dome glowing orange. Taft Point faces east so you see shadow progression rather than direct sunset. Many photographers hike to Sentinel Dome specifically for sunset."
+      },
+      {
+        "question": "Is Taft Point dangerous?",
+        "answer": "Taft Point has NO railings at the cliff edge, which drops 3,000 feet straight down. It's safe if you're careful and stay back from the edge. Not recommended for young children or those with fear of heights. The Fissures (narrow cracks in the rock) are particularly exposed."
+      },
+      {
+        "question": "When is Glacier Point Road open?",
+        "answer": "Typically late May/early June through October/November, weather dependent. Check Yosemite road conditions before visiting. When closed, these trails are inaccessible except by skiing/snowshoeing from Badger Pass (16+ miles round trip)."
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "NO RAILINGS at Taft Point—3,000 ft drop, stay well back from edge",
+        "Fissures are dramatic but dangerous—don't lean over",
+        "Bring water—none available on trail",
+        "Summer afternoons can be very hot and exposed",
+        "Parking limited—arrive before 10am on weekends",
+        "Road closes in winter—check status"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Sentinel Dome & Taft Point Hike 2026 | Best Yosemite Sunset Views",
+    "meta_description": "Complete guide to hiking Sentinel Dome & Taft Point in Yosemite. Easy 5-mile loop or separate 2.2-mile hikes. Best sunset spot in the park with 360° views. Tips for The Fissures and cliff safety."
+  }
+}

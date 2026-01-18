@@ -1,0 +1,88 @@
+{
+  "name": "Clouds Rest",
+  "slug": "clouds-rest-yosemite",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 9926,
+  "lat": 37.7640,
+  "lon": -119.4870,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Panoramic Views", "High Sierra", "Strenuous", "Backcountry", "Granite Dome"],
+
+  "trails": [
+    {
+      "name": "Clouds Rest via Tenaya Lake",
+      "difficulty": "Strenuous",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 14.5,
+        "gain": 2300,
+        "time": 8,
+        "difficulty": "Strenuous"
+      },
+      "parking_info": "Sunrise Lakes Trailhead, Tioga Road. Limited parking, arrive early.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "Sunrise Lakes Trailhead",
+        "coords": [37.8270, -119.4550]
+      },
+      "tags": ["Better Views than Half Dome", "Less Crowded", "Alpine"],
+
+      "geo": {
+        "markers": {
+          "start": [37.8270, -119.4550],
+          "summit": [37.7640, -119.4870]
+        },
+        "path": [
+          [37.8270, -119.4550],
+          [37.8200, -119.4650],
+          [37.8100, -119.4750],
+          [37.8000, -119.4800],
+          [37.7850, -119.4850],
+          [37.7640, -119.4870]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 8150},
+          {"distance": 2, "elevation": 8800},
+          {"distance": 4, "elevation": 9200},
+          {"distance": 6, "elevation": 9600},
+          {"distance": 7.2, "elevation": 9926}
+        ]
+      }
+    }
+  ],
+
+  "generated_description": "<p>Clouds Rest offers what many consider the best views in Yosemite National Park—even better than Half Dome. At 9,926 feet, this granite dome provides 360-degree panoramas of Yosemite Valley, Half Dome (from above!), the High Sierra, and Tenaya Canyon.</p><p>The 14.5-mile round trip is challenging but doesn't require permits or cables like Half Dome. The final approach along a narrow granite ridge is exhilarating, with steep drop-offs on both sides. This is a true High Sierra experience with far fewer crowds than Yosemite's permit-required summits.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "Do I need a permit for Clouds Rest?",
+        "answer": "No permit required for day hiking! This is a huge advantage over Half Dome. You only need to pay the Yosemite park entrance fee ($35 per vehicle). Wilderness permits are required only if you're backpacking overnight."
+      },
+      {
+        "question": "Is Clouds Rest harder than Half Dome?",
+        "answer": "Clouds Rest is slightly easier than Half Dome: 14.5 miles vs 14-16 miles, 2,300 ft gain vs 4,800 ft gain, and no cables or permit lottery. The final ridge is narrow but not technical. Most fit hikers find it more accessible than Half Dome while offering equally spectacular views."
+      },
+      {
+        "question": "Can you see Half Dome from Clouds Rest?",
+        "answer": "Yes! Clouds Rest offers the iconic aerial view of Half Dome that you see in photos. You're looking DOWN on Half Dome from 1,000 feet higher. It's one of the most photographed perspectives in Yosemite. Bring a good camera!"
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "Final ridge is narrow with steep drop-offs—not for those with fear of heights",
+        "Start early (5-6am) to avoid afternoon thunderstorms",
+        "No water sources after initial creek—carry 3-4 liters",
+        "High elevation—acclimatize if possible",
+        "Trail often snowbound until July"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Clouds Rest Hike Guide 2026 | Yosemite's Best Views (Better than Half Dome!)",
+    "meta_description": "Complete guide to hiking Clouds Rest in Yosemite. 14.5-mile trail with panoramic views of Half Dome, Yosemite Valley & High Sierra. No permit required. Best views in the park at 9,926 feet."
+  }
+}

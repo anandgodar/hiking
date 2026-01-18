@@ -1,0 +1,88 @@
+{
+  "name": "Mirror Lake",
+  "slug": "mirror-lake-yosemite",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 4100,
+  "lat": 37.7433,
+  "lon": -119.5533,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Easy", "Family-Friendly", "Paved Path", "Reflections", "Peaceful"],
+
+  "trails": [
+    {
+      "name": "Mirror Lake Loop",
+      "difficulty": "Easy",
+      "type": "Loop",
+      "stats": {
+        "distance": 5.0,
+        "gain": 100,
+        "time": 2.5,
+        "difficulty": "Easy"
+      },
+      "parking_info": "Mirror Lake Trailhead, Yosemite Valley. Paved path, wheelchair accessible first section.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "Mirror Lake parking or shuttle stop",
+        "coords": [37.7385, -119.5575]
+      },
+      "tags": ["Half Dome Reflections", "Tenaya Creek", "Bike-Friendly"],
+
+      "geo": {
+        "markers": {
+          "start": [37.7385, -119.5575],
+          "summit": [37.7433, -119.5533]
+        },
+        "path": [
+          [37.7385, -119.5575],
+          [37.7400, -119.5560],
+          [37.7420, -119.5545],
+          [37.7433, -119.5533],
+          [37.7440, -119.5550],
+          [37.7420, -119.5570],
+          [37.7385, -119.5575]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 4000},
+          {"distance": 1.0, "elevation": 4050},
+          {"distance": 2.5, "elevation": 4100},
+          {"distance": 5.0, "elevation": 4000}
+        ]
+      }
+    }
+  ],
+
+  "generated_description": "<p>Mirror Lake is one of Yosemite's most peaceful and accessible hikes, offering stunning reflections of Half Dome and surrounding cliffs in its calm waters. This easy 5-mile loop follows Tenaya Creek through a tranquil forest setting, perfect for families, casual hikers, and those seeking a gentler Yosemite experience.</p><p><strong>Note:</strong> Mirror Lake is actually a seasonal pool that dries up to a meadow by late summer. For the best reflections, visit in spring (April-June) when water levels are highest and the 'lake' truly mirrors Half Dome's granite face.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "When is Mirror Lake actually a lake?",
+        "answer": "Mirror Lake has water April-June during snowmelt. By mid-summer (July-August), it's usually just a meadow with Tenaya Creek flowing through. The 'lake' is really a wide, calm section of the creek that creates perfect reflections in spring. For the iconic Mirror Lake reflection photos, visit May-early June."
+      },
+      {
+        "question": "Can I bike to Mirror Lake?",
+        "answer": "Yes! The paved path to Mirror Lake is bike-friendly and very popular with cyclists. You can rent bikes in Yosemite Valley and ride to the lake, making this an easy family outing. The full loop around the lake is also bikeable."
+      },
+      {
+        "question": "Is Mirror Lake good for kids?",
+        "answer": "Excellent for kids! The trail is mostly flat, paved at first, well-shaded, and follows a creek. Kids love playing by the water, skipping rocks, and looking for reflections. The easy terrain makes it doable even for young children (ages 4+) who can walk a few miles."
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "Water levels vary dramatically—spring lake, summer meadow",
+        "Mosquitoes can be intense in spring/early summer",
+        "Hot in summer with minimal water for cooling off",
+        "Stay on trails to protect meadow restoration",
+        "Bikes must yield to pedestrians on shared path"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Mirror Lake Loop Yosemite 2026 | Easy Half Dome Reflection Hike",
+    "meta_description": "Complete guide to hiking Mirror Lake in Yosemite Valley. Easy 5-mile loop trail with Half Dome reflections, perfect for families and casual hikers. Best time to visit for water and reflections."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Cathedral Lakes",
+  "slug": "cathedral-lakes-yosemite",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 9585,
+  "lat": 37.8347,
+  "lon": -119.3992,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Alpine Lakes", "High Sierra", "Moderate", "Tuolumne Meadows", "Backpacking"],
+
+  "trails": [
+    {
+      "name": "Cathedral Lakes via John Muir Trail",
+      "difficulty": "Moderate",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 8.0,
+        "gain": 1000,
+        "time": 5,
+        "difficulty": "Moderate"
+      },
+      "parking_info": "Cathedral Lakes Trailhead, Tioga Road near Tuolumne Meadows. Limited parking.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "Cathedral Lakes Trailhead",
+        "coords": [37.8385, -119.4055]
+      },
+      "tags": ["Pristine Lakes", "Cathedral Peak Views", "Wildflowers"],
+
+      "geo": {
+        "markers": {
+          "start": [37.8385, -119.4055],
+          "summit": [37.8347, -119.3992]
+        },
+        "path": [
+          [37.8385, -119.4055],
+          [37.8375, -119.4020],
+          [37.8365, -119.3990],
+          [37.8355, -119.3960],
+          [37.8347, -119.3992]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 8585},
+          {"distance": 2.0, "elevation": 9100},
+          {"distance": 3.5, "elevation": 9585},
+          {"distance": 4.0, "elevation": 9585}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "Lower Cathedral Lake",
+          "type": "lake",
+          "lat": 37.8347,
+          "lon": -119.3992,
+          "mile": 3.7
+        },
+        {
+          "name": "Upper Cathedral Lake",
+          "type": "lake",
+          "lat": 37.8372,
+          "lon": -119.3925,
+          "mile": 4.0
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>Cathedral Lakes are two stunning alpine lakes nestled beneath the soaring Cathedral Peak in Yosemite's High Sierra. This moderate 8-mile round trip from Tuolumne Meadows is one of the park's most beautiful and accessible high-country hikes.</p><p>The lower lake features dramatic Cathedral Peak reflections, while the upper lake offers more solitude with equally spectacular granite spire views. Both lakes are popular backpacking destinations with designated campsites (wilderness permit required for overnight stays).</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "Which Cathedral Lake is better?",
+        "answer": "Lower Cathedral Lake (3.7 miles) is larger with the iconic Cathedral Peak reflection view—it's the classic photo spot. Upper Cathedral Lake (4 miles) is smaller, quieter, and equally beautiful with more intimate surroundings. Most day hikers visit lower lake; backpackers often camp at upper lake for solitude."
+      },
+      {
+        "question": "When does Tioga Road open?",
+        "answer": "Tioga Road typically opens late May to early June depending on snow and closes in October/November. Cathedral Lakes Trail is accessible only when Tioga Road is open. Check Yosemite's road status before planning your visit—this is crucial for summer High Sierra trips."
+      },
+      {
+        "question": "Do I need a permit for Cathedral Lakes?",
+        "answer": "No permit for day hiking! Only wilderness permits are required for overnight backpacking. Day hikers just need park admission ($35 vehicle fee). This makes Cathedral Lakes one of the most accessible High Sierra alpine lake experiences."
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "High elevation (9,600 ft)—take it slow if not acclimatized",
+        "Afternoon thunderstorms common July-August—start early",
+        "Mosquitoes brutal in early season (June-July)",
+        "Trail may have snow until late June",
+        "Tioga Road closes in winter—check status"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Cathedral Lakes Hike 2026 | Yosemite High Sierra Alpine Lakes Trail",
+    "meta_description": "Complete guide to hiking Cathedral Lakes in Yosemite's Tuolumne Meadows. Moderate 8-mile trail to pristine alpine lakes beneath Cathedral Peak. Best time to visit, wildflowers, and High Sierra tips."
+  }
+}

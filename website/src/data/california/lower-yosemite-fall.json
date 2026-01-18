@@ -1,0 +1,68 @@
+{
+  "name": "Lower Yosemite Fall",
+  "slug": "lower-yosemite-fall",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 3975,
+  "lat": 37.7447,
+  "lon": -119.5966,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Easy", "Wheelchair Accessible", "Paved", "Family", "Waterfall"],
+
+  "trails": [
+    {
+      "name": "Lower Yosemite Fall Loop",
+      "difficulty": "Easy",
+      "type": "Loop",
+      "stats": {
+        "distance": 1.0,
+        "gain": 50,
+        "time": 0.5,
+        "difficulty": "Easy"
+      },
+      "parking_info": "Yosemite Falls parking or take shuttle. Very accessible.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "Yosemite Falls parking",
+        "coords": [37.7456, -119.5965]
+      },
+      "tags": ["Paved Loop", "Fully Accessible", "320 Feet"],
+
+      "geo": {
+        "markers": {
+          "start": [37.7456, -119.5965],
+          "summit": [37.7447, -119.5966]
+        }
+      }
+    }
+  ],
+
+  "generated_description": "<p>The Lower Yosemite Fall Loop is Yosemite's most accessible waterfall trail—a fully paved, wheelchair-friendly 1-mile loop leading to the base of the iconic 2,425-foot Yosemite Falls. This is the perfect introduction to Yosemite's waterfalls for families, those with limited mobility, or anyone wanting a quick valley experience.</p><p>The trail loops through oak woodland to a viewing area at the base of Lower Yosemite Fall (the 320-foot lower section). In spring, prepare to get soaked from the powerful spray! In summer and fall, the falls may be barely a trickle or completely dry.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How is Lower Yosemite Fall different from Upper Yosemite Fall?",
+        "answer": "Lower Yosemite Fall is the easy 1-mile paved loop to the base (30 minutes, wheelchair accessible). Upper Yosemite Fall is the strenuous 7.2-mile hike to the top (6-8 hours, 2,700 ft gain). Both access the same waterfall system—choose based on your fitness and time."
+      },
+      {
+        "question": "When is Yosemite Falls dry?",
+        "answer": "Lower Yosemite Fall usually has water November-July, peaking in May. By August-September in most years, the falls are completely dry or just a trickle. In drought years, they may dry up by July. For the best experience, visit April-June."
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "Viewing area can be slippery when wet from spray",
+        "Falls completely dry in late summer most years",
+        "Very crowded trail—expect lots of people",
+        "Parking challenging—use shuttle system"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Lower Yosemite Fall Loop 2026 | Easy 1-Mile Wheelchair Accessible Trail",
+    "meta_description": "Complete guide to Lower Yosemite Fall Loop. Easy 1-mile paved trail to base of Yosemite Falls. Fully wheelchair accessible, perfect for all ages. Best time to visit for water flow."
+  }
+}

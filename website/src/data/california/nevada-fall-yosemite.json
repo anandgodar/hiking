@@ -1,0 +1,120 @@
+{
+  "name": "Nevada Fall",
+  "slug": "nevada-fall-yosemite",
+  "state": "California",
+  "state_slug": "california",
+  "elevation": 5900,
+  "lat": 37.7305,
+  "lon": -119.5335,
+  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "tags": ["Waterfall", "Moderate", "Mist Trail", "Popular", "Rainbow Views"],
+
+  "trails": [
+    {
+      "name": "Nevada Fall via Mist Trail",
+      "difficulty": "Moderate",
+      "type": "Out & Back",
+      "stats": {
+        "distance": 6.9,
+        "gain": 2000,
+        "time": 5,
+        "difficulty": "Moderate"
+      },
+      "parking_info": "Happy Isles Trailhead, Yosemite Valley. Use shuttle in summer.",
+      "parking_details": {
+        "fee": "$35 park entrance",
+        "location": "Happy Isles",
+        "coords": [37.7318, -119.5585]
+      },
+      "tags": ["594-foot Fall", "Emerald Pool", "Liberty Cap Views"],
+
+      "geo": {
+        "markers": {
+          "start": [37.7318, -119.5585],
+          "summit": [37.7305, -119.5335]
+        },
+        "path": [
+          [37.7318, -119.5585],
+          [37.7310, -119.5560],
+          [37.7300, -119.5535],
+          [37.7285, -119.5510],
+          [37.7275, -119.5485],
+          [37.7264, -119.5455],
+          [37.7285, -119.5395],
+          [37.7305, -119.5335]
+        ],
+        "chart": [
+          {"distance": 0, "elevation": 4035},
+          {"distance": 1.5, "elevation": 4800},
+          {"distance": 2.7, "elevation": 5900},
+          {"distance": 3.45, "elevation": 5900}
+        ]
+      },
+
+      "features": [
+        {
+          "name": "Vernal Fall Bridge",
+          "type": "viewpoint",
+          "lat": 37.7290,
+          "lon": -119.5490,
+          "mile": 0.8
+        },
+        {
+          "name": "Vernal Fall Top",
+          "type": "waterfall",
+          "lat": 37.7264,
+          "lon": -119.5455,
+          "mile": 2.7
+        },
+        {
+          "name": "Emerald Pool",
+          "type": "water",
+          "lat": 37.7270,
+          "lon": -119.5420,
+          "mile": 2.9
+        },
+        {
+          "name": "Nevada Fall",
+          "type": "waterfall",
+          "lat": 37.7305,
+          "lon": -119.5335,
+          "mile": 3.45
+        }
+      ]
+    }
+  ],
+
+  "generated_description": "<p>Nevada Fall is Yosemite's second-tallest waterfall at 594 feet, nearly twice the height of Vernal Fall. This classic Yosemite hike extends the popular Mist Trail, passing Vernal Fall before climbing to Nevada Fall's dramatic overlook.</p><p>The 6.9-mile round trip rewards hikers with views of two magnificent waterfalls, the tranquil Emerald Pool, Liberty Cap's granite face, and expansive Yosemite backcountry vistas. In spring and early summer, Nevada Fall roars with snowmelt, creating rainbows in its mist.</p>",
+
+  "page_content": {
+    "faqs": [
+      {
+        "question": "Should I hike Nevada Fall or just Vernal Fall?",
+        "answer": "If you have the fitness and time, do Nevada Fall! It adds only 1.2 miles each way beyond Vernal Fall but the views are dramatically better. You get both waterfalls plus high country perspectives. Vernal Fall alone is great for families or shorter time frames."
+      },
+      {
+        "question": "Which route is better: Mist Trail or John Muir Trail?",
+        "answer": "Going UP the Mist Trail and DOWN the John Muir Trail is the best combination. Mist Trail has steep granite stairs that are harder on knees descending. John Muir Trail is longer but more gradual. Most hikers do Mist up, JMT down for a loop."
+      },
+      {
+        "question": "When is Nevada Fall at its best?",
+        "answer": "April through June offers peak flow with maximum spray and rainbows. By late summer (August-September), flow decreases significantly but the trail is less slippery. Spring offers the most dramatic waterfall but requires rain gear."
+      }
+    ],
+    "safety": {
+      "warnings": [
+        "Granite stairs slippery when wet—hundreds of steps",
+        "NEVER swim in Emerald Pool or anywhere above falls—strong currents have swept people over",
+        "Start early—very crowded midday in summer",
+        "Bring 2-3 liters water—limited sources",
+        "Watch for ice on stairs in early season"
+      ],
+      "emergency": "Call 911 or Yosemite Dispatch: 209-379-1992"
+    }
+  },
+
+  "seo": {
+    "meta_title": "Nevada Fall Hike 2026 | Yosemite's 594-Foot Waterfall via Mist Trail",
+    "meta_description": "Complete guide to hiking Nevada Fall in Yosemite National Park. 6.9-mile trail past Vernal Fall to spectacular 594-foot Nevada Fall. Best time to visit, trail conditions & safety tips."
+  }
+}
