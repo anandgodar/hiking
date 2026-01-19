@@ -12,7 +12,9 @@ import SiteFooter from '../../../components/SiteFooter.astro';
 export async function getStaticPaths() {
   // FIXED: Use import.meta.glob instead of Astro.glob
   const allFiles = import.meta.glob('../../../data/*/*.json', { eager: true });
-  const allMountains = Object.values(allFiles).map(f => f.default || f);
+  const allMountains = Object.values(allFiles)
+    .map(f => f.default || f)
+    .filter(m => m && m.name && m.slug); // Filter out blog posts
 
   // --- NORMALIZER ---
   const normalizeTag = (tag) => {

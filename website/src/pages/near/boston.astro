@@ -9,7 +9,9 @@ import MountainCard from '../../components/MountainCard.astro';
 
 // Load all mountains
 const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
-const allMountains = Object.values(allFiles).map(f => f.default || f);
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(m => m && m.name && m.slug); // Filter out blog posts
 
 // Boston coordinates
 const bostonLat = 42.3601;
