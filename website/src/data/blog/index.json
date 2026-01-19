@@ -1,0 +1,87 @@
+{
+  "posts": [
+    {
+      "slug": "hiking-safety-preparation-guide",
+      "title": "Complete Hiking Safety Guide: How to Prepare for Your Next Trail Adventure",
+      "excerpt": "Master essential hiking safety skills and preparation techniques. Learn the 10 essentials, trip planning strategies, weather assessment, and emergency protocols to stay safe on the trail.",
+      "category": "Safety & Preparation",
+      "date": "2026-01-19",
+      "reading_time": "8 min read",
+      "featured_image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["hiking safety", "trail preparation", "hiking tips", "outdoor safety", "beginner hiking"],
+      "featured": true
+    },
+    {
+      "slug": "trail-data-accuracy-why-it-matters",
+      "title": "Why Accurate Trail Data Can Save Your Life: Our Commitment to Data Verification",
+      "excerpt": "Inaccurate trail data isn't just inconvenient—it can be dangerous. Learn why SummitSeeker verifies every trail with official sources and how bad data has led to real emergencies.",
+      "category": "Trail Data & Technology",
+      "date": "2026-01-19",
+      "reading_time": "6 min read",
+      "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["trail data", "hiking safety", "GPS accuracy", "trail information", "data verification"],
+      "featured": true
+    },
+    {
+      "slug": "essential-hiking-gear-guide-2026",
+      "title": "Essential Hiking Gear Guide 2026: What You Really Need (And What You Don't)",
+      "excerpt": "Cut through the marketing hype and discover what hiking gear you actually need. From boots to backpacks, this comprehensive guide covers essential gear for day hiking and backpacking.",
+      "category": "Gear & Equipment",
+      "date": "2026-01-19",
+      "reading_time": "12 min read",
+      "featured_image": "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["hiking gear", "hiking equipment", "backpacking gear", "hiking boots", "hiking essentials", "gear guide"],
+      "featured": false
+    },
+    {
+      "slug": "best-white-mountains-hikes-new-hampshire",
+      "title": "15 Best White Mountains Hikes in New Hampshire: Complete Trail Guide 2026",
+      "excerpt": "Discover the best hikes in New Hampshire's White Mountains, from beginner-friendly trails to challenging 4000-footers. Expert recommendations for every skill level.",
+      "category": "Regional Guides",
+      "date": "2026-01-19",
+      "reading_time": "10 min read",
+      "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["white mountains", "new hampshire hiking", "presidential range", "mount washington", "franconia ridge", "new england hiking"],
+      "featured": true
+    },
+    {
+      "slug": "best-yosemite-day-hikes-california",
+      "title": "10 Best Yosemite Day Hikes: From Easy Walks to Epic Summits",
+      "excerpt": "Discover the best day hikes in Yosemite National Park, from easy valley walks to the iconic Half Dome. Complete guide with permits, difficulty ratings, and insider tips.",
+      "category": "Regional Guides",
+      "date": "2026-01-19",
+      "reading_time": "8 min read",
+      "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["yosemite hiking", "california hiking", "half dome", "yosemite valley", "yosemite trails", "national parks"],
+      "featured": true
+    }
+  ],
+  "categories": [
+    {
+      "name": "Safety & Preparation",
+      "slug": "safety-preparation",
+      "count": 1
+    },
+    {
+      "name": "Trail Data & Technology",
+      "slug": "trail-data-technology",
+      "count": 1
+    },
+    {
+      "name": "Gear & Equipment",
+      "slug": "gear-equipment",
+      "count": 1
+    },
+    {
+      "name": "Regional Guides",
+      "slug": "regional-guides",
+      "count": 2
+    }
+  ],
+  "featured_posts": [
+    "hiking-safety-preparation-guide",
+    "trail-data-accuracy-why-it-matters",
+    "best-white-mountains-hikes-new-hampshire",
+    "best-yosemite-day-hikes-california"
+  ]
+}
