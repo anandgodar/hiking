@@ -13,7 +13,9 @@ import GlobalSearch from '../../components/GlobalSearch.astro';
 
 export async function getStaticPaths() {
   const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
-  const allMountains = Object.values(allFiles).map(f => f.default || f);
+  const allMountains = Object.values(allFiles)
+    .map(f => f.default || f)
+    .filter(m => m && m.name && m.slug); // Filter out blog posts
 
   // Normalize slugs
   const normalizeState = (s) => {
@@ -42,7 +44,9 @@ const { mountains, stateSlug } = Astro.props;
 
 // Search Index - FIXED: Added /hikes/ to URL
 const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
-const allMountains = Object.values(allFiles).map(f => f.default || f);
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(m => m && m.name && m.slug); // Filter out blog posts
 const searchIndex = allMountains.map(m => {
   const sUrl = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
   return {

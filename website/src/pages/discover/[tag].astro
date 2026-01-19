@@ -13,7 +13,9 @@ import SiteFooter from '../../components/SiteFooter.astro';
 export async function getStaticPaths() {
   // FIXED: Use import.meta.glob instead of Astro.glob
   const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
-  const allMountains = Object.values(allFiles).map(f => f.default || f);
+  const allMountains = Object.values(allFiles)
+    .map(f => f.default || f)
+    .filter(m => m && m.name && m.slug); // Filter out blog posts and invalid data
 
   const normalizeTag = (tag) => {
       if (!tag) return '';
@@ -166,7 +168,7 @@ const heroImage = mountains[0]?.mountain_hero || mountains[0]?.image || "https:/
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {stateMountains.map(m => (
-                            <div class="searchable-item" data-name={m.name.toLowerCase()} data-tags={JSON.stringify(m.tags || []).toLowerCase()}>
+                            <div class="searchable-item" data-name={(m.name || '').toLowerCase()} data-tags={JSON.stringify(m.tags || []).toLowerCase()}>
                                 <MountainCard mountain={m} />
                             </div>
                         ))}

@@ -32,23 +32,25 @@ export async function getStaticPaths() {
   // Data is now 3 levels up
   const modules = import.meta.glob('../../../data/*/*.json', { eager: true });
 
-  return Object.entries(modules).map(([path, data]) => {
-    const mountain = data.default || data;
-    // Normalize state_slug
-    let stateSlug = mountain.state_slug || 'new-hampshire';
-    if (stateSlug === 'nh') stateSlug = 'new-hampshire';
-    if (stateSlug === 'me') stateSlug = 'maine';
-    if (stateSlug === 'vt') stateSlug = 'vermont';
-    if (stateSlug === 'ny') stateSlug = 'new-york';
+  return Object.entries(modules)
+    .map(([path, data]) => data.default || data)
+    .filter(mountain => mountain && mountain.slug && mountain.name) // Filter out blog posts
+    .map(mountain => {
+      // Normalize state_slug
+      let stateSlug = mountain.state_slug || 'new-hampshire';
+      if (stateSlug === 'nh') stateSlug = 'new-hampshire';
+      if (stateSlug === 'me') stateSlug = 'maine';
+      if (stateSlug === 'vt') stateSlug = 'vermont';
+      if (stateSlug === 'ny') stateSlug = 'new-york';
 
-    return {
-      params: {
-        state: stateSlug,
-        slug: mountain.slug
-      },
-      props: { mountain: { ...mountain, state_slug: stateSlug } }
-    };
-  });
+      return {
+        params: {
+          state: stateSlug,
+          slug: mountain.slug
+        },
+        props: { mountain: { ...mountain, state_slug: stateSlug } }
+      };
+    });
 }
 
 const { mountain } = Astro.props;
