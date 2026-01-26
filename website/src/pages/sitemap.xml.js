@@ -8,22 +8,45 @@ export async function GET() {
   // 2. Add Homepage with highest priority
   pages.push({ url: `${siteUrl}/`, priority: 1.0, changefreq: 'daily' });
 
+  // 2.1 Add Blog, Guides, and Gear hub pages (high priority for monetization)
+  pages.push({ url: `${siteUrl}/blog`, priority: 0.9, changefreq: 'daily' });
+  pages.push({ url: `${siteUrl}/guides`, priority: 0.85, changefreq: 'weekly' });
+  pages.push({ url: `${siteUrl}/gear`, priority: 0.85, changefreq: 'weekly' });
+
   const states = new Set();
   const discoverTags = new Set();
   const mountainPages = [];
+  const blogPages = [];
+
+  // Normalize State Slug helper
+  const normalizeState = (s) => {
+    if (s === 'nh') return 'new-hampshire';
+    if (s === 'me') return 'maine';
+    if (s === 'vt') return 'vermont';
+    if (s === 'ny') return 'new-york';
+    if (s === 'ca' || s === 'CA') return 'california';
+    return s;
+  };
 
   Object.values(allFiles).forEach(file => {
     const m = file.default;
 
-    // Normalize State Slug
-    const normalizeState = (s) => {
-      if (s === 'nh') return 'new-hampshire';
-      if (s === 'me') return 'maine';
-      if (s === 'vt') return 'vermont';
-      if (s === 'ny') return 'new-york';
-      if (s === 'ca' || s === 'CA') return 'california';
-      return s;
-    };
+    // Skip blog index file
+    if (m.posts || m.categories) return;
+
+    // Handle blog posts (have title and content but no elevation)
+    if (m.title && m.content && !m.elevation && m.slug) {
+      blogPages.push({
+        url: `${siteUrl}/blog/${m.slug}`,
+        priority: 0.8,
+        changefreq: 'weekly',
+        post: m
+      });
+      return;
+    }
+
+    // Skip if no state_slug (not a mountain)
+    if (!m.state_slug) return;
 
     const stateSlug = normalizeState(m.state_slug);
     states.add(stateSlug);
@@ -131,6 +154,22 @@ export async function GET() {
             <image:loc>${escapeXml(m.mountain_hero)}</image:loc>
             <image:title>${escapeXml(m.name)} Trail</image:title>
             <image:caption>Hiking trail to ${escapeXml(m.name)}${m.elevation ? ` summit at ${m.elevation} feet` : ''}</image:caption>
+          </image:image>` : ''}
+        </url>
+        `;
+      }).join('')}
+      ${blogPages.map(page => {
+        const p = page.post;
+        return `
+        <url>
+          <loc>${escapeXml(page.url)}</loc>
+          <lastmod>${p.updated || p.date || lastmod}</lastmod>
+          <changefreq>${page.changefreq}</changefreq>
+          <priority>${page.priority}</priority>${p?.featured_image ? `
+          <image:image>
+            <image:loc>${escapeXml(p.featured_image)}</image:loc>
+            <image:title>${escapeXml(p.title)}</image:title>
+            <image:caption>${escapeXml(p.excerpt || p.title)}</image:caption>
           </image:image>` : ''}
         </url>
         `;

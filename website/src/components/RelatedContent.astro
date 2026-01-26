@@ -1,0 +1,160 @@
+---
+/**
+ * Related Content Component - Internal linking for SEO
+ * Location: src/components/RelatedContent.astro
+ *
+ * Displays related trails, blog posts, or guides for better internal linking
+ * Improves SEO through strategic content interlinking
+ */
+
+interface ContentItem {
+  title: string;
+  url: string;
+  image?: string;
+  type: 'trail' | 'blog' | 'guide' | 'gear';
+  excerpt?: string;
+  meta?: string; // e.g., "5 min read" or "Moderate - 6.2 mi"
+}
+
+interface Props {
+  title?: string;
+  items: ContentItem[];
+  variant?: 'grid' | 'list' | 'sidebar';
+  maxItems?: number;
+}
+
+const {
+  title = "You May Also Like",
+  items,
+  variant = 'grid',
+  maxItems = 4
+} = Astro.props;
+
+const displayItems = items.slice(0, maxItems);
+
+const typeIcons = {
+  trail: '<path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/>',
+  blog: '<path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>',
+  guide: '<path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/>',
+  gear: '<path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>'
+};
+
+const typeLabels = {
+  trail: 'Trail',
+  blog: 'Article',
+  guide: 'Guide',
+  gear: 'Gear'
+};
+
+const typeColors = {
+  trail: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+  blog: 'bg-blue-50 text-blue-700 border-blue-200',
+  guide: 'bg-purple-50 text-purple-700 border-purple-200',
+  gear: 'bg-amber-50 text-amber-700 border-amber-200'
+};
+---
+
+<section class="related-content">
+  <h3 class="text-xl font-bold text-stone-900 mb-6 flex items-center gap-2">
+    <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
+    </svg>
+    {title}
+  </h3>
+
+  {variant === 'grid' && (
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {displayItems.map(item => (
+        <a
+          href={item.url}
+          class="group bg-white border border-stone-200 rounded-xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+        >
+          {item.image && (
+            <div class="aspect-video bg-stone-100 overflow-hidden">
+              <img
+                src={item.image}
+                alt={item.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+          )}
+          <div class="p-4">
+            <div class="flex items-center gap-2 mb-2">
+              <span class={`text-[10px] font-bold px-2 py-0.5 rounded border uppercase ${typeColors[item.type]}`}>
+                {typeLabels[item.type]}
+              </span>
+              {item.meta && (
+                <span class="text-xs text-stone-500">{item.meta}</span>
+              )}
+            </div>
+            <h4 class="font-bold text-stone-900 group-hover:text-emerald-600 transition-colors line-clamp-2">
+              {item.title}
+            </h4>
+            {item.excerpt && (
+              <p class="text-sm text-stone-600 mt-1 line-clamp-2">{item.excerpt}</p>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+  )}
+
+  {variant === 'list' && (
+    <div class="space-y-3">
+      {displayItems.map(item => (
+        <a
+          href={item.url}
+          class="group flex items-center gap-4 p-3 bg-white border border-stone-200 rounded-lg hover:border-emerald-300 hover:shadow-md transition-all"
+        >
+          {item.image && (
+            <img
+              src={item.image}
+              alt={item.title}
+              class="w-16 h-16 object-cover rounded-lg flex-shrink-0"
+              loading="lazy"
+            />
+          )}
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-2 mb-1">
+              <svg class="w-4 h-4 text-stone-400" fill="currentColor" viewBox="0 0 24 24" set:html={typeIcons[item.type]} />
+              <span class="text-xs text-stone-500">{typeLabels[item.type]}</span>
+            </div>
+            <h4 class="font-medium text-stone-900 group-hover:text-emerald-600 transition-colors truncate">
+              {item.title}
+            </h4>
+            {item.meta && (
+              <p class="text-xs text-stone-500 mt-0.5">{item.meta}</p>
+            )}
+          </div>
+          <svg class="w-5 h-5 text-stone-300 group-hover:text-emerald-500 group-hover:translate-x-1 transition-all flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      ))}
+    </div>
+  )}
+
+  {variant === 'sidebar' && (
+    <div class="space-y-4">
+      {displayItems.map(item => (
+        <a
+          href={item.url}
+          class="group block p-3 bg-stone-50 hover:bg-emerald-50 rounded-lg border border-stone-100 hover:border-emerald-200 transition-all"
+        >
+          <div class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-emerald-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" set:html={typeIcons[item.type]} />
+            <div>
+              <h4 class="font-medium text-stone-900 group-hover:text-emerald-700 transition-colors text-sm leading-tight">
+                {item.title}
+              </h4>
+              {item.meta && (
+                <p class="text-xs text-stone-500 mt-1">{item.meta}</p>
+              )}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  )}
+</section>

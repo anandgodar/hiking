@@ -1,0 +1,164 @@
+---
+/**
+ * Blog Index Page - SEO-optimized blog listing
+ * Location: src/pages/blog/index.astro
+ *
+ * Lists all blog posts with filtering by category
+ * Implements proper schema markup for better search visibility
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import BlogCard from '../../components/BlogCard.astro';
+
+// Load blog index
+const blogIndex = await import('../../data/blog/index.json');
+const posts = blogIndex.posts || [];
+const categories = blogIndex.categories || [];
+const featuredSlugs = blogIndex.featured_posts || [];
+
+// Load full blog post data for featured posts
+const allBlogFiles = import.meta.glob('../../data/blog/*.json', { eager: true });
+const blogPosts = Object.values(allBlogFiles)
+  .map(f => f.default || f)
+  .filter(p => p && p.slug && p.title);
+
+// Get featured posts
+const featuredPosts = posts.filter(p => featuredSlugs.includes(p.slug)).slice(0, 2);
+const regularPosts = posts.filter(p => !featuredSlugs.includes(p.slug) || featuredPosts.length >= 2);
+
+// Schema for blog listing
+const blogListingSchema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "SummitSeeker Hiking Blog",
+  "description": "Expert hiking guides, gear reviews, safety tips, and trail recommendations from the SummitSeeker team.",
+  "url": "https://summitseeker.io/blog",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Summit Seeker",
+    "url": "https://summitseeker.io",
+    "logo": "https://summitseeker.io/favicon.svg"
+  },
+  "blogPost": posts.slice(0, 10).map(post => ({
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.excerpt,
+    "datePublished": post.date,
+    "url": `https://summitseeker.io/blog/${post.slug}`,
+    "image": post.featured_image
+  }))
+};
+---
+
+<Layout
+  title="Hiking Blog | Trail Guides, Gear Reviews & Safety Tips | SummitSeeker"
+  description="Expert hiking guides, gear reviews, trail safety tips, and regional recommendations. Everything you need to plan your next adventure from the SummitSeeker team."
+>
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(blogListingSchema)} />
+
+  <!-- Hero Section -->
+  <div class="relative bg-gradient-to-br from-stone-900 via-stone-800 to-emerald-900 py-20">
+    <div class="absolute inset-0 opacity-20">
+      <img
+        src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=2000"
+        alt="Hiking trail through forest"
+        class="w-full h-full object-cover"
+      />
+    </div>
+    <div class="relative max-w-7xl mx-auto px-4 text-center">
+      <p class="text-emerald-400 text-sm font-bold uppercase tracking-widest mb-4">
+        SummitSeeker Blog
+      </p>
+      <h1 class="text-4xl md:text-5xl font-black text-white mb-4">
+        Trail Guides, Gear & Safety
+      </h1>
+      <p class="text-stone-300 text-lg max-w-2xl mx-auto">
+        Expert hiking advice, regional trail guides, gear reviews, and safety tips to help you explore confidently.
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Featured Posts -->
+      {featuredPosts.length > 0 && (
+        <section class="mb-16">
+          <div class="flex items-center gap-3 mb-8">
+            <svg class="w-6 h-6 text-emerald-600" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+            </svg>
+            <h2 class="text-2xl font-bold text-stone-900">Featured Articles</h2>
+          </div>
+          <div class="grid md:grid-cols-2 gap-6">
+            {featuredPosts.map(post => (
+              <BlogCard post={post} variant="featured" />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Category Filter -->
+      <section class="mb-12">
+        <div class="flex flex-wrap items-center gap-3">
+          <span class="text-sm font-medium text-stone-600">Filter by:</span>
+          <a
+            href="/blog"
+            class="px-4 py-2 bg-emerald-600 text-white text-sm font-bold rounded-full hover:bg-emerald-700 transition-colors"
+          >
+            All Posts
+          </a>
+          {categories.map(cat => (
+            <a
+              href={`/blog/category/${cat.slug}`}
+              class="px-4 py-2 bg-white text-stone-700 text-sm font-medium rounded-full border border-stone-200 hover:border-emerald-300 hover:text-emerald-600 transition-colors"
+            >
+              {cat.name} ({cat.count})
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- All Posts Grid -->
+      <section>
+        <h2 class="text-2xl font-bold text-stone-900 mb-8">Latest Articles</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {posts.map(post => (
+            <BlogCard post={post} variant="default" />
+          ))}
+        </div>
+      </section>
+
+      <!-- Newsletter CTA -->
+      <section class="mt-16 bg-gradient-to-br from-emerald-600 to-emerald-800 rounded-2xl p-8 md:p-12 text-center">
+        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
+          Get Trail Updates in Your Inbox
+        </h3>
+        <p class="text-emerald-100 mb-6 max-w-xl mx-auto">
+          Join thousands of hikers receiving weekly trail recommendations, gear deals, and safety tips.
+        </p>
+        <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="flex-1 px-4 py-3 rounded-lg text-stone-900 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-white"
+          />
+          <button
+            type="submit"
+            class="px-6 py-3 bg-white text-emerald-700 font-bold rounded-lg hover:bg-emerald-50 transition-colors"
+          >
+            Subscribe
+          </button>
+        </form>
+        <p class="text-emerald-200 text-xs mt-4">
+          No spam. Unsubscribe anytime.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <SiteFooter />
+</Layout>

@@ -1,0 +1,91 @@
+---
+/**
+ * Article Schema Component - SEO structured data for blog/guide content
+ * Location: src/components/ArticleSchema.astro
+ *
+ * Generates Article schema markup for blog posts and guides
+ * for better search engine visibility and rich snippets
+ */
+
+interface Props {
+  article: {
+    title: string;
+    slug: string;
+    author?: string;
+    date: string;
+    updated?: string;
+    excerpt: string;
+    featured_image?: string;
+    category?: string;
+    tags?: string[];
+    reading_time?: string;
+    seo?: {
+      meta_description?: string;
+      keywords?: string[];
+    };
+  };
+  type?: 'Article' | 'BlogPosting' | 'HowTo' | 'Guide';
+  url: string;
+}
+
+const { article, type = 'BlogPosting', url } = Astro.props;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": type,
+  "headline": article.title,
+  "description": article.seo?.meta_description || article.excerpt,
+  "image": article.featured_image ? [article.featured_image] : undefined,
+  "datePublished": article.date,
+  "dateModified": article.updated || article.date,
+  "author": {
+    "@type": "Organization",
+    "name": article.author || "SummitSeeker Team",
+    "url": "https://summitseeker.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Summit Seeker",
+    "url": "https://summitseeker.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://summitseeker.io/favicon.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": url
+  },
+  "keywords": article.seo?.keywords?.join(', ') || article.tags?.join(', '),
+  "articleSection": article.category,
+  "wordCount": article.reading_time ? parseInt(article.reading_time) * 200 : undefined
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://summitseeker.io"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": type === 'BlogPosting' ? "Blog" : "Guides",
+      "item": type === 'BlogPosting' ? "https://summitseeker.io/blog" : "https://summitseeker.io/guides"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": article.title,
+      "item": url
+    }
+  ]
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
