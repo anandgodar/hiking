@@ -1,15 +1,48 @@
 {
   "posts": [
     {
-      "slug": "how-to-read-usgs-maps",
-      "title": "How to Read USGS Topographic Maps: A Complete Guide for Hikers",
-      "excerpt": "Master the art of reading USGS topographic maps. Learn to interpret contour lines, symbols, and elevation data to navigate trails confidently and plan safer hikes.",
-      "category": "Trail Data & Technology",
-      "date": "2026-01-20",
-      "reading_time": "10 min read",
-      "featured_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=2000",
-      "tags": ["USGS maps", "topographic maps", "map reading", "navigation", "hiking skills", "trail navigation"],
+      "slug": "best-fall-foliage-hikes-new-england",
+      "title": "15 Best Fall Foliage Hikes in New England for 2026",
+      "excerpt": "Discover the most stunning autumn hiking trails across New England. From easy walks to challenging peaks, find the perfect fall foliage hike with peak timing and tips.",
+      "category": "Regional Guides",
+      "date": "2026-01-15",
+      "reading_time": "8 min read",
+      "featured_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["fall foliage", "autumn hiking", "New England", "best hikes", "seasonal"],
+      "featured": true
+    },
+    {
+      "slug": "dog-friendly-hikes-white-mountains",
+      "title": "12 Best Dog-Friendly Hikes in the White Mountains",
+      "excerpt": "Planning a hike with your four-legged friend? These White Mountain trails welcome dogs and offer terrain suitable for canine companions of all fitness levels.",
+      "category": "Regional Guides",
+      "date": "2026-01-10",
+      "reading_time": "7 min read",
+      "featured_image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["dog-friendly", "White Mountains", "New Hampshire", "pet hiking", "family"],
       "featured": false
+    },
+    {
+      "slug": "easy-hikes-amazing-views-new-hampshire",
+      "title": "10 Easy Hikes with Amazing Views in New Hampshire",
+      "excerpt": "You don't need to climb a 4,000-footer to get incredible views in NH. These beginner-friendly trails offer stunning scenery without the extreme effort.",
+      "category": "Regional Guides",
+      "date": "2026-01-08",
+      "reading_time": "6 min read",
+      "featured_image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["easy hikes", "beginner", "New Hampshire", "views", "family-friendly"],
+      "featured": false
+    },
+    {
+      "slug": "winter-hiking-gear-checklist",
+      "title": "Winter Hiking Gear Checklist: What You Actually Need",
+      "excerpt": "A comprehensive guide to winter hiking gear for New England conditions. From microspikes to insulated boots, learn what's essential vs. optional for safe winter hiking.",
+      "category": "Gear & Equipment",
+      "date": "2026-01-05",
+      "reading_time": "10 min read",
+      "featured_image": "https://images.unsplash.com/photo-1478719059408-592965723cbc?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["winter hiking", "gear", "checklist", "safety", "equipment"],
+      "featured": true
     },
     {
       "slug": "hiking-safety-preparation-guide",
@@ -31,7 +64,7 @@
       "reading_time": "6 min read",
       "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
       "tags": ["trail data", "hiking safety", "GPS accuracy", "trail information", "data verification"],
-      "featured": true
+      "featured": false
     },
     {
       "slug": "essential-hiking-gear-guide-2026",
@@ -53,7 +86,7 @@
       "reading_time": "10 min read",
       "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
       "tags": ["white mountains", "new hampshire hiking", "presidential range", "mount washington", "franconia ridge", "new england hiking"],
-      "featured": true
+      "featured": false
     },
     {
       "slug": "best-yosemite-day-hikes-california",
@@ -64,7 +97,7 @@
       "reading_time": "8 min read",
       "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
       "tags": ["yosemite hiking", "california hiking", "half dome", "yosemite valley", "yosemite trails", "national parks"],
-      "featured": true
+      "featured": false
     }
   ],
   "categories": [
@@ -81,18 +114,17 @@
     {
       "name": "Gear & Equipment",
       "slug": "gear-equipment",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Regional Guides",
       "slug": "regional-guides",
-      "count": 2
+      "count": 5
     }
   ],
   "featured_posts": [
-    "hiking-safety-preparation-guide",
-    "trail-data-accuracy-why-it-matters",
-    "best-white-mountains-hikes-new-hampshire",
-    "best-yosemite-day-hikes-california"
+    "best-fall-foliage-hikes-new-england",
+    "winter-hiking-gear-checklist",
+    "hiking-safety-preparation-guide"
   ]
 }

@@ -1,0 +1,278 @@
+---
+/**
+ * Best Hikes Near New York City
+ * High-value SEO landing page targeting "hiking near NYC" (5,400 searches/month)
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(m => m && m.name && m.slug && m.lat && m.lon);
+
+// NYC coordinates (Midtown Manhattan)
+const nycLat = 40.7580;
+const nycLon = -73.9855;
+
+// Calculate distance from NYC
+const calculateDistance = (lat, lon) => {
+  const R = 3959;
+  const dLat = (lat - nycLat) * Math.PI / 180;
+  const dLon = (lon - nycLon) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(nycLat * Math.PI / 180) * Math.cos(lat * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Filter trails within 200 miles of NYC and sort by distance
+const nearbyHikes = allMountains
+  .map(m => ({
+    ...m,
+    distance: calculateDistance(m.lat, m.lon),
+    driveTime: Math.round(calculateDistance(m.lat, m.lon) / 45 * 60)
+  }))
+  .filter(m => m.distance <= 200)
+  .sort((a, b) => a.distance - b.distance);
+
+// Top picks by category
+const closestHikes = nearbyHikes.slice(0, 6);
+const catskillHikes = nearbyHikes.filter(m =>
+  m.tags?.some(tag => tag.toLowerCase().includes('catskill')) ||
+  m.state_slug === 'ny'
+).slice(0, 6);
+const hudsonValleyHikes = nearbyHikes.filter(m => m.distance < 80).slice(0, 6);
+
+// Normalize state slug
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  if (s === 'ca') return 'california';
+  return s;
+};
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best hiking near NYC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best hiking near NYC includes the Catskill Mountains (2-3 hours), Harriman State Park (1 hour), and the Hudson Highlands. Popular trails include Breakneck Ridge, Bear Mountain, and Slide Mountain in the Catskills."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far are the Catskill Mountains from NYC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Catskill Mountains are approximately 100-130 miles from NYC, making them a 2-3 hour drive depending on traffic. They're perfect for day trips or weekend getaways from the city."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you do a day hike from NYC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Many excellent hikes are within 1-2 hours of NYC. Harriman State Park, Bear Mountain, and Breakneck Ridge are all popular day trip destinations accessible by car or Metro-North train."
+      }
+    }
+  ]
+};
+---
+
+<Layout
+  title="Best Hikes Near NYC 2026 | 40+ Trails Within 3 Hours of New York City"
+  description="Discover the best hiking trails near NYC. From Catskills to Hudson Valley, find 40+ day hikes within 1-3 hours of Manhattan. Includes drive times, difficulty ratings & trail maps."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+
+  <!-- Hero Section -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&q=80&w=2000"
+        class="w-full h-full object-cover"
+        alt="Hiking trails near New York City with Hudson Valley views"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Hikes Near NYC</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-orange-500/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} Trails Within 200 Miles
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-orange-400">NYC</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        Escape the city! {nearbyHikes.length} incredible hiking trails from the Catskills to the Hudson Valley, all within a day's reach of Manhattan.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 text-sm">
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Closest:</span> <span class="text-white font-bold">{Math.round(closestHikes[0]?.distance || 0)} miles</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Drive Time:</span> <span class="text-white font-bold">1-3 hrs</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Intro -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Hiking from New York City</h2>
+        <p class="text-stone-700 leading-relaxed">
+          New York City might be concrete jungle, but incredible hiking awaits just outside. The Catskill Mountains,
+          Hudson Highlands, and Harriman State Park offer everything from easy riverside walks to challenging
+          peak-bagging adventures—all accessible for a day trip.
+        </p>
+        <p class="text-stone-700 leading-relaxed">
+          Many trails are even reachable by Metro-North, making car-free hiking possible. Whether you're training for
+          bigger mountains or just need to escape the city, these {nearbyHikes.length} trails have you covered.
+        </p>
+      </div>
+
+      <!-- Closest Hikes -->
+      {closestHikes.length > 0 && (
+        <section class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-orange-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⚡</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Closest Trails to NYC</h2>
+              <p class="text-stone-600">Quick escapes from the city</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {closestHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                  {mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Catskill Hikes -->
+      {catskillHikes.length > 0 && (
+        <section class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🏔️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Catskills & Upstate NY</h2>
+              <p class="text-stone-600">The best mountain hiking near NYC</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {catskillHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Trails -->
+      <section id="all" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-purple-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📍</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All {nearbyHikes.length} Trails Near NYC</h2>
+            <p class="text-stone-600">Sorted by distance from Manhattan</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {nearbyHikes.slice(0, 32).map(mountain => (
+            <div class="relative">
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+              <div class="absolute bottom-4 left-4 bg-black/70 text-white px-2 py-1 rounded text-xs font-bold">
+                {Math.round(mountain.distance)} mi
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="bg-white rounded-2xl p-8 shadow-lg border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What's the best hiking near NYC for beginners?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              For beginners, try Bear Mountain (easy with great views), Anthony's Nose (moderate with Hudson views),
+              or trails in Harriman State Park. These offer manageable distances and elevations while still providing
+              that escape-from-the-city feeling.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Can I take the train to go hiking from NYC?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Yes! Metro-North's Hudson Line provides access to several trailheads. Breakneck Ridge (Cold Spring station)
+              and Bear Mountain are popular train-accessible hikes. Check the MTA website for weekend schedules.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>How far are the Catskill Mountains from NYC?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The Catskill Mountains are about 100-130 miles from Manhattan, roughly a 2-3 hour drive depending on traffic.
+              Leave early on weekends to avoid George Washington Bridge congestion.
+            </div>
+          </details>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>

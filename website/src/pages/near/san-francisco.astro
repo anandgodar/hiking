@@ -1,0 +1,209 @@
+---
+/**
+ * Best Hikes Near San Francisco
+ * High-value SEO landing page targeting "hiking near San Francisco" (3,600 searches/month)
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(m => m && m.name && m.slug && m.lat && m.lon);
+
+// San Francisco coordinates
+const sfLat = 37.7749;
+const sfLon = -122.4194;
+
+// Calculate distance from SF
+const calculateDistance = (lat, lon) => {
+  const R = 3959;
+  const dLat = (lat - sfLat) * Math.PI / 180;
+  const dLon = (lon - sfLon) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(sfLat * Math.PI / 180) * Math.cos(lat * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Filter California trails and sort by distance from SF
+const nearbyHikes = allMountains
+  .filter(m => m.state_slug === 'ca' || m.state_slug === 'california')
+  .map(m => ({
+    ...m,
+    distance: calculateDistance(m.lat, m.lon),
+    driveTime: Math.round(calculateDistance(m.lat, m.lon) / 50 * 60)
+  }))
+  .sort((a, b) => a.distance - b.distance);
+
+// Yosemite hikes specifically
+const yosemiteHikes = nearbyHikes.filter(m =>
+  m.name?.toLowerCase().includes('yosemite') ||
+  m.tags?.some(tag => tag.toLowerCase().includes('yosemite'))
+);
+
+// Normalize state slug
+const normalizeState = (s) => {
+  if (s === 'ca') return 'california';
+  return s;
+};
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How far is Yosemite from San Francisco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yosemite National Park is approximately 170-200 miles from San Francisco, about a 3-4 hour drive. The park is accessible year-round, though some roads close in winter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best day hikes near San Francisco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Popular day hikes near SF include Mission Peak (East Bay), Mount Tamalpais (Marin), Muir Woods, and Point Reyes. For longer trips, Yosemite offers incredible day hiking options like Mist Trail and Sentinel Dome."
+      }
+    }
+  ]
+};
+---
+
+<Layout
+  title="Best Hikes Near San Francisco 2026 | Yosemite & Bay Area Trails"
+  description="Discover the best hiking trails near San Francisco. From Yosemite day trips to Bay Area gems, find California's best hikes within driving distance of SF."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+
+  <!-- Hero Section -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=2000"
+        class="w-full h-full object-cover"
+        alt="Yosemite Valley hiking trails near San Francisco California"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Hikes Near San Francisco</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-amber-500/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} California Trails
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-amber-400">San Francisco</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        From Yosemite day trips to Bay Area gems, discover California's best trails accessible from SF
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Intro -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Hiking from the Bay Area</h2>
+        <p class="text-stone-700 leading-relaxed">
+          San Francisco's location provides incredible access to some of California's most iconic hiking.
+          Yosemite National Park is just 3-4 hours away, while closer options like Mount Tamalpais,
+          Mission Peak, and Point Reyes offer quick escapes from the city.
+        </p>
+        <p class="text-stone-700 leading-relaxed">
+          Whether you're looking for a morning hike before brunch or planning a Yosemite adventure,
+          these trails showcase the best of Northern California's diverse landscapes.
+        </p>
+      </div>
+
+      <!-- Yosemite Section -->
+      {yosemiteHikes.length > 0 && (
+        <section class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-amber-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🏔️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Yosemite Day Hikes</h2>
+              <p class="text-stone-600">World-class hiking, 3-4 hours from SF</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {yosemiteHikes.slice(0, 6).map(mountain => (
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All California Trails -->
+      <section id="all" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🥾</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All California Trails</h2>
+            <p class="text-stone-600">Sorted by distance from San Francisco</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {nearbyHikes.map(mountain => (
+            <div class="relative">
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+              <div class="absolute bottom-4 left-4 bg-black/70 text-white px-2 py-1 rounded text-xs font-bold">
+                {Math.round(mountain.distance)} mi • {mountain.driveTime} min
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Tips Section -->
+      <section class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-200">
+        <h2 class="text-2xl font-bold text-stone-900 mb-6">Tips for Hiking from SF</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3">Yosemite Day Trip Tips</h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Leave by 5-6am to maximize trail time</li>
+              <li>• Check road conditions in winter (chains may be required)</li>
+              <li>• Reserve parking/entrance in advance (required in summer)</li>
+              <li>• Pack lunch—Valley restaurants get crowded</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3">Bay Area Hiking</h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Mission Peak and Mount Tam are great for sunrise</li>
+              <li>• Summer fog is common—bring layers</li>
+              <li>• Parking fills early on weekends</li>
+              <li>• Carry plenty of water—it gets hot inland</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>
