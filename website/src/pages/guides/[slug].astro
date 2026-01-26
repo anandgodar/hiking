@@ -1,0 +1,195 @@
+---
+/**
+ * Individual Guide Page
+ * Location: src/pages/guides/[slug].astro
+ *
+ * Dynamic route for detailed hiking guides
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+import guidesData from '../../data/guides/index.json';
+
+export function getStaticPaths() {
+  return Object.keys(guidesData).map(slug => ({
+    params: { slug },
+    props: { guide: guidesData[slug], slug }
+  }));
+}
+
+const { guide, slug } = Astro.props;
+
+// Load related trails if they exist
+const allMountains = await import.meta.glob('../../data/*/*.json', { eager: true });
+const relatedTrails = [];
+
+if (guide.relatedTrails) {
+  for (const trailSlug of guide.relatedTrails) {
+    for (const path in allMountains) {
+      const m = allMountains[path].default || allMountains[path];
+      if (m.slug === trailSlug) {
+        relatedTrails.push(m);
+        break;
+      }
+    }
+  }
+}
+
+const canonicalUrl = `https://summitseeker.io/guides/${slug}`;
+
+// Article schema for SEO
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": guide.title,
+  "description": guide.excerpt,
+  "image": guide.image,
+  "author": {
+    "@type": "Organization",
+    "name": "Summit Seeker"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Summit Seeker",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://summitseeker.io/favicon.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalUrl
+  }
+};
+---
+
+<Layout
+  title={`${guide.title} | SummitSeeker Guides`}
+  description={guide.excerpt}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <!-- Hero Section -->
+  <div class="relative">
+    <div class="aspect-[3/1] md:aspect-[4/1] overflow-hidden">
+      <img
+        src={guide.image}
+        alt={guide.title}
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/50 to-transparent"></div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 pb-8 md:pb-12">
+      <div class="max-w-4xl mx-auto px-4">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-sm text-white/70 mb-4">
+          <a href="/" class="hover:text-white transition-colors">Home</a>
+          <span>/</span>
+          <a href="/guides" class="hover:text-white transition-colors">Guides</a>
+          <span>/</span>
+          <span class="text-white/50 truncate">{guide.title}</span>
+        </nav>
+
+        <div class="flex flex-wrap items-center gap-3 mb-4">
+          <span class="px-3 py-1 bg-purple-600 text-white text-xs font-bold rounded-full">
+            {guide.region}
+          </span>
+          <span class="px-3 py-1 bg-white/20 backdrop-blur text-white text-xs font-bold rounded-full">
+            {guide.difficulty}
+          </span>
+        </div>
+
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight">
+          {guide.title}
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="bg-white py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <article class="prose prose-lg prose-stone max-w-none">
+        {guide.content.introduction && (
+          <div class="lead text-xl text-stone-600 mb-10" set:html={guide.content.introduction} />
+        )}
+
+        {guide.content.sections?.map((section, index) => (
+          <section class="mb-10">
+            <h2 class="text-2xl font-bold text-stone-900 mb-4">{section.heading}</h2>
+            <div set:html={section.content} />
+          </section>
+        ))}
+      </article>
+
+      {/* Explore Trails CTA */}
+      <div class="mt-12 p-6 bg-emerald-50 rounded-xl border border-emerald-200">
+        <h3 class="text-lg font-bold text-stone-900 mb-2">Ready to Explore?</h3>
+        <p class="text-stone-600 mb-4">
+          Browse all trails in {guide.region} on SummitSeeker.
+        </p>
+        <a
+          href={`/${guide.state_slug}`}
+          class="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-colors"
+        >
+          View {guide.region} Trails
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+
+      {/* Related Trails */}
+      {relatedTrails.length > 0 && (
+        <section class="mt-16">
+          <h2 class="text-2xl font-bold text-stone-900 mb-6">Featured Trails from This Guide</h2>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {relatedTrails.map(trail => (
+              <MountainCard mountain={trail} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Back to Guides */}
+      <div class="mt-12 pt-8 border-t border-stone-200">
+        <a
+          href="/guides"
+          class="inline-flex items-center gap-2 text-purple-600 font-medium hover:text-purple-700 transition-colors"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+          </svg>
+          Back to All Guides
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <SiteFooter />
+</Layout>
+
+<style is:global>
+  .prose a {
+    color: #059669;
+    transition: color 0.15s ease;
+  }
+
+  .prose a:hover {
+    color: #047857;
+  }
+
+  .prose ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .prose li {
+    color: #57534e;
+  }
+
+  .prose strong {
+    color: #1c1917;
+  }
+</style>

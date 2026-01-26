@@ -13,6 +13,21 @@ export async function GET() {
   pages.push({ url: `${siteUrl}/guides`, priority: 0.85, changefreq: 'weekly' });
   pages.push({ url: `${siteUrl}/gear`, priority: 0.85, changefreq: 'weekly' });
 
+  // 2.2 Add individual guide pages
+  const guideSlugs = [
+    'white-mountains-complete-guide',
+    'acadia-national-park-guide',
+    'vermont-long-trail-guide',
+    'california-day-hikes-guide',
+    'nh-4000-footers-guide',
+    'adirondack-46ers-guide',
+    'winter-hiking-new-england',
+    'fall-foliage-hiking-guide'
+  ];
+  guideSlugs.forEach(slug => {
+    pages.push({ url: `${siteUrl}/guides/${slug}`, priority: 0.8, changefreq: 'weekly' });
+  });
+
   const states = new Set();
   const discoverTags = new Set();
   const mountainPages = [];
