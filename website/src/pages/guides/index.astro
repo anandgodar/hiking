@@ -1,0 +1,251 @@
+---
+/**
+ * Guides Index Page - Ultimate Hiking Guides Hub
+ * Location: src/pages/guides/index.astro
+ *
+ * Comprehensive guides section for in-depth hiking resources
+ * Targets high-value SEO keywords like "complete guide to hiking [region]"
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+
+// Define guide categories
+const guideCategories = [
+  {
+    title: "Regional Guides",
+    description: "Complete hiking guides for specific regions and mountain ranges",
+    icon: "location",
+    guides: [
+      {
+        title: "Complete Guide to White Mountains Hiking",
+        slug: "white-mountains-complete-guide",
+        region: "New Hampshire",
+        excerpt: "Everything you need to know about hiking in the White Mountains, from beginner trails to challenging 4000-footers.",
+        image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=800",
+        difficulty: "All Levels",
+        trails: "56+ trails"
+      },
+      {
+        title: "Acadia National Park Hiking Guide",
+        slug: "acadia-national-park-guide",
+        region: "Maine",
+        excerpt: "Discover the best trails in Acadia, from easy shoreline walks to challenging ladder trails.",
+        image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
+        difficulty: "All Levels",
+        trails: "28+ trails"
+      },
+      {
+        title: "Vermont's Long Trail Guide",
+        slug: "vermont-long-trail-guide",
+        region: "Vermont",
+        excerpt: "Explore America's first long-distance hiking trail, from day hikes to thru-hiking the entire 272 miles.",
+        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=800",
+        difficulty: "Moderate-Expert",
+        trails: "24+ trails"
+      },
+      {
+        title: "California's Best Day Hikes",
+        slug: "california-day-hikes-guide",
+        region: "California",
+        excerpt: "From Yosemite to Joshua Tree, the ultimate guide to day hiking in the Golden State.",
+        image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+        difficulty: "All Levels",
+        trails: "15+ trails"
+      }
+    ]
+  },
+  {
+    title: "Peak Bagging Guides",
+    description: "Complete lists and strategies for peak bagging challenges",
+    icon: "mountain",
+    guides: [
+      {
+        title: "NH 4000 Footers Complete Guide",
+        slug: "nh-4000-footers-guide",
+        region: "New Hampshire",
+        excerpt: "The definitive guide to completing all 48 New Hampshire 4000-footers, with strategies and tips.",
+        image: "https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=800",
+        difficulty: "Moderate-Expert",
+        trails: "48 peaks"
+      },
+      {
+        title: "Adirondack 46ers Guide",
+        slug: "adirondack-46ers-guide",
+        region: "New York",
+        excerpt: "Join the elite 46ers by summiting all 46 Adirondack High Peaks over 4,000 feet.",
+        image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
+        difficulty: "Moderate-Expert",
+        trails: "46 peaks"
+      }
+    ]
+  },
+  {
+    title: "Seasonal Guides",
+    description: "Season-specific hiking advice and trail recommendations",
+    icon: "calendar",
+    guides: [
+      {
+        title: "Winter Hiking in New England",
+        slug: "winter-hiking-new-england",
+        region: "New England",
+        excerpt: "Everything you need to know about safe winter hiking, from gear to navigation to emergency preparedness.",
+        image: "https://images.unsplash.com/photo-1478719059408-592965723cbc?auto=format&fit=crop&q=80&w=800",
+        difficulty: "Advanced",
+        trails: "Season Guide"
+      },
+      {
+        title: "Fall Foliage Hiking Guide",
+        slug: "fall-foliage-hiking-guide",
+        region: "Northeast",
+        excerpt: "The best trails for fall colors, peak timing predictions, and how to avoid the crowds.",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800",
+        difficulty: "All Levels",
+        trails: "Season Guide"
+      }
+    ]
+  }
+];
+
+// Icon SVG paths
+const iconPaths = {
+  location: '<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>',
+  mountain: '<path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/>',
+  calendar: '<path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"/>'
+};
+
+// Guides listing schema
+const guidesSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Ultimate Hiking Guides",
+  "description": "Comprehensive hiking guides for trails across America. Regional guides, peak bagging lists, and seasonal advice.",
+  "url": "https://summitseeker.io/guides",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Summit Seeker",
+    "url": "https://summitseeker.io"
+  }
+};
+---
+
+<Layout
+  title="Ultimate Hiking Guides | Regional Trails, Peak Bagging & Seasonal Tips | SummitSeeker"
+  description="Comprehensive hiking guides for trails across America. Complete guides to the White Mountains, NH 4000 Footers, Acadia, and more. Expert advice for every season."
+>
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(guidesSchema)} />
+
+  <!-- Hero Section -->
+  <div class="relative bg-gradient-to-br from-purple-900 via-purple-800 to-emerald-900 py-20">
+    <div class="absolute inset-0 opacity-20">
+      <img
+        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000"
+        alt="Mountain peaks and hiking trails"
+        class="w-full h-full object-cover"
+      />
+    </div>
+    <div class="relative max-w-7xl mx-auto px-4 text-center">
+      <p class="text-purple-300 text-sm font-bold uppercase tracking-widest mb-4">
+        SummitSeeker Guides
+      </p>
+      <h1 class="text-4xl md:text-5xl font-black text-white mb-4">
+        Ultimate Hiking Guides
+      </h1>
+      <p class="text-purple-100 text-lg max-w-2xl mx-auto">
+        In-depth guides to help you plan epic adventures. From regional trail guides to peak bagging strategies and seasonal advice.
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      {guideCategories.map(category => (
+        <section class="mb-16">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 bg-purple-100 rounded-xl flex items-center justify-center">
+              <svg class="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 24 24" set:html={iconPaths[category.icon]} />
+            </div>
+            <h2 class="text-2xl font-bold text-stone-900">{category.title}</h2>
+          </div>
+          <p class="text-stone-600 mb-8 ml-13">{category.description}</p>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            {category.guides.map(guide => (
+              <a
+                href={`/guides/${guide.slug}`}
+                class="group bg-white rounded-2xl overflow-hidden border border-stone-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+              >
+                <div class="aspect-video overflow-hidden relative">
+                  <img
+                    src={guide.image}
+                    alt={guide.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    loading="lazy"
+                  />
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                  <div class="absolute bottom-4 left-4 right-4">
+                    <span class="inline-block px-3 py-1 bg-white/20 backdrop-blur-sm text-white text-xs font-bold rounded-full mb-2">
+                      {guide.region}
+                    </span>
+                    <h3 class="text-xl font-bold text-white group-hover:text-purple-200 transition-colors">
+                      {guide.title}
+                    </h3>
+                  </div>
+                </div>
+                <div class="p-5">
+                  <p class="text-stone-600 mb-4 line-clamp-2">{guide.excerpt}</p>
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-4 text-sm text-stone-500">
+                      <span class="flex items-center gap-1">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/>
+                        </svg>
+                        {guide.trails}
+                      </span>
+                      <span class="flex items-center gap-1">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                        {guide.difficulty}
+                      </span>
+                    </div>
+                    <span class="text-purple-600 font-bold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                      Read Guide
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+
+      <!-- Request a Guide CTA -->
+      <section class="bg-gradient-to-br from-purple-600 to-purple-800 rounded-2xl p-8 md:p-12 text-center mt-16">
+        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
+          Need a Guide for Your Area?
+        </h3>
+        <p class="text-purple-100 mb-6 max-w-xl mx-auto">
+          We're constantly adding new guides. Let us know what region or topic you'd like covered next.
+        </p>
+        <a
+          href="mailto:hello@summitseeker.io?subject=Guide Request"
+          class="inline-flex items-center gap-2 px-6 py-3 bg-white text-purple-700 font-bold rounded-lg hover:bg-purple-50 transition-colors"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+          Request a Guide
+        </a>
+      </section>
+
+    </div>
+  </main>
+
+  <SiteFooter />
+</Layout>

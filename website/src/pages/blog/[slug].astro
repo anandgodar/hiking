@@ -1,0 +1,345 @@
+---
+/**
+ * Individual Blog Post Page
+ * Location: src/pages/blog/[slug].astro
+ *
+ * Dynamic route for blog posts with full SEO optimization
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import ArticleSchema from '../../components/ArticleSchema.astro';
+import RelatedContent from '../../components/RelatedContent.astro';
+import BlogCard from '../../components/BlogCard.astro';
+
+export async function getStaticPaths() {
+  const blogFiles = import.meta.glob('../../data/blog/*.json', { eager: true });
+  const indexData = await import('../../data/blog/index.json');
+
+  const paths = [];
+
+  for (const path in blogFiles) {
+    const post = blogFiles[path].default || blogFiles[path];
+    if (post && post.slug && post.title && post.content) {
+      paths.push({
+        params: { slug: post.slug },
+        props: { post, allPosts: indexData.posts || [] }
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { post, allPosts } = Astro.props;
+
+const formattedDate = new Date(post.date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+
+const canonicalUrl = `https://summitseeker.io/blog/${post.slug}`;
+
+// Get related posts (same category, excluding current)
+const relatedPosts = allPosts
+  .filter(p => p.slug !== post.slug && p.category === post.category)
+  .slice(0, 3);
+
+// Build table of contents from sections
+const tableOfContents = post.content?.sections?.map((section, index) => ({
+  id: `section-${index}`,
+  title: section.heading
+})) || [];
+---
+
+<Layout
+  title={post.seo?.meta_title || `${post.title} | SummitSeeker Blog`}
+  description={post.seo?.meta_description || post.excerpt}
+>
+  <!-- Article Schema -->
+  <ArticleSchema article={post} url={canonicalUrl} />
+
+  <!-- Hero Section -->
+  <div class="relative">
+    <div class="aspect-[3/1] md:aspect-[4/1] overflow-hidden">
+      <img
+        src={post.featured_image || 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000'}
+        alt={post.title}
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/50 to-transparent"></div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 pb-8 md:pb-12">
+      <div class="max-w-4xl mx-auto px-4">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-sm text-white/70 mb-4">
+          <a href="/" class="hover:text-white transition-colors">Home</a>
+          <span>/</span>
+          <a href="/blog" class="hover:text-white transition-colors">Blog</a>
+          <span>/</span>
+          <span class="text-white/50 truncate">{post.title}</span>
+        </nav>
+
+        <div class="flex flex-wrap items-center gap-3 mb-4">
+          {post.category && (
+            <span class="px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-full">
+              {post.category}
+            </span>
+          )}
+          <span class="text-white/70 text-sm">{formattedDate}</span>
+          {post.reading_time && (
+            <>
+              <span class="w-1 h-1 bg-white/50 rounded-full"></span>
+              <span class="text-white/70 text-sm">{post.reading_time}</span>
+            </>
+          )}
+        </div>
+
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight">
+          {post.title}
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="bg-white py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid lg:grid-cols-[1fr_300px] gap-12">
+
+        <!-- Article Content -->
+        <article class="prose prose-lg prose-stone max-w-none">
+          {post.content?.introduction && (
+            <div class="lead text-xl text-stone-600 mb-8" set:html={post.content.introduction} />
+          )}
+
+          {/* Table of Contents */}
+          {tableOfContents.length > 2 && (
+            <nav class="bg-stone-50 rounded-xl p-6 mb-8 not-prose">
+              <h2 class="text-lg font-bold text-stone-900 mb-4 flex items-center gap-2">
+                <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/>
+                </svg>
+                In This Article
+              </h2>
+              <ol class="space-y-2">
+                {tableOfContents.map((item, index) => (
+                  <li>
+                    <a
+                      href={`#${item.id}`}
+                      class="text-stone-600 hover:text-emerald-600 transition-colors flex items-center gap-2"
+                    >
+                      <span class="text-sm text-stone-400">{index + 1}.</span>
+                      {item.title}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+
+          {/* Article Sections */}
+          {post.content?.sections?.map((section, index) => (
+            <section id={`section-${index}`} class="mb-10">
+              <h2 class="text-2xl font-bold text-stone-900 mb-4">{section.heading}</h2>
+              <div set:html={section.content} />
+            </section>
+          ))}
+
+          {/* Conclusion */}
+          {post.content?.conclusion && (
+            <section class="mt-12 pt-8 border-t border-stone-200">
+              <div set:html={post.content.conclusion} />
+            </section>
+          )}
+
+          {/* Tags */}
+          {post.tags && post.tags.length > 0 && (
+            <div class="mt-12 pt-8 border-t border-stone-200 not-prose">
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="text-sm font-medium text-stone-600">Tags:</span>
+                {post.tags.map(tag => (
+                  <span class="px-3 py-1 bg-stone-100 text-stone-600 text-sm rounded-full hover:bg-emerald-50 hover:text-emerald-700 transition-colors">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Related Resources */}
+          {post.content?.related_resources && post.content.related_resources.length > 0 && (
+            <div class="mt-12 p-6 bg-emerald-50 rounded-xl not-prose">
+              <h3 class="text-lg font-bold text-stone-900 mb-4">Related Resources</h3>
+              <ul class="space-y-2">
+                {post.content.related_resources.map(resource => (
+                  <li>
+                    <a
+                      href={resource.url}
+                      class="text-emerald-700 hover:text-emerald-800 font-medium flex items-center gap-2"
+                    >
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                      </svg>
+                      {resource.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="lg:sticky lg:top-8 space-y-8 h-fit">
+          {/* Author Box */}
+          <div class="bg-stone-50 rounded-xl p-6">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center text-white font-bold">
+                SS
+              </div>
+              <div>
+                <p class="font-bold text-stone-900">{post.author || 'SummitSeeker Team'}</p>
+                <p class="text-sm text-stone-500">Trail Experts</p>
+              </div>
+            </div>
+            <p class="text-sm text-stone-600">
+              Our team of experienced hikers brings you verified trail information, expert gear recommendations, and safety-first advice.
+            </p>
+          </div>
+
+          {/* Share */}
+          <div class="bg-stone-50 rounded-xl p-6">
+            <h3 class="font-bold text-stone-900 mb-4">Share This Article</h3>
+            <div class="flex gap-3">
+              <a
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(canonicalUrl)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-10 h-10 bg-stone-200 hover:bg-[#1DA1F2] text-stone-600 hover:text-white rounded-full flex items-center justify-center transition-colors"
+                aria-label="Share on Twitter"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+              <a
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalUrl)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-10 h-10 bg-stone-200 hover:bg-[#4267B2] text-stone-600 hover:text-white rounded-full flex items-center justify-center transition-colors"
+                aria-label="Share on Facebook"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </a>
+              <button
+                onclick="navigator.clipboard.writeText(window.location.href)"
+                class="w-10 h-10 bg-stone-200 hover:bg-emerald-600 text-stone-600 hover:text-white rounded-full flex items-center justify-center transition-colors"
+                aria-label="Copy link"
+              >
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          {/* Browse Trails CTA */}
+          <div class="bg-gradient-to-br from-emerald-600 to-emerald-800 rounded-xl p-6 text-white">
+            <h3 class="font-bold mb-2">Ready to Explore?</h3>
+            <p class="text-emerald-100 text-sm mb-4">
+              Browse our database of 138+ verified hiking trails across 5 states.
+            </p>
+            <a
+              href="/"
+              class="block w-full py-2.5 bg-white text-emerald-700 font-bold text-center rounded-lg hover:bg-emerald-50 transition-colors"
+            >
+              Find Trails
+            </a>
+          </div>
+        </aside>
+      </div>
+
+      {/* Related Posts */}
+      {relatedPosts.length > 0 && (
+        <section class="mt-16 pt-12 border-t border-stone-200">
+          <h2 class="text-2xl font-bold text-stone-900 mb-8">More in {post.category}</h2>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {relatedPosts.map(relatedPost => (
+              <BlogCard post={relatedPost} variant="default" />
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  </main>
+
+  <SiteFooter />
+</Layout>
+
+<style is:global>
+  /* Prose styling enhancements for blog content */
+  .prose a {
+    color: #059669;
+    transition: color 0.15s ease;
+  }
+
+  .prose a:hover {
+    color: #047857;
+  }
+
+  .prose h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1c1917;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .prose ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .prose li {
+    color: #57534e;
+  }
+
+  .prose strong {
+    color: #1c1917;
+  }
+
+  .prose .trail-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 1rem;
+    color: #059669;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .prose .trail-link:hover {
+    color: #047857;
+  }
+
+  .prose .cta-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #059669;
+    color: white;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+  }
+
+  .prose .cta-link:hover {
+    background-color: #047857;
+  }
+</style>
