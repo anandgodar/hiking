@@ -49,9 +49,16 @@ const description = isMountainPage
   ? (mountain.seo?.meta_description || `Explore ${mountain.name} (${mountain.elevation?.toLocaleString() || ''} ft) in ${mountain.state || 'New Hampshire'}. Trail maps, conditions, and hiking information.`)
   : (propDescription || 'Discover the best hiking trails in New Hampshire. Trail guides, maps, conditions, and tips for the White Mountains and beyond.');
 
+// Normalize canonical URL to always use https://summitseeker.io (no www)
+const normalizeCanonicalUrl = (url) => {
+  return url
+    .replace(/^https?:\/\/www\.summitseeker\.io/, 'https://summitseeker.io')
+    .replace(/\/$/, ''); // Remove trailing slash for consistency
+};
+
 const canonicalUrl = isMountainPage
   ? `https://summitseeker.io/${mountain.state_slug || 'new-hampshire'}/hikes/${mountain.slug}`
-  : (propCanonical || Astro.url.href);
+  : normalizeCanonicalUrl(propCanonical || Astro.url.href);
 
 const ogImage = isMountainPage
   ? (mountain.mountain_hero || 'https://summitseeker.io/images/default-mountain.jpg')
