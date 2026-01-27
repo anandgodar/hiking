@@ -8,6 +8,7 @@ export default defineConfig({
   site: 'https://summitseeker.io',
   integrations: [react()],
   compressHTML: true,
+  trailingSlash: 'never',
   build: {
     inlineStylesheets: 'auto'
   }

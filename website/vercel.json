@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.summitseeker.io"
+        }
+      ],
+      "destination": "https://summitseeker.io/:path*",
+      "permanent": true
+    }
+  ],
+  "trailingSlash": false
+}
