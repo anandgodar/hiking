@@ -1,73 +1,215 @@
 {
   "posts": [
     {
+      "slug": "mount-washington-hiking-guide",
+      "title": "Mount Washington Hiking Guide: Everything You Need to Know Before You Go",
+      "excerpt": "Mount Washington isn't just New Hampshire's highest peak—it's one of the most dangerous mountains in the world. Here's everything you need to know to summit safely.",
+      "category": "Trail Guides",
+      "date": "2026-01-27",
+      "reading_time": "15 min read",
+      "featured_image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["mount washington", "new hampshire hiking", "white mountains", "presidential range", "4000 footers"],
+      "featured": true
+    },
+    {
+      "slug": "franconia-ridge-trail-guide",
+      "title": "Franconia Ridge Loop: The Most Spectacular Hike in New Hampshire",
+      "excerpt": "Two miles of exposed ridge walking with jaw-dropping views in every direction. Here's how to tackle New Hampshire's most iconic hike.",
+      "category": "Trail Guides",
+      "date": "2026-01-27",
+      "reading_time": "12 min read",
+      "featured_image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["franconia ridge", "new hampshire hiking", "white mountains", "4000 footers", "ridge hike"],
+      "featured": true
+    },
+    {
+      "slug": "mount-katahdin-hiking-guide",
+      "title": "Mount Katahdin Hiking Guide: Maine's Greatest Peak",
+      "excerpt": "The northern terminus of the Appalachian Trail and Maine's highest peak, Katahdin is a bucket-list mountain for hikers across the country.",
+      "category": "Trail Guides",
+      "date": "2026-01-27",
+      "reading_time": "14 min read",
+      "featured_image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["mount katahdin", "maine hiking", "baxter state park", "knife edge", "appalachian trail"],
+      "featured": true
+    },
+    {
+      "slug": "best-hikes-acadia-national-park",
+      "title": "Best Hikes in Acadia National Park: A Complete Guide",
+      "excerpt": "From dramatic cliff-side trails to gentle coastal walks, Acadia National Park offers some of the best hiking on the East Coast.",
+      "category": "Regional Guides",
+      "date": "2026-01-27",
+      "reading_time": "12 min read",
+      "featured_image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["acadia national park", "maine hiking", "national parks", "cadillac mountain", "precipice trail"],
+      "featured": true
+    },
+    {
+      "slug": "welch-dickey-loop-guide",
+      "title": "Welch-Dickey Loop: The Perfect Introduction to Ridge Hiking in NH",
+      "excerpt": "Open ledges, sweeping views, and just enough challenge to feel accomplished—Welch-Dickey is the hike that makes people fall in love with the White Mountains.",
+      "category": "Trail Guides",
+      "date": "2026-01-27",
+      "reading_time": "8 min read",
+      "featured_image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["welch dickey", "new hampshire hiking", "white mountains", "beginner friendly", "ridge hike"],
+      "featured": false
+    },
+    {
+      "slug": "mount-monadnock-hiking-guide",
+      "title": "Mount Monadnock Hiking Guide: America's Most-Climbed Mountain",
+      "excerpt": "With over 125,000 hikers annually, Mount Monadnock is reportedly the most-climbed mountain in North America. Here's why—and how to plan your trip.",
+      "category": "Trail Guides",
+      "date": "2026-01-27",
+      "reading_time": "10 min read",
+      "featured_image": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["mount monadnock", "new hampshire hiking", "beginner hikes", "day hikes", "southern nh"],
+      "featured": false
+    },
+    {
+      "slug": "best-waterfall-hikes-new-hampshire",
+      "title": "12 Best Waterfall Hikes in New Hampshire: A Local's Guide",
+      "excerpt": "From thundering cascades to hidden gems, New Hampshire has some of the most beautiful waterfall hikes in New England.",
+      "category": "Regional Guides",
+      "date": "2026-01-27",
+      "reading_time": "12 min read",
+      "featured_image": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["waterfalls", "new hampshire hiking", "white mountains", "easy hikes", "family friendly"],
+      "featured": false
+    },
+    {
+      "slug": "best-beginner-hikes-new-hampshire",
+      "title": "15 Best Beginner Hikes in New Hampshire: Start Your Hiking Journey Here",
+      "excerpt": "New to hiking? New Hampshire has plenty of trails perfect for beginners. From gentle forest walks to rewarding summit hikes.",
+      "category": "Regional Guides",
+      "date": "2026-01-27",
+      "reading_time": "10 min read",
+      "featured_image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["beginner hikes", "new hampshire hiking", "easy hikes", "family friendly", "day hikes"],
+      "featured": false
+    },
+    {
+      "slug": "winter-hiking-new-hampshire-guide",
+      "title": "Winter Hiking in New Hampshire: A Complete Guide for Cold Weather Adventures",
+      "excerpt": "Winter transforms New Hampshire's mountains into a snow-covered wonderland—beautiful but unforgiving. Here's everything you need to know.",
+      "category": "Seasonal Guides",
+      "date": "2026-01-27",
+      "reading_time": "14 min read",
+      "featured_image": "https://images.unsplash.com/photo-1418985991508-e47386d96a71?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["winter hiking", "new hampshire hiking", "white mountains", "snow hiking", "4000 footers"],
+      "featured": false
+    },
+    {
+      "slug": "best-hikes-vermont-green-mountains",
+      "title": "Best Hikes in Vermont: A Guide to the Green Mountains",
+      "excerpt": "Vermont's Green Mountains offer some of the most beautiful hiking in New England—forested ridges, alpine summits, and the famous Long Trail.",
+      "category": "Regional Guides",
+      "date": "2026-01-27",
+      "reading_time": "12 min read",
+      "featured_image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["vermont hiking", "green mountains", "camel's hump", "mount mansfield", "long trail"],
+      "featured": false
+    },
+    {
+      "slug": "adirondack-high-peaks-hiking-guide",
+      "title": "Adirondack High Peaks: A Hiker's Guide to NY's Greatest Mountains",
+      "excerpt": "The Adirondack High Peaks offer 46 summits over 4,000 feet, wild backcountry, and some of the best hiking in the Northeast.",
+      "category": "Regional Guides",
+      "date": "2026-01-27",
+      "reading_time": "14 min read",
+      "featured_image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["adirondacks", "new york hiking", "high peaks", "46ers", "mount marcy"],
+      "featured": false
+    },
+    {
+      "slug": "best-day-hikes-yosemite",
+      "title": "Best Day Hikes in Yosemite: From Valley Floor to Mountain Summits",
+      "excerpt": "Yosemite's granite cliffs, thundering waterfalls, and giant sequoias make it one of America's most iconic hiking destinations.",
+      "category": "Regional Guides",
+      "date": "2026-01-27",
+      "reading_time": "14 min read",
+      "featured_image": "https://images.unsplash.com/photo-1562310503-a918c4c61e38?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["yosemite national park", "california hiking", "half dome", "mist trail", "national parks"],
+      "featured": false
+    },
+    {
       "slug": "how-to-read-usgs-maps",
       "title": "How to Read USGS Topographic Maps: A Complete Guide for Hikers",
-      "excerpt": "Master the art of reading USGS topographic maps. Learn to interpret contour lines, symbols, and elevation data to navigate trails confidently and plan safer hikes.",
+      "excerpt": "Master the art of reading USGS topographic maps. Learn to interpret contour lines, symbols, and elevation data to navigate trails confidently.",
       "category": "Trail Data & Technology",
       "date": "2026-01-20",
       "reading_time": "10 min read",
       "featured_image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=2000",
-      "tags": ["USGS maps", "topographic maps", "map reading", "navigation", "hiking skills", "trail navigation"],
+      "tags": ["USGS maps", "topographic maps", "map reading", "navigation", "hiking skills"],
       "featured": false
     },
     {
       "slug": "hiking-safety-preparation-guide",
       "title": "Complete Hiking Safety Guide: How to Prepare for Your Next Trail Adventure",
-      "excerpt": "Master essential hiking safety skills and preparation techniques. Learn the 10 essentials, trip planning strategies, weather assessment, and emergency protocols to stay safe on the trail.",
+      "excerpt": "Master essential hiking safety skills and preparation techniques. Learn the 10 essentials, trip planning strategies, and emergency protocols.",
       "category": "Safety & Preparation",
       "date": "2026-01-19",
       "reading_time": "8 min read",
       "featured_image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=2000",
       "tags": ["hiking safety", "trail preparation", "hiking tips", "outdoor safety", "beginner hiking"],
-      "featured": true
+      "featured": false
     },
     {
       "slug": "trail-data-accuracy-why-it-matters",
       "title": "Why Accurate Trail Data Can Save Your Life: Our Commitment to Data Verification",
-      "excerpt": "Inaccurate trail data isn't just inconvenient—it can be dangerous. Learn why SummitSeeker verifies every trail with official sources and how bad data has led to real emergencies.",
+      "excerpt": "Inaccurate trail data isn't just inconvenient—it can be dangerous. Learn why SummitSeeker verifies every trail with official sources.",
       "category": "Trail Data & Technology",
       "date": "2026-01-19",
       "reading_time": "6 min read",
       "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
       "tags": ["trail data", "hiking safety", "GPS accuracy", "trail information", "data verification"],
-      "featured": true
+      "featured": false
     },
     {
       "slug": "essential-hiking-gear-guide-2026",
       "title": "Essential Hiking Gear Guide 2026: What You Really Need (And What You Don't)",
-      "excerpt": "Cut through the marketing hype and discover what hiking gear you actually need. From boots to backpacks, this comprehensive guide covers essential gear for day hiking and backpacking.",
+      "excerpt": "Cut through the marketing hype and discover what hiking gear you actually need. From boots to backpacks, this comprehensive guide covers essentials.",
       "category": "Gear & Equipment",
       "date": "2026-01-19",
       "reading_time": "12 min read",
       "featured_image": "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?auto=format&fit=crop&q=80&w=2000",
-      "tags": ["hiking gear", "hiking equipment", "backpacking gear", "hiking boots", "hiking essentials", "gear guide"],
+      "tags": ["hiking gear", "hiking equipment", "backpacking gear", "hiking boots", "hiking essentials"],
       "featured": false
     },
     {
       "slug": "best-white-mountains-hikes-new-hampshire",
       "title": "15 Best White Mountains Hikes in New Hampshire: Complete Trail Guide 2026",
-      "excerpt": "Discover the best hikes in New Hampshire's White Mountains, from beginner-friendly trails to challenging 4000-footers. Expert recommendations for every skill level.",
+      "excerpt": "Discover the best hikes in New Hampshire's White Mountains, from beginner-friendly trails to challenging 4000-footers.",
       "category": "Regional Guides",
       "date": "2026-01-19",
       "reading_time": "10 min read",
       "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-      "tags": ["white mountains", "new hampshire hiking", "presidential range", "mount washington", "franconia ridge", "new england hiking"],
-      "featured": true
+      "tags": ["white mountains", "new hampshire hiking", "presidential range", "mount washington", "franconia ridge"],
+      "featured": false
     },
     {
       "slug": "best-yosemite-day-hikes-california",
       "title": "10 Best Yosemite Day Hikes: From Easy Walks to Epic Summits",
-      "excerpt": "Discover the best day hikes in Yosemite National Park, from easy valley walks to the iconic Half Dome. Complete guide with permits, difficulty ratings, and insider tips.",
+      "excerpt": "Discover the best day hikes in Yosemite National Park, from easy valley walks to the iconic Half Dome.",
       "category": "Regional Guides",
       "date": "2026-01-19",
       "reading_time": "8 min read",
       "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
-      "tags": ["yosemite hiking", "california hiking", "half dome", "yosemite valley", "yosemite trails", "national parks"],
-      "featured": true
+      "tags": ["yosemite hiking", "california hiking", "half dome", "yosemite valley", "national parks"],
+      "featured": false
     }
   ],
   "categories": [
+    {
+      "name": "Trail Guides",
+      "slug": "trail-guides",
+      "count": 6
+    },
+    {
+      "name": "Regional Guides",
+      "slug": "regional-guides",
+      "count": 8
+    },
     {
       "name": "Safety & Preparation",
       "slug": "safety-preparation",
@@ -84,15 +226,15 @@
       "count": 1
     },
     {
-      "name": "Regional Guides",
-      "slug": "regional-guides",
-      "count": 2
+      "name": "Seasonal Guides",
+      "slug": "seasonal-guides",
+      "count": 1
     }
   ],
   "featured_posts": [
-    "hiking-safety-preparation-guide",
-    "trail-data-accuracy-why-it-matters",
-    "best-white-mountains-hikes-new-hampshire",
-    "best-yosemite-day-hikes-california"
+    "mount-washington-hiking-guide",
+    "franconia-ridge-trail-guide",
+    "mount-katahdin-hiking-guide",
+    "best-hikes-acadia-national-park"
   ]
 }
