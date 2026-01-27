@@ -28,6 +28,17 @@ export async function GET() {
     pages.push({ url: `${siteUrl}/guides/${slug}`, priority: 0.8, changefreq: 'weekly' });
   });
 
+  // 2.3 Add challenge pages (high priority - peak bagging lists)
+  const challengePages = [
+    { slug: 'nh-48-4000-footers', title: 'NH 48 4000-Footers' },
+    // Future challenge pages:
+    // { slug: 'adirondack-46ers', title: 'Adirondack 46ers' },
+    // { slug: 'new-england-67', title: 'New England 67' },
+  ];
+  challengePages.forEach(challenge => {
+    pages.push({ url: `${siteUrl}/challenges/${challenge.slug}`, priority: 0.9, changefreq: 'weekly' });
+  });
+
   const states = new Set();
   const discoverTags = new Set();
   const mountainPages = [];
