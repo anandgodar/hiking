@@ -1,0 +1,454 @@
+---
+/**
+ * NH 48 4000-Footers Challenge Page
+ * Location: src/pages/challenges/nh-48-4000-footers/index.astro
+ *
+ * Target Keywords:
+ * - "NH 4000 footers" (4,400/mo)
+ * - "48 4000 footers" (1,900/mo)
+ * - "4000 footers new hampshire" (2,900/mo)
+ * - "easiest 4000 footers" (480/mo)
+ * - "hardest 4000 footers" (480/mo)
+ */
+import Layout from '../../../layouts/Layout.astro';
+import MountainCard from '../../../components/MountainCard.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+
+// Load all NH mountains
+const allFiles = import.meta.glob('../../../data/new-hampshire/*.json', { eager: true });
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(m => m && m.name && m.slug && m.elevation);
+
+// Filter for 4000+ footers and sort by elevation
+const fourThousandFooters = allMountains
+  .filter(m => m.elevation >= 4000)
+  .sort((a, b) => b.elevation - a.elevation);
+
+// Categorize by difficulty
+const getDifficulty = (m) => {
+  const trail = m.trails?.[0] || m.trails_config?.[0];
+  return trail?.difficulty || trail?.stats?.difficulty || 'Moderate';
+};
+
+const easyPeaks = fourThousandFooters.filter(m => {
+  const diff = getDifficulty(m).toLowerCase();
+  return diff.includes('easy') || diff.includes('beginner');
+}).slice(0, 5);
+
+const hardPeaks = fourThousandFooters.filter(m => {
+  const diff = getDifficulty(m).toLowerCase();
+  return diff.includes('strenuous') || diff.includes('difficult') || diff.includes('hard');
+}).slice(0, 5);
+
+// Get trail stats
+const getTrailStats = (m) => {
+  const trail = m.trails?.[0] || m.trails_config?.[0];
+  return {
+    distance: trail?.stats?.distance || trail?.distance || 'N/A',
+    gain: trail?.stats?.gain || trail?.elevation_gain || 'N/A',
+    time: trail?.stats?.time || trail?.estimated_time || 'N/A'
+  };
+};
+
+// Presidential Range peaks
+const presidentials = fourThousandFooters.filter(m =>
+  m.tags?.some(t => t.toLowerCase().includes('presidential')) ||
+  ['Mount Washington', 'Mount Adams', 'Mount Jefferson', 'Mount Madison', 'Mount Monroe', 'Mount Eisenhower', 'Mount Pierce', 'Mount Jackson'].includes(m.name)
+);
+
+// Franconia Range peaks
+const franconias = fourThousandFooters.filter(m =>
+  m.tags?.some(t => t.toLowerCase().includes('franconia')) ||
+  ['Mount Lafayette', 'Mount Lincoln', 'Mount Liberty', 'Mount Flume', 'Little Haystack'].includes(m.name)
+);
+
+// Page metadata
+const pageTitle = "NH 48 4000-Footers: Complete Hiking Guide 2026 | Peak List & Tips";
+const pageDescription = "Complete guide to hiking New Hampshire's 48 4000-footers. Full peak list with elevations, trail info, difficulty ratings. Tips for beginners and strategies to complete all 48.";
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the NH 4000 footers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The NH 4000 footers are 48 mountain peaks in New Hampshire that rise above 4,000 feet in elevation. Hiking all 48 peaks is a popular challenge recognized by the Four Thousand Footer Club, established in 1957 by the Appalachian Mountain Club."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to complete all 48 4000 footers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most hikers take 2-5 years to complete all 48 peaks, though dedicated hikers have done it in a single season. The fastest known time (FKT) for hiking all 48 is about 3 days and 15 hours. A reasonable pace for most people is 8-12 peaks per year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the easiest 4000 footer in NH?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mount Tecumseh is often considered the easiest NH 4000 footer, with a relatively short 5-mile round trip and 2,200 feet of elevation gain. Mount Pierce via Crawford Path and Cannon Mountain (if you take the tramway down) are also beginner-friendly options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the hardest 4000 footer in NH?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Owl's Head is widely considered the hardest 4000 footer due to its remote location, requiring an 18-mile round trip hike. Mount Isolation is another challenging peak with a 14.6-mile round trip. The Bonds traverse and Owl's Head are often saved for last."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to join the 4000 Footer Club?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, joining is optional. However, many hikers choose to register with the AMC Four Thousand Footer Club after completing all 48 peaks to receive a certificate and patch. There's a small application fee. You can also complete the challenge without registering."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you hike 4000 footers in winter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, winter hiking of the 4000 footers is popular and there's a separate Winter 4000 Footer Club for those who summit all 48 peaks between December 21 and March 21. Winter hiking requires special gear including microspikes, snowshoes, and extra layers for extreme cold."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What gear do I need for hiking 4000 footers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential gear includes sturdy hiking boots, 2-3 liters of water, food, navigation tools (map, compass, GPS), headlamp, first aid kit, rain gear, and extra layers. The White Mountains are known for rapid weather changes, so always pack for conditions worse than forecast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the highest 4000 footer in NH?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mount Washington at 6,288 feet is the highest peak in New Hampshire and the entire Northeast. It's famous for extreme weather, including some of the highest wind speeds ever recorded. The summit can be reached via multiple trails or the Auto Road and Cog Railway."
+      }
+    }
+  ]
+};
+
+// ItemList Schema for the 48 peaks
+const peakListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New Hampshire 4000-Footers",
+  "description": "Complete list of the 48 mountain peaks over 4,000 feet in New Hampshire",
+  "numberOfItems": fourThousandFooters.length,
+  "itemListElement": fourThousandFooters.map((peak, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "item": {
+      "@type": "Place",
+      "name": peak.name,
+      "description": `${peak.name} - ${peak.elevation.toLocaleString()} ft elevation`,
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": peak.lat,
+        "longitude": peak.lon,
+        "elevation": peak.elevation
+      }
+    }
+  }))
+};
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(peakListSchema)} slot="head" />
+
+  <!-- Hero Section -->
+  <section class="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000"
+        alt="New Hampshire White Mountains 4000 footer peaks panoramic view"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-stone-900/40 to-transparent"></div>
+    </div>
+
+    <div class="relative z-10 text-center px-4 max-w-4xl">
+      <!-- Breadcrumb -->
+      <nav class="flex justify-center items-center gap-2 text-sm text-white/80 mb-6">
+        <a href="/" class="hover:text-white">Home</a>
+        <span>/</span>
+        <a href="/new-hampshire" class="hover:text-white">New Hampshire</a>
+        <span>/</span>
+        <span class="text-emerald-400">4000 Footers</span>
+      </nav>
+
+      <div class="inline-flex items-center gap-2 bg-emerald-500/90 text-white text-sm font-bold px-4 py-2 rounded-full mb-6">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/>
+        </svg>
+        {fourThousandFooters.length} Peaks Over 4,000 Feet
+      </div>
+
+      <h1 class="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
+        NH 48 Four Thousand Footers
+      </h1>
+
+      <p class="text-xl text-white/90 max-w-2xl mx-auto mb-8">
+        The ultimate New Hampshire hiking challenge. Conquer all 48 peaks over 4,000 feet in the White Mountains.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#peak-list" class="bg-white text-stone-900 px-6 py-3 rounded-full font-bold hover:bg-emerald-50 transition-colors">
+          View All 48 Peaks
+        </a>
+        <a href="#getting-started" class="bg-white/10 text-white border border-white/30 px-6 py-3 rounded-full font-bold hover:bg-white/20 transition-colors">
+          Getting Started Guide
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <main class="bg-stone-50">
+    <!-- Quick Stats Bar -->
+    <div class="bg-white border-b border-stone-200 py-8">
+      <div class="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div>
+          <p class="text-3xl font-black text-emerald-600">{fourThousandFooters.length}</p>
+          <p class="text-sm text-stone-600 font-medium">Total Peaks</p>
+        </div>
+        <div>
+          <p class="text-3xl font-black text-emerald-600">6,288'</p>
+          <p class="text-sm text-stone-600 font-medium">Highest (Mt. Washington)</p>
+        </div>
+        <div>
+          <p class="text-3xl font-black text-emerald-600">4,003'</p>
+          <p class="text-sm text-stone-600 font-medium">Lowest (Tecumseh)</p>
+        </div>
+        <div>
+          <p class="text-3xl font-black text-emerald-600">1957</p>
+          <p class="text-sm text-stone-600 font-medium">Club Established</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 py-16 space-y-20">
+
+      <!-- Introduction Section -->
+      <section class="prose prose-lg max-w-none">
+        <h2 class="text-3xl font-bold text-stone-900 mb-6">What Are the NH 4000 Footers?</h2>
+        <div class="bg-white rounded-2xl p-8 border border-stone-200 shadow-sm">
+          <p class="text-stone-700 leading-relaxed mb-4">
+            The <strong>New Hampshire 4000-Footers</strong> are 48 mountain peaks in the White Mountains that rise above 4,000 feet in elevation.
+            Hiking all 48 peaks is one of the most popular hiking challenges in the Northeast, attracting thousands of hikers each year who
+            want to test their endurance and experience the best of New Hampshire's mountain wilderness.
+          </p>
+          <p class="text-stone-700 leading-relaxed mb-4">
+            The challenge was formalized in 1957 when the <strong>Appalachian Mountain Club (AMC)</strong> established the Four Thousand Footer Club.
+            Since then, over 15,000 hikers have completed the challenge and registered with the club. Many hikers also pursue the
+            <strong>Winter 4000 Footer</strong> challenge, summiting all peaks between December 21 and March 21.
+          </p>
+          <p class="text-stone-700 leading-relaxed">
+            These peaks range from beginner-friendly day hikes to remote wilderness treks requiring significant navigation skills.
+            The highest peak, <strong>Mount Washington (6,288 ft)</strong>, is famous for having some of the most extreme weather on Earth,
+            while peaks like <strong>Owl's Head</strong> require 18+ mile round trips through remote terrain.
+          </p>
+        </div>
+      </section>
+
+      <!-- Complete Peak List -->
+      <section id="peak-list">
+        <div class="flex items-center justify-between mb-8">
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">Complete List of NH 4000 Footers</h2>
+            <p class="text-stone-600 mt-2">All {fourThousandFooters.length} peaks ranked by elevation</p>
+          </div>
+          <div class="hidden md:block bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-bold">
+            Click any peak for detailed trail info
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+          <div class="overflow-x-auto">
+            <table class="w-full">
+              <thead class="bg-stone-100 border-b border-stone-200">
+                <tr>
+                  <th class="text-left py-4 px-6 font-bold text-stone-700">#</th>
+                  <th class="text-left py-4 px-6 font-bold text-stone-700">Peak Name</th>
+                  <th class="text-left py-4 px-6 font-bold text-stone-700">Elevation</th>
+                  <th class="text-left py-4 px-6 font-bold text-stone-700 hidden md:table-cell">Range</th>
+                  <th class="text-left py-4 px-6 font-bold text-stone-700 hidden lg:table-cell">Difficulty</th>
+                </tr>
+              </thead>
+              <tbody>
+                {fourThousandFooters.map((peak, index) => {
+                  const stats = getTrailStats(peak);
+                  const difficulty = getDifficulty(peak);
+                  const range = peak.tags?.find(t =>
+                    t.toLowerCase().includes('presidential') ||
+                    t.toLowerCase().includes('franconia') ||
+                    t.toLowerCase().includes('sandwich') ||
+                    t.toLowerCase().includes('kinsman')
+                  ) || 'White Mountains';
+
+                  return (
+                    <tr class="border-b border-stone-100 hover:bg-emerald-50/50 transition-colors">
+                      <td class="py-4 px-6 font-bold text-stone-400">{index + 1}</td>
+                      <td class="py-4 px-6">
+                        <a href={`/new-hampshire/hikes/${peak.slug}`} class="font-bold text-stone-900 hover:text-emerald-600 transition-colors">
+                          {peak.name}
+                        </a>
+                      </td>
+                      <td class="py-4 px-6 font-mono text-stone-700">{peak.elevation.toLocaleString()} ft</td>
+                      <td class="py-4 px-6 text-stone-600 hidden md:table-cell">{range}</td>
+                      <td class="py-4 px-6 hidden lg:table-cell">
+                        <span class={`inline-block px-3 py-1 rounded-full text-xs font-bold
+                          ${difficulty.toLowerCase().includes('easy') ? 'bg-green-100 text-green-800' : ''}
+                          ${difficulty.toLowerCase().includes('moderate') ? 'bg-yellow-100 text-yellow-800' : ''}
+                          ${difficulty.toLowerCase().includes('strenuous') || difficulty.toLowerCase().includes('difficult') ? 'bg-red-100 text-red-800' : ''}
+                        `}>
+                          {difficulty}
+                        </span>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Getting Started Section -->
+      <section id="getting-started" class="bg-white rounded-2xl p-8 md:p-12 border border-stone-200 shadow-sm">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Getting Started: Your First 4000 Footer</h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-xl font-bold text-stone-900 mb-4 flex items-center gap-2">
+              <span class="bg-emerald-100 text-emerald-600 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">1</span>
+              Choose a Beginner-Friendly Peak
+            </h3>
+            <p class="text-stone-600 mb-4">
+              Start with shorter, well-maintained trails. Mount Tecumseh, Mount Pierce, and Cannon Mountain are excellent first choices with
+              moderate distances and clear trails.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold text-stone-900 mb-4 flex items-center gap-2">
+              <span class="bg-emerald-100 text-emerald-600 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">2</span>
+              Pack the 10 Essentials
+            </h3>
+            <p class="text-stone-600 mb-4">
+              Navigation, sun protection, insulation, illumination, first aid, fire, repair tools, nutrition, hydration, and emergency shelter.
+              The White Mountains demand preparation.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold text-stone-900 mb-4 flex items-center gap-2">
+              <span class="bg-emerald-100 text-emerald-600 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">3</span>
+              Check Weather & Conditions
+            </h3>
+            <p class="text-stone-600 mb-4">
+              Mountain weather changes rapidly. Check the <a href="https://www.mountwashington.org/experience-the-weather/higher-summit-forecast.aspx" class="text-emerald-600 hover:underline" target="_blank" rel="noopener">Higher Summits Forecast</a> before
+              every hike. Be prepared to turn back if conditions deteriorate.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold text-stone-900 mb-4 flex items-center gap-2">
+              <span class="bg-emerald-100 text-emerald-600 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">4</span>
+              Start Early, Hike Smart
+            </h3>
+            <p class="text-stone-600 mb-4">
+              Begin hikes early to avoid afternoon thunderstorms and ensure enough daylight. Allow more time than you think you'll need,
+              especially on your first few peaks.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Easiest Peaks Section -->
+      {easyPeaks.length > 0 && (
+        <section>
+          <h2 class="text-3xl font-bold text-stone-900 mb-4">Easiest 4000 Footers for Beginners</h2>
+          <p class="text-stone-600 mb-8">These peaks offer shorter approaches and well-marked trails, perfect for your first summits.</p>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {easyPeaks.map(m => <MountainCard mountain={m} />)}
+          </div>
+        </section>
+      )}
+
+      <!-- Hardest Peaks Section -->
+      {hardPeaks.length > 0 && (
+        <section>
+          <h2 class="text-3xl font-bold text-stone-900 mb-4">Most Challenging 4000 Footers</h2>
+          <p class="text-stone-600 mb-8">Save these remote and demanding peaks for when you've built experience and fitness.</p>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {hardPeaks.map(m => <MountainCard mountain={m} />)}
+          </div>
+        </section>
+      )}
+
+      <!-- Presidential Range Section -->
+      {presidentials.length > 0 && (
+        <section>
+          <h2 class="text-3xl font-bold text-stone-900 mb-4">Presidential Range</h2>
+          <p class="text-stone-600 mb-8">
+            The crown jewels of the White Mountains. This range includes Mount Washington (6,288 ft) and offers spectacular above-treeline hiking.
+          </p>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {presidentials.slice(0, 8).map(m => <MountainCard mountain={m} />)}
+          </div>
+        </section>
+      )}
+
+      <!-- FAQ Section -->
+      <section id="faq" class="bg-white rounded-2xl p-8 md:p-12 border border-stone-200 shadow-sm">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          {faqSchema.mainEntity.map((faq, index) => (
+            <details class="group border-b border-stone-200 pb-6">
+              <summary class="flex justify-between items-center cursor-pointer list-none">
+                <h3 class="text-lg font-bold text-stone-900 pr-4">{faq.name}</h3>
+                <span class="text-emerald-600 group-open:rotate-180 transition-transform">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                  </svg>
+                </span>
+              </summary>
+              <p class="mt-4 text-stone-600 leading-relaxed">{faq.acceptedAnswer.text}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <!-- Join the Club CTA -->
+      <section class="bg-emerald-600 rounded-2xl p-8 md:p-12 text-center">
+        <h2 class="text-3xl font-bold text-white mb-4">Ready to Start Your 4000 Footer Journey?</h2>
+        <p class="text-emerald-100 mb-8 max-w-2xl mx-auto">
+          Explore detailed trail guides for every peak. Get elevation profiles, parking info, weather forecasts, and tips from experienced hikers.
+        </p>
+        <a href="/new-hampshire" class="inline-block bg-white text-emerald-700 px-8 py-4 rounded-full font-bold hover:bg-emerald-50 transition-colors">
+          Browse All NH Trails
+        </a>
+      </section>
+
+    </div>
+  </main>
+
+  <SiteFooter />
+</Layout>
