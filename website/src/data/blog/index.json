@@ -276,6 +276,94 @@
       "featured": false
     },
     {
+      "slug": "grafton-notch-maine-hiking",
+      "title": "Grafton Notch State Park: Maine's Hidden Hiking Gem",
+      "excerpt": "Dramatic gorges, thundering waterfalls, and Maine's third-highest peak—Grafton Notch packs serious scenery into a compact area.",
+      "category": "Regional Guides",
+      "date": "2026-01-28",
+      "reading_time": "9 min read",
+      "featured_image": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["grafton notch", "maine hiking", "old speck mountain", "mahoosuc range", "waterfalls"],
+      "featured": false
+    },
+    {
+      "slug": "baxter-state-park-hiking-guide",
+      "title": "Baxter State Park Hiking Guide: Beyond Just Katahdin",
+      "excerpt": "Katahdin gets the glory, but Baxter State Park's 200,000 acres hold dozens of peaks, pristine ponds, and true wilderness.",
+      "category": "Regional Guides",
+      "date": "2026-01-28",
+      "reading_time": "11 min read",
+      "featured_image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["baxter state park", "maine hiking", "katahdin", "maine wilderness", "backcountry hiking"],
+      "featured": false
+    },
+    {
+      "slug": "stowe-vermont-hiking-guide",
+      "title": "Best Hikes in Stowe, Vermont: A Complete Trail Guide",
+      "excerpt": "From quick family hikes to challenging alpine climbs, Stowe offers some of Vermont's best hiking.",
+      "category": "Regional Guides",
+      "date": "2026-01-28",
+      "reading_time": "10 min read",
+      "featured_image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["stowe vermont", "vermont hiking", "green mountains", "stowe pinnacle", "smugglers notch"],
+      "featured": false
+    },
+    {
+      "slug": "long-trail-vermont-guide",
+      "title": "The Long Trail: America's Oldest Long-Distance Hiking Trail",
+      "excerpt": "Running 272 miles along Vermont's Green Mountain spine, the Long Trail is where American long-distance hiking began.",
+      "category": "Trail Guides",
+      "date": "2026-01-28",
+      "reading_time": "12 min read",
+      "featured_image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["long trail", "vermont hiking", "thru-hiking", "green mountains", "backpacking"],
+      "featured": false
+    },
+    {
+      "slug": "giant-mountain-adirondacks",
+      "title": "Giant Mountain: One of the Best Views in the Adirondacks",
+      "excerpt": "With one of the most dramatic summit views in the Adirondacks, Giant Mountain earns its place among the finest High Peaks hikes.",
+      "category": "Trail Guides",
+      "date": "2026-01-28",
+      "reading_time": "9 min read",
+      "featured_image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["giant mountain", "adirondacks", "new york hiking", "high peaks", "46ers"],
+      "featured": false
+    },
+    {
+      "slug": "whiteface-mountain-adirondacks",
+      "title": "Whiteface Mountain: Multiple Routes to an Olympic Summit",
+      "excerpt": "The fifth-highest peak in New York offers hiking trails, a summit road, and Olympic history.",
+      "category": "Trail Guides",
+      "date": "2026-01-28",
+      "reading_time": "8 min read",
+      "featured_image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["whiteface mountain", "adirondacks", "new york hiking", "high peaks", "lake placid"],
+      "featured": false
+    },
+    {
+      "slug": "big-sur-hiking-guide",
+      "title": "Big Sur Hiking Guide: Coastal Trails and Redwood Forests",
+      "excerpt": "Where mountains plunge into the Pacific and redwoods tower above coastal canyons, Big Sur offers some of California's most dramatic hiking.",
+      "category": "Regional Guides",
+      "date": "2026-01-28",
+      "reading_time": "11 min read",
+      "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["big sur", "california hiking", "coastal hiking", "redwoods", "pfeiffer big sur"],
+      "featured": false
+    },
+    {
+      "slug": "point-reyes-hiking-guide",
+      "title": "Point Reyes Hiking Guide: Where Coast Meets Wilderness",
+      "excerpt": "Wild beaches, coastal cliffs, forests, and abundant wildlife just an hour from San Francisco.",
+      "category": "Regional Guides",
+      "date": "2026-01-28",
+      "reading_time": "10 min read",
+      "featured_image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+      "tags": ["point reyes", "california hiking", "coastal hiking", "national seashore", "bay area hiking"],
+      "featured": false
+    },
+    {
       "slug": "how-to-read-usgs-maps",
       "title": "How to Read USGS Topographic Maps: A Complete Guide for Hikers",
       "excerpt": "Master the art of reading USGS topographic maps. Learn to interpret contour lines, symbols, and elevation data to navigate trails confidently.",
@@ -346,12 +434,12 @@
     {
       "name": "Trail Guides",
       "slug": "trail-guides",
-      "count": 17
+      "count": 21
     },
     {
       "name": "Regional Guides",
       "slug": "regional-guides",
-      "count": 11
+      "count": 17
     },
     {
       "name": "Safety & Preparation",
