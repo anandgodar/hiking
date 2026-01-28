@@ -117,7 +117,9 @@ export async function GET() {
     { city: 'boston', priority: 0.85 },
     { city: 'portland-maine', priority: 0.85 },
     { city: 'burlington-vermont', priority: 0.85 },
-    { city: 'los-angeles', priority: 0.85 }
+    { city: 'los-angeles', priority: 0.85 },
+    { city: 'new-york-city', priority: 0.85 },
+    { city: 'san-francisco', priority: 0.85 }
   ];
 
   nearMePages.forEach(({ city, priority }) => {
