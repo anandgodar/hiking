@@ -167,12 +167,33 @@ const tableOfContents = post.content?.sections?.map((section, index) => ({
             </div>
           )}
 
-          {/* Related Resources */}
-          {post.content?.related_resources && post.content.related_resources.length > 0 && (
-            <div class="mt-12 p-6 bg-emerald-50 rounded-xl not-prose">
+          {/* Trail Guide CTAs — links to /hikes/ pages */}
+          {post.content?.related_resources?.filter(r => r.url?.includes('/hikes/')).length > 0 && (
+            <div class="mt-12 p-6 bg-gradient-to-br from-emerald-700 to-emerald-900 rounded-xl not-prose">
+              <h3 class="text-lg font-bold text-white mb-1">Full Trail Data & Maps</h3>
+              <p class="text-emerald-200 text-sm mb-4">Interactive maps, elevation profiles, parking, and current conditions.</p>
+              <div class="flex flex-wrap gap-3">
+                {post.content.related_resources.filter(r => r.url?.includes('/hikes/')).map(resource => (
+                  <a
+                    href={resource.url}
+                    class="inline-flex items-center gap-2 px-4 py-2.5 bg-white text-emerald-700 font-bold rounded-lg hover:bg-emerald-50 transition-colors text-sm"
+                  >
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+                    </svg>
+                    {resource.title}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Related Resources — non-trail links */}
+          {post.content?.related_resources?.filter(r => !r.url?.includes('/hikes/')).length > 0 && (
+            <div class="mt-6 p-6 bg-emerald-50 rounded-xl not-prose">
               <h3 class="text-lg font-bold text-stone-900 mb-4">Related Resources</h3>
               <ul class="space-y-2">
-                {post.content.related_resources.map(resource => (
+                {post.content.related_resources.filter(r => !r.url?.includes('/hikes/')).map(resource => (
                   <li>
                     <a
                       href={resource.url}

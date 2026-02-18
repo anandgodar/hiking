@@ -30,7 +30,6 @@
   },
   "content": {
     "introduction": "<p>Imagine this: You're planning a \"moderate\" 8-mile hike. Your trail app says it's 3,500 feet of elevation gain. You pack accordingly—enough water for a moderate day, plan to be back by 2 PM, and tell your family you'll be home for dinner.</p><p>But halfway up, you realize something's wrong. The trail is steeper than expected. You're exhausted. You check your GPS and discover the actual elevation gain is 5,200 feet—nearly 50% more than advertised. Now you're low on water, behind schedule, and the sun is setting.</p><p>This isn't a hypothetical scenario. It happens regularly. And it's entirely preventable.</p>",
-
     "sections": [
       {
         "heading": "The Hidden Danger of Inaccurate Trail Data",
@@ -61,10 +60,20 @@
         "content": "<h3>1. Open Data Verification Tools</h3><p>We've created open-source tools for trail data verification:</p><ul><li>GPS quality audit scripts</li><li>Data source validation tools</li><li>Automated verification checkers</li></ul><p>These tools help other hiking platforms improve their data quality.</p><h3>2. Advocating for Data Standards</h3><p>We're working with:</p><ul><li>National Park Service</li><li>US Forest Service</li><li>American Alpine Club</li></ul><p>To establish industry standards for trail data accuracy and verification.</p><h3>3. Public Data Quality Reports</h3><p>We publish regular audits of our data quality:</p><ul><li>GPS point density metrics</li><li>Verification coverage</li><li>Data freshness statistics</li><li>Error correction logs</li></ul><p>This accountability keeps us honest and helps users trust our platform.</p>"
       }
     ],
-
     "conclusion": "<h2>The Bottom Line</h2><p>Accurate trail data isn't just a nice-to-have feature—it's a critical safety tool. When you're planning a hike, you deserve to know that the information you're using is verified, sourced from official authorities, and up-to-date.</p><p>At SummitSeeker, we've made data verification our top priority. Every elevation, every distance, every GPS coordinate is traceable to an official source. We show our work, we document our sources, and we're transparent about when data was last verified.</p><p>Because we believe that when you're trusting us to help plan your adventure, we owe you nothing less than the truth.</p><p><strong>Your safety depends on accurate information. We take that responsibility seriously.</strong></p><h3>Ready to Explore with Confidence?</h3><p>Browse our verified trail database and see the difference that proper data verification makes. Every trail includes full source attribution and verification dates.</p>",
-
     "related_resources": [
+      {
+        "title": "Mount Washington — Trail Guide & Maps",
+        "url": "/new-hampshire/hikes/mount-washington-nh"
+      },
+      {
+        "title": "Cadillac Mountain — Trail Guide",
+        "url": "/maine/hikes/cadillac-mountain-me"
+      },
+      {
+        "title": "Half Dome — Trail Guide",
+        "url": "/california/hikes/half-dome-yosemite"
+      },
       {
         "title": "How to Read USGS Topographic Maps",
         "url": "/blog/how-to-read-usgs-maps"

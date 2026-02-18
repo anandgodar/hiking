@@ -2,6 +2,14 @@
 // src/components/TrailSchema.astro
 const { mountain, stateName } = Astro.props;
 
+// Normalize state slug for URLs
+let stateSlug = mountain.state_slug || 'new-hampshire';
+if (stateSlug === 'nh') stateSlug = 'new-hampshire';
+if (stateSlug === 'me') stateSlug = 'maine';
+if (stateSlug === 'vt') stateSlug = 'vermont';
+if (stateSlug === 'ny') stateSlug = 'new-york';
+if (stateSlug === 'ca' || stateSlug === 'CA') stateSlug = 'california';
+
 // Format distance and gain for Schema
 const primaryTrail = mountain.trails?.[0];
 const distance = primaryTrail?.stats?.distance || 0;
@@ -154,3 +162,12 @@ const howToSchema = {
 ---
 <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://summitseeker.io" },
+    { "@type": "ListItem", "position": 2, "name": mountain.state || stateSlug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()), "item": `https://summitseeker.io/${stateSlug}` },
+    { "@type": "ListItem", "position": 3, "name": mountain.name, "item": `https://summitseeker.io/${stateSlug}/hikes/${mountain.slug}` }
+  ]
+})} />
