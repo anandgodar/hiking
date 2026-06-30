@@ -52,16 +52,32 @@ and the per-state files in `pipeline-reports/`.
 working a state:
 1. Set its `"enabled": true` (and update its `data_sources` if it still shows the
    "UPDATE before enabling" placeholder).
-2. Scaffold each trail file with the correct schema:
+2. Create the trail files — two ways:
+
+   **a) Bulk import from OpenStreetMap (whole state at once):**
+   ```bash
+   python3 scripts/import-state.py <state> --min-ele 3000   # try --dry-run first
+   ```
+   Queries the Overpass API for every named peak in the state and writes one
+   trail JSON each, pre-filled with the **real, verifiable** facts OSM has
+   (name, coordinates, elevation) plus ODbL attribution. It does **not** invent
+   distance, difficulty or route geometry — those stay blank, and each file is
+   marked `imported-unverified` so the validator keeps it flagged until a human
+   confirms it. OSM returns *everything* (a state can have 1000+ named bumps),
+   so filter with `--min-ele` / `--min-prominence` / `--limit` to keep only real
+   hiking destinations. Always `--dry-run` first to see the count.
+
+   **b) Scaffold a single trail by hand:**
    ```bash
    python3 scripts/new-trail.py <state> <trail-slug> --name "Display Name"
    ```
-   This creates `website/src/data/<state>/<trail-slug>.json` with every field in
-   place but the **safety-critical facts left blank** (coordinates, elevation,
-   distance, difficulty, source URL). Fill those from an authoritative source —
-   the scaffolder never invents them, and the validator flags the trail as
-   incomplete until you do.
-3. Run `python3 scripts/run-pipeline.py --state <slug>`.
+   Same schema, all facts blank for you to fill.
+
+   Either way, finish each trail by adding route distance/difficulty and a real
+   GPX (`gpx-downloads/<slug>.gpx` → `gpx-to-geo.py`), verifying against the
+   official land manager, then removing the `_status` key.
+3. Run `python3 scripts/run-pipeline.py --state <slug>` — it auto-generates SEO
+   and nearby_peaks, then audits GPS and validates.
 
 States with no data folder yet are skipped safely by every tool, so a default
 run only touches the states you've enabled and populated.
@@ -207,7 +223,8 @@ whole repo.
 | Script | Run when |
 |---|---|
 | `scripts/run-pipeline.py` | **Always start here** — orchestrates the rest |
-| `scripts/new-trail.py` | Scaffold a new trail JSON stub (facts left blank to fill) |
+| `scripts/import-state.py` | Bulk-import a state's named peaks from OpenStreetMap |
+| `scripts/new-trail.py` | Scaffold a single new trail JSON stub (facts blank to fill) |
 | `scripts/generate-nearby-peaks.py` | Link nearest in-state peaks for hikes with none |
 | `scripts/check-links.py` | Verify nearby_peaks internal links resolve |
 | `scripts/generate-seo.py` | Build meta/canonical/schema from real fields |
