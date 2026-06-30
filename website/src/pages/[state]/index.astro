@@ -10,12 +10,13 @@ import Layout from '../../layouts/Layout.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import MountainCard from '../../components/MountainCard.astro';
 import GlobalSearch from '../../components/GlobalSearch.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
 
 export async function getStaticPaths() {
   const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
   const allMountains = Object.values(allFiles)
     .map(f => f.default || f)
-    .filter(m => m && m.name && m.slug); // Filter out blog posts
+    .filter(isPublishReady); // route-complete trails only (no drafts/stubs)
 
   // Normalize slugs
   const normalizeState = (s) => {
@@ -46,7 +47,7 @@ const { mountains, stateSlug } = Astro.props;
 const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
 const allMountains = Object.values(allFiles)
   .map(f => f.default || f)
-  .filter(m => m && m.name && m.slug); // Filter out blog posts
+  .filter(isPublishReady); // route-complete trails only (no drafts/stubs)
 const searchIndex = allMountains.map(m => {
   const sUrl = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
   return {

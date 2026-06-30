@@ -56,6 +56,15 @@ audits GPS, and validates.
 > ```
 > (Still run Step 3 curation before shipping.)
 
+> **Drafts are hidden from the site.** A trail only appears publicly once it is
+> route-complete (real GPS path + distance, and the `_status` flag removed).
+> Freshly imported stubs do **not** generate pages, show on the homepage, or
+> enter the sitemap — so a half-empty page can never reach visitors. See what's
+> still pending:
+> ```bash
+> python3 scripts/draft-status.py <state>      # LIVE vs DRAFT, with what each draft needs
+> ```
+
 ### Step 6 — Finish each kept trail (manual, required for publish)
 For every JSON in `website/src/data/<state>/`:
 - Fill `trails[0].stats`: `distance`, `gain`, `difficulty`, `time`
@@ -146,6 +155,7 @@ rsync -avz --delete website/dist/ user@yourhost:/path/to/webroot/
 | `scripts/generate-seo.py` | Build meta/canonical/schema |
 | `scripts/check-links.py` | Verify internal links resolve |
 | `scripts/check-elevation.py` | Report elevations diverging from USGS (no edits) |
+| `scripts/draft-status.py` | LIVE vs DRAFT trails + exactly what each draft still needs |
 | `scripts/gpx-to-geo.py` | Convert a real GPX into a trail's GPS path |
 | `scripts/audit-gps-quality.py` | Score GPS quality (all routes) |
 | `scripts/validate-trail-data.js` | Validate required fields / ranges |

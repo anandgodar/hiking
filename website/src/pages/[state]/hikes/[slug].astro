@@ -25,6 +25,7 @@ import Footer from '../../../components/Footer.astro';
 // React Components
 import TrailDashboard from '../../../components/TrailDashboard.jsx';
 import WeatherWidget from '../../../components/WeatherWidget.jsx';
+import { isPublishReady } from '../../../lib/publishReady.js';
 
 // REQUIRED: getStaticPaths for dynamic routes
 export async function getStaticPaths() {
@@ -33,7 +34,8 @@ export async function getStaticPaths() {
 
   return Object.entries(modules)
     .map(([path, data]) => data.default || data)
-    .filter(mountain => mountain && mountain.slug && mountain.name) // Filter out blog posts
+    // Only build pages for route-complete trails; drafts/stubs are excluded.
+    .filter(isPublishReady)
     .map(mountain => {
       // Normalize state_slug
       let stateSlug = mountain.state_slug || 'new-hampshire';
