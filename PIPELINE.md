@@ -141,8 +141,13 @@ state has `"generate_gps": true`) does this **per trail**:
 > (CalTopo, Gaia GPS, a verified track), drop it in `gpx-downloads/<slug>.gpx`,
 > and re-run with `generate_gps: true`. The real track replaces the synthetic one.
 
-By default `generate_gps` is `false` for every state — the pipeline only
-audits and validates existing data until you opt a state in.
+**Real GPX is applied automatically.** On every run the pipeline scans
+`gpx-downloads/<slug>.gpx` and converts any match into that trail's route
+(path + distance + gain) — so finishing a trail is just "drop the GPX, re-run".
+This is always on and independent of `generate_gps`. The `generate_gps` flag
+only controls the *synthetic* fallback (an interpolated, flagged path for
+trails with no GPX), which stays `false` by default. The trail still needs its
+`_status` flag removed to publish — that's the human verification step.
 
 ---
 

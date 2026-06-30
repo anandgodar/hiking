@@ -74,10 +74,11 @@ audits GPS, and validates.
 ### Step 6 — Finish each kept trail (manual, required for publish)
 For every JSON in `website/src/data/<state>/`:
 - Fill `trails[0].stats`: `distance`, `gain`, `difficulty`, `time`
-- Add a real GPS track: drop `gpx-downloads/<slug>.gpx`, then:
-  ```bash
-  python3 scripts/gpx-to-geo.py gpx-downloads/<slug>.gpx website/src/data/<state>/<slug>.json
-  ```
+- Add a real GPS track: just drop the file at `gpx-downloads/<slug>.gpx`.
+  The pipeline **auto-converts any GPX it finds** (path + distance + gain) on
+  the next `run-pipeline.py --state <state>` — no manual conversion needed.
+  (To convert one immediately by hand: `python3 scripts/gpx-to-geo.py
+  gpx-downloads/<slug>.gpx website/src/data/<state>/<slug>.json`.)
 - Verify facts against the official source, then delete the `"_status"` line.
 - Re-run the pipeline: `python3 scripts/run-pipeline.py --state <state>`
 
