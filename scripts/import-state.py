@@ -28,8 +28,10 @@ Examples:
 
 import json
 import re
+import ssl
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import date
@@ -38,6 +40,29 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "website" / "src" / "data"
 OVERPASS = "https://overpass-api.de/api/interpreter"
+
+
+def ssl_context():
+    """Build a verifying SSL context, preferring certifi if it's installed.
+
+    Fixes the common macOS python.org issue where Python doesn't use the
+    system keychain and TLS verification fails with CERTIFICATE_VERIFY_FAILED.
+    """
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except Exception:
+        return ssl.create_default_context()
+
+
+CERT_HINT = (
+    "TLS certificate verification failed. This is a macOS/python.org Python\n"
+    "  issue, not an Overpass problem. Fix it once with either:\n"
+    "    /Applications/Python\\ 3.13/Install\\ Certificates.command\n"
+    "  or:\n"
+    "    pip3 install --upgrade certifi\n"
+    "  then re-run this command."
+)
 
 # slug -> (official OSM name, 2-letter abbreviation)
 STATES = {
@@ -86,11 +111,23 @@ def overpass_query(state_name, retries=4):
     req = urllib.request.Request(
         OVERPASS, data=data,
         headers={"User-Agent": "summitseeker-import/1.0 (trail data importer)"})
+    ctx = ssl_context()
     last = None
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(req, timeout=180) as resp:
+            with urllib.request.urlopen(req, timeout=180, context=ctx) as resp:
                 return json.loads(resp.read())
+        except urllib.error.URLError as e:
+            # Certificate failures will never succeed on retry — fail fast with
+            # an actionable hint instead of burning the retry budget.
+            if isinstance(getattr(e, "reason", None), ssl.SSLCertVerificationError) \
+                    or "CERTIFICATE_VERIFY_FAILED" in str(e):
+                sys.exit(f"❌ {CERT_HINT}")
+            last = e
+            wait = 2 ** attempt * 3
+            print(f"  · Overpass unreachable ({e}); retrying in {wait}s "
+                  f"[{attempt + 1}/{retries}]")
+            time.sleep(wait)
         except Exception as e:  # 429/504/timeouts are common on the public server
             last = e
             wait = 2 ** attempt * 3
