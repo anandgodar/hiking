@@ -6,12 +6,14 @@ interface Props {
 	title: string;
     description?: string;
     image?: string;
+    mountain?: any;
 }
 
 const {
     title,
     description = "Discover detailed hiking guides, track your peak bagging progress, and explore the outdoors.",
-    image
+    image,
+    mountain
 } = Astro.props;
 ---
 
@@ -46,7 +48,8 @@ const {
           gtag('config', 'G-53Y7JKL9DN');
         </script>
 
-        <SEOHead title={title} description={description} image={image} />
+        <SEOHead title={title} description={description} image={image} mountain={mountain} />
+        <slot name="head" />
 	</head>
 	<body class="bg-stone-50 text-stone-900 font-sans antialiased min-h-screen flex flex-col">
         <slot />

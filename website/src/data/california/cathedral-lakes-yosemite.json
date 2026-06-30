@@ -790,7 +790,87 @@
   },
   "seo": {
     "meta_title": "Cathedral Lakes Hike 2026 | Yosemite High Sierra Alpine Lakes Trail",
-    "meta_description": "Complete guide to hiking Cathedral Lakes in Yosemite's Tuolumne Meadows. Moderate 8-mile trail to pristine alpine lakes beneath Cathedral Peak. Best time to visit, wildflowers, and High Sierra tips."
+    "meta_description": "Complete guide to hiking Cathedral Lakes in Yosemite's Tuolumne Meadows. Moderate 8-mile trail to pristine alpine lakes beneath Cathedral Peak. Best time to visit, wildflowers, and High Sierra tips.",
+    "canonical_url": "/trails/california/cathedral-lakes-yosemite",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Cathedral Lakes",
+      "description": "Cathedral Lakes is a 9,585 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.8347,
+        "longitude": -119.3992,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 9585,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Cathedral Lakes via John Muir Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.8385,
+            "longitude": -119.4055
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Cathedral Lakes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Cathedral Lakes via John Muir Trail on Cathedral Lakes is 8.0-mile and takes about 5 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cathedral Lakes hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cathedral Lakes is rated Moderate. At 9,585 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Cathedral Lakes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Cathedral Lakes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Cathedral Lakes via John Muir Trail, a 8.0-mile moderate hike to the Cathedral Lakes summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Cathedral Lakes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Cathedral Lakes. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",

@@ -601,7 +601,87 @@
   },
   "seo": {
     "meta_title": "Mirror Lake Loop Yosemite 2026 | Easy Half Dome Reflection Hike",
-    "meta_description": "Complete guide to hiking Mirror Lake in Yosemite Valley. Easy 5-mile loop trail with Half Dome reflections, perfect for families and casual hikers. Best time to visit for water and reflections."
+    "meta_description": "Complete guide to hiking Mirror Lake in Yosemite Valley. Easy 5-mile loop trail with Half Dome reflections, perfect for families and casual hikers. Best time to visit for water and reflections.",
+    "canonical_url": "/trails/california/mirror-lake-yosemite",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mirror Lake",
+      "description": "Mirror Lake is a 4,100 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.7433,
+        "longitude": -119.5533,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4100,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mirror Lake Loop",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.7385,
+            "longitude": -119.5575
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mirror Lake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mirror Lake Loop on Mirror Lake is 5.0-mile and takes about 2.5 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mirror Lake hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mirror Lake is rated Easy. At 4,100 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mirror Lake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mirror Lake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mirror Lake Loop, a 5.0-mile easy hike to the Mirror Lake summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mirror Lake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mirror Lake. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",

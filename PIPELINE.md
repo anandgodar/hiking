@@ -16,8 +16,9 @@ files to the web host yourself).
   scripts/run-pipeline.py     ← one command, reads the config
           │
           ├─ 1. generate GPS   (optional) real .gpx preferred → synthetic fallback (flagged)
-          ├─ 2. audit quality   scripts/audit-gps-quality.py
-          └─ 3. validate         scripts/validate-trail-data.js
+          ├─ 2. generate SEO   fills missing meta/canonical/schema from real fields
+          ├─ 3. audit quality   scripts/audit-gps-quality.py
+          └─ 4. validate         scripts/validate-trail-data.js
           │
           ▼
   pipeline-reports/<state>.json   ← what passed / what needs work
@@ -88,6 +89,29 @@ state has `"generate_gps": true`) does this **per trail**:
 
 By default `generate_gps` is `false` for every state — the pipeline only
 audits and validates existing data until you opt a state in.
+
+---
+
+## How SEO data is created
+
+When a state has `"generate_seo": true` (default), the pipeline runs
+`scripts/generate-seo.py` on every trail missing SEO and fills in:
+
+- `meta_title`, `meta_description` — search-friendly, derived from the trail's
+  real name / state / elevation / route stats
+- `canonical_url` — `/trails/<state>/<slug>`
+- `schema_place` — Place + GeoCoordinates + per-trail HikingTrail entries
+- `schema_faq` — FAQPage with 5 Q&As built from the trail's own stats
+
+It is **idempotent**: existing SEO is preserved; only missing pieces are added.
+Use `python3 scripts/generate-seo.py --force <file>` to rebuild a single file.
+
+> These values render through `src/layouts/Layout.astro`, which forwards the
+> `mountain` prop to `SEOHead` and exposes a `<slot name="head" />` for extra
+> per-page schema (e.g. `TrailSchema`, `near/` and `challenges/` FAQ schema).
+> Before this wiring, trail pages silently shipped a generic meta description
+> and dropped their structured data — if you add new page-level schema, inject
+> it via `slot="head"`.
 
 ---
 

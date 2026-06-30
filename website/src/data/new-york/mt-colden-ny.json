@@ -6156,5 +6156,89 @@
     "gps_source": "USGS Topographic Map - Mount Marcy Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
     "notes": "Elevation (4,714 ft) from USGS benchmark. Known for Trap Dike scramble route and alpine slides. Trail distance from NYS DEC and Adirondack Mountain Club guidebooks. Part of Adirondack 46ers."
+  },
+  "seo": {
+    "meta_title": "Mount Colden Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Colden hike with current conditions, trail map & parking info. New York summit at 4,714 ft.",
+    "canonical_url": "/trails/new-york/mt-colden-ny",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Colden",
+      "description": "Mount Colden is a 4,714 foot peak in New York offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.1265,
+        "longitude": -73.9593,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4714,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New York",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Colden Loop via Avalanche Pass",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.18293,
+            "longitude": -73.96262
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Colden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Colden Loop via Avalanche Pass on Mount Colden is 16.4-mile and takes about 13.4 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Colden hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Colden is rated Expert. At 4,714 feet, plan for the terrain and weather typical of New York peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Colden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Colden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Colden Loop via Avalanche Pass, a 16.4-mile expert hike to the Mount Colden summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Colden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Colden. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   }
 }

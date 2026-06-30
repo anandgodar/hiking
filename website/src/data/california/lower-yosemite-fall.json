@@ -246,7 +246,87 @@
   },
   "seo": {
     "meta_title": "Lower Yosemite Fall Loop 2026 | Easy 1-Mile Wheelchair Accessible Trail",
-    "meta_description": "Complete guide to Lower Yosemite Fall Loop. Easy 1-mile paved trail to base of Yosemite Falls. Fully wheelchair accessible, perfect for all ages. Best time to visit for water flow."
+    "meta_description": "Complete guide to Lower Yosemite Fall Loop. Easy 1-mile paved trail to base of Yosemite Falls. Fully wheelchair accessible, perfect for all ages. Best time to visit for water flow.",
+    "canonical_url": "/trails/california/lower-yosemite-fall",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Lower Yosemite Fall",
+      "description": "Lower Yosemite Fall is a 3,975 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.7447,
+        "longitude": -119.5966,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3975,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Lower Yosemite Fall Loop",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.7456,
+            "longitude": -119.5965
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Lower Yosemite Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Lower Yosemite Fall Loop on Lower Yosemite Fall is 1.0-mile and takes about 0.5 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Lower Yosemite Fall hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lower Yosemite Fall is rated Easy. At 3,975 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Lower Yosemite Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Lower Yosemite Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Lower Yosemite Fall Loop, a 1.0-mile easy hike to the Lower Yosemite Fall summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Lower Yosemite Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Lower Yosemite Fall. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",

@@ -1441,5 +1441,89 @@
     "gps_source": "USGS Topographic Map - Elizabethtown Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
     "notes": "Elevation (4,627 ft) from USGS benchmark. Known for spectacular views and rocky ridge trail. Trail distance from NYS DEC and Adirondack Mountain Club guidebooks. Part of Adirondack 46ers."
+  },
+  "seo": {
+    "meta_title": "Giant Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Giant Mountain hike with current conditions, trail map & parking info. New York summit at 4,627 ft.",
+    "canonical_url": "/trails/new-york/giant-mountain-ny",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Giant Mountain",
+      "description": "Giant Mountain is a 4,627 foot peak in New York offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.161,
+        "longitude": -73.72,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4627,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New York",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Zander Scott (Ridge) Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.13785,
+            "longitude": -73.74331
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Giant Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Zander Scott (Ridge) Trail on Giant Mountain is 5.4-mile and takes about 5.2 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Giant Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Giant Mountain is rated Hard. At 4,627 feet, plan for the terrain and weather typical of New York peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Giant Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Giant Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Zander Scott (Ridge) Trail, a 5.4-mile hard hike to the Giant Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Giant Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Giant Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   }
 }

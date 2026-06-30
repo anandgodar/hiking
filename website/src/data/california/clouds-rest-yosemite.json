@@ -1174,7 +1174,87 @@
   },
   "seo": {
     "meta_title": "Clouds Rest Hike Guide 2026 | Yosemite's Best Views (Better than Half Dome!)",
-    "meta_description": "Complete guide to hiking Clouds Rest in Yosemite. 14.5-mile trail with panoramic views of Half Dome, Yosemite Valley & High Sierra. No permit required. Best views in the park at 9,926 feet."
+    "meta_description": "Complete guide to hiking Clouds Rest in Yosemite. 14.5-mile trail with panoramic views of Half Dome, Yosemite Valley & High Sierra. No permit required. Best views in the park at 9,926 feet.",
+    "canonical_url": "/trails/california/clouds-rest-yosemite",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Clouds Rest",
+      "description": "Clouds Rest is a 9,926 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.764,
+        "longitude": -119.487,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 9926,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Clouds Rest via Tenaya Lake",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.827,
+            "longitude": -119.455
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Clouds Rest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Clouds Rest via Tenaya Lake on Clouds Rest is 14.5-mile and takes about 8 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Clouds Rest hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clouds Rest is rated Strenuous. At 9,926 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Clouds Rest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Clouds Rest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Clouds Rest via Tenaya Lake, a 14.5-mile strenuous hike to the Clouds Rest summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Clouds Rest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Clouds Rest. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",

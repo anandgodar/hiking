@@ -196,7 +196,87 @@
   },
   "seo": {
     "meta_title": "Bridalveil Fall Yosemite 2026 | Easy 0.5-Mile Waterfall Hike",
-    "meta_description": "Complete guide to Bridalveil Fall in Yosemite National Park. Easy 0.5-mile paved trail to 620-foot waterfall. Wheelchair accessible, perfect for families and all ages. Best time to visit tips."
+    "meta_description": "Complete guide to Bridalveil Fall in Yosemite National Park. Easy 0.5-mile paved trail to 620-foot waterfall. Wheelchair accessible, perfect for families and all ages. Best time to visit tips.",
+    "canonical_url": "/trails/california/bridalveil-fall-yosemite",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bridalveil Fall",
+      "description": "Bridalveil Fall is a 4,000 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.7168,
+        "longitude": -119.6469,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4000,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bridalveil Fall Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.7171,
+            "longitude": -119.6483
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bridalveil Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bridalveil Fall Trail on Bridalveil Fall is 0.5-mile and takes about 0.5 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bridalveil Fall hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bridalveil Fall is rated Easy. At 4,000 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bridalveil Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bridalveil Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bridalveil Fall Trail, a 0.5-mile easy hike to the Bridalveil Fall summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bridalveil Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bridalveil Fall. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",

@@ -92,6 +92,20 @@ def generate_gps(state, config, audit_mod):
     return synthetic
 
 
+def generate_seo(state, config):
+    """Fill missing SEO blocks (meta, canonical, schema) from real fields."""
+    data_dir = ROOT / config["data_dir"] / state["slug"]
+    updated = []
+    for trail_file in sorted(data_dir.glob("*.json")):
+        proc = subprocess.run(
+            [sys.executable, str(SCRIPTS / "generate-seo.py"), str(trail_file)],
+            capture_output=True, text=True,
+        )
+        if "SEO written" in proc.stdout:
+            updated.append(trail_file.stem)
+    return updated
+
+
 def audit_state(state, config, audit_mod):
     """Per-state GPS quality audit using the shared audit logic."""
     data_dir = ROOT / config["data_dir"] / state["slug"]
@@ -143,6 +157,11 @@ def main():
             if synthetic:
                 print(f"  · {len(synthetic)} trail(s) used SYNTHETIC paths "
                       f"(flagged for real-GPX upgrade)")
+
+        if state.get("generate_seo", True):
+            seo_updated = generate_seo(state, config)
+            if seo_updated:
+                print(f"  · SEO: filled {len(seo_updated)} trail(s) missing meta/schema")
 
         results, passed, failed = audit_state(state, config, audit_mod)
         state_pass = len(failed) == 0

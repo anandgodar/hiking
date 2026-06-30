@@ -666,7 +666,87 @@
   },
   "seo": {
     "meta_title": "Mission Peak Hike Guide 2026 | Fremont Bay Area Trail & Sunrise Views",
-    "meta_description": "Complete guide to hiking Mission Peak in Fremont, CA. 6.2-mile Bay Area trail with 2,100 ft gain to iconic summit pole. Best times, parking tips, and what to bring for the Bay Area's most popular training hike."
+    "meta_description": "Complete guide to hiking Mission Peak in Fremont, CA. 6.2-mile Bay Area trail with 2,100 ft gain to iconic summit pole. Best times, parking tips, and what to bring for the Bay Area's most popular training hike.",
+    "canonical_url": "/trails/california/mission-peak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mission Peak",
+      "description": "Mission Peak is a 2,517 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.5132,
+        "longitude": -121.8799,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2517,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mission Peak via Hidden Valley Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.5159,
+            "longitude": -121.9019
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mission Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mission Peak via Hidden Valley Trail on Mission Peak is 6.2-mile and takes about 3.5 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mission Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mission Peak is rated Moderate. At 2,517 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mission Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mission Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mission Peak via Hidden Valley Trail, a 6.2-mile moderate hike to the Mission Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mission Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mission Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "East Bay Regional Park District",

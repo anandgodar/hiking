@@ -1386,5 +1386,89 @@
     "gps_source": "USGS Topographic Map - Hunter Quadrangle",
     "distance_source": "NYS DEC trail guides and Catskill 3500 Club",
     "notes": "Elevation (4,040 ft) from USGS benchmark - second highest Catskill peak. Fire tower on summit (removed 1989, restored 2007). Trail distance from NYS DEC and Catskill 3500 Club. Part of Catskill High Peaks."
+  },
+  "seo": {
+    "meta_title": "Hunter Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Hunter Mountain hike with current conditions, trail map & parking info. New York summit at 4,040 ft.",
+    "canonical_url": "/trails/new-york/hunter-mountain-ny",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Hunter Mountain",
+      "description": "Hunter Mountain is a 4,040 foot peak in New York offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.1798,
+        "longitude": -74.2307,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4040,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New York",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Spruceton Trail (Fire Tower)",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.19348,
+            "longitude": -74.27096
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Hunter Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Spruceton Trail (Fire Tower) on Hunter Mountain is 5.8-mile and takes about 4.7 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Hunter Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hunter Mountain is rated Moderate. At 4,040 feet, plan for the terrain and weather typical of New York peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Hunter Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Hunter Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Spruceton Trail (Fire Tower), a 5.8-mile moderate hike to the Hunter Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Hunter Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Hunter Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   }
 }

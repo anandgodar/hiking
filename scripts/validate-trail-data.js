@@ -23,6 +23,29 @@ const __dirname = dirname(__filename);
 
 const DATA_DIR = join(__dirname, '../website/src/data');
 
+/**
+ * Trail-state folders to validate. Sourced from pipeline.config.json so the
+ * state list lives in one place. Non-trail content (blog/, guides/) is skipped
+ * because those files have a different schema (no lat/lon/elevation).
+ */
+async function getTrailStates() {
+  try {
+    const cfg = JSON.parse(
+      await readFile(join(__dirname, '../pipeline.config.json'), 'utf-8')
+    );
+    const slugs = (cfg.states || []).map(s => s.slug);
+    if (slugs.length) return slugs;
+  } catch {
+    // No config available; fall back to scanning everything except known
+    // non-trail folders.
+  }
+  const NON_TRAIL = new Set(['blog', 'guides']);
+  const entries = await readdir(DATA_DIR, { withFileTypes: true });
+  return entries
+    .filter(e => e.isDirectory() && !NON_TRAIL.has(e.name))
+    .map(e => e.name);
+}
+
 // Validation rules
 const VALIDATION_RULES = {
   // GPS coordinates (continental US + Alaska + Hawaii)
@@ -285,7 +308,7 @@ function getNestedValue(obj, path) {
  */
 async function scanAllTrails() {
   try {
-    const states = await readdir(DATA_DIR);
+    const states = await getTrailStates();
 
     for (const state of states) {
       const statePath = join(DATA_DIR, state);

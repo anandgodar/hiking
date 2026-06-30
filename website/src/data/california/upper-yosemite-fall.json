@@ -622,7 +622,87 @@
   },
   "seo": {
     "meta_title": "Upper Yosemite Fall Trail 2026 | Hike to North America's Tallest Waterfall",
-    "meta_description": "Complete guide to hiking Upper Yosemite Fall. Strenuous 7.2-mile trail to the top of 2,425-foot Yosemite Falls. Best time to hike, water needs, and tips for this challenging Yosemite Valley climb."
+    "meta_description": "Complete guide to hiking Upper Yosemite Fall. Strenuous 7.2-mile trail to the top of 2,425-foot Yosemite Falls. Best time to hike, water needs, and tips for this challenging Yosemite Valley climb.",
+    "canonical_url": "/trails/california/upper-yosemite-fall",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Upper Yosemite Fall",
+      "description": "Upper Yosemite Fall is a 6,526 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.7567,
+        "longitude": -119.5967,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 6526,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Upper Yosemite Fall Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.7456,
+            "longitude": -119.5965
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Upper Yosemite Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Upper Yosemite Fall Trail on Upper Yosemite Fall is 7.2-mile and takes about 6 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Upper Yosemite Fall hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Upper Yosemite Fall is rated Strenuous. At 6,526 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Upper Yosemite Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Upper Yosemite Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Upper Yosemite Fall Trail, a 7.2-mile strenuous hike to the Upper Yosemite Fall summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Upper Yosemite Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Upper Yosemite Fall. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",

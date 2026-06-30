@@ -1051,7 +1051,87 @@
   },
   "seo": {
     "meta_title": "Panorama Trail Yosemite 2026 | Glacier Point to Valley via 3 Waterfalls",
-    "meta_description": "Complete guide to hiking Panorama Trail in Yosemite. 8.5-mile one-way descent from Glacier Point past Illilouette, Nevada & Vernal Falls. How to arrange shuttle, best direction, and trail tips."
+    "meta_description": "Complete guide to hiking Panorama Trail in Yosemite. 8.5-mile one-way descent from Glacier Point past Illilouette, Nevada & Vernal Falls. How to arrange shuttle, best direction, and trail tips.",
+    "canonical_url": "/trails/california/panorama-trail-yosemite",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Panorama Trail",
+      "description": "Panorama Trail is a 7,214 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.7293,
+        "longitude": -119.5743,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 7214,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Panorama Trail (Glacier Point to Valley)",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.7293,
+            "longitude": -119.5743
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Panorama Trail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Panorama Trail (Glacier Point to Valley) on Panorama Trail is 8.5-mile and takes about 5 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Panorama Trail hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Panorama Trail is rated Moderate. At 7,214 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Panorama Trail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Panorama Trail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Panorama Trail (Glacier Point to Valley), a 8.5-mile moderate hike to the Panorama Trail summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Panorama Trail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Panorama Trail. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
