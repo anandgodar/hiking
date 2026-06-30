@@ -45,7 +45,26 @@ SOURCES = [
      "https://mapservices.nps.gov/arcgis/rest/services/NationalDatasets/NPS_Public_Trails/MapServer/0/query",
      "TRLNAME", None,
      "National Park Service Public Trails (public domain)"),
+    ("USGS",
+     "https://carto.nationalmap.gov/arcgis/rest/services/transportation/MapServer/37/query",
+     "name", None,
+     "USGS National Map / National Transportation Dataset (public domain)"),
 ]
+
+
+def load_extra_sources():
+    """Append custom ArcGIS REST trail services from trail-sources.json, e.g.
+    state-park GIS portals. Each entry: {label,url,name_field,order_field,attribution}.
+    Lets you extend coverage (state/county data) without editing this script."""
+    cfg = ROOT / "trail-sources.json"
+    if not cfg.exists():
+        return
+    try:
+        for s in json.loads(cfg.read_text()):
+            SOURCES.append((s["label"], s["url"], s["name_field"],
+                            s.get("order_field"), s.get("attribution", s["label"])))
+    except Exception as e:
+        print(f"  · ignoring trail-sources.json ({e})")
 
 # Reuse Open-Meteo elevation + chart from enrich-elevation.py.
 _spec = importlib.util.spec_from_file_location("ee", ROOT / "scripts" / "enrich-elevation.py")
@@ -260,8 +279,9 @@ def main():
     if not (DATA / state).is_dir():
         sys.exit(f"❌ No data folder for '{state}'")
 
-    print(f"Fetching USFS trail routes for drafts in {state} "
-          f"(radius {radius_km} km)…")
+    load_extra_sources()
+    print(f"Fetching trail routes for drafts in {state} "
+          f"(radius {radius_km} km, sources: {', '.join(s[0] for s in SOURCES)})…")
     ctx = ssl_context()
     n = process(state, slug, radius_km, limit, ctx)
     print(f"\nAttached routes to {n} trail(s). Now run:")

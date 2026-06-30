@@ -1,0 +1,10 @@
+[
+  {
+    "_comment": "Optional extra public-domain trail route sources for fetch-trails.py. Copy this file to trail-sources.json and add ArcGIS REST query endpoints (e.g. a state-park or county GIS portal). Each is tried after the built-in USFS/NPS/USGS sources. Find a layer's query URL in its ArcGIS REST page (…/MapServer/<id>/query) and the polyline trail-name field. order_field is optional (a milepost/sequence field for ordering segments).",
+    "label": "EXAMPLE-State-Parks",
+    "url": "https://example-state-gis/arcgis/rest/services/Trails/MapServer/0/query",
+    "name_field": "TRAIL_NAME",
+    "order_field": null,
+    "attribution": "Example State Parks GIS (public domain)"
+  }
+]

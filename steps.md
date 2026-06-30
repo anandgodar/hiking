@@ -64,9 +64,12 @@ python3 scripts/enrich-poi.py <state>       # trailhead start + parking + along-
 python3 scripts/run-pipeline.py --state <state>
 python3 scripts/curate-state.py <state>     # publishes the ones that pass quality
 ```
-- `fetch-trails.py` tries USFS then NPS, matching a trail by name to the peak
-  (e.g. "Mount Rogers" → USFS "Mount Rogers Spur"). Never auto-publishes — the
-  quality gate vets each route. Tune coverage with `--radius-km`.
+- `fetch-trails.py` tries USFS → NPS → USGS National Map (federal + many
+  state/local trails), matching a trail by name to the peak (e.g. "Mount Rogers"
+  → USFS "Mount Rogers Spur"). Never auto-publishes — the quality gate vets each
+  route. Tune coverage with `--radius-km`. To add a state/county GIS service,
+  copy `trail-sources.example.json` → `trail-sources.json` and list its ArcGIS
+  REST query endpoint; it's tried after the built-ins (no code change).
 - `enrich-poi.py` sets the **trailhead** as the route start, fills **parking**
   (name + coords + fee), and lists **features** you pass — waterfall, overlook,
   hut, rest area, boulder, cliff, fire tower — each with its mile along the trail.
