@@ -312,7 +312,15 @@ async function scanAllTrails() {
 
     for (const state of states) {
       const statePath = join(DATA_DIR, state);
-      const stat = await readdir(statePath, { withFileTypes: true });
+
+      // A configured state may not have a data folder yet (not started).
+      let stat;
+      try {
+        stat = await readdir(statePath, { withFileTypes: true });
+      } catch (err) {
+        if (err.code === 'ENOENT') continue;
+        throw err;
+      }
 
       const jsonFiles = stat.filter(f => f.isFile() && f.name.endsWith('.json'));
 

@@ -47,6 +47,17 @@ python3 scripts/run-pipeline.py
 Audits every enabled state and runs validation. Read the SUMMARY at the bottom
 and the per-state files in `pipeline-reports/`.
 
+### Enabling a state (one at a time)
+`pipeline.config.json` lists **all 50 US states, all `enabled: false`**. To start
+working a state:
+1. Set its `"enabled": true` (and update its `data_sources` if it still shows the
+   "UPDATE before enabling" placeholder).
+2. Create `website/src/data/<state>/` and add trail JSON files.
+3. Run `python3 scripts/run-pipeline.py --state <slug>`.
+
+States with no data folder yet are skipped safely by every tool, so a default
+run only touches the states you've enabled and populated.
+
 ### B. Work on just one state
 1. Open `pipeline.config.json`, find the state, set `"rerun": true`.
 2. Run:
