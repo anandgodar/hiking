@@ -125,6 +125,29 @@ def generate_nearby(state, config):
     return [ln for ln in proc.stdout.splitlines() if ln.strip().startswith("✅")]
 
 
+def count_live_draft(state, config):
+    """How many trails are publicly live (route-complete) vs hidden drafts."""
+    data_dir = ROOT / config["data_dir"] / state["slug"]
+    live = draft = 0
+    for f in sorted(data_dir.glob("*.json")):
+        try:
+            d = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        if not d.get("name"):
+            continue
+        t = (d.get("trails") or [{}])[0]
+        path = (t.get("geo") or {}).get("path")
+        dist = (t.get("stats") or {}).get("distance")
+        is_live = (not d.get("_status") and isinstance(path, list) and path
+                   and isinstance(dist, (int, float)) and dist > 0)
+        if is_live:
+            live += 1
+        else:
+            draft += 1
+    return live, draft
+
+
 def audit_state(state, config, audit_mod):
     """Per-state GPS quality audit using the shared audit logic."""
     data_dir = ROOT / config["data_dir"] / state["slug"]
@@ -206,6 +229,10 @@ def main():
         else:
             print(f"  · links: {total_links} nearby_peaks all resolve ✓")
 
+        live, draft = count_live_draft(state, config)
+        print(f"  · publish: {live} LIVE on site, {draft} draft (hidden until "
+              f"route-complete)")
+
         results, passed, failed = audit_state(state, config, audit_mod)
         state_pass = len(failed) == 0 and len(broken_links) == 0
         overall["all_pass"] = overall["all_pass"] and state_pass
@@ -230,6 +257,8 @@ def main():
             "passed": len(passed),
             "failed": len(failed),
             "synthetic_gps": synthetic,
+            "live": live,
+            "draft": draft,
             "broken_links": [
                 {"file": str(f), "target": f"{st}/{tslug}", "name": name}
                 for f, name, st, tslug in broken_links
@@ -268,7 +297,10 @@ def main():
         if s["synthetic_gps"]:
             parts.append(f"{len(s['synthetic_gps'])} synthetic")
         flag = ", ".join(parts) if parts else "PASS"
-        print(f"  {s['state']:<16} {s['passed']}/{s['total']} ≥ {min_score}  [{flag}]")
+        live = s.get("live", 0)
+        draft = s.get("draft", 0)
+        print(f"  {s['state']:<16} {live} live / {draft} draft   "
+              f"audit {s['passed']}/{s['total']} ≥ {min_score}  [{flag}]")
     print(f"\n  Validation: {'PASS' if validate_ok else 'FAIL (see output above)'}")
     print(f"  Reports written to: {report_dir.relative_to(ROOT)}/")
     print("\n  Next: review reports, test locally (cd website && npm run dev),")
