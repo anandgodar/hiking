@@ -274,13 +274,21 @@ track) leaves a flat chart and wrong gain. `scripts/enrich-elevation.py
 (free, no key) and recomputes the chart and gain. It only touches paths that
 lack real elevation; 3-D tracks are left alone.
 
-**Route geometry — NOT auto-pulled (by design).** Open data has no reliable
-per-peak trail: OSM's nearest hiking-route relation to a summit is usually an
-entire long-distance trail (e.g. the whole Appalachian Trail, 50k+ points), not
-that peak's route. Auto-attaching it would publish a wrong route and break
-trust, so the route must come from a real GPX (Hiking Project, official park
-GPX, OSM segment you vet, or your own recording). Once a real path exists,
-`enrich-elevation.py` can supply its elevation if the GPX was 2-D.
+**Route geometry — auto-pulled from public-domain government data, gate-vetted.**
+`scripts/fetch-trails.py <state>` queries the USFS National Forest System Trails
+service (public domain, no key) for trail centerlines near each draft's summit,
+matches a trail by name to the peak where possible (peak "Mount Rogers" → USFS
+"Mount Rogers Spur"), assembles its segments in milepost order, and fills
+elevation from the Open-Meteo DEM. It writes the route but keeps `_status` — it
+never auto-publishes; `curate-state.py <state>` then vets each route on GPS
+quality before it goes live.
+
+OSM hiking-route *relations* are deliberately NOT used for this: the nearest one
+to a summit is usually an entire long-distance trail (the whole Appalachian
+Trail, 50k+ points), not that peak's route. Where USFS has no nearby trail (peak
+outside National Forest land), supply a real GPX instead (official park GPX,
+Hiking Project, your own recording). `enrich-elevation.py` then fills elevation
+if that GPX was 2-D.
 
 ## Reference docs (deeper dives, not needed day-to-day)
 

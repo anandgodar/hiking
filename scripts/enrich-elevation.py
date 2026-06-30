@@ -65,7 +65,8 @@ def batch_elevations(points, ctx):
             try:
                 with urllib.request.urlopen(req, timeout=40, context=ctx) as resp:
                     data = json.loads(resp.read())
-                out.extend(data.get("elevation") or [])
+                # Open-Meteo returns metres; this site stores elevation in feet.
+                out.extend(round(m * 3.28084) for m in (data.get("elevation") or []))
                 break
             except urllib.error.URLError as e:
                 if "CERTIFICATE_VERIFY_FAILED" in str(e):
