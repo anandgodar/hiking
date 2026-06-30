@@ -129,6 +129,7 @@ def main():
 
     config = load_config()
     audit_mod = load_module(SCRIPTS / "audit-gps-quality.py", "audit_gps_quality")
+    links_mod = load_module(SCRIPTS / "check-links.py", "check_links")
 
     targets = select_states(config, args)
     if not targets:
@@ -163,8 +164,20 @@ def main():
             if seo_updated:
                 print(f"  · SEO: filled {len(seo_updated)} trail(s) missing meta/schema")
 
+        # Internal link integrity: broken nearby_peaks links 404 → retention/SEO loss.
+        broken_links, no_links, total_links = links_mod.check([slug])
+        if broken_links:
+            print(f"  · links: {len(broken_links)} BROKEN nearby_peaks link(s)")
+            for f, name, st, tslug in broken_links[:10]:
+                print(f"      ✗ {f}  →  {st}/{tslug}")
+        elif no_links:
+            print(f"  · links: {total_links} ok, "
+                  f"{len(no_links)} hike(s) have no nearby_peaks (weak linking)")
+        else:
+            print(f"  · links: {total_links} nearby_peaks all resolve ✓")
+
         results, passed, failed = audit_state(state, config, audit_mod)
-        state_pass = len(failed) == 0
+        state_pass = len(failed) == 0 and len(broken_links) == 0
         overall["all_pass"] = overall["all_pass"] and state_pass
 
         print(f"  · audit: {len(passed)}/{len(results)} trails ≥ {min_score} "
@@ -182,6 +195,11 @@ def main():
             "passed": len(passed),
             "failed": len(failed),
             "synthetic_gps": synthetic,
+            "broken_links": [
+                {"file": str(f), "target": f"{st}/{tslug}", "name": name}
+                for f, name, st, tslug in broken_links
+            ],
+            "hikes_without_nearby_peaks": [str(f) for f in no_links],
             "needs_work": [
                 {"name": r["name"], "file": r.get("file"),
                  "score": r.get("quality_score", 0),
@@ -206,9 +224,15 @@ def main():
     print("SUMMARY")
     print("=" * 78)
     for s in overall["states"]:
-        flag = "PASS" if s["failed"] == 0 else f"{s['failed']} need work"
-        extra = f", {len(s['synthetic_gps'])} synthetic" if s["synthetic_gps"] else ""
-        print(f"  {s['state']:<16} {s['passed']}/{s['total']} ≥ {min_score}  [{flag}{extra}]")
+        parts = []
+        if s["failed"]:
+            parts.append(f"{s['failed']} need work")
+        if s["broken_links"]:
+            parts.append(f"{len(s['broken_links'])} broken links")
+        if s["synthetic_gps"]:
+            parts.append(f"{len(s['synthetic_gps'])} synthetic")
+        flag = ", ".join(parts) if parts else "PASS"
+        print(f"  {s['state']:<16} {s['passed']}/{s['total']} ≥ {min_score}  [{flag}]")
     print(f"\n  Validation: {'PASS' if validate_ok else 'FAIL (see output above)'}")
     print(f"  Reports written to: {report_dir.relative_to(ROOT)}/")
     print("\n  Next: review reports, test locally (cd website && npm run dev),")

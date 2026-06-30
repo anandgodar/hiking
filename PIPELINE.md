@@ -17,8 +17,9 @@ files to the web host yourself).
           │
           ├─ 1. generate GPS   (optional) real .gpx preferred → synthetic fallback (flagged)
           ├─ 2. generate SEO   fills missing meta/canonical/schema from real fields
-          ├─ 3. audit quality   scripts/audit-gps-quality.py
-          └─ 4. validate         scripts/validate-trail-data.js
+          ├─ 3. check links    nearby_peaks internal links resolve (retention + SEO)
+          ├─ 4. audit quality   scripts/audit-gps-quality.py
+          └─ 5. validate         scripts/validate-trail-data.js
           │
           ▼
   pipeline-reports/<state>.json   ← what passed / what needs work
@@ -127,6 +128,14 @@ Set in `pipeline.config.json` under `quality`; enforced by
 | Path straightness | < 0.9 | Near-straight paths mean the route was oversimplified |
 | Chart points | ≥ 5 (10+ ideal) | Drives the elevation profile graph |
 | `data_sources` block | required | Authenticity/safety — see `DATA_QUALITY_SYSTEM.md` |
+| `nearby_peaks` links | must resolve | Broken internal links 404 → lost retention + SEO crawl paths |
+
+**Link integrity** (`scripts/check-links.py`) is a hard gate: every
+`nearby_peaks` entry must point to a real trail file
+(`website/src/data/<state_slug>/<slug>.json`), or the state is marked NEEDS
+WORK. Hikes with *no* `nearby_peaks` are reported as a warning (weak internal
+linking) — good candidates for enrichment, but not a failure. Run standalone
+with `python3 scripts/check-links.py [state ...]`.
 
 A trail scores 0–100; the pipeline marks a state `PASS` only when every trail
 is ≥ `quality.min_score` (default 80).
