@@ -52,7 +52,15 @@ and the per-state files in `pipeline-reports/`.
 working a state:
 1. Set its `"enabled": true` (and update its `data_sources` if it still shows the
    "UPDATE before enabling" placeholder).
-2. Create `website/src/data/<state>/` and add trail JSON files.
+2. Scaffold each trail file with the correct schema:
+   ```bash
+   python3 scripts/new-trail.py <state> <trail-slug> --name "Display Name"
+   ```
+   This creates `website/src/data/<state>/<trail-slug>.json` with every field in
+   place but the **safety-critical facts left blank** (coordinates, elevation,
+   distance, difficulty, source URL). Fill those from an authoritative source —
+   the scaffolder never invents them, and the validator flags the trail as
+   incomplete until you do.
 3. Run `python3 scripts/run-pipeline.py --state <slug>`.
 
 States with no data folder yet are skipped safely by every tool, so a default
@@ -199,6 +207,10 @@ whole repo.
 | Script | Run when |
 |---|---|
 | `scripts/run-pipeline.py` | **Always start here** — orchestrates the rest |
+| `scripts/new-trail.py` | Scaffold a new trail JSON stub (facts left blank to fill) |
+| `scripts/generate-nearby-peaks.py` | Link nearest in-state peaks for hikes with none |
+| `scripts/check-links.py` | Verify nearby_peaks internal links resolve |
+| `scripts/generate-seo.py` | Build meta/canonical/schema from real fields |
 | `scripts/gpx-to-geo.py` | Convert a real GPX into a trail's `geo` (accurate) |
 | `scripts/enhance-gps-path.py` | Interpolate a synthetic path (fallback) |
 | `scripts/validate-gpx.py` | Sanity-check a GPX before converting |
