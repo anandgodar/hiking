@@ -119,6 +119,20 @@ def config_data_sources(state_slug):
     return None
 
 
+def enable_state(state_slug):
+    """Flip enabled:true for the state in pipeline.config.json (preserves order)."""
+    cfg_path = ROOT / "pipeline.config.json"
+    cfg = json.loads(cfg_path.read_text())
+    for s in cfg.get("states", []):
+        if s["slug"] == state_slug:
+            if s.get("enabled"):
+                return False
+            s["enabled"] = True
+            cfg_path.write_text(json.dumps(cfg, indent=2) + "\n")
+            return True
+    return False
+
+
 def build_record(el, state_slug, state_name, abbr):
     tags = el["tags"]
     name = tags["name"]
@@ -176,7 +190,8 @@ def build_record(el, state_slug, state_name, abbr):
 
 def main():
     args = sys.argv[1:]
-    opts = {"min_ele": 0, "min_prominence": 0, "limit": None, "dry_run": False}
+    opts = {"min_ele": 0, "min_prominence": 0, "limit": None, "dry_run": False,
+            "enable": False, "pipeline": False}
     positional = []
     i = 0
     while i < len(args):
@@ -189,6 +204,10 @@ def main():
             opts["limit"] = int(args[i + 1]); i += 2
         elif a == "--dry-run":
             opts["dry_run"] = True; i += 1
+        elif a == "--enable":
+            opts["enable"] = True; i += 1
+        elif a == "--pipeline":
+            opts["pipeline"] = True; i += 1
         else:
             positional.append(a); i += 1
 
@@ -255,11 +274,30 @@ def main():
 
     print(f"\n✅ Wrote {written} trail file(s) to website/src/data/{state_slug}/ "
           f"({skipped} already existed).")
-    print("   Next:")
-    print(f"   1. Enable '{state_slug}' in pipeline.config.json")
-    print(f"   2. python3 scripts/run-pipeline.py --state {state_slug}")
-    print("   3. Add route distance/difficulty + a real GPX per trail; verify "
-          "facts against the official land manager, then drop the _status key.")
+
+    if opts["enable"]:
+        if enable_state(state_slug):
+            print(f"   · enabled '{state_slug}' in pipeline.config.json")
+        else:
+            print(f"   · '{state_slug}' already enabled in pipeline.config.json")
+
+    if opts["pipeline"]:
+        print(f"\n▶ Running pipeline for {state_slug}…\n")
+        import subprocess
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "run-pipeline.py"),
+                        "--state", state_slug])
+
+    print("\n   Finish each trail: add route distance/difficulty + a real GPX, "
+          "verify facts against the official land manager, then drop the "
+          "_status key.")
+    if not opts["pipeline"]:
+        nxt = "" if opts["enable"] else \
+            f"   1. Enable '{state_slug}' in pipeline.config.json\n"
+        print("   Next:")
+        if nxt:
+            print(nxt, end="")
+        print(f"   {'1' if opts['enable'] else '2'}. "
+              f"python3 scripts/run-pipeline.py --state {state_slug}")
 
 
 if __name__ == "__main__":

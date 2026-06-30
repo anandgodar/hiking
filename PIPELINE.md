@@ -58,6 +58,11 @@ working a state:
    ```bash
    python3 scripts/import-state.py <state> --min-ele 3000   # try --dry-run first
    ```
+   One-command bootstrap — import, enable the state in config, and run the
+   pipeline in a single step:
+   ```bash
+   python3 scripts/import-state.py <state> --min-ele 3000 --enable --pipeline
+   ```
    Queries the Overpass API for every named peak in the state and writes one
    trail JSON each, pre-filled with the **real, verifiable** facts OSM has
    (name, coordinates, elevation) plus ODbL attribution. It does **not** invent
