@@ -78,6 +78,17 @@ working a state:
    ```
    Same schema, all facts blank for you to fill.
 
+   **Curate after a bulk import** (OSM returns lots of noise — minor hills with
+   no prominence or Wikidata entry). Rank and prune to the real destinations:
+   ```bash
+   python3 scripts/curate-state.py <state>                 # report only
+   python3 scripts/curate-state.py <state> --keep-top 15 --apply
+   ```
+   `--apply` MOVES the low-signal files to `website/src/data/_rejected/<state>/`
+   (reversible, gitignored — never deleted) so you enrich only the keepers.
+   Hand-curated files (no `osm` block) are never touched. Publishing dozens of
+   thin, near-duplicate peak pages hurts SEO, so curate before you enrich.
+
    Either way, finish each trail by adding route distance/difficulty and a real
    GPX (`gpx-downloads/<slug>.gpx` → `gpx-to-geo.py`), verifying against the
    official land manager, then removing the `_status` key.
@@ -229,6 +240,7 @@ whole repo.
 |---|---|
 | `scripts/run-pipeline.py` | **Always start here** — orchestrates the rest |
 | `scripts/import-state.py` | Bulk-import a state's named peaks from OpenStreetMap |
+| `scripts/curate-state.py` | Rank imported peaks by notability; prune noise to _rejected/ |
 | `scripts/new-trail.py` | Scaffold a single new trail JSON stub (facts blank to fill) |
 | `scripts/generate-nearby-peaks.py` | Link nearest in-state peaks for hikes with none |
 | `scripts/check-links.py` | Verify nearby_peaks internal links resolve |
