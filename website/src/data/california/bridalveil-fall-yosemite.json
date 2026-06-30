@@ -286,5 +286,35 @@
     "gps_source": "Generated from start/summit markers (pending GPX import)",
     "distance_source": "NPS trail signage and accessibility documentation",
     "notes": "Wheelchair accessible trail confirmed via NPS accessibility page. Waterfall height (620 ft) from USGS GNIS. Distance and parking info from official NPS website. GPS path generated from trail markers pending verified GPX import."
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Lower Yosemite Fall",
+      "slug": "lower-yosemite-fall",
+      "state_slug": "california",
+      "elevation": 3975,
+      "distance_miles": 3.4
+    },
+    {
+      "name": "Sentinel Dome & Taft Point",
+      "slug": "sentinel-dome-taft-point",
+      "state_slug": "california",
+      "elevation": 8122,
+      "distance_miles": 3.4
+    },
+    {
+      "name": "Upper Yosemite Fall",
+      "slug": "upper-yosemite-fall",
+      "state_slug": "california",
+      "elevation": 6526,
+      "distance_miles": 3.9
+    },
+    {
+      "name": "Panorama Trail",
+      "slug": "panorama-trail-yosemite",
+      "state_slug": "california",
+      "elevation": 7214,
+      "distance_miles": 4.1
+    }
+  ]
 }

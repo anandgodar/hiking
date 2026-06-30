@@ -15,11 +15,12 @@ files to the web host yourself).
           ▼
   scripts/run-pipeline.py     ← one command, reads the config
           │
-          ├─ 1. generate GPS   (optional) real .gpx preferred → synthetic fallback (flagged)
-          ├─ 2. generate SEO   fills missing meta/canonical/schema from real fields
-          ├─ 3. check links    nearby_peaks internal links resolve (retention + SEO)
-          ├─ 4. audit quality   scripts/audit-gps-quality.py
-          └─ 5. validate         scripts/validate-trail-data.js
+          ├─ 1. generate GPS     (optional) real .gpx preferred → synthetic fallback (flagged)
+          ├─ 2. generate nearby  link nearest in-state peaks for hikes with none
+          ├─ 3. generate SEO     fills missing meta/canonical/schema from real fields
+          ├─ 4. check links      nearby_peaks internal links resolve (retention + SEO)
+          ├─ 5. audit quality     scripts/audit-gps-quality.py
+          └─ 6. validate           scripts/validate-trail-data.js
           │
           ▼
   pipeline-reports/<state>.json   ← what passed / what needs work
@@ -129,6 +130,13 @@ Set in `pipeline.config.json` under `quality`; enforced by
 | Chart points | ≥ 5 (10+ ideal) | Drives the elevation profile graph |
 | `data_sources` block | required | Authenticity/safety — see `DATA_QUALITY_SYSTEM.md` |
 | `nearby_peaks` links | must resolve | Broken internal links 404 → lost retention + SEO crawl paths |
+
+**Nearby-peaks generation** (`scripts/generate-nearby-peaks.py`, step 2) fills
+`nearby_peaks` for any hike that has none, by finding the closest OTHER trails
+in the same state via real great-circle distance (within 75 mi, up to 4 links).
+Idempotent — existing links are kept. Trails with no peers in range (e.g.
+geographically isolated ones) are left unlinked rather than given misleading
+distant links. Run standalone: `python3 scripts/generate-nearby-peaks.py [state ...]`.
 
 **Link integrity** (`scripts/check-links.py`) is a hard gate: every
 `nearby_peaks` entry must point to a real trail file

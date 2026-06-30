@@ -105,7 +105,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Moxie Falls",
+      "slug": "moxie-falls-me",
+      "state_slug": "maine",
+      "elevation": 970,
+      "distance_miles": 29.2
+    },
+    {
+      "name": "Mount Katahdin - Baxter Peak",
+      "slug": "mount-katahdin-baxter-peak-me",
+      "state_slug": "maine",
+      "elevation": 5269,
+      "distance_miles": 35.6
+    },
+    {
+      "name": "Hamlin Peak",
+      "slug": "hamlin-peak-me",
+      "state_slug": "maine",
+      "elevation": 4756,
+      "distance_miles": 36.2
+    },
+    {
+      "name": "North Brother",
+      "slug": "north-brother-me",
+      "state_slug": "maine",
+      "elevation": 4151,
+      "distance_miles": 36.7
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T16:18:58.531699",
     "refiner_version": "2.1.0",

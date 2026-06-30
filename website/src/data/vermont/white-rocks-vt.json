@@ -64,7 +64,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Killington Peak",
+      "slug": "killington-peak-vt",
+      "state_slug": "vermont",
+      "elevation": 4229,
+      "distance_miles": 10.4
+    },
+    {
+      "name": "Pico Peak",
+      "slug": "pico-peak-vt",
+      "state_slug": "vermont",
+      "elevation": 3957,
+      "distance_miles": 12.6
+    },
+    {
+      "name": "Okemo Mountain",
+      "slug": "okemo-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3343,
+      "distance_miles": 12.6
+    },
+    {
+      "name": "Bromley Mountain",
+      "slug": "bromley-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3260,
+      "distance_miles": 18.2
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T11:21:29.264197",
     "refiner_version": "2.1.0",

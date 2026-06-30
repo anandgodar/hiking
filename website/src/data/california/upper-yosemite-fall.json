@@ -712,5 +712,35 @@
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
     "notes": "Total waterfall height (2,425 ft - tallest in North America) from USGS. Trail distance and elevation gain from NPS trail guides. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Lower Yosemite Fall",
+      "slug": "lower-yosemite-fall",
+      "state_slug": "california",
+      "elevation": 3975,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Panorama Trail",
+      "slug": "panorama-trail-yosemite",
+      "state_slug": "california",
+      "elevation": 7214,
+      "distance_miles": 2.3
+    },
+    {
+      "name": "Mirror Lake",
+      "slug": "mirror-lake-yosemite",
+      "state_slug": "california",
+      "elevation": 4100,
+      "distance_miles": 2.5
+    },
+    {
+      "name": "Sentinel Dome & Taft Point",
+      "slug": "sentinel-dome-taft-point",
+      "state_slug": "california",
+      "elevation": 8122,
+      "distance_miles": 2.7
+    }
+  ]
 }

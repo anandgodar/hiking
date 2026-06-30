@@ -796,5 +796,35 @@
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
     "notes": "Waterfall height (594 ft) from USGS GNIS. Distance via Mist Trail from NPS official trail descriptions. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Vernal Fall",
+      "slug": "mist-trail-vernal-fall",
+      "state_slug": "california",
+      "elevation": 5900,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Half Dome",
+      "slug": "half-dome-yosemite",
+      "state_slug": "california",
+      "elevation": 8842,
+      "distance_miles": 1.1
+    },
+    {
+      "name": "Mirror Lake",
+      "slug": "mirror-lake-yosemite",
+      "state_slug": "california",
+      "elevation": 4100,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Panorama Trail",
+      "slug": "panorama-trail-yosemite",
+      "state_slug": "california",
+      "elevation": 7214,
+      "distance_miles": 2.2
+    }
+  ]
 }

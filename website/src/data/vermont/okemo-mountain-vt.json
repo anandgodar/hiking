@@ -42,7 +42,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "White Rocks",
+      "slug": "white-rocks-vt",
+      "state_slug": "vermont",
+      "elevation": 2680,
+      "distance_miles": 12.6
+    },
+    {
+      "name": "Mount Ascutney",
+      "slug": "mount-ascutney-vt",
+      "state_slug": "vermont",
+      "elevation": 3150,
+      "distance_miles": 13.6
+    },
+    {
+      "name": "Killington Peak",
+      "slug": "killington-peak-vt",
+      "state_slug": "vermont",
+      "elevation": 4229,
+      "distance_miles": 15.0
+    },
+    {
+      "name": "Bromley Mountain",
+      "slug": "bromley-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3260,
+      "distance_miles": 16.8
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T11:17:50.452089",
     "refiner_version": "2.1.0",

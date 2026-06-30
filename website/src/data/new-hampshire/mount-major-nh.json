@@ -98,7 +98,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Mount Kearsarge",
+      "slug": "mount-kearsarge-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2930,
+      "distance_miles": 29.9
+    },
+    {
+      "name": "Mount Whiteface",
+      "slug": "mount-whiteface-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 4020,
+      "distance_miles": 30.1
+    },
+    {
+      "name": "Mount Chocorua",
+      "slug": "mount-chocorua-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3490,
+      "distance_miles": 30.8
+    },
+    {
+      "name": "Welch Dickey",
+      "slug": "welch-dickey-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2734,
+      "distance_miles": 31.3
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-29T13:27:38.854963",
     "refiner_version": "2.1.0",

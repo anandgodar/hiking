@@ -61,7 +61,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Pleasant Mountain",
+      "slug": "pleasant-mountain-me",
+      "state_slug": "maine",
+      "elevation": 2006,
+      "distance_miles": 34.0
+    },
+    {
+      "name": "Mount Agamenticus",
+      "slug": "mount-agamenticus-me",
+      "state_slug": "maine",
+      "elevation": 692,
+      "distance_miles": 53.6
+    },
+    {
+      "name": "Step Falls",
+      "slug": "step-falls-me",
+      "state_slug": "maine",
+      "elevation": 1200,
+      "distance_miles": 54.9
+    },
+    {
+      "name": "Mount Blue",
+      "slug": "mount-blue-me",
+      "state_slug": "maine",
+      "elevation": 3187,
+      "distance_miles": 56.4
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T16:13:55.702791",
     "refiner_version": "2.1.0",

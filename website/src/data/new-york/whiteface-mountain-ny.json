@@ -41,7 +41,36 @@
       ]
     }
   ],
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Cascade Mountain",
+      "slug": "cascade-mountain-ny",
+      "state_slug": "new-york",
+      "elevation": 4098,
+      "distance_miles": 10.4
+    },
+    {
+      "name": "Big Slide Mountain",
+      "slug": "big-slide-ny",
+      "state_slug": "new-york",
+      "elevation": 4240,
+      "distance_miles": 12.7
+    },
+    {
+      "name": "Algonquin Peak",
+      "slug": "algonquin-peak-ny",
+      "state_slug": "new-york",
+      "elevation": 5114,
+      "distance_miles": 15.9
+    },
+    {
+      "name": "Mount Colden",
+      "slug": "mt-colden-ny",
+      "state_slug": "new-york",
+      "elevation": 4714,
+      "distance_miles": 16.8
+    }
+  ],
   "current_conditions": {
     "ai_summary": "A spectacular hike located in New York. Standing at 4867 feet, Whiteface Mountain offers breathtaking views and a rewarding challenge for hikers of all levels.",
     "risk_factors": [

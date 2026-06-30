@@ -64,7 +64,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Mount Hor",
+      "slug": "mount-hor-vt",
+      "state_slug": "vermont",
+      "elevation": 2648,
+      "distance_miles": 25.0
+    },
+    {
+      "name": "Mount Pisgah",
+      "slug": "mount-pisgah-vt",
+      "state_slug": "vermont",
+      "elevation": 2751,
+      "distance_miles": 25.4
+    },
+    {
+      "name": "Elmore Mountain",
+      "slug": "elmore-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 2608,
+      "distance_miles": 28.2
+    },
+    {
+      "name": "Mount Mansfield",
+      "slug": "mount-mansfield-vt",
+      "state_slug": "vermont",
+      "elevation": 4393,
+      "distance_miles": 31.2
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T11:47:50.206288",
     "refiner_version": "2.1.0",

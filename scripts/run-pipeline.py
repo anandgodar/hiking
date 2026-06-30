@@ -106,6 +106,15 @@ def generate_seo(state, config):
     return updated
 
 
+def generate_nearby(state, config):
+    """Fill nearby_peaks (nearest in-state trails) for hikes that have none."""
+    proc = subprocess.run(
+        [sys.executable, str(SCRIPTS / "generate-nearby-peaks.py"), state["slug"]],
+        capture_output=True, text=True,
+    )
+    return [ln for ln in proc.stdout.splitlines() if ln.strip().startswith("✅")]
+
+
 def audit_state(state, config, audit_mod):
     """Per-state GPS quality audit using the shared audit logic."""
     data_dir = ROOT / config["data_dir"] / state["slug"]
@@ -158,6 +167,11 @@ def main():
             if synthetic:
                 print(f"  · {len(synthetic)} trail(s) used SYNTHETIC paths "
                       f"(flagged for real-GPX upgrade)")
+
+        if state.get("generate_nearby", True):
+            linked = generate_nearby(state, config)
+            if linked:
+                print(f"  · nearby_peaks: linked {len(linked)} hike(s) that had none")
 
         if state.get("generate_seo", True):
             seo_updated = generate_seo(state, config)

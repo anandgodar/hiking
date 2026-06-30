@@ -66,7 +66,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Step Falls",
+      "slug": "step-falls-me",
+      "state_slug": "maine",
+      "elevation": 1200,
+      "distance_miles": 31.7
+    },
+    {
+      "name": "Bradbury Mountain",
+      "slug": "bradbury-mountain-me",
+      "state_slug": "maine",
+      "elevation": 485,
+      "distance_miles": 34.0
+    },
+    {
+      "name": "Old Speck Mountain",
+      "slug": "old-speck-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4170,
+      "distance_miles": 36.9
+    },
+    {
+      "name": "Tumbledown Mountain",
+      "slug": "tumbledown-mountain-me",
+      "state_slug": "maine",
+      "elevation": 3068,
+      "distance_miles": 50.8
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T16:13:55.711330",
     "refiner_version": "2.1.0",
