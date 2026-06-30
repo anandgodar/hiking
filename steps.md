@@ -64,6 +64,12 @@ audits GPS, and validates.
 > ```bash
 > python3 scripts/draft-status.py <state>      # LIVE vs DRAFT, with what each draft needs
 > ```
+> To **preview drafts locally** (e.g. a state you just imported) without
+> publishing them, set `SHOW_DRAFTS=1`:
+> ```bash
+> cd website && SHOW_DRAFTS=1 npm run dev      # drafts visible locally only
+> ```
+> A normal `npm run build` (no flag) keeps them hidden in production.
 
 ### Step 6 — Finish each kept trail (manual, required for publish)
 For every JSON in `website/src/data/<state>/`:
