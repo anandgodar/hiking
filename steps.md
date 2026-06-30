@@ -182,6 +182,7 @@ rsync -avz --delete website/dist/ user@yourhost:/path/to/webroot/
 | `scripts/check-links.py` | Verify internal links resolve |
 | `scripts/check-elevation.py` | Report elevations diverging from USGS (no edits) |
 | `scripts/draft-status.py` | LIVE vs DRAFT trails + exactly what each draft still needs |
+| `scripts/enrich-elevation.py` | Fill missing elevation on a 2-D GPS path from Open-Meteo DEM |
 | `scripts/set-trail.py` | Set difficulty/type/parking and publish a trail (one command) |
 | `scripts/gpx-to-geo.py` | Convert a real GPX into a trail's GPS path |
 | `scripts/audit-gps-quality.py` | Score GPS quality (all routes) |

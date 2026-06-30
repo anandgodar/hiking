@@ -266,6 +266,22 @@ whole repo.
 
 ---
 
+## Enriching draft trails from open data (what's safe vs not)
+
+**Elevation — safe, automated.** A GPS path recorded without elevation (a 2-D
+track) leaves a flat chart and wrong gain. `scripts/enrich-elevation.py
+--state <slug>` batch-fills real elevation from the Open-Meteo Copernicus DEM
+(free, no key) and recomputes the chart and gain. It only touches paths that
+lack real elevation; 3-D tracks are left alone.
+
+**Route geometry — NOT auto-pulled (by design).** Open data has no reliable
+per-peak trail: OSM's nearest hiking-route relation to a summit is usually an
+entire long-distance trail (e.g. the whole Appalachian Trail, 50k+ points), not
+that peak's route. Auto-attaching it would publish a wrong route and break
+trust, so the route must come from a real GPX (Hiking Project, official park
+GPX, OSM segment you vet, or your own recording). Once a real path exists,
+`enrich-elevation.py` can supply its elevation if the GPX was 2-D.
+
 ## Reference docs (deeper dives, not needed day-to-day)
 
 - `DATA_QUALITY_SYSTEM.md` — data sources, attribution format, verification rules
