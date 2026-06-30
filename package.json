@@ -4,6 +4,9 @@
     "validate": "node scripts/validate-trail-data.js",
     "validate:strict": "node scripts/validate-trail-data.js --strict"
   },
+  "devDependencies": {
+    "speckit": "latest"
+  },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
     "@fontsource/merriweather": "^5.2.11"
