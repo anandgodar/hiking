@@ -56,18 +56,21 @@ audits GPS, and validates.
 > ```
 > (Still run Step 3 pruning before shipping.)
 
-### Step 5b — Auto-fetch routes (no manual GPX download)
-Pull real, public-domain trail routes from the USFS National Forest System
-Trails service for every draft, then enrich + publish:
+### Step 5b — Auto-fetch routes, trailheads & features (no manual GPX)
+Pull real, public-domain data for every draft, then enrich + publish:
 ```bash
-python3 scripts/fetch-trails.py <state>             # attaches name-matched USFS routes + elevation
+python3 scripts/fetch-trails.py <state>     # routes from USFS + NPS (name-matched) + elevation
+python3 scripts/enrich-poi.py <state>       # trailhead start + parking + along-trail features (OSM)
 python3 scripts/run-pipeline.py --state <state>
-python3 scripts/curate-state.py <state>             # publishes the ones that pass quality
+python3 scripts/curate-state.py <state>     # publishes the ones that pass quality
 ```
-It matches a trail by name to the peak where possible (e.g. peak "Mount Rogers"
-→ USFS "Mount Rogers Spur") and never auto-publishes — the quality gate vets
-each route. For trails with no nearby Forest Service route, fall back to a real
-GPX (below). Tune coverage with `--radius-km`.
+- `fetch-trails.py` tries USFS then NPS, matching a trail by name to the peak
+  (e.g. "Mount Rogers" → USFS "Mount Rogers Spur"). Never auto-publishes — the
+  quality gate vets each route. Tune coverage with `--radius-km`.
+- `enrich-poi.py` sets the **trailhead** as the route start, fills **parking**
+  (name + coords + fee), and lists **features** you pass — waterfall, overlook,
+  hut, rest area, boulder, cliff, fire tower — each with its mile along the trail.
+- For peaks with no public-land route, fall back to a real GPX (below).
 
 ### Step 6 — Publish (the quality gate decides)
 ```bash
@@ -195,7 +198,8 @@ rsync -avz --delete website/dist/ user@yourhost:/path/to/webroot/
 | `scripts/check-links.py` | Verify internal links resolve |
 | `scripts/check-elevation.py` | Report elevations diverging from USGS (no edits) |
 | `scripts/draft-status.py` | LIVE vs DRAFT trails + exactly what each draft still needs |
-| `scripts/fetch-trails.py` | Auto-pull real public-domain USFS routes for draft trails |
+| `scripts/fetch-trails.py` | Auto-pull real public-domain routes (USFS + NPS) for drafts |
+| `scripts/enrich-poi.py` | Add trailhead start, parking, and along-trail features (OSM) |
 | `scripts/enrich-elevation.py` | Fill missing elevation on a 2-D GPS path from Open-Meteo DEM |
 | `scripts/set-trail.py` | Set difficulty/type/parking and publish a trail (one command) |
 | `scripts/gpx-to-geo.py` | Convert a real GPX into a trail's GPS path |

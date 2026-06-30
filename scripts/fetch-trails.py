@@ -33,8 +33,19 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "website" / "src" / "data"
-USFS = ("https://apps.fs.usda.gov/arcx/rest/services/EDW/"
-        "EDW_TrailNFSPublish_01/MapServer/0/query")
+
+# Public-domain route sources, tried in order. Each: (label, query-url,
+# name-field, order-field-or-None, attribution).
+SOURCES = [
+    ("USFS",
+     "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TrailNFSPublish_01/MapServer/0/query",
+     "trail_name", "bmp",
+     "USFS National Forest System Trails (public domain)"),
+    ("NPS",
+     "https://mapservices.nps.gov/arcgis/rest/services/NationalDatasets/NPS_Public_Trails/MapServer/0/query",
+     "TRLNAME", None,
+     "National Park Service Public Trails (public domain)"),
+]
 
 # Reuse Open-Meteo elevation + chart from enrich-elevation.py.
 _spec = importlib.util.spec_from_file_location("ee", ROOT / "scripts" / "enrich-elevation.py")
@@ -58,22 +69,27 @@ def haversine_mi(a, b):
     return R * 2 * math.asin(math.sqrt(h))
 
 
-def query_usfs(lat, lon, radius_km, ctx):
+def query_source(url, name_field, order_field, lat, lon, radius_km, ctx):
+    """Query one ArcGIS REST trail service; return normalized features:
+    {name, order, lines:[[ [lon,lat],... ]]}."""
     dlat = radius_km / 111.0
     dlon = radius_km / (111.0 * max(0.2, math.cos(math.radians(lat))))
     bbox = f"{lon - dlon},{lat - dlat},{lon + dlon},{lat + dlat}"
+    out_fields = name_field + ("," + order_field if order_field else "")
     params = {
         "geometry": bbox, "geometryType": "esriGeometryEnvelope",
         "inSR": "4326", "outSR": "4326",
         "spatialRel": "esriSpatialRelIntersects", "where": "1=1",
-        "outFields": "trail_name,bmp", "returnGeometry": "true", "f": "geojson",
+        "outFields": out_fields, "returnGeometry": "true", "f": "geojson",
     }
-    url = f"{USFS}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": "summitseeker/1.0"})
+    full = f"{url}?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(full, headers={"User-Agent": "summitseeker/1.0"})
+    feats = []
     for attempt in range(3):
         try:
             with urllib.request.urlopen(req, timeout=60, context=ctx) as resp:
-                return json.loads(resp.read()).get("features", [])
+                feats = json.loads(resp.read()).get("features", [])
+            break
         except urllib.error.URLError as e:
             if "CERTIFICATE_VERIFY_FAILED" in str(e):
                 sys.exit("❌ TLS cert verification failed (macOS/python.org). Fix:\n"
@@ -81,7 +97,15 @@ def query_usfs(lat, lon, radius_km, ctx):
             time.sleep(2 ** attempt)
         except Exception:
             time.sleep(2 ** attempt)
-    return []
+    norm_feats = []
+    for ft in feats:
+        props = ft.get("properties") or {}
+        norm_feats.append({
+            "name": props.get(name_field) or "Unnamed",
+            "order": (props.get(order_field) or 0) if order_field else 0,
+            "lines": coords_of(ft),
+        })
+    return norm_feats
 
 
 def coords_of(feat):
@@ -101,11 +125,11 @@ def norm(s):
 
 
 def assemble(features):
-    """Order a trail's segments by milepost, return a [lat,lon] path."""
-    feats = sorted(features, key=lambda f: f["properties"].get("bmp") or 0)
+    """Order a trail's segments (by milepost when available) into a [lat,lon] path."""
+    feats = sorted(features, key=lambda f: f.get("order") or 0)
     path = []
     for f in feats:
-        for line in coords_of(f):
+        for line in f.get("lines", []):
             for lon, lat in line:           # GeoJSON is [lon,lat]
                 p = [round(lat, 5), round(lon, 5)]
                 if not path or path[-1] != p:
@@ -124,11 +148,10 @@ def simplify(path, maxn=120):
 
 
 def pick_trail(features, peak_name, summit, radius_mi):
-    """Group by trail_name; choose name match, else nearest within radius."""
+    """Group by trail name; choose name match, else nearest within radius."""
     groups = {}
     for f in features:
-        n = f["properties"].get("trail_name") or "Unnamed"
-        groups.setdefault(n, []).append(f)
+        groups.setdefault(f["name"], []).append(f)
 
     peak = norm(peak_name)
     scored = []
@@ -172,14 +195,21 @@ def process(state, slug_filter, radius_km, limit, ctx):
         if slug_filter and d.get("slug") != slug_filter:
             continue
         summit = [d["lat"], d["lon"]]
-        feats = query_usfs(d["lat"], d["lon"], radius_km, ctx)
-        if not feats:
-            print(f"  · no USFS trails near {d['name']}")
-            continue
-        name, path, name_match = pick_trail(feats, d["name"], summit,
-                                            radius_mi=radius_km * 0.621)
+        # Try each public-domain source in order; prefer a name match.
+        name = path = None
+        name_match = False
+        src_attr = ""
+        for label, url, nf, of, attr in SOURCES:
+            feats = query_source(url, nf, of, d["lat"], d["lon"], radius_km, ctx)
+            if not feats:
+                continue
+            n, p, nm = pick_trail(feats, d["name"], summit, radius_mi=radius_km * 0.621)
+            if p and (nm or not path):   # take a name match immediately; else keep first hit
+                name, path, name_match, src_attr = n, p, nm, attr
+                if nm:
+                    break
         if not path:
-            print(f"  · no usable trail near {d['name']}")
+            print(f"  · no USFS/NPS trail near {d['name']}")
             continue
         path = simplify(orient_to_summit(path, summit))
         eles = _ee.batch_elevations([(p[0], p[1]) for p in path], ctx)
@@ -197,7 +227,7 @@ def process(state, slug_filter, radius_km, limit, ctx):
         stats["distance"] = round(dist, 1)
         stats["gain"] = round(max(eles) - min(eles))
         ds = d.setdefault("data_sources", {})
-        ds["gps_source"] = "USFS National Forest System Trails (public domain)"
+        ds["gps_source"] = src_attr
         ds["elevation_source"] = "Open-Meteo (Copernicus 30 m DEM)"
         ds["route_verified"] = str(date.today())
         f.write_text(json.dumps(d, indent=2) + "\n")
