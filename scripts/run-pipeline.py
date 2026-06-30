@@ -60,10 +60,36 @@ def select_states(config, args):
     return enabled
 
 
-def generate_gps(state, config, audit_mod):
-    """Build geo data for trails missing it. Prefer real GPX, flag synthetic."""
+def apply_gpx(state, config):
+    """Always-on: convert any real gpx-downloads/<slug>.gpx into the trail's
+    geo data (accurate path + distance + gain). Runs every pipeline so dropping
+    a GPX and re-running is all it takes to give a trail its route."""
     data_dir = ROOT / config["data_dir"] / state["slug"]
     gpx_dir = ROOT / config.get("gpx_dir", "gpx-downloads")
+    applied = []
+    for trail_file in sorted(data_dir.glob("*.json")):
+        try:
+            data = json.loads(trail_file.read_text())
+        except json.JSONDecodeError:
+            continue
+        trails = data.get("trails") or []
+        has_path = trails and trails[0].get("geo", {}).get("path")
+        if has_path:
+            continue  # already has a route; gpx-to-geo manually to overwrite
+        slug = data.get("slug", trail_file.stem)
+        gpx = gpx_dir / f"{slug}.gpx"
+        if gpx.exists():
+            subprocess.run(
+                [sys.executable, str(SCRIPTS / "gpx-to-geo.py"), str(gpx), str(trail_file)],
+                check=False,
+            )
+            applied.append(slug)
+    return applied
+
+
+def generate_gps(state, config, audit_mod):
+    """Synthetic fallback ONLY (opt-in). Real GPX is handled by apply_gpx."""
+    data_dir = ROOT / config["data_dir"] / state["slug"]
     synthetic = []
     for trail_file in sorted(data_dir.glob("*.json")):
         try:
@@ -71,24 +97,14 @@ def generate_gps(state, config, audit_mod):
         except json.JSONDecodeError:
             continue
         trails = data.get("trails") or []
-        has_geo = trails and trails[0].get("geo", {}).get("path")
-        if has_geo:
+        if trails and trails[0].get("geo", {}).get("path"):
             continue
-        slug = data.get("slug", trail_file.stem)
-        gpx = gpx_dir / f"{slug}.gpx"
-        if gpx.exists():
-            # Accurate path from a real GPX track.
-            subprocess.run(
-                [sys.executable, str(SCRIPTS / "gpx-to-geo.py"), str(gpx), str(trail_file)],
-                check=False,
-            )
-        elif state.get("synthetic_fallback", False):
-            # No GPX available: interpolate so the page renders, then flag it.
+        if state.get("synthetic_fallback", False):
             subprocess.run(
                 [sys.executable, str(SCRIPTS / "enhance-gps-path.py"), str(trail_file)],
                 check=False,
             )
-            synthetic.append(slug)
+            synthetic.append(data.get("slug", trail_file.stem))
     return synthetic
 
 
@@ -193,9 +209,15 @@ def main():
         slug = state["slug"]
         print(f"\n▶ {slug}")
 
+        # Always-on: turn any dropped real GPX into a trail route.
+        gpx_applied = apply_gpx(state, config)
+        if gpx_applied:
+            print(f"  · GPX: converted {len(gpx_applied)} real track(s) → route "
+                  f"({', '.join(gpx_applied[:5])}{'…' if len(gpx_applied) > 5 else ''})")
+
         synthetic = []
         if state.get("generate_gps", False):
-            print("  · generating GPS (prefer real GPX, fall back to synthetic)…")
+            print("  · synthetic GPS fallback (opt-in) for trails still without a route…")
             synthetic = generate_gps(state, config, audit_mod)
             if synthetic:
                 print(f"  · {len(synthetic)} trail(s) used SYNTHETIC paths "
