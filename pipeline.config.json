@@ -1,0 +1,78 @@
+{
+  "_comment": "State list and per-state settings for the trail-data pipeline. Edit this file, set 'rerun': true on the states you want to (re)process, then run: python3 scripts/run-pipeline.py --rerun. Deployment is manual: after the pipeline passes locally, copy the changed website/src/data/<state>/ files to the web host yourself.",
+  "data_dir": "website/src/data",
+  "gpx_dir": "gpx-downloads",
+  "report_dir": "pipeline-reports",
+  "quality": {
+    "min_score": 80,
+    "good_points_per_mile": 15,
+    "fair_points_per_mile": 8
+  },
+  "states": [
+    {
+      "slug": "california",
+      "enabled": true,
+      "rerun": false,
+      "generate_gps": false,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "National Park Service (NPS) / California State Parks",
+        "primary_url": "https://www.nps.gov/state/ca/index.htm",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map / CalTopo"
+      }
+    },
+    {
+      "slug": "new-hampshire",
+      "enabled": true,
+      "rerun": false,
+      "generate_gps": false,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "White Mountain National Forest (USFS) / Appalachian Mountain Club (AMC)",
+        "primary_url": "https://www.fs.usda.gov/whitemountain",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "maine",
+      "enabled": true,
+      "rerun": false,
+      "generate_gps": false,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Maine Bureau of Parks and Lands / Acadia National Park (NPS)",
+        "primary_url": "https://www.maine.gov/dacf/parks/",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "vermont",
+      "enabled": true,
+      "rerun": false,
+      "generate_gps": false,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Green Mountain National Forest (USFS) / Green Mountain Club",
+        "primary_url": "https://www.fs.usda.gov/greenmountain",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "new-york",
+      "enabled": true,
+      "rerun": false,
+      "generate_gps": false,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "NY State Dept. of Environmental Conservation (DEC) / Adirondack Mountain Club",
+        "primary_url": "https://www.dec.ny.gov/lands/hiking.html",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    }
+  ]
+}
