@@ -17,10 +17,11 @@ files to the web host yourself).
           │
           ├─ 1. generate GPS     (optional) real .gpx preferred → synthetic fallback (flagged)
           ├─ 2. generate nearby  link nearest in-state peaks for hikes with none
-          ├─ 3. generate SEO     fills missing meta/canonical/schema from real fields
-          ├─ 4. check links      nearby_peaks internal links resolve (retention + SEO)
-          ├─ 5. audit quality     scripts/audit-gps-quality.py
-          └─ 6. validate           scripts/validate-trail-data.js
+          ├─ 3. generate desc    factual paragraph per trail (fills empty only)
+          ├─ 4. generate SEO     fills missing meta/canonical/schema from real fields
+          ├─ 5. check links      nearby_peaks internal links resolve (retention + SEO)
+          ├─ 6. audit quality     scripts/audit-gps-quality.py
+          └─ 7. validate           scripts/validate-trail-data.js
           │
           ▼
   pipeline-reports/<state>.json   ← what passed / what needs work
@@ -244,7 +245,9 @@ whole repo.
 | `scripts/new-trail.py` | Scaffold a single new trail JSON stub (facts blank to fill) |
 | `scripts/generate-nearby-peaks.py` | Link nearest in-state peaks for hikes with none |
 | `scripts/check-links.py` | Verify nearby_peaks internal links resolve |
+| `scripts/generate-description.py` | Write a unique factual paragraph per trail (fills empty only) |
 | `scripts/generate-seo.py` | Build meta/canonical/schema from real fields |
+| `scripts/check-elevation.py` | Report-only: flag elevations that diverge from USGS (never edits) |
 | `scripts/gpx-to-geo.py` | Convert a real GPX into a trail's `geo` (accurate) |
 | `scripts/enhance-gps-path.py` | Interpolate a synthetic path (fallback) |
 | `scripts/validate-gpx.py` | Sanity-check a GPX before converting |
