@@ -17,10 +17,11 @@ files to the web host yourself).
           │
           ├─ 1. generate GPS     (optional) real .gpx preferred → synthetic fallback (flagged)
           ├─ 2. generate nearby  link nearest in-state peaks for hikes with none
-          ├─ 3. generate SEO     fills missing meta/canonical/schema from real fields
-          ├─ 4. check links      nearby_peaks internal links resolve (retention + SEO)
-          ├─ 5. audit quality     scripts/audit-gps-quality.py
-          └─ 6. validate           scripts/validate-trail-data.js
+          ├─ 3. generate desc    factual paragraph per trail (fills empty only)
+          ├─ 4. generate SEO     fills missing meta/canonical/schema from real fields
+          ├─ 5. check links      nearby_peaks internal links resolve (retention + SEO)
+          ├─ 6. audit quality     scripts/audit-gps-quality.py
+          └─ 7. validate           scripts/validate-trail-data.js
           │
           ▼
   pipeline-reports/<state>.json   ← what passed / what needs work
@@ -77,6 +78,17 @@ working a state:
    python3 scripts/new-trail.py <state> <trail-slug> --name "Display Name"
    ```
    Same schema, all facts blank for you to fill.
+
+   **Curate after a bulk import** (OSM returns lots of noise — minor hills with
+   no prominence or Wikidata entry). Rank and prune to the real destinations:
+   ```bash
+   python3 scripts/curate-state.py <state>                 # report only
+   python3 scripts/curate-state.py <state> --keep-top 15 --apply
+   ```
+   `--apply` MOVES the low-signal files to `website/src/data/_rejected/<state>/`
+   (reversible, gitignored — never deleted) so you enrich only the keepers.
+   Hand-curated files (no `osm` block) are never touched. Publishing dozens of
+   thin, near-duplicate peak pages hurts SEO, so curate before you enrich.
 
    Either way, finish each trail by adding route distance/difficulty and a real
    GPX (`gpx-downloads/<slug>.gpx` → `gpx-to-geo.py`), verifying against the
@@ -229,10 +241,13 @@ whole repo.
 |---|---|
 | `scripts/run-pipeline.py` | **Always start here** — orchestrates the rest |
 | `scripts/import-state.py` | Bulk-import a state's named peaks from OpenStreetMap |
+| `scripts/curate-state.py` | Rank imported peaks by notability; prune noise to _rejected/ |
 | `scripts/new-trail.py` | Scaffold a single new trail JSON stub (facts blank to fill) |
 | `scripts/generate-nearby-peaks.py` | Link nearest in-state peaks for hikes with none |
 | `scripts/check-links.py` | Verify nearby_peaks internal links resolve |
+| `scripts/generate-description.py` | Write a unique factual paragraph per trail (fills empty only) |
 | `scripts/generate-seo.py` | Build meta/canonical/schema from real fields |
+| `scripts/check-elevation.py` | Report-only: flag elevations that diverge from USGS (never edits) |
 | `scripts/gpx-to-geo.py` | Convert a real GPX into a trail's `geo` (accurate) |
 | `scripts/enhance-gps-path.py` | Interpolate a synthetic path (fallback) |
 | `scripts/validate-gpx.py` | Sanity-check a GPX before converting |

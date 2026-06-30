@@ -92,6 +92,16 @@ def generate_gps(state, config, audit_mod):
     return synthetic
 
 
+def generate_descriptions(state, config):
+    """Fill factual generated_description for trails that have none."""
+    proc = subprocess.run(
+        [sys.executable, str(SCRIPTS / "generate-description.py"),
+         "--state", state["slug"]],
+        capture_output=True, text=True,
+    )
+    return [ln for ln in proc.stdout.splitlines() if "✅ description" in ln]
+
+
 def generate_seo(state, config):
     """Fill missing SEO blocks (meta, canonical, schema) from real fields."""
     data_dir = ROOT / config["data_dir"] / state["slug"]
@@ -172,6 +182,12 @@ def main():
             linked = generate_nearby(state, config)
             if linked:
                 print(f"  · nearby_peaks: linked {len(linked)} hike(s) that had none")
+
+        if state.get("generate_description", True):
+            desc_updated = generate_descriptions(state, config)
+            if desc_updated:
+                print(f"  · descriptions: wrote {len(desc_updated)} factual "
+                      f"paragraph(s)")
 
         if state.get("generate_seo", True):
             seo_updated = generate_seo(state, config)
