@@ -12,12 +12,13 @@ import SiteFooter from '../components/SiteFooter.astro';
 import MountainCard from '../components/MountainCard.astro';
 import GlobalSearch from '../components/GlobalSearch.astro';
 import HomepageFAQ from '../components/HomepageFAQ.astro';
+import { isPublishReady } from '../lib/publishReady.js';
 
-// Load all mountains
+// Load all mountains (route-complete only — drafts/stubs are hidden)
 const allFiles = import.meta.glob('../data/*/*.json', { eager: true });
 const allMountains = Object.values(allFiles)
   .map(f => f.default || f)
-  .filter(m => m && m.name && m.slug); // Filter out blog posts
+  .filter(isPublishReady);
 
 // Normalize state slug
 const normalizeState = (s) => {

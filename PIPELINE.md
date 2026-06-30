@@ -169,6 +169,26 @@ Use `python3 scripts/generate-seo.py --force <file>` to rebuild a single file.
 
 ---
 
+## Publish gate — drafts never reach visitors
+
+The site only publishes **route-complete** trails. A trail is shown publicly
+(generates a page, appears in state listings and the homepage, enters the
+sitemap) only when it has a real GPS path **and** a distance, **and** its
+`_status` draft flag has been removed. The gate lives in
+`website/src/lib/publishReady.js` and is applied in the homepage, state index,
+trail detail `getStaticPaths`, and the sitemap.
+
+This is deliberate: a freshly imported OpenStreetMap stub has no route, so
+showing it would be a blank, untrustworthy page (the AllTrails comparison —
+they never show a routeless trail). Stubs stay invisible until finished. Track
+what's left with:
+```bash
+python3 scripts/draft-status.py [state]   # LIVE vs DRAFT + the exact missing fields
+```
+To take a draft live: add its route (distance, gain, difficulty + a real GPX via
+`gpx-to-geo.py`), verify the facts, and delete the `_status` key. It then
+publishes automatically on the next build.
+
 ## What "quality" means here
 
 Set in `pipeline.config.json` under `quality`; enforced by

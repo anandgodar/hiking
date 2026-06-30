@@ -1,3 +1,5 @@
+import { isPublishReady } from '../lib/publishReady.js';
+
 export async function GET() {
   const siteUrl = "https://summitseeker.io";
 
@@ -73,6 +75,9 @@ export async function GET() {
 
     // Skip if no state_slug (not a mountain)
     if (!m.state_slug) return;
+
+    // Skip draft/route-incomplete trails — never submit thin pages to search.
+    if (!isPublishReady(m)) return;
 
     const stateSlug = normalizeState(m.state_slug);
     states.add(stateSlug);
