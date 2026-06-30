@@ -79,16 +79,28 @@ working a state:
    ```
    Same schema, all facts blank for you to fill.
 
-   **Curate after a bulk import** (OSM returns lots of noise — minor hills with
-   no prominence or Wikidata entry). Rank and prune to the real destinations:
+   **Prune the OSM noise after a bulk import** (minor hills with no prominence
+   or Wikidata entry). Rank and prune to the real destinations:
    ```bash
-   python3 scripts/curate-state.py <state>                 # report only
-   python3 scripts/curate-state.py <state> --keep-top 15 --apply
+   python3 scripts/curate-state.py <state> prune                  # report only
+   python3 scripts/curate-state.py <state> prune --keep-top 15 --apply
    ```
    `--apply` MOVES the low-signal files to `website/src/data/_rejected/<state>/`
    (reversible, gitignored — never deleted) so you enrich only the keepers.
-   Hand-curated files (no `osm` block) are never touched. Publishing dozens of
-   thin, near-duplicate peak pages hurts SEO, so curate before you enrich.
+   Hand-curated files (no `osm` block) are never touched.
+
+   **Publish — the quality gate decides.** Instead of publishing trail by trail:
+   ```bash
+   python3 scripts/curate-state.py <state>             # auto-publish all that pass
+   python3 scripts/curate-state.py <state> published   # list live trails
+   python3 scripts/curate-state.py <state> draft       # list drafts + why held
+   ```
+   `curate-state.py <state>` auto-publishes every trail that meets the bar (real
+   GPS route + distance + gain + valid coords + GPS-audit ≥ `min_score`),
+   computing difficulty from distance+gain when missing, and removing `_status`.
+   Failing trails stay draft (hidden) with the reason shown. This is the user's
+   chosen model: the gate signs off on structurally-complete, audited trails;
+   bring the rest up by adding a real GPX and re-running.
 
    Either way, finish each trail by adding route distance/difficulty and a real
    GPX (`gpx-downloads/<slug>.gpx` → `gpx-to-geo.py`), verifying against the
@@ -266,7 +278,7 @@ whole repo.
 |---|---|
 | `scripts/run-pipeline.py` | **Always start here** — orchestrates the rest |
 | `scripts/import-state.py` | Bulk-import a state's named peaks from OpenStreetMap |
-| `scripts/curate-state.py` | Rank imported peaks by notability; prune noise to _rejected/ |
+| `scripts/curate-state.py` | Publish (quality gate decides); `draft`/`published`/`prune` sub-commands |
 | `scripts/new-trail.py` | Scaffold a single new trail JSON stub (facts blank to fill) |
 | `scripts/generate-nearby-peaks.py` | Link nearest in-state peaks for hikes with none |
 | `scripts/check-links.py` | Verify nearby_peaks internal links resolve |

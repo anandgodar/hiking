@@ -32,10 +32,10 @@ python3 scripts/import-state.py <state> --min-ele 2000
 ```
 Writes one JSON per peak to `website/src/data/<state>/`.
 
-### Step 3 — Curate (drop the OSM noise, keep real destinations)
+### Step 3 — Prune the OSM noise (keep real destinations)
 ```bash
-python3 scripts/curate-state.py <state>                  # report only
-python3 scripts/curate-state.py <state> --keep-top 15 --apply
+python3 scripts/curate-state.py <state> prune                   # report only
+python3 scripts/curate-state.py <state> prune --keep-top 15 --apply
 ```
 `--apply` moves rejects to `website/src/data/_rejected/<state>/` (reversible).
 
@@ -54,7 +54,20 @@ audits GPS, and validates.
 > ```bash
 > python3 scripts/import-state.py <state> --min-ele 2000 --enable --pipeline
 > ```
-> (Still run Step 3 curation before shipping.)
+> (Still run Step 3 pruning before shipping.)
+
+### Step 6 — Publish (the quality gate decides)
+```bash
+python3 scripts/curate-state.py <state>             # auto-publish all that pass quality
+python3 scripts/curate-state.py <state> published   # list what's live
+python3 scripts/curate-state.py <state> draft       # list drafts + why each is held
+```
+`curate-state.py <state>` (no sub-command) **auto-publishes every trail that
+meets the quality bar** — real GPS route + distance + gain + valid coords +
+GPS-audit ≥ `quality.min_score`. Difficulty is computed from distance+gain if
+missing. Trails that fail stay **draft** (hidden) with the reason shown. To lift
+a draft: drop a real `gpx-downloads/<slug>.gpx`, run the pipeline, then re-run
+`curate-state.py <state>`.
 
 > **Drafts are hidden from the site.** A trail only appears publicly once it is
 > route-complete (real GPS path + distance, and the `_status` flag removed).
@@ -160,7 +173,7 @@ rsync -avz --delete website/dist/ user@yourhost:/path/to/webroot/
 | Script | Purpose |
 |---|---|
 | `scripts/import-state.py` | Bulk-import a state's peaks from OpenStreetMap |
-| `scripts/curate-state.py` | Rank/prune imported peaks to real destinations |
+| `scripts/curate-state.py` | Publish (quality gate decides) · `draft`/`published`/`prune` sub-commands |
 | `scripts/new-trail.py` | Scaffold one blank trail JSON |
 | `scripts/run-pipeline.py` | Orchestrate: nearby → description → SEO → links → audit → validate |
 | `scripts/generate-nearby-peaks.py` | Link nearest in-state peaks |
