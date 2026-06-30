@@ -79,16 +79,28 @@ working a state:
    ```
    Same schema, all facts blank for you to fill.
 
-   **Curate after a bulk import** (OSM returns lots of noise — minor hills with
-   no prominence or Wikidata entry). Rank and prune to the real destinations:
+   **Prune the OSM noise after a bulk import** (minor hills with no prominence
+   or Wikidata entry). Rank and prune to the real destinations:
    ```bash
-   python3 scripts/curate-state.py <state>                 # report only
-   python3 scripts/curate-state.py <state> --keep-top 15 --apply
+   python3 scripts/curate-state.py <state> prune                  # report only
+   python3 scripts/curate-state.py <state> prune --keep-top 15 --apply
    ```
    `--apply` MOVES the low-signal files to `website/src/data/_rejected/<state>/`
    (reversible, gitignored — never deleted) so you enrich only the keepers.
-   Hand-curated files (no `osm` block) are never touched. Publishing dozens of
-   thin, near-duplicate peak pages hurts SEO, so curate before you enrich.
+   Hand-curated files (no `osm` block) are never touched.
+
+   **Publish — the quality gate decides.** Instead of publishing trail by trail:
+   ```bash
+   python3 scripts/curate-state.py <state>             # auto-publish all that pass
+   python3 scripts/curate-state.py <state> published   # list live trails
+   python3 scripts/curate-state.py <state> draft       # list drafts + why held
+   ```
+   `curate-state.py <state>` auto-publishes every trail that meets the bar (real
+   GPS route + distance + gain + valid coords + GPS-audit ≥ `min_score`),
+   computing difficulty from distance+gain when missing, and removing `_status`.
+   Failing trails stay draft (hidden) with the reason shown. This is the user's
+   chosen model: the gate signs off on structurally-complete, audited trails;
+   bring the rest up by adding a real GPX and re-running.
 
    Either way, finish each trail by adding route distance/difficulty and a real
    GPX (`gpx-downloads/<slug>.gpx` → `gpx-to-geo.py`), verifying against the
@@ -254,6 +266,22 @@ whole repo.
 
 ---
 
+## Enriching draft trails from open data (what's safe vs not)
+
+**Elevation — safe, automated.** A GPS path recorded without elevation (a 2-D
+track) leaves a flat chart and wrong gain. `scripts/enrich-elevation.py
+--state <slug>` batch-fills real elevation from the Open-Meteo Copernicus DEM
+(free, no key) and recomputes the chart and gain. It only touches paths that
+lack real elevation; 3-D tracks are left alone.
+
+**Route geometry — NOT auto-pulled (by design).** Open data has no reliable
+per-peak trail: OSM's nearest hiking-route relation to a summit is usually an
+entire long-distance trail (e.g. the whole Appalachian Trail, 50k+ points), not
+that peak's route. Auto-attaching it would publish a wrong route and break
+trust, so the route must come from a real GPX (Hiking Project, official park
+GPX, OSM segment you vet, or your own recording). Once a real path exists,
+`enrich-elevation.py` can supply its elevation if the GPX was 2-D.
+
 ## Reference docs (deeper dives, not needed day-to-day)
 
 - `DATA_QUALITY_SYSTEM.md` — data sources, attribution format, verification rules
@@ -266,7 +294,7 @@ whole repo.
 |---|---|
 | `scripts/run-pipeline.py` | **Always start here** — orchestrates the rest |
 | `scripts/import-state.py` | Bulk-import a state's named peaks from OpenStreetMap |
-| `scripts/curate-state.py` | Rank imported peaks by notability; prune noise to _rejected/ |
+| `scripts/curate-state.py` | Publish (quality gate decides); `draft`/`published`/`prune` sub-commands |
 | `scripts/new-trail.py` | Scaffold a single new trail JSON stub (facts blank to fill) |
 | `scripts/generate-nearby-peaks.py` | Link nearest in-state peaks for hikes with none |
 | `scripts/check-links.py` | Verify nearby_peaks internal links resolve |
