@@ -79,7 +79,13 @@ For every JSON in `website/src/data/<state>/`:
   the next `run-pipeline.py --state <state>` — no manual conversion needed.
   (To convert one immediately by hand: `python3 scripts/gpx-to-geo.py
   gpx-downloads/<slug>.gpx website/src/data/<state>/<slug>.json`.)
-- Verify facts against the official source, then delete the `"_status"` line.
+- Set difficulty/type/parking and publish in one command (no JSON editing):
+  ```bash
+  python3 scripts/set-trail.py <state> <slug> \
+      --difficulty Moderate --type "Out & Back" --parking "Trailhead name" --publish
+  ```
+  `--publish` removes the `_status` flag (refused unless the trail has a real
+  route). Omit `--publish` to set fields but keep it a draft.
 - Re-run the pipeline: `python3 scripts/run-pipeline.py --state <state>`
 
 ---
@@ -163,6 +169,7 @@ rsync -avz --delete website/dist/ user@yourhost:/path/to/webroot/
 | `scripts/check-links.py` | Verify internal links resolve |
 | `scripts/check-elevation.py` | Report elevations diverging from USGS (no edits) |
 | `scripts/draft-status.py` | LIVE vs DRAFT trails + exactly what each draft still needs |
+| `scripts/set-trail.py` | Set difficulty/type/parking and publish a trail (one command) |
 | `scripts/gpx-to-geo.py` | Convert a real GPX into a trail's GPS path |
 | `scripts/audit-gps-quality.py` | Score GPS quality (all routes) |
 | `scripts/validate-trail-data.js` | Validate required fields / ranges |
