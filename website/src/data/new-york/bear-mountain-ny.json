@@ -2451,5 +2451,89 @@
     "gps_source": "USGS Topographic Map - Peekskill Quadrangle",
     "distance_source": "NY-NJ Trail Conference maps and NYS Parks",
     "notes": "Elevation (1,289 ft) from USGS benchmark. Lowest elevation point of Appalachian Trail. Trail distance from NY-NJ Trail Conference and Bear Mountain State Park. Perkins Memorial Tower on summit."
+  },
+  "seo": {
+    "meta_title": "Bear Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Bear Mountain hike with current conditions, trail map & parking info. New York summit at 1,289 ft.",
+    "canonical_url": "/trails/new-york/bear-mountain-ny",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bear Mountain",
+      "description": "Bear Mountain is a 1,289 foot peak in New York offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.313,
+        "longitude": -74.006,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1289,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New York",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bear Mountain Loop via AT",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.31102,
+            "longitude": -73.98802
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bear Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bear Mountain Loop via AT on Bear Mountain is 3.9-mile and takes about 3.3 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bear Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bear Mountain is rated Moderate. At 1,289 feet, plan for the terrain and weather typical of New York peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bear Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bear Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bear Mountain Loop via AT, a 3.9-mile moderate hike to the Bear Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bear Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bear Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   }
 }

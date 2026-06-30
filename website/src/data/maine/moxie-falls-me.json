@@ -74,7 +74,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Bigelow Mountain - Avery Peak",
+      "slug": "bigelow-avery-peak-me",
+      "state_slug": "maine",
+      "elevation": 4088,
+      "distance_miles": 23.3
+    },
+    {
+      "name": "Bigelow Mountain - West Peak",
+      "slug": "bigelow-west-peak-me",
+      "state_slug": "maine",
+      "elevation": 4145,
+      "distance_miles": 23.7
+    },
+    {
+      "name": "Sugarloaf Mountain",
+      "slug": "sugarloaf-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4237,
+      "distance_miles": 28.7
+    },
+    {
+      "name": "Spaulding Mountain",
+      "slug": "spaulding-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4010,
+      "distance_miles": 28.7
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T16:18:58.520338",
     "refiner_version": "2.1.0",

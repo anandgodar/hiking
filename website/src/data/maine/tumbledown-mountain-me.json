@@ -105,7 +105,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Mount Blue",
+      "slug": "mount-blue-me",
+      "state_slug": "maine",
+      "elevation": 3187,
+      "distance_miles": 11.3
+    },
+    {
+      "name": "Angel Falls",
+      "slug": "angel-falls-me",
+      "state_slug": "maine",
+      "elevation": 1800,
+      "distance_miles": 12.1
+    },
+    {
+      "name": "Saddleback Mountain",
+      "slug": "saddleback-mountain-me",
+      "state_slug": "maine",
+      "elevation": 4120,
+      "distance_miles": 12.8
+    },
+    {
+      "name": "The Horn",
+      "slug": "the-horn-me",
+      "state_slug": "maine",
+      "elevation": 4023,
+      "distance_miles": 13.2
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T16:14:36.530404",
     "refiner_version": "2.1.0",

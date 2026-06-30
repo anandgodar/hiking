@@ -128,7 +128,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Stowe Pinnacle",
+      "slug": "stowe-pinnacle-vt",
+      "state_slug": "vermont",
+      "elevation": 2740,
+      "distance_miles": 11.7
+    },
+    {
+      "name": "Elmore Mountain",
+      "slug": "elmore-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 2608,
+      "distance_miles": 14.5
+    },
+    {
+      "name": "Camel's Hump",
+      "slug": "camels-hump-vt",
+      "state_slug": "vermont",
+      "elevation": 4083,
+      "distance_miles": 15.9
+    },
+    {
+      "name": "Mount Hunger",
+      "slug": "mount-hunger-vt",
+      "state_slug": "vermont",
+      "elevation": 3539,
+      "distance_miles": 17.0
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T11:33:43.454778",
     "refiner_version": "2.1.0",

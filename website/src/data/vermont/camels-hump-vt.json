@@ -103,7 +103,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Mount Ellen",
+      "slug": "mount-ellen-vt",
+      "state_slug": "vermont",
+      "elevation": 4083,
+      "distance_miles": 11.2
+    },
+    {
+      "name": "Mount Abraham",
+      "slug": "mount-abraham-vt",
+      "state_slug": "vermont",
+      "elevation": 4006,
+      "distance_miles": 14.2
+    },
+    {
+      "name": "Stowe Pinnacle",
+      "slug": "stowe-pinnacle-vt",
+      "state_slug": "vermont",
+      "elevation": 2740,
+      "distance_miles": 15.5
+    },
+    {
+      "name": "Mount Mansfield",
+      "slug": "mount-mansfield-vt",
+      "state_slug": "vermont",
+      "elevation": 4393,
+      "distance_miles": 15.9
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T11:29:15.061815",
     "refiner_version": "2.1.0",

@@ -44,7 +44,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Snake Mountain",
+      "slug": "snake-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 1287,
+      "distance_miles": 14.9
+    },
+    {
+      "name": "Mount Ellen",
+      "slug": "mount-ellen-vt",
+      "state_slug": "vermont",
+      "elevation": 4083,
+      "distance_miles": 16.5
+    },
+    {
+      "name": "Camel's Hump",
+      "slug": "camels-hump-vt",
+      "state_slug": "vermont",
+      "elevation": 4083,
+      "distance_miles": 16.6
+    },
+    {
+      "name": "Mount Abraham",
+      "slug": "mount-abraham-vt",
+      "state_slug": "vermont",
+      "elevation": 4006,
+      "distance_miles": 17.9
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T11:28:34.399711",
     "refiner_version": "2.1.0",

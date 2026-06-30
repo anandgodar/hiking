@@ -850,5 +850,89 @@
     "gps_source": "USGS Topographic Map - Woodstock Quadrangle",
     "distance_source": "NYS DEC trail guides and Catskill 3500 Club",
     "notes": "Elevation (3,140 ft) from USGS benchmark. Famous for abandoned Overlook Mountain House hotel ruins. Trail distance from NYS DEC and Catskill trail guides. Fire tower on summit."
+  },
+  "seo": {
+    "meta_title": "Overlook Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Overlook Mountain hike with current conditions, trail map & parking info. New York summit at 3,140 ft.",
+    "canonical_url": "/trails/new-york/overlook-mountain-ny",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Overlook Mountain",
+      "description": "Overlook Mountain is a 3,140 foot peak in New York offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.067,
+        "longitude": -74.122,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3140,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New York",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Overlook Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.07147,
+            "longitude": -74.13783
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Overlook Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Overlook Mountain Trail on Overlook Mountain is 3.9-mile and takes about 2.8 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Overlook Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Overlook Mountain is rated Moderate. At 3,140 feet, plan for the terrain and weather typical of New York peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Overlook Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Overlook Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Overlook Mountain Trail, a 3.9-mile moderate hike to the Overlook Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Overlook Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Overlook Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   }
 }

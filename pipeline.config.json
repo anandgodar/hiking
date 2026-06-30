@@ -1,0 +1,763 @@
+{
+  "_comment": "State list and per-state settings for the trail-data pipeline. Edit this file, set 'rerun': true on the states you want to (re)process, then run: python3 scripts/run-pipeline.py --rerun. Deployment is manual: after the pipeline passes locally, copy the changed website/src/data/<state>/ files to the web host yourself.",
+  "data_dir": "website/src/data",
+  "gpx_dir": "gpx-downloads",
+  "report_dir": "pipeline-reports",
+  "quality": {
+    "min_score": 80,
+    "good_points_per_mile": 15,
+    "fair_points_per_mile": 8
+  },
+  "states": [
+    {
+      "slug": "alabama",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "alaska",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "arizona",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "arkansas",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "california",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "National Park Service (NPS) / California State Parks",
+        "primary_url": "https://www.nps.gov/state/ca/index.htm",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map / CalTopo"
+      }
+    },
+    {
+      "slug": "colorado",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "connecticut",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "delaware",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "florida",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "georgia",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "hawaii",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "idaho",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "illinois",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "indiana",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "iowa",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "kansas",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "kentucky",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "louisiana",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "maine",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Maine Bureau of Parks and Lands / Acadia National Park (NPS)",
+        "primary_url": "https://www.maine.gov/dacf/parks/",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "maryland",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "massachusetts",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "michigan",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "minnesota",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "mississippi",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "missouri",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "montana",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "nebraska",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "nevada",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "new-hampshire",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "White Mountain National Forest (USFS) / Appalachian Mountain Club (AMC)",
+        "primary_url": "https://www.fs.usda.gov/whitemountain",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "new-jersey",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "new-mexico",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "new-york",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "NY State Dept. of Environmental Conservation (DEC) / Adirondack Mountain Club",
+        "primary_url": "https://www.dec.ny.gov/lands/hiking.html",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "north-carolina",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "north-dakota",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "ohio",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "oklahoma",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "oregon",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "pennsylvania",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "rhode-island",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "south-carolina",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "south-dakota",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "tennessee",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "texas",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "utah",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "vermont",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Green Mountain National Forest (USFS) / Green Mountain Club",
+        "primary_url": "https://www.fs.usda.gov/greenmountain",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "virginia",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "washington",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "west-virginia",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "wisconsin",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    },
+    {
+      "slug": "wyoming",
+      "enabled": false,
+      "rerun": false,
+      "generate_gps": false,
+      "generate_nearby": true,
+      "generate_seo": true,
+      "synthetic_fallback": true,
+      "data_sources": {
+        "verified_by": "Official land manager (NPS / USFS / State Parks) \u2014 UPDATE before enabling",
+        "primary_url": "",
+        "elevation_source": "USGS Benchmark",
+        "gps_source": "USGS Topographic Map"
+      }
+    }
+  ]
+}

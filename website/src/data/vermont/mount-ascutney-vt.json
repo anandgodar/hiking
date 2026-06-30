@@ -80,7 +80,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Okemo Mountain",
+      "slug": "okemo-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3343,
+      "distance_miles": 13.6
+    },
+    {
+      "name": "Killington Peak",
+      "slug": "killington-peak-vt",
+      "state_slug": "vermont",
+      "elevation": 4229,
+      "distance_miles": 22.0
+    },
+    {
+      "name": "Pico Peak",
+      "slug": "pico-peak-vt",
+      "state_slug": "vermont",
+      "elevation": 3957,
+      "distance_miles": 24.8
+    },
+    {
+      "name": "White Rocks",
+      "slug": "white-rocks-vt",
+      "state_slug": "vermont",
+      "elevation": 2680,
+      "distance_miles": 24.9
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T11:18:14.989538",
     "refiner_version": "2.1.0",

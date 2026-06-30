@@ -1203,5 +1203,89 @@
     "gps_source": "USGS Topographic Map - West Point Quadrangle",
     "distance_source": "NY-NJ Trail Conference maps and NYS Parks",
     "notes": "Elevation (1,340 ft) from USGS topo. Part of Hudson Highlands State Park. Trail distance from NY-NJ Trail Conference maps. Historic preservation led to creation of environmental movement in 1960s."
+  },
+  "seo": {
+    "meta_title": "Storm King Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Storm King Mountain hike with current conditions, trail map & parking info. New York summit at 1,340 ft.",
+    "canonical_url": "/trails/new-york/storm-king-mountain-ny",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Storm King Mountain",
+      "description": "Storm King Mountain is a 1,340 foot peak in New York offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.423,
+        "longitude": -73.995,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1340,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New York",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Storm King Loop",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.42001,
+            "longitude": -74.00052
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Storm King Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Storm King Loop on Storm King Mountain is 2.5-mile and takes about 2.1 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Storm King Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Storm King Mountain is rated Moderate. At 1,340 feet, plan for the terrain and weather typical of New York peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Storm King Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Storm King Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Storm King Loop, a 2.5-mile moderate hike to the Storm King Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Storm King Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Storm King Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   }
 }

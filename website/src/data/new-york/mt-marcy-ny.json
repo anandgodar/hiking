@@ -2498,7 +2498,6 @@
       }
     }
   ],
-
   "data_sources": {
     "verified_by": "New York State Department of Environmental Conservation (NYS DEC)",
     "primary_url": "https://www.dec.ny.gov/outdoor/9198.html",
@@ -2507,5 +2506,89 @@
     "gps_source": "USGS Topographic Map - Mount Marcy Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
     "notes": "Elevation (5,344 ft) from official USGS benchmark - highest point in New York State. Trail distance from NYS DEC official trail descriptions and Adirondack Mountain Club (ADK) High Peaks guidebook. Parking info from ADK Loj."
+  },
+  "seo": {
+    "meta_title": "Mount Marcy Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Marcy hike with current conditions, trail map & parking info. New York summit at 5,344 ft.",
+    "canonical_url": "/trails/new-york/mt-marcy-ny",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Marcy",
+      "description": "Mount Marcy is a 5,344 foot peak in New York offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.1126,
+        "longitude": -73.9235,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5344,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New York",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Van Hoevenberg Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.18293,
+            "longitude": -73.96262
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Marcy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Van Hoevenberg Trail on Mount Marcy is 14.0-mile and takes about 11.1 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Marcy hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Marcy is rated Hard. At 5,344 feet, plan for the terrain and weather typical of New York peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Marcy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Marcy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Van Hoevenberg Trail, a 14.0-mile hard hike to the Mount Marcy summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Marcy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Marcy. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   }
 }

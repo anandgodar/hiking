@@ -63,7 +63,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Bromley Mountain",
+      "slug": "bromley-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3260,
+      "distance_miles": 10.0
+    },
+    {
+      "name": "Stratton Mountain",
+      "slug": "stratton-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3936,
+      "distance_miles": 11.9
+    },
+    {
+      "name": "Glastenbury Mountain",
+      "slug": "glastenbury-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3748,
+      "distance_miles": 12.3
+    },
+    {
+      "name": "Haystack Mountain",
+      "slug": "haystack-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 3420,
+      "distance_miles": 18.6
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T11:16:04.022728",
     "refiner_version": "2.1.0",

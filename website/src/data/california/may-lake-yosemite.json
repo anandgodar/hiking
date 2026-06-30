@@ -471,7 +471,87 @@
   },
   "seo": {
     "meta_title": "May Lake Hike Yosemite 2026 | Easy 2.4-Mile High Sierra Lake Trail",
-    "meta_description": "Complete guide to hiking May Lake in Yosemite. Easy 2.4-mile trail to beautiful alpine lake beneath Mount Hoffmann. Family-friendly High Sierra access with High Sierra Camp info."
+    "meta_description": "Complete guide to hiking May Lake in Yosemite. Easy 2.4-mile trail to beautiful alpine lake beneath Mount Hoffmann. Family-friendly High Sierra access with High Sierra Camp info.",
+    "canonical_url": "/trails/california/may-lake-yosemite",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "May Lake",
+      "description": "May Lake is a 9,329 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.8425,
+        "longitude": -119.491,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 9329,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "May Lake Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.8495,
+            "longitude": -119.498
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike May Lake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular May Lake Trail on May Lake is 2.4-mile and takes about 2 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is May Lake hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "May Lake is rated Easy. At 9,329 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike May Lake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike May Lake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the May Lake Trail, a 2.4-mile easy hike to the May Lake summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike May Lake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on May Lake. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
@@ -481,5 +561,35 @@
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
     "notes": "Distance and elevation from NPS High Sierra Camp trail guides. May Lake High Sierra Camp location verified. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Cathedral Lakes",
+      "slug": "cathedral-lakes-yosemite",
+      "state_slug": "california",
+      "elevation": 9585,
+      "distance_miles": 5.0
+    },
+    {
+      "name": "Clouds Rest",
+      "slug": "clouds-rest-yosemite",
+      "state_slug": "california",
+      "elevation": 9926,
+      "distance_miles": 5.4
+    },
+    {
+      "name": "Half Dome",
+      "slug": "half-dome-yosemite",
+      "state_slug": "california",
+      "elevation": 8842,
+      "distance_miles": 7.1
+    },
+    {
+      "name": "Mirror Lake",
+      "slug": "mirror-lake-yosemite",
+      "state_slug": "california",
+      "elevation": 4100,
+      "distance_miles": 7.7
+    }
+  ]
 }

@@ -1457,7 +1457,6 @@
       }
     }
   ],
-
   "data_sources": {
     "verified_by": "New York State Department of Environmental Conservation (NYS DEC)",
     "primary_url": "https://www.dec.ny.gov/outdoor/9198.html",
@@ -1466,5 +1465,89 @@
     "gps_source": "USGS Topographic Map - Mount Marcy Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
     "notes": "Elevation (5,114 ft) from USGS benchmark - second highest peak in New York. Trail distance from NYS DEC and Adirondack Mountain Club (ADK) guidebooks. Part of the Adirondack 46ers list."
+  },
+  "seo": {
+    "meta_title": "Algonquin Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Algonquin Peak hike with current conditions, trail map & parking info. New York summit at 5,114 ft.",
+    "canonical_url": "/trails/new-york/algonquin-peak-ny",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Algonquin Peak",
+      "description": "Algonquin Peak is a 5,114 foot peak in New York offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.1436,
+        "longitude": -73.9866,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5114,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New York",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Algonquin Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.18293,
+            "longitude": -73.96262
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Algonquin Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Algonquin Trail on Algonquin Peak is 7.3-mile and takes about 6.4 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Algonquin Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Algonquin Peak is rated Hard. At 5,114 feet, plan for the terrain and weather typical of New York peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Algonquin Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Algonquin Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Algonquin Trail, a 7.3-mile hard hike to the Algonquin Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Algonquin Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Algonquin Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   }
 }

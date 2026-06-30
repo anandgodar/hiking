@@ -1148,7 +1148,87 @@
   },
   "seo": {
     "meta_title": "Potato Chip Rock Hike Guide 2026 | San Diego's Instagram Trail",
-    "meta_description": "Complete guide to hiking Potato Chip Rock near San Diego. 7.2-mile trail to famous rock formation on Mount Woodson. Photo tips, best times to avoid crowds, and safety info for San Diego's most Instagrammed hike."
+    "meta_description": "Complete guide to hiking Potato Chip Rock near San Diego. 7.2-mile trail to famous rock formation on Mount Woodson. Photo tips, best times to avoid crowds, and safety info for San Diego's most Instagrammed hike.",
+    "canonical_url": "/trails/california/potato-chip-rock",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Potato Chip Rock",
+      "description": "Potato Chip Rock is a 2,881 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.9338,
+        "longitude": -116.9154,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2881,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Woodson Trail via Lake Poway",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 32.9425,
+            "longitude": -117.0352
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Potato Chip Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Woodson Trail via Lake Poway on Potato Chip Rock is 7.2-mile and takes about 4 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Potato Chip Rock hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Potato Chip Rock is rated Moderate. At 2,881 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Potato Chip Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Potato Chip Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Woodson Trail via Lake Poway, a 7.2-mile moderate hike to the Potato Chip Rock summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Potato Chip Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Potato Chip Rock. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "City of Poway / Lake Poway Recreation",

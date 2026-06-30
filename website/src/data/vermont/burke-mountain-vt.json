@@ -66,7 +66,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Mount Hor",
+      "slug": "mount-hor-vt",
+      "state_slug": "vermont",
+      "elevation": 2648,
+      "distance_miles": 14.5
+    },
+    {
+      "name": "Mount Pisgah",
+      "slug": "mount-pisgah-vt",
+      "state_slug": "vermont",
+      "elevation": 2751,
+      "distance_miles": 14.6
+    },
+    {
+      "name": "Elmore Mountain",
+      "slug": "elmore-mountain-vt",
+      "state_slug": "vermont",
+      "elevation": 2608,
+      "distance_miles": 31.0
+    },
+    {
+      "name": "Mount Hunger",
+      "slug": "mount-hunger-vt",
+      "state_slug": "vermont",
+      "elevation": 3539,
+      "distance_miles": 34.9
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T11:37:07.405306",
     "refiner_version": "2.1.0",

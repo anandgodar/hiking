@@ -174,7 +174,29 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Mount Kearsarge",
+      "slug": "mount-kearsarge-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 2930,
+      "distance_miles": 37.4
+    },
+    {
+      "name": "Mount Cardigan",
+      "slug": "mount-cardigan-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 3121,
+      "distance_miles": 55.4
+    },
+    {
+      "name": "Mount Major",
+      "slug": "mount-major-nh",
+      "state_slug": "new-hampshire",
+      "elevation": 1786,
+      "distance_miles": 61.1
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-29T13:20:41.511562",
     "refiner_version": "2.1.0",

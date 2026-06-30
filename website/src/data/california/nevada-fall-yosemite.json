@@ -706,7 +706,87 @@
   },
   "seo": {
     "meta_title": "Nevada Fall Hike 2026 | Yosemite's 594-Foot Waterfall via Mist Trail",
-    "meta_description": "Complete guide to hiking Nevada Fall in Yosemite National Park. 6.9-mile trail past Vernal Fall to spectacular 594-foot Nevada Fall. Best time to visit, trail conditions & safety tips."
+    "meta_description": "Complete guide to hiking Nevada Fall in Yosemite National Park. 6.9-mile trail past Vernal Fall to spectacular 594-foot Nevada Fall. Best time to visit, trail conditions & safety tips.",
+    "canonical_url": "/trails/california/nevada-fall-yosemite",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Nevada Fall",
+      "description": "Nevada Fall is a 5,900 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.7305,
+        "longitude": -119.5335,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5900,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Nevada Fall via Mist Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.7318,
+            "longitude": -119.5585
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Nevada Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Nevada Fall via Mist Trail on Nevada Fall is 6.9-mile and takes about 5 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Nevada Fall hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nevada Fall is rated Moderate. At 5,900 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Nevada Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Nevada Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Nevada Fall via Mist Trail, a 6.9-mile moderate hike to the Nevada Fall summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Nevada Fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Nevada Fall. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
@@ -716,5 +796,35 @@
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
     "notes": "Waterfall height (594 ft) from USGS GNIS. Distance via Mist Trail from NPS official trail descriptions. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Vernal Fall",
+      "slug": "mist-trail-vernal-fall",
+      "state_slug": "california",
+      "elevation": 5900,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Half Dome",
+      "slug": "half-dome-yosemite",
+      "state_slug": "california",
+      "elevation": 8842,
+      "distance_miles": 1.1
+    },
+    {
+      "name": "Mirror Lake",
+      "slug": "mirror-lake-yosemite",
+      "state_slug": "california",
+      "elevation": 4100,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Panorama Trail",
+      "slug": "panorama-trail-yosemite",
+      "state_slug": "california",
+      "elevation": 7214,
+      "distance_miles": 2.2
+    }
+  ]
 }

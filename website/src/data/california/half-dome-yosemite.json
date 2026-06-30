@@ -930,7 +930,87 @@
   },
   "seo": {
     "meta_title": "Half Dome Hike Guide 2026 | Yosemite Permits, Cables & Trail Map",
-    "meta_description": "Complete guide to hiking Half Dome in Yosemite National Park. How to get permits, cable route details, best time to hike & safety tips for this iconic 14.2-mile trail with 4,800 ft elevation gain."
+    "meta_description": "Complete guide to hiking Half Dome in Yosemite National Park. How to get permits, cable route details, best time to hike & safety tips for this iconic 14.2-mile trail with 4,800 ft elevation gain.",
+    "canonical_url": "/trails/california/half-dome-yosemite",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Half Dome",
+      "description": "Half Dome is a 8,842 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.7459,
+        "longitude": -119.5332,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 8842,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Half Dome via Mist Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.7318,
+            "longitude": -119.5585
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Half Dome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Half Dome via Mist Trail on Half Dome is 14.2-mile and takes about 10 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Half Dome hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Half Dome is rated Strenuous. At 8,842 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Half Dome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Half Dome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Half Dome via Mist Trail, a 14.2-mile strenuous hike to the Half Dome summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Half Dome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Half Dome. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",

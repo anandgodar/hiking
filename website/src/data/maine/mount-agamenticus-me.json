@@ -61,7 +61,22 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Bradbury Mountain",
+      "slug": "bradbury-mountain-me",
+      "state_slug": "maine",
+      "elevation": 485,
+      "distance_miles": 53.6
+    },
+    {
+      "name": "Pleasant Mountain",
+      "slug": "pleasant-mountain-me",
+      "state_slug": "maine",
+      "elevation": 2006,
+      "distance_miles": 57.4
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T16:13:55.627071",
     "refiner_version": "2.1.0",

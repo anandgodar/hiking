@@ -1744,7 +1744,87 @@
   },
   "seo": {
     "meta_title": "Mount Whitney Hike Guide 2026 | Permits, Training & Summit Tips",
-    "meta_description": "Complete guide to hiking Mount Whitney, the highest peak in the lower 48 states. How to get permits, training tips, best time to summit, and safety info for the 22-mile, 14,505 ft peak in California's Sierra Nevada."
+    "meta_description": "Complete guide to hiking Mount Whitney, the highest peak in the lower 48 states. How to get permits, training tips, best time to summit, and safety info for the 22-mile, 14,505 ft peak in California's Sierra Nevada.",
+    "canonical_url": "/trails/california/mount-whitney",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Whitney",
+      "description": "Mount Whitney is a 14,505 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.5786,
+        "longitude": -118.292,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 14505,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Whitney Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.5858,
+            "longitude": -118.2385
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Whitney?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Whitney Trail on Mount Whitney is 22.0-mile and takes about 14 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Whitney hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Whitney is rated Strenuous. At 14,505 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Whitney?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Whitney?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Whitney Trail, a 22.0-mile strenuous hike to the Mount Whitney summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Whitney?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Whitney. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "Inyo National Forest / US Forest Service",

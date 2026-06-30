@@ -60,7 +60,36 @@
     "count": 0,
     "average_rating": null
   },
-  "nearby_peaks": [],
+  "nearby_peaks": [
+    {
+      "name": "Penobscot Mountain",
+      "slug": "penobscot-mountain-me",
+      "state_slug": "maine",
+      "elevation": 1194,
+      "distance_miles": 39.8
+    },
+    {
+      "name": "Jordan Pond",
+      "slug": "jordan-pond-me",
+      "state_slug": "maine",
+      "elevation": 274,
+      "distance_miles": 40.3
+    },
+    {
+      "name": "Cadillac Mountain",
+      "slug": "cadillac-mountain-me",
+      "state_slug": "maine",
+      "elevation": 1530,
+      "distance_miles": 42.0
+    },
+    {
+      "name": "The Beehive",
+      "slug": "beehive-me",
+      "state_slug": "maine",
+      "elevation": 520,
+      "distance_miles": 43.6
+    }
+  ],
   "meta": {
     "refined_at": "2025-12-28T16:13:55.728498",
     "refiner_version": "2.1.0",

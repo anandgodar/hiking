@@ -3296,5 +3296,89 @@
     "gps_source": "USGS Topographic Map - Mount Marcy Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
     "notes": "Elevation (4,240 ft) from USGS benchmark. Named for massive landslide on its side. Trail distance from NYS DEC and Adirondack Mountain Club guidebooks. Part of Adirondack 46ers list."
+  },
+  "seo": {
+    "meta_title": "Big Slide Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Big Slide Mountain hike with current conditions, trail map & parking info. New York summit at 4,240 ft.",
+    "canonical_url": "/trails/new-york/big-slide-ny",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Big Slide Mountain",
+      "description": "Big Slide Mountain is a 4,240 foot peak in New York offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.183,
+        "longitude": -73.876,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4240,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New York",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "The Brothers Loop",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 44.18901,
+            "longitude": -73.81601
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Big Slide Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular The Brothers Loop on Big Slide Mountain is 8.9-mile and takes about 7.6 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Big Slide Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Big Slide Mountain is rated Hard. At 4,240 feet, plan for the terrain and weather typical of New York peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Big Slide Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Big Slide Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the The Brothers Loop, a 8.9-mile hard hike to the Big Slide Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Big Slide Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Big Slide Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   }
 }

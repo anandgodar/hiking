@@ -645,7 +645,87 @@
   },
   "seo": {
     "meta_title": "Sentinel Dome & Taft Point Hike 2026 | Best Yosemite Sunset Views",
-    "meta_description": "Complete guide to hiking Sentinel Dome & Taft Point in Yosemite. Easy 5-mile loop or separate 2.2-mile hikes. Best sunset spot in the park with 360\u00b0 views. Tips for The Fissures and cliff safety."
+    "meta_description": "Complete guide to hiking Sentinel Dome & Taft Point in Yosemite. Easy 5-mile loop or separate 2.2-mile hikes. Best sunset spot in the park with 360\u00b0 views. Tips for The Fissures and cliff safety.",
+    "canonical_url": "/trails/california/sentinel-dome-taft-point",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Sentinel Dome & Taft Point",
+      "description": "Sentinel Dome & Taft Point is a 8,122 foot peak in California offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.7181,
+        "longitude": -119.5847,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 8122,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "California",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Sentinel Dome & Taft Point Loop",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.7185,
+            "longitude": -119.5868
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Sentinel Dome & Taft Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Sentinel Dome & Taft Point Loop on Sentinel Dome & Taft Point is 5.0-mile and takes about 3 hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sentinel Dome & Taft Point hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sentinel Dome & Taft Point is rated Easy. At 8,122 feet, plan for the terrain and weather typical of California peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Sentinel Dome & Taft Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Sentinel Dome & Taft Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Sentinel Dome & Taft Point Loop, a 5.0-mile easy hike to the Sentinel Dome & Taft Point summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Sentinel Dome & Taft Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Sentinel Dome & Taft Point. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
   },
   "data_sources": {
     "verified_by": "National Park Service - Yosemite",
