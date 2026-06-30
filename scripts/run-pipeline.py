@@ -198,8 +198,13 @@ def main():
               f"→ {'PASS' if state_pass else 'NEEDS WORK'}")
         for r in sorted(failed, key=lambda x: x.get("quality_score", 0))[:10]:
             st = r.get("stats", {})
+            routes = r.get("routes", [])
+            culprit = ""
+            if len(routes) > 1:
+                worst = min(routes, key=lambda x: x.get("score", 100))
+                culprit = f"  weakest route: '{worst['name']}'"
             print(f"      ✗ {r['name']:<32} score {r.get('quality_score', 0):>3} "
-                  f"({st.get('points_per_mile', 0)} pts/mi)")
+                  f"({st.get('points_per_mile', 0)} pts/mi){culprit}")
 
         report = {
             "state": slug,
@@ -217,6 +222,7 @@ def main():
             "needs_work": [
                 {"name": r["name"], "file": r.get("file"),
                  "score": r.get("quality_score", 0),
+                 "routes": r.get("routes", []),
                  "issues": r.get("issues", []), "warnings": r.get("warnings", [])}
                 for r in failed
             ],

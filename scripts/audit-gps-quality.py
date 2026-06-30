@@ -44,6 +44,88 @@ def calculate_path_distance(path):
         )
     return total
 
+def audit_route(trail):
+    """Score one route's GPS quality. Returns {score, issues, warnings, stats}."""
+    GOOD_PPM = 15  # 15+ points per mile = good
+    FAIR_PPM = 8   # 8-15 points per mile = fair
+
+    rr = {'score': 100, 'issues': [], 'warnings': [], 'stats': {}}
+
+    geo = trail.get('geo')
+    if not geo:
+        rr['issues'].append('No geo object')
+        rr['score'] = 0
+        return rr
+
+    path = geo.get('path')
+    if not path:
+        rr['issues'].append('No GPS path data')
+        rr['score'] = 0
+        return rr
+
+    num_points = len(path)
+    stats = trail.get('stats', {})
+    trail_distance = stats.get('distance', 0)
+    if trail_distance == 0:
+        trail_distance = calculate_path_distance(path)
+        rr['warnings'].append(f'No distance in stats, calculated: {trail_distance:.1f} mi')
+
+    if trail_distance > 0:
+        points_per_mile = num_points / trail_distance
+    else:
+        points_per_mile = 0
+        rr['warnings'].append('Trail distance is 0')
+
+    if points_per_mile >= GOOD_PPM:
+        gps_quality = 'GOOD'
+    elif points_per_mile >= FAIR_PPM:
+        gps_quality = 'FAIR'
+        rr['warnings'].append(f'Low GPS density: {points_per_mile:.1f} pts/mi (recommend 15+)')
+        rr['score'] -= 20
+    else:
+        gps_quality = 'POOR'
+        rr['issues'].append(f'Very low GPS density: {points_per_mile:.1f} pts/mi (need 15+)')
+        rr['score'] -= 40
+
+    has_elevation = all(len(p) >= 3 for p in path)
+    if not has_elevation:
+        rr['issues'].append('Missing elevation data in path')
+        rr['score'] -= 30
+
+    chart = geo.get('chart') or []
+    if not chart:
+        rr['warnings'].append('No elevation chart data')
+        rr['score'] -= 10
+    elif len(chart) < 5:
+        rr['warnings'].append(f'Too few chart points: {len(chart)} (recommend 10+)')
+        rr['score'] -= 5
+
+    if 'markers' not in geo:
+        rr['warnings'].append('No start/summit markers')
+        rr['score'] -= 5
+
+    if num_points >= 3:
+        straight_distance = haversine_distance(path[0][0], path[0][1],
+                                               path[-1][0], path[-1][1])
+        actual_distance = calculate_path_distance(path)
+        if actual_distance > 0:
+            straightness = straight_distance / actual_distance
+            if straightness > 0.9:
+                rr['warnings'].append(f'Path very straight: {straightness:.2f} (may be oversimplified)')
+                rr['score'] -= 10
+
+    rr['score'] = max(0, rr['score'])
+    rr['stats'] = {
+        'gps_points': num_points,
+        'distance_mi': round(trail_distance, 1),
+        'points_per_mile': round(points_per_mile, 1),
+        'has_elevation': has_elevation,
+        'chart_points': len(chart),
+        'quality': gps_quality,
+    }
+    return rr
+
+
 def audit_trail(file_path):
     """Audit a single trail file"""
     try:
@@ -68,104 +150,34 @@ def audit_trail(file_path):
             results['quality_score'] = 0
             return results
 
-        trail = data['trails'][0]
+        # Audit EVERY route, not just the first. A hiker can choose any route,
+        # so the hike's score is gated by its weakest route.
+        routes = data['trails']
+        route_results = [audit_route(t) for t in routes]
+        multi = len(routes) > 1
 
-        # Check for geo object
-        if 'geo' not in trail:
-            results['issues'].append('No geo object')
-            results['quality_score'] = 0
-            return results
+        results['quality_score'] = min(rr['score'] for rr in route_results)
 
-        geo = trail['geo']
+        for idx, (trail, rr) in enumerate(zip(routes, route_results)):
+            label = trail.get('name') or f'route {idx + 1}'
+            prefix = f"[{label}] " if multi else ''
+            for iss in rr['issues']:
+                results['issues'].append(prefix + iss)
+            for w in rr['warnings']:
+                results['warnings'].append(prefix + w)
 
-        # Check for path
-        if 'path' not in geo or len(geo['path']) == 0:
-            results['issues'].append('No GPS path data')
-            results['quality_score'] = 0
-            return results
+        # Representative stats = the weakest route (what the score reflects).
+        worst = min(route_results, key=lambda r: r['score'])
+        results['stats'] = dict(worst['stats'])
+        results['stats']['routes_audited'] = len(routes)
+        results['stats']['routes_below_80'] = sum(1 for rr in route_results if rr['score'] < 80)
 
-        path = geo['path']
-        num_points = len(path)
-
-        # Get trail stats
-        stats = trail.get('stats', {})
-        trail_distance = stats.get('distance', 0)
-
-        if trail_distance == 0:
-            # Calculate from path
-            trail_distance = calculate_path_distance(path)
-            results['warnings'].append(f'No distance in stats, calculated: {trail_distance:.1f} mi')
-
-        # Calculate GPS points per mile
-        if trail_distance > 0:
-            points_per_mile = num_points / trail_distance
-        else:
-            points_per_mile = 0
-            results['warnings'].append('Trail distance is 0')
-
-        # Quality thresholds
-        GOOD_PPM = 15  # 15+ points per mile = good
-        FAIR_PPM = 8   # 8-15 points per mile = fair
-        # < 8 points per mile = poor
-
-        # Assess GPS quality
-        if points_per_mile >= GOOD_PPM:
-            gps_quality = 'GOOD'
-        elif points_per_mile >= FAIR_PPM:
-            gps_quality = 'FAIR'
-            results['warnings'].append(f'Low GPS density: {points_per_mile:.1f} pts/mi (recommend 15+)')
-            results['quality_score'] -= 20
-        else:
-            gps_quality = 'POOR'
-            results['issues'].append(f'Very low GPS density: {points_per_mile:.1f} pts/mi (need 15+)')
-            results['quality_score'] -= 40
-
-        # Check elevation data
-        has_elevation = all(len(p) >= 3 for p in path)
-        if not has_elevation:
-            results['issues'].append('Missing elevation data in path')
-            results['quality_score'] -= 30
-
-        # Check for elevation chart
-        if 'chart' not in geo or len(geo['chart']) == 0:
-            results['warnings'].append('No elevation chart data')
-            results['quality_score'] -= 10
-        else:
-            chart_points = len(geo['chart'])
-            if chart_points < 5:
-                results['warnings'].append(f'Too few chart points: {chart_points} (recommend 10+)')
-                results['quality_score'] -= 5
-
-        # Check markers
-        if 'markers' not in geo:
-            results['warnings'].append('No start/summit markers')
-            results['quality_score'] -= 5
-
-        # Calculate path straightness (detect oversimplified paths)
-        if num_points >= 3:
-            straight_distance = haversine_distance(
-                path[0][0], path[0][1],
-                path[-1][0], path[-1][1]
-            )
-            actual_distance = calculate_path_distance(path)
-
-            if actual_distance > 0:
-                straightness = straight_distance / actual_distance
-
-                # Most trails should be < 0.8 straight (switchbacks, curves)
-                if straightness > 0.9:
-                    results['warnings'].append(f'Path very straight: {straightness:.2f} (may be oversimplified)')
-                    results['quality_score'] -= 10
-
-        # Add summary stats
-        results['stats'] = {
-            'gps_points': num_points,
-            'distance_mi': round(trail_distance, 1),
-            'points_per_mile': round(points_per_mile, 1),
-            'has_elevation': has_elevation,
-            'chart_points': len(geo.get('chart', [])),
-            'quality': gps_quality
-        }
+        # Per-route breakdown for the report.
+        results['routes'] = [
+            {'name': (t.get('name') or f'route {i + 1}'), 'score': rr['score'],
+             **rr['stats']}
+            for i, (t, rr) in enumerate(zip(routes, route_results))
+        ]
 
         return results
 

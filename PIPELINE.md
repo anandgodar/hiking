@@ -148,6 +148,13 @@ with `python3 scripts/check-links.py [state ...]`.
 A trail scores 0–100; the pipeline marks a state `PASS` only when every trail
 is ≥ `quality.min_score` (default 80).
 
+**Every route is audited, not just the first.** A hike can offer several routes
+(`trails[]`); since a hiker may pick any of them, the hike's score is gated by
+its **weakest** route. The audit reports a per-route breakdown and the pipeline
+names the weakest route on each failing line (e.g.
+`✗ Mount Pierce … weakest route: 'Webster-Jackson Trail to Pierce'`), so a
+strong primary route can no longer mask a poor alternate.
+
 `scripts/validate-trail-data.js` is the second gate: it checks required fields,
 GPS/elevation ranges, distance sanity, and `data_sources` freshness across the
 whole repo.
