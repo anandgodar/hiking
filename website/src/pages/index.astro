@@ -54,14 +54,27 @@ const categories = [
   { id: 'fire-tower', title: 'Fire Towers', icon: 'tower' },
 ];
 
-// State cards
-const states = [
-  { slug: 'california', name: 'California', image: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800', count: stateGroups['california']?.length || 0 },
-  { slug: 'new-hampshire', name: 'New Hampshire', image: 'https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=800', count: stateGroups['new-hampshire']?.length || 0 },
-  { slug: 'maine', name: 'Maine', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800', count: stateGroups['maine']?.length || 0 },
-  { slug: 'vermont', name: 'Vermont', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800', count: stateGroups['vermont']?.length || 0 },
-  { slug: 'new-york', name: 'New York', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800', count: stateGroups['new-york']?.length || 0 },
-];
+// State cards — built dynamically from the data so any imported state
+// appears automatically. Known states keep a curated hero image; others
+// fall back to a default mountain image.
+const STATE_IMAGES = {
+  'california': 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800',
+  'new-hampshire': 'https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=800',
+  'maine': 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800',
+  'vermont': 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800',
+  'new-york': 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800',
+};
+const DEFAULT_STATE_IMAGE = 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800';
+const titleCase = (slug) => slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+const states = Object.keys(stateGroups)
+  .map(slug => ({
+    slug,
+    name: stateGroups[slug][0]?.state || titleCase(slug),
+    image: STATE_IMAGES[slug] || DEFAULT_STATE_IMAGE,
+    count: stateGroups[slug].length,
+  }))
+  .sort((a, b) => b.count - a.count);
 
 // Top rated mountains
 const topMountains = allMountains
