@@ -17,6 +17,27 @@ git pull origin claude/speckit-installation-86a106
 
 ---
 
+## 0. Fully automated — one command
+
+Build an entire state end to end (import → prune → fetch routes → elevation →
+trailhead/parking/features → enrich → audit → auto-publish):
+
+```bash
+python3 scripts/auto-state.py colorado
+# tune: --min-ele 2000  --keep-top 25  --radius-km 4
+```
+
+It uses only real public-domain / ODbL data and auto-publishes the trails that
+pass the quality gate; the rest stay draft (hidden) with reasons. Network-heavy
+(OSM + government services) — a few minutes per state. Then:
+
+```bash
+cd website && npm run build      # publish-ready trails are now live
+```
+
+The manual step-by-step below (sections 1–6) is the same flow if you want to run
+or re-run any single stage.
+
 ## 1. Add a new state (the full flow)
 
 ### Step 1 — Preview what would import (no files written)
@@ -191,6 +212,7 @@ rsync -avz --delete website/dist/ user@yourhost:/path/to/webroot/
 
 | Script | Purpose |
 |---|---|
+| `scripts/auto-state.py` | **One command** — full automated state build, import → auto-publish |
 | `scripts/import-state.py` | Bulk-import a state's peaks from OpenStreetMap |
 | `scripts/curate-state.py` | Publish (quality gate decides) · `draft`/`published`/`prune` sub-commands |
 | `scripts/new-trail.py` | Scaffold one blank trail JSON |

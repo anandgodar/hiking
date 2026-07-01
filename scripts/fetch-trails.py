@@ -166,8 +166,19 @@ def simplify(path, maxn=120):
     return out
 
 
+def path_len_mi(path):
+    return sum(haversine_mi(path[i - 1], path[i]) for i in range(1, len(path)))
+
+
+# A proximity (non-name) match must look like a real day hike. Too short = a
+# tiny unrelated feature (e.g. a 0.1 mi overlook spur); too long = a through
+# trail passing by (e.g. the whole Appalachian Trail). Name matches bypass this.
+PROX_MIN_MI = 0.4
+PROX_MAX_MI = 14.0
+
+
 def pick_trail(features, peak_name, summit, radius_mi):
-    """Group by trail name; choose name match, else nearest within radius."""
+    """Group by trail name; choose name match, else nearest sane-length route."""
     groups = {}
     for f in features:
         groups.setdefault(f["name"], []).append(f)
@@ -184,6 +195,10 @@ def pick_trail(features, peak_name, summit, radius_mi):
         tn = norm(name)
         name_match = bool(peak) and (peak in tn or tn in peak
                                      or bool(set(peak.split()) & set(tn.split())))
+        if not name_match:
+            length = path_len_mi(path)
+            if length < PROX_MIN_MI or length > PROX_MAX_MI:
+                continue  # implausible as this peak's route
         scored.append((name_match, -near, name, path))
     if not scored:
         return None, None, False
