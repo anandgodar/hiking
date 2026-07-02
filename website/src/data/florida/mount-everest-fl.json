@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Everest",
+  "slug": "mount-everest-fl",
+  "state": "Florida",
+  "state_slug": "florida",
+  "elevation": 197,
+  "lat": 28.35818,
+  "lon": -81.58605,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Everest Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            28.35818,
+            -81.58605
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Everest</strong> is a 197-foot summit in Florida. Nearby peaks include Mount Gushmore, Sugarloaf Mountain and Iron Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Gushmore",
+      "slug": "mount-gushmore-fl",
+      "state_slug": "florida",
+      "elevation": 187,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Sugarloaf Mountain",
+      "slug": "sugarloaf-mountain-fl",
+      "state_slug": "florida",
+      "elevation": 308,
+      "distance_miles": 22.0
+    },
+    {
+      "name": "Iron Mountain",
+      "slug": "iron-mountain-fl",
+      "state_slug": "florida",
+      "elevation": 289,
+      "distance_miles": 29.2
+    },
+    {
+      "name": "Lakeland Highlands",
+      "slug": "lakeland-highlands-fl",
+      "state_slug": "florida",
+      "elevation": 266,
+      "distance_miles": 34.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Everest Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Everest hike with current conditions, trail map & parking info. Florida summit at 197 ft.",
+    "canonical_url": "/trails/florida/mount-everest-fl",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Everest",
+      "description": "Mount Everest is a 197 foot peak in Florida offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.35818,
+        "longitude": -81.58605,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 197,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Florida",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Everest Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Everest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Everest Trail on Mount Everest is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Everest hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Everest is rated Moderate. At 197 feet, plan for the terrain and weather typical of Florida peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Everest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Everest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Everest Trail, a  moderate hike to the Mount Everest summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Everest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Everest. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/12797880133",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/12797880133",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 12797880133,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}
