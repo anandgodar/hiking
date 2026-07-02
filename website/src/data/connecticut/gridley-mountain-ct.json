@@ -1,0 +1,483 @@
+{
+  "name": "Gridley Mountain",
+  "slug": "gridley-mountain-ct",
+  "state": "Connecticut",
+  "state_slug": "connecticut",
+  "elevation": 2192,
+  "lat": 42.03967,
+  "lon": -73.4669,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Gridley Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 1.2,
+        "gain": 115,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            42.04878,
+            -73.46154
+          ],
+          "summit": [
+            42.03967,
+            -73.4669
+          ]
+        },
+        "path": [
+          [
+            42.04878,
+            -73.46154,
+            1791
+          ],
+          [
+            42.04887,
+            -73.46132,
+            1791
+          ],
+          [
+            42.04899,
+            -73.46116,
+            1791
+          ],
+          [
+            42.04936,
+            -73.46081,
+            1765
+          ],
+          [
+            42.04949,
+            -73.46064,
+            1765
+          ],
+          [
+            42.04962,
+            -73.46041,
+            1765
+          ],
+          [
+            42.04967,
+            -73.46018,
+            1765
+          ],
+          [
+            42.05,
+            -73.45758,
+            1729
+          ],
+          [
+            42.05003,
+            -73.45709,
+            1732
+          ],
+          [
+            42.04988,
+            -73.45529,
+            1844
+          ],
+          [
+            42.0498,
+            -73.45494,
+            1841
+          ],
+          [
+            42.0496,
+            -73.45452,
+            1841
+          ],
+          [
+            42.04959,
+            -73.4545,
+            1841
+          ],
+          [
+            42.0496,
+            -73.45452,
+            1841
+          ],
+          [
+            42.0498,
+            -73.45494,
+            1841
+          ],
+          [
+            42.04988,
+            -73.45529,
+            1844
+          ],
+          [
+            42.05003,
+            -73.45709,
+            1732
+          ],
+          [
+            42.05,
+            -73.45758,
+            1729
+          ],
+          [
+            42.04967,
+            -73.46018,
+            1765
+          ],
+          [
+            42.04962,
+            -73.46041,
+            1765
+          ],
+          [
+            42.04949,
+            -73.46064,
+            1765
+          ],
+          [
+            42.04936,
+            -73.46081,
+            1765
+          ],
+          [
+            42.04899,
+            -73.46116,
+            1791
+          ],
+          [
+            42.04887,
+            -73.46132,
+            1791
+          ],
+          [
+            42.04878,
+            -73.46154,
+            1791
+          ],
+          [
+            42.04869,
+            -73.4618,
+            1788
+          ],
+          [
+            42.04865,
+            -73.46216,
+            1788
+          ],
+          [
+            42.04873,
+            -73.46287,
+            1814
+          ],
+          [
+            42.04872,
+            -73.46303,
+            1814
+          ],
+          [
+            42.04796,
+            -73.46478,
+            1841
+          ],
+          [
+            42.04872,
+            -73.46303,
+            1814
+          ],
+          [
+            42.04873,
+            -73.46287,
+            1814
+          ],
+          [
+            42.04865,
+            -73.46216,
+            1788
+          ],
+          [
+            42.04869,
+            -73.4618,
+            1788
+          ],
+          [
+            42.04878,
+            -73.46154,
+            1791
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1791,
+            "coord": [
+              42.04878,
+              -73.46154
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 1765,
+            "coord": [
+              42.04962,
+              -73.46041
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 1729,
+            "coord": [
+              42.05,
+              -73.45758
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 1732,
+            "coord": [
+              42.05003,
+              -73.45709
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 1844,
+            "coord": [
+              42.04988,
+              -73.45529
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 1841,
+            "coord": [
+              42.0498,
+              -73.45494
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 1732,
+            "coord": [
+              42.05003,
+              -73.45709
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 1729,
+            "coord": [
+              42.05,
+              -73.45758
+            ]
+          },
+          {
+            "mile": 0.66,
+            "elev": 1765,
+            "coord": [
+              42.04967,
+              -73.46018
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 1765,
+            "coord": [
+              42.04936,
+              -73.46081
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 1788,
+            "coord": [
+              42.04865,
+              -73.46216
+            ]
+          },
+          {
+            "mile": 0.91,
+            "elev": 1814,
+            "coord": [
+              42.04872,
+              -73.46303
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 1841,
+            "coord": [
+              42.04796,
+              -73.46478
+            ]
+          },
+          {
+            "mile": 1.07,
+            "elev": 1814,
+            "coord": [
+              42.04872,
+              -73.46303
+            ]
+          },
+          {
+            "mile": 1.15,
+            "elev": 1791,
+            "coord": [
+              42.04878,
+              -73.46154
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Gridley Mountain</strong> is a 2,192-foot summit in Connecticut. The Gridley Mountain Trail is a 1.2-mile hike with about 115 feet of elevation gain. Nearby peaks include Bear Mountain, Round Mountain and Bald Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Bear Mountain",
+      "slug": "bear-mountain-ct",
+      "state_slug": "connecticut",
+      "elevation": 2323,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Round Mountain",
+      "slug": "round-mountain-ct",
+      "state_slug": "connecticut",
+      "elevation": 2280,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Bald Peak",
+      "slug": "bald-peak-ct",
+      "state_slug": "connecticut",
+      "elevation": 1929,
+      "distance_miles": 1.9
+    },
+    {
+      "name": "Lion's Head",
+      "slug": "lions-head-ct",
+      "state_slug": "connecticut",
+      "elevation": 1742,
+      "distance_miles": 2.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Gridley Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Gridley Mountain hike with current conditions, trail map & parking info. Connecticut summit at 2,192 ft.",
+    "canonical_url": "/trails/connecticut/gridley-mountain-ct",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Gridley Mountain",
+      "description": "Gridley Mountain is a 2,192 foot peak in Connecticut offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.03967,
+        "longitude": -73.4669,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2192,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Connecticut",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Gridley Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.04878,
+            "longitude": -73.46154
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Gridley Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Gridley Mountain Trail on Gridley Mountain is 1.2-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Gridley Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gridley Mountain is rated Moderate. At 2,192 feet, plan for the terrain and weather typical of Connecticut peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Gridley Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Gridley Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Gridley Mountain Trail, a 1.2-mile moderate hike to the Gridley Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Gridley Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Gridley Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/359263891",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/359263891",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 359263891,
+    "prominence_m": null,
+    "wikidata": "Q5608654"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Titus Mountain",
+  "slug": "titus-mountain-ct",
+  "state": "Connecticut",
+  "state_slug": "connecticut",
+  "elevation": 1522,
+  "lat": 41.91329,
+  "lon": -73.2844,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Titus Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.91329,
+            -73.2844
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Titus Mountain</strong> is a 1,522-foot summit in Connecticut. Nearby peaks include Howe Mountain, Sedgwick Mountain and Stone Man Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Howe Mountain",
+      "slug": "howe-mountain-ct",
+      "state_slug": "connecticut",
+      "elevation": 1552,
+      "distance_miles": 0.9
+    },
+    {
+      "name": "Sedgwick Mountain",
+      "slug": "sedgwick-mountain-ct",
+      "state_slug": "connecticut",
+      "elevation": 1624,
+      "distance_miles": 2.7
+    },
+    {
+      "name": "Stone Man Mountain",
+      "slug": "stone-man-mountain-ct",
+      "state_slug": "connecticut",
+      "elevation": 1732,
+      "distance_miles": 3.0
+    },
+    {
+      "name": "Ivy Mountain",
+      "slug": "ivy-mountain-ct",
+      "state_slug": "connecticut",
+      "elevation": 1654,
+      "distance_miles": 4.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Titus Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Titus Mountain hike with current conditions, trail map & parking info. Connecticut summit at 1,522 ft.",
+    "canonical_url": "/trails/connecticut/titus-mountain-ct",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Titus Mountain",
+      "description": "Titus Mountain is a 1,522 foot peak in Connecticut offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.91329,
+        "longitude": -73.2844,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1522,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Connecticut",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Titus Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Titus Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Titus Mountain Trail on Titus Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Titus Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Titus Mountain is rated Moderate. At 1,522 feet, plan for the terrain and weather typical of Connecticut peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Titus Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Titus Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Titus Mountain Trail, a  moderate hike to the Titus Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Titus Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Titus Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/359270405",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/359270405",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 359270405,
+    "prominence_m": null,
+    "wikidata": "Q31808731"
+  }
+}
