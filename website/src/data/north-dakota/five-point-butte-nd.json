@@ -266,7 +266,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Five Point Butte",
+          "type": "summit",
+          "lat": 46.76196,
+          "lon": -103.90048,
+          "mile": 2.0
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 2,982 feet, <strong>Five Point Butte</strong> is a summit in North Dakota. Nearby peaks include Rocky Butte, Sentinel Butte and Square Butte. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -399,7 +407,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357754737",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357754737,

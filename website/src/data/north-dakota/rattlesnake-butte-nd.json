@@ -771,7 +771,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "White Butte",
+          "type": "summit",
+          "lat": 46.38703,
+          "lon": -103.30258,
+          "mile": 0.81
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Rattlesnake Butte</strong> rises to 3,314 feet in North Dakota. Nearby peaks include White Butte, Slide Butte and Tepee Butte. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -904,7 +912,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357765557",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357765557,
