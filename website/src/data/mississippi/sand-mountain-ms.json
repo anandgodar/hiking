@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Sand Mountain",
+  "slug": "sand-mountain-ms",
+  "state": "Mississippi",
+  "state_slug": "mississippi",
+  "elevation": 643,
+  "lat": 33.60012,
+  "lon": -89.31896,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Sand Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            33.60012,
+            -89.31896
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Sand Mountain</strong> is a 643-foot summit in Mississippi. Nearby peaks include Rocky Mountain, Little Mountain and Bynum Mounds. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Rocky Mountain",
+      "slug": "rocky-mountain-ms",
+      "state_slug": "mississippi",
+      "elevation": 584,
+      "distance_miles": 1.1
+    },
+    {
+      "name": "Little Mountain",
+      "slug": "little-mountain-ms",
+      "state_slug": "mississippi",
+      "elevation": 591,
+      "distance_miles": 13.3
+    },
+    {
+      "name": "Bynum Mounds",
+      "slug": "bynum-mounds-ms",
+      "state_slug": "mississippi",
+      "elevation": 322,
+      "distance_miles": 29.6
+    },
+    {
+      "name": "Smallwood Hills",
+      "slug": "smallwood-hills-ms",
+      "state_slug": "mississippi",
+      "elevation": 653,
+      "distance_miles": 43.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Sand Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Sand Mountain hike with current conditions, trail map & parking info. Mississippi summit at 643 ft.",
+    "canonical_url": "/trails/mississippi/sand-mountain-ms",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Sand Mountain",
+      "description": "Sand Mountain is a 643 foot peak in Mississippi offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.60012,
+        "longitude": -89.31896,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 643,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Mississippi",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Sand Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Sand Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Sand Mountain Trail on Sand Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sand Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sand Mountain is rated Moderate. At 643 feet, plan for the terrain and weather typical of Mississippi peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Sand Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Sand Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Sand Mountain Trail, a  moderate hike to the Sand Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Sand Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Sand Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357962091",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357962091",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357962091,
+    "prominence_m": null,
+    "wikidata": "Q31614033"
+  }
+}

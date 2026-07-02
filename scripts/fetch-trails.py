@@ -88,17 +88,32 @@ def haversine_mi(a, b):
     return R * 2 * math.asin(math.sqrt(h))
 
 
-def query_source(url, name_field, order_field, lat, lon, radius_km, ctx):
+def query_source(url, name_field, order_field, lat, lon, radius_km, ctx,
+                 name_eq=None):
     """Query one ArcGIS REST trail service; return normalized features:
-    {name, order, lines:[[ [lon,lat],... ]]}."""
+    {name, order, lines:[[ [lon,lat],... ]]}.
+
+    With name_eq, filters to one exact trail name — used to fetch the FULL
+    geometry of a matched trail with a wide bbox, since the small discovery
+    bbox clips long approach trails (Barr Trail is 13 mi; a 4 km box keeps
+    only the summit fragment).
+    """
     dlat = radius_km / 111.0
     dlon = radius_km / (111.0 * max(0.2, math.cos(math.radians(lat))))
     bbox = f"{lon - dlon},{lat - dlat},{lon + dlon},{lat + dlat}"
     out_fields = name_field + ("," + order_field if order_field else "")
+    where = "1=1"
+    if name_eq:
+        # Services often split one trail into suffix-named segments
+        # ("North Longs Peak - Upper" / "- Lower"). Match on the base name so
+        # all segments return; the stitcher keeps the connected chain.
+        base = re.sub(r"\s*[-–]\s*[A-Za-z0-9 ]{1,12}$", "", name_eq).strip() or name_eq
+        safe = base.replace(chr(39), chr(39) * 2)
+        where = f"{name_field} LIKE '{safe}%'"
     params = {
         "geometry": bbox, "geometryType": "esriGeometryEnvelope",
         "inSR": "4326", "outSR": "4326",
-        "spatialRel": "esriSpatialRelIntersects", "where": "1=1",
+        "spatialRel": "esriSpatialRelIntersects", "where": where,
         "outFields": out_fields, "returnGeometry": "true", "f": "geojson",
     }
     full = f"{url}?{urllib.parse.urlencode(params)}"
@@ -125,6 +140,46 @@ def query_source(url, name_field, order_field, lat, lon, radius_km, ctx):
             "lines": coords_of(ft),
         })
     return norm_feats
+
+
+OVERPASS = "https://overpass-api.de/api/interpreter"
+
+
+def query_osm_paths(lat, lon, radius_km, ctx):
+    """Last-resort source: NAMED hiking ways from OpenStreetMap (ODbL).
+
+    State parks and local trails are often absent from the federal services
+    but well-mapped in OSM. Only named path/footway/track ways are used —
+    unnamed social trails are noise. Same normalized shape as query_source.
+    """
+    r = int(radius_km * 1000)
+    q = (f'[out:json][timeout:60];way["name"]'
+         f'["highway"~"^(path|footway|track)$"](around:{r},{lat},{lon});'
+         f'out geom;')
+    data = urllib.parse.urlencode({"data": q}).encode()
+    req = urllib.request.Request(
+        OVERPASS, data=data,
+        headers={"User-Agent": "summitseeker/1.0 (trail fetcher)"})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=90, context=ctx) as resp:
+                els = json.loads(resp.read()).get("elements", [])
+            break
+        except Exception:
+            time.sleep(3 * (attempt + 1))
+    else:
+        return []
+    feats = []
+    for el in els:
+        geom = el.get("geometry") or []
+        if len(geom) < 2:
+            continue
+        feats.append({
+            "name": el.get("tags", {}).get("name", "Unnamed"),
+            "order": 0,
+            "lines": [[[g["lon"], g["lat"]] for g in geom]],
+        })
+    return feats
 
 
 def coords_of(feat):
@@ -244,14 +299,20 @@ def pick_trail(features, peak_name, summit, radius_mi):
         tn = norm(name)
         name_match = bool(peak) and (peak in tn or tn in peak
                                      or bool(set(peak.split()) & set(tn.split())))
+        length = path_len_mi(path)
         if not name_match:
-            length = path_len_mi(path)
             if length < PROX_MIN_MI or length > PROX_MAX_MI:
                 continue  # implausible as this peak's route
-        scored.append((name_match, -near, name, path))
+        elif length > 25:
+            continue  # a name-matched through-trail, not this peak's route
+        # Among name matches prefer the LONGEST trail: the short ones are
+        # summit spurs / final segments (Longs Peak matched a 2.7 mi piece
+        # where the canonical route is ~7 mi one-way); the trail named after
+        # the peak that runs longest is almost always the full route.
+        scored.append((name_match, length if name_match else -near, name, path))
     if not scored:
         return None, None, False
-    scored.sort(reverse=True)  # name match first, then nearest
+    scored.sort(reverse=True)  # name match first; longest name match wins
     name_match, _, name, path = scored[0]
     return name, path, name_match
 
@@ -282,6 +343,7 @@ def process(state, slug_filter, radius_km, limit, ctx):
         name = path = None
         name_match = False
         src_attr = ""
+        src_url = src_nf = src_of = None
         for label, url, nf, of, attr in SOURCES:
             feats = query_source(url, nf, of, d["lat"], d["lon"], radius_km, ctx)
             if not feats:
@@ -289,11 +351,38 @@ def process(state, slug_filter, radius_km, limit, ctx):
             n, p, nm = pick_trail(feats, d["name"], summit, radius_mi=radius_km * 0.621)
             if p and (nm or not path):   # take a name match immediately; else keep first hit
                 name, path, name_match, src_attr = n, p, nm, attr
+                src_url, src_nf, src_of = url, nf, of
                 if nm:
                     break
         if not path:
+            # Last resort: named OSM ways (state parks / local trails that
+            # the federal services don't carry).
+            feats = query_osm_paths(d["lat"], d["lon"], radius_km, ctx)
+            if feats:
+                n, p, nm = pick_trail(feats, d["name"], summit,
+                                      radius_mi=radius_km * 0.621)
+                if p:
+                    name, path, name_match = n, p, nm
+                    src_attr = "OpenStreetMap contributors (ODbL)"
+                    src_url = None  # no ArcGIS name_eq expansion for OSM
+        if not path:
             print(f"  · no USFS/NPS trail near {d['name']}")
             continue
+
+        # Name-matched: refetch that trail's FULL geometry with a wide bbox —
+        # the discovery bbox clips long approach routes. Use it if longer
+        # (still capped by assemble()'s connectivity stitching).
+        if name_match and name and name != "Unnamed" and src_url:
+            full_feats = query_source(src_url, src_nf, src_of, d["lat"], d["lon"],
+                                      25.0, ctx, name_eq=name)
+            if full_feats:
+                full_path = assemble(full_feats)
+                if len(full_path) >= 2:
+                    full_len = path_len_mi(full_path)
+                    near = min(haversine_mi(summit, p) for p in full_path)
+                    if (full_len > path_len_mi(path) and full_len <= 30
+                            and near <= radius_km * 0.621):
+                        path = full_path
         path = simplify(orient_to_summit(path, summit))
         eles = _ee.batch_elevations([(p[0], p[1]) for p in path], ctx)
         if len(eles) != len(path):

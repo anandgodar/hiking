@@ -1,0 +1,373 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Big Stamp",
+  "slug": "big-stamp-tn",
+  "state": "Tennessee",
+  "state_slug": "tennessee",
+  "elevation": 5377,
+  "lat": 35.99289,
+  "lon": -82.49014,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Big Stamp Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": 0.2,
+        "gain": 59,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            35.99825,
+            -82.47597
+          ],
+          "summit": [
+            35.99289,
+            -82.49014
+          ]
+        },
+        "path": [
+          [
+            35.99825,
+            -82.47597,
+            5115
+          ],
+          [
+            35.99842,
+            -82.47623,
+            5056
+          ],
+          [
+            35.99851,
+            -82.47635,
+            5056
+          ],
+          [
+            35.99859,
+            -82.47662,
+            5056
+          ],
+          [
+            35.99869,
+            -82.47685,
+            5092
+          ],
+          [
+            35.99882,
+            -82.4771,
+            5092
+          ],
+          [
+            35.999,
+            -82.4773,
+            5092
+          ],
+          [
+            35.99923,
+            -82.47755,
+            5072
+          ],
+          [
+            35.99942,
+            -82.47776,
+            5072
+          ],
+          [
+            35.99972,
+            -82.47784,
+            5072
+          ],
+          [
+            35.99993,
+            -82.47788,
+            5072
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 5115,
+            "coord": [
+              35.99825,
+              -82.47597
+            ]
+          },
+          {
+            "mile": 0.01,
+            "elev": 5056,
+            "coord": [
+              35.99842,
+              -82.47623
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 5056,
+            "coord": [
+              35.99851,
+              -82.47635
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 5056,
+            "coord": [
+              35.99851,
+              -82.47635
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 5056,
+            "coord": [
+              35.99859,
+              -82.47662
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 5092,
+            "coord": [
+              35.99869,
+              -82.47685
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 5092,
+            "coord": [
+              35.99882,
+              -82.4771
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 5092,
+            "coord": [
+              35.99882,
+              -82.4771
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 5092,
+            "coord": [
+              35.999,
+              -82.4773
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 5072,
+            "coord": [
+              35.99923,
+              -82.47755
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 5072,
+            "coord": [
+              35.99923,
+              -82.47755
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 5072,
+            "coord": [
+              35.99942,
+              -82.47776
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 5072,
+            "coord": [
+              35.99972,
+              -82.47784
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 5072,
+            "coord": [
+              35.99972,
+              -82.47784
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 5072,
+            "coord": [
+              35.99993,
+              -82.47788
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Bald Mountain Shelter",
+          "type": "hut",
+          "lat": 36.00018,
+          "lon": -82.47816,
+          "mile": 0.17
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 5,377 feet, <strong>Big Stamp</strong> is a summit in Tennessee. The Big Stamp Trail is a 0.2-mile hike with about 59 feet of elevation gain. Nearby peaks include Beartown Mountain, Jane Bald and Mount Cammerer. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Beartown Mountain",
+      "slug": "beartown-mountain-tn",
+      "state_slug": "tennessee",
+      "elevation": 5492,
+      "distance_miles": 21.5
+    },
+    {
+      "name": "Jane Bald",
+      "slug": "jane-bald-tn",
+      "state_slug": "tennessee",
+      "elevation": 5807,
+      "distance_miles": 23.5
+    },
+    {
+      "name": "Mount Cammerer",
+      "slug": "mount-cammerer-tn",
+      "state_slug": "tennessee",
+      "elevation": 4928,
+      "distance_miles": 40.8
+    },
+    {
+      "name": "Inadu Mountain",
+      "slug": "inadu-mountain-tn",
+      "state_slug": "tennessee",
+      "elevation": 5177,
+      "distance_miles": 45.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Big Stamp Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Big Stamp hike with current conditions, trail map & parking info. Tennessee summit at 5,377 ft.",
+    "canonical_url": "/trails/tennessee/big-stamp-tn",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Big Stamp",
+      "description": "Big Stamp is a 5,377 foot peak in Tennessee offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.99289,
+        "longitude": -82.49014,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5377,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Tennessee",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Big Stamp Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 35.99825,
+            "longitude": -82.47597
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Big Stamp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Big Stamp Trail on Big Stamp is 0.2-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Big Stamp hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Big Stamp is rated Moderate. At 5,377 feet, plan for the terrain and weather typical of Tennessee peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Big Stamp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Big Stamp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Big Stamp Trail, a 0.2-mile moderate hike to the Big Stamp summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Big Stamp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Big Stamp. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356788304",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/356788304",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 356788304,
+    "prominence_m": null,
+    "wikidata": "Q31662786"
+  }
+}

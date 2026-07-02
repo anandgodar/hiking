@@ -1,0 +1,514 @@
+{
+  "name": "Borden Mountain",
+  "slug": "borden-mountain-ma",
+  "state": "Massachusetts",
+  "state_slug": "massachusetts",
+  "elevation": 2497,
+  "lat": 42.6012,
+  "lon": -73.02677,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Borden Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.7,
+        "gain": 342,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            42.59707,
+            -73.0163
+          ],
+          "summit": [
+            42.6012,
+            -73.02677
+          ]
+        },
+        "path": [
+          [
+            42.59707,
+            -73.0163,
+            2178
+          ],
+          [
+            42.59716,
+            -73.01673,
+            2218
+          ],
+          [
+            42.59716,
+            -73.0168,
+            2218
+          ],
+          [
+            42.59714,
+            -73.01689,
+            2218
+          ],
+          [
+            42.59661,
+            -73.01793,
+            2228
+          ],
+          [
+            42.59659,
+            -73.01806,
+            2228
+          ],
+          [
+            42.5966,
+            -73.01832,
+            2228
+          ],
+          [
+            42.59662,
+            -73.0184,
+            2234
+          ],
+          [
+            42.59684,
+            -73.01901,
+            2264
+          ],
+          [
+            42.5969,
+            -73.01932,
+            2277
+          ],
+          [
+            42.59693,
+            -73.01939,
+            2277
+          ],
+          [
+            42.59707,
+            -73.01955,
+            2277
+          ],
+          [
+            42.59713,
+            -73.01957,
+            2277
+          ],
+          [
+            42.59772,
+            -73.01971,
+            2264
+          ],
+          [
+            42.59789,
+            -73.01982,
+            2264
+          ],
+          [
+            42.59796,
+            -73.0199,
+            2264
+          ],
+          [
+            42.598,
+            -73.01998,
+            2264
+          ],
+          [
+            42.59814,
+            -73.02047,
+            2297
+          ],
+          [
+            42.59818,
+            -73.0207,
+            2297
+          ],
+          [
+            42.59821,
+            -73.02113,
+            2316
+          ],
+          [
+            42.59821,
+            -73.02141,
+            2316
+          ],
+          [
+            42.59822,
+            -73.02148,
+            2316
+          ],
+          [
+            42.59827,
+            -73.02169,
+            2320
+          ],
+          [
+            42.5983,
+            -73.02175,
+            2320
+          ],
+          [
+            42.5985,
+            -73.02203,
+            2339
+          ],
+          [
+            42.59861,
+            -73.0223,
+            2339
+          ],
+          [
+            42.59881,
+            -73.02273,
+            2349
+          ],
+          [
+            42.59927,
+            -73.02357,
+            2402
+          ],
+          [
+            42.59943,
+            -73.02403,
+            2402
+          ],
+          [
+            42.59984,
+            -73.02474,
+            2434
+          ],
+          [
+            42.59998,
+            -73.02509,
+            2461
+          ],
+          [
+            42.60024,
+            -73.02562,
+            2470
+          ],
+          [
+            42.60032,
+            -73.0258,
+            2470
+          ],
+          [
+            42.60068,
+            -73.02649,
+            2510
+          ],
+          [
+            42.60081,
+            -73.02681,
+            2520
+          ],
+          [
+            42.60094,
+            -73.02705,
+            2516
+          ],
+          [
+            42.60098,
+            -73.02716,
+            2516
+          ],
+          [
+            42.60101,
+            -73.02727,
+            2516
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2178,
+            "coord": [
+              42.59707,
+              -73.0163
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 2218,
+            "coord": [
+              42.59714,
+              -73.01689
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 2228,
+            "coord": [
+              42.59661,
+              -73.01793
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 2264,
+            "coord": [
+              42.59684,
+              -73.01901
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 2277,
+            "coord": [
+              42.59713,
+              -73.01957
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 2264,
+            "coord": [
+              42.59789,
+              -73.01982
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 2297,
+            "coord": [
+              42.59818,
+              -73.0207
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 2320,
+            "coord": [
+              42.59827,
+              -73.02169
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 2339,
+            "coord": [
+              42.59861,
+              -73.0223
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 2402,
+            "coord": [
+              42.59927,
+              -73.02357
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 2402,
+            "coord": [
+              42.59943,
+              -73.02403
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 2434,
+            "coord": [
+              42.59984,
+              -73.02474
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 2470,
+            "coord": [
+              42.60024,
+              -73.02562
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 2510,
+            "coord": [
+              42.60068,
+              -73.02649
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 2516,
+            "coord": [
+              42.60101,
+              -73.02727
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Borden Mountain",
+          "type": "summit",
+          "lat": 42.6012,
+          "lon": -73.02677,
+          "mile": 0.68
+        },
+        {
+          "name": "Walker Lookout Tower",
+          "type": "fire tower",
+          "lat": 42.60118,
+          "lon": -73.02753,
+          "mile": 0.69
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Borden Mountain</strong> rises to 2,497 feet in Massachusetts. The Borden Mountain Trail is a 0.7-mile hike with about 342 feet of elevation gain. Nearby peaks include Mount Greylock, Mount Fitch and Mount Williams. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Greylock",
+      "slug": "mount-greylock-ma",
+      "state_slug": "massachusetts",
+      "elevation": 3488,
+      "distance_miles": 7.5
+    },
+    {
+      "name": "Mount Fitch",
+      "slug": "mount-fitch-ma",
+      "state_slug": "massachusetts",
+      "elevation": 3100,
+      "distance_miles": 7.8
+    },
+    {
+      "name": "Mount Williams",
+      "slug": "mount-williams-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2956,
+      "distance_miles": 8.1
+    },
+    {
+      "name": "Saddle Ball Mountain",
+      "slug": "saddle-ball-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 3232,
+      "distance_miles": 8.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Borden Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Borden Mountain hike with current conditions, trail map & parking info. Massachusetts summit at 2,497 ft.",
+    "canonical_url": "/trails/massachusetts/borden-mountain-ma",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Borden Mountain",
+      "description": "Borden Mountain is a 2,497 foot peak in Massachusetts offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.6012,
+        "longitude": -73.02677,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2497,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Massachusetts",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Borden Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.59707,
+            "longitude": -73.0163
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Borden Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Borden Mountain Trail on Borden Mountain is 0.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Borden Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Borden Mountain is rated Moderate. At 2,497 feet, plan for the terrain and weather typical of Massachusetts peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Borden Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Borden Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Borden Mountain Trail, a 0.7-mile moderate hike to the Borden Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Borden Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Borden Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358276363",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358276363",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 358276363,
+    "prominence_m": null,
+    "wikidata": "Q4944502"
+  }
+}

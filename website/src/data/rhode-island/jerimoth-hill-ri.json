@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Jerimoth Hill",
+  "slug": "jerimoth-hill-ri",
+  "state": "Rhode Island",
+  "state_slug": "rhode-island",
+  "elevation": 840,
+  "lat": 41.84922,
+  "lon": -71.77925,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Jerimoth Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.84922,
+            -71.77925
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 840 feet, <strong>Jerimoth Hill</strong> is a summit in Rhode Island. Nearby peaks include Mount Hygeia, Whites Hill and Pray Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Hygeia",
+      "slug": "mount-hygeia-ri",
+      "state_slug": "rhode-island",
+      "elevation": 735,
+      "distance_miles": 1.0
+    },
+    {
+      "name": "Whites Hill",
+      "slug": "whites-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 787,
+      "distance_miles": 2.0
+    },
+    {
+      "name": "Pray Hill",
+      "slug": "pray-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 709,
+      "distance_miles": 2.1
+    },
+    {
+      "name": "Pine Hill",
+      "slug": "pine-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 771,
+      "distance_miles": 2.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Jerimoth Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Jerimoth Hill hike with current conditions, trail map & parking info. Rhode Island summit at 840 ft.",
+    "canonical_url": "/trails/rhode-island/jerimoth-hill-ri",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Jerimoth Hill",
+      "description": "Jerimoth Hill is a 840 foot peak in Rhode Island offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.84922,
+        "longitude": -71.77925,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 840,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Rhode Island",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Jerimoth Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Jerimoth Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Jerimoth Hill Trail on Jerimoth Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Jerimoth Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jerimoth Hill is rated Moderate. At 840 feet, plan for the terrain and weather typical of Rhode Island peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Jerimoth Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Jerimoth Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Jerimoth Hill Trail, a  moderate hike to the Jerimoth Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Jerimoth Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Jerimoth Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357257818",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357257818",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357257818,
+    "prominence_m": null,
+    "wikidata": "Q956395"
+  }
+}

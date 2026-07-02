@@ -1,0 +1,458 @@
+{
+  "name": "Doll Mountain",
+  "slug": "doll-mountain-ma",
+  "state": "Massachusetts",
+  "state_slug": "massachusetts",
+  "elevation": 1923,
+  "lat": 42.45925,
+  "lon": -73.34539,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Doll Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 1.1,
+        "gain": 321,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            42.4609,
+            -73.3581
+          ],
+          "summit": [
+            42.45925,
+            -73.34539
+          ]
+        },
+        "path": [
+          [
+            42.4609,
+            -73.3581,
+            1745
+          ],
+          [
+            42.46056,
+            -73.35795,
+            1716
+          ],
+          [
+            42.46056,
+            -73.35794,
+            1716
+          ],
+          [
+            42.46029,
+            -73.35789,
+            1716
+          ],
+          [
+            42.46026,
+            -73.35753,
+            1716
+          ],
+          [
+            42.4603,
+            -73.35705,
+            1729
+          ],
+          [
+            42.46029,
+            -73.35677,
+            1729
+          ],
+          [
+            42.4601,
+            -73.35619,
+            1755
+          ],
+          [
+            42.46,
+            -73.35556,
+            1788
+          ],
+          [
+            42.45999,
+            -73.35531,
+            1729
+          ],
+          [
+            42.46004,
+            -73.35413,
+            1791
+          ],
+          [
+            42.46015,
+            -73.3526,
+            1759
+          ],
+          [
+            42.46019,
+            -73.3525,
+            1745
+          ],
+          [
+            42.46102,
+            -73.3519,
+            1739
+          ],
+          [
+            42.46144,
+            -73.35141,
+            1762
+          ],
+          [
+            42.46178,
+            -73.35106,
+            1755
+          ],
+          [
+            42.46259,
+            -73.35044,
+            1745
+          ],
+          [
+            42.46313,
+            -73.34992,
+            1739
+          ],
+          [
+            42.46347,
+            -73.3494,
+            1709
+          ],
+          [
+            42.46369,
+            -73.34876,
+            1693
+          ],
+          [
+            42.46399,
+            -73.34777,
+            1683
+          ],
+          [
+            42.46407,
+            -73.34742,
+            1660
+          ],
+          [
+            42.46413,
+            -73.34702,
+            1660
+          ],
+          [
+            42.46411,
+            -73.34655,
+            1644
+          ],
+          [
+            42.46391,
+            -73.34567,
+            1621
+          ],
+          [
+            42.4636,
+            -73.34471,
+            1581
+          ],
+          [
+            42.46302,
+            -73.34365,
+            1585
+          ],
+          [
+            42.46255,
+            -73.34267,
+            1519
+          ],
+          [
+            42.46224,
+            -73.34194,
+            1512
+          ],
+          [
+            42.46165,
+            -73.34021,
+            1470
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1745,
+            "coord": [
+              42.4609,
+              -73.3581
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 1729,
+            "coord": [
+              42.4603,
+              -73.35705
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 1788,
+            "coord": [
+              42.46,
+              -73.35556
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 1791,
+            "coord": [
+              42.46004,
+              -73.35413
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 1745,
+            "coord": [
+              42.46019,
+              -73.3525
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1739,
+            "coord": [
+              42.46102,
+              -73.3519
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 1755,
+            "coord": [
+              42.46178,
+              -73.35106
+            ]
+          },
+          {
+            "mile": 0.56,
+            "elev": 1739,
+            "coord": [
+              42.46313,
+              -73.34992
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 1693,
+            "coord": [
+              42.46369,
+              -73.34876
+            ]
+          },
+          {
+            "mile": 0.72,
+            "elev": 1660,
+            "coord": [
+              42.46413,
+              -73.34702
+            ]
+          },
+          {
+            "mile": 0.8,
+            "elev": 1621,
+            "coord": [
+              42.46391,
+              -73.34567
+            ]
+          },
+          {
+            "mile": 0.88,
+            "elev": 1581,
+            "coord": [
+              42.4636,
+              -73.34471
+            ]
+          },
+          {
+            "mile": 0.96,
+            "elev": 1519,
+            "coord": [
+              42.46255,
+              -73.34267
+            ]
+          },
+          {
+            "mile": 1.04,
+            "elev": 1512,
+            "coord": [
+              42.46224,
+              -73.34194
+            ]
+          },
+          {
+            "mile": 1.12,
+            "elev": 1470,
+            "coord": [
+              42.46165,
+              -73.34021
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Doll Mountain</strong> rises to 1,923 feet in Massachusetts. The Doll Mountain Trail is a 1.1-mile hike with about 321 feet of elevation gain. Nearby peaks include Smith Mountain, Pine Mountain and Tower Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Smith Mountain",
+      "slug": "smith-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2165,
+      "distance_miles": 1.7
+    },
+    {
+      "name": "Pine Mountain",
+      "slug": "pine-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2231,
+      "distance_miles": 2.8
+    },
+    {
+      "name": "Tower Mountain",
+      "slug": "tower-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2198,
+      "distance_miles": 2.8
+    },
+    {
+      "name": "Berry Mountain",
+      "slug": "berry-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2192,
+      "distance_miles": 3.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Doll Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Doll Mountain hike with current conditions, trail map & parking info. Massachusetts summit at 1,923 ft.",
+    "canonical_url": "/trails/massachusetts/doll-mountain-ma",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Doll Mountain",
+      "description": "Doll Mountain is a 1,923 foot peak in Massachusetts offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.45925,
+        "longitude": -73.34539,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1923,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Massachusetts",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Doll Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.4609,
+            "longitude": -73.3581
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Doll Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Doll Mountain Trail on Doll Mountain is 1.1-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Doll Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doll Mountain is rated Moderate. At 1,923 feet, plan for the terrain and weather typical of Massachusetts peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Doll Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Doll Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Doll Mountain Trail, a 1.1-mile moderate hike to the Doll Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Doll Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Doll Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358269559",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358269559",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 358269559,
+    "prominence_m": null,
+    "wikidata": "Q5289178"
+  }
+}

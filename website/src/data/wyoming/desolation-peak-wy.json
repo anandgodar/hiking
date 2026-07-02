@@ -1,0 +1,513 @@
+{
+  "name": "Desolation Peak",
+  "slug": "desolation-peak-wy",
+  "state": "Wyoming",
+  "state_slug": "wyoming",
+  "elevation": 13123,
+  "lat": 43.20162,
+  "lon": -109.67932,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Desolation Peak Trail",
+      "difficulty": "Moderate",
+      "type": "",
+      "stats": {
+        "distance": 1.8,
+        "gain": 2693,
+        "time": null,
+        "difficulty": "Moderate"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            43.18354,
+            -109.63282
+          ],
+          "summit": [
+            43.20162,
+            -109.67932
+          ]
+        },
+        "path": [
+          [
+            43.18354,
+            -109.63282,
+            11178
+          ],
+          [
+            43.18332,
+            -109.63332,
+            11014
+          ],
+          [
+            43.18243,
+            -109.63527,
+            11102
+          ],
+          [
+            43.18183,
+            -109.63571,
+            11102
+          ],
+          [
+            43.18129,
+            -109.63561,
+            11109
+          ],
+          [
+            43.18084,
+            -109.63652,
+            11119
+          ],
+          [
+            43.18045,
+            -109.63793,
+            11184
+          ],
+          [
+            43.17994,
+            -109.63861,
+            11253
+          ],
+          [
+            43.1793,
+            -109.63933,
+            11306
+          ],
+          [
+            43.17901,
+            -109.63985,
+            11329
+          ],
+          [
+            43.17866,
+            -109.64263,
+            11667
+          ],
+          [
+            43.17858,
+            -109.64348,
+            11726
+          ],
+          [
+            43.17881,
+            -109.64447,
+            11841
+          ],
+          [
+            43.17911,
+            -109.64438,
+            11841
+          ],
+          [
+            43.1797,
+            -109.64441,
+            11939
+          ],
+          [
+            43.18021,
+            -109.64451,
+            11883
+          ],
+          [
+            43.18033,
+            -109.6451,
+            11991
+          ],
+          [
+            43.18044,
+            -109.64621,
+            12100
+          ],
+          [
+            43.1805,
+            -109.64698,
+            12198
+          ],
+          [
+            43.17979,
+            -109.64711,
+            12297
+          ],
+          [
+            43.1796,
+            -109.64754,
+            12421
+          ],
+          [
+            43.17997,
+            -109.64843,
+            12549
+          ],
+          [
+            43.17962,
+            -109.64947,
+            12654
+          ],
+          [
+            43.17996,
+            -109.64998,
+            12654
+          ],
+          [
+            43.18014,
+            -109.65043,
+            12710
+          ],
+          [
+            43.18034,
+            -109.65099,
+            12779
+          ],
+          [
+            43.18018,
+            -109.65135,
+            12779
+          ],
+          [
+            43.17986,
+            -109.65151,
+            12887
+          ],
+          [
+            43.17965,
+            -109.65177,
+            13015
+          ],
+          [
+            43.17972,
+            -109.65242,
+            13015
+          ],
+          [
+            43.17985,
+            -109.6527,
+            13130
+          ],
+          [
+            43.18016,
+            -109.65317,
+            13005
+          ],
+          [
+            43.18065,
+            -109.65486,
+            13333
+          ],
+          [
+            43.18105,
+            -109.65492,
+            13412
+          ],
+          [
+            43.18152,
+            -109.65576,
+            13497
+          ],
+          [
+            43.18219,
+            -109.65572,
+            13599
+          ],
+          [
+            43.18269,
+            -109.6555,
+            13435
+          ],
+          [
+            43.18372,
+            -109.65466,
+            13599
+          ],
+          [
+            43.18399,
+            -109.65441,
+            13599
+          ],
+          [
+            43.18431,
+            -109.65413,
+            13707
+          ],
+          [
+            43.1844,
+            -109.65404,
+            13707
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 11178,
+            "coord": [
+              43.18354,
+              -109.63282
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 11102,
+            "coord": [
+              43.18243,
+              -109.63527
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 11109,
+            "coord": [
+              43.18129,
+              -109.63561
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 11184,
+            "coord": [
+              43.18045,
+              -109.63793
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 11329,
+            "coord": [
+              43.17901,
+              -109.63985
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 11667,
+            "coord": [
+              43.17866,
+              -109.64263
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 11841,
+            "coord": [
+              43.17911,
+              -109.64438
+            ]
+          },
+          {
+            "mile": 0.89,
+            "elev": 11991,
+            "coord": [
+              43.18033,
+              -109.6451
+            ]
+          },
+          {
+            "mile": 1.02,
+            "elev": 12297,
+            "coord": [
+              43.17979,
+              -109.64711
+            ]
+          },
+          {
+            "mile": 1.14,
+            "elev": 12654,
+            "coord": [
+              43.17962,
+              -109.64947
+            ]
+          },
+          {
+            "mile": 1.27,
+            "elev": 12779,
+            "coord": [
+              43.18018,
+              -109.65135
+            ]
+          },
+          {
+            "mile": 1.4,
+            "elev": 13005,
+            "coord": [
+              43.18016,
+              -109.65317
+            ]
+          },
+          {
+            "mile": 1.53,
+            "elev": 13412,
+            "coord": [
+              43.18105,
+              -109.65492
+            ]
+          },
+          {
+            "mile": 1.65,
+            "elev": 13435,
+            "coord": [
+              43.18269,
+              -109.6555
+            ]
+          },
+          {
+            "mile": 1.78,
+            "elev": 13707,
+            "coord": [
+              43.1844,
+              -109.65404
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Desolation Peak</strong> is a 13,123-foot summit in Wyoming. Nearby peaks include Rampart Peak, Bastion Peak and Flagstone Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Rampart Peak",
+      "slug": "rampart-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13301,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Bastion Peak",
+      "slug": "bastion-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13461,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Flagstone Peak",
+      "slug": "flagstone-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13383,
+      "distance_miles": 1.0
+    },
+    {
+      "name": "Pedestal Peak",
+      "slug": "pedestal-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13333,
+      "distance_miles": 1.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Desolation Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Desolation Peak hike with current conditions, trail map & parking info. Wyoming summit at 13,123 ft.",
+    "canonical_url": "/trails/wyoming/desolation-peak-wy",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Desolation Peak",
+      "description": "Desolation Peak is a 13,123 foot peak in Wyoming offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.20162,
+        "longitude": -109.67932,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 13123,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Wyoming",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Desolation Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Desolation Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Desolation Peak Trail on Desolation Peak is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Desolation Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Desolation Peak is rated Moderate. At 13,123 feet, plan for the terrain and weather typical of Wyoming peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Desolation Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Desolation Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Desolation Peak Trail, a  moderate hike to the Desolation Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Desolation Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Desolation Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356506046",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
+    "osm_node": "https://www.openstreetmap.org/node/356506046",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 356506046,
+    "prominence_m": null,
+    "wikidata": "Q15213747"
+  }
+}

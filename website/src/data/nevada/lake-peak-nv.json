@@ -1,0 +1,469 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Lake Peak",
+  "slug": "lake-peak-nv",
+  "state": "Nevada",
+  "state_slug": "nevada",
+  "elevation": 10922,
+  "lat": 40.56357,
+  "lon": -115.3951,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Lake Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": 0.2,
+        "gain": 306,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            40.57276,
+            -115.39912
+          ],
+          "summit": [
+            40.56357,
+            -115.3951
+          ]
+        },
+        "path": [
+          [
+            40.57276,
+            -115.39912,
+            9514
+          ],
+          [
+            40.57273,
+            -115.39911,
+            9514
+          ],
+          [
+            40.57269,
+            -115.39926,
+            9521
+          ],
+          [
+            40.57263,
+            -115.3992,
+            9521
+          ],
+          [
+            40.57195,
+            -115.3993,
+            9551
+          ],
+          [
+            40.57166,
+            -115.39958,
+            9551
+          ],
+          [
+            40.57164,
+            -115.39956,
+            9662
+          ],
+          [
+            40.57156,
+            -115.39952,
+            9662
+          ],
+          [
+            40.57132,
+            -115.39941,
+            9662
+          ],
+          [
+            40.57129,
+            -115.39942,
+            9662
+          ],
+          [
+            40.57115,
+            -115.39935,
+            9662
+          ],
+          [
+            40.57112,
+            -115.39932,
+            9662
+          ],
+          [
+            40.57107,
+            -115.39928,
+            9662
+          ],
+          [
+            40.57104,
+            -115.39922,
+            9662
+          ],
+          [
+            40.571,
+            -115.39915,
+            9636
+          ],
+          [
+            40.57098,
+            -115.39911,
+            9636
+          ],
+          [
+            40.57094,
+            -115.39904,
+            9636
+          ],
+          [
+            40.57086,
+            -115.39895,
+            9636
+          ],
+          [
+            40.57073,
+            -115.39899,
+            9757
+          ],
+          [
+            40.57067,
+            -115.39901,
+            9757
+          ],
+          [
+            40.57051,
+            -115.39908,
+            9757
+          ],
+          [
+            40.57046,
+            -115.39911,
+            9757
+          ],
+          [
+            40.57043,
+            -115.39903,
+            9757
+          ],
+          [
+            40.57037,
+            -115.39901,
+            9757
+          ],
+          [
+            40.57031,
+            -115.39898,
+            9757
+          ],
+          [
+            40.57026,
+            -115.39901,
+            9757
+          ],
+          [
+            40.57021,
+            -115.39903,
+            9757
+          ],
+          [
+            40.57015,
+            -115.39905,
+            9757
+          ],
+          [
+            40.57009,
+            -115.39909,
+            9757
+          ],
+          [
+            40.57007,
+            -115.39914,
+            9757
+          ],
+          [
+            40.56996,
+            -115.39935,
+            9820
+          ],
+          [
+            40.56977,
+            -115.39947,
+            9820
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 9514,
+            "coord": [
+              40.57276,
+              -115.39912
+            ]
+          },
+          {
+            "mile": 0.02,
+            "elev": 9521,
+            "coord": [
+              40.57263,
+              -115.3992
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 9521,
+            "coord": [
+              40.57263,
+              -115.3992
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 9551,
+            "coord": [
+              40.57195,
+              -115.3993
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 9551,
+            "coord": [
+              40.57195,
+              -115.3993
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 9551,
+            "coord": [
+              40.57166,
+              -115.39958
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 9662,
+            "coord": [
+              40.57132,
+              -115.39941
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 9662,
+            "coord": [
+              40.57115,
+              -115.39935
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 9636,
+            "coord": [
+              40.571,
+              -115.39915
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 9636,
+            "coord": [
+              40.57086,
+              -115.39895
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 9757,
+            "coord": [
+              40.57051,
+              -115.39908
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 9757,
+            "coord": [
+              40.57037,
+              -115.39901
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 9757,
+            "coord": [
+              40.57015,
+              -115.39905
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 9820,
+            "coord": [
+              40.56996,
+              -115.39935
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 9820,
+            "coord": [
+              40.56977,
+              -115.39947
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Lake Peak</strong> rises to 10,922 feet in Nevada. The Lake Peak Trail is a 0.2-mile hike with about 306 feet of elevation gain. Nearby peaks include Snow Lake Peak, Mount Fitzgerald and Mount Gilbert. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Snow Lake Peak",
+      "slug": "snow-lake-peak-nv",
+      "state_slug": "nevada",
+      "elevation": 11135,
+      "distance_miles": 2.9
+    },
+    {
+      "name": "Mount Fitzgerald",
+      "slug": "mount-fitzgerald-nv",
+      "state_slug": "nevada",
+      "elevation": 11214,
+      "distance_miles": 3.0
+    },
+    {
+      "name": "Mount Gilbert",
+      "slug": "mount-gilbert-nv",
+      "state_slug": "nevada",
+      "elevation": 10997,
+      "distance_miles": 5.0
+    },
+    {
+      "name": "Mount Silliman",
+      "slug": "mount-silliman-nv",
+      "state_slug": "nevada",
+      "elevation": 10945,
+      "distance_miles": 5.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Lake Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Lake Peak hike with current conditions, trail map & parking info. Nevada summit at 10,922 ft.",
+    "canonical_url": "/trails/nevada/lake-peak-nv",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Lake Peak",
+      "description": "Lake Peak is a 10,922 foot peak in Nevada offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.56357,
+        "longitude": -115.3951,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 10922,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Nevada",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Lake Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.57276,
+            "longitude": -115.39912
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Lake Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Lake Peak Trail on Lake Peak is 0.2-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Lake Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lake Peak is rated Moderate. At 10,922 feet, plan for the terrain and weather typical of Nevada peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Lake Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Lake Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Lake Peak Trail, a 0.2-mile moderate hike to the Lake Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Lake Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Lake Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357558291",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/357558291",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 357558291,
+    "prominence_m": null,
+    "wikidata": "Q49043292"
+  }
+}

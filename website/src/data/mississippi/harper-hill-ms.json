@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Harper Hill",
+  "slug": "harper-hill-ms",
+  "state": "Mississippi",
+  "state_slug": "mississippi",
+  "elevation": 699,
+  "lat": 34.85815,
+  "lon": -89.23924,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Harper Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            34.85815,
+            -89.23924
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 699 feet, <strong>Harper Hill</strong> is a summit in Mississippi. Nearby peaks include Hamer Hill, Rogers Hill and Renick Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Hamer Hill",
+      "slug": "hamer-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 702,
+      "distance_miles": 0.0
+    },
+    {
+      "name": "Rogers Hill",
+      "slug": "rogers-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 650,
+      "distance_miles": 7.3
+    },
+    {
+      "name": "Renick Hill",
+      "slug": "renick-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 525,
+      "distance_miles": 9.6
+    },
+    {
+      "name": "Suttles Rocks",
+      "slug": "suttles-rocks-ms",
+      "state_slug": "mississippi",
+      "elevation": 584,
+      "distance_miles": 10.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Harper Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Harper Hill hike with current conditions, trail map & parking info. Mississippi summit at 699 ft.",
+    "canonical_url": "/trails/mississippi/harper-hill-ms",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Harper Hill",
+      "description": "Harper Hill is a 699 foot peak in Mississippi offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.85815,
+        "longitude": -89.23924,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 699,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Mississippi",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Harper Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Harper Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Harper Hill Trail on Harper Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Harper Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harper Hill is rated Moderate. At 699 feet, plan for the terrain and weather typical of Mississippi peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Harper Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Harper Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Harper Hill Trail, a  moderate hike to the Harper Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Harper Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Harper Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357984919",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357984919",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357984919,
+    "prominence_m": null,
+    "wikidata": "Q31612787"
+  }
+}

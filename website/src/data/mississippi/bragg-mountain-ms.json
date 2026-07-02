@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Bragg Mountain",
+  "slug": "bragg-mountain-ms",
+  "state": "Mississippi",
+  "state_slug": "mississippi",
+  "elevation": 617,
+  "lat": 34.78954,
+  "lon": -88.70755,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Bragg Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            34.78954,
+            -88.70755
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Bragg Mountain</strong> is a 617-foot summit in Mississippi. Nearby peaks include Antioch Hill, Bald Hill and Crow Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Antioch Hill",
+      "slug": "antioch-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 528,
+      "distance_miles": 1.9
+    },
+    {
+      "name": "Bald Hill",
+      "slug": "bald-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 620,
+      "distance_miles": 2.0
+    },
+    {
+      "name": "Crow Mountain",
+      "slug": "crow-mountain-ms",
+      "state_slug": "mississippi",
+      "elevation": 696,
+      "distance_miles": 2.7
+    },
+    {
+      "name": "Crum Mountain",
+      "slug": "crum-mountain-ms",
+      "state_slug": "mississippi",
+      "elevation": 725,
+      "distance_miles": 5.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Bragg Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Bragg Mountain hike with current conditions, trail map & parking info. Mississippi summit at 617 ft.",
+    "canonical_url": "/trails/mississippi/bragg-mountain-ms",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bragg Mountain",
+      "description": "Bragg Mountain is a 617 foot peak in Mississippi offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.78954,
+        "longitude": -88.70755,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 617,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Mississippi",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bragg Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bragg Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bragg Mountain Trail on Bragg Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bragg Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bragg Mountain is rated Moderate. At 617 feet, plan for the terrain and weather typical of Mississippi peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bragg Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bragg Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bragg Mountain Trail, a  moderate hike to the Bragg Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bragg Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bragg Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357926358",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357926358",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357926358,
+    "prominence_m": null,
+    "wikidata": "Q31612132"
+  }
+}

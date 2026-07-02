@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Battered Rock Mountain",
+  "slug": "battered-rock-mountain-sc",
+  "state": "South Carolina",
+  "state_slug": "south-carolina",
+  "elevation": 3215,
+  "lat": 35.09317,
+  "lon": -82.68179,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Battered Rock Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            35.09317,
+            -82.68179
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Battered Rock Mountain</strong> rises to 3,215 feet in South Carolina. Nearby peaks include Coldbranch Mountain, Slicking Mountain and Bursted Rock Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Coldbranch Mountain",
+      "slug": "coldbranch-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3333,
+      "distance_miles": 0.5
+    },
+    {
+      "name": "Slicking Mountain",
+      "slug": "slicking-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3323,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Bursted Rock Mountain",
+      "slug": "bursted-rock-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3219,
+      "distance_miles": 1.9
+    },
+    {
+      "name": "Quillen Mountain",
+      "slug": "quillen-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3297,
+      "distance_miles": 2.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Battered Rock Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Battered Rock Mountain hike with current conditions, trail map & parking info. South Carolina summit at 3,215 ft.",
+    "canonical_url": "/trails/south-carolina/battered-rock-mountain-sc",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Battered Rock Mountain",
+      "description": "Battered Rock Mountain is a 3,215 foot peak in South Carolina offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.09317,
+        "longitude": -82.68179,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3215,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "South Carolina",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Battered Rock Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Battered Rock Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Battered Rock Mountain Trail on Battered Rock Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Battered Rock Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Battered Rock Mountain is rated Moderate. At 3,215 feet, plan for the terrain and weather typical of South Carolina peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Battered Rock Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Battered Rock Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Battered Rock Mountain Trail, a  moderate hike to the Battered Rock Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Battered Rock Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Battered Rock Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357095754",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357095754",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357095754,
+    "prominence_m": null,
+    "wikidata": "Q31426601"
+  }
+}

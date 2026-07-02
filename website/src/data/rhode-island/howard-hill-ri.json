@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Howard Hill",
+  "slug": "howard-hill-ri",
+  "state": "Rhode Island",
+  "state_slug": "rhode-island",
+  "elevation": 686,
+  "lat": 41.76038,
+  "lon": -71.71646,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Howard Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.76038,
+            -71.71646
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Howard Hill</strong> rises to 686 feet in Rhode Island. Nearby peaks include Pray Hill, Mount Hygeia and Jerimoth Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pray Hill",
+      "slug": "pray-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 709,
+      "distance_miles": 6.7
+    },
+    {
+      "name": "Mount Hygeia",
+      "slug": "mount-hygeia-ri",
+      "state_slug": "rhode-island",
+      "elevation": 735,
+      "distance_miles": 6.7
+    },
+    {
+      "name": "Jerimoth Hill",
+      "slug": "jerimoth-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 840,
+      "distance_miles": 6.9
+    },
+    {
+      "name": "Pine Hill",
+      "slug": "pine-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 771,
+      "distance_miles": 8.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Howard Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Howard Hill hike with current conditions, trail map & parking info. Rhode Island summit at 686 ft.",
+    "canonical_url": "/trails/rhode-island/howard-hill-ri",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Howard Hill",
+      "description": "Howard Hill is a 686 foot peak in Rhode Island offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.76038,
+        "longitude": -71.71646,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 686,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Rhode Island",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Howard Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Howard Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Howard Hill Trail on Howard Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Howard Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Howard Hill is rated Moderate. At 686 feet, plan for the terrain and weather typical of Rhode Island peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Howard Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Howard Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Howard Hill Trail, a  moderate hike to the Howard Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Howard Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Howard Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357256423",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357256423",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357256423,
+    "prominence_m": null,
+    "wikidata": "Q49037661"
+  }
+}

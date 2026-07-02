@@ -1,0 +1,383 @@
+{
+  "name": "Tully Mountain",
+  "slug": "tully-mountain-ma",
+  "state": "Massachusetts",
+  "state_slug": "massachusetts",
+  "elevation": 2070,
+  "lat": 42.44036,
+  "lon": -73.16066,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Tully Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.7,
+        "gain": 587,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            42.45628,
+            -73.18258
+          ],
+          "summit": [
+            42.44036,
+            -73.16066
+          ]
+        },
+        "path": [
+          [
+            42.45628,
+            -73.18258,
+            1109
+          ],
+          [
+            42.45626,
+            -73.18193,
+            1129
+          ],
+          [
+            42.45612,
+            -73.18168,
+            1129
+          ],
+          [
+            42.45578,
+            -73.1815,
+            1188
+          ],
+          [
+            42.45532,
+            -73.18103,
+            1188
+          ],
+          [
+            42.45437,
+            -73.1798,
+            1280
+          ],
+          [
+            42.45315,
+            -73.1777,
+            1365
+          ],
+          [
+            42.45285,
+            -73.17705,
+            1391
+          ],
+          [
+            42.4521,
+            -73.17575,
+            1467
+          ],
+          [
+            42.4518,
+            -73.17508,
+            1467
+          ],
+          [
+            42.45162,
+            -73.1743,
+            1535
+          ],
+          [
+            42.45143,
+            -73.17379,
+            1562
+          ],
+          [
+            42.45103,
+            -73.17273,
+            1585
+          ],
+          [
+            42.45075,
+            -73.17146,
+            1696
+          ],
+          [
+            42.4505,
+            -73.17111,
+            1696
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1109,
+            "coord": [
+              42.45628,
+              -73.18258
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1129,
+            "coord": [
+              42.45612,
+              -73.18168
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 1188,
+            "coord": [
+              42.45532,
+              -73.18103
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 1188,
+            "coord": [
+              42.45532,
+              -73.18103
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 1280,
+            "coord": [
+              42.45437,
+              -73.1798
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 1280,
+            "coord": [
+              42.45437,
+              -73.1798
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 1365,
+            "coord": [
+              42.45315,
+              -73.1777
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 1391,
+            "coord": [
+              42.45285,
+              -73.17705
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 1391,
+            "coord": [
+              42.45285,
+              -73.17705
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 1467,
+            "coord": [
+              42.4521,
+              -73.17575
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 1467,
+            "coord": [
+              42.4518,
+              -73.17508
+            ]
+          },
+          {
+            "mile": 0.57,
+            "elev": 1562,
+            "coord": [
+              42.45143,
+              -73.17379
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 1585,
+            "coord": [
+              42.45103,
+              -73.17273
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 1696,
+            "coord": [
+              42.45075,
+              -73.17146
+            ]
+          },
+          {
+            "mile": 0.73,
+            "elev": 1696,
+            "coord": [
+              42.4505,
+              -73.17111
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 2,070 feet, <strong>Tully Mountain</strong> is a summit in Massachusetts. The Tully Mountain Trail is a 0.7-mile hike with about 587 feet of elevation gain. Nearby peaks include Yokun Seat, Honwee Mountain and Pine Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Yokun Seat",
+      "slug": "yokun-seat-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2116,
+      "distance_miles": 7.9
+    },
+    {
+      "name": "Honwee Mountain",
+      "slug": "honwee-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2290,
+      "distance_miles": 8.8
+    },
+    {
+      "name": "Pine Mountain",
+      "slug": "pine-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2231,
+      "distance_miles": 8.9
+    },
+    {
+      "name": "Berry Mountain",
+      "slug": "berry-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2192,
+      "distance_miles": 9.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Tully Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Tully Mountain hike with current conditions, trail map & parking info. Massachusetts summit at 2,070 ft.",
+    "canonical_url": "/trails/massachusetts/tully-mountain-ma",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Tully Mountain",
+      "description": "Tully Mountain is a 2,070 foot peak in Massachusetts offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.44036,
+        "longitude": -73.16066,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2070,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Massachusetts",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Tully Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.45628,
+            "longitude": -73.18258
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Tully Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Tully Mountain Trail on Tully Mountain is 0.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Tully Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tully Mountain is rated Moderate. At 2,070 feet, plan for the terrain and weather typical of Massachusetts peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Tully Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Tully Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Tully Mountain Trail, a 0.7-mile moderate hike to the Tully Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Tully Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Tully Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358258031",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358258031",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 358258031,
+    "prominence_m": null,
+    "wikidata": "Q49085138"
+  }
+}

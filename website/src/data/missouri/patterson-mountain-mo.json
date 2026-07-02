@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Patterson Mountain",
+  "slug": "patterson-mountain-mo",
+  "state": "Missouri",
+  "state_slug": "missouri",
+  "elevation": 1499,
+  "lat": 37.4895,
+  "lon": -90.56901,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Patterson Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            37.4895,
+            -90.56901
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Patterson Mountain</strong> rises to 1,499 feet in Missouri. Nearby peaks include Kelley Mountain, Tims Mountain and Trackler Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Kelley Mountain",
+      "slug": "kelley-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1404,
+      "distance_miles": 2.1
+    },
+    {
+      "name": "Tims Mountain",
+      "slug": "tims-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1407,
+      "distance_miles": 4.0
+    },
+    {
+      "name": "Trackler Mountain",
+      "slug": "trackler-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1398,
+      "distance_miles": 4.4
+    },
+    {
+      "name": "Grassy Mountain",
+      "slug": "grassy-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1552,
+      "distance_miles": 4.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Patterson Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Patterson Mountain hike with current conditions, trail map & parking info. Missouri summit at 1,499 ft.",
+    "canonical_url": "/trails/missouri/patterson-mountain-mo",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Patterson Mountain",
+      "description": "Patterson Mountain is a 1,499 foot peak in Missouri offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.4895,
+        "longitude": -90.56901,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1499,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Missouri",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Patterson Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Patterson Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Patterson Mountain Trail on Patterson Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Patterson Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patterson Mountain is rated Moderate. At 1,499 feet, plan for the terrain and weather typical of Missouri peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Patterson Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Patterson Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Patterson Mountain Trail, a  moderate hike to the Patterson Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Patterson Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Patterson Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358064633",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358064633",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358064633,
+    "prominence_m": null,
+    "wikidata": "Q31608133"
+  }
+}

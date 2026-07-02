@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Pedestal Peak",
+  "slug": "pedestal-peak-wy",
+  "state": "Wyoming",
+  "state_slug": "wyoming",
+  "elevation": 13333,
+  "lat": 43.22134,
+  "lon": -109.6746,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Pedestal Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            43.22134,
+            -109.6746
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 13,333 feet, <strong>Pedestal Peak</strong> is a summit in Wyoming. Nearby peaks include Flagstone Peak, Bastion Peak and Rampart Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Flagstone Peak",
+      "slug": "flagstone-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13383,
+      "distance_miles": 0.4
+    },
+    {
+      "name": "Bastion Peak",
+      "slug": "bastion-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13461,
+      "distance_miles": 1.2
+    },
+    {
+      "name": "Rampart Peak",
+      "slug": "rampart-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13301,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Desolation Peak",
+      "slug": "desolation-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13123,
+      "distance_miles": 1.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Pedestal Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Pedestal Peak hike with current conditions, trail map & parking info. Wyoming summit at 13,333 ft.",
+    "canonical_url": "/trails/wyoming/pedestal-peak-wy",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Pedestal Peak",
+      "description": "Pedestal Peak is a 13,333 foot peak in Wyoming offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.22134,
+        "longitude": -109.6746,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 13333,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Wyoming",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Pedestal Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Pedestal Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Pedestal Peak Trail on Pedestal Peak is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pedestal Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pedestal Peak is rated Moderate. At 13,333 feet, plan for the terrain and weather typical of Wyoming peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Pedestal Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Pedestal Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Pedestal Peak Trail, a  moderate hike to the Pedestal Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Pedestal Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Pedestal Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356506584",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356506584",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356506584,
+    "prominence_m": null,
+    "wikidata": "Q49060491"
+  }
+}

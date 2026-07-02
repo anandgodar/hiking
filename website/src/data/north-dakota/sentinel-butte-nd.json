@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Sentinel Butte",
+  "slug": "sentinel-butte-nd",
+  "state": "North Dakota",
+  "state_slug": "north-dakota",
+  "elevation": 3428,
+  "lat": 46.87112,
+  "lon": -103.83548,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Sentinel Butte Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            46.87112,
+            -103.83548
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 3,428 feet, <strong>Sentinel Butte</strong> is a summit in North Dakota. Nearby peaks include Rocky Butte, Camels Hump Butte and Square Butte. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Rocky Butte",
+      "slug": "rocky-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3245,
+      "distance_miles": 5.8
+    },
+    {
+      "name": "Camels Hump Butte",
+      "slug": "camels-hump-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3130,
+      "distance_miles": 5.8
+    },
+    {
+      "name": "Square Butte",
+      "slug": "square-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3346,
+      "distance_miles": 6.5
+    },
+    {
+      "name": "Five Point Butte",
+      "slug": "five-point-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 2982,
+      "distance_miles": 8.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Sentinel Butte Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Sentinel Butte hike with current conditions, trail map & parking info. North Dakota summit at 3,428 ft.",
+    "canonical_url": "/trails/north-dakota/sentinel-butte-nd",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Sentinel Butte",
+      "description": "Sentinel Butte is a 3,428 foot peak in North Dakota offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.87112,
+        "longitude": -103.83548,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3428,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "North Dakota",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Sentinel Butte Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Sentinel Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Sentinel Butte Trail on Sentinel Butte is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sentinel Butte hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sentinel Butte is rated Moderate. At 3,428 feet, plan for the terrain and weather typical of North Dakota peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Sentinel Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Sentinel Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Sentinel Butte Trail, a  moderate hike to the Sentinel Butte summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Sentinel Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Sentinel Butte. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357761945",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357761945",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357761945,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

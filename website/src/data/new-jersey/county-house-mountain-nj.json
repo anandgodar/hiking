@@ -1,0 +1,459 @@
+{
+  "name": "County House Mountain",
+  "slug": "county-house-mountain-nj",
+  "state": "New Jersey",
+  "state_slug": "new-jersey",
+  "elevation": 1142,
+  "lat": 40.8076,
+  "lon": -74.9585,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "County House Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.8,
+        "gain": 184,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          40.83405,
+          -74.9458
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            40.83085,
+            -74.94125
+          ],
+          "summit": [
+            40.8076,
+            -74.9585
+          ]
+        },
+        "path": [
+          [
+            40.83085,
+            -74.94125,
+            535
+          ],
+          [
+            40.83046,
+            -74.94143,
+            558
+          ],
+          [
+            40.83,
+            -74.94132,
+            558
+          ],
+          [
+            40.82958,
+            -74.94107,
+            531
+          ],
+          [
+            40.82924,
+            -74.94071,
+            545
+          ],
+          [
+            40.82892,
+            -74.9402,
+            581
+          ],
+          [
+            40.82851,
+            -74.93978,
+            604
+          ],
+          [
+            40.82812,
+            -74.93922,
+            640
+          ],
+          [
+            40.82773,
+            -74.93879,
+            650
+          ],
+          [
+            40.8274,
+            -74.9383,
+            689
+          ],
+          [
+            40.82713,
+            -74.93821,
+            689
+          ],
+          [
+            40.82688,
+            -74.93826,
+            689
+          ],
+          [
+            40.82662,
+            -74.93855,
+            712
+          ],
+          [
+            40.8264,
+            -74.93886,
+            712
+          ],
+          [
+            40.82632,
+            -74.93926,
+            712
+          ],
+          [
+            40.82632,
+            -74.93964,
+            712
+          ],
+          [
+            40.82633,
+            -74.94023,
+            686
+          ],
+          [
+            40.82644,
+            -74.94087,
+            653
+          ],
+          [
+            40.82645,
+            -74.94132,
+            653
+          ],
+          [
+            40.82645,
+            -74.94195,
+            600
+          ],
+          [
+            40.82651,
+            -74.94253,
+            561
+          ],
+          [
+            40.82656,
+            -74.94313,
+            561
+          ],
+          [
+            40.82673,
+            -74.94356,
+            538
+          ],
+          [
+            40.82686,
+            -74.94362,
+            538
+          ],
+          [
+            40.8272,
+            -74.94329,
+            564
+          ],
+          [
+            40.82759,
+            -74.94318,
+            545
+          ],
+          [
+            40.82802,
+            -74.94304,
+            545
+          ],
+          [
+            40.82846,
+            -74.94295,
+            528
+          ],
+          [
+            40.82888,
+            -74.94288,
+            528
+          ],
+          [
+            40.82931,
+            -74.94291,
+            528
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 535,
+            "coord": [
+              40.83085,
+              -74.94125
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 558,
+            "coord": [
+              40.83,
+              -74.94132
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 545,
+            "coord": [
+              40.82924,
+              -74.94071
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 604,
+            "coord": [
+              40.82851,
+              -74.93978
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 640,
+            "coord": [
+              40.82812,
+              -74.93922
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 689,
+            "coord": [
+              40.8274,
+              -74.9383
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 712,
+            "coord": [
+              40.82662,
+              -74.93855
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 712,
+            "coord": [
+              40.82632,
+              -74.93926
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 686,
+            "coord": [
+              40.82633,
+              -74.94023
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 653,
+            "coord": [
+              40.82645,
+              -74.94132
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 561,
+            "coord": [
+              40.82651,
+              -74.94253
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 538,
+            "coord": [
+              40.82686,
+              -74.94362
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 545,
+            "coord": [
+              40.82759,
+              -74.94318
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 528,
+            "coord": [
+              40.82846,
+              -74.94295
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 528,
+            "coord": [
+              40.82931,
+              -74.94291
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>County House Mountain</strong> is a 1,142-foot summit in New Jersey. The County House Mountain Trail is a 0.8-mile hike with about 184 feet of elevation gain. Nearby peaks include Baldpate Mountain, Mount No More and Danville Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Baldpate Mountain",
+      "slug": "baldpate-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1165,
+      "distance_miles": 3.0
+    },
+    {
+      "name": "Mount No More",
+      "slug": "mount-no-more-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1142,
+      "distance_miles": 3.6
+    },
+    {
+      "name": "Danville Mountain",
+      "slug": "danville-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1122,
+      "distance_miles": 4.4
+    },
+    {
+      "name": "Upper Pohatcong Mountain",
+      "slug": "upper-pohatcong-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1230,
+      "distance_miles": 5.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "County House Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your County House Mountain hike with current conditions, trail map & parking info. New Jersey summit at 1,142 ft.",
+    "canonical_url": "/trails/new-jersey/county-house-mountain-nj",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "County House Mountain",
+      "description": "County House Mountain is a 1,142 foot peak in New Jersey offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.8076,
+        "longitude": -74.9585,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1142,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New Jersey",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "County House Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.83085,
+            "longitude": -74.94125
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike County House Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular County House Mountain Trail on County House Mountain is 0.8-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is County House Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "County House Mountain is rated Moderate. At 1,142 feet, plan for the terrain and weather typical of New Jersey peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike County House Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike County House Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the County House Mountain Trail, a 0.8-mile moderate hike to the County House Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike County House Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on County House Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357720300",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/357720300",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 357720300,
+    "prominence_m": null,
+    "wikidata": "Q16890687"
+  }
+}

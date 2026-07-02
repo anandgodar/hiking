@@ -1,0 +1,514 @@
+{
+  "name": "Porcupine Peak",
+  "slug": "porcupine-peak-mi",
+  "state": "Michigan",
+  "state_slug": "michigan",
+  "elevation": 1739,
+  "lat": 46.68911,
+  "lon": -89.85017,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Porcupine Peak Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.5,
+        "gain": 82,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          46.71611,
+          -89.82932
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            46.72417,
+            -89.83179
+          ],
+          "summit": [
+            46.68911,
+            -89.85017
+          ]
+        },
+        "path": [
+          [
+            46.72417,
+            -89.83179,
+            1276
+          ],
+          [
+            46.72411,
+            -89.83164,
+            1247
+          ],
+          [
+            46.72403,
+            -89.83144,
+            1247
+          ],
+          [
+            46.72362,
+            -89.83087,
+            1247
+          ],
+          [
+            46.72361,
+            -89.83086,
+            1247
+          ],
+          [
+            46.72356,
+            -89.8308,
+            1286
+          ],
+          [
+            46.7233,
+            -89.83058,
+            1260
+          ],
+          [
+            46.72325,
+            -89.8305,
+            1260
+          ],
+          [
+            46.72324,
+            -89.83049,
+            1260
+          ],
+          [
+            46.72322,
+            -89.83047,
+            1260
+          ],
+          [
+            46.72304,
+            -89.83031,
+            1260
+          ],
+          [
+            46.72301,
+            -89.83029,
+            1260
+          ],
+          [
+            46.72261,
+            -89.82991,
+            1283
+          ],
+          [
+            46.72265,
+            -89.8298,
+            1283
+          ],
+          [
+            46.72264,
+            -89.82975,
+            1283
+          ],
+          [
+            46.72256,
+            -89.82973,
+            1283
+          ],
+          [
+            46.72244,
+            -89.82972,
+            1266
+          ],
+          [
+            46.72235,
+            -89.82964,
+            1266
+          ],
+          [
+            46.72209,
+            -89.82971,
+            1266
+          ],
+          [
+            46.72184,
+            -89.82979,
+            1266
+          ],
+          [
+            46.72171,
+            -89.82971,
+            1266
+          ],
+          [
+            46.72165,
+            -89.82964,
+            1253
+          ],
+          [
+            46.72154,
+            -89.82946,
+            1253
+          ],
+          [
+            46.7215,
+            -89.82941,
+            1253
+          ],
+          [
+            46.72139,
+            -89.82937,
+            1253
+          ],
+          [
+            46.72135,
+            -89.82936,
+            1253
+          ],
+          [
+            46.72124,
+            -89.82927,
+            1253
+          ],
+          [
+            46.72123,
+            -89.82926,
+            1253
+          ],
+          [
+            46.72119,
+            -89.82919,
+            1253
+          ],
+          [
+            46.7211,
+            -89.82892,
+            1273
+          ],
+          [
+            46.72111,
+            -89.82874,
+            1273
+          ],
+          [
+            46.72103,
+            -89.82845,
+            1273
+          ],
+          [
+            46.72089,
+            -89.82777,
+            1296
+          ],
+          [
+            46.72089,
+            -89.82763,
+            1296
+          ],
+          [
+            46.7209,
+            -89.8276,
+            1296
+          ],
+          [
+            46.72096,
+            -89.82697,
+            1329
+          ],
+          [
+            46.7202,
+            -89.82524,
+            1325
+          ],
+          [
+            46.72018,
+            -89.82519,
+            1325
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1276,
+            "coord": [
+              46.72417,
+              -89.83179
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 1247,
+            "coord": [
+              46.72403,
+              -89.83144
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 1286,
+            "coord": [
+              46.72356,
+              -89.8308
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 1260,
+            "coord": [
+              46.72304,
+              -89.83031
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 1283,
+            "coord": [
+              46.72261,
+              -89.82991
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 1266,
+            "coord": [
+              46.72235,
+              -89.82964
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 1266,
+            "coord": [
+              46.72184,
+              -89.82979
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 1253,
+            "coord": [
+              46.7215,
+              -89.82941
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 1273,
+            "coord": [
+              46.7211,
+              -89.82892
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 1273,
+            "coord": [
+              46.72103,
+              -89.82845
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 1296,
+            "coord": [
+              46.72089,
+              -89.82763
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 1329,
+            "coord": [
+              46.72096,
+              -89.82697
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1329,
+            "coord": [
+              46.72096,
+              -89.82697
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 1325,
+            "coord": [
+              46.7202,
+              -89.82524
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 1325,
+            "coord": [
+              46.72018,
+              -89.82519
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Greenstone Falls",
+          "type": "waterfall",
+          "lat": 46.72416,
+          "lon": -89.83276,
+          "mile": 0.0
+        },
+        {
+          "name": "Overlooked Falls",
+          "type": "waterfall",
+          "lat": 46.72021,
+          "lon": -89.82551,
+          "mile": 0.47
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,739 feet, <strong>Porcupine Peak</strong> is a summit in Michigan. The Porcupine Peak Trail is a 0.5-mile hike with about 82 feet of elevation gain. Nearby peaks include Miscowawbic Peak, Government Peak and Cloud Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Miscowawbic Peak",
+      "slug": "miscowawbic-peak-mi",
+      "state_slug": "michigan",
+      "elevation": 1437,
+      "distance_miles": 7.3
+    },
+    {
+      "name": "Government Peak",
+      "slug": "government-peak-mi",
+      "state_slug": "michigan",
+      "elevation": 1834,
+      "distance_miles": 8.6
+    },
+    {
+      "name": "Cloud Peak",
+      "slug": "cloud-peak-mi",
+      "state_slug": "michigan",
+      "elevation": 1506,
+      "distance_miles": 10.2
+    },
+    {
+      "name": "Cuyahoga Peak",
+      "slug": "cuyahoga-peak-mi",
+      "state_slug": "michigan",
+      "elevation": 1575,
+      "distance_miles": 10.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Porcupine Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Porcupine Peak hike with current conditions, trail map & parking info. Michigan summit at 1,739 ft.",
+    "canonical_url": "/trails/michigan/porcupine-peak-mi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Porcupine Peak",
+      "description": "Porcupine Peak is a 1,739 foot peak in Michigan offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.68911,
+        "longitude": -89.85017,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1739,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Michigan",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Porcupine Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 46.72417,
+            "longitude": -89.83179
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Porcupine Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Porcupine Peak Trail on Porcupine Peak is 0.5-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Porcupine Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porcupine Peak is rated Moderate. At 1,739 feet, plan for the terrain and weather typical of Michigan peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Porcupine Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Porcupine Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Porcupine Peak Trail, a 0.5-mile moderate hike to the Porcupine Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Porcupine Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Porcupine Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/353961355",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/353961355",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 353961355,
+    "prominence_m": null,
+    "wikidata": "Q33144179"
+  }
+}

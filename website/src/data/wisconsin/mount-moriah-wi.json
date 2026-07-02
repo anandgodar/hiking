@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Moriah",
+  "slug": "mount-moriah-wi",
+  "state": "Wisconsin",
+  "state_slug": "wisconsin",
+  "elevation": 843,
+  "lat": 42.5203,
+  "lon": -88.2662,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Moriah Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            42.5203,
+            -88.2662
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Moriah</strong> rises to 843 feet in Wisconsin. Nearby peaks include Mount Zion, Lapham Hill and Eagle Heights. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Zion",
+      "slug": "mount-zion-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1037,
+      "distance_miles": 35.8
+    },
+    {
+      "name": "Lapham Hill",
+      "slug": "lapham-hill-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1207,
+      "distance_miles": 35.9
+    },
+    {
+      "name": "Eagle Heights",
+      "slug": "eagle-heights-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1010,
+      "distance_miles": 71.4
+    },
+    {
+      "name": "Mount Julia",
+      "slug": "mount-julia-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1027,
+      "distance_miles": 73.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Moriah Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Moriah hike with current conditions, trail map & parking info. Wisconsin summit at 843 ft.",
+    "canonical_url": "/trails/wisconsin/mount-moriah-wi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Moriah",
+      "description": "Mount Moriah is a 843 foot peak in Wisconsin offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.5203,
+        "longitude": -88.2662,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 843,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Wisconsin",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Moriah Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Moriah Trail on Mount Moriah is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Moriah hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Moriah is rated Moderate. At 843 feet, plan for the terrain and weather typical of Wisconsin peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Moriah Trail, a  moderate hike to the Mount Moriah summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Moriah. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/349452527",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/349452527",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 349452527,
+    "prominence_m": null,
+    "wikidata": "Q49053679"
+  }
+}

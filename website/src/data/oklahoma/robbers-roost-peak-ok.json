@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Robbers Roost Peak",
+  "slug": "robbers-roost-peak-ok",
+  "state": "Oklahoma",
+  "state_slug": "oklahoma",
+  "elevation": 4469,
+  "lat": 36.94363,
+  "lon": -102.93159,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Robbers Roost Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            36.94363,
+            -102.93159
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Robbers Roost Peak</strong> is a 4,469-foot summit in Oklahoma. Nearby peaks include Independence Arch, Black Mesa and Castle Rock Pillar. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Independence Arch",
+      "slug": "independence-arch-ok",
+      "state_slug": "oklahoma",
+      "elevation": 4380,
+      "distance_miles": 3.1
+    },
+    {
+      "name": "Black Mesa",
+      "slug": "black-mesa-ok",
+      "state_slug": "oklahoma",
+      "elevation": 4973,
+      "distance_miles": 3.7
+    },
+    {
+      "name": "Castle Rock Pillar",
+      "slug": "castle-rock-pillar-ok",
+      "state_slug": "oklahoma",
+      "elevation": 4288,
+      "distance_miles": 5.8
+    },
+    {
+      "name": "Razor Blade Mesa",
+      "slug": "razor-blade-mesa-ok",
+      "state_slug": "oklahoma",
+      "elevation": 4085,
+      "distance_miles": 20.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Robbers Roost Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Robbers Roost Peak hike with current conditions, trail map & parking info. Oklahoma summit at 4,469 ft.",
+    "canonical_url": "/trails/oklahoma/robbers-roost-peak-ok",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Robbers Roost Peak",
+      "description": "Robbers Roost Peak is a 4,469 foot peak in Oklahoma offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.94363,
+        "longitude": -102.93159,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4469,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Oklahoma",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Robbers Roost Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Robbers Roost Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Robbers Roost Peak Trail on Robbers Roost Peak is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Robbers Roost Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Robbers Roost Peak is rated Moderate. At 4,469 feet, plan for the terrain and weather typical of Oklahoma peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Robbers Roost Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Robbers Roost Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Robbers Roost Peak Trail, a  moderate hike to the Robbers Roost Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Robbers Roost Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Robbers Roost Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357403261",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357403261",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357403261,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

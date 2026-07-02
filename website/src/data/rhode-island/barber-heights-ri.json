@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Barber Heights",
+  "slug": "barber-heights-ri",
+  "state": "Rhode Island",
+  "state_slug": "rhode-island",
+  "elevation": 220,
+  "lat": 41.52371,
+  "lon": -71.42589,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Barber Heights Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.52371,
+            -71.42589
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Barber Heights</strong> rises to 220 feet in Rhode Island. Nearby peaks include Dumping Rock, Wolf Rocks and Mount Pleasant. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Dumping Rock",
+      "slug": "dumping-rock-ri",
+      "state_slug": "rhode-island",
+      "elevation": 236,
+      "distance_miles": 5.1
+    },
+    {
+      "name": "Wolf Rocks",
+      "slug": "wolf-rocks-ri",
+      "state_slug": "rhode-island",
+      "elevation": 243,
+      "distance_miles": 5.9
+    },
+    {
+      "name": "Mount Pleasant",
+      "slug": "mount-pleasant-ri",
+      "state_slug": "rhode-island",
+      "elevation": 318,
+      "distance_miles": 6.6
+    },
+    {
+      "name": "Great Neck",
+      "slug": "great-neck-ri",
+      "state_slug": "rhode-island",
+      "elevation": 128,
+      "distance_miles": 9.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Barber Heights Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Barber Heights hike with current conditions, trail map & parking info. Rhode Island summit at 220 ft.",
+    "canonical_url": "/trails/rhode-island/barber-heights-ri",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Barber Heights",
+      "description": "Barber Heights is a 220 foot peak in Rhode Island offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.52371,
+        "longitude": -71.42589,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 220,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Rhode Island",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Barber Heights Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Barber Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Barber Heights Trail on Barber Heights is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Barber Heights hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barber Heights is rated Moderate. At 220 feet, plan for the terrain and weather typical of Rhode Island peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Barber Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Barber Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Barber Heights Trail, a  moderate hike to the Barber Heights summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Barber Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Barber Heights. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357255881",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357255881",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357255881,
+    "prominence_m": null,
+    "wikidata": "Q35725805"
+  }
+}

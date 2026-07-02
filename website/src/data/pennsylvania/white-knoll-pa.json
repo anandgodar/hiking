@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "White Knoll",
+  "slug": "white-knoll-pa",
+  "state": "Pennsylvania",
+  "state_slug": "pennsylvania",
+  "elevation": 2566,
+  "lat": 41.91646,
+  "lon": -77.69721,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "White Knoll Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.91646,
+            -77.69721
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>White Knoll</strong> rises to 2,566 feet in Pennsylvania. Nearby peaks include Big Level, Triple Divide and Mount Brodhead. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Big Level",
+      "slug": "big-level-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2556,
+      "distance_miles": 3.1
+    },
+    {
+      "name": "Triple Divide",
+      "slug": "triple-divide-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2523,
+      "distance_miles": 8.7
+    },
+    {
+      "name": "Mount Brodhead",
+      "slug": "mount-brodhead-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2490,
+      "distance_miles": 18.4
+    },
+    {
+      "name": "Cedar Mountain",
+      "slug": "cedar-mountain-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2467,
+      "distance_miles": 19.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "White Knoll Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your White Knoll hike with current conditions, trail map & parking info. Pennsylvania summit at 2,566 ft.",
+    "canonical_url": "/trails/pennsylvania/white-knoll-pa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "White Knoll",
+      "description": "White Knoll is a 2,566 foot peak in Pennsylvania offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.91646,
+        "longitude": -77.69721,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2566,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Pennsylvania",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "White Knoll Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike White Knoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular White Knoll Trail on White Knoll is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is White Knoll hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "White Knoll is rated Moderate. At 2,566 feet, plan for the terrain and weather typical of Pennsylvania peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike White Knoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike White Knoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the White Knoll Trail, a  moderate hike to the White Knoll summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike White Knoll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on White Knoll. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357320241",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357320241",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357320241,
+    "prominence_m": null,
+    "wikidata": "Q49089329"
+  }
+}

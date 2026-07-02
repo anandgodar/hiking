@@ -1,0 +1,165 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Strawberry Mountain",
+  "slug": "strawberry-mountain-or",
+  "state": "Oregon",
+  "state_slug": "oregon",
+  "elevation": 9035,
+  "lat": 44.3119,
+  "lon": -118.7163,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Strawberry Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            44.3119,
+            -118.7163
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 9,035 feet, <strong>Strawberry Mountain</strong> is a summit in Oregon. Nearby peaks include Mount Ireland. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Ireland",
+      "slug": "mount-ireland-or",
+      "state_slug": "oregon",
+      "elevation": 8304,
+      "distance_miles": 41.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Strawberry Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Strawberry Mountain hike with current conditions, trail map & parking info. Oregon summit at 9,035 ft.",
+    "canonical_url": "/trails/oregon/strawberry-mountain-or",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Strawberry Mountain",
+      "description": "Strawberry Mountain is a 9,035 foot peak in Oregon offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.3119,
+        "longitude": -118.7163,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 9035,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Oregon",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Strawberry Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Strawberry Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Strawberry Mountain Trail on Strawberry Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Strawberry Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Strawberry Mountain is rated Moderate. At 9,035 feet, plan for the terrain and weather typical of Oregon peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Strawberry Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Strawberry Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Strawberry Mountain Trail, a  moderate hike to the Strawberry Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Strawberry Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Strawberry Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/5346013212",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/5346013212",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 5346013212,
+    "prominence_m": null,
+    "wikidata": "Q7622461"
+  }
+}

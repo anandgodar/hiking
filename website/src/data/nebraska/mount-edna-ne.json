@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Edna",
+  "slug": "mount-edna-ne",
+  "state": "Nebraska",
+  "state_slug": "nebraska",
+  "elevation": 5030,
+  "lat": 42.29052,
+  "lon": -103.86411,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Edna Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            42.29052,
+            -103.86411
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Edna</strong> is a 5,030-foot summit in Nebraska. Nearby peaks include Chalk Buttes, The Hat and Bald Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Chalk Buttes",
+      "slug": "chalk-buttes-ne",
+      "state_slug": "nebraska",
+      "elevation": 4610,
+      "distance_miles": 12.1
+    },
+    {
+      "name": "The Hat",
+      "slug": "the-hat-ne",
+      "state_slug": "nebraska",
+      "elevation": 4649,
+      "distance_miles": 16.2
+    },
+    {
+      "name": "Bald Peak",
+      "slug": "bald-peak-ne",
+      "state_slug": "nebraska",
+      "elevation": 4423,
+      "distance_miles": 28.8
+    },
+    {
+      "name": "Pants Butte",
+      "slug": "pants-butte-ne",
+      "state_slug": "nebraska",
+      "elevation": 4754,
+      "distance_miles": 31.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Edna Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Edna hike with current conditions, trail map & parking info. Nebraska summit at 5,030 ft.",
+    "canonical_url": "/trails/nebraska/mount-edna-ne",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Edna",
+      "description": "Mount Edna is a 5,030 foot peak in Nebraska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.29052,
+        "longitude": -103.86411,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5030,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Nebraska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Edna Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Edna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Edna Trail on Mount Edna is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Edna hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Edna is rated Moderate. At 5,030 feet, plan for the terrain and weather typical of Nebraska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Edna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Edna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Edna Trail, a  moderate hike to the Mount Edna summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Edna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Edna. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357755022",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357755022",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357755022,
+    "prominence_m": null,
+    "wikidata": "Q34881140"
+  }
+}

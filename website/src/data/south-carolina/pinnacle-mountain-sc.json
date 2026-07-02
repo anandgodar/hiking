@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Pinnacle Mountain",
+  "slug": "pinnacle-mountain-sc",
+  "state": "South Carolina",
+  "state_slug": "south-carolina",
+  "elevation": 3415,
+  "lat": 35.03373,
+  "lon": -82.74152,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Pinnacle Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            35.03373,
+            -82.74152
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Pinnacle Mountain</strong> rises to 3,415 feet in South Carolina. Nearby peaks include Hickorynut Mountain, Rock Mountain and Table Rock. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Hickorynut Mountain",
+      "slug": "hickorynut-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3488,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Rock Mountain",
+      "slug": "rock-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3291,
+      "distance_miles": 1.9
+    },
+    {
+      "name": "Table Rock",
+      "slug": "table-rock-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3127,
+      "distance_miles": 2.5
+    },
+    {
+      "name": "Roundtop Mountain",
+      "slug": "roundtop-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3048,
+      "distance_miles": 2.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Pinnacle Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Pinnacle Mountain hike with current conditions, trail map & parking info. South Carolina summit at 3,415 ft.",
+    "canonical_url": "/trails/south-carolina/pinnacle-mountain-sc",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Pinnacle Mountain",
+      "description": "Pinnacle Mountain is a 3,415 foot peak in South Carolina offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.03373,
+        "longitude": -82.74152,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3415,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "South Carolina",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Pinnacle Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Pinnacle Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Pinnacle Mountain Trail on Pinnacle Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pinnacle Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pinnacle Mountain is rated Moderate. At 3,415 feet, plan for the terrain and weather typical of South Carolina peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Pinnacle Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Pinnacle Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Pinnacle Mountain Trail, a  moderate hike to the Pinnacle Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Pinnacle Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Pinnacle Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357087903",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357087903",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357087903,
+    "prominence_m": null,
+    "wikidata": "Q7196302"
+  }
+}

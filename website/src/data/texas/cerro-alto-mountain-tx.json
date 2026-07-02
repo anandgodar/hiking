@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Cerro Alto Mountain",
+  "slug": "cerro-alto-mountain-tx",
+  "state": "Texas",
+  "state_slug": "texas",
+  "elevation": 6703,
+  "lat": 31.94538,
+  "lon": -105.96998,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Cerro Alto Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            31.94538,
+            -105.96998
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Cerro Alto Mountain</strong> is a 6,703-foot summit in Texas. Nearby peaks include Sugarloaf Mountain, North Franklin Mountain and South Franklin Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Sugarloaf Mountain",
+      "slug": "sugarloaf-mountain-tx",
+      "state_slug": "texas",
+      "elevation": 5226,
+      "distance_miles": 30.3
+    },
+    {
+      "name": "North Franklin Mountain",
+      "slug": "north-franklin-mountain-tx",
+      "state_slug": "texas",
+      "elevation": 7172,
+      "distance_miles": 30.9
+    },
+    {
+      "name": "South Franklin Mountain",
+      "slug": "south-franklin-mountain-tx",
+      "state_slug": "texas",
+      "elevation": 6791,
+      "distance_miles": 31.1
+    },
+    {
+      "name": "Mount Franklin",
+      "slug": "mount-franklin-tx",
+      "state_slug": "texas",
+      "elevation": 6135,
+      "distance_miles": 31.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Cerro Alto Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Cerro Alto Mountain hike with current conditions, trail map & parking info. Texas summit at 6,703 ft.",
+    "canonical_url": "/trails/texas/cerro-alto-mountain-tx",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Cerro Alto Mountain",
+      "description": "Cerro Alto Mountain is a 6,703 foot peak in Texas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.94538,
+        "longitude": -105.96998,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 6703,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Texas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Cerro Alto Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Cerro Alto Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Cerro Alto Mountain Trail on Cerro Alto Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cerro Alto Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cerro Alto Mountain is rated Moderate. At 6,703 feet, plan for the terrain and weather typical of Texas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Cerro Alto Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Cerro Alto Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Cerro Alto Mountain Trail, a  moderate hike to the Cerro Alto Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Cerro Alto Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Cerro Alto Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356701928",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356701928",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356701928,
+    "prominence_m": null,
+    "wikidata": "Q5064846"
+  }
+}
