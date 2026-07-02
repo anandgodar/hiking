@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Moriah",
+  "slug": "mount-moriah-ri",
+  "state": "Rhode Island",
+  "state_slug": "rhode-island",
+  "elevation": 253,
+  "lat": 41.40788,
+  "lon": -71.81785,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Moriah Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.40788,
+            -71.81785
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Moriah</strong> is a 253-foot summit in Rhode Island. Nearby peaks include Great Neck, Mount Tom and Mount Pleasant. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Great Neck",
+      "slug": "great-neck-ri",
+      "state_slug": "rhode-island",
+      "elevation": 128,
+      "distance_miles": 12.3
+    },
+    {
+      "name": "Mount Tom",
+      "slug": "mount-tom-ri",
+      "state_slug": "rhode-island",
+      "elevation": 430,
+      "distance_miles": 12.6
+    },
+    {
+      "name": "Mount Pleasant",
+      "slug": "mount-pleasant-ri",
+      "state_slug": "rhode-island",
+      "elevation": 318,
+      "distance_miles": 15.4
+    },
+    {
+      "name": "Wolf Rocks",
+      "slug": "wolf-rocks-ri",
+      "state_slug": "rhode-island",
+      "elevation": 243,
+      "distance_miles": 16.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Moriah Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Moriah hike with current conditions, trail map & parking info. Rhode Island summit at 253 ft.",
+    "canonical_url": "/trails/rhode-island/mount-moriah-ri",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Moriah",
+      "description": "Mount Moriah is a 253 foot peak in Rhode Island offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.40788,
+        "longitude": -71.81785,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 253,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Rhode Island",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Moriah Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Moriah Trail on Mount Moriah is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Moriah hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Moriah is rated Moderate. At 253 feet, plan for the terrain and weather typical of Rhode Island peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Moriah Trail, a  moderate hike to the Mount Moriah summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Moriah. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357255574",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357255574",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357255574,
+    "prominence_m": null,
+    "wikidata": "Q49053678"
+  }
+}

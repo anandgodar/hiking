@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Snake Den",
+  "slug": "snake-den-ri",
+  "state": "Rhode Island",
+  "state_slug": "rhode-island",
+  "elevation": 394,
+  "lat": 41.84815,
+  "lon": -71.5256,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Snake Den Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.84815,
+            -71.5256
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 394 feet, <strong>Snake Den</strong> is a summit in Rhode Island. Nearby peaks include Cat Rocks, Bare Rock and Round Rocks. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Cat Rocks",
+      "slug": "cat-rocks-ri",
+      "state_slug": "rhode-island",
+      "elevation": 312,
+      "distance_miles": 0.6
+    },
+    {
+      "name": "Bare Rock",
+      "slug": "bare-rock-ri",
+      "state_slug": "rhode-island",
+      "elevation": 259,
+      "distance_miles": 1.6
+    },
+    {
+      "name": "Round Rocks",
+      "slug": "round-rocks-ri",
+      "state_slug": "rhode-island",
+      "elevation": 381,
+      "distance_miles": 2.7
+    },
+    {
+      "name": "Tourtellotte Hill",
+      "slug": "tourtellotte-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 699,
+      "distance_miles": 7.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Snake Den Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Snake Den hike with current conditions, trail map & parking info. Rhode Island summit at 394 ft.",
+    "canonical_url": "/trails/rhode-island/snake-den-ri",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Snake Den",
+      "description": "Snake Den is a 394 foot peak in Rhode Island offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.84815,
+        "longitude": -71.5256,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 394,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Rhode Island",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Snake Den Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Snake Den?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Snake Den Trail on Snake Den is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Snake Den hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Snake Den is rated Moderate. At 394 feet, plan for the terrain and weather typical of Rhode Island peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Snake Den?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Snake Den?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Snake Den Trail, a  moderate hike to the Snake Den summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Snake Den?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Snake Den. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357256596",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357256596",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357256596,
+    "prominence_m": null,
+    "wikidata": "Q49074990"
+  }
+}

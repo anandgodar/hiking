@@ -1,0 +1,474 @@
+{
+  "name": "Badger Mountain",
+  "slug": "badger-mountain-ri",
+  "state": "Rhode Island",
+  "state_slug": "rhode-island",
+  "elevation": 725,
+  "lat": 41.98149,
+  "lon": -71.77146,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Badger Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.8,
+        "gain": 108,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            42.01898,
+            -71.78776
+          ],
+          "summit": [
+            41.98149,
+            -71.77146
+          ]
+        },
+        "path": [
+          [
+            42.01898,
+            -71.78776,
+            604
+          ],
+          [
+            42.0182,
+            -71.78627,
+            650
+          ],
+          [
+            42.01785,
+            -71.7855,
+            659
+          ],
+          [
+            42.01778,
+            -71.78523,
+            659
+          ],
+          [
+            42.01774,
+            -71.78503,
+            659
+          ],
+          [
+            42.01771,
+            -71.78483,
+            669
+          ],
+          [
+            42.0177,
+            -71.78477,
+            669
+          ],
+          [
+            42.01767,
+            -71.78458,
+            669
+          ],
+          [
+            42.01764,
+            -71.78451,
+            669
+          ],
+          [
+            42.01761,
+            -71.78449,
+            669
+          ],
+          [
+            42.01757,
+            -71.78448,
+            669
+          ],
+          [
+            42.01749,
+            -71.78448,
+            679
+          ],
+          [
+            42.01682,
+            -71.78457,
+            679
+          ],
+          [
+            42.01623,
+            -71.78462,
+            686
+          ],
+          [
+            42.01584,
+            -71.78466,
+            686
+          ],
+          [
+            42.01523,
+            -71.78471,
+            686
+          ],
+          [
+            42.0148,
+            -71.78471,
+            686
+          ],
+          [
+            42.0148,
+            -71.7847,
+            686
+          ],
+          [
+            42.01382,
+            -71.78472,
+            682
+          ],
+          [
+            42.01299,
+            -71.78473,
+            676
+          ],
+          [
+            42.0124,
+            -71.7849,
+            679
+          ],
+          [
+            42.01205,
+            -71.78501,
+            686
+          ],
+          [
+            42.01178,
+            -71.78516,
+            686
+          ],
+          [
+            42.01152,
+            -71.78539,
+            699
+          ],
+          [
+            42.0112,
+            -71.78565,
+            699
+          ],
+          [
+            42.01094,
+            -71.78594,
+            696
+          ],
+          [
+            42.01074,
+            -71.78591,
+            696
+          ],
+          [
+            42.01064,
+            -71.78588,
+            696
+          ],
+          [
+            42.00979,
+            -71.78575,
+            709
+          ],
+          [
+            42.00877,
+            -71.78556,
+            712
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 604,
+            "coord": [
+              42.01898,
+              -71.78776
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 650,
+            "coord": [
+              42.0182,
+              -71.78627
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 659,
+            "coord": [
+              42.01785,
+              -71.7855
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 669,
+            "coord": [
+              42.01771,
+              -71.78483
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 679,
+            "coord": [
+              42.01682,
+              -71.78457
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 686,
+            "coord": [
+              42.01623,
+              -71.78462
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 686,
+            "coord": [
+              42.01523,
+              -71.78471
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 686,
+            "coord": [
+              42.0148,
+              -71.7847
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 682,
+            "coord": [
+              42.01382,
+              -71.78472
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 676,
+            "coord": [
+              42.01299,
+              -71.78473
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 686,
+            "coord": [
+              42.01205,
+              -71.78501
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 699,
+            "coord": [
+              42.0112,
+              -71.78565
+            ]
+          },
+          {
+            "mile": 0.71,
+            "elev": 696,
+            "coord": [
+              42.01064,
+              -71.78588
+            ]
+          },
+          {
+            "mile": 0.77,
+            "elev": 709,
+            "coord": [
+              42.00979,
+              -71.78575
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 712,
+            "coord": [
+              42.00877,
+              -71.78556
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Douglas Midstate Trail Shelter",
+          "type": "hut",
+          "lat": 42.01498,
+          "lon": -71.78341,
+          "mile": 0.39
+        },
+        {
+          "name": "Midstate Bench",
+          "type": "rest area",
+          "lat": 42.00878,
+          "lon": -71.78557,
+          "mile": 0.82
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Badger Mountain</strong> is a 725-foot summit in Rhode Island. The Badger Mountain Trail is a 0.8-mile hike with about 108 feet of elevation gain. Nearby peaks include Buck Hill, Benson Mountain and Sprague Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Buck Hill",
+      "slug": "buck-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 682,
+      "distance_miles": 0.6
+    },
+    {
+      "name": "Benson Mountain",
+      "slug": "benson-mountain-ri",
+      "state_slug": "rhode-island",
+      "elevation": 741,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Sprague Hill",
+      "slug": "sprague-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 712,
+      "distance_miles": 5.8
+    },
+    {
+      "name": "Durfee Hill",
+      "slug": "durfee-hill-ri",
+      "state_slug": "rhode-island",
+      "elevation": 801,
+      "distance_miles": 6.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Badger Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Badger Mountain hike with current conditions, trail map & parking info. Rhode Island summit at 725 ft.",
+    "canonical_url": "/trails/rhode-island/badger-mountain-ri",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Badger Mountain",
+      "description": "Badger Mountain is a 725 foot peak in Rhode Island offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.98149,
+        "longitude": -71.77146,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 725,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Rhode Island",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Badger Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.01898,
+            "longitude": -71.78776
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Badger Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Badger Mountain Trail on Badger Mountain is 0.8-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Badger Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Badger Mountain is rated Moderate. At 725 feet, plan for the terrain and weather typical of Rhode Island peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Badger Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Badger Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Badger Mountain Trail, a 0.8-mile moderate hike to the Badger Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Badger Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Badger Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/359273805",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/359273805",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 359273805,
+    "prominence_m": null,
+    "wikidata": "Q35724751"
+  }
+}
