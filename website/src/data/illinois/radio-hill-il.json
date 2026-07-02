@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Radio Hill",
+  "slug": "radio-hill-il",
+  "state": "Illinois",
+  "state_slug": "illinois",
+  "elevation": 554,
+  "lat": 38.10449,
+  "lon": -88.56283,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Radio Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            38.10449,
+            -88.56283
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 554 feet, <strong>Radio Hill</strong> is a summit in Illinois. Nearby peaks include Wamble Mountain, Garden Of the Gods and Red Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Wamble Mountain",
+      "slug": "wamble-mountain-il",
+      "state_slug": "illinois",
+      "elevation": 942,
+      "distance_miles": 34.6
+    },
+    {
+      "name": "Garden Of the Gods",
+      "slug": "garden-of-the-gods-il",
+      "state_slug": "illinois",
+      "elevation": 860,
+      "distance_miles": 35.9
+    },
+    {
+      "name": "Red Hill",
+      "slug": "red-hill-il",
+      "state_slug": "illinois",
+      "elevation": 633,
+      "distance_miles": 59.1
+    },
+    {
+      "name": "Point Lookout",
+      "slug": "point-lookout-il",
+      "state_slug": "illinois",
+      "elevation": 472,
+      "distance_miles": 72.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Radio Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Radio Hill hike with current conditions, trail map & parking info. Illinois summit at 554 ft.",
+    "canonical_url": "/trails/illinois/radio-hill-il",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Radio Hill",
+      "description": "Radio Hill is a 554 foot peak in Illinois offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.10449,
+        "longitude": -88.56283,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 554,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Illinois",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Radio Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Radio Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Radio Hill Trail on Radio Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Radio Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Radio Hill is rated Moderate. At 554 feet, plan for the terrain and weather typical of Illinois peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Radio Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Radio Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Radio Hill Trail, a  moderate hike to the Radio Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Radio Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Radio Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354134338",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354134338",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354134338,
+    "prominence_m": null,
+    "wikidata": "Q32358516"
+  }
+}

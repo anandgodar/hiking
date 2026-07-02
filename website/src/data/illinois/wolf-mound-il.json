@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Wolf Mound",
+  "slug": "wolf-mound-il",
+  "state": "Illinois",
+  "state_slug": "illinois",
+  "elevation": 679,
+  "lat": 39.6892,
+  "lon": -87.70308,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Wolf Mound Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.6892,
+            -87.70308
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Wolf Mound</strong> is a 679-foot summit in Illinois. Nearby peaks include Dole Hill, Lost Hill and Indian Mound. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Dole Hill",
+      "slug": "dole-hill-il",
+      "state_slug": "illinois",
+      "elevation": 689,
+      "distance_miles": 9.4
+    },
+    {
+      "name": "Lost Hill",
+      "slug": "lost-hill-il",
+      "state_slug": "illinois",
+      "elevation": 538,
+      "distance_miles": 24.5
+    },
+    {
+      "name": "Indian Mound",
+      "slug": "indian-mound-il",
+      "state_slug": "illinois",
+      "elevation": 528,
+      "distance_miles": 49.2
+    },
+    {
+      "name": "Bristol Hill",
+      "slug": "bristol-hill-il",
+      "state_slug": "illinois",
+      "elevation": 538,
+      "distance_miles": 49.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Wolf Mound Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Wolf Mound hike with current conditions, trail map & parking info. Illinois summit at 679 ft.",
+    "canonical_url": "/trails/illinois/wolf-mound-il",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Wolf Mound",
+      "description": "Wolf Mound is a 679 foot peak in Illinois offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.6892,
+        "longitude": -87.70308,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 679,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Illinois",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Wolf Mound Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Wolf Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Wolf Mound Trail on Wolf Mound is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Wolf Mound hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wolf Mound is rated Moderate. At 679 feet, plan for the terrain and weather typical of Illinois peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Wolf Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Wolf Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Wolf Mound Trail, a  moderate hike to the Wolf Mound summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Wolf Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Wolf Mound. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354222186",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354222186",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354222186,
+    "prominence_m": null,
+    "wikidata": "Q32358843"
+  }
+}

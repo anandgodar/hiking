@@ -1,0 +1,179 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Charles Mound",
+  "slug": "charles-mound-il",
+  "state": "Illinois",
+  "state_slug": "illinois",
+  "elevation": 1227,
+  "lat": 42.50411,
+  "lon": -90.23984,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Charles Mound Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            42.50411,
+            -90.23984
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,227 feet, <strong>Charles Mound</strong> is a summit in Illinois. Nearby peaks include Mount Sumner, Coffman Bluff and Devils Backbone. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Sumner",
+      "slug": "mount-sumner-il",
+      "state_slug": "illinois",
+      "elevation": 1171,
+      "distance_miles": 5.6
+    },
+    {
+      "name": "Coffman Bluff",
+      "slug": "coffman-bluff-il",
+      "state_slug": "illinois",
+      "elevation": 948,
+      "distance_miles": 43.3
+    },
+    {
+      "name": "Devils Backbone",
+      "slug": "devils-backbone-il",
+      "state_slug": "illinois",
+      "elevation": 899,
+      "distance_miles": 57.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Charles Mound Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Charles Mound hike with current conditions, trail map & parking info. Illinois summit at 1,227 ft.",
+    "canonical_url": "/trails/illinois/charles-mound-il",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Charles Mound",
+      "description": "Charles Mound is a 1,227 foot peak in Illinois offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.50411,
+        "longitude": -90.23984,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1227,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Illinois",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Charles Mound Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Charles Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Charles Mound Trail on Charles Mound is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Charles Mound hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Charles Mound is rated Moderate. At 1,227 feet, plan for the terrain and weather typical of Illinois peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Charles Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Charles Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Charles Mound Trail, a  moderate hike to the Charles Mound summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Charles Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Charles Mound. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354164185",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354164185",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354164185,
+    "prominence_m": null,
+    "wikidata": "Q1065571"
+  }
+}

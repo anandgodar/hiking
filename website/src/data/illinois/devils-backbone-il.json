@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Devils Backbone",
+  "slug": "devils-backbone-il",
+  "state": "Illinois",
+  "state_slug": "illinois",
+  "elevation": 899,
+  "lat": 41.98836,
+  "lon": -89.35122,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Devils Backbone Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.98836,
+            -89.35122
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 899 feet, <strong>Devils Backbone</strong> is a summit in Illinois. Nearby peaks include Coffman Bluff, Starved Rock and Mount Sumner. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Coffman Bluff",
+      "slug": "coffman-bluff-il",
+      "state_slug": "illinois",
+      "elevation": 948,
+      "distance_miles": 15.5
+    },
+    {
+      "name": "Starved Rock",
+      "slug": "starved-rock-il",
+      "state_slug": "illinois",
+      "elevation": 548,
+      "distance_miles": 49.7
+    },
+    {
+      "name": "Mount Sumner",
+      "slug": "mount-sumner-il",
+      "state_slug": "illinois",
+      "elevation": 1171,
+      "distance_miles": 52.3
+    },
+    {
+      "name": "High Point",
+      "slug": "high-point-il",
+      "state_slug": "illinois",
+      "elevation": 1188,
+      "distance_miles": 52.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Devils Backbone Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Devils Backbone hike with current conditions, trail map & parking info. Illinois summit at 899 ft.",
+    "canonical_url": "/trails/illinois/devils-backbone-il",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Devils Backbone",
+      "description": "Devils Backbone is a 899 foot peak in Illinois offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.98836,
+        "longitude": -89.35122,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 899,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Illinois",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Devils Backbone Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Devils Backbone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Devils Backbone Trail on Devils Backbone is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Devils Backbone hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Devils Backbone is rated Moderate. At 899 feet, plan for the terrain and weather typical of Illinois peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Devils Backbone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Devils Backbone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Devils Backbone Trail, a  moderate hike to the Devils Backbone summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Devils Backbone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Devils Backbone. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354102832",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354102832",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354102832,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}
