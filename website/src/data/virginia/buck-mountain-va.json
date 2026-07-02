@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Buck Mountain",
+  "slug": "buck-mountain-va",
+  "state": "Virginia",
+  "state_slug": "virginia",
+  "elevation": 4649,
+  "lat": 36.66373,
+  "lon": -81.25065,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Buck Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            36.66373,
+            -81.25065
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Buck Mountain</strong> rises to 4,649 feet in Virginia. Nearby peaks include High Rock, The Pinnacle and Point Lookout Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "High Rock",
+      "slug": "high-rock-va",
+      "state_slug": "virginia",
+      "elevation": 4652,
+      "distance_miles": 0.0
+    },
+    {
+      "name": "The Pinnacle",
+      "slug": "the-pinnacle-va",
+      "state_slug": "virginia",
+      "elevation": 4528,
+      "distance_miles": 4.6
+    },
+    {
+      "name": "Point Lookout Mountain",
+      "slug": "point-lookout-mountain-va",
+      "state_slug": "virginia",
+      "elevation": 4528,
+      "distance_miles": 4.6
+    },
+    {
+      "name": "First Peak",
+      "slug": "first-peak-va",
+      "state_slug": "virginia",
+      "elevation": 4610,
+      "distance_miles": 11.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Buck Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Buck Mountain hike with current conditions, trail map & parking info. Virginia summit at 4,649 ft.",
+    "canonical_url": "/trails/virginia/buck-mountain-va",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Buck Mountain",
+      "description": "Buck Mountain is a 4,649 foot peak in Virginia offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.66373,
+        "longitude": -81.25065,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4649,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Virginia",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Buck Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Buck Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Buck Mountain Trail on Buck Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Buck Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Buck Mountain is rated Moderate. At 4,649 feet, plan for the terrain and weather typical of Virginia peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Buck Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Buck Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Buck Mountain Trail, a  moderate hike to the Buck Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Buck Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Buck Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356583505",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356583505",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356583505,
+    "prominence_m": null,
+    "wikidata": "Q49016159"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Barren Rock",
+  "slug": "barren-rock-va",
+  "state": "Virginia",
+  "state_slug": "virginia",
+  "elevation": 4380,
+  "lat": 38.41734,
+  "lon": -79.50366,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Barren Rock Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            38.41734,
+            -79.50366
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Barren Rock</strong> rises to 4,380 feet in Virginia. Nearby peaks include Slate Springs Mountain and Hogback. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Slate Springs Mountain",
+      "slug": "slate-springs-mountain-va",
+      "state_slug": "virginia",
+      "elevation": 4370,
+      "distance_miles": 18.3
+    },
+    {
+      "name": "Hogback",
+      "slug": "hogback-va",
+      "state_slug": "virginia",
+      "elevation": 4446,
+      "distance_miles": 20.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Barren Rock Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Barren Rock hike with current conditions, trail map & parking info. Virginia summit at 4,380 ft.",
+    "canonical_url": "/trails/virginia/barren-rock-va",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Barren Rock",
+      "description": "Barren Rock is a 4,380 foot peak in Virginia offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.41734,
+        "longitude": -79.50366,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4380,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Virginia",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Barren Rock Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Barren Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Barren Rock Trail on Barren Rock is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Barren Rock hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barren Rock is rated Moderate. At 4,380 feet, plan for the terrain and weather typical of Virginia peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Barren Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Barren Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Barren Rock Trail, a  moderate hike to the Barren Rock summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Barren Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Barren Rock. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356574329",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356574329",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356574329,
+    "prominence_m": null,
+    "wikidata": "Q49010885"
+  }
+}
