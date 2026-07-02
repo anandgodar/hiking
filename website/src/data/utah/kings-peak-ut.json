@@ -1,0 +1,507 @@
+{
+  "name": "Kings Peak",
+  "slug": "kings-peak-ut",
+  "state": "Utah",
+  "state_slug": "utah",
+  "elevation": 13528,
+  "lat": 40.77624,
+  "lon": -110.3728,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Kings Peak Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.7,
+        "gain": 683,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            40.78522,
+            -110.37784
+          ],
+          "summit": [
+            40.77624,
+            -110.3728
+          ]
+        },
+        "path": [
+          [
+            40.78522,
+            -110.37784,
+            12694
+          ],
+          [
+            40.78507,
+            -110.37753,
+            12694
+          ],
+          [
+            40.78488,
+            -110.37728,
+            12687
+          ],
+          [
+            40.78473,
+            -110.37718,
+            12687
+          ],
+          [
+            40.78459,
+            -110.3769,
+            12687
+          ],
+          [
+            40.78431,
+            -110.37655,
+            12680
+          ],
+          [
+            40.78405,
+            -110.37626,
+            12769
+          ],
+          [
+            40.784,
+            -110.37617,
+            12769
+          ],
+          [
+            40.78386,
+            -110.37602,
+            12769
+          ],
+          [
+            40.78382,
+            -110.37604,
+            12769
+          ],
+          [
+            40.78348,
+            -110.37592,
+            12769
+          ],
+          [
+            40.78328,
+            -110.37569,
+            12910
+          ],
+          [
+            40.78314,
+            -110.37549,
+            12910
+          ],
+          [
+            40.78304,
+            -110.37546,
+            12910
+          ],
+          [
+            40.78292,
+            -110.37539,
+            12910
+          ],
+          [
+            40.78285,
+            -110.37529,
+            12910
+          ],
+          [
+            40.78254,
+            -110.37505,
+            12910
+          ],
+          [
+            40.78236,
+            -110.37497,
+            13038
+          ],
+          [
+            40.78211,
+            -110.3747,
+            13038
+          ],
+          [
+            40.78183,
+            -110.37439,
+            13038
+          ],
+          [
+            40.78175,
+            -110.37435,
+            13038
+          ],
+          [
+            40.78153,
+            -110.37427,
+            13031
+          ],
+          [
+            40.78094,
+            -110.37394,
+            13133
+          ],
+          [
+            40.78055,
+            -110.37382,
+            13179
+          ],
+          [
+            40.78018,
+            -110.37369,
+            13179
+          ],
+          [
+            40.77982,
+            -110.37355,
+            13173
+          ],
+          [
+            40.77962,
+            -110.37351,
+            13173
+          ],
+          [
+            40.77892,
+            -110.37326,
+            13284
+          ],
+          [
+            40.77832,
+            -110.37302,
+            13307
+          ],
+          [
+            40.77786,
+            -110.37274,
+            13307
+          ],
+          [
+            40.77768,
+            -110.37269,
+            13307
+          ],
+          [
+            40.77757,
+            -110.3727,
+            13307
+          ],
+          [
+            40.77713,
+            -110.37285,
+            13353
+          ],
+          [
+            40.77699,
+            -110.37291,
+            13353
+          ],
+          [
+            40.77682,
+            -110.37286,
+            13353
+          ],
+          [
+            40.77664,
+            -110.37281,
+            13363
+          ],
+          [
+            40.77651,
+            -110.37281,
+            13363
+          ],
+          [
+            40.77633,
+            -110.37297,
+            13363
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 12694,
+            "coord": [
+              40.78522,
+              -110.37784
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 12687,
+            "coord": [
+              40.78473,
+              -110.37718
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 12680,
+            "coord": [
+              40.78431,
+              -110.37655
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 12769,
+            "coord": [
+              40.78348,
+              -110.37592
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 12910,
+            "coord": [
+              40.78304,
+              -110.37546
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 13038,
+            "coord": [
+              40.78236,
+              -110.37497
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 13038,
+            "coord": [
+              40.78183,
+              -110.37439
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 13133,
+            "coord": [
+              40.78094,
+              -110.37394
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 13179,
+            "coord": [
+              40.78055,
+              -110.37382
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 13173,
+            "coord": [
+              40.77982,
+              -110.37355
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 13284,
+            "coord": [
+              40.77892,
+              -110.37326
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 13307,
+            "coord": [
+              40.77832,
+              -110.37302
+            ]
+          },
+          {
+            "mile": 0.6,
+            "elev": 13307,
+            "coord": [
+              40.77768,
+              -110.37269
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 13353,
+            "coord": [
+              40.77699,
+              -110.37291
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 13363,
+            "coord": [
+              40.77633,
+              -110.37297
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Kings Peak",
+          "type": "summit",
+          "lat": 40.77624,
+          "lon": -110.3728,
+          "mile": 0.7
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Kings Peak</strong> rises to 13,528 feet in Utah. It has roughly 6,440 feet of topographic prominence. The Kings Peak Trail is a 0.7-mile hike with about 683 feet of elevation gain. Nearby peaks include South Kings Peak, Mount Powell and Gilbert Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "South Kings Peak",
+      "slug": "south-kings-peak-ut",
+      "state_slug": "utah",
+      "elevation": 13504,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Mount Powell",
+      "slug": "mount-powell-ut",
+      "state_slug": "utah",
+      "elevation": 13153,
+      "distance_miles": 3.2
+    },
+    {
+      "name": "Gilbert Peak",
+      "slug": "gilbert-peak-ut",
+      "state_slug": "utah",
+      "elevation": 13435,
+      "distance_miles": 3.7
+    },
+    {
+      "name": "Wilson Peak",
+      "slug": "wilson-peak-ut",
+      "state_slug": "utah",
+      "elevation": 13018,
+      "distance_miles": 4.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Kings Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Kings Peak hike with current conditions, trail map & parking info. Utah summit at 13,528 ft.",
+    "canonical_url": "/trails/utah/kings-peak-ut",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Kings Peak",
+      "description": "Kings Peak is a 13,528 foot peak in Utah offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.77624,
+        "longitude": -110.3728,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 13528,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Utah",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Kings Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.78522,
+            "longitude": -110.37784
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Kings Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Kings Peak Trail on Kings Peak is 0.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Kings Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kings Peak is rated Moderate. At 13,528 feet, plan for the terrain and weather typical of Utah peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Kings Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Kings Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Kings Peak Trail, a 0.7-mile moderate hike to the Kings Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Kings Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Kings Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356678965",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/356678965",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 356678965,
+    "prominence_m": "1963",
+    "wikidata": "Q1642538"
+  }
+}
