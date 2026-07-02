@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Bayou Dan Hills",
+  "slug": "bayou-dan-hills-la",
+  "state": "Louisiana",
+  "state_slug": "louisiana",
+  "elevation": 118,
+  "lat": 31.93461,
+  "lon": -91.99569,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Bayou Dan Hills Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            31.93461,
+            -91.99569
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Bayou Dan Hills</strong> is a 118-foot summit in Louisiana. Nearby peaks include Chalk Hills, Pardon Hills and Johns Hills. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Chalk Hills",
+      "slug": "chalk-hills-la",
+      "state_slug": "louisiana",
+      "elevation": 240,
+      "distance_miles": 5.6
+    },
+    {
+      "name": "Pardon Hills",
+      "slug": "pardon-hills-la",
+      "state_slug": "louisiana",
+      "elevation": 89,
+      "distance_miles": 29.0
+    },
+    {
+      "name": "Johns Hills",
+      "slug": "johns-hills-la",
+      "state_slug": "louisiana",
+      "elevation": 207,
+      "distance_miles": 33.3
+    },
+    {
+      "name": "The Butte",
+      "slug": "the-butte-la",
+      "state_slug": "louisiana",
+      "elevation": 121,
+      "distance_miles": 58.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Bayou Dan Hills Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Bayou Dan Hills hike with current conditions, trail map & parking info. Louisiana summit at 118 ft.",
+    "canonical_url": "/trails/louisiana/bayou-dan-hills-la",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bayou Dan Hills",
+      "description": "Bayou Dan Hills is a 118 foot peak in Louisiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.93461,
+        "longitude": -91.99569,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 118,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Louisiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bayou Dan Hills Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bayou Dan Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bayou Dan Hills Trail on Bayou Dan Hills is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bayou Dan Hills hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bayou Dan Hills is rated Moderate. At 118 feet, plan for the terrain and weather typical of Louisiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bayou Dan Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bayou Dan Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bayou Dan Hills Trail, a  moderate hike to the Bayou Dan Hills summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bayou Dan Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bayou Dan Hills. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358377193",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358377193",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358377193,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

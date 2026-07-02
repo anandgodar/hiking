@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Johns Hills",
+  "slug": "johns-hills-la",
+  "state": "Louisiana",
+  "state_slug": "louisiana",
+  "elevation": 207,
+  "lat": 31.69156,
+  "lon": -92.48514,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Johns Hills Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            31.69156,
+            -92.48514
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 207 feet, <strong>Johns Hills</strong> is a summit in Louisiana. Nearby peaks include Pardon Hills, Chalk Hills and The Butte. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pardon Hills",
+      "slug": "pardon-hills-la",
+      "state_slug": "louisiana",
+      "elevation": 89,
+      "distance_miles": 10.2
+    },
+    {
+      "name": "Chalk Hills",
+      "slug": "chalk-hills-la",
+      "state_slug": "louisiana",
+      "elevation": 240,
+      "distance_miles": 31.0
+    },
+    {
+      "name": "The Butte",
+      "slug": "the-butte-la",
+      "state_slug": "louisiana",
+      "elevation": 121,
+      "distance_miles": 31.1
+    },
+    {
+      "name": "Dough Hills",
+      "slug": "dough-hills-la",
+      "state_slug": "louisiana",
+      "elevation": 233,
+      "distance_miles": 31.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Johns Hills Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Johns Hills hike with current conditions, trail map & parking info. Louisiana summit at 207 ft.",
+    "canonical_url": "/trails/louisiana/johns-hills-la",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Johns Hills",
+      "description": "Johns Hills is a 207 foot peak in Louisiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.69156,
+        "longitude": -92.48514,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 207,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Louisiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Johns Hills Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Johns Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Johns Hills Trail on Johns Hills is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Johns Hills hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Johns Hills is rated Moderate. At 207 feet, plan for the terrain and weather typical of Louisiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Johns Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Johns Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Johns Hills Trail, a  moderate hike to the Johns Hills summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Johns Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Johns Hills. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358382477",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358382477",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358382477,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

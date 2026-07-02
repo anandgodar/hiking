@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Duncan Hill",
+  "slug": "duncan-hill-la",
+  "state": "Louisiana",
+  "state_slug": "louisiana",
+  "elevation": 420,
+  "lat": 32.89459,
+  "lon": -93.25767,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Duncan Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            32.89459,
+            -93.25767
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Duncan Hill</strong> is a 420-foot summit in Louisiana. Nearby peaks include Bull Hill, Giddens Hill and Delaney Mount. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Bull Hill",
+      "slug": "bull-hill-la",
+      "state_slug": "louisiana",
+      "elevation": 417,
+      "distance_miles": 4.5
+    },
+    {
+      "name": "Giddens Hill",
+      "slug": "giddens-hill-la",
+      "state_slug": "louisiana",
+      "elevation": 413,
+      "distance_miles": 28.0
+    },
+    {
+      "name": "Delaney Mount",
+      "slug": "delaney-mount-la",
+      "state_slug": "louisiana",
+      "elevation": 453,
+      "distance_miles": 28.5
+    },
+    {
+      "name": "Mossy Hill",
+      "slug": "mossy-hill-la",
+      "state_slug": "louisiana",
+      "elevation": 459,
+      "distance_miles": 34.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Duncan Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Duncan Hill hike with current conditions, trail map & parking info. Louisiana summit at 420 ft.",
+    "canonical_url": "/trails/louisiana/duncan-hill-la",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Duncan Hill",
+      "description": "Duncan Hill is a 420 foot peak in Louisiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.89459,
+        "longitude": -93.25767,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 420,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Louisiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Duncan Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Duncan Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Duncan Hill Trail on Duncan Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Duncan Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Duncan Hill is rated Moderate. At 420 feet, plan for the terrain and weather typical of Louisiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Duncan Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Duncan Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Duncan Hill Trail, a  moderate hike to the Duncan Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Duncan Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Duncan Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358377225",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358377225",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358377225,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

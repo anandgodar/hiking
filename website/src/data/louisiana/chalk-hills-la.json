@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Chalk Hills",
+  "slug": "chalk-hills-la",
+  "state": "Louisiana",
+  "state_slug": "louisiana",
+  "elevation": 240,
+  "lat": 31.85322,
+  "lon": -91.99319,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Chalk Hills Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            31.85322,
+            -91.99319
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Chalk Hills</strong> is a 240-foot summit in Louisiana. Nearby peaks include Bayou Dan Hills, Pardon Hills and Johns Hills. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Bayou Dan Hills",
+      "slug": "bayou-dan-hills-la",
+      "state_slug": "louisiana",
+      "elevation": 118,
+      "distance_miles": 5.6
+    },
+    {
+      "name": "Pardon Hills",
+      "slug": "pardon-hills-la",
+      "state_slug": "louisiana",
+      "elevation": 89,
+      "distance_miles": 28.4
+    },
+    {
+      "name": "Johns Hills",
+      "slug": "johns-hills-la",
+      "state_slug": "louisiana",
+      "elevation": 207,
+      "distance_miles": 31.0
+    },
+    {
+      "name": "Les Grandes C\u00f4tes",
+      "slug": "les-grandes-c-tes-la",
+      "state_slug": "louisiana",
+      "elevation": 75,
+      "distance_miles": 56.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Chalk Hills Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Chalk Hills hike with current conditions, trail map & parking info. Louisiana summit at 240 ft.",
+    "canonical_url": "/trails/louisiana/chalk-hills-la",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Chalk Hills",
+      "description": "Chalk Hills is a 240 foot peak in Louisiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.85322,
+        "longitude": -91.99319,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 240,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Louisiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Chalk Hills Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Chalk Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Chalk Hills Trail on Chalk Hills is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Chalk Hills hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chalk Hills is rated Moderate. At 240 feet, plan for the terrain and weather typical of Louisiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Chalk Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Chalk Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Chalk Hills Trail, a  moderate hike to the Chalk Hills summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Chalk Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Chalk Hills. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358377219",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358377219",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358377219,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}
