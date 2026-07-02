@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Trackler Mountain",
+  "slug": "trackler-mountain-mo",
+  "state": "Missouri",
+  "state_slug": "missouri",
+  "elevation": 1398,
+  "lat": 37.5095,
+  "lon": -90.4929,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Trackler Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            37.5095,
+            -90.4929
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,398 feet, <strong>Trackler Mountain</strong> is a summit in Missouri. Nearby peaks include Jayce Mountain, Kelley Mountain and Marlow Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Jayce Mountain",
+      "slug": "jayce-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1345,
+      "distance_miles": 1.7
+    },
+    {
+      "name": "Kelley Mountain",
+      "slug": "kelley-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1404,
+      "distance_miles": 2.9
+    },
+    {
+      "name": "Marlow Mountain",
+      "slug": "marlow-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1371,
+      "distance_miles": 2.9
+    },
+    {
+      "name": "Patterson Mountain",
+      "slug": "patterson-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1499,
+      "distance_miles": 4.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Trackler Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Trackler Mountain hike with current conditions, trail map & parking info. Missouri summit at 1,398 ft.",
+    "canonical_url": "/trails/missouri/trackler-mountain-mo",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Trackler Mountain",
+      "description": "Trackler Mountain is a 1,398 foot peak in Missouri offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.5095,
+        "longitude": -90.4929,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1398,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Missouri",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Trackler Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Trackler Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Trackler Mountain Trail on Trackler Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Trackler Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trackler Mountain is rated Moderate. At 1,398 feet, plan for the terrain and weather typical of Missouri peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Trackler Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Trackler Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Trackler Mountain Trail, a  moderate hike to the Trackler Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Trackler Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Trackler Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358053226",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358053226",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358053226,
+    "prominence_m": null,
+    "wikidata": "Q31610525"
+  }
+}

@@ -1,0 +1,922 @@
+{
+  "name": "Bell Mountain",
+  "slug": "bell-mountain-mo",
+  "state": "Missouri",
+  "state_slug": "missouri",
+  "elevation": 1703,
+  "lat": 37.62616,
+  "lon": -90.86624,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Bell Mountain Trail",
+      "difficulty": "Moderate",
+      "type": "",
+      "stats": {
+        "distance": 7.9,
+        "gain": 624,
+        "time": null,
+        "difficulty": "Moderate"
+      },
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          37.66623,
+          -90.85178
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            37.6662,
+            -90.85167
+          ],
+          "summit": [
+            37.62616,
+            -90.86624
+          ]
+        },
+        "path": [
+          [
+            37.66627,
+            -90.85167,
+            1532
+          ],
+          [
+            37.66639,
+            -90.8526,
+            1535
+          ],
+          [
+            37.66626,
+            -90.85331,
+            1535
+          ],
+          [
+            37.66586,
+            -90.8545,
+            1499
+          ],
+          [
+            37.66465,
+            -90.85533,
+            1499
+          ],
+          [
+            37.66383,
+            -90.85491,
+            1512
+          ],
+          [
+            37.66327,
+            -90.85466,
+            1490
+          ],
+          [
+            37.66271,
+            -90.85496,
+            1490
+          ],
+          [
+            37.66209,
+            -90.85538,
+            1444
+          ],
+          [
+            37.66171,
+            -90.85581,
+            1444
+          ],
+          [
+            37.66119,
+            -90.85684,
+            1388
+          ],
+          [
+            37.66057,
+            -90.85839,
+            1381
+          ],
+          [
+            37.66002,
+            -90.85852,
+            1381
+          ],
+          [
+            37.6591,
+            -90.85967,
+            1398
+          ],
+          [
+            37.65842,
+            -90.86056,
+            1394
+          ],
+          [
+            37.65801,
+            -90.86163,
+            1417
+          ],
+          [
+            37.65801,
+            -90.86292,
+            1421
+          ],
+          [
+            37.65828,
+            -90.86448,
+            1440
+          ],
+          [
+            37.65787,
+            -90.86578,
+            1430
+          ],
+          [
+            37.65639,
+            -90.86721,
+            1430
+          ],
+          [
+            37.65493,
+            -90.86752,
+            1427
+          ],
+          [
+            37.65454,
+            -90.86765,
+            1427
+          ],
+          [
+            37.65396,
+            -90.86781,
+            1411
+          ],
+          [
+            37.65343,
+            -90.86791,
+            1411
+          ],
+          [
+            37.6526,
+            -90.86767,
+            1371
+          ],
+          [
+            37.65198,
+            -90.8677,
+            1362
+          ],
+          [
+            37.6512,
+            -90.86781,
+            1358
+          ],
+          [
+            37.65019,
+            -90.86742,
+            1385
+          ],
+          [
+            37.64946,
+            -90.86749,
+            1388
+          ],
+          [
+            37.64806,
+            -90.86829,
+            1407
+          ],
+          [
+            37.64737,
+            -90.86849,
+            1411
+          ],
+          [
+            37.64696,
+            -90.86827,
+            1417
+          ],
+          [
+            37.64628,
+            -90.86804,
+            1427
+          ],
+          [
+            37.64583,
+            -90.86776,
+            1427
+          ],
+          [
+            37.64543,
+            -90.86739,
+            1434
+          ],
+          [
+            37.64508,
+            -90.86644,
+            1414
+          ],
+          [
+            37.64446,
+            -90.86577,
+            1450
+          ],
+          [
+            37.64376,
+            -90.86585,
+            1414
+          ],
+          [
+            37.643,
+            -90.86626,
+            1450
+          ],
+          [
+            37.64234,
+            -90.86627,
+            1467
+          ],
+          [
+            37.6421,
+            -90.86638,
+            1467
+          ],
+          [
+            37.64233,
+            -90.86671,
+            1457
+          ],
+          [
+            37.64272,
+            -90.86783,
+            1447
+          ],
+          [
+            37.6428,
+            -90.86855,
+            1450
+          ],
+          [
+            37.64296,
+            -90.86973,
+            1447
+          ],
+          [
+            37.64293,
+            -90.87073,
+            1444
+          ],
+          [
+            37.64293,
+            -90.87132,
+            1427
+          ],
+          [
+            37.64285,
+            -90.872,
+            1407
+          ],
+          [
+            37.64285,
+            -90.87296,
+            1398
+          ],
+          [
+            37.64287,
+            -90.87354,
+            1381
+          ],
+          [
+            37.64268,
+            -90.87423,
+            1358
+          ],
+          [
+            37.64247,
+            -90.87534,
+            1358
+          ],
+          [
+            37.64244,
+            -90.87608,
+            1335
+          ],
+          [
+            37.64216,
+            -90.87682,
+            1322
+          ],
+          [
+            37.64174,
+            -90.87745,
+            1322
+          ],
+          [
+            37.64178,
+            -90.8786,
+            1270
+          ],
+          [
+            37.64157,
+            -90.87954,
+            1211
+          ],
+          [
+            37.64076,
+            -90.88049,
+            1148
+          ],
+          [
+            37.64036,
+            -90.881,
+            1155
+          ],
+          [
+            37.64009,
+            -90.88084,
+            1148
+          ],
+          [
+            37.63981,
+            -90.88191,
+            1122
+          ],
+          [
+            37.63976,
+            -90.8828,
+            1112
+          ],
+          [
+            37.63969,
+            -90.88362,
+            1106
+          ],
+          [
+            37.63977,
+            -90.88414,
+            1106
+          ],
+          [
+            37.6391,
+            -90.88598,
+            1086
+          ],
+          [
+            37.63788,
+            -90.88736,
+            1076
+          ],
+          [
+            37.63766,
+            -90.88794,
+            1076
+          ],
+          [
+            37.63721,
+            -90.88842,
+            1066
+          ],
+          [
+            37.63658,
+            -90.8881,
+            1076
+          ],
+          [
+            37.63615,
+            -90.88781,
+            1076
+          ],
+          [
+            37.63521,
+            -90.8873,
+            1083
+          ],
+          [
+            37.6347,
+            -90.88704,
+            1106
+          ],
+          [
+            37.63429,
+            -90.88644,
+            1089
+          ],
+          [
+            37.63334,
+            -90.88534,
+            1099
+          ],
+          [
+            37.63269,
+            -90.88464,
+            1106
+          ],
+          [
+            37.63134,
+            -90.88358,
+            1155
+          ],
+          [
+            37.63015,
+            -90.88332,
+            1135
+          ],
+          [
+            37.62977,
+            -90.8831,
+            1142
+          ],
+          [
+            37.62944,
+            -90.88347,
+            1142
+          ],
+          [
+            37.62872,
+            -90.88376,
+            1168
+          ],
+          [
+            37.62807,
+            -90.88425,
+            1175
+          ],
+          [
+            37.62645,
+            -90.88589,
+            1319
+          ],
+          [
+            37.62515,
+            -90.88799,
+            1319
+          ],
+          [
+            37.62379,
+            -90.88986,
+            1398
+          ],
+          [
+            37.62311,
+            -90.89006,
+            1460
+          ],
+          [
+            37.62158,
+            -90.89005,
+            1522
+          ],
+          [
+            37.62005,
+            -90.88869,
+            1496
+          ],
+          [
+            37.61949,
+            -90.8876,
+            1503
+          ],
+          [
+            37.61908,
+            -90.88656,
+            1493
+          ],
+          [
+            37.61804,
+            -90.8854,
+            1496
+          ],
+          [
+            37.61769,
+            -90.88448,
+            1493
+          ],
+          [
+            37.61798,
+            -90.88362,
+            1493
+          ],
+          [
+            37.61789,
+            -90.88202,
+            1496
+          ],
+          [
+            37.61772,
+            -90.88034,
+            1506
+          ],
+          [
+            37.61794,
+            -90.87941,
+            1509
+          ],
+          [
+            37.6183,
+            -90.87801,
+            1509
+          ],
+          [
+            37.6185,
+            -90.8773,
+            1522
+          ],
+          [
+            37.61918,
+            -90.87642,
+            1509
+          ],
+          [
+            37.61975,
+            -90.87486,
+            1522
+          ],
+          [
+            37.62005,
+            -90.87295,
+            1486
+          ],
+          [
+            37.62217,
+            -90.87009,
+            1483
+          ],
+          [
+            37.62436,
+            -90.86727,
+            1677
+          ],
+          [
+            37.62692,
+            -90.86588,
+            1680
+          ],
+          [
+            37.62785,
+            -90.86559,
+            1690
+          ],
+          [
+            37.6288,
+            -90.86621,
+            1657
+          ],
+          [
+            37.62974,
+            -90.86658,
+            1644
+          ],
+          [
+            37.63077,
+            -90.8664,
+            1631
+          ],
+          [
+            37.63102,
+            -90.86583,
+            1621
+          ],
+          [
+            37.63188,
+            -90.86495,
+            1585
+          ],
+          [
+            37.63287,
+            -90.86466,
+            1542
+          ],
+          [
+            37.63333,
+            -90.8651,
+            1499
+          ],
+          [
+            37.63425,
+            -90.8655,
+            1470
+          ],
+          [
+            37.63499,
+            -90.8655,
+            1470
+          ],
+          [
+            37.63571,
+            -90.8658,
+            1440
+          ],
+          [
+            37.63678,
+            -90.86543,
+            1460
+          ],
+          [
+            37.63812,
+            -90.86557,
+            1473
+          ],
+          [
+            37.63889,
+            -90.86559,
+            1473
+          ],
+          [
+            37.64023,
+            -90.86592,
+            1457
+          ],
+          [
+            37.64072,
+            -90.86572,
+            1473
+          ],
+          [
+            37.64143,
+            -90.86533,
+            1476
+          ],
+          [
+            37.64206,
+            -90.86628,
+            1467
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1532,
+            "coord": [
+              37.66627,
+              -90.85167
+            ]
+          },
+          {
+            "mile": 0.56,
+            "elev": 1388,
+            "coord": [
+              37.66119,
+              -90.85684
+            ]
+          },
+          {
+            "mile": 1.13,
+            "elev": 1430,
+            "coord": [
+              37.65787,
+              -90.86578
+            ]
+          },
+          {
+            "mile": 1.69,
+            "elev": 1385,
+            "coord": [
+              37.65019,
+              -90.86742
+            ]
+          },
+          {
+            "mile": 2.26,
+            "elev": 1450,
+            "coord": [
+              37.643,
+              -90.86626
+            ]
+          },
+          {
+            "mile": 2.82,
+            "elev": 1358,
+            "coord": [
+              37.64247,
+              -90.87534
+            ]
+          },
+          {
+            "mile": 3.39,
+            "elev": 1106,
+            "coord": [
+              37.63969,
+              -90.88362
+            ]
+          },
+          {
+            "mile": 3.95,
+            "elev": 1089,
+            "coord": [
+              37.63429,
+              -90.88644
+            ]
+          },
+          {
+            "mile": 4.51,
+            "elev": 1175,
+            "coord": [
+              37.62807,
+              -90.88425
+            ]
+          },
+          {
+            "mile": 5.08,
+            "elev": 1522,
+            "coord": [
+              37.62158,
+              -90.89005
+            ]
+          },
+          {
+            "mile": 5.64,
+            "elev": 1506,
+            "coord": [
+              37.61772,
+              -90.88034
+            ]
+          },
+          {
+            "mile": 6.21,
+            "elev": 1486,
+            "coord": [
+              37.62005,
+              -90.87295
+            ]
+          },
+          {
+            "mile": 6.77,
+            "elev": 1680,
+            "coord": [
+              37.62692,
+              -90.86588
+            ]
+          },
+          {
+            "mile": 7.34,
+            "elev": 1470,
+            "coord": [
+              37.63425,
+              -90.8655
+            ]
+          },
+          {
+            "mile": 7.9,
+            "elev": 1467,
+            "coord": [
+              37.64206,
+              -90.86628
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Bell Mountain",
+          "type": "summit",
+          "lat": 37.62616,
+          "lon": -90.86624,
+          "mile": 6.75
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,703 feet, <strong>Bell Mountain</strong> is a summit in Missouri. The Bell Mountain Trail is a 7.9-mile hike with about 624 feet of elevation gain. Nearby peaks include Wildcat Mountain, Taum Sauk Mountain and Russell Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Wildcat Mountain",
+      "slug": "wildcat-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1759,
+      "distance_miles": 7.3
+    },
+    {
+      "name": "Taum Sauk Mountain",
+      "slug": "taum-sauk-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1765,
+      "distance_miles": 8.4
+    },
+    {
+      "name": "Russell Mountain",
+      "slug": "russell-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1719,
+      "distance_miles": 10.1
+    },
+    {
+      "name": "Hogan Mountain",
+      "slug": "hogan-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1683,
+      "distance_miles": 11.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Bell Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Bell Mountain hike with current conditions, trail map & parking info. Missouri summit at 1,703 ft.",
+    "canonical_url": "/trails/missouri/bell-mountain-mo",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bell Mountain",
+      "description": "Bell Mountain is a 1,703 foot peak in Missouri offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.62616,
+        "longitude": -90.86624,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1703,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Missouri",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bell Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.6662,
+            "longitude": -90.85167
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bell Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bell Mountain Trail on Bell Mountain is 7.9-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bell Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bell Mountain is rated Moderate. At 1,703 feet, plan for the terrain and weather typical of Missouri peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bell Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bell Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bell Mountain Trail, a 7.9-mile moderate hike to the Bell Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bell Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bell Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358063070",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358063070",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 358063070,
+    "prominence_m": null,
+    "wikidata": "Q31601635"
+  }
+}

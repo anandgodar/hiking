@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Ketcherside Mountain",
+  "slug": "ketcherside-mountain-mo",
+  "state": "Missouri",
+  "state_slug": "missouri",
+  "elevation": 1690,
+  "lat": 37.52366,
+  "lon": -90.66901,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Ketcherside Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            37.52366,
+            -90.66901
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Ketcherside Mountain</strong> rises to 1,690 feet in Missouri. Nearby peaks include Cuthbertson Mountain, Hogan Mountain and Russell Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Cuthbertson Mountain",
+      "slug": "cuthbertson-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1381,
+      "distance_miles": 1.6
+    },
+    {
+      "name": "Hogan Mountain",
+      "slug": "hogan-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1683,
+      "distance_miles": 2.5
+    },
+    {
+      "name": "Russell Mountain",
+      "slug": "russell-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1719,
+      "distance_miles": 3.7
+    },
+    {
+      "name": "Taum Sauk Mountain",
+      "slug": "taum-sauk-mountain-mo",
+      "state_slug": "missouri",
+      "elevation": 1765,
+      "distance_miles": 4.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Ketcherside Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Ketcherside Mountain hike with current conditions, trail map & parking info. Missouri summit at 1,690 ft.",
+    "canonical_url": "/trails/missouri/ketcherside-mountain-mo",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Ketcherside Mountain",
+      "description": "Ketcherside Mountain is a 1,690 foot peak in Missouri offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.52366,
+        "longitude": -90.66901,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1690,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Missouri",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Ketcherside Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Ketcherside Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Ketcherside Mountain Trail on Ketcherside Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Ketcherside Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ketcherside Mountain is rated Moderate. At 1,690 feet, plan for the terrain and weather typical of Missouri peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Ketcherside Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Ketcherside Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Ketcherside Mountain Trail, a  moderate hike to the Ketcherside Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Ketcherside Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Ketcherside Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358064116",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358064116",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358064116,
+    "prominence_m": null,
+    "wikidata": "Q28005929"
+  }
+}
