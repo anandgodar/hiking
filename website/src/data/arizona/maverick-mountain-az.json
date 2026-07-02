@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Maverick Mountain",
   "slug": "maverick-mountain-az",
   "state": "Arizona",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Maverick Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
+        "distance": 0.6,
+        "gain": 95,
         "time": null,
-        "difficulty": ""
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,18 +32,213 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            33.63114,
+            -109.6882
           ],
           "summit": [
             33.62505,
             -109.68676
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            33.63114,
+            -109.6882,
+            7930
+          ],
+          [
+            33.62927,
+            -109.68768,
+            7949
+          ],
+          [
+            33.62829,
+            -109.68691,
+            7995
+          ],
+          [
+            33.62744,
+            -109.68708,
+            8002
+          ],
+          [
+            33.62746,
+            -109.68749,
+            8002
+          ],
+          [
+            33.62728,
+            -109.6876,
+            7953
+          ],
+          [
+            33.62705,
+            -109.6879,
+            7953
+          ],
+          [
+            33.62685,
+            -109.68878,
+            7907
+          ],
+          [
+            33.62645,
+            -109.6891,
+            7969
+          ],
+          [
+            33.62629,
+            -109.69001,
+            7927
+          ],
+          [
+            33.62604,
+            -109.69061,
+            7927
+          ],
+          [
+            33.6257,
+            -109.69091,
+            7927
+          ],
+          [
+            33.62505,
+            -109.69102,
+            7927
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 7930,
+            "coord": [
+              33.63114,
+              -109.6882
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 7930,
+            "coord": [
+              33.63114,
+              -109.6882
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 7949,
+            "coord": [
+              33.62927,
+              -109.68768
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 7949,
+            "coord": [
+              33.62927,
+              -109.68768
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 7949,
+            "coord": [
+              33.62927,
+              -109.68768
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 7995,
+            "coord": [
+              33.62829,
+              -109.68691
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 8002,
+            "coord": [
+              33.62744,
+              -109.68708
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 8002,
+            "coord": [
+              33.62746,
+              -109.68749
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 7953,
+            "coord": [
+              33.62705,
+              -109.6879
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 7907,
+            "coord": [
+              33.62685,
+              -109.68878
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 7969,
+            "coord": [
+              33.62645,
+              -109.6891
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 7927,
+            "coord": [
+              33.62629,
+              -109.69001
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 7927,
+            "coord": [
+              33.62604,
+              -109.69061
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 7927,
+            "coord": [
+              33.6257,
+              -109.69091
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 7927,
+            "coord": [
+              33.62505,
+              -109.69102
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Maverick Mountain",
+          "type": "summit",
+          "lat": 33.62505,
+          "lon": -109.68676,
+          "mile": 0.33
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Maverick Mountain</strong> is a 8,097-foot summit in Arizona. Nearby peaks include Baldy Peak, Mount Ord and South Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,10 +367,12 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/359248442",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/359248442",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 359248442,

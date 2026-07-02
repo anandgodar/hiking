@@ -133,6 +133,30 @@ export async function GET() {
     { city: 'san-francisco', priority: 0.85 }
   ];
 
+  // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
+  // within-100mi rule so we never sitemap a page that wasn't generated.
+  try {
+    const cities = (await import('../data-static/cities.json')).default;
+    const hav = (aLat, aLon, bLat, bLon) => {
+      const R = 3959;
+      const dLat = (bLat - aLat) * Math.PI / 180;
+      const dLon = (bLon - aLon) * Math.PI / 180;
+      const a = Math.sin(dLat / 2) ** 2 +
+        Math.cos(aLat * Math.PI / 180) * Math.cos(bLat * Math.PI / 180) *
+        Math.sin(dLon / 2) ** 2;
+      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    };
+    const liveCoords = [];
+    Object.values(allFiles).forEach(mod => {
+      const m = mod.default || mod;
+      if (m && m.lat && m.lon && isPublishReady(m)) liveCoords.push([m.lat, m.lon]);
+    });
+    cities.forEach(c => {
+      const n = liveCoords.filter(([la, lo]) => hav(c.lat, c.lon, la, lo) <= 100).length;
+      if (n >= 5) nearMePages.push({ city: c.slug, priority: 0.85 });
+    });
+  } catch { /* cities file optional */ }
+
   nearMePages.forEach(({ city, priority }) => {
     pages.push({
       url: `${siteUrl}/near/${city}`,

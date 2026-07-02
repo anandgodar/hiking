@@ -78,7 +78,13 @@ const { mountain, downloads } = Astro.props;
   </p>
 </section>
 
-<script define:vars={{ mountainSlug: mountain.slug, mountainName: mountain.name, trails: mountain.trails }}>
+<script define:vars={{
+  mountainSlug: mountain.slug,
+  mountainName: mountain.name,
+  // GPX export only needs each route's name + path; serializing the full
+  // trails array (features, logistics, descriptions) added ~150 KB per page.
+  trails: (mountain.trails || []).map(t => ({ name: t.name, geo: { path: t.geo?.path || [] } })),
+}}>
   document.querySelectorAll('.gpx-download-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       let gpxContent = `<?xml version="1.0" encoding="UTF-8"?>

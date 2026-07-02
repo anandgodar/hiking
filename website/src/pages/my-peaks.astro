@@ -1,0 +1,84 @@
+---
+/**
+ * My Peaks — the peak-bagging progress page.
+ * Location: src/pages/my-peaks.astro
+ *
+ * Renders entirely from localStorage (key: summitseeker_peaks), written by
+ * the SavePeakButton on every trail page. No account, no server — the
+ * tracker the homepage has always promised.
+ */
+import Layout from '../layouts/Layout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+---
+
+<Layout title="My Peaks | Your Peak-Bagging Progress"
+        description="Track the summits you've climbed and the hikes you've saved for later.">
+  <main class="min-h-screen bg-stone-50">
+    <div class="max-w-4xl mx-auto px-4 py-12">
+      <h1 class="font-serif text-4xl md:text-5xl font-black text-stone-900 mb-2">My Peaks</h1>
+      <p class="text-stone-600 mb-8">Saved on this device — no account needed.</p>
+
+      <div id="stats" class="grid grid-cols-2 gap-4 mb-10 max-w-md"></div>
+
+      <section>
+        <h2 class="font-serif text-2xl font-bold text-stone-900 mb-4">✓ Summited</h2>
+        <div id="completed" class="space-y-2 mb-10"></div>
+      </section>
+
+      <section>
+        <h2 class="font-serif text-2xl font-bold text-stone-900 mb-4">☆ Saved for Later</h2>
+        <div id="saved" class="space-y-2"></div>
+      </section>
+
+      <p id="empty" class="hidden text-stone-500 mt-6">
+        Nothing tracked yet. Open any trail page and hit
+        <strong>Mark as Summited</strong> or <strong>Save for Later</strong> —
+        start exploring from the <a href="/" class="text-emerald-700 underline">homepage</a>.
+      </p>
+    </div>
+    <SiteFooter />
+  </main>
+</Layout>
+
+<script>
+  const KEY = 'summitseeker_peaks';
+  let all = {};
+  try { all = JSON.parse(localStorage.getItem(KEY)) || {}; } catch {}
+
+  const rows = Object.entries(all).map(([slug, p]) => ({ slug, ...p }));
+  const completed = rows.filter(r => r.status === 'completed')
+    .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  const saved = rows.filter(r => r.status === 'saved')
+    .sort((a, b) => (b.elevation || 0) - (a.elevation || 0));
+
+  const fmt = (n) => (typeof n === 'number' ? n.toLocaleString() + ' ft' : '');
+  const row = (r, badge) => `
+    <a href="/${r.state_slug}/hikes/${r.slug}"
+       class="flex items-center justify-between bg-white border border-stone-200 rounded-lg px-4 py-3 hover:border-emerald-500 transition-colors">
+      <span>
+        <span class="font-semibold text-stone-900">${r.name}</span>
+        <span class="text-sm text-stone-500 ml-2">${r.state || ''} ${fmt(r.elevation) ? '· ' + fmt(r.elevation) : ''}</span>
+      </span>
+      <span class="text-xs text-stone-400">${badge}${r.date ? ' ' + r.date : ''}</span>
+    </a>`;
+
+  document.getElementById('completed').innerHTML =
+    completed.map(r => row(r, '✓')).join('') ||
+    '<p class="text-stone-400 text-sm">No summits logged yet.</p>';
+  document.getElementById('saved').innerHTML =
+    saved.map(r => row(r, '★')).join('') ||
+    '<p class="text-stone-400 text-sm">No saved hikes yet.</p>';
+
+  const totalGain = completed.reduce((s, r) => s + (r.elevation || 0), 0);
+  document.getElementById('stats').innerHTML = `
+    <div class="bg-white border border-stone-200 rounded-xl p-4 text-center">
+      <div class="text-3xl font-black text-emerald-700">${completed.length}</div>
+      <div class="text-xs uppercase tracking-wide text-stone-500">Peaks Summited</div>
+    </div>
+    <div class="bg-white border border-stone-200 rounded-xl p-4 text-center">
+      <div class="text-3xl font-black text-emerald-700">${totalGain.toLocaleString()}</div>
+      <div class="text-xs uppercase tracking-wide text-stone-500">Total Summit Ft</div>
+    </div>`;
+
+  if (!rows.length) document.getElementById('empty').classList.remove('hidden');
+</script>
