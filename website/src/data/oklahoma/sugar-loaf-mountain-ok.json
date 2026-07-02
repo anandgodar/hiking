@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Sugar Loaf Mountain",
+  "slug": "sugar-loaf-mountain-ok",
+  "state": "Oklahoma",
+  "state_slug": "oklahoma",
+  "elevation": 2562,
+  "lat": 35.02621,
+  "lon": -94.46828,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Sugar Loaf Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            35.02621,
+            -94.46828
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Sugar Loaf Mountain</strong> rises to 2,562 feet in Oklahoma. Nearby peaks include Oklahoma High Top, Wilton Mountain and Polecat Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Oklahoma High Top",
+      "slug": "oklahoma-high-top-ok",
+      "state_slug": "oklahoma",
+      "elevation": 2385,
+      "distance_miles": 7.1
+    },
+    {
+      "name": "Wilton Mountain",
+      "slug": "wilton-mountain-ok",
+      "state_slug": "oklahoma",
+      "elevation": 2543,
+      "distance_miles": 24.7
+    },
+    {
+      "name": "Polecat Peak",
+      "slug": "polecat-peak-ok",
+      "state_slug": "oklahoma",
+      "elevation": 2402,
+      "distance_miles": 30.1
+    },
+    {
+      "name": "Lynn Mountain",
+      "slug": "lynn-mountain-ok",
+      "state_slug": "oklahoma",
+      "elevation": 2467,
+      "distance_miles": 30.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Sugar Loaf Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Sugar Loaf Mountain hike with current conditions, trail map & parking info. Oklahoma summit at 2,562 ft.",
+    "canonical_url": "/trails/oklahoma/sugar-loaf-mountain-ok",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Sugar Loaf Mountain",
+      "description": "Sugar Loaf Mountain is a 2,562 foot peak in Oklahoma offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.02621,
+        "longitude": -94.46828,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2562,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Oklahoma",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Sugar Loaf Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Sugar Loaf Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Sugar Loaf Mountain Trail on Sugar Loaf Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sugar Loaf Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sugar Loaf Mountain is rated Moderate. At 2,562 feet, plan for the terrain and weather typical of Oklahoma peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Sugar Loaf Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Sugar Loaf Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Sugar Loaf Mountain Trail, a  moderate hike to the Sugar Loaf Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Sugar Loaf Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Sugar Loaf Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357409467",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357409467",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357409467,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

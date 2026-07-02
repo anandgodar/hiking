@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Castle Rock Pillar",
+  "slug": "castle-rock-pillar-ok",
+  "state": "Oklahoma",
+  "state_slug": "oklahoma",
+  "elevation": 4288,
+  "lat": 36.92025,
+  "lon": -102.83109,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Castle Rock Pillar Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            36.92025,
+            -102.83109
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Castle Rock Pillar</strong> is a 4,288-foot summit in Oklahoma. Nearby peaks include Independence Arch, Robbers Roost Peak and Black Mesa. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Independence Arch",
+      "slug": "independence-arch-ok",
+      "state_slug": "oklahoma",
+      "elevation": 4380,
+      "distance_miles": 3.3
+    },
+    {
+      "name": "Robbers Roost Peak",
+      "slug": "robbers-roost-peak-ok",
+      "state_slug": "oklahoma",
+      "elevation": 4469,
+      "distance_miles": 5.8
+    },
+    {
+      "name": "Black Mesa",
+      "slug": "black-mesa-ok",
+      "state_slug": "oklahoma",
+      "elevation": 4973,
+      "distance_miles": 9.2
+    },
+    {
+      "name": "Razor Blade Mesa",
+      "slug": "razor-blade-mesa-ok",
+      "state_slug": "oklahoma",
+      "elevation": 4085,
+      "distance_miles": 14.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Castle Rock Pillar Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Castle Rock Pillar hike with current conditions, trail map & parking info. Oklahoma summit at 4,288 ft.",
+    "canonical_url": "/trails/oklahoma/castle-rock-pillar-ok",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Castle Rock Pillar",
+      "description": "Castle Rock Pillar is a 4,288 foot peak in Oklahoma offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.92025,
+        "longitude": -102.83109,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4288,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Oklahoma",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Castle Rock Pillar Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Castle Rock Pillar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Castle Rock Pillar Trail on Castle Rock Pillar is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Castle Rock Pillar hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Castle Rock Pillar is rated Moderate. At 4,288 feet, plan for the terrain and weather typical of Oklahoma peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Castle Rock Pillar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Castle Rock Pillar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Castle Rock Pillar Trail, a  moderate hike to the Castle Rock Pillar summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Castle Rock Pillar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Castle Rock Pillar. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/1374055823",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/1374055823",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 1374055823,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

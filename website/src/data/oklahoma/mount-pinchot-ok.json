@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Pinchot",
+  "slug": "mount-pinchot-ok",
+  "state": "Oklahoma",
+  "state_slug": "oklahoma",
+  "elevation": 2461,
+  "lat": 34.79951,
+  "lon": -98.77257,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Pinchot Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            34.79951,
+            -98.77257
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Pinchot</strong> rises to 2,461 feet in Oklahoma. Nearby peaks include Baker Peak, Mount Lauramac and Tarbone Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Baker Peak",
+      "slug": "baker-peak-ok",
+      "state_slug": "oklahoma",
+      "elevation": 2395,
+      "distance_miles": 2.0
+    },
+    {
+      "name": "Mount Lauramac",
+      "slug": "mount-lauramac-ok",
+      "state_slug": "oklahoma",
+      "elevation": 2398,
+      "distance_miles": 7.9
+    },
+    {
+      "name": "Tarbone Mountain",
+      "slug": "tarbone-mountain-ok",
+      "state_slug": "oklahoma",
+      "elevation": 2398,
+      "distance_miles": 9.1
+    },
+    {
+      "name": "Mount Scott",
+      "slug": "mount-scott-ok",
+      "state_slug": "oklahoma",
+      "elevation": 2461,
+      "distance_miles": 14.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Pinchot Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Pinchot hike with current conditions, trail map & parking info. Oklahoma summit at 2,461 ft.",
+    "canonical_url": "/trails/oklahoma/mount-pinchot-ok",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Pinchot",
+      "description": "Mount Pinchot is a 2,461 foot peak in Oklahoma offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.79951,
+        "longitude": -98.77257,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2461,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Oklahoma",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Pinchot Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Pinchot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Pinchot Trail on Mount Pinchot is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Pinchot hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Pinchot is rated Moderate. At 2,461 feet, plan for the terrain and weather typical of Oklahoma peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Pinchot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Pinchot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Pinchot Trail, a  moderate hike to the Mount Pinchot summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Pinchot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Pinchot. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357411680",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357411680",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357411680,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}
