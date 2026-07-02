@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Horn Mountain",
+  "slug": "horn-mountain-al",
+  "state": "Alabama",
+  "state_slug": "alabama",
+  "elevation": 1929,
+  "lat": 33.29789,
+  "lon": -86.07469,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Horn Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            33.29789,
+            -86.07469
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,929 feet, <strong>Horn Mountain</strong> is a summit in Alabama. Nearby peaks include The Pinnacle, Rebecca Mountain and Burgess Point. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "The Pinnacle",
+      "slug": "the-pinnacle-al",
+      "state_slug": "alabama",
+      "elevation": 1604,
+      "distance_miles": 2.7
+    },
+    {
+      "name": "Rebecca Mountain",
+      "slug": "rebecca-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 1493,
+      "distance_miles": 10.6
+    },
+    {
+      "name": "Burgess Point",
+      "slug": "burgess-point-al",
+      "state_slug": "alabama",
+      "elevation": 1873,
+      "distance_miles": 11.3
+    },
+    {
+      "name": "Robinson Mountain",
+      "slug": "robinson-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 1572,
+      "distance_miles": 14.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Horn Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Horn Mountain hike with current conditions, trail map & parking info. Alabama summit at 1,929 ft.",
+    "canonical_url": "/trails/alabama/horn-mountain-al",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Horn Mountain",
+      "description": "Horn Mountain is a 1,929 foot peak in Alabama offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.29789,
+        "longitude": -86.07469,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1929,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alabama",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Horn Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Horn Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Horn Mountain Trail on Horn Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Horn Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Horn Mountain is rated Moderate. At 1,929 feet, plan for the terrain and weather typical of Alabama peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Horn Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Horn Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Horn Mountain Trail, a  moderate hike to the Horn Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Horn Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Horn Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358999400",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358999400",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358999400,
+    "prominence_m": null,
+    "wikidata": "Q31721399"
+  }
+}
