@@ -1,0 +1,913 @@
+{
+  "name": "Duckbill",
+  "slug": "duckbill-az",
+  "state": "Arizona",
+  "state_slug": "arizona",
+  "elevation": 8396,
+  "lat": 32.20841,
+  "lon": -110.54591,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Duckbill Trail",
+      "difficulty": "Strenuous",
+      "type": "",
+      "stats": {
+        "distance": 6.4,
+        "gain": 2694,
+        "time": null,
+        "difficulty": "Strenuous"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            32.3063,
+            -110.57427
+          ],
+          "summit": [
+            32.20841,
+            -110.54591
+          ]
+        },
+        "path": [
+          [
+            32.3063,
+            -110.57427,
+            4344
+          ],
+          [
+            32.30629,
+            -110.57335,
+            4350
+          ],
+          [
+            32.3061,
+            -110.57263,
+            4337
+          ],
+          [
+            32.30584,
+            -110.5719,
+            4344
+          ],
+          [
+            32.30594,
+            -110.57113,
+            4344
+          ],
+          [
+            32.30558,
+            -110.57026,
+            4383
+          ],
+          [
+            32.30542,
+            -110.56929,
+            4364
+          ],
+          [
+            32.30494,
+            -110.56887,
+            4344
+          ],
+          [
+            32.30431,
+            -110.56887,
+            4344
+          ],
+          [
+            32.30363,
+            -110.5692,
+            4324
+          ],
+          [
+            32.30298,
+            -110.56904,
+            4295
+          ],
+          [
+            32.30253,
+            -110.56869,
+            4295
+          ],
+          [
+            32.30212,
+            -110.56812,
+            4268
+          ],
+          [
+            32.30157,
+            -110.56791,
+            4252
+          ],
+          [
+            32.30093,
+            -110.56844,
+            4272
+          ],
+          [
+            32.30084,
+            -110.56894,
+            4272
+          ],
+          [
+            32.3002,
+            -110.5694,
+            4252
+          ],
+          [
+            32.29975,
+            -110.56913,
+            4203
+          ],
+          [
+            32.29914,
+            -110.56956,
+            4219
+          ],
+          [
+            32.29831,
+            -110.56975,
+            4213
+          ],
+          [
+            32.29787,
+            -110.5694,
+            4213
+          ],
+          [
+            32.29737,
+            -110.57016,
+            4180
+          ],
+          [
+            32.29653,
+            -110.57061,
+            4147
+          ],
+          [
+            32.29579,
+            -110.57032,
+            4137
+          ],
+          [
+            32.29497,
+            -110.56993,
+            4117
+          ],
+          [
+            32.29418,
+            -110.56978,
+            4117
+          ],
+          [
+            32.29336,
+            -110.56934,
+            4104
+          ],
+          [
+            32.29251,
+            -110.56937,
+            4088
+          ],
+          [
+            32.29173,
+            -110.56888,
+            4072
+          ],
+          [
+            32.29136,
+            -110.5684,
+            4065
+          ],
+          [
+            32.29043,
+            -110.56836,
+            4068
+          ],
+          [
+            32.28991,
+            -110.5679,
+            4052
+          ],
+          [
+            32.28901,
+            -110.56837,
+            4045
+          ],
+          [
+            32.28806,
+            -110.56862,
+            4029
+          ],
+          [
+            32.28711,
+            -110.56872,
+            4026
+          ],
+          [
+            32.2863,
+            -110.56877,
+            4019
+          ],
+          [
+            32.28561,
+            -110.56956,
+            4009
+          ],
+          [
+            32.2849,
+            -110.56967,
+            3999
+          ],
+          [
+            32.28416,
+            -110.56946,
+            3999
+          ],
+          [
+            32.28365,
+            -110.56905,
+            3990
+          ],
+          [
+            32.2832,
+            -110.56828,
+            3986
+          ],
+          [
+            32.28309,
+            -110.56726,
+            3993
+          ],
+          [
+            32.28278,
+            -110.56636,
+            3999
+          ],
+          [
+            32.28262,
+            -110.56566,
+            4016
+          ],
+          [
+            32.28249,
+            -110.56482,
+            4078
+          ],
+          [
+            32.28228,
+            -110.56428,
+            4078
+          ],
+          [
+            32.2815,
+            -110.56379,
+            4160
+          ],
+          [
+            32.2809,
+            -110.56319,
+            4190
+          ],
+          [
+            32.28049,
+            -110.56239,
+            4268
+          ],
+          [
+            32.28004,
+            -110.56163,
+            4275
+          ],
+          [
+            32.27967,
+            -110.56078,
+            4324
+          ],
+          [
+            32.27924,
+            -110.56006,
+            4324
+          ],
+          [
+            32.27874,
+            -110.55994,
+            4393
+          ],
+          [
+            32.27901,
+            -110.55909,
+            4446
+          ],
+          [
+            32.27904,
+            -110.55798,
+            4488
+          ],
+          [
+            32.27885,
+            -110.55691,
+            4498
+          ],
+          [
+            32.27801,
+            -110.55624,
+            4521
+          ],
+          [
+            32.27715,
+            -110.55587,
+            4498
+          ],
+          [
+            32.27639,
+            -110.55534,
+            4564
+          ],
+          [
+            32.27567,
+            -110.55472,
+            4587
+          ],
+          [
+            32.27484,
+            -110.55419,
+            4557
+          ],
+          [
+            32.27389,
+            -110.55419,
+            4560
+          ],
+          [
+            32.27332,
+            -110.55367,
+            4639
+          ],
+          [
+            32.27279,
+            -110.55291,
+            4623
+          ],
+          [
+            32.27225,
+            -110.55217,
+            4662
+          ],
+          [
+            32.27163,
+            -110.55133,
+            4682
+          ],
+          [
+            32.27185,
+            -110.55038,
+            4692
+          ],
+          [
+            32.27165,
+            -110.5494,
+            4695
+          ],
+          [
+            32.27106,
+            -110.54903,
+            4692
+          ],
+          [
+            32.27029,
+            -110.54867,
+            4695
+          ],
+          [
+            32.26934,
+            -110.54841,
+            4705
+          ],
+          [
+            32.26845,
+            -110.54828,
+            4738
+          ],
+          [
+            32.26762,
+            -110.54809,
+            4764
+          ],
+          [
+            32.26666,
+            -110.54791,
+            4787
+          ],
+          [
+            32.2657,
+            -110.54789,
+            4813
+          ],
+          [
+            32.26538,
+            -110.54724,
+            4780
+          ],
+          [
+            32.26462,
+            -110.54715,
+            4820
+          ],
+          [
+            32.26394,
+            -110.54675,
+            4875
+          ],
+          [
+            32.26318,
+            -110.54725,
+            4970
+          ],
+          [
+            32.26227,
+            -110.54752,
+            5010
+          ],
+          [
+            32.2616,
+            -110.54699,
+            5007
+          ],
+          [
+            32.26117,
+            -110.54659,
+            5023
+          ],
+          [
+            32.26045,
+            -110.54654,
+            5010
+          ],
+          [
+            32.25974,
+            -110.5469,
+            5016
+          ],
+          [
+            32.25893,
+            -110.54715,
+            5023
+          ],
+          [
+            32.25824,
+            -110.5471,
+            5043
+          ],
+          [
+            32.25784,
+            -110.54619,
+            5052
+          ],
+          [
+            32.25751,
+            -110.54547,
+            5075
+          ],
+          [
+            32.257,
+            -110.54458,
+            5128
+          ],
+          [
+            32.25665,
+            -110.54378,
+            5243
+          ],
+          [
+            32.25608,
+            -110.54301,
+            5213
+          ],
+          [
+            32.25574,
+            -110.54294,
+            5318
+          ],
+          [
+            32.25491,
+            -110.54262,
+            5407
+          ],
+          [
+            32.25399,
+            -110.54223,
+            5407
+          ],
+          [
+            32.25307,
+            -110.5422,
+            5390
+          ],
+          [
+            32.25252,
+            -110.5416,
+            5420
+          ],
+          [
+            32.25175,
+            -110.54142,
+            5417
+          ],
+          [
+            32.25122,
+            -110.54158,
+            5449
+          ],
+          [
+            32.25044,
+            -110.54135,
+            5538
+          ],
+          [
+            32.24951,
+            -110.5413,
+            5604
+          ],
+          [
+            32.24876,
+            -110.54095,
+            5643
+          ],
+          [
+            32.24808,
+            -110.54081,
+            5659
+          ],
+          [
+            32.24725,
+            -110.54066,
+            5702
+          ],
+          [
+            32.24685,
+            -110.53973,
+            5702
+          ],
+          [
+            32.24639,
+            -110.53939,
+            5755
+          ],
+          [
+            32.24559,
+            -110.5393,
+            5814
+          ],
+          [
+            32.24472,
+            -110.53906,
+            5899
+          ],
+          [
+            32.24381,
+            -110.53925,
+            5909
+          ],
+          [
+            32.24376,
+            -110.5387,
+            5935
+          ],
+          [
+            32.24389,
+            -110.53784,
+            5958
+          ],
+          [
+            32.24354,
+            -110.53773,
+            5958
+          ],
+          [
+            32.24305,
+            -110.53796,
+            6053
+          ],
+          [
+            32.2427,
+            -110.53828,
+            6053
+          ],
+          [
+            32.24223,
+            -110.53831,
+            6145
+          ],
+          [
+            32.24172,
+            -110.53844,
+            6125
+          ],
+          [
+            32.24143,
+            -110.53909,
+            6240
+          ],
+          [
+            32.24074,
+            -110.53919,
+            6263
+          ],
+          [
+            32.23996,
+            -110.53911,
+            6404
+          ],
+          [
+            32.23947,
+            -110.53834,
+            6404
+          ],
+          [
+            32.23879,
+            -110.5383,
+            6519
+          ],
+          [
+            32.23736,
+            -110.53785,
+            6680
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 4344,
+            "coord": [
+              32.3063,
+              -110.57427
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 4324,
+            "coord": [
+              32.30363,
+              -110.5692
+            ]
+          },
+          {
+            "mile": 0.91,
+            "elev": 4213,
+            "coord": [
+              32.29787,
+              -110.5694
+            ]
+          },
+          {
+            "mile": 1.37,
+            "elev": 4072,
+            "coord": [
+              32.29173,
+              -110.56888
+            ]
+          },
+          {
+            "mile": 1.82,
+            "elev": 4019,
+            "coord": [
+              32.2863,
+              -110.56877
+            ]
+          },
+          {
+            "mile": 2.28,
+            "elev": 4078,
+            "coord": [
+              32.28249,
+              -110.56482
+            ]
+          },
+          {
+            "mile": 2.74,
+            "elev": 4446,
+            "coord": [
+              32.27901,
+              -110.55909
+            ]
+          },
+          {
+            "mile": 3.19,
+            "elev": 4557,
+            "coord": [
+              32.27484,
+              -110.55419
+            ]
+          },
+          {
+            "mile": 3.65,
+            "elev": 4692,
+            "coord": [
+              32.27106,
+              -110.54903
+            ]
+          },
+          {
+            "mile": 4.11,
+            "elev": 4820,
+            "coord": [
+              32.26462,
+              -110.54715
+            ]
+          },
+          {
+            "mile": 4.56,
+            "elev": 5023,
+            "coord": [
+              32.25893,
+              -110.54715
+            ]
+          },
+          {
+            "mile": 5.02,
+            "elev": 5407,
+            "coord": [
+              32.25399,
+              -110.54223
+            ]
+          },
+          {
+            "mile": 5.47,
+            "elev": 5659,
+            "coord": [
+              32.24808,
+              -110.54081
+            ]
+          },
+          {
+            "mile": 5.93,
+            "elev": 6053,
+            "coord": [
+              32.24305,
+              -110.53796
+            ]
+          },
+          {
+            "mile": 6.39,
+            "elev": 6680,
+            "coord": [
+              32.23736,
+              -110.53785
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Duckbill</strong> rises to 8,396 feet in Arizona. The Duckbill Trail is a 6.4-mile hike with about 2,694 feet of elevation gain. Nearby peaks include Mica Mountain, Wrong Mountain and Mount Bigelow. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mica Mountain",
+      "slug": "mica-mountain-az",
+      "state_slug": "arizona",
+      "elevation": 8619,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Wrong Mountain",
+      "slug": "wrong-mountain-az",
+      "state_slug": "arizona",
+      "elevation": 8064,
+      "distance_miles": 6.8
+    },
+    {
+      "name": "Mount Bigelow",
+      "slug": "mount-bigelow-az",
+      "state_slug": "arizona",
+      "elevation": 8552,
+      "distance_miles": 17.4
+    },
+    {
+      "name": "Apache Peak",
+      "slug": "apache-peak-az",
+      "state_slug": "arizona",
+      "elevation": 8301,
+      "distance_miles": 27.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Duckbill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Duckbill hike with current conditions, trail map & parking info. Arizona summit at 8,396 ft.",
+    "canonical_url": "/trails/arizona/duckbill-az",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Duckbill",
+      "description": "Duckbill is a 8,396 foot peak in Arizona offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.20841,
+        "longitude": -110.54591,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 8396,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Arizona",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Duckbill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 32.3063,
+            "longitude": -110.57427
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Duckbill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Duckbill Trail on Duckbill is 6.4-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Duckbill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Duckbill is rated Moderate. At 8,396 feet, plan for the terrain and weather typical of Arizona peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Duckbill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Duckbill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Duckbill Trail, a 6.4-mile moderate hike to the Duckbill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Duckbill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Duckbill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/359265204",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/359265204",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 359265204,
+    "prominence_m": null,
+    "wikidata": "Q49026019"
+  }
+}
