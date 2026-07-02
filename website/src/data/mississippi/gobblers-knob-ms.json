@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Gobblers Knob",
+  "slug": "gobblers-knob-ms",
+  "state": "Mississippi",
+  "state_slug": "mississippi",
+  "elevation": 525,
+  "lat": 34.81759,
+  "lon": -88.47366,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Gobblers Knob Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            34.81759,
+            -88.47366
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 525 feet, <strong>Gobblers Knob</strong> is a summit in Mississippi. Nearby peaks include Sand Hill, Bloodsaw Hill and Southerland Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Sand Hill",
+      "slug": "sand-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 528,
+      "distance_miles": 1.1
+    },
+    {
+      "name": "Bloodsaw Hill",
+      "slug": "bloodsaw-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 604,
+      "distance_miles": 4.2
+    },
+    {
+      "name": "Southerland Hill",
+      "slug": "southerland-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 577,
+      "distance_miles": 4.5
+    },
+    {
+      "name": "Bald Hill",
+      "slug": "bald-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 620,
+      "distance_miles": 11.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Gobblers Knob Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Gobblers Knob hike with current conditions, trail map & parking info. Mississippi summit at 525 ft.",
+    "canonical_url": "/trails/mississippi/gobblers-knob-ms",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Gobblers Knob",
+      "description": "Gobblers Knob is a 525 foot peak in Mississippi offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.81759,
+        "longitude": -88.47366,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 525,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Mississippi",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Gobblers Knob Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Gobblers Knob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Gobblers Knob Trail on Gobblers Knob is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Gobblers Knob hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gobblers Knob is rated Moderate. At 525 feet, plan for the terrain and weather typical of Mississippi peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Gobblers Knob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Gobblers Knob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Gobblers Knob Trail, a  moderate hike to the Gobblers Knob summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Gobblers Knob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Gobblers Knob. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357931651",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357931651",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357931651,
+    "prominence_m": null,
+    "wikidata": "Q31612691"
+  }
+}

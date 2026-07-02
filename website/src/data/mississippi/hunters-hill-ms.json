@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Hunters Hill",
+  "slug": "hunters-hill-ms",
+  "state": "Mississippi",
+  "state_slug": "mississippi",
+  "elevation": 581,
+  "lat": 34.66565,
+  "lon": -89.19979,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Hunters Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            34.66565,
+            -89.19979
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 581 feet, <strong>Hunters Hill</strong> is a summit in Mississippi. Nearby peaks include Renick Hill, Suttles Rocks and Heipsy Hills. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Renick Hill",
+      "slug": "renick-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 525,
+      "distance_miles": 4.9
+    },
+    {
+      "name": "Suttles Rocks",
+      "slug": "suttles-rocks-ms",
+      "state_slug": "mississippi",
+      "elevation": 584,
+      "distance_miles": 6.2
+    },
+    {
+      "name": "Heipsy Hills",
+      "slug": "heipsy-hills-ms",
+      "state_slug": "mississippi",
+      "elevation": 505,
+      "distance_miles": 6.7
+    },
+    {
+      "name": "Rogers Hill",
+      "slug": "rogers-hill-ms",
+      "state_slug": "mississippi",
+      "elevation": 650,
+      "distance_miles": 12.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Hunters Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Hunters Hill hike with current conditions, trail map & parking info. Mississippi summit at 581 ft.",
+    "canonical_url": "/trails/mississippi/hunters-hill-ms",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Hunters Hill",
+      "description": "Hunters Hill is a 581 foot peak in Mississippi offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.66565,
+        "longitude": -89.19979,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 581,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Mississippi",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Hunters Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Hunters Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Hunters Hill Trail on Hunters Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Hunters Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hunters Hill is rated Moderate. At 581 feet, plan for the terrain and weather typical of Mississippi peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Hunters Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Hunters Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Hunters Hill Trail, a  moderate hike to the Hunters Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Hunters Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Hunters Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357985254",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357985254",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357985254,
+    "prominence_m": null,
+    "wikidata": "Q31612892"
+  }
+}
