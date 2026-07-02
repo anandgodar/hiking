@@ -1,0 +1,143 @@
+---
+/**
+ * Programmatic SEO page: "Highest Peaks in <State>"
+ * Location: src/pages/[state]/highest-peaks.astro
+ *
+ * Ranked table of a state's published peaks by elevation — targets the
+ * "highest mountains in X" query family. Everything is derived from the
+ * trail data; only route-complete (published) trails appear.
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
+
+export async function getStaticPaths() {
+  const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+  const allMountains = Object.values(allFiles)
+    .map(f => f.default || f)
+    .filter(isPublishReady)
+    .filter(m => typeof m.elevation === 'number' && m.elevation > 0);
+
+  const normalizeState = (s) => {
+    if (s === 'nh') return 'new-hampshire';
+    if (s === 'me') return 'maine';
+    if (s === 'vt') return 'vermont';
+    if (s === 'ny') return 'new-york';
+    return s;
+  };
+
+  const byState = {};
+  allMountains.forEach(m => {
+    const slug = normalizeState(m.state_slug);
+    (byState[slug] ||= []).push(m);
+  });
+
+  return Object.entries(byState)
+    .filter(([, peaks]) => peaks.length >= 3) // no thin pages
+    .map(([stateSlug, peaks]) => ({
+      params: { state: stateSlug },
+      props: {
+        peaks: peaks.sort((a, b) => b.elevation - a.elevation),
+        stateSlug,
+      },
+    }));
+}
+
+const { peaks, stateSlug } = Astro.props;
+const stateName = peaks[0]?.state ||
+  stateSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+const highest = peaks[0];
+const year = new Date().getFullYear();
+
+const title = `Highest Peaks in ${stateName} | Top ${peaks.length} Mountains Ranked`;
+const description = `The ${peaks.length} highest mountains in ${stateName}, ranked by elevation. ${highest.name} tops the list at ${highest.elevation.toLocaleString()} ft. Trail maps, difficulty & guides for every summit.`.slice(0, 160);
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": `Highest Peaks in ${stateName}`,
+  "numberOfItems": peaks.length,
+  "itemListElement": peaks.slice(0, 25).map((m, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": m.name,
+    "url": `https://summitseeker.io/${stateSlug}/hikes/${m.slug}`,
+  })),
+};
+
+const diffOf = (m) => m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '—';
+const distOf = (m) => m.trails?.[0]?.stats?.distance;
+---
+
+<Layout title={title} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
+
+  <main class="min-h-screen bg-stone-50">
+    <div class="max-w-4xl mx-auto px-4 py-12">
+      <nav class="flex items-center gap-2 text-sm text-stone-500 mb-8">
+        <a href="/" class="hover:text-emerald-700">Home</a>
+        <span>/</span>
+        <a href={`/${stateSlug}`} class="hover:text-emerald-700 capitalize">{stateName}</a>
+        <span>/</span>
+        <span class="text-stone-800 font-medium">Highest Peaks</span>
+      </nav>
+
+      <h1 class="font-serif text-4xl md:text-5xl font-black text-stone-900 mb-4">
+        The Highest Peaks in {stateName}
+      </h1>
+      <p class="text-lg text-stone-600 mb-10 max-w-2xl">
+        {stateName}'s {peaks.length} highest hikeable summits, ranked by elevation.
+        The tallest is <a href={`/${stateSlug}/hikes/${highest.name && highest.slug}`}
+        class="text-emerald-700 font-semibold hover:underline">{highest.name}</a>
+        at {highest.elevation.toLocaleString()} ft. Every peak below links to a full
+        trail guide with maps, elevation profiles and parking info — updated {year}.
+      </p>
+
+      <div class="overflow-x-auto rounded-xl border border-stone-200 bg-white shadow-sm">
+        <table class="w-full text-left">
+          <thead class="bg-stone-100 text-stone-600 text-sm uppercase tracking-wide">
+            <tr>
+              <th class="px-4 py-3">#</th>
+              <th class="px-4 py-3">Peak</th>
+              <th class="px-4 py-3 text-right">Elevation</th>
+              <th class="px-4 py-3 text-right hidden sm:table-cell">Distance</th>
+              <th class="px-4 py-3 hidden sm:table-cell">Difficulty</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-stone-100">
+            {peaks.map((m, i) => (
+              <tr class="hover:bg-emerald-50/50 transition-colors">
+                <td class="px-4 py-3 text-stone-400 font-mono">{i + 1}</td>
+                <td class="px-4 py-3">
+                  <a href={`/${stateSlug}/hikes/${m.slug}`}
+                     class="font-semibold text-stone-900 hover:text-emerald-700">
+                    {m.name}
+                  </a>
+                </td>
+                <td class="px-4 py-3 text-right font-mono">{m.elevation.toLocaleString()} ft</td>
+                <td class="px-4 py-3 text-right font-mono hidden sm:table-cell">
+                  {distOf(m) ? `${distOf(m)} mi` : '—'}
+                </td>
+                <td class="px-4 py-3 hidden sm:table-cell">
+                  <span class="text-sm text-stone-600">{diffOf(m)}</span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-3">
+        <a href={`/${stateSlug}`}
+           class="px-4 py-2 rounded-lg bg-emerald-700 text-white text-sm font-semibold hover:bg-emerald-800">
+          All {stateName} Trails
+        </a>
+        <a href={`/${stateSlug}/hikes/view`}
+           class="px-4 py-2 rounded-lg border border-stone-300 text-sm font-semibold text-stone-700 hover:border-emerald-600 hover:text-emerald-700">
+          Hikes with Views
+        </a>
+      </div>
+    </div>
+    <SiteFooter />
+  </main>
+</Layout>

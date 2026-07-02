@@ -115,6 +115,12 @@ export async function GET() {
         priority: 0.8,
         changefreq: 'weekly'
       });
+      // Programmatic "highest peaks in <state>" listicle
+      pages.push({
+        url: `${siteUrl}/${s}/highest-peaks`,
+        priority: 0.75,
+        changefreq: 'weekly'
+      });
   });
 
   // 4. Add "Near Me" pages (high priority - local SEO)
