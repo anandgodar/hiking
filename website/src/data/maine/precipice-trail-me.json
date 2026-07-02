@@ -853,8 +853,8 @@
         ],
         "markers": {
           "start": [
-            44.3411,
-            -68.1822
+            44.34951,
+            -68.18792
           ],
           "summit": [
             44.3489,
@@ -885,32 +885,18 @@
       },
       "features": [
         {
-          "name": "Warning Sign",
-          "lat": 44.3422,
-          "lon": -68.1844,
-          "type": "landmark",
-          "mile": 0.1
+          "name": "Champlain Mountain",
+          "type": "summit",
+          "lat": 44.3508,
+          "lon": -68.19405,
+          "mile": 0.49
         },
         {
-          "name": "First Cliff Section",
-          "lat": 44.3444,
-          "lon": -68.1867,
-          "type": "scramble",
-          "mile": 0.3
-        },
-        {
-          "name": "Iron Bridge",
-          "lat": 44.3467,
-          "lon": -68.1878,
-          "type": "landmark",
-          "mile": 0.5
-        },
-        {
-          "name": "Final Ladders",
-          "lat": 44.3478,
-          "lon": -68.1889,
-          "type": "ladder",
-          "mile": 0.7
+          "name": "Great Cave",
+          "type": "cave",
+          "lat": 44.3491,
+          "lon": -68.19036,
+          "mile": 0.71
         }
       ]
     }
@@ -1233,6 +1219,7 @@
     "elevation_source": "USGS Benchmark - Acadia peaks",
     "gps_source": "USGS Topographic Map",
     "distance_source": "NPS Acadia trail maps and signage",
-    "notes": "Trail data from Acadia National Park official maps. Elevations from USGS benchmarks. Distance from NPS trail guides and signage."
+    "notes": "Trail data from Acadia National Park official maps. Elevations from USGS benchmarks. Distance from NPS trail guides and signage.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

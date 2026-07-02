@@ -1801,8 +1801,8 @@
         ],
         "markers": {
           "start": [
-            45.8854,
-            -68.9986
+            45.88554,
+            -69.00023
           ],
           "summit": [
             45.9044,
@@ -1843,46 +1843,32 @@
       },
       "features": [
         {
-          "name": "Katahdin Stream Falls",
-          "lat": 45.8892,
-          "lon": -68.9901,
+          "name": "The Ranger Shelter",
+          "type": "hut",
+          "lat": 45.8867,
+          "lon": -68.99778,
+          "mile": 0.11
+        },
+        {
+          "name": "Katahdin Falls",
           "type": "waterfall",
-          "mile": 1.2
-        },
-        {
-          "name": "The Owl Junction",
-          "lat": 45.8933,
-          "lon": -68.9756,
-          "type": "junction",
-          "mile": 2.1
-        },
-        {
-          "name": "Hunt Spur",
-          "lat": 45.8978,
-          "lon": -68.9567,
-          "type": "viewpoint",
-          "mile": 3.2
+          "lat": 45.89589,
+          "lon": -68.98219,
+          "mile": 1.28
         },
         {
           "name": "The Gateway",
-          "lat": 45.9011,
-          "lon": -68.9389,
-          "type": "landmark",
-          "mile": 4.0
+          "type": "cliff",
+          "lat": 45.89792,
+          "lon": -68.95369,
+          "mile": 2.88
         },
         {
           "name": "Thoreau Spring",
-          "lat": 45.9033,
-          "lon": -68.9267,
-          "type": "water",
-          "mile": 4.8
-        },
-        {
-          "name": "AT Northern Terminus",
-          "lat": 45.9044,
-          "lon": -68.9213,
-          "type": "summit",
-          "mile": 5.2
+          "type": "spring",
+          "lat": 45.89827,
+          "lon": -68.93655,
+          "mile": 3.77
         }
       ]
     },
@@ -5943,6 +5929,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map - Katahdin region",
     "distance_source": "Baxter State Park trail guides",
-    "notes": "Trail data from Baxter State Park official maps. Mount Katahdin is northern terminus of Appalachian Trail. Elevations from USGS benchmarks."
+    "notes": "Trail data from Baxter State Park official maps. Mount Katahdin is northern terminus of Appalachian Trail. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

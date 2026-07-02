@@ -1267,8 +1267,8 @@
         ],
         "markers": {
           "start": [
-            44.5917,
-            -70.9367
+            44.58983,
+            -70.94713
           ],
           "summit": [
             44.5728,
@@ -1299,32 +1299,11 @@
       },
       "features": [
         {
-          "name": "Cascade Falls",
-          "lat": 44.5878,
-          "lon": -70.9389,
-          "type": "waterfall",
-          "mile": 0.3
-        },
-        {
-          "name": "Eyebrow Loop Junction",
-          "lat": 44.5833,
-          "lon": -70.9422,
-          "type": "junction",
-          "mile": 0.9
-        },
-        {
-          "name": "Mahoosuc Trail Junction",
-          "lat": 44.5756,
-          "lon": -70.9511,
-          "type": "junction",
-          "mile": 3.0
-        },
-        {
-          "name": "Old Speck Fire Tower",
-          "lat": 44.5728,
-          "lon": -70.9544,
-          "type": "fire_tower",
-          "mile": 3.8
+          "name": "Old Speck Mountain",
+          "type": "summit",
+          "lat": 44.57088,
+          "lon": -70.95362,
+          "mile": 3.25
         }
       ]
     },
@@ -2527,6 +2506,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
-    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

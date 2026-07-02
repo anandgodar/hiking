@@ -1237,25 +1237,11 @@
       },
       "features": [
         {
-          "name": "First Ledges",
-          "lat": 44.0522,
-          "lon": -70.8156,
-          "type": "viewpoint",
-          "mile": 1.0
-        },
-        {
-          "name": "North Summit",
-          "lat": 44.0489,
-          "lon": -70.8211,
-          "type": "viewpoint",
-          "mile": 2.0
-        },
-        {
-          "name": "Fire Tower",
-          "lat": 44.0467,
-          "lon": -70.8267,
-          "type": "fire_tower",
-          "mile": 2.5
+          "name": "Pleasant Mountain",
+          "type": "summit",
+          "lat": 44.02701,
+          "lon": -70.82201,
+          "mile": 0.0
         }
       ]
     }
@@ -1537,6 +1523,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
-    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

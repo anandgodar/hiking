@@ -1195,18 +1195,11 @@
       },
       "features": [
         {
-          "name": "Jordan Pond Overlook",
-          "lat": 44.3178,
-          "lon": -68.2567,
-          "type": "viewpoint",
-          "mile": 0.8
-        },
-        {
-          "name": "Sargent Junction",
-          "lat": 44.3156,
-          "lon": -68.2644,
-          "type": "junction",
-          "mile": 1.4
+          "name": "Penobscot Mountain",
+          "type": "summit",
+          "lat": 44.33286,
+          "lon": -68.26668,
+          "mile": 1.82
         }
       ]
     }
@@ -1529,6 +1522,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
-    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

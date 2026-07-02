@@ -71810,25 +71810,683 @@
       },
       "features": [
         {
-          "name": "Safford Brook Trail Junction",
-          "lat": 45.1389,
-          "lon": -70.2289,
-          "type": "junction",
-          "mile": 1.5
+          "name": "Speck Pond Shelter",
+          "type": "hut",
+          "lat": 44.56468,
+          "lon": -70.97359,
+          "mile": 0.98
         },
         {
-          "name": "Old Man's Head",
-          "lat": 45.1433,
-          "lon": -70.2567,
-          "type": "viewpoint",
-          "mile": 3.5
-        },
-        {
-          "name": "Avery Peak Summit",
-          "lat": 45.1478,
-          "lon": -70.2744,
+          "name": "Mahoosuc Arm",
           "type": "summit",
-          "mile": 4.5
+          "lat": 44.56063,
+          "lon": -70.97808,
+          "mile": 1.75
+        },
+        {
+          "name": "Fulling Mill Mountain",
+          "type": "summit",
+          "lat": 44.53666,
+          "lon": -70.97944,
+          "mile": 4.24
+        },
+        {
+          "name": "South Peak",
+          "type": "summit",
+          "lat": 44.53048,
+          "lon": -70.97992,
+          "mile": 4.62
+        },
+        {
+          "name": "Full Goose Shelter",
+          "type": "hut",
+          "lat": 44.5253,
+          "lon": -70.98068,
+          "mile": 5.03
+        },
+        {
+          "name": "North Peak",
+          "type": "summit",
+          "lat": 44.51621,
+          "lon": -70.9885,
+          "mile": 5.93
+        },
+        {
+          "name": "Goose Eye Mountain",
+          "type": "summit",
+          "lat": 44.50273,
+          "lon": -70.99941,
+          "mile": 7.37
+        },
+        {
+          "name": "Mount Carlo",
+          "type": "summit",
+          "lat": 44.48911,
+          "lon": -71.0082,
+          "mile": 8.57
+        },
+        {
+          "name": "Carlo Col",
+          "type": "summit",
+          "lat": 44.48617,
+          "lon": -71.01369,
+          "mile": 8.92
+        },
+        {
+          "name": "Carlo Col Shelter",
+          "type": "hut",
+          "lat": 44.48866,
+          "lon": -71.0161,
+          "mile": 8.99
+        },
+        {
+          "name": "East Peak",
+          "type": "summit",
+          "lat": 44.60898,
+          "lon": -70.89209,
+          "mile": 24.6
+        },
+        {
+          "name": "Baldpate Mountain",
+          "type": "summit",
+          "lat": 44.60843,
+          "lon": -70.89445,
+          "mile": 24.71
+        },
+        {
+          "name": "West Peak",
+          "type": "summit",
+          "lat": 44.60151,
+          "lon": -70.90193,
+          "mile": 25.46
+        },
+        {
+          "name": "Baldpate Lean-to",
+          "type": "hut",
+          "lat": 44.59847,
+          "lon": -70.91166,
+          "mile": 26.05
+        },
+        {
+          "name": "Hedgehog Hill",
+          "type": "summit",
+          "lat": 44.60135,
+          "lon": -70.93003,
+          "mile": 26.93
+        },
+        {
+          "name": "Surplus Mountain",
+          "type": "summit",
+          "lat": 44.63284,
+          "lon": -70.90452,
+          "mile": 38.08
+        },
+        {
+          "name": "Frye Notch Lean-to",
+          "type": "hut",
+          "lat": 44.62721,
+          "lon": -70.90127,
+          "mile": 38.55
+        },
+        {
+          "name": "Little Baldpate Mountain",
+          "type": "summit",
+          "lat": 44.61484,
+          "lon": -70.89216,
+          "mile": 39.67
+        },
+        {
+          "name": "Moody Mountain",
+          "type": "summit",
+          "lat": 44.71525,
+          "lon": -70.80511,
+          "mile": 54.34
+        },
+        {
+          "name": "Hall Mountain Lean-to",
+          "type": "hut",
+          "lat": 44.70091,
+          "lon": -70.82464,
+          "mile": 56.27
+        },
+        {
+          "name": "Hall Mountain",
+          "type": "summit",
+          "lat": 44.70228,
+          "lon": -70.82757,
+          "mile": 56.33
+        },
+        {
+          "name": "Wyman Mountain",
+          "type": "summit",
+          "lat": 44.68922,
+          "lon": -70.83729,
+          "mile": 57.43
+        },
+        {
+          "name": "Bemis Mountain Lean-to",
+          "type": "hut",
+          "lat": 44.81018,
+          "lon": -70.75591,
+          "mile": 80.76
+        },
+        {
+          "name": "Bemis Mountain",
+          "type": "summit",
+          "lat": 44.7945,
+          "lon": -70.76813,
+          "mile": 82.42
+        },
+        {
+          "name": "Old Blue Mountain",
+          "type": "summit",
+          "lat": 44.74705,
+          "lon": -70.7655,
+          "mile": 86.02
+        },
+        {
+          "name": "Spruce Mountain",
+          "type": "summit",
+          "lat": 44.8375,
+          "lon": -70.70693,
+          "mile": 97.65
+        },
+        {
+          "name": "Height of Land Scenic Overlook",
+          "type": "viewpoint",
+          "lat": 44.8386,
+          "lon": -70.71045,
+          "mile": 97.85
+        },
+        {
+          "name": "Piazza Rock Lean-to",
+          "type": "hut",
+          "lat": 44.90417,
+          "lon": -70.52996,
+          "mile": 109.93
+        },
+        {
+          "name": "Saddleback Mountain",
+          "type": "summit",
+          "lat": 44.93646,
+          "lon": -70.50455,
+          "mile": 113.29
+        },
+        {
+          "name": "The Horn",
+          "type": "summit",
+          "lat": 44.95107,
+          "lon": -70.48749,
+          "mile": 114.74
+        },
+        {
+          "name": "Saddleback Junior",
+          "type": "summit",
+          "lat": 44.95811,
+          "lon": -70.45757,
+          "mile": 116.5
+        },
+        {
+          "name": "Poplar Ridge Lean-to",
+          "type": "hut",
+          "lat": 44.96991,
+          "lon": -70.44577,
+          "mile": 117.7
+        },
+        {
+          "name": "Lone Mountain",
+          "type": "summit",
+          "lat": 44.97384,
+          "lon": -70.36238,
+          "mile": 122.91
+        },
+        {
+          "name": "Piper Mountain",
+          "type": "summit",
+          "lat": 44.84259,
+          "lon": -70.62752,
+          "mile": 142.83
+        },
+        {
+          "name": "DiPhilippo Mountain",
+          "type": "summit",
+          "lat": 44.86448,
+          "lon": -70.57194,
+          "mile": 146.78
+        },
+        {
+          "name": "Sabbath Day Pond Lean-to",
+          "type": "hut",
+          "lat": 44.84097,
+          "lon": -70.66218,
+          "mile": 152.87
+        },
+        {
+          "name": "Horns Pond Lean-to",
+          "type": "hut",
+          "lat": 45.14415,
+          "lon": -70.33011,
+          "mile": 182.68
+        },
+        {
+          "name": "The Horns",
+          "type": "summit",
+          "lat": 45.14677,
+          "lon": -70.32314,
+          "mile": 183.08
+        },
+        {
+          "name": "Mount Bigelow",
+          "type": "summit",
+          "lat": 45.14686,
+          "lon": -70.28786,
+          "mile": 185.04
+        },
+        {
+          "name": "360",
+          "type": "viewpoint",
+          "lat": 45.14677,
+          "lon": -70.27611,
+          "mile": 185.63
+        },
+        {
+          "name": "Avery Peak",
+          "type": "summit",
+          "lat": 45.14667,
+          "lon": -70.27532,
+          "mile": 185.67
+        },
+        {
+          "name": "Spaulding Mountain",
+          "type": "summit",
+          "lat": 45.00292,
+          "lon": -70.33378,
+          "mile": 199.64
+        },
+        {
+          "name": "South Crocker Mountain",
+          "type": "summit",
+          "lat": 45.03617,
+          "lon": -70.37646,
+          "mile": 205.44
+        },
+        {
+          "name": "Crocker Mountain",
+          "type": "summit",
+          "lat": 45.04715,
+          "lon": -70.38281,
+          "mile": 206.31
+        },
+        {
+          "name": "Little Bigelow Mountain",
+          "type": "summit",
+          "lat": 45.13893,
+          "lon": -70.2267,
+          "mile": 218.65
+        },
+        {
+          "name": "Little Bigelow Lean-to",
+          "type": "hut",
+          "lat": 45.139,
+          "lon": -70.19107,
+          "mile": 221.27
+        },
+        {
+          "name": "Roundtop Mountain",
+          "type": "summit",
+          "lat": 45.157,
+          "lon": -70.12923,
+          "mile": 230.7
+        },
+        {
+          "name": "West Carry Pond Lean-to",
+          "type": "hut",
+          "lat": 45.15805,
+          "lon": -70.09979,
+          "mile": 234.01
+        },
+        {
+          "name": "Pierce Pond Lean-to",
+          "type": "hut",
+          "lat": 45.24021,
+          "lon": -70.05546,
+          "mile": 256.48
+        },
+        {
+          "name": "Pleasant Pond Lean-to",
+          "type": "hut",
+          "lat": 45.27047,
+          "lon": -69.9162,
+          "mile": 289.48
+        },
+        {
+          "name": "Pleasant Pond Mountain",
+          "type": "summit",
+          "lat": 45.27209,
+          "lon": -69.89572,
+          "mile": 290.71
+        },
+        {
+          "name": "Middle Mountain",
+          "type": "summit",
+          "lat": 45.26478,
+          "lon": -69.89173,
+          "mile": 291.88
+        },
+        {
+          "name": "Bald Mountain Brook Lean-to",
+          "type": "hut",
+          "lat": 45.25842,
+          "lon": -69.79934,
+          "mile": 300.15
+        },
+        {
+          "name": "Bald Mountain",
+          "type": "summit",
+          "lat": 45.26386,
+          "lon": -69.7718,
+          "mile": 301.87
+        },
+        {
+          "name": "Moxie Bald Lean-to",
+          "type": "hut",
+          "lat": 45.27047,
+          "lon": -69.74518,
+          "mile": 304.63
+        },
+        {
+          "name": "Horseshoe Canyon Lean-to",
+          "type": "hut",
+          "lat": 45.28267,
+          "lon": -69.62752,
+          "mile": 326.57
+        },
+        {
+          "name": "Buck Hill",
+          "type": "summit",
+          "lat": 45.30505,
+          "lon": -69.54561,
+          "mile": 333.83
+        },
+        {
+          "name": "Leeman Brook Lean-to",
+          "type": "hut",
+          "lat": 45.35163,
+          "lon": -69.49864,
+          "mile": 345.88
+        },
+        {
+          "name": "Little Wilson Upper Falls",
+          "type": "waterfall",
+          "lat": 45.37364,
+          "lon": -69.47178,
+          "mile": 353.99
+        },
+        {
+          "name": "Big Wilson Cliffs",
+          "type": "cliff",
+          "lat": 45.38132,
+          "lon": -69.46497,
+          "mile": 356.43
+        },
+        {
+          "name": "Thompson Brook Lower Falls",
+          "type": "waterfall",
+          "lat": 45.39223,
+          "lon": -69.46988,
+          "mile": 357.89
+        },
+        {
+          "name": "Slugundy Lower Falls",
+          "type": "waterfall",
+          "lat": 45.42201,
+          "lon": -69.41015,
+          "mile": 361.76
+        },
+        {
+          "name": "Long Pond Stream Lean-to",
+          "type": "hut",
+          "lat": 45.42118,
+          "lon": -69.41028,
+          "mile": 361.83
+        },
+        {
+          "name": "Barren Slide",
+          "type": "cliff",
+          "lat": 45.41251,
+          "lon": -69.39957,
+          "mile": 362.84
+        },
+        {
+          "name": "Wilson Valley Lean-to",
+          "type": "hut",
+          "lat": 45.39783,
+          "lon": -69.4595,
+          "mile": 366.17
+        },
+        {
+          "name": "Vaughn Stream Falls",
+          "type": "waterfall",
+          "lat": 45.4205,
+          "lon": -69.42865,
+          "mile": 371.15
+        },
+        {
+          "name": "Slugundy Upper Falls",
+          "type": "waterfall",
+          "lat": 45.41674,
+          "lon": -69.42007,
+          "mile": 371.7
+        },
+        {
+          "name": "Chairback Gap Lean-to",
+          "type": "hut",
+          "lat": 45.45315,
+          "lon": -69.2623,
+          "mile": 380.03
+        },
+        {
+          "name": "Chairback Mountain",
+          "type": "summit",
+          "lat": 45.45645,
+          "lon": -69.25596,
+          "mile": 380.52
+        },
+        {
+          "name": "Screw Auger Falls",
+          "type": "waterfall",
+          "lat": 45.48289,
+          "lon": -69.30455,
+          "mile": 385.41
+        },
+        {
+          "name": "Carl A. Newhall Lean-to",
+          "type": "hut",
+          "lat": 45.53106,
+          "lon": -69.31505,
+          "mile": 389.3
+        },
+        {
+          "name": "Gulf Hagas Mountain",
+          "type": "summit",
+          "lat": 45.54034,
+          "lon": -69.32041,
+          "mile": 390.15
+        },
+        {
+          "name": "Hay Mountain",
+          "type": "summit",
+          "lat": 45.55254,
+          "lon": -69.27199,
+          "mile": 392.99
+        },
+        {
+          "name": "Barren Ledges",
+          "type": "viewpoint",
+          "lat": 45.41314,
+          "lon": -69.39666,
+          "mile": 407.64
+        },
+        {
+          "name": "Barren Mountain",
+          "type": "summit",
+          "lat": 45.41558,
+          "lon": -69.37039,
+          "mile": 409.63
+        },
+        {
+          "name": "Cloud Pond Lean-to",
+          "type": "hut",
+          "lat": 45.41863,
+          "lon": -69.35421,
+          "mile": 410.48
+        },
+        {
+          "name": "Fourth Mountain",
+          "type": "summit",
+          "lat": 45.4324,
+          "lon": -69.31939,
+          "mile": 415.14
+        },
+        {
+          "name": "Third Mountain",
+          "type": "summit",
+          "lat": 45.4439,
+          "lon": -69.29726,
+          "mile": 417.33
+        },
+        {
+          "name": "Columbus Mountain",
+          "type": "summit",
+          "lat": 45.44928,
+          "lon": -69.26854,
+          "mile": 418.97
+        },
+        {
+          "name": "White Cap Mountain",
+          "type": "summit",
+          "lat": 45.55477,
+          "lon": -69.24616,
+          "mile": 427.4
+        },
+        {
+          "name": "Logan Brook Lean-to",
+          "type": "hut",
+          "lat": 45.56084,
+          "lon": -69.23483,
+          "mile": 428.54
+        },
+        {
+          "name": "Little Boardman Mountain",
+          "type": "summit",
+          "lat": 45.6156,
+          "lon": -69.1531,
+          "mile": 443.43
+        },
+        {
+          "name": "Cooper Brook Falls",
+          "type": "waterfall",
+          "lat": 45.64017,
+          "lon": -69.08761,
+          "mile": 463.5
+        },
+        {
+          "name": "Cooper Brook Falls Lean-to",
+          "type": "hut",
+          "lat": 45.6404,
+          "lon": -69.08738,
+          "mile": 463.52
+        },
+        {
+          "name": "Nahmakanta Stream Lean-to",
+          "type": "hut",
+          "lat": 45.73461,
+          "lon": -69.05468,
+          "mile": 485.38
+        },
+        {
+          "name": "Potaywadjo Spring Lean-to",
+          "type": "hut",
+          "lat": 45.70645,
+          "lon": -69.00729,
+          "mile": 495.48
+        },
+        {
+          "name": "Wadleigh Stream Lean-to",
+          "type": "hut",
+          "lat": 45.74715,
+          "lon": -69.14466,
+          "mile": 516.82
+        },
+        {
+          "name": "Rainbow Ledges",
+          "type": "viewpoint",
+          "lat": 45.81591,
+          "lon": -69.06193,
+          "mile": 527.47
+        },
+        {
+          "name": "Hurd Brook Lean-to",
+          "type": "hut",
+          "lat": 45.81867,
+          "lon": -69.01884,
+          "mile": 529.81
+        },
+        {
+          "name": "The Ranger Shelter",
+          "type": "hut",
+          "lat": 45.8867,
+          "lon": -68.99778,
+          "mile": 536.69
+        },
+        {
+          "name": "Katahdin Falls",
+          "type": "waterfall",
+          "lat": 45.89589,
+          "lon": -68.98219,
+          "mile": 537.86
+        },
+        {
+          "name": "The Gateway",
+          "type": "cliff",
+          "lat": 45.89792,
+          "lon": -68.95369,
+          "mile": 539.46
+        },
+        {
+          "name": "Thoreau Spring",
+          "type": "spring",
+          "lat": 45.89827,
+          "lon": -68.93655,
+          "mile": 540.35
+        },
+        {
+          "name": "Rainbow Stream Lean-to",
+          "type": "hut",
+          "lat": 45.79896,
+          "lon": -69.17087,
+          "mile": 586.27
+        },
+        {
+          "name": "Big Niagara Falls",
+          "type": "waterfall",
+          "lat": 45.86935,
+          "lon": -69.03747,
+          "mile": 611.71
+        },
+        {
+          "name": "Little Niagara Falls",
+          "type": "waterfall",
+          "lat": 45.87242,
+          "lon": -69.03957,
+          "mile": 611.98
+        },
+        {
+          "name": "Baxter Peak",
+          "type": "summit",
+          "lat": 45.90436,
+          "lon": -68.92128,
+          "mile": 628.4
         }
       ]
     }
@@ -72156,6 +72814,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
-    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

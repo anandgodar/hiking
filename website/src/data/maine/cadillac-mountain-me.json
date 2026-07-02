@@ -165,7 +165,11 @@
         "capacity": "Medium (~25 cars)",
         "status": "Arrives early for sunrise",
         "fee": "Acadia Park Pass required",
-        "shuttle": "Island Explorer available"
+        "shuttle": "Island Explorer available",
+        "coords": [
+          44.38049,
+          -68.22219
+        ]
       },
       "start_lat": 44.3711,
       "start_lon": -68.2244,
@@ -3439,25 +3443,53 @@
       },
       "features": [
         {
-          "name": "Granite Ledges Viewpoint",
-          "lat": 44.3644,
-          "lon": -68.2256,
-          "type": "viewpoint",
-          "mile": 1.0
+          "name": "Great Pond Hill",
+          "type": "summit",
+          "lat": 44.37402,
+          "lon": -68.22938,
+          "mile": 0.39
         },
         {
-          "name": "Bar Harbor Overlook",
-          "lat": 44.3578,
-          "lon": -68.2267,
-          "type": "viewpoint",
-          "mile": 1.8
+          "name": "The Whitecap",
+          "type": "summit",
+          "lat": 44.36413,
+          "lon": -68.23525,
+          "mile": 1.12
         },
         {
-          "name": "Summit Gift Shop",
-          "lat": 44.3528,
-          "lon": -68.2256,
-          "type": "landmark",
-          "mile": 2.2
+          "name": "Hawk Watch",
+          "type": "viewpoint",
+          "lat": 44.35418,
+          "lon": -68.22557,
+          "mile": 2.01
+        },
+        {
+          "name": "Cadillac Mountain",
+          "type": "summit",
+          "lat": 44.35286,
+          "lon": -68.2239,
+          "mile": 2.1
+        },
+        {
+          "name": "Pemetic Mountain",
+          "type": "summit",
+          "lat": 44.33518,
+          "lon": -68.24547,
+          "mile": 3.98
+        },
+        {
+          "name": "Dorr Mountain",
+          "type": "summit",
+          "lat": 44.35458,
+          "lon": -68.21619,
+          "mile": 7.71
+        },
+        {
+          "name": "Champlain Mountain",
+          "type": "summit",
+          "lat": 44.3508,
+          "lon": -68.19405,
+          "mile": 9.94
         }
       ]
     },
@@ -6917,6 +6949,7 @@
     "elevation_source": "USGS Benchmark - Acadia peaks",
     "gps_source": "USGS Topographic Map",
     "distance_source": "NPS Acadia trail maps and signage",
-    "notes": "Trail data from Acadia National Park official maps. Elevations from USGS benchmarks. Distance from NPS trail guides and signage."
+    "notes": "Trail data from Acadia National Park official maps. Elevations from USGS benchmarks. Distance from NPS trail guides and signage.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

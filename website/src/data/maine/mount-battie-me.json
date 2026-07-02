@@ -117,8 +117,12 @@
       "parking_details": {
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
-        "fee": "State Park fee",
-        "shuttle": null
+        "fee": "no",
+        "shuttle": null,
+        "coords": [
+          44.2102,
+          -69.06996
+        ]
       },
       "start_lat": 44.2133,
       "start_lon": -69.05,
@@ -877,18 +881,18 @@
       },
       "features": [
         {
-          "name": "Tablelands Overlook",
-          "lat": 44.2156,
-          "lon": -69.0522,
+          "name": "Mount Battie",
           "type": "viewpoint",
-          "mile": 0.3
+          "lat": 44.22286,
+          "lon": -69.06865,
+          "mile": 0.52
         },
         {
-          "name": "Stone Tower",
-          "lat": 44.2178,
-          "lon": -69.0539,
-          "type": "tower",
-          "mile": 0.5
+          "name": "Mount Battie viewpoint",
+          "type": "fire tower",
+          "lat": 44.22279,
+          "lon": -69.06914,
+          "mile": 0.52
         }
       ]
     }
@@ -1170,6 +1174,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
-    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

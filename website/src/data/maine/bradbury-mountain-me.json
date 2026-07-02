@@ -859,8 +859,8 @@
         ],
         "markers": {
           "start": [
-            43.9,
-            -70.17
+            43.86554,
+            -70.12999
           ],
           "summit": [
             43.9022,
@@ -881,18 +881,11 @@
       },
       "features": [
         {
-          "name": "Summit Ledges",
-          "lat": 43.9022,
-          "lon": -70.1728,
-          "type": "viewpoint",
-          "mile": 0.4
-        },
-        {
-          "name": "Northern Loop Junction",
-          "lat": 43.9033,
-          "lon": -70.1733,
-          "type": "junction",
-          "mile": 0.6
+          "name": "Hedgehog Mountain",
+          "type": "summit",
+          "lat": 43.86564,
+          "lon": -70.12704,
+          "mile": 0.14
         }
       ]
     }
@@ -1174,6 +1167,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
-    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

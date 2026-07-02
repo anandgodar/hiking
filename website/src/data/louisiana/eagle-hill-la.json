@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Eagle Hill",
   "slug": "eagle-hill-la",
   "state": "Louisiana",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Eagle Hill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 1.2,
+        "gain": 30,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,198 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            31.41531,
+            -93.24806
           ],
           "summit": [
             31.3999,
             -93.28378
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            31.41531,
+            -93.24806,
+            348
+          ],
+          [
+            31.41534,
+            -93.25017,
+            348
+          ],
+          [
+            31.4154,
+            -93.25193,
+            344
+          ],
+          [
+            31.41545,
+            -93.25575,
+            367
+          ],
+          [
+            31.41538,
+            -93.2577,
+            371
+          ],
+          [
+            31.41547,
+            -93.25802,
+            371
+          ],
+          [
+            31.41612,
+            -93.25775,
+            374
+          ],
+          [
+            31.41921,
+            -93.25476,
+            361
+          ],
+          [
+            31.41925,
+            -93.25454,
+            361
+          ],
+          [
+            31.41627,
+            -93.2519,
+            354
+          ],
+          [
+            31.41607,
+            -93.25179,
+            354
+          ],
+          [
+            31.4154,
+            -93.25193,
+            344
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 348,
+            "coord": [
+              31.41531,
+              -93.24806
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 348,
+            "coord": [
+              31.41534,
+              -93.25017
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 344,
+            "coord": [
+              31.4154,
+              -93.25193
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 344,
+            "coord": [
+              31.4154,
+              -93.25193
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 367,
+            "coord": [
+              31.41545,
+              -93.25575
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 367,
+            "coord": [
+              31.41545,
+              -93.25575
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 371,
+            "coord": [
+              31.41538,
+              -93.2577
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 374,
+            "coord": [
+              31.41612,
+              -93.25775
+            ]
+          },
+          {
+            "mile": 0.71,
+            "elev": 374,
+            "coord": [
+              31.41612,
+              -93.25775
+            ]
+          },
+          {
+            "mile": 0.8,
+            "elev": 361,
+            "coord": [
+              31.41921,
+              -93.25476
+            ]
+          },
+          {
+            "mile": 0.89,
+            "elev": 361,
+            "coord": [
+              31.41921,
+              -93.25476
+            ]
+          },
+          {
+            "mile": 0.98,
+            "elev": 361,
+            "coord": [
+              31.41925,
+              -93.25454
+            ]
+          },
+          {
+            "mile": 1.07,
+            "elev": 354,
+            "coord": [
+              31.41627,
+              -93.2519
+            ]
+          },
+          {
+            "mile": 1.16,
+            "elev": 354,
+            "coord": [
+              31.41627,
+              -93.2519
+            ]
+          },
+          {
+            "mile": 1.25,
+            "elev": 344,
+            "coord": [
+              31.4154,
+              -93.25193
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +354,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/358366477",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/358366477",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 358366477,

@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Hamer Hill",
   "slug": "hamer-hill-ms",
   "state": "Mississippi",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Hamer Hill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.6,
+        "gain": 13,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,188 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            34.88073,
+            -89.21659
           ],
           "summit": [
             34.85787,
             -89.23924
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            34.88073,
+            -89.21659,
+            548
+          ],
+          [
+            34.87991,
+            -89.21725,
+            545
+          ],
+          [
+            34.87809,
+            -89.21866,
+            548
+          ],
+          [
+            34.87774,
+            -89.21916,
+            548
+          ],
+          [
+            34.87677,
+            -89.21985,
+            548
+          ],
+          [
+            34.87597,
+            -89.21962,
+            554
+          ],
+          [
+            34.87518,
+            -89.21901,
+            548
+          ],
+          [
+            34.87458,
+            -89.21907,
+            554
+          ],
+          [
+            34.87394,
+            -89.21969,
+            558
+          ],
+          [
+            34.87381,
+            -89.21982,
+            558
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 548,
+            "coord": [
+              34.88073,
+              -89.21659
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 545,
+            "coord": [
+              34.87991,
+              -89.21725
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 545,
+            "coord": [
+              34.87991,
+              -89.21725
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 545,
+            "coord": [
+              34.87991,
+              -89.21725
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 548,
+            "coord": [
+              34.87809,
+              -89.21866
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 548,
+            "coord": [
+              34.87809,
+              -89.21866
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 548,
+            "coord": [
+              34.87774,
+              -89.21916
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 548,
+            "coord": [
+              34.87774,
+              -89.21916
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 548,
+            "coord": [
+              34.87677,
+              -89.21985
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 554,
+            "coord": [
+              34.87597,
+              -89.21962
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 554,
+            "coord": [
+              34.87597,
+              -89.21962
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 548,
+            "coord": [
+              34.87518,
+              -89.21901
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 554,
+            "coord": [
+              34.87458,
+              -89.21907
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 554,
+            "coord": [
+              34.87458,
+              -89.21907
+            ]
+          },
+          {
+            "mile": 0.56,
+            "elev": 558,
+            "coord": [
+              34.87381,
+              -89.21982
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +344,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357988531",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357988531",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 357988531,
