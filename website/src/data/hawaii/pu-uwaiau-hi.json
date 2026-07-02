@@ -770,7 +770,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Keanak\u0101ko\u2018i",
+          "type": "summit",
+          "lat": 19.80417,
+          "lon": -155.47111,
+          "mile": 3.51
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 13,169 feet, <strong>Pu\u02bbuwaiau</strong> is a summit in Hawaii. Nearby peaks include Pu\u02bbuhaukea, Pu\u02bbuko\u02bboko\u02bbolau and Pu\u02bbupoli\u02bbahu. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -903,7 +911,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/7549697605",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 7549697605,
