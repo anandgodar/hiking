@@ -15,8 +15,8 @@
       "difficulty": "",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
+        "distance": 1.5,
+        "gain": 66,
         "time": null,
         "difficulty": ""
       },
@@ -33,16 +33,148 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            42.60909,
+            -90.92709
           ],
           "summit": [
             42.64333,
             -90.96013
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            42.60909,
+            -90.92709,
+            1004
+          ],
+          [
+            42.63112,
+            -90.92676,
+            1070
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1004,
+            "coord": [
+              42.60909,
+              -90.92709
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 1004,
+            "coord": [
+              42.60909,
+              -90.92709
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 1004,
+            "coord": [
+              42.60909,
+              -90.92709
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 1004,
+            "coord": [
+              42.60909,
+              -90.92709
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 1004,
+            "coord": [
+              42.60909,
+              -90.92709
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 1004,
+            "coord": [
+              42.60909,
+              -90.92709
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 1004,
+            "coord": [
+              42.60909,
+              -90.92709
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 1004,
+            "coord": [
+              42.60909,
+              -90.92709
+            ]
+          },
+          {
+            "mile": 0.87,
+            "elev": 1070,
+            "coord": [
+              42.63112,
+              -90.92676
+            ]
+          },
+          {
+            "mile": 0.98,
+            "elev": 1070,
+            "coord": [
+              42.63112,
+              -90.92676
+            ]
+          },
+          {
+            "mile": 1.09,
+            "elev": 1070,
+            "coord": [
+              42.63112,
+              -90.92676
+            ]
+          },
+          {
+            "mile": 1.2,
+            "elev": 1070,
+            "coord": [
+              42.63112,
+              -90.92676
+            ]
+          },
+          {
+            "mile": 1.3,
+            "elev": 1070,
+            "coord": [
+              42.63112,
+              -90.92676
+            ]
+          },
+          {
+            "mile": 1.41,
+            "elev": 1070,
+            "coord": [
+              42.63112,
+              -90.92676
+            ]
+          },
+          {
+            "mile": 1.52,
+            "elev": 1070,
+            "coord": [
+              42.63112,
+              -90.92676
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +305,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/354327198",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/354327198",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 354327198,

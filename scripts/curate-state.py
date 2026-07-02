@@ -95,6 +95,12 @@ def assess(rec, audit_mod, threshold):
         reasons.append(f"route too short ({dist} mi) — likely a fragment")
     if not stats.get("gain"):
         reasons.append("no elevation gain")
+    elif dist and stats["gain"] / dist > 1300:
+        # Sustained hiking trails top out around 1,000–1,200 ft/mi (Huntington
+        # Ravine class). Steeper means a climbing/mountaineering line got
+        # matched (e.g. a route up Denali's flank) — not publishable as a hike.
+        reasons.append(f"implausibly steep ({round(stats['gain']/dist)} ft/mi) "
+                       "— likely a climbing route, not a hiking trail")
     if rec.get("lat") is None or rec.get("lon") is None:
         reasons.append("no coordinates")
     elev = rec.get("elevation")
@@ -145,6 +151,10 @@ def do_publish(state):
             if diff:
                 t["difficulty"] = diff
                 stats["difficulty"] = diff
+        if not stats.get("time") and stats.get("distance"):
+            # Naismith's rule: 3 mph + 1 hr per 2,000 ft of ascent.
+            hours = stats["distance"] / 3.0 + (stats.get("gain") or 0) / 2000.0
+            stats["time"] = round(max(0.5, hours) * 2) / 2
         rec.pop("_status", None)
         f.write_text(json.dumps(rec, indent=2) + "\n")
         published_now.append(rec["name"])

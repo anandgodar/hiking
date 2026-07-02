@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Mount Hosmer",
   "slug": "mount-hosmer-ia",
   "state": "Iowa",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Mount Hosmer Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.7,
+        "gain": 230,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,18 +32,273 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            43.36598,
+            -91.21988
           ],
           "summit": [
             43.36612,
             -91.22176
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            43.36598,
+            -91.21988,
+            974
+          ],
+          [
+            43.36568,
+            -91.22034,
+            1050
+          ],
+          [
+            43.36549,
+            -91.22039,
+            1050
+          ],
+          [
+            43.36494,
+            -91.22041,
+            1033
+          ],
+          [
+            43.36422,
+            -91.22092,
+            1017
+          ],
+          [
+            43.36398,
+            -91.22129,
+            942
+          ],
+          [
+            43.36397,
+            -91.22161,
+            942
+          ],
+          [
+            43.36446,
+            -91.22206,
+            984
+          ],
+          [
+            43.36471,
+            -91.22248,
+            984
+          ],
+          [
+            43.36487,
+            -91.22287,
+            1010
+          ],
+          [
+            43.36488,
+            -91.22292,
+            1010
+          ],
+          [
+            43.36473,
+            -91.22314,
+            1010
+          ],
+          [
+            43.36426,
+            -91.22378,
+            958
+          ],
+          [
+            43.36428,
+            -91.22389,
+            958
+          ],
+          [
+            43.3643,
+            -91.22406,
+            958
+          ],
+          [
+            43.36461,
+            -91.2243,
+            833
+          ],
+          [
+            43.36525,
+            -91.22437,
+            846
+          ],
+          [
+            43.36566,
+            -91.2242,
+            846
+          ],
+          [
+            43.36604,
+            -91.2237,
+            886
+          ],
+          [
+            43.36627,
+            -91.22298,
+            994
+          ],
+          [
+            43.36661,
+            -91.2221,
+            1047
+          ],
+          [
+            43.36672,
+            -91.22156,
+            997
+          ],
+          [
+            43.36688,
+            -91.22129,
+            997
+          ],
+          [
+            43.36686,
+            -91.22107,
+            997
+          ],
+          [
+            43.36652,
+            -91.22134,
+            1063
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 974,
+            "coord": [
+              43.36598,
+              -91.21988
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1050,
+            "coord": [
+              43.36549,
+              -91.22039
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 1033,
+            "coord": [
+              43.36494,
+              -91.22041
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 1017,
+            "coord": [
+              43.36422,
+              -91.22092
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 942,
+            "coord": [
+              43.36397,
+              -91.22161
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 984,
+            "coord": [
+              43.36471,
+              -91.22248
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 1010,
+            "coord": [
+              43.36473,
+              -91.22314
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 958,
+            "coord": [
+              43.36426,
+              -91.22378
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 833,
+            "coord": [
+              43.36461,
+              -91.2243
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 846,
+            "coord": [
+              43.36525,
+              -91.22437
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 886,
+            "coord": [
+              43.36604,
+              -91.2237
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 994,
+            "coord": [
+              43.36627,
+              -91.22298
+            ]
+          },
+          {
+            "mile": 0.56,
+            "elev": 1047,
+            "coord": [
+              43.36661,
+              -91.2221
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 997,
+            "coord": [
+              43.36688,
+              -91.22129
+            ]
+          },
+          {
+            "mile": 0.66,
+            "elev": 1063,
+            "coord": [
+              43.36652,
+              -91.22134
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mount Hosmer",
+          "type": "summit",
+          "lat": 43.36612,
+          "lon": -91.22176,
+          "mile": 0.66
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Hosmer</strong> is a 1,050-foot summit in Iowa. Nearby peaks include Steamboat Rock, Corn Hill and Sugar Loaf. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,10 +427,12 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/10120376780",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/10120376780",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 10120376780,

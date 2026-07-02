@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Mount Trashmore",
   "slug": "mount-trashmore-il",
   "state": "Illinois",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Mount Trashmore Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.5,
+        "gain": 10,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,198 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            41.99025,
+            -87.73173
           ],
           "summit": [
             42.02342,
             -87.70555
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            41.99025,
+            -87.73173,
+            610
+          ],
+          [
+            41.99078,
+            -87.73135,
+            610
+          ],
+          [
+            41.99146,
+            -87.73083,
+            614
+          ],
+          [
+            41.99239,
+            -87.73012,
+            614
+          ],
+          [
+            41.99323,
+            -87.72948,
+            617
+          ],
+          [
+            41.99388,
+            -87.72899,
+            607
+          ],
+          [
+            41.99415,
+            -87.72878,
+            607
+          ],
+          [
+            41.99492,
+            -87.72821,
+            607
+          ],
+          [
+            41.99583,
+            -87.72752,
+            607
+          ],
+          [
+            41.99668,
+            -87.72687,
+            610
+          ],
+          [
+            41.99709,
+            -87.72655,
+            607
+          ],
+          [
+            41.99713,
+            -87.72652,
+            607
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 610,
+            "coord": [
+              41.99025,
+              -87.73173
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 610,
+            "coord": [
+              41.99078,
+              -87.73135
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 614,
+            "coord": [
+              41.99146,
+              -87.73083
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 614,
+            "coord": [
+              41.99146,
+              -87.73083
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 614,
+            "coord": [
+              41.99239,
+              -87.73012
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 614,
+            "coord": [
+              41.99239,
+              -87.73012
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 617,
+            "coord": [
+              41.99323,
+              -87.72948
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 607,
+            "coord": [
+              41.99388,
+              -87.72899
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 607,
+            "coord": [
+              41.99415,
+              -87.72878
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 607,
+            "coord": [
+              41.99492,
+              -87.72821
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 607,
+            "coord": [
+              41.99492,
+              -87.72821
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 607,
+            "coord": [
+              41.99583,
+              -87.72752
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 607,
+            "coord": [
+              41.99583,
+              -87.72752
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 610,
+            "coord": [
+              41.99668,
+              -87.72687
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 607,
+            "coord": [
+              41.99713,
+              -87.72652
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -87,7 +268,7 @@
     }
   },
   "seo": {
-    "meta_title": "Mount Trashmore Trail Guide | Map, Route & Conditions",
+    "meta_title": "Mount Trashmore Trail Guide (Illinois) | Map, Route & Conditions",
     "meta_description": "Plan your Mount Trashmore hike with current conditions, trail map & parking info. Illinois summit at 669 ft.",
     "canonical_url": "/trails/illinois/mount-trashmore-il",
     "schema_place": {
@@ -173,10 +354,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/3402892371",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/3402892371",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 3402892371,

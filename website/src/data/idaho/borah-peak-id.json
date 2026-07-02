@@ -16,7 +16,7 @@
       "stats": {
         "distance": 2.7,
         "gain": 3901,
-        "time": null,
+        "time": 3.0,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -32,8 +32,8 @@
       "geo": {
         "markers": {
           "start": [
-            44.13247,
-            -113.83467
+            44.13249,
+            -113.83462
           ],
           "summit": [
             44.13738,
@@ -925,5 +925,6 @@
     "id": 3101308857,
     "prominence_m": "1819",
     "wikidata": "Q893312"
-  }
+  },
+  "_status": "demoted \u2014 implausibly steep (1445 ft/mi) \u2014 likely a climbing route, not a hiking trail"
 }

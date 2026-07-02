@@ -40,11 +40,15 @@ def fmt_elev(elevation):
 
 
 def build_meta_title(data):
+    # State in the title keeps same-named peaks in different states from
+    # producing duplicate <title>s (there are three Bear Mountains).
     name = data["name"]
+    state = data.get("state") or ""
+    suffix = f" ({state})" if state else ""
     n = len(data.get("trails") or [])
     if n >= 2:
-        return f"{name} Trail Guide | {n} Routes, Maps & Conditions"
-    return f"{name} Trail Guide | Map, Route & Conditions"
+        return f"{name} Trail Guide{suffix} | {n} Routes, Maps & Conditions"
+    return f"{name} Trail Guide{suffix} | Map, Route & Conditions"
 
 
 def build_meta_description(data):
