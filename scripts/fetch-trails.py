@@ -142,6 +142,46 @@ def query_source(url, name_field, order_field, lat, lon, radius_km, ctx,
     return norm_feats
 
 
+OVERPASS = "https://overpass-api.de/api/interpreter"
+
+
+def query_osm_paths(lat, lon, radius_km, ctx):
+    """Last-resort source: NAMED hiking ways from OpenStreetMap (ODbL).
+
+    State parks and local trails are often absent from the federal services
+    but well-mapped in OSM. Only named path/footway/track ways are used —
+    unnamed social trails are noise. Same normalized shape as query_source.
+    """
+    r = int(radius_km * 1000)
+    q = (f'[out:json][timeout:60];way["name"]'
+         f'["highway"~"^(path|footway|track)$"](around:{r},{lat},{lon});'
+         f'out geom;')
+    data = urllib.parse.urlencode({"data": q}).encode()
+    req = urllib.request.Request(
+        OVERPASS, data=data,
+        headers={"User-Agent": "summitseeker/1.0 (trail fetcher)"})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=90, context=ctx) as resp:
+                els = json.loads(resp.read()).get("elements", [])
+            break
+        except Exception:
+            time.sleep(3 * (attempt + 1))
+    else:
+        return []
+    feats = []
+    for el in els:
+        geom = el.get("geometry") or []
+        if len(geom) < 2:
+            continue
+        feats.append({
+            "name": el.get("tags", {}).get("name", "Unnamed"),
+            "order": 0,
+            "lines": [[[g["lon"], g["lat"]] for g in geom]],
+        })
+    return feats
+
+
 def coords_of(feat):
     g = feat.get("geometry") or {}
     if g.get("type") == "LineString":
@@ -315,13 +355,24 @@ def process(state, slug_filter, radius_km, limit, ctx):
                 if nm:
                     break
         if not path:
+            # Last resort: named OSM ways (state parks / local trails that
+            # the federal services don't carry).
+            feats = query_osm_paths(d["lat"], d["lon"], radius_km, ctx)
+            if feats:
+                n, p, nm = pick_trail(feats, d["name"], summit,
+                                      radius_mi=radius_km * 0.621)
+                if p:
+                    name, path, name_match = n, p, nm
+                    src_attr = "OpenStreetMap contributors (ODbL)"
+                    src_url = None  # no ArcGIS name_eq expansion for OSM
+        if not path:
             print(f"  · no USFS/NPS trail near {d['name']}")
             continue
 
         # Name-matched: refetch that trail's FULL geometry with a wide bbox —
         # the discovery bbox clips long approach routes. Use it if longer
         # (still capped by assemble()'s connectivity stitching).
-        if name_match and name and name != "Unnamed":
+        if name_match and name and name != "Unnamed" and src_url:
             full_feats = query_source(src_url, src_nf, src_of, d["lat"], d["lon"],
                                       25.0, ctx, name_eq=name)
             if full_feats:
