@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Ketcherside Mountain",
+  "slug": "ketcherside-mountain-ar",
+  "state": "Arkansas",
+  "state_slug": "arkansas",
+  "elevation": 2238,
+  "lat": 35.81119,
+  "lon": -93.01601,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Ketcherside Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            35.81119,
+            -93.01601
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Ketcherside Mountain</strong> rises to 2,238 feet in Arkansas. Nearby peaks include Iceledo Mountain, Barlow Christian Mountain and Horn Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Iceledo Mountain",
+      "slug": "iceledo-mountain-ar",
+      "state_slug": "arkansas",
+      "elevation": 2198,
+      "distance_miles": 5.6
+    },
+    {
+      "name": "Barlow Christian Mountain",
+      "slug": "barlow-christian-mountain-ar",
+      "state_slug": "arkansas",
+      "elevation": 2041,
+      "distance_miles": 6.2
+    },
+    {
+      "name": "Horn Mountain",
+      "slug": "horn-mountain-ar",
+      "state_slug": "arkansas",
+      "elevation": 2136,
+      "distance_miles": 8.4
+    },
+    {
+      "name": "Mulberry Mountain",
+      "slug": "mulberry-mountain-ar",
+      "state_slug": "arkansas",
+      "elevation": 2123,
+      "distance_miles": 8.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Ketcherside Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Ketcherside Mountain hike with current conditions, trail map & parking info. Arkansas summit at 2,238 ft.",
+    "canonical_url": "/trails/arkansas/ketcherside-mountain-ar",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Ketcherside Mountain",
+      "description": "Ketcherside Mountain is a 2,238 foot peak in Arkansas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.81119,
+        "longitude": -93.01601,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2238,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Arkansas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Ketcherside Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Ketcherside Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Ketcherside Mountain Trail on Ketcherside Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Ketcherside Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ketcherside Mountain is rated Moderate. At 2,238 feet, plan for the terrain and weather typical of Arkansas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Ketcherside Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Ketcherside Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Ketcherside Mountain Trail, a  moderate hike to the Ketcherside Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Ketcherside Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Ketcherside Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358987862",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358987862",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358987862,
+    "prominence_m": null,
+    "wikidata": "Q31562516"
+  }
+}

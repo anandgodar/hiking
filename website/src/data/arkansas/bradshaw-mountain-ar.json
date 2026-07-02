@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Bradshaw Mountain",
+  "slug": "bradshaw-mountain-ar",
+  "state": "Arkansas",
+  "state_slug": "arkansas",
+  "elevation": 1998,
+  "lat": 36.27479,
+  "lon": -93.42324,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Bradshaw Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            36.27479,
+            -93.42324
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,998 feet, <strong>Bradshaw Mountain</strong> is a summit in Arkansas. Nearby peaks include Lone Tree Mountain, Black Mountain and Waldrop Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Lone Tree Mountain",
+      "slug": "lone-tree-mountain-ar",
+      "state_slug": "arkansas",
+      "elevation": 1991,
+      "distance_miles": 3.2
+    },
+    {
+      "name": "Black Mountain",
+      "slug": "black-mountain-ar",
+      "state_slug": "arkansas",
+      "elevation": 2077,
+      "distance_miles": 3.8
+    },
+    {
+      "name": "Waldrop Mountain",
+      "slug": "waldrop-mountain-ar",
+      "state_slug": "arkansas",
+      "elevation": 1969,
+      "distance_miles": 3.8
+    },
+    {
+      "name": "Usrey Mountain",
+      "slug": "usrey-mountain-ar",
+      "state_slug": "arkansas",
+      "elevation": 2024,
+      "distance_miles": 4.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Bradshaw Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Bradshaw Mountain hike with current conditions, trail map & parking info. Arkansas summit at 1,998 ft.",
+    "canonical_url": "/trails/arkansas/bradshaw-mountain-ar",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bradshaw Mountain",
+      "description": "Bradshaw Mountain is a 1,998 foot peak in Arkansas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.27479,
+        "longitude": -93.42324,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1998,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Arkansas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bradshaw Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bradshaw Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bradshaw Mountain Trail on Bradshaw Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bradshaw Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bradshaw Mountain is rated Moderate. At 1,998 feet, plan for the terrain and weather typical of Arkansas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bradshaw Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bradshaw Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bradshaw Mountain Trail, a  moderate hike to the Bradshaw Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bradshaw Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bradshaw Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358968169",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358968169",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358968169,
+    "prominence_m": null,
+    "wikidata": "Q31554089"
+  }
+}
