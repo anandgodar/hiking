@@ -1,0 +1,393 @@
+{
+  "name": "Baldpate Mountain",
+  "slug": "baldpate-mountain-nj",
+  "state": "New Jersey",
+  "state_slug": "new-jersey",
+  "elevation": 1165,
+  "lat": 40.81677,
+  "lon": -74.90184,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Baldpate Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.5,
+        "gain": 46,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            40.78987,
+            -74.9149
+          ],
+          "summit": [
+            40.81677,
+            -74.90184
+          ]
+        },
+        "path": [
+          [
+            40.78987,
+            -74.9149,
+            650
+          ],
+          [
+            40.78987,
+            -74.91484,
+            650
+          ],
+          [
+            40.78992,
+            -74.91466,
+            650
+          ],
+          [
+            40.79007,
+            -74.91427,
+            679
+          ],
+          [
+            40.79018,
+            -74.9141,
+            653
+          ],
+          [
+            40.79026,
+            -74.91398,
+            653
+          ],
+          [
+            40.7904,
+            -74.91383,
+            653
+          ],
+          [
+            40.79061,
+            -74.91366,
+            653
+          ],
+          [
+            40.79088,
+            -74.91349,
+            666
+          ],
+          [
+            40.79125,
+            -74.91332,
+            653
+          ],
+          [
+            40.79185,
+            -74.91304,
+            659
+          ],
+          [
+            40.79235,
+            -74.91287,
+            659
+          ],
+          [
+            40.79286,
+            -74.91282,
+            653
+          ],
+          [
+            40.79306,
+            -74.91272,
+            653
+          ],
+          [
+            40.79347,
+            -74.91238,
+            663
+          ],
+          [
+            40.79562,
+            -74.91076,
+            653
+          ],
+          [
+            40.79655,
+            -74.9108,
+            696
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 650,
+            "coord": [
+              40.78987,
+              -74.9149
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 679,
+            "coord": [
+              40.79007,
+              -74.91427
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 653,
+            "coord": [
+              40.7904,
+              -74.91383
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 666,
+            "coord": [
+              40.79088,
+              -74.91349
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 653,
+            "coord": [
+              40.79125,
+              -74.91332
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 659,
+            "coord": [
+              40.79185,
+              -74.91304
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 659,
+            "coord": [
+              40.79235,
+              -74.91287
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 653,
+            "coord": [
+              40.79306,
+              -74.91272
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 663,
+            "coord": [
+              40.79347,
+              -74.91238
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 663,
+            "coord": [
+              40.79347,
+              -74.91238
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 663,
+            "coord": [
+              40.79347,
+              -74.91238
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 653,
+            "coord": [
+              40.79562,
+              -74.91076
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 653,
+            "coord": [
+              40.79562,
+              -74.91076
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 653,
+            "coord": [
+              40.79562,
+              -74.91076
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 696,
+            "coord": [
+              40.79655,
+              -74.9108
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Baldpate Mountain</strong> is a 1,165-foot summit in New Jersey. The Baldpate Mountain Trail is a 0.5-mile hike with about 46 feet of elevation gain. Nearby peaks include Upper Pohatcong Mountain, County House Mountain and Danville Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Upper Pohatcong Mountain",
+      "slug": "upper-pohatcong-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1230,
+      "distance_miles": 2.7
+    },
+    {
+      "name": "County House Mountain",
+      "slug": "county-house-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1142,
+      "distance_miles": 3.0
+    },
+    {
+      "name": "Danville Mountain",
+      "slug": "danville-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1122,
+      "distance_miles": 4.1
+    },
+    {
+      "name": "Schooleys Mountain",
+      "slug": "schooleys-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1194,
+      "distance_miles": 5.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Baldpate Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Baldpate Mountain hike with current conditions, trail map & parking info. New Jersey summit at 1,165 ft.",
+    "canonical_url": "/trails/new-jersey/baldpate-mountain-nj",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Baldpate Mountain",
+      "description": "Baldpate Mountain is a 1,165 foot peak in New Jersey offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.81677,
+        "longitude": -74.90184,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1165,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New Jersey",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Baldpate Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.78987,
+            "longitude": -74.9149
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Baldpate Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Baldpate Mountain Trail on Baldpate Mountain is 0.5-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Baldpate Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Baldpate Mountain is rated Moderate. At 1,165 feet, plan for the terrain and weather typical of New Jersey peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Baldpate Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Baldpate Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Baldpate Mountain Trail, a 0.5-mile moderate hike to the Baldpate Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Baldpate Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Baldpate Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357718263",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/357718263",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 357718263,
+    "prominence_m": null,
+    "wikidata": "Q16837281"
+  }
+}

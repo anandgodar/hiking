@@ -1,0 +1,508 @@
+{
+  "name": "Wawayanda Mountain",
+  "slug": "wawayanda-mountain-nj",
+  "state": "New Jersey",
+  "state_slug": "new-jersey",
+  "elevation": 1470,
+  "lat": 41.1976,
+  "lon": -74.4571,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Wawayanda Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.7,
+        "gain": 121,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            41.18432,
+            -74.45215
+          ],
+          "summit": [
+            41.1976,
+            -74.4571
+          ]
+        },
+        "path": [
+          [
+            41.18432,
+            -74.45215,
+            1198
+          ],
+          [
+            41.18442,
+            -74.45198,
+            1198
+          ],
+          [
+            41.18453,
+            -74.45181,
+            1198
+          ],
+          [
+            41.18464,
+            -74.45164,
+            1220
+          ],
+          [
+            41.18476,
+            -74.45149,
+            1220
+          ],
+          [
+            41.18488,
+            -74.45134,
+            1220
+          ],
+          [
+            41.18501,
+            -74.45119,
+            1220
+          ],
+          [
+            41.18514,
+            -74.45105,
+            1220
+          ],
+          [
+            41.18528,
+            -74.45092,
+            1220
+          ],
+          [
+            41.18542,
+            -74.4508,
+            1234
+          ],
+          [
+            41.18556,
+            -74.45068,
+            1234
+          ],
+          [
+            41.18571,
+            -74.45057,
+            1234
+          ],
+          [
+            41.18586,
+            -74.45047,
+            1230
+          ],
+          [
+            41.18601,
+            -74.45037,
+            1230
+          ],
+          [
+            41.187,
+            -74.44993,
+            1211
+          ],
+          [
+            41.1873,
+            -74.44984,
+            1211
+          ],
+          [
+            41.1876,
+            -74.44975,
+            1211
+          ],
+          [
+            41.18791,
+            -74.44967,
+            1211
+          ],
+          [
+            41.18821,
+            -74.44959,
+            1211
+          ],
+          [
+            41.18851,
+            -74.44953,
+            1211
+          ],
+          [
+            41.18882,
+            -74.44947,
+            1211
+          ],
+          [
+            41.18913,
+            -74.44943,
+            1211
+          ],
+          [
+            41.18944,
+            -74.44939,
+            1266
+          ],
+          [
+            41.18951,
+            -74.44941,
+            1266
+          ],
+          [
+            41.18958,
+            -74.44942,
+            1266
+          ],
+          [
+            41.18966,
+            -74.44942,
+            1266
+          ],
+          [
+            41.18973,
+            -74.44941,
+            1266
+          ],
+          [
+            41.1898,
+            -74.4494,
+            1266
+          ],
+          [
+            41.18987,
+            -74.44937,
+            1266
+          ],
+          [
+            41.18994,
+            -74.44934,
+            1266
+          ],
+          [
+            41.19001,
+            -74.4493,
+            1289
+          ],
+          [
+            41.19008,
+            -74.44926,
+            1289
+          ],
+          [
+            41.19014,
+            -74.44921,
+            1289
+          ],
+          [
+            41.1902,
+            -74.44915,
+            1283
+          ],
+          [
+            41.19025,
+            -74.44908,
+            1283
+          ],
+          [
+            41.19051,
+            -74.4488,
+            1283
+          ],
+          [
+            41.19101,
+            -74.44826,
+            1293
+          ],
+          [
+            41.19146,
+            -74.44766,
+            1293
+          ],
+          [
+            41.19183,
+            -74.44722,
+            1309
+          ],
+          [
+            41.19288,
+            -74.44611,
+            1319
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1198,
+            "coord": [
+              41.18432,
+              -74.45215
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1220,
+            "coord": [
+              41.18476,
+              -74.45149
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 1234,
+            "coord": [
+              41.18542,
+              -74.4508
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 1230,
+            "coord": [
+              41.18601,
+              -74.45037
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 1211,
+            "coord": [
+              41.187,
+              -74.44993
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 1211,
+            "coord": [
+              41.1873,
+              -74.44984
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 1211,
+            "coord": [
+              41.18791,
+              -74.44967
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 1211,
+            "coord": [
+              41.18882,
+              -74.44947
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1266,
+            "coord": [
+              41.18944,
+              -74.44939
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 1289,
+            "coord": [
+              41.19014,
+              -74.44921
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 1283,
+            "coord": [
+              41.19051,
+              -74.4488
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 1293,
+            "coord": [
+              41.19146,
+              -74.44766
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 1309,
+            "coord": [
+              41.19183,
+              -74.44722
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 1309,
+            "coord": [
+              41.19183,
+              -74.44722
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 1319,
+            "coord": [
+              41.19288,
+              -74.44611
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Wawayanda Mountain</strong> rises to 1,470 feet in New Jersey. The Wawayanda Mountain Trail is a 0.7-mile hike with about 121 feet of elevation gain. Nearby peaks include Pochuck Mountain, Bearfort Mountain and Kanouse Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pochuck Mountain",
+      "slug": "pochuck-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1184,
+      "distance_miles": 3.9
+    },
+    {
+      "name": "Bearfort Mountain",
+      "slug": "bearfort-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1460,
+      "distance_miles": 5.3
+    },
+    {
+      "name": "Kanouse Mountain",
+      "slug": "kanouse-mountain-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1184,
+      "distance_miles": 10.9
+    },
+    {
+      "name": "Mount Paul",
+      "slug": "mount-paul-nj",
+      "state_slug": "new-jersey",
+      "elevation": 1207,
+      "distance_miles": 11.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Wawayanda Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Wawayanda Mountain hike with current conditions, trail map & parking info. New Jersey summit at 1,470 ft.",
+    "canonical_url": "/trails/new-jersey/wawayanda-mountain-nj",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Wawayanda Mountain",
+      "description": "Wawayanda Mountain is a 1,470 foot peak in New Jersey offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.1976,
+        "longitude": -74.4571,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1470,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "New Jersey",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Wawayanda Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.18432,
+            "longitude": -74.45215
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Wawayanda Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Wawayanda Mountain Trail on Wawayanda Mountain is 0.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Wawayanda Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wawayanda Mountain is rated Moderate. At 1,470 feet, plan for the terrain and weather typical of New Jersey peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Wawayanda Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Wawayanda Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Wawayanda Mountain Trail, a 0.7-mile moderate hike to the Wawayanda Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Wawayanda Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Wawayanda Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357731680",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/357731680",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 357731680,
+    "prominence_m": null,
+    "wikidata": "Q7975604"
+  }
+}
