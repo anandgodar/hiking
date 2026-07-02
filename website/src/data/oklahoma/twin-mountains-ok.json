@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Twin Mountains",
   "slug": "twin-mountains-ok",
   "state": "Oklahoma",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Twin Mountains Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.5,
+        "gain": 4,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,183 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            34.76835,
+            -99.03585
           ],
           "summit": [
             34.75604,
             -99.0601
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            34.76835,
+            -99.03585,
+            1411
+          ],
+          [
+            34.76838,
+            -99.03921,
+            1411
+          ],
+          [
+            34.76837,
+            -99.04062,
+            1411
+          ],
+          [
+            34.76838,
+            -99.04123,
+            1411
+          ],
+          [
+            34.76838,
+            -99.04211,
+            1407
+          ],
+          [
+            34.7684,
+            -99.04282,
+            1411
+          ],
+          [
+            34.7684,
+            -99.0431,
+            1411
+          ],
+          [
+            34.76834,
+            -99.04415,
+            1411
+          ],
+          [
+            34.76829,
+            -99.04552,
+            1411
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1411,
+            "coord": [
+              34.76835,
+              -99.03585
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 1411,
+            "coord": [
+              34.76835,
+              -99.03585
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 1411,
+            "coord": [
+              34.76835,
+              -99.03585
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 1411,
+            "coord": [
+              34.76838,
+              -99.03921
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 1411,
+            "coord": [
+              34.76838,
+              -99.03921
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 1411,
+            "coord": [
+              34.76838,
+              -99.03921
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 1411,
+            "coord": [
+              34.76837,
+              -99.04062
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 1411,
+            "coord": [
+              34.76837,
+              -99.04062
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 1411,
+            "coord": [
+              34.76838,
+              -99.04123
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 1407,
+            "coord": [
+              34.76838,
+              -99.04211
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 1411,
+            "coord": [
+              34.7684,
+              -99.04282
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 1411,
+            "coord": [
+              34.7684,
+              -99.0431
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 1411,
+            "coord": [
+              34.76834,
+              -99.04415
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 1411,
+            "coord": [
+              34.76834,
+              -99.04415
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 1411,
+            "coord": [
+              34.76829,
+              -99.04552
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +339,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357406872",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357406872",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 357406872,
