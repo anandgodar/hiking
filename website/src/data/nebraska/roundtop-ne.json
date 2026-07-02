@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Roundtop",
+  "slug": "roundtop-ne",
+  "state": "Nebraska",
+  "state_slug": "nebraska",
+  "elevation": 4449,
+  "lat": 41.71858,
+  "lon": -103.49466,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Roundtop Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.71858,
+            -103.49466
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 4,449 feet, <strong>Roundtop</strong> is a summit in Nebraska. Nearby peaks include Little Haystack Mountain, Big Haystack Mountain and Castle Rock. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Little Haystack Mountain",
+      "slug": "little-haystack-mountain-ne",
+      "state_slug": "nebraska",
+      "elevation": 4400,
+      "distance_miles": 3.0
+    },
+    {
+      "name": "Big Haystack Mountain",
+      "slug": "big-haystack-mountain-ne",
+      "state_slug": "nebraska",
+      "elevation": 4469,
+      "distance_miles": 3.2
+    },
+    {
+      "name": "Castle Rock",
+      "slug": "castle-rock-ne",
+      "state_slug": "nebraska",
+      "elevation": 4462,
+      "distance_miles": 5.5
+    },
+    {
+      "name": "Bead Mountain",
+      "slug": "bead-mountain-ne",
+      "state_slug": "nebraska",
+      "elevation": 4610,
+      "distance_miles": 6.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Roundtop Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Roundtop hike with current conditions, trail map & parking info. Nebraska summit at 4,449 ft.",
+    "canonical_url": "/trails/nebraska/roundtop-ne",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Roundtop",
+      "description": "Roundtop is a 4,449 foot peak in Nebraska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.71858,
+        "longitude": -103.49466,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4449,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Nebraska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Roundtop Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Roundtop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Roundtop Trail on Roundtop is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Roundtop hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roundtop is rated Moderate. At 4,449 feet, plan for the terrain and weather typical of Nebraska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Roundtop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Roundtop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Roundtop Trail, a  moderate hike to the Roundtop summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Roundtop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Roundtop. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357761759",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357761759",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357761759,
+    "prominence_m": null,
+    "wikidata": "Q34902104"
+  }
+}
