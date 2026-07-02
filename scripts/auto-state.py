@@ -54,9 +54,10 @@ def enable_state(slug):
 def main():
     p = argparse.ArgumentParser(description="Fully automated state build")
     p.add_argument("state")
-    p.add_argument("--min-ele", type=int, default=2000,
-                   help="skip peaks below this elevation (ft)")
-    p.add_argument("--keep-top", type=int, default=25,
+    p.add_argument("--min-ele", type=int, default=None,
+                   help="skip peaks below this elevation (ft); "
+                        "default from pipeline.config.json per-state tuning")
+    p.add_argument("--keep-top", type=int, default=None,
                    help="keep the N most notable peaks after import")
     p.add_argument("--radius-km", type=float, default=4.0,
                    help="search radius for routes/POIs")
@@ -65,6 +66,16 @@ def main():
     args = p.parse_args()
     s = args.state
     py = sys.executable
+
+    # Per-state import tuning from the config (state highpoints differ wildly:
+    # Colorado's floor is 5000 ft, Florida's is 0). CLI flags override.
+    cfg = json.loads((ROOT / "pipeline.config.json").read_text())
+    tuning = next((st.get("import", {}) for st in cfg.get("states", [])
+                   if st["slug"] == s), {})
+    if args.min_ele is None:
+        args.min_ele = tuning.get("min_ele", 2000)
+    if args.keep_top is None:
+        args.keep_top = tuning.get("keep_top", 25)
 
     print(f"╔{'═' * 68}╗")
     print(f"  FULLY AUTOMATED BUILD · {s} · "

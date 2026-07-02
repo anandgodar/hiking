@@ -8,13 +8,14 @@
 import Layout from '../../../layouts/Layout.astro';
 import MountainCard from '../../../components/MountainCard.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
+import { isPublishReady } from '../../../lib/publishReady.js';
 
 export async function getStaticPaths() {
   // FIXED: Use import.meta.glob instead of Astro.glob
   const allFiles = import.meta.glob('../../../data/*/*.json', { eager: true });
   const allMountains = Object.values(allFiles)
     .map(f => f.default || f)
-    .filter(m => m && m.name && m.slug); // Filter out blog posts
+    .filter(isPublishReady); // route-complete trails only (no drafts/stubs)
 
   // --- NORMALIZER ---
   const normalizeTag = (tag) => {
@@ -99,9 +100,28 @@ const tagHeroConfig = {
 };
 
 const coverImage = tagHeroConfig[tag] || mountains[0]?.image || tagHeroConfig.default;
+
+// --- SEO: title/description with real counts, ItemList structured data ---
+const stateTitle = stateName.replace(/\b\w/g, c => c.toUpperCase());
+const seoTitle = `${prettyTag} in ${stateTitle} | ${mountains.length} Trails with Maps & Guides`;
+const seoDescription = `${mountains.length} ${prettyTag.toLowerCase()} trails in ${stateTitle} with maps, elevation profiles, difficulty ratings & parking info. Updated ${new Date().getFullYear()}.`.slice(0, 160);
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": `${prettyTag} in ${stateTitle}`,
+  "numberOfItems": mountains.length,
+  "itemListElement": mountains.slice(0, 25).map((m, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": m.name,
+    "url": `https://summitseeker.io/${state}/hikes/${m.slug}`
+  }))
+};
 ---
 
-<Layout title={`${prettyTag} in ${stateName}`} description={`Explore top-rated ${prettyTag} trails in ${stateName}.`}>
+<Layout title={seoTitle} description={seoDescription}>
+    <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
 
     <div class="relative h-[45vh] min-h-[350px] flex items-center justify-center overflow-hidden">
         <div class="absolute inset-0">

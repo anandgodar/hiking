@@ -1,0 +1,404 @@
+{
+  "name": "Mount Olympus",
+  "slug": "mount-olympus-wa",
+  "state": "Washington",
+  "state_slug": "washington",
+  "elevation": 7972,
+  "lat": 47.80122,
+  "lon": -123.71091,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Olympus Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.9,
+        "gain": 886,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            47.83036,
+            -123.68832
+          ],
+          "summit": [
+            47.80122,
+            -123.71091
+          ]
+        },
+        "path": [
+          [
+            47.83036,
+            -123.68832,
+            4400
+          ],
+          [
+            47.8305,
+            -123.68848,
+            4341
+          ],
+          [
+            47.83097,
+            -123.68926,
+            4281
+          ],
+          [
+            47.8312,
+            -123.68946,
+            4281
+          ],
+          [
+            47.83161,
+            -123.68973,
+            4281
+          ],
+          [
+            47.83216,
+            -123.69041,
+            4275
+          ],
+          [
+            47.8321,
+            -123.69109,
+            4216
+          ],
+          [
+            47.83036,
+            -123.68832,
+            4400
+          ],
+          [
+            47.83033,
+            -123.68824,
+            4400
+          ],
+          [
+            47.83025,
+            -123.68813,
+            4400
+          ],
+          [
+            47.83021,
+            -123.68815,
+            4400
+          ],
+          [
+            47.83018,
+            -123.68822,
+            4400
+          ],
+          [
+            47.8301,
+            -123.68821,
+            4400
+          ],
+          [
+            47.82987,
+            -123.68783,
+            4400
+          ],
+          [
+            47.82977,
+            -123.6877,
+            4400
+          ],
+          [
+            47.82969,
+            -123.68769,
+            4400
+          ],
+          [
+            47.82965,
+            -123.6876,
+            4400
+          ],
+          [
+            47.82952,
+            -123.68756,
+            4400
+          ],
+          [
+            47.82942,
+            -123.68744,
+            4449
+          ],
+          [
+            47.8294,
+            -123.68735,
+            4449
+          ],
+          [
+            47.82936,
+            -123.68729,
+            4449
+          ],
+          [
+            47.82872,
+            -123.68686,
+            4505
+          ],
+          [
+            47.82821,
+            -123.68614,
+            4633
+          ],
+          [
+            47.82805,
+            -123.68605,
+            4633
+          ],
+          [
+            47.8276,
+            -123.68568,
+            4701
+          ],
+          [
+            47.8274,
+            -123.68495,
+            4816
+          ],
+          [
+            47.82709,
+            -123.68482,
+            4816
+          ],
+          [
+            47.82627,
+            -123.68399,
+            4931
+          ],
+          [
+            47.82563,
+            -123.68381,
+            5010
+          ],
+          [
+            47.82552,
+            -123.6837,
+            5010
+          ],
+          [
+            47.82541,
+            -123.68357,
+            5010
+          ],
+          [
+            47.82522,
+            -123.68343,
+            5010
+          ],
+          [
+            47.82489,
+            -123.68313,
+            5059
+          ],
+          [
+            47.8238,
+            -123.68145,
+            5102
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4400
+          },
+          {
+            "distance": 0.07,
+            "elevation": 4281
+          },
+          {
+            "distance": 0.14,
+            "elevation": 4275
+          },
+          {
+            "distance": 0.2,
+            "elevation": 4216
+          },
+          {
+            "distance": 0.27,
+            "elevation": 4216
+          },
+          {
+            "distance": 0.34,
+            "elevation": 4400
+          },
+          {
+            "distance": 0.41,
+            "elevation": 4400
+          },
+          {
+            "distance": 0.47,
+            "elevation": 4449
+          },
+          {
+            "distance": 0.54,
+            "elevation": 4633
+          },
+          {
+            "distance": 0.61,
+            "elevation": 4701
+          },
+          {
+            "distance": 0.68,
+            "elevation": 4816
+          },
+          {
+            "distance": 0.74,
+            "elevation": 4931
+          },
+          {
+            "distance": 0.81,
+            "elevation": 5010
+          },
+          {
+            "distance": 0.88,
+            "elevation": 5059
+          },
+          {
+            "distance": 0.95,
+            "elevation": 5102
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Olympus</strong> is a 7,972-foot summit in Washington. It has roughly 7,831 feet of topographic prominence. The Mount Olympus Trail is a 0.9-mile hike with about 886 feet of elevation gain. Nearby peaks include Mount Deception and Mount Constance. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Deception",
+      "slug": "mount-deception-wa",
+      "state_slug": "washington",
+      "elevation": 7772,
+      "distance_miles": 22.2
+    },
+    {
+      "name": "Mount Constance",
+      "slug": "mount-constance-wa",
+      "state_slug": "washington",
+      "elevation": 7756,
+      "distance_miles": 27.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Olympus Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Olympus hike with current conditions, trail map & parking info. Washington summit at 7,972 ft.",
+    "canonical_url": "/trails/washington/mount-olympus-wa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Olympus",
+      "description": "Mount Olympus is a 7,972 foot peak in Washington offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.80122,
+        "longitude": -123.71091,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 7972,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Washington",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Olympus Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 47.83036,
+            "longitude": -123.68832
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Olympus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Olympus Trail on Mount Olympus is 0.9-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Olympus hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Olympus is rated Moderate. At 7,972 feet, plan for the terrain and weather typical of Washington peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Olympus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Olympus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Olympus Trail, a 0.9-mile moderate hike to the Mount Olympus summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Olympus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Olympus. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/348996638",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "National Park Service Public Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/348996638",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 348996638,
+    "prominence_m": "2387",
+    "wikidata": "Q522586"
+  }
+}

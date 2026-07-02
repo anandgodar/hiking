@@ -1,0 +1,314 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Fernow",
+  "slug": "mount-fernow-wa",
+  "state": "Washington",
+  "state_slug": "washington",
+  "elevation": 9255,
+  "lat": 48.16254,
+  "lon": -120.80737,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Fernow Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": 1.1,
+        "gain": 1503,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            48.17224,
+            -120.77786
+          ],
+          "summit": [
+            48.16254,
+            -120.80737
+          ]
+        },
+        "path": [
+          [
+            48.17224,
+            -120.77786,
+            5531
+          ],
+          [
+            48.16992,
+            -120.78225,
+            5997
+          ],
+          [
+            48.16928,
+            -120.7831,
+            6040
+          ],
+          [
+            48.16864,
+            -120.78367,
+            5971
+          ],
+          [
+            48.16794,
+            -120.7845,
+            5837
+          ],
+          [
+            48.16714,
+            -120.78493,
+            5823
+          ],
+          [
+            48.1656,
+            -120.78487,
+            5843
+          ],
+          [
+            48.16408,
+            -120.7852,
+            6030
+          ],
+          [
+            48.16236,
+            -120.78487,
+            6391
+          ],
+          [
+            48.16119,
+            -120.78479,
+            6522
+          ],
+          [
+            48.1602,
+            -120.78469,
+            6644
+          ],
+          [
+            48.15921,
+            -120.78487,
+            6808
+          ],
+          [
+            48.15868,
+            -120.7849,
+            7034
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 5531
+          },
+          {
+            "distance": 0.08,
+            "elevation": 5531
+          },
+          {
+            "distance": 0.15,
+            "elevation": 5997
+          },
+          {
+            "distance": 0.23,
+            "elevation": 5997
+          },
+          {
+            "distance": 0.31,
+            "elevation": 6040
+          },
+          {
+            "distance": 0.38,
+            "elevation": 5971
+          },
+          {
+            "distance": 0.46,
+            "elevation": 5823
+          },
+          {
+            "distance": 0.54,
+            "elevation": 5823
+          },
+          {
+            "distance": 0.62,
+            "elevation": 5843
+          },
+          {
+            "distance": 0.69,
+            "elevation": 6030
+          },
+          {
+            "distance": 0.77,
+            "elevation": 6391
+          },
+          {
+            "distance": 0.85,
+            "elevation": 6391
+          },
+          {
+            "distance": 0.92,
+            "elevation": 6522
+          },
+          {
+            "distance": 1.0,
+            "elevation": 6644
+          },
+          {
+            "distance": 1.08,
+            "elevation": 7034
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Fernow</strong> rises to 9,255 feet in Washington. It has roughly 2,812 feet of topographic prominence. The Mount Fernow Trail is a 1.1-mile hike with about 1,503 feet of elevation gain. Nearby peaks include Seven Fingered Jack, Bonanza Peak and Disappointment Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Seven Fingered Jack",
+      "slug": "seven-fingered-jack-wa",
+      "state_slug": "washington",
+      "elevation": 9022,
+      "distance_miles": 0.9
+    },
+    {
+      "name": "Bonanza Peak",
+      "slug": "bonanza-peak-wa",
+      "state_slug": "washington",
+      "elevation": 9514,
+      "distance_miles": 5.9
+    },
+    {
+      "name": "Disappointment Peak",
+      "slug": "disappointment-peak-wa",
+      "state_slug": "washington",
+      "elevation": 9744,
+      "distance_miles": 14.6
+    },
+    {
+      "name": "Mother Lode",
+      "slug": "mother-lode-wa",
+      "state_slug": "washington",
+      "elevation": 25945,
+      "distance_miles": 21.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Fernow Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Fernow hike with current conditions, trail map & parking info. Washington summit at 9,255 ft.",
+    "canonical_url": "/trails/washington/mount-fernow-wa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Fernow",
+      "description": "Mount Fernow is a 9,255 foot peak in Washington offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.16254,
+        "longitude": -120.80737,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 9255,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Washington",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Fernow Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 48.17224,
+            "longitude": -120.77786
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Fernow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Fernow Trail on Mount Fernow is 1.1-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Fernow hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Fernow is rated Moderate. At 9,255 feet, plan for the terrain and weather typical of Washington peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Fernow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Fernow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Fernow Trail, a 1.1-mile moderate hike to the Mount Fernow summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Fernow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Fernow. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356544896",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/356544896",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 356544896,
+    "prominence_m": "857",
+    "wikidata": "Q3321825"
+  }
+}

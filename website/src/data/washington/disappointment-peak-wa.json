@@ -1,0 +1,329 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Disappointment Peak",
+  "slug": "disappointment-peak-wa",
+  "state": "Washington",
+  "state_slug": "washington",
+  "elevation": 9744,
+  "lat": 48.10503,
+  "lon": -121.11276,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Disappointment Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": 1.2,
+        "gain": 1896,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            48.11524,
+            -121.17475
+          ],
+          "summit": [
+            48.10503,
+            -121.11276
+          ]
+        },
+        "path": [
+          [
+            48.11524,
+            -121.17475,
+            4190
+          ],
+          [
+            48.1156,
+            -121.17404,
+            4242
+          ],
+          [
+            48.11604,
+            -121.17311,
+            4419
+          ],
+          [
+            48.11618,
+            -121.17157,
+            4662
+          ],
+          [
+            48.11616,
+            -121.1698,
+            4780
+          ],
+          [
+            48.11605,
+            -121.16803,
+            4865
+          ],
+          [
+            48.11583,
+            -121.16637,
+            4928
+          ],
+          [
+            48.11566,
+            -121.16412,
+            5138
+          ],
+          [
+            48.1159,
+            -121.16318,
+            5230
+          ],
+          [
+            48.11592,
+            -121.1617,
+            5282
+          ],
+          [
+            48.11562,
+            -121.15992,
+            5381
+          ],
+          [
+            48.11481,
+            -121.15772,
+            5476
+          ],
+          [
+            48.11423,
+            -121.15635,
+            5558
+          ],
+          [
+            48.11405,
+            -121.15463,
+            5686
+          ],
+          [
+            48.11371,
+            -121.15238,
+            5892
+          ],
+          [
+            48.11337,
+            -121.15071,
+            6086
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 4190
+          },
+          {
+            "distance": 0.08,
+            "elevation": 4419
+          },
+          {
+            "distance": 0.17,
+            "elevation": 4662
+          },
+          {
+            "distance": 0.25,
+            "elevation": 4780
+          },
+          {
+            "distance": 0.33,
+            "elevation": 4865
+          },
+          {
+            "distance": 0.42,
+            "elevation": 4928
+          },
+          {
+            "distance": 0.5,
+            "elevation": 5138
+          },
+          {
+            "distance": 0.58,
+            "elevation": 5230
+          },
+          {
+            "distance": 0.67,
+            "elevation": 5282
+          },
+          {
+            "distance": 0.75,
+            "elevation": 5381
+          },
+          {
+            "distance": 0.84,
+            "elevation": 5476
+          },
+          {
+            "distance": 0.92,
+            "elevation": 5558
+          },
+          {
+            "distance": 1.0,
+            "elevation": 5686
+          },
+          {
+            "distance": 1.09,
+            "elevation": 5892
+          },
+          {
+            "distance": 1.17,
+            "elevation": 6086
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 9,744 feet, <strong>Disappointment Peak</strong> is a summit in Washington. The Disappointment Peak Trail is a 1.2-mile hike with about 1,896 feet of elevation gain. Nearby peaks include Seven Fingered Jack, Bonanza Peak and Mount Fernow. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Seven Fingered Jack",
+      "slug": "seven-fingered-jack-wa",
+      "state_slug": "washington",
+      "elevation": 9022,
+      "distance_miles": 14.1
+    },
+    {
+      "name": "Bonanza Peak",
+      "slug": "bonanza-peak-wa",
+      "state_slug": "washington",
+      "elevation": 9514,
+      "distance_miles": 14.6
+    },
+    {
+      "name": "Mount Fernow",
+      "slug": "mount-fernow-wa",
+      "state_slug": "washington",
+      "elevation": 9255,
+      "distance_miles": 14.6
+    },
+    {
+      "name": "Buckner Mountain",
+      "slug": "buckner-mountain-wa",
+      "state_slug": "washington",
+      "elevation": 9117,
+      "distance_miles": 27.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Disappointment Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Disappointment Peak hike with current conditions, trail map & parking info. Washington summit at 9,744 ft.",
+    "canonical_url": "/trails/washington/disappointment-peak-wa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Disappointment Peak",
+      "description": "Disappointment Peak is a 9,744 foot peak in Washington offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.10503,
+        "longitude": -121.11276,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 9744,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Washington",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Disappointment Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 48.11524,
+            "longitude": -121.17475
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Disappointment Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Disappointment Peak Trail on Disappointment Peak is 1.2-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Disappointment Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disappointment Peak is rated Moderate. At 9,744 feet, plan for the terrain and weather typical of Washington peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Disappointment Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Disappointment Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Disappointment Peak Trail, a 1.2-mile moderate hike to the Disappointment Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Disappointment Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Disappointment Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356544763",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/356544763",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 356544763,
+    "prominence_m": null,
+    "wikidata": "Q49024980"
+  }
+}

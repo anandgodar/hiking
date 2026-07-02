@@ -23,6 +23,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 750,
+        "keep_top": 25
       }
     },
     {
@@ -39,6 +43,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 7000,
+        "keep_top": 25
       }
     },
     {
@@ -55,6 +63,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 4250,
+        "keep_top": 25
       }
     },
     {
@@ -71,6 +83,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 750,
+        "keep_top": 25
       }
     },
     {
@@ -87,11 +103,15 @@
         "primary_url": "https://www.nps.gov/state/ca/index.htm",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map / CalTopo"
+      },
+      "import": {
+        "min_ele": 5000,
+        "keep_top": 25
       }
     },
     {
       "slug": "colorado",
-      "enabled": false,
+      "enabled": true,
       "rerun": false,
       "generate_gps": false,
       "generate_nearby": true,
@@ -103,6 +123,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 5000,
+        "keep_top": 25
       }
     },
     {
@@ -119,11 +143,15 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 750,
+        "keep_top": 25
       }
     },
     {
       "slug": "delaware",
-      "enabled": false,
+      "enabled": true,
       "rerun": false,
       "generate_gps": false,
       "generate_nearby": true,
@@ -135,6 +163,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 0,
+        "keep_top": 25
       }
     },
     {
@@ -151,6 +183,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 0,
+        "keep_top": 25
       }
     },
     {
@@ -167,6 +203,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1500,
+        "keep_top": 25
       }
     },
     {
@@ -183,6 +223,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 4750,
+        "keep_top": 25
       }
     },
     {
@@ -199,6 +243,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 4250,
+        "keep_top": 25
       }
     },
     {
@@ -215,6 +263,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 250,
+        "keep_top": 25
       }
     },
     {
@@ -231,6 +283,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 250,
+        "keep_top": 25
       }
     },
     {
@@ -247,6 +303,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 500,
+        "keep_top": 25
       }
     },
     {
@@ -263,6 +323,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1250,
+        "keep_top": 25
       }
     },
     {
@@ -279,6 +343,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1250,
+        "keep_top": 25
       }
     },
     {
@@ -295,6 +363,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 0,
+        "keep_top": 25
       }
     },
     {
@@ -311,6 +383,10 @@
         "primary_url": "https://www.maine.gov/dacf/parks/",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1750,
+        "keep_top": 25
       }
     },
     {
@@ -327,6 +403,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1000,
+        "keep_top": 25
       }
     },
     {
@@ -343,6 +423,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1000,
+        "keep_top": 25
       }
     },
     {
@@ -359,6 +443,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 500,
+        "keep_top": 25
       }
     },
     {
@@ -375,6 +463,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 750,
+        "keep_top": 25
       }
     },
     {
@@ -391,6 +483,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 0,
+        "keep_top": 25
       }
     },
     {
@@ -407,6 +503,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 500,
+        "keep_top": 25
       }
     },
     {
@@ -423,6 +523,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 4250,
+        "keep_top": 25
       }
     },
     {
@@ -439,6 +543,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1750,
+        "keep_top": 25
       }
     },
     {
@@ -455,6 +563,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 4500,
+        "keep_top": 25
       }
     },
     {
@@ -471,6 +583,10 @@
         "primary_url": "https://www.fs.usda.gov/whitemountain",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 2000,
+        "keep_top": 25
       }
     },
     {
@@ -487,6 +603,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 500,
+        "keep_top": 25
       }
     },
     {
@@ -503,6 +623,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 4500,
+        "keep_top": 25
       }
     },
     {
@@ -519,11 +643,15 @@
         "primary_url": "https://www.dec.ny.gov/lands/hiking.html",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1750,
+        "keep_top": 25
       }
     },
     {
       "slug": "north-carolina",
-      "enabled": false,
+      "enabled": true,
       "rerun": false,
       "generate_gps": false,
       "generate_nearby": true,
@@ -535,6 +663,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 2250,
+        "keep_top": 25
       }
     },
     {
@@ -551,6 +683,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1000,
+        "keep_top": 25
       }
     },
     {
@@ -567,6 +703,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 500,
+        "keep_top": 25
       }
     },
     {
@@ -583,6 +723,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1500,
+        "keep_top": 25
       }
     },
     {
@@ -599,6 +743,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 3750,
+        "keep_top": 25
       }
     },
     {
@@ -615,6 +763,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1000,
+        "keep_top": 25
       }
     },
     {
@@ -631,6 +783,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 0,
+        "keep_top": 25
       }
     },
     {
@@ -647,6 +803,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1000,
+        "keep_top": 25
       }
     },
     {
@@ -663,6 +823,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 2500,
+        "keep_top": 25
       }
     },
     {
@@ -679,6 +843,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 2250,
+        "keep_top": 25
       }
     },
     {
@@ -695,6 +863,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 3000,
+        "keep_top": 25
       }
     },
     {
@@ -711,6 +883,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 4500,
+        "keep_top": 25
       }
     },
     {
@@ -727,6 +903,10 @@
         "primary_url": "https://www.fs.usda.gov/greenmountain",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1500,
+        "keep_top": 25
       }
     },
     {
@@ -743,11 +923,15 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 2000,
+        "keep_top": 25
       }
     },
     {
       "slug": "washington",
-      "enabled": false,
+      "enabled": true,
       "rerun": false,
       "generate_gps": false,
       "generate_nearby": true,
@@ -759,6 +943,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 5000,
+        "keep_top": 25
       }
     },
     {
@@ -775,6 +963,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 1500,
+        "keep_top": 25
       }
     },
     {
@@ -791,6 +983,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 500,
+        "keep_top": 25
       }
     },
     {
@@ -807,6 +1003,10 @@
         "primary_url": "",
         "elevation_source": "USGS Benchmark",
         "gps_source": "USGS Topographic Map"
+      },
+      "import": {
+        "min_ele": 4750,
+        "keep_top": 25
       }
     }
   ]

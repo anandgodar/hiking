@@ -1,0 +1,418 @@
+{
+  "name": "Colfax Peak",
+  "slug": "colfax-peak-wa",
+  "state": "Washington",
+  "state_slug": "washington",
+  "elevation": 9354,
+  "lat": 48.77141,
+  "lon": -121.84385,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Colfax Peak Trail",
+      "difficulty": "Moderate",
+      "type": "",
+      "stats": {
+        "distance": 0.8,
+        "gain": 1719,
+        "time": null,
+        "difficulty": "Moderate"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            48.79268,
+            -121.86706
+          ],
+          "summit": [
+            48.77141,
+            -121.84385
+          ]
+        },
+        "path": [
+          [
+            48.79268,
+            -121.86706,
+            5302
+          ],
+          [
+            48.79216,
+            -121.86681,
+            5436
+          ],
+          [
+            48.79198,
+            -121.86675,
+            5436
+          ],
+          [
+            48.7917,
+            -121.86675,
+            5436
+          ],
+          [
+            48.79137,
+            -121.8667,
+            5571
+          ],
+          [
+            48.79113,
+            -121.86678,
+            5571
+          ],
+          [
+            48.79094,
+            -121.86683,
+            5571
+          ],
+          [
+            48.79043,
+            -121.867,
+            5673
+          ],
+          [
+            48.78993,
+            -121.86717,
+            5804
+          ],
+          [
+            48.78977,
+            -121.86722,
+            5804
+          ],
+          [
+            48.78941,
+            -121.8674,
+            5804
+          ],
+          [
+            48.78922,
+            -121.86744,
+            5804
+          ],
+          [
+            48.78902,
+            -121.86749,
+            5892
+          ],
+          [
+            48.78865,
+            -121.8676,
+            5892
+          ],
+          [
+            48.78846,
+            -121.86764,
+            5892
+          ],
+          [
+            48.78833,
+            -121.86765,
+            5892
+          ],
+          [
+            48.78811,
+            -121.86783,
+            5965
+          ],
+          [
+            48.78735,
+            -121.86796,
+            6060
+          ],
+          [
+            48.78719,
+            -121.86804,
+            6060
+          ],
+          [
+            48.78704,
+            -121.86813,
+            6060
+          ],
+          [
+            48.78661,
+            -121.8683,
+            6194
+          ],
+          [
+            48.7863,
+            -121.86833,
+            6194
+          ],
+          [
+            48.78589,
+            -121.86838,
+            6217
+          ],
+          [
+            48.78562,
+            -121.86838,
+            6375
+          ],
+          [
+            48.78535,
+            -121.86829,
+            6355
+          ],
+          [
+            48.7851,
+            -121.86821,
+            6355
+          ],
+          [
+            48.7849,
+            -121.86813,
+            6535
+          ],
+          [
+            48.78456,
+            -121.86796,
+            6535
+          ],
+          [
+            48.7838,
+            -121.86736,
+            6729
+          ],
+          [
+            48.78324,
+            -121.86719,
+            6850
+          ],
+          [
+            48.78304,
+            -121.86723,
+            6850
+          ],
+          [
+            48.78228,
+            -121.86718,
+            6942
+          ],
+          [
+            48.78157,
+            -121.86706,
+            7021
+          ],
+          [
+            48.78104,
+            -121.86684,
+            7021
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 5302
+          },
+          {
+            "distance": 0.06,
+            "elevation": 5436
+          },
+          {
+            "distance": 0.12,
+            "elevation": 5571
+          },
+          {
+            "distance": 0.18,
+            "elevation": 5804
+          },
+          {
+            "distance": 0.24,
+            "elevation": 5804
+          },
+          {
+            "distance": 0.3,
+            "elevation": 5892
+          },
+          {
+            "distance": 0.35,
+            "elevation": 6060
+          },
+          {
+            "distance": 0.41,
+            "elevation": 6060
+          },
+          {
+            "distance": 0.47,
+            "elevation": 6217
+          },
+          {
+            "distance": 0.53,
+            "elevation": 6355
+          },
+          {
+            "distance": 0.59,
+            "elevation": 6535
+          },
+          {
+            "distance": 0.65,
+            "elevation": 6729
+          },
+          {
+            "distance": 0.71,
+            "elevation": 6850
+          },
+          {
+            "distance": 0.77,
+            "elevation": 7021
+          },
+          {
+            "distance": 0.83,
+            "elevation": 7021
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 9,354 feet, <strong>Colfax Peak</strong> is a summit in Washington. The Colfax Peak Trail is a 0.8-mile hike with about 1,719 feet of elevation gain. Nearby peaks include Lahar Lookout, Sherman Peak and Mount Shuksan. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Lahar Lookout",
+      "slug": "lahar-lookout-wa",
+      "state_slug": "washington",
+      "elevation": 10069,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Sherman Peak",
+      "slug": "sherman-peak-wa",
+      "state_slug": "washington",
+      "elevation": 9908,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Mount Shuksan",
+      "slug": "mount-shuksan-wa",
+      "state_slug": "washington",
+      "elevation": 9134,
+      "distance_miles": 11.7
+    },
+    {
+      "name": "Mount Spickard",
+      "slug": "mount-spickard-wa",
+      "state_slug": "washington",
+      "elevation": 8970,
+      "distance_miles": 30.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Colfax Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Colfax Peak hike with current conditions, trail map & parking info. Washington summit at 9,354 ft.",
+    "canonical_url": "/trails/washington/colfax-peak-wa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Colfax Peak",
+      "description": "Colfax Peak is a 9,354 foot peak in Washington offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.77141,
+        "longitude": -121.84385,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 9354,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Washington",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Colfax Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 48.79268,
+            "longitude": -121.86706
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Colfax Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Colfax Peak Trail on Colfax Peak is 0.8-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Colfax Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Colfax Peak is rated Moderate. At 9,354 feet, plan for the terrain and weather typical of Washington peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Colfax Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Colfax Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Colfax Peak Trail, a 0.8-mile moderate hike to the Colfax Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Colfax Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Colfax Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356544606",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/356544606",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 356544606,
+    "prominence_m": null,
+    "wikidata": "Q49021465"
+  }
+}

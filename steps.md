@@ -17,6 +17,19 @@ git pull origin claude/speckit-installation-86a106
 
 ---
 
+## 0a. Batch: build ALL states
+
+```bash
+python3 scripts/auto-all.py                 # every pending state, queued
+python3 scripts/auto-all.py --workers 2     # gentle parallelism (max 3)
+python3 scripts/auto-all.py --states colorado utah
+python3 scripts/auto-all.py --limit 5       # first 5 pending
+```
+Resumable (progress in `pipeline-reports/auto-all-progress.json`), skips states
+that already have data, logs each state to `pipeline-reports/auto-all-logs/`,
+and uses per-state `import` tuning (`min_ele`, `keep_top`) from
+`pipeline.config.json` — Colorado's floor is 5,000 ft, Florida's is 0.
+
 ## 0. Fully automated — one command
 
 Build an entire state end to end (import → prune → fetch routes → elevation →
