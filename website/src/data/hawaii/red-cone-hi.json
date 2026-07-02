@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Red Cone",
+  "slug": "red-cone-hi",
+  "state": "Hawaii",
+  "state_slug": "hawaii",
+  "elevation": 11444,
+  "lat": 19.38928,
+  "lon": -155.62609,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Red Cone Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            19.38928,
+            -155.62609
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Red Cone</strong> is a 11,444-foot summit in Hawaii. Nearby peaks include 1949 Cone, 1940 Cone and Na Puu Waenakonu. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "1949 Cone",
+      "slug": "1949-cone-hi",
+      "state_slug": "hawaii",
+      "elevation": 13418,
+      "distance_miles": 4.8
+    },
+    {
+      "name": "1940 Cone",
+      "slug": "1940-cone-hi",
+      "state_slug": "hawaii",
+      "elevation": 13336,
+      "distance_miles": 5.3
+    },
+    {
+      "name": "Na Puu Waenakonu",
+      "slug": "na-puu-waenakonu-hi",
+      "state_slug": "hawaii",
+      "elevation": 13127,
+      "distance_miles": 5.5
+    },
+    {
+      "name": "Dewey Cone",
+      "slug": "dewey-cone-hi",
+      "state_slug": "hawaii",
+      "elevation": 11408,
+      "distance_miles": 11.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Red Cone Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Red Cone hike with current conditions, trail map & parking info. Hawaii summit at 11,444 ft.",
+    "canonical_url": "/trails/hawaii/red-cone-hi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Red Cone",
+      "description": "Red Cone is a 11,444 foot peak in Hawaii offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.38928,
+        "longitude": -155.62609,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 11444,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Hawaii",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Red Cone Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Red Cone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Red Cone Trail on Red Cone is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Red Cone hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Red Cone is rated Moderate. At 11,444 feet, plan for the terrain and weather typical of Hawaii peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Red Cone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Red Cone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Red Cone Trail, a  moderate hike to the Red Cone summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Red Cone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Red Cone. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/7727407090",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/7727407090",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 7727407090,
+    "prominence_m": null,
+    "wikidata": "Q49067179"
+  }
+}

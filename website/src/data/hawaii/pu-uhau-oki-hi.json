@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Pu\u02bbuhau\u02bboki",
+  "slug": "pu-uhau-oki-hi",
+  "state": "Hawaii",
+  "state_slug": "hawaii",
+  "elevation": 13648,
+  "lat": 19.82604,
+  "lon": -155.47223,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Pu\u02bbuhau\u02bboki Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            19.82604,
+            -155.47223
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Pu\u02bbuhau\u02bboki</strong> rises to 13,648 feet in Hawaii. Nearby peaks include Pu\u02bbukea, Pu\u02bbupoli\u02bbahu and Pu\u02bbuhaukea. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pu\u02bbukea",
+      "slug": "pu-ukea-hi",
+      "state_slug": "hawaii",
+      "elevation": 13691,
+      "distance_miles": 0.2
+    },
+    {
+      "name": "Pu\u02bbupoli\u02bbahu",
+      "slug": "pu-upoli-ahu-hi",
+      "state_slug": "hawaii",
+      "elevation": 13632,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Pu\u02bbuhaukea",
+      "slug": "pu-uhaukea-hi",
+      "state_slug": "hawaii",
+      "elevation": 13445,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Pu\u02bbum\u0101hoe",
+      "slug": "pu-um-hoe-hi",
+      "state_slug": "hawaii",
+      "elevation": 13136,
+      "distance_miles": 1.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Pu\u02bbuhau\u02bboki Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Pu\u02bbuhau\u02bboki hike with current conditions, trail map & parking info. Hawaii summit at 13,648 ft.",
+    "canonical_url": "/trails/hawaii/pu-uhau-oki-hi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Pu\u02bbuhau\u02bboki",
+      "description": "Pu\u02bbuhau\u02bboki is a 13,648 foot peak in Hawaii offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.82604,
+        "longitude": -155.47223,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 13648,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Hawaii",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Pu\u02bbuhau\u02bboki Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Pu\u02bbuhau\u02bboki?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Pu\u02bbuhau\u02bboki Trail on Pu\u02bbuhau\u02bboki is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pu\u02bbuhau\u02bboki hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pu\u02bbuhau\u02bboki is rated Moderate. At 13,648 feet, plan for the terrain and weather typical of Hawaii peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Pu\u02bbuhau\u02bboki?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Pu\u02bbuhau\u02bboki?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Pu\u02bbuhau\u02bboki Trail, a  moderate hike to the Pu\u02bbuhau\u02bboki summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Pu\u02bbuhau\u02bboki?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Pu\u02bbuhau\u02bboki. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/7549697604",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/7549697604",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 7549697604,
+    "prominence_m": null,
+    "wikidata": "Q49065068"
+  }
+}

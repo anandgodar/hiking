@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Pu\u02bbuhoaka",
+  "slug": "pu-uhoaka-hi",
+  "state": "Hawaii",
+  "state_slug": "hawaii",
+  "elevation": 12080,
+  "lat": 19.85169,
+  "lon": -155.43469,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Pu\u02bbuhoaka Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            19.85169,
+            -155.43469
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Pu\u02bbuhoaka</strong> is a 12,080-foot summit in Hawaii. Nearby peaks include Pu\u02bbum\u0101kanaka, Pu\u02bbuala and Pu\u02bbupoepoe. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pu\u02bbum\u0101kanaka",
+      "slug": "pu-um-kanaka-hi",
+      "state_slug": "hawaii",
+      "elevation": 12398,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Pu\u02bbuala",
+      "slug": "pu-uala-hi",
+      "state_slug": "hawaii",
+      "elevation": 12612,
+      "distance_miles": 0.9
+    },
+    {
+      "name": "Pu\u02bbupoepoe",
+      "slug": "pu-upoepoe-hi",
+      "state_slug": "hawaii",
+      "elevation": 12648,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Pu\u02bbulehu",
+      "slug": "pu-ulehu-hi",
+      "state_slug": "hawaii",
+      "elevation": 10374,
+      "distance_miles": 1.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Pu\u02bbuhoaka Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Pu\u02bbuhoaka hike with current conditions, trail map & parking info. Hawaii summit at 12,080 ft.",
+    "canonical_url": "/trails/hawaii/pu-uhoaka-hi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Pu\u02bbuhoaka",
+      "description": "Pu\u02bbuhoaka is a 12,080 foot peak in Hawaii offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.85169,
+        "longitude": -155.43469,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 12080,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Hawaii",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Pu\u02bbuhoaka Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Pu\u02bbuhoaka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Pu\u02bbuhoaka Trail on Pu\u02bbuhoaka is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pu\u02bbuhoaka hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pu\u02bbuhoaka is rated Moderate. At 12,080 feet, plan for the terrain and weather typical of Hawaii peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Pu\u02bbuhoaka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Pu\u02bbuhoaka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Pu\u02bbuhoaka Trail, a  moderate hike to the Pu\u02bbuhoaka summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Pu\u02bbuhoaka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Pu\u02bbuhoaka. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/7727368629",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/7727368629",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 7727368629,
+    "prominence_m": null,
+    "wikidata": "Q49065080"
+  }
+}
