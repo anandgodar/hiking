@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Wolf Butte",
+  "slug": "wolf-butte-nd",
+  "state": "North Dakota",
+  "state_slug": "north-dakota",
+  "elevation": 3041,
+  "lat": 46.1539,
+  "lon": -102.77405,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Wolf Butte Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            46.1539,
+            -102.77405
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 3,041 feet, <strong>Wolf Butte</strong> is a summit in North Dakota. Nearby peaks include East Rainy Butte, Baldy Butte and West Rainy Butte. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "East Rainy Butte",
+      "slug": "east-rainy-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3310,
+      "distance_miles": 23.3
+    },
+    {
+      "name": "Baldy Butte",
+      "slug": "baldy-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3156,
+      "distance_miles": 25.1
+    },
+    {
+      "name": "West Rainy Butte",
+      "slug": "west-rainy-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3327,
+      "distance_miles": 26.8
+    },
+    {
+      "name": "Talbot Butte",
+      "slug": "talbot-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3264,
+      "distance_miles": 27.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Wolf Butte Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Wolf Butte hike with current conditions, trail map & parking info. North Dakota summit at 3,041 ft.",
+    "canonical_url": "/trails/north-dakota/wolf-butte-nd",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Wolf Butte",
+      "description": "Wolf Butte is a 3,041 foot peak in North Dakota offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.1539,
+        "longitude": -102.77405,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3041,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "North Dakota",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Wolf Butte Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Wolf Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Wolf Butte Trail on Wolf Butte is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Wolf Butte hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wolf Butte is rated Moderate. At 3,041 feet, plan for the terrain and weather typical of North Dakota peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Wolf Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Wolf Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Wolf Butte Trail, a  moderate hike to the Wolf Butte summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Wolf Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Wolf Butte. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357763037",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357763037",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357763037,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

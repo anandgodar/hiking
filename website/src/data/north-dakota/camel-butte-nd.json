@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Camel Butte",
+  "slug": "camel-butte-nd",
+  "state": "North Dakota",
+  "state_slug": "north-dakota",
+  "elevation": 3406,
+  "lat": 46.00278,
+  "lon": -103.71992,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Camel Butte Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            46.00278,
+            -103.71992
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Camel Butte</strong> is a 3,406-foot summit in North Dakota. Nearby peaks include Sunset Butte, Monument Butte and Post Office Butte. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Sunset Butte",
+      "slug": "sunset-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3163,
+      "distance_miles": 11.0
+    },
+    {
+      "name": "Monument Butte",
+      "slug": "monument-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3068,
+      "distance_miles": 15.7
+    },
+    {
+      "name": "Post Office Butte",
+      "slug": "post-office-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3333,
+      "distance_miles": 16.5
+    },
+    {
+      "name": "Talbot Butte",
+      "slug": "talbot-butte-nd",
+      "state_slug": "north-dakota",
+      "elevation": 3264,
+      "distance_miles": 20.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Camel Butte Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Camel Butte hike with current conditions, trail map & parking info. North Dakota summit at 3,406 ft.",
+    "canonical_url": "/trails/north-dakota/camel-butte-nd",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Camel Butte",
+      "description": "Camel Butte is a 3,406 foot peak in North Dakota offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.00278,
+        "longitude": -103.71992,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3406,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "North Dakota",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Camel Butte Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Camel Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Camel Butte Trail on Camel Butte is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Camel Butte hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Camel Butte is rated Moderate. At 3,406 feet, plan for the terrain and weather typical of North Dakota peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Camel Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Camel Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Camel Butte Trail, a  moderate hike to the Camel Butte summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Camel Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Camel Butte. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357753243",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357753243",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357753243,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}
