@@ -1,0 +1,368 @@
+{
+  "name": "Mount Bohemia",
+  "slug": "mount-bohemia-mi",
+  "state": "Michigan",
+  "state_slug": "michigan",
+  "elevation": 1437,
+  "lat": 47.39158,
+  "lon": -88.01316,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Bohemia Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.7,
+        "gain": 59,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            47.41289,
+            -87.9893
+          ],
+          "summit": [
+            47.39158,
+            -88.01316
+          ]
+        },
+        "path": [
+          [
+            47.41289,
+            -87.9893,
+            945
+          ],
+          [
+            47.41346,
+            -87.99014,
+            906
+          ],
+          [
+            47.41382,
+            -87.99154,
+            942
+          ],
+          [
+            47.41384,
+            -87.99206,
+            951
+          ],
+          [
+            47.41329,
+            -87.99438,
+            955
+          ],
+          [
+            47.41322,
+            -87.99516,
+            948
+          ],
+          [
+            47.41326,
+            -87.99641,
+            945
+          ],
+          [
+            47.41329,
+            -87.99757,
+            965
+          ],
+          [
+            47.41335,
+            -87.99932,
+            932
+          ],
+          [
+            47.4136,
+            -88.0007,
+            935
+          ],
+          [
+            47.41355,
+            -88.00112,
+            938
+          ],
+          [
+            47.4133,
+            -88.00412,
+            955
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 945,
+            "coord": [
+              47.41289,
+              -87.9893
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 906,
+            "coord": [
+              47.41346,
+              -87.99014
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 942,
+            "coord": [
+              47.41382,
+              -87.99154
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 951,
+            "coord": [
+              47.41384,
+              -87.99206
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 951,
+            "coord": [
+              47.41384,
+              -87.99206
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 955,
+            "coord": [
+              47.41329,
+              -87.99438
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 948,
+            "coord": [
+              47.41322,
+              -87.99516
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 945,
+            "coord": [
+              47.41326,
+              -87.99641
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 965,
+            "coord": [
+              47.41329,
+              -87.99757
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 932,
+            "coord": [
+              47.41335,
+              -87.99932
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 932,
+            "coord": [
+              47.41335,
+              -87.99932
+            ]
+          },
+          {
+            "mile": 0.57,
+            "elev": 935,
+            "coord": [
+              47.4136,
+              -88.0007
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 938,
+            "coord": [
+              47.41355,
+              -88.00112
+            ]
+          },
+          {
+            "mile": 0.67,
+            "elev": 955,
+            "coord": [
+              47.4133,
+              -88.00412
+            ]
+          },
+          {
+            "mile": 0.72,
+            "elev": 955,
+            "coord": [
+              47.4133,
+              -88.00412
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Bohemia</strong> rises to 1,437 feet in Michigan. The Mount Bohemia Trail is a 0.7-mile hike with about 59 feet of elevation gain. Nearby peaks include Mount Houghton, Gratiot Mountain and Mount Horace Greeley. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Houghton",
+      "slug": "mount-houghton-mi",
+      "state_slug": "michigan",
+      "elevation": 1467,
+      "distance_miles": 3.5
+    },
+    {
+      "name": "Gratiot Mountain",
+      "slug": "gratiot-mountain-mi",
+      "state_slug": "michigan",
+      "elevation": 1486,
+      "distance_miles": 4.3
+    },
+    {
+      "name": "Mount Horace Greeley",
+      "slug": "mount-horace-greeley-mi",
+      "state_slug": "michigan",
+      "elevation": 1542,
+      "distance_miles": 7.5
+    },
+    {
+      "name": "Huron Mountain",
+      "slug": "huron-mountain-mi",
+      "state_slug": "michigan",
+      "elevation": 1463,
+      "distance_miles": 35.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Bohemia Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Bohemia hike with current conditions, trail map & parking info. Michigan summit at 1,437 ft.",
+    "canonical_url": "/trails/michigan/mount-bohemia-mi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Bohemia",
+      "description": "Mount Bohemia is a 1,437 foot peak in Michigan offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.39158,
+        "longitude": -88.01316,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1437,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Michigan",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Bohemia Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 47.41289,
+            "longitude": -87.9893
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Bohemia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Bohemia Trail on Mount Bohemia is 0.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Bohemia hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Bohemia is rated Moderate. At 1,437 feet, plan for the terrain and weather typical of Michigan peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Bohemia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Bohemia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Bohemia Trail, a 0.7-mile moderate hike to the Mount Bohemia summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Bohemia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Bohemia. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/353916797",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/353916797",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 353916797,
+    "prominence_m": null,
+    "wikidata": "Q6919769"
+  }
+}

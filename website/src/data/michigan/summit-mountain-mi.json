@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Summit Mountain",
+  "slug": "summit-mountain-mi",
+  "state": "Michigan",
+  "state_slug": "michigan",
+  "elevation": 1873,
+  "lat": 46.44994,
+  "lon": -87.63014,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Summit Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            46.44994,
+            -87.63014
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Summit Mountain</strong> rises to 1,873 feet in Michigan. Nearby peaks include Wewe Hills, Mount Ida and Mount Benison. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Wewe Hills",
+      "slug": "wewe-hills-mi",
+      "state_slug": "michigan",
+      "elevation": 1617,
+      "distance_miles": 5.3
+    },
+    {
+      "name": "Mount Ida",
+      "slug": "mount-ida-mi",
+      "state_slug": "michigan",
+      "elevation": 1496,
+      "distance_miles": 32.4
+    },
+    {
+      "name": "Mount Benison",
+      "slug": "mount-benison-mi",
+      "state_slug": "michigan",
+      "elevation": 1581,
+      "distance_miles": 32.5
+    },
+    {
+      "name": "Mount Arvon",
+      "slug": "mount-arvon-mi",
+      "state_slug": "michigan",
+      "elevation": 1972,
+      "distance_miles": 32.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Summit Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Summit Mountain hike with current conditions, trail map & parking info. Michigan summit at 1,873 ft.",
+    "canonical_url": "/trails/michigan/summit-mountain-mi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Summit Mountain",
+      "description": "Summit Mountain is a 1,873 foot peak in Michigan offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.44994,
+        "longitude": -87.63014,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1873,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Michigan",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Summit Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Summit Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Summit Mountain Trail on Summit Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Summit Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Summit Mountain is rated Moderate. At 1,873 feet, plan for the terrain and weather typical of Michigan peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Summit Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Summit Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Summit Mountain Trail, a  moderate hike to the Summit Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Summit Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Summit Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/353978070",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/353978070",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 353978070,
+    "prominence_m": null,
+    "wikidata": "Q33150099"
+  }
+}

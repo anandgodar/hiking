@@ -1,0 +1,413 @@
+{
+  "name": "Mount Houghton",
+  "slug": "mount-houghton-mi",
+  "state": "Michigan",
+  "state_slug": "michigan",
+  "elevation": 1467,
+  "lat": 47.40713,
+  "lon": -87.94178,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Houghton Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 1.2,
+        "gain": 46,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            47.42265,
+            -87.91642
+          ],
+          "summit": [
+            47.40713,
+            -87.94178
+          ]
+        },
+        "path": [
+          [
+            47.42265,
+            -87.91642,
+            856
+          ],
+          [
+            47.42264,
+            -87.91707,
+            846
+          ],
+          [
+            47.42256,
+            -87.91741,
+            846
+          ],
+          [
+            47.42241,
+            -87.91851,
+            866
+          ],
+          [
+            47.42214,
+            -87.91938,
+            873
+          ],
+          [
+            47.42199,
+            -87.92022,
+            869
+          ],
+          [
+            47.4218,
+            -87.92165,
+            866
+          ],
+          [
+            47.42149,
+            -87.92354,
+            886
+          ],
+          [
+            47.42142,
+            -87.92423,
+            879
+          ],
+          [
+            47.42132,
+            -87.92541,
+            889
+          ],
+          [
+            47.42132,
+            -87.92577,
+            889
+          ],
+          [
+            47.42121,
+            -87.92634,
+            892
+          ],
+          [
+            47.42117,
+            -87.92678,
+            886
+          ],
+          [
+            47.42105,
+            -87.92732,
+            886
+          ],
+          [
+            47.42082,
+            -87.92937,
+            886
+          ],
+          [
+            47.42074,
+            -87.93052,
+            892
+          ],
+          [
+            47.4202,
+            -87.93404,
+            883
+          ],
+          [
+            47.42004,
+            -87.93599,
+            876
+          ],
+          [
+            47.41977,
+            -87.93869,
+            889
+          ],
+          [
+            47.41972,
+            -87.93896,
+            889
+          ],
+          [
+            47.41949,
+            -87.94059,
+            883
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 856,
+            "coord": [
+              47.42265,
+              -87.91642
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 866,
+            "coord": [
+              47.42241,
+              -87.91851
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 869,
+            "coord": [
+              47.42199,
+              -87.92022
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 866,
+            "coord": [
+              47.4218,
+              -87.92165
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 886,
+            "coord": [
+              47.42149,
+              -87.92354
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 889,
+            "coord": [
+              47.42132,
+              -87.92541
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 886,
+            "coord": [
+              47.42117,
+              -87.92678
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 886,
+            "coord": [
+              47.42082,
+              -87.92937
+            ]
+          },
+          {
+            "mile": 0.66,
+            "elev": 892,
+            "coord": [
+              47.42074,
+              -87.93052
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 892,
+            "coord": [
+              47.42074,
+              -87.93052
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 883,
+            "coord": [
+              47.4202,
+              -87.93404
+            ]
+          },
+          {
+            "mile": 0.91,
+            "elev": 876,
+            "coord": [
+              47.42004,
+              -87.93599
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 876,
+            "coord": [
+              47.42004,
+              -87.93599
+            ]
+          },
+          {
+            "mile": 1.07,
+            "elev": 889,
+            "coord": [
+              47.41972,
+              -87.93896
+            ]
+          },
+          {
+            "mile": 1.15,
+            "elev": 883,
+            "coord": [
+              47.41949,
+              -87.94059
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Houghton</strong> is a 1,467-foot summit in Michigan. The Mount Houghton Trail is a 1.2-mile hike with about 46 feet of elevation gain. Nearby peaks include Mount Bohemia, Gratiot Mountain and Mount Horace Greeley. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Bohemia",
+      "slug": "mount-bohemia-mi",
+      "state_slug": "michigan",
+      "elevation": 1437,
+      "distance_miles": 3.5
+    },
+    {
+      "name": "Gratiot Mountain",
+      "slug": "gratiot-mountain-mi",
+      "state_slug": "michigan",
+      "elevation": 1486,
+      "distance_miles": 7.8
+    },
+    {
+      "name": "Mount Horace Greeley",
+      "slug": "mount-horace-greeley-mi",
+      "state_slug": "michigan",
+      "elevation": 1542,
+      "distance_miles": 11.0
+    },
+    {
+      "name": "Huron Mountain",
+      "slug": "huron-mountain-mi",
+      "state_slug": "michigan",
+      "elevation": 1463,
+      "distance_miles": 36.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Houghton Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Houghton hike with current conditions, trail map & parking info. Michigan summit at 1,467 ft.",
+    "canonical_url": "/trails/michigan/mount-houghton-mi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Houghton",
+      "description": "Mount Houghton is a 1,467 foot peak in Michigan offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.40713,
+        "longitude": -87.94178,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1467,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Michigan",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Houghton Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 47.42265,
+            "longitude": -87.91642
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Houghton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Houghton Trail on Mount Houghton is 1.2-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Houghton hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Houghton is rated Moderate. At 1,467 feet, plan for the terrain and weather typical of Michigan peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Houghton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Houghton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Houghton Trail, a 1.2-mile moderate hike to the Mount Houghton summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Houghton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Houghton. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/353941058",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/353941058",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 353941058,
+    "prominence_m": null,
+    "wikidata": "Q33141499"
+  }
+}

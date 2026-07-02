@@ -1,0 +1,518 @@
+{
+  "name": "Big Rock",
+  "slug": "big-rock-mi",
+  "state": "Michigan",
+  "state_slug": "michigan",
+  "elevation": 1470,
+  "lat": 46.36333,
+  "lon": -89.18028,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Big Rock Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.5,
+        "gain": 60,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            46.36332,
+            -89.15721
+          ],
+          "summit": [
+            46.36333,
+            -89.18028
+          ]
+        },
+        "path": [
+          [
+            46.36332,
+            -89.15721,
+            1552
+          ],
+          [
+            46.36353,
+            -89.15744,
+            1552
+          ],
+          [
+            46.36377,
+            -89.15764,
+            1558
+          ],
+          [
+            46.36402,
+            -89.15799,
+            1558
+          ],
+          [
+            46.36409,
+            -89.1582,
+            1558
+          ],
+          [
+            46.36409,
+            -89.15841,
+            1555
+          ],
+          [
+            46.36403,
+            -89.15872,
+            1555
+          ],
+          [
+            46.364,
+            -89.1588,
+            1555
+          ],
+          [
+            46.36375,
+            -89.15911,
+            1555
+          ],
+          [
+            46.36369,
+            -89.15924,
+            1549
+          ],
+          [
+            46.36372,
+            -89.15942,
+            1549
+          ],
+          [
+            46.3638,
+            -89.15959,
+            1549
+          ],
+          [
+            46.3638,
+            -89.15975,
+            1549
+          ],
+          [
+            46.36383,
+            -89.15987,
+            1549
+          ],
+          [
+            46.36394,
+            -89.16009,
+            1539
+          ],
+          [
+            46.36405,
+            -89.16025,
+            1539
+          ],
+          [
+            46.36417,
+            -89.16056,
+            1558
+          ],
+          [
+            46.3642,
+            -89.16069,
+            1558
+          ],
+          [
+            46.36431,
+            -89.16104,
+            1568
+          ],
+          [
+            46.36429,
+            -89.16174,
+            1572
+          ],
+          [
+            46.36434,
+            -89.16193,
+            1572
+          ],
+          [
+            46.36435,
+            -89.16225,
+            1572
+          ],
+          [
+            46.36433,
+            -89.16246,
+            1572
+          ],
+          [
+            46.3643,
+            -89.16252,
+            1558
+          ],
+          [
+            46.36408,
+            -89.1628,
+            1526
+          ],
+          [
+            46.36398,
+            -89.1629,
+            1526
+          ],
+          [
+            46.3638,
+            -89.16319,
+            1526
+          ],
+          [
+            46.36364,
+            -89.16364,
+            1512
+          ],
+          [
+            46.36351,
+            -89.16388,
+            1512
+          ],
+          [
+            46.36344,
+            -89.16418,
+            1512
+          ],
+          [
+            46.36344,
+            -89.16446,
+            1512
+          ],
+          [
+            46.36348,
+            -89.16471,
+            1512
+          ],
+          [
+            46.36348,
+            -89.16503,
+            1526
+          ],
+          [
+            46.36351,
+            -89.16523,
+            1526
+          ],
+          [
+            46.36351,
+            -89.16532,
+            1526
+          ],
+          [
+            46.36355,
+            -89.16542,
+            1526
+          ],
+          [
+            46.36361,
+            -89.16551,
+            1526
+          ],
+          [
+            46.36366,
+            -89.16565,
+            1526
+          ],
+          [
+            46.36367,
+            -89.16581,
+            1526
+          ],
+          [
+            46.36365,
+            -89.16602,
+            1516
+          ],
+          [
+            46.36367,
+            -89.16607,
+            1516
+          ],
+          [
+            46.36376,
+            -89.16609,
+            1516
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1552,
+            "coord": [
+              46.36332,
+              -89.15721
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 1558,
+            "coord": [
+              46.36377,
+              -89.15764
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 1558,
+            "coord": [
+              46.36409,
+              -89.1582
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 1555,
+            "coord": [
+              46.364,
+              -89.1588
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 1549,
+            "coord": [
+              46.36372,
+              -89.15942
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 1539,
+            "coord": [
+              46.36394,
+              -89.16009
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 1558,
+            "coord": [
+              46.3642,
+              -89.16069
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 1572,
+            "coord": [
+              46.36429,
+              -89.16174
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 1572,
+            "coord": [
+              46.36435,
+              -89.16225
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 1526,
+            "coord": [
+              46.36408,
+              -89.1628
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 1526,
+            "coord": [
+              46.3638,
+              -89.16319
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1512,
+            "coord": [
+              46.36344,
+              -89.16418
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 1512,
+            "coord": [
+              46.36348,
+              -89.16471
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 1526,
+            "coord": [
+              46.36361,
+              -89.16551
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 1516,
+            "coord": [
+              46.36376,
+              -89.16609
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Big Rock</strong> is a 1,470-foot summit in Michigan. The Big Rock Trail is a 0.5-mile hike with about 60 feet of elevation gain. Nearby peaks include Haystack Mountain, Wolf Mountain and Porcupine Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Haystack Mountain",
+      "slug": "haystack-mountain-mi",
+      "state_slug": "michigan",
+      "elevation": 1447,
+      "distance_miles": 19.2
+    },
+    {
+      "name": "Wolf Mountain",
+      "slug": "wolf-mountain-mi",
+      "state_slug": "michigan",
+      "elevation": 1814,
+      "distance_miles": 28.7
+    },
+    {
+      "name": "Porcupine Peak",
+      "slug": "porcupine-peak-mi",
+      "state_slug": "michigan",
+      "elevation": 1739,
+      "distance_miles": 39.0
+    },
+    {
+      "name": "Government Peak",
+      "slug": "government-peak-mi",
+      "state_slug": "michigan",
+      "elevation": 1834,
+      "distance_miles": 39.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Big Rock Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Big Rock hike with current conditions, trail map & parking info. Michigan summit at 1,470 ft.",
+    "canonical_url": "/trails/michigan/big-rock-mi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Big Rock",
+      "description": "Big Rock is a 1,470 foot peak in Michigan offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.36333,
+        "longitude": -89.18028,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1470,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Michigan",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Big Rock Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 46.36332,
+            "longitude": -89.15721
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Big Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Big Rock Trail on Big Rock is 0.5-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Big Rock hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Big Rock is rated Moderate. At 1,470 feet, plan for the terrain and weather typical of Michigan peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Big Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Big Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Big Rock Trail, a 0.5-mile moderate hike to the Big Rock summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Big Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Big Rock. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354008531",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/354008531",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 354008531,
+    "prominence_m": null,
+    "wikidata": "Q33136899"
+  }
+}
