@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Little Savage Mountain",
+  "slug": "little-savage-mountain-pa",
+  "state": "Pennsylvania",
+  "state_slug": "pennsylvania",
+  "elevation": 2818,
+  "lat": 39.73036,
+  "lon": -78.91975,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Little Savage Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.73036,
+            -78.91975
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Little Savage Mountain</strong> rises to 2,818 feet in Pennsylvania. Nearby peaks include Big Savage Mountain, Bearwallow Mountain and Vought Rock. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Big Savage Mountain",
+      "slug": "big-savage-mountain-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2566,
+      "distance_miles": 6.5
+    },
+    {
+      "name": "Bearwallow Mountain",
+      "slug": "bearwallow-mountain-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2500,
+      "distance_miles": 12.0
+    },
+    {
+      "name": "Vought Rock",
+      "slug": "vought-rock-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2946,
+      "distance_miles": 13.6
+    },
+    {
+      "name": "Baughman Rocks",
+      "slug": "baughman-rocks-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 3153,
+      "distance_miles": 14.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Little Savage Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Little Savage Mountain hike with current conditions, trail map & parking info. Pennsylvania summit at 2,818 ft.",
+    "canonical_url": "/trails/pennsylvania/little-savage-mountain-pa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Little Savage Mountain",
+      "description": "Little Savage Mountain is a 2,818 foot peak in Pennsylvania offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.73036,
+        "longitude": -78.91975,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2818,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Pennsylvania",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Little Savage Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Little Savage Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Little Savage Mountain Trail on Little Savage Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Little Savage Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Little Savage Mountain is rated Moderate. At 2,818 feet, plan for the terrain and weather typical of Pennsylvania peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Little Savage Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Little Savage Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Little Savage Mountain Trail, a  moderate hike to the Little Savage Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Little Savage Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Little Savage Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357274648",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357274648",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357274648,
+    "prominence_m": null,
+    "wikidata": "Q31599820"
+  }
+}

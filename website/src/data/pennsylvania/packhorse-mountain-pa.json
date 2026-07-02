@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Packhorse Mountain",
+  "slug": "packhorse-mountain-pa",
+  "state": "Pennsylvania",
+  "state_slug": "pennsylvania",
+  "elevation": 2766,
+  "lat": 39.7348,
+  "lon": -79.23448,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Packhorse Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.7348,
+            -79.23448
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 2,766 feet, <strong>Packhorse Mountain</strong> is a summit in Pennsylvania. Nearby peaks include Glade Mountain, Mount Davis and Baughman Rocks. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Glade Mountain",
+      "slug": "glade-mountain-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 3071,
+      "distance_miles": 4.2
+    },
+    {
+      "name": "Mount Davis",
+      "slug": "mount-davis-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 3212,
+      "distance_miles": 4.7
+    },
+    {
+      "name": "Baughman Rocks",
+      "slug": "baughman-rocks-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 3153,
+      "distance_miles": 5.3
+    },
+    {
+      "name": "Vought Rock",
+      "slug": "vought-rock-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2946,
+      "distance_miles": 7.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Packhorse Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Packhorse Mountain hike with current conditions, trail map & parking info. Pennsylvania summit at 2,766 ft.",
+    "canonical_url": "/trails/pennsylvania/packhorse-mountain-pa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Packhorse Mountain",
+      "description": "Packhorse Mountain is a 2,766 foot peak in Pennsylvania offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.7348,
+        "longitude": -79.23448,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2766,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Pennsylvania",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Packhorse Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Packhorse Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Packhorse Mountain Trail on Packhorse Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Packhorse Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Packhorse Mountain is rated Moderate. At 2,766 feet, plan for the terrain and weather typical of Pennsylvania peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Packhorse Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Packhorse Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Packhorse Mountain Trail, a  moderate hike to the Packhorse Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Packhorse Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Packhorse Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357303207",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357303207",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357303207,
+    "prominence_m": null,
+    "wikidata": "Q49059304"
+  }
+}

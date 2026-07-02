@@ -1,0 +1,914 @@
+{
+  "name": "Stein Mountain",
+  "slug": "stein-mountain-pa",
+  "state": "Pennsylvania",
+  "state_slug": "pennsylvania",
+  "elevation": 2415,
+  "lat": 40.31313,
+  "lon": -78.59502,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Stein Mountain Trail",
+      "difficulty": "Moderate",
+      "type": "",
+      "stats": {
+        "distance": 5.8,
+        "gain": 368,
+        "time": null,
+        "difficulty": "Moderate"
+      },
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          40.28332,
+          -78.63817
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            40.27297,
+            -78.64306
+          ],
+          "summit": [
+            40.31313,
+            -78.59502
+          ]
+        },
+        "path": [
+          [
+            40.27297,
+            -78.64306,
+            2674
+          ],
+          [
+            40.27375,
+            -78.64283,
+            2671
+          ],
+          [
+            40.27421,
+            -78.64231,
+            2687
+          ],
+          [
+            40.27458,
+            -78.64169,
+            2687
+          ],
+          [
+            40.27491,
+            -78.64103,
+            2684
+          ],
+          [
+            40.27527,
+            -78.64023,
+            2703
+          ],
+          [
+            40.27558,
+            -78.63949,
+            2690
+          ],
+          [
+            40.27614,
+            -78.6394,
+            2697
+          ],
+          [
+            40.27674,
+            -78.63924,
+            2710
+          ],
+          [
+            40.27737,
+            -78.63928,
+            2710
+          ],
+          [
+            40.27794,
+            -78.63952,
+            2733
+          ],
+          [
+            40.27857,
+            -78.63958,
+            2766
+          ],
+          [
+            40.27908,
+            -78.6398,
+            2766
+          ],
+          [
+            40.2797,
+            -78.63983,
+            2785
+          ],
+          [
+            40.28042,
+            -78.64003,
+            2802
+          ],
+          [
+            40.28097,
+            -78.63998,
+            2818
+          ],
+          [
+            40.28154,
+            -78.63989,
+            2818
+          ],
+          [
+            40.282,
+            -78.63934,
+            2818
+          ],
+          [
+            40.28255,
+            -78.63882,
+            2835
+          ],
+          [
+            40.28321,
+            -78.63836,
+            2835
+          ],
+          [
+            40.28379,
+            -78.63834,
+            2828
+          ],
+          [
+            40.28463,
+            -78.63861,
+            2792
+          ],
+          [
+            40.2853,
+            -78.63903,
+            2789
+          ],
+          [
+            40.28584,
+            -78.6395,
+            2776
+          ],
+          [
+            40.28632,
+            -78.64006,
+            2776
+          ],
+          [
+            40.28693,
+            -78.64047,
+            2753
+          ],
+          [
+            40.28739,
+            -78.64066,
+            2753
+          ],
+          [
+            40.28799,
+            -78.64125,
+            2730
+          ],
+          [
+            40.2884,
+            -78.64134,
+            2700
+          ],
+          [
+            40.28914,
+            -78.64178,
+            2707
+          ],
+          [
+            40.28965,
+            -78.64204,
+            2697
+          ],
+          [
+            40.29037,
+            -78.64202,
+            2707
+          ],
+          [
+            40.29115,
+            -78.6419,
+            2680
+          ],
+          [
+            40.2918,
+            -78.64183,
+            2648
+          ],
+          [
+            40.29251,
+            -78.64194,
+            2621
+          ],
+          [
+            40.29326,
+            -78.64189,
+            2621
+          ],
+          [
+            40.2939,
+            -78.64174,
+            2595
+          ],
+          [
+            40.2944,
+            -78.64176,
+            2585
+          ],
+          [
+            40.29517,
+            -78.64195,
+            2569
+          ],
+          [
+            40.29584,
+            -78.64216,
+            2549
+          ],
+          [
+            40.2963,
+            -78.6421,
+            2549
+          ],
+          [
+            40.2967,
+            -78.64221,
+            2539
+          ],
+          [
+            40.29695,
+            -78.64281,
+            2539
+          ],
+          [
+            40.29754,
+            -78.64295,
+            2513
+          ],
+          [
+            40.29805,
+            -78.64307,
+            2513
+          ],
+          [
+            40.29844,
+            -78.64279,
+            2484
+          ],
+          [
+            40.29861,
+            -78.64192,
+            2493
+          ],
+          [
+            40.2988,
+            -78.64111,
+            2480
+          ],
+          [
+            40.29872,
+            -78.64048,
+            2510
+          ],
+          [
+            40.29876,
+            -78.63992,
+            2536
+          ],
+          [
+            40.29923,
+            -78.63922,
+            2552
+          ],
+          [
+            40.30011,
+            -78.63933,
+            2546
+          ],
+          [
+            40.30098,
+            -78.63922,
+            2503
+          ],
+          [
+            40.30186,
+            -78.63887,
+            2484
+          ],
+          [
+            40.30256,
+            -78.63826,
+            2507
+          ],
+          [
+            40.30305,
+            -78.63728,
+            2500
+          ],
+          [
+            40.30365,
+            -78.63654,
+            2510
+          ],
+          [
+            40.30427,
+            -78.63598,
+            2539
+          ],
+          [
+            40.30488,
+            -78.63496,
+            2520
+          ],
+          [
+            40.3054,
+            -78.63428,
+            2552
+          ],
+          [
+            40.30591,
+            -78.63334,
+            2602
+          ],
+          [
+            40.30653,
+            -78.63246,
+            2556
+          ],
+          [
+            40.30714,
+            -78.63148,
+            2608
+          ],
+          [
+            40.30797,
+            -78.63039,
+            2648
+          ],
+          [
+            40.3088,
+            -78.63033,
+            2638
+          ],
+          [
+            40.30946,
+            -78.6307,
+            2589
+          ],
+          [
+            40.31051,
+            -78.63178,
+            2608
+          ],
+          [
+            40.31153,
+            -78.63268,
+            2592
+          ],
+          [
+            40.31221,
+            -78.63275,
+            2566
+          ],
+          [
+            40.31294,
+            -78.63302,
+            2543
+          ],
+          [
+            40.31349,
+            -78.63278,
+            2562
+          ],
+          [
+            40.31423,
+            -78.63224,
+            2579
+          ],
+          [
+            40.315,
+            -78.63265,
+            2615
+          ],
+          [
+            40.3155,
+            -78.63331,
+            2615
+          ],
+          [
+            40.31586,
+            -78.63409,
+            2628
+          ],
+          [
+            40.31671,
+            -78.63462,
+            2579
+          ],
+          [
+            40.31741,
+            -78.6345,
+            2579
+          ],
+          [
+            40.31816,
+            -78.63403,
+            2582
+          ],
+          [
+            40.31894,
+            -78.63383,
+            2572
+          ],
+          [
+            40.31982,
+            -78.63368,
+            2566
+          ],
+          [
+            40.3205,
+            -78.63344,
+            2598
+          ],
+          [
+            40.32128,
+            -78.63305,
+            2598
+          ],
+          [
+            40.32192,
+            -78.63254,
+            2569
+          ],
+          [
+            40.32274,
+            -78.63183,
+            2562
+          ],
+          [
+            40.3235,
+            -78.63171,
+            2530
+          ],
+          [
+            40.32424,
+            -78.63111,
+            2523
+          ],
+          [
+            40.32466,
+            -78.63086,
+            2523
+          ],
+          [
+            40.32528,
+            -78.63037,
+            2510
+          ],
+          [
+            40.32579,
+            -78.62953,
+            2526
+          ],
+          [
+            40.3262,
+            -78.62873,
+            2516
+          ],
+          [
+            40.32647,
+            -78.62789,
+            2526
+          ],
+          [
+            40.32643,
+            -78.62714,
+            2536
+          ],
+          [
+            40.32691,
+            -78.6266,
+            2546
+          ],
+          [
+            40.32733,
+            -78.62624,
+            2546
+          ],
+          [
+            40.32792,
+            -78.62613,
+            2536
+          ],
+          [
+            40.32853,
+            -78.62598,
+            2507
+          ],
+          [
+            40.32893,
+            -78.62671,
+            2500
+          ],
+          [
+            40.32942,
+            -78.62681,
+            2487
+          ],
+          [
+            40.32997,
+            -78.6267,
+            2487
+          ],
+          [
+            40.33035,
+            -78.62684,
+            2467
+          ],
+          [
+            40.33056,
+            -78.62745,
+            2467
+          ],
+          [
+            40.33094,
+            -78.62772,
+            2480
+          ],
+          [
+            40.33135,
+            -78.62753,
+            2480
+          ],
+          [
+            40.33182,
+            -78.62739,
+            2467
+          ],
+          [
+            40.33247,
+            -78.62754,
+            2484
+          ],
+          [
+            40.33308,
+            -78.62762,
+            2474
+          ],
+          [
+            40.33355,
+            -78.62805,
+            2484
+          ],
+          [
+            40.3339,
+            -78.62854,
+            2490
+          ],
+          [
+            40.33442,
+            -78.62904,
+            2480
+          ],
+          [
+            40.33515,
+            -78.62934,
+            2497
+          ],
+          [
+            40.3356,
+            -78.62962,
+            2497
+          ],
+          [
+            40.33609,
+            -78.63022,
+            2539
+          ],
+          [
+            40.33688,
+            -78.63095,
+            2559
+          ],
+          [
+            40.33747,
+            -78.63158,
+            2559
+          ],
+          [
+            40.33799,
+            -78.63188,
+            2585
+          ],
+          [
+            40.33881,
+            -78.63209,
+            2589
+          ],
+          [
+            40.33963,
+            -78.63182,
+            2592
+          ],
+          [
+            40.34032,
+            -78.63143,
+            2612
+          ],
+          [
+            40.34101,
+            -78.63081,
+            2618
+          ],
+          [
+            40.34172,
+            -78.63041,
+            2621
+          ],
+          [
+            40.34258,
+            -78.63023,
+            2608
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2674,
+            "coord": [
+              40.27297,
+              -78.64306
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 2710,
+            "coord": [
+              40.27737,
+              -78.63928
+            ]
+          },
+          {
+            "mile": 0.83,
+            "elev": 2835,
+            "coord": [
+              40.28321,
+              -78.63836
+            ]
+          },
+          {
+            "mile": 1.24,
+            "elev": 2700,
+            "coord": [
+              40.2884,
+              -78.64134
+            ]
+          },
+          {
+            "mile": 1.65,
+            "elev": 2585,
+            "coord": [
+              40.2944,
+              -78.64176
+            ]
+          },
+          {
+            "mile": 2.07,
+            "elev": 2480,
+            "coord": [
+              40.2988,
+              -78.64111
+            ]
+          },
+          {
+            "mile": 2.48,
+            "elev": 2500,
+            "coord": [
+              40.30305,
+              -78.63728
+            ]
+          },
+          {
+            "mile": 2.9,
+            "elev": 2608,
+            "coord": [
+              40.30714,
+              -78.63148
+            ]
+          },
+          {
+            "mile": 3.31,
+            "elev": 2566,
+            "coord": [
+              40.31221,
+              -78.63275
+            ]
+          },
+          {
+            "mile": 3.72,
+            "elev": 2579,
+            "coord": [
+              40.31741,
+              -78.6345
+            ]
+          },
+          {
+            "mile": 4.14,
+            "elev": 2562,
+            "coord": [
+              40.32274,
+              -78.63183
+            ]
+          },
+          {
+            "mile": 4.55,
+            "elev": 2546,
+            "coord": [
+              40.32691,
+              -78.6266
+            ]
+          },
+          {
+            "mile": 4.96,
+            "elev": 2467,
+            "coord": [
+              40.33182,
+              -78.62739
+            ]
+          },
+          {
+            "mile": 5.38,
+            "elev": 2559,
+            "coord": [
+              40.33688,
+              -78.63095
+            ]
+          },
+          {
+            "mile": 5.79,
+            "elev": 2608,
+            "coord": [
+              40.34258,
+              -78.63023
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Stein Mountain</strong> rises to 2,415 feet in Pennsylvania. The Stein Mountain Trail is a 5.8-mile hike with about 368 feet of elevation gain. Nearby peaks include Schaefer Head, Loop Mountain and Pike's Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Schaefer Head",
+      "slug": "schaefer-head-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2946,
+      "distance_miles": 2.0
+    },
+    {
+      "name": "Loop Mountain",
+      "slug": "loop-mountain-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2461,
+      "distance_miles": 13.1
+    },
+    {
+      "name": "Pike's Peak",
+      "slug": "pikes-peak-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2848,
+      "distance_miles": 28.3
+    },
+    {
+      "name": "Savage Mountain",
+      "slug": "savage-mountain-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2667,
+      "distance_miles": 30.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Stein Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Stein Mountain hike with current conditions, trail map & parking info. Pennsylvania summit at 2,415 ft.",
+    "canonical_url": "/trails/pennsylvania/stein-mountain-pa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Stein Mountain",
+      "description": "Stein Mountain is a 2,415 foot peak in Pennsylvania offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.31313,
+        "longitude": -78.59502,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2415,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Pennsylvania",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Stein Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.27297,
+            "longitude": -78.64306
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Stein Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Stein Mountain Trail on Stein Mountain is 5.8-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Stein Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stein Mountain is rated Moderate. At 2,415 feet, plan for the terrain and weather typical of Pennsylvania peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Stein Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Stein Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Stein Mountain Trail, a 5.8-mile moderate hike to the Stein Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Stein Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Stein Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357314809",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/357314809",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 357314809,
+    "prominence_m": null,
+    "wikidata": "Q49077992"
+  }
+}

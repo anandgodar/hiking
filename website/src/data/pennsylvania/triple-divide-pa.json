@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Triple Divide",
+  "slug": "triple-divide-pa",
+  "state": "Pennsylvania",
+  "state_slug": "pennsylvania",
+  "elevation": 2523,
+  "lat": 41.84673,
+  "lon": -77.83722,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Triple Divide Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.84673,
+            -77.83722
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Triple Divide</strong> is a 2,523-foot summit in Pennsylvania. Nearby peaks include White Knoll, Big Level and Mount Brodhead. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "White Knoll",
+      "slug": "white-knoll-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2566,
+      "distance_miles": 8.7
+    },
+    {
+      "name": "Big Level",
+      "slug": "big-level-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2556,
+      "distance_miles": 9.4
+    },
+    {
+      "name": "Mount Brodhead",
+      "slug": "mount-brodhead-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2490,
+      "distance_miles": 13.8
+    },
+    {
+      "name": "Cherry Springs Vista",
+      "slug": "cherry-springs-vista-pa",
+      "state_slug": "pennsylvania",
+      "elevation": 2418,
+      "distance_miles": 14.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Triple Divide Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Triple Divide hike with current conditions, trail map & parking info. Pennsylvania summit at 2,523 ft.",
+    "canonical_url": "/trails/pennsylvania/triple-divide-pa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Triple Divide",
+      "description": "Triple Divide is a 2,523 foot peak in Pennsylvania offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.84673,
+        "longitude": -77.83722,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2523,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Pennsylvania",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Triple Divide Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Triple Divide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Triple Divide Trail on Triple Divide is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Triple Divide hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Triple Divide is rated Moderate. At 2,523 feet, plan for the terrain and weather typical of Pennsylvania peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Triple Divide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Triple Divide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Triple Divide Trail, a  moderate hike to the Triple Divide summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Triple Divide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Triple Divide. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/13115667708",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/13115667708",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 13115667708,
+    "prominence_m": null,
+    "wikidata": "Q49084898"
+  }
+}
