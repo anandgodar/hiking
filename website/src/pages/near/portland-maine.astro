@@ -4,6 +4,7 @@
  * SEO landing page targeting "hiking near portland maine" (1,300 searches/month)
  */
 import Layout from '../../layouts/Layout.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
 import SiteFooter from '../../components/SiteFooter.astro';
 import MountainCard from '../../components/MountainCard.astro';
 
@@ -11,7 +12,7 @@ import MountainCard from '../../components/MountainCard.astro';
 const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
 const allMountains = Object.values(allFiles)
   .map(f => f.default || f)
-  .filter(m => m && m.name && m.slug); // Filter out blog posts
+  .filter(isPublishReady); // route-complete trails only (no drafts)
 
 // Portland, ME coordinates
 const portlandLat = 43.6591;

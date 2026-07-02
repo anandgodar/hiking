@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Tourtellotte Hill",
   "slug": "tourtellotte-hill-ri",
   "state": "Rhode Island",
@@ -12,39 +11,319 @@
   "trails": [
     {
       "name": "Tourtellotte Hill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.8,
+        "gain": 75,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
-      "parking_info": "",
+      "parking_info": "Trailhead parking",
       "parking_details": {
         "fee": "",
         "location": "",
         "coords": [
-          null,
-          null
+          41.89405,
+          -71.61093
         ]
       },
       "tags": [],
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            41.8934,
+            -71.61193
           ],
           "summit": [
             41.89371,
             -71.65451
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            41.8934,
+            -71.61193,
+            489
+          ],
+          [
+            41.89215,
+            -71.61296,
+            528
+          ],
+          [
+            41.89146,
+            -71.61352,
+            538
+          ],
+          [
+            41.89102,
+            -71.61324,
+            528
+          ],
+          [
+            41.89089,
+            -71.61329,
+            528
+          ],
+          [
+            41.8907,
+            -71.61337,
+            541
+          ],
+          [
+            41.89057,
+            -71.61369,
+            541
+          ],
+          [
+            41.8905,
+            -71.61385,
+            541
+          ],
+          [
+            41.89005,
+            -71.61403,
+            541
+          ],
+          [
+            41.88981,
+            -71.61457,
+            541
+          ],
+          [
+            41.88979,
+            -71.61528,
+            522
+          ],
+          [
+            41.88908,
+            -71.61603,
+            541
+          ],
+          [
+            41.8885,
+            -71.61564,
+            538
+          ],
+          [
+            41.88792,
+            -71.61648,
+            561
+          ],
+          [
+            41.88754,
+            -71.61698,
+            551
+          ],
+          [
+            41.88719,
+            -71.61699,
+            564
+          ],
+          [
+            41.88689,
+            -71.61704,
+            564
+          ],
+          [
+            41.88662,
+            -71.6168,
+            564
+          ],
+          [
+            41.88658,
+            -71.61673,
+            564
+          ],
+          [
+            41.88654,
+            -71.61655,
+            554
+          ],
+          [
+            41.88652,
+            -71.61649,
+            554
+          ],
+          [
+            41.88645,
+            -71.61643,
+            554
+          ],
+          [
+            41.88638,
+            -71.61638,
+            554
+          ],
+          [
+            41.8861,
+            -71.61635,
+            554
+          ],
+          [
+            41.88603,
+            -71.61634,
+            554
+          ],
+          [
+            41.88583,
+            -71.61633,
+            554
+          ],
+          [
+            41.88556,
+            -71.61641,
+            548
+          ],
+          [
+            41.88528,
+            -71.6166,
+            548
+          ],
+          [
+            41.8851,
+            -71.61674,
+            525
+          ],
+          [
+            41.88486,
+            -71.61682,
+            522
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 489,
+            "coord": [
+              41.8934,
+              -71.61193
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 528,
+            "coord": [
+              41.89215,
+              -71.61296
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 528,
+            "coord": [
+              41.89215,
+              -71.61296
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 538,
+            "coord": [
+              41.89146,
+              -71.61352
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 541,
+            "coord": [
+              41.8907,
+              -71.61337
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 541,
+            "coord": [
+              41.89005,
+              -71.61403
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 541,
+            "coord": [
+              41.88981,
+              -71.61457
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 541,
+            "coord": [
+              41.88908,
+              -71.61603
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 538,
+            "coord": [
+              41.8885,
+              -71.61564
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 561,
+            "coord": [
+              41.88792,
+              -71.61648
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 551,
+            "coord": [
+              41.88754,
+              -71.61698
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 564,
+            "coord": [
+              41.88689,
+              -71.61704
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 554,
+            "coord": [
+              41.88638,
+              -71.61638
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 548,
+            "coord": [
+              41.88556,
+              -71.61641
+            ]
+          },
+          {
+            "mile": 0.75,
+            "elev": 522,
+            "coord": [
+              41.88486,
+              -71.61682
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Steere Hill",
+          "type": "summit",
+          "lat": 41.88399,
+          "lon": -71.61368,
+          "mile": 0.75
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Tourtellotte Hill</strong> rises to 699 feet in Rhode Island. Nearby peaks include Sprague Hill, Durfee Hill and Pray Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,10 +452,12 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357256895",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357256895",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357256895,

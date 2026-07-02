@@ -7,6 +7,7 @@
  * FIXED: SVG icon instead of emoji for search
  */
 import Layout from '../../layouts/Layout.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
 import MountainCard from '../../components/MountainCard.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 
@@ -15,7 +16,7 @@ export async function getStaticPaths() {
   const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
   const allMountains = Object.values(allFiles)
     .map(f => f.default || f)
-    .filter(m => m && m.name && m.slug); // Filter out blog posts and invalid data
+    .filter(isPublishReady); // route-complete trails only and invalid data
 
   const normalizeTag = (tag) => {
       if (!tag) return '';

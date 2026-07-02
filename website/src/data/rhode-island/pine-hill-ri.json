@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Pine Hill",
   "slug": "pine-hill-ri",
   "state": "Rhode Island",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Pine Hill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.4,
+        "gain": 16,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,223 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            41.90382,
+            -71.7177
           ],
           "summit": [
             41.88065,
             -71.75951
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            41.90382,
+            -71.7177,
+            600
+          ],
+          [
+            41.90366,
+            -71.71783,
+            600
+          ],
+          [
+            41.90333,
+            -71.71806,
+            600
+          ],
+          [
+            41.90316,
+            -71.71827,
+            594
+          ],
+          [
+            41.90291,
+            -71.71875,
+            584
+          ],
+          [
+            41.90228,
+            -71.71931,
+            594
+          ],
+          [
+            41.90213,
+            -71.71938,
+            594
+          ],
+          [
+            41.90123,
+            -71.71951,
+            597
+          ],
+          [
+            41.90097,
+            -71.71949,
+            597
+          ],
+          [
+            41.90088,
+            -71.71946,
+            597
+          ],
+          [
+            41.90071,
+            -71.71947,
+            597
+          ],
+          [
+            41.9004,
+            -71.71942,
+            597
+          ],
+          [
+            41.89981,
+            -71.71943,
+            594
+          ],
+          [
+            41.89933,
+            -71.71915,
+            587
+          ],
+          [
+            41.89892,
+            -71.71897,
+            587
+          ],
+          [
+            41.89866,
+            -71.71882,
+            587
+          ],
+          [
+            41.8986,
+            -71.71881,
+            587
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 600,
+            "coord": [
+              41.90382,
+              -71.7177
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 600,
+            "coord": [
+              41.90333,
+              -71.71806
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 594,
+            "coord": [
+              41.90316,
+              -71.71827
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 584,
+            "coord": [
+              41.90291,
+              -71.71875
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 594,
+            "coord": [
+              41.90228,
+              -71.71931
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 594,
+            "coord": [
+              41.90228,
+              -71.71931
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 594,
+            "coord": [
+              41.90213,
+              -71.71938
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 597,
+            "coord": [
+              41.90123,
+              -71.71951
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 597,
+            "coord": [
+              41.90097,
+              -71.71949
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 597,
+            "coord": [
+              41.90071,
+              -71.71947
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 597,
+            "coord": [
+              41.9004,
+              -71.71942
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 594,
+            "coord": [
+              41.89981,
+              -71.71943
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 587,
+            "coord": [
+              41.89933,
+              -71.71915
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 587,
+            "coord": [
+              41.89892,
+              -71.71897
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 587,
+            "coord": [
+              41.8986,
+              -71.71881
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +379,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357256850",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357256850",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 357256850,

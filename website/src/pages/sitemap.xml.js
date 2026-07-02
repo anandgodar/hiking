@@ -12,6 +12,7 @@ export async function GET() {
 
   // 2.1 Add Blog, Guides, and Gear hub pages (high priority for monetization)
   pages.push({ url: `${siteUrl}/blog`, priority: 0.9, changefreq: 'daily' });
+  pages.push({ url: `${siteUrl}/map`, priority: 0.9, changefreq: 'weekly' });
   pages.push({ url: `${siteUrl}/guides`, priority: 0.85, changefreq: 'weekly' });
   pages.push({ url: `${siteUrl}/gear`, priority: 0.85, changefreq: 'weekly' });
 

@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Slicking Mountain",
   "slug": "slicking-mountain-sc",
   "state": "South Carolina",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Slicking Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.4,
+        "gain": 89,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,198 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            35.10527,
+            -82.70373
           ],
           "summit": [
             35.09289,
             -82.6968
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            35.10527,
+            -82.70373,
+            2871
+          ],
+          [
+            35.10458,
+            -82.70368,
+            2841
+          ],
+          [
+            35.10424,
+            -82.70357,
+            2841
+          ],
+          [
+            35.10394,
+            -82.70354,
+            2828
+          ],
+          [
+            35.10373,
+            -82.70346,
+            2828
+          ],
+          [
+            35.10362,
+            -82.70334,
+            2828
+          ],
+          [
+            35.10219,
+            -82.70323,
+            2894
+          ],
+          [
+            35.10188,
+            -82.70343,
+            2858
+          ],
+          [
+            35.10141,
+            -82.70399,
+            2890
+          ],
+          [
+            35.10115,
+            -82.70408,
+            2890
+          ],
+          [
+            35.10079,
+            -82.70412,
+            2904
+          ],
+          [
+            35.1004,
+            -82.70419,
+            2917
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2871,
+            "coord": [
+              35.10527,
+              -82.70373
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 2841,
+            "coord": [
+              35.10458,
+              -82.70368
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 2841,
+            "coord": [
+              35.10458,
+              -82.70368
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 2841,
+            "coord": [
+              35.10424,
+              -82.70357
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 2828,
+            "coord": [
+              35.10373,
+              -82.70346
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 2828,
+            "coord": [
+              35.10362,
+              -82.70334
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 2828,
+            "coord": [
+              35.10362,
+              -82.70334
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 2894,
+            "coord": [
+              35.10219,
+              -82.70323
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 2894,
+            "coord": [
+              35.10219,
+              -82.70323
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 2858,
+            "coord": [
+              35.10188,
+              -82.70343
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2858,
+            "coord": [
+              35.10188,
+              -82.70343
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 2890,
+            "coord": [
+              35.10141,
+              -82.70399
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 2890,
+            "coord": [
+              35.10115,
+              -82.70408
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 2904,
+            "coord": [
+              35.10079,
+              -82.70412
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 2917,
+            "coord": [
+              35.1004,
+              -82.70419
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +354,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357096185",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357096185",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 357096185,

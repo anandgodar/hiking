@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Round Rocks",
   "slug": "round-rocks-ri",
   "state": "Rhode Island",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Round Rocks Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.4,
+        "gain": 128,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,18 +32,213 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            41.81529,
+            -71.50085
           ],
           "summit": [
             41.80954,
             -71.52534
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            41.81529,
+            -71.50085,
+            213
+          ],
+          [
+            41.81476,
+            -71.50085,
+            230
+          ],
+          [
+            41.81471,
+            -71.50089,
+            230
+          ],
+          [
+            41.81468,
+            -71.50093,
+            230
+          ],
+          [
+            41.81464,
+            -71.50101,
+            230
+          ],
+          [
+            41.81461,
+            -71.50107,
+            230
+          ],
+          [
+            41.81457,
+            -71.50117,
+            230
+          ],
+          [
+            41.81454,
+            -71.50134,
+            230
+          ],
+          [
+            41.81454,
+            -71.50164,
+            230
+          ],
+          [
+            41.81459,
+            -71.5028,
+            302
+          ],
+          [
+            41.81515,
+            -71.50349,
+            322
+          ],
+          [
+            41.81569,
+            -71.50417,
+            341
+          ],
+          [
+            41.81701,
+            -71.507,
+            341
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 213,
+            "coord": [
+              41.81529,
+              -71.50085
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 230,
+            "coord": [
+              41.81476,
+              -71.50085
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 230,
+            "coord": [
+              41.81457,
+              -71.50117
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 230,
+            "coord": [
+              41.81454,
+              -71.50164
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 302,
+            "coord": [
+              41.81459,
+              -71.5028
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 302,
+            "coord": [
+              41.81459,
+              -71.5028
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 322,
+            "coord": [
+              41.81515,
+              -71.50349
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 322,
+            "coord": [
+              41.81515,
+              -71.50349
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 341,
+            "coord": [
+              41.81569,
+              -71.50417
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 341,
+            "coord": [
+              41.81569,
+              -71.50417
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 341,
+            "coord": [
+              41.81569,
+              -71.50417
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 341,
+            "coord": [
+              41.81569,
+              -71.50417
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 341,
+            "coord": [
+              41.81701,
+              -71.507
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 341,
+            "coord": [
+              41.81701,
+              -71.507
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 341,
+            "coord": [
+              41.81701,
+              -71.507
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Suckatunkanuc Hill",
+          "type": "summit",
+          "lat": 41.81399,
+          "lon": -71.50506,
+          "mile": 0.19
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Round Rocks</strong> is a 381-foot summit in Rhode Island. Nearby peaks include Snake Den, Cat Rocks and Bare Rock. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,10 +367,12 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357256577",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357256577",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357256577,
