@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "John Ray",
+  "slug": "john-ray-tx",
+  "state": "Texas",
+  "state_slug": "texas",
+  "elevation": 3665,
+  "lat": 35.57186,
+  "lon": -101.91903,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "John Ray Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            35.57186,
+            -101.91903
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>John Ray</strong> is a 3,665-foot summit in Texas. Nearby peaks include Lost Mesa, Coyote Bluff and Wolf Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Lost Mesa",
+      "slug": "lost-mesa-tx",
+      "state_slug": "texas",
+      "elevation": 3323,
+      "distance_miles": 7.1
+    },
+    {
+      "name": "Coyote Bluff",
+      "slug": "coyote-bluff-tx",
+      "state_slug": "texas",
+      "elevation": 3570,
+      "distance_miles": 19.6
+    },
+    {
+      "name": "Wolf Mountain",
+      "slug": "wolf-mountain-tx",
+      "state_slug": "texas",
+      "elevation": 3694,
+      "distance_miles": 22.4
+    },
+    {
+      "name": "Cooley Butte",
+      "slug": "cooley-butte-tx",
+      "state_slug": "texas",
+      "elevation": 3376,
+      "distance_miles": 42.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "John Ray Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your John Ray hike with current conditions, trail map & parking info. Texas summit at 3,665 ft.",
+    "canonical_url": "/trails/texas/john-ray-tx",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "John Ray",
+      "description": "John Ray is a 3,665 foot peak in Texas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.57186,
+        "longitude": -101.91903,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3665,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Texas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "John Ray Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike John Ray?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular John Ray Trail on John Ray is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is John Ray hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "John Ray is rated Moderate. At 3,665 feet, plan for the terrain and weather typical of Texas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike John Ray?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike John Ray?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the John Ray Trail, a  moderate hike to the John Ray summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike John Ray?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on John Ray. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356737521",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356737521",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356737521,
+    "prominence_m": null,
+    "wikidata": "Q31713136"
+  }
+}

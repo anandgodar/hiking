@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Echo Peak",
+  "slug": "echo-peak-tx",
+  "state": "Texas",
+  "state_slug": "texas",
+  "elevation": 5410,
+  "lat": 30.82014,
+  "lon": -105.01661,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Echo Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            30.82014,
+            -105.01661
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Echo Peak</strong> is a 5,410-foot summit in Texas. Nearby peaks include Mount Livermore, Mount Locke and Carpenter Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Livermore",
+      "slug": "mount-livermore-tx",
+      "state_slug": "texas",
+      "elevation": 8176,
+      "distance_miles": 51.7
+    },
+    {
+      "name": "Mount Locke",
+      "slug": "mount-locke-tx",
+      "state_slug": "texas",
+      "elevation": 6778,
+      "distance_miles": 59.9
+    },
+    {
+      "name": "Carpenter Mountain",
+      "slug": "carpenter-mountain-tx",
+      "state_slug": "texas",
+      "elevation": 5807,
+      "distance_miles": 60.2
+    },
+    {
+      "name": "El Capitan",
+      "slug": "el-capitan-tx",
+      "state_slug": "texas",
+      "elevation": 8064,
+      "distance_miles": 73.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Echo Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Echo Peak hike with current conditions, trail map & parking info. Texas summit at 5,410 ft.",
+    "canonical_url": "/trails/texas/echo-peak-tx",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Echo Peak",
+      "description": "Echo Peak is a 5,410 foot peak in Texas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.82014,
+        "longitude": -105.01661,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5410,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Texas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Echo Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Echo Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Echo Peak Trail on Echo Peak is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Echo Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Echo Peak is rated Moderate. At 5,410 feet, plan for the terrain and weather typical of Texas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Echo Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Echo Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Echo Peak Trail, a  moderate hike to the Echo Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Echo Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Echo Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356746807",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356746807",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356746807,
+    "prominence_m": null,
+    "wikidata": "Q31531364"
+  }
+}
