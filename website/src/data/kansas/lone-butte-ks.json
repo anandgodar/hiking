@@ -1,0 +1,179 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Lone Butte",
+  "slug": "lone-butte-ks",
+  "state": "Kansas",
+  "state_slug": "kansas",
+  "elevation": 3219,
+  "lat": 38.78779,
+  "lon": -101.20877,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Lone Butte Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            38.78779,
+            -101.20877
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Lone Butte</strong> is a 3,219-foot summit in Kansas. Nearby peaks include Twin Butte, Red Hills and Mount Sunflower. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Twin Butte",
+      "slug": "twin-butte-ks",
+      "state_slug": "kansas",
+      "elevation": 3248,
+      "distance_miles": 9.5
+    },
+    {
+      "name": "Red Hills",
+      "slug": "red-hills-ks",
+      "state_slug": "kansas",
+      "elevation": 3579,
+      "distance_miles": 26.8
+    },
+    {
+      "name": "Mount Sunflower",
+      "slug": "mount-sunflower-ks",
+      "state_slug": "kansas",
+      "elevation": 4035,
+      "distance_miles": 47.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Lone Butte Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Lone Butte hike with current conditions, trail map & parking info. Kansas summit at 3,219 ft.",
+    "canonical_url": "/trails/kansas/lone-butte-ks",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Lone Butte",
+      "description": "Lone Butte is a 3,219 foot peak in Kansas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.78779,
+        "longitude": -101.20877,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3219,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kansas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Lone Butte Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Lone Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Lone Butte Trail on Lone Butte is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Lone Butte hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lone Butte is rated Moderate. At 3,219 feet, plan for the terrain and weather typical of Kansas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Lone Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Lone Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Lone Butte Trail, a  moderate hike to the Lone Butte summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Lone Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Lone Butte. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358625164",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358625164",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358625164,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

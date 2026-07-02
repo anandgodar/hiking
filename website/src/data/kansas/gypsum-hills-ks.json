@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Gypsum Hills",
+  "slug": "gypsum-hills-ks",
+  "state": "Kansas",
+  "state_slug": "kansas",
+  "elevation": 1824,
+  "lat": 37.36669,
+  "lon": -98.62953,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Gypsum Hills Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            37.36669,
+            -98.62953
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Gypsum Hills</strong> rises to 1,824 feet in Kansas. Nearby peaks include Iron Mountain, Sugarloaf and Mount Lookout. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Iron Mountain",
+      "slug": "iron-mountain-ks",
+      "state_slug": "kansas",
+      "elevation": 2064,
+      "distance_miles": 30.6
+    },
+    {
+      "name": "Sugarloaf",
+      "slug": "sugarloaf-ks",
+      "state_slug": "kansas",
+      "elevation": 2001,
+      "distance_miles": 54.2
+    },
+    {
+      "name": "Mount Lookout",
+      "slug": "mount-lookout-ks",
+      "state_slug": "kansas",
+      "elevation": 2326,
+      "distance_miles": 58.1
+    },
+    {
+      "name": "Mount Jesus",
+      "slug": "mount-jesus-ks",
+      "state_slug": "kansas",
+      "elevation": 2349,
+      "distance_miles": 58.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Gypsum Hills Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Gypsum Hills hike with current conditions, trail map & parking info. Kansas summit at 1,824 ft.",
+    "canonical_url": "/trails/kansas/gypsum-hills-ks",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Gypsum Hills",
+      "description": "Gypsum Hills is a 1,824 foot peak in Kansas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.36669,
+        "longitude": -98.62953,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1824,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kansas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Gypsum Hills Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Gypsum Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Gypsum Hills Trail on Gypsum Hills is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Gypsum Hills hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gypsum Hills is rated Moderate. At 1,824 feet, plan for the terrain and weather typical of Kansas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Gypsum Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Gypsum Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Gypsum Hills Trail, a  moderate hike to the Gypsum Hills summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Gypsum Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Gypsum Hills. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358642200",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358642200",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358642200,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

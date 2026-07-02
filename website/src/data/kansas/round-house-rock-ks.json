@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Round House Rock",
+  "slug": "round-house-rock-ks",
+  "state": "Kansas",
+  "state_slug": "kansas",
+  "elevation": 2346,
+  "lat": 38.7339,
+  "lon": -99.65234,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Round House Rock Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            38.7339,
+            -99.65234
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 2,346 feet, <strong>Round House Rock</strong> is a summit in Kansas. Nearby peaks include Pullers Peak, Medicine Peak and Boot Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pullers Peak",
+      "slug": "pullers-peak-ks",
+      "state_slug": "kansas",
+      "elevation": 2398,
+      "distance_miles": 59.8
+    },
+    {
+      "name": "Medicine Peak",
+      "slug": "medicine-peak-ks",
+      "state_slug": "kansas",
+      "elevation": 1759,
+      "distance_miles": 70.6
+    },
+    {
+      "name": "Boot Hill",
+      "slug": "boot-hill-ks",
+      "state_slug": "kansas",
+      "elevation": 2510,
+      "distance_miles": 70.6
+    },
+    {
+      "name": "Williams Butte",
+      "slug": "williams-butte-ks",
+      "state_slug": "kansas",
+      "elevation": 1808,
+      "distance_miles": 73.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Round House Rock Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Round House Rock hike with current conditions, trail map & parking info. Kansas summit at 2,346 ft.",
+    "canonical_url": "/trails/kansas/round-house-rock-ks",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Round House Rock",
+      "description": "Round House Rock is a 2,346 foot peak in Kansas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.7339,
+        "longitude": -99.65234,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2346,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kansas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Round House Rock Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Round House Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Round House Rock Trail on Round House Rock is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Round House Rock hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Round House Rock is rated Moderate. At 2,346 feet, plan for the terrain and weather typical of Kansas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Round House Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Round House Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Round House Rock Trail, a  moderate hike to the Round House Rock summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Round House Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Round House Rock. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358637488",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358637488",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358637488,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Table Mesa",
+  "slug": "table-mesa-ks",
+  "state": "Kansas",
+  "state_slug": "kansas",
+  "elevation": 2638,
+  "lat": 37.03725,
+  "lon": -100.57071,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Table Mesa Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            37.03725,
+            -100.57071
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Table Mesa</strong> is a 2,638-foot summit in Kansas. Nearby peaks include Twin Hills, Mount Helen and Mount Casino. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Twin Hills",
+      "slug": "twin-hills-ks",
+      "state_slug": "kansas",
+      "elevation": 2717,
+      "distance_miles": 5.3
+    },
+    {
+      "name": "Mount Helen",
+      "slug": "mount-helen-ks",
+      "state_slug": "kansas",
+      "elevation": 2021,
+      "distance_miles": 29.9
+    },
+    {
+      "name": "Mount Casino",
+      "slug": "mount-casino-ks",
+      "state_slug": "kansas",
+      "elevation": 2123,
+      "distance_miles": 46.7
+    },
+    {
+      "name": "Mount Nebo",
+      "slug": "mount-nebo-ks",
+      "state_slug": "kansas",
+      "elevation": 2444,
+      "distance_miles": 47.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Table Mesa Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Table Mesa hike with current conditions, trail map & parking info. Kansas summit at 2,638 ft.",
+    "canonical_url": "/trails/kansas/table-mesa-ks",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Table Mesa",
+      "description": "Table Mesa is a 2,638 foot peak in Kansas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.03725,
+        "longitude": -100.57071,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2638,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kansas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Table Mesa Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Table Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Table Mesa Trail on Table Mesa is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Table Mesa hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Table Mesa is rated Moderate. At 2,638 feet, plan for the terrain and weather typical of Kansas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Table Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Table Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Table Mesa Trail, a  moderate hike to the Table Mesa summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Table Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Table Mesa. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358642188",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358642188",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358642188,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Sunflower",
+  "slug": "mount-sunflower-ks",
+  "state": "Kansas",
+  "state_slug": "kansas",
+  "elevation": 4035,
+  "lat": 39.02193,
+  "lon": -102.03725,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Sunflower Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.02193,
+            -102.03725
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Sunflower</strong> is a 4,035-foot summit in Kansas. Nearby peaks include Red Hills, Twin Butte and Lone Butte. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Red Hills",
+      "slug": "red-hills-ks",
+      "state_slug": "kansas",
+      "elevation": 3579,
+      "distance_miles": 22.0
+    },
+    {
+      "name": "Twin Butte",
+      "slug": "twin-butte-ks",
+      "state_slug": "kansas",
+      "elevation": 3248,
+      "distance_miles": 38.7
+    },
+    {
+      "name": "Lone Butte",
+      "slug": "lone-butte-ks",
+      "state_slug": "kansas",
+      "elevation": 3219,
+      "distance_miles": 47.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Sunflower Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Sunflower hike with current conditions, trail map & parking info. Kansas summit at 4,035 ft.",
+    "canonical_url": "/trails/kansas/mount-sunflower-ks",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Sunflower",
+      "description": "Mount Sunflower is a 4,035 foot peak in Kansas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.02193,
+        "longitude": -102.03725,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4035,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kansas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Sunflower Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Sunflower?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Sunflower Trail on Mount Sunflower is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Sunflower hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Sunflower is rated Moderate. At 4,035 feet, plan for the terrain and weather typical of Kansas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Sunflower?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Sunflower?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Sunflower Trail, a  moderate hike to the Mount Sunflower summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Sunflower?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Sunflower. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358642191",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358642191",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358642191,
+    "prominence_m": null,
+    "wikidata": "Q1587215"
+  }
+}

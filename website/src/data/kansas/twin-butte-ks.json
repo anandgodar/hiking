@@ -1,0 +1,179 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Twin Butte",
+  "slug": "twin-butte-ks",
+  "state": "Kansas",
+  "state_slug": "kansas",
+  "elevation": 3248,
+  "lat": 38.78557,
+  "lon": -101.38461,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Twin Butte Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            38.78557,
+            -101.38461
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Twin Butte</strong> rises to 3,248 feet in Kansas. Nearby peaks include Lone Butte, Red Hills and Mount Sunflower. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Lone Butte",
+      "slug": "lone-butte-ks",
+      "state_slug": "kansas",
+      "elevation": 3219,
+      "distance_miles": 9.5
+    },
+    {
+      "name": "Red Hills",
+      "slug": "red-hills-ks",
+      "state_slug": "kansas",
+      "elevation": 3579,
+      "distance_miles": 19.6
+    },
+    {
+      "name": "Mount Sunflower",
+      "slug": "mount-sunflower-ks",
+      "state_slug": "kansas",
+      "elevation": 4035,
+      "distance_miles": 38.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Twin Butte Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Twin Butte hike with current conditions, trail map & parking info. Kansas summit at 3,248 ft.",
+    "canonical_url": "/trails/kansas/twin-butte-ks",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Twin Butte",
+      "description": "Twin Butte is a 3,248 foot peak in Kansas offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.78557,
+        "longitude": -101.38461,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3248,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kansas",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Twin Butte Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Twin Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Twin Butte Trail on Twin Butte is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Twin Butte hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Twin Butte is rated Moderate. At 3,248 feet, plan for the terrain and weather typical of Kansas peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Twin Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Twin Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Twin Butte Trail, a  moderate hike to the Twin Butte summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Twin Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Twin Butte. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358642362",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358642362",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358642362,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}
