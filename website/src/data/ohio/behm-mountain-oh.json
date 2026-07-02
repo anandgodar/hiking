@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Behm Mountain",
+  "slug": "behm-mountain-oh",
+  "state": "Ohio",
+  "state_slug": "ohio",
+  "elevation": 1001,
+  "lat": 38.83924,
+  "lon": -83.34963,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Behm Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            38.83924,
+            -83.34963
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Behm Mountain</strong> rises to 1,001 feet in Ohio. Nearby peaks include Peach Mountain, Tener Mountain and Picnic Point. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Peach Mountain",
+      "slug": "peach-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1266,
+      "distance_miles": 3.9
+    },
+    {
+      "name": "Tener Mountain",
+      "slug": "tener-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1207,
+      "distance_miles": 10.1
+    },
+    {
+      "name": "Picnic Point",
+      "slug": "picnic-point-oh",
+      "state_slug": "ohio",
+      "elevation": 1089,
+      "distance_miles": 15.6
+    },
+    {
+      "name": "Palmer Mountain",
+      "slug": "palmer-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1240,
+      "distance_miles": 16.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Behm Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Behm Mountain hike with current conditions, trail map & parking info. Ohio summit at 1,001 ft.",
+    "canonical_url": "/trails/ohio/behm-mountain-oh",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Behm Mountain",
+      "description": "Behm Mountain is a 1,001 foot peak in Ohio offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.83924,
+        "longitude": -83.34963,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1001,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Ohio",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Behm Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Behm Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Behm Mountain Trail on Behm Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Behm Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Behm Mountain is rated Moderate. At 1,001 feet, plan for the terrain and weather typical of Ohio peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Behm Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Behm Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Behm Mountain Trail, a  moderate hike to the Behm Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Behm Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Behm Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357419063",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357419063",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357419063,
+    "prominence_m": null,
+    "wikidata": "Q34810501"
+  }
+}

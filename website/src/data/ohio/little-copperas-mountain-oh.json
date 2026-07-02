@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Little Copperas Mountain",
+  "slug": "little-copperas-mountain-oh",
+  "state": "Ohio",
+  "state_slug": "ohio",
+  "elevation": 1198,
+  "lat": 39.21784,
+  "lon": -83.22713,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Little Copperas Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.21784,
+            -83.22713
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,198 feet, <strong>Little Copperas Mountain</strong> is a summit in Ohio. Nearby peaks include Roundtop, Massies Heaven and Shepherds Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Roundtop",
+      "slug": "roundtop-oh",
+      "state_slug": "ohio",
+      "elevation": 1270,
+      "distance_miles": 7.4
+    },
+    {
+      "name": "Massies Heaven",
+      "slug": "massies-heaven-oh",
+      "state_slug": "ohio",
+      "elevation": 1224,
+      "distance_miles": 7.5
+    },
+    {
+      "name": "Shepherds Mountain",
+      "slug": "shepherds-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1302,
+      "distance_miles": 7.6
+    },
+    {
+      "name": "Twin Knobs",
+      "slug": "twin-knobs-oh",
+      "state_slug": "ohio",
+      "elevation": 1138,
+      "distance_miles": 7.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Little Copperas Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Little Copperas Mountain hike with current conditions, trail map & parking info. Ohio summit at 1,198 ft.",
+    "canonical_url": "/trails/ohio/little-copperas-mountain-oh",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Little Copperas Mountain",
+      "description": "Little Copperas Mountain is a 1,198 foot peak in Ohio offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.21784,
+        "longitude": -83.22713,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1198,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Ohio",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Little Copperas Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Little Copperas Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Little Copperas Mountain Trail on Little Copperas Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Little Copperas Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Little Copperas Mountain is rated Moderate. At 1,198 feet, plan for the terrain and weather typical of Ohio peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Little Copperas Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Little Copperas Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Little Copperas Mountain Trail, a  moderate hike to the Little Copperas Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Little Copperas Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Little Copperas Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357401043",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357401043",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357401043,
+    "prominence_m": null,
+    "wikidata": "Q34826403"
+  }
+}

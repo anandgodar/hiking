@@ -1,0 +1,913 @@
+{
+  "name": "Picnic Point",
+  "slug": "picnic-point-oh",
+  "state": "Ohio",
+  "state_slug": "ohio",
+  "elevation": 1089,
+  "lat": 38.69313,
+  "lon": -83.12879,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Picnic Point Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 1.6,
+        "gain": 423,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            38.69731,
+            -83.12178
+          ],
+          "summit": [
+            38.69313,
+            -83.12879
+          ]
+        },
+        "path": [
+          [
+            38.69731,
+            -83.12178,
+            656
+          ],
+          [
+            38.69732,
+            -83.12204,
+            656
+          ],
+          [
+            38.6973,
+            -83.12229,
+            656
+          ],
+          [
+            38.69727,
+            -83.12275,
+            686
+          ],
+          [
+            38.69723,
+            -83.123,
+            686
+          ],
+          [
+            38.69713,
+            -83.12354,
+            705
+          ],
+          [
+            38.69706,
+            -83.12382,
+            705
+          ],
+          [
+            38.69698,
+            -83.12422,
+            732
+          ],
+          [
+            38.69695,
+            -83.12443,
+            732
+          ],
+          [
+            38.69695,
+            -83.12487,
+            732
+          ],
+          [
+            38.69694,
+            -83.1249,
+            732
+          ],
+          [
+            38.69696,
+            -83.1253,
+            745
+          ],
+          [
+            38.69697,
+            -83.12566,
+            745
+          ],
+          [
+            38.697,
+            -83.12615,
+            732
+          ],
+          [
+            38.69703,
+            -83.12636,
+            732
+          ],
+          [
+            38.69714,
+            -83.12684,
+            745
+          ],
+          [
+            38.69725,
+            -83.12707,
+            745
+          ],
+          [
+            38.69741,
+            -83.12747,
+            745
+          ],
+          [
+            38.69744,
+            -83.12774,
+            758
+          ],
+          [
+            38.69752,
+            -83.12847,
+            810
+          ],
+          [
+            38.69753,
+            -83.12874,
+            810
+          ],
+          [
+            38.69749,
+            -83.12923,
+            768
+          ],
+          [
+            38.69744,
+            -83.12949,
+            768
+          ],
+          [
+            38.69732,
+            -83.12988,
+            768
+          ],
+          [
+            38.6973,
+            -83.12998,
+            768
+          ],
+          [
+            38.6973,
+            -83.13012,
+            807
+          ],
+          [
+            38.6973,
+            -83.1302,
+            807
+          ],
+          [
+            38.69734,
+            -83.1303,
+            807
+          ],
+          [
+            38.69738,
+            -83.13034,
+            807
+          ],
+          [
+            38.69748,
+            -83.13034,
+            807
+          ],
+          [
+            38.69754,
+            -83.13032,
+            833
+          ],
+          [
+            38.6976,
+            -83.13026,
+            833
+          ],
+          [
+            38.69767,
+            -83.13017,
+            833
+          ],
+          [
+            38.69771,
+            -83.13009,
+            833
+          ],
+          [
+            38.69777,
+            -83.12995,
+            810
+          ],
+          [
+            38.69783,
+            -83.12989,
+            810
+          ],
+          [
+            38.69797,
+            -83.12981,
+            810
+          ],
+          [
+            38.69806,
+            -83.12977,
+            810
+          ],
+          [
+            38.6982,
+            -83.12976,
+            810
+          ],
+          [
+            38.69827,
+            -83.12972,
+            810
+          ],
+          [
+            38.69827,
+            -83.12955,
+            810
+          ],
+          [
+            38.69824,
+            -83.12939,
+            810
+          ],
+          [
+            38.69819,
+            -83.12893,
+            810
+          ],
+          [
+            38.69817,
+            -83.12881,
+            810
+          ],
+          [
+            38.69823,
+            -83.12847,
+            810
+          ],
+          [
+            38.69828,
+            -83.12831,
+            817
+          ],
+          [
+            38.69833,
+            -83.12803,
+            922
+          ],
+          [
+            38.69836,
+            -83.12793,
+            922
+          ],
+          [
+            38.6985,
+            -83.12769,
+            922
+          ],
+          [
+            38.69862,
+            -83.12754,
+            922
+          ],
+          [
+            38.69888,
+            -83.1273,
+            863
+          ],
+          [
+            38.69899,
+            -83.12722,
+            863
+          ],
+          [
+            38.69926,
+            -83.12705,
+            948
+          ],
+          [
+            38.69931,
+            -83.12703,
+            948
+          ],
+          [
+            38.69942,
+            -83.12701,
+            948
+          ],
+          [
+            38.69947,
+            -83.12701,
+            948
+          ],
+          [
+            38.69949,
+            -83.12713,
+            948
+          ],
+          [
+            38.69944,
+            -83.12722,
+            948
+          ],
+          [
+            38.69924,
+            -83.12749,
+            948
+          ],
+          [
+            38.69914,
+            -83.12761,
+            922
+          ],
+          [
+            38.69899,
+            -83.12784,
+            922
+          ],
+          [
+            38.69893,
+            -83.12798,
+            922
+          ],
+          [
+            38.69889,
+            -83.12808,
+            922
+          ],
+          [
+            38.69889,
+            -83.12829,
+            922
+          ],
+          [
+            38.6989,
+            -83.12841,
+            892
+          ],
+          [
+            38.69903,
+            -83.12879,
+            892
+          ],
+          [
+            38.69914,
+            -83.12892,
+            892
+          ],
+          [
+            38.69938,
+            -83.12921,
+            948
+          ],
+          [
+            38.69945,
+            -83.12932,
+            948
+          ],
+          [
+            38.69956,
+            -83.12949,
+            948
+          ],
+          [
+            38.69964,
+            -83.12964,
+            948
+          ],
+          [
+            38.69984,
+            -83.12993,
+            948
+          ],
+          [
+            38.7,
+            -83.13013,
+            932
+          ],
+          [
+            38.70019,
+            -83.13042,
+            932
+          ],
+          [
+            38.70026,
+            -83.13055,
+            932
+          ],
+          [
+            38.70031,
+            -83.13102,
+            978
+          ],
+          [
+            38.7003,
+            -83.13116,
+            978
+          ],
+          [
+            38.70014,
+            -83.1314,
+            978
+          ],
+          [
+            38.69998,
+            -83.1315,
+            991
+          ],
+          [
+            38.69967,
+            -83.13161,
+            991
+          ],
+          [
+            38.69961,
+            -83.13174,
+            1020
+          ],
+          [
+            38.6996,
+            -83.13207,
+            1020
+          ],
+          [
+            38.69968,
+            -83.13241,
+            1020
+          ],
+          [
+            38.69969,
+            -83.13287,
+            1020
+          ],
+          [
+            38.69965,
+            -83.13306,
+            1020
+          ],
+          [
+            38.69955,
+            -83.13355,
+            1056
+          ],
+          [
+            38.6995,
+            -83.13374,
+            1056
+          ],
+          [
+            38.69931,
+            -83.13406,
+            1056
+          ],
+          [
+            38.69915,
+            -83.13422,
+            1079
+          ],
+          [
+            38.69895,
+            -83.1344,
+            1079
+          ],
+          [
+            38.69884,
+            -83.13441,
+            1079
+          ],
+          [
+            38.69869,
+            -83.13437,
+            1079
+          ],
+          [
+            38.69848,
+            -83.13419,
+            1079
+          ],
+          [
+            38.69836,
+            -83.13409,
+            1027
+          ],
+          [
+            38.69817,
+            -83.13398,
+            1033
+          ],
+          [
+            38.69805,
+            -83.13396,
+            1033
+          ],
+          [
+            38.69774,
+            -83.13391,
+            1033
+          ],
+          [
+            38.69755,
+            -83.13387,
+            1033
+          ],
+          [
+            38.69725,
+            -83.13383,
+            1033
+          ],
+          [
+            38.69708,
+            -83.13387,
+            1033
+          ],
+          [
+            38.69667,
+            -83.13403,
+            1033
+          ],
+          [
+            38.69648,
+            -83.13408,
+            1043
+          ],
+          [
+            38.69622,
+            -83.13407,
+            1043
+          ],
+          [
+            38.69613,
+            -83.13407,
+            1043
+          ],
+          [
+            38.69594,
+            -83.13407,
+            1043
+          ],
+          [
+            38.69584,
+            -83.13407,
+            1043
+          ],
+          [
+            38.69563,
+            -83.13417,
+            997
+          ],
+          [
+            38.69556,
+            -83.13422,
+            997
+          ],
+          [
+            38.69537,
+            -83.13447,
+            997
+          ],
+          [
+            38.69522,
+            -83.13463,
+            997
+          ],
+          [
+            38.695,
+            -83.13485,
+            997
+          ],
+          [
+            38.69494,
+            -83.13493,
+            1047
+          ],
+          [
+            38.69488,
+            -83.13512,
+            1047
+          ],
+          [
+            38.69485,
+            -83.13522,
+            1047
+          ],
+          [
+            38.69483,
+            -83.13539,
+            1047
+          ],
+          [
+            38.69484,
+            -83.13554,
+            1047
+          ],
+          [
+            38.69487,
+            -83.13594,
+            991
+          ],
+          [
+            38.69482,
+            -83.13606,
+            991
+          ],
+          [
+            38.69458,
+            -83.13628,
+            991
+          ],
+          [
+            38.6945,
+            -83.1363,
+            991
+          ],
+          [
+            38.69438,
+            -83.13635,
+            991
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 656,
+            "coord": [
+              38.69731,
+              -83.12178
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 705,
+            "coord": [
+              38.69706,
+              -83.12382
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 732,
+            "coord": [
+              38.697,
+              -83.12615
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 810,
+            "coord": [
+              38.69752,
+              -83.12847
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 807,
+            "coord": [
+              38.6973,
+              -83.1302
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 810,
+            "coord": [
+              38.69819,
+              -83.12893
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 863,
+            "coord": [
+              38.69888,
+              -83.1273
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 922,
+            "coord": [
+              38.69889,
+              -83.12808
+            ]
+          },
+          {
+            "mile": 0.94,
+            "elev": 948,
+            "coord": [
+              38.69984,
+              -83.12993
+            ]
+          },
+          {
+            "mile": 1.05,
+            "elev": 991,
+            "coord": [
+              38.69998,
+              -83.1315
+            ]
+          },
+          {
+            "mile": 1.17,
+            "elev": 1056,
+            "coord": [
+              38.69955,
+              -83.13355
+            ]
+          },
+          {
+            "mile": 1.29,
+            "elev": 1027,
+            "coord": [
+              38.69836,
+              -83.13409
+            ]
+          },
+          {
+            "mile": 1.41,
+            "elev": 1033,
+            "coord": [
+              38.69667,
+              -83.13403
+            ]
+          },
+          {
+            "mile": 1.52,
+            "elev": 997,
+            "coord": [
+              38.69522,
+              -83.13463
+            ]
+          },
+          {
+            "mile": 1.64,
+            "elev": 991,
+            "coord": [
+              38.69438,
+              -83.13635
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,089 feet, <strong>Picnic Point</strong> is a summit in Ohio. The Picnic Point Trail is a 1.6-mile hike with about 423 feet of elevation gain. Nearby peaks include Behm Mountain, Peach Mountain and Tener Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Behm Mountain",
+      "slug": "behm-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1001,
+      "distance_miles": 15.6
+    },
+    {
+      "name": "Peach Mountain",
+      "slug": "peach-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1266,
+      "distance_miles": 18.8
+    },
+    {
+      "name": "Tener Mountain",
+      "slug": "tener-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1207,
+      "distance_miles": 21.7
+    },
+    {
+      "name": "Palmer Mountain",
+      "slug": "palmer-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1240,
+      "distance_miles": 29.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Picnic Point Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Picnic Point hike with current conditions, trail map & parking info. Ohio summit at 1,089 ft.",
+    "canonical_url": "/trails/ohio/picnic-point-oh",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Picnic Point",
+      "description": "Picnic Point is a 1,089 foot peak in Ohio offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.69313,
+        "longitude": -83.12879,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1089,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Ohio",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Picnic Point Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.69731,
+            "longitude": -83.12178
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Picnic Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Picnic Point Trail on Picnic Point is 1.6-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Picnic Point hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Picnic Point is rated Moderate. At 1,089 feet, plan for the terrain and weather typical of Ohio peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Picnic Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Picnic Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Picnic Point Trail, a 1.6-mile moderate hike to the Picnic Point summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Picnic Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Picnic Point. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357467567",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/357467567",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 357467567,
+    "prominence_m": null,
+    "wikidata": "Q34891714"
+  }
+}

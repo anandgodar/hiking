@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Twin Knobs",
+  "slug": "twin-knobs-oh",
+  "state": "Ohio",
+  "state_slug": "ohio",
+  "elevation": 1138,
+  "lat": 39.1334,
+  "lon": -83.13157,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Twin Knobs Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.1334,
+            -83.13157
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Twin Knobs</strong> is a 1,138-foot summit in Ohio. Nearby peaks include Little Copperas Mountain, Massies Heaven and Shepherds Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Little Copperas Mountain",
+      "slug": "little-copperas-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1198,
+      "distance_miles": 7.8
+    },
+    {
+      "name": "Massies Heaven",
+      "slug": "massies-heaven-oh",
+      "state_slug": "ohio",
+      "elevation": 1224,
+      "distance_miles": 8.1
+    },
+    {
+      "name": "Shepherds Mountain",
+      "slug": "shepherds-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1302,
+      "distance_miles": 10.5
+    },
+    {
+      "name": "Mount Pisgah",
+      "slug": "mount-pisgah-oh",
+      "state_slug": "ohio",
+      "elevation": 1014,
+      "distance_miles": 10.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Twin Knobs Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Twin Knobs hike with current conditions, trail map & parking info. Ohio summit at 1,138 ft.",
+    "canonical_url": "/trails/ohio/twin-knobs-oh",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Twin Knobs",
+      "description": "Twin Knobs is a 1,138 foot peak in Ohio offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.1334,
+        "longitude": -83.13157,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1138,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Ohio",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Twin Knobs Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Twin Knobs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Twin Knobs Trail on Twin Knobs is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Twin Knobs hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Twin Knobs is rated Moderate. At 1,138 feet, plan for the terrain and weather typical of Ohio peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Twin Knobs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Twin Knobs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Twin Knobs Trail, a  moderate hike to the Twin Knobs summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Twin Knobs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Twin Knobs. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357415060",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357415060",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357415060,
+    "prominence_m": null,
+    "wikidata": "Q34865088"
+  }
+}

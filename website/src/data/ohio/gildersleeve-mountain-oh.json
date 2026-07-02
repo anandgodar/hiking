@@ -1,0 +1,165 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Gildersleeve Mountain",
+  "slug": "gildersleeve-mountain-oh",
+  "state": "Ohio",
+  "state_slug": "ohio",
+  "elevation": 1161,
+  "lat": 41.59449,
+  "lon": -81.35983,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Gildersleeve Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.59449,
+            -81.35983
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,161 feet, <strong>Gildersleeve Mountain</strong> is a summit in Ohio. Nearby peaks include Little Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Little Mountain",
+      "slug": "little-mountain-oh",
+      "state_slug": "ohio",
+      "elevation": 1227,
+      "distance_miles": 5.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Gildersleeve Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Gildersleeve Mountain hike with current conditions, trail map & parking info. Ohio summit at 1,161 ft.",
+    "canonical_url": "/trails/ohio/gildersleeve-mountain-oh",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Gildersleeve Mountain",
+      "description": "Gildersleeve Mountain is a 1,161 foot peak in Ohio offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.59449,
+        "longitude": -81.35983,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1161,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Ohio",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Gildersleeve Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Gildersleeve Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Gildersleeve Mountain Trail on Gildersleeve Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Gildersleeve Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gildersleeve Mountain is rated Moderate. At 1,161 feet, plan for the terrain and weather typical of Ohio peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Gildersleeve Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Gildersleeve Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Gildersleeve Mountain Trail, a  moderate hike to the Gildersleeve Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Gildersleeve Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Gildersleeve Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357432451",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357432451",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357432451,
+    "prominence_m": null,
+    "wikidata": "Q5561552"
+  }
+}
