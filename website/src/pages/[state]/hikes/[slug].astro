@@ -25,6 +25,7 @@ import Footer from '../../../components/Footer.astro';
 // React Components
 import TrailDashboard from '../../../components/TrailDashboard.jsx';
 import WeatherWidget from '../../../components/WeatherWidget.jsx';
+import SavePeakButton from '../../../components/SavePeakButton.jsx';
 import { isPublishReady } from '../../../lib/publishReady.js';
 
 // REQUIRED: getStaticPaths for dynamic routes
@@ -81,6 +82,20 @@ const trailCount = trails.length;
 
 // Get first trail's difficulty
 const firstTrailDifficulty = trails[0]?.difficulty || trails[0]?.stats?.difficulty || null;
+
+// Islands serialize their props into the HTML. TrailDashboard only reads
+// these fields — passing the full mountain (seo schema, description HTML,
+// page_content) roughly doubled trail-page weight (~300 KB of props).
+const dashboardMountain = {
+  name: mountain.name,
+  lat: mountain.lat,
+  lon: mountain.lon,
+  trails: mountain.trails,
+  trails_config: mountain.trails_config,
+  nearby_peaks: mountain.nearby_peaks,
+  current_conditions: mountain.current_conditions,
+  user_reviews: mountain.user_reviews,
+};
 ---
 
 <Layout title={seo.meta_title || `${mountain.name} Trail Guide`} mountain={mountain}>
@@ -95,6 +110,7 @@ const firstTrailDifficulty = trails[0]?.difficulty || trails[0]?.stats?.difficul
           alt={`${mountain.name} summit view`}
           class="w-full h-full object-cover"
           loading="eager"
+          fetchpriority="high"
         />
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
       </div>
@@ -152,12 +168,24 @@ const firstTrailDifficulty = trails[0]?.difficulty || trails[0]?.stats?.difficul
     <!-- Main Content Area -->
     <div class="max-w-7xl mx-auto px-4 md:px-8 py-8">
 
+      <!-- Peak-bagging tracker (localStorage, powers /my-peaks) -->
+      <div class="mb-6">
+        <SavePeakButton
+          client:load
+          slug={mountain.slug}
+          name={mountain.name}
+          stateSlug={mountain.state_slug}
+          stateName={mountain.state}
+          elevation={mountain.elevation}
+        />
+      </div>
+
       <!-- Trail Dashboard - Shows when trail data exists (either trails or trails_config) -->
       {hasTrails && (
         <section class="mt-8 relative z-10 mb-12" id="trails">
           <TrailDashboard
             client:only="react"
-            mountain={mountain}
+            mountain={dashboardMountain}
           />
         </section>
       )}
