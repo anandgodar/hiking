@@ -1642,7 +1642,36 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Cardigan Rimrock",
+          "type": "summit",
+          "lat": 43.64246,
+          "lon": -71.91832,
+          "mile": 2.92
+        },
+        {
+          "name": "Cardigan South Peak",
+          "type": "summit",
+          "lat": 43.64514,
+          "lon": -71.91373,
+          "mile": 3.23
+        },
+        {
+          "name": "Hi Cabin",
+          "type": "hut",
+          "lat": 43.64602,
+          "lon": -71.91084,
+          "mile": 3.29
+        },
+        {
+          "name": "Mount Cardigan",
+          "type": "summit",
+          "lat": 43.64957,
+          "lon": -71.91428,
+          "mile": 3.46
+        }
+      ]
     },
     {
       "id": "507d7c10",
@@ -5891,6 +5920,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

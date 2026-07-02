@@ -91,7 +91,11 @@
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
         "fee": "Check Signage",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          43.93825,
+          -71.51099
+        ]
       },
       "start_lat": 43.9497,
       "start_lon": -71.528,
@@ -2502,7 +2506,15 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mount Tecumseh",
+          "type": "summit",
+          "lat": 43.96655,
+          "lon": -71.55659,
+          "mile": 7.31
+        }
+      ]
     }
   ],
   "seo": {
@@ -2828,6 +2840,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

@@ -2496,7 +2496,58 @@
           ]
         }
       },
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "features": [
+        {
+          "name": "Phelps Brook Lean-to",
+          "type": "hut",
+          "lat": 44.16202,
+          "lon": -73.9477,
+          "mile": 1.8
+        },
+        {
+          "name": "Ed Hudowalski Lean-to",
+          "type": "hut",
+          "lat": 44.15732,
+          "lon": -73.95439,
+          "mile": 2.11
+        },
+        {
+          "name": "Marcy Dam #5 Lean-to",
+          "type": "hut",
+          "lat": 44.15868,
+          "lon": -73.9524,
+          "mile": 2.11
+        },
+        {
+          "name": "Marcy Dam #2 Lean-to",
+          "type": "hut",
+          "lat": 44.158,
+          "lon": -73.95103,
+          "mile": 2.27
+        },
+        {
+          "name": "Indian Falls Lookout",
+          "type": "viewpoint",
+          "lat": 44.14051,
+          "lon": -73.92922,
+          "mile": 4.28
+        },
+        {
+          "name": "Indian Falls",
+          "type": "waterfall",
+          "lat": 44.1404,
+          "lon": -73.92928,
+          "mile": 4.3
+        },
+        {
+          "name": "Mount Marcy",
+          "type": "summit",
+          "lat": 44.11278,
+          "lon": -73.9237,
+          "mile": 7.0
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -2506,7 +2557,8 @@
     "elevation_source": "USGS Benchmark - Mount Marcy Summit (5,344 ft - Highest peak in NY)",
     "gps_source": "USGS Topographic Map - Mount Marcy Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
-    "notes": "Elevation (5,344 ft) from official USGS benchmark - highest point in New York State. Trail distance from NYS DEC official trail descriptions and Adirondack Mountain Club (ADK) High Peaks guidebook. Parking info from ADK Loj."
+    "notes": "Elevation (5,344 ft) from official USGS benchmark - highest point in New York State. Trail distance from NYS DEC official trail descriptions and Adirondack Mountain Club (ADK) High Peaks guidebook. Parking info from ADK Loj.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Mount Marcy Trail Guide | Map, Route & Conditions",

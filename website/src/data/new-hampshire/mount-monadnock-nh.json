@@ -213,12 +213,16 @@
       "elevation_gain": 1885,
       "description": "Trail to Mount Monadnock summit.",
       "tags": [],
-      "parking_info": "Monadnock State Park Headquarters, Poole Rd, Jaffrey",
+      "parking_info": "Mt Monadnock Old Toll Road Parking",
       "parking_details": {
         "capacity": "Large (100+ cars)",
         "status": "Check conditions",
         "fee": "$5/adult (State Park)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          42.83526,
+          -72.11407
+        ]
       },
       "start_lat": 42.8459,
       "start_lon": -72.0985,
@@ -2072,7 +2076,29 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Falcon Spring",
+          "type": "spring",
+          "lat": 42.85397,
+          "lon": -72.09338,
+          "mile": 1.45
+        },
+        {
+          "name": "Mount Monadnock",
+          "type": "summit",
+          "lat": 42.86109,
+          "lon": -72.1083,
+          "mile": 2.48
+        },
+        {
+          "name": "Billings Fold",
+          "type": "cliff",
+          "lat": 42.86156,
+          "lon": -72.10917,
+          "mile": 2.48
+        }
+      ]
     },
     {
       "id": "a57796cf",
@@ -18542,6 +18568,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

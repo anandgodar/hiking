@@ -7597,7 +7597,44 @@
           ]
         }
       },
-      "difficulty": "Expert"
+      "difficulty": "Expert",
+      "features": [
+        {
+          "name": "Tsuga Top",
+          "type": "summit",
+          "lat": 42.02319,
+          "lon": -74.39107,
+          "mile": 2.58
+        },
+        {
+          "name": "Slide Mountain",
+          "type": "summit",
+          "lat": 41.9992,
+          "lon": -74.38594,
+          "mile": 6.94
+        },
+        {
+          "name": "Cornell Mountain",
+          "type": "summit",
+          "lat": 42.0013,
+          "lon": -74.35618,
+          "mile": 8.93
+        },
+        {
+          "name": "Cornell Crack",
+          "type": "cliff",
+          "lat": 42.00233,
+          "lon": -74.3558,
+          "mile": 8.99
+        },
+        {
+          "name": "Wittenberg Mountain",
+          "type": "summit",
+          "lat": 42.00815,
+          "lon": -74.34737,
+          "mile": 10.42
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -7607,7 +7644,8 @@
     "elevation_source": "USGS Benchmark - Slide Mountain Summit (4,180 ft - Highest in Catskills)",
     "gps_source": "USGS Topographic Map - Shandaken Quadrangle",
     "distance_source": "NYS DEC trail guides and Catskill 3500 Club",
-    "notes": "Elevation (4,180 ft) from USGS benchmark - highest peak in the Catskill Mountains. Named after massive landslide. Trail distance from NYS DEC and Catskill 3500 Club guides. Part of Catskill High Peaks."
+    "notes": "Elevation (4,180 ft) from USGS benchmark - highest peak in the Catskill Mountains. Named after massive landslide. Trail distance from NYS DEC and Catskill 3500 Club guides. Part of Catskill High Peaks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Slide Mountain Trail Guide | Map, Route & Conditions",

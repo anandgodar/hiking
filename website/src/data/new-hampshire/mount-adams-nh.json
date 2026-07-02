@@ -1506,9 +1506,8 @@
         ],
         "markers": {
           "start": [
-            44.365609,
-            -71.252705,
-            1303
+            44.37132,
+            -71.27008
           ],
           "summit": [
             44.3206,
@@ -1517,7 +1516,36 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Tama Fall",
+          "type": "waterfall",
+          "lat": 44.36354,
+          "lon": -71.28843,
+          "mile": 2.05
+        },
+        {
+          "name": "Salroc Fall",
+          "type": "waterfall",
+          "lat": 44.36444,
+          "lon": -71.28819,
+          "mile": 2.05
+        },
+        {
+          "name": "Mount Quincy Adams",
+          "type": "summit",
+          "lat": 44.32433,
+          "lon": -71.28777,
+          "mile": 5.17
+        },
+        {
+          "name": "Mount Adams",
+          "type": "summit",
+          "lat": 44.32058,
+          "lon": -71.29164,
+          "mile": 5.53
+        }
+      ]
     },
     {
       "id": "da6a26f3",
@@ -11664,6 +11692,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

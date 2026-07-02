@@ -124,12 +124,16 @@
       "elevation_gain": 3167,
       "description": "Trail to Mount Flume summit.",
       "tags": [],
-      "parking_info": "Lafayette Place Parking",
+      "parking_info": "Lonesome Lake",
       "parking_details": {
         "capacity": "Large (100+ cars)",
         "status": "Check conditions",
         "fee": "Free (State Park)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.14194,
+          -71.68401
+        ]
       },
       "start_lat": 44.1427,
       "start_lon": -71.6834,
@@ -3114,9 +3118,8 @@
         ],
         "markers": {
           "start": [
-            44.142711,
-            -71.683434,
-            1756
+            44.14185,
+            -71.68099
           ],
           "summit": [
             44.1087,
@@ -3125,7 +3128,15 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mount Flume",
+          "type": "summit",
+          "lat": 44.10882,
+          "lon": -71.6279,
+          "mile": 5.98
+        }
+      ]
     },
     {
       "id": "ded934eb",
@@ -7397,6 +7408,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

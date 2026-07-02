@@ -770,7 +770,71 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Pecks Corner",
+          "type": "summit",
+          "lat": 35.65469,
+          "lon": -83.30997,
+          "mile": 0.0
+        },
+        {
+          "name": "Eagle Rocks",
+          "type": "cliff",
+          "lat": 35.6601,
+          "lon": -83.29571,
+          "mile": 0.84
+        },
+        {
+          "name": "Mount Sequoyah",
+          "type": "summit",
+          "lat": 35.67466,
+          "lon": -83.28843,
+          "mile": 2.24
+        },
+        {
+          "name": "Mount Chapman",
+          "type": "summit",
+          "lat": 35.68672,
+          "lon": -83.27101,
+          "mile": 3.79
+        },
+        {
+          "name": "Tricorner Knob",
+          "type": "summit",
+          "lat": 35.69557,
+          "lon": -83.25416,
+          "mile": 5.03
+        },
+        {
+          "name": "Mount Guyot",
+          "type": "summit",
+          "lat": 35.70531,
+          "lon": -83.25748,
+          "mile": 6.37
+        },
+        {
+          "name": "Old Black",
+          "type": "summit",
+          "lat": 35.715,
+          "lon": -83.25524,
+          "mile": 7.03
+        },
+        {
+          "name": "Inadu Knob",
+          "type": "summit",
+          "lat": 35.72672,
+          "lon": -83.2411,
+          "mile": 8.37
+        },
+        {
+          "name": "Camel Hump Knob",
+          "type": "summit",
+          "lat": 35.7257,
+          "lon": -83.21729,
+          "mile": 9.72
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Old Black</strong> rises to 6,360 feet in North Carolina. The Old Black Trail is a 8.6-mile hike with about 2,959 feet of elevation gain. Nearby peaks include Mount Yonaguska, Mount Hardison and Balsam Corner. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -903,7 +967,8 @@
     "gps_source": "National Park Service Public Trails (public domain)",
     "osm_node": "https://www.openstreetmap.org/node/9049437152",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 9049437152,

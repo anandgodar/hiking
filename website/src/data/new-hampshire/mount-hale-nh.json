@@ -86,12 +86,16 @@
       "elevation_gain": 2533,
       "description": "Shortest route to a NH 4000-footer. Great beginner peak.",
       "tags": [],
-      "parking_info": "Hale Brook Trailhead, Zealand Rd",
+      "parking_info": "Hale Brook Trailhead",
       "parking_details": {
         "capacity": "Small (~10 cars)",
         "status": "Check conditions",
         "fee": "Free (WMNF)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.23639,
+          -71.4869
+        ]
       },
       "start_lat": 44.2405,
       "start_lon": -71.4915,
@@ -2130,7 +2134,22 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Zealand Falls",
+          "type": "waterfall",
+          "lat": 44.19562,
+          "lon": -71.49406,
+          "mile": 4.01
+        },
+        {
+          "name": "Mount Hale",
+          "type": "summit",
+          "lat": 44.22173,
+          "lon": -71.51202,
+          "mile": 6.5
+        }
+      ]
     }
   ],
   "seo": {
@@ -2456,6 +2475,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

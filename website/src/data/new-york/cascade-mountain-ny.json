@@ -2378,7 +2378,16 @@
           ]
         }
       },
-      "difficulty": "Moderate"
+      "difficulty": "Moderate",
+      "features": [
+        {
+          "name": "Cascade Mountain",
+          "type": "viewpoint",
+          "lat": 44.21858,
+          "lon": -73.86017,
+          "mile": 2.24
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -2388,7 +2397,8 @@
     "elevation_source": "USGS Benchmark - Cascade Mountain Summit (4,098 ft)",
     "gps_source": "USGS Topographic Map - Keene Valley Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
-    "notes": "Elevation (4,098 ft) from USGS benchmark. Most popular Adirondack 46er due to easy access and moderate difficulty. Trail distance from NYS DEC and ADK official trail guides."
+    "notes": "Elevation (4,098 ft) from USGS benchmark. Most popular Adirondack 46er due to easy access and moderate difficulty. Trail distance from NYS DEC and ADK official trail guides.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Cascade Mountain Trail Guide | Map, Route & Conditions",

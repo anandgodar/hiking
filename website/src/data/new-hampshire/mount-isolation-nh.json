@@ -4852,7 +4852,50 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "View",
+          "type": "viewpoint",
+          "lat": 44.21767,
+          "lon": -71.22102,
+          "mile": 0.92
+        },
+        {
+          "name": "Halls Ledge Overlook",
+          "type": "viewpoint",
+          "lat": 44.21726,
+          "lon": -71.22414,
+          "mile": 1.09
+        },
+        {
+          "name": "Glen Ellis Falls",
+          "type": "waterfall",
+          "lat": 44.24423,
+          "lon": -71.25247,
+          "mile": 5.9
+        },
+        {
+          "name": "Gulf Peak",
+          "type": "summit",
+          "lat": 44.24137,
+          "lon": -71.29028,
+          "mile": 8.57
+        },
+        {
+          "name": "North Isolation",
+          "type": "summit",
+          "lat": 44.23212,
+          "lon": -71.30455,
+          "mile": 10.39
+        },
+        {
+          "name": "Mount Isolation",
+          "type": "summit",
+          "lat": 44.21483,
+          "lon": -71.30926,
+          "mile": 11.77
+        }
+      ]
     },
     {
       "id": "ee40b5e5",
@@ -8787,6 +8830,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

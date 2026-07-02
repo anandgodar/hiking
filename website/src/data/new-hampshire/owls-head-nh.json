@@ -2228,7 +2228,15 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Owls Head",
+          "type": "summit",
+          "lat": 44.14412,
+          "lon": -71.60497,
+          "mile": 8.65
+        }
+      ]
     }
   ],
   "seo": {
@@ -2554,6 +2562,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

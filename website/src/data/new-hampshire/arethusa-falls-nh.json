@@ -1023,7 +1023,15 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Frankenstein Cliff",
+          "type": "cliff",
+          "lat": 44.1559,
+          "lon": -71.36702,
+          "mile": 0.72
+        }
+      ]
     },
     {
       "id": "f5879eac",
@@ -2807,6 +2815,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

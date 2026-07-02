@@ -86,12 +86,16 @@
       "elevation_gain": 2930,
       "description": "Rugged trail via Lonesome Lake and Kinsman Pond to both Kinsmans.",
       "tags": [],
-      "parking_info": "Lafayette Place Campground, Franconia Notch",
+      "parking_info": "Lonesome Lake",
       "parking_details": {
         "capacity": "Large (100+ cars)",
         "status": "Check conditions",
         "fee": "Free",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.14194,
+          -71.68401
+        ]
       },
       "start_lat": 44.1423,
       "start_lon": -71.6815,
@@ -2636,9 +2640,8 @@
         ],
         "markers": {
           "start": [
-            44.142297,
-            -71.681435,
-            1781
+            44.14185,
+            -71.68099
           ],
           "summit": [
             44.1331,
@@ -2647,7 +2650,15 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "North Kinsman Mountain",
+          "type": "summit",
+          "lat": 44.13335,
+          "lon": -71.73681,
+          "mile": 3.83
+        }
+      ]
     }
   ],
   "seo": {
@@ -2973,6 +2984,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

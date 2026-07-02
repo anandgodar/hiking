@@ -1465,7 +1465,16 @@
           ]
         }
       },
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "features": [
+        {
+          "name": "Whiteface Mountain",
+          "type": "summit",
+          "lat": 44.36578,
+          "lon": -73.90298,
+          "mile": 5.29
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -1475,7 +1484,8 @@
     "elevation_source": "USGS Benchmark - Whiteface Mountain Summit (4,867 ft - 5th highest in NY)",
     "gps_source": "USGS Topographic Map - Lake Placid Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
-    "notes": "Elevation (4,867 ft) from USGS benchmark - fifth highest peak in New York. Features 1980 Winter Olympics infrastructure. Trail distance from NYS DEC and ADK High Peaks guidebook."
+    "notes": "Elevation (4,867 ft) from USGS benchmark - fifth highest peak in New York. Features 1980 Winter Olympics infrastructure. Trail distance from NYS DEC and ADK High Peaks guidebook.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Whiteface Mountain Trail Guide | Map, Route & Conditions",

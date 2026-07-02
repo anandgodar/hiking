@@ -129,8 +129,8 @@ const cityLinks = [...HAND_MADE_CITIES, ...cities]
 ---
 
 <Layout
-  title="Best Hiking Trails in USA 2026 | Trail Maps, Guides & Weather for All 50 States"
-  description="Discover America's best hiking trails with detailed maps, elevation profiles & real-time weather. Currently featuring 120+ trails in New England (NH, ME, VT, NY) with nationwide expansion. White Mountains, Acadia, Green Mountains & more."
+  title={`Best Hiking Trails in USA 2026 | ${allMountains.length}+ Trail Maps & Guides in ${activeStates.length} States`}
+  description={`Discover ${allMountains.length}+ hiking trails across ${activeStates.length} states with detailed maps, elevation profiles & real-time weather. Every route from verified public sources — Rockies, Cascades, Appalachians & more.`}
 >
 
   <!-- HERO SECTION -->
@@ -160,7 +160,7 @@ const cityLinks = [...HAND_MADE_CITIES, ...cities]
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
         </svg>
-        Currently: 138+ trails in 5 states • Expanding Nationwide
+        {allMountains.length}+ trail guides across {activeStates.length} states — every one with a verified route
       </div>
 
       <!-- Search Bar -->

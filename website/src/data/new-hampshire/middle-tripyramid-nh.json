@@ -92,7 +92,11 @@
         "capacity": "Medium (~20 cars)",
         "status": "Check conditions",
         "fee": "Free (WMNF)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          43.93825,
+          -71.51099
+        ]
       },
       "start_lat": 43.9485,
       "start_lon": -71.4915,
@@ -8167,9 +8171,8 @@
         ],
         "markers": {
           "start": [
-            43.947599,
-            -71.499526,
-            1522
+            43.95654,
+            -71.50155
           ],
           "summit": [
             43.9617,
@@ -8178,7 +8181,36 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Norway Rapids",
+          "type": "waterfall",
+          "lat": 43.96878,
+          "lon": -71.48658,
+          "mile": 3.78
+        },
+        {
+          "name": "South Tripyramid",
+          "type": "summit",
+          "lat": 43.96031,
+          "lon": -71.44136,
+          "mile": 6.79
+        },
+        {
+          "name": "Middle Tripyramid",
+          "type": "summit",
+          "lat": 43.96457,
+          "lon": -71.44007,
+          "mile": 7.12
+        },
+        {
+          "name": "North Tripyramid",
+          "type": "summit",
+          "lat": 43.97316,
+          "lon": -71.44278,
+          "mile": 7.8
+        }
+      ]
     }
   ],
   "seo": {
@@ -8504,6 +8536,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

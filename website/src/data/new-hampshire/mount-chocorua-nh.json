@@ -2157,7 +2157,22 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Weetamoo Rock",
+          "type": "boulder",
+          "lat": 43.94165,
+          "lon": -71.25958,
+          "mile": 4.11
+        },
+        {
+          "name": "Mount Chocorua",
+          "type": "summit",
+          "lat": 43.95428,
+          "lon": -71.2733,
+          "mile": 5.63
+        }
+      ]
     },
     {
       "id": "1050b698",
@@ -5287,6 +5302,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

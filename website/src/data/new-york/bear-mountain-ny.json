@@ -2441,7 +2441,23 @@
           ]
         }
       },
-      "difficulty": "Moderate"
+      "difficulty": "Moderate",
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "coords": [
+          41.31395,
+          -73.98719
+        ]
+      },
+      "features": [
+        {
+          "name": "Bear Mountain",
+          "type": "summit",
+          "lat": 41.31291,
+          "lon": -74.00616,
+          "mile": 1.89
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -2451,7 +2467,8 @@
     "elevation_source": "USGS - Bear Mountain (1,289 ft)",
     "gps_source": "USGS Topographic Map - Peekskill Quadrangle",
     "distance_source": "NY-NJ Trail Conference maps and NYS Parks",
-    "notes": "Elevation (1,289 ft) from USGS benchmark. Lowest elevation point of Appalachian Trail. Trail distance from NY-NJ Trail Conference and Bear Mountain State Park. Perkins Memorial Tower on summit."
+    "notes": "Elevation (1,289 ft) from USGS benchmark. Lowest elevation point of Appalachian Trail. Trail distance from NY-NJ Trail Conference and Bear Mountain State Park. Perkins Memorial Tower on summit.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Bear Mountain Trail Guide (New York) | Map, Route & Conditions",

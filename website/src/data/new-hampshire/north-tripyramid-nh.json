@@ -112,7 +112,11 @@
         "capacity": "Medium (~20 cars)",
         "status": "Check conditions",
         "fee": "Free (WMNF)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          43.93825,
+          -71.51099
+        ]
       },
       "start_lat": 43.9485,
       "start_lon": -71.4915,
@@ -2915,9 +2919,8 @@
         ],
         "markers": {
           "start": [
-            43.947599,
-            -71.499526,
-            1522
+            43.95654,
+            -71.50155
           ],
           "summit": [
             43.9733,
@@ -2926,7 +2929,22 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Norway Rapids",
+          "type": "waterfall",
+          "lat": 43.96878,
+          "lon": -71.48658,
+          "mile": 3.78
+        },
+        {
+          "name": "North Tripyramid",
+          "type": "summit",
+          "lat": 43.97316,
+          "lon": -71.44278,
+          "mile": 7.53
+        }
+      ]
     },
     {
       "id": "4fb477e7",
@@ -10384,6 +10402,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

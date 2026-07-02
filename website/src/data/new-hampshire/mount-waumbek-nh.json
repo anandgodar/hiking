@@ -71,12 +71,16 @@
       "elevation_gain": 2844,
       "description": "Route via Mount Starr King to Waumbek summit.",
       "tags": [],
-      "parking_info": "Starr King Trailhead, US-2 Jefferson",
+      "parking_info": "Starr King Winter Parking",
       "parking_details": {
         "capacity": "Small (~10 cars)",
         "status": "Check conditions",
         "fee": "Free",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.41764,
+          -71.47242
+        ]
       },
       "start_lat": 44.42,
       "start_lon": -71.472,
@@ -1863,7 +1867,22 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mount Starr King",
+          "type": "summit",
+          "lat": 44.43464,
+          "lon": -71.43306,
+          "mile": 3.14
+        },
+        {
+          "name": "Mount Waumbek",
+          "type": "summit",
+          "lat": 44.43263,
+          "lon": -71.41751,
+          "mile": 3.97
+        }
+      ]
     }
   ],
   "seo": {
@@ -2169,6 +2188,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

@@ -88,12 +88,16 @@
       "elevation_gain": 3900,
       "description": "Trail to Mount Lincoln summit.",
       "tags": [],
-      "parking_info": "Franconia Ridge Loop (via Falling Waters) Trailhead",
+      "parking_info": "Lonesome Lake",
       "parking_details": {
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
         "fee": "Check Signage",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.14194,
+          -71.68401
+        ]
       },
       "start_lat": 44.1427,
       "start_lon": -71.6834,
@@ -4663,9 +4667,8 @@
         ],
         "markers": {
           "start": [
-            44.142711,
-            -71.683434,
-            1756
+            44.14185,
+            -71.68099
           ],
           "summit": [
             44.1483,
@@ -4674,7 +4677,50 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Stairs Falls",
+          "type": "waterfall",
+          "lat": 44.13667,
+          "lon": -71.67302,
+          "mile": 0.93
+        },
+        {
+          "name": "Swiftwater Falls",
+          "type": "waterfall",
+          "lat": 44.13668,
+          "lon": -71.67272,
+          "mile": 0.93
+        },
+        {
+          "name": "Cloudland Falls",
+          "type": "waterfall",
+          "lat": 44.13881,
+          "lon": -71.66477,
+          "mile": 1.39
+        },
+        {
+          "name": "Shining Rock Cliff",
+          "type": "cliff",
+          "lat": 44.13882,
+          "lon": -71.65189,
+          "mile": 2.67
+        },
+        {
+          "name": "Little Haystack Mountain",
+          "type": "summit",
+          "lat": 44.14044,
+          "lon": -71.64577,
+          "mile": 2.96
+        },
+        {
+          "name": "Mount Lincoln",
+          "type": "summit",
+          "lat": 44.14883,
+          "lon": -71.64457,
+          "mile": 3.57
+        }
+      ]
     }
   ],
   "seo": {
@@ -5000,6 +5046,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

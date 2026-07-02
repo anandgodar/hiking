@@ -110,7 +110,11 @@
         "capacity": "Small (~10 cars)",
         "status": "Check conditions",
         "fee": "Free",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.39029,
+          -71.17036
+        ]
       },
       "start_lat": 44.39,
       "start_lon": -71.165,
@@ -2502,7 +2506,29 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Rattle River Shelter",
+          "type": "hut",
+          "lat": 44.37983,
+          "lon": -71.10745,
+          "mile": 5.25
+        },
+        {
+          "name": "Middle Moriah Mountain",
+          "type": "summit",
+          "lat": 44.34978,
+          "lon": -71.12119,
+          "mile": 7.89
+        },
+        {
+          "name": "Mount Moriah",
+          "type": "summit",
+          "lat": 44.34053,
+          "lon": -71.13172,
+          "mile": 8.79
+        }
+      ]
     },
     {
       "id": "bc0a28b1",
@@ -5590,6 +5616,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

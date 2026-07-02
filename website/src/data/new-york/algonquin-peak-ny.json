@@ -1455,7 +1455,37 @@
           ]
         }
       },
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "features": [
+        {
+          "name": "Roger's Lookout",
+          "type": "viewpoint",
+          "lat": 44.18405,
+          "lon": -73.96736,
+          "mile": 0.12
+        },
+        {
+          "name": "MacIntyre Falls Lookout",
+          "type": "viewpoint",
+          "lat": 44.15934,
+          "lon": -73.97959,
+          "mile": 2.25
+        },
+        {
+          "name": "MacIntyre Falls",
+          "type": "waterfall",
+          "lat": 44.15927,
+          "lon": -73.97964,
+          "mile": 2.25
+        },
+        {
+          "name": "Algonquin Peak",
+          "type": "summit",
+          "lat": 44.14359,
+          "lon": -73.98668,
+          "mile": 3.63
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -1465,7 +1495,8 @@
     "elevation_source": "USGS Benchmark - Algonquin Peak Summit (5,114 ft - 2nd highest in NY)",
     "gps_source": "USGS Topographic Map - Mount Marcy Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
-    "notes": "Elevation (5,114 ft) from USGS benchmark - second highest peak in New York. Trail distance from NYS DEC and Adirondack Mountain Club (ADK) guidebooks. Part of the Adirondack 46ers list."
+    "notes": "Elevation (5,114 ft) from USGS benchmark - second highest peak in New York. Trail distance from NYS DEC and Adirondack Mountain Club (ADK) guidebooks. Part of the Adirondack 46ers list.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Algonquin Peak Trail Guide | Map, Route & Conditions",

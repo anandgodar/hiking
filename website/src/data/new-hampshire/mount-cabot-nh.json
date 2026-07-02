@@ -1620,7 +1620,36 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Unknown Pond Peak",
+          "type": "summit",
+          "lat": 44.52862,
+          "lon": -71.38035,
+          "mile": 1.09
+        },
+        {
+          "name": "The Horn",
+          "type": "summit",
+          "lat": 44.51794,
+          "lon": -71.40017,
+          "mile": 2.81
+        },
+        {
+          "name": "The Bulge",
+          "type": "summit",
+          "lat": 44.51451,
+          "lon": -71.40831,
+          "mile": 3.24
+        },
+        {
+          "name": "Mount Cabot",
+          "type": "summit",
+          "lat": 44.50607,
+          "lon": -71.41454,
+          "mile": 3.98
+        }
+      ]
     },
     {
       "id": "ca4c4af1",
@@ -4993,6 +5022,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

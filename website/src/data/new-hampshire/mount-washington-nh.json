@@ -2496,7 +2496,43 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Ladies\u2019 Lookout",
+          "type": "viewpoint",
+          "lat": 44.25654,
+          "lon": -71.25084,
+          "mile": 0.01
+        },
+        {
+          "name": "Crystal Cascades Falls",
+          "type": "waterfall",
+          "lat": 44.26077,
+          "lon": -71.25727,
+          "mile": 0.38
+        },
+        {
+          "name": "Lion Head",
+          "type": "summit",
+          "lat": 44.26398,
+          "lon": -71.29143,
+          "mile": 2.62
+        },
+        {
+          "name": "Mount Washington",
+          "type": "summit",
+          "lat": 44.27049,
+          "lon": -71.3033,
+          "mile": 3.6
+        },
+        {
+          "name": "Raven Rock",
+          "type": "boulder",
+          "lat": 44.27093,
+          "lon": -71.30379,
+          "mile": 3.6
+        }
+      ]
     },
     {
       "id": "599299c5",
@@ -31559,6 +31595,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }
