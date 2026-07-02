@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Caesars Head Mountain",
   "slug": "caesars-head-mountain-sc",
   "state": "South Carolina",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Caesars Head Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
         "distance": 1.3,
         "gain": 528,
-        "time": null,
-        "difficulty": ""
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -691,7 +690,29 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Cliff Falls",
+          "type": "waterfall",
+          "lat": 35.11316,
+          "lon": -82.62035,
+          "mile": 0.0
+        },
+        {
+          "name": "Firewater Falls",
+          "type": "waterfall",
+          "lat": 35.11056,
+          "lon": -82.61975,
+          "mile": 0.23
+        },
+        {
+          "name": "Caesars Head Mountain",
+          "type": "summit",
+          "lat": 35.1057,
+          "lon": -82.62734,
+          "mile": 1.2
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Caesars Head Mountain</strong> is a 3,215-foot summit in South Carolina. Nearby peaks include Coldbranch Mountain, Little Rich Mountain and Battered Rock Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -824,7 +845,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357115000",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357115000,

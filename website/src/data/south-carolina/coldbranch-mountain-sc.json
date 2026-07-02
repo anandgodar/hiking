@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Coldbranch Mountain",
   "slug": "coldbranch-mountain-sc",
   "state": "South Carolina",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Coldbranch Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
         "distance": 2.2,
         "gain": 306,
-        "time": null,
-        "difficulty": ""
+        "time": 1.0,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -771,7 +770,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Raven Cliff Falls",
+          "type": "waterfall",
+          "lat": 35.10516,
+          "lon": -82.66107,
+          "mile": 1.53
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Coldbranch Mountain</strong> rises to 3,333 feet in South Carolina. Nearby peaks include Battered Rock Mountain, Slicking Mountain and Quillen Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -904,7 +911,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357117246",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357117246,

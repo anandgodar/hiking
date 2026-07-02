@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Caesars Head",
   "slug": "caesars-head-sc",
   "state": "South Carolina",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Caesars Head Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
         "distance": 2.7,
         "gain": 331,
-        "time": null,
-        "difficulty": ""
+        "time": 1.0,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -771,7 +770,29 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Jane Cantrell Falls",
+          "type": "waterfall",
+          "lat": 35.08276,
+          "lon": -82.73887,
+          "mile": 0.07
+        },
+        {
+          "name": "Bigspring Mountain",
+          "type": "summit",
+          "lat": 35.07802,
+          "lon": -82.73927,
+          "mile": 0.38
+        },
+        {
+          "name": "Whiteoak Mountain",
+          "type": "summit",
+          "lat": 35.06819,
+          "lon": -82.75486,
+          "mile": 2.34
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 3,209 feet, <strong>Caesars Head</strong> is a summit in South Carolina. Nearby peaks include Sassafras Mountain, Roundtop Mountain and Hickorynut Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -904,7 +925,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357095814",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357095814,

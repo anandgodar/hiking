@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Hickorynut Mountain",
   "slug": "hickorynut-mountain-sc",
   "state": "South Carolina",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Hickorynut Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Strenuous",
       "type": "",
       "stats": {
         "distance": 8.7,
         "gain": 1755,
-        "time": null,
-        "difficulty": ""
+        "time": 4.0,
+        "difficulty": "Strenuous"
       },
       "parking_info": "",
       "parking_details": {
@@ -771,7 +770,50 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mammoth Rock",
+          "type": "boulder",
+          "lat": 35.0536,
+          "lon": -82.80858,
+          "mile": 0.53
+        },
+        {
+          "name": "Chimneytop",
+          "type": "summit",
+          "lat": 35.05928,
+          "lon": -82.80375,
+          "mile": 1.1
+        },
+        {
+          "name": "Sassafras Mountain",
+          "type": "summit",
+          "lat": 35.06517,
+          "lon": -82.77721,
+          "mile": 3.62
+        },
+        {
+          "name": "Hickorynut Mountain",
+          "type": "summit",
+          "lat": 35.05016,
+          "lon": -82.76594,
+          "mile": 5.32
+        },
+        {
+          "name": "Drawbar Cliffs",
+          "type": "viewpoint",
+          "lat": 35.02842,
+          "lon": -82.74485,
+          "mile": 8.2
+        },
+        {
+          "name": "Pinnacle Mountain",
+          "type": "summit",
+          "lat": 35.03373,
+          "lon": -82.74152,
+          "mile": 8.61
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Hickorynut Mountain</strong> is a 3,488-foot summit in South Carolina. Nearby peaks include Rock Mountain, Caesars Head and Roundtop Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -904,7 +946,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357084740",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357084740,

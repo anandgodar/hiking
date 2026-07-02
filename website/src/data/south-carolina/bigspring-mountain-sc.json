@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Bigspring Mountain",
   "slug": "bigspring-mountain-sc",
   "state": "South Carolina",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Bigspring Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Moderate",
       "type": "",
       "stats": {
         "distance": 4.0,
         "gain": 462,
-        "time": null,
-        "difficulty": ""
+        "time": 1.5,
+        "difficulty": "Moderate"
       },
       "parking_info": "",
       "parking_details": {
@@ -771,7 +770,43 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Whiteoak Mountain",
+          "type": "summit",
+          "lat": 35.06819,
+          "lon": -82.75486,
+          "mile": 0.35
+        },
+        {
+          "name": "Bigspring Mountain",
+          "type": "summit",
+          "lat": 35.07802,
+          "lon": -82.73927,
+          "mile": 2.25
+        },
+        {
+          "name": "Jane Cantrell Falls",
+          "type": "waterfall",
+          "lat": 35.08276,
+          "lon": -82.73887,
+          "mile": 2.58
+        },
+        {
+          "name": "Little Table Rock Mountain",
+          "type": "summit",
+          "lat": 35.08716,
+          "lon": -82.73141,
+          "mile": 3.51
+        },
+        {
+          "name": "Dolves Mountain",
+          "type": "summit",
+          "lat": 35.09428,
+          "lon": -82.72569,
+          "mile": 3.96
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Bigspring Mountain</strong> rises to 3,136 feet in South Carolina. Nearby peaks include Dolves Mountain, Bursted Rock Mountain and Sassafras Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -904,7 +939,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357095772",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357095772,

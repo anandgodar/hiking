@@ -1,0 +1,62 @@
+---
+/**
+ * Explore Map — every published trail on one interactive national map.
+ * Location: src/pages/map.astro
+ *
+ * The browse-everything discovery surface (the feature Hiking Project /
+ * AllTrails lead with). Marker payload is slim on purpose: 8 fields per
+ * trail, not the full records.
+ */
+import Layout from '../layouts/Layout.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import ExploreMap from '../components/ExploreMap.jsx';
+import { isPublishReady } from '../lib/publishReady.js';
+
+const allFiles = import.meta.glob('../data/*/*.json', { eager: true });
+const trails = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(isPublishReady)
+  .filter(m => m.lat && m.lon)
+  .map(m => {
+    const t = m.trails?.[0] || {};
+    const s = t.stats || {};
+    return {
+      name: m.name,
+      slug: m.slug,
+      state_slug: m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug,
+      state: m.state || '',
+      lat: m.lat,
+      lon: m.lon,
+      elevation: m.elevation || null,
+      difficulty: t.difficulty || s.difficulty || null,
+      distance: s.distance || null,
+    };
+  });
+
+const title = `Trail Map | Explore ${trails.length}+ Hikes Across the USA`;
+const description = `Every trail on one interactive map — ${trails.length}+ summit hikes across the United States. Filter by difficulty and state, click any peak for the full guide.`;
+---
+
+<Layout title={title} description={description}>
+  <main class="min-h-screen bg-stone-50">
+    <div class="max-w-7xl mx-auto px-4 py-10">
+      <nav class="flex items-center gap-2 text-sm text-stone-500 mb-6">
+        <a href="/" class="hover:text-emerald-700">Home</a>
+        <span>/</span>
+        <span class="text-stone-800 font-medium">Trail Map</span>
+      </nav>
+
+      <h1 class="font-serif text-4xl md:text-5xl font-black text-stone-900 mb-3">
+        Explore the Trail Map
+      </h1>
+      <p class="text-stone-600 mb-8 max-w-2xl">
+        All {trails.length} published trails on one map. Filter by difficulty or
+        state, then click a peak for its full guide — route, elevation profile,
+        parking and conditions.
+      </p>
+
+      <ExploreMap client:only="react" trails={trails} />
+    </div>
+    <SiteFooter />
+  </main>
+</Layout>
