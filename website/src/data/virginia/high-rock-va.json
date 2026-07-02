@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "High Rock",
   "slug": "high-rock-va",
   "state": "Virginia",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "High Rock Trail",
-      "difficulty": "",
+      "difficulty": "Hard",
       "type": "",
       "stats": {
         "distance": 3.6,
         "gain": 1752,
-        "time": null,
-        "difficulty": ""
+        "time": 2.0,
+        "difficulty": "Hard"
       },
       "parking_info": "",
       "parking_details": {
@@ -771,7 +770,22 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Buck Mountain",
+          "type": "summit",
+          "lat": 36.66373,
+          "lon": -81.25065,
+          "mile": 2.07
+        },
+        {
+          "name": "High Rock",
+          "type": "summit",
+          "lat": 36.66373,
+          "lon": -81.25093,
+          "mile": 2.12
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>High Rock</strong> is a 4,652-foot summit in Virginia. Nearby peaks include Buck Mountain, The Pinnacle and Point Lookout Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -904,7 +918,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/356572280",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 356572280,

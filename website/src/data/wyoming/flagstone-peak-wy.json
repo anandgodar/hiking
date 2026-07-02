@@ -370,7 +370,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Gannett Peak",
+          "type": "summit",
+          "lat": 43.1844,
+          "lon": -109.65404,
+          "mile": 1.78
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Flagstone Peak</strong> is a 13,383-foot summit in Wyoming. Nearby peaks include Pedestal Peak, Bastion Peak and Desolation Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -503,7 +511,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/356511227",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 356511227,
