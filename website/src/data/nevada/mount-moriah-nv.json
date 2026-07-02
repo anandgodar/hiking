@@ -1,0 +1,388 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Moriah",
+  "slug": "mount-moriah-nv",
+  "state": "Nevada",
+  "state_slug": "nevada",
+  "elevation": 11736,
+  "lat": 39.27322,
+  "lon": -114.19883,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Moriah Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": 1.2,
+        "gain": 974,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            39.28263,
+            -114.18327
+          ],
+          "summit": [
+            39.27322,
+            -114.19883
+          ]
+        },
+        "path": [
+          [
+            39.28263,
+            -114.18327,
+            11040
+          ],
+          [
+            39.28037,
+            -114.18639,
+            11329
+          ],
+          [
+            39.28014,
+            -114.18907,
+            11362
+          ],
+          [
+            39.27971,
+            -114.18966,
+            11493
+          ],
+          [
+            39.2787,
+            -114.19065,
+            11470
+          ],
+          [
+            39.2784,
+            -114.19102,
+            11299
+          ],
+          [
+            39.27797,
+            -114.19144,
+            11375
+          ],
+          [
+            39.27666,
+            -114.19245,
+            11470
+          ],
+          [
+            39.2758,
+            -114.19344,
+            11837
+          ],
+          [
+            39.27508,
+            -114.19442,
+            11716
+          ],
+          [
+            39.27454,
+            -114.19654,
+            11804
+          ],
+          [
+            39.27383,
+            -114.19791,
+            11867
+          ],
+          [
+            39.2731,
+            -114.19851,
+            12005
+          ],
+          [
+            39.27222,
+            -114.19892,
+            12014
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 11040,
+            "coord": [
+              39.28263,
+              -114.18327
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 11040,
+            "coord": [
+              39.28263,
+              -114.18327
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 11329,
+            "coord": [
+              39.28037,
+              -114.18639
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 11329,
+            "coord": [
+              39.28037,
+              -114.18639
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 11362,
+            "coord": [
+              39.28014,
+              -114.18907
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 11493,
+            "coord": [
+              39.27971,
+              -114.18966
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 11470,
+            "coord": [
+              39.2787,
+              -114.19065
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 11375,
+            "coord": [
+              39.27797,
+              -114.19144
+            ]
+          },
+          {
+            "mile": 0.66,
+            "elev": 11470,
+            "coord": [
+              39.27666,
+              -114.19245
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 11837,
+            "coord": [
+              39.2758,
+              -114.19344
+            ]
+          },
+          {
+            "mile": 0.83,
+            "elev": 11716,
+            "coord": [
+              39.27508,
+              -114.19442
+            ]
+          },
+          {
+            "mile": 0.91,
+            "elev": 11804,
+            "coord": [
+              39.27454,
+              -114.19654
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 11867,
+            "coord": [
+              39.27383,
+              -114.19791
+            ]
+          },
+          {
+            "mile": 1.08,
+            "elev": 12005,
+            "coord": [
+              39.2731,
+              -114.19851
+            ]
+          },
+          {
+            "mile": 1.16,
+            "elev": 12014,
+            "coord": [
+              39.27222,
+              -114.19892
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Mount Moriah",
+          "type": "summit",
+          "lat": 39.27322,
+          "lon": -114.19883,
+          "mile": 1.09
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Moriah</strong> is a 11,736-foot summit in Nevada. The Mount Moriah Trail is a 1.2-mile hike with about 974 feet of elevation gain. Nearby peaks include Doso Doyabi, Wheeler Peak and North Schell Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Doso Doyabi",
+      "slug": "doso-doyabi-nv",
+      "state_slug": "nevada",
+      "elevation": 12766,
+      "distance_miles": 20.4
+    },
+    {
+      "name": "Wheeler Peak",
+      "slug": "wheeler-peak-nv",
+      "state_slug": "nevada",
+      "elevation": 13064,
+      "distance_miles": 20.8
+    },
+    {
+      "name": "North Schell Peak",
+      "slug": "north-schell-peak-nv",
+      "state_slug": "nevada",
+      "elevation": 11857,
+      "distance_miles": 23.5
+    },
+    {
+      "name": "Mount Grafton",
+      "slug": "mount-grafton-nv",
+      "state_slug": "nevada",
+      "elevation": 10968,
+      "distance_miles": 49.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Moriah Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Moriah hike with current conditions, trail map & parking info. Nevada summit at 11,736 ft.",
+    "canonical_url": "/trails/nevada/mount-moriah-nv",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Moriah",
+      "description": "Mount Moriah is a 11,736 foot peak in Nevada offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.27322,
+        "longitude": -114.19883,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 11736,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Nevada",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Moriah Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 39.28263,
+            "longitude": -114.18327
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Moriah Trail on Mount Moriah is 1.2-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Moriah hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Moriah is rated Moderate. At 11,736 feet, plan for the terrain and weather typical of Nevada peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Moriah Trail, a 1.2-mile moderate hike to the Mount Moriah summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Moriah?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Moriah. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357556645",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/357556645",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 357556645,
+    "prominence_m": null,
+    "wikidata": "Q6922267"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Pilot Peak",
+  "slug": "pilot-peak-nv",
+  "state": "Nevada",
+  "state_slug": "nevada",
+  "elevation": 10614,
+  "lat": 41.02104,
+  "lon": -114.07779,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Pilot Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            41.02104,
+            -114.07779
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Pilot Peak</strong> is a 10,614-foot summit in Nevada. It has roughly 5,627 feet of topographic prominence. Nearby peaks include Hole in the Mountain Peak, Humboldt Peak and Verdi Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Hole in the Mountain Peak",
+      "slug": "hole-in-the-mountain-peak-nv",
+      "state_slug": "nevada",
+      "elevation": 11286,
+      "distance_miles": 54.7
+    },
+    {
+      "name": "Humboldt Peak",
+      "slug": "humboldt-peak-nv",
+      "state_slug": "nevada",
+      "elevation": 10988,
+      "distance_miles": 55.0
+    },
+    {
+      "name": "Verdi Peak",
+      "slug": "verdi-peak-nv",
+      "state_slug": "nevada",
+      "elevation": 11073,
+      "distance_miles": 71.8
+    },
+    {
+      "name": "Snow Lake Peak",
+      "slug": "snow-lake-peak-nv",
+      "state_slug": "nevada",
+      "elevation": 11135,
+      "distance_miles": 74.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Pilot Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Pilot Peak hike with current conditions, trail map & parking info. Nevada summit at 10,614 ft.",
+    "canonical_url": "/trails/nevada/pilot-peak-nv",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Pilot Peak",
+      "description": "Pilot Peak is a 10,614 foot peak in Nevada offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.02104,
+        "longitude": -114.07779,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 10614,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Nevada",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Pilot Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Pilot Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Pilot Peak Trail on Pilot Peak is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pilot Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pilot Peak is rated Moderate. At 10,614 feet, plan for the terrain and weather typical of Nevada peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Pilot Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Pilot Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Pilot Peak Trail, a  moderate hike to the Pilot Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Pilot Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Pilot Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357548648",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357548648",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357548648,
+    "prominence_m": "1715",
+    "wikidata": "Q7194444"
+  }
+}
