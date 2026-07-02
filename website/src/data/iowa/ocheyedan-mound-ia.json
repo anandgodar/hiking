@@ -1,0 +1,179 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Ocheyedan Mound",
+  "slug": "ocheyedan-mound-ia",
+  "state": "Iowa",
+  "state_slug": "iowa",
+  "elevation": 1608,
+  "lat": 43.40275,
+  "lon": -95.52112,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Ocheyedan Mound Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            43.40275,
+            -95.52112
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,608 feet, <strong>Ocheyedan Mound</strong> is a summit in Iowa. Nearby peaks include Hawkeye Point, Pilot Rock and Battle Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Hawkeye Point",
+      "slug": "hawkeye-point-ia",
+      "state_slug": "iowa",
+      "elevation": 1670,
+      "distance_miles": 10.2
+    },
+    {
+      "name": "Pilot Rock",
+      "slug": "pilot-rock-ia",
+      "state_slug": "iowa",
+      "elevation": 1201,
+      "distance_miles": 48.9
+    },
+    {
+      "name": "Battle Hill",
+      "slug": "battle-hill-ia",
+      "state_slug": "iowa",
+      "elevation": 1273,
+      "distance_miles": 74.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Ocheyedan Mound Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Ocheyedan Mound hike with current conditions, trail map & parking info. Iowa summit at 1,608 ft.",
+    "canonical_url": "/trails/iowa/ocheyedan-mound-ia",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Ocheyedan Mound",
+      "description": "Ocheyedan Mound is a 1,608 foot peak in Iowa offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.40275,
+        "longitude": -95.52112,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1608,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Iowa",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Ocheyedan Mound Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Ocheyedan Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Ocheyedan Mound Trail on Ocheyedan Mound is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Ocheyedan Mound hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ocheyedan Mound is rated Moderate. At 1,608 feet, plan for the terrain and weather typical of Iowa peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Ocheyedan Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Ocheyedan Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Ocheyedan Mound Trail, a  moderate hike to the Ocheyedan Mound summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Ocheyedan Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Ocheyedan Mound. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354313027",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354313027",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354313027,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

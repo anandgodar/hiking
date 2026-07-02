@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "White Oak Mound",
+  "slug": "white-oak-mound-il",
+  "state": "Illinois",
+  "state_slug": "illinois",
+  "elevation": 502,
+  "lat": 39.11143,
+  "lon": -88.95923,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "White Oak Mound Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.11143,
+            -88.95923
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>White Oak Mound</strong> is a 502-foot summit in Illinois. Nearby peaks include Red Hill, Lost Hill and Haubers Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Red Hill",
+      "slug": "red-hill-il",
+      "state_slug": "illinois",
+      "elevation": 633,
+      "distance_miles": 65.6
+    },
+    {
+      "name": "Lost Hill",
+      "slug": "lost-hill-il",
+      "state_slug": "illinois",
+      "elevation": 538,
+      "distance_miles": 66.8
+    },
+    {
+      "name": "Haubers Hill",
+      "slug": "haubers-hill-il",
+      "state_slug": "illinois",
+      "elevation": 545,
+      "distance_miles": 69.2
+    },
+    {
+      "name": "Point Lookout",
+      "slug": "point-lookout-il",
+      "state_slug": "illinois",
+      "elevation": 472,
+      "distance_miles": 70.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "White Oak Mound Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your White Oak Mound hike with current conditions, trail map & parking info. Illinois summit at 502 ft.",
+    "canonical_url": "/trails/illinois/white-oak-mound-il",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "White Oak Mound",
+      "description": "White Oak Mound is a 502 foot peak in Illinois offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.11143,
+        "longitude": -88.95923,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 502,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Illinois",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "White Oak Mound Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike White Oak Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular White Oak Mound Trail on White Oak Mound is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is White Oak Mound hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "White Oak Mound is rated Moderate. At 502 feet, plan for the terrain and weather typical of Illinois peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike White Oak Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike White Oak Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the White Oak Mound Trail, a  moderate hike to the White Oak Mound summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike White Oak Mound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on White Oak Mound. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354155672",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354155672",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354155672,
+    "prominence_m": null,
+    "wikidata": "Q32358822"
+  }
+}

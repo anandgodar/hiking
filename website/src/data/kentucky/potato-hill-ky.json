@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Potato Hill",
+  "slug": "potato-hill-ky",
+  "state": "Kentucky",
+  "state_slug": "kentucky",
+  "elevation": 3684,
+  "lat": 36.88704,
+  "lon": -82.88766,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Potato Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            36.88704,
+            -82.88766
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Potato Hill</strong> rises to 3,684 feet in Kentucky. Nearby peaks include Black Mountain, Halls Butt and Little Black Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Black Mountain",
+      "slug": "black-mountain-ky",
+      "state_slug": "kentucky",
+      "elevation": 4131,
+      "distance_miles": 1.9
+    },
+    {
+      "name": "Halls Butt",
+      "slug": "halls-butt-ky",
+      "state_slug": "kentucky",
+      "elevation": 3097,
+      "distance_miles": 10.8
+    },
+    {
+      "name": "Little Black Mountain",
+      "slug": "little-black-mountain-ky",
+      "state_slug": "kentucky",
+      "elevation": 3488,
+      "distance_miles": 10.8
+    },
+    {
+      "name": "Joe Knob",
+      "slug": "joe-knob-ky",
+      "state_slug": "kentucky",
+      "elevation": 3314,
+      "distance_miles": 11.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Potato Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Potato Hill hike with current conditions, trail map & parking info. Kentucky summit at 3,684 ft.",
+    "canonical_url": "/trails/kentucky/potato-hill-ky",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Potato Hill",
+      "description": "Potato Hill is a 3,684 foot peak in Kentucky offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.88704,
+        "longitude": -82.88766,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3684,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kentucky",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Potato Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Potato Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Potato Hill Trail on Potato Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Potato Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Potato Hill is rated Moderate. At 3,684 feet, plan for the terrain and weather typical of Kentucky peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Potato Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Potato Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Potato Hill Trail, a  moderate hike to the Potato Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Potato Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Potato Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356559707",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356559707",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356559707,
+    "prominence_m": null,
+    "wikidata": "Q49063745"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Little Allegheny Mountain",
+  "slug": "little-allegheny-mountain-md",
+  "state": "Maryland",
+  "state_slug": "maryland",
+  "elevation": 2165,
+  "lat": 39.71546,
+  "lon": -78.81137,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Little Allegheny Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.71546,
+            -78.81137
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Little Allegheny Mountain</strong> is a 2,165-foot summit in Maryland. Nearby peaks include Sampson Rock, Saint John Rock and Dans Rock. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Sampson Rock",
+      "slug": "sampson-rock-md",
+      "state_slug": "maryland",
+      "elevation": 2936,
+      "distance_miles": 6.3
+    },
+    {
+      "name": "Saint John Rock",
+      "slug": "saint-john-rock-md",
+      "state_slug": "maryland",
+      "elevation": 2920,
+      "distance_miles": 8.9
+    },
+    {
+      "name": "Dans Rock",
+      "slug": "dans-rock-md",
+      "state_slug": "maryland",
+      "elevation": 2897,
+      "distance_miles": 10.3
+    },
+    {
+      "name": "Mount Etna",
+      "slug": "mount-etna-md",
+      "state_slug": "maryland",
+      "elevation": 2595,
+      "distance_miles": 11.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Little Allegheny Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Little Allegheny Mountain hike with current conditions, trail map & parking info. Maryland summit at 2,165 ft.",
+    "canonical_url": "/trails/maryland/little-allegheny-mountain-md",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Little Allegheny Mountain",
+      "description": "Little Allegheny Mountain is a 2,165 foot peak in Maryland offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.71546,
+        "longitude": -78.81137,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2165,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maryland",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Little Allegheny Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Little Allegheny Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Little Allegheny Mountain Trail on Little Allegheny Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Little Allegheny Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Little Allegheny Mountain is rated Moderate. At 2,165 feet, plan for the terrain and weather typical of Maryland peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Little Allegheny Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Little Allegheny Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Little Allegheny Mountain Trail, a  moderate hike to the Little Allegheny Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Little Allegheny Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Little Allegheny Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358241560",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358241560",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358241560,
+    "prominence_m": null,
+    "wikidata": "Q31599767"
+  }
+}

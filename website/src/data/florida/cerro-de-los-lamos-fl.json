@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Cerro de los \u00c1lamos",
+  "slug": "cerro-de-los-lamos-fl",
+  "state": "Florida",
+  "state_slug": "florida",
+  "elevation": 807,
+  "lat": -33.32131,
+  "lon": -55.46924,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Cerro de los \u00c1lamos Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            -33.32131,
+            -55.46924
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Cerro de los \u00c1lamos</strong> is a 807-foot summit in Florida. Nearby peaks include Cerro Pescado, Cerro del Cascabel and Cerro de la Calera. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Cerro Pescado",
+      "slug": "cerro-pescado-fl",
+      "state_slug": "florida",
+      "elevation": 748,
+      "distance_miles": 1.0
+    },
+    {
+      "name": "Cerro del Cascabel",
+      "slug": "cerro-del-cascabel-fl",
+      "state_slug": "florida",
+      "elevation": 689,
+      "distance_miles": 2.1
+    },
+    {
+      "name": "Cerro de la Calera",
+      "slug": "cerro-de-la-calera-fl",
+      "state_slug": "florida",
+      "elevation": 459,
+      "distance_miles": 8.1
+    },
+    {
+      "name": "Cerro Arriola",
+      "slug": "cerro-arriola-fl",
+      "state_slug": "florida",
+      "elevation": 715,
+      "distance_miles": 11.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Cerro de los \u00c1lamos Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Cerro de los \u00c1lamos hike with current conditions, trail map & parking info. Florida summit at 807 ft.",
+    "canonical_url": "/trails/florida/cerro-de-los-lamos-fl",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Cerro de los \u00c1lamos",
+      "description": "Cerro de los \u00c1lamos is a 807 foot peak in Florida offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.32131,
+        "longitude": -55.46924,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 807,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Florida",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Cerro de los \u00c1lamos Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Cerro de los \u00c1lamos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Cerro de los \u00c1lamos Trail on Cerro de los \u00c1lamos is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cerro de los \u00c1lamos hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cerro de los \u00c1lamos is rated Moderate. At 807 feet, plan for the terrain and weather typical of Florida peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Cerro de los \u00c1lamos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Cerro de los \u00c1lamos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Cerro de los \u00c1lamos Trail, a  moderate hike to the Cerro de los \u00c1lamos summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Cerro de los \u00c1lamos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Cerro de los \u00c1lamos. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/12908195352",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/12908195352",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 12908195352,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

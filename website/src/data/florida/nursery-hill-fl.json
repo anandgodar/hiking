@@ -1,0 +1,413 @@
+{
+  "name": "Nursery Hill",
+  "slug": "nursery-hill-fl",
+  "state": "Florida",
+  "state_slug": "florida",
+  "elevation": 243,
+  "lat": 28.3175,
+  "lon": -82.19953,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Nursery Hill Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 1.1,
+        "gain": 26,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            28.36535,
+            -82.19023
+          ],
+          "summit": [
+            28.3175,
+            -82.19953
+          ]
+        },
+        "path": [
+          [
+            28.36535,
+            -82.19023,
+            125
+          ],
+          [
+            28.36328,
+            -82.19023,
+            121
+          ],
+          [
+            28.36272,
+            -82.1905,
+            121
+          ],
+          [
+            28.36218,
+            -82.19082,
+            125
+          ],
+          [
+            28.36084,
+            -82.19158,
+            128
+          ],
+          [
+            28.36038,
+            -82.19188,
+            131
+          ],
+          [
+            28.35952,
+            -82.19232,
+            131
+          ],
+          [
+            28.35751,
+            -82.1934,
+            128
+          ],
+          [
+            28.35673,
+            -82.19374,
+            131
+          ],
+          [
+            28.35605,
+            -82.19403,
+            144
+          ],
+          [
+            28.35531,
+            -82.19403,
+            141
+          ],
+          [
+            28.3551,
+            -82.19404,
+            141
+          ],
+          [
+            28.35477,
+            -82.19405,
+            144
+          ],
+          [
+            28.35435,
+            -82.19401,
+            144
+          ],
+          [
+            28.35398,
+            -82.19405,
+            131
+          ],
+          [
+            28.35363,
+            -82.19413,
+            131
+          ],
+          [
+            28.35323,
+            -82.1942,
+            135
+          ],
+          [
+            28.3528,
+            -82.19415,
+            121
+          ],
+          [
+            28.35243,
+            -82.19402,
+            118
+          ],
+          [
+            28.35199,
+            -82.19401,
+            118
+          ],
+          [
+            28.35063,
+            -82.19398,
+            125
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 125,
+            "coord": [
+              28.36535,
+              -82.19023
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 121,
+            "coord": [
+              28.36328,
+              -82.19023
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 121,
+            "coord": [
+              28.36328,
+              -82.19023
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 125,
+            "coord": [
+              28.36218,
+              -82.19082
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 128,
+            "coord": [
+              28.36084,
+              -82.19158
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 131,
+            "coord": [
+              28.36038,
+              -82.19188
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 131,
+            "coord": [
+              28.35952,
+              -82.19232
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 128,
+            "coord": [
+              28.35751,
+              -82.1934
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 128,
+            "coord": [
+              28.35751,
+              -82.1934
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 144,
+            "coord": [
+              28.35605,
+              -82.19403
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 141,
+            "coord": [
+              28.3551,
+              -82.19404
+            ]
+          },
+          {
+            "mile": 0.84,
+            "elev": 131,
+            "coord": [
+              28.35398,
+              -82.19405
+            ]
+          },
+          {
+            "mile": 0.92,
+            "elev": 121,
+            "coord": [
+              28.3528,
+              -82.19415
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 118,
+            "coord": [
+              28.35199,
+              -82.19401
+            ]
+          },
+          {
+            "mile": 1.07,
+            "elev": 125,
+            "coord": [
+              28.35063,
+              -82.19398
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Nursery Hill</strong> rises to 243 feet in Florida. The Nursery Hill Trail is a 1.1-mile hike with about 26 feet of elevation gain. Nearby peaks include LeHeup Hill, Greer Hill and Lakeland Highlands. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "LeHeup Hill",
+      "slug": "leheup-hill-fl",
+      "state_slug": "florida",
+      "elevation": 243,
+      "distance_miles": 0.3
+    },
+    {
+      "name": "Greer Hill",
+      "slug": "greer-hill-fl",
+      "state_slug": "florida",
+      "elevation": 223,
+      "distance_miles": 1.6
+    },
+    {
+      "name": "Lakeland Highlands",
+      "slug": "lakeland-highlands-fl",
+      "state_slug": "florida",
+      "elevation": 266,
+      "distance_miles": 29.9
+    },
+    {
+      "name": "Sugarloaf Mountain",
+      "slug": "sugarloaf-mountain-fl",
+      "state_slug": "florida",
+      "elevation": 308,
+      "distance_miles": 36.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Nursery Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Nursery Hill hike with current conditions, trail map & parking info. Florida summit at 243 ft.",
+    "canonical_url": "/trails/florida/nursery-hill-fl",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Nursery Hill",
+      "description": "Nursery Hill is a 243 foot peak in Florida offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.3175,
+        "longitude": -82.19953,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 243,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Florida",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Nursery Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 28.36535,
+            "longitude": -82.19023
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Nursery Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Nursery Hill Trail on Nursery Hill is 1.1-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Nursery Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nursery Hill is rated Moderate. At 243 feet, plan for the terrain and weather typical of Florida peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Nursery Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Nursery Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Nursery Hill Trail, a 1.1-mile moderate hike to the Nursery Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Nursery Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Nursery Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358701998",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358701998",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 358701998,
+    "prominence_m": null,
+    "wikidata": "Q31576791"
+  }
+}

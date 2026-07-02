@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Hosmer",
+  "slug": "mount-hosmer-ia",
+  "state": "Iowa",
+  "state_slug": "iowa",
+  "elevation": 1050,
+  "lat": 43.36612,
+  "lon": -91.22176,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Hosmer Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            43.36612,
+            -91.22176
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Hosmer</strong> is a 1,050-foot summit in Iowa. Nearby peaks include Steamboat Rock, Corn Hill and Sugar Loaf. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Steamboat Rock",
+      "slug": "steamboat-rock-ia",
+      "state_slug": "iowa",
+      "elevation": 1148,
+      "distance_miles": 44.6
+    },
+    {
+      "name": "Corn Hill",
+      "slug": "corn-hill-ia",
+      "state_slug": "iowa",
+      "elevation": 1194,
+      "distance_miles": 46.6
+    },
+    {
+      "name": "Sugar Loaf",
+      "slug": "sugar-loaf-ia",
+      "state_slug": "iowa",
+      "elevation": 791,
+      "distance_miles": 51.7
+    },
+    {
+      "name": "Sherrill Mound",
+      "slug": "sherrill-mound-ia",
+      "state_slug": "iowa",
+      "elevation": 1227,
+      "distance_miles": 56.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Hosmer Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Hosmer hike with current conditions, trail map & parking info. Iowa summit at 1,050 ft.",
+    "canonical_url": "/trails/iowa/mount-hosmer-ia",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Hosmer",
+      "description": "Mount Hosmer is a 1,050 foot peak in Iowa offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.36612,
+        "longitude": -91.22176,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1050,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Iowa",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Hosmer Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Hosmer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Hosmer Trail on Mount Hosmer is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Hosmer hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Hosmer is rated Moderate. At 1,050 feet, plan for the terrain and weather typical of Iowa peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Hosmer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Hosmer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Hosmer Trail, a  moderate hike to the Mount Hosmer summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Hosmer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Hosmer. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/10120376780",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/10120376780",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 10120376780,
+    "prominence_m": null,
+    "wikidata": "Q6921333"
+  }
+}

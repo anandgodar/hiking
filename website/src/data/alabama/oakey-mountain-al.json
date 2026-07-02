@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Oakey Mountain",
+  "slug": "oakey-mountain-al",
+  "state": "Alabama",
+  "state_slug": "alabama",
+  "elevation": 1939,
+  "lat": 33.8801,
+  "lon": -85.51496,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Oakey Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            33.8801,
+            -85.51496
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Oakey Mountain</strong> is a 1,939-foot summit in Alabama. Nearby peaks include Rock Quarry Mountain, Red Mountain and Berry Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Rock Quarry Mountain",
+      "slug": "rock-quarry-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 1617,
+      "distance_miles": 6.1
+    },
+    {
+      "name": "Red Mountain",
+      "slug": "red-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 1496,
+      "distance_miles": 6.9
+    },
+    {
+      "name": "Berry Mountain",
+      "slug": "berry-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 1467,
+      "distance_miles": 7.3
+    },
+    {
+      "name": "Rattlesnake Mountain",
+      "slug": "rattlesnake-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 1509,
+      "distance_miles": 9.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Oakey Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Oakey Mountain hike with current conditions, trail map & parking info. Alabama summit at 1,939 ft.",
+    "canonical_url": "/trails/alabama/oakey-mountain-al",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Oakey Mountain",
+      "description": "Oakey Mountain is a 1,939 foot peak in Alabama offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.8801,
+        "longitude": -85.51496,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1939,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alabama",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Oakey Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Oakey Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Oakey Mountain Trail on Oakey Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Oakey Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oakey Mountain is rated Moderate. At 1,939 feet, plan for the terrain and weather typical of Alabama peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Oakey Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Oakey Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Oakey Mountain Trail, a  moderate hike to the Oakey Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Oakey Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Oakey Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358989708",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358989708",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358989708,
+    "prominence_m": null,
+    "wikidata": "Q31723195"
+  }
+}

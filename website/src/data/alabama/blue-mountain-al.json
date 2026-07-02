@@ -1,0 +1,386 @@
+{
+  "name": "Blue Mountain",
+  "slug": "blue-mountain-al",
+  "state": "Alabama",
+  "state_slug": "alabama",
+  "elevation": 1949,
+  "lat": 33.50539,
+  "lon": -85.79107,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Blue Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.4,
+        "gain": 250,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            33.4955,
+            -85.8077
+          ],
+          "summit": [
+            33.50539,
+            -85.79107
+          ]
+        },
+        "path": [
+          [
+            33.4955,
+            -85.8077,
+            2231
+          ],
+          [
+            33.49547,
+            -85.80705,
+            2297
+          ],
+          [
+            33.49542,
+            -85.80617,
+            2283
+          ],
+          [
+            33.49536,
+            -85.80508,
+            2241
+          ],
+          [
+            33.4954,
+            -85.80419,
+            2198
+          ],
+          [
+            33.49552,
+            -85.80344,
+            2149
+          ],
+          [
+            33.49567,
+            -85.8025,
+            2083
+          ],
+          [
+            33.4959,
+            -85.80164,
+            2087
+          ],
+          [
+            33.49613,
+            -85.80088,
+            2087
+          ],
+          [
+            33.49639,
+            -85.80031,
+            2047
+          ],
+          [
+            33.49639,
+            -85.8003,
+            2047
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2231,
+            "coord": [
+              33.4955,
+              -85.8077
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 2297,
+            "coord": [
+              33.49547,
+              -85.80705
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 2297,
+            "coord": [
+              33.49547,
+              -85.80705
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 2283,
+            "coord": [
+              33.49542,
+              -85.80617
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 2241,
+            "coord": [
+              33.49536,
+              -85.80508
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 2241,
+            "coord": [
+              33.49536,
+              -85.80508
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 2198,
+            "coord": [
+              33.4954,
+              -85.80419
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 2198,
+            "coord": [
+              33.4954,
+              -85.80419
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 2149,
+            "coord": [
+              33.49552,
+              -85.80344
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 2083,
+            "coord": [
+              33.49567,
+              -85.8025
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 2083,
+            "coord": [
+              33.49567,
+              -85.8025
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 2087,
+            "coord": [
+              33.4959,
+              -85.80164
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 2087,
+            "coord": [
+              33.4959,
+              -85.80164
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 2087,
+            "coord": [
+              33.49613,
+              -85.80088
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 2047,
+            "coord": [
+              33.49639,
+              -85.8003
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Bald Rock",
+          "type": "summit",
+          "lat": 33.49539,
+          "lon": -85.8083,
+          "mile": 0.0
+        },
+        {
+          "name": "Bald Rock Overlook",
+          "type": "viewpoint",
+          "lat": 33.49558,
+          "lon": -85.80785,
+          "mile": 0.0
+        },
+        {
+          "name": "Blue Mountain Shelter",
+          "type": "hut",
+          "lat": 33.49452,
+          "lon": -85.79945,
+          "mile": 0.44
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,949 feet, <strong>Blue Mountain</strong> is a summit in Alabama. The Blue Mountain Trail is a 0.4-mile hike with about 250 feet of elevation gain. Nearby peaks include Cheaha Mountain, McDill Point and Little Caney Head. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Cheaha Mountain",
+      "slug": "cheaha-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 2405,
+      "distance_miles": 1.7
+    },
+    {
+      "name": "McDill Point",
+      "slug": "mcdill-point-al",
+      "state_slug": "alabama",
+      "elevation": 2126,
+      "distance_miles": 4.0
+    },
+    {
+      "name": "Little Caney Head",
+      "slug": "little-caney-head-al",
+      "state_slug": "alabama",
+      "elevation": 1877,
+      "distance_miles": 6.0
+    },
+    {
+      "name": "Parker High Point",
+      "slug": "parker-high-point-al",
+      "state_slug": "alabama",
+      "elevation": 2188,
+      "distance_miles": 6.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Blue Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Blue Mountain hike with current conditions, trail map & parking info. Alabama summit at 1,949 ft.",
+    "canonical_url": "/trails/alabama/blue-mountain-al",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Blue Mountain",
+      "description": "Blue Mountain is a 1,949 foot peak in Alabama offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.50539,
+        "longitude": -85.79107,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1949,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alabama",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Blue Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 33.4955,
+            "longitude": -85.8077
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Blue Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Blue Mountain Trail on Blue Mountain is 0.4-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Blue Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Blue Mountain is rated Moderate. At 1,949 feet, plan for the terrain and weather typical of Alabama peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Blue Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Blue Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Blue Mountain Trail, a 0.4-mile moderate hike to the Blue Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Blue Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Blue Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358988346",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358988346",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 358988346,
+    "prominence_m": null,
+    "wikidata": "Q31431557"
+  }
+}

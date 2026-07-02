@@ -91,6 +91,8 @@ def needs_elevation(path):
 
 
 def build_chart(path, num=15):
+    """Chart points in the frontend's canonical shape: {mile, elev, coord}
+    (ElevationChart reads dataKey="mile"/"elev")."""
     dists = [0.0]
     for i in range(1, len(path)):
         dists.append(dists[-1] + haversine_mi(path[i - 1], path[i]))
@@ -102,7 +104,8 @@ def build_chart(path, num=15):
     for i in range(num):
         target = i * step
         idx = min(range(len(dists)), key=lambda j: abs(dists[j] - target))
-        chart.append({"distance": round(target, 2), "elevation": round(path[idx][2])})
+        chart.append({"mile": round(target, 2), "elev": round(path[idx][2]),
+                      "coord": [path[idx][0], path[idx][1]]})
     return chart
 
 

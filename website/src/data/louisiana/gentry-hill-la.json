@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Gentry Hill",
+  "slug": "gentry-hill-la",
+  "state": "Louisiana",
+  "state_slug": "louisiana",
+  "elevation": 489,
+  "lat": 32.41015,
+  "lon": -92.89766,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Gentry Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            32.41015,
+            -92.89766
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Gentry Hill</strong> rises to 489 feet in Louisiana. Nearby peaks include False Mountain, Driskill Mountain and Jordan Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "False Mountain",
+      "slug": "false-mountain-la",
+      "state_slug": "louisiana",
+      "elevation": 515,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Driskill Mountain",
+      "slug": "driskill-mountain-la",
+      "state_slug": "louisiana",
+      "elevation": 535,
+      "distance_miles": 1.0
+    },
+    {
+      "name": "Jordan Mountain",
+      "slug": "jordan-mountain-la",
+      "state_slug": "louisiana",
+      "elevation": 472,
+      "distance_miles": 1.8
+    },
+    {
+      "name": "Mossy Hill",
+      "slug": "mossy-hill-la",
+      "state_slug": "louisiana",
+      "elevation": 459,
+      "distance_miles": 4.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Gentry Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Gentry Hill hike with current conditions, trail map & parking info. Louisiana summit at 489 ft.",
+    "canonical_url": "/trails/louisiana/gentry-hill-la",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Gentry Hill",
+      "description": "Gentry Hill is a 489 foot peak in Louisiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.41015,
+        "longitude": -92.89766,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 489,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Louisiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Gentry Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Gentry Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Gentry Hill Trail on Gentry Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Gentry Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gentry Hill is rated Moderate. At 489 feet, plan for the terrain and weather typical of Louisiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Gentry Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Gentry Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Gentry Hill Trail, a  moderate hike to the Gentry Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Gentry Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Gentry Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358367118",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358367118",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358367118,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

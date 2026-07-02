@@ -1,0 +1,508 @@
+{
+  "name": "Sundown Mountain",
+  "slug": "sundown-mountain-ia",
+  "state": "Iowa",
+  "state_slug": "iowa",
+  "elevation": 1142,
+  "lat": 42.51685,
+  "lon": -90.82002,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Sundown Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.7,
+        "gain": 92,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            42.5221,
+            -90.77437
+          ],
+          "summit": [
+            42.51685,
+            -90.82002
+          ]
+        },
+        "path": [
+          [
+            42.5221,
+            -90.77437,
+            784
+          ],
+          [
+            42.52209,
+            -90.77578,
+            787
+          ],
+          [
+            42.52204,
+            -90.77601,
+            804
+          ],
+          [
+            42.52198,
+            -90.77614,
+            804
+          ],
+          [
+            42.52182,
+            -90.77635,
+            804
+          ],
+          [
+            42.52166,
+            -90.77657,
+            804
+          ],
+          [
+            42.52156,
+            -90.7767,
+            804
+          ],
+          [
+            42.52151,
+            -90.77685,
+            804
+          ],
+          [
+            42.52149,
+            -90.77696,
+            804
+          ],
+          [
+            42.52148,
+            -90.77707,
+            804
+          ],
+          [
+            42.52157,
+            -90.77761,
+            804
+          ],
+          [
+            42.52155,
+            -90.77772,
+            804
+          ],
+          [
+            42.52151,
+            -90.7778,
+            804
+          ],
+          [
+            42.52132,
+            -90.77807,
+            804
+          ],
+          [
+            42.52102,
+            -90.77844,
+            827
+          ],
+          [
+            42.5209,
+            -90.77856,
+            827
+          ],
+          [
+            42.5203,
+            -90.77894,
+            814
+          ],
+          [
+            42.51993,
+            -90.77912,
+            827
+          ],
+          [
+            42.51972,
+            -90.7792,
+            840
+          ],
+          [
+            42.51954,
+            -90.77919,
+            840
+          ],
+          [
+            42.51863,
+            -90.77837,
+            827
+          ],
+          [
+            42.51836,
+            -90.77809,
+            843
+          ],
+          [
+            42.51821,
+            -90.77788,
+            843
+          ],
+          [
+            42.5181,
+            -90.77772,
+            843
+          ],
+          [
+            42.51802,
+            -90.77756,
+            843
+          ],
+          [
+            42.51795,
+            -90.7774,
+            853
+          ],
+          [
+            42.51784,
+            -90.77708,
+            853
+          ],
+          [
+            42.5178,
+            -90.77701,
+            853
+          ],
+          [
+            42.51775,
+            -90.77696,
+            853
+          ],
+          [
+            42.51767,
+            -90.77689,
+            853
+          ],
+          [
+            42.51752,
+            -90.77677,
+            853
+          ],
+          [
+            42.51742,
+            -90.7767,
+            853
+          ],
+          [
+            42.51733,
+            -90.77668,
+            853
+          ],
+          [
+            42.51702,
+            -90.77668,
+            853
+          ],
+          [
+            42.51694,
+            -90.7767,
+            853
+          ],
+          [
+            42.51687,
+            -90.77676,
+            853
+          ],
+          [
+            42.51635,
+            -90.77716,
+            866
+          ],
+          [
+            42.51618,
+            -90.77724,
+            866
+          ],
+          [
+            42.51596,
+            -90.77726,
+            866
+          ],
+          [
+            42.5154,
+            -90.77725,
+            876
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 784,
+            "coord": [
+              42.5221,
+              -90.77437
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 787,
+            "coord": [
+              42.52209,
+              -90.77578
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 804,
+            "coord": [
+              42.52198,
+              -90.77614
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 804,
+            "coord": [
+              42.52149,
+              -90.77696
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 804,
+            "coord": [
+              42.52151,
+              -90.7778
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 827,
+            "coord": [
+              42.5209,
+              -90.77856
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 814,
+            "coord": [
+              42.5203,
+              -90.77894
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 840,
+            "coord": [
+              42.51954,
+              -90.77919
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 827,
+            "coord": [
+              42.51863,
+              -90.77837
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 843,
+            "coord": [
+              42.51836,
+              -90.77809
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 853,
+            "coord": [
+              42.51795,
+              -90.7774
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 853,
+            "coord": [
+              42.51742,
+              -90.7767
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 853,
+            "coord": [
+              42.51687,
+              -90.77676
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 866,
+            "coord": [
+              42.51618,
+              -90.77724
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 876,
+            "coord": [
+              42.5154,
+              -90.77725
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Sundown Mountain</strong> rises to 1,142 feet in Iowa. The Sundown Mountain Trail is a 0.7-mile hike with about 92 feet of elevation gain. Nearby peaks include Sherrill Mound, Centenial Cross and Sugar Loaf. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Sherrill Mound",
+      "slug": "sherrill-mound-ia",
+      "state_slug": "iowa",
+      "elevation": 1227,
+      "distance_miles": 6.2
+    },
+    {
+      "name": "Centenial Cross",
+      "slug": "centenial-cross-ia",
+      "state_slug": "iowa",
+      "elevation": 1026,
+      "distance_miles": 8.1
+    },
+    {
+      "name": "Sugar Loaf",
+      "slug": "sugar-loaf-ia",
+      "state_slug": "iowa",
+      "elevation": 791,
+      "distance_miles": 11.3
+    },
+    {
+      "name": "Chimney Rock",
+      "slug": "chimney-rock-ia",
+      "state_slug": "iowa",
+      "elevation": 846,
+      "distance_miles": 24.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Sundown Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Sundown Mountain hike with current conditions, trail map & parking info. Iowa summit at 1,142 ft.",
+    "canonical_url": "/trails/iowa/sundown-mountain-ia",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Sundown Mountain",
+      "description": "Sundown Mountain is a 1,142 foot peak in Iowa offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.51685,
+        "longitude": -90.82002,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1142,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Iowa",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Sundown Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.5221,
+            "longitude": -90.77437
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Sundown Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Sundown Mountain Trail on Sundown Mountain is 0.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sundown Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sundown Mountain is rated Moderate. At 1,142 feet, plan for the terrain and weather typical of Iowa peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Sundown Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Sundown Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Sundown Mountain Trail, a 0.7-mile moderate hike to the Sundown Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Sundown Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Sundown Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/8400724684",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/8400724684",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 8400724684,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

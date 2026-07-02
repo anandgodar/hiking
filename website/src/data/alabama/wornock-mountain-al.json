@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Wornock Mountain",
+  "slug": "wornock-mountain-al",
+  "state": "Alabama",
+  "state_slug": "alabama",
+  "elevation": 1430,
+  "lat": 33.99621,
+  "lon": -86.69805,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Wornock Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            33.99621,
+            -86.69805
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Wornock Mountain</strong> is a 1,430-foot summit in Alabama. Nearby peaks include Huntsville Mountain, Sand Point and Round Top Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Huntsville Mountain",
+      "slug": "huntsville-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 1562,
+      "distance_miles": 47.8
+    },
+    {
+      "name": "Sand Point",
+      "slug": "sand-point-al",
+      "state_slug": "alabama",
+      "elevation": 1519,
+      "distance_miles": 49.8
+    },
+    {
+      "name": "Round Top Mountain",
+      "slug": "round-top-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 1585,
+      "distance_miles": 50.6
+    },
+    {
+      "name": "Monte Sano Mountain",
+      "slug": "monte-sano-mountain-al",
+      "state_slug": "alabama",
+      "elevation": 1621,
+      "distance_miles": 52.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Wornock Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Wornock Mountain hike with current conditions, trail map & parking info. Alabama summit at 1,430 ft.",
+    "canonical_url": "/trails/alabama/wornock-mountain-al",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Wornock Mountain",
+      "description": "Wornock Mountain is a 1,430 foot peak in Alabama offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.99621,
+        "longitude": -86.69805,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1430,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alabama",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Wornock Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Wornock Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Wornock Mountain Trail on Wornock Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Wornock Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wornock Mountain is rated Moderate. At 1,430 feet, plan for the terrain and weather typical of Alabama peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Wornock Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Wornock Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Wornock Mountain Trail, a  moderate hike to the Wornock Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Wornock Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Wornock Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358978756",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358978756",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358978756,
+    "prominence_m": null,
+    "wikidata": "Q31593433"
+  }
+}

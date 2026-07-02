@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Maverick Mountain",
+  "slug": "maverick-mountain-az",
+  "state": "Arizona",
+  "state_slug": "arizona",
+  "elevation": 8097,
+  "lat": 33.62505,
+  "lon": -109.68676,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Maverick Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            33.62505,
+            -109.68676
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Maverick Mountain</strong> is a 8,097-foot summit in Arizona. Nearby peaks include Baldy Peak, Mount Ord and South Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Baldy Peak",
+      "slug": "baldy-peak-az",
+      "state_slug": "arizona",
+      "elevation": 11407,
+      "distance_miles": 20.7
+    },
+    {
+      "name": "Mount Ord",
+      "slug": "mount-ord-az",
+      "state_slug": "arizona",
+      "elevation": 11348,
+      "distance_miles": 22.1
+    },
+    {
+      "name": "South Mountain",
+      "slug": "south-mountain-az",
+      "state_slug": "arizona",
+      "elevation": 9511,
+      "distance_miles": 33.0
+    },
+    {
+      "name": "Gobbler Point",
+      "slug": "gobbler-point-az",
+      "state_slug": "arizona",
+      "elevation": 9252,
+      "distance_miles": 33.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Maverick Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Maverick Mountain hike with current conditions, trail map & parking info. Arizona summit at 8,097 ft.",
+    "canonical_url": "/trails/arizona/maverick-mountain-az",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Maverick Mountain",
+      "description": "Maverick Mountain is a 8,097 foot peak in Arizona offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.62505,
+        "longitude": -109.68676,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 8097,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Arizona",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Maverick Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Maverick Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Maverick Mountain Trail on Maverick Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Maverick Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maverick Mountain is rated Moderate. At 8,097 feet, plan for the terrain and weather typical of Arizona peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Maverick Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Maverick Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Maverick Mountain Trail, a  moderate hike to the Maverick Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Maverick Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Maverick Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/359248442",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/359248442",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 359248442,
+    "prominence_m": null,
+    "wikidata": "Q49048383"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Sugar Loaf",
+  "slug": "sugar-loaf-ia",
+  "state": "Iowa",
+  "state_slug": "iowa",
+  "elevation": 791,
+  "lat": 42.64333,
+  "lon": -90.96013,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Sugar Loaf Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            42.64333,
+            -90.96013
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Sugar Loaf</strong> rises to 791 feet in Iowa. Nearby peaks include Sherrill Mound, Sundown Mountain and Centenial Cross. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Sherrill Mound",
+      "slug": "sherrill-mound-ia",
+      "state_slug": "iowa",
+      "elevation": 1227,
+      "distance_miles": 8.6
+    },
+    {
+      "name": "Sundown Mountain",
+      "slug": "sundown-mountain-ia",
+      "state_slug": "iowa",
+      "elevation": 1142,
+      "distance_miles": 11.3
+    },
+    {
+      "name": "Centenial Cross",
+      "slug": "centenial-cross-ia",
+      "state_slug": "iowa",
+      "elevation": 1026,
+      "distance_miles": 19.2
+    },
+    {
+      "name": "Chimney Rock",
+      "slug": "chimney-rock-ia",
+      "state_slug": "iowa",
+      "elevation": 846,
+      "distance_miles": 29.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Sugar Loaf Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Sugar Loaf hike with current conditions, trail map & parking info. Iowa summit at 791 ft.",
+    "canonical_url": "/trails/iowa/sugar-loaf-ia",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Sugar Loaf",
+      "description": "Sugar Loaf is a 791 foot peak in Iowa offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.64333,
+        "longitude": -90.96013,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 791,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Iowa",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Sugar Loaf Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Sugar Loaf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Sugar Loaf Trail on Sugar Loaf is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sugar Loaf hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sugar Loaf is rated Moderate. At 791 feet, plan for the terrain and weather typical of Iowa peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Sugar Loaf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Sugar Loaf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Sugar Loaf Trail, a  moderate hike to the Sugar Loaf summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Sugar Loaf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Sugar Loaf. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354327198",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354327198",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354327198,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

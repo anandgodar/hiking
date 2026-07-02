@@ -1,0 +1,493 @@
+{
+  "name": "Pigeon Roost",
+  "slug": "pigeon-roost-in",
+  "state": "Indiana",
+  "state_slug": "indiana",
+  "elevation": 745,
+  "lat": 38.22563,
+  "lon": -85.87802,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Pigeon Roost Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.5,
+        "gain": 66,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            38.25962,
+            -85.87423
+          ],
+          "summit": [
+            38.22563,
+            -85.87802
+          ]
+        },
+        "path": [
+          [
+            38.25962,
+            -85.87423,
+            571
+          ],
+          [
+            38.25956,
+            -85.87429,
+            571
+          ],
+          [
+            38.25969,
+            -85.87457,
+            571
+          ],
+          [
+            38.25975,
+            -85.87475,
+            571
+          ],
+          [
+            38.25975,
+            -85.87516,
+            581
+          ],
+          [
+            38.2599,
+            -85.87539,
+            581
+          ],
+          [
+            38.25997,
+            -85.87539,
+            581
+          ],
+          [
+            38.26006,
+            -85.87529,
+            604
+          ],
+          [
+            38.26003,
+            -85.8751,
+            604
+          ],
+          [
+            38.25998,
+            -85.87475,
+            571
+          ],
+          [
+            38.25987,
+            -85.87436,
+            571
+          ],
+          [
+            38.25977,
+            -85.87422,
+            571
+          ],
+          [
+            38.25968,
+            -85.87422,
+            571
+          ],
+          [
+            38.25962,
+            -85.87423,
+            571
+          ],
+          [
+            38.25959,
+            -85.87413,
+            564
+          ],
+          [
+            38.25954,
+            -85.87387,
+            564
+          ],
+          [
+            38.2594,
+            -85.87362,
+            564
+          ],
+          [
+            38.25933,
+            -85.87352,
+            564
+          ],
+          [
+            38.25928,
+            -85.8734,
+            564
+          ],
+          [
+            38.25919,
+            -85.87325,
+            551
+          ],
+          [
+            38.25895,
+            -85.873,
+            577
+          ],
+          [
+            38.25875,
+            -85.87265,
+            577
+          ],
+          [
+            38.25862,
+            -85.87227,
+            541
+          ],
+          [
+            38.25827,
+            -85.87181,
+            581
+          ],
+          [
+            38.25806,
+            -85.87159,
+            541
+          ],
+          [
+            38.25774,
+            -85.87124,
+            541
+          ],
+          [
+            38.25769,
+            -85.87115,
+            541
+          ],
+          [
+            38.25763,
+            -85.87106,
+            541
+          ],
+          [
+            38.25749,
+            -85.87099,
+            554
+          ],
+          [
+            38.25731,
+            -85.87091,
+            554
+          ],
+          [
+            38.25719,
+            -85.87083,
+            538
+          ],
+          [
+            38.25701,
+            -85.87068,
+            538
+          ],
+          [
+            38.25671,
+            -85.87047,
+            538
+          ],
+          [
+            38.25629,
+            -85.87019,
+            554
+          ],
+          [
+            38.25596,
+            -85.87024,
+            554
+          ],
+          [
+            38.25588,
+            -85.87026,
+            554
+          ],
+          [
+            38.25577,
+            -85.87024,
+            541
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 571,
+            "coord": [
+              38.25962,
+              -85.87423
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 571,
+            "coord": [
+              38.25975,
+              -85.87475
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 581,
+            "coord": [
+              38.25997,
+              -85.87539
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 571,
+            "coord": [
+              38.25998,
+              -85.87475
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 571,
+            "coord": [
+              38.25977,
+              -85.87422
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 564,
+            "coord": [
+              38.2594,
+              -85.87362
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 551,
+            "coord": [
+              38.25919,
+              -85.87325
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 577,
+            "coord": [
+              38.25875,
+              -85.87265
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 541,
+            "coord": [
+              38.25862,
+              -85.87227
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 541,
+            "coord": [
+              38.25806,
+              -85.87159
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 541,
+            "coord": [
+              38.25769,
+              -85.87115
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 538,
+            "coord": [
+              38.25719,
+              -85.87083
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 538,
+            "coord": [
+              38.25671,
+              -85.87047
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 554,
+            "coord": [
+              38.25629,
+              -85.87019
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 541,
+            "coord": [
+              38.25577,
+              -85.87024
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Pigeon Roost</strong> rises to 745 feet in Indiana. The Pigeon Roost Trail is a 0.5-mile hike with about 66 feet of elevation gain. Nearby peaks include Hounds Leap, Mount Tom and Scout Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Hounds Leap",
+      "slug": "hounds-leap-in",
+      "state_slug": "indiana",
+      "elevation": 866,
+      "distance_miles": 16.1
+    },
+    {
+      "name": "Mount Tom",
+      "slug": "mount-tom-in",
+      "state_slug": "indiana",
+      "elevation": 869,
+      "distance_miles": 19.3
+    },
+    {
+      "name": "Scout Mountain",
+      "slug": "scout-mountain-in",
+      "state_slug": "indiana",
+      "elevation": 689,
+      "distance_miles": 19.6
+    },
+    {
+      "name": "Pikes Peak",
+      "slug": "pikes-peak-in",
+      "state_slug": "indiana",
+      "elevation": 860,
+      "distance_miles": 29.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Pigeon Roost Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Pigeon Roost hike with current conditions, trail map & parking info. Indiana summit at 745 ft.",
+    "canonical_url": "/trails/indiana/pigeon-roost-in",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Pigeon Roost",
+      "description": "Pigeon Roost is a 745 foot peak in Indiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.22563,
+        "longitude": -85.87802,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 745,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Indiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Pigeon Roost Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 38.25962,
+            "longitude": -85.87423
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Pigeon Roost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Pigeon Roost Trail on Pigeon Roost is 0.5-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pigeon Roost hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pigeon Roost is rated Moderate. At 745 feet, plan for the terrain and weather typical of Indiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Pigeon Roost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Pigeon Roost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Pigeon Roost Trail, a 0.5-mile moderate hike to the Pigeon Roost summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Pigeon Roost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Pigeon Roost. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358663399",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358663399",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 358663399,
+    "prominence_m": null,
+    "wikidata": "Q33143503"
+  }
+}

@@ -120,9 +120,11 @@ def generate_chart(points, num_points=15):
         closest_idx = min(range(len(distances)),
                          key=lambda idx: abs(distances[idx] - target_dist))
 
+        # Frontend canonical chart shape: ElevationChart reads mile/elev.
         chart.append({
-            "distance": round(target_dist, 2),
-            "elevation": points[closest_idx]['ele']
+            "mile": round(target_dist, 2),
+            "elev": points[closest_idx]['ele'],
+            "coord": [points[closest_idx]['lat'], points[closest_idx]['lon']]
         })
 
     return chart, round(total_distance, 1)

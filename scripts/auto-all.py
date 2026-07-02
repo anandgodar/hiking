@@ -88,6 +88,8 @@ def main():
     p.add_argument("--workers", type=int, default=1, choices=[1, 2, 3])
     p.add_argument("--force", action="store_true",
                    help="re-run even if already done / has data")
+    p.add_argument("--commit", action="store_true",
+                   help="git commit+push each state's data as it completes")
     args = p.parse_args()
 
     cfg = json.loads((ROOT / "pipeline.config.json").read_text())
@@ -145,6 +147,16 @@ def main():
             save_progress(prog)
             print(f"  {'✅' if ok else '❌'} {slug}: {live} live / {draft} draft "
                   f"({secs}s)")
+            if args.commit and ok and (live or draft):
+                subprocess.run(["git", "add", f"website/src/data/{slug}",
+                                "pipeline.config.json"], cwd=ROOT)
+                subprocess.run(
+                    ["git", "commit", "-m",
+                     f"Add {slug}: {live} live / {draft} draft via automated "
+                     f"build\n\nCo-Authored-By: Claude Fable 5 "
+                     f"<noreply@anthropic.com>"],
+                    cwd=ROOT, capture_output=True)
+                subprocess.run(["git", "push"], cwd=ROOT, capture_output=True)
 
     print(f"\n{'=' * 62}\nBATCH SUMMARY\n{'=' * 62}")
     tot_live = tot_draft = 0

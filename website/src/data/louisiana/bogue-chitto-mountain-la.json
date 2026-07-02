@@ -1,0 +1,165 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Bogue Chitto Mountain",
+  "slug": "bogue-chitto-mountain-la",
+  "state": "Louisiana",
+  "state_slug": "louisiana",
+  "elevation": 354,
+  "lat": 30.97546,
+  "lon": -90.1612,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Bogue Chitto Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            30.97546,
+            -90.1612
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Bogue Chitto Mountain</strong> rises to 354 feet in Louisiana. Nearby peaks include Laborde Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Laborde Mountain",
+      "slug": "laborde-mountain-la",
+      "state_slug": "louisiana",
+      "elevation": 43,
+      "distance_miles": 67.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Bogue Chitto Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Bogue Chitto Mountain hike with current conditions, trail map & parking info. Louisiana summit at 354 ft.",
+    "canonical_url": "/trails/louisiana/bogue-chitto-mountain-la",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bogue Chitto Mountain",
+      "description": "Bogue Chitto Mountain is a 354 foot peak in Louisiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.97546,
+        "longitude": -90.1612,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 354,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Louisiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bogue Chitto Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bogue Chitto Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bogue Chitto Mountain Trail on Bogue Chitto Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bogue Chitto Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bogue Chitto Mountain is rated Moderate. At 354 feet, plan for the terrain and weather typical of Louisiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bogue Chitto Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bogue Chitto Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bogue Chitto Mountain Trail, a  moderate hike to the Bogue Chitto Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bogue Chitto Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bogue Chitto Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358377618",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358377618",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358377618,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

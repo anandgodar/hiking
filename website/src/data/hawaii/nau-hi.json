@@ -1,0 +1,913 @@
+{
+  "name": "Nau",
+  "slug": "nau-hi",
+  "state": "Hawaii",
+  "state_slug": "hawaii",
+  "elevation": 11322,
+  "lat": 19.82429,
+  "lon": -155.52911,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Nau Trail",
+      "difficulty": "Strenuous",
+      "type": "",
+      "stats": {
+        "distance": 5.3,
+        "gain": 2569,
+        "time": null,
+        "difficulty": "Strenuous"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            19.83899,
+            -155.58149
+          ],
+          "summit": [
+            19.82429,
+            -155.52911
+          ]
+        },
+        "path": [
+          [
+            19.83899,
+            -155.58149,
+            7713
+          ],
+          [
+            19.83896,
+            -155.58071,
+            7753
+          ],
+          [
+            19.83917,
+            -155.57996,
+            7753
+          ],
+          [
+            19.8388,
+            -155.57937,
+            7795
+          ],
+          [
+            19.83815,
+            -155.57918,
+            7835
+          ],
+          [
+            19.83724,
+            -155.57856,
+            7910
+          ],
+          [
+            19.83692,
+            -155.57813,
+            7956
+          ],
+          [
+            19.83694,
+            -155.57721,
+            7995
+          ],
+          [
+            19.83705,
+            -155.5767,
+            7995
+          ],
+          [
+            19.83714,
+            -155.57605,
+            8041
+          ],
+          [
+            19.83713,
+            -155.57535,
+            8074
+          ],
+          [
+            19.83687,
+            -155.57472,
+            8100
+          ],
+          [
+            19.83666,
+            -155.57413,
+            8130
+          ],
+          [
+            19.83639,
+            -155.57357,
+            8156
+          ],
+          [
+            19.83621,
+            -155.57304,
+            8202
+          ],
+          [
+            19.8361,
+            -155.57201,
+            8255
+          ],
+          [
+            19.83605,
+            -155.57144,
+            8294
+          ],
+          [
+            19.83596,
+            -155.57068,
+            8320
+          ],
+          [
+            19.83606,
+            -155.57007,
+            8320
+          ],
+          [
+            19.836,
+            -155.5692,
+            8363
+          ],
+          [
+            19.83581,
+            -155.56849,
+            8425
+          ],
+          [
+            19.83618,
+            -155.56806,
+            8442
+          ],
+          [
+            19.83589,
+            -155.56735,
+            8488
+          ],
+          [
+            19.8355,
+            -155.56694,
+            8537
+          ],
+          [
+            19.83498,
+            -155.56673,
+            8589
+          ],
+          [
+            19.83412,
+            -155.56648,
+            8642
+          ],
+          [
+            19.8335,
+            -155.56585,
+            8642
+          ],
+          [
+            19.83304,
+            -155.56537,
+            8688
+          ],
+          [
+            19.83262,
+            -155.56512,
+            8688
+          ],
+          [
+            19.83215,
+            -155.56489,
+            8757
+          ],
+          [
+            19.83167,
+            -155.56456,
+            8757
+          ],
+          [
+            19.83094,
+            -155.56436,
+            8780
+          ],
+          [
+            19.83043,
+            -155.56367,
+            8858
+          ],
+          [
+            19.83072,
+            -155.56289,
+            8901
+          ],
+          [
+            19.83116,
+            -155.56243,
+            8944
+          ],
+          [
+            19.83155,
+            -155.5619,
+            8944
+          ],
+          [
+            19.83223,
+            -155.56093,
+            8976
+          ],
+          [
+            19.83293,
+            -155.56017,
+            8993
+          ],
+          [
+            19.83331,
+            -155.55955,
+            9042
+          ],
+          [
+            19.8332,
+            -155.55911,
+            9094
+          ],
+          [
+            19.83241,
+            -155.55891,
+            9121
+          ],
+          [
+            19.83191,
+            -155.55883,
+            9121
+          ],
+          [
+            19.83132,
+            -155.55873,
+            9150
+          ],
+          [
+            19.83057,
+            -155.55862,
+            9190
+          ],
+          [
+            19.82985,
+            -155.55847,
+            9229
+          ],
+          [
+            19.82928,
+            -155.55832,
+            9314
+          ],
+          [
+            19.82858,
+            -155.55811,
+            9331
+          ],
+          [
+            19.82792,
+            -155.55778,
+            9357
+          ],
+          [
+            19.82731,
+            -155.55748,
+            9442
+          ],
+          [
+            19.82676,
+            -155.55717,
+            9442
+          ],
+          [
+            19.82627,
+            -155.55684,
+            9459
+          ],
+          [
+            19.82593,
+            -155.55631,
+            9514
+          ],
+          [
+            19.82641,
+            -155.55591,
+            9514
+          ],
+          [
+            19.82697,
+            -155.55583,
+            9583
+          ],
+          [
+            19.82757,
+            -155.5556,
+            9590
+          ],
+          [
+            19.82806,
+            -155.55518,
+            9590
+          ],
+          [
+            19.82821,
+            -155.55458,
+            9646
+          ],
+          [
+            19.82776,
+            -155.55416,
+            9672
+          ],
+          [
+            19.82726,
+            -155.55386,
+            9688
+          ],
+          [
+            19.82672,
+            -155.55353,
+            9688
+          ],
+          [
+            19.82633,
+            -155.55314,
+            9695
+          ],
+          [
+            19.82598,
+            -155.5528,
+            9695
+          ],
+          [
+            19.82549,
+            -155.55229,
+            9698
+          ],
+          [
+            19.82506,
+            -155.55182,
+            9698
+          ],
+          [
+            19.82443,
+            -155.55141,
+            9708
+          ],
+          [
+            19.82394,
+            -155.5512,
+            9698
+          ],
+          [
+            19.82334,
+            -155.551,
+            9698
+          ],
+          [
+            19.82273,
+            -155.55085,
+            9738
+          ],
+          [
+            19.8221,
+            -155.55063,
+            9711
+          ],
+          [
+            19.82151,
+            -155.55044,
+            9692
+          ],
+          [
+            19.82094,
+            -155.55021,
+            9692
+          ],
+          [
+            19.82044,
+            -155.55,
+            9675
+          ],
+          [
+            19.82004,
+            -155.54968,
+            9731
+          ],
+          [
+            19.81966,
+            -155.54911,
+            9767
+          ],
+          [
+            19.81957,
+            -155.54854,
+            9767
+          ],
+          [
+            19.81952,
+            -155.54785,
+            9813
+          ],
+          [
+            19.81945,
+            -155.5472,
+            9849
+          ],
+          [
+            19.81929,
+            -155.54664,
+            9895
+          ],
+          [
+            19.819,
+            -155.54603,
+            9826
+          ],
+          [
+            19.81875,
+            -155.54551,
+            9885
+          ],
+          [
+            19.81849,
+            -155.545,
+            9951
+          ],
+          [
+            19.81822,
+            -155.54449,
+            9885
+          ],
+          [
+            19.818,
+            -155.54402,
+            9944
+          ],
+          [
+            19.81751,
+            -155.54345,
+            9944
+          ],
+          [
+            19.81705,
+            -155.54316,
+            9977
+          ],
+          [
+            19.8166,
+            -155.54286,
+            9961
+          ],
+          [
+            19.81612,
+            -155.54242,
+            10023
+          ],
+          [
+            19.81574,
+            -155.54197,
+            9997
+          ],
+          [
+            19.81523,
+            -155.54152,
+            10062
+          ],
+          [
+            19.81479,
+            -155.54113,
+            10026
+          ],
+          [
+            19.81433,
+            -155.54075,
+            10095
+          ],
+          [
+            19.81385,
+            -155.54043,
+            10069
+          ],
+          [
+            19.81313,
+            -155.54024,
+            10046
+          ],
+          [
+            19.81264,
+            -155.5398,
+            10095
+          ],
+          [
+            19.81226,
+            -155.53935,
+            10052
+          ],
+          [
+            19.81193,
+            -155.53885,
+            10105
+          ],
+          [
+            19.81162,
+            -155.53845,
+            10072
+          ],
+          [
+            19.81125,
+            -155.53799,
+            10128
+          ],
+          [
+            19.81091,
+            -155.53734,
+            10167
+          ],
+          [
+            19.81061,
+            -155.53662,
+            10164
+          ],
+          [
+            19.81029,
+            -155.53588,
+            10164
+          ],
+          [
+            19.81009,
+            -155.53527,
+            10207
+          ],
+          [
+            19.80969,
+            -155.53481,
+            10207
+          ],
+          [
+            19.80953,
+            -155.53434,
+            10207
+          ],
+          [
+            19.80917,
+            -155.53382,
+            10259
+          ],
+          [
+            19.80863,
+            -155.53322,
+            10262
+          ],
+          [
+            19.80824,
+            -155.53259,
+            10213
+          ],
+          [
+            19.80775,
+            -155.53222,
+            10249
+          ],
+          [
+            19.80735,
+            -155.53185,
+            10207
+          ],
+          [
+            19.80685,
+            -155.53143,
+            10253
+          ],
+          [
+            19.80641,
+            -155.53101,
+            10220
+          ],
+          [
+            19.80608,
+            -155.53044,
+            10266
+          ],
+          [
+            19.80567,
+            -155.52998,
+            10246
+          ],
+          [
+            19.80524,
+            -155.52961,
+            10246
+          ],
+          [
+            19.80484,
+            -155.52922,
+            10210
+          ],
+          [
+            19.80442,
+            -155.52867,
+            10249
+          ],
+          [
+            19.80412,
+            -155.52817,
+            10233
+          ],
+          [
+            19.80379,
+            -155.52747,
+            10282
+          ],
+          [
+            19.80345,
+            -155.52667,
+            10282
+          ],
+          [
+            19.80296,
+            -155.52644,
+            10266
+          ],
+          [
+            19.80258,
+            -155.52598,
+            10266
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 7713,
+            "coord": [
+              19.83899,
+              -155.58149
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 7995,
+            "coord": [
+              19.83694,
+              -155.57721
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 8294,
+            "coord": [
+              19.83605,
+              -155.57144
+            ]
+          },
+          {
+            "mile": 1.14,
+            "elev": 8589,
+            "coord": [
+              19.83498,
+              -155.56673
+            ]
+          },
+          {
+            "mile": 1.52,
+            "elev": 8858,
+            "coord": [
+              19.83043,
+              -155.56367
+            ]
+          },
+          {
+            "mile": 1.9,
+            "elev": 9121,
+            "coord": [
+              19.83241,
+              -155.55891
+            ]
+          },
+          {
+            "mile": 2.27,
+            "elev": 9442,
+            "coord": [
+              19.82731,
+              -155.55748
+            ]
+          },
+          {
+            "mile": 2.65,
+            "elev": 9672,
+            "coord": [
+              19.82776,
+              -155.55416
+            ]
+          },
+          {
+            "mile": 3.03,
+            "elev": 9698,
+            "coord": [
+              19.82334,
+              -155.551
+            ]
+          },
+          {
+            "mile": 3.41,
+            "elev": 9813,
+            "coord": [
+              19.81952,
+              -155.54785
+            ]
+          },
+          {
+            "mile": 3.79,
+            "elev": 9961,
+            "coord": [
+              19.8166,
+              -155.54286
+            ]
+          },
+          {
+            "mile": 4.17,
+            "elev": 10052,
+            "coord": [
+              19.81226,
+              -155.53935
+            ]
+          },
+          {
+            "mile": 4.55,
+            "elev": 10207,
+            "coord": [
+              19.80969,
+              -155.53481
+            ]
+          },
+          {
+            "mile": 4.93,
+            "elev": 10266,
+            "coord": [
+              19.80608,
+              -155.53044
+            ]
+          },
+          {
+            "mile": 5.31,
+            "elev": 10266,
+            "coord": [
+              19.80258,
+              -155.52598
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Nau</strong> rises to 11,322 feet in Hawaii. The Nau Trail is a 5.3-mile hike with about 2,569 feet of elevation gain. Nearby peaks include Pu\u02bbup\u014dhaku, Pu\u02bbupoli\u02bbahu and Pu\u02bbuwaiau. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pu\u02bbup\u014dhaku",
+      "slug": "pu-up-haku-hi",
+      "state_slug": "hawaii",
+      "elevation": 13186,
+      "distance_miles": 2.4
+    },
+    {
+      "name": "Pu\u02bbupoli\u02bbahu",
+      "slug": "pu-upoli-ahu-hi",
+      "state_slug": "hawaii",
+      "elevation": 13632,
+      "distance_miles": 3.1
+    },
+    {
+      "name": "Pu\u02bbuwaiau",
+      "slug": "pu-uwaiau-hi",
+      "state_slug": "hawaii",
+      "elevation": 13169,
+      "distance_miles": 3.5
+    },
+    {
+      "name": "Pu\u02bbuhau\u02bboki",
+      "slug": "pu-uhau-oki-hi",
+      "state_slug": "hawaii",
+      "elevation": 13648,
+      "distance_miles": 3.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Nau Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Nau hike with current conditions, trail map & parking info. Hawaii summit at 11,322 ft.",
+    "canonical_url": "/trails/hawaii/nau-hi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Nau",
+      "description": "Nau is a 11,322 foot peak in Hawaii offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.82429,
+        "longitude": -155.52911,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 11322,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Hawaii",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Nau Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 19.83899,
+            "longitude": -155.58149
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Nau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Nau Trail on Nau is 5.3-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Nau hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nau is rated Moderate. At 11,322 feet, plan for the terrain and weather typical of Hawaii peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Nau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Nau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Nau Trail, a 5.3-mile moderate hike to the Nau summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Nau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Nau. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/7727407097",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/7727407097",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 7727407097,
+    "prominence_m": null,
+    "wikidata": "Q49056448"
+  }
+}

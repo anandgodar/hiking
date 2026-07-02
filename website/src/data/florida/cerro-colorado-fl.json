@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Cerro Colorado",
+  "slug": "cerro-colorado-fl",
+  "state": "Florida",
+  "state_slug": "florida",
+  "elevation": 853,
+  "lat": -33.84784,
+  "lon": -55.52615,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Cerro Colorado Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            -33.84784,
+            -55.52615
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 853 feet, <strong>Cerro Colorado</strong> is a summit in Florida. Nearby peaks include Cerro Victoria, Cerro San Francisco and Cerro Arriola. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Cerro Victoria",
+      "slug": "cerro-victoria-fl",
+      "state_slug": "florida",
+      "elevation": 968,
+      "distance_miles": 19.3
+    },
+    {
+      "name": "Cerro San Francisco",
+      "slug": "cerro-san-francisco-fl",
+      "state_slug": "florida",
+      "elevation": 1040,
+      "distance_miles": 21.2
+    },
+    {
+      "name": "Cerro Arriola",
+      "slug": "cerro-arriola-fl",
+      "state_slug": "florida",
+      "elevation": 715,
+      "distance_miles": 27.0
+    },
+    {
+      "name": "Cerro de la Calera",
+      "slug": "cerro-de-la-calera-fl",
+      "state_slug": "florida",
+      "elevation": 459,
+      "distance_miles": 34.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Cerro Colorado Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Cerro Colorado hike with current conditions, trail map & parking info. Florida summit at 853 ft.",
+    "canonical_url": "/trails/florida/cerro-colorado-fl",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Cerro Colorado",
+      "description": "Cerro Colorado is a 853 foot peak in Florida offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.84784,
+        "longitude": -55.52615,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 853,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Florida",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Cerro Colorado Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Cerro Colorado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Cerro Colorado Trail on Cerro Colorado is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cerro Colorado hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cerro Colorado is rated Moderate. At 853 feet, plan for the terrain and weather typical of Florida peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Cerro Colorado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Cerro Colorado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Cerro Colorado Trail, a  moderate hike to the Cerro Colorado summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Cerro Colorado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Cerro Colorado. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/13785759896",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/13785759896",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 13785759896,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

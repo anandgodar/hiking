@@ -1,0 +1,383 @@
+{
+  "name": "Piney Mountain",
+  "slug": "piney-mountain-md",
+  "state": "Maryland",
+  "state_slug": "maryland",
+  "elevation": 2802,
+  "lat": 39.54302,
+  "lon": -79.43152,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Piney Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 1.5,
+        "gain": 115,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            39.55153,
+            -79.46311
+          ],
+          "summit": [
+            39.54302,
+            -79.43152
+          ]
+        },
+        "path": [
+          [
+            39.55153,
+            -79.46311,
+            2884
+          ],
+          [
+            39.55014,
+            -79.46258,
+            2871
+          ],
+          [
+            39.5491,
+            -79.46187,
+            2851
+          ],
+          [
+            39.54772,
+            -79.46,
+            2844
+          ],
+          [
+            39.54715,
+            -79.45748,
+            2808
+          ],
+          [
+            39.54615,
+            -79.45534,
+            2769
+          ],
+          [
+            39.5449,
+            -79.45426,
+            2785
+          ],
+          [
+            39.54327,
+            -79.45452,
+            2815
+          ],
+          [
+            39.54216,
+            -79.45469,
+            2844
+          ],
+          [
+            39.54099,
+            -79.45448,
+            2871
+          ],
+          [
+            39.53956,
+            -79.45288,
+            2871
+          ],
+          [
+            39.5379,
+            -79.45168,
+            2838
+          ],
+          [
+            39.53681,
+            -79.45182,
+            2838
+          ],
+          [
+            39.53587,
+            -79.45247,
+            2835
+          ],
+          [
+            39.53458,
+            -79.45485,
+            2851
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2884,
+            "coord": [
+              39.55153,
+              -79.46311
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 2871,
+            "coord": [
+              39.55014,
+              -79.46258
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 2851,
+            "coord": [
+              39.5491,
+              -79.46187
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 2844,
+            "coord": [
+              39.54772,
+              -79.46
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 2808,
+            "coord": [
+              39.54715,
+              -79.45748
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 2769,
+            "coord": [
+              39.54615,
+              -79.45534
+            ]
+          },
+          {
+            "mile": 0.66,
+            "elev": 2785,
+            "coord": [
+              39.5449,
+              -79.45426
+            ]
+          },
+          {
+            "mile": 0.77,
+            "elev": 2815,
+            "coord": [
+              39.54327,
+              -79.45452
+            ]
+          },
+          {
+            "mile": 0.88,
+            "elev": 2844,
+            "coord": [
+              39.54216,
+              -79.45469
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 2871,
+            "coord": [
+              39.54099,
+              -79.45448
+            ]
+          },
+          {
+            "mile": 1.1,
+            "elev": 2871,
+            "coord": [
+              39.53956,
+              -79.45288
+            ]
+          },
+          {
+            "mile": 1.21,
+            "elev": 2838,
+            "coord": [
+              39.5379,
+              -79.45168
+            ]
+          },
+          {
+            "mile": 1.32,
+            "elev": 2838,
+            "coord": [
+              39.53681,
+              -79.45182
+            ]
+          },
+          {
+            "mile": 1.43,
+            "elev": 2835,
+            "coord": [
+              39.53587,
+              -79.45247
+            ]
+          },
+          {
+            "mile": 1.53,
+            "elev": 2851,
+            "coord": [
+              39.53458,
+              -79.45485
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 2,802 feet, <strong>Piney Mountain</strong> is a summit in Maryland. The Piney Mountain Trail is a 1.5-mile hike with about 115 feet of elevation gain. Nearby peaks include Roman Nose Mountain, Mount Nebo and Little Snaggy Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Roman Nose Mountain",
+      "slug": "roman-nose-mountain-md",
+      "state_slug": "maryland",
+      "elevation": 3005,
+      "distance_miles": 5.8
+    },
+    {
+      "name": "Mount Nebo",
+      "slug": "mount-nebo-md",
+      "state_slug": "maryland",
+      "elevation": 2828,
+      "distance_miles": 7.4
+    },
+    {
+      "name": "Little Snaggy Mountain",
+      "slug": "little-snaggy-mountain-md",
+      "state_slug": "maryland",
+      "elevation": 2789,
+      "distance_miles": 8.6
+    },
+    {
+      "name": "The Little Mountain",
+      "slug": "the-little-mountain-md",
+      "state_slug": "maryland",
+      "elevation": 2927,
+      "distance_miles": 11.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Piney Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Piney Mountain hike with current conditions, trail map & parking info. Maryland summit at 2,802 ft.",
+    "canonical_url": "/trails/maryland/piney-mountain-md",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Piney Mountain",
+      "description": "Piney Mountain is a 2,802 foot peak in Maryland offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.54302,
+        "longitude": -79.43152,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2802,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maryland",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Piney Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 39.55153,
+            "longitude": -79.46311
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Piney Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Piney Mountain Trail on Piney Mountain is 1.5-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Piney Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Piney Mountain is rated Moderate. At 2,802 feet, plan for the terrain and weather typical of Maryland peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Piney Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Piney Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Piney Mountain Trail, a 1.5-mile moderate hike to the Piney Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Piney Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Piney Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358241597",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358241597",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 358241597,
+    "prominence_m": null,
+    "wikidata": "Q31422811"
+  }
+}

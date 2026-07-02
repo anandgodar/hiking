@@ -1,0 +1,179 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Hawkeye Point",
+  "slug": "hawkeye-point-ia",
+  "state": "Iowa",
+  "state_slug": "iowa",
+  "elevation": 1670,
+  "lat": 43.46016,
+  "lon": -95.70899,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Hawkeye Point Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            43.46016,
+            -95.70899
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Hawkeye Point</strong> is a 1,670-foot summit in Iowa. Nearby peaks include Ocheyedan Mound, Pilot Rock and Dakota Point. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Ocheyedan Mound",
+      "slug": "ocheyedan-mound-ia",
+      "state_slug": "iowa",
+      "elevation": 1608,
+      "distance_miles": 10.2
+    },
+    {
+      "name": "Pilot Rock",
+      "slug": "pilot-rock-ia",
+      "state_slug": "iowa",
+      "elevation": 1201,
+      "distance_miles": 53.4
+    },
+    {
+      "name": "Dakota Point",
+      "slug": "dakota-point-ia",
+      "state_slug": "iowa",
+      "elevation": 1293,
+      "distance_miles": 73.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Hawkeye Point Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Hawkeye Point hike with current conditions, trail map & parking info. Iowa summit at 1,670 ft.",
+    "canonical_url": "/trails/iowa/hawkeye-point-ia",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Hawkeye Point",
+      "description": "Hawkeye Point is a 1,670 foot peak in Iowa offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.46016,
+        "longitude": -95.70899,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1670,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Iowa",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Hawkeye Point Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Hawkeye Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Hawkeye Point Trail on Hawkeye Point is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Hawkeye Point hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hawkeye Point is rated Moderate. At 1,670 feet, plan for the terrain and weather typical of Iowa peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Hawkeye Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Hawkeye Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Hawkeye Point Trail, a  moderate hike to the Hawkeye Point summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Hawkeye Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Hawkeye Point. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354335463",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354335463",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354335463,
+    "prominence_m": null,
+    "wikidata": "Q1591692"
+  }
+}

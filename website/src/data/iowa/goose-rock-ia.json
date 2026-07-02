@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Goose Rock",
+  "slug": "goose-rock-ia",
+  "state": "Iowa",
+  "state_slug": "iowa",
+  "elevation": 702,
+  "lat": 42.14844,
+  "lon": -90.87716,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Goose Rock Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            42.14844,
+            -90.87716
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 702 feet, <strong>Goose Rock</strong> is a summit in Iowa. Nearby peaks include Chimney Rock, Centenial Cross and North Bluff. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Chimney Rock",
+      "slug": "chimney-rock-ia",
+      "state_slug": "iowa",
+      "elevation": 846,
+      "distance_miles": 11.6
+    },
+    {
+      "name": "Centenial Cross",
+      "slug": "centenial-cross-ia",
+      "state_slug": "iowa",
+      "elevation": 1026,
+      "distance_miles": 22.5
+    },
+    {
+      "name": "North Bluff",
+      "slug": "north-bluff-ia",
+      "state_slug": "iowa",
+      "elevation": 856,
+      "distance_miles": 24.2
+    },
+    {
+      "name": "South Bluff",
+      "slug": "south-bluff-ia",
+      "state_slug": "iowa",
+      "elevation": 868,
+      "distance_miles": 24.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Goose Rock Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Goose Rock hike with current conditions, trail map & parking info. Iowa summit at 702 ft.",
+    "canonical_url": "/trails/iowa/goose-rock-ia",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Goose Rock",
+      "description": "Goose Rock is a 702 foot peak in Iowa offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.14844,
+        "longitude": -90.87716,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 702,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Iowa",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Goose Rock Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Goose Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Goose Rock Trail on Goose Rock is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Goose Rock hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Goose Rock is rated Moderate. At 702 feet, plan for the terrain and weather typical of Iowa peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Goose Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Goose Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Goose Rock Trail, a  moderate hike to the Goose Rock summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Goose Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Goose Rock. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354303764",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354303764",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354303764,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

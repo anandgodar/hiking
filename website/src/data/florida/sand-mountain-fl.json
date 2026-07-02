@@ -1,0 +1,179 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Sand Mountain",
+  "slug": "sand-mountain-fl",
+  "state": "Florida",
+  "state_slug": "florida",
+  "elevation": 272,
+  "lat": 30.55908,
+  "lon": -85.52604,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Sand Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            30.55908,
+            -85.52604
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 272 feet, <strong>Sand Mountain</strong> is a summit in Florida. Nearby peaks include Sixteenth Hill, Sandy Mountain and Britton Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Sixteenth Hill",
+      "slug": "sixteenth-hill-fl",
+      "state_slug": "florida",
+      "elevation": 200,
+      "distance_miles": 37.2
+    },
+    {
+      "name": "Sandy Mountain",
+      "slug": "sandy-mountain-fl",
+      "state_slug": "florida",
+      "elevation": 295,
+      "distance_miles": 45.6
+    },
+    {
+      "name": "Britton Hill",
+      "slug": "britton-hill-fl",
+      "state_slug": "florida",
+      "elevation": 344,
+      "distance_miles": 53.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Sand Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Sand Mountain hike with current conditions, trail map & parking info. Florida summit at 272 ft.",
+    "canonical_url": "/trails/florida/sand-mountain-fl",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Sand Mountain",
+      "description": "Sand Mountain is a 272 foot peak in Florida offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.55908,
+        "longitude": -85.52604,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 272,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Florida",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Sand Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Sand Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Sand Mountain Trail on Sand Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Sand Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sand Mountain is rated Moderate. At 272 feet, plan for the terrain and weather typical of Florida peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Sand Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Sand Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Sand Mountain Trail, a  moderate hike to the Sand Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Sand Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Sand Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358705716",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358705716",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358705716,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

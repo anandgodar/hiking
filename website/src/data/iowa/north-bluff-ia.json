@@ -1,0 +1,913 @@
+{
+  "name": "North Bluff",
+  "slug": "north-bluff-ia",
+  "state": "Iowa",
+  "state_slug": "iowa",
+  "elevation": 856,
+  "lat": 42.26273,
+  "lon": -90.42943,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "North Bluff Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.8,
+        "gain": 233,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            42.24649,
+            -90.42984
+          ],
+          "summit": [
+            42.26273,
+            -90.42943
+          ]
+        },
+        "path": [
+          [
+            42.24649,
+            -90.42984,
+            843
+          ],
+          [
+            42.24655,
+            -90.43013,
+            827
+          ],
+          [
+            42.24661,
+            -90.43035,
+            827
+          ],
+          [
+            42.24663,
+            -90.43041,
+            827
+          ],
+          [
+            42.24667,
+            -90.43042,
+            817
+          ],
+          [
+            42.24679,
+            -90.43041,
+            817
+          ],
+          [
+            42.24696,
+            -90.43047,
+            817
+          ],
+          [
+            42.24706,
+            -90.43049,
+            817
+          ],
+          [
+            42.24715,
+            -90.43044,
+            817
+          ],
+          [
+            42.24723,
+            -90.43043,
+            817
+          ],
+          [
+            42.24732,
+            -90.43048,
+            817
+          ],
+          [
+            42.24738,
+            -90.43055,
+            817
+          ],
+          [
+            42.24746,
+            -90.43051,
+            817
+          ],
+          [
+            42.24754,
+            -90.43049,
+            774
+          ],
+          [
+            42.24763,
+            -90.43047,
+            774
+          ],
+          [
+            42.24773,
+            -90.43049,
+            774
+          ],
+          [
+            42.24777,
+            -90.43052,
+            774
+          ],
+          [
+            42.24781,
+            -90.43065,
+            774
+          ],
+          [
+            42.24784,
+            -90.4307,
+            774
+          ],
+          [
+            42.24794,
+            -90.43073,
+            774
+          ],
+          [
+            42.24804,
+            -90.43071,
+            774
+          ],
+          [
+            42.24818,
+            -90.43063,
+            774
+          ],
+          [
+            42.24827,
+            -90.43055,
+            774
+          ],
+          [
+            42.24833,
+            -90.43051,
+            761
+          ],
+          [
+            42.24837,
+            -90.43047,
+            761
+          ],
+          [
+            42.24842,
+            -90.43031,
+            761
+          ],
+          [
+            42.24846,
+            -90.43025,
+            761
+          ],
+          [
+            42.24854,
+            -90.43019,
+            761
+          ],
+          [
+            42.24861,
+            -90.43017,
+            761
+          ],
+          [
+            42.24867,
+            -90.43022,
+            761
+          ],
+          [
+            42.24869,
+            -90.43016,
+            761
+          ],
+          [
+            42.24871,
+            -90.43009,
+            761
+          ],
+          [
+            42.24875,
+            -90.43004,
+            761
+          ],
+          [
+            42.24886,
+            -90.42999,
+            768
+          ],
+          [
+            42.24895,
+            -90.42996,
+            768
+          ],
+          [
+            42.249,
+            -90.42991,
+            768
+          ],
+          [
+            42.24904,
+            -90.42985,
+            768
+          ],
+          [
+            42.24909,
+            -90.42984,
+            768
+          ],
+          [
+            42.2492,
+            -90.42984,
+            732
+          ],
+          [
+            42.24932,
+            -90.42974,
+            732
+          ],
+          [
+            42.24939,
+            -90.4297,
+            732
+          ],
+          [
+            42.24949,
+            -90.42958,
+            732
+          ],
+          [
+            42.24956,
+            -90.42948,
+            732
+          ],
+          [
+            42.24962,
+            -90.42941,
+            732
+          ],
+          [
+            42.2497,
+            -90.42942,
+            732
+          ],
+          [
+            42.24978,
+            -90.42942,
+            732
+          ],
+          [
+            42.24992,
+            -90.42936,
+            732
+          ],
+          [
+            42.24999,
+            -90.4293,
+            732
+          ],
+          [
+            42.25006,
+            -90.42927,
+            732
+          ],
+          [
+            42.25018,
+            -90.42921,
+            732
+          ],
+          [
+            42.25032,
+            -90.42917,
+            699
+          ],
+          [
+            42.25041,
+            -90.42912,
+            699
+          ],
+          [
+            42.25051,
+            -90.4291,
+            699
+          ],
+          [
+            42.25064,
+            -90.42907,
+            699
+          ],
+          [
+            42.25076,
+            -90.42902,
+            699
+          ],
+          [
+            42.25084,
+            -90.42897,
+            650
+          ],
+          [
+            42.25084,
+            -90.42887,
+            650
+          ],
+          [
+            42.25086,
+            -90.42882,
+            650
+          ],
+          [
+            42.25092,
+            -90.42876,
+            650
+          ],
+          [
+            42.25101,
+            -90.42865,
+            650
+          ],
+          [
+            42.25109,
+            -90.42854,
+            650
+          ],
+          [
+            42.2511,
+            -90.42831,
+            614
+          ],
+          [
+            42.25106,
+            -90.42823,
+            614
+          ],
+          [
+            42.25102,
+            -90.42814,
+            614
+          ],
+          [
+            42.251,
+            -90.42803,
+            614
+          ],
+          [
+            42.25099,
+            -90.42784,
+            614
+          ],
+          [
+            42.25103,
+            -90.42767,
+            614
+          ],
+          [
+            42.25105,
+            -90.42755,
+            614
+          ],
+          [
+            42.25102,
+            -90.42729,
+            610
+          ],
+          [
+            42.25102,
+            -90.42719,
+            610
+          ],
+          [
+            42.25104,
+            -90.42711,
+            610
+          ],
+          [
+            42.251,
+            -90.42706,
+            610
+          ],
+          [
+            42.25092,
+            -90.42703,
+            610
+          ],
+          [
+            42.25087,
+            -90.42695,
+            610
+          ],
+          [
+            42.25081,
+            -90.42679,
+            728
+          ],
+          [
+            42.25075,
+            -90.4267,
+            728
+          ],
+          [
+            42.25073,
+            -90.42662,
+            705
+          ],
+          [
+            42.25063,
+            -90.42648,
+            705
+          ],
+          [
+            42.25057,
+            -90.42636,
+            705
+          ],
+          [
+            42.2505,
+            -90.42625,
+            705
+          ],
+          [
+            42.25043,
+            -90.42619,
+            705
+          ],
+          [
+            42.25036,
+            -90.4261,
+            705
+          ],
+          [
+            42.25028,
+            -90.42599,
+            705
+          ],
+          [
+            42.25022,
+            -90.42593,
+            705
+          ],
+          [
+            42.25011,
+            -90.42594,
+            705
+          ],
+          [
+            42.25005,
+            -90.42599,
+            705
+          ],
+          [
+            42.25003,
+            -90.42604,
+            705
+          ],
+          [
+            42.25003,
+            -90.42617,
+            705
+          ],
+          [
+            42.25001,
+            -90.42627,
+            705
+          ],
+          [
+            42.24997,
+            -90.42632,
+            784
+          ],
+          [
+            42.24989,
+            -90.42639,
+            784
+          ],
+          [
+            42.24982,
+            -90.4265,
+            784
+          ],
+          [
+            42.24975,
+            -90.42661,
+            784
+          ],
+          [
+            42.24967,
+            -90.42669,
+            823
+          ],
+          [
+            42.24959,
+            -90.4267,
+            823
+          ],
+          [
+            42.24957,
+            -90.42674,
+            823
+          ],
+          [
+            42.24959,
+            -90.4268,
+            823
+          ],
+          [
+            42.24965,
+            -90.4269,
+            823
+          ],
+          [
+            42.24964,
+            -90.42696,
+            823
+          ],
+          [
+            42.24954,
+            -90.42705,
+            823
+          ],
+          [
+            42.24949,
+            -90.42712,
+            823
+          ],
+          [
+            42.24941,
+            -90.42723,
+            823
+          ],
+          [
+            42.24935,
+            -90.42734,
+            823
+          ],
+          [
+            42.24933,
+            -90.42746,
+            823
+          ],
+          [
+            42.24936,
+            -90.42761,
+            804
+          ],
+          [
+            42.24937,
+            -90.42769,
+            804
+          ],
+          [
+            42.24935,
+            -90.42775,
+            804
+          ],
+          [
+            42.24931,
+            -90.42778,
+            804
+          ],
+          [
+            42.24925,
+            -90.42778,
+            804
+          ],
+          [
+            42.24916,
+            -90.42777,
+            804
+          ],
+          [
+            42.24902,
+            -90.42784,
+            843
+          ],
+          [
+            42.24895,
+            -90.42787,
+            843
+          ],
+          [
+            42.24891,
+            -90.42795,
+            843
+          ],
+          [
+            42.24886,
+            -90.42802,
+            843
+          ],
+          [
+            42.24866,
+            -90.4281,
+            843
+          ],
+          [
+            42.24846,
+            -90.42828,
+            843
+          ],
+          [
+            42.24822,
+            -90.42852,
+            843
+          ],
+          [
+            42.24802,
+            -90.42871,
+            843
+          ],
+          [
+            42.2478,
+            -90.42892,
+            843
+          ],
+          [
+            42.24771,
+            -90.42901,
+            843
+          ],
+          [
+            42.2477,
+            -90.4291,
+            843
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 843,
+            "coord": [
+              42.24649,
+              -90.42984
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 817,
+            "coord": [
+              42.24706,
+              -90.43049
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 774,
+            "coord": [
+              42.24781,
+              -90.43065
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 761,
+            "coord": [
+              42.24846,
+              -90.43025
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 732,
+            "coord": [
+              42.2492,
+              -90.42984
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 732,
+            "coord": [
+              42.24992,
+              -90.42936
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 699,
+            "coord": [
+              42.25064,
+              -90.42907
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 614,
+            "coord": [
+              42.25106,
+              -90.42823
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 610,
+            "coord": [
+              42.25104,
+              -90.42711
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 705,
+            "coord": [
+              42.2505,
+              -90.42625
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 784,
+            "coord": [
+              42.24997,
+              -90.42632
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 823,
+            "coord": [
+              42.24949,
+              -90.42712
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 843,
+            "coord": [
+              42.24902,
+              -90.42784
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 843,
+            "coord": [
+              42.24846,
+              -90.42828
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 843,
+            "coord": [
+              42.2477,
+              -90.4291
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>North Bluff</strong> is a 856-foot summit in Iowa. The North Bluff Trail is a 0.8-mile hike with about 233 feet of elevation gain. Nearby peaks include South Bluff, Centenial Cross and Goose Rock. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "South Bluff",
+      "slug": "south-bluff-ia",
+      "state_slug": "iowa",
+      "elevation": 868,
+      "distance_miles": 1.2
+    },
+    {
+      "name": "Centenial Cross",
+      "slug": "centenial-cross-ia",
+      "state_slug": "iowa",
+      "elevation": 1026,
+      "distance_miles": 18.5
+    },
+    {
+      "name": "Goose Rock",
+      "slug": "goose-rock-ia",
+      "state_slug": "iowa",
+      "elevation": 702,
+      "distance_miles": 24.2
+    },
+    {
+      "name": "Sundown Mountain",
+      "slug": "sundown-mountain-ia",
+      "state_slug": "iowa",
+      "elevation": 1142,
+      "distance_miles": 26.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "North Bluff Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your North Bluff hike with current conditions, trail map & parking info. Iowa summit at 856 ft.",
+    "canonical_url": "/trails/iowa/north-bluff-ia",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "North Bluff",
+      "description": "North Bluff is a 856 foot peak in Iowa offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.26273,
+        "longitude": -90.42943,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 856,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Iowa",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "North Bluff Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.24649,
+            "longitude": -90.42984
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike North Bluff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular North Bluff Trail on North Bluff is 0.8-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is North Bluff hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "North Bluff is rated Moderate. At 856 feet, plan for the terrain and weather typical of Iowa peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike North Bluff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike North Bluff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the North Bluff Trail, a 0.8-mile moderate hike to the North Bluff summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike North Bluff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on North Bluff. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/8573072092",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/8573072092",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 8573072092,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

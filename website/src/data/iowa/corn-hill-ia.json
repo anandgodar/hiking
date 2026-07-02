@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Corn Hill",
+  "slug": "corn-hill-ia",
+  "state": "Iowa",
+  "state_slug": "iowa",
+  "elevation": 1194,
+  "lat": 42.80609,
+  "lon": -91.73683,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Corn Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            42.80609,
+            -91.73683
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Corn Hill</strong> rises to 1,194 feet in Iowa. Nearby peaks include Sugar Loaf, Steamboat Rock and Mount Hosmer. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Sugar Loaf",
+      "slug": "sugar-loaf-ia",
+      "state_slug": "iowa",
+      "elevation": 791,
+      "distance_miles": 41.0
+    },
+    {
+      "name": "Steamboat Rock",
+      "slug": "steamboat-rock-ia",
+      "state_slug": "iowa",
+      "elevation": 1148,
+      "distance_miles": 41.5
+    },
+    {
+      "name": "Mount Hosmer",
+      "slug": "mount-hosmer-ia",
+      "state_slug": "iowa",
+      "elevation": 1050,
+      "distance_miles": 46.6
+    },
+    {
+      "name": "The Hogback",
+      "slug": "the-hogback-ia",
+      "state_slug": "iowa",
+      "elevation": 823,
+      "distance_miles": 49.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Corn Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Corn Hill hike with current conditions, trail map & parking info. Iowa summit at 1,194 ft.",
+    "canonical_url": "/trails/iowa/corn-hill-ia",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Corn Hill",
+      "description": "Corn Hill is a 1,194 foot peak in Iowa offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.80609,
+        "longitude": -91.73683,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1194,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Iowa",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Corn Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Corn Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Corn Hill Trail on Corn Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Corn Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Corn Hill is rated Moderate. At 1,194 feet, plan for the terrain and weather typical of Iowa peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Corn Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Corn Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Corn Hill Trail, a  moderate hike to the Corn Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Corn Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Corn Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354299163",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/354299163",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 354299163,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Mount Baldy",
+  "slug": "mount-baldy-in",
+  "state": "Indiana",
+  "state_slug": "indiana",
+  "elevation": 607,
+  "lat": 41.70823,
+  "lon": -86.92733,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Baldy Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": 1.4,
+        "gain": 29,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            41.70132,
+            -86.95802
+          ],
+          "summit": [
+            41.70823,
+            -86.92733
+          ]
+        },
+        "path": [
+          [
+            41.70132,
+            -86.95802,
+            571
+          ],
+          [
+            41.7015,
+            -86.95769,
+            571
+          ],
+          [
+            41.70155,
+            -86.95744,
+            600
+          ],
+          [
+            41.70161,
+            -86.95687,
+            600
+          ],
+          [
+            41.70335,
+            -86.95156,
+            571
+          ],
+          [
+            41.70452,
+            -86.94857,
+            571
+          ],
+          [
+            41.70525,
+            -86.9471,
+            571
+          ],
+          [
+            41.70554,
+            -86.94587,
+            571
+          ],
+          [
+            41.7061,
+            -86.94363,
+            571
+          ],
+          [
+            41.70658,
+            -86.94186,
+            571
+          ],
+          [
+            41.70693,
+            -86.94028,
+            571
+          ],
+          [
+            41.70724,
+            -86.93895,
+            571
+          ],
+          [
+            41.70768,
+            -86.93776,
+            571
+          ],
+          [
+            41.70826,
+            -86.93615,
+            571
+          ],
+          [
+            41.70897,
+            -86.93334,
+            571
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 571,
+            "coord": [
+              41.70132,
+              -86.95802
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 600,
+            "coord": [
+              41.70161,
+              -86.95687
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 600,
+            "coord": [
+              41.70161,
+              -86.95687
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 571,
+            "coord": [
+              41.70335,
+              -86.95156
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 571,
+            "coord": [
+              41.70335,
+              -86.95156
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 571,
+            "coord": [
+              41.70452,
+              -86.94857
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 571,
+            "coord": [
+              41.70525,
+              -86.9471
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 571,
+            "coord": [
+              41.70554,
+              -86.94587
+            ]
+          },
+          {
+            "mile": 0.79,
+            "elev": 571,
+            "coord": [
+              41.7061,
+              -86.94363
+            ]
+          },
+          {
+            "mile": 0.89,
+            "elev": 571,
+            "coord": [
+              41.70658,
+              -86.94186
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 571,
+            "coord": [
+              41.70693,
+              -86.94028
+            ]
+          },
+          {
+            "mile": 1.09,
+            "elev": 571,
+            "coord": [
+              41.70724,
+              -86.93895
+            ]
+          },
+          {
+            "mile": 1.19,
+            "elev": 571,
+            "coord": [
+              41.70826,
+              -86.93615
+            ]
+          },
+          {
+            "mile": 1.29,
+            "elev": 571,
+            "coord": [
+              41.70826,
+              -86.93615
+            ]
+          },
+          {
+            "mile": 1.38,
+            "elev": 571,
+            "coord": [
+              41.70897,
+              -86.93334
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Dimple Dune",
+          "type": "summit",
+          "lat": 41.70066,
+          "lon": -86.95776,
+          "mile": 0.0
+        },
+        {
+          "name": "Mount Allinson",
+          "type": "summit",
+          "lat": 41.70305,
+          "lon": -86.94851,
+          "mile": 0.54
+        },
+        {
+          "name": "Mount Jensen",
+          "type": "summit",
+          "lat": 41.70508,
+          "lon": -86.94607,
+          "mile": 0.7
+        },
+        {
+          "name": "Mount McCray",
+          "type": "summit",
+          "lat": 41.70636,
+          "lon": -86.93909,
+          "mile": 1.07
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Baldy</strong> is a 607-foot summit in Indiana. The Mount Baldy Trail is a 1.4-mile hike with about 29 feet of elevation gain. Nearby peaks include The Knobs. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "The Knobs",
+      "slug": "the-knobs-in",
+      "state_slug": "indiana",
+      "elevation": 958,
+      "distance_miles": 73.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Baldy Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Baldy hike with current conditions, trail map & parking info. Indiana summit at 607 ft.",
+    "canonical_url": "/trails/indiana/mount-baldy-in",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Baldy",
+      "description": "Mount Baldy is a 607 foot peak in Indiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.70823,
+        "longitude": -86.92733,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 607,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Indiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Baldy Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.70132,
+            "longitude": -86.95802
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Baldy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Baldy Trail on Mount Baldy is 1.4-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Baldy hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Baldy is rated Moderate. At 607 feet, plan for the terrain and weather typical of Indiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Baldy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Baldy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Baldy Trail, a 1.4-mile moderate hike to the Mount Baldy summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Baldy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Baldy. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358680535",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "National Park Service Public Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358680535",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 358680535,
+    "prominence_m": null,
+    "wikidata": "Q16982263"
+  }
+}
