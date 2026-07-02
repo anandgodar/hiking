@@ -769,53 +769,18 @@
       },
       "features": [
         {
-          "name": "Trail Start",
-          "lat": 44.3305,
-          "lon": -68.1845,
-          "type": "trailhead",
-          "mile": 0.1
-        },
-        {
-          "name": "First Iron Rungs",
-          "lat": 44.3312,
-          "lon": -68.1855,
-          "type": "scramble",
-          "mile": 0.3
-        },
-        {
-          "name": "Ladder Section",
-          "lat": 44.3318,
-          "lon": -68.186,
-          "type": "ladder",
-          "mile": 0.4
-        },
-        {
-          "name": "Beehive Summit",
-          "lat": 44.332,
-          "lon": -68.1863,
+          "name": "The Beehive",
           "type": "summit",
-          "mile": 0.5
+          "lat": 44.33373,
+          "lon": -68.18807,
+          "mile": 0.17
         },
         {
-          "name": "Sand Beach Overlook",
-          "lat": 44.3315,
-          "lon": -68.187,
-          "type": "viewpoint",
-          "mile": 0.6
-        },
-        {
-          "name": "The Bowl Junction",
-          "lat": 44.329,
-          "lon": -68.1895,
-          "type": "junction",
-          "mile": 0.9
-        },
-        {
-          "name": "The Bowl",
-          "lat": 44.3267,
-          "lon": -68.1911,
-          "type": "pond",
-          "mile": 1.0
+          "name": "Gorham Mountain",
+          "type": "summit",
+          "lat": 44.32691,
+          "lon": -68.19322,
+          "mile": 0.62
         }
       ]
     }
@@ -1138,6 +1103,7 @@
     "elevation_source": "USGS Benchmark - Acadia peaks",
     "gps_source": "USGS Topographic Map",
     "distance_source": "NPS Acadia trail maps and signage",
-    "notes": "Trail data from Acadia National Park official maps. Elevations from USGS benchmarks. Distance from NPS trail guides and signage."
+    "notes": "Trail data from Acadia National Park official maps. Elevations from USGS benchmarks. Distance from NPS trail guides and signage.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

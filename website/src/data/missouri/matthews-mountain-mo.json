@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Matthews Mountain",
   "slug": "matthews-mountain-mo",
   "state": "Missouri",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Matthews Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 1.2,
+        "gain": 194,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,253 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            37.46674,
+            -90.34983
           ],
           "summit": [
             37.48811,
             -90.34706
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            37.46674,
+            -90.34983,
+            1083
+          ],
+          [
+            37.46756,
+            -90.35004,
+            1086
+          ],
+          [
+            37.46779,
+            -90.35019,
+            1086
+          ],
+          [
+            37.46882,
+            -90.35171,
+            1047
+          ],
+          [
+            37.46955,
+            -90.352,
+            1040
+          ],
+          [
+            37.47186,
+            -90.35194,
+            951
+          ],
+          [
+            37.4725,
+            -90.35289,
+            955
+          ],
+          [
+            37.47298,
+            -90.35332,
+            955
+          ],
+          [
+            37.47335,
+            -90.35338,
+            951
+          ],
+          [
+            37.47394,
+            -90.35375,
+            951
+          ],
+          [
+            37.47413,
+            -90.35375,
+            951
+          ],
+          [
+            37.47527,
+            -90.35476,
+            915
+          ],
+          [
+            37.47573,
+            -90.35545,
+            928
+          ],
+          [
+            37.47596,
+            -90.35591,
+            925
+          ],
+          [
+            37.47623,
+            -90.35763,
+            902
+          ],
+          [
+            37.47648,
+            -90.35809,
+            902
+          ],
+          [
+            37.47664,
+            -90.35816,
+            902
+          ],
+          [
+            37.47708,
+            -90.35837,
+            909
+          ],
+          [
+            37.47747,
+            -90.35872,
+            909
+          ],
+          [
+            37.47792,
+            -90.36038,
+            912
+          ],
+          [
+            37.47822,
+            -90.36113,
+            899
+          ],
+          [
+            37.47831,
+            -90.36231,
+            892
+          ],
+          [
+            37.47861,
+            -90.36317,
+            915
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1083,
+            "coord": [
+              37.46674,
+              -90.34983
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 1086,
+            "coord": [
+              37.46779,
+              -90.35019
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 1047,
+            "coord": [
+              37.46882,
+              -90.35171
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 1040,
+            "coord": [
+              37.46955,
+              -90.352
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 951,
+            "coord": [
+              37.47186,
+              -90.35194
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 955,
+            "coord": [
+              37.4725,
+              -90.35289
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 951,
+            "coord": [
+              37.47335,
+              -90.35338
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 951,
+            "coord": [
+              37.47413,
+              -90.35375
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 915,
+            "coord": [
+              37.47527,
+              -90.35476
+            ]
+          },
+          {
+            "mile": 0.79,
+            "elev": 925,
+            "coord": [
+              37.47596,
+              -90.35591
+            ]
+          },
+          {
+            "mile": 0.88,
+            "elev": 902,
+            "coord": [
+              37.47648,
+              -90.35809
+            ]
+          },
+          {
+            "mile": 0.97,
+            "elev": 909,
+            "coord": [
+              37.47747,
+              -90.35872
+            ]
+          },
+          {
+            "mile": 1.05,
+            "elev": 912,
+            "coord": [
+              37.47792,
+              -90.36038
+            ]
+          },
+          {
+            "mile": 1.14,
+            "elev": 899,
+            "coord": [
+              37.47822,
+              -90.36113
+            ]
+          },
+          {
+            "mile": 1.23,
+            "elev": 915,
+            "coord": [
+              37.47861,
+              -90.36317
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +409,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/358064292",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/358064292",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 358064292,

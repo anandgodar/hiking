@@ -1174,8 +1174,8 @@
         ],
         "markers": {
           "start": [
-            45.9622,
-            -69.0289
+            45.93925,
+            -69.04137
           ],
           "summit": [
             45.9456,
@@ -1201,25 +1201,18 @@
       },
       "features": [
         {
-          "name": "Marston Brook Crossing",
-          "lat": 45.9578,
-          "lon": -69.0156,
-          "type": "water",
-          "mile": 1.2
+          "name": "Slide Dam Picnic Area",
+          "type": "rest area",
+          "lat": 45.94036,
+          "lon": -69.04353,
+          "mile": 1.02
         },
         {
-          "name": "Brothers Junction",
-          "lat": 45.9511,
-          "lon": -68.9978,
-          "type": "junction",
-          "mile": 3.5
-        },
-        {
-          "name": "South Brother Spur",
-          "lat": 45.9478,
-          "lon": -68.9922,
-          "type": "junction",
-          "mile": 4.0
+          "name": "The Brothers",
+          "type": "summit",
+          "lat": 45.95366,
+          "lon": -68.99532,
+          "mile": 4.12
         }
       ]
     }
@@ -1527,6 +1520,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
-    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

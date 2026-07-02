@@ -106,7 +106,11 @@
         "capacity": "Large (~50 cars)",
         "status": "Check conditions",
         "fee": "Free",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          43.21963,
+          -70.69176
+        ]
       },
       "start_lat": 43.2183,
       "start_lon": -70.685,
@@ -1331,18 +1335,11 @@
       },
       "features": [
         {
-          "name": "Learning Lodge",
-          "lat": 43.2217,
-          "lon": -70.6878,
-          "type": "landmark",
-          "mile": 0.5
-        },
-        {
-          "name": "Summit Overlook",
-          "lat": 43.2222,
-          "lon": -70.6883,
+          "name": "Mount Agamenticus",
           "type": "viewpoint",
-          "mile": 0.6
+          "lat": 43.22311,
+          "lon": -70.69216,
+          "mile": 0.06
         }
       ]
     }
@@ -1624,6 +1621,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
-    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

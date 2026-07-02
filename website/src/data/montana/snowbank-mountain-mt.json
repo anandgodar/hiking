@@ -770,7 +770,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Impasse Falls",
+          "type": "waterfall",
+          "lat": 45.11771,
+          "lon": -109.7417,
+          "mile": 4.05
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Snowbank Mountain</strong> rises to 12,011 feet in Montana. Nearby peaks include Castle Rock Mountain, Castle Mountain and Sundance Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -903,7 +911,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357958982",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357958982,

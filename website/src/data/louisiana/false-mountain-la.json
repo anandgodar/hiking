@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "False Mountain",
   "slug": "false-mountain-la",
   "state": "Louisiana",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "False Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.4,
+        "gain": 72,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,18 +32,425 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            32.42477,
+            -92.8967
           ],
           "summit": [
             32.42078,
             -92.89672
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            32.42477,
+            -92.8967,
+            554
+          ],
+          [
+            32.42471,
+            -92.89662,
+            561
+          ],
+          [
+            32.42463,
+            -92.89656,
+            561
+          ],
+          [
+            32.42454,
+            -92.89656,
+            561
+          ],
+          [
+            32.42436,
+            -92.89663,
+            561
+          ],
+          [
+            32.42427,
+            -92.89664,
+            561
+          ],
+          [
+            32.42417,
+            -92.89666,
+            561
+          ],
+          [
+            32.42408,
+            -92.89662,
+            561
+          ],
+          [
+            32.42399,
+            -92.89663,
+            561
+          ],
+          [
+            32.4239,
+            -92.89661,
+            561
+          ],
+          [
+            32.42381,
+            -92.8966,
+            561
+          ],
+          [
+            32.4237,
+            -92.89658,
+            561
+          ],
+          [
+            32.42362,
+            -92.89659,
+            561
+          ],
+          [
+            32.42352,
+            -92.89658,
+            561
+          ],
+          [
+            32.42342,
+            -92.89658,
+            561
+          ],
+          [
+            32.42323,
+            -92.89656,
+            535
+          ],
+          [
+            32.42304,
+            -92.89655,
+            535
+          ],
+          [
+            32.42286,
+            -92.89658,
+            535
+          ],
+          [
+            32.42278,
+            -92.89654,
+            535
+          ],
+          [
+            32.42268,
+            -92.89655,
+            535
+          ],
+          [
+            32.42258,
+            -92.89653,
+            535
+          ],
+          [
+            32.42249,
+            -92.89655,
+            525
+          ],
+          [
+            32.42218,
+            -92.89654,
+            525
+          ],
+          [
+            32.42209,
+            -92.89651,
+            525
+          ],
+          [
+            32.42199,
+            -92.8965,
+            525
+          ],
+          [
+            32.42188,
+            -92.89653,
+            525
+          ],
+          [
+            32.42171,
+            -92.89658,
+            525
+          ],
+          [
+            32.42163,
+            -92.89662,
+            538
+          ],
+          [
+            32.42154,
+            -92.89664,
+            538
+          ],
+          [
+            32.42144,
+            -92.89661,
+            538
+          ],
+          [
+            32.42135,
+            -92.89659,
+            538
+          ],
+          [
+            32.42125,
+            -92.89658,
+            538
+          ],
+          [
+            32.42116,
+            -92.89657,
+            538
+          ],
+          [
+            32.42107,
+            -92.89655,
+            538
+          ],
+          [
+            32.42099,
+            -92.89659,
+            538
+          ],
+          [
+            32.42089,
+            -92.89661,
+            538
+          ],
+          [
+            32.42078,
+            -92.89661,
+            538
+          ],
+          [
+            32.4207,
+            -92.89656,
+            538
+          ],
+          [
+            32.42061,
+            -92.89656,
+            538
+          ],
+          [
+            32.42053,
+            -92.8966,
+            538
+          ],
+          [
+            32.42046,
+            -92.89661,
+            538
+          ],
+          [
+            32.42034,
+            -92.89663,
+            538
+          ],
+          [
+            32.42009,
+            -92.8965,
+            538
+          ],
+          [
+            32.41992,
+            -92.89653,
+            518
+          ],
+          [
+            32.4198,
+            -92.89652,
+            518
+          ],
+          [
+            32.41967,
+            -92.89651,
+            518
+          ],
+          [
+            32.41952,
+            -92.89649,
+            518
+          ],
+          [
+            32.41942,
+            -92.89646,
+            518
+          ],
+          [
+            32.41932,
+            -92.89645,
+            518
+          ],
+          [
+            32.41923,
+            -92.89645,
+            518
+          ],
+          [
+            32.41905,
+            -92.89651,
+            489
+          ],
+          [
+            32.41896,
+            -92.89649,
+            489
+          ],
+          [
+            32.41887,
+            -92.89645,
+            489
+          ],
+          [
+            32.41874,
+            -92.89633,
+            489
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 554,
+            "coord": [
+              32.42477,
+              -92.8967
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 561,
+            "coord": [
+              32.42436,
+              -92.89663
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 561,
+            "coord": [
+              32.4239,
+              -92.89661
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 561,
+            "coord": [
+              32.42352,
+              -92.89658
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 535,
+            "coord": [
+              32.42304,
+              -92.89655
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 535,
+            "coord": [
+              32.42258,
+              -92.89653
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 525,
+            "coord": [
+              32.42218,
+              -92.89654
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 525,
+            "coord": [
+              32.42171,
+              -92.89658
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 538,
+            "coord": [
+              32.42135,
+              -92.89659
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 538,
+            "coord": [
+              32.42089,
+              -92.89661
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 538,
+            "coord": [
+              32.42046,
+              -92.89661
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 538,
+            "coord": [
+              32.42009,
+              -92.8965
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 518,
+            "coord": [
+              32.41952,
+              -92.89649
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 489,
+            "coord": [
+              32.41905,
+              -92.89651
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 489,
+            "coord": [
+              32.41874,
+              -92.89633
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Driskill Mountain",
+          "type": "summit",
+          "lat": 32.42483,
+          "lon": -92.89662,
+          "mile": 0.0
+        },
+        {
+          "name": "False Mountain",
+          "type": "summit",
+          "lat": 32.42078,
+          "lon": -92.89672,
+          "mile": 0.28
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 515 feet, <strong>False Mountain</strong> is a summit in Louisiana. Nearby peaks include Driskill Mountain, Gentry Hill and Jordan Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,10 +579,12 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/13358542225",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/13358542225",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 13358542225,

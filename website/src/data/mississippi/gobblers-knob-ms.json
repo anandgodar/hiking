@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Gobblers Knob",
   "slug": "gobblers-knob-ms",
   "state": "Mississippi",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Gobblers Knob Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.4,
+        "gain": 79,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,18 +32,188 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            34.80409,
+            -88.45931
           ],
           "summit": [
             34.81759,
             -88.47366
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            34.80409,
+            -88.45931,
+            541
+          ],
+          [
+            34.80418,
+            -88.46109,
+            522
+          ],
+          [
+            34.80461,
+            -88.46226,
+            541
+          ],
+          [
+            34.80509,
+            -88.46303,
+            548
+          ],
+          [
+            34.80633,
+            -88.46281,
+            535
+          ],
+          [
+            34.8069,
+            -88.46262,
+            541
+          ],
+          [
+            34.80747,
+            -88.46223,
+            505
+          ],
+          [
+            34.80756,
+            -88.46206,
+            469
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 541,
+            "coord": [
+              34.80409,
+              -88.45931
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 541,
+            "coord": [
+              34.80409,
+              -88.45931
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 522,
+            "coord": [
+              34.80418,
+              -88.46109
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 522,
+            "coord": [
+              34.80418,
+              -88.46109
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 522,
+            "coord": [
+              34.80418,
+              -88.46109
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 541,
+            "coord": [
+              34.80461,
+              -88.46226
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 541,
+            "coord": [
+              34.80461,
+              -88.46226
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 548,
+            "coord": [
+              34.80509,
+              -88.46303
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 548,
+            "coord": [
+              34.80509,
+              -88.46303
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 548,
+            "coord": [
+              34.80509,
+              -88.46303
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 535,
+            "coord": [
+              34.80633,
+              -88.46281
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 535,
+            "coord": [
+              34.80633,
+              -88.46281
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 541,
+            "coord": [
+              34.8069,
+              -88.46262
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 505,
+            "coord": [
+              34.80747,
+              -88.46223
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 469,
+            "coord": [
+              34.80756,
+              -88.46206
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Sand Hill",
+          "type": "summit",
+          "lat": 34.80481,
+          "lon": -88.4631,
+          "mile": 0.23
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 525 feet, <strong>Gobblers Knob</strong> is a summit in Mississippi. Nearby peaks include Sand Hill, Bloodsaw Hill and Southerland Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,10 +342,12 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357931651",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357931651",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357931651,

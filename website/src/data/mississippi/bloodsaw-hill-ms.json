@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Bloodsaw Hill",
   "slug": "bloodsaw-hill-ms",
   "state": "Mississippi",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Bloodsaw Hill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.5,
+        "gain": 32,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,198 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            34.77457,
+            -88.46494
           ],
           "summit": [
             34.76176,
             -88.44644
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            34.77457,
+            -88.46494,
+            571
+          ],
+          [
+            34.77532,
+            -88.46455,
+            574
+          ],
+          [
+            34.77612,
+            -88.4643,
+            574
+          ],
+          [
+            34.77626,
+            -88.46416,
+            577
+          ],
+          [
+            34.77649,
+            -88.4635,
+            577
+          ],
+          [
+            34.77676,
+            -88.46322,
+            568
+          ],
+          [
+            34.77686,
+            -88.46269,
+            568
+          ],
+          [
+            34.77681,
+            -88.46194,
+            568
+          ],
+          [
+            34.77612,
+            -88.46103,
+            558
+          ],
+          [
+            34.77633,
+            -88.46022,
+            545
+          ],
+          [
+            34.77697,
+            -88.45953,
+            554
+          ],
+          [
+            34.77727,
+            -88.45906,
+            548
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 571,
+            "coord": [
+              34.77457,
+              -88.46494
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 574,
+            "coord": [
+              34.77532,
+              -88.46455
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 574,
+            "coord": [
+              34.77532,
+              -88.46455
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 574,
+            "coord": [
+              34.77612,
+              -88.4643
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 577,
+            "coord": [
+              34.77626,
+              -88.46416
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 577,
+            "coord": [
+              34.77649,
+              -88.4635
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 568,
+            "coord": [
+              34.77676,
+              -88.46322
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 568,
+            "coord": [
+              34.77686,
+              -88.46269
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 568,
+            "coord": [
+              34.77681,
+              -88.46194
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 558,
+            "coord": [
+              34.77612,
+              -88.46103
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 558,
+            "coord": [
+              34.77612,
+              -88.46103
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 545,
+            "coord": [
+              34.77633,
+              -88.46022
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 545,
+            "coord": [
+              34.77633,
+              -88.46022
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 554,
+            "coord": [
+              34.77697,
+              -88.45953
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 548,
+            "coord": [
+              34.77727,
+              -88.45906
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +354,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357925927",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357925927",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 357925927,

@@ -2978,25 +2978,11 @@
       },
       "features": [
         {
-          "name": "Eddy Pond",
-          "lat": 44.9256,
-          "lon": -70.5178,
-          "type": "pond",
-          "mile": 2.5
-        },
-        {
-          "name": "Saddleback Junior",
-          "lat": 44.9311,
-          "lon": -70.5089,
+          "name": "Saddleback Mountain",
           "type": "summit",
-          "mile": 3.5
-        },
-        {
-          "name": "The Horn Junction",
-          "lat": 44.9344,
-          "lon": -70.5044,
-          "type": "junction",
-          "mile": 4.2
+          "lat": 44.93646,
+          "lon": -70.50455,
+          "mile": 1.97
         }
       ]
     },
@@ -5402,6 +5388,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
-    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+    "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }
