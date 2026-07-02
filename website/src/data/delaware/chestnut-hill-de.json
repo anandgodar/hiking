@@ -1,0 +1,275 @@
+{
+  "name": "Chestnut Hill",
+  "slug": "chestnut-hill-de",
+  "state": "Delaware",
+  "state_slug": "delaware",
+  "elevation": 292,
+  "lat": 39.65099,
+  "lon": -75.77045,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Chestnut Hill Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.1,
+        "gain": 46,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          39.63856,
+          -75.75592
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            39.6333,
+            -75.74956
+          ],
+          "summit": [
+            39.65099,
+            -75.77045
+          ]
+        },
+        "path": [
+          [
+            39.6333,
+            -75.74956,
+            174
+          ],
+          [
+            39.63333,
+            -75.74958,
+            190
+          ],
+          [
+            39.63404,
+            -75.75,
+            190
+          ],
+          [
+            39.6348,
+            -75.74953,
+            197
+          ],
+          [
+            39.63512,
+            -75.74979,
+            220
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 174
+          },
+          {
+            "distance": 0.01,
+            "elevation": 190
+          },
+          {
+            "distance": 0.02,
+            "elevation": 190
+          },
+          {
+            "distance": 0.03,
+            "elevation": 190
+          },
+          {
+            "distance": 0.04,
+            "elevation": 190
+          },
+          {
+            "distance": 0.05,
+            "elevation": 190
+          },
+          {
+            "distance": 0.06,
+            "elevation": 190
+          },
+          {
+            "distance": 0.07,
+            "elevation": 190
+          },
+          {
+            "distance": 0.08,
+            "elevation": 190
+          },
+          {
+            "distance": 0.09,
+            "elevation": 197
+          },
+          {
+            "distance": 0.1,
+            "elevation": 197
+          },
+          {
+            "distance": 0.11,
+            "elevation": 197
+          },
+          {
+            "distance": 0.12,
+            "elevation": 197
+          },
+          {
+            "distance": 0.13,
+            "elevation": 220
+          },
+          {
+            "distance": 0.14,
+            "elevation": 220
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 292 feet, <strong>Chestnut Hill</strong> is a summit in Delaware. The Chestnut Hill Trail is a 0.1-mile hike with about 46 feet of elevation gain. Nearby peaks include Iron Hill, Drummond Hill and Horseshoe Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Iron Hill",
+      "slug": "iron-hill-de",
+      "state_slug": "delaware",
+      "elevation": 328,
+      "distance_miles": 1.3
+    },
+    {
+      "name": "Drummond Hill",
+      "slug": "drummond-hill-de",
+      "state_slug": "delaware",
+      "elevation": 289,
+      "distance_miles": 5.3
+    },
+    {
+      "name": "Horseshoe Hill",
+      "slug": "horseshoe-hill-de",
+      "state_slug": "delaware",
+      "elevation": 331,
+      "distance_miles": 11.3
+    },
+    {
+      "name": "Ebright Azimuth",
+      "slug": "ebright-azimuth-de",
+      "state_slug": "delaware",
+      "elevation": 449,
+      "distance_miles": 18.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Chestnut Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Chestnut Hill hike with current conditions, trail map & parking info. Delaware summit at 292 ft.",
+    "canonical_url": "/trails/delaware/chestnut-hill-de",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Chestnut Hill",
+      "description": "Chestnut Hill is a 292 foot peak in Delaware offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.65099,
+        "longitude": -75.77045,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 292,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Delaware",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Chestnut Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 39.6333,
+            "longitude": -75.74956
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Chestnut Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Chestnut Hill Trail on Chestnut Hill is 0.1-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Chestnut Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chestnut Hill is rated Moderate. At 292 feet, plan for the terrain and weather typical of Delaware peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Chestnut Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Chestnut Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Chestnut Hill Trail, a 0.1-mile moderate hike to the Chestnut Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Chestnut Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Chestnut Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/5864538321",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/5864538321",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 5864538321,
+    "prominence_m": null,
+    "wikidata": "Q31575787"
+  },
+  "_status": "demoted \u2014 route too short (0.1 mi) \u2014 likely a fragment"
+}

@@ -106,11 +106,39 @@ def build_chart(path, num=15):
     return chart
 
 
+def fix_summit_elevation(d, ctx):
+    """Backfill a missing/zero summit elevation from the DEM at lat/lon.
+
+    OSM peaks sometimes carry no `ele` tag; publishing "0 ft" is nonsense
+    data. A DEM point sample at the summit coordinate is a real value from a
+    real source — clearly labeled so it can be upgraded to a USGS benchmark.
+    """
+    elev = d.get("elevation")
+    if elev not in (None, 0):
+        return False
+    if d.get("lat") is None or d.get("lon") is None:
+        return False
+    vals = batch_elevations([(d["lat"], d["lon"])], ctx)
+    if len(vals) != 1 or vals[0] <= 0:
+        return False
+    d["elevation"] = vals[0]
+    ds = d.setdefault("data_sources", {})
+    ds["elevation_source"] = "Open-Meteo (Copernicus 30 m DEM) at summit coordinate"
+    ds["elevation_verified"] = str(date.today())
+    print(f"  ✅ {d.get('name'):<28} summit elevation backfilled: {vals[0]} ft")
+    return True
+
+
 def process(path_file, ctx):
     d = json.loads(Path(path_file).read_text())
     t = (d.get("trails") or [{}])[0]
     geo = t.get("geo") or {}
     path = geo.get("path") or []
+
+    summit_fixed = fix_summit_elevation(d, ctx)
+    if summit_fixed and (not path or not needs_elevation(path)):
+        Path(path_file).write_text(json.dumps(d, indent=2) + "\n")
+        return True
     if not path:
         return False
     if not needs_elevation(path):

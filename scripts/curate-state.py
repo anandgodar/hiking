@@ -86,14 +86,22 @@ def assess(rec, audit_mod, threshold):
     stats = t.get("stats") or {}
     if not (isinstance(geo.get("path"), list) and geo.get("path")):
         reasons.append("no GPS route (drop gpx-downloads/<slug>.gpx, run pipeline)")
-    if not stats.get("distance"):
+    dist = stats.get("distance")
+    if not dist:
         reasons.append("no distance")
+    elif dist < 0.3:
+        # A sub-0.3 mi "route" is almost always a data fragment (a trail
+        # segment endpoint), not a hike worth a page — thin content.
+        reasons.append(f"route too short ({dist} mi) — likely a fragment")
     if not stats.get("gain"):
         reasons.append("no elevation gain")
     if rec.get("lat") is None or rec.get("lon") is None:
         reasons.append("no coordinates")
-    if rec.get("elevation") is None:
-        reasons.append("no elevation")
+    elev = rec.get("elevation")
+    if elev is None or elev <= 0:
+        # 0/None isn't a credible summit elevation (lowest US point is -282 ft
+        # in Death Valley, but a 0 here means missing data, not a real basin).
+        reasons.append("no credible elevation (run enrich-elevation to backfill)")
     # Only run the GPS audit if a route exists (otherwise it's trivially 0).
     if isinstance(geo.get("path"), list) and geo.get("path"):
         r = audit_mod.audit_route(t)
@@ -108,10 +116,21 @@ def do_publish(state):
     items = load(state)
     published_now, already, drafts = [], [], []
 
+    demoted = []
     for f, rec in items:
         if not rec.get("name"):
             continue
         if not rec.get("_status"):
+            # Re-check IMPORTED live trails against the (possibly tightened)
+            # gate and demote failures back to draft. Hand-curated trails
+            # (no `osm` block) are never demoted automatically.
+            if rec.get("osm"):
+                reasons = assess(rec, audit_mod, threshold)
+                if reasons:
+                    rec["_status"] = f"demoted — {reasons[0]}"
+                    f.write_text(json.dumps(rec, indent=2) + "\n")
+                    demoted.append((rec["name"], reasons))
+                    continue
             already.append(rec["name"])
             continue
         reasons = assess(rec, audit_mod, threshold)
@@ -135,6 +154,10 @@ def do_publish(state):
     for n in published_now[:40]:
         print(f"       + {n}")
     print(f"  • already live:  {len(already)}")
+    if demoted:
+        print(f"  ⬇️  demoted to draft: {len(demoted)}")
+        for n, reasons in demoted[:20]:
+            print(f"       - {n}: {reasons[0]}")
     print(f"  ⏳ held as draft: {len(drafts)}")
     for n, reasons in drafts[:40]:
         print(f"       - {n}: {reasons[0]}")
