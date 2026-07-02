@@ -1,0 +1,473 @@
+{
+  "name": "Notch Rock",
+  "slug": "notch-rock-ky",
+  "state": "Kentucky",
+  "state_slug": "kentucky",
+  "elevation": 2930,
+  "lat": 36.73931,
+  "lon": -83.18789,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Notch Rock Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.9,
+        "gain": 338,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            36.74422,
+            -83.1762
+          ],
+          "summit": [
+            36.73931,
+            -83.18789
+          ]
+        },
+        "path": [
+          [
+            36.74422,
+            -83.1762,
+            2536
+          ],
+          [
+            36.74418,
+            -83.17679,
+            2536
+          ],
+          [
+            36.74422,
+            -83.17729,
+            2536
+          ],
+          [
+            36.74421,
+            -83.17782,
+            2543
+          ],
+          [
+            36.74413,
+            -83.17835,
+            2451
+          ],
+          [
+            36.74405,
+            -83.17866,
+            2451
+          ],
+          [
+            36.74401,
+            -83.179,
+            2451
+          ],
+          [
+            36.74398,
+            -83.17959,
+            2444
+          ],
+          [
+            36.74401,
+            -83.18006,
+            2448
+          ],
+          [
+            36.74391,
+            -83.18076,
+            2448
+          ],
+          [
+            36.7439,
+            -83.18126,
+            2457
+          ],
+          [
+            36.744,
+            -83.18171,
+            2477
+          ],
+          [
+            36.74426,
+            -83.18214,
+            2464
+          ],
+          [
+            36.74456,
+            -83.18266,
+            2457
+          ],
+          [
+            36.74457,
+            -83.18325,
+            2457
+          ],
+          [
+            36.74458,
+            -83.18375,
+            2461
+          ],
+          [
+            36.7446,
+            -83.18422,
+            2461
+          ],
+          [
+            36.74467,
+            -83.18464,
+            2461
+          ],
+          [
+            36.74463,
+            -83.185,
+            2461
+          ],
+          [
+            36.7445,
+            -83.18585,
+            2438
+          ],
+          [
+            36.74444,
+            -83.18627,
+            2438
+          ],
+          [
+            36.74429,
+            -83.18652,
+            2438
+          ],
+          [
+            36.74416,
+            -83.187,
+            2438
+          ],
+          [
+            36.744,
+            -83.18782,
+            2349
+          ],
+          [
+            36.74392,
+            -83.18843,
+            2326
+          ],
+          [
+            36.74391,
+            -83.18888,
+            2326
+          ],
+          [
+            36.74399,
+            -83.18955,
+            2303
+          ],
+          [
+            36.74403,
+            -83.18996,
+            2303
+          ],
+          [
+            36.74397,
+            -83.19052,
+            2270
+          ],
+          [
+            36.744,
+            -83.19094,
+            2234
+          ],
+          [
+            36.74403,
+            -83.1913,
+            2234
+          ],
+          [
+            36.74404,
+            -83.19158,
+            2234
+          ],
+          [
+            36.74404,
+            -83.19169,
+            2205
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2536,
+            "coord": [
+              36.74422,
+              -83.1762
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 2536,
+            "coord": [
+              36.74422,
+              -83.17729
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 2451,
+            "coord": [
+              36.74413,
+              -83.17835
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 2444,
+            "coord": [
+              36.74398,
+              -83.17959
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 2448,
+            "coord": [
+              36.74391,
+              -83.18076
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 2477,
+            "coord": [
+              36.744,
+              -83.18171
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 2457,
+            "coord": [
+              36.74456,
+              -83.18266
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 2461,
+            "coord": [
+              36.74458,
+              -83.18375
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 2461,
+            "coord": [
+              36.74463,
+              -83.185
+            ]
+          },
+          {
+            "mile": 0.57,
+            "elev": 2438,
+            "coord": [
+              36.74444,
+              -83.18627
+            ]
+          },
+          {
+            "mile": 0.63,
+            "elev": 2438,
+            "coord": [
+              36.74416,
+              -83.187
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 2326,
+            "coord": [
+              36.74392,
+              -83.18843
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 2303,
+            "coord": [
+              36.74399,
+              -83.18955
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 2270,
+            "coord": [
+              36.74397,
+              -83.19052
+            ]
+          },
+          {
+            "mile": 0.88,
+            "elev": 2205,
+            "coord": [
+              36.74404,
+              -83.19169
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Notch Rock</strong> rises to 2,930 feet in Kentucky. The Notch Rock Trail is a 0.9-mile hike with about 338 feet of elevation gain. Nearby peaks include Yellow Rock, Sugarcamp Knob and Kitts Knob. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Yellow Rock",
+      "slug": "yellow-rock-ky",
+      "state_slug": "kentucky",
+      "elevation": 2815,
+      "distance_miles": 1.9
+    },
+    {
+      "name": "Sugarcamp Knob",
+      "slug": "sugarcamp-knob-ky",
+      "state_slug": "kentucky",
+      "elevation": 2680,
+      "distance_miles": 3.2
+    },
+    {
+      "name": "Kitts Knob",
+      "slug": "kitts-knob-ky",
+      "state_slug": "kentucky",
+      "elevation": 3146,
+      "distance_miles": 5.6
+    },
+    {
+      "name": "Grays Knob",
+      "slug": "grays-knob-ky",
+      "state_slug": "kentucky",
+      "elevation": 3192,
+      "distance_miles": 6.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Notch Rock Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Notch Rock hike with current conditions, trail map & parking info. Kentucky summit at 2,930 ft.",
+    "canonical_url": "/trails/kentucky/notch-rock-ky",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Notch Rock",
+      "description": "Notch Rock is a 2,930 foot peak in Kentucky offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.73931,
+        "longitude": -83.18789,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2930,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kentucky",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Notch Rock Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.74422,
+            "longitude": -83.1762
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Notch Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Notch Rock Trail on Notch Rock is 0.9-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Notch Rock hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notch Rock is rated Moderate. At 2,930 feet, plan for the terrain and weather typical of Kentucky peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Notch Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Notch Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Notch Rock Trail, a 0.9-mile moderate hike to the Notch Rock summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Notch Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Notch Rock. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356583740",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/356583740",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 356583740,
+    "prominence_m": null,
+    "wikidata": "Q49057667"
+  }
+}

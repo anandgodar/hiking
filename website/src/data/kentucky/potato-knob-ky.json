@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Potato Knob",
+  "slug": "potato-knob-ky",
+  "state": "Kentucky",
+  "state_slug": "kentucky",
+  "elevation": 3087,
+  "lat": 36.77036,
+  "lon": -83.36157,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Potato Knob Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            36.77036,
+            -83.36157
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Potato Knob</strong> is a 3,087-foot summit in Kentucky. Nearby peaks include Fox Knob, Grays Knob and Happy Top. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Fox Knob",
+      "slug": "fox-knob-ky",
+      "state_slug": "kentucky",
+      "elevation": 3271,
+      "distance_miles": 2.2
+    },
+    {
+      "name": "Grays Knob",
+      "slug": "grays-knob-ky",
+      "state_slug": "kentucky",
+      "elevation": 3192,
+      "distance_miles": 4.1
+    },
+    {
+      "name": "Happy Top",
+      "slug": "happy-top-ky",
+      "state_slug": "kentucky",
+      "elevation": 1631,
+      "distance_miles": 5.2
+    },
+    {
+      "name": "Butterfly Knob",
+      "slug": "butterfly-knob-ky",
+      "state_slug": "kentucky",
+      "elevation": 2920,
+      "distance_miles": 5.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Potato Knob Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Potato Knob hike with current conditions, trail map & parking info. Kentucky summit at 3,087 ft.",
+    "canonical_url": "/trails/kentucky/potato-knob-ky",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Potato Knob",
+      "description": "Potato Knob is a 3,087 foot peak in Kentucky offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 36.77036,
+        "longitude": -83.36157,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3087,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Kentucky",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Potato Knob Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Potato Knob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Potato Knob Trail on Potato Knob is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Potato Knob hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Potato Knob is rated Moderate. At 3,087 feet, plan for the terrain and weather typical of Kentucky peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Potato Knob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Potato Knob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Potato Knob Trail, a  moderate hike to the Potato Knob summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Potato Knob?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Potato Knob. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358604029",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358604029",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358604029,
+    "prominence_m": null,
+    "wikidata": "Q49063776"
+  }
+}
