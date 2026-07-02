@@ -1,0 +1,497 @@
+{
+  "name": "Steamboat Rock",
+  "slug": "steamboat-rock-ia",
+  "state": "Iowa",
+  "state_slug": "iowa",
+  "elevation": 1148,
+  "lat": 43.34108,
+  "lon": -92.10878,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Steamboat Rock Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 2.1,
+        "gain": 115,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          43.36692,
+          -92.1165
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            43.36601,
+            -92.12323
+          ],
+          "summit": [
+            43.34108,
+            -92.10878
+          ]
+        },
+        "path": [
+          [
+            43.36601,
+            -92.12323,
+            1280
+          ],
+          [
+            43.36403,
+            -92.12321,
+            1270
+          ],
+          [
+            43.36385,
+            -92.12344,
+            1266
+          ],
+          [
+            43.36385,
+            -92.12515,
+            1273
+          ],
+          [
+            43.36243,
+            -92.12515,
+            1263
+          ],
+          [
+            43.3602,
+            -92.1251,
+            1257
+          ],
+          [
+            43.35667,
+            -92.12505,
+            1273
+          ],
+          [
+            43.35646,
+            -92.12506,
+            1266
+          ],
+          [
+            43.35642,
+            -92.1298,
+            1250
+          ],
+          [
+            43.35633,
+            -92.12996,
+            1250
+          ],
+          [
+            43.35454,
+            -92.12987,
+            1263
+          ],
+          [
+            43.35359,
+            -92.12983,
+            1257
+          ],
+          [
+            43.35296,
+            -92.13,
+            1247
+          ],
+          [
+            43.35249,
+            -92.12992,
+            1257
+          ],
+          [
+            43.35037,
+            -92.12996,
+            1253
+          ],
+          [
+            43.34931,
+            -92.13002,
+            1247
+          ],
+          [
+            43.34867,
+            -92.12999,
+            1260
+          ],
+          [
+            43.34809,
+            -92.1301,
+            1253
+          ],
+          [
+            43.34753,
+            -92.13033,
+            1253
+          ],
+          [
+            43.34705,
+            -92.1304,
+            1243
+          ],
+          [
+            43.34682,
+            -92.13057,
+            1243
+          ],
+          [
+            43.34629,
+            -92.13085,
+            1201
+          ],
+          [
+            43.34614,
+            -92.13099,
+            1201
+          ],
+          [
+            43.34618,
+            -92.13167,
+            1201
+          ],
+          [
+            43.34635,
+            -92.13221,
+            1188
+          ],
+          [
+            43.34672,
+            -92.13295,
+            1220
+          ],
+          [
+            43.34726,
+            -92.13364,
+            1214
+          ],
+          [
+            43.34746,
+            -92.13383,
+            1214
+          ],
+          [
+            43.34758,
+            -92.13405,
+            1220
+          ],
+          [
+            43.34756,
+            -92.13441,
+            1191
+          ],
+          [
+            43.34747,
+            -92.13473,
+            1188
+          ],
+          [
+            43.34736,
+            -92.13515,
+            1168
+          ],
+          [
+            43.34737,
+            -92.13562,
+            1168
+          ],
+          [
+            43.34745,
+            -92.13625,
+            1165
+          ],
+          [
+            43.34756,
+            -92.13664,
+            1175
+          ],
+          [
+            43.34794,
+            -92.13691,
+            1168
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1280,
+            "coord": [
+              43.36601,
+              -92.12323
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 1266,
+            "coord": [
+              43.36385,
+              -92.12344
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 1263,
+            "coord": [
+              43.36243,
+              -92.12515
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 1257,
+            "coord": [
+              43.3602,
+              -92.1251
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 1257,
+            "coord": [
+              43.3602,
+              -92.1251
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 1273,
+            "coord": [
+              43.35667,
+              -92.12505
+            ]
+          },
+          {
+            "mile": 0.89,
+            "elev": 1250,
+            "coord": [
+              43.35642,
+              -92.1298
+            ]
+          },
+          {
+            "mile": 1.03,
+            "elev": 1250,
+            "coord": [
+              43.35633,
+              -92.12996
+            ]
+          },
+          {
+            "mile": 1.18,
+            "elev": 1257,
+            "coord": [
+              43.35359,
+              -92.12983
+            ]
+          },
+          {
+            "mile": 1.33,
+            "elev": 1257,
+            "coord": [
+              43.35249,
+              -92.12992
+            ]
+          },
+          {
+            "mile": 1.48,
+            "elev": 1247,
+            "coord": [
+              43.34931,
+              -92.13002
+            ]
+          },
+          {
+            "mile": 1.62,
+            "elev": 1253,
+            "coord": [
+              43.34753,
+              -92.13033
+            ]
+          },
+          {
+            "mile": 1.77,
+            "elev": 1188,
+            "coord": [
+              43.34635,
+              -92.13221
+            ]
+          },
+          {
+            "mile": 1.92,
+            "elev": 1191,
+            "coord": [
+              43.34756,
+              -92.13441
+            ]
+          },
+          {
+            "mile": 2.07,
+            "elev": 1168,
+            "coord": [
+              43.34794,
+              -92.13691
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "picnic shelter",
+          "type": "hut",
+          "lat": 43.34672,
+          "lon": -92.13923,
+          "mile": 2.04
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Steamboat Rock</strong> is a 1,148-foot summit in Iowa. The Steamboat Rock Trail is a 2.1-mile hike with about 115 feet of elevation gain. Nearby peaks include Corn Hill, Mount Hosmer and Fort Sumter Rock. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Corn Hill",
+      "slug": "corn-hill-ia",
+      "state_slug": "iowa",
+      "elevation": 1194,
+      "distance_miles": 41.5
+    },
+    {
+      "name": "Mount Hosmer",
+      "slug": "mount-hosmer-ia",
+      "state_slug": "iowa",
+      "elevation": 1050,
+      "distance_miles": 44.6
+    },
+    {
+      "name": "Fort Sumter Rock",
+      "slug": "fort-sumter-rock-ia",
+      "state_slug": "iowa",
+      "elevation": 1004,
+      "distance_miles": 58.1
+    },
+    {
+      "name": "Pilot Knob",
+      "slug": "pilot-knob-ia",
+      "state_slug": "iowa",
+      "elevation": 1453,
+      "distance_miles": 72.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Steamboat Rock Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Steamboat Rock hike with current conditions, trail map & parking info. Iowa summit at 1,148 ft.",
+    "canonical_url": "/trails/iowa/steamboat-rock-ia",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Steamboat Rock",
+      "description": "Steamboat Rock is a 1,148 foot peak in Iowa offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.34108,
+        "longitude": -92.10878,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1148,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Iowa",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Steamboat Rock Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 43.36601,
+            "longitude": -92.12323
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Steamboat Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Steamboat Rock Trail on Steamboat Rock is 2.1-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Steamboat Rock hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Steamboat Rock is rated Moderate. At 1,148 feet, plan for the terrain and weather typical of Iowa peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Steamboat Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Steamboat Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Steamboat Rock Trail, a 2.1-mile moderate hike to the Steamboat Rock summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Steamboat Rock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Steamboat Rock. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/354321113",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/354321113",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 354321113,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}
