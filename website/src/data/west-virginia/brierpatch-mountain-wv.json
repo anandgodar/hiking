@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Brierpatch Mountain",
+  "slug": "brierpatch-mountain-wv",
+  "state": "West Virginia",
+  "state_slug": "west-virginia",
+  "elevation": 4423,
+  "lat": 38.89178,
+  "lon": -79.51977,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Brierpatch Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            38.89178,
+            -79.51977
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Brierpatch Mountain</strong> is a 4,423-foot summit in West Virginia. Nearby peaks include High Mountain, Mount Porte Crayon and Cabin Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "High Mountain",
+      "slug": "high-mountain-wv",
+      "state_slug": "west-virginia",
+      "elevation": 4222,
+      "distance_miles": 3.0
+    },
+    {
+      "name": "Mount Porte Crayon",
+      "slug": "mount-porte-crayon-wv",
+      "state_slug": "west-virginia",
+      "elevation": 4764,
+      "distance_miles": 4.3
+    },
+    {
+      "name": "Cabin Mountain",
+      "slug": "cabin-mountain-wv",
+      "state_slug": "west-virginia",
+      "elevation": 4367,
+      "distance_miles": 9.5
+    },
+    {
+      "name": "Canaan Mountain",
+      "slug": "canaan-mountain-wv",
+      "state_slug": "west-virginia",
+      "elevation": 4150,
+      "distance_miles": 9.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Brierpatch Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Brierpatch Mountain hike with current conditions, trail map & parking info. West Virginia summit at 4,423 ft.",
+    "canonical_url": "/trails/west-virginia/brierpatch-mountain-wv",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Brierpatch Mountain",
+      "description": "Brierpatch Mountain is a 4,423 foot peak in West Virginia offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.89178,
+        "longitude": -79.51977,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4423,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "West Virginia",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Brierpatch Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Brierpatch Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Brierpatch Mountain Trail on Brierpatch Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Brierpatch Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brierpatch Mountain is rated Moderate. At 4,423 feet, plan for the terrain and weather typical of West Virginia peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Brierpatch Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Brierpatch Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Brierpatch Mountain Trail, a  moderate hike to the Brierpatch Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Brierpatch Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Brierpatch Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356523307",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356523307",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356523307,
+    "prominence_m": null,
+    "wikidata": "Q31512164"
+  }
+}
