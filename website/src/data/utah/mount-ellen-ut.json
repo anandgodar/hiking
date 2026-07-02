@@ -32,7 +32,7 @@
       "geo": {
         "markers": {
           "start": [
-            38.08572,
+            38.08584,
             -110.8024
           ],
           "summit": [
@@ -440,7 +440,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mount Ellen",
+          "type": "summit",
+          "lat": 38.10894,
+          "lon": -110.81359,
+          "mile": 1.87
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 11,522 feet, <strong>Mount Ellen</strong> is a summit in Utah. It has roughly 5,846 feet of topographic prominence. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -544,7 +552,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/8303340546",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 8303340546,

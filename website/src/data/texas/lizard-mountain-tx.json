@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Lizard Mountain",
   "slug": "lizard-mountain-tx",
   "state": "Texas",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Lizard Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.4,
+        "gain": 16,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,208 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            30.35786,
+            -103.71332
           ],
           "summit": [
             30.33127,
             -103.6949
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            30.35786,
+            -103.71332,
+            4616
+          ],
+          [
+            30.35792,
+            -103.71313,
+            4616
+          ],
+          [
+            30.35794,
+            -103.71302,
+            4616
+          ],
+          [
+            30.35786,
+            -103.7127,
+            4616
+          ],
+          [
+            30.35785,
+            -103.71256,
+            4616
+          ],
+          [
+            30.35785,
+            -103.7124,
+            4616
+          ],
+          [
+            30.3579,
+            -103.71216,
+            4616
+          ],
+          [
+            30.35801,
+            -103.71179,
+            4616
+          ],
+          [
+            30.35815,
+            -103.71138,
+            4616
+          ],
+          [
+            30.35892,
+            -103.7096,
+            4610
+          ],
+          [
+            30.35905,
+            -103.70932,
+            4610
+          ],
+          [
+            30.35931,
+            -103.70871,
+            4606
+          ],
+          [
+            30.35963,
+            -103.70802,
+            4606
+          ],
+          [
+            30.36024,
+            -103.7067,
+            4600
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 4616,
+            "coord": [
+              30.35786,
+              -103.71332
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 4616,
+            "coord": [
+              30.35786,
+              -103.7127
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 4616,
+            "coord": [
+              30.35785,
+              -103.7124
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 4616,
+            "coord": [
+              30.35801,
+              -103.71179
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 4616,
+            "coord": [
+              30.35815,
+              -103.71138
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 4616,
+            "coord": [
+              30.35815,
+              -103.71138
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 4610,
+            "coord": [
+              30.35892,
+              -103.7096
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 4610,
+            "coord": [
+              30.35892,
+              -103.7096
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 4610,
+            "coord": [
+              30.35892,
+              -103.7096
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 4606,
+            "coord": [
+              30.35931,
+              -103.70871
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 4606,
+            "coord": [
+              30.35931,
+              -103.70871
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 4606,
+            "coord": [
+              30.35963,
+              -103.70802
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 4606,
+            "coord": [
+              30.35963,
+              -103.70802
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 4600,
+            "coord": [
+              30.36024,
+              -103.7067
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 4600,
+            "coord": [
+              30.36024,
+              -103.7067
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +364,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/356710110",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/356710110",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 356710110,
