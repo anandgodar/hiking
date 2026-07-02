@@ -25,13 +25,13 @@
         "time": 6,
         "difficulty": "Strenuous"
       },
-      "parking_info": "Yosemite Falls Trailhead, Yosemite Valley. Limited parking.",
+      "parking_info": "Sentinel Bridge Parking & Lookout",
       "parking_details": {
         "fee": "$35 park entrance",
         "location": "Yosemite Falls parking",
         "coords": [
-          37.7456,
-          -119.5965
+          37.7442,
+          -119.58973
         ]
       },
       "tags": [
@@ -42,8 +42,8 @@
       "geo": {
         "markers": {
           "start": [
-            37.7456,
-            -119.5965
+            37.74272,
+            -119.60319
           ],
           "summit": [
             37.7567,
@@ -632,18 +632,67 @@
       },
       "features": [
         {
-          "name": "Columbia Rock",
+          "name": "Lower Yosemite Fall View",
           "type": "viewpoint",
-          "lat": 37.749,
-          "lon": -119.5975,
-          "mile": 1.0
+          "lat": 37.7458,
+          "lon": -119.59625,
+          "mile": 0.01
         },
         {
-          "name": "Upper Yosemite Fall Overlook",
+          "name": "Falls View",
           "type": "viewpoint",
-          "lat": 37.7567,
-          "lon": -119.5967,
-          "mile": 3.6
+          "lat": 37.7472,
+          "lon": -119.59391,
+          "mile": 0.07
+        },
+        {
+          "name": "Galen Clark Memorial Bench",
+          "type": "rest area",
+          "lat": 37.74714,
+          "lon": -119.59388,
+          "mile": 0.07
+        },
+        {
+          "name": "Oh My Gosh Point",
+          "type": "viewpoint",
+          "lat": 37.75058,
+          "lon": -119.59829,
+          "mile": 0.35
+        },
+        {
+          "name": "Lower Yosemite Fall",
+          "type": "waterfall",
+          "lat": 37.75144,
+          "lon": -119.59714,
+          "mile": 0.4
+        },
+        {
+          "name": "Middle Cascades",
+          "type": "waterfall",
+          "lat": 37.75429,
+          "lon": -119.59727,
+          "mile": 0.63
+        },
+        {
+          "name": "Upper Yosemite Fall",
+          "type": "waterfall",
+          "lat": 37.75697,
+          "lon": -119.59677,
+          "mile": 0.8
+        },
+        {
+          "name": "Lost Arrow Spire",
+          "type": "summit",
+          "lat": 37.75648,
+          "lon": -119.5952,
+          "mile": 0.8
+        },
+        {
+          "name": "Yosemite Falls Overlook",
+          "type": "viewpoint",
+          "lat": 37.75702,
+          "lon": -119.59689,
+          "mile": 0.8
         }
       ]
     }
@@ -771,7 +820,8 @@
     "elevation_source": "USGS Topo - Yosemite",
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Total waterfall height (2,425 ft - tallest in North America) from USGS. Trail distance and elevation gain from NPS trail guides. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+    "notes": "Total waterfall height (2,425 ft - tallest in North America) from USGS. Trail distance and elevation gain from NPS trail guides. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "nearby_peaks": [
     {

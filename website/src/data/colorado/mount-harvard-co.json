@@ -412,11 +412,18 @@
       },
       "features": [
         {
+          "name": "Mount Columbia",
+          "type": "summit",
+          "lat": 38.90388,
+          "lon": -106.29752,
+          "mile": 0.0
+        },
+        {
           "name": "Mount Harvard",
           "type": "summit",
           "lat": 38.92442,
           "lon": -106.3208,
-          "mile": 1.46
+          "mile": 2.15
         }
       ]
     }

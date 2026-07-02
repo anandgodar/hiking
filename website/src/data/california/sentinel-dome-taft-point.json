@@ -42,8 +42,8 @@
       "geo": {
         "markers": {
           "start": [
-            37.7185,
-            -119.5868
+            37.71246,
+            -119.58658
           ],
           "summit": [
             37.7185,
@@ -794,6 +794,7 @@
     "elevation_source": "USGS Topo - Yosemite",
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Loop distance from Glacier Point trailhead per NPS signage. Elevations from USGS topo (Sentinel Dome 8,122 ft). GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+    "notes": "Loop distance from Glacier Point trailhead per NPS signage. Elevations from USGS topo (Sentinel Dome 8,122 ft). GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

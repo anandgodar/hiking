@@ -25,13 +25,13 @@
         "time": 0.5,
         "difficulty": "Easy"
       },
-      "parking_info": "Yosemite Falls parking or take shuttle. Very accessible.",
+      "parking_info": "Sentinel Bridge Parking & Lookout",
       "parking_details": {
         "fee": "$35 park entrance",
         "location": "Yosemite Falls parking",
         "coords": [
-          37.7456,
-          -119.5965
+          37.7442,
+          -119.58973
         ]
       },
       "tags": [
@@ -42,8 +42,8 @@
       "geo": {
         "markers": {
           "start": [
-            37.7456,
-            -119.5965
+            37.74272,
+            -119.60319
           ],
           "summit": [
             37.7447,
@@ -279,7 +279,30 @@
             ]
           }
         ]
-      }
+      },
+      "features": [
+        {
+          "name": "Falls View",
+          "type": "viewpoint",
+          "lat": 37.7472,
+          "lon": -119.59391,
+          "mile": 0.0
+        },
+        {
+          "name": "Galen Clark Memorial Bench",
+          "type": "rest area",
+          "lat": 37.74714,
+          "lon": -119.59388,
+          "mile": 0.0
+        },
+        {
+          "name": "Lower Yosemite Fall View",
+          "type": "viewpoint",
+          "lat": 37.7458,
+          "lon": -119.59625,
+          "mile": 0.0
+        }
+      ]
     }
   ],
   "generated_description": "<p>The Lower Yosemite Fall Loop is Yosemite's most accessible waterfall trail\u2014a fully paved, wheelchair-friendly 1-mile loop leading to the base of the iconic 2,425-foot Yosemite Falls. This is the perfect introduction to Yosemite's waterfalls for families, those with limited mobility, or anyone wanting a quick valley experience.</p><p>The trail loops through oak woodland to a viewing area at the base of Lower Yosemite Fall (the 320-foot lower section). In spring, prepare to get soaked from the powerful spray! In summer and fall, the falls may be barely a trickle or completely dry.</p>",
@@ -395,7 +418,8 @@
     "elevation_source": "USGS Topo - Yosemite",
     "gps_source": "Generated from start/summit markers (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Paved accessible loop trail confirmed via NPS accessibility documentation. Distance from official trail signage. GPS path generated from trail markers pending verified GPX import."
+    "notes": "Paved accessible loop trail confirmed via NPS accessibility documentation. Distance from official trail signage. GPS path generated from trail markers pending verified GPX import.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "nearby_peaks": [
     {

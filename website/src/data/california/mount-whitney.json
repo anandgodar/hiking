@@ -44,8 +44,8 @@
       "geo": {
         "markers": {
           "start": [
-            36.5858,
-            -118.2385
+            36.58688,
+            -118.24014
           ],
           "summit": [
             36.5786,
@@ -1684,39 +1684,25 @@
       },
       "features": [
         {
-          "name": "Lone Pine Lake",
-          "type": "lake",
-          "lat": 36.584,
-          "lon": -118.2465,
-          "mile": 2.8
+          "name": "Whitney Portal Picnic Area",
+          "type": "rest area",
+          "lat": 36.58615,
+          "lon": -118.24141,
+          "mile": 0.15
         },
         {
-          "name": "Outpost Camp",
-          "type": "campsite",
-          "lat": 36.5815,
-          "lon": -118.2545,
-          "mile": 3.5
-        },
-        {
-          "name": "Trail Camp",
-          "type": "campsite",
-          "lat": 36.579,
-          "lon": -118.268,
-          "mile": 6.3
-        },
-        {
-          "name": "Trail Crest",
-          "type": "viewpoint",
-          "lat": 36.5785,
-          "lon": -118.2885,
-          "mile": 8.5
-        },
-        {
-          "name": "Mount Whitney Summit",
+          "name": "Thor Peak",
           "type": "summit",
-          "lat": 36.5786,
-          "lon": -118.292,
-          "mile": 11.0
+          "lat": 36.57671,
+          "lon": -118.26558,
+          "mile": 1.59
+        },
+        {
+          "name": "Mount Whitney",
+          "type": "summit",
+          "lat": 36.57859,
+          "lon": -118.29214,
+          "mile": 3.04
         }
       ]
     }
@@ -1894,6 +1880,7 @@
     "gps_source": "USGS Topographic Map - Mount Whitney Quadrangle",
     "distance_source": "Inyo National Forest Mount Whitney Trail Guide",
     "permit_source": "Recreation.gov - Mount Whitney Day Use and Overnight Permits",
-    "notes": "Elevation (14,505 ft) from official USGS benchmark. Distance (22 miles round trip) from USFS trail guides. Permit lottery system verified via Recreation.gov. Trail conditions and regulations from Inyo National Forest website."
+    "notes": "Elevation (14,505 ft) from official USGS benchmark. Distance (22 miles round trip) from USFS trail guides. Permit lottery system verified via Recreation.gov. Trail conditions and regulations from Inyo National Forest website.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

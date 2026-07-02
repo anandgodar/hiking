@@ -43,8 +43,8 @@
       "geo": {
         "markers": {
           "start": [
-            37.7293,
-            -119.5743
+            37.72872,
+            -119.57337
           ],
           "summit": [
             37.7318,
@@ -1058,25 +1058,60 @@
       },
       "features": [
         {
-          "name": "Illilouette Fall",
-          "type": "waterfall",
-          "lat": 37.727,
-          "lon": -119.561,
-          "mile": 2.5
-        },
-        {
-          "name": "Panorama Point",
+          "name": "Glacier Point",
           "type": "viewpoint",
-          "lat": 37.728,
-          "lon": -119.55,
-          "mile": 4.0
+          "lat": 37.73067,
+          "lon": -119.57367,
+          "mile": 0.02
         },
         {
-          "name": "Nevada Fall",
+          "name": "Sierra Point",
+          "type": "viewpoint",
+          "lat": 37.72715,
+          "lon": -119.55544,
+          "mile": 1.04
+        },
+        {
+          "name": "Lady Franklin Rock",
+          "type": "boulder",
+          "lat": 37.72654,
+          "lon": -119.54736,
+          "mile": 1.48
+        },
+        {
+          "name": "Vernal Fall",
           "type": "waterfall",
-          "lat": 37.7305,
-          "lon": -119.5335,
-          "mile": 5.5
+          "lat": 37.72755,
+          "lon": -119.54375,
+          "mile": 1.67
+        },
+        {
+          "name": "Silver Apron",
+          "type": "waterfall",
+          "lat": 37.7269,
+          "lon": -119.54089,
+          "mile": 1.8
+        },
+        {
+          "name": "Liberty Cap",
+          "type": "summit",
+          "lat": 37.72877,
+          "lon": -119.5325,
+          "mile": 2.27
+        },
+        {
+          "name": "Mount Broderick",
+          "type": "summit",
+          "lat": 37.73326,
+          "lon": -119.53524,
+          "mile": 2.39
+        },
+        {
+          "name": "Grizzly Peak",
+          "type": "summit",
+          "lat": 37.73001,
+          "lon": -119.55064,
+          "mile": 3.21
         }
       ]
     }
@@ -1200,7 +1235,8 @@
     "elevation_source": "USGS Topo - Yosemite",
     "gps_source": "NPS Official Yosemite Map",
     "distance_source": "NPS trail signage and official website",
-    "notes": "One-way distance from Glacier Point to Happy Isles verified via NPS trail guides. Shuttle info from NPS transportation page."
+    "notes": "One-way distance from Glacier Point to Happy Isles verified via NPS trail guides. Shuttle info from NPS transportation page.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "nearby_peaks": [
     {

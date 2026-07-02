@@ -782,18 +782,46 @@
       },
       "features": [
         {
-          "name": "Lower Cathedral Lake",
-          "type": "lake",
-          "lat": 37.8347,
-          "lon": -119.3992,
-          "mile": 3.7
+          "name": "Echo Peak #8",
+          "type": "summit",
+          "lat": 37.83367,
+          "lon": -119.40011,
+          "mile": 0.74
         },
         {
-          "name": "Upper Cathedral Lake",
-          "type": "lake",
-          "lat": 37.8372,
-          "lon": -119.3925,
-          "mile": 4.0
+          "name": "Echo Peak #9",
+          "type": "summit",
+          "lat": 37.83337,
+          "lon": -119.40029,
+          "mile": 0.74
+        },
+        {
+          "name": "Echo Peak #7",
+          "type": "summit",
+          "lat": 37.83368,
+          "lon": -119.40135,
+          "mile": 0.74
+        },
+        {
+          "name": "Echo Peak #6",
+          "type": "summit",
+          "lat": 37.83306,
+          "lon": -119.40202,
+          "mile": 0.74
+        },
+        {
+          "name": "Echo Peak #0",
+          "type": "summit",
+          "lat": 37.83369,
+          "lon": -119.40253,
+          "mile": 0.74
+        },
+        {
+          "name": "Echo Peak #5",
+          "type": "summit",
+          "lat": 37.8339,
+          "lon": -119.40207,
+          "mile": 0.74
         }
       ]
     }
@@ -939,6 +967,7 @@
     "elevation_source": "USGS Topo - Yosemite",
     "gps_source": "NPS Official Yosemite Map",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Distance and trail info from NPS Tuolumne Meadows trail guides. GPS coordinates verified with USGS topographic maps."
+    "notes": "Distance and trail info from NPS Tuolumne Meadows trail guides. GPS coordinates verified with USGS topographic maps.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

@@ -42,8 +42,8 @@
       "geo": {
         "markers": {
           "start": [
-            37.7385,
-            -119.5575
+            37.73978,
+            -119.55985
           ],
           "summit": [
             37.7385,
@@ -629,7 +629,23 @@
             ]
           }
         ]
-      }
+      },
+      "features": [
+        {
+          "name": "Iron Spring",
+          "type": "spring",
+          "lat": 37.74376,
+          "lon": -119.55391,
+          "mile": 0.45
+        },
+        {
+          "name": "Indian Cave",
+          "type": "cave",
+          "lat": 37.74413,
+          "lon": -119.55932,
+          "mile": 0.65
+        }
+      ]
     }
   ],
   "generated_description": "<p>Mirror Lake is one of Yosemite's most peaceful and accessible hikes, offering stunning reflections of Half Dome and surrounding cliffs in its calm waters. This easy 5-mile loop follows Tenaya Creek through a tranquil forest setting, perfect for families, casual hikers, and those seeking a gentler Yosemite experience.</p><p><strong>Note:</strong> Mirror Lake is actually a seasonal pool that dries up to a meadow by late summer. For the best reflections, visit in spring (April-June) when water levels are highest and the 'lake' truly mirrors Half Dome's granite face.</p>",
@@ -750,7 +766,8 @@
     "elevation_source": "USGS Topo - Yosemite",
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Trail distance from NPS Valley Loop trail guides. Seasonal water levels noted per NPS descriptions. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+    "notes": "Trail distance from NPS Valley Loop trail guides. Seasonal water levels noted per NPS descriptions. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "nearby_peaks": [
     {

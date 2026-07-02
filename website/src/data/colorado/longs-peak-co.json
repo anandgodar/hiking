@@ -32,8 +32,8 @@
       "geo": {
         "markers": {
           "start": [
-            40.2997,
-            -105.6397
+            40.31034,
+            -105.64037
           ],
           "summit": [
             40.25489,
@@ -770,7 +770,22 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Glacier Knobs (East)",
+          "type": "summit",
+          "lat": 40.29895,
+          "lon": -105.64295,
+          "mile": 0.0
+        },
+        {
+          "name": "Battle Mountain",
+          "type": "summit",
+          "lat": 40.27816,
+          "lon": -105.59871,
+          "mile": 4.52
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 14,259 feet, <strong>Longs Peak</strong> is a summit in Colorado. The Longs Peak Trail is a 2.7-mile hike with about 1,840 feet of elevation gain. Nearby peaks include Torreys Peak, Grays Peak and Mount Blue Sky. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -903,7 +918,8 @@
     "gps_source": "National Park Service Public Trails (public domain)",
     "osm_node": "https://www.openstreetmap.org/node/358945272",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 358945272,

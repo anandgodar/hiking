@@ -32,8 +32,8 @@
       "geo": {
         "markers": {
           "start": [
-            39.6009,
-            -105.64665
+            39.59883,
+            -105.63834
           ],
           "summit": [
             39.58835,
@@ -772,11 +772,18 @@
       },
       "features": [
         {
+          "name": "Mount Spalding",
+          "type": "summit",
+          "lat": 39.59958,
+          "lon": -105.65644,
+          "mile": 0.63
+        },
+        {
           "name": "Mount Blue Sky",
           "type": "summit",
           "lat": 39.58835,
           "lon": -105.6437,
-          "mile": 0.31
+          "mile": 1.98
         }
       ]
     }
