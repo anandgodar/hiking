@@ -13,6 +13,7 @@ import MountainCard from '../components/MountainCard.astro';
 import GlobalSearch from '../components/GlobalSearch.astro';
 import HomepageFAQ from '../components/HomepageFAQ.astro';
 import { isPublishReady } from '../lib/publishReady.js';
+import cities from '../data-static/cities.json';
 
 // Load all mountains (route-complete only — drafts/stubs are hidden)
 const allFiles = import.meta.glob('../data/*/*.json', { eager: true });
@@ -98,6 +99,33 @@ const getIconSvg = (iconName) => {
 
 // States with trails for filter
 const activeStates = states.filter(s => s.count > 0);
+
+// City landing pages (near/[city]) — same ≥5-trails-within-100mi rule as the
+// page generator, so every chip links to a page that exists.
+const havMi = (aLat, aLon, bLat, bLon) => {
+  const R = 3959;
+  const dLat = (bLat - aLat) * Math.PI / 180;
+  const dLon = (bLon - aLon) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) ** 2 +
+    Math.cos(aLat * Math.PI / 180) * Math.cos(bLat * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+};
+const HAND_MADE_CITIES = [
+  { slug: 'boston', name: 'Boston', lat: 42.3601, lon: -71.0589 },
+  { slug: 'new-york-city', name: 'New York City', lat: 40.7128, lon: -74.006 },
+  { slug: 'san-francisco', name: 'San Francisco', lat: 37.7749, lon: -122.4194 },
+  { slug: 'los-angeles', name: 'Los Angeles', lat: 34.0522, lon: -118.2437 },
+  { slug: 'portland-maine', name: 'Portland, ME', lat: 43.6591, lon: -70.2568 },
+  { slug: 'burlington-vermont', name: 'Burlington, VT', lat: 44.4759, lon: -73.2121 },
+];
+const cityLinks = [...HAND_MADE_CITIES, ...cities]
+  .map(c => ({
+    ...c,
+    count: allMountains.filter(m => m.lat && m.lon &&
+      havMi(c.lat, c.lon, m.lat, m.lon) <= 100).length,
+  }))
+  .filter(c => c.count >= 5)
+  .sort((a, b) => b.count - a.count);
 ---
 
 <Layout
@@ -238,6 +266,35 @@ const activeStates = states.filter(s => s.count > 0);
       </div>
     </div>
   </section>
+
+  <!-- FIND HIKES NEAR YOU — city landing pages -->
+  {cityLinks.length > 0 && (
+    <section class="py-16 bg-white border-y border-stone-200">
+      <div class="max-w-6xl mx-auto px-4">
+        <p class="text-emerald-700 text-sm font-bold uppercase tracking-[0.2em] mb-2 text-center">
+          Local Trails
+        </p>
+        <h2 class="font-serif text-3xl md:text-4xl font-black text-stone-900 text-center mb-3">
+          Find Hikes Near You
+        </h2>
+        <p class="text-stone-500 text-center mb-10 max-w-xl mx-auto">
+          Distance-sorted trail guides within 100 miles of {cityLinks.length} cities.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3">
+          {cityLinks.map(c => (
+            <a href={`/near/${c.slug}`}
+               class="group flex items-center gap-2 px-4 py-2.5 bg-stone-50 border border-stone-200 rounded-full text-stone-800 text-sm font-semibold hover:border-emerald-500 hover:bg-emerald-50 hover:text-emerald-800 transition-all">
+              <svg class="w-4 h-4 text-stone-400 group-hover:text-emerald-600" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              {c.name}
+              <span class="text-xs font-bold text-emerald-700 bg-emerald-100 rounded-full px-2 py-0.5">{c.count}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- COMING SOON STATES -->
   <section class="bg-gradient-to-br from-emerald-600 to-emerald-800 py-16">
