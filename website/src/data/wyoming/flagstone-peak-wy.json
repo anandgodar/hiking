@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Flagstone Peak",
+  "slug": "flagstone-peak-wy",
+  "state": "Wyoming",
+  "state_slug": "wyoming",
+  "elevation": 13383,
+  "lat": 43.21523,
+  "lon": -109.67571,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Flagstone Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            43.21523,
+            -109.67571
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Flagstone Peak</strong> is a 13,383-foot summit in Wyoming. Nearby peaks include Pedestal Peak, Bastion Peak and Desolation Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pedestal Peak",
+      "slug": "pedestal-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13333,
+      "distance_miles": 0.4
+    },
+    {
+      "name": "Bastion Peak",
+      "slug": "bastion-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13461,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Desolation Peak",
+      "slug": "desolation-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13123,
+      "distance_miles": 1.0
+    },
+    {
+      "name": "Rampart Peak",
+      "slug": "rampart-peak-wy",
+      "state_slug": "wyoming",
+      "elevation": 13301,
+      "distance_miles": 1.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Flagstone Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Flagstone Peak hike with current conditions, trail map & parking info. Wyoming summit at 13,383 ft.",
+    "canonical_url": "/trails/wyoming/flagstone-peak-wy",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Flagstone Peak",
+      "description": "Flagstone Peak is a 13,383 foot peak in Wyoming offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.21523,
+        "longitude": -109.67571,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 13383,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Wyoming",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Flagstone Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Flagstone Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Flagstone Peak Trail on Flagstone Peak is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Flagstone Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flagstone Peak is rated Moderate. At 13,383 feet, plan for the terrain and weather typical of Wyoming peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Flagstone Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Flagstone Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Flagstone Peak Trail, a  moderate hike to the Flagstone Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Flagstone Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Flagstone Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356511227",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356511227",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356511227,
+    "prominence_m": null,
+    "wikidata": "Q13391553"
+  }
+}

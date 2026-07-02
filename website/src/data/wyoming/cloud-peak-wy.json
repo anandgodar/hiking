@@ -1,0 +1,157 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Cloud Peak",
+  "slug": "cloud-peak-wy",
+  "state": "Wyoming",
+  "state_slug": "wyoming",
+  "elevation": 13179,
+  "lat": 44.38219,
+  "lon": -107.17395,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Cloud Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            44.38219,
+            -107.17395
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 13,179 feet, <strong>Cloud Peak</strong> is a summit in Wyoming. It has roughly 7,077 feet of topographic prominence. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Cloud Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Cloud Peak hike with current conditions, trail map & parking info. Wyoming summit at 13,179 ft.",
+    "canonical_url": "/trails/wyoming/cloud-peak-wy",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Cloud Peak",
+      "description": "Cloud Peak is a 13,179 foot peak in Wyoming offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.38219,
+        "longitude": -107.17395,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 13179,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Wyoming",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Cloud Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Cloud Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Cloud Peak Trail on Cloud Peak is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cloud Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cloud Peak is rated Moderate. At 13,179 feet, plan for the terrain and weather typical of Wyoming peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Cloud Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Cloud Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Cloud Peak Trail, a  moderate hike to the Cloud Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Cloud Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Cloud Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356500275",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/356500275",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 356500275,
+    "prominence_m": "2157",
+    "wikidata": "Q5135676"
+  }
+}
