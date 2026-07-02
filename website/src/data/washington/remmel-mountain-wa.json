@@ -1,0 +1,288 @@
+{
+  "name": "Remmel Mountain",
+  "slug": "remmel-mountain-wa",
+  "state": "Washington",
+  "state_slug": "washington",
+  "elevation": 8648,
+  "lat": 48.9232,
+  "lon": -120.19676,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Remmel Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.3,
+        "gain": 79,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            48.95671,
+            -120.21432
+          ],
+          "summit": [
+            48.9232,
+            -120.19676
+          ]
+        },
+        "path": [
+          [
+            48.95671,
+            -120.21432,
+            6946
+          ],
+          [
+            48.95653,
+            -120.21401,
+            6900
+          ],
+          [
+            48.95642,
+            -120.21349,
+            6900
+          ],
+          [
+            48.95631,
+            -120.21289,
+            6890
+          ],
+          [
+            48.95614,
+            -120.21187,
+            6877
+          ],
+          [
+            48.95603,
+            -120.21161,
+            6867
+          ],
+          [
+            48.95569,
+            -120.2111,
+            6883
+          ],
+          [
+            48.9558,
+            -120.20921,
+            6883
+          ]
+        ],
+        "chart": [
+          {
+            "distance": 0.0,
+            "elevation": 6946
+          },
+          {
+            "distance": 0.02,
+            "elevation": 6900
+          },
+          {
+            "distance": 0.04,
+            "elevation": 6900
+          },
+          {
+            "distance": 0.05,
+            "elevation": 6900
+          },
+          {
+            "distance": 0.07,
+            "elevation": 6890
+          },
+          {
+            "distance": 0.09,
+            "elevation": 6890
+          },
+          {
+            "distance": 0.11,
+            "elevation": 6877
+          },
+          {
+            "distance": 0.13,
+            "elevation": 6877
+          },
+          {
+            "distance": 0.14,
+            "elevation": 6867
+          },
+          {
+            "distance": 0.16,
+            "elevation": 6883
+          },
+          {
+            "distance": 0.18,
+            "elevation": 6883
+          },
+          {
+            "distance": 0.2,
+            "elevation": 6883
+          },
+          {
+            "distance": 0.22,
+            "elevation": 6883
+          },
+          {
+            "distance": 0.23,
+            "elevation": 6883
+          },
+          {
+            "distance": 0.25,
+            "elevation": 6883
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Remmel Mountain</strong> rises to 8,648 feet in Washington. It has roughly 4,386 feet of topographic prominence. The Remmel Mountain Trail is a 0.3-mile hike with about 79 feet of elevation gain. Nearby peaks include Jack Mountain, Mother Lode and Mount Prophet. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Jack Mountain",
+      "slug": "jack-mountain-wa",
+      "state_slug": "washington",
+      "elevation": 9065,
+      "distance_miles": 36.1
+    },
+    {
+      "name": "Mother Lode",
+      "slug": "mother-lode-wa",
+      "state_slug": "washington",
+      "elevation": 25945,
+      "distance_miles": 38.2
+    },
+    {
+      "name": "Mount Prophet",
+      "slug": "mount-prophet-wa",
+      "state_slug": "washington",
+      "elevation": 7595,
+      "distance_miles": 44.2
+    },
+    {
+      "name": "Goode Mountain",
+      "slug": "goode-mountain-wa",
+      "state_slug": "washington",
+      "elevation": 9226,
+      "distance_miles": 44.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Remmel Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Remmel Mountain hike with current conditions, trail map & parking info. Washington summit at 8,648 ft.",
+    "canonical_url": "/trails/washington/remmel-mountain-wa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Remmel Mountain",
+      "description": "Remmel Mountain is a 8,648 foot peak in Washington offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.9232,
+        "longitude": -120.19676,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 8648,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Washington",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Remmel Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 48.95671,
+            "longitude": -120.21432
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Remmel Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Remmel Mountain Trail on Remmel Mountain is 0.3-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Remmel Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Remmel Mountain is rated Moderate. At 8,648 feet, plan for the terrain and weather typical of Washington peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Remmel Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Remmel Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Remmel Mountain Trail, a 0.3-mile moderate hike to the Remmel Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Remmel Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Remmel Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/356546257",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/356546257",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 356546257,
+    "prominence_m": "1337",
+    "wikidata": "Q49068205"
+  }
+}

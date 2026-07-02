@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Jack Mountain",
+  "slug": "jack-mountain-wa",
+  "state": "Washington",
+  "state_slug": "washington",
+  "elevation": 9065,
+  "lat": 48.77284,
+  "lon": -120.95624,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Jack Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            48.77284,
+            -120.95624
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Jack Mountain</strong> is a 9,065-foot summit in Washington. It has roughly 4,213 feet of topographic prominence. Nearby peaks include Mount Prophet, Mount Spickard and Buckner Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Prophet",
+      "slug": "mount-prophet-wa",
+      "state_slug": "washington",
+      "elevation": 7595,
+      "distance_miles": 10.8
+    },
+    {
+      "name": "Mount Spickard",
+      "slug": "mount-spickard-wa",
+      "state_slug": "washington",
+      "elevation": 8970,
+      "distance_miles": 18.8
+    },
+    {
+      "name": "Buckner Mountain",
+      "slug": "buckner-mountain-wa",
+      "state_slug": "washington",
+      "elevation": 9117,
+      "distance_miles": 19.3
+    },
+    {
+      "name": "Goode Mountain",
+      "slug": "goode-mountain-wa",
+      "state_slug": "washington",
+      "elevation": 9226,
+      "distance_miles": 20.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Jack Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Jack Mountain hike with current conditions, trail map & parking info. Washington summit at 9,065 ft.",
+    "canonical_url": "/trails/washington/jack-mountain-wa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Jack Mountain",
+      "description": "Jack Mountain is a 9,065 foot peak in Washington offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.77284,
+        "longitude": -120.95624,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 9065,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Washington",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Jack Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Jack Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Jack Mountain Trail on Jack Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Jack Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jack Mountain is rated Moderate. At 9,065 feet, plan for the terrain and weather typical of Washington peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Jack Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Jack Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Jack Mountain Trail, a  moderate hike to the Jack Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Jack Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Jack Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/4268449137",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/4268449137",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 4268449137,
+    "prominence_m": "1284",
+    "wikidata": "Q3157278"
+  }
+}

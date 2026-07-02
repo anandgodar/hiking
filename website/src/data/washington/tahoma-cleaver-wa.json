@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Tahoma Cleaver",
+  "slug": "tahoma-cleaver-wa",
+  "state": "Washington",
+  "state_slug": "washington",
+  "elevation": 11591,
+  "lat": 46.84282,
+  "lon": -121.78494,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Tahoma Cleaver Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            46.84282,
+            -121.78494
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 11,591 feet, <strong>Tahoma Cleaver</strong> is a summit in Washington. Nearby peaks include Columbia Crest, Liberty Cap and Little Tahoma. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Columbia Crest",
+      "slug": "columbia-crest-wa",
+      "state_slug": "washington",
+      "elevation": 14409,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Liberty Cap",
+      "slug": "liberty-cap-wa",
+      "state_slug": "washington",
+      "elevation": 14098,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Little Tahoma",
+      "slug": "little-tahoma-wa",
+      "state_slug": "washington",
+      "elevation": 11138,
+      "distance_miles": 3.5
+    },
+    {
+      "name": "Mount Daniel",
+      "slug": "mount-daniel-wa",
+      "state_slug": "washington",
+      "elevation": 7963,
+      "distance_miles": 57.4
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Tahoma Cleaver Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Tahoma Cleaver hike with current conditions, trail map & parking info. Washington summit at 11,591 ft.",
+    "canonical_url": "/trails/washington/tahoma-cleaver-wa",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Tahoma Cleaver",
+      "description": "Tahoma Cleaver is a 11,591 foot peak in Washington offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.84282,
+        "longitude": -121.78494,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 11591,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Washington",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Tahoma Cleaver Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Tahoma Cleaver?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Tahoma Cleaver Trail on Tahoma Cleaver is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Tahoma Cleaver hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tahoma Cleaver is rated Moderate. At 11,591 feet, plan for the terrain and weather typical of Washington peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Tahoma Cleaver?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Tahoma Cleaver?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Tahoma Cleaver Trail, a  moderate hike to the Tahoma Cleaver summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Tahoma Cleaver?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Tahoma Cleaver. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/5792688958",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/5792688958",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 5792688958,
+    "prominence_m": null,
+    "wikidata": "Q21551751"
+  }
+}
