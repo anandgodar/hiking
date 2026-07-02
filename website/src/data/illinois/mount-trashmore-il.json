@@ -6,7 +6,7 @@
   "elevation": 669,
   "lat": 42.02342,
   "lon": -87.70555,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Trashmore%2C%20Evanston%2C%20IL.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -364,5 +364,11 @@
     "id": 3402892371,
     "prominence_m": null,
     "wikidata": "Q6924180"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Trashmore%2C%20Evanston%2C%20IL.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Nick Number"
   }
 }

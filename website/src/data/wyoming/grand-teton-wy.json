@@ -6,7 +6,7 @@
   "elevation": 13776,
   "lat": 43.74104,
   "lon": -110.80244,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Teton%20in%20Winter-NPS.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -918,5 +918,11 @@
     "id": 356511260,
     "prominence_m": "1968",
     "wikidata": "Q2078034"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Grand%20Teton%20in%20Winter-NPS.jpg",
+    "license": "Public domain",
+    "artist": "NPS"
   }
 }

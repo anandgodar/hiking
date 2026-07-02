@@ -6,7 +6,7 @@
   "elevation": 11820,
   "lat": 44.03981,
   "lon": -114.58698,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Peak%2C%20White%20Cloud%20Mountains%2C%20Idaho.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -909,5 +909,11 @@
     "id": 10673656914,
     "prominence_m": null,
     "wikidata": "Q5050221"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Castle%20Peak%2C%20White%20Cloud%20Mountains%2C%20Idaho.JPG",
+    "license": "CC BY-SA 4.0",
+    "artist": "Leaflet"
   }
 }

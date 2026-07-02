@@ -6,7 +6,7 @@
   "elevation": 2300,
   "lat": 47.89742,
   "lon": -90.56034,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Eagle%20Mountain%2C%20Minnesota.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -918,5 +918,11 @@
     "id": 932376850,
     "prominence_m": null,
     "wikidata": "Q252204"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Eagle%20Mountain%2C%20Minnesota.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Skye Marthaler"
   }
 }

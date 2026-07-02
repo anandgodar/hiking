@@ -6,7 +6,7 @@
   "elevation": 2451,
   "lat": 42.05126,
   "lon": -73.482,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Frissell%2C%20MA%2C%20viewed%20from%20Brace%20Mountain%2C%20NY.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -939,5 +939,11 @@
     "id": 358269589,
     "prominence_m": null,
     "wikidata": "Q1950492"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Frissell%2C%20MA%2C%20viewed%20from%20Brace%20Mountain%2C%20NY.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Zeete"
   }
 }

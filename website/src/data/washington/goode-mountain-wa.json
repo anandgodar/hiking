@@ -6,7 +6,7 @@
   "elevation": 9226,
   "lat": 48.48309,
   "lon": -120.91117,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Neve%20Glacier%20North%20Cascades%20USGS.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -909,5 +909,11 @@
     "id": 356545059,
     "prominence_m": "1167",
     "wikidata": "Q3110709"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Neve%20Glacier%20North%20Cascades%20USGS.jpg",
+    "license": "Public domain",
+    "artist": "M. F. Meier"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 8648,
   "lat": 48.9232,
   "lon": -120.19676,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Remmel%20Mtn.%20from%20Apex%20Mtn.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -344,5 +344,11 @@
     "id": 356546257,
     "prominence_m": "1337",
     "wikidata": "Q49068205"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Remmel%20Mtn.%20from%20Apex%20Mtn.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Maurice King"
   }
 }

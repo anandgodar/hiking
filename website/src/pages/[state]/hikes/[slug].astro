@@ -113,6 +113,12 @@ const dashboardMountain = {
           fetchpriority="high"
         />
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+        {mountain.hero_credit && (
+          <a href={mountain.hero_credit.file} target="_blank" rel="noopener"
+             class="absolute bottom-2 right-3 text-[11px] text-white/60 hover:text-white/90 bg-black/30 rounded px-2 py-0.5 z-10">
+            {mountain.hero_credit.artist ? `© ${mountain.hero_credit.artist} · ` : ''}{mountain.hero_credit.license} · Wikimedia Commons
+          </a>
+        )}
       </div>
 
       <div class="relative h-full flex flex-col justify-end pb-12 px-4 md:px-8 max-w-7xl mx-auto">

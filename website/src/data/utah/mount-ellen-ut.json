@@ -6,7 +6,7 @@
   "elevation": 11522,
   "lat": 38.10894,
   "lon": -110.81359,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Ellen%20Ridge%2C%20Garfield%20County%2C%20Utah.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -550,5 +550,11 @@
     "id": 8303340546,
     "prominence_m": "1782",
     "wikidata": "Q8525257"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Ellen%20Ridge%2C%20Garfield%20County%2C%20Utah.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Bob Palin"
   }
 }

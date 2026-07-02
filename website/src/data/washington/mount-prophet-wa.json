@@ -6,7 +6,7 @@
   "elevation": 7595,
   "lat": 48.84874,
   "lon": -121.16263,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Prophet.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -909,5 +909,11 @@
     "id": 356546163,
     "prominence_m": "1231",
     "wikidata": "Q6923058"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Prophet.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ron Clausen"
   }
 }

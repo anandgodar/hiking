@@ -6,7 +6,7 @@
   "elevation": 12720,
   "lat": 38.43832,
   "lon": -109.22928,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Peale%20north%20face.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -902,5 +902,11 @@
     "id": 356679479,
     "prominence_m": "1877",
     "wikidata": "Q6922678"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Peale%20north%20face.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Suffusion of Yellow"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 11683,
   "lat": 43.90213,
   "lon": -114.4095,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Boulder%20Peaks%20Labelled.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -910,5 +910,11 @@
     "id": 358658476,
     "prominence_m": null,
     "wikidata": "Q7384412"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Boulder%20Peaks%20Labelled.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Fredlyfish4"
   }
 }

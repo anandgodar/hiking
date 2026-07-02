@@ -6,7 +6,7 @@
   "elevation": 2461,
   "lat": 34.74451,
   "lon": -98.532,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Scott%20%28Oklahoma%29.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -909,5 +909,11 @@
     "id": 357411691,
     "prominence_m": null,
     "wikidata": "Q6923527"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Scott%20%28Oklahoma%29.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Mnizlien"
   }
 }

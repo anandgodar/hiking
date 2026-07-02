@@ -6,7 +6,7 @@
   "elevation": 6686,
   "lat": 35.76496,
   "lon": -82.26512,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Mitchell.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -946,5 +946,11 @@
     "id": 357802737,
     "prominence_m": "1858",
     "wikidata": "Q615337"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Mitchell.jpg",
+    "license": "Public domain",
+    "artist": ""
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 10709,
   "lat": 32.70164,
   "lon": -109.87139,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/MountGraham.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -932,5 +932,11 @@
     "id": 359246042,
     "prominence_m": "1926",
     "wikidata": "Q1418537"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:MountGraham.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "No machine-readable author provided. GreatInca assumed (based on copyright claims)."
   }
 }

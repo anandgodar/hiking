@@ -6,7 +6,7 @@
   "elevation": 1342,
   "lat": 47.98321,
   "lon": -89.65949,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Josephine.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -918,5 +918,11 @@
     "id": 7674010331,
     "prominence_m": null,
     "wikidata": "Q6921525"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Josephine.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Subhrajit rc"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 11749,
   "lat": 40.39083,
   "lon": -111.64606,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Timpanogos%20at%20sunset.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -918,5 +918,11 @@
     "id": 5732548226,
     "prominence_m": "1606",
     "wikidata": "Q129705"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Timpanogos%20at%20sunset.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Eric Ward from Provo, UT, USA"
   }
 }

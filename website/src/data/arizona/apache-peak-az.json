@@ -6,7 +6,7 @@
   "elevation": 8301,
   "lat": 31.82481,
   "lon": -110.42896,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Apache%20Peak%20AZ.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -909,5 +909,11 @@
     "id": 359261551,
     "prominence_m": null,
     "wikidata": "Q22058621"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Apache%20Peak%20AZ.JPG",
+    "license": "CC BY 3.0",
+    "artist": "Pete Forsyth"
   }
 }

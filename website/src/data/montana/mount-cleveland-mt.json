@@ -6,7 +6,7 @@
   "elevation": 10466,
   "lat": 48.925,
   "lon": -113.84806,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Cleveland.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -881,5 +881,11 @@
     "id": 357925027,
     "prominence_m": "1590",
     "wikidata": "Q3321762"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Cleveland.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": ""
   }
 }

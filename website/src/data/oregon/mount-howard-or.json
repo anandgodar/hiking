@@ -6,7 +6,7 @@
   "elevation": 8241,
   "lat": 45.26052,
   "lon": -117.17905,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Howard%2C%20Oregon.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -909,5 +909,11 @@
     "id": 357320146,
     "prominence_m": null,
     "wikidata": "Q6921341"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Howard%2C%20Oregon.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Orygun"
   }
 }

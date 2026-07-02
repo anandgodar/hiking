@@ -6,7 +6,7 @@
   "elevation": 7963,
   "lat": 47.56505,
   "lon": -121.18095,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Daniel%2027798.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -769,5 +769,11 @@
     "id": 7705568033,
     "prominence_m": "1073",
     "wikidata": "Q476822"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Daniel%2027798.JPG",
+    "license": "CC BY 2.5",
+    "artist": "Walter Siegmund"
   }
 }

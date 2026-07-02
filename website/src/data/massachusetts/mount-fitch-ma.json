@@ -6,7 +6,7 @@
   "elevation": 3100,
   "lat": 42.65564,
   "lon": -73.1601,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Fitch%20%28Massachusetts%29%20summit%20sign.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -946,5 +946,11 @@
     "id": 358269584,
     "prominence_m": null,
     "wikidata": "Q6920767"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Fitch%20%28Massachusetts%29%20summit%20sign.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Roentgendoc"
   }
 }

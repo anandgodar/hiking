@@ -6,7 +6,7 @@
   "elevation": 7228,
   "lat": 48.92818,
   "lon": -117.4601,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Abercrombie%20Mountain%20WA.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -889,5 +889,11 @@
     "id": 356544058,
     "prominence_m": "1578",
     "wikidata": "Q4666831"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Abercrombie%20Mountain%20WA.jpg",
+    "license": "Attribution",
+    "artist": "James Jacobson"
   }
 }

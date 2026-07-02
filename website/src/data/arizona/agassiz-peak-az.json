@@ -6,7 +6,7 @@
   "elevation": 12356,
   "lat": 35.32594,
   "lon": -111.67775,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/AgassizPeak.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -911,5 +911,11 @@
     "id": 5536889488,
     "prominence_m": null,
     "wikidata": "Q390770"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:AgassizPeak.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Flegar"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 1808,
   "lat": 41.32092,
   "lon": -74.66154,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/High%20Point%2C%20NJ.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -932,5 +932,11 @@
     "id": 357723245,
     "prominence_m": null,
     "wikidata": "Q1587207"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:High%20Point%2C%20NJ.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Daniel Case"
   }
 }

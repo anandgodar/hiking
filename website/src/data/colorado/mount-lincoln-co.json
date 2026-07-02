@@ -6,7 +6,7 @@
   "elevation": 14293,
   "lat": 39.35145,
   "lon": -106.11148,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt%20Lincoln.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -575,5 +575,11 @@
     "id": 358914747,
     "prominence_m": "1177",
     "wikidata": "Q502645"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mt%20Lincoln.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Original uploader was Matt Vincent at en.wikipedia"
   }
 }

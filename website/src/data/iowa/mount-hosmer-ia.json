@@ -6,7 +6,7 @@
   "elevation": 1050,
   "lat": 43.36612,
   "lon": -91.22176,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20mt%20hosmer.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -438,5 +438,11 @@
     "id": 10120376780,
     "prominence_m": null,
     "wikidata": "Q6921333"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:View%20mt%20hosmer.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Dukedauphin"
   }
 }

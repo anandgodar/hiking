@@ -6,7 +6,7 @@
   "elevation": 14440,
   "lat": 39.11775,
   "lon": -106.44538,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.%20Elbert.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -918,5 +918,11 @@
     "id": 358915477,
     "prominence_m": "2767",
     "wikidata": "Q657225"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mt.%20Elbert.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hogs555"
   }
 }
