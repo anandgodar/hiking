@@ -143,16 +143,65 @@ def norm(s):
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
 
+JOIN_GAP_MI = 0.12  # segments whose endpoints are farther apart than this
+                    # are disconnected pieces, not a continuation
+
+
 def assemble(features):
-    """Order a trail's segments (by milepost when available) into a [lat,lon] path."""
-    feats = sorted(features, key=lambda f: f.get("order") or 0)
-    path = []
-    for f in feats:
+    """Stitch a trail's segments into one CONTINUOUS [lat,lon] path.
+
+    GIS services return a trail as many independent polylines, often disjoint
+    (parallel spurs, far-apart pieces sharing a name). Naively concatenating
+    them draws long straight jumps across the map. Instead: greedy endpoint
+    chaining — start from the longest segment, repeatedly attach the segment
+    whose nearest endpoint is within JOIN_GAP_MI of the chain's ends (reversing
+    as needed), and DROP anything that doesn't connect. The result is the
+    longest continuous run, which is what a hiker actually walks.
+    """
+    segs = []
+    for f in sorted(features, key=lambda f: f.get("order") or 0):
         for line in f.get("lines", []):
-            for lon, lat in line:           # GeoJSON is [lon,lat]
-                p = [round(lat, 5), round(lon, 5)]
-                if not path or path[-1] != p:
-                    path.append(p)
+            pts = [[round(lat, 5), round(lon, 5)] for lon, lat in line]
+            if len(pts) >= 2:
+                segs.append(pts)
+    if not segs:
+        return []
+
+    def seg_len(s):
+        return sum(haversine_mi(s[i - 1], s[i]) for i in range(1, len(s)))
+
+    segs.sort(key=seg_len, reverse=True)
+    chain = list(segs.pop(0))
+
+    attached = True
+    while attached and segs:
+        attached = False
+        best = None  # (gap, idx, at_start, reverse)
+        for i, s in enumerate(segs):
+            for at_start in (False, True):
+                end = chain[0] if at_start else chain[-1]
+                for rev in (False, True):
+                    tip = (s[-1] if rev else s[0]) if not at_start else \
+                          (s[0] if rev else s[-1])
+                    gap = haversine_mi(end, tip)
+                    if gap <= JOIN_GAP_MI and (best is None or gap < best[0]):
+                        best = (gap, i, at_start, rev)
+        if best:
+            _, i, at_start, rev = best
+            s = segs.pop(i)
+            if rev:
+                s = list(reversed(s))
+            if at_start:
+                chain = s + chain
+            else:
+                chain = chain + s
+            attached = True
+
+    # de-dup consecutive identical points
+    path = [chain[0]]
+    for p in chain[1:]:
+        if p != path[-1]:
+            path.append(p)
     return path
 
 

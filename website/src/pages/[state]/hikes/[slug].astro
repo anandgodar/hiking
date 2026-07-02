@@ -56,6 +56,19 @@ export async function getStaticPaths() {
 
 const { mountain } = Astro.props;
 
+// Nearby Peaks must only link to pages that exist. Draft trails don't
+// generate pages (publish gate), so filter their slugs out here or the
+// sidebar links 404.
+const liveFiles = import.meta.glob('../../../data/*/*.json', { eager: true });
+const liveSlugs = new Set(
+  Object.values(liveFiles)
+    .map(f => f.default || f)
+    .filter(isPublishReady)
+    .map(m => m.slug)
+);
+mountain.nearby_peaks = (mountain.nearby_peaks || [])
+  .filter(p => liveSlugs.has(p.slug));
+
 // Extract page content
 const pageContent = mountain.page_content || {};
 const engagement = mountain.engagement || {};
