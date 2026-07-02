@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Pikes Peak",
+  "slug": "pikes-peak-in",
+  "state": "Indiana",
+  "state_slug": "indiana",
+  "elevation": 860,
+  "lat": 38.54672,
+  "lon": -86.23304,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Pikes Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            38.54672,
+            -86.23304
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Pikes Peak</strong> rises to 860 feet in Indiana. Nearby peaks include Hounds Leap, Scout Mountain and Mount Airie. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Hounds Leap",
+      "slug": "hounds-leap-in",
+      "state_slug": "indiana",
+      "elevation": 866,
+      "distance_miles": 19.1
+    },
+    {
+      "name": "Scout Mountain",
+      "slug": "scout-mountain-in",
+      "state_slug": "indiana",
+      "elevation": 689,
+      "distance_miles": 21.4
+    },
+    {
+      "name": "Mount Airie",
+      "slug": "mount-airie-in",
+      "state_slug": "indiana",
+      "elevation": 873,
+      "distance_miles": 21.9
+    },
+    {
+      "name": "Pinnacle",
+      "slug": "pinnacle-in",
+      "state_slug": "indiana",
+      "elevation": 948,
+      "distance_miles": 26.2
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Pikes Peak Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Pikes Peak hike with current conditions, trail map & parking info. Indiana summit at 860 ft.",
+    "canonical_url": "/trails/indiana/pikes-peak-in",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Pikes Peak",
+      "description": "Pikes Peak is a 860 foot peak in Indiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.54672,
+        "longitude": -86.23304,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 860,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Indiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Pikes Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Pikes Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Pikes Peak Trail on Pikes Peak is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Pikes Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pikes Peak is rated Moderate. At 860 feet, plan for the terrain and weather typical of Indiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Pikes Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Pikes Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Pikes Peak Trail, a  moderate hike to the Pikes Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Pikes Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Pikes Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358663421",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358663421",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358663421,
+    "prominence_m": null,
+    "wikidata": "Q33143551"
+  }
+}

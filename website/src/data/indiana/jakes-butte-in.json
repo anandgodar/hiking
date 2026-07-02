@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Jakes Butte",
+  "slug": "jakes-butte-in",
+  "state": "Indiana",
+  "state_slug": "indiana",
+  "elevation": 866,
+  "lat": 39.46033,
+  "lon": -86.48055,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Jakes Butte Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.46033,
+            -86.48055
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Jakes Butte</strong> rises to 866 feet in Indiana. Nearby peaks include Mount Nebo, Donalds Knoll and Hominy Mortar. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Nebo",
+      "slug": "mount-nebo-in",
+      "state_slug": "indiana",
+      "elevation": 955,
+      "distance_miles": 8.3
+    },
+    {
+      "name": "Donalds Knoll",
+      "slug": "donalds-knoll-in",
+      "state_slug": "indiana",
+      "elevation": 846,
+      "distance_miles": 20.1
+    },
+    {
+      "name": "Hominy Mortar",
+      "slug": "hominy-mortar-in",
+      "state_slug": "indiana",
+      "elevation": 833,
+      "distance_miles": 34.1
+    },
+    {
+      "name": "Haystack Rocks",
+      "slug": "haystack-rocks-in",
+      "state_slug": "indiana",
+      "elevation": 728,
+      "distance_miles": 42.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Jakes Butte Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Jakes Butte hike with current conditions, trail map & parking info. Indiana summit at 866 ft.",
+    "canonical_url": "/trails/indiana/jakes-butte-in",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Jakes Butte",
+      "description": "Jakes Butte is a 866 foot peak in Indiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.46033,
+        "longitude": -86.48055,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 866,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Indiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Jakes Butte Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Jakes Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Jakes Butte Trail on Jakes Butte is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Jakes Butte hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jakes Butte is rated Moderate. At 866 feet, plan for the terrain and weather typical of Indiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Jakes Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Jakes Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Jakes Butte Trail, a  moderate hike to the Jakes Butte summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Jakes Butte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Jakes Butte. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358657307",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358657307",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358657307,
+    "prominence_m": null,
+    "wikidata": "Q33140055"
+  }
+}

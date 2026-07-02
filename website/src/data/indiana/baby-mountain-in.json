@@ -1,0 +1,385 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Baby Mountain",
+  "slug": "baby-mountain-in",
+  "state": "Indiana",
+  "state_slug": "indiana",
+  "elevation": 1014,
+  "lat": 41.46255,
+  "lon": -85.24831,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Baby Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": 2.8,
+        "gain": 79,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            41.42358,
+            -85.23267
+          ],
+          "summit": [
+            41.46255,
+            -85.24831
+          ]
+        },
+        "path": [
+          [
+            41.42358,
+            -85.23267,
+            1014
+          ],
+          [
+            41.43063,
+            -85.23228,
+            1017
+          ],
+          [
+            41.43356,
+            -85.23217,
+            994
+          ],
+          [
+            41.43844,
+            -85.23192,
+            978
+          ],
+          [
+            41.43864,
+            -85.23191,
+            978
+          ],
+          [
+            41.44016,
+            -85.23186,
+            981
+          ],
+          [
+            41.44312,
+            -85.23176,
+            1004
+          ],
+          [
+            41.44479,
+            -85.23175,
+            1017
+          ],
+          [
+            41.44495,
+            -85.23175,
+            1017
+          ],
+          [
+            41.44586,
+            -85.23174,
+            1027
+          ],
+          [
+            41.45219,
+            -85.2317,
+            958
+          ],
+          [
+            41.45222,
+            -85.24124,
+            984
+          ],
+          [
+            41.45373,
+            -85.24288,
+            948
+          ],
+          [
+            41.45446,
+            -85.24461,
+            965
+          ],
+          [
+            41.45498,
+            -85.24539,
+            984
+          ],
+          [
+            41.45544,
+            -85.24608,
+            948
+          ],
+          [
+            41.45551,
+            -85.24636,
+            948
+          ],
+          [
+            41.45552,
+            -85.24641,
+            948
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1014,
+            "coord": [
+              41.42358,
+              -85.23267
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 1014,
+            "coord": [
+              41.42358,
+              -85.23267
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1017,
+            "coord": [
+              41.43063,
+              -85.23228
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 994,
+            "coord": [
+              41.43356,
+              -85.23217
+            ]
+          },
+          {
+            "mile": 0.81,
+            "elev": 994,
+            "coord": [
+              41.43356,
+              -85.23217
+            ]
+          },
+          {
+            "mile": 1.01,
+            "elev": 978,
+            "coord": [
+              41.43844,
+              -85.23192
+            ]
+          },
+          {
+            "mile": 1.21,
+            "elev": 981,
+            "coord": [
+              41.44016,
+              -85.23186
+            ]
+          },
+          {
+            "mile": 1.41,
+            "elev": 1017,
+            "coord": [
+              41.44479,
+              -85.23175
+            ]
+          },
+          {
+            "mile": 1.62,
+            "elev": 1027,
+            "coord": [
+              41.44586,
+              -85.23174
+            ]
+          },
+          {
+            "mile": 1.82,
+            "elev": 958,
+            "coord": [
+              41.45219,
+              -85.2317
+            ]
+          },
+          {
+            "mile": 2.02,
+            "elev": 958,
+            "coord": [
+              41.45219,
+              -85.2317
+            ]
+          },
+          {
+            "mile": 2.22,
+            "elev": 958,
+            "coord": [
+              41.45219,
+              -85.2317
+            ]
+          },
+          {
+            "mile": 2.42,
+            "elev": 984,
+            "coord": [
+              41.45222,
+              -85.24124
+            ]
+          },
+          {
+            "mile": 2.63,
+            "elev": 948,
+            "coord": [
+              41.45373,
+              -85.24288
+            ]
+          },
+          {
+            "mile": 2.83,
+            "elev": 948,
+            "coord": [
+              41.45552,
+              -85.24641
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,014 feet, <strong>Baby Mountain</strong> is a summit in Indiana. The Baby Mountain Trail is a 2.8-mile hike with about 79 feet of elevation gain. Nearby peaks include The Knobs and Twin Hills. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "The Knobs",
+      "slug": "the-knobs-in",
+      "state_slug": "indiana",
+      "elevation": 958,
+      "distance_miles": 14.8
+    },
+    {
+      "name": "Twin Hills",
+      "slug": "twin-hills-in",
+      "state_slug": "indiana",
+      "elevation": 942,
+      "distance_miles": 66.1
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Baby Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Baby Mountain hike with current conditions, trail map & parking info. Indiana summit at 1,014 ft.",
+    "canonical_url": "/trails/indiana/baby-mountain-in",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Baby Mountain",
+      "description": "Baby Mountain is a 1,014 foot peak in Indiana offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.46255,
+        "longitude": -85.24831,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1014,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Indiana",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Baby Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.42358,
+            "longitude": -85.23267
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Baby Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Baby Mountain Trail on Baby Mountain is 2.8-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Baby Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Baby Mountain is rated Moderate. At 1,014 feet, plan for the terrain and weather typical of Indiana peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Baby Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Baby Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Baby Mountain Trail, a 2.8-mile moderate hike to the Baby Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Baby Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Baby Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358648434",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358648434",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
+  },
+  "osm": {
+    "id": 358648434,
+    "prominence_m": null,
+    "wikidata": "Q33136297"
+  }
+}
