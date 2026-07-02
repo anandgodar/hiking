@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Rich Mountain",
+  "slug": "rich-mountain-sc",
+  "state": "South Carolina",
+  "state_slug": "south-carolina",
+  "elevation": 3025,
+  "lat": 35.15595,
+  "lon": -82.33651,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Rich Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            35.15595,
+            -82.33651
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Rich Mountain</strong> rises to 3,025 feet in South Carolina. Nearby peaks include Bryant Mountain, Hogback Mountain and Corbin Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Bryant Mountain",
+      "slug": "bryant-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3022,
+      "distance_miles": 1.1
+    },
+    {
+      "name": "Hogback Mountain",
+      "slug": "hogback-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3209,
+      "distance_miles": 2.7
+    },
+    {
+      "name": "Corbin Mountain",
+      "slug": "corbin-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3031,
+      "distance_miles": 5.6
+    },
+    {
+      "name": "Big Top",
+      "slug": "big-top-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3048,
+      "distance_miles": 8.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Rich Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Rich Mountain hike with current conditions, trail map & parking info. South Carolina summit at 3,025 ft.",
+    "canonical_url": "/trails/south-carolina/rich-mountain-sc",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Rich Mountain",
+      "description": "Rich Mountain is a 3,025 foot peak in South Carolina offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.15595,
+        "longitude": -82.33651,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3025,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "South Carolina",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Rich Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Rich Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Rich Mountain Trail on Rich Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Rich Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rich Mountain is rated Moderate. At 3,025 feet, plan for the terrain and weather typical of South Carolina peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Rich Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Rich Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Rich Mountain Trail, a  moderate hike to the Rich Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Rich Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Rich Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357096150",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357096150",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357096150,
+    "prominence_m": null,
+    "wikidata": "Q31659113"
+  }
+}

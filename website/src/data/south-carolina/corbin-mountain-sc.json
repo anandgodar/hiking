@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Corbin Mountain",
+  "slug": "corbin-mountain-sc",
+  "state": "South Carolina",
+  "state_slug": "south-carolina",
+  "elevation": 3031,
+  "lat": 35.16826,
+  "lon": -82.43464,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Corbin Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            35.16826,
+            -82.43464
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 3,031 feet, <strong>Corbin Mountain</strong> is a summit in South Carolina. Nearby peaks include Big Top, Bryant Mountain and Grassy Top Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Big Top",
+      "slug": "big-top-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3048,
+      "distance_miles": 3.4
+    },
+    {
+      "name": "Bryant Mountain",
+      "slug": "bryant-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3022,
+      "distance_miles": 5.2
+    },
+    {
+      "name": "Grassy Top Mountain",
+      "slug": "grassy-top-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3258,
+      "distance_miles": 5.3
+    },
+    {
+      "name": "Rich Mountain",
+      "slug": "rich-mountain-sc",
+      "state_slug": "south-carolina",
+      "elevation": 3025,
+      "distance_miles": 5.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Corbin Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Corbin Mountain hike with current conditions, trail map & parking info. South Carolina summit at 3,031 ft.",
+    "canonical_url": "/trails/south-carolina/corbin-mountain-sc",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Corbin Mountain",
+      "description": "Corbin Mountain is a 3,031 foot peak in South Carolina offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 35.16826,
+        "longitude": -82.43464,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3031,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "South Carolina",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Corbin Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Corbin Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Corbin Mountain Trail on Corbin Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Corbin Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Corbin Mountain is rated Moderate. At 3,031 feet, plan for the terrain and weather typical of South Carolina peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Corbin Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Corbin Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Corbin Mountain Trail, a  moderate hike to the Corbin Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Corbin Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Corbin Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/357080809",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/357080809",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 357080809,
+    "prominence_m": null,
+    "wikidata": "Q31621417"
+  }
+}
