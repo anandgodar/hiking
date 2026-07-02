@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Rich Mountain",
+  "slug": "rich-mountain-ga",
+  "state": "Georgia",
+  "state_slug": "georgia",
+  "elevation": 4042,
+  "lat": 34.7437,
+  "lon": -84.34298,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Rich Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            34.7437,
+            -84.34298
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Rich Mountain</strong> is a 4,042-foot summit in Georgia. Nearby peaks include Tickanetley Bald, Big Bald Mountain and Cowpen Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Tickanetley Bald",
+      "slug": "tickanetley-bald-ga",
+      "state_slug": "georgia",
+      "elevation": 3967,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Big Bald Mountain",
+      "slug": "big-bald-mountain-ga",
+      "state_slug": "georgia",
+      "elevation": 4052,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "Cowpen Mountain",
+      "slug": "cowpen-mountain-ga",
+      "state_slug": "georgia",
+      "elevation": 4147,
+      "distance_miles": 16.5
+    },
+    {
+      "name": "Coosa Bald",
+      "slug": "coosa-bald-ga",
+      "state_slug": "georgia",
+      "elevation": 4275,
+      "distance_miles": 21.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Rich Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Rich Mountain hike with current conditions, trail map & parking info. Georgia summit at 4,042 ft.",
+    "canonical_url": "/trails/georgia/rich-mountain-ga",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Rich Mountain",
+      "description": "Rich Mountain is a 4,042 foot peak in Georgia offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.7437,
+        "longitude": -84.34298,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4042,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Georgia",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Rich Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Rich Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Rich Mountain Trail on Rich Mountain is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Rich Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rich Mountain is rated Moderate. At 4,042 feet, plan for the terrain and weather typical of Georgia peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Rich Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Rich Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Rich Mountain Trail, a  moderate hike to the Rich Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Rich Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Rich Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358717993",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358717993",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358717993,
+    "prominence_m": null,
+    "wikidata": "Q7323377"
+  }
+}

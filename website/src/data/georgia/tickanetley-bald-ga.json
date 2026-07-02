@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Tickanetley Bald",
+  "slug": "tickanetley-bald-ga",
+  "state": "Georgia",
+  "state_slug": "georgia",
+  "elevation": 3967,
+  "lat": 34.73397,
+  "lon": -84.33881,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Tickanetley Bald Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            34.73397,
+            -84.33881
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Tickanetley Bald</strong> rises to 3,967 feet in Georgia. Nearby peaks include Rich Mountain, Big Bald Mountain and Cowpen Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Rich Mountain",
+      "slug": "rich-mountain-ga",
+      "state_slug": "georgia",
+      "elevation": 4042,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Big Bald Mountain",
+      "slug": "big-bald-mountain-ga",
+      "state_slug": "georgia",
+      "elevation": 4052,
+      "distance_miles": 1.6
+    },
+    {
+      "name": "Cowpen Mountain",
+      "slug": "cowpen-mountain-ga",
+      "state_slug": "georgia",
+      "elevation": 4147,
+      "distance_miles": 17.1
+    },
+    {
+      "name": "Coosa Bald",
+      "slug": "coosa-bald-ga",
+      "state_slug": "georgia",
+      "elevation": 4275,
+      "distance_miles": 21.5
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Tickanetley Bald Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Tickanetley Bald hike with current conditions, trail map & parking info. Georgia summit at 3,967 ft.",
+    "canonical_url": "/trails/georgia/tickanetley-bald-ga",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Tickanetley Bald",
+      "description": "Tickanetley Bald is a 3,967 foot peak in Georgia offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.73397,
+        "longitude": -84.33881,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3967,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Georgia",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Tickanetley Bald Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Tickanetley Bald?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Tickanetley Bald Trail on Tickanetley Bald is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Tickanetley Bald hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tickanetley Bald is rated Moderate. At 3,967 feet, plan for the terrain and weather typical of Georgia peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Tickanetley Bald?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Tickanetley Bald?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Tickanetley Bald Trail, a  moderate hike to the Tickanetley Bald summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Tickanetley Bald?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Tickanetley Bald. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358718365",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358718365",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358718365,
+    "prominence_m": null,
+    "wikidata": "Q31593292"
+  }
+}
