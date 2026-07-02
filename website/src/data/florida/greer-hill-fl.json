@@ -15,8 +15,8 @@
       "difficulty": "",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
+        "distance": 0.5,
+        "gain": 33,
         "time": null,
         "difficulty": ""
       },
@@ -33,16 +33,153 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            28.30107,
+            -82.16725
           ],
           "summit": [
             28.29612,
             -82.18897
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            28.30107,
+            -82.16725,
+            138
+          ],
+          [
+            28.29739,
+            -82.16725,
+            171
+          ],
+          [
+            28.29388,
+            -82.16727,
+            154
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 138,
+            "coord": [
+              28.30107,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 138,
+            "coord": [
+              28.30107,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 138,
+            "coord": [
+              28.30107,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 138,
+            "coord": [
+              28.30107,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 171,
+            "coord": [
+              28.29739,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 171,
+            "coord": [
+              28.29739,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 171,
+            "coord": [
+              28.29739,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 171,
+            "coord": [
+              28.29739,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 171,
+            "coord": [
+              28.29739,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 171,
+            "coord": [
+              28.29739,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 171,
+            "coord": [
+              28.29739,
+              -82.16725
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 154,
+            "coord": [
+              28.29388,
+              -82.16727
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 154,
+            "coord": [
+              28.29388,
+              -82.16727
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 154,
+            "coord": [
+              28.29388,
+              -82.16727
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 154,
+            "coord": [
+              28.29388,
+              -82.16727
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +310,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/358696815",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/358696815",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 358696815,

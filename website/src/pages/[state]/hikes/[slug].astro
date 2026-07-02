@@ -169,7 +169,7 @@ const dashboardMountain = {
     <div class="max-w-7xl mx-auto px-4 md:px-8 py-8">
 
       <!-- Peak-bagging tracker (localStorage, powers /my-peaks) -->
-      <div class="mb-6">
+      <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
         <SavePeakButton
           client:load
           slug={mountain.slug}
@@ -178,6 +178,10 @@ const dashboardMountain = {
           stateName={mountain.state}
           elevation={mountain.elevation}
         />
+        <a href={`/${mountain.state_slug}/highest-peaks`}
+           class="text-sm font-semibold text-emerald-700 hover:text-emerald-800 hover:underline">
+          Highest peaks in {mountain.state || mountain.state_slug?.replace(/-/g, ' ')} →
+        </a>
       </div>
 
       <!-- Trail Dashboard - Shows when trail data exists (either trails or trails_config) -->

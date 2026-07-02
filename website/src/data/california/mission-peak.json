@@ -632,18 +632,11 @@
       },
       "features": [
         {
-          "name": "Peak Meadow",
+          "name": "Mission Peak",
           "type": "viewpoint",
-          "lat": 37.514,
-          "lon": -121.885,
-          "mile": 2.0
-        },
-        {
-          "name": "Summit Pole",
-          "type": "landmark",
-          "lat": 37.5132,
-          "lon": -121.8799,
-          "mile": 3.1
+          "lat": 37.51255,
+          "lon": -121.88091,
+          "mile": 1.17
         }
       ]
     }
@@ -816,6 +809,7 @@
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "East Bay Regional Parks trail map and signage",
     "parking_source": "City of Fremont parking regulations and EBRPD website",
-    "notes": "Distance and elevation gain from official EBRPD trail guides. Parking fees and regulations verified with City of Fremont. Summit pole location confirmed. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+    "notes": "Distance and elevation gain from official EBRPD trail guides. Parking fees and regulations verified with City of Fremont. Summit pole location confirmed. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

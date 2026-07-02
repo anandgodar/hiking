@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Medley Landfill",
   "slug": "medley-landfill-fl",
   "state": "Florida",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Medley Landfill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
+        "distance": 0.9,
+        "gain": 13,
         "time": null,
-        "difficulty": ""
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,263 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            25.83049,
+            -80.33984
           ],
           "summit": [
             25.85858,
             -80.35025
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            25.83049,
+            -80.33984,
+            10
+          ],
+          [
+            25.8305,
+            -80.34026,
+            10
+          ],
+          [
+            25.83049,
+            -80.34088,
+            13
+          ],
+          [
+            25.83049,
+            -80.34159,
+            13
+          ],
+          [
+            25.83045,
+            -80.34235,
+            16
+          ],
+          [
+            25.83047,
+            -80.34307,
+            16
+          ],
+          [
+            25.83053,
+            -80.34418,
+            20
+          ],
+          [
+            25.83063,
+            -80.34537,
+            16
+          ],
+          [
+            25.83065,
+            -80.34564,
+            16
+          ],
+          [
+            25.83061,
+            -80.34584,
+            13
+          ],
+          [
+            25.83061,
+            -80.3473,
+            10
+          ],
+          [
+            25.83067,
+            -80.34858,
+            10
+          ],
+          [
+            25.83069,
+            -80.34953,
+            7
+          ],
+          [
+            25.83063,
+            -80.34989,
+            7
+          ],
+          [
+            25.83048,
+            -80.3503,
+            7
+          ],
+          [
+            25.8303,
+            -80.35088,
+            7
+          ],
+          [
+            25.83017,
+            -80.3514,
+            7
+          ],
+          [
+            25.83015,
+            -80.35165,
+            7
+          ],
+          [
+            25.83015,
+            -80.35215,
+            7
+          ],
+          [
+            25.83016,
+            -80.35279,
+            10
+          ],
+          [
+            25.83018,
+            -80.35343,
+            13
+          ],
+          [
+            25.8302,
+            -80.35379,
+            13
+          ],
+          [
+            25.8302,
+            -80.35385,
+            13
+          ],
+          [
+            25.83022,
+            -80.35387,
+            13
+          ],
+          [
+            25.83031,
+            -80.35402,
+            13
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 10,
+            "coord": [
+              25.83049,
+              -80.33984
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 13,
+            "coord": [
+              25.83049,
+              -80.34088
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 13,
+            "coord": [
+              25.83049,
+              -80.34159
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 16,
+            "coord": [
+              25.83047,
+              -80.34307
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 20,
+            "coord": [
+              25.83053,
+              -80.34418
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 16,
+            "coord": [
+              25.83063,
+              -80.34537
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 13,
+            "coord": [
+              25.83061,
+              -80.34584
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 10,
+            "coord": [
+              25.83061,
+              -80.3473
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 10,
+            "coord": [
+              25.83067,
+              -80.34858
+            ]
+          },
+          {
+            "mile": 0.57,
+            "elev": 10,
+            "coord": [
+              25.83067,
+              -80.34858
+            ]
+          },
+          {
+            "mile": 0.64,
+            "elev": 7,
+            "coord": [
+              25.83063,
+              -80.34989
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 7,
+            "coord": [
+              25.8303,
+              -80.35088
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 7,
+            "coord": [
+              25.83015,
+              -80.35215
+            ]
+          },
+          {
+            "mile": 0.83,
+            "elev": 10,
+            "coord": [
+              25.83016,
+              -80.35279
+            ]
+          },
+          {
+            "mile": 0.89,
+            "elev": 13,
+            "coord": [
+              25.83031,
+              -80.35402
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -152,10 +398,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/6942721481",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/6942721481",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 6942721481,

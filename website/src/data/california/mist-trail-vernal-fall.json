@@ -42,8 +42,8 @@
       "geo": {
         "markers": {
           "start": [
-            37.7318,
-            -119.5585
+            37.73282,
+            -119.55778
           ],
           "summit": [
             37.7264,
@@ -557,25 +557,32 @@
       },
       "features": [
         {
-          "name": "Vernal Fall Bridge",
-          "type": "viewpoint",
-          "lat": 37.729,
-          "lon": -119.549,
-          "mile": 0.8
+          "name": "Grizzly Peak",
+          "type": "summit",
+          "lat": 37.73001,
+          "lon": -119.55064,
+          "mile": 0.43
         },
         {
-          "name": "Mist Trail (Granite Steps)",
-          "type": "scramble",
-          "lat": 37.7275,
-          "lon": -119.547,
-          "mile": 1.5
+          "name": "Lady Franklin Rock",
+          "type": "boulder",
+          "lat": 37.72654,
+          "lon": -119.54736,
+          "mile": 0.71
         },
         {
-          "name": "Vernal Fall Top",
+          "name": "Vernal Fall",
           "type": "waterfall",
-          "lat": 37.7264,
-          "lon": -119.5455,
-          "mile": 2.7
+          "lat": 37.72755,
+          "lon": -119.54375,
+          "mile": 0.81
+        },
+        {
+          "name": "Clark Point",
+          "type": "viewpoint",
+          "lat": 37.72502,
+          "lon": -119.54501,
+          "mile": 0.81
         }
       ]
     }
@@ -770,6 +777,7 @@
     "elevation_source": "USGS Topo - Vernal Fall",
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail signage and official Yosemite website",
-    "notes": "Distance and elevation from NPS official trail descriptions. Waterfall height (317 ft) verified from USGS Geographic Names Information System. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+    "notes": "Distance and elevation from NPS official trail descriptions. Waterfall height (317 ft) verified from USGS Geographic Names Information System. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

@@ -134,9 +134,35 @@ const defaultState = 'new-hampshire';
                             Gear Guide
                         </a>
                     </li>
+                    <li>
+                        <a href="/my-peaks" class="hover:text-emerald-400 transition-colors flex items-center gap-2">
+                            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"/>
+                            </svg>
+                            My Peaks
+                        </a>
+                    </li>
                     <li><a href="/about" class="hover:text-emerald-400 transition-colors">About Us</a></li>
                     <li><a href="/contact" class="hover:text-emerald-400 transition-colors">Contact</a></li>
                 </ul>
+            </div>
+        </div>
+
+        <!-- HIKES NEAR CITIES — internal-link mesh for the city landing pages -->
+        <div class="border-t border-stone-800 pt-8 pb-2">
+            <h3 class="text-white font-bold uppercase tracking-widest text-xs mb-4">Hikes Near You</h3>
+            <div class="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+                {[
+                  ['denver','Denver'],['seattle','Seattle'],['boston','Boston'],
+                  ['phoenix','Phoenix'],['salt-lake-city','Salt Lake City'],
+                  ['portland-oregon','Portland'],['asheville','Asheville'],
+                  ['atlanta','Atlanta'],['washington-dc','Washington DC'],
+                  ['new-york-city','New York'],['san-francisco','San Francisco'],
+                  ['albuquerque','Albuquerque'],['las-vegas','Las Vegas'],
+                  ['knoxville','Knoxville'],['colorado-springs','Colorado Springs'],
+                ].map(([slug, name]) => (
+                  <a href={`/near/${slug}`} class="text-stone-400 hover:text-emerald-400 transition-colors">{name}</a>
+                ))}
             </div>
         </div>
 

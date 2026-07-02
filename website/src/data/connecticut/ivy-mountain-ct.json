@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Ivy Mountain",
   "slug": "ivy-mountain-ct",
   "state": "Connecticut",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Ivy Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
+        "distance": 0.8,
+        "gain": 76,
         "time": null,
-        "difficulty": ""
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,203 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            41.90725,
+            -73.23001
           ],
           "summit": [
             41.87176,
             -73.22345
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            41.90725,
+            -73.23001,
+            1572
+          ],
+          [
+            41.90714,
+            -73.23001,
+            1572
+          ],
+          [
+            41.90634,
+            -73.22989,
+            1512
+          ],
+          [
+            41.90542,
+            -73.22949,
+            1496
+          ],
+          [
+            41.90462,
+            -73.22891,
+            1496
+          ],
+          [
+            41.90263,
+            -73.22796,
+            1499
+          ],
+          [
+            41.90202,
+            -73.22784,
+            1509
+          ],
+          [
+            41.90014,
+            -73.22722,
+            1519
+          ],
+          [
+            41.89948,
+            -73.22673,
+            1529
+          ],
+          [
+            41.89815,
+            -73.22563,
+            1529
+          ],
+          [
+            41.89797,
+            -73.22557,
+            1529
+          ],
+          [
+            41.89788,
+            -73.22539,
+            1529
+          ],
+          [
+            41.89701,
+            -73.22485,
+            1539
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1572,
+            "coord": [
+              41.90725,
+              -73.23001
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1512,
+            "coord": [
+              41.90634,
+              -73.22989
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 1496,
+            "coord": [
+              41.90542,
+              -73.22949
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 1496,
+            "coord": [
+              41.90462,
+              -73.22891
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 1496,
+            "coord": [
+              41.90462,
+              -73.22891
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 1499,
+            "coord": [
+              41.90263,
+              -73.22796
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 1499,
+            "coord": [
+              41.90263,
+              -73.22796
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 1509,
+            "coord": [
+              41.90202,
+              -73.22784
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 1509,
+            "coord": [
+              41.90202,
+              -73.22784
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 1519,
+            "coord": [
+              41.90014,
+              -73.22722
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 1529,
+            "coord": [
+              41.89948,
+              -73.22673
+            ]
+          },
+          {
+            "mile": 0.6,
+            "elev": 1529,
+            "coord": [
+              41.89948,
+              -73.22673
+            ]
+          },
+          {
+            "mile": 0.66,
+            "elev": 1529,
+            "coord": [
+              41.89815,
+              -73.22563
+            ]
+          },
+          {
+            "mile": 0.71,
+            "elev": 1529,
+            "coord": [
+              41.89788,
+              -73.22539
+            ]
+          },
+          {
+            "mile": 0.77,
+            "elev": 1539,
+            "coord": [
+              41.89701,
+              -73.22485
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +359,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/359264807",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/359264807",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 359264807,

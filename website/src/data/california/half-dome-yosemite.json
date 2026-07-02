@@ -42,8 +42,8 @@
       "geo": {
         "markers": {
           "start": [
-            37.7318,
-            -119.5585
+            37.73282,
+            -119.55778
           ],
           "summit": [
             37.7459,
@@ -857,32 +857,25 @@
       },
       "features": [
         {
-          "name": "Vernal Fall",
-          "type": "waterfall",
-          "lat": 37.7264,
-          "lon": -119.5455,
-          "mile": 2.5
+          "name": "Diving Board",
+          "type": "cliff",
+          "lat": 37.74243,
+          "lon": -119.541,
+          "mile": 1.22
         },
         {
-          "name": "Nevada Fall",
-          "type": "waterfall",
-          "lat": 37.7305,
-          "lon": -119.5335,
-          "mile": 4.0
+          "name": "Half Dome",
+          "type": "summit",
+          "lat": 37.746,
+          "lon": -119.53325,
+          "mile": 1.71
         },
         {
-          "name": "Sub Dome",
-          "type": "viewpoint",
-          "lat": 37.7445,
-          "lon": -119.5345,
-          "mile": 6.5
-        },
-        {
-          "name": "Cable Route",
-          "type": "scramble",
-          "lat": 37.7452,
-          "lon": -119.5338,
-          "mile": 6.8
+          "name": "Subdome",
+          "type": "summit",
+          "lat": 37.74669,
+          "lon": -119.5299,
+          "mile": 1.71
         }
       ]
     }
@@ -1080,6 +1073,7 @@
     "gps_source": "Enhanced via interpolation (pending GPX import)",
     "distance_source": "NPS trail sign at Happy Isles Trailhead",
     "permit_source": "Recreation.gov - Yosemite Half Dome Permits",
-    "notes": "Distance (14.2 mi) from official NPS signage. Elevation (8,842 ft) from USGS topo. Permit requirements verified on Recreation.gov. Cable installation dates confirmed with NPS. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import."
+    "notes": "Distance (14.2 mi) from official NPS signage. Elevation (8,842 ft) from USGS topo. Permit requirements verified on Recreation.gov. Cable installation dates confirmed with NPS. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

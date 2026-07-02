@@ -32,8 +32,8 @@
       "geo": {
         "markers": {
           "start": [
-            19.82201,
-            -155.47067
+            19.81014,
+            -155.468
           ],
           "summit": [
             19.83588,
@@ -770,7 +770,22 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Pu\u02bbukea",
+          "type": "summit",
+          "lat": 19.82508,
+          "lon": -155.46881,
+          "mile": 0.1
+        },
+        {
+          "name": "Pu\u02bbuwekiu",
+          "type": "summit",
+          "lat": 19.81925,
+          "lon": -155.46944,
+          "mile": 0.45
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Pu\u02bbum\u0101hoe</strong> rises to 13,136 feet in Hawaii. Nearby peaks include Pu\u02bbukea, Pu\u02bbupoepoe and Pu\u02bbuhau\u02bboki. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -903,7 +918,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/7727407179",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 7727407179,

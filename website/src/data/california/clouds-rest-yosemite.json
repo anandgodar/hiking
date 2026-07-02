@@ -42,8 +42,8 @@
       "geo": {
         "markers": {
           "start": [
-            37.827,
-            -119.455
+            37.83437,
+            -119.46326
           ],
           "summit": [
             37.764,
@@ -1179,7 +1179,16 @@
             ]
           }
         ]
-      }
+      },
+      "features": [
+        {
+          "name": "Clouds Rest",
+          "type": "summit",
+          "lat": 37.76784,
+          "lon": -119.48925,
+          "mile": 4.62
+        }
+      ]
     }
   ],
   "generated_description": "<p>Clouds Rest offers what many consider the best views in Yosemite National Park\u2014even better than Half Dome. At 9,926 feet, this granite dome provides 360-degree panoramas of Yosemite Valley, Half Dome (from above!), the High Sierra, and Tenaya Canyon.</p><p>The 14.5-mile round trip is challenging but doesn't require permits or cables like Half Dome. The final approach along a narrow granite ridge is exhilarating, with steep drop-offs on both sides. This is a true High Sierra experience with far fewer crowds than Yosemite's permit-required summits.</p>",
@@ -1323,6 +1332,7 @@
     "elevation_source": "USGS Topo - Yosemite",
     "gps_source": "NPS Official Yosemite Map",
     "distance_source": "NPS trail signage and official website",
-    "notes": "Elevation (9,926 ft) from USGS benchmark. Distance from NPS Tioga Road trail guides. No permit required confirmed via NPS."
+    "notes": "Elevation (9,926 ft) from USGS benchmark. Distance from NPS Tioga Road trail guides. No permit required confirmed via NPS.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

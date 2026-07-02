@@ -30,8 +30,8 @@
         "fee": "$35 park entrance",
         "location": "Bridalveil Fall parking",
         "coords": [
-          37.7171,
-          -119.6483
+          37.71696,
+          -119.65215
         ]
       },
       "tags": [
@@ -42,8 +42,8 @@
       "geo": {
         "markers": {
           "start": [
-            37.7171,
-            -119.6483
+            37.71673,
+            -119.65094
           ],
           "summit": [
             37.7168,
@@ -229,7 +229,23 @@
             ]
           }
         ]
-      }
+      },
+      "features": [
+        {
+          "name": "Bridalveil Fall Viewpoint",
+          "type": "viewpoint",
+          "lat": 37.7176,
+          "lon": -119.64828,
+          "mile": 0.0
+        },
+        {
+          "name": "Bridalveil Fall",
+          "type": "waterfall",
+          "lat": 37.71681,
+          "lon": -119.64677,
+          "mile": 0.08
+        }
+      ]
     }
   ],
   "generated_description": "<p>Bridalveil Fall is one of Yosemite's most iconic and accessible waterfalls, visible from many valley viewpoints and cascading 620 feet in a delicate veil-like stream. This incredibly short 0.5-mile round trip is perfect for all ages and abilities, including wheelchairs (though the final approach is steep and may require assistance).</p><p>In spring, Bridalveil roars with snowmelt and sprays mist over the entire viewing area. By late summer, the flow decreases to a gentle veil\u2014hence the name. Either season offers unique beauty and photo opportunities of this Yosemite classic.</p>",
@@ -345,7 +361,8 @@
     "elevation_source": "USGS Topo - Bridalveil Fall",
     "gps_source": "Generated from start/summit markers (pending GPX import)",
     "distance_source": "NPS trail signage and accessibility documentation",
-    "notes": "Wheelchair accessible trail confirmed via NPS accessibility page. Waterfall height (620 ft) from USGS GNIS. Distance and parking info from official NPS website. GPS path generated from trail markers pending verified GPX import."
+    "notes": "Wheelchair accessible trail confirmed via NPS accessibility page. Waterfall height (620 ft) from USGS GNIS. Distance and parking info from official NPS website. GPS path generated from trail markers pending verified GPX import.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "nearby_peaks": [
     {
