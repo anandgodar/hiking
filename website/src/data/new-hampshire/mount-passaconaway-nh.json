@@ -1828,7 +1828,15 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mount Passaconaway",
+          "type": "summit",
+          "lat": 43.95477,
+          "lon": -71.3807,
+          "mile": 3.39
+        }
+      ]
     },
     {
       "id": "17b3c022",
@@ -3899,6 +3907,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

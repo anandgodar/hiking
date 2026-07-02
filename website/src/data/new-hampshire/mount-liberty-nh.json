@@ -2565,7 +2565,43 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Great Boulder",
+          "type": "boulder",
+          "lat": 44.09932,
+          "lon": -71.67865,
+          "mile": 0.3
+        },
+        {
+          "name": "Glacial Boulders",
+          "type": "boulder",
+          "lat": 44.10156,
+          "lon": -71.6785,
+          "mile": 0.41
+        },
+        {
+          "name": "Wolf Den",
+          "type": "cave",
+          "lat": 44.10411,
+          "lon": -71.67821,
+          "mile": 0.55
+        },
+        {
+          "name": "Liberty Spring",
+          "type": "spring",
+          "lat": 44.11706,
+          "lon": -71.64677,
+          "mile": 3.44
+        },
+        {
+          "name": "Mount Liberty",
+          "type": "summit",
+          "lat": 44.11582,
+          "lon": -71.64221,
+          "mile": 3.91
+        }
+      ]
     }
   ],
   "seo": {
@@ -2891,6 +2927,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

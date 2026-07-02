@@ -69,7 +69,11 @@
         "capacity": "Large (100+ cars)",
         "status": "Check conditions",
         "fee": "$5/day (WMNF)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.0633,
+          -71.16367
+        ]
       },
       "start_lat": 44.0579,
       "start_lon": -71.1475,
@@ -728,6 +732,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

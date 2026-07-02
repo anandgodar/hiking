@@ -2524,7 +2524,15 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mount Hancock",
+          "type": "summit",
+          "lat": 44.08345,
+          "lon": -71.4932,
+          "mile": 4.89
+        }
+      ]
     }
   ],
   "seo": {
@@ -2850,6 +2858,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

@@ -1193,7 +1193,23 @@
           ]
         }
       },
-      "difficulty": "Moderate"
+      "difficulty": "Moderate",
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "coords": [
+          41.41342,
+          -74.01151
+        ]
+      },
+      "features": [
+        {
+          "name": "Butter Hill",
+          "type": "summit",
+          "lat": 41.42702,
+          "lon": -74.0012,
+          "mile": 0.51
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -1203,7 +1219,8 @@
     "elevation_source": "USGS - Storm King Mountain (1,340 ft)",
     "gps_source": "USGS Topographic Map - West Point Quadrangle",
     "distance_source": "NY-NJ Trail Conference maps and NYS Parks",
-    "notes": "Elevation (1,340 ft) from USGS topo. Part of Hudson Highlands State Park. Trail distance from NY-NJ Trail Conference maps. Historic preservation led to creation of environmental movement in 1960s."
+    "notes": "Elevation (1,340 ft) from USGS topo. Part of Hudson Highlands State Park. Trail distance from NY-NJ Trail Conference maps. Historic preservation led to creation of environmental movement in 1960s.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Storm King Mountain Trail Guide | Map, Route & Conditions",

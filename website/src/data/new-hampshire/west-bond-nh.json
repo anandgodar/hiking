@@ -87,12 +87,16 @@
       "elevation_gain": 4019,
       "description": "Short spur from Bond summit to West Bond. Usually done as part of Bonds traverse.",
       "tags": [],
-      "parking_info": "Zealand Trailhead, Zealand Rd",
+      "parking_info": "Hale Brook Trailhead",
       "parking_details": {
         "capacity": "Medium (~30 cars)",
         "status": "Check conditions",
         "fee": "Free (WMNF)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.23639,
+          -71.4869
+        ]
       },
       "start_lat": 44.2262,
       "start_lon": -71.4768,
@@ -4271,7 +4275,50 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Zealand Falls",
+          "type": "waterfall",
+          "lat": 44.19562,
+          "lon": -71.49406,
+          "mile": 3.09
+        },
+        {
+          "name": "Zeacliff",
+          "type": "cliff",
+          "lat": 44.18344,
+          "lon": -71.49544,
+          "mile": 5.28
+        },
+        {
+          "name": "Mount Zealand",
+          "type": "summit",
+          "lat": 44.18002,
+          "lon": -71.52158,
+          "mile": 6.92
+        },
+        {
+          "name": "Mount Guyot",
+          "type": "summit",
+          "lat": 44.16812,
+          "lon": -71.53397,
+          "mile": 8.0
+        },
+        {
+          "name": "Guyot Campsite Shelter",
+          "type": "hut",
+          "lat": 44.16098,
+          "lon": -71.53518,
+          "mile": 8.62
+        },
+        {
+          "name": "West Bond",
+          "type": "summit",
+          "lat": 44.15476,
+          "lon": -71.54363,
+          "mile": 9.24
+        }
+      ]
     }
   ],
   "seo": {
@@ -4597,6 +4644,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

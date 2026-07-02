@@ -1495,7 +1495,36 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Garfield Ridge East Peak",
+          "type": "summit",
+          "lat": 44.19277,
+          "lon": -71.58216,
+          "mile": 1.35
+        },
+        {
+          "name": "Garfield Ridge West Peak",
+          "type": "summit",
+          "lat": 44.18985,
+          "lon": -71.59521,
+          "mile": 2.21
+        },
+        {
+          "name": "Garfield Ridge Campsite Shelter",
+          "type": "hut",
+          "lat": 44.19076,
+          "lon": -71.60831,
+          "mile": 2.89
+        },
+        {
+          "name": "Mount Garfield",
+          "type": "summit",
+          "lat": 44.18724,
+          "lon": -71.61069,
+          "mile": 3.13
+        }
+      ]
     }
   ],
   "seo": {
@@ -1821,6 +1850,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

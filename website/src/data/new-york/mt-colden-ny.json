@@ -6146,7 +6146,100 @@
           ]
         }
       },
-      "difficulty": "Expert"
+      "difficulty": "Expert",
+      "features": [
+        {
+          "name": "Phelps Brook Lean-to",
+          "type": "hut",
+          "lat": 44.16202,
+          "lon": -73.9477,
+          "mile": 1.8
+        },
+        {
+          "name": "Marcy Dam #5 Lean-to",
+          "type": "hut",
+          "lat": 44.15868,
+          "lon": -73.9524,
+          "mile": 2.11
+        },
+        {
+          "name": "Marcy Dam #2 Lean-to",
+          "type": "hut",
+          "lat": 44.158,
+          "lon": -73.95103,
+          "mile": 2.29
+        },
+        {
+          "name": "Ed Hudowalski Lean-to",
+          "type": "hut",
+          "lat": 44.15732,
+          "lon": -73.95439,
+          "mile": 2.42
+        },
+        {
+          "name": "Kagel Lean-to",
+          "type": "hut",
+          "lat": 44.1489,
+          "lon": -73.9556,
+          "mile": 3.0
+        },
+        {
+          "name": "Avalanche Camp Lean-to",
+          "type": "hut",
+          "lat": 44.14488,
+          "lon": -73.95551,
+          "mile": 3.25
+        },
+        {
+          "name": "Marcy Brook Lean-to",
+          "type": "hut",
+          "lat": 44.1436,
+          "lon": -73.95229,
+          "mile": 3.47
+        },
+        {
+          "name": "Mount Colden",
+          "type": "summit",
+          "lat": 44.12704,
+          "lon": -73.95952,
+          "mile": 5.94
+        },
+        {
+          "name": "Hitch-up Matilda",
+          "type": "viewpoint",
+          "lat": 44.13247,
+          "lon": -73.96876,
+          "mile": 8.05
+        },
+        {
+          "name": "Scott Clearing Leanto",
+          "type": "hut",
+          "lat": 44.15643,
+          "lon": -74.01415,
+          "mile": 12.58
+        },
+        {
+          "name": "Rocky Falls",
+          "type": "waterfall",
+          "lat": 44.17193,
+          "lon": -73.99898,
+          "mile": 14.05
+        },
+        {
+          "name": "Rocky Falls Leanto",
+          "type": "hut",
+          "lat": 44.17205,
+          "lon": -73.99803,
+          "mile": 14.1
+        },
+        {
+          "name": "Roger's Lookout",
+          "type": "viewpoint",
+          "lat": 44.18405,
+          "lon": -73.96736,
+          "mile": 16.06
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -6156,7 +6249,8 @@
     "elevation_source": "USGS Benchmark - Mount Colden Summit (4,714 ft)",
     "gps_source": "USGS Topographic Map - Mount Marcy Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
-    "notes": "Elevation (4,714 ft) from USGS benchmark. Known for Trap Dike scramble route and alpine slides. Trail distance from NYS DEC and Adirondack Mountain Club guidebooks. Part of Adirondack 46ers."
+    "notes": "Elevation (4,714 ft) from USGS benchmark. Known for Trap Dike scramble route and alpine slides. Trail distance from NYS DEC and Adirondack Mountain Club guidebooks. Part of Adirondack 46ers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Mount Colden Trail Guide | Map, Route & Conditions",

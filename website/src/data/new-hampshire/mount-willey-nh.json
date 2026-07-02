@@ -110,7 +110,11 @@
         "capacity": "Medium (~40 cars)",
         "status": "Check conditions",
         "fee": "$5/day (WMNF)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.21807,
+          -71.41058
+        ]
       },
       "start_lat": 44.2177,
       "start_lon": -71.4108,
@@ -2216,7 +2220,64 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Idlewilde View",
+          "type": "viewpoint",
+          "lat": 44.2177,
+          "lon": -71.4086,
+          "mile": 0.06
+        },
+        {
+          "name": "Elephant Head",
+          "type": "viewpoint",
+          "lat": 44.21358,
+          "lon": -71.40631,
+          "mile": 0.36
+        },
+        {
+          "name": "Bugle Cliff",
+          "type": "cliff",
+          "lat": 44.21218,
+          "lon": -71.40195,
+          "mile": 0.56
+        },
+        {
+          "name": "Bugle Cliff",
+          "type": "viewpoint",
+          "lat": 44.21216,
+          "lon": -71.40191,
+          "mile": 0.56
+        },
+        {
+          "name": "Flume Cascade",
+          "type": "waterfall",
+          "lat": 44.20887,
+          "lon": -71.40279,
+          "mile": 0.74
+        },
+        {
+          "name": "Silver Cascade",
+          "type": "viewpoint",
+          "lat": 44.20684,
+          "lon": -71.40303,
+          "mile": 0.87
+        },
+        {
+          "name": "Scenic Vista",
+          "type": "viewpoint",
+          "lat": 44.18172,
+          "lon": -71.39889,
+          "mile": 2.72
+        },
+        {
+          "name": "Mount Willey",
+          "type": "summit",
+          "lat": 44.18344,
+          "lon": -71.42097,
+          "mile": 5.04
+        }
+      ]
     },
     {
       "id": "a8f5c9e5",
@@ -3558,6 +3619,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

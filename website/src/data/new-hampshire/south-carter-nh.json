@@ -85,12 +85,16 @@
       "elevation_gain": 2989,
       "description": "Route via Carter Notch Hut to South Carter.",
       "tags": [],
-      "parking_info": "Nineteen Mile Brook Trailhead, NH-16",
+      "parking_info": "Nineteen Mile Brook TH",
       "parking_details": {
         "capacity": "Medium (~25 cars)",
         "status": "Check conditions",
         "fee": "Free (WMNF)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.30238,
+          -71.22089
+        ]
       },
       "start_lat": 44.3012,
       "start_lon": -71.2032,
@@ -1948,9 +1952,8 @@
         ],
         "markers": {
           "start": [
-            44.304259,
-            -71.207004,
-            1980
+            44.31124,
+            -71.22033
           ],
           "summit": [
             44.2886,
@@ -1959,7 +1962,15 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "South Carter Mountain",
+          "type": "summit",
+          "lat": 44.28987,
+          "lon": -71.17642,
+          "mile": 5.65
+        }
+      ]
     }
   ],
   "seo": {
@@ -2285,6 +2296,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

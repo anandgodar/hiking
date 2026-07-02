@@ -3286,7 +3286,79 @@
           ]
         }
       },
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "features": [
+        {
+          "name": "Howard Lean-to",
+          "type": "hut",
+          "lat": 44.16181,
+          "lon": -73.85582,
+          "mile": 2.99
+        },
+        {
+          "name": "Goodwin Lean-To",
+          "type": "hut",
+          "lat": 44.15948,
+          "lon": -73.86004,
+          "mile": 3.15
+        },
+        {
+          "name": "Myers Lean-To",
+          "type": "hut",
+          "lat": 44.15947,
+          "lon": -73.86049,
+          "mile": 3.17
+        },
+        {
+          "name": "Big Slide Lookout",
+          "type": "viewpoint",
+          "lat": 44.18233,
+          "lon": -73.87046,
+          "mile": 5.13
+        },
+        {
+          "name": "Big Slide Mountain",
+          "type": "summit",
+          "lat": 44.1822,
+          "lon": -73.8709,
+          "mile": 5.15
+        },
+        {
+          "name": "Big Slide Lookout West",
+          "type": "viewpoint",
+          "lat": 44.18101,
+          "lon": -73.87499,
+          "mile": 5.31
+        },
+        {
+          "name": "Third Brother",
+          "type": "summit",
+          "lat": 44.18717,
+          "lon": -73.85114,
+          "mile": 6.64
+        },
+        {
+          "name": "Second Brother",
+          "type": "summit",
+          "lat": 44.19174,
+          "lon": -73.84027,
+          "mile": 7.36
+        },
+        {
+          "name": "First Brother",
+          "type": "summit",
+          "lat": 44.19046,
+          "lon": -73.83704,
+          "mile": 7.56
+        },
+        {
+          "name": "The Brothers",
+          "type": "summit",
+          "lat": 44.19029,
+          "lon": -73.83506,
+          "mile": 7.67
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -3296,7 +3368,8 @@
     "elevation_source": "USGS Benchmark - Big Slide Mountain Summit (4,240 ft)",
     "gps_source": "USGS Topographic Map - Mount Marcy Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
-    "notes": "Elevation (4,240 ft) from USGS benchmark. Named for massive landslide on its side. Trail distance from NYS DEC and Adirondack Mountain Club guidebooks. Part of Adirondack 46ers list."
+    "notes": "Elevation (4,240 ft) from USGS benchmark. Named for massive landslide on its side. Trail distance from NYS DEC and Adirondack Mountain Club guidebooks. Part of Adirondack 46ers list.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Big Slide Mountain Trail Guide | Map, Route & Conditions",

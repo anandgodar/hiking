@@ -1315,7 +1315,22 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mount Blue",
+          "type": "summit",
+          "lat": 44.0309,
+          "lon": -71.82036,
+          "mile": 0.46
+        },
+        {
+          "name": "Mount Moosilauke",
+          "type": "summit",
+          "lat": 44.02341,
+          "lon": -71.83143,
+          "mile": 1.56
+        }
+      ]
     },
     {
       "id": "6a4b6533",
@@ -5456,6 +5471,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

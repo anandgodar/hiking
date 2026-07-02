@@ -5,16 +5,27 @@
  * FIXED: Links now use dynamic state pattern
  * NOTE: For truly dynamic links, this would need to receive available states as props
  */
+import { isPublishReady } from '../lib/publishReady.js';
+
 const currentYear = new Date().getFullYear();
 
-// Available states - this could be passed as props in a production setup
-const availableStates = [
-  { slug: 'california', name: 'California' },
-  { slug: 'new-hampshire', name: 'New Hampshire' },
-  { slug: 'maine', name: 'Maine' },
-  { slug: 'vermont', name: 'Vermont' },
-  { slug: 'new-york', name: 'New York' },
-];
+// Top states by published-trail count, computed from the data — the footer
+// was hardcoded to the original 5 states while 40+ more went live.
+const allFiles = import.meta.glob('../data/*/*.json', { eager: true });
+const counts = {};
+const names = {};
+Object.values(allFiles).forEach(mod => {
+  const m = mod.default || mod;
+  if (!m || !isPublishReady(m)) return;
+  const slug = m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug;
+  counts[slug] = (counts[slug] || 0) + 1;
+  names[slug] = m.state ||
+    slug.split('-').map(w => w[0].toUpperCase() + w.slice(1)).join(' ');
+});
+const availableStates = Object.keys(counts)
+  .sort((a, b) => counts[b] - counts[a])
+  .slice(0, 8)
+  .map(slug => ({ slug, name: names[slug] }));
 
 // Default state for category links (first available)
 const defaultState = 'new-hampshire';

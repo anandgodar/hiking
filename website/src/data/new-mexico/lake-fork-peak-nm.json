@@ -32,8 +32,8 @@
       "geo": {
         "markers": {
           "start": [
-            36.60193,
-            -105.41133
+            36.61124,
+            -105.41246
           ],
           "summit": [
             36.55031,
@@ -770,7 +770,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Wheeler Peak",
+          "type": "summit",
+          "lat": 36.55689,
+          "lon": -105.41681,
+          "mile": 6.05
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 12,890 feet, <strong>Lake Fork Peak</strong> is a destination in New Mexico. The Lake Fork Peak Trail is a 2.0-mile hike with about 954 feet of elevation gain. Nearby peaks include Vallecito Mountain, Wheeler Peak and Simpson Peak. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",

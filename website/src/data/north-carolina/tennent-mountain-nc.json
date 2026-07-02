@@ -770,7 +770,29 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Flower Knob",
+          "type": "summit",
+          "lat": 35.3592,
+          "lon": -82.86426,
+          "mile": 0.99
+        },
+        {
+          "name": "Grassy Cove Top",
+          "type": "summit",
+          "lat": 35.34844,
+          "lon": -82.86402,
+          "mile": 1.79
+        },
+        {
+          "name": "Tennent Mountain",
+          "type": "summit",
+          "lat": 35.33705,
+          "lon": -82.86902,
+          "mile": 2.59
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Tennent Mountain</strong> is a 6,056-foot summit in North Carolina. The Tennent Mountain Trail is a 4.2-mile hike with about 315 feet of elevation gain. Nearby peaks include Grassy Cove Top, Mount Hardy and Richland Balsam. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -903,7 +925,8 @@
     "gps_source": "USFS National Forest System Trails (public domain)",
     "osm_node": "https://www.openstreetmap.org/node/357809407",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357809407,

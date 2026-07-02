@@ -1431,7 +1431,44 @@
           ]
         }
       },
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "coords": [
+          44.13712,
+          -73.74253
+        ]
+      },
+      "features": [
+        {
+          "name": "Ridge Lookout",
+          "type": "viewpoint",
+          "lat": 44.14056,
+          "lon": -73.73922,
+          "mile": 0.55
+        },
+        {
+          "name": "Giant East Slide Lookout",
+          "type": "viewpoint",
+          "lat": 44.15919,
+          "lon": -73.71668,
+          "mile": 2.57
+        },
+        {
+          "name": "Giant Mountain",
+          "type": "summit",
+          "lat": 44.16116,
+          "lon": -73.72024,
+          "mile": 2.69
+        },
+        {
+          "name": "Giant Mountain",
+          "type": "viewpoint",
+          "lat": 44.16109,
+          "lon": -73.72025,
+          "mile": 2.69
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -1441,7 +1478,8 @@
     "elevation_source": "USGS Benchmark - Giant Mountain Summit (4,627 ft)",
     "gps_source": "USGS Topographic Map - Elizabethtown Quadrangle",
     "distance_source": "NYS DEC trail guides and ADK High Peaks map",
-    "notes": "Elevation (4,627 ft) from USGS benchmark. Known for spectacular views and rocky ridge trail. Trail distance from NYS DEC and Adirondack Mountain Club guidebooks. Part of Adirondack 46ers."
+    "notes": "Elevation (4,627 ft) from USGS benchmark. Known for spectacular views and rocky ridge trail. Trail distance from NYS DEC and Adirondack Mountain Club guidebooks. Part of Adirondack 46ers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Giant Mountain Trail Guide | Map, Route & Conditions",

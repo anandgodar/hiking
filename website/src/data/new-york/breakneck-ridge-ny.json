@@ -264,7 +264,14 @@
           ]
         }
       },
-      "difficulty": "Hard"
+      "difficulty": "Hard",
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "coords": [
+          41.44785,
+          -73.98037
+        ]
+      }
     }
   ],
   "data_sources": {
@@ -274,7 +281,8 @@
     "elevation_source": "USGS - Breakneck Ridge (1,260 ft)",
     "gps_source": "USGS Topographic Map - West Point Quadrangle",
     "distance_source": "NY-NJ Trail Conference maps and NYS Parks",
-    "notes": "Elevation (1,260 ft) from USGS topo. Most famous rock scramble in NYC metro area. Trail distance from NY-NJ Trail Conference maps and NYS Parks. Train accessible via Metro-North Hudson Line."
+    "notes": "Elevation (1,260 ft) from USGS topo. Most famous rock scramble in NYC metro area. Trail distance from NY-NJ Trail Conference maps and NYS Parks. Train accessible via Metro-North Hudson Line.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Breakneck Ridge Trail Guide | Map, Route & Conditions",

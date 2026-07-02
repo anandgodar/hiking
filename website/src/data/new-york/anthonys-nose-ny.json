@@ -1470,9 +1470,8 @@
         ],
         "markers": {
           "start": [
-            41.31417,
-            -73.96791,
-            446
+            41.32253,
+            -73.97606
           ],
           "summit": [
             41.322,
@@ -1481,7 +1480,30 @@
           ]
         }
       },
-      "difficulty": "Moderate"
+      "difficulty": "Moderate",
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "coords": [
+          41.31395,
+          -73.98719
+        ]
+      },
+      "features": [
+        {
+          "name": "Sceenic Overlook Pointe - Camp Smith",
+          "type": "viewpoint",
+          "lat": 41.31179,
+          "lon": -73.97072,
+          "mile": 0.66
+        },
+        {
+          "name": "Anthony's Nose",
+          "type": "summit",
+          "lat": 41.31832,
+          "lon": -73.97466,
+          "mile": 1.15
+        }
+      ]
     }
   ],
   "data_sources": {
@@ -1491,7 +1513,8 @@
     "elevation_source": "USGS - Anthony's Nose (900 ft)",
     "gps_source": "USGS Topographic Map - Peekskill Quadrangle",
     "distance_source": "NY-NJ Trail Conference maps and NYS Parks",
-    "notes": "Elevation (900 ft) from USGS topo. Overlooks Bear Mountain Bridge and Hudson River. Trail distance from NY-NJ Trail Conference Appalachian Trail maps. Part of AT corridor."
+    "notes": "Elevation (900 ft) from USGS topo. Overlooks Bear Mountain Bridge and Hudson River. Trail distance from NY-NJ Trail Conference Appalachian Trail maps. Part of AT corridor.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "seo": {
     "meta_title": "Anthony's Nose Trail Guide | Map, Route & Conditions",

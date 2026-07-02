@@ -111,7 +111,11 @@
         "capacity": "Large (100+ cars)",
         "status": "Check conditions",
         "fee": "Free (WMNF)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.26559,
+          -71.236
+        ]
       },
       "start_lat": 44.2575,
       "start_lon": -71.2532,
@@ -1466,9 +1470,8 @@
         ],
         "markers": {
           "start": [
-            44.257449,
-            -71.253098,
-            2028
+            44.24565,
+            -71.25365
           ],
           "summit": [
             44.2511,
@@ -1477,7 +1480,36 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Ladies\u2019 Lookout",
+          "type": "viewpoint",
+          "lat": 44.25654,
+          "lon": -71.25084,
+          "mile": 0.07
+        },
+        {
+          "name": "Glen Ellis Falls",
+          "type": "waterfall",
+          "lat": 44.24423,
+          "lon": -71.25247,
+          "mile": 1.01
+        },
+        {
+          "name": "Wildcat E",
+          "type": "summit",
+          "lat": 44.2476,
+          "lon": -71.22707,
+          "mile": 2.49
+        },
+        {
+          "name": "Wildcat D",
+          "type": "summit",
+          "lat": 44.24941,
+          "lon": -71.22359,
+          "mile": 2.71
+        }
+      ]
     },
     {
       "id": "ac351f27",
@@ -2613,6 +2645,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }

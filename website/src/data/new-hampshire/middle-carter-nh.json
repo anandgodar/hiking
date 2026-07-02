@@ -85,12 +85,16 @@
       "elevation_gain": 2823,
       "description": "Wooded summit on the Carter Range traverse.",
       "tags": [],
-      "parking_info": "Nineteen Mile Brook Trailhead, NH-16",
+      "parking_info": "Imp trailhead (North)",
       "parking_details": {
         "capacity": "Medium (~25 cars)",
         "status": "Check conditions",
         "fee": "Free (WMNF)",
-        "shuttle": null
+        "shuttle": null,
+        "coords": [
+          44.32325,
+          -71.21692
+        ]
       },
       "start_lat": 44.3012,
       "start_lon": -71.2032,
@@ -1634,7 +1638,22 @@
           ]
         }
       },
-      "features": []
+      "features": [
+        {
+          "name": "Mount Lethe",
+          "type": "summit",
+          "lat": 44.30736,
+          "lon": -71.16631,
+          "mile": 2.73
+        },
+        {
+          "name": "Middle Carter Mountain",
+          "type": "summit",
+          "lat": 44.30308,
+          "lon": -71.16771,
+          "mile": 3.1
+        }
+      ]
     }
   ],
   "seo": {
@@ -1960,6 +1979,7 @@
     "elevation_source": "USGS Benchmark",
     "gps_source": "USGS Topographic Map",
     "distance_source": "AMC White Mountain Guide and WMNF trail maps",
-    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers."
+    "notes": "Trail data from White Mountain National Forest official maps and AMC White Mountain Guide. Elevations from USGS benchmarks. Part of Presidential Range and White Mountain 4000-footers.",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   }
 }
