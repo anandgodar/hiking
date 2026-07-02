@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Hoye-Crest",
+  "slug": "hoye-crest-md",
+  "state": "Maryland",
+  "state_slug": "maryland",
+  "elevation": 3369,
+  "lat": 39.23753,
+  "lon": -79.48537,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Hoye-Crest Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.23753,
+            -79.48537
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Hoye-Crest</strong> is a 3,369-foot summit in Maryland. Nearby peaks include Roth Rock, Allegheny Heights and The Little Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Roth Rock",
+      "slug": "roth-rock-md",
+      "state_slug": "maryland",
+      "elevation": 3225,
+      "distance_miles": 2.5
+    },
+    {
+      "name": "Allegheny Heights",
+      "slug": "allegheny-heights-md",
+      "state_slug": "maryland",
+      "elevation": 3205,
+      "distance_miles": 8.7
+    },
+    {
+      "name": "The Little Mountain",
+      "slug": "the-little-mountain-md",
+      "state_slug": "maryland",
+      "elevation": 2927,
+      "distance_miles": 13.3
+    },
+    {
+      "name": "Mount Nebo",
+      "slug": "mount-nebo-md",
+      "state_slug": "maryland",
+      "elevation": 2828,
+      "distance_miles": 14.6
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Hoye-Crest Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Hoye-Crest hike with current conditions, trail map & parking info. Maryland summit at 3,369 ft.",
+    "canonical_url": "/trails/maryland/hoye-crest-md",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Hoye-Crest",
+      "description": "Hoye-Crest is a 3,369 foot peak in Maryland offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.23753,
+        "longitude": -79.48537,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3369,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maryland",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Hoye-Crest Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Hoye-Crest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Hoye-Crest Trail on Hoye-Crest is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Hoye-Crest hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hoye-Crest is rated Moderate. At 3,369 feet, plan for the terrain and weather typical of Maryland peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Hoye-Crest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Hoye-Crest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Hoye-Crest Trail, a  moderate hike to the Hoye-Crest summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Hoye-Crest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Hoye-Crest. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358253848",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358253848",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358253848,
+    "prominence_m": null,
+    "wikidata": "Q658808"
+  }
+}

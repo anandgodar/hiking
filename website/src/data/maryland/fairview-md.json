@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Fairview",
+  "slug": "fairview-md",
+  "state": "Maryland",
+  "state_slug": "maryland",
+  "elevation": 2700,
+  "lat": 39.511,
+  "lon": -78.96758,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Fairview Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.511,
+            -78.96758
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Fairview</strong> rises to 2,700 feet in Maryland. Nearby peaks include Wolf Rock, Dans Rock and High Rock. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Wolf Rock",
+      "slug": "wolf-rock-md",
+      "state_slug": "maryland",
+      "elevation": 2730,
+      "distance_miles": 4.5
+    },
+    {
+      "name": "Dans Rock",
+      "slug": "dans-rock-md",
+      "state_slug": "maryland",
+      "elevation": 2897,
+      "distance_miles": 6.2
+    },
+    {
+      "name": "High Rock",
+      "slug": "high-rock-md",
+      "state_slug": "maryland",
+      "elevation": 2986,
+      "distance_miles": 7.2
+    },
+    {
+      "name": "Big Savage Mountain",
+      "slug": "big-savage-mountain-md",
+      "state_slug": "maryland",
+      "elevation": 2995,
+      "distance_miles": 7.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Fairview Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Fairview hike with current conditions, trail map & parking info. Maryland summit at 2,700 ft.",
+    "canonical_url": "/trails/maryland/fairview-md",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Fairview",
+      "description": "Fairview is a 2,700 foot peak in Maryland offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.511,
+        "longitude": -78.96758,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2700,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maryland",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Fairview Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Fairview?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Fairview Trail on Fairview is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Fairview hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fairview is rated Moderate. At 2,700 feet, plan for the terrain and weather typical of Maryland peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Fairview?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Fairview?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Fairview Trail, a  moderate hike to the Fairview summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Fairview?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Fairview. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358241522",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358241522",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358241522,
+    "prominence_m": null,
+    "wikidata": "Q31599220"
+  }
+}

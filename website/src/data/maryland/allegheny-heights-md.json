@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Allegheny Heights",
+  "slug": "allegheny-heights-md",
+  "state": "Maryland",
+  "state_slug": "maryland",
+  "elevation": 3205,
+  "lat": 39.33284,
+  "lon": -79.37951,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Allegheny Heights Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            39.33284,
+            -79.37951
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Allegheny Heights</strong> rises to 3,205 feet in Maryland. Nearby peaks include The Little Mountain, Roth Rock and Mount Nebo. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "The Little Mountain",
+      "slug": "the-little-mountain-md",
+      "state_slug": "maryland",
+      "elevation": 2927,
+      "distance_miles": 4.6
+    },
+    {
+      "name": "Roth Rock",
+      "slug": "roth-rock-md",
+      "state_slug": "maryland",
+      "elevation": 3225,
+      "distance_miles": 6.2
+    },
+    {
+      "name": "Mount Nebo",
+      "slug": "mount-nebo-md",
+      "state_slug": "maryland",
+      "elevation": 2828,
+      "distance_miles": 7.4
+    },
+    {
+      "name": "Eagle Rock",
+      "slug": "eagle-rock-md",
+      "state_slug": "maryland",
+      "elevation": 3127,
+      "distance_miles": 7.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Allegheny Heights Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Allegheny Heights hike with current conditions, trail map & parking info. Maryland summit at 3,205 ft.",
+    "canonical_url": "/trails/maryland/allegheny-heights-md",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Allegheny Heights",
+      "description": "Allegheny Heights is a 3,205 foot peak in Maryland offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.33284,
+        "longitude": -79.37951,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3205,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maryland",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Allegheny Heights Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Allegheny Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Allegheny Heights Trail on Allegheny Heights is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Allegheny Heights hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Allegheny Heights is rated Moderate. At 3,205 feet, plan for the terrain and weather typical of Maryland peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Allegheny Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Allegheny Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Allegheny Heights Trail, a  moderate hike to the Allegheny Heights summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Allegheny Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Allegheny Heights. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358241452",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/358241452",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 358241452,
+    "prominence_m": null,
+    "wikidata": "Q31598329"
+  }
+}
