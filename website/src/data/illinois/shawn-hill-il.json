@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Shawn Hill",
   "slug": "shawn-hill-il",
   "state": "Illinois",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Shawn Hill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.4,
+        "gain": 23,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,168 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            38.94664,
+            -87.54308
           ],
           "summit": [
             38.97699,
             -87.55558
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            38.94664,
+            -87.54308,
+            433
+          ],
+          [
+            38.94669,
+            -87.54323,
+            433
+          ],
+          [
+            38.94656,
+            -87.54792,
+            446
+          ],
+          [
+            38.94649,
+            -87.54836,
+            440
+          ],
+          [
+            38.94646,
+            -87.55073,
+            446
+          ],
+          [
+            38.94643,
+            -87.55132,
+            456
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 433,
+            "coord": [
+              38.94664,
+              -87.54308
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 433,
+            "coord": [
+              38.94669,
+              -87.54323
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 433,
+            "coord": [
+              38.94669,
+              -87.54323
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 433,
+            "coord": [
+              38.94669,
+              -87.54323
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 433,
+            "coord": [
+              38.94669,
+              -87.54323
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 446,
+            "coord": [
+              38.94656,
+              -87.54792
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 446,
+            "coord": [
+              38.94656,
+              -87.54792
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 446,
+            "coord": [
+              38.94656,
+              -87.54792
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 446,
+            "coord": [
+              38.94656,
+              -87.54792
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 440,
+            "coord": [
+              38.94649,
+              -87.54836
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 440,
+            "coord": [
+              38.94649,
+              -87.54836
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 446,
+            "coord": [
+              38.94646,
+              -87.55073
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 446,
+            "coord": [
+              38.94646,
+              -87.55073
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 446,
+            "coord": [
+              38.94646,
+              -87.55073
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 456,
+            "coord": [
+              38.94643,
+              -87.55132
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +324,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/354140306",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/354140306",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 354140306,

@@ -6,7 +6,7 @@
   "elevation": 12352,
   "lat": 36.62978,
   "lon": -105.21319,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Philmont%20Scout%20Ranch%20Baldy%20Mountain%20from%20Copper%20Park.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 3.9,
         "gain": 1958,
-        "time": null,
+        "time": 2.5,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 357591927,
     "prominence_m": null,
     "wikidata": "Q4850647"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Philmont%20Scout%20Ranch%20Baldy%20Mountain%20from%20Copper%20Park.jpg",
+    "license": "CC BY 2.5",
+    "artist": "AwBaseball25 at English Wikipedia"
   }
 }

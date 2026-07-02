@@ -6,7 +6,7 @@
   "elevation": 14252,
   "lat": 37.83921,
   "lon": -107.99163,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/San%20Miguel%20Mountains.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 6.4,
         "gain": 3671,
-        "time": null,
+        "time": 4.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -889,5 +889,11 @@
     "id": 358923083,
     "prominence_m": null,
     "wikidata": "Q6924620"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:San%20Miguel%20Mountains.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Debivort at en.wikipedia"
   }
 }

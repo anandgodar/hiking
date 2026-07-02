@@ -6,7 +6,7 @@
   "elevation": 2956,
   "lat": 42.66814,
   "lon": -73.15816,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Williams%20in%20the%20Greylock%20Range.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 11.0,
         "gain": 2805,
-        "time": null,
+        "time": 5.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -946,5 +946,11 @@
     "id": 358269840,
     "prominence_m": null,
     "wikidata": "Q6924606"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Williams%20in%20the%20Greylock%20Range.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ericshawwhite"
   }
 }

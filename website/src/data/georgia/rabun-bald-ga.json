@@ -6,7 +6,7 @@
   "elevation": 4695,
   "lat": 34.96549,
   "lon": -83.29979,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabun%20Bald%20viewed%20from%20Sky%20Valley%2C%20Georgia.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 2.7,
         "gain": 2133,
-        "time": null,
+        "time": 2.0,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -918,5 +918,11 @@
     "id": 358714127,
     "prominence_m": null,
     "wikidata": "Q7278818"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Rabun%20Bald%20viewed%20from%20Sky%20Valley%2C%20Georgia.jpg",
+    "license": "CC0",
+    "artist": "Thomson200"
   }
 }

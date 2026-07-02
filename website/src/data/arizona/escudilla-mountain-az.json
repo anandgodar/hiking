@@ -6,7 +6,7 @@
   "elevation": 10912,
   "lat": 33.95676,
   "lon": -109.12644,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Profanity%20Ridge%20on%20Escudilla%20Mt%2C%20Apache-Sitgreaves%20NF%2C%20AZ%20%2828222179505%29.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 2.9,
         "gain": 1213,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -918,5 +918,11 @@
     "id": 359265595,
     "prominence_m": null,
     "wikidata": "Q5397433"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Profanity%20Ridge%20on%20Escudilla%20Mt%2C%20Apache-Sitgreaves%20NF%2C%20AZ%20%2828222179505%29.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Chris M Morris"
   }
 }

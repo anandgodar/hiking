@@ -6,7 +6,7 @@
   "elevation": 9774,
   "lat": 31.8459,
   "lon": -109.29133,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiricahua%20Peak%20from%20the%20Chiricahua%20Helispot.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 0.7,
         "gain": 430,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "",
@@ -920,5 +920,11 @@
     "id": 359244307,
     "prominence_m": null,
     "wikidata": "Q5101895"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Chiricahua%20Peak%20from%20the%20Chiricahua%20Helispot.jpg",
+    "license": "CC0",
+    "artist": "BubbaJuice"
   }
 }

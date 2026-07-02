@@ -6,7 +6,7 @@
   "elevation": 14203,
   "lat": 37.96472,
   "lon": -105.57667,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Crestone%20needle%20and%20lower%20south%20colony%20lake%202008.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 2.9,
         "gain": 1362,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -918,5 +918,11 @@
     "id": 358944415,
     "prominence_m": null,
     "wikidata": "Q945543"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Crestone%20needle%20and%20lower%20south%20colony%20lake%202008.JPG",
+    "license": "Public domain",
+    "artist": "Meniscus"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 9419,
   "lat": 47.47515,
   "lon": -120.90199,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Stuart%207814p.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 4.2,
         "gain": 1807,
-        "time": null,
+        "time": 2.5,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -910,5 +910,11 @@
     "id": 348974307,
     "prominence_m": "1632",
     "wikidata": "Q1493735"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Stuart%207814p.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Walter Siegmund (talk)"
   }
 }

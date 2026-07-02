@@ -15,8 +15,8 @@
       "difficulty": "",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
+        "distance": 1.0,
+        "gain": 10,
         "time": null,
         "difficulty": ""
       },
@@ -33,16 +33,153 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            37.82472,
+            -96.9139
           ],
           "summit": [
             37.83613,
             -96.88559
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            37.82472,
+            -96.9139,
+            1368
+          ],
+          [
+            37.83576,
+            -96.91393,
+            1368
+          ],
+          [
+            37.83934,
+            -96.91395,
+            1378
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1368,
+            "coord": [
+              37.82472,
+              -96.9139
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 1368,
+            "coord": [
+              37.82472,
+              -96.9139
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 1368,
+            "coord": [
+              37.82472,
+              -96.9139
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 1368,
+            "coord": [
+              37.82472,
+              -96.9139
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 1368,
+            "coord": [
+              37.82472,
+              -96.9139
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 1368,
+            "coord": [
+              37.82472,
+              -96.9139
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 1368,
+            "coord": [
+              37.83576,
+              -96.91393
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 1368,
+            "coord": [
+              37.83576,
+              -96.91393
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 1368,
+            "coord": [
+              37.83576,
+              -96.91393
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 1368,
+            "coord": [
+              37.83576,
+              -96.91393
+            ]
+          },
+          {
+            "mile": 0.72,
+            "elev": 1368,
+            "coord": [
+              37.83576,
+              -96.91393
+            ]
+          },
+          {
+            "mile": 0.79,
+            "elev": 1368,
+            "coord": [
+              37.83576,
+              -96.91393
+            ]
+          },
+          {
+            "mile": 0.87,
+            "elev": 1368,
+            "coord": [
+              37.83576,
+              -96.91393
+            ]
+          },
+          {
+            "mile": 0.94,
+            "elev": 1378,
+            "coord": [
+              37.83934,
+              -96.91395
+            ]
+          },
+          {
+            "mile": 1.01,
+            "elev": 1378,
+            "coord": [
+              37.83934,
+              -96.91395
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -144,10 +281,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/358628416",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/358628416",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 358628416,

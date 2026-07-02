@@ -6,7 +6,7 @@
   "elevation": 11916,
   "lat": 36.27163,
   "lon": -115.69549,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Charleston%20vertical.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 8.3,
         "gain": 3117,
-        "time": null,
+        "time": 4.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -911,5 +911,11 @@
     "id": 8220352619,
     "prominence_m": "2512",
     "wikidata": "Q978970"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Charleston%20vertical.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Stan Shebs"
   }
 }

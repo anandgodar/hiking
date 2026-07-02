@@ -6,7 +6,7 @@
   "elevation": 2946,
   "lat": 40.3223,
   "lon": -78.55946,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Schaefer%20Head%20as%20seen%20from%20Blue%20Knob.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 3.4,
         "gain": 1031,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -918,5 +918,11 @@
     "id": 357311602,
     "prominence_m": null,
     "wikidata": "Q7430895"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Schaefer%20Head%20as%20seen%20from%20Blue%20Knob.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Joe Calzarette"
   }
 }

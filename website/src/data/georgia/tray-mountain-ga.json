@@ -6,7 +6,7 @@
   "elevation": 4419,
   "lat": 34.80151,
   "lon": -83.68417,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Tray%20Mountain%20viewed%20from%20Brasstown%20Bald.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 7.5,
         "gain": 1211,
-        "time": null,
+        "time": 3.0,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -939,5 +939,11 @@
     "id": 358714971,
     "prominence_m": null,
     "wikidata": "Q7836482"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Tray%20Mountain%20viewed%20from%20Brasstown%20Bald.jpg",
+    "license": "CC0",
+    "artist": "Thomson200"
   }
 }

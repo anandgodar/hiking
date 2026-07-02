@@ -6,7 +6,7 @@
   "elevation": 2602,
   "lat": 42.10176,
   "lon": -73.4329,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/MountEverettBearsDenRd.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 0.7,
         "gain": 105,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "",
@@ -423,5 +423,11 @@
     "id": 358276362,
     "prominence_m": null,
     "wikidata": "Q6920705"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:MountEverettBearsDenRd.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Telekineticturtle"
   }
 }

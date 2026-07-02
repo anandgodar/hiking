@@ -6,7 +6,7 @@
   "elevation": 13146,
   "lat": 37.84609,
   "lon": -118.35131,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Boundary%20Peak%20Nevada%20USA.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.6,
         "gain": 892,
-        "time": null,
+        "time": 1.0,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -880,5 +880,11 @@
     "id": 357556104,
     "prominence_m": null,
     "wikidata": "Q573205"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Boundary%20Peak%20Nevada%20USA.jpg",
+    "license": "Public domain",
+    "artist": "An63ca (talk\u00a0\u00b7 contribs)"
   }
 }

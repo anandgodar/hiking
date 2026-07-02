@@ -6,7 +6,7 @@
   "elevation": 11460,
   "lat": 35.32979,
   "lon": -111.64616,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Doyle%20Peak%20and%20Fremont%20Peak%20from%20the%20east%20side%20of%20Agassiz%20Peak.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 9.7,
         "gain": 3894,
-        "time": null,
+        "time": 5.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -911,5 +911,11 @@
     "id": 359265120,
     "prominence_m": null,
     "wikidata": "Q5303772"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Doyle%20Peak%20and%20Fremont%20Peak%20from%20the%20east%20side%20of%20Agassiz%20Peak.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Alan English CPA from Scottsdale, Arizona 85254, USA"
   }
 }

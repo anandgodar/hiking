@@ -6,7 +6,7 @@
   "elevation": 14178,
   "lat": 39.3354,
   "lon": -106.10762,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt%20Bross.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.8,
         "gain": 1988,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -903,5 +903,11 @@
     "id": 358914754,
     "prominence_m": null,
     "wikidata": "Q6919868"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mt%20Bross.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Matt Vincent at English Wikipedia"
   }
 }

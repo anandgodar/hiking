@@ -6,7 +6,7 @@
   "elevation": 12536,
   "lat": 45.08883,
   "lon": -109.58767,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20Tail%20%28271723635%29.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 8.0,
         "gain": 3113,
-        "time": null,
+        "time": 4.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -925,5 +925,11 @@
     "id": 357940576,
     "prominence_m": null,
     "wikidata": "Q28056262"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:White%20Tail%20%28271723635%29.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Brent"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 7772,
   "lat": 47.81315,
   "lon": -123.23351,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Deception%20from%20Deception%20Creek.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.8,
         "gain": 552,
-        "time": null,
+        "time": 1.0,
         "difficulty": "Easy"
       },
       "parking_info": "",
@@ -735,5 +735,11 @@
     "id": 356544726,
     "prominence_m": "1258",
     "wikidata": "Q531490"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Deception%20from%20Deception%20Creek.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ron Clausen"
   }
 }

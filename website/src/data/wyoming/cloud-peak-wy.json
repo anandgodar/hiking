@@ -6,7 +6,7 @@
   "elevation": 13179,
   "lat": 44.38219,
   "lon": -107.17395,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Big%20Horns.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 8.1,
         "gain": 1683,
-        "time": null,
+        "time": 3.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -784,7 +784,7 @@
     }
   },
   "seo": {
-    "meta_title": "Cloud Peak Trail Guide | Map, Route & Conditions",
+    "meta_title": "Cloud Peak Trail Guide (Wyoming) | Map, Route & Conditions",
     "meta_description": "Plan your Cloud Peak hike with current conditions, trail map & parking info. Wyoming summit at 13,179 ft.",
     "canonical_url": "/trails/wyoming/cloud-peak-wy",
     "schema_place": {
@@ -880,5 +880,11 @@
     "id": 356500275,
     "prominence_m": "2157",
     "wikidata": "Q5135676"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:The%20Big%20Horns.jpg",
+    "license": "Public domain",
+    "artist": "Ttharp at en.wikipedia"
   }
 }

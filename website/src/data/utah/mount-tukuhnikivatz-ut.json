@@ -6,7 +6,7 @@
   "elevation": 12500,
   "lat": 38.43962,
   "lon": -109.26008,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Tukuhnikivatz%20sunset.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.7,
         "gain": 1486,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -902,5 +902,11 @@
     "id": 356684367,
     "prominence_m": null,
     "wikidata": "Q49054948"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Tukuhnikivatz%20sunset.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Erik Wilde"
   }
 }

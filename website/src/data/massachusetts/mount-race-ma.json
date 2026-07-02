@@ -6,7 +6,7 @@
   "elevation": 2372,
   "lat": 42.08204,
   "lon": -73.43206,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20view%20from%20Mount%20Race.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.3,
         "gain": 1027,
-        "time": null,
+        "time": 1.0,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -800,5 +800,11 @@
     "id": 358269711,
     "prominence_m": null,
     "wikidata": "Q6923116"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:A%20view%20from%20Mount%20Race.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Downward Dingo"
   }
 }

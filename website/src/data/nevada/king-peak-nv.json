@@ -6,7 +6,7 @@
   "elevation": 10912,
   "lat": 40.4766,
   "lon": -115.47061,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/KingPeakNV.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 4.4,
         "gain": 2067,
-        "time": null,
+        "time": 2.5,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 357558277,
     "prominence_m": null,
     "wikidata": "Q6411935"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:KingPeakNV.jpg",
+    "license": "Public domain",
+    "artist": "G. Thomas at English Wikipedia"
   }
 }

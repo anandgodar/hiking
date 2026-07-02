@@ -6,7 +6,7 @@
   "elevation": 1129,
   "lat": 40.91954,
   "lon": -74.90767,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/2013-05-06%2017%2002%2010%20View%20of%20Jenny%20Jump%20Mountain%20and%20Jenny%20Jump%20State%20Forest%20from%20Hope%20Road%20near%20Great%20Meadows%2C%20New%20Jersey.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 2.7,
         "gain": 557,
-        "time": null,
+        "time": 1.0,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 357724107,
     "prominence_m": null,
     "wikidata": "Q34876363"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:2013-05-06%2017%2002%2010%20View%20of%20Jenny%20Jump%20Mountain%20and%20Jenny%20Jump%20State%20Forest%20from%20Hope%20Road%20near%20Great%20Meadows%2C%20New%20Jersey.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Famartin"
   }
 }

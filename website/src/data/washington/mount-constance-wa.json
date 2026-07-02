@@ -6,7 +6,7 @@
   "elevation": 7756,
   "lat": 47.77268,
   "lon": -123.12729,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt%20Constance%20Dosewallips%20River.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 6.7,
         "gain": 4180,
-        "time": null,
+        "time": 4.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -895,5 +895,11 @@
     "id": 356544624,
     "prominence_m": "602",
     "wikidata": "Q116229"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mt%20Constance%20Dosewallips%20River.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "BlueCanoe"
   }
 }

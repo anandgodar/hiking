@@ -6,7 +6,7 @@
   "elevation": 6360,
   "lat": 35.715,
   "lon": -83.25524,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Appalachian-Trail-OldBlack.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 10.6,
         "gain": 1739,
-        "time": null,
+        "time": 4.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 9049437152,
     "prominence_m": null,
     "wikidata": "Q7083479"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Appalachian-Trail-OldBlack.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Brian Stansberry"
   }
 }

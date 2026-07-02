@@ -6,7 +6,7 @@
   "elevation": 12220,
   "lat": 44.06601,
   "lon": -113.71336,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/PashimeroiValleyID%20with%20labels.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 3.9,
         "gain": 1738,
-        "time": null,
+        "time": 2.0,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 7824442416,
     "prominence_m": null,
     "wikidata": "Q6920146"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:PashimeroiValleyID%20with%20labels.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "G. Thomas \n\nFredlyfish4"
   }
 }

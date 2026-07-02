@@ -6,7 +6,7 @@
   "elevation": 9738,
   "lat": 42.63581,
   "lon": -118.57636,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/SteensMountainOR.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 0.5,
         "gain": 236,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "",
@@ -702,5 +702,11 @@
     "id": 357288936,
     "prominence_m": "1336",
     "wikidata": "Q2335876"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:SteensMountainOR.jpg",
+    "license": "Public domain",
+    "artist": "G. Thomas at English Wikipedia"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 14170,
   "lat": 37.97972,
   "lon": -105.60251,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Kit%20carson%20from%20between.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 3.0,
         "gain": 2057,
-        "time": null,
+        "time": 2.0,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 358945056,
     "prominence_m": null,
     "wikidata": "Q3382311"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Kit%20carson%20from%20between.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Adam Ginsburg"
   }
 }

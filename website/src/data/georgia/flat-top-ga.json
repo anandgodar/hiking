@@ -6,7 +6,7 @@
   "elevation": 4131,
   "lat": 34.9512,
   "lon": -83.31543,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabun%20Bald%20and%20Flat%20Top%20viewed%20from%20Black%20Rock%20Mountain%20State%20Park.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 4.6,
         "gain": 1204,
-        "time": null,
+        "time": 2.0,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -813,7 +813,7 @@
     }
   },
   "seo": {
-    "meta_title": "Flat Top Trail Guide | Map, Route & Conditions",
+    "meta_title": "Flat Top Trail Guide (Georgia) | Map, Route & Conditions",
     "meta_description": "Plan your Flat Top hike with current conditions, trail map & parking info. Georgia summit at 4,131 ft.",
     "canonical_url": "/trails/georgia/flat-top-ga",
     "schema_place": {
@@ -909,5 +909,11 @@
     "id": 358770512,
     "prominence_m": null,
     "wikidata": "Q5457808"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Rabun%20Bald%20and%20Flat%20Top%20viewed%20from%20Black%20Rock%20Mountain%20State%20Park.jpg",
+    "license": "CC0",
+    "artist": "Thomson200"
   }
 }

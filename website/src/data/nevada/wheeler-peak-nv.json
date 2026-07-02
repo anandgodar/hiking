@@ -6,7 +6,7 @@
   "elevation": 13064,
   "lat": 38.98577,
   "lon": -114.31391,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/WheelerPeakNV2.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 4.0,
         "gain": 2753,
-        "time": null,
+        "time": 2.5,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -821,7 +821,7 @@
     }
   },
   "seo": {
-    "meta_title": "Wheeler Peak Trail Guide | Map, Route & Conditions",
+    "meta_title": "Wheeler Peak Trail Guide (Nevada) | Map, Route & Conditions",
     "meta_description": "Plan your Wheeler Peak hike with current conditions, trail map & parking info. Nevada summit at 13,064 ft.",
     "canonical_url": "/trails/nevada/wheeler-peak-nv",
     "schema_place": {
@@ -918,5 +918,11 @@
     "id": 357559391,
     "prominence_m": "2300",
     "wikidata": "Q2566649"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:WheelerPeakNV2.jpg",
+    "license": "Public domain",
+    "artist": "G. Thomas at English Wikipedia"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 11928,
   "lat": 39.82162,
   "lon": -111.76038,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Nebo%20Utah.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 9.2,
         "gain": 3294,
-        "time": null,
+        "time": 4.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -813,7 +813,7 @@
     }
   },
   "seo": {
-    "meta_title": "Mount Nebo Trail Guide | Map, Route & Conditions",
+    "meta_title": "Mount Nebo Trail Guide (Utah) | Map, Route & Conditions",
     "meta_description": "Plan your Mount Nebo hike with current conditions, trail map & parking info. Utah summit at 11,928 ft.",
     "canonical_url": "/trails/utah/mount-nebo-ut",
     "schema_place": {
@@ -910,5 +910,11 @@
     "id": 356679338,
     "prominence_m": "1656",
     "wikidata": "Q8519552"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Nebo%20Utah.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "No machine-readable author provided. C.Maylett assumed (based on copyright claims)."
   }
 }

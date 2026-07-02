@@ -6,7 +6,7 @@
   "elevation": 1749,
   "lat": 46.13624,
   "lon": -95.57376,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20top%20of%20Inspiration%20Peak.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 0.7,
         "gain": 161,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "",
@@ -904,5 +904,11 @@
     "id": 1616936702,
     "prominence_m": null,
     "wikidata": "Q6038549"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:View%20from%20top%20of%20Inspiration%20Peak.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Amanda Su"
   }
 }

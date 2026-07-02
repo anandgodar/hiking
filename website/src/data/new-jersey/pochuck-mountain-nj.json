@@ -6,7 +6,7 @@
   "elevation": 1184,
   "lat": 41.21121,
   "lon": -74.53044,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Pochuck%20Mountain.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.7,
         "gain": 164,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "Route 565 Canoe Launch Parking Lot",
@@ -910,5 +910,11 @@
     "id": 357543919,
     "prominence_m": null,
     "wikidata": "Q7206341"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Pochuck%20Mountain.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "The original uploader was Kborland at  Wikipedia."
   }
 }

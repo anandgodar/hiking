@@ -6,7 +6,7 @@
   "elevation": 3488,
   "lat": 42.63726,
   "lon": -73.16599,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/GREYLOCK.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 11.0,
         "gain": 2805,
-        "time": null,
+        "time": 5.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -946,5 +946,11 @@
     "id": 358269595,
     "prominence_m": null,
     "wikidata": "Q1587225"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:GREYLOCK.JPG",
+    "license": "CC BY 3.0",
+    "artist": "Jstergis"
   }
 }

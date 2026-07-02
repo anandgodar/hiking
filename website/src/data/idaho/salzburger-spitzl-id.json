@@ -6,7 +6,7 @@
   "elevation": 11620,
   "lat": 43.77447,
   "lon": -114.1591,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Duncan%20%26%20Salzburger.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 3.3,
         "gain": 1615,
-        "time": null,
+        "time": 2.0,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 10599375707,
     "prominence_m": null,
     "wikidata": "Q7406994"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Duncan%20%26%20Salzburger.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Fredlyfish4"
   }
 }

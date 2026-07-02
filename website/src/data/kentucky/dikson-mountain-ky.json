@@ -15,8 +15,8 @@
       "difficulty": "",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
+        "distance": 0.7,
+        "gain": 378,
         "time": null,
         "difficulty": ""
       },
@@ -33,18 +33,208 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            37.16583,
+            -82.99842
           ],
           "summit": [
             37.16558,
             -82.98311
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            37.16583,
+            -82.99842,
+            1552
+          ],
+          [
+            37.16582,
+            -82.99824,
+            1522
+          ],
+          [
+            37.1658,
+            -82.99763,
+            1522
+          ],
+          [
+            37.16581,
+            -82.9975,
+            1637
+          ],
+          [
+            37.1659,
+            -82.99667,
+            1552
+          ],
+          [
+            37.16631,
+            -82.99441,
+            1749
+          ],
+          [
+            37.16608,
+            -82.99344,
+            1795
+          ],
+          [
+            37.1654,
+            -82.99178,
+            1900
+          ],
+          [
+            37.16519,
+            -82.99089,
+            1880
+          ],
+          [
+            37.16506,
+            -82.9896,
+            1860
+          ],
+          [
+            37.16506,
+            -82.9884,
+            1873
+          ],
+          [
+            37.16535,
+            -82.98657,
+            1883
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1552,
+            "coord": [
+              37.16583,
+              -82.99842
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1637,
+            "coord": [
+              37.16581,
+              -82.9975
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 1552,
+            "coord": [
+              37.1659,
+              -82.99667
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 1552,
+            "coord": [
+              37.1659,
+              -82.99667
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 1749,
+            "coord": [
+              37.16631,
+              -82.99441
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 1749,
+            "coord": [
+              37.16631,
+              -82.99441
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 1795,
+            "coord": [
+              37.16608,
+              -82.99344
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 1900,
+            "coord": [
+              37.1654,
+              -82.99178
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 1900,
+            "coord": [
+              37.1654,
+              -82.99178
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 1880,
+            "coord": [
+              37.16519,
+              -82.99089
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 1860,
+            "coord": [
+              37.16506,
+              -82.9896
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 1860,
+            "coord": [
+              37.16506,
+              -82.9896
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 1873,
+            "coord": [
+              37.16506,
+              -82.9884
+            ]
+          },
+          {
+            "mile": 0.63,
+            "elev": 1883,
+            "coord": [
+              37.16535,
+              -82.98657
+            ]
+          },
+          {
+            "mile": 0.67,
+            "elev": 1883,
+            "coord": [
+              37.16535,
+              -82.98657
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Dikson Mountain",
+          "type": "summit",
+          "lat": 37.16558,
+          "lon": -82.98311,
+          "mile": 0.67
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Dikson Mountain</strong> rises to 1,617 feet in Kentucky. Nearby peaks include Apple Rock, High Rock and Halls Butt. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,10 +363,12 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/358617036",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/358617036",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 358617036,

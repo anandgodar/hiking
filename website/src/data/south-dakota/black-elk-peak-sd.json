@@ -6,7 +6,7 @@
   "elevation": 7241,
   "lat": 43.866,
   "lon": -103.53103,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Harneygranite.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.1,
         "gain": 272,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "",
@@ -457,5 +457,11 @@
     "id": 357094463,
     "prominence_m": null,
     "wikidata": "Q1585737"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Harneygranite.jpg",
+    "license": "Public domain",
+    "artist": "BHrock at English Wikipedia"
   }
 }

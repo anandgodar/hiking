@@ -6,7 +6,7 @@
   "elevation": 6431,
   "lat": 35.68672,
   "lon": -83.27101,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount-chapman-north.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 4.7,
         "gain": 607,
-        "time": null,
+        "time": 2.0,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -946,5 +946,11 @@
     "id": 357811244,
     "prominence_m": null,
     "wikidata": "Q14708053"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount-chapman-north.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Brian Stansberry"
   }
 }

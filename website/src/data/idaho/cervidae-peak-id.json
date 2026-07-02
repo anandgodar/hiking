@@ -16,16 +16,16 @@
       "stats": {
         "distance": 1.0,
         "gain": 1896,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
-      "parking_info": "",
+      "parking_info": "Trailhead parking",
       "parking_details": {
         "fee": "",
         "location": "",
         "coords": [
-          null,
-          null
+          43.59934,
+          -115.99217
         ]
       },
       "tags": [],
@@ -725,7 +725,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Cervidae Peak",
+          "type": "summit",
+          "lat": 43.61404,
+          "lon": -115.97405,
+          "mile": 0.96
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Cervidae Peak</strong> rises to 4,987 feet in Idaho. It has roughly 364 feet of topographic prominence. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -829,11 +837,13 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/7110830930",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 7110830930,
     "prominence_m": "111",
     "wikidata": "Q49019630"
-  }
+  },
+  "_status": "demoted \u2014 implausibly steep (1896 ft/mi) \u2014 likely a climbing route, not a hiking trail"
 }

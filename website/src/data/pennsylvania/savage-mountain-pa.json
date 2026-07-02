@@ -6,7 +6,7 @@
   "elevation": 2667,
   "lat": 39.88647,
   "lon": -78.73613,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Savage%20Mountain%20wind%20farm.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 2.8,
         "gain": 1224,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 357322788,
     "prominence_m": null,
     "wikidata": "Q7427749"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Savage%20Mountain%20wind%20farm.jpg",
+    "license": "Public domain",
+    "artist": "Nyttend"
   }
 }

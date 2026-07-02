@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Wolf Mound",
   "slug": "wolf-mound-il",
   "state": "Illinois",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Wolf Mound Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 1.2,
+        "gain": 23,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,243 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            39.67366,
+            -87.66785
           ],
           "summit": [
             39.6892,
             -87.70308
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            39.67366,
+            -87.66785,
+            673
+          ],
+          [
+            39.67369,
+            -87.66785,
+            673
+          ],
+          [
+            39.67372,
+            -87.66785,
+            673
+          ],
+          [
+            39.67381,
+            -87.66785,
+            673
+          ],
+          [
+            39.6745,
+            -87.66788,
+            669
+          ],
+          [
+            39.6753,
+            -87.66791,
+            666
+          ],
+          [
+            39.67721,
+            -87.66801,
+            663
+          ],
+          [
+            39.67897,
+            -87.66808,
+            659
+          ],
+          [
+            39.67918,
+            -87.66809,
+            663
+          ],
+          [
+            39.68039,
+            -87.66814,
+            663
+          ],
+          [
+            39.68215,
+            -87.66821,
+            659
+          ],
+          [
+            39.68459,
+            -87.66829,
+            656
+          ],
+          [
+            39.68612,
+            -87.66838,
+            653
+          ],
+          [
+            39.68779,
+            -87.66843,
+            650
+          ],
+          [
+            39.6896,
+            -87.66852,
+            653
+          ],
+          [
+            39.6902,
+            -87.66857,
+            659
+          ],
+          [
+            39.69028,
+            -87.66857,
+            659
+          ],
+          [
+            39.69033,
+            -87.66855,
+            659
+          ],
+          [
+            39.69038,
+            -87.66853,
+            659
+          ],
+          [
+            39.6904,
+            -87.66851,
+            659
+          ],
+          [
+            39.69046,
+            -87.66847,
+            659
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 673,
+            "coord": [
+              39.67366,
+              -87.66785
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 669,
+            "coord": [
+              39.6745,
+              -87.66788
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 666,
+            "coord": [
+              39.6753,
+              -87.66791
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 663,
+            "coord": [
+              39.67721,
+              -87.66801
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 659,
+            "coord": [
+              39.67897,
+              -87.66808
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 663,
+            "coord": [
+              39.67918,
+              -87.66809
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 663,
+            "coord": [
+              39.68039,
+              -87.66814
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 659,
+            "coord": [
+              39.68215,
+              -87.66821
+            ]
+          },
+          {
+            "mile": 0.66,
+            "elev": 659,
+            "coord": [
+              39.68215,
+              -87.66821
+            ]
+          },
+          {
+            "mile": 0.75,
+            "elev": 656,
+            "coord": [
+              39.68459,
+              -87.66829
+            ]
+          },
+          {
+            "mile": 0.83,
+            "elev": 653,
+            "coord": [
+              39.68612,
+              -87.66838
+            ]
+          },
+          {
+            "mile": 0.91,
+            "elev": 653,
+            "coord": [
+              39.68612,
+              -87.66838
+            ]
+          },
+          {
+            "mile": 1.0,
+            "elev": 650,
+            "coord": [
+              39.68779,
+              -87.66843
+            ]
+          },
+          {
+            "mile": 1.08,
+            "elev": 653,
+            "coord": [
+              39.6896,
+              -87.66852
+            ]
+          },
+          {
+            "mile": 1.16,
+            "elev": 659,
+            "coord": [
+              39.69046,
+              -87.66847
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +399,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/354222186",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/354222186",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 354222186,

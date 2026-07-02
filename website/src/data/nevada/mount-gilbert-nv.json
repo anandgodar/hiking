@@ -6,7 +6,7 @@
   "elevation": 10997,
   "lat": 40.62437,
   "lon": -115.44617,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/MountGilbertNV2.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 5.2,
         "gain": 3324,
-        "time": null,
+        "time": 3.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -910,5 +910,11 @@
     "id": 357559630,
     "prominence_m": null,
     "wikidata": "Q6920899"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:MountGilbertNV2.jpg",
+    "license": "Public domain",
+    "artist": "G. Thomas at English Wikipedia"
   }
 }

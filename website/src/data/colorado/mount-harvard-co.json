@@ -6,7 +6,7 @@
   "elevation": 14421,
   "lat": 38.92442,
   "lon": -106.3208,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Harvard%20%28Colorado%29%20-%202006-07-16.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 2.2,
         "gain": 1227,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -565,5 +565,11 @@
     "id": 1970958669,
     "prominence_m": "719",
     "wikidata": "Q4245165"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Harvard%20%28Colorado%29%20-%202006-07-16.jpg",
+    "license": "CC BY 2.0",
+    "artist": "jokermanj"
   }
 }

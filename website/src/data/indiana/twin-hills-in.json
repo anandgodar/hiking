@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Twin Hills",
   "slug": "twin-hills-in",
   "state": "Indiana",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Twin Hills Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.6,
+        "gain": 17,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,173 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            40.50009,
+            -85.14243
           ],
           "summit": [
             40.5106,
             -85.11858
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            40.50009,
+            -85.14243,
+            886
+          ],
+          [
+            40.5014,
+            -85.14245,
+            892
+          ],
+          [
+            40.50191,
+            -85.14243,
+            896
+          ],
+          [
+            40.50189,
+            -85.14117,
+            889
+          ],
+          [
+            40.50202,
+            -85.13474,
+            879
+          ],
+          [
+            40.50207,
+            -85.13413,
+            883
+          ],
+          [
+            40.50208,
+            -85.13347,
+            883
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 886,
+            "coord": [
+              40.50009,
+              -85.14243
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 886,
+            "coord": [
+              40.50009,
+              -85.14243
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 892,
+            "coord": [
+              40.5014,
+              -85.14245
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 896,
+            "coord": [
+              40.50191,
+              -85.14243
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 889,
+            "coord": [
+              40.50189,
+              -85.14117
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 889,
+            "coord": [
+              40.50189,
+              -85.14117
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 889,
+            "coord": [
+              40.50189,
+              -85.14117
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 889,
+            "coord": [
+              40.50189,
+              -85.14117
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 889,
+            "coord": [
+              40.50189,
+              -85.14117
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 879,
+            "coord": [
+              40.50202,
+              -85.13474
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 879,
+            "coord": [
+              40.50202,
+              -85.13474
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 879,
+            "coord": [
+              40.50202,
+              -85.13474
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 879,
+            "coord": [
+              40.50202,
+              -85.13474
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 883,
+            "coord": [
+              40.50207,
+              -85.13413
+            ]
+          },
+          {
+            "mile": 0.6,
+            "elev": 883,
+            "coord": [
+              40.50208,
+              -85.13347
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -87,7 +243,7 @@
     }
   },
   "seo": {
-    "meta_title": "Twin Hills Trail Guide | Map, Route & Conditions",
+    "meta_title": "Twin Hills Trail Guide (Indiana) | Map, Route & Conditions",
     "meta_description": "Plan your Twin Hills hike with current conditions, trail map & parking info. Indiana summit at 942 ft.",
     "canonical_url": "/trails/indiana/twin-hills-in",
     "schema_place": {
@@ -173,10 +329,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/358669490",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/358669490",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 358669490,

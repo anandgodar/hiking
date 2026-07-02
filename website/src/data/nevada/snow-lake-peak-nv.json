@@ -6,7 +6,7 @@
   "elevation": 11135,
   "lat": 40.60527,
   "lon": -115.39675,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/SnowLakePeakNV.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.7,
         "gain": 974,
-        "time": null,
+        "time": 1.0,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -910,5 +910,11 @@
     "id": 357559642,
     "prominence_m": null,
     "wikidata": "Q7548267"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:SnowLakePeakNV.jpg",
+    "license": "Public domain",
+    "artist": "G. Thomas at English Wikipedia"
   }
 }

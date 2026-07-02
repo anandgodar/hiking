@@ -6,7 +6,7 @@
   "elevation": 1998,
   "lat": 42.48906,
   "lon": -71.88684,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Wachusett%20Mountain%20in%20winter.gk.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 0.6,
         "gain": 79,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "Trailhead parking",
@@ -675,5 +675,11 @@
     "id": 358271255,
     "prominence_m": null,
     "wikidata": "Q1950785"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Wachusett%20Mountain%20in%20winter.gk.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Grendelkhan"
   }
 }

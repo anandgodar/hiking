@@ -6,7 +6,7 @@
   "elevation": 12065,
   "lat": 44.1061,
   "lon": -113.77778,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/MerriamLakeID.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.8,
         "gain": 1453,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 7824442415,
     "prominence_m": null,
     "wikidata": "Q6921399"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:MerriamLakeID.jpg",
+    "license": "Public domain",
+    "artist": "G. Thomas at English Wikipedia"
   }
 }

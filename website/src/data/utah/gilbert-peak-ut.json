@@ -6,7 +6,7 @@
   "elevation": 13435,
   "lat": 40.82328,
   "lon": -110.34044,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Gilbert%20Peak.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 10.0,
         "gain": 2438,
-        "time": null,
+        "time": 4.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 356678606,
     "prominence_m": null,
     "wikidata": "Q27987126"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Gilbert%20Peak.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Philthy54 at en.wikipedia"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 13110,
   "lat": 36.56102,
   "lon": -105.4145,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Walter.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 6.6,
         "gain": 3543,
-        "time": null,
+        "time": 4.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -939,5 +939,11 @@
     "id": 357600097,
     "prominence_m": null,
     "wikidata": "Q6924474"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Walter.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Fredlyfish4"
   }
 }

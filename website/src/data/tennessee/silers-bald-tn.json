@@ -6,7 +6,7 @@
   "elevation": 5597,
   "lat": 35.56589,
   "lon": -83.56541,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Silers-bald-from-narrows1.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 8.7,
         "gain": 1890,
-        "time": null,
+        "time": 4.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -953,5 +953,11 @@
     "id": 356773540,
     "prominence_m": null,
     "wikidata": "Q7514791"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Silers-bald-from-narrows1.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Brian Stansberry"
   }
 }

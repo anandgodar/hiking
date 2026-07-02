@@ -6,7 +6,7 @@
   "elevation": 11214,
   "lat": 40.60499,
   "lon": -115.41009,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/MtFitzgeraldNV2.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 4.9,
         "gain": 3205,
-        "time": null,
+        "time": 3.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 357559636,
     "prominence_m": null,
     "wikidata": "Q6920770"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:MtFitzgeraldNV2.jpg",
+    "license": "Public domain",
+    "artist": "G. Thomas at English Wikipedia"
   }
 }

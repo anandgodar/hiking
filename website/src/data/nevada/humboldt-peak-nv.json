@@ -6,7 +6,7 @@
   "elevation": 10988,
   "lat": 40.90129,
   "lon": -115.11969,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/HumboldtPeakNV.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 7.6,
         "gain": 1470,
-        "time": null,
+        "time": 3.5,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 357558167,
     "prominence_m": null,
     "wikidata": "Q8522520"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:HumboldtPeakNV.jpg",
+    "license": "Public domain",
+    "artist": "G. Thomas at English Wikipedia"
   }
 }

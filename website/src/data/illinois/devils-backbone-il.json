@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Devils Backbone",
   "slug": "devils-backbone-il",
   "state": "Illinois",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Devils Backbone Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
         "distance": 1.0,
         "gain": 66,
-        "time": null,
-        "difficulty": ""
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,8 +32,8 @@
       "geo": {
         "markers": {
           "start": [
-            41.98285,
-            -89.36022
+            41.98155,
+            -89.36235
           ],
           "summit": [
             41.98836,
@@ -526,7 +525,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Valley View Picnic Area",
+          "type": "rest area",
+          "lat": 41.98281,
+          "lon": -89.36048,
+          "mile": 0.0
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 899 feet, <strong>Devils Backbone</strong> is a summit in Illinois. Nearby peaks include Coffman Bluff, Starved Rock and Mount Sumner. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -659,7 +666,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/354102832",
     "verification_date": "2026-07-02",
-    "route_verified": "2026-07-02"
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 354102832,

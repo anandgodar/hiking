@@ -6,7 +6,7 @@
   "elevation": 5722,
   "lat": 36.65984,
   "lon": -81.54456,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Rogers%20-%20Winter.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 0.5,
         "gain": 213,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "",
@@ -918,5 +918,11 @@
     "id": 356573522,
     "prominence_m": null,
     "wikidata": "Q688645"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Rogers%20-%20Winter.jpg",
+    "license": "Public domain",
+    "artist": "USDA-FS"
   }
 }

@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Starved Rock",
   "slug": "starved-rock-il",
   "state": "Illinois",
@@ -7,44 +6,541 @@
   "elevation": 548,
   "lat": 41.3213,
   "lon": -88.99014,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Starved%20Rock%20Illinois%20on%20Illinois%20River.jpg?width=1600",
   "tags": [],
   "trails": [
     {
       "name": "Starved Rock Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.5,
+        "gain": 43,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
-      "parking_info": "",
+      "parking_info": "Parking #20 @ Starved Rock",
       "parking_details": {
         "fee": "",
         "location": "",
         "coords": [
-          null,
-          null
+          41.31469,
+          -88.99467
         ]
       },
       "tags": [],
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            41.31623,
+            -88.98361
           ],
           "summit": [
             41.3213,
             -88.99014
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            41.31623,
+            -88.98361,
+            620
+          ],
+          [
+            41.31622,
+            -88.98365,
+            620
+          ],
+          [
+            41.31622,
+            -88.98376,
+            620
+          ],
+          [
+            41.31624,
+            -88.98397,
+            620
+          ],
+          [
+            41.31627,
+            -88.98407,
+            620
+          ],
+          [
+            41.31622,
+            -88.9842,
+            636
+          ],
+          [
+            41.3161,
+            -88.98447,
+            636
+          ],
+          [
+            41.31614,
+            -88.98455,
+            636
+          ],
+          [
+            41.31616,
+            -88.98463,
+            636
+          ],
+          [
+            41.3162,
+            -88.98478,
+            636
+          ],
+          [
+            41.3163,
+            -88.98499,
+            636
+          ],
+          [
+            41.31633,
+            -88.98509,
+            636
+          ],
+          [
+            41.31646,
+            -88.98517,
+            636
+          ],
+          [
+            41.31649,
+            -88.98527,
+            636
+          ],
+          [
+            41.31652,
+            -88.98539,
+            636
+          ],
+          [
+            41.31654,
+            -88.98541,
+            636
+          ],
+          [
+            41.31652,
+            -88.98547,
+            636
+          ],
+          [
+            41.31651,
+            -88.98553,
+            636
+          ],
+          [
+            41.31653,
+            -88.98561,
+            636
+          ],
+          [
+            41.31653,
+            -88.98565,
+            636
+          ],
+          [
+            41.31657,
+            -88.98592,
+            640
+          ],
+          [
+            41.31663,
+            -88.98602,
+            640
+          ],
+          [
+            41.31661,
+            -88.98623,
+            640
+          ],
+          [
+            41.3166,
+            -88.98633,
+            640
+          ],
+          [
+            41.31661,
+            -88.98644,
+            640
+          ],
+          [
+            41.3166,
+            -88.98651,
+            640
+          ],
+          [
+            41.31661,
+            -88.98656,
+            640
+          ],
+          [
+            41.3166,
+            -88.98662,
+            640
+          ],
+          [
+            41.31657,
+            -88.98666,
+            640
+          ],
+          [
+            41.31655,
+            -88.9867,
+            640
+          ],
+          [
+            41.31653,
+            -88.98675,
+            640
+          ],
+          [
+            41.31654,
+            -88.98681,
+            640
+          ],
+          [
+            41.31654,
+            -88.98687,
+            640
+          ],
+          [
+            41.31656,
+            -88.98691,
+            640
+          ],
+          [
+            41.31655,
+            -88.98707,
+            640
+          ],
+          [
+            41.31658,
+            -88.98718,
+            640
+          ],
+          [
+            41.31657,
+            -88.9872,
+            640
+          ],
+          [
+            41.31659,
+            -88.98729,
+            640
+          ],
+          [
+            41.31659,
+            -88.98732,
+            640
+          ],
+          [
+            41.31659,
+            -88.98737,
+            640
+          ],
+          [
+            41.31658,
+            -88.98747,
+            640
+          ],
+          [
+            41.31658,
+            -88.98755,
+            643
+          ],
+          [
+            41.31653,
+            -88.98766,
+            643
+          ],
+          [
+            41.31652,
+            -88.98775,
+            643
+          ],
+          [
+            41.31651,
+            -88.98782,
+            643
+          ],
+          [
+            41.31651,
+            -88.9879,
+            643
+          ],
+          [
+            41.31652,
+            -88.98798,
+            643
+          ],
+          [
+            41.31653,
+            -88.98805,
+            643
+          ],
+          [
+            41.31653,
+            -88.98816,
+            643
+          ],
+          [
+            41.31655,
+            -88.98835,
+            640
+          ],
+          [
+            41.31655,
+            -88.98854,
+            640
+          ],
+          [
+            41.31653,
+            -88.98872,
+            640
+          ],
+          [
+            41.31649,
+            -88.98895,
+            640
+          ],
+          [
+            41.3165,
+            -88.98962,
+            636
+          ],
+          [
+            41.31648,
+            -88.9898,
+            636
+          ],
+          [
+            41.31651,
+            -88.99008,
+            620
+          ],
+          [
+            41.31655,
+            -88.99033,
+            620
+          ],
+          [
+            41.31663,
+            -88.99055,
+            620
+          ],
+          [
+            41.31669,
+            -88.99077,
+            600
+          ],
+          [
+            41.31675,
+            -88.99091,
+            604
+          ],
+          [
+            41.3169,
+            -88.99126,
+            604
+          ],
+          [
+            41.31703,
+            -88.99145,
+            604
+          ],
+          [
+            41.31704,
+            -88.99159,
+            604
+          ],
+          [
+            41.31707,
+            -88.99163,
+            604
+          ],
+          [
+            41.31711,
+            -88.99162,
+            604
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 620,
+            "coord": [
+              41.31623,
+              -88.98361
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 636,
+            "coord": [
+              41.31622,
+              -88.9842
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 636,
+            "coord": [
+              41.3162,
+              -88.98478
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 636,
+            "coord": [
+              41.31646,
+              -88.98517
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 640,
+            "coord": [
+              41.31657,
+              -88.98592
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 640,
+            "coord": [
+              41.31661,
+              -88.98644
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 640,
+            "coord": [
+              41.31656,
+              -88.98691
+            ]
+          },
+          {
+            "mile": 0.23,
+            "elev": 643,
+            "coord": [
+              41.31658,
+              -88.98755
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 643,
+            "coord": [
+              41.31653,
+              -88.98816
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 640,
+            "coord": [
+              41.31653,
+              -88.98872
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 636,
+            "coord": [
+              41.3165,
+              -88.98962
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 620,
+            "coord": [
+              41.31651,
+              -88.99008
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 620,
+            "coord": [
+              41.31663,
+              -88.99055
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 604,
+            "coord": [
+              41.3169,
+              -88.99126
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 604,
+            "coord": [
+              41.31711,
+              -88.99162
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Wildcat Canyon - east platform",
+          "type": "viewpoint",
+          "lat": 41.31637,
+          "lon": -88.98295,
+          "mile": 0.0
+        },
+        {
+          "name": "Wildcat Canyon - west platform",
+          "type": "viewpoint",
+          "lat": 41.31651,
+          "lon": -88.98333,
+          "mile": 0.0
+        },
+        {
+          "name": "Wildcat Canyon",
+          "type": "viewpoint",
+          "lat": 41.31663,
+          "lon": -88.98298,
+          "mile": 0.0
+        },
+        {
+          "name": "Wildcat Canyon Waterfall",
+          "type": "waterfall",
+          "lat": 41.31627,
+          "lon": -88.98342,
+          "mile": 0.0
+        },
+        {
+          "name": "Beehive Overlook",
+          "type": "viewpoint",
+          "lat": 41.31832,
+          "lon": -88.98377,
+          "mile": 0.02
+        },
+        {
+          "name": "Pontiac Canyon",
+          "type": "viewpoint",
+          "lat": 41.31759,
+          "lon": -88.98595,
+          "mile": 0.14
+        },
+        {
+          "name": "French Canyon",
+          "type": "viewpoint",
+          "lat": 41.31764,
+          "lon": -88.99113,
+          "mile": 0.45
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 548 feet, <strong>Starved Rock</strong> is a summit in Illinois. Nearby peaks include Devils Backbone, Mount Hoy and Mounded Landfill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,14 +669,22 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/9363015028",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/9363015028",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 9363015028,
     "prominence_m": null,
     "wikidata": "Q32358657"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Starved%20Rock%20Illinois%20on%20Illinois%20River.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Chris Light (talk)"
   }
 }

@@ -6,7 +6,7 @@
   "elevation": 6401,
   "lat": 35.36732,
   "lon": -82.99041,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Richland%20Balsam%20from%20Steestachee%20Bald%20Overlook%2C%20October%202016.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.3,
         "gain": 361,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "",
@@ -925,5 +925,11 @@
     "id": 357803400,
     "prominence_m": null,
     "wikidata": "Q7330610"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Richland%20Balsam%20from%20Steestachee%20Bald%20Overlook%2C%20October%202016.jpg",
+    "license": "CC0",
+    "artist": "Thomson200"
   }
 }

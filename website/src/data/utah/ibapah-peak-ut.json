@@ -6,7 +6,7 @@
   "elevation": 12018,
   "lat": 39.82827,
   "lon": -113.91972,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Ibapah%20Peak.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.6,
         "gain": 827,
-        "time": null,
+        "time": 1.0,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -485,5 +485,11 @@
     "id": 356673130,
     "prominence_m": "1573",
     "wikidata": "Q39046201"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Ibapah%20Peak.JPG",
+    "license": "CC BY 4.0",
+    "artist": "User:Qfl247"
   }
 }

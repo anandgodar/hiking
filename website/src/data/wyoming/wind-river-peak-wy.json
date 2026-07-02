@@ -6,7 +6,7 @@
   "elevation": 13196,
   "lat": 42.70846,
   "lon": -109.12844,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Wind%20River%20Peak.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 3.4,
         "gain": 985,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 356511246,
     "prominence_m": null,
     "wikidata": "Q8023948"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Wind%20River%20Peak.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "TomKonrad"
   }
 }

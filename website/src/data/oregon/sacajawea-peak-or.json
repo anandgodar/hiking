@@ -6,7 +6,7 @@
   "elevation": 9843,
   "lat": 45.24492,
   "lon": -117.2932,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Sacajawea%20Peak%2C%20Hurricane%20Creek%20Trail%20-%20DPLA%20-%208ad09f9e453892ed4b102810283718c7.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 8.7,
         "gain": 2414,
-        "time": null,
+        "time": 4.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -918,5 +918,11 @@
     "id": 7774763538,
     "prominence_m": "1949",
     "wikidata": "Q7396563"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Sacajawea%20Peak%2C%20Hurricane%20Creek%20Trail%20-%20DPLA%20-%208ad09f9e453892ed4b102810283718c7.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Gary Halvorson, Oregon State Archives"
   }
 }

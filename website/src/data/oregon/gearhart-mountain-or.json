@@ -6,7 +6,7 @@
   "elevation": 8369,
   "lat": 42.49599,
   "lon": -120.87732,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Gearhart%20Mountain%20Wilderness.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 11.1,
         "gain": 1880,
-        "time": null,
+        "time": 4.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -939,5 +939,11 @@
     "id": 8947596986,
     "prominence_m": null,
     "wikidata": "Q39050234"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Gearhart%20Mountain%20Wilderness.jpg",
+    "license": "Public domain",
+    "artist": "USFS"
   }
 }

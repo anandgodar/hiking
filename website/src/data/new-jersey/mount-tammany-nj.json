@@ -6,7 +6,7 @@
   "elevation": 1526,
   "lat": 40.96954,
   "lon": -75.11091,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Tammany.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.3,
         "gain": 1109,
-        "time": null,
+        "time": 1.0,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -932,5 +932,11 @@
     "id": 357730743,
     "prominence_m": null,
     "wikidata": "Q6924032"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Tammany.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Justin"
   }
 }

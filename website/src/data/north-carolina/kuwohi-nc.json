@@ -6,7 +6,7 @@
   "elevation": 6643,
   "lat": 35.56286,
   "lon": -83.49838,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Abies%20fraseri0.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 0.8,
         "gain": 466,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "Trailhead parking",
@@ -925,5 +925,11 @@
     "id": 357811254,
     "prominence_m": null,
     "wikidata": "Q685166"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Abies%20fraseri0.jpg",
+    "license": "Public domain",
+    "artist": "C. Kenneth Dodd, Jr."
   }
 }

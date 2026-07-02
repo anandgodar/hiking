@@ -6,7 +6,7 @@
   "elevation": 14199,
   "lat": 38.84416,
   "lon": -106.31391,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Yale%20from%20along%20U.S.%20285%20near%20the%20town%20of%20Nathrop.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 2.9,
         "gain": 3294,
-        "time": null,
+        "time": 2.5,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -918,5 +918,11 @@
     "id": 358924839,
     "prominence_m": null,
     "wikidata": "Q6924685"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Yale%20from%20along%20U.S.%20285%20near%20the%20town%20of%20Nathrop.jpg",
+    "license": "CC BY 2.0",
+    "artist": "David Herrera from Albuquerque, NM, Bernalillo"
   }
 }

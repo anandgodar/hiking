@@ -6,7 +6,7 @@
   "elevation": 13041,
   "lat": 35.96248,
   "lon": -105.64505,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Truchas%20peak%20winter.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.6,
         "gain": 1066,
-        "time": null,
+        "time": 1.0,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 357611020,
     "prominence_m": null,
     "wikidata": "Q7847152"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Truchas%20peak%20winter.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "JerryFriedman"
   }
 }

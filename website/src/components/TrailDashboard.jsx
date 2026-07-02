@@ -214,7 +214,9 @@ const TrailDashboard = ({ mountain }) => {
                             <div>
                                 <h4 className="font-bold text-blue-900 text-sm mb-1">Trail Tip</h4>
                                 <p className="text-blue-800/70 text-sm">
-                                    Check current conditions on AllTrails or local hiking forums before your trip.
+                                    Mountain conditions change fast — check the official land
+                                    manager's site and the forecast before you go, and tell
+                                    someone your plan.
                                 </p>
                             </div>
                         </div>

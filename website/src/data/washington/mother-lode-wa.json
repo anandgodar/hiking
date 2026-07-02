@@ -6,7 +6,7 @@
   "elevation": 25945,
   "lat": 48.44357,
   "lon": -120.61517,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mother%20Lode%20Peak.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 4.3,
         "gain": 2428,
-        "time": null,
+        "time": 2.5,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -910,5 +910,11 @@
     "id": 13906068685,
     "prominence_m": null,
     "wikidata": "Q108882716"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mother%20Lode%20Peak.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ron Clausen"
   }
 }

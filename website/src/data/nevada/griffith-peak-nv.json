@@ -6,7 +6,7 @@
   "elevation": 11053,
   "lat": 36.23244,
   "lon": -115.64604,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Griffith%20Peak%203.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 4.9,
         "gain": 2536,
-        "time": null,
+        "time": 3.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -904,5 +904,11 @@
     "id": 8220380665,
     "prominence_m": null,
     "wikidata": "Q5608907"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Griffith%20Peak%203.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Stan Shebs"
   }
 }

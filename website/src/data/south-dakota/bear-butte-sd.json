@@ -6,7 +6,7 @@
   "elevation": 4409,
   "lat": 44.47582,
   "lon": -103.42685,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/BEAR%20BUTTE.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 1.8,
         "gain": 32,
-        "time": null,
+        "time": 0.5,
         "difficulty": "Easy"
       },
       "parking_info": "",
@@ -544,5 +544,11 @@
     "id": 357098848,
     "prominence_m": null,
     "wikidata": "Q2892841"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:BEAR%20BUTTE.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "JERRYE & ROY KLOTZ MD"
   }
 }

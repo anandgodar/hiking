@@ -6,7 +6,7 @@
   "elevation": 14350,
   "lat": 37.57753,
   "lon": -105.48566,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/MtBlancaEast.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 6.1,
         "gain": 5351,
-        "time": null,
+        "time": 4.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -918,5 +918,11 @@
     "id": 358928225,
     "prominence_m": "1628",
     "wikidata": "Q670233"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:MtBlancaEast.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "No machine-readable author provided. Meniscus~commonswiki assumed (based on copyright claims)."
   }
 }

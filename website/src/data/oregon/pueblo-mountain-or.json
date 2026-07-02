@@ -6,7 +6,7 @@
   "elevation": 8632,
   "lat": 42.09943,
   "lon": -118.65045,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Pueblo%20Mountain.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 13.4,
         "gain": 2106,
-        "time": null,
+        "time": 5.5,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -888,5 +888,11 @@
     "id": 357286421,
     "prominence_m": null,
     "wikidata": "Q7258454"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Pueblo%20Mountain.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Amateria1121"
   }
 }

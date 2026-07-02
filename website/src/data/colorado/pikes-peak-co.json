@@ -6,7 +6,7 @@
   "elevation": 14114,
   "lat": 38.8404,
   "lon": -105.04395,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Pikes%20Peak%20by%20David%20Shankbone.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 0.9,
         "gain": 968,
-        "time": null,
+        "time": 1.0,
         "difficulty": "Easy"
       },
       "parking_info": "Trailhead parking",
@@ -821,7 +821,7 @@
     }
   },
   "seo": {
-    "meta_title": "Pikes Peak Trail Guide | Map, Route & Conditions",
+    "meta_title": "Pikes Peak Trail Guide (Colorado) | Map, Route & Conditions",
     "meta_description": "Plan your Pikes Peak hike with current conditions, trail map & parking info. Colorado summit at 14,114 ft.",
     "canonical_url": "/trails/colorado/pikes-peak-co",
     "schema_place": {
@@ -918,5 +918,11 @@
     "id": 358945053,
     "prominence_m": "1682",
     "wikidata": "Q665321"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Pikes%20Peak%20by%20David%20Shankbone.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "David Shankbone"
   }
 }

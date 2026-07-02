@@ -6,7 +6,7 @@
   "elevation": 3425,
   "lat": 29.14631,
   "lon": -103.40184,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Big%20Bend%20National%20Park%20PB112560.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 3.4,
         "gain": 420,
-        "time": null,
+        "time": 1.5,
         "difficulty": "Moderate"
       },
       "parking_info": "",
@@ -918,5 +918,11 @@
     "id": 356741262,
     "prominence_m": null,
     "wikidata": "Q31714003"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Big%20Bend%20National%20Park%20PB112560.jpg",
+    "license": "Public domain",
+    "artist": "National Park Service Digital Image Archives"
   }
 }

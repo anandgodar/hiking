@@ -6,7 +6,7 @@
   "elevation": 14276,
   "lat": 38.67416,
   "lon": -106.24624,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Antero%2C%20taken%20from%20along%20U.S.%20285%2C%20near%20the%20town%20of%20Nathrop.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 4.3,
         "gain": 3114,
-        "time": null,
+        "time": 3.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -909,5 +909,11 @@
     "id": 358925137,
     "prominence_m": "763",
     "wikidata": "Q4245453"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Antero%2C%20taken%20from%20along%20U.S.%20285%2C%20near%20the%20town%20of%20Nathrop.jpg",
+    "license": "CC BY 2.0",
+    "artist": "David Herrera from Albuquerque, NM, Bernalillo"
   }
 }

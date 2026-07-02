@@ -6,7 +6,7 @@
   "elevation": 6575,
   "lat": 35.65426,
   "lon": -83.43683,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Le%20Conte%20Panorama.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 5.0,
         "gain": 1208,
-        "time": null,
+        "time": 2.5,
         "difficulty": "Hard"
       },
       "parking_info": "",
@@ -953,5 +953,11 @@
     "id": 356894868,
     "prominence_m": null,
     "wikidata": "Q6921794"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Le%20Conte%20Panorama.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "No machine-readable author provided. Blinutne assumed (based on copyright claims)."
   }
 }

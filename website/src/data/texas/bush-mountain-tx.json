@@ -6,7 +6,7 @@
   "elevation": 8615,
   "lat": 31.92956,
   "lon": -104.88023,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Bush%20Mountain%20summit.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -16,7 +16,7 @@
       "stats": {
         "distance": 7.7,
         "gain": 2382,
-        "time": null,
+        "time": 4.0,
         "difficulty": "Strenuous"
       },
       "parking_info": "",
@@ -911,5 +911,11 @@
     "id": 356730186,
     "prominence_m": null,
     "wikidata": "Q16849682"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Bush%20Mountain%20summit.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Fredlyfish4"
   }
 }
