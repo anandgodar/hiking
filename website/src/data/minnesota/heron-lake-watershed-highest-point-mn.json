@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Heron Lake Watershed Highest Point",
+  "slug": "heron-lake-watershed-highest-point-mn",
+  "state": "Minnesota",
+  "state_slug": "minnesota",
+  "elevation": 1792,
+  "lat": 43.80953,
+  "lon": -95.88171,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Heron Lake Watershed Highest Point Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            43.80953,
+            -95.88171
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Heron Lake Watershed Highest Point</strong> is a 1,792-foot destination in Minnesota. Nearby peaks include Nobles County Highest Point, Murray County Highest Point and Eagle Rock. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Nobles County Highest Point",
+      "slug": "nobles-county-highest-point-mn",
+      "state_slug": "minnesota",
+      "elevation": 1812,
+      "distance_miles": 3.1
+    },
+    {
+      "name": "Murray County Highest Point",
+      "slug": "murray-county-highest-point-mn",
+      "state_slug": "minnesota",
+      "elevation": 1928,
+      "distance_miles": 13.3
+    },
+    {
+      "name": "Eagle Rock",
+      "slug": "eagle-rock-mn",
+      "state_slug": "minnesota",
+      "elevation": 1729,
+      "distance_miles": 17.6
+    },
+    {
+      "name": "Jasper Peak",
+      "slug": "jasper-peak-mn",
+      "state_slug": "minnesota",
+      "elevation": 1717,
+      "distance_miles": 24.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Heron Lake Watershed Highest Point Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Heron Lake Watershed Highest Point hike with current conditions, trail map & parking info. Minnesota summit at 1,792 ft.",
+    "canonical_url": "/trails/minnesota/heron-lake-watershed-highest-point-mn",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Heron Lake Watershed Highest Point",
+      "description": "Heron Lake Watershed Highest Point is a 1,792 foot peak in Minnesota offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.80953,
+        "longitude": -95.88171,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1792,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Minnesota",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Heron Lake Watershed Highest Point Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Heron Lake Watershed Highest Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Heron Lake Watershed Highest Point Trail on Heron Lake Watershed Highest Point is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Heron Lake Watershed Highest Point hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Heron Lake Watershed Highest Point is rated Moderate. At 1,792 feet, plan for the terrain and weather typical of Minnesota peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Heron Lake Watershed Highest Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Heron Lake Watershed Highest Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Heron Lake Watershed Highest Point Trail, a  moderate hike to the Heron Lake Watershed Highest Point summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Heron Lake Watershed Highest Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Heron Lake Watershed Highest Point. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/9897773953",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/9897773953",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 9897773953,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}
