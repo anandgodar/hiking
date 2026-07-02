@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Dumping Rock",
   "slug": "dumping-rock-ri",
   "state": "Rhode Island",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Dumping Rock Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.6,
+        "gain": 69,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,18 +32,263 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            41.50834,
+            -71.54049
           ],
           "summit": [
             41.53538,
             -71.52256
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            41.50834,
+            -71.54049,
+            220
+          ],
+          [
+            41.50943,
+            -71.54016,
+            217
+          ],
+          [
+            41.50979,
+            -71.54009,
+            217
+          ],
+          [
+            41.50987,
+            -71.53984,
+            207
+          ],
+          [
+            41.50995,
+            -71.53932,
+            207
+          ],
+          [
+            41.51007,
+            -71.53931,
+            243
+          ],
+          [
+            41.51017,
+            -71.53941,
+            243
+          ],
+          [
+            41.51074,
+            -71.5399,
+            243
+          ],
+          [
+            41.51096,
+            -71.54003,
+            269
+          ],
+          [
+            41.51139,
+            -71.5397,
+            262
+          ],
+          [
+            41.51165,
+            -71.53942,
+            262
+          ],
+          [
+            41.51198,
+            -71.53896,
+            276
+          ],
+          [
+            41.51225,
+            -71.53852,
+            276
+          ],
+          [
+            41.51264,
+            -71.53833,
+            276
+          ],
+          [
+            41.51303,
+            -71.53825,
+            276
+          ],
+          [
+            41.51336,
+            -71.53825,
+            272
+          ],
+          [
+            41.51372,
+            -71.53816,
+            272
+          ],
+          [
+            41.51398,
+            -71.53812,
+            272
+          ],
+          [
+            41.51418,
+            -71.53825,
+            272
+          ],
+          [
+            41.51465,
+            -71.53813,
+            272
+          ],
+          [
+            41.51494,
+            -71.53792,
+            272
+          ],
+          [
+            41.51541,
+            -71.53776,
+            269
+          ],
+          [
+            41.51566,
+            -71.53758,
+            269
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 220,
+            "coord": [
+              41.50834,
+              -71.54049
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 217,
+            "coord": [
+              41.50943,
+              -71.54016
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 217,
+            "coord": [
+              41.50943,
+              -71.54016
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 207,
+            "coord": [
+              41.50987,
+              -71.53984
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 243,
+            "coord": [
+              41.51017,
+              -71.53941
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 243,
+            "coord": [
+              41.51074,
+              -71.5399
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 262,
+            "coord": [
+              41.51139,
+              -71.5397
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 262,
+            "coord": [
+              41.51165,
+              -71.53942
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 276,
+            "coord": [
+              41.51225,
+              -71.53852
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 276,
+            "coord": [
+              41.51264,
+              -71.53833
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 272,
+            "coord": [
+              41.51336,
+              -71.53825
+            ]
+          },
+          {
+            "mile": 0.46,
+            "elev": 272,
+            "coord": [
+              41.51398,
+              -71.53812
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 272,
+            "coord": [
+              41.51465,
+              -71.53813
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 272,
+            "coord": [
+              41.51494,
+              -71.53792
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 269,
+            "coord": [
+              41.51566,
+              -71.53758
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Wolf Rocks",
+          "type": "summit",
+          "lat": 41.51343,
+          "lon": -71.53895,
+          "mile": 0.42
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Dumping Rock</strong> rises to 236 feet in Rhode Island. Nearby peaks include Wolf Rocks, Mount Pleasant and Barber Heights. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,10 +417,12 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357255789",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357255789",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 357255789,

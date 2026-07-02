@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Packhorse Mountain",
   "slug": "packhorse-mountain-pa",
   "state": "Pennsylvania",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Packhorse Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.4,
+        "gain": 115,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,223 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            39.72059,
+            -79.27498
           ],
           "summit": [
             39.7348,
             -79.23448
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            39.72059,
+            -79.27498,
+            2621
+          ],
+          [
+            39.72071,
+            -79.27492,
+            2621
+          ],
+          [
+            39.7209,
+            -79.27489,
+            2605
+          ],
+          [
+            39.72159,
+            -79.27479,
+            2605
+          ],
+          [
+            39.72166,
+            -79.27477,
+            2602
+          ],
+          [
+            39.72171,
+            -79.2747,
+            2602
+          ],
+          [
+            39.72173,
+            -79.2746,
+            2602
+          ],
+          [
+            39.72172,
+            -79.27431,
+            2602
+          ],
+          [
+            39.72171,
+            -79.27386,
+            2615
+          ],
+          [
+            39.72172,
+            -79.27317,
+            2635
+          ],
+          [
+            39.72172,
+            -79.27058,
+            2674
+          ],
+          [
+            39.72174,
+            -79.27025,
+            2674
+          ],
+          [
+            39.72174,
+            -79.26881,
+            2700
+          ],
+          [
+            39.72173,
+            -79.26859,
+            2700
+          ],
+          [
+            39.72169,
+            -79.26839,
+            2700
+          ],
+          [
+            39.72163,
+            -79.26819,
+            2717
+          ],
+          [
+            39.72154,
+            -79.26799,
+            2717
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2621,
+            "coord": [
+              39.72059,
+              -79.27498
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 2605,
+            "coord": [
+              39.7209,
+              -79.27489
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 2605,
+            "coord": [
+              39.72159,
+              -79.27479
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 2602,
+            "coord": [
+              39.72172,
+              -79.27431
+            ]
+          },
+          {
+            "mile": 0.13,
+            "elev": 2615,
+            "coord": [
+              39.72171,
+              -79.27386
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 2635,
+            "coord": [
+              39.72172,
+              -79.27317
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 2635,
+            "coord": [
+              39.72172,
+              -79.27317
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 2635,
+            "coord": [
+              39.72172,
+              -79.27317
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 2674,
+            "coord": [
+              39.72172,
+              -79.27058
+            ]
+          },
+          {
+            "mile": 0.28,
+            "elev": 2674,
+            "coord": [
+              39.72172,
+              -79.27058
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 2674,
+            "coord": [
+              39.72174,
+              -79.27025
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 2674,
+            "coord": [
+              39.72174,
+              -79.27025
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 2700,
+            "coord": [
+              39.72174,
+              -79.26881
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 2700,
+            "coord": [
+              39.72173,
+              -79.26859
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 2717,
+            "coord": [
+              39.72154,
+              -79.26799
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +379,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357303207",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357303207",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 357303207,

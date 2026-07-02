@@ -6,6 +6,7 @@
  * Combined: 20,200+ searches/month - HUGE opportunity!
  */
 import Layout from '../../layouts/Layout.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
 import SiteFooter from '../../components/SiteFooter.astro';
 import MountainCard from '../../components/MountainCard.astro';
 
@@ -13,7 +14,7 @@ import MountainCard from '../../components/MountainCard.astro';
 const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
 const allMountains = Object.values(allFiles)
   .map(f => f.default || f)
-  .filter(m => m && m.name && m.slug); // Filter out blog posts
+  .filter(isPublishReady); // route-complete trails only (no drafts)
 
 // Los Angeles coordinates
 const laLat = 34.0522;

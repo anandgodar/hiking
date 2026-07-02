@@ -61,14 +61,19 @@ const { mountain } = Astro.props;
 // generate pages (publish gate), so filter their slugs out here or the
 // sidebar links 404.
 const liveFiles = import.meta.glob('../../../data/*/*.json', { eager: true });
-const liveSlugs = new Set(
-  Object.values(liveFiles)
-    .map(f => f.default || f)
-    .filter(isPublishReady)
-    .map(m => m.slug)
-);
+const liveMountains = Object.values(liveFiles)
+  .map(f => f.default || f)
+  .filter(isPublishReady);
+const liveSlugs = new Set(liveMountains.map(m => m.slug));
 mountain.nearby_peaks = (mountain.nearby_peaks || [])
   .filter(p => liveSlugs.has(p.slug));
+
+// highest-peaks pages only generate for states with ≥3 live trails — don't
+// link to one that doesn't exist (Nebraska has 2).
+const stateLiveCount = liveMountains
+  .filter(m => (m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug) === mountain.state_slug)
+  .length;
+const hasHighestPeaksPage = stateLiveCount >= 3;
 
 // Extract page content
 const pageContent = mountain.page_content || {};
@@ -184,10 +189,12 @@ const dashboardMountain = {
           stateName={mountain.state}
           elevation={mountain.elevation}
         />
-        <a href={`/${mountain.state_slug}/highest-peaks`}
-           class="text-sm font-semibold text-emerald-700 hover:text-emerald-800 hover:underline">
-          Highest peaks in {mountain.state || mountain.state_slug?.replace(/-/g, ' ')} →
-        </a>
+        {hasHighestPeaksPage && (
+          <a href={`/${mountain.state_slug}/highest-peaks`}
+             class="text-sm font-semibold text-emerald-700 hover:text-emerald-800 hover:underline">
+            Highest peaks in {mountain.state || mountain.state_slug?.replace(/-/g, ' ')} →
+          </a>
+        )}
       </div>
 
       <!-- Trail Dashboard - Shows when trail data exists (either trails or trails_config) -->

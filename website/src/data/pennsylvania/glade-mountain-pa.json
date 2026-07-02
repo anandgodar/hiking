@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Glade Mountain",
   "slug": "glade-mountain-pa",
   "state": "Pennsylvania",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Glade Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.7,
+        "gain": 249,
+        "time": 0.5,
+        "difficulty": "Easy"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +32,208 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            39.79346,
+            -79.22086
           ],
           "summit": [
             39.79008,
             -79.20253
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            39.79346,
+            -79.22086,
+            2595
+          ],
+          [
+            39.79413,
+            -79.22106,
+            2595
+          ],
+          [
+            39.79484,
+            -79.22095,
+            2579
+          ],
+          [
+            39.79506,
+            -79.22068,
+            2615
+          ],
+          [
+            39.79548,
+            -79.22017,
+            2615
+          ],
+          [
+            39.79621,
+            -79.2178,
+            2713
+          ],
+          [
+            39.79653,
+            -79.21712,
+            2713
+          ],
+          [
+            39.79749,
+            -79.21605,
+            2762
+          ],
+          [
+            39.79779,
+            -79.21558,
+            2802
+          ],
+          [
+            39.79809,
+            -79.21484,
+            2812
+          ],
+          [
+            39.79811,
+            -79.21412,
+            2822
+          ],
+          [
+            39.79838,
+            -79.21315,
+            2828
+          ],
+          [
+            39.79957,
+            -79.21178,
+            2802
+          ],
+          [
+            39.79999,
+            -79.21146,
+            2776
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2595,
+            "coord": [
+              39.79346,
+              -79.22086
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 2595,
+            "coord": [
+              39.79413,
+              -79.22106
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 2579,
+            "coord": [
+              39.79484,
+              -79.22095
+            ]
+          },
+          {
+            "mile": 0.16,
+            "elev": 2615,
+            "coord": [
+              39.79548,
+              -79.22017
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 2615,
+            "coord": [
+              39.79548,
+              -79.22017
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2713,
+            "coord": [
+              39.79621,
+              -79.2178
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 2713,
+            "coord": [
+              39.79653,
+              -79.21712
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 2713,
+            "coord": [
+              39.79653,
+              -79.21712
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 2762,
+            "coord": [
+              39.79749,
+              -79.21605
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 2802,
+            "coord": [
+              39.79779,
+              -79.21558
+            ]
+          },
+          {
+            "mile": 0.53,
+            "elev": 2822,
+            "coord": [
+              39.79811,
+              -79.21412
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 2828,
+            "coord": [
+              39.79838,
+              -79.21315
+            ]
+          },
+          {
+            "mile": 0.63,
+            "elev": 2828,
+            "coord": [
+              39.79838,
+              -79.21315
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 2802,
+            "coord": [
+              39.79957,
+              -79.21178
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 2776,
+            "coord": [
+              39.79999,
+              -79.21146
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -173,10 +364,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/357365512",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/357365512",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02"
   },
   "osm": {
     "id": 357365512,

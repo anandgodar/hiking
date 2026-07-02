@@ -203,7 +203,7 @@ const gearSchema = {
       </div>
 
       {gearCategories.map(category => (
-        <section class="mb-16">
+        <section class="mb-16 scroll-mt-24" id={category.slug}>
           <div class="flex items-center justify-between mb-8">
             <div class="flex items-center gap-3">
               <div class="w-10 h-10 bg-amber-100 rounded-xl flex items-center justify-center">
@@ -215,7 +215,7 @@ const gearSchema = {
               </div>
             </div>
             <a
-              href={`/gear/${category.slug}`}
+              href={`#${category.slug}`}
               class="hidden md:flex items-center gap-1 text-amber-600 font-bold hover:text-amber-700 transition-colors"
             >
               View All
@@ -233,7 +233,7 @@ const gearSchema = {
 
           <div class="mt-6 md:hidden">
             <a
-              href={`/gear/${category.slug}`}
+              href={`#${category.slug}`}
               class="block w-full py-3 text-center text-amber-600 font-bold border border-amber-200 rounded-lg hover:bg-amber-50 transition-colors"
             >
               View All {category.title}
