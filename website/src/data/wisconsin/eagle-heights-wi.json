@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Eagle Heights",
+  "slug": "eagle-heights-wi",
+  "state": "Wisconsin",
+  "state_slug": "wisconsin",
+  "elevation": 1010,
+  "lat": 43.08611,
+  "lon": -89.44401,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Eagle Heights Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            43.08611,
+            -89.44401
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Eagle Heights</strong> is a 1,010-foot summit in Wisconsin. Nearby peaks include Mount Julia, Mount Pleasant and Sugarloaf Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Julia",
+      "slug": "mount-julia-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1027,
+      "distance_miles": 15.6
+    },
+    {
+      "name": "Mount Pleasant",
+      "slug": "mount-pleasant-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1037,
+      "distance_miles": 16.6
+    },
+    {
+      "name": "Sugarloaf Hill",
+      "slug": "sugarloaf-hill-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1135,
+      "distance_miles": 19.0
+    },
+    {
+      "name": "Blue Mounds",
+      "slug": "blue-mounds-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1719,
+      "distance_miles": 21.0
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Eagle Heights Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Eagle Heights hike with current conditions, trail map & parking info. Wisconsin summit at 1,010 ft.",
+    "canonical_url": "/trails/wisconsin/eagle-heights-wi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Eagle Heights",
+      "description": "Eagle Heights is a 1,010 foot peak in Wisconsin offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.08611,
+        "longitude": -89.44401,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1010,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Wisconsin",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Eagle Heights Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Eagle Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Eagle Heights Trail on Eagle Heights is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Eagle Heights hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eagle Heights is rated Moderate. At 1,010 feet, plan for the terrain and weather typical of Wisconsin peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Eagle Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Eagle Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Eagle Heights Trail, a  moderate hike to the Eagle Heights summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Eagle Heights?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Eagle Heights. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/349451673",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/349451673",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 349451673,
+    "prominence_m": null,
+    "wikidata": "Q49026486"
+  }
+}

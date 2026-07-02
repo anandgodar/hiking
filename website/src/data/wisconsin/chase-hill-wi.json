@@ -1,0 +1,165 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Chase Hill",
+  "slug": "chase-hill-wi",
+  "state": "Wisconsin",
+  "state_slug": "wisconsin",
+  "elevation": 1752,
+  "lat": 45.36719,
+  "lon": -89.63374,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Chase Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            45.36719,
+            -89.63374
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,752 feet, <strong>Chase Hill</strong> is a summit in Wisconsin. Nearby peaks include Timms Hill. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Timms Hill",
+      "slug": "timms-hill-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1951,
+      "distance_miles": 27.8
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Chase Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Chase Hill hike with current conditions, trail map & parking info. Wisconsin summit at 1,752 ft.",
+    "canonical_url": "/trails/wisconsin/chase-hill-wi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Chase Hill",
+      "description": "Chase Hill is a 1,752 foot peak in Wisconsin offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.36719,
+        "longitude": -89.63374,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1752,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Wisconsin",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Chase Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Chase Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Chase Hill Trail on Chase Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Chase Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chase Hill is rated Moderate. At 1,752 feet, plan for the terrain and weather typical of Wisconsin peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Chase Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Chase Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Chase Hill Trail, a  moderate hike to the Chase Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Chase Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Chase Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/349444506",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/349444506",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 349444506,
+    "prominence_m": null,
+    "wikidata": "Q35734101"
+  }
+}

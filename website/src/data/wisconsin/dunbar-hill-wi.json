@@ -1,0 +1,186 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Dunbar Hill",
+  "slug": "dunbar-hill-wi",
+  "state": "Wisconsin",
+  "state_slug": "wisconsin",
+  "elevation": 1201,
+  "lat": 43.09666,
+  "lon": -90.20568,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Dunbar Hill Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            43.09666,
+            -90.20568
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,201 feet, <strong>Dunbar Hill</strong> is a summit in Wisconsin. Nearby peaks include Indian Castle, Blue Mounds and Belmont Mound. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Indian Castle",
+      "slug": "indian-castle-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1161,
+      "distance_miles": 15.5
+    },
+    {
+      "name": "Blue Mounds",
+      "slug": "blue-mounds-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1719,
+      "distance_miles": 18.4
+    },
+    {
+      "name": "Belmont Mound",
+      "slug": "belmont-mound-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1401,
+      "distance_miles": 23.8
+    },
+    {
+      "name": "Little Mound",
+      "slug": "little-mound-wi",
+      "state_slug": "wisconsin",
+      "elevation": 1276,
+      "distance_miles": 24.9
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Dunbar Hill Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Dunbar Hill hike with current conditions, trail map & parking info. Wisconsin summit at 1,201 ft.",
+    "canonical_url": "/trails/wisconsin/dunbar-hill-wi",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Dunbar Hill",
+      "description": "Dunbar Hill is a 1,201 foot peak in Wisconsin offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.09666,
+        "longitude": -90.20568,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 1201,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Wisconsin",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Dunbar Hill Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Dunbar Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Dunbar Hill Trail on Dunbar Hill is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Dunbar Hill hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dunbar Hill is rated Moderate. At 1,201 feet, plan for the terrain and weather typical of Wisconsin peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Dunbar Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Dunbar Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Dunbar Hill Trail, a  moderate hike to the Dunbar Hill summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Dunbar Hill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Dunbar Hill. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/349445048",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/349445048",
+    "verification_date": "2026-07-02"
+  },
+  "osm": {
+    "id": 349445048,
+    "prominence_m": null,
+    "wikidata": "Q49026180"
+  }
+}
