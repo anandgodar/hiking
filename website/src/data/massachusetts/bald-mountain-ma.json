@@ -1,0 +1,363 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Bald Mountain",
+  "slug": "bald-mountain-ma",
+  "state": "Massachusetts",
+  "state_slug": "massachusetts",
+  "elevation": 2192,
+  "lat": 42.72925,
+  "lon": -73.1301,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Bald Mountain Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": 1.7,
+        "gain": 1427,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          42.72269,
+          -73.18632
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            42.70614,
+            -73.17717
+          ],
+          "summit": [
+            42.72925,
+            -73.1301
+          ]
+        },
+        "path": [
+          [
+            42.70614,
+            -73.17717,
+            663
+          ],
+          [
+            42.70752,
+            -73.17631,
+            860
+          ],
+          [
+            42.70993,
+            -73.17444,
+            1079
+          ],
+          [
+            42.71447,
+            -73.16932,
+            1342
+          ],
+          [
+            42.7192,
+            -73.16679,
+            1739
+          ],
+          [
+            42.72231,
+            -73.16587,
+            1886
+          ],
+          [
+            42.72428,
+            -73.16396,
+            1995
+          ],
+          [
+            42.72731,
+            -73.16102,
+            2090
+          ],
+          [
+            42.72733,
+            -73.161,
+            2090
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 663,
+            "coord": [
+              42.70614,
+              -73.17717
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 860,
+            "coord": [
+              42.70752,
+              -73.17631
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 1079,
+            "coord": [
+              42.70993,
+              -73.17444
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 1079,
+            "coord": [
+              42.70993,
+              -73.17444
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 1079,
+            "coord": [
+              42.70993,
+              -73.17444
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 1342,
+            "coord": [
+              42.71447,
+              -73.16932
+            ]
+          },
+          {
+            "mile": 0.73,
+            "elev": 1342,
+            "coord": [
+              42.71447,
+              -73.16932
+            ]
+          },
+          {
+            "mile": 0.85,
+            "elev": 1342,
+            "coord": [
+              42.71447,
+              -73.16932
+            ]
+          },
+          {
+            "mile": 0.97,
+            "elev": 1739,
+            "coord": [
+              42.7192,
+              -73.16679
+            ]
+          },
+          {
+            "mile": 1.09,
+            "elev": 1739,
+            "coord": [
+              42.7192,
+              -73.16679
+            ]
+          },
+          {
+            "mile": 1.21,
+            "elev": 1886,
+            "coord": [
+              42.72231,
+              -73.16587
+            ]
+          },
+          {
+            "mile": 1.34,
+            "elev": 1886,
+            "coord": [
+              42.72231,
+              -73.16587
+            ]
+          },
+          {
+            "mile": 1.46,
+            "elev": 1995,
+            "coord": [
+              42.72428,
+              -73.16396
+            ]
+          },
+          {
+            "mile": 1.58,
+            "elev": 2090,
+            "coord": [
+              42.72731,
+              -73.16102
+            ]
+          },
+          {
+            "mile": 1.7,
+            "elev": 2090,
+            "coord": [
+              42.72733,
+              -73.161
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Pine Cobble",
+          "type": "summit",
+          "lat": 42.72108,
+          "lon": -73.16632,
+          "mile": 1.28
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Bald Mountain</strong> rises to 2,192 feet in Massachusetts. The Bald Mountain Trail is a 1.7-mile hike with about 1,427 feet of elevation gain. Nearby peaks include Pine Cobble, Mount Williams and Bakke Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pine Cobble",
+      "slug": "pine-cobble-ma",
+      "state_slug": "massachusetts",
+      "elevation": 1880,
+      "distance_miles": 1.9
+    },
+    {
+      "name": "Mount Williams",
+      "slug": "mount-williams-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2956,
+      "distance_miles": 4.5
+    },
+    {
+      "name": "Bakke Mountain",
+      "slug": "bakke-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2559,
+      "distance_miles": 5.0
+    },
+    {
+      "name": "Mount Fitch",
+      "slug": "mount-fitch-ma",
+      "state_slug": "massachusetts",
+      "elevation": 3100,
+      "distance_miles": 5.3
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Bald Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Bald Mountain hike with current conditions, trail map & parking info. Massachusetts summit at 2,192 ft.",
+    "canonical_url": "/trails/massachusetts/bald-mountain-ma",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bald Mountain",
+      "description": "Bald Mountain is a 2,192 foot peak in Massachusetts offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.72925,
+        "longitude": -73.1301,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2192,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Massachusetts",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bald Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.70614,
+            "longitude": -73.17717
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bald Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bald Mountain Trail on Bald Mountain is 1.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bald Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bald Mountain is rated Moderate. At 2,192 feet, plan for the terrain and weather typical of Massachusetts peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bald Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bald Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bald Mountain Trail, a 1.7-mile moderate hike to the Bald Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bald Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bald Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358275436",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358275436",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 358275436,
+    "prominence_m": null,
+    "wikidata": "Q49010075"
+  }
+}

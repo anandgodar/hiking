@@ -1,0 +1,477 @@
+{
+  "name": "Berry Mountain",
+  "slug": "berry-mountain-ma",
+  "state": "Massachusetts",
+  "state_slug": "massachusetts",
+  "elevation": 2192,
+  "lat": 42.50286,
+  "lon": -73.31566,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Berry Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 0.7,
+        "gain": 538,
+        "time": null,
+        "difficulty": "Easy"
+      },
+      "parking_info": "Trailhead parking",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          42.49301,
+          -73.29898
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            42.49454,
+            -73.30812
+          ],
+          "summit": [
+            42.50286,
+            -73.31566
+          ]
+        },
+        "path": [
+          [
+            42.49454,
+            -73.30812,
+            1575
+          ],
+          [
+            42.49468,
+            -73.30812,
+            1575
+          ],
+          [
+            42.49474,
+            -73.30814,
+            1575
+          ],
+          [
+            42.49482,
+            -73.30818,
+            1575
+          ],
+          [
+            42.49493,
+            -73.30826,
+            1575
+          ],
+          [
+            42.49533,
+            -73.30871,
+            1624
+          ],
+          [
+            42.49591,
+            -73.30923,
+            1680
+          ],
+          [
+            42.49604,
+            -73.3092,
+            1680
+          ],
+          [
+            42.49611,
+            -73.30921,
+            1680
+          ],
+          [
+            42.49669,
+            -73.30973,
+            1755
+          ],
+          [
+            42.49697,
+            -73.31013,
+            1739
+          ],
+          [
+            42.49707,
+            -73.31018,
+            1739
+          ],
+          [
+            42.49736,
+            -73.31025,
+            1739
+          ],
+          [
+            42.49761,
+            -73.31045,
+            1804
+          ],
+          [
+            42.49773,
+            -73.31049,
+            1804
+          ],
+          [
+            42.49793,
+            -73.31047,
+            1804
+          ],
+          [
+            42.49815,
+            -73.31057,
+            1804
+          ],
+          [
+            42.49886,
+            -73.31096,
+            1867
+          ],
+          [
+            42.49945,
+            -73.3112,
+            1929
+          ],
+          [
+            42.49963,
+            -73.31138,
+            1929
+          ],
+          [
+            42.49973,
+            -73.31149,
+            1929
+          ],
+          [
+            42.49983,
+            -73.31158,
+            1929
+          ],
+          [
+            42.50013,
+            -73.31166,
+            1991
+          ],
+          [
+            42.50107,
+            -73.31178,
+            2060
+          ],
+          [
+            42.50138,
+            -73.31186,
+            2060
+          ],
+          [
+            42.50176,
+            -73.31203,
+            2083
+          ],
+          [
+            42.50279,
+            -73.31274,
+            2113
+          ],
+          [
+            42.50305,
+            -73.31293,
+            2113
+          ],
+          [
+            42.50337,
+            -73.31301,
+            2106
+          ],
+          [
+            42.50349,
+            -73.31291,
+            2106
+          ],
+          [
+            42.50363,
+            -73.31286,
+            2106
+          ],
+          [
+            42.5037,
+            -73.31287,
+            2106
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1575,
+            "coord": [
+              42.49454,
+              -73.30812
+            ]
+          },
+          {
+            "mile": 0.05,
+            "elev": 1624,
+            "coord": [
+              42.49533,
+              -73.30871
+            ]
+          },
+          {
+            "mile": 0.1,
+            "elev": 1680,
+            "coord": [
+              42.49591,
+              -73.30923
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 1680,
+            "coord": [
+              42.49611,
+              -73.30921
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 1739,
+            "coord": [
+              42.49697,
+              -73.31013
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 1804,
+            "coord": [
+              42.49761,
+              -73.31045
+            ]
+          },
+          {
+            "mile": 0.3,
+            "elev": 1804,
+            "coord": [
+              42.49815,
+              -73.31057
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 1867,
+            "coord": [
+              42.49886,
+              -73.31096
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1929,
+            "coord": [
+              42.49963,
+              -73.31138
+            ]
+          },
+          {
+            "mile": 0.45,
+            "elev": 1991,
+            "coord": [
+              42.50013,
+              -73.31166
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 2060,
+            "coord": [
+              42.50107,
+              -73.31178
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 2083,
+            "coord": [
+              42.50176,
+              -73.31203
+            ]
+          },
+          {
+            "mile": 0.6,
+            "elev": 2113,
+            "coord": [
+              42.50279,
+              -73.31274
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 2113,
+            "coord": [
+              42.50305,
+              -73.31293
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 2106,
+            "coord": [
+              42.5037,
+              -73.31287
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Berry Mountain",
+          "type": "summit",
+          "lat": 42.50286,
+          "lon": -73.31566,
+          "mile": 0.68
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Berry Mountain</strong> is a 2,192-foot summit in Massachusetts. The Berry Mountain Trail is a 0.7-mile hike with about 538 feet of elevation gain. Nearby peaks include Pine Mountain, Honwee Mountain and Tower Mountain. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Pine Mountain",
+      "slug": "pine-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2231,
+      "distance_miles": 0.6
+    },
+    {
+      "name": "Honwee Mountain",
+      "slug": "honwee-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2290,
+      "distance_miles": 0.7
+    },
+    {
+      "name": "Tower Mountain",
+      "slug": "tower-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2198,
+      "distance_miles": 0.9
+    },
+    {
+      "name": "Smith Mountain",
+      "slug": "smith-mountain-ma",
+      "state_slug": "massachusetts",
+      "elevation": 2165,
+      "distance_miles": 1.7
+    }
+  ],
+  "page_content": {
+    "faqs": [],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Berry Mountain Trail Guide | Map, Route & Conditions",
+    "meta_description": "Plan your Berry Mountain hike with current conditions, trail map & parking info. Massachusetts summit at 2,192 ft.",
+    "canonical_url": "/trails/massachusetts/berry-mountain-ma",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Berry Mountain",
+      "description": "Berry Mountain is a 2,192 foot peak in Massachusetts offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.50286,
+        "longitude": -73.31566,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2192,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Massachusetts",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Berry Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.49454,
+            "longitude": -73.30812
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Berry Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Berry Mountain Trail on Berry Mountain is 0.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Berry Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Berry Mountain is rated Moderate. At 2,192 feet, plan for the terrain and weather typical of Massachusetts peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Berry Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Berry Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Berry Mountain Trail, a 0.7-mile moderate hike to the Berry Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Berry Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Berry Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/358269492",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/358269492",
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 358269492,
+    "prominence_m": null,
+    "wikidata": "Q4894817"
+  }
+}
