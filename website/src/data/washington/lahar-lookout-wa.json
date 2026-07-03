@@ -15,8 +15,8 @@
       "difficulty": "",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
+        "distance": 2.7,
+        "gain": 5544,
         "time": null,
         "difficulty": ""
       },
@@ -33,18 +33,248 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            48.76582,
+            -121.7665
           ],
           "summit": [
             48.77223,
             -121.81351
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            48.76582,
+            -121.7665,
+            5161
+          ],
+          [
+            48.7679,
+            -121.77189,
+            5597
+          ],
+          [
+            48.76977,
+            -121.77547,
+            5948
+          ],
+          [
+            48.7712,
+            -121.78073,
+            6417
+          ],
+          [
+            48.77236,
+            -121.78576,
+            6811
+          ],
+          [
+            48.7729,
+            -121.78593,
+            6900
+          ],
+          [
+            48.77362,
+            -121.78924,
+            7264
+          ],
+          [
+            48.77395,
+            -121.79138,
+            7444
+          ],
+          [
+            48.77404,
+            -121.79318,
+            7641
+          ],
+          [
+            48.77464,
+            -121.79761,
+            8182
+          ],
+          [
+            48.77542,
+            -121.80237,
+            8720
+          ],
+          [
+            48.77526,
+            -121.80559,
+            9229
+          ],
+          [
+            48.77472,
+            -121.81015,
+            9865
+          ],
+          [
+            48.77309,
+            -121.81416,
+            10095
+          ],
+          [
+            48.77326,
+            -121.81503,
+            10180
+          ],
+          [
+            48.77416,
+            -121.81635,
+            10397
+          ],
+          [
+            48.77476,
+            -121.81634,
+            10554
+          ],
+          [
+            48.77582,
+            -121.81509,
+            10623
+          ],
+          [
+            48.77633,
+            -121.81533,
+            10705
+          ],
+          [
+            48.77673,
+            -121.81459,
+            10689
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 5161,
+            "coord": [
+              48.76582,
+              -121.7665
+            ]
+          },
+          {
+            "mile": 0.19,
+            "elev": 5597,
+            "coord": [
+              48.7679,
+              -121.77189
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 5597,
+            "coord": [
+              48.7679,
+              -121.77189
+            ]
+          },
+          {
+            "mile": 0.58,
+            "elev": 5948,
+            "coord": [
+              48.76977,
+              -121.77547
+            ]
+          },
+          {
+            "mile": 0.78,
+            "elev": 6417,
+            "coord": [
+              48.7712,
+              -121.78073
+            ]
+          },
+          {
+            "mile": 0.97,
+            "elev": 6811,
+            "coord": [
+              48.77236,
+              -121.78576
+            ]
+          },
+          {
+            "mile": 1.16,
+            "elev": 7264,
+            "coord": [
+              48.77362,
+              -121.78924
+            ]
+          },
+          {
+            "mile": 1.36,
+            "elev": 7641,
+            "coord": [
+              48.77404,
+              -121.79318
+            ]
+          },
+          {
+            "mile": 1.55,
+            "elev": 8182,
+            "coord": [
+              48.77464,
+              -121.79761
+            ]
+          },
+          {
+            "mile": 1.75,
+            "elev": 8720,
+            "coord": [
+              48.77542,
+              -121.80237
+            ]
+          },
+          {
+            "mile": 1.94,
+            "elev": 9229,
+            "coord": [
+              48.77526,
+              -121.80559
+            ]
+          },
+          {
+            "mile": 2.14,
+            "elev": 9865,
+            "coord": [
+              48.77472,
+              -121.81015
+            ]
+          },
+          {
+            "mile": 2.33,
+            "elev": 10095,
+            "coord": [
+              48.77309,
+              -121.81416
+            ]
+          },
+          {
+            "mile": 2.52,
+            "elev": 10397,
+            "coord": [
+              48.77416,
+              -121.81635
+            ]
+          },
+          {
+            "mile": 2.72,
+            "elev": 10689,
+            "coord": [
+              48.77673,
+              -121.81459
+            ]
+          }
+        ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Lahar Lookout",
+          "type": "summit",
+          "lat": 48.77223,
+          "lon": -121.81351,
+          "mile": 2.38
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Lahar Lookout</strong> rises to 10,069 feet in Washington. Nearby peaks include Sherman Peak, Colfax Peak and Mount Shuksan. Trail data is sourced from OpenStreetMap contributors (ODbL); verify current conditions with the official land manager before you go.</p>\n</div>",
@@ -173,10 +403,12 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/356545555",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/356545555",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-02",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 356545555,
