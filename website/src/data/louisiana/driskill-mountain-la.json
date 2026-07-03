@@ -6,7 +6,7 @@
   "elevation": 535,
   "lat": 32.42483,
   "lon": -92.89662,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Driskill%20Mountain%20Summit.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -615,5 +615,11 @@
     "id": 358375565,
     "prominence_m": null,
     "wikidata": "Q1665452"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Driskill%20Mountain%20Summit.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Fredlyfish4"
   }
 }

@@ -57,23 +57,28 @@ const categories = [
 ];
 
 // State cards — built dynamically from the data so any imported state
-// appears automatically. Known states keep a curated hero image; others
-// fall back to a default mountain image.
-const STATE_IMAGES = {
-  'california': 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800',
-  'new-hampshire': 'https://images.unsplash.com/photo-1589656966895-2f33e7653819?auto=format&fit=crop&q=80&w=800',
-  'maine': 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800',
-  'vermont': 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800',
-  'new-york': 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800',
-};
+// appears automatically. Each card uses a real photo from that state's own
+// trails (Wikimedia Commons heroes, highest peak first) so no two states
+// share an image.
 const DEFAULT_STATE_IMAGE = 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800';
 const titleCase = (slug) => slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+const stateHero = (mountains) => {
+  const withPhoto = mountains
+    .filter(m => m.mountain_hero)
+    .sort((a, b) => (b.elevation || 0) - (a.elevation || 0));
+  // Prefer attributed Commons photos (state-specific) over generic stock.
+  const pick = withPhoto.find(m => m.hero_credit) || withPhoto[0];
+  if (!pick) return DEFAULT_STATE_IMAGE;
+  // Cards render small — ask Commons for 800px instead of the 1600px hero.
+  return pick.mountain_hero.replace('width=1600', 'width=800');
+};
 
 const states = Object.keys(stateGroups)
   .map(slug => ({
     slug,
     name: stateGroups[slug][0]?.state || titleCase(slug),
-    image: STATE_IMAGES[slug] || DEFAULT_STATE_IMAGE,
+    image: stateHero(stateGroups[slug]),
     count: stateGroups[slug].length,
   }))
   .sort((a, b) => b.count - a.count);
