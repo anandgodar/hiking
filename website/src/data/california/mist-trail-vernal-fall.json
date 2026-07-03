@@ -6,7 +6,7 @@
   "elevation": 5900,
   "lat": 37.7264,
   "lon": -119.5455,
-  "mountain_hero": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&q=80&w=2000",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Vernal_Fall%2C_Yosemite_NP%2C_CA%2C_US_-_Diliff.jpg?width=1600",
   "tags": [
     "waterfall",
     "moderate",
@@ -779,5 +779,11 @@
     "distance_source": "NPS trail signage and official Yosemite website",
     "notes": "Distance and elevation from NPS official trail descriptions. Waterfall height (317 ft) verified from USGS Geographic Names Information System. GPS path enhanced with interpolated points and estimated elevation data pending verified GPX import.",
     "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Vernal_Fall%2C_Yosemite_NP%2C_CA%2C_US_-_Diliff.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diliff"
   }
 }
