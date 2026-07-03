@@ -4,7 +4,7 @@
   "state": "New York",
   "state_slug": "new-york",
   "elevation": 3140,
-  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Overlook_Mountain_south_face.jpg?width=1600",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
     "catskills",
@@ -935,5 +935,11 @@
         }
       ]
     }
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Overlook_Mountain_south_face.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "True Pagan Warrior"
   }
 }

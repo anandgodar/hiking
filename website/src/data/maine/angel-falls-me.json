@@ -6,7 +6,7 @@
   "elevation": 1800,
   "lat": 44.8978,
   "lon": -70.6806,
-  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Angel_Falls.jpg?width=1600",
   "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
   "tags": [
     "waterfall",
@@ -1340,5 +1340,11 @@
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
     "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Angel_Falls.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "No machine-readable author provided. Freemanj assumed (based on copyright claims)."
   }
 }

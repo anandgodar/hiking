@@ -7,36 +7,36 @@
 
 const faqs = [
   {
-    question: "What are the best hiking trails in New England?",
-    answer: "The best hiking trails in New England include Mount Washington in New Hampshire (highest peak in the Northeast), Cadillac Mountain in Maine's Acadia National Park, Mount Mansfield in Vermont, and Mount Marcy in New York's Adirondacks. SummitSeeker features 120+ curated trails with detailed maps and guides."
+    question: "What are the best summit hikes in the United States?",
+    answer: "Iconic summit hikes span every region: Mount Washington in New Hampshire, Mount Marcy in New York's Adirondacks, Grays Peak and other Colorado 14ers, Mount Whitney in California (highest peak in the lower 48), Mount Mansfield in Vermont, and Clingmans Dome on the Tennessee–North Carolina border. SummitSeeker covers 900+ verified summit trails across all 50 states, each with a mapped route, elevation profile, and difficulty rating."
   },
   {
-    question: "When is the best time to hike in New Hampshire and Maine?",
-    answer: "The best hiking season in New Hampshire and Maine is typically from late May through October. Summer (June-August) offers the most stable weather, while September-October provides stunning fall foliage. Winter hiking (December-March) requires specialized gear and experience."
+    question: "When is the best time of year to hike?",
+    answer: "It depends on the region. Northeast and Rockies peaks are best late May through October, with alpine 14ers safest July–September after snowmelt. Desert Southwest hikes (Arizona, Nevada, Utah) are best October–April to avoid extreme heat. Southern Appalachian trails (Tennessee, Georgia, the Carolinas) are hikeable most of the year. Always check the mountain forecast — conditions at the summit can differ drastically from the trailhead."
   },
   {
-    question: "Do I need a parking pass for New Hampshire hiking trails?",
-    answer: "Many New Hampshire trails require a parking pass. The White Mountain National Forest requires a Recreation Pass ($5 daily or $30 annual). State parks like Franconia Notch also require fees. Maine's Baxter State Park charges vehicle fees. Check each trail's parking information on SummitSeeker for specific requirements."
+    question: "Do I need a permit or parking pass to hike?",
+    answer: "Rules vary by land manager. National forests often require a recreation pass (for example, White Mountain National Forest in New Hampshire), some wilderness summits like Mount Whitney require lottery permits, and many state parks charge day-use or vehicle fees. Check each trail guide on SummitSeeker and the official land-manager page linked there for current requirements."
   },
   {
-    question: "What is a 4000 footer in New Hampshire?",
-    answer: "A 4000 footer refers to New Hampshire's 48 mountain peaks over 4,000 feet in elevation. Completing all 48 is a popular hiking challenge. The NH 4000 Footer Club awards certificates to hikers who summit all peaks. Popular 4000 footers include Mount Lafayette, Mount Washington, and the Franconia Ridge."
+    question: "How are trail difficulty ratings calculated?",
+    answer: "SummitSeeker rates every trail using the National Park Service difficulty formula, which combines round-trip distance and total elevation gain. Trails are rated Easy, Moderate, Hard, or Strenuous. A short steep climb can rate harder than a long gentle one — the rating reflects overall effort, and each guide also shows the elevation profile so you can judge the steep sections yourself."
   },
   {
-    question: "How difficult is hiking Mount Washington?",
-    answer: "Mount Washington is considered very difficult due to extreme weather, 4,000+ feet of elevation gain, and typically 8-10 hour round trips. The most popular routes are the Tuckerman Ravine Trail (8.4 miles) and the Ammonoosuc Ravine Trail (9.2 miles). Only attempt with proper gear, fitness, and weather awareness."
+    question: "Where does SummitSeeker's trail data come from?",
+    answer: "Routes and trail geometry come from public authoritative sources: the US Forest Service, National Park Service, USGS National Map, and OpenStreetMap, with elevation profiles from the Copernicus digital elevation model. Every published trail passes automated quality checks — routes that can't be verified stay unpublished. Peak photos are licensed images from Wikimedia Commons with attribution."
   },
   {
-    question: "Are dogs allowed on New England hiking trails?",
-    answer: "Most New England trails allow dogs on leash. However, dogs are prohibited in Baxter State Park (Maine) and restricted in some state parks during nesting season. Always check trail-specific regulations. Popular dog-friendly hikes include Mount Major (NH), Welch-Dickey Loop (NH), and most Green Mountain trails (VT)."
+    question: "What gear do I need for a summit hike?",
+    answer: "The essentials for any summit hike: sturdy footwear, layered moisture-wicking clothing, rain shell, 2+ liters of water, food, offline map or downloaded GPX, first aid kit, headlamp, and sun protection. For high peaks add trekking poles, insulating layers, and an emergency shelter; winter or alpine conditions require microspikes or crampons and experience using them."
   },
   {
-    question: "What gear do I need for White Mountains hiking?",
-    answer: "Essential White Mountains hiking gear includes: sturdy hiking boots, moisture-wicking clothing layers, rain jacket, backpack, water (2+ liters), snacks, map/GPS, first aid kit, headlamp, and sun protection. For 4000 footers, add trekking poles, warm layers, and emergency shelter. Winter requires microspikes, crampons, and insulated gear."
+    question: "Can I download trail maps for offline use?",
+    answer: "Yes — every trail guide includes a downloadable GPX file of the route that works with any GPS app or device (Gaia GPS, OsmAnd, Garmin, and others). Cell coverage is unreliable in the mountains, so download the route and an offline map layer before you leave the trailhead."
   },
   {
-    question: "How long does it take to hike popular New Hampshire trails?",
-    answer: "Hiking times vary by trail: Mount Major (2-3 hours round trip), Welch-Dickey Loop (4-5 hours), Mount Lafayette via Old Bridle Path (6-8 hours), and Mount Washington (8-10 hours). SummitSeeker provides estimated times for each trail based on distance, elevation gain, and difficulty."
+    question: "How do I track the peaks I've hiked?",
+    answer: "Use the Save Peak button on any trail guide to build your personal peak list, then mark summits as completed on your My Peaks page. Your list is stored in your browser — no account required. It's an easy way to track progress on goals like the New Hampshire 4000-footers or your state's highest summits."
   }
 ];
 
@@ -62,7 +62,7 @@ const faqSchema = {
         Hiking FAQ
       </div>
       <h2 class="text-4xl font-bold text-stone-900 mb-4">Frequently Asked Questions</h2>
-      <p class="text-stone-600 text-lg">Everything you need to know about hiking in New England</p>
+      <p class="text-stone-600 text-lg">Everything you need to know about summit hiking across the United States</p>
     </div>
 
     <div class="space-y-4">
