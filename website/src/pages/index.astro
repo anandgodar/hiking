@@ -61,15 +61,26 @@ const categories = [
 // trails (Wikimedia Commons heroes, highest peak first) so no two states
 // share an image.
 const DEFAULT_STATE_IMAGE = 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800';
+// States whose live peaks have no Commons photos get a famous in-state
+// landmark instead (Wikipedia lead images, all Commons-hosted).
+const fp = (f) => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=800`;
+const STATE_IMAGE_OVERRIDES = {
+  'hawaii': fp('Mauna_Kea_from_the_ocean.jpg'),
+  'indiana': fp('Indiana_Dunes_National_Lakeshore,_Michigan_City,_Indiana,_Estados_Unidos,_2012-10-20,_DD_03.jpg'),
+  'mississippi': fp('TishomingoSPbridge.jpg'),
+  'nebraska': fp('Covered_Wagon_In_Scotts_Bluff_National_Monument,_Nebraska.jpg'),
+  'west-virginia': fp('Seneca_Rocks_-_front_1.jpg'),
+};
 const titleCase = (slug) => slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 
 const stateHero = (mountains) => {
+  // Only attributed Commons photos count — a generic stock hero would put
+  // the same image on many state cards.
   const withPhoto = mountains
-    .filter(m => m.mountain_hero)
+    .filter(m => m.mountain_hero && m.hero_credit)
     .sort((a, b) => (b.elevation || 0) - (a.elevation || 0));
-  // Prefer attributed Commons photos (state-specific) over generic stock.
-  const pick = withPhoto.find(m => m.hero_credit) || withPhoto[0];
-  if (!pick) return DEFAULT_STATE_IMAGE;
+  const pick = withPhoto[0];
+  if (!pick) return null;
   // Cards render small — ask Commons for 800px instead of the 1600px hero.
   return pick.mountain_hero.replace('width=1600', 'width=800');
 };
@@ -78,7 +89,7 @@ const states = Object.keys(stateGroups)
   .map(slug => ({
     slug,
     name: stateGroups[slug][0]?.state || titleCase(slug),
-    image: stateHero(stateGroups[slug]),
+    image: stateHero(stateGroups[slug]) || STATE_IMAGE_OVERRIDES[slug] || DEFAULT_STATE_IMAGE,
     count: stateGroups[slug].length,
   }))
   .sort((a, b) => b.count - a.count);

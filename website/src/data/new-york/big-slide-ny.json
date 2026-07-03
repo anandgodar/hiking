@@ -4,7 +4,7 @@
   "state": "New York",
   "state_slug": "new-york",
   "elevation": 4240,
-  "mountain_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Slide_Mt_from_The_Brothers_Trail.jpg?width=1600",
   "state_hero": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000",
   "tags": [
     "high_peaks",
@@ -3454,5 +3454,11 @@
         }
       ]
     }
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Big_Slide_Mt_from_The_Brothers_Trail.jpg",
+    "license": "Public domain",
+    "artist": "petersent"
   }
 }
