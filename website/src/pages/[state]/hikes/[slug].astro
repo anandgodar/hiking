@@ -27,6 +27,7 @@ import TrailDashboard from '../../../components/TrailDashboard.jsx';
 import WeatherWidget from '../../../components/WeatherWidget.jsx';
 import SavePeakButton from '../../../components/SavePeakButton.jsx';
 import { isPublishReady } from '../../../lib/publishReady.js';
+import cities from '../../../data-static/cities.json';
 
 // REQUIRED: getStaticPaths for dynamic routes
 export async function getStaticPaths() {
@@ -70,10 +71,55 @@ mountain.nearby_peaks = (mountain.nearby_peaks || [])
 
 // highest-peaks pages only generate for states with ≥3 live trails — don't
 // link to one that doesn't exist (Nebraska has 2).
-const stateLiveCount = liveMountains
-  .filter(m => (m.state_slug === 'nh' ? 'new-hampshire' : m.state_slug) === mountain.state_slug)
-  .length;
+const norm = (s) => (s === 'nh' ? 'new-hampshire' : s === 'me' ? 'maine' : s === 'vt' ? 'vermont' : s === 'ny' ? 'new-york' : s);
+const stateLive = liveMountains.filter(m => norm(m.state_slug) === mountain.state_slug);
+const stateLiveCount = stateLive.length;
 const hasHighestPeaksPage = stateLiveCount >= 3;
+
+// Related trails: same state, prefer same difficulty, closest in elevation.
+// Hub-and-spoke internal linking — every trail page links onward to more
+// trail pages plus its state/difficulty hubs.
+const myDifficulty = mountain.trails?.[0]?.difficulty || mountain.trails?.[0]?.stats?.difficulty || null;
+const nearbySlugs = new Set((mountain.nearby_peaks || []).map(p => p.slug));
+const relatedTrails = stateLive
+  .filter(m => m.slug !== mountain.slug && !nearbySlugs.has(m.slug))
+  .map(m => ({
+    name: m.name,
+    slug: m.slug,
+    state_slug: norm(m.state_slug),
+    elevation: m.elevation,
+    difficulty: m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || null,
+    distance: m.trails?.[0]?.stats?.distance || null,
+  }))
+  .sort((a, b) => {
+    const da = (a.difficulty === myDifficulty) ? 0 : 1;
+    const db = (b.difficulty === myDifficulty) ? 0 : 1;
+    if (da !== db) return da - db;
+    return Math.abs((a.elevation || 0) - (mountain.elevation || 0))
+         - Math.abs((b.elevation || 0) - (mountain.elevation || 0));
+  })
+  .slice(0, 4);
+
+// Nearest city hub page, if this trail is within its 100-mile radius and the
+// page exists (same ≥5-trails rule as the /near generator).
+const havMi = (aLat, aLon, bLat, bLon) => {
+  const R = 3959;
+  const dLat = (bLat - aLat) * Math.PI / 180;
+  const dLon = (bLon - aLon) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(aLat * Math.PI / 180) * Math.cos(bLat * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+};
+let cityLink = null;
+if (mountain.lat && mountain.lon) {
+  const candidates = cities
+    .map(c => ({ ...c, mi: havMi(c.lat, c.lon, mountain.lat, mountain.lon) }))
+    .filter(c => c.mi <= 100)
+    .sort((a, b) => a.mi - b.mi);
+  for (const c of candidates) {
+    const n = liveMountains.filter(m => m.lat && m.lon && havMi(c.lat, c.lon, m.lat, m.lon) <= 100).length;
+    if (n >= 5) { cityLink = c; break; }
+  }
+}
 
 // Extract page content
 const pageContent = mountain.page_content || {};
@@ -293,6 +339,46 @@ const dashboardMountain = {
           currentMountain={mountain.name}
           stateSlug={mountain.state_slug}
         />
+      )}
+
+      <!-- Keep Exploring: hub-and-spoke internal links -->
+      {(relatedTrails.length > 0 || cityLink) && (
+        <section class="mt-12" aria-label="Related trails">
+          <h2 class="text-2xl font-bold text-stone-900 mb-6">Keep Exploring</h2>
+          {relatedTrails.length > 0 && (
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+              {relatedTrails.map(t => (
+                <a href={`/${t.state_slug}/hikes/${t.slug}`}
+                   class="block bg-white border border-stone-200 rounded-xl p-4 hover:border-emerald-400 hover:shadow-md transition-all">
+                  <p class="font-bold text-stone-900 mb-1">{t.name}</p>
+                  <p class="text-sm text-stone-500">
+                    {t.elevation ? `${t.elevation.toLocaleString()} ft` : ''}
+                    {t.distance ? ` · ${t.distance} mi` : ''}
+                    {t.difficulty ? ` · ${t.difficulty}` : ''}
+                  </p>
+                </a>
+              ))}
+            </div>
+          )}
+          <div class="flex flex-wrap gap-3">
+            {myDifficulty && (
+              <a href={`/${mountain.state_slug}/hikes/${myDifficulty.toLowerCase().trim().replace(/\s+/g, '-').replace(/s$/, '')}`}
+                 class="inline-flex items-center gap-1 text-sm font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-full px-4 py-2 hover:bg-emerald-100 transition-colors">
+                More {myDifficulty} hikes in {mountain.state || mountain.state_slug?.replace(/-/g, ' ')} →
+              </a>
+            )}
+            {cityLink && (
+              <a href={`/near/${cityLink.slug}`}
+                 class="inline-flex items-center gap-1 text-sm font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-full px-4 py-2 hover:bg-emerald-100 transition-colors">
+                Hikes near {cityLink.name} →
+              </a>
+            )}
+            <a href={`/${mountain.state_slug}`}
+               class="inline-flex items-center gap-1 text-sm font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-full px-4 py-2 hover:bg-emerald-100 transition-colors">
+              All {mountain.state || mountain.state_slug?.replace(/-/g, ' ')} trails →
+            </a>
+          </div>
+        </section>
       )}
     </div>
 
