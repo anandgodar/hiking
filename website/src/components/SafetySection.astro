@@ -19,9 +19,17 @@ interface Props {
   safety?: SafetyInfo;
   mountainName?: string;
   elevation?: number;
+  lat?: number;
+  lon?: number;
 }
 
-const { safety, mountainName = 'this peak', elevation = 4000 } = Astro.props;
+const { safety, mountainName = 'this peak', elevation = 4000, lat, lon } = Astro.props;
+
+// NWS point forecast for the actual summit — correct for any US trail,
+// unlike a hardcoded phone line.
+const nwsUrl = (lat && lon)
+  ? `https://forecast.weather.gov/MapClick.php?lat=${lat}&lon=${lon}`
+  : 'https://www.weather.gov/';
 
 const month = new Date().getMonth();
 const isWinter = month >= 11 || month <= 2;
@@ -49,11 +57,9 @@ const defaultSafety: SafetyInfo = {
     { item: "Trekking poles", critical: false },
     { item: "Multi-tool/knife", critical: false }
   ],
-  emergency_contacts: {
-    ranger_station: "603-536-6100",
-    search_rescue: "911",
-    weather_line: "603-356-2137"
-  },
+  // No default phone numbers: a wrong ranger/SAR number is worse than none.
+  // Numbers only render when the trail's own data provides them.
+  emergency_contacts: {},
   turn_around_time: elevation >= 4000 ? "1:00 PM (2:00 PM summer)" : "3:00 PM"
 };
 
@@ -61,7 +67,7 @@ const displaySafety = {
   ...defaultSafety,
   ...safety,
   essential_gear: safety?.essential_gear || defaultSafety.essential_gear,
-  emergency_contacts: { ...defaultSafety.emergency_contacts, ...safety?.emergency_contacts }
+  emergency_contacts: { ...safety?.emergency_contacts }
 };
 ---
 
@@ -142,21 +148,36 @@ const displaySafety = {
     </h3>
     <div class="grid sm:grid-cols-3 gap-4">
       <div>
-        <p class="text-xs text-red-700 uppercase tracking-wide mb-1">Emergency</p>
+        <p class="text-xs text-red-700 uppercase tracking-wide mb-1">Emergency / Search & Rescue</p>
         <a href="tel:911" class="text-lg font-bold text-red-900 hover:underline">911</a>
       </div>
-      <div>
-        <p class="text-xs text-red-700 uppercase tracking-wide mb-1">NH Fish & Game</p>
-        <a href={`tel:${displaySafety.emergency_contacts?.ranger_station}`} class="text-lg font-bold text-red-900 hover:underline">
-          {displaySafety.emergency_contacts?.ranger_station}
-        </a>
-      </div>
-      <div>
-        <p class="text-xs text-red-700 uppercase tracking-wide mb-1">Mt Washington Weather</p>
-        <a href={`tel:${displaySafety.emergency_contacts?.weather_line}`} class="text-lg font-bold text-red-900 hover:underline">
-          {displaySafety.emergency_contacts?.weather_line}
-        </a>
-      </div>
+      {displaySafety.emergency_contacts?.ranger_station && (
+        <div>
+          <p class="text-xs text-red-700 uppercase tracking-wide mb-1">Ranger Station</p>
+          <a href={`tel:${displaySafety.emergency_contacts.ranger_station}`} class="text-lg font-bold text-red-900 hover:underline">
+            {displaySafety.emergency_contacts.ranger_station}
+          </a>
+        </div>
+      )}
+      {displaySafety.emergency_contacts?.weather_line ? (
+        <div>
+          <p class="text-xs text-red-700 uppercase tracking-wide mb-1">Weather Line</p>
+          <a href={`tel:${displaySafety.emergency_contacts.weather_line}`} class="text-lg font-bold text-red-900 hover:underline">
+            {displaySafety.emergency_contacts.weather_line}
+          </a>
+        </div>
+      ) : (
+        <div>
+          <p class="text-xs text-red-700 uppercase tracking-wide mb-1">Summit Forecast</p>
+          <a href={nwsUrl} target="_blank" rel="noopener" class="text-lg font-bold text-red-900 hover:underline">
+            NWS Point Forecast →
+          </a>
+        </div>
+      )}
     </div>
+    <p class="mt-3 text-xs text-red-700">
+      In most of the US, backcountry search and rescue is dispatched through 911 —
+      tell the operator you have a hiker emergency and your GPS coordinates.
+    </p>
   </div>
 </section>
