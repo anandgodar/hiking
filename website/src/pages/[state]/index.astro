@@ -100,13 +100,19 @@ const stateConfig = {
     ]
   },
   'default': {
-    name: stateSlug ? stateSlug.replace(/-/g, ' ') : 'Wilderness',
+    // Title-case the slug ("north-carolina" -> "North Carolina") — this name
+    // lands in the <title>, meta description, alt text and breadcrumb.
+    name: stateSlug
+      ? stateSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
+      : 'Wilderness',
     heroImage: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
     featuredCollections: []
   }
 };
 
 const config = stateConfig[stateSlug] || stateConfig['default'];
+// Prefer the state name stored in the data itself when available.
+if (mountains?.[0]?.state) config.name = mountains[0].state;
 
 // Utils
 const slugify = (text) => text.toString().toLowerCase().trim()

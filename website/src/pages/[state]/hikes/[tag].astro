@@ -89,6 +89,11 @@ const getPrettyTitle = (t) => {
     return t.replace(/_/g, ' ').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
 const prettyTag = getPrettyTitle(tag);
+// "Easy in Colorado" reads broken — make it "Easy Hikes in Colorado".
+// Tags that already say Hikes/Trails/Footers keep their phrasing.
+const tagPhrase = /hike|trail|footer/i.test(prettyTag)
+  ? prettyTag
+  : `${prettyTag} Hikes`;
 
 // --- HERO CONFIG ---
 const tagHeroConfig = {
@@ -103,13 +108,13 @@ const coverImage = tagHeroConfig[tag] || mountains[0]?.image || tagHeroConfig.de
 
 // --- SEO: title/description with real counts, ItemList structured data ---
 const stateTitle = stateName.replace(/\b\w/g, c => c.toUpperCase());
-const seoTitle = `${prettyTag} in ${stateTitle} | ${mountains.length} Trails with Maps & Guides`;
-const seoDescription = `${mountains.length} ${prettyTag.toLowerCase()} trails in ${stateTitle} with maps, elevation profiles, difficulty ratings & parking info. Updated ${new Date().getFullYear()}.`.slice(0, 160);
+const seoTitle = `${tagPhrase} in ${stateTitle} | ${mountains.length} Trails with Maps & Guides`;
+const seoDescription = `${mountains.length} ${tagPhrase.toLowerCase()} in ${stateTitle} with maps, elevation profiles, difficulty ratings & parking info. Updated ${new Date().getFullYear()}.`.slice(0, 160);
 
 const itemListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": `${prettyTag} in ${stateTitle}`,
+  "name": `${tagPhrase} in ${stateTitle}`,
   "numberOfItems": mountains.length,
   "itemListElement": mountains.slice(0, 25).map((m, i) => ({
     "@type": "ListItem",
@@ -146,7 +151,7 @@ const itemListSchema = {
             </nav>
 
             <h1 class="font-serif text-5xl md:text-7xl font-black text-white mb-4 shadow-xl capitalize tracking-tight">
-                {prettyTag}
+                {tagPhrase} in {stateTitle}
             </h1>
 
             <div class="inline-flex items-center gap-2 bg-emerald-500/20 backdrop-blur-md border border-emerald-400/30 px-4 py-1.5 rounded-full">
