@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Brierpatch Mountain",
   "slug": "brierpatch-mountain-wv",
   "state": "West Virginia",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Brierpatch Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Strenuous",
       "type": "",
       "stats": {
         "distance": 13.4,
         "gain": 2027,
-        "time": null,
-        "difficulty": "",
+        "time": 5.5,
+        "difficulty": "Strenuous",
         "route_length_mi": 6.69,
         "distance_type": "out-and-back",
         "distance_source": "computed"
