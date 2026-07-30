@@ -1,0 +1,941 @@
+{
+  "name": "Black Mountain",
+  "slug": "black-mountain-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 2093,
+  "lat": 55.27975,
+  "lon": -131.39965,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Black Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 3.8,
+        "gain": 269,
+        "time": 1.5,
+        "difficulty": "Easy",
+        "route_length_mi": 1.91,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            55.29905,
+            -131.47206
+          ],
+          "summit": [
+            55.27975,
+            -131.39965
+          ]
+        },
+        "path": [
+          [
+            55.29905,
+            -131.47206,
+            0
+          ],
+          [
+            55.29928,
+            -131.47218,
+            82
+          ],
+          [
+            55.29971,
+            -131.47231,
+            82
+          ],
+          [
+            55.2999,
+            -131.47223,
+            82
+          ],
+          [
+            55.30013,
+            -131.47203,
+            75
+          ],
+          [
+            55.30033,
+            -131.47173,
+            75
+          ],
+          [
+            55.30042,
+            -131.47118,
+            46
+          ],
+          [
+            55.30056,
+            -131.47058,
+            46
+          ],
+          [
+            55.30064,
+            -131.47012,
+            46
+          ],
+          [
+            55.30069,
+            -131.46964,
+            75
+          ],
+          [
+            55.30035,
+            -131.46922,
+            75
+          ],
+          [
+            55.30016,
+            -131.46906,
+            75
+          ],
+          [
+            55.30013,
+            -131.4689,
+            75
+          ],
+          [
+            55.3003,
+            -131.46859,
+            125
+          ],
+          [
+            55.30048,
+            -131.46819,
+            125
+          ],
+          [
+            55.30064,
+            -131.46782,
+            125
+          ],
+          [
+            55.30081,
+            -131.46754,
+            125
+          ],
+          [
+            55.30093,
+            -131.46749,
+            230
+          ],
+          [
+            55.30109,
+            -131.46694,
+            230
+          ],
+          [
+            55.30116,
+            -131.46656,
+            230
+          ],
+          [
+            55.30131,
+            -131.4661,
+            220
+          ],
+          [
+            55.30149,
+            -131.46553,
+            220
+          ],
+          [
+            55.30167,
+            -131.46513,
+            223
+          ],
+          [
+            55.30178,
+            -131.46472,
+            177
+          ],
+          [
+            55.30185,
+            -131.46439,
+            177
+          ],
+          [
+            55.30204,
+            -131.46403,
+            177
+          ],
+          [
+            55.30239,
+            -131.46375,
+            154
+          ],
+          [
+            55.30251,
+            -131.46355,
+            141
+          ],
+          [
+            55.30251,
+            -131.46336,
+            141
+          ],
+          [
+            55.30236,
+            -131.46304,
+            154
+          ],
+          [
+            55.302,
+            -131.46299,
+            154
+          ],
+          [
+            55.30181,
+            -131.46295,
+            154
+          ],
+          [
+            55.30165,
+            -131.46294,
+            171
+          ],
+          [
+            55.30151,
+            -131.4629,
+            171
+          ],
+          [
+            55.30146,
+            -131.46278,
+            171
+          ],
+          [
+            55.30166,
+            -131.46262,
+            154
+          ],
+          [
+            55.30178,
+            -131.46242,
+            213
+          ],
+          [
+            55.30161,
+            -131.46214,
+            210
+          ],
+          [
+            55.30152,
+            -131.46193,
+            210
+          ],
+          [
+            55.30164,
+            -131.46151,
+            210
+          ],
+          [
+            55.30162,
+            -131.46124,
+            246
+          ],
+          [
+            55.3015,
+            -131.46089,
+            246
+          ],
+          [
+            55.3014,
+            -131.46072,
+            246
+          ],
+          [
+            55.30112,
+            -131.46034,
+            246
+          ],
+          [
+            55.30093,
+            -131.45961,
+            240
+          ],
+          [
+            55.30074,
+            -131.4594,
+            259
+          ],
+          [
+            55.30044,
+            -131.45927,
+            259
+          ],
+          [
+            55.30038,
+            -131.45897,
+            259
+          ],
+          [
+            55.30042,
+            -131.45803,
+            269
+          ],
+          [
+            55.30056,
+            -131.4578,
+            269
+          ],
+          [
+            55.30059,
+            -131.45746,
+            223
+          ],
+          [
+            55.3006,
+            -131.45723,
+            223
+          ],
+          [
+            55.30062,
+            -131.45636,
+            223
+          ],
+          [
+            55.30061,
+            -131.45573,
+            203
+          ],
+          [
+            55.30056,
+            -131.45512,
+            203
+          ],
+          [
+            55.3003,
+            -131.45455,
+            203
+          ],
+          [
+            55.30005,
+            -131.45433,
+            203
+          ],
+          [
+            55.29987,
+            -131.45368,
+            210
+          ],
+          [
+            55.29979,
+            -131.45303,
+            210
+          ],
+          [
+            55.29996,
+            -131.4528,
+            210
+          ],
+          [
+            55.30009,
+            -131.45249,
+            207
+          ],
+          [
+            55.30009,
+            -131.45228,
+            207
+          ],
+          [
+            55.29998,
+            -131.45202,
+            207
+          ],
+          [
+            55.29992,
+            -131.45175,
+            207
+          ],
+          [
+            55.29998,
+            -131.45135,
+            207
+          ],
+          [
+            55.30005,
+            -131.45091,
+            200
+          ],
+          [
+            55.30011,
+            -131.45065,
+            200
+          ],
+          [
+            55.30011,
+            -131.45051,
+            200
+          ],
+          [
+            55.29996,
+            -131.4528,
+            210
+          ],
+          [
+            55.30007,
+            -131.4528,
+            200
+          ],
+          [
+            55.30017,
+            -131.45266,
+            200
+          ],
+          [
+            55.30029,
+            -131.45261,
+            200
+          ],
+          [
+            55.3005,
+            -131.4526,
+            200
+          ],
+          [
+            55.30063,
+            -131.45267,
+            200
+          ],
+          [
+            55.30074,
+            -131.45263,
+            200
+          ],
+          [
+            55.30083,
+            -131.45254,
+            203
+          ],
+          [
+            55.30094,
+            -131.45248,
+            200
+          ],
+          [
+            55.30098,
+            -131.45245,
+            200
+          ],
+          [
+            55.30109,
+            -131.45226,
+            200
+          ],
+          [
+            55.30117,
+            -131.45204,
+            200
+          ],
+          [
+            55.30122,
+            -131.45188,
+            200
+          ],
+          [
+            55.30132,
+            -131.45167,
+            200
+          ],
+          [
+            55.30146,
+            -131.45152,
+            200
+          ],
+          [
+            55.30154,
+            -131.4514,
+            200
+          ],
+          [
+            55.30162,
+            -131.45124,
+            194
+          ],
+          [
+            55.30176,
+            -131.45108,
+            187
+          ],
+          [
+            55.3019,
+            -131.45095,
+            187
+          ],
+          [
+            55.30199,
+            -131.45081,
+            187
+          ],
+          [
+            55.30202,
+            -131.45061,
+            187
+          ],
+          [
+            55.30201,
+            -131.45026,
+            187
+          ],
+          [
+            55.30202,
+            -131.44985,
+            180
+          ],
+          [
+            55.30218,
+            -131.44938,
+            180
+          ],
+          [
+            55.30236,
+            -131.44887,
+            180
+          ],
+          [
+            55.30259,
+            -131.44872,
+            200
+          ],
+          [
+            55.30276,
+            -131.4487,
+            200
+          ],
+          [
+            55.30306,
+            -131.44858,
+            200
+          ],
+          [
+            55.3036,
+            -131.44843,
+            197
+          ],
+          [
+            55.30386,
+            -131.44823,
+            197
+          ],
+          [
+            55.30393,
+            -131.44812,
+            197
+          ],
+          [
+            55.30398,
+            -131.44789,
+            197
+          ],
+          [
+            55.30403,
+            -131.44778,
+            197
+          ],
+          [
+            55.30414,
+            -131.44792,
+            197
+          ],
+          [
+            55.3043,
+            -131.44797,
+            203
+          ],
+          [
+            55.30446,
+            -131.44792,
+            203
+          ],
+          [
+            55.30449,
+            -131.44757,
+            203
+          ],
+          [
+            55.30456,
+            -131.4471,
+            207
+          ],
+          [
+            55.30459,
+            -131.44688,
+            207
+          ],
+          [
+            55.30463,
+            -131.44657,
+            207
+          ],
+          [
+            55.30478,
+            -131.44645,
+            207
+          ],
+          [
+            55.305,
+            -131.44648,
+            200
+          ],
+          [
+            55.30518,
+            -131.44656,
+            200
+          ],
+          [
+            55.30537,
+            -131.44647,
+            200
+          ],
+          [
+            55.30559,
+            -131.4464,
+            200
+          ],
+          [
+            55.3058,
+            -131.44635,
+            200
+          ],
+          [
+            55.30594,
+            -131.44647,
+            174
+          ],
+          [
+            55.30606,
+            -131.44665,
+            174
+          ],
+          [
+            55.30617,
+            -131.44696,
+            174
+          ],
+          [
+            55.30625,
+            -131.44719,
+            174
+          ],
+          [
+            55.30642,
+            -131.44726,
+            174
+          ],
+          [
+            55.30659,
+            -131.44733,
+            174
+          ],
+          [
+            55.30673,
+            -131.44756,
+            164
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 0,
+            "coord": [
+              55.29905,
+              -131.47206
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 46,
+            "coord": [
+              55.30056,
+              -131.47058
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 125,
+            "coord": [
+              55.30048,
+              -131.46819
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 223,
+            "coord": [
+              55.30167,
+              -131.46513
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 154,
+            "coord": [
+              55.302,
+              -131.46299
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 246,
+            "coord": [
+              55.30162,
+              -131.46124
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 259,
+            "coord": [
+              55.30038,
+              -131.45897
+            ]
+          },
+          {
+            "mile": 0.95,
+            "elev": 203,
+            "coord": [
+              55.30056,
+              -131.45512
+            ]
+          },
+          {
+            "mile": 1.09,
+            "elev": 207,
+            "coord": [
+              55.30009,
+              -131.45249
+            ]
+          },
+          {
+            "mile": 1.23,
+            "elev": 210,
+            "coord": [
+              55.29996,
+              -131.4528
+            ]
+          },
+          {
+            "mile": 1.36,
+            "elev": 200,
+            "coord": [
+              55.30117,
+              -131.45204
+            ]
+          },
+          {
+            "mile": 1.5,
+            "elev": 180,
+            "coord": [
+              55.30218,
+              -131.44938
+            ]
+          },
+          {
+            "mile": 1.64,
+            "elev": 197,
+            "coord": [
+              55.30386,
+              -131.44823
+            ]
+          },
+          {
+            "mile": 1.77,
+            "elev": 200,
+            "coord": [
+              55.305,
+              -131.44648
+            ]
+          },
+          {
+            "mile": 1.91,
+            "elev": 164,
+            "coord": [
+              55.30673,
+              -131.44756
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 2,093 feet, <strong>Black Mountain</strong> is a summit in Alaska. The Black Mountain Trail covers 3.8 miles round trip (out-and-back) with about 269 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 0.55, gaining roughly 700 feet per mile \u2014 expect a slow, deliberate pace through here.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=55.29905,-131.47206\" target=\"_blank\" rel=\"noopener\">55.29905, -131.47206</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 1.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Buck Mountain, Achilles Mountain and Deer Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Buck Mountain",
+      "slug": "buck-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 2014,
+      "distance_miles": 7.5
+    },
+    {
+      "name": "Achilles Mountain",
+      "slug": "achilles-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 3015,
+      "distance_miles": 7.7
+    },
+    {
+      "name": "Deer Mountain",
+      "slug": "deer-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 3002,
+      "distance_miles": 9.0
+    },
+    {
+      "name": "Fish Mountain",
+      "slug": "fish-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 2625,
+      "distance_miles": 10.5
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Black Mountain?",
+        "answer": "The Black Mountain Trail is 3.8 miles round trip with about 269 feet of elevation gain, and most hikers take roughly 1.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Black Mountain hike?",
+        "answer": "It's rated Easy using the National Park Service difficulty formula (3.8 miles round trip, 269 ft of gain \u2014 about 50 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Black Mountain trailhead?",
+        "answer": "The trailhead is at 55.29905, -131.47206 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Black Mountain trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Black Mountain?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Black Mountain?",
+        "answer": "Black Mountain stands at 2,093 feet (638 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Black Mountain Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Black Mountain hike with current conditions, trail map & parking info. Alaska summit at 2,093 ft.",
+    "canonical_url": "/trails/alaska/black-mountain-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Black Mountain",
+      "description": "Black Mountain is a 2,093 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 55.27975,
+        "longitude": -131.39965,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2093,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Black Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 55.29905,
+            "longitude": -131.47206
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Black Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Black Mountain Trail on Black Mountain is 3.8-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Black Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Black Mountain is rated Moderate. At 2,093 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Black Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Black Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Black Mountain Trail, a 3.8-mile moderate hike to the Black Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Black Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Black Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/11657089368",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/11657089368",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30"
+  },
+  "osm": {
+    "id": 11657089368,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

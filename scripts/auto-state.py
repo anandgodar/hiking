@@ -57,8 +57,23 @@ def main():
     p.add_argument("--min-ele", type=int, default=None,
                    help="skip peaks below this elevation (ft); "
                         "default from pipeline.config.json per-state tuning")
+    p.add_argument("--max-ele", type=int, default=None,
+                   help="skip peaks above this elevation (ft); default from "
+                        "pipeline.config.json per-state tuning, unset by default")
+    p.add_argument("--sort-by", choices=["elevation", "prominence"], default=None,
+                   help="rank candidates by tallest (default) or most "
+                        "prominent/standalone within the elevation band; "
+                        "default from pipeline.config.json per-state tuning")
     p.add_argument("--keep-top", type=int, default=None,
                    help="keep the N most notable peaks after import")
+    p.add_argument("--near-population", type=float, default=None,
+                   help="restrict candidates to within N miles of a real "
+                        "population center before ranking (see "
+                        "POPULATION_CENTERS in curate-state.py); default "
+                        "from pipeline.config.json per-state tuning")
+    p.add_argument("--ignore-elevation-ranking", action="store_true",
+                   help="rank prune candidates by prominence/wikidata only, "
+                        "not raw elevation; default from pipeline.config.json")
     p.add_argument("--radius-km", type=float, default=4.0,
                    help="search radius for routes/POIs")
     p.add_argument("--skip-import", action="store_true",
@@ -74,20 +89,36 @@ def main():
                    if st["slug"] == s), {})
     if args.min_ele is None:
         args.min_ele = tuning.get("min_ele", 2000)
+    if args.max_ele is None:
+        args.max_ele = tuning.get("max_ele")
+    if args.sort_by is None:
+        args.sort_by = tuning.get("sort_by", "elevation")
     if args.keep_top is None:
         args.keep_top = tuning.get("keep_top", 25)
+    if args.near_population is None:
+        args.near_population = tuning.get("near_population_mi")
+    if not args.ignore_elevation_ranking:
+        args.ignore_elevation_ranking = tuning.get("ignore_elevation_ranking", False)
 
+    max_desc = f" · max-ele {args.max_ele}ft" if args.max_ele else ""
     print(f"╔{'═' * 68}╗")
-    print(f"  FULLY AUTOMATED BUILD · {s} · "
-          f"min-ele {args.min_ele}ft · keep-top {args.keep_top}")
+    print(f"  FULLY AUTOMATED BUILD · {s} · min-ele {args.min_ele}ft{max_desc} · "
+          f"sort-by {args.sort_by} · keep-top {args.keep_top}")
     print(f"╚{'═' * 68}╝")
 
     if not args.skip_import:
-        run("1/7  Import peaks (OpenStreetMap)",
-            [py, str(SCRIPTS / "import-state.py"), s, "--min-ele", str(args.min_ele)])
-        run("2/7  Prune to notable destinations",
-            [py, str(SCRIPTS / "curate-state.py"), s, "prune",
-             "--keep-top", str(args.keep_top), "--apply"])
+        import_cmd = [py, str(SCRIPTS / "import-state.py"), s,
+                      "--min-ele", str(args.min_ele), "--sort-by", args.sort_by]
+        if args.max_ele:
+            import_cmd += ["--max-ele", str(args.max_ele)]
+        run("1/7  Import peaks (OpenStreetMap)", import_cmd)
+        prune_cmd = [py, str(SCRIPTS / "curate-state.py"), s, "prune",
+                     "--keep-top", str(args.keep_top), "--apply"]
+        if args.near_population:
+            prune_cmd += ["--near-population", str(args.near_population)]
+        if args.ignore_elevation_ranking:
+            prune_cmd += ["--ignore-elevation"]
+        run("2/7  Prune to notable destinations", prune_cmd)
 
     run("3/7  Fetch real routes (USFS / NPS / USGS)",
         [py, str(SCRIPTS / "fetch-trails.py"), s, "--radius-km", str(args.radius_km)])

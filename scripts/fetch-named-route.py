@@ -85,7 +85,7 @@ def main():
     maxn = max(120, min(900, int(raw_len * 60)))
     path = ft.simplify(ft.orient_to_summit(path, summit), maxn=maxn)
     eles = ee.batch_elevations([(p[0], p[1]) for p in path], ctx)
-    if len(eles) != len(path):
+    if len(eles) != len(path) or any(e is None for e in eles):
         sys.exit("❌ elevation fetch failed")
     path3 = [[p[0], p[1], round(e)] for p, e in zip(path, eles)]
     dist = sum(ft.haversine_mi(path3[i - 1], path3[i]) for i in range(1, len(path3)))

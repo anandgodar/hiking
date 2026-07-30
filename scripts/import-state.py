@@ -218,9 +218,12 @@ def parse_ele(tags, dem_ft=None):
     as_feet = round(value)               # common US mis-tagging
 
     if dem_ft is None:
-        # No DEM available: keep the spec reading, but never emit a value that
-        # is physically impossible in the US.
-        return None if as_metres > US_MAX_ELEVATION_FT else as_metres
+        # No DEM sample for this peak: metres-vs-feet cannot be verified.
+        # Trusting the spec reading unconditionally is exactly the bug this
+        # function exists to prevent (it produced Mother Lode's 25,945 ft).
+        # Hold the peak rather than guess — the caller treats None as
+        # "elevation unverified" and drafts it instead of publishing.
+        return None
 
     tolerance = max(150.0, dem_ft * 0.10)
     candidates = [(abs(as_metres - dem_ft), as_metres), (abs(as_feet - dem_ft), as_feet)]
@@ -253,11 +256,13 @@ def enable_state(state_slug):
     return False
 
 
-def build_record(el, state_slug, state_name, abbr):
+def build_record(el, state_slug, state_name, abbr, elev_ft):
+    """`elev_ft` must be the value the caller already verified (see parse_ele) —
+    re-deriving it here from `tags` alone would silently drop the DEM
+    cross-check and set every elevation to null."""
     tags = el["tags"]
     name = tags["name"]
     slug = slugify(name, abbr)
-    elev_ft = parse_ele(tags)
     osm_url = f"https://www.openstreetmap.org/node/{el['id']}"
 
     ds = config_data_sources(state_slug) or {}
@@ -310,16 +315,29 @@ def build_record(el, state_slug, state_name, abbr):
 
 def main():
     args = sys.argv[1:]
-    opts = {"min_ele": 0, "min_prominence": 0, "limit": None, "dry_run": False,
-            "enable": False, "pipeline": False}
+    opts = {"min_ele": 0, "max_ele": None, "min_prominence": 0, "limit": None,
+            "dry_run": False, "enable": False, "pipeline": False,
+            "sort_by": "elevation"}
     positional = []
     i = 0
     while i < len(args):
         a = args[i]
         if a == "--min-ele":
             opts["min_ele"] = float(args[i + 1]); i += 2
+        elif a == "--max-ele":
+            opts["max_ele"] = float(args[i + 1]); i += 2
         elif a == "--min-prominence":
             opts["min_prominence"] = float(args[i + 1]); i += 2
+        elif a == "--sort-by":
+            # "elevation" picks the tallest peaks in the state (default,
+            # right for most states). "prominence" picks the most
+            # topographically distinct/standalone summits within the
+            # min/max elevation band instead — for a state like Alaska,
+            # sorting by raw elevation only ever returns Denali-scale
+            # mountaineering objectives with no hiking trail, because the
+            # real hiking peaks (Flattop, Wolverine Peak, Bird Ridge) sit at
+            # 2,000-5,000 ft, far below the tallest 25 in the state.
+            opts["sort_by"] = args[i + 1]; i += 2
         elif a == "--limit":
             opts["limit"] = int(args[i + 1]); i += 2
         elif a == "--dry-run":
@@ -386,18 +404,30 @@ def main():
             continue
         if elev < opts["min_ele"]:
             continue
-        prom = tags.get("prominence")
-        if opts["min_prominence"] and (not prom or float(re.match(r"[-+]?[0-9.]+", str(prom)).group()) < opts["min_prominence"]):
+        if opts["max_ele"] is not None and elev > opts["max_ele"]:
             continue
-        kept.append((elev, el))
+        prom_raw = tags.get("prominence")
+        prom = None
+        if prom_raw:
+            m = re.match(r"[-+]?[0-9.]+", str(prom_raw))
+            prom = float(m.group()) if m else None
+        if opts["min_prominence"] and (not prom or prom < opts["min_prominence"]):
+            continue
+        kept.append((elev, prom, el))
 
-    kept.sort(key=lambda x: x[0], reverse=True)
+    if opts["sort_by"] == "prominence":
+        # Peaks without a prominence tag sort last, not first.
+        kept.sort(key=lambda x: (x[1] is not None, x[1] or 0), reverse=True)
+    else:
+        kept.sort(key=lambda x: x[0], reverse=True)
     if opts["limit"]:
         kept = kept[:opts["limit"]]
+    kept = [(elev, el) for elev, prom, el in kept]
 
+    max_desc = f", max_ele={opts['max_ele']}ft" if opts["max_ele"] is not None else ""
     print(f"  {len(kept)} peaks after filters "
-          f"(min_ele={opts['min_ele']}ft, min_prom={opts['min_prominence']}m, "
-          f"limit={opts['limit']})")
+          f"(min_ele={opts['min_ele']}ft{max_desc}, min_prom={opts['min_prominence']}m, "
+          f"sort_by={opts['sort_by']}, limit={opts['limit']})")
     if unverified:
         print(f"  ⚠ {unverified} peak(s) skipped: elevation could not be verified "
               f"against the DEM in either metres or feet")
@@ -406,7 +436,7 @@ def main():
     written = skipped = 0
     seen = set()
     for elev, el in kept:
-        slug, record = build_record(el, state_slug, state_name, abbr)
+        slug, record = build_record(el, state_slug, state_name, abbr, elev)
         if slug in seen:
             continue
         seen.add(slug)

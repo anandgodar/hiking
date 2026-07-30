@@ -1,0 +1,950 @@
+{
+  "name": "Bright Peak",
+  "slug": "bright-peak-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 5745,
+  "lat": 61.39102,
+  "lon": -148.90392,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Bright Peak Trail",
+      "difficulty": "Strenuous",
+      "type": "",
+      "stats": {
+        "distance": 7.6,
+        "gain": 3602,
+        "time": 4.5,
+        "difficulty": "Strenuous",
+        "route_length_mi": 3.78,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            61.37538,
+            -149.02187
+          ],
+          "summit": [
+            61.39102,
+            -148.90392
+          ]
+        },
+        "path": [
+          [
+            61.37538,
+            -149.02187,
+            876
+          ],
+          [
+            61.37513,
+            -149.0197,
+            968
+          ],
+          [
+            61.37505,
+            -149.0172,
+            1007
+          ],
+          [
+            61.37532,
+            -149.01462,
+            1093
+          ],
+          [
+            61.37509,
+            -149.01348,
+            1093
+          ],
+          [
+            61.37579,
+            -149.01153,
+            1217
+          ],
+          [
+            61.37539,
+            -149.01047,
+            1217
+          ],
+          [
+            61.37579,
+            -149.00997,
+            1335
+          ],
+          [
+            61.37603,
+            -149.00875,
+            1335
+          ],
+          [
+            61.37686,
+            -149.00773,
+            1437
+          ],
+          [
+            61.37735,
+            -149.00587,
+            1568
+          ],
+          [
+            61.37734,
+            -149.0041,
+            1673
+          ],
+          [
+            61.37662,
+            -149.00291,
+            1752
+          ],
+          [
+            61.37596,
+            -149.0016,
+            1860
+          ],
+          [
+            61.37607,
+            -149.00065,
+            1860
+          ],
+          [
+            61.37692,
+            -149.00043,
+            1896
+          ],
+          [
+            61.37763,
+            -149.00033,
+            1837
+          ],
+          [
+            61.3784,
+            -148.99925,
+            1919
+          ],
+          [
+            61.3788,
+            -148.99813,
+            2014
+          ],
+          [
+            61.37902,
+            -148.99694,
+            2014
+          ],
+          [
+            61.379,
+            -148.99593,
+            2077
+          ],
+          [
+            61.37934,
+            -148.99435,
+            2096
+          ],
+          [
+            61.37893,
+            -148.99396,
+            2156
+          ],
+          [
+            61.37844,
+            -148.99397,
+            2156
+          ],
+          [
+            61.37781,
+            -148.99414,
+            2198
+          ],
+          [
+            61.37789,
+            -148.99364,
+            2198
+          ],
+          [
+            61.37831,
+            -148.99231,
+            2323
+          ],
+          [
+            61.37866,
+            -148.99116,
+            2356
+          ],
+          [
+            61.37878,
+            -148.99003,
+            2356
+          ],
+          [
+            61.37822,
+            -148.99085,
+            2448
+          ],
+          [
+            61.37829,
+            -148.98949,
+            2536
+          ],
+          [
+            61.37778,
+            -148.98965,
+            2536
+          ],
+          [
+            61.37728,
+            -148.98944,
+            2615
+          ],
+          [
+            61.3768,
+            -148.98882,
+            2615
+          ],
+          [
+            61.37647,
+            -148.98796,
+            2723
+          ],
+          [
+            61.37642,
+            -148.98713,
+            2723
+          ],
+          [
+            61.37652,
+            -148.98637,
+            2808
+          ],
+          [
+            61.3768,
+            -148.98547,
+            2717
+          ],
+          [
+            61.37699,
+            -148.98412,
+            2779
+          ],
+          [
+            61.3771,
+            -148.98285,
+            2861
+          ],
+          [
+            61.3773,
+            -148.98149,
+            2933
+          ],
+          [
+            61.37729,
+            -148.98051,
+            2933
+          ],
+          [
+            61.37731,
+            -148.97974,
+            2992
+          ],
+          [
+            61.37721,
+            -148.97909,
+            2992
+          ],
+          [
+            61.37698,
+            -148.97815,
+            3028
+          ],
+          [
+            61.37678,
+            -148.97752,
+            3028
+          ],
+          [
+            61.37656,
+            -148.97654,
+            3133
+          ],
+          [
+            61.37639,
+            -148.97564,
+            3133
+          ],
+          [
+            61.37607,
+            -148.97457,
+            3189
+          ],
+          [
+            61.37574,
+            -148.97355,
+            3202
+          ],
+          [
+            61.37523,
+            -148.97238,
+            3258
+          ],
+          [
+            61.37474,
+            -148.97117,
+            3317
+          ],
+          [
+            61.37436,
+            -148.97013,
+            3317
+          ],
+          [
+            61.37384,
+            -148.96936,
+            3396
+          ],
+          [
+            61.37343,
+            -148.96934,
+            3396
+          ],
+          [
+            61.37312,
+            -148.96928,
+            3455
+          ],
+          [
+            61.37287,
+            -148.9693,
+            3455
+          ],
+          [
+            61.37264,
+            -148.96922,
+            3455
+          ],
+          [
+            61.37247,
+            -148.96921,
+            3573
+          ],
+          [
+            61.37223,
+            -148.96905,
+            3573
+          ],
+          [
+            61.37201,
+            -148.96881,
+            3573
+          ],
+          [
+            61.37196,
+            -148.9692,
+            3573
+          ],
+          [
+            61.37182,
+            -148.9696,
+            3573
+          ],
+          [
+            61.37163,
+            -148.96964,
+            3684
+          ],
+          [
+            61.37146,
+            -148.96991,
+            3684
+          ],
+          [
+            61.3712,
+            -148.96995,
+            3684
+          ],
+          [
+            61.37097,
+            -148.96984,
+            3684
+          ],
+          [
+            61.37083,
+            -148.96944,
+            3684
+          ],
+          [
+            61.37065,
+            -148.96897,
+            3720
+          ],
+          [
+            61.37042,
+            -148.96851,
+            3720
+          ],
+          [
+            61.37023,
+            -148.96805,
+            3760
+          ],
+          [
+            61.36998,
+            -148.96791,
+            3783
+          ],
+          [
+            61.36977,
+            -148.96755,
+            3783
+          ],
+          [
+            61.36953,
+            -148.96713,
+            3783
+          ],
+          [
+            61.3693,
+            -148.96677,
+            3783
+          ],
+          [
+            61.3691,
+            -148.96638,
+            3891
+          ],
+          [
+            61.36903,
+            -148.96605,
+            3891
+          ],
+          [
+            61.36925,
+            -148.96582,
+            3875
+          ],
+          [
+            61.36925,
+            -148.96551,
+            3875
+          ],
+          [
+            61.36901,
+            -148.96521,
+            3891
+          ],
+          [
+            61.36876,
+            -148.96487,
+            4006
+          ],
+          [
+            61.3686,
+            -148.96451,
+            4006
+          ],
+          [
+            61.36841,
+            -148.96413,
+            4006
+          ],
+          [
+            61.36813,
+            -148.96403,
+            4039
+          ],
+          [
+            61.36791,
+            -148.96352,
+            4039
+          ],
+          [
+            61.36786,
+            -148.96307,
+            4081
+          ],
+          [
+            61.36787,
+            -148.96262,
+            4081
+          ],
+          [
+            61.36768,
+            -148.96224,
+            4081
+          ],
+          [
+            61.36754,
+            -148.96189,
+            4081
+          ],
+          [
+            61.36732,
+            -148.96148,
+            4170
+          ],
+          [
+            61.36706,
+            -148.96096,
+            4170
+          ],
+          [
+            61.36682,
+            -148.96036,
+            4170
+          ],
+          [
+            61.36656,
+            -148.95972,
+            4213
+          ],
+          [
+            61.36634,
+            -148.95922,
+            4213
+          ],
+          [
+            61.36615,
+            -148.95879,
+            4213
+          ],
+          [
+            61.36598,
+            -148.95828,
+            4183
+          ],
+          [
+            61.36584,
+            -148.9581,
+            4183
+          ],
+          [
+            61.3657,
+            -148.95766,
+            4281
+          ],
+          [
+            61.36552,
+            -148.95744,
+            4281
+          ],
+          [
+            61.36523,
+            -148.95726,
+            4281
+          ],
+          [
+            61.36499,
+            -148.95706,
+            4288
+          ],
+          [
+            61.3647,
+            -148.95717,
+            4288
+          ],
+          [
+            61.36437,
+            -148.95684,
+            4288
+          ],
+          [
+            61.36403,
+            -148.95651,
+            4393
+          ],
+          [
+            61.3636,
+            -148.95632,
+            4393
+          ],
+          [
+            61.36313,
+            -148.95601,
+            4357
+          ],
+          [
+            61.36275,
+            -148.95563,
+            4357
+          ],
+          [
+            61.36243,
+            -148.9553,
+            4308
+          ],
+          [
+            61.36208,
+            -148.95511,
+            4308
+          ],
+          [
+            61.36172,
+            -148.9549,
+            4396
+          ],
+          [
+            61.36143,
+            -148.95501,
+            4347
+          ],
+          [
+            61.36116,
+            -148.9545,
+            4478
+          ],
+          [
+            61.36081,
+            -148.95406,
+            4472
+          ],
+          [
+            61.36051,
+            -148.95381,
+            4472
+          ],
+          [
+            61.36016,
+            -148.95351,
+            4472
+          ],
+          [
+            61.35983,
+            -148.95339,
+            4380
+          ],
+          [
+            61.35955,
+            -148.95324,
+            4449
+          ],
+          [
+            61.3591,
+            -148.95319,
+            4429
+          ],
+          [
+            61.35881,
+            -148.95324,
+            4429
+          ],
+          [
+            61.35843,
+            -148.95329,
+            4429
+          ],
+          [
+            61.35805,
+            -148.95288,
+            4452
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 876,
+            "coord": [
+              61.37538,
+              -149.02187
+            ]
+          },
+          {
+            "mile": 0.27,
+            "elev": 1093,
+            "coord": [
+              61.37509,
+              -149.01348
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 1437,
+            "coord": [
+              61.37686,
+              -149.00773
+            ]
+          },
+          {
+            "mile": 0.81,
+            "elev": 1860,
+            "coord": [
+              61.37596,
+              -149.0016
+            ]
+          },
+          {
+            "mile": 1.08,
+            "elev": 2014,
+            "coord": [
+              61.3788,
+              -148.99813
+            ]
+          },
+          {
+            "mile": 1.35,
+            "elev": 2323,
+            "coord": [
+              61.37831,
+              -148.99231
+            ]
+          },
+          {
+            "mile": 1.62,
+            "elev": 2615,
+            "coord": [
+              61.37728,
+              -148.98944
+            ]
+          },
+          {
+            "mile": 1.89,
+            "elev": 2861,
+            "coord": [
+              61.3771,
+              -148.98285
+            ]
+          },
+          {
+            "mile": 2.16,
+            "elev": 3189,
+            "coord": [
+              61.37607,
+              -148.97457
+            ]
+          },
+          {
+            "mile": 2.43,
+            "elev": 3396,
+            "coord": [
+              61.37343,
+              -148.96934
+            ]
+          },
+          {
+            "mile": 2.7,
+            "elev": 3760,
+            "coord": [
+              61.37023,
+              -148.96805
+            ]
+          },
+          {
+            "mile": 2.97,
+            "elev": 4081,
+            "coord": [
+              61.36786,
+              -148.96307
+            ]
+          },
+          {
+            "mile": 3.24,
+            "elev": 4281,
+            "coord": [
+              61.36523,
+              -148.95726
+            ]
+          },
+          {
+            "mile": 3.51,
+            "elev": 4396,
+            "coord": [
+              61.36172,
+              -148.9549
+            ]
+          },
+          {
+            "mile": 3.78,
+            "elev": 4452,
+            "coord": [
+              61.35805,
+              -148.95288
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Bold Ridge Overlook",
+          "type": "summit",
+          "lat": 61.36121,
+          "lon": -148.95459,
+          "mile": 3.55
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 5,745 feet, <strong>Bright Peak</strong> is a summit in Alaska. The Bright Peak Trail covers 7.6 miles round trip (out-and-back) with about 3,602 feet of elevation gain \u2014 a steady climb. It's rated Strenuous overall.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 0.54, gaining roughly 1,600 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 876 feet, the route tops out near 4,452 feet. You'll cross above treeline on the way up, so the upper route is exposed to weather \u2014 check the forecast and turn around if conditions build.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=61.37538,-149.02187\" target=\"_blank\" rel=\"noopener\">61.37538, -149.02187</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 4.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Bleak Peak, Pioneer Peak and Benevolent Peak \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Bleak Peak",
+      "slug": "bleak-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 5430,
+      "distance_miles": 1.1
+    },
+    {
+      "name": "Pioneer Peak",
+      "slug": "pioneer-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 6398,
+      "distance_miles": 7.2
+    },
+    {
+      "name": "Benevolent Peak",
+      "slug": "benevolent-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 7126,
+      "distance_miles": 7.2
+    },
+    {
+      "name": "Big Timber Peak",
+      "slug": "big-timber-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 6772,
+      "distance_miles": 7.4
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Bright Peak?",
+        "answer": "The Bright Peak Trail is 7.6 miles round trip with about 3,602 feet of elevation gain, and most hikers take roughly 4.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Bright Peak hike?",
+        "answer": "It's rated Strenuous using the National Park Service difficulty formula (7.6 miles round trip, 3,602 ft of gain \u2014 about 450 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Bright Peak trailhead?",
+        "answer": "The trailhead is at 61.37538, -149.02187 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Bright Peak trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Bright Peak?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Bright Peak?",
+        "answer": "Bright Peak stands at 5,745 feet (1,751 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Bright Peak Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Bright Peak hike with current conditions, trail map & parking info. Alaska summit at 5,745 ft.",
+    "canonical_url": "/trails/alaska/bright-peak-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bright Peak",
+      "description": "Bright Peak is a 5,745 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 61.39102,
+        "longitude": -148.90392,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5745,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bright Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 61.37538,
+            "longitude": -149.02187
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bright Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bright Peak Trail on Bright Peak is 7.6-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bright Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bright Peak is rated Moderate. At 5,745 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bright Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bright Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bright Peak Trail, a 7.6-mile moderate hike to the Bright Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bright Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bright Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/9943142795",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/9943142795",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 9943142795,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

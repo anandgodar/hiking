@@ -1,0 +1,964 @@
+{
+  "name": "Deer Mountain",
+  "slug": "deer-mountain-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 3002,
+  "lat": 55.34301,
+  "lon": -131.59906,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Deer Mountain Trail",
+      "difficulty": "Strenuous",
+      "type": "",
+      "stats": {
+        "distance": 15.1,
+        "gain": 2881,
+        "time": 6.5,
+        "difficulty": "Strenuous",
+        "route_length_mi": 7.57,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            55.38055,
+            -131.52195
+          ],
+          "summit": [
+            55.34301,
+            -131.59906
+          ]
+        },
+        "path": [
+          [
+            55.38055,
+            -131.52195,
+            1270
+          ],
+          [
+            55.3803,
+            -131.52295,
+            1302
+          ],
+          [
+            55.38014,
+            -131.52398,
+            1299
+          ],
+          [
+            55.38052,
+            -131.52513,
+            1260
+          ],
+          [
+            55.38076,
+            -131.52635,
+            1260
+          ],
+          [
+            55.381,
+            -131.52722,
+            1453
+          ],
+          [
+            55.38109,
+            -131.52688,
+            1453
+          ],
+          [
+            55.38124,
+            -131.5269,
+            1453
+          ],
+          [
+            55.38139,
+            -131.5282,
+            1401
+          ],
+          [
+            55.38144,
+            -131.52919,
+            1362
+          ],
+          [
+            55.3818,
+            -131.52959,
+            1453
+          ],
+          [
+            55.38207,
+            -131.53016,
+            1453
+          ],
+          [
+            55.38227,
+            -131.53106,
+            1453
+          ],
+          [
+            55.38225,
+            -131.53247,
+            1476
+          ],
+          [
+            55.38223,
+            -131.53323,
+            1490
+          ],
+          [
+            55.3824,
+            -131.53394,
+            1407
+          ],
+          [
+            55.38296,
+            -131.53444,
+            1529
+          ],
+          [
+            55.3829,
+            -131.53404,
+            1529
+          ],
+          [
+            55.38321,
+            -131.5344,
+            1529
+          ],
+          [
+            55.38314,
+            -131.5339,
+            1529
+          ],
+          [
+            55.38326,
+            -131.53402,
+            1529
+          ],
+          [
+            55.38366,
+            -131.53429,
+            1686
+          ],
+          [
+            55.38383,
+            -131.53447,
+            1686
+          ],
+          [
+            55.384,
+            -131.53459,
+            1686
+          ],
+          [
+            55.38406,
+            -131.53461,
+            1686
+          ],
+          [
+            55.38404,
+            -131.53414,
+            1686
+          ],
+          [
+            55.38417,
+            -131.5341,
+            1831
+          ],
+          [
+            55.38431,
+            -131.53459,
+            1831
+          ],
+          [
+            55.38443,
+            -131.53487,
+            1831
+          ],
+          [
+            55.38477,
+            -131.53501,
+            1837
+          ],
+          [
+            55.38505,
+            -131.53432,
+            1926
+          ],
+          [
+            55.38516,
+            -131.53454,
+            1926
+          ],
+          [
+            55.3853,
+            -131.53484,
+            1926
+          ],
+          [
+            55.38539,
+            -131.53513,
+            1975
+          ],
+          [
+            55.38531,
+            -131.53553,
+            1975
+          ],
+          [
+            55.38561,
+            -131.53531,
+            1975
+          ],
+          [
+            55.38583,
+            -131.53462,
+            1932
+          ],
+          [
+            55.38603,
+            -131.53492,
+            1932
+          ],
+          [
+            55.38597,
+            -131.5354,
+            2064
+          ],
+          [
+            55.38628,
+            -131.53568,
+            2064
+          ],
+          [
+            55.38649,
+            -131.53641,
+            2057
+          ],
+          [
+            55.387,
+            -131.53696,
+            2139
+          ],
+          [
+            55.38735,
+            -131.53761,
+            2165
+          ],
+          [
+            55.38739,
+            -131.53815,
+            2165
+          ],
+          [
+            55.38753,
+            -131.53869,
+            2224
+          ],
+          [
+            55.38803,
+            -131.5395,
+            2192
+          ],
+          [
+            55.38838,
+            -131.54036,
+            2293
+          ],
+          [
+            55.38772,
+            -131.54221,
+            2392
+          ],
+          [
+            55.3877,
+            -131.54294,
+            2543
+          ],
+          [
+            55.38778,
+            -131.54429,
+            2638
+          ],
+          [
+            55.38862,
+            -131.54555,
+            2753
+          ],
+          [
+            55.38952,
+            -131.5466,
+            2854
+          ],
+          [
+            55.39023,
+            -131.54751,
+            2972
+          ],
+          [
+            55.39106,
+            -131.54963,
+            3025
+          ],
+          [
+            55.39126,
+            -131.5515,
+            2913
+          ],
+          [
+            55.3905,
+            -131.55393,
+            2700
+          ],
+          [
+            55.38954,
+            -131.55712,
+            2625
+          ],
+          [
+            55.38969,
+            -131.55894,
+            2726
+          ],
+          [
+            55.39008,
+            -131.55963,
+            2635
+          ],
+          [
+            55.39042,
+            -131.5621,
+            2549
+          ],
+          [
+            55.38977,
+            -131.5636,
+            2589
+          ],
+          [
+            55.38903,
+            -131.56454,
+            2503
+          ],
+          [
+            55.38806,
+            -131.56562,
+            2516
+          ],
+          [
+            55.38703,
+            -131.56669,
+            2454
+          ],
+          [
+            55.38616,
+            -131.56685,
+            2375
+          ],
+          [
+            55.38545,
+            -131.56725,
+            2461
+          ],
+          [
+            55.38497,
+            -131.56817,
+            2448
+          ],
+          [
+            55.38426,
+            -131.56755,
+            2448
+          ],
+          [
+            55.383,
+            -131.56798,
+            2595
+          ],
+          [
+            55.3824,
+            -131.56819,
+            2769
+          ],
+          [
+            55.38152,
+            -131.56834,
+            2923
+          ],
+          [
+            55.38051,
+            -131.56948,
+            3015
+          ],
+          [
+            55.37948,
+            -131.56949,
+            3015
+          ],
+          [
+            55.37883,
+            -131.5692,
+            2969
+          ],
+          [
+            55.37811,
+            -131.56913,
+            2953
+          ],
+          [
+            55.37718,
+            -131.56918,
+            2917
+          ],
+          [
+            55.37607,
+            -131.56924,
+            2913
+          ],
+          [
+            55.37491,
+            -131.56828,
+            3087
+          ],
+          [
+            55.37426,
+            -131.56753,
+            3087
+          ],
+          [
+            55.37388,
+            -131.56642,
+            3202
+          ],
+          [
+            55.37258,
+            -131.56734,
+            3222
+          ],
+          [
+            55.37147,
+            -131.56832,
+            3068
+          ],
+          [
+            55.37029,
+            -131.57036,
+            3094
+          ],
+          [
+            55.36998,
+            -131.5715,
+            3173
+          ],
+          [
+            55.36974,
+            -131.573,
+            3081
+          ],
+          [
+            55.36883,
+            -131.57426,
+            2963
+          ],
+          [
+            55.36823,
+            -131.57583,
+            2815
+          ],
+          [
+            55.36665,
+            -131.57682,
+            2710
+          ],
+          [
+            55.36551,
+            -131.57607,
+            2799
+          ],
+          [
+            55.36467,
+            -131.57583,
+            2871
+          ],
+          [
+            55.36358,
+            -131.57579,
+            2897
+          ],
+          [
+            55.36228,
+            -131.57633,
+            2900
+          ],
+          [
+            55.36138,
+            -131.57724,
+            2982
+          ],
+          [
+            55.35997,
+            -131.57766,
+            2953
+          ],
+          [
+            55.35856,
+            -131.57881,
+            2949
+          ],
+          [
+            55.35674,
+            -131.58094,
+            2907
+          ],
+          [
+            55.35587,
+            -131.58192,
+            2831
+          ],
+          [
+            55.35447,
+            -131.58296,
+            2858
+          ],
+          [
+            55.3538,
+            -131.58314,
+            2851
+          ],
+          [
+            55.35244,
+            -131.58378,
+            2795
+          ],
+          [
+            55.35158,
+            -131.58437,
+            2684
+          ],
+          [
+            55.35084,
+            -131.58534,
+            2743
+          ],
+          [
+            55.35035,
+            -131.58629,
+            2671
+          ],
+          [
+            55.34989,
+            -131.58685,
+            2575
+          ],
+          [
+            55.34833,
+            -131.5871,
+            2507
+          ],
+          [
+            55.34717,
+            -131.58877,
+            2621
+          ],
+          [
+            55.34661,
+            -131.59089,
+            2657
+          ],
+          [
+            55.34503,
+            -131.59471,
+            2828
+          ],
+          [
+            55.34403,
+            -131.59804,
+            2736
+          ],
+          [
+            55.34311,
+            -131.6018,
+            2582
+          ],
+          [
+            55.34267,
+            -131.60349,
+            2477
+          ],
+          [
+            55.34208,
+            -131.60458,
+            2428
+          ],
+          [
+            55.34073,
+            -131.60502,
+            2333
+          ],
+          [
+            55.34036,
+            -131.60592,
+            2333
+          ],
+          [
+            55.33898,
+            -131.60546,
+            2221
+          ],
+          [
+            55.33791,
+            -131.60716,
+            2054
+          ],
+          [
+            55.33828,
+            -131.6107,
+            1611
+          ],
+          [
+            55.33736,
+            -131.61222,
+            1362
+          ],
+          [
+            55.33931,
+            -131.61508,
+            1027
+          ],
+          [
+            55.34137,
+            -131.61797,
+            696
+          ],
+          [
+            55.34157,
+            -131.62302,
+            341
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1270,
+            "coord": [
+              55.38055,
+              -131.52195
+            ]
+          },
+          {
+            "mile": 0.54,
+            "elev": 1407,
+            "coord": [
+              55.3824,
+              -131.53394
+            ]
+          },
+          {
+            "mile": 1.08,
+            "elev": 2139,
+            "coord": [
+              55.387,
+              -131.53696
+            ]
+          },
+          {
+            "mile": 1.62,
+            "elev": 2972,
+            "coord": [
+              55.39023,
+              -131.54751
+            ]
+          },
+          {
+            "mile": 2.16,
+            "elev": 2635,
+            "coord": [
+              55.39008,
+              -131.55963
+            ]
+          },
+          {
+            "mile": 2.71,
+            "elev": 2461,
+            "coord": [
+              55.38545,
+              -131.56725
+            ]
+          },
+          {
+            "mile": 3.25,
+            "elev": 2953,
+            "coord": [
+              55.37811,
+              -131.56913
+            ]
+          },
+          {
+            "mile": 3.79,
+            "elev": 3068,
+            "coord": [
+              55.37147,
+              -131.56832
+            ]
+          },
+          {
+            "mile": 4.33,
+            "elev": 2799,
+            "coord": [
+              55.36551,
+              -131.57607
+            ]
+          },
+          {
+            "mile": 4.87,
+            "elev": 2949,
+            "coord": [
+              55.35856,
+              -131.57881
+            ]
+          },
+          {
+            "mile": 5.41,
+            "elev": 2743,
+            "coord": [
+              55.35084,
+              -131.58534
+            ]
+          },
+          {
+            "mile": 5.95,
+            "elev": 2828,
+            "coord": [
+              55.34503,
+              -131.59471
+            ]
+          },
+          {
+            "mile": 6.49,
+            "elev": 2428,
+            "coord": [
+              55.34208,
+              -131.60458
+            ]
+          },
+          {
+            "mile": 7.03,
+            "elev": 1362,
+            "coord": [
+              55.33736,
+              -131.61222
+            ]
+          },
+          {
+            "mile": 7.57,
+            "elev": 341,
+            "coord": [
+              55.34157,
+              -131.62302
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Northbird Mountain",
+          "type": "summit",
+          "lat": 55.37307,
+          "lon": -131.56524,
+          "mile": 3.57
+        },
+        {
+          "name": "Roy Jones Mountain",
+          "type": "summit",
+          "lat": 55.36995,
+          "lon": -131.57039,
+          "mile": 3.87
+        },
+        {
+          "name": "Deer Mountain",
+          "type": "summit",
+          "lat": 55.34301,
+          "lon": -131.59906,
+          "mile": 6.16
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 3,002 feet, <strong>Deer Mountain</strong> is a summit in Alaska. The Deer Mountain Trail covers 15.1 miles round trip (out-and-back) with about 2,881 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Strenuous outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 1.08, gaining roughly 1,500 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 1,270 feet, the route tops out near 3,068 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=55.38055,-131.52195\" target=\"_blank\" rel=\"noopener\">55.38055, -131.52195</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 6.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Buck Mountain, Achilles Mountain and Fish Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Buck Mountain",
+      "slug": "buck-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 2014,
+      "distance_miles": 1.6
+    },
+    {
+      "name": "Achilles Mountain",
+      "slug": "achilles-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 3015,
+      "distance_miles": 2.2
+    },
+    {
+      "name": "Fish Mountain",
+      "slug": "fish-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 2625,
+      "distance_miles": 2.4
+    },
+    {
+      "name": "Brown Mountain",
+      "slug": "brown-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 2979,
+      "distance_miles": 5.7
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Deer Mountain?",
+        "answer": "The Deer Mountain Trail is 15.1 miles round trip with about 2,881 feet of elevation gain, and most hikers take roughly 6.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Deer Mountain hike?",
+        "answer": "It's rated Strenuous using the National Park Service difficulty formula (15.1 miles round trip, 2,881 ft of gain \u2014 about 200 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Deer Mountain trailhead?",
+        "answer": "The trailhead is at 55.38055, -131.52195 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Deer Mountain trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Deer Mountain?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Deer Mountain?",
+        "answer": "Deer Mountain stands at 3,002 feet (915 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Deer Mountain Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Deer Mountain hike with current conditions, trail map & parking info. Alaska summit at 3,002 ft.",
+    "canonical_url": "/trails/alaska/deer-mountain-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Deer Mountain",
+      "description": "Deer Mountain is a 3,002 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 55.34301,
+        "longitude": -131.59906,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3002,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Deer Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 55.38055,
+            "longitude": -131.52195
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Deer Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Deer Mountain Trail on Deer Mountain is 15.1-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Deer Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deer Mountain is rated Moderate. At 3,002 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Deer Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Deer Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Deer Mountain Trail, a 15.1-mile moderate hike to the Deer Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Deer Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Deer Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/2479311314",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/2479311314",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 2479311314,
+    "prominence_m": null,
+    "wikidata": "Q15213297"
+  }
+}

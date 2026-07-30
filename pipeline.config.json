@@ -45,8 +45,13 @@
         "gps_source": "USGS Topographic Map"
       },
       "import": {
-        "min_ele": 7000,
-        "keep_top": 25
+        "min_ele": 1500,
+        "max_ele": 8000,
+        "sort_by": "prominence",
+        "keep_top": 60,
+        "near_population_mi": 30,
+        "ignore_elevation_ranking": true,
+        "_note": "Alaska's real hiking peaks (Flattop, O'Malley, Bird Peak) are 3,500-6,000 ft near Anchorage/Juneau/Fairbanks and mostly carry no OSM prominence/wikidata tag, so raw elevation or metadata-only ranking surfaces remote unranked 7,000+ ft summits with no trail instead. near_population_mi restricts candidates to real towns; ignore_elevation_ranking stops elevation from re-dominating the notability score within that set."
       }
     },
     {

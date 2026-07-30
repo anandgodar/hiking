@@ -53,7 +53,13 @@ def haversine_mi(a, b):
 
 
 def batch_elevations(points, ctx):
-    """Open-Meteo allows many coords per call; chunk to be safe."""
+    """Open-Meteo allows many coords per call; chunk to be safe.
+
+    Always returns one entry per input point, using None for any point whose
+    chunk could not be fetched. A caller that used to silently drop a failed
+    chunk would misalign every point after it against the wrong index — the
+    output must stay index-aligned with `points` no matter what fails.
+    """
     out = []
     for i in range(0, len(points), 100):
         chunk = points[i:i + 100]
@@ -61,12 +67,15 @@ def batch_elevations(points, ctx):
         lons = ",".join(f"{p[1]:.6f}" for p in chunk)
         url = f"{ELEV_API}?{urllib.parse.urlencode({'latitude': lats, 'longitude': lons})}"
         req = urllib.request.Request(url, headers={"User-Agent": "summitseeker-elev/1.0"})
+        chunk_result = None
         for attempt in range(3):
             try:
                 with urllib.request.urlopen(req, timeout=40, context=ctx) as resp:
                     data = json.loads(resp.read())
                 # Open-Meteo returns metres; this site stores elevation in feet.
-                out.extend(round(m * 3.28084) for m in (data.get("elevation") or []))
+                values = [round(m * 3.28084) for m in (data.get("elevation") or [])]
+                if len(values) == len(chunk):
+                    chunk_result = values
                 break
             except urllib.error.URLError as e:
                 if "CERTIFICATE_VERIFY_FAILED" in str(e):
@@ -76,6 +85,7 @@ def batch_elevations(points, ctx):
                 time.sleep(2 ** attempt)
             except Exception:
                 time.sleep(2 ** attempt)
+        out.extend(chunk_result if chunk_result is not None else [None] * len(chunk))
         time.sleep(0.2)
     return out
 
@@ -122,7 +132,7 @@ def fix_summit_elevation(d, ctx):
     if d.get("lat") is None or d.get("lon") is None:
         return False
     vals = batch_elevations([(d["lat"], d["lon"])], ctx)
-    if len(vals) != 1 or vals[0] <= 0:
+    if len(vals) != 1 or vals[0] is None or vals[0] <= 0:
         return False
     d["elevation"] = vals[0]
     ds = d.setdefault("data_sources", {})
@@ -149,7 +159,7 @@ def process(path_file, ctx):
 
     pts = [(p[0], p[1]) for p in path]
     eles = batch_elevations(pts, ctx)
-    if len(eles) != len(pts):
+    if len(eles) != len(pts) or any(e is None for e in eles):
         print(f"  · elevation fetch incomplete, skipped: {d.get('name')}")
         return False
 

@@ -1,0 +1,941 @@
+{
+  "name": "Mount Juneau",
+  "slug": "mount-juneau-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 3576,
+  "lat": 58.31896,
+  "lon": -134.40862,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Juneau Trail",
+      "difficulty": "Hard",
+      "type": "",
+      "stats": {
+        "distance": 5.5,
+        "gain": 1421,
+        "time": 2.5,
+        "difficulty": "Hard",
+        "route_length_mi": 2.74,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            58.26305,
+            -134.46171
+          ],
+          "summit": [
+            58.31896,
+            -134.40862
+          ]
+        },
+        "path": [
+          [
+            58.26305,
+            -134.46171,
+            1683
+          ],
+          [
+            58.26323,
+            -134.46199,
+            1683
+          ],
+          [
+            58.26341,
+            -134.46232,
+            1621
+          ],
+          [
+            58.26361,
+            -134.46256,
+            1640
+          ],
+          [
+            58.26379,
+            -134.46267,
+            1640
+          ],
+          [
+            58.26399,
+            -134.46243,
+            1621
+          ],
+          [
+            58.2642,
+            -134.46255,
+            1594
+          ],
+          [
+            58.26426,
+            -134.46214,
+            1558
+          ],
+          [
+            58.26445,
+            -134.4624,
+            1558
+          ],
+          [
+            58.26463,
+            -134.46263,
+            1594
+          ],
+          [
+            58.26488,
+            -134.46287,
+            1594
+          ],
+          [
+            58.26512,
+            -134.46277,
+            1578
+          ],
+          [
+            58.26534,
+            -134.46254,
+            1578
+          ],
+          [
+            58.26554,
+            -134.46216,
+            1542
+          ],
+          [
+            58.26584,
+            -134.46199,
+            1549
+          ],
+          [
+            58.26611,
+            -134.4618,
+            1549
+          ],
+          [
+            58.26662,
+            -134.46145,
+            1549
+          ],
+          [
+            58.2669,
+            -134.46138,
+            1545
+          ],
+          [
+            58.26719,
+            -134.46134,
+            1545
+          ],
+          [
+            58.26747,
+            -134.46125,
+            1506
+          ],
+          [
+            58.26786,
+            -134.46112,
+            1486
+          ],
+          [
+            58.26814,
+            -134.46089,
+            1486
+          ],
+          [
+            58.26841,
+            -134.46071,
+            1480
+          ],
+          [
+            58.26871,
+            -134.46053,
+            1480
+          ],
+          [
+            58.26909,
+            -134.46034,
+            1480
+          ],
+          [
+            58.26932,
+            -134.46008,
+            1457
+          ],
+          [
+            58.26959,
+            -134.45995,
+            1457
+          ],
+          [
+            58.27005,
+            -134.46014,
+            1411
+          ],
+          [
+            58.27031,
+            -134.46037,
+            1411
+          ],
+          [
+            58.27056,
+            -134.46059,
+            1411
+          ],
+          [
+            58.27078,
+            -134.46087,
+            1411
+          ],
+          [
+            58.27102,
+            -134.46094,
+            1368
+          ],
+          [
+            58.27117,
+            -134.46062,
+            1368
+          ],
+          [
+            58.27141,
+            -134.46024,
+            1368
+          ],
+          [
+            58.27168,
+            -134.46008,
+            1296
+          ],
+          [
+            58.2719,
+            -134.46001,
+            1296
+          ],
+          [
+            58.27212,
+            -134.45977,
+            1302
+          ],
+          [
+            58.27228,
+            -134.45946,
+            1302
+          ],
+          [
+            58.27256,
+            -134.45904,
+            1250
+          ],
+          [
+            58.27273,
+            -134.45884,
+            1250
+          ],
+          [
+            58.27294,
+            -134.45872,
+            1283
+          ],
+          [
+            58.2734,
+            -134.45832,
+            1234
+          ],
+          [
+            58.27381,
+            -134.4581,
+            1234
+          ],
+          [
+            58.27418,
+            -134.458,
+            1194
+          ],
+          [
+            58.27453,
+            -134.45751,
+            1194
+          ],
+          [
+            58.27481,
+            -134.45739,
+            1224
+          ],
+          [
+            58.27519,
+            -134.45707,
+            1171
+          ],
+          [
+            58.27562,
+            -134.45667,
+            1171
+          ],
+          [
+            58.27611,
+            -134.45641,
+            1138
+          ],
+          [
+            58.27651,
+            -134.45609,
+            1142
+          ],
+          [
+            58.2769,
+            -134.45586,
+            1093
+          ],
+          [
+            58.27725,
+            -134.45581,
+            1093
+          ],
+          [
+            58.27775,
+            -134.45547,
+            1050
+          ],
+          [
+            58.27812,
+            -134.4551,
+            1050
+          ],
+          [
+            58.27844,
+            -134.45471,
+            1050
+          ],
+          [
+            58.27882,
+            -134.45469,
+            1050
+          ],
+          [
+            58.27937,
+            -134.45473,
+            981
+          ],
+          [
+            58.27979,
+            -134.45479,
+            981
+          ],
+          [
+            58.28035,
+            -134.45456,
+            919
+          ],
+          [
+            58.28064,
+            -134.45436,
+            919
+          ],
+          [
+            58.28094,
+            -134.45419,
+            883
+          ],
+          [
+            58.28126,
+            -134.45392,
+            883
+          ],
+          [
+            58.28156,
+            -134.45389,
+            883
+          ],
+          [
+            58.28183,
+            -134.45386,
+            866
+          ],
+          [
+            58.28214,
+            -134.45383,
+            866
+          ],
+          [
+            58.28241,
+            -134.45379,
+            866
+          ],
+          [
+            58.28272,
+            -134.4538,
+            853
+          ],
+          [
+            58.28304,
+            -134.45372,
+            833
+          ],
+          [
+            58.28334,
+            -134.45369,
+            807
+          ],
+          [
+            58.28362,
+            -134.45366,
+            807
+          ],
+          [
+            58.28387,
+            -134.45345,
+            807
+          ],
+          [
+            58.28412,
+            -134.45327,
+            807
+          ],
+          [
+            58.28435,
+            -134.45298,
+            791
+          ],
+          [
+            58.28454,
+            -134.45243,
+            774
+          ],
+          [
+            58.28468,
+            -134.4519,
+            774
+          ],
+          [
+            58.28498,
+            -134.45134,
+            774
+          ],
+          [
+            58.28508,
+            -134.45082,
+            735
+          ],
+          [
+            58.28517,
+            -134.45024,
+            735
+          ],
+          [
+            58.28539,
+            -134.44974,
+            738
+          ],
+          [
+            58.28558,
+            -134.44928,
+            738
+          ],
+          [
+            58.28574,
+            -134.44879,
+            738
+          ],
+          [
+            58.28579,
+            -134.44832,
+            745
+          ],
+          [
+            58.28584,
+            -134.44772,
+            705
+          ],
+          [
+            58.28593,
+            -134.44723,
+            712
+          ],
+          [
+            58.28599,
+            -134.44678,
+            712
+          ],
+          [
+            58.28609,
+            -134.4463,
+            712
+          ],
+          [
+            58.2863,
+            -134.44593,
+            725
+          ],
+          [
+            58.28647,
+            -134.44558,
+            725
+          ],
+          [
+            58.28664,
+            -134.44521,
+            725
+          ],
+          [
+            58.28674,
+            -134.44477,
+            653
+          ],
+          [
+            58.28675,
+            -134.44418,
+            653
+          ],
+          [
+            58.2867,
+            -134.44351,
+            659
+          ],
+          [
+            58.28681,
+            -134.44282,
+            659
+          ],
+          [
+            58.28699,
+            -134.44233,
+            653
+          ],
+          [
+            58.28738,
+            -134.44193,
+            653
+          ],
+          [
+            58.28773,
+            -134.44277,
+            594
+          ],
+          [
+            58.28792,
+            -134.44276,
+            594
+          ],
+          [
+            58.28807,
+            -134.44224,
+            577
+          ],
+          [
+            58.28828,
+            -134.44202,
+            577
+          ],
+          [
+            58.28851,
+            -134.44227,
+            531
+          ],
+          [
+            58.28874,
+            -134.44253,
+            548
+          ],
+          [
+            58.28888,
+            -134.44221,
+            531
+          ],
+          [
+            58.28898,
+            -134.44173,
+            531
+          ],
+          [
+            58.28909,
+            -134.44125,
+            531
+          ],
+          [
+            58.28923,
+            -134.44074,
+            486
+          ],
+          [
+            58.28934,
+            -134.44039,
+            486
+          ],
+          [
+            58.28984,
+            -134.44039,
+            486
+          ],
+          [
+            58.29014,
+            -134.44021,
+            463
+          ],
+          [
+            58.29043,
+            -134.44019,
+            463
+          ],
+          [
+            58.29068,
+            -134.43997,
+            446
+          ],
+          [
+            58.29094,
+            -134.43987,
+            443
+          ],
+          [
+            58.2912,
+            -134.43966,
+            443
+          ],
+          [
+            58.29149,
+            -134.43891,
+            443
+          ],
+          [
+            58.29161,
+            -134.43827,
+            433
+          ],
+          [
+            58.29201,
+            -134.43699,
+            348
+          ],
+          [
+            58.29212,
+            -134.43626,
+            348
+          ],
+          [
+            58.29223,
+            -134.43537,
+            312
+          ],
+          [
+            58.29208,
+            -134.4346,
+            276
+          ],
+          [
+            58.29162,
+            -134.43278,
+            361
+          ],
+          [
+            58.29155,
+            -134.4322,
+            262
+          ],
+          [
+            58.29147,
+            -134.43179,
+            262
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1683,
+            "coord": [
+              58.26305,
+              -134.46171
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 1578,
+            "coord": [
+              58.26534,
+              -134.46254
+            ]
+          },
+          {
+            "mile": 0.39,
+            "elev": 1486,
+            "coord": [
+              58.26814,
+              -134.46089
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 1411,
+            "coord": [
+              58.27056,
+              -134.46059
+            ]
+          },
+          {
+            "mile": 0.78,
+            "elev": 1283,
+            "coord": [
+              58.27294,
+              -134.45872
+            ]
+          },
+          {
+            "mile": 0.98,
+            "elev": 1171,
+            "coord": [
+              58.27562,
+              -134.45667
+            ]
+          },
+          {
+            "mile": 1.17,
+            "elev": 1050,
+            "coord": [
+              58.27844,
+              -134.45471
+            ]
+          },
+          {
+            "mile": 1.37,
+            "elev": 883,
+            "coord": [
+              58.28094,
+              -134.45419
+            ]
+          },
+          {
+            "mile": 1.57,
+            "elev": 807,
+            "coord": [
+              58.28387,
+              -134.45345
+            ]
+          },
+          {
+            "mile": 1.76,
+            "elev": 738,
+            "coord": [
+              58.28558,
+              -134.44928
+            ]
+          },
+          {
+            "mile": 1.96,
+            "elev": 653,
+            "coord": [
+              58.28674,
+              -134.44477
+            ]
+          },
+          {
+            "mile": 2.15,
+            "elev": 577,
+            "coord": [
+              58.28807,
+              -134.44224
+            ]
+          },
+          {
+            "mile": 2.35,
+            "elev": 463,
+            "coord": [
+              58.29014,
+              -134.44021
+            ]
+          },
+          {
+            "mile": 2.54,
+            "elev": 348,
+            "coord": [
+              58.29201,
+              -134.43699
+            ]
+          },
+          {
+            "mile": 2.74,
+            "elev": 262,
+            "coord": [
+              58.29147,
+              -134.43179
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Juneau</strong> rises to 3,576 feet in Alaska. The Mount Juneau Trail covers 5.5 miles round trip (out-and-back) with about 1,421 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Hard outing.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=58.26305,-134.46171\" target=\"_blank\" rel=\"noopener\">58.26305, -134.46171</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Hard rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 2.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Gastineau Peak, Roberts Peak and Table Top Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Gastineau Peak",
+      "slug": "gastineau-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 3465,
+      "distance_miles": 3.0
+    },
+    {
+      "name": "Roberts Peak",
+      "slug": "roberts-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 3819,
+      "distance_miles": 3.7
+    },
+    {
+      "name": "Table Top Mountain",
+      "slug": "table-top-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 3166,
+      "distance_miles": 3.9
+    },
+    {
+      "name": "Mount Troy",
+      "slug": "mount-troy-ak",
+      "state_slug": "alaska",
+      "elevation": 3005,
+      "distance_miles": 4.4
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Mount Juneau?",
+        "answer": "The Mount Juneau Trail is 5.5 miles round trip with about 1,421 feet of elevation gain, and most hikers take roughly 2.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Mount Juneau hike?",
+        "answer": "It's rated Hard using the National Park Service difficulty formula (5.5 miles round trip, 1,421 ft of gain \u2014 about 250 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Mount Juneau trailhead?",
+        "answer": "The trailhead is at 58.26305, -134.46171 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Mount Juneau trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Mount Juneau?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Mount Juneau?",
+        "answer": "Mount Juneau stands at 3,576 feet (1,090 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Juneau Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Juneau hike with current conditions, trail map & parking info. Alaska summit at 3,576 ft.",
+    "canonical_url": "/trails/alaska/mount-juneau-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Juneau",
+      "description": "Mount Juneau is a 3,576 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 58.31896,
+        "longitude": -134.40862,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3576,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Juneau Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 58.26305,
+            "longitude": -134.46171
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Juneau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Juneau Trail on Mount Juneau is 5.5-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Juneau hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Juneau is rated Moderate. At 3,576 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Juneau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Juneau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Juneau Trail, a 5.5-mile moderate hike to the Mount Juneau summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Juneau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Juneau. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/2516676954",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/2516676954",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30"
+  },
+  "osm": {
+    "id": 2516676954,
+    "prominence_m": null,
+    "wikidata": "Q130544"
+  }
+}

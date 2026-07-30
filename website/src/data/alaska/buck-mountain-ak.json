@@ -1,0 +1,964 @@
+{
+  "name": "Buck Mountain",
+  "slug": "buck-mountain-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 2014,
+  "lat": 55.32759,
+  "lon": -131.57005,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Buck Mountain Trail",
+      "difficulty": "Strenuous",
+      "type": "",
+      "stats": {
+        "distance": 9.5,
+        "gain": 2894,
+        "time": 4.5,
+        "difficulty": "Strenuous",
+        "route_length_mi": 4.76,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            55.38197,
+            -131.56862
+          ],
+          "summit": [
+            55.32759,
+            -131.57005
+          ]
+        },
+        "path": [
+          [
+            55.38197,
+            -131.56862,
+            2769
+          ],
+          [
+            55.3818,
+            -131.56856,
+            2769
+          ],
+          [
+            55.38137,
+            -131.56845,
+            2923
+          ],
+          [
+            55.38104,
+            -131.56935,
+            2861
+          ],
+          [
+            55.38085,
+            -131.56954,
+            2861
+          ],
+          [
+            55.38019,
+            -131.5696,
+            3015
+          ],
+          [
+            55.37965,
+            -131.56948,
+            3015
+          ],
+          [
+            55.37946,
+            -131.5695,
+            3015
+          ],
+          [
+            55.37909,
+            -131.5692,
+            2969
+          ],
+          [
+            55.37877,
+            -131.5692,
+            2969
+          ],
+          [
+            55.37841,
+            -131.56924,
+            2969
+          ],
+          [
+            55.3782,
+            -131.56916,
+            2953
+          ],
+          [
+            55.37789,
+            -131.56907,
+            2953
+          ],
+          [
+            55.37764,
+            -131.56908,
+            2953
+          ],
+          [
+            55.37703,
+            -131.56939,
+            2917
+          ],
+          [
+            55.37656,
+            -131.56924,
+            2913
+          ],
+          [
+            55.37607,
+            -131.56924,
+            2913
+          ],
+          [
+            55.37566,
+            -131.56883,
+            2917
+          ],
+          [
+            55.37519,
+            -131.56856,
+            3035
+          ],
+          [
+            55.3748,
+            -131.56806,
+            3087
+          ],
+          [
+            55.37459,
+            -131.56748,
+            3150
+          ],
+          [
+            55.37416,
+            -131.56735,
+            3150
+          ],
+          [
+            55.37401,
+            -131.56652,
+            3202
+          ],
+          [
+            55.37388,
+            -131.56642,
+            3202
+          ],
+          [
+            55.37328,
+            -131.56692,
+            3222
+          ],
+          [
+            55.37262,
+            -131.56731,
+            3222
+          ],
+          [
+            55.37231,
+            -131.56733,
+            3235
+          ],
+          [
+            55.37158,
+            -131.56793,
+            3068
+          ],
+          [
+            55.37122,
+            -131.56871,
+            3068
+          ],
+          [
+            55.371,
+            -131.56944,
+            2949
+          ],
+          [
+            55.37059,
+            -131.57012,
+            3094
+          ],
+          [
+            55.3701,
+            -131.5706,
+            3094
+          ],
+          [
+            55.36999,
+            -131.57104,
+            3094
+          ],
+          [
+            55.36999,
+            -131.57177,
+            3025
+          ],
+          [
+            55.36991,
+            -131.57287,
+            3081
+          ],
+          [
+            55.36974,
+            -131.573,
+            3081
+          ],
+          [
+            55.36918,
+            -131.57358,
+            3081
+          ],
+          [
+            55.3689,
+            -131.57388,
+            2963
+          ],
+          [
+            55.36871,
+            -131.57435,
+            2963
+          ],
+          [
+            55.36864,
+            -131.57546,
+            2808
+          ],
+          [
+            55.36787,
+            -131.57628,
+            2697
+          ],
+          [
+            55.36712,
+            -131.57682,
+            2690
+          ],
+          [
+            55.36665,
+            -131.57682,
+            2710
+          ],
+          [
+            55.36635,
+            -131.57667,
+            2710
+          ],
+          [
+            55.36572,
+            -131.576,
+            2799
+          ],
+          [
+            55.36538,
+            -131.57611,
+            2799
+          ],
+          [
+            55.36504,
+            -131.57555,
+            2799
+          ],
+          [
+            55.36448,
+            -131.57586,
+            2871
+          ],
+          [
+            55.36427,
+            -131.57583,
+            2871
+          ],
+          [
+            55.36358,
+            -131.57579,
+            2897
+          ],
+          [
+            55.36318,
+            -131.57585,
+            2930
+          ],
+          [
+            55.36274,
+            -131.57589,
+            2930
+          ],
+          [
+            55.36216,
+            -131.57645,
+            2900
+          ],
+          [
+            55.36182,
+            -131.57684,
+            2900
+          ],
+          [
+            55.36138,
+            -131.57724,
+            2982
+          ],
+          [
+            55.36082,
+            -131.57737,
+            3015
+          ],
+          [
+            55.35997,
+            -131.57766,
+            2953
+          ],
+          [
+            55.35974,
+            -131.5777,
+            2953
+          ],
+          [
+            55.35929,
+            -131.57808,
+            2953
+          ],
+          [
+            55.35808,
+            -131.57938,
+            2995
+          ],
+          [
+            55.35729,
+            -131.58029,
+            2907
+          ],
+          [
+            55.35674,
+            -131.58094,
+            2907
+          ],
+          [
+            55.35636,
+            -131.58137,
+            2831
+          ],
+          [
+            55.35587,
+            -131.58192,
+            2831
+          ],
+          [
+            55.35508,
+            -131.58237,
+            2910
+          ],
+          [
+            55.35486,
+            -131.58247,
+            2910
+          ],
+          [
+            55.35443,
+            -131.583,
+            2858
+          ],
+          [
+            55.35437,
+            -131.58305,
+            2858
+          ],
+          [
+            55.3538,
+            -131.58314,
+            2851
+          ],
+          [
+            55.35292,
+            -131.5834,
+            2782
+          ],
+          [
+            55.35252,
+            -131.58373,
+            2782
+          ],
+          [
+            55.35228,
+            -131.58393,
+            2795
+          ],
+          [
+            55.35191,
+            -131.58417,
+            2795
+          ],
+          [
+            55.35158,
+            -131.58437,
+            2684
+          ],
+          [
+            55.35138,
+            -131.58452,
+            2684
+          ],
+          [
+            55.35084,
+            -131.58534,
+            2743
+          ],
+          [
+            55.3506,
+            -131.58582,
+            2612
+          ],
+          [
+            55.35036,
+            -131.58627,
+            2671
+          ],
+          [
+            55.35025,
+            -131.58643,
+            2671
+          ],
+          [
+            55.35007,
+            -131.5867,
+            2671
+          ],
+          [
+            55.34989,
+            -131.58685,
+            2575
+          ],
+          [
+            55.34921,
+            -131.58683,
+            2575
+          ],
+          [
+            55.34833,
+            -131.5871,
+            2507
+          ],
+          [
+            55.34799,
+            -131.58773,
+            2579
+          ],
+          [
+            55.34733,
+            -131.58863,
+            2500
+          ],
+          [
+            55.34678,
+            -131.58887,
+            2621
+          ],
+          [
+            55.34667,
+            -131.58947,
+            2621
+          ],
+          [
+            55.34661,
+            -131.59089,
+            2657
+          ],
+          [
+            55.34584,
+            -131.59305,
+            2792
+          ],
+          [
+            55.3451,
+            -131.59456,
+            2828
+          ],
+          [
+            55.34455,
+            -131.59624,
+            2762
+          ],
+          [
+            55.34412,
+            -131.59746,
+            2776
+          ],
+          [
+            55.34396,
+            -131.59887,
+            2680
+          ],
+          [
+            55.3435,
+            -131.60103,
+            2592
+          ],
+          [
+            55.34311,
+            -131.6018,
+            2582
+          ],
+          [
+            55.34298,
+            -131.60223,
+            2582
+          ],
+          [
+            55.34271,
+            -131.6034,
+            2477
+          ],
+          [
+            55.34238,
+            -131.60408,
+            2428
+          ],
+          [
+            55.34231,
+            -131.60442,
+            2428
+          ],
+          [
+            55.34197,
+            -131.60474,
+            2428
+          ],
+          [
+            55.34109,
+            -131.60509,
+            2343
+          ],
+          [
+            55.34073,
+            -131.60502,
+            2333
+          ],
+          [
+            55.34049,
+            -131.60524,
+            2333
+          ],
+          [
+            55.34037,
+            -131.60583,
+            2333
+          ],
+          [
+            55.3396,
+            -131.60552,
+            2303
+          ],
+          [
+            55.33927,
+            -131.6053,
+            2303
+          ],
+          [
+            55.33872,
+            -131.60563,
+            2221
+          ],
+          [
+            55.33841,
+            -131.60691,
+            2129
+          ],
+          [
+            55.33797,
+            -131.60708,
+            2054
+          ],
+          [
+            55.3381,
+            -131.60804,
+            1946
+          ],
+          [
+            55.33832,
+            -131.6105,
+            1611
+          ],
+          [
+            55.33815,
+            -131.61135,
+            1430
+          ],
+          [
+            55.33722,
+            -131.61147,
+            1362
+          ],
+          [
+            55.33796,
+            -131.61311,
+            1260
+          ],
+          [
+            55.33873,
+            -131.61375,
+            1155
+          ],
+          [
+            55.3392,
+            -131.61454,
+            1145
+          ],
+          [
+            55.33961,
+            -131.61547,
+            1027
+          ],
+          [
+            55.34061,
+            -131.61645,
+            886
+          ],
+          [
+            55.34155,
+            -131.61945,
+            564
+          ],
+          [
+            55.34161,
+            -131.62142,
+            351
+          ],
+          [
+            55.34157,
+            -131.62302,
+            341
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2769,
+            "coord": [
+              55.38197,
+              -131.56862
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 2953,
+            "coord": [
+              55.37764,
+              -131.56908
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 3222,
+            "coord": [
+              55.37328,
+              -131.56692
+            ]
+          },
+          {
+            "mile": 1.02,
+            "elev": 3025,
+            "coord": [
+              55.36999,
+              -131.57177
+            ]
+          },
+          {
+            "mile": 1.36,
+            "elev": 2710,
+            "coord": [
+              55.36635,
+              -131.57667
+            ]
+          },
+          {
+            "mile": 1.7,
+            "elev": 2900,
+            "coord": [
+              55.36182,
+              -131.57684
+            ]
+          },
+          {
+            "mile": 2.04,
+            "elev": 2907,
+            "coord": [
+              55.35729,
+              -131.58029
+            ]
+          },
+          {
+            "mile": 2.38,
+            "elev": 2782,
+            "coord": [
+              55.35292,
+              -131.5834
+            ]
+          },
+          {
+            "mile": 2.72,
+            "elev": 2507,
+            "coord": [
+              55.34833,
+              -131.5871
+            ]
+          },
+          {
+            "mile": 3.06,
+            "elev": 2792,
+            "coord": [
+              55.34584,
+              -131.59305
+            ]
+          },
+          {
+            "mile": 3.4,
+            "elev": 2592,
+            "coord": [
+              55.3435,
+              -131.60103
+            ]
+          },
+          {
+            "mile": 3.74,
+            "elev": 2333,
+            "coord": [
+              55.34037,
+              -131.60583
+            ]
+          },
+          {
+            "mile": 4.08,
+            "elev": 1611,
+            "coord": [
+              55.33832,
+              -131.6105
+            ]
+          },
+          {
+            "mile": 4.42,
+            "elev": 1027,
+            "coord": [
+              55.33961,
+              -131.61547
+            ]
+          },
+          {
+            "mile": 4.76,
+            "elev": 341,
+            "coord": [
+              55.34157,
+              -131.62302
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Northbird Mountain",
+          "type": "summit",
+          "lat": 55.37307,
+          "lon": -131.56524,
+          "mile": 0.68
+        },
+        {
+          "name": "Roy Jones Mountain",
+          "type": "summit",
+          "lat": 55.36995,
+          "lon": -131.57039,
+          "mile": 0.96
+        },
+        {
+          "name": "Deer Mountain",
+          "type": "summit",
+          "lat": 55.34301,
+          "lon": -131.59906,
+          "mile": 3.33
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Buck Mountain</strong> is a 2,014-foot summit in Alaska. The Buck Mountain Trail covers 9.5 miles round trip (out-and-back) with about 2,894 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Strenuous outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 2.72, gaining roughly 800 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 2,769 feet, the route tops out near 3,222 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=55.38197,-131.56862\" target=\"_blank\" rel=\"noopener\">55.38197, -131.56862</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 4.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Deer Mountain, Achilles Mountain and Fish Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Deer Mountain",
+      "slug": "deer-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 3002,
+      "distance_miles": 1.6
+    },
+    {
+      "name": "Achilles Mountain",
+      "slug": "achilles-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 3015,
+      "distance_miles": 2.0
+    },
+    {
+      "name": "Fish Mountain",
+      "slug": "fish-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 2625,
+      "distance_miles": 3.7
+    },
+    {
+      "name": "Brown Mountain",
+      "slug": "brown-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 2979,
+      "distance_miles": 7.1
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Buck Mountain?",
+        "answer": "The Buck Mountain Trail is 9.5 miles round trip with about 2,894 feet of elevation gain, and most hikers take roughly 4.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Buck Mountain hike?",
+        "answer": "It's rated Strenuous using the National Park Service difficulty formula (9.5 miles round trip, 2,894 ft of gain \u2014 about 300 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Buck Mountain trailhead?",
+        "answer": "The trailhead is at 55.38197, -131.56862 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Buck Mountain trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Buck Mountain?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Buck Mountain?",
+        "answer": "Buck Mountain stands at 2,014 feet (614 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Buck Mountain Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Buck Mountain hike with current conditions, trail map & parking info. Alaska summit at 2,014 ft.",
+    "canonical_url": "/trails/alaska/buck-mountain-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Buck Mountain",
+      "description": "Buck Mountain is a 2,014 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 55.32759,
+        "longitude": -131.57005,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2014,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Buck Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 55.38197,
+            "longitude": -131.56862
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Buck Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Buck Mountain Trail on Buck Mountain is 9.5-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Buck Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Buck Mountain is rated Moderate. At 2,014 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Buck Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Buck Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Buck Mountain Trail, a 9.5-mile moderate hike to the Buck Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Buck Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Buck Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/2479311318",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/2479311318",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 2479311318,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}
