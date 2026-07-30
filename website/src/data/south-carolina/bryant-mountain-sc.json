@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Bryant Mountain",
   "slug": "bryant-mountain-sc",
   "state": "South Carolina",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Bryant Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
         "distance": 1.4,
         "gain": 145,
-        "time": null,
-        "difficulty": "",
+        "time": 0.5,
+        "difficulty": "Easy",
         "route_length_mi": 0.7,
         "distance_type": "out-and-back",
         "distance_source": "computed"

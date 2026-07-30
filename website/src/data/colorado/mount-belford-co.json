@@ -6,7 +6,7 @@
   "elevation": 14203,
   "lat": 38.96064,
   "lon": -106.36078,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.%20belford%20north%20approach.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -947,5 +947,10 @@
     "prominence_m": null,
     "wikidata": "Q6919666"
   },
-  "_status": "demoted \u2014 implausibly steep (1502 ft/mi) \u2014 likely a climbing route, not a hiking trail"
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mt.%20belford%20north%20approach.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Simpsora"
+  }
 }
