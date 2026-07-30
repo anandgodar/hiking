@@ -37,12 +37,21 @@ def ssl_context():
         return ssl.create_default_context()
 
 
-def api(url, ctx, retries=3):
+def api(url, ctx, retries=5):
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=40, context=ctx) as r:
-                return json.loads(r.read())
+                body = r.read()
+            return json.loads(body)
+        except json.JSONDecodeError:
+            # Wikimedia's rate-limit response is HTTP 200 with a plain-text
+            # body ("You are making too many requests..."), not an HTTP
+            # error — a short retry loop just fires again immediately and
+            # burns the whole budget in seconds. Back off hard.
+            print(f"    · rate-limited, backing off {15 * (attempt + 1)}s "
+                  f"[{attempt + 1}/{retries}]")
+            time.sleep(15 * (attempt + 1))
         except Exception:
             time.sleep(2 * (attempt + 1))
     return {}
@@ -119,6 +128,11 @@ def main():
             if not (m.get("lat") and m.get("lon")):
                 continue
             fn = entity_photo(search_qids(m["name"], ctx), m["lat"], m["lon"], ctx)
+            # Pace every lookup, not just successful ones — most peaks have
+            # no match, and firing those requests back-to-back with no
+            # delay is what triggers Wikimedia's rate limit in the first
+            # place (it did, mid-run, on the first attempt at this).
+            time.sleep(0.5)
             if not fn:
                 continue
             lic, artist = commons_meta(fn, ctx)
@@ -134,7 +148,6 @@ def main():
             Path(path).write_text(json.dumps(m, indent=2) + "\n")
             replaced += 1
             print(f"  ✓ {state}/{m['slug']}: {fn}")
-            time.sleep(0.4)
     print(f"✅ heroes replaced: {replaced}")
 
 
