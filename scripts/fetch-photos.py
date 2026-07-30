@@ -55,6 +55,18 @@ def api(url, ctx, retries=3):
     return {}
 
 
+# A Wikidata item's P18 "image" claim is sometimes a photo of something near
+# the peak rather than the peak itself (a post office, a park-entrance sign,
+# an NRHP historic-district building tagged "H.D." in the standard
+# nomination-photo naming pattern) — real cases hit in this codebase:
+# Sentinel Butte, ND got a post-office photo; Mount Philo, VT got a
+# park-entrance sign. Reject filenames that read as clearly non-scenic.
+NON_SCENIC_FILENAME = re.compile(
+    r"\b(post office|entrance|boundary marker|h\.?d\.?,|historic district|"
+    r"plaque|sign\b|parking|restroom|visitor center|city hall|courthouse|"
+    r"town hall|cemetery|church|school|museum)\b", re.I)
+
+
 def batch_p18(qids, ctx):
     """QID -> Commons filename, 50 at a time via wbgetentities."""
     out = {}
@@ -67,7 +79,9 @@ def batch_p18(qids, ctx):
             claims = (ent.get("claims") or {}).get("P18") or []
             if claims:
                 try:
-                    out[qid] = claims[0]["mainsnak"]["datavalue"]["value"]
+                    fn = claims[0]["mainsnak"]["datavalue"]["value"]
+                    if not NON_SCENIC_FILENAME.search(fn):
+                        out[qid] = fn
                 except (KeyError, IndexError):
                     pass
         time.sleep(0.3)

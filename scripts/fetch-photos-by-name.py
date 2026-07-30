@@ -15,6 +15,7 @@ Usage:
 import glob
 import json
 import math
+import re
 import ssl
 import sys
 import time
@@ -74,8 +75,24 @@ def search_qids(name, ctx):
     return [h["id"] for h in api(url, ctx).get("search", [])]
 
 
+# A Wikidata item's P18 "image" claim is sometimes a photo of something near
+# the peak rather than the peak itself — a coordinate check alone can't catch
+# this, since the off-subject photo is still genuinely close by (a boundary
+# marker, a post office, a park entrance sign, a historic-district building
+# tagged "H.D." in the standard NRHP nomination-photo naming pattern). Two
+# real trails this exact filter was written for: Sentinel Butte, ND got a
+# post-office photo, and Mount Philo, VT got a park-entrance sign — both
+# published, then removed, then re-matched by an independent run before this
+# filter existed. Reject filenames that are clearly not a landscape photo of
+# the peak rather than trying to guess what a good one looks like.
+NON_SCENIC_FILENAME = re.compile(
+    r"\b(post office|entrance|boundary marker|h\.?d\.?,|historic district|"
+    r"plaque|sign\b|parking|restroom|visitor center|city hall|courthouse|"
+    r"town hall|cemetery|church|school|museum)\b", re.I)
+
+
 def entity_photo(qids, lat, lon, ctx):
-    """First QID whose P625 is near (lat,lon) and has P18 -> filename."""
+    """First QID whose P625 is near (lat,lon), has P18, and looks scenic."""
     if not qids:
         return None
     url = ("https://www.wikidata.org/w/api.php?action=wbgetentities"
@@ -87,7 +104,10 @@ def entity_photo(qids, lat, lon, ctx):
             c = claims["P625"][0]["mainsnak"]["datavalue"]["value"]
             if km(lat, lon, c["latitude"], c["longitude"]) > MAX_KM:
                 continue
-            return claims["P18"][0]["mainsnak"]["datavalue"]["value"]
+            fn = claims["P18"][0]["mainsnak"]["datavalue"]["value"]
+            if NON_SCENIC_FILENAME.search(fn):
+                continue
+            return fn
         except (KeyError, IndexError, TypeError):
             continue
     return None
