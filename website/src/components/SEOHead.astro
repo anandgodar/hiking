@@ -84,9 +84,14 @@ const canonicalUrl = isMountainPage
   ? `https://summitseeker.io/${mountain.state_slug || 'new-hampshire'}/hikes/${mountain.slug}`
   : normalizeCanonicalUrl(propCanonical || Astro.url.href);
 
+// Neither /images/default-mountain.jpg nor /images/og-default.jpg exists in
+// public/ — every share card and Google rich-result image for a trail
+// without its own hero photo (591 live pages) was pointing at a 404. Falls
+// back to the same generic mountain photo used elsewhere on the site.
+const DEFAULT_OG_IMAGE = 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200&h=630&fit=crop';
 const ogImage = isMountainPage
-  ? (mountain.mountain_hero || 'https://summitseeker.io/images/default-mountain.jpg')
-  : (propImage || 'https://summitseeker.io/images/og-default.jpg');
+  ? (mountain.mountain_hero || DEFAULT_OG_IMAGE)
+  : (propImage || DEFAULT_OG_IMAGE);
 
 // Schema.org structured data (only for mountain pages)
 const schemaPlace = isMountainPage ? (mountain.seo?.schema_place || {

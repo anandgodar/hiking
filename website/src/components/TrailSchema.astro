@@ -13,6 +13,10 @@ const difficulty = primaryTrail?.difficulty || primaryTrail?.stats?.difficulty |
 const userReviews = mountain.user_reviews;
 const hasReviews = userReviews?.enabled && userReviews?.count > 0;
 
+// /images/default-mountain.jpg does not exist in public/ — schema.org's
+// "image" was a dead URL for every trail without its own hero photo.
+const DEFAULT_SCHEMA_IMAGE = 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200';
+
 const schema = {
   "@context": "https://schema.org",
   "@type": ["TouristTrip", "TouristAttraction"],
@@ -20,7 +24,7 @@ const schema = {
   "description": mountain.generated_description?.replace(/<[^>]*>?/gm, '') || `Hiking guide for ${mountain.name} in ${stateName}.`,
   "touristType": "Hiking",
   "url": `https://summitseeker.io/${mountain.state_slug || 'new-hampshire'}/hikes/${mountain.slug}`,
-  "image": mountain.mountain_hero || 'https://summitseeker.io/images/default-mountain.jpg',
+  "image": mountain.mountain_hero || DEFAULT_SCHEMA_IMAGE,
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": mountain.lat,
