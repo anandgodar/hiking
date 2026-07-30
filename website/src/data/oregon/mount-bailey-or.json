@@ -11,13 +11,16 @@
   "trails": [
     {
       "name": "Mount Bailey Trail",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "type": "",
       "stats": {
-        "distance": 3.1,
+        "distance": 6.1,
         "gain": 2431,
-        "time": 2.0,
-        "difficulty": "Hard"
+        "time": 3.0,
+        "difficulty": "Strenuous",
+        "route_length_mi": 3.06,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -781,7 +784,7 @@
       ]
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Bailey</strong> rises to 8,368 feet in Oregon. The Mount Bailey Trail covers 3.1 miles with about 2,431 feet of elevation gain \u2014 a steep, sustained climb. It's rated Hard overall.</p>\n  <h3>The Route</h3><p>The grade is back-loaded: the first half of the route climbs gently, and most of the elevation gain comes in the second half. The steepest stretch arrives around mile 1.75, gaining roughly 1,400 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 5,820 feet, the route tops out near 8,251 feet. You'll cross above treeline on the way up, so the upper route is exposed to weather \u2014 check the forecast and turn around if conditions build.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=43.14665,-122.255\" target=\"_blank\" rel=\"noopener\">43.14665, -122.255</a> (tap for driving directions). It's roughly 165 miles south of Portland, Oregon. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Hard rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 2.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Llao Rock, Hillman Peak and The Watchman \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Bailey</strong> rises to 8,368 feet in Oregon. The Mount Bailey Trail covers 6.1 miles round trip (out-and-back) with about 2,431 feet of elevation gain \u2014 a steady climb. It's rated Strenuous overall.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 1.75, gaining roughly 1,400 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 5,820 feet, the route tops out near 8,251 feet. You'll cross above treeline on the way up, so the upper route is exposed to weather \u2014 check the forecast and turn around if conditions build.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=43.14665,-122.255\" target=\"_blank\" rel=\"noopener\">43.14665, -122.255</a> (tap for driving directions). It's roughly 165 miles south of Portland, Oregon. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 3.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Llao Rock, Hillman Peak and The Watchman \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Llao Rock",
@@ -816,11 +819,11 @@
     "faqs": [
       {
         "question": "How long does it take to hike Mount Bailey?",
-        "answer": "The Mount Bailey Trail is 3.1 miles with about 2,431 feet of elevation gain, and most hikers take roughly 2.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+        "answer": "The Mount Bailey Trail is 6.1 miles round trip with about 2,431 feet of elevation gain, and most hikers take roughly 3.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
       },
       {
         "question": "How hard is the Mount Bailey hike?",
-        "answer": "It's rated Hard using the National Park Service difficulty formula (3.1 miles, 2,431 ft of gain \u2014 about 800 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+        "answer": "It's rated Strenuous using the National Park Service difficulty formula (6.1 miles round trip, 2,431 ft of gain \u2014 about 400 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
       },
       {
         "question": "Where is the Mount Bailey trailhead?",

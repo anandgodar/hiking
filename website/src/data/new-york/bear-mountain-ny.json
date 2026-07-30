@@ -102,8 +102,11 @@
         "distance": 3.9,
         "gain": 1336,
         "type": "Loop",
-        "difficulty": "Moderate",
-        "time": 3.3
+        "difficulty": "Hard",
+        "time": 2.0,
+        "route_length_mi": 3.9,
+        "distance_type": "loop",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -2441,7 +2444,7 @@
           ]
         }
       },
-      "difficulty": "Moderate",
+      "difficulty": "Hard",
       "parking_info": "Trailhead parking",
       "parking_details": {
         "coords": [

@@ -116,15 +116,18 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.4,
+        "distance": 3.1,
         "gain": 1500,
         "max_elev": 1311,
         "min_elev": 1178,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.2,
+        "time": 2.0,
         "_distance_source": "calculated",
-        "_original_calculated_gain": 164
+        "_original_calculated_gain": 164,
+        "route_length_mi": 1.55,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -810,7 +813,10 @@
         "difficulty": "Moderate",
         "time": 1.4,
         "_distance_source": "calculated",
-        "_original_calculated_gain": 174
+        "_original_calculated_gain": 174,
+        "route_length_mi": 1.74,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

@@ -71,6 +71,10 @@ _spec = importlib.util.spec_from_file_location("ee", ROOT / "scripts" / "enrich-
 _ee = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_ee)
 
+# Canonical distance semantics (route_length_mi / distance_type / distance).
+sys.path.insert(0, str(ROOT / "scripts"))
+import route_metrics as _rm  # noqa: E402
+
 
 def ssl_context():
     try:
@@ -396,8 +400,12 @@ def process(state, slug_filter, radius_km, limit, ctx):
         geo.setdefault("markers", {})["summit"] = [summit[0], summit[1]]
         geo["markers"]["start"] = [path3[0][0], path3[0][1]]
         stats = t.setdefault("stats", {})
-        stats["distance"] = round(dist, 1)
+        # `dist` is one traverse of the geometry. The hiked distance — what the
+        # NPS difficulty formula needs — is twice that for an out-and-back.
+        # route_metrics owns this rule for every caller.
         stats["gain"] = round(max(eles) - min(eles))
+        stats.pop("distance_source", None)  # freshly computed geometry
+        _rm.apply_to_trail(t)
         ds = d.setdefault("data_sources", {})
         ds["gps_source"] = src_attr
         ds["elevation_source"] = "Open-Meteo (Copernicus 30 m DEM)"

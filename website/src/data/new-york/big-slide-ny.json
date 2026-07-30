@@ -102,8 +102,11 @@
         "distance": 8.9,
         "gain": 3416,
         "type": "Loop",
-        "difficulty": "Hard",
-        "time": 7.6
+        "difficulty": "Strenuous",
+        "time": 4.5,
+        "route_length_mi": 8.89,
+        "distance_type": "loop",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -3286,7 +3289,7 @@
           ]
         }
       },
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "features": [
         {
           "name": "Howard Lean-to",

@@ -12,13 +12,16 @@
   "trails": [
     {
       "name": "Castle Peak Trail",
-      "difficulty": "",
+      "difficulty": "Strenuous",
       "type": "",
       "stats": {
-        "distance": 9.4,
+        "distance": 18.9,
         "gain": 4141,
-        "time": 5.0,
-        "difficulty": ""
+        "time": 8.5,
+        "difficulty": "Strenuous",
+        "route_length_mi": 9.44,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -774,7 +777,7 @@
       "features": []
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Castle Peak</strong> is a 14,279-foot summit in Colorado. With roughly 2,365 feet of topographic prominence, it stands well above the surrounding terrain. The Castle Peak Trail covers 9.4 miles with about 4,141 feet of elevation gain \u2014 a steady climb.</p>\n  <h3>The Route</h3><p>The grade is back-loaded: the first half of the route climbs gently, and most of the elevation gain comes in the second half. The steepest stretch arrives around mile 8.09, gaining roughly 1,100 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 8,763 feet, the route tops out near 12,904 feet. You'll cross above treeline on the way up, so the upper route is exposed to weather \u2014 check the forecast and turn around if conditions build.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=39.11516,-106.85787\" target=\"_blank\" rel=\"noopener\">39.11516, -106.85787</a> (tap for driving directions). It's roughly 110 miles southwest of Denver, Colorado. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>The reliable snow-free window is roughly July through September. At this elevation, afternoon thunderstorms are a serious summer hazard \u2014 start early and plan to be off the upper mountain by midday. Outside that window expect snow travel and bring traction and navigation skills to match.</p>\n  <h3>Know Before You Go</h3><p>Most hikers should budget about 5.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include La Plata Peak, Mount Elbert and Mount Massive \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Castle Peak</strong> is a 14,279-foot summit in Colorado. With roughly 2,365 feet of topographic prominence, it stands well above the surrounding terrain. The Castle Peak Trail covers 18.9 miles round trip (out-and-back) with about 4,141 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Strenuous outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 8.09, gaining roughly 1,100 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 8,763 feet, the route tops out near 12,904 feet. You'll cross above treeline on the way up, so the upper route is exposed to weather \u2014 check the forecast and turn around if conditions build.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=39.11516,-106.85787\" target=\"_blank\" rel=\"noopener\">39.11516, -106.85787</a> (tap for driving directions). It's roughly 110 miles southwest of Denver, Colorado. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>The reliable snow-free window is roughly July through September. At this elevation, afternoon thunderstorms are a serious summer hazard \u2014 start early and plan to be off the upper mountain by midday. Outside that window expect snow travel and bring traction and navigation skills to match.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 8.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include La Plata Peak, Mount Elbert and Mount Massive \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "La Plata Peak",
@@ -809,7 +812,11 @@
     "faqs": [
       {
         "question": "How long does it take to hike Castle Peak?",
-        "answer": "The Castle Peak Trail is 9.4 miles with about 4,141 feet of elevation gain, and most hikers take roughly 5.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+        "answer": "The Castle Peak Trail is 18.9 miles round trip with about 4,141 feet of elevation gain, and most hikers take roughly 8.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Castle Peak hike?",
+        "answer": "It's rated Strenuous using the National Park Service difficulty formula (18.9 miles round trip, 4,141 ft of gain \u2014 about 200 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
       },
       {
         "question": "Where is the Castle Peak trailhead?",

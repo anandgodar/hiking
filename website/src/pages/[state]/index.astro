@@ -177,9 +177,15 @@ const getIconSvg = (iconName) => {
   };
   return icons[iconName] || icons.mountain;
 };
+
+// A hub with only a handful of trails is a thin-content signal. Keep it out of
+// the index but keep `follow`, so its trail pages still receive link equity.
+const MIN_TRAILS_TO_INDEX = 5;
+const robots = mountains.length < MIN_TRAILS_TO_INDEX ? 'noindex, follow' : undefined;
 ---
 
 <Layout
+  robots={robots}
   title={`Best Hiking Trails in ${config.name} 2026 | ${mountains.length} Trail Guides & Maps`}
   description={`Discover the top ${mountains.length} hiking trails in ${config.name}. Detailed trail guides, topographic maps, elevation profiles, weather forecasts & parking info for every hike. From beginner to expert.`}
 >

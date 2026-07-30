@@ -81,7 +81,7 @@
       "id": "9681ec93",
       "name": "Garfield Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 6.0,
       "elevation_gain": 2613,
       "description": "Trail to Mount Garfield summit.",
@@ -108,13 +108,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.0,
+        "distance": 6.3,
         "gain": 2613,
         "max_elev": 4475,
         "min_elev": 2425,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 3.3
+        "difficulty": "Strenuous",
+        "time": 3.5,
+        "route_length_mi": 3.15,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

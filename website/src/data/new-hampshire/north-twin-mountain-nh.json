@@ -81,7 +81,7 @@
       "id": "d27a765a",
       "name": "North Twin Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 8.6,
       "elevation_gain": 3379,
       "description": "Direct route to North Twin with spectacular views.",
@@ -108,13 +108,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 8.6,
+        "distance": 16.1,
         "gain": 3379,
         "max_elev": 4699,
         "min_elev": 1616,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 4.6
+        "difficulty": "Strenuous",
+        "time": 7.0,
+        "route_length_mi": 8.04,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

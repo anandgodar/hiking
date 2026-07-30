@@ -88,8 +88,11 @@
         "distance": 5.4,
         "gain": 3122,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 5.2
+        "difficulty": "Strenuous",
+        "time": 3.5,
+        "route_length_mi": 2.69,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -1431,7 +1434,7 @@
           ]
         }
       },
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "parking_info": "Trailhead parking",
       "parking_details": {
         "coords": [

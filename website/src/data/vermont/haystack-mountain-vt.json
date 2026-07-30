@@ -101,7 +101,10 @@
         "type": "Out & Back",
         "difficulty": "Moderate",
         "time": 0.7,
-        "_distance_source": "calculated"
+        "_distance_source": "calculated",
+        "route_length_mi": 1.25,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

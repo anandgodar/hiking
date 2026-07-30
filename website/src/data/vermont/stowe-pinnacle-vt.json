@@ -69,7 +69,7 @@
       "id": "da6b503d",
       "name": "Stowe Pinnacle Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Hard",
       "distance_miles": 3.7,
       "elevation_gain": 1520,
       "description": "Classic Stowe hike with views of Mt Mansfield.",
@@ -98,14 +98,17 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.7,
+        "distance": 7.4,
         "gain": 1520,
         "max_elev": 1643,
         "min_elev": 951,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 1.6,
-        "_distance_source": "calculated"
+        "difficulty": "Hard",
+        "time": 3.0,
+        "_distance_source": "calculated",
+        "route_length_mi": 3.69,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

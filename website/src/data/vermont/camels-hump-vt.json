@@ -186,7 +186,10 @@
         "difficulty": "Moderate",
         "time": 4.2,
         "_distance_source": "calculated",
-        "_original_calculated_gain": 4513
+        "_original_calculated_gain": 4513,
+        "route_length_mi": 9.37,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -4236,7 +4239,10 @@
         "type": "Out & Back",
         "difficulty": "Moderate",
         "time": 3.0,
-        "_distance_source": "calculated"
+        "_distance_source": "calculated",
+        "route_length_mi": 4.33,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -6107,7 +6113,10 @@
         "type": "Out & Back",
         "difficulty": "Hard",
         "time": 1.6,
-        "_distance_source": "calculated"
+        "_distance_source": "calculated",
+        "route_length_mi": 2.45,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -7445,7 +7454,10 @@
         "difficulty": "Hard",
         "time": 4.0,
         "_original_calculated_distance": 21.9,
-        "_distance_source": "seed_override"
+        "_distance_source": "seed_override",
+        "route_length_mi": 21.83,
+        "distance_type": "loop",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

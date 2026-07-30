@@ -12,13 +12,16 @@
   "trails": [
     {
       "name": "Beartown Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Hard",
       "type": "",
       "stats": {
-        "distance": 5.7,
+        "distance": 11.3,
         "gain": 564,
-        "time": 2.0,
-        "difficulty": ""
+        "time": 4.0,
+        "difficulty": "Hard",
+        "route_length_mi": 5.67,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -179,7 +182,7 @@
       "features": []
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Beartown Mountain</strong> is a 4,688-foot summit in Virginia. The Beartown Mountain Trail covers 5.7 miles with about 564 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>The grade is back-loaded: the first half of the route climbs gently, and most of the elevation gain comes in the second half. The steepest stretch arrives around mile 2.83, gaining roughly 1,400 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 3,419 feet, the route tops out near 3,983 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=36.8698,-81.9628\" target=\"_blank\" rel=\"noopener\">36.8698, -81.9628</a> (tap for driving directions). It's roughly 95 miles north of Asheville, North Carolina. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>Most hikers should budget about 2.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Redrock Mountain, Flattop Mountain and Double Top \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Beartown Mountain</strong> is a 4,688-foot summit in Virginia. The Beartown Mountain Trail covers 11.3 miles round trip (out-and-back) with about 564 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Hard outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 2.83, gaining roughly 1,400 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 3,419 feet, the route tops out near 3,983 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=36.8698,-81.9628\" target=\"_blank\" rel=\"noopener\">36.8698, -81.9628</a> (tap for driving directions). It's roughly 95 miles north of Asheville, North Carolina. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Hard rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 4.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Redrock Mountain, Flattop Mountain and Double Top \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Redrock Mountain",
@@ -214,7 +217,11 @@
     "faqs": [
       {
         "question": "How long does it take to hike Beartown Mountain?",
-        "answer": "The Beartown Mountain Trail is 5.7 miles with about 564 feet of elevation gain, and most hikers take roughly 2.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+        "answer": "The Beartown Mountain Trail is 11.3 miles round trip with about 564 feet of elevation gain, and most hikers take roughly 4.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Beartown Mountain hike?",
+        "answer": "It's rated Hard using the National Park Service difficulty formula (11.3 miles round trip, 564 ft of gain \u2014 about 50 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
       },
       {
         "question": "Where is the Beartown Mountain trailhead?",

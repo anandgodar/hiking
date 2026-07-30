@@ -82,7 +82,7 @@
       "id": "4afa2555",
       "name": "West Bond Spur from Bond",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 20.0,
       "elevation_gain": 4019,
       "description": "Short spur from Bond summit to West Bond. Usually done as part of Bonds traverse.",
@@ -113,13 +113,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 20.0,
+        "distance": 18.5,
         "gain": 4019,
         "max_elev": 4579,
         "min_elev": 1933,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 8.7
+        "difficulty": "Strenuous",
+        "time": 8.0,
+        "route_length_mi": 9.24,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

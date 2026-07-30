@@ -12,13 +12,16 @@
   "trails": [
     {
       "name": "Albany Hill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": 1.0,
+        "distance": 2.0,
         "gain": 88,
-        "time": null,
-        "difficulty": ""
+        "time": 0.5,
+        "difficulty": "Easy",
+        "route_length_mi": 1.0,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -234,10 +237,18 @@
       "features": []
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Albany Hill</strong> is a 1,276-foot summit in Kansas. The Albany Hill Trail covers 1.0 miles with about 88 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=39.9576,-95.81656\" target=\"_blank\" rel=\"noopener\">39.9576, -95.81656</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Spring through fall is the main season. Conditions change fast in the shoulder months \u2014 check a point forecast for the summit, not the nearest town, before you commit.</p>\n  <h3>Know Before You Go</h3><p>Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Albany Hill</strong> is a 1,276-foot summit in Kansas. The Albany Hill Trail covers 2.0 miles round trip (out-and-back) with about 88 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=39.9576,-95.81656\" target=\"_blank\" rel=\"noopener\">39.9576, -95.81656</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Spring through fall is the main season. Conditions change fast in the shoulder months \u2014 check a point forecast for the summit, not the nearest town, before you commit.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n</div>",
   "nearby_peaks": [],
   "page_content": {
     "faqs": [
+      {
+        "question": "How long does it take to hike Albany Hill?",
+        "answer": "The Albany Hill Trail is 2.0 miles round trip with about 88 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Albany Hill hike?",
+        "answer": "It's rated Easy using the National Park Service difficulty formula (2.0 miles round trip, 88 ft of gain \u2014 about 50 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
       {
         "question": "Where is the Albany Hill trailhead?",
         "answer": "The trailhead is at 39.9576, -95.81656 in Kansas. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."

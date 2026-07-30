@@ -93,7 +93,7 @@
       "id": "d6dc7f17",
       "name": "Waterbury Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 4.3,
       "elevation_gain": 2300,
       "description": "Most popular route with spectacular summit views.",
@@ -122,15 +122,18 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.3,
+        "distance": 8.7,
         "gain": 2300,
         "max_elev": 1416,
         "min_elev": 742,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 2.6,
+        "difficulty": "Strenuous",
+        "time": 4.0,
         "_distance_source": "calculated",
-        "_original_calculated_gain": 123
+        "_original_calculated_gain": 123,
+        "route_length_mi": 4.34,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -1631,7 +1634,7 @@
       "id": "d9460827",
       "name": "Middlesex Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 3.4,
       "elevation_gain": 2500,
       "description": "Eastern approach, steeper but less crowded.",
@@ -1658,15 +1661,18 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.4,
+        "distance": 6.8,
         "gain": 2500,
         "max_elev": 1210,
         "min_elev": 732,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 2.4,
+        "difficulty": "Strenuous",
+        "time": 3.5,
         "_distance_source": "calculated",
-        "_original_calculated_gain": 124
+        "_original_calculated_gain": 124,
+        "route_length_mi": 3.4,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

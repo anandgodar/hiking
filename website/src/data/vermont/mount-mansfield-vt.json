@@ -173,7 +173,7 @@
       "id": "e5402316",
       "name": "Sunset Ridge Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 6.6,
       "elevation_gain": 2550,
       "description": "Spectacular open ridge with panoramic views. Most scenic route to the Chin.",
@@ -203,14 +203,17 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.6,
+        "distance": 13.2,
         "gain": 2550,
         "max_elev": 4388,
         "min_elev": 912,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 4.0,
-        "_distance_source": "calculated"
+        "difficulty": "Strenuous",
+        "time": 5.5,
+        "_distance_source": "calculated",
+        "route_length_mi": 6.61,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -3524,7 +3527,7 @@
       "id": "582c7542",
       "name": "Long Trail (from Rt 108)",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 4.4,
       "elevation_gain": 2678,
       "description": "Steep direct route from Stowe side via the Long Trail.",
@@ -3553,14 +3556,17 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.4,
+        "distance": 4.3,
         "gain": 2678,
         "max_elev": 4395,
         "min_elev": 1818,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 2.0,
-        "_distance_source": "calculated"
+        "difficulty": "Strenuous",
+        "time": 3.0,
+        "_distance_source": "calculated",
+        "route_length_mi": 2.13,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -5314,7 +5320,10 @@
         "type": "Out & Back",
         "difficulty": "Expert",
         "time": 2.2,
-        "_distance_source": "calculated"
+        "_distance_source": "calculated",
+        "route_length_mi": 2.36,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -7089,7 +7098,7 @@
       "id": "39e7af2a",
       "name": "Laura Cowles Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 6.6,
       "elevation_gain": 2400,
       "description": "Scenic route via Underhill connecting to Long Trail.",
@@ -7116,14 +7125,17 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.6,
+        "distance": 13.2,
         "gain": 2400,
         "max_elev": 4388,
         "min_elev": 912,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 4.0,
-        "_distance_source": "calculated"
+        "difficulty": "Strenuous",
+        "time": 5.5,
+        "_distance_source": "calculated",
+        "route_length_mi": 6.61,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -10474,7 +10486,10 @@
         "difficulty": "Moderate",
         "time": 1.2,
         "_original_calculated_distance": 0.5,
-        "_distance_source": "seed_override"
+        "_distance_source": "seed_override",
+        "route_length_mi": 0.52,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

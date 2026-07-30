@@ -151,16 +151,19 @@
         "shuttle": "Island Explorer available"
       },
       "stats": {
-        "distance": 3.3,
+        "distance": 3.4,
         "gain": 200,
         "max_elev": 274,
         "min_elev": 274,
         "type": "Loop",
         "difficulty": "Easy",
-        "time": 0.7,
+        "time": 1.0,
         "_distance_source": "calculated",
         "_original_calculated_gain": 0,
-        "_elevation_source": "seed_override"
+        "_elevation_source": "seed_override",
+        "route_length_mi": 1.71,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

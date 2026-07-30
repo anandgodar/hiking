@@ -160,7 +160,10 @@
         "time": 0.8,
         "_distance_source": "calculated",
         "_original_calculated_gain": 0,
-        "_elevation_source": "seed_override"
+        "_elevation_source": "seed_override",
+        "route_length_mi": 0.99,
+        "distance_type": "loop",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

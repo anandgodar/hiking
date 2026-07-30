@@ -140,7 +140,10 @@
         "min_elev": 4045,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 2.1
+        "time": 2.1,
+        "route_length_mi": 1.56,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -1369,7 +1372,10 @@
         "min_elev": 4045,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 2.9
+        "time": 2.9,
+        "route_length_mi": 3.11,
+        "distance_type": "loop",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -3434,7 +3440,10 @@
         "min_elev": 1782,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.7
+        "time": 3.7,
+        "route_length_mi": 3.63,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

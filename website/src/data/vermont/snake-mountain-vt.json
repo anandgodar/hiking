@@ -89,7 +89,7 @@
       "id": "af4dd003",
       "name": "Snake Mountain Trail",
       "type": "Out & Back",
-      "difficulty": "Easy",
+      "difficulty": "Moderate",
       "distance_miles": 3.6,
       "elevation_gain": 900,
       "description": "Gentle climb to historic hotel ruins with Adirondack views.",
@@ -124,10 +124,13 @@
         "max_elev": 376,
         "min_elev": 218,
         "type": "Out & Back",
-        "difficulty": "Easy",
-        "time": 1.1,
+        "difficulty": "Moderate",
+        "time": 1.5,
         "_distance_source": "calculated",
-        "_original_calculated_gain": 232
+        "_original_calculated_gain": 232,
+        "route_length_mi": 1.78,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

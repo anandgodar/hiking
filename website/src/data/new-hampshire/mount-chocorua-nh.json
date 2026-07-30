@@ -118,7 +118,7 @@
       "id": "905f9d31",
       "name": "Piper Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 5.4,
       "elevation_gain": 3064,
       "description": "Trail to Mount Chocorua summit.",
@@ -145,13 +145,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.4,
+        "distance": 11.3,
         "gain": 3064,
         "max_elev": 3488,
         "min_elev": 633,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 3.3
+        "difficulty": "Strenuous",
+        "time": 5.5,
+        "route_length_mi": 5.63,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -2178,7 +2181,7 @@
       "id": "1050b698",
       "name": "Champney Falls Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 4.6,
       "elevation_gain": 2431,
       "description": "Trail to Mount Chocorua summit.",
@@ -2205,13 +2208,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.6,
+        "distance": 9.0,
         "gain": 2431,
         "max_elev": 3488,
         "min_elev": 1225,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 2.7
+        "difficulty": "Strenuous",
+        "time": 4.0,
+        "route_length_mi": 4.49,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -3824,7 +3830,10 @@
         "min_elev": 1309,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.9
+        "time": 2.9,
+        "route_length_mi": 2.18,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

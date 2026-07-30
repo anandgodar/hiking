@@ -196,7 +196,10 @@
         "_original_calculated_distance": 9.9,
         "_distance_source": "seed_override",
         "_original_calculated_gain": 0,
-        "_elevation_source": "seed_override"
+        "_elevation_source": "seed_override",
+        "route_length_mi": 9.94,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -3536,7 +3539,10 @@
         "_original_calculated_distance": 17.3,
         "_distance_source": "seed_override",
         "_original_calculated_gain": 0,
-        "_elevation_source": "seed_override"
+        "_elevation_source": "seed_override",
+        "route_length_mi": 17.26,
+        "distance_type": "loop",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

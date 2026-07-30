@@ -14,10 +14,13 @@
       "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": 0.5,
+        "distance": 1.0,
         "gain": 32,
         "time": 0.5,
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "route_length_mi": 0.48,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -228,7 +231,7 @@
       "features": []
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Southerland Hill</strong> is a 577-foot summit in Mississippi.</p>\n  <h3>When to Go</h3><p>This trail is hikeable most of the year. Summer brings heat and humidity \u2014 carry extra water \u2014 while fall and spring offer the most comfortable conditions. Ice is possible on shaded stretches in mid-winter.</p>\n  <h3>Know Before You Go</h3><p>Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Bloodsaw Hill, Sand Hill and Gobblers Knob \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Southerland Hill</strong> is a 577-foot summit in Mississippi. The Southerland Hill Trail covers 1.0 miles round trip (out-and-back) with about 32 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=34.77457,-88.46494\" target=\"_blank\" rel=\"noopener\">34.77457, -88.46494</a> (tap for driving directions). It's roughly 135 miles southwest of Nashville, Tennessee. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>This trail is hikeable most of the year. Summer brings heat and humidity \u2014 carry extra water \u2014 while fall and spring offer the most comfortable conditions. Ice is possible on shaded stretches in mid-winter.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Bloodsaw Hill, Sand Hill and Gobblers Knob \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Bloodsaw Hill",
@@ -261,6 +264,18 @@
   ],
   "page_content": {
     "faqs": [
+      {
+        "question": "How long does it take to hike Southerland Hill?",
+        "answer": "The Southerland Hill Trail is 1.0 miles round trip with about 32 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Southerland Hill hike?",
+        "answer": "It's rated Easy using the National Park Service difficulty formula (1.0 miles round trip, 32 ft of gain \u2014 about 50 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Southerland Hill trailhead?",
+        "answer": "The trailhead is at 34.77457, -88.46494 in Mississippi. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
       {
         "question": "Are dogs allowed on the Southerland Hill trail?",
         "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."

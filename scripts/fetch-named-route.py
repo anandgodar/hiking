@@ -97,8 +97,12 @@ def main():
     geo.setdefault("markers", {})["summit"] = summit
     geo["markers"]["start"] = [path3[0][0], path3[0][1]]
     stats = t.setdefault("stats", {})
-    stats["distance"] = round(dist, 1)
     stats["gain"] = round(max(eles) - min(eles))
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import route_metrics as rm
+    stats.pop("distance_source", None)  # freshly computed geometry
+    rm.apply_to_trail(t)
+    dist = stats["distance"]
     pretty = matched.title() if matched.isupper() else matched
     t["name"] = pretty if pretty.lower().endswith("trail") else f"{pretty} Trail"
     ds = d.setdefault("data_sources", {})

@@ -132,7 +132,10 @@
         "min_elev": 1936,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 4.4
+        "time": 4.4,
+        "route_length_mi": 3.39,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -1875,7 +1878,10 @@
         "min_elev": 1936,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.2
+        "time": 4.2,
+        "route_length_mi": 3.39,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

@@ -81,8 +81,11 @@
         "distance": 14.0,
         "gain": 5281,
         "type": "Loop",
-        "difficulty": "Expert",
-        "time": 12.0
+        "difficulty": "Strenuous",
+        "time": 7.5,
+        "route_length_mi": 14.02,
+        "distance_type": "loop",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -7597,7 +7600,7 @@
           ]
         }
       },
-      "difficulty": "Expert",
+      "difficulty": "Strenuous",
       "features": [
         {
           "name": "Tsuga Top",

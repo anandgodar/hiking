@@ -142,7 +142,10 @@
         "type": "Out & Back",
         "difficulty": "Hard",
         "time": 2.1,
-        "_distance_source": "calculated"
+        "_distance_source": "calculated",
+        "route_length_mi": 2.89,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -2180,7 +2183,10 @@
         "type": "Out & Back",
         "difficulty": "Hard",
         "time": 7.0,
-        "_distance_source": "calculated"
+        "_distance_source": "calculated",
+        "route_length_mi": 14.68,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -6984,7 +6990,10 @@
         "time": 0.3,
         "_original_calculated_distance": 2.2,
         "_distance_source": "seed_override",
-        "_original_calculated_gain": 2384
+        "_original_calculated_gain": 2384,
+        "route_length_mi": 2.18,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

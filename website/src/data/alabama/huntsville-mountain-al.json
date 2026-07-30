@@ -17,7 +17,10 @@
         "distance": 3.6,
         "gain": 380,
         "time": 1.5,
-        "difficulty": "Moderate"
+        "difficulty": "Moderate",
+        "route_length_mi": 3.56,
+        "distance_type": "loop",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -773,7 +776,7 @@
       "features": []
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,562 feet, <strong>Huntsville Mountain</strong> is a summit in Alabama. The Huntsville Mountain Trail covers 3.6 miles with about 380 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 0, gaining roughly 800 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 1,296 feet, the route tops out near 1,549 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=34.65689,-86.51649\" target=\"_blank\" rel=\"noopener\">34.65689, -86.51649</a> (tap for driving directions). It's roughly 75 miles west of Chattanooga, Tennessee. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>This trail is hikeable most of the year. Summer brings heat and humidity \u2014 carry extra water \u2014 while fall and spring offer the most comfortable conditions. Ice is possible on shaded stretches in mid-winter.</p>\n  <h3>Know Before You Go</h3><p>The Moderate rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 1.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Sand Point, Round Top Mountain and Monte Sano Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,562 feet, <strong>Huntsville Mountain</strong> is a summit in Alabama. The Huntsville Mountain Trail covers 3.6 miles (loop) with about 380 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 0, gaining roughly 800 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 1,296 feet, the route tops out near 1,549 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=34.65689,-86.51649\" target=\"_blank\" rel=\"noopener\">34.65689, -86.51649</a> (tap for driving directions). It's roughly 75 miles west of Chattanooga, Tennessee. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>This trail is hikeable most of the year. Summer brings heat and humidity \u2014 carry extra water \u2014 while fall and spring offer the most comfortable conditions. Ice is possible on shaded stretches in mid-winter.</p>\n  <h3>Know Before You Go</h3><p>The Moderate rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 1.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Sand Point, Round Top Mountain and Monte Sano Mountain \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Sand Point",
@@ -808,11 +811,11 @@
     "faqs": [
       {
         "question": "How long does it take to hike Huntsville Mountain?",
-        "answer": "The Huntsville Mountain Trail is 3.6 miles with about 380 feet of elevation gain, and most hikers take roughly 1.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+        "answer": "The Huntsville Mountain Trail is 3.6 miles as a loop with about 380 feet of elevation gain, and most hikers take roughly 1.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
       },
       {
         "question": "How hard is the Huntsville Mountain hike?",
-        "answer": "It's rated Moderate using the National Park Service difficulty formula (3.6 miles, 380 ft of gain \u2014 about 100 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+        "answer": "It's rated Moderate using the National Park Service difficulty formula (3.6 miles as a loop, 380 ft of gain \u2014 about 100 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
       },
       {
         "question": "Where is the Huntsville Mountain trailhead?",

@@ -245,7 +245,10 @@
         "min_elev": 1355,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.1
+        "time": 2.1,
+        "route_length_mi": 2.48,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -2137,7 +2140,10 @@
         "min_elev": 1355,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.2
+        "time": 2.2,
+        "route_length_mi": 2.48,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -4007,7 +4013,10 @@
         "min_elev": 1355,
         "type": "Loop",
         "difficulty": "Moderate",
-        "time": 2.1
+        "time": 2.1,
+        "route_length_mi": 4.61,
+        "distance_type": "loop",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -7636,7 +7645,7 @@
       "id": "54ff2f73",
       "name": "Pumpelly Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 4.0,
       "elevation_gain": 2114,
       "description": "Trail to Mount Monadnock summit.",
@@ -7663,13 +7672,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.0,
+        "distance": 8.3,
         "gain": 2114,
         "max_elev": 3165,
         "min_elev": 1457,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 2.4
+        "difficulty": "Strenuous",
+        "time": 4.0,
+        "route_length_mi": 4.14,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -9811,7 +9823,10 @@
         "min_elev": 1228,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.3
+        "time": 2.3,
+        "route_length_mi": 4.31,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -12278,7 +12293,10 @@
         "min_elev": 1428,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.0
+        "time": 2.0,
+        "route_length_mi": 2.92,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -14410,7 +14428,10 @@
         "min_elev": 1355,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.1
+        "time": 2.1,
+        "route_length_mi": 2.48,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -16280,7 +16301,10 @@
         "min_elev": 1498,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 2.2
+        "time": 2.2,
+        "route_length_mi": 2.63,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

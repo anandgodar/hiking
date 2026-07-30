@@ -100,7 +100,7 @@
       "id": "2da8d06b",
       "name": "Carter-Moriah Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 9.0,
       "elevation_gain": 3834,
       "description": "Northern terminus of Carter Range with excellent views.",
@@ -131,13 +131,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 9.0,
+        "distance": 17.6,
         "gain": 3834,
         "max_elev": 4015,
         "min_elev": 718,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 4.9
+        "difficulty": "Strenuous",
+        "time": 8.0,
+        "route_length_mi": 8.8,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -2534,7 +2537,7 @@
       "id": "bc0a28b1",
       "name": "Stony Brook Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 9.0,
       "elevation_gain": 3200,
       "description": "Quieter approach from the east side.",
@@ -2561,13 +2564,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 9.0,
+        "distance": 9.2,
         "gain": 3200,
         "max_elev": 4015,
         "min_elev": 1779,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 4.6
+        "difficulty": "Strenuous",
+        "time": 4.5,
+        "route_length_mi": 4.59,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

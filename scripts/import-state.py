@@ -95,6 +95,61 @@ STATES = {
 
 M_TO_FT = 3.28084
 
+# Highest point in the United States. Nothing on land here exceeds this, so a
+# computed elevation above it is proof of a unit error, never a real peak.
+US_MAX_ELEVATION_FT = 20310
+
+# US state bounding boxes (min_lat, min_lon, max_lat, max_lon), generous
+# buffers included. Overpass area lookups match on NAME, and several US state
+# names also name foreign admin areas — OSM has a "Florida" department in
+# Uruguay, which imported 10 South American peaks into data/florida/. Any node
+# outside its state's box is rejected at write time.
+STATE_BBOX = {
+    "alabama": (30.1, -88.6, 35.1, -84.8), "alaska": (51.0, -180.0, 71.6, -129.0),
+    "arizona": (31.2, -115.0, 37.1, -108.9), "arkansas": (32.9, -94.7, 36.6, -89.6),
+    "california": (32.4, -124.5, 42.1, -114.1), "colorado": (36.9, -109.1, 41.1, -102.0),
+    "connecticut": (40.9, -73.8, 42.1, -71.7), "delaware": (38.4, -75.8, 39.9, -74.9),
+    "florida": (24.4, -87.7, 31.1, -79.9), "georgia": (30.3, -85.7, 35.1, -80.8),
+    "hawaii": (18.8, -160.3, 22.3, -154.7), "idaho": (41.9, -117.3, 49.1, -110.9),
+    "illinois": (36.9, -91.6, 42.6, -87.4), "indiana": (37.7, -88.2, 41.8, -84.7),
+    "iowa": (40.3, -96.7, 43.6, -90.1), "kansas": (36.9, -102.1, 40.1, -94.5),
+    "kentucky": (36.4, -89.7, 39.2, -81.9), "louisiana": (28.8, -94.1, 33.1, -88.7),
+    "maine": (42.9, -71.2, 47.6, -66.9), "maryland": (37.8, -79.6, 39.8, -74.9),
+    "massachusetts": (41.1, -73.6, 42.9, -69.8), "michigan": (41.6, -90.5, 48.4, -82.3),
+    "minnesota": (43.4, -97.3, 49.5, -89.4), "mississippi": (30.1, -91.7, 35.1, -88.0),
+    "missouri": (35.9, -95.9, 40.7, -89.0), "montana": (44.3, -116.1, 49.1, -104.0),
+    "nebraska": (39.9, -104.1, 43.1, -95.2), "nevada": (34.9, -120.1, 42.1, -114.0),
+    "new-hampshire": (42.6, -72.6, 45.4, -70.6), "new-jersey": (38.8, -75.6, 41.4, -73.8),
+    "new-mexico": (31.2, -109.1, 37.1, -102.9), "new-york": (40.4, -79.8, 45.1, -71.8),
+    "north-carolina": (33.7, -84.4, 36.7, -75.4), "north-dakota": (45.8, -104.1, 49.1, -96.5),
+    "ohio": (38.3, -84.9, 42.4, -80.4), "oklahoma": (33.5, -103.1, 37.1, -94.4),
+    "oregon": (41.9, -124.7, 46.4, -116.4), "pennsylvania": (39.6, -80.6, 42.4, -74.6),
+    "rhode-island": (41.0, -71.9, 42.1, -71.0), "south-carolina": (32.0, -83.4, 35.3, -78.4),
+    "south-dakota": (42.4, -104.1, 46.0, -96.4), "tennessee": (34.9, -90.4, 36.7, -81.6),
+    "texas": (25.7, -106.7, 36.6, -93.4), "utah": (36.9, -114.1, 42.1, -108.9),
+    "vermont": (42.6, -73.5, 45.1, -71.4), "virginia": (36.4, -83.7, 39.5, -75.1),
+    "washington": (45.4, -124.9, 49.1, -116.8), "west-virginia": (37.1, -82.7, 40.7, -77.6),
+    "wisconsin": (42.4, -92.9, 47.4, -86.2), "wyoming": (40.9, -111.1, 45.1, -104.0),
+}
+
+
+def _load_sibling(name):
+    """Import a hyphenated sibling script as a module."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        name.replace("-", "_"), Path(__file__).resolve().parent / f"{name}.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def in_state_bounds(state_slug, lat, lon):
+    box = STATE_BBOX.get(state_slug)
+    if not box or lat is None or lon is None:
+        return True  # unknown state: don't silently drop
+    min_lat, min_lon, max_lat, max_lon = box
+    return min_lat <= lat <= max_lat and min_lon <= lon <= max_lon
+
 
 def slugify(name, abbr):
     s = name.lower()
@@ -137,14 +192,42 @@ def overpass_query(state_name, retries=4):
     raise last
 
 
-def parse_ele(tags):
+def parse_ele(tags, dem_ft=None):
+    """Resolve an OSM `ele` tag to feet, cross-checked against the DEM.
+
+    OSM specifies `ele` in metres, but US contributors frequently tag the
+    value in feet. Blindly multiplying by 3.28084 turned Mother Lode Peak's
+    correct 7,908 ft into 25,945 ft. So: interpret the raw number BOTH ways
+    and keep whichever matches the Copernicus DEM sample for the same
+    coordinate.
+
+    This only ever REJECTS a reading, never rewrites an elevation to a DEM
+    value — a 30 m point sample is not a summit benchmark, and a previous
+    attempt to auto-correct elevations that way corrupted good records
+    (Mt Carrigain 4,700 -> 4,545). If neither reading is credible we return
+    None and the caller holds the peak as a draft rather than guessing.
+    """
     raw = tags.get("ele")
     if not raw:
         return None
     m = re.match(r"[-+]?[0-9]*\.?[0-9]+", str(raw).replace(",", "."))
     if not m:
         return None
-    return round(float(m.group()) * M_TO_FT)  # OSM ele is metres
+    value = float(m.group())
+    as_metres = round(value * M_TO_FT)   # per OSM spec
+    as_feet = round(value)               # common US mis-tagging
+
+    if dem_ft is None:
+        # No DEM available: keep the spec reading, but never emit a value that
+        # is physically impossible in the US.
+        return None if as_metres > US_MAX_ELEVATION_FT else as_metres
+
+    tolerance = max(150.0, dem_ft * 0.10)
+    candidates = [(abs(as_metres - dem_ft), as_metres), (abs(as_feet - dem_ft), as_feet)]
+    delta, best = min(candidates)
+    if delta > tolerance or best <= 0 or best > US_MAX_ELEVATION_FT:
+        return None  # not credible against the DEM — caller must hold as draft
+    return best
 
 
 def config_data_sources(state_slug):
@@ -265,12 +348,43 @@ def main():
     elements = [e for e in result.get("elements", []) if e.get("tags", {}).get("name")]
     print(f"  {len(elements)} named peaks returned")
 
+    # Reject nodes outside the state's real geography. Overpass matches areas
+    # by name, and several US state names also name foreign admin areas.
+    in_bounds, out_of_bounds = [], 0
+    for el in elements:
+        if in_state_bounds(state_slug, el.get("lat"), el.get("lon")):
+            in_bounds.append(el)
+        else:
+            out_of_bounds += 1
+    if out_of_bounds:
+        print(f"  ⚠ rejected {out_of_bounds} node(s) outside {state_name}'s "
+              f"bounding box (foreign area name collision)")
+    elements = in_bounds
+
+    # Batch-fetch DEM elevations so `ele` tags can be unit-checked (see
+    # parse_ele). One batched call, not one per peak.
+    dem = {}
+    try:
+        _ee = _load_sibling("enrich-elevation")
+        coords = [(el["lat"], el["lon"]) for el in elements]
+        values = _ee.batch_elevations(coords, ssl_context()) if coords else []
+        if len(values) == len(elements):
+            dem = {el["id"]: v for el, v in zip(elements, values)}
+        else:
+            print("  ⚠ DEM sample incomplete — elevations fall back to spec reading")
+    except Exception as e:
+        print(f"  ⚠ DEM unavailable ({e}) — elevations fall back to spec reading")
+
     # Filter
     kept = []
+    unverified = 0
     for el in elements:
         tags = el["tags"]
-        elev = parse_ele(tags)
-        if elev is None or elev < opts["min_ele"]:
+        elev = parse_ele(tags, dem.get(el["id"]))
+        if elev is None:
+            unverified += 1
+            continue
+        if elev < opts["min_ele"]:
             continue
         prom = tags.get("prominence")
         if opts["min_prominence"] and (not prom or float(re.match(r"[-+]?[0-9.]+", str(prom)).group()) < opts["min_prominence"]):
@@ -284,6 +398,9 @@ def main():
     print(f"  {len(kept)} peaks after filters "
           f"(min_ele={opts['min_ele']}ft, min_prom={opts['min_prominence']}m, "
           f"limit={opts['limit']})")
+    if unverified:
+        print(f"  ⚠ {unverified} peak(s) skipped: elevation could not be verified "
+              f"against the DEM in either metres or feet")
 
     out_dir = DATA / state_slug
     written = skipped = 0

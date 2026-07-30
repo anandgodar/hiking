@@ -152,7 +152,10 @@
         "min_elev": 2487,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.4
+        "time": 3.4,
+        "route_length_mi": 3.66,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -2199,7 +2202,10 @@
         "min_elev": 1211,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 5.7
+        "time": 5.7,
+        "route_length_mi": 12.4,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -4921,7 +4927,10 @@
         "min_elev": 1496,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 5.2
+        "time": 5.2,
+        "route_length_mi": 6.1,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

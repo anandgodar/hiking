@@ -11,13 +11,16 @@
   "trails": [
     {
       "name": "Rocky Mountain Trail",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "type": "",
       "stats": {
-        "distance": 4.0,
+        "distance": 7.9,
         "gain": 1533,
-        "time": 2.0,
-        "difficulty": "Hard"
+        "time": 3.5,
+        "difficulty": "Strenuous",
+        "route_length_mi": 3.97,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -816,7 +819,7 @@
       ]
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 4,029 feet, <strong>Rocky Mountain</strong> is a summit in Georgia. The Rocky Mountain Trail covers 4.0 miles with about 1,533 feet of elevation gain \u2014 a steady climb. It's rated Hard overall.</p>\n  <h3>The Route</h3><p>The grade is back-loaded: the first half of the route climbs gently, and most of the elevation gain comes in the second half. The steepest stretch arrives around mile 2.83, gaining roughly 1,300 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 3,530 feet, the route tops out near 4,551 feet. Along the way the route passes a spring (Chattahoochee Source Spring) near mile 0 \u2014 useful checkpoints for judging your pace.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=34.82242,-83.79715\" target=\"_blank\" rel=\"noopener\">34.82242, -83.79715</a> (tap for driving directions). It's roughly 80 miles south of Knoxville, Tennessee. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Hard rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 2.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Brasstown Bald, Chimneytop Mountain and Little Bald Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 4,029 feet, <strong>Rocky Mountain</strong> is a summit in Georgia. The Rocky Mountain Trail covers 7.9 miles round trip (out-and-back) with about 1,533 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Strenuous outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 2.83, gaining roughly 1,300 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 3,530 feet, the route tops out near 4,551 feet. Along the way the route passes a spring (Chattahoochee Source Spring) near mile 0 \u2014 useful checkpoints for judging your pace.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=34.82242,-83.79715\" target=\"_blank\" rel=\"noopener\">34.82242, -83.79715</a> (tap for driving directions). It's roughly 80 miles south of Knoxville, Tennessee. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 3.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Brasstown Bald, Chimneytop Mountain and Little Bald Mountain \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Brasstown Bald",
@@ -851,11 +854,11 @@
     "faqs": [
       {
         "question": "How long does it take to hike Rocky Mountain?",
-        "answer": "The Rocky Mountain Trail is 4.0 miles with about 1,533 feet of elevation gain, and most hikers take roughly 2.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+        "answer": "The Rocky Mountain Trail is 7.9 miles round trip with about 1,533 feet of elevation gain, and most hikers take roughly 3.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
       },
       {
         "question": "How hard is the Rocky Mountain hike?",
-        "answer": "It's rated Hard using the National Park Service difficulty formula (4.0 miles, 1,533 ft of gain \u2014 about 400 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+        "answer": "It's rated Strenuous using the National Park Service difficulty formula (7.9 miles round trip, 1,533 ft of gain \u2014 about 200 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
       },
       {
         "question": "Where is the Rocky Mountain trailhead?",

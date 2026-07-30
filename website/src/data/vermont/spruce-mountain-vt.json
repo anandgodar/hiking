@@ -83,7 +83,7 @@
       "id": "e6bde73c",
       "name": "Spruce Mountain Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Hard",
       "distance_miles": 3.5,
       "elevation_gain": 1300,
       "description": "Pleasant hike to restored fire tower with panoramic views.",
@@ -112,14 +112,17 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.5,
+        "distance": 7.0,
         "gain": 1300,
         "max_elev": 1390,
         "min_elev": 980,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 1.4,
-        "_distance_source": "calculated"
+        "difficulty": "Hard",
+        "time": 3.0,
+        "_distance_source": "calculated",
+        "route_length_mi": 3.52,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

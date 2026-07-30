@@ -81,8 +81,11 @@
         "distance": 5.8,
         "gain": 1686,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 4.7
+        "difficulty": "Hard",
+        "time": 3.0,
+        "route_length_mi": 2.88,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -1376,7 +1379,7 @@
           ]
         }
       },
-      "difficulty": "Moderate",
+      "difficulty": "Hard",
       "features": [
         {
           "name": "John Robb Lean-To",

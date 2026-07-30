@@ -100,7 +100,7 @@
       "id": "f950877f",
       "name": "Kinsman Ridge Trail via Lonesome Lake",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 8.8,
       "elevation_gain": 3247,
       "description": "Route via Lonesome Lake Hut to South Kinsman summit.",
@@ -131,13 +131,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 8.8,
+        "distance": 9.3,
         "gain": 3247,
         "max_elev": 4332,
         "min_elev": 1754,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 4.6
+        "difficulty": "Strenuous",
+        "time": 4.5,
+        "route_length_mi": 4.63,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -3426,7 +3429,10 @@
         "min_elev": 2197,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.7
+        "time": 4.7,
+        "route_length_mi": 3.62,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

@@ -4,7 +4,9 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "validate:data": "node ../scripts/validate-build-data.js",
+    "build": "npm run validate:data && astro build",
+    "build:skip-validation": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

@@ -17,7 +17,10 @@
         "distance": 1.5,
         "gain": 233,
         "time": 0.5,
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "route_length_mi": 1.47,
+        "distance_type": "loop",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -781,7 +784,7 @@
       ]
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,135 feet, <strong>Christmas Rocks</strong> is a summit in Ohio. The Christmas Rocks Trail covers 1.5 miles with about 233 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 0.42, gaining roughly 700 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 1,076 feet, the route tops out near 1,260 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=39.65257,-82.63691\" target=\"_blank\" rel=\"noopener\">39.65257, -82.63691</a> (tap for driving directions). It's roughly 150 miles west of Pittsburgh, Pennsylvania. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Spring through fall is the main season. Conditions change fast in the shoulder months \u2014 check a point forecast for the summit, not the nearest town, before you commit.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Mount Pleasant, Mount Ives and Mount Logan \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 1,135 feet, <strong>Christmas Rocks</strong> is a summit in Ohio. The Christmas Rocks Trail covers 1.5 miles (loop) with about 233 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 0.42, gaining roughly 700 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 1,076 feet, the route tops out near 1,260 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=39.65257,-82.63691\" target=\"_blank\" rel=\"noopener\">39.65257, -82.63691</a> (tap for driving directions). It's roughly 150 miles west of Pittsburgh, Pennsylvania. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Spring through fall is the main season. Conditions change fast in the shoulder months \u2014 check a point forecast for the summit, not the nearest town, before you commit.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Mount Pleasant, Mount Ives and Mount Logan \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Mount Pleasant",
@@ -816,11 +819,11 @@
     "faqs": [
       {
         "question": "How long does it take to hike Christmas Rocks?",
-        "answer": "The Christmas Rocks Trail is 1.5 miles with about 233 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+        "answer": "The Christmas Rocks Trail is 1.5 miles as a loop with about 233 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
       },
       {
         "question": "How hard is the Christmas Rocks hike?",
-        "answer": "It's rated Easy using the National Park Service difficulty formula (1.5 miles, 233 ft of gain \u2014 about 150 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+        "answer": "It's rated Easy using the National Park Service difficulty formula (1.5 miles as a loop, 233 ft of gain \u2014 about 150 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
       },
       {
         "question": "Where is the Christmas Rocks trailhead?",

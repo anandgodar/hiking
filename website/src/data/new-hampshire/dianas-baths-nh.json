@@ -96,7 +96,10 @@
         "min_elev": 480,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 0.2
+        "time": 0.2,
+        "route_length_mi": 0.75,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

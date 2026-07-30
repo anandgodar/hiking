@@ -80,7 +80,7 @@
       "id": "b4a17020",
       "name": "Avalon Trail to Mount Field",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 6.2,
       "elevation_gain": 2350,
       "description": "Route via Avalon Trail to Field summit.",
@@ -111,13 +111,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.2,
+        "distance": 13.1,
         "gain": 2350,
         "max_elev": 4321,
         "min_elev": 1324,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 3.9
+        "difficulty": "Strenuous",
+        "time": 5.5,
+        "route_length_mi": 6.53,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

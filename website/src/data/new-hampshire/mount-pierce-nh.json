@@ -101,7 +101,7 @@
       "id": "548ee2a9",
       "name": "Crawford Path to Pierce",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 6.4,
       "elevation_gain": 2538,
       "description": "Shortest route to a 4000-footer via America's oldest hiking trail.",
@@ -132,13 +132,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.4,
+        "distance": 6.3,
         "gain": 2538,
         "max_elev": 4310,
         "min_elev": 1890,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 3.4
+        "difficulty": "Strenuous",
+        "time": 3.5,
+        "route_length_mi": 3.15,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -1915,7 +1918,10 @@
         "min_elev": 3385,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 3.3
+        "time": 3.3,
+        "route_length_mi": 1.93,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
