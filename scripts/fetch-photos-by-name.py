@@ -35,7 +35,7 @@ MAX_KM = 15.0
 # different state for Bakke Mountain). Keyword filtering catches new
 # variants of the general defect class but these two keep finding fresh bad
 # candidates, so stop trying rather than keep whack-a-moling by hand.
-NEVER_AUTO_MATCH = {"mount-riga-ct", "bakke-mountain-ma"}
+NEVER_AUTO_MATCH = {"mount-riga-ct", "bakke-mountain-ma", "stratton-mountain-vt"}
 
 
 def ssl_context():

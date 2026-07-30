@@ -6,7 +6,7 @@
   "elevation": 14098,
   "lat": 46.86302,
   "lon": -121.77488,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Rainier_from_west.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -725,5 +725,11 @@
     "id": 348178708,
     "prominence_m": null,
     "wikidata": "Q49044105"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount_Rainier_from_west.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Stan Shebs"
   }
 }
