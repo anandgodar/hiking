@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Berry Mountain",
   "slug": "berry-mountain-al",
   "state": "Alabama",
@@ -12,13 +11,16 @@
   "trails": [
     {
       "name": "Berry Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 1.0,
+        "gain": 197,
+        "time": 0.5,
+        "difficulty": "Easy",
+        "route_length_mi": 0.51,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +35,208 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            33.79092,
+            -85.6093
           ],
           "summit": [
             33.84232,
             -85.63357
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            33.79092,
+            -85.6093,
+            1299
+          ],
+          [
+            33.79123,
+            -85.60966,
+            1299
+          ],
+          [
+            33.79131,
+            -85.60976,
+            1299
+          ],
+          [
+            33.79151,
+            -85.61002,
+            1316
+          ],
+          [
+            33.79219,
+            -85.61056,
+            1312
+          ],
+          [
+            33.79274,
+            -85.61073,
+            1280
+          ],
+          [
+            33.79355,
+            -85.61066,
+            1253
+          ],
+          [
+            33.79418,
+            -85.61067,
+            1198
+          ],
+          [
+            33.79454,
+            -85.61114,
+            1217
+          ],
+          [
+            33.79496,
+            -85.61174,
+            1207
+          ],
+          [
+            33.79536,
+            -85.61217,
+            1217
+          ],
+          [
+            33.79556,
+            -85.61293,
+            1198
+          ],
+          [
+            33.79548,
+            -85.61375,
+            1155
+          ],
+          [
+            33.79545,
+            -85.61456,
+            1119
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1299,
+            "coord": [
+              33.79092,
+              -85.6093
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 1299,
+            "coord": [
+              33.79131,
+              -85.60976
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 1316,
+            "coord": [
+              33.79151,
+              -85.61002
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 1312,
+            "coord": [
+              33.79219,
+              -85.61056
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 1280,
+            "coord": [
+              33.79274,
+              -85.61073
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 1253,
+            "coord": [
+              33.79355,
+              -85.61066
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 1253,
+            "coord": [
+              33.79355,
+              -85.61066
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 1198,
+            "coord": [
+              33.79418,
+              -85.61067
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 1217,
+            "coord": [
+              33.79454,
+              -85.61114
+            ]
+          },
+          {
+            "mile": 0.33,
+            "elev": 1207,
+            "coord": [
+              33.79496,
+              -85.61174
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 1217,
+            "coord": [
+              33.79536,
+              -85.61217
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 1198,
+            "coord": [
+              33.79556,
+              -85.61293
+            ]
+          },
+          {
+            "mile": 0.44,
+            "elev": 1198,
+            "coord": [
+              33.79556,
+              -85.61293
+            ]
+          },
+          {
+            "mile": 0.48,
+            "elev": 1155,
+            "coord": [
+              33.79548,
+              -85.61375
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 1119,
+            "coord": [
+              33.79545,
+              -85.61456
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -186,10 +380,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/358988269",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/358988269",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-30"
   },
   "osm": {
     "id": 358988269,
