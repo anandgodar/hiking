@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Mount Peal",
   "slug": "mount-peal-mt",
   "state": "Montana",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Mount Peal Trail",
-      "difficulty": "",
+      "difficulty": "Strenuous",
       "type": "",
       "stats": {
         "distance": 13.2,
         "gain": 2611,
-        "time": null,
-        "difficulty": "",
+        "time": 5.5,
+        "difficulty": "Strenuous",
         "route_length_mi": 6.62,
         "distance_type": "out-and-back",
         "distance_source": "computed"

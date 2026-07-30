@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Mount Hague",
   "slug": "mount-hague-mt",
   "state": "Montana",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Mount Hague Trail",
-      "difficulty": "",
+      "difficulty": "Strenuous",
       "type": "",
       "stats": {
         "distance": 13.3,
         "gain": 928,
-        "time": null,
-        "difficulty": "",
+        "time": 5.0,
+        "difficulty": "Strenuous",
         "route_length_mi": 6.66,
         "distance_type": "out-and-back",
         "distance_source": "computed"
