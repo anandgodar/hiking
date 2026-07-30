@@ -99,7 +99,13 @@ def generate_gps(state, config, audit_mod):
         trails = data.get("trails") or []
         if trails and trails[0].get("geo", {}).get("path"):
             continue
-        if state.get("synthetic_fallback", False):
+        # Synthetic geometry is fabricated data: enhance-gps-path.py fills a
+        # route by interpolating between waypoints and MODELS the elevations.
+        # A trail map is safety-critical, so a route is either sourced from
+        # real GIS data or the trail stays a draft. Requires an explicit
+        # opt-in that no state config sets, kept only so the historical
+        # behaviour is inspectable rather than silently missing.
+        if state.get("synthetic_fallback", False) and state.get("allow_fabricated_routes", False):
             subprocess.run(
                 [sys.executable, str(SCRIPTS / "enhance-gps-path.py"), str(trail_file)],
                 check=False,
