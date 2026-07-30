@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Chase Hill",
   "slug": "chase-hill-wi",
   "state": "Wisconsin",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Chase Hill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
         "distance": 3.9,
         "gain": 115,
-        "time": null,
-        "difficulty": "",
+        "time": 1.5,
+        "difficulty": "Easy",
         "route_length_mi": 1.97,
         "distance_type": "out-and-back",
         "distance_source": "computed"
