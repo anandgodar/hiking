@@ -1,0 +1,199 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Gastineau Peak",
+  "slug": "gastineau-peak-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 3465,
+  "lat": 58.29028,
+  "lon": -134.34682,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Gastineau Peak Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": null,
+        "gain": null,
+        "time": null,
+        "difficulty": ""
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            null,
+            null
+          ],
+          "summit": [
+            58.29028,
+            -134.34682
+          ]
+        },
+        "path": [],
+        "chart": []
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 3,465 feet, <strong>Gastineau Peak</strong> is a summit in Alaska.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Roberts Peak, Clark Peak and Mount Juneau \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Roberts Peak",
+      "slug": "roberts-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 3819,
+      "distance_miles": 0.8
+    },
+    {
+      "name": "Clark Peak",
+      "slug": "clark-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 4049,
+      "distance_miles": 2.1
+    },
+    {
+      "name": "Mount Juneau",
+      "slug": "mount-juneau-ak",
+      "state_slug": "alaska",
+      "elevation": 3576,
+      "distance_miles": 3.0
+    },
+    {
+      "name": "Mount Troy",
+      "slug": "mount-troy-ak",
+      "state_slug": "alaska",
+      "elevation": 3005,
+      "distance_miles": 5.0
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "Are dogs allowed on the Gastineau Peak trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Gastineau Peak?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Gastineau Peak?",
+        "answer": "Gastineau Peak stands at 3,465 feet (1,056 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Gastineau Peak Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Gastineau Peak hike with current conditions, trail map & parking info. Alaska summit at 3,465 ft.",
+    "canonical_url": "/trails/alaska/gastineau-peak-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Gastineau Peak",
+      "description": "Gastineau Peak is a 3,465 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 58.29028,
+        "longitude": -134.34682,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3465,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Gastineau Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Gastineau Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Gastineau Peak Trail on Gastineau Peak is  and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Gastineau Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gastineau Peak is rated Moderate. At 3,465 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Gastineau Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Gastineau Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Gastineau Peak Trail, a  moderate hike to the Gastineau Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Gastineau Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Gastineau Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/2516676955",
+    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
+    "gps_source": "OpenStreetMap",
+    "osm_node": "https://www.openstreetmap.org/node/2516676955",
+    "verification_date": "2026-07-30"
+  },
+  "osm": {
+    "id": 2516676955,
+    "prominence_m": null,
+    "wikidata": "Q19461920"
+  }
+}

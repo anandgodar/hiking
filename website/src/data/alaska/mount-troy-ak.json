@@ -1,0 +1,941 @@
+{
+  "name": "Mount Troy",
+  "slug": "mount-troy-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 3005,
+  "lat": 58.26699,
+  "lon": -134.47642,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Mount Troy Trail",
+      "difficulty": "Hard",
+      "type": "",
+      "stats": {
+        "distance": 5.7,
+        "gain": 1519,
+        "time": 2.5,
+        "difficulty": "Hard",
+        "route_length_mi": 2.87,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            58.29147,
+            -134.43179
+          ],
+          "summit": [
+            58.26699,
+            -134.47642
+          ]
+        },
+        "path": [
+          [
+            58.29147,
+            -134.43179,
+            262
+          ],
+          [
+            58.29156,
+            -134.43224,
+            262
+          ],
+          [
+            58.29163,
+            -134.43288,
+            361
+          ],
+          [
+            58.29216,
+            -134.43477,
+            276
+          ],
+          [
+            58.2922,
+            -134.43558,
+            312
+          ],
+          [
+            58.29209,
+            -134.43644,
+            348
+          ],
+          [
+            58.29196,
+            -134.43726,
+            348
+          ],
+          [
+            58.29159,
+            -134.43865,
+            433
+          ],
+          [
+            58.29135,
+            -134.43928,
+            443
+          ],
+          [
+            58.29108,
+            -134.43982,
+            443
+          ],
+          [
+            58.29076,
+            -134.43991,
+            446
+          ],
+          [
+            58.29052,
+            -134.44017,
+            463
+          ],
+          [
+            58.29021,
+            -134.4402,
+            463
+          ],
+          [
+            58.28991,
+            -134.44027,
+            486
+          ],
+          [
+            58.28939,
+            -134.44041,
+            486
+          ],
+          [
+            58.28923,
+            -134.44074,
+            486
+          ],
+          [
+            58.28909,
+            -134.44125,
+            531
+          ],
+          [
+            58.28897,
+            -134.44177,
+            531
+          ],
+          [
+            58.28886,
+            -134.44229,
+            531
+          ],
+          [
+            58.2887,
+            -134.44249,
+            531
+          ],
+          [
+            58.28846,
+            -134.44221,
+            531
+          ],
+          [
+            58.28822,
+            -134.44202,
+            577
+          ],
+          [
+            58.28801,
+            -134.44241,
+            577
+          ],
+          [
+            58.28783,
+            -134.44298,
+            594
+          ],
+          [
+            58.2876,
+            -134.44237,
+            577
+          ],
+          [
+            58.28714,
+            -134.442,
+            653
+          ],
+          [
+            58.28686,
+            -134.44269,
+            659
+          ],
+          [
+            58.28672,
+            -134.44318,
+            659
+          ],
+          [
+            58.28673,
+            -134.44403,
+            653
+          ],
+          [
+            58.28673,
+            -134.44455,
+            653
+          ],
+          [
+            58.28666,
+            -134.44517,
+            673
+          ],
+          [
+            58.28647,
+            -134.44558,
+            725
+          ],
+          [
+            58.2863,
+            -134.44593,
+            725
+          ],
+          [
+            58.28607,
+            -134.44633,
+            712
+          ],
+          [
+            58.28598,
+            -134.44682,
+            712
+          ],
+          [
+            58.28591,
+            -134.44731,
+            712
+          ],
+          [
+            58.28582,
+            -134.44787,
+            745
+          ],
+          [
+            58.28579,
+            -134.44844,
+            745
+          ],
+          [
+            58.28568,
+            -134.449,
+            738
+          ],
+          [
+            58.2855,
+            -134.44951,
+            738
+          ],
+          [
+            58.28525,
+            -134.45004,
+            735
+          ],
+          [
+            58.28511,
+            -134.45057,
+            735
+          ],
+          [
+            58.28504,
+            -134.45112,
+            735
+          ],
+          [
+            58.28475,
+            -134.45173,
+            774
+          ],
+          [
+            58.28459,
+            -134.45233,
+            774
+          ],
+          [
+            58.28438,
+            -134.45294,
+            791
+          ],
+          [
+            58.28415,
+            -134.45326,
+            807
+          ],
+          [
+            58.28389,
+            -134.45344,
+            807
+          ],
+          [
+            58.28362,
+            -134.45366,
+            807
+          ],
+          [
+            58.28332,
+            -134.45369,
+            833
+          ],
+          [
+            58.28301,
+            -134.45373,
+            833
+          ],
+          [
+            58.28267,
+            -134.45381,
+            853
+          ],
+          [
+            58.28234,
+            -134.45381,
+            866
+          ],
+          [
+            58.28203,
+            -134.45384,
+            866
+          ],
+          [
+            58.28172,
+            -134.45388,
+            866
+          ],
+          [
+            58.28143,
+            -134.45391,
+            883
+          ],
+          [
+            58.28108,
+            -134.45406,
+            883
+          ],
+          [
+            58.28077,
+            -134.4543,
+            919
+          ],
+          [
+            58.28047,
+            -134.45446,
+            919
+          ],
+          [
+            58.28002,
+            -134.45465,
+            919
+          ],
+          [
+            58.27946,
+            -134.45475,
+            981
+          ],
+          [
+            58.27886,
+            -134.4547,
+            1050
+          ],
+          [
+            58.27845,
+            -134.45468,
+            1050
+          ],
+          [
+            58.27815,
+            -134.45508,
+            1050
+          ],
+          [
+            58.27775,
+            -134.45547,
+            1050
+          ],
+          [
+            58.27723,
+            -134.45582,
+            1093
+          ],
+          [
+            58.27685,
+            -134.45587,
+            1093
+          ],
+          [
+            58.2764,
+            -134.45617,
+            1142
+          ],
+          [
+            58.27602,
+            -134.45642,
+            1138
+          ],
+          [
+            58.27548,
+            -134.45683,
+            1171
+          ],
+          [
+            58.27497,
+            -134.45722,
+            1224
+          ],
+          [
+            58.27469,
+            -134.45745,
+            1224
+          ],
+          [
+            58.2744,
+            -134.45772,
+            1194
+          ],
+          [
+            58.27395,
+            -134.45815,
+            1234
+          ],
+          [
+            58.27354,
+            -134.45825,
+            1234
+          ],
+          [
+            58.27301,
+            -134.45866,
+            1283
+          ],
+          [
+            58.27278,
+            -134.45882,
+            1250
+          ],
+          [
+            58.27258,
+            -134.45898,
+            1250
+          ],
+          [
+            58.2723,
+            -134.45945,
+            1302
+          ],
+          [
+            58.27213,
+            -134.45974,
+            1302
+          ],
+          [
+            58.2719,
+            -134.46001,
+            1296
+          ],
+          [
+            58.27168,
+            -134.46008,
+            1296
+          ],
+          [
+            58.27133,
+            -134.46035,
+            1368
+          ],
+          [
+            58.27116,
+            -134.46076,
+            1368
+          ],
+          [
+            58.27096,
+            -134.46093,
+            1368
+          ],
+          [
+            58.27071,
+            -134.46075,
+            1411
+          ],
+          [
+            58.27046,
+            -134.4605,
+            1411
+          ],
+          [
+            58.27021,
+            -134.46027,
+            1411
+          ],
+          [
+            58.26986,
+            -134.46002,
+            1457
+          ],
+          [
+            58.26946,
+            -134.46,
+            1457
+          ],
+          [
+            58.26918,
+            -134.46023,
+            1457
+          ],
+          [
+            58.26881,
+            -134.46049,
+            1480
+          ],
+          [
+            58.26848,
+            -134.46067,
+            1480
+          ],
+          [
+            58.26819,
+            -134.46086,
+            1486
+          ],
+          [
+            58.2679,
+            -134.46108,
+            1486
+          ],
+          [
+            58.26749,
+            -134.46124,
+            1486
+          ],
+          [
+            58.26719,
+            -134.46134,
+            1545
+          ],
+          [
+            58.2669,
+            -134.46138,
+            1545
+          ],
+          [
+            58.26657,
+            -134.4615,
+            1549
+          ],
+          [
+            58.26604,
+            -134.46186,
+            1549
+          ],
+          [
+            58.26576,
+            -134.46202,
+            1542
+          ],
+          [
+            58.26547,
+            -134.46224,
+            1542
+          ],
+          [
+            58.26529,
+            -134.46268,
+            1578
+          ],
+          [
+            58.26502,
+            -134.46283,
+            1578
+          ],
+          [
+            58.26475,
+            -134.46279,
+            1594
+          ],
+          [
+            58.26453,
+            -134.46252,
+            1594
+          ],
+          [
+            58.26432,
+            -134.46214,
+            1558
+          ],
+          [
+            58.26426,
+            -134.46246,
+            1558
+          ],
+          [
+            58.26405,
+            -134.46248,
+            1621
+          ],
+          [
+            58.26382,
+            -134.46261,
+            1640
+          ],
+          [
+            58.26363,
+            -134.46261,
+            1640
+          ],
+          [
+            58.26343,
+            -134.46231,
+            1621
+          ],
+          [
+            58.26323,
+            -134.46199,
+            1683
+          ],
+          [
+            58.26304,
+            -134.4617,
+            1683
+          ],
+          [
+            58.26295,
+            -134.46122,
+            1683
+          ],
+          [
+            58.26297,
+            -134.46075,
+            1683
+          ],
+          [
+            58.26292,
+            -134.46025,
+            1683
+          ],
+          [
+            58.26277,
+            -134.45989,
+            1706
+          ],
+          [
+            58.26257,
+            -134.45943,
+            1706
+          ],
+          [
+            58.26232,
+            -134.45915,
+            1781
+          ],
+          [
+            58.26219,
+            -134.45966,
+            1781
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 262,
+            "coord": [
+              58.29147,
+              -134.43179
+            ]
+          },
+          {
+            "mile": 0.2,
+            "elev": 348,
+            "coord": [
+              58.29196,
+              -134.43726
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 486,
+            "coord": [
+              58.28991,
+              -134.44027
+            ]
+          },
+          {
+            "mile": 0.61,
+            "elev": 594,
+            "coord": [
+              58.28783,
+              -134.44298
+            ]
+          },
+          {
+            "mile": 0.82,
+            "elev": 725,
+            "coord": [
+              58.28647,
+              -134.44558
+            ]
+          },
+          {
+            "mile": 1.02,
+            "elev": 735,
+            "coord": [
+              58.28511,
+              -134.45057
+            ]
+          },
+          {
+            "mile": 1.23,
+            "elev": 833,
+            "coord": [
+              58.28301,
+              -134.45373
+            ]
+          },
+          {
+            "mile": 1.43,
+            "elev": 919,
+            "coord": [
+              58.28002,
+              -134.45465
+            ]
+          },
+          {
+            "mile": 1.64,
+            "elev": 1093,
+            "coord": [
+              58.27723,
+              -134.45582
+            ]
+          },
+          {
+            "mile": 1.84,
+            "elev": 1224,
+            "coord": [
+              58.27469,
+              -134.45745
+            ]
+          },
+          {
+            "mile": 2.05,
+            "elev": 1296,
+            "coord": [
+              58.2719,
+              -134.46001
+            ]
+          },
+          {
+            "mile": 2.25,
+            "elev": 1457,
+            "coord": [
+              58.26918,
+              -134.46023
+            ]
+          },
+          {
+            "mile": 2.46,
+            "elev": 1549,
+            "coord": [
+              58.26657,
+              -134.4615
+            ]
+          },
+          {
+            "mile": 2.66,
+            "elev": 1640,
+            "coord": [
+              58.26382,
+              -134.46261
+            ]
+          },
+          {
+            "mile": 2.87,
+            "elev": 1781,
+            "coord": [
+              58.26219,
+              -134.45966
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Mount Troy</strong> rises to 3,005 feet in Alaska. The Mount Troy Trail covers 5.7 miles round trip (out-and-back) with about 1,519 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Hard outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 1.43, gaining roughly 800 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 262 feet, the route tops out near 1,781 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=58.29147,-134.43179\" target=\"_blank\" rel=\"noopener\">58.29147, -134.43179</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Hard rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 2.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Table Top Mountain, Mount Juneau and Gastineau Peak \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Table Top Mountain",
+      "slug": "table-top-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 3166,
+      "distance_miles": 2.0
+    },
+    {
+      "name": "Mount Juneau",
+      "slug": "mount-juneau-ak",
+      "state_slug": "alaska",
+      "elevation": 3576,
+      "distance_miles": 4.4
+    },
+    {
+      "name": "Gastineau Peak",
+      "slug": "gastineau-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 3465,
+      "distance_miles": 5.0
+    },
+    {
+      "name": "Roberts Peak",
+      "slug": "roberts-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 3819,
+      "distance_miles": 5.6
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Mount Troy?",
+        "answer": "The Mount Troy Trail is 5.7 miles round trip with about 1,519 feet of elevation gain, and most hikers take roughly 2.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Mount Troy hike?",
+        "answer": "It's rated Hard using the National Park Service difficulty formula (5.7 miles round trip, 1,519 ft of gain \u2014 about 250 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Mount Troy trailhead?",
+        "answer": "The trailhead is at 58.29147, -134.43179 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Mount Troy trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Mount Troy?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Mount Troy?",
+        "answer": "Mount Troy stands at 3,005 feet (916 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Mount Troy Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Mount Troy hike with current conditions, trail map & parking info. Alaska summit at 3,005 ft.",
+    "canonical_url": "/trails/alaska/mount-troy-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Mount Troy",
+      "description": "Mount Troy is a 3,005 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 58.26699,
+        "longitude": -134.47642,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3005,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Mount Troy Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 58.29147,
+            "longitude": -134.43179
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Mount Troy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Mount Troy Trail on Mount Troy is 5.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount Troy hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mount Troy is rated Moderate. At 3,005 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Mount Troy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Mount Troy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Mount Troy Trail, a 5.7-mile moderate hike to the Mount Troy summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Mount Troy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Mount Troy. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/2518002485",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/2518002485",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30"
+  },
+  "osm": {
+    "id": 2518002485,
+    "prominence_m": null,
+    "wikidata": "Q6924206"
+  }
+}

@@ -389,7 +389,12 @@ def process(state, slug_filter, radius_km, limit, ctx):
                         path = full_path
         path = simplify(orient_to_summit(path, summit))
         eles = _ee.batch_elevations([(p[0], p[1]) for p in path], ctx)
-        if len(eles) != len(path):
+        # batch_elevations now index-aligns its output with `path` and fills
+        # None for any point whose chunk failed, rather than silently
+        # dropping it (a dropped point used to misalign every point after
+        # it). So the length check alone no longer proves every point has a
+        # real value — a partial failure can still slip through as None.
+        if len(eles) != len(path) or any(e is None for e in eles):
             print(f"  · elevation fetch failed for {d['name']}")
             continue
         path3 = [[p[0], p[1], round(e)] for p, e in zip(path, eles)]

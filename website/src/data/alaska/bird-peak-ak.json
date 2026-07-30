@@ -1,0 +1,941 @@
+{
+  "name": "Bird Peak",
+  "slug": "bird-peak-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 5505,
+  "lat": 61.00293,
+  "lon": -149.29,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Bird Peak Trail",
+      "difficulty": "Moderate",
+      "type": "",
+      "stats": {
+        "distance": 3.5,
+        "gain": 886,
+        "time": 1.5,
+        "difficulty": "Moderate",
+        "route_length_mi": 1.73,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            60.99026,
+            -149.40653
+          ],
+          "summit": [
+            61.00293,
+            -149.29
+          ]
+        },
+        "path": [
+          [
+            60.99026,
+            -149.40653,
+            407
+          ],
+          [
+            60.9904,
+            -149.40632,
+            407
+          ],
+          [
+            60.9905,
+            -149.40595,
+            407
+          ],
+          [
+            60.99057,
+            -149.40555,
+            407
+          ],
+          [
+            60.99081,
+            -149.40486,
+            410
+          ],
+          [
+            60.99083,
+            -149.40457,
+            423
+          ],
+          [
+            60.9908,
+            -149.40417,
+            410
+          ],
+          [
+            60.99083,
+            -149.40384,
+            423
+          ],
+          [
+            60.99112,
+            -149.40322,
+            440
+          ],
+          [
+            60.99135,
+            -149.40278,
+            440
+          ],
+          [
+            60.99159,
+            -149.4026,
+            440
+          ],
+          [
+            60.99174,
+            -149.40221,
+            433
+          ],
+          [
+            60.99185,
+            -149.40167,
+            433
+          ],
+          [
+            60.99236,
+            -149.40066,
+            443
+          ],
+          [
+            60.99234,
+            -149.40027,
+            443
+          ],
+          [
+            60.99223,
+            -149.39776,
+            466
+          ],
+          [
+            60.99243,
+            -149.39682,
+            466
+          ],
+          [
+            60.99248,
+            -149.39598,
+            472
+          ],
+          [
+            60.99225,
+            -149.39474,
+            495
+          ],
+          [
+            60.99219,
+            -149.3944,
+            495
+          ],
+          [
+            60.99215,
+            -149.39414,
+            495
+          ],
+          [
+            60.9921,
+            -149.39269,
+            505
+          ],
+          [
+            60.99211,
+            -149.39228,
+            505
+          ],
+          [
+            60.99277,
+            -149.39047,
+            620
+          ],
+          [
+            60.99322,
+            -149.38824,
+            650
+          ],
+          [
+            60.99322,
+            -149.38807,
+            650
+          ],
+          [
+            60.99319,
+            -149.38795,
+            650
+          ],
+          [
+            60.99317,
+            -149.38781,
+            650
+          ],
+          [
+            60.99315,
+            -149.38764,
+            650
+          ],
+          [
+            60.99314,
+            -149.38749,
+            650
+          ],
+          [
+            60.99311,
+            -149.38719,
+            650
+          ],
+          [
+            60.9931,
+            -149.38701,
+            650
+          ],
+          [
+            60.99309,
+            -149.38682,
+            650
+          ],
+          [
+            60.99308,
+            -149.38667,
+            650
+          ],
+          [
+            60.99301,
+            -149.3857,
+            696
+          ],
+          [
+            60.99297,
+            -149.38515,
+            696
+          ],
+          [
+            60.99295,
+            -149.38494,
+            758
+          ],
+          [
+            60.99288,
+            -149.38441,
+            758
+          ],
+          [
+            60.99262,
+            -149.38296,
+            804
+          ],
+          [
+            60.99262,
+            -149.38261,
+            804
+          ],
+          [
+            60.99262,
+            -149.38242,
+            804
+          ],
+          [
+            60.9926,
+            -149.38205,
+            804
+          ],
+          [
+            60.99262,
+            -149.38109,
+            843
+          ],
+          [
+            60.99262,
+            -149.38079,
+            843
+          ],
+          [
+            60.99262,
+            -149.38071,
+            843
+          ],
+          [
+            60.99262,
+            -149.37949,
+            906
+          ],
+          [
+            60.99238,
+            -149.37894,
+            817
+          ],
+          [
+            60.99229,
+            -149.37869,
+            817
+          ],
+          [
+            60.9916,
+            -149.37623,
+            866
+          ],
+          [
+            60.99155,
+            -149.37597,
+            866
+          ],
+          [
+            60.99127,
+            -149.37523,
+            866
+          ],
+          [
+            60.99111,
+            -149.37494,
+            922
+          ],
+          [
+            60.99106,
+            -149.3742,
+            922
+          ],
+          [
+            60.99087,
+            -149.37351,
+            922
+          ],
+          [
+            60.99084,
+            -149.37336,
+            922
+          ],
+          [
+            60.9907,
+            -149.37296,
+            879
+          ],
+          [
+            60.99056,
+            -149.37255,
+            879
+          ],
+          [
+            60.99051,
+            -149.37241,
+            879
+          ],
+          [
+            60.99048,
+            -149.37223,
+            879
+          ],
+          [
+            60.99043,
+            -149.37196,
+            879
+          ],
+          [
+            60.9904,
+            -149.37166,
+            942
+          ],
+          [
+            60.99037,
+            -149.37142,
+            942
+          ],
+          [
+            60.99031,
+            -149.37121,
+            942
+          ],
+          [
+            60.99023,
+            -149.37095,
+            942
+          ],
+          [
+            60.99013,
+            -149.37027,
+            942
+          ],
+          [
+            60.99023,
+            -149.36959,
+            1014
+          ],
+          [
+            60.99025,
+            -149.36906,
+            1014
+          ],
+          [
+            60.99021,
+            -149.36885,
+            1014
+          ],
+          [
+            60.99019,
+            -149.36801,
+            1073
+          ],
+          [
+            60.99018,
+            -149.3679,
+            1073
+          ],
+          [
+            60.99006,
+            -149.36702,
+            1073
+          ],
+          [
+            60.99003,
+            -149.36693,
+            1073
+          ],
+          [
+            60.99002,
+            -149.3668,
+            1073
+          ],
+          [
+            60.98998,
+            -149.36653,
+            1056
+          ],
+          [
+            60.98997,
+            -149.36642,
+            1056
+          ],
+          [
+            60.98998,
+            -149.36592,
+            1056
+          ],
+          [
+            60.98997,
+            -149.36581,
+            1056
+          ],
+          [
+            60.98997,
+            -149.36557,
+            1056
+          ],
+          [
+            60.9899,
+            -149.36507,
+            1056
+          ],
+          [
+            60.99005,
+            -149.36493,
+            1155
+          ],
+          [
+            60.99026,
+            -149.36502,
+            1109
+          ],
+          [
+            60.99051,
+            -149.36507,
+            1109
+          ],
+          [
+            60.99063,
+            -149.36505,
+            1109
+          ],
+          [
+            60.99077,
+            -149.36487,
+            1155
+          ],
+          [
+            60.99085,
+            -149.36473,
+            1237
+          ],
+          [
+            60.99087,
+            -149.36465,
+            1237
+          ],
+          [
+            60.99088,
+            -149.36461,
+            1237
+          ],
+          [
+            60.99095,
+            -149.36428,
+            1237
+          ],
+          [
+            60.99092,
+            -149.36417,
+            1237
+          ],
+          [
+            60.99089,
+            -149.36403,
+            1237
+          ],
+          [
+            60.99095,
+            -149.36399,
+            1237
+          ],
+          [
+            60.99094,
+            -149.36396,
+            1237
+          ],
+          [
+            60.99096,
+            -149.36394,
+            1237
+          ],
+          [
+            60.99098,
+            -149.36387,
+            1237
+          ],
+          [
+            60.99099,
+            -149.36379,
+            1237
+          ],
+          [
+            60.99102,
+            -149.36361,
+            1237
+          ],
+          [
+            60.99102,
+            -149.36336,
+            1237
+          ],
+          [
+            60.99101,
+            -149.36333,
+            1293
+          ],
+          [
+            60.991,
+            -149.36314,
+            1293
+          ],
+          [
+            60.99099,
+            -149.36306,
+            1293
+          ],
+          [
+            60.99099,
+            -149.36274,
+            1293
+          ],
+          [
+            60.99096,
+            -149.36252,
+            1293
+          ],
+          [
+            60.99093,
+            -149.36245,
+            1293
+          ],
+          [
+            60.99091,
+            -149.36241,
+            1293
+          ],
+          [
+            60.99092,
+            -149.36239,
+            1293
+          ],
+          [
+            60.99086,
+            -149.36216,
+            1293
+          ],
+          [
+            60.99086,
+            -149.36211,
+            1293
+          ],
+          [
+            60.99086,
+            -149.36206,
+            1293
+          ],
+          [
+            60.99086,
+            -149.36203,
+            1293
+          ],
+          [
+            60.99086,
+            -149.36199,
+            1293
+          ],
+          [
+            60.99086,
+            -149.36197,
+            1293
+          ],
+          [
+            60.99085,
+            -149.36194,
+            1293
+          ],
+          [
+            60.99084,
+            -149.36191,
+            1293
+          ],
+          [
+            60.99082,
+            -149.3618,
+            1224
+          ],
+          [
+            60.9908,
+            -149.36174,
+            1224
+          ],
+          [
+            60.9908,
+            -149.36169,
+            1224
+          ],
+          [
+            60.9908,
+            -149.36163,
+            1273
+          ],
+          [
+            60.99079,
+            -149.36159,
+            1273
+          ],
+          [
+            60.99079,
+            -149.36156,
+            1273
+          ],
+          [
+            60.99079,
+            -149.36151,
+            1273
+          ],
+          [
+            60.99079,
+            -149.36148,
+            1273
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 407,
+            "coord": [
+              60.99026,
+              -149.40653
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 440,
+            "coord": [
+              60.99112,
+              -149.40322
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 443,
+            "coord": [
+              60.99236,
+              -149.40066
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 466,
+            "coord": [
+              60.99223,
+              -149.39776
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 495,
+            "coord": [
+              60.99215,
+              -149.39414
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 620,
+            "coord": [
+              60.99277,
+              -149.39047
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 650,
+            "coord": [
+              60.9931,
+              -149.38701
+            ]
+          },
+          {
+            "mile": 0.87,
+            "elev": 804,
+            "coord": [
+              60.99262,
+              -149.38296
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 906,
+            "coord": [
+              60.99262,
+              -149.37949
+            ]
+          },
+          {
+            "mile": 1.11,
+            "elev": 866,
+            "coord": [
+              60.9916,
+              -149.37623
+            ]
+          },
+          {
+            "mile": 1.24,
+            "elev": 922,
+            "coord": [
+              60.99087,
+              -149.37351
+            ]
+          },
+          {
+            "mile": 1.36,
+            "elev": 942,
+            "coord": [
+              60.99013,
+              -149.37027
+            ]
+          },
+          {
+            "mile": 1.48,
+            "elev": 1073,
+            "coord": [
+              60.99002,
+              -149.3668
+            ]
+          },
+          {
+            "mile": 1.61,
+            "elev": 1237,
+            "coord": [
+              60.99085,
+              -149.36473
+            ]
+          },
+          {
+            "mile": 1.73,
+            "elev": 1273,
+            "coord": [
+              60.99079,
+              -149.36148
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Bird Peak</strong> is a 5,505-foot summit in Alaska. The Bird Peak Trail covers 3.5 miles round trip (out-and-back) with about 886 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 1.48, gaining roughly 1,300 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 407 feet, the route tops out near 1,273 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=60.99026,-149.40653\" target=\"_blank\" rel=\"noopener\">60.99026, -149.40653</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Moderate rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 1.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Adelie Point, Penguin Peak and Chinstrap Peak \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Adelie Point",
+      "slug": "adelie-point-ak",
+      "state_slug": "alaska",
+      "elevation": 3822,
+      "distance_miles": 3.8
+    },
+    {
+      "name": "Penguin Peak",
+      "slug": "penguin-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 4304,
+      "distance_miles": 3.9
+    },
+    {
+      "name": "Chinstrap Peak",
+      "slug": "chinstrap-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 3615,
+      "distance_miles": 3.9
+    },
+    {
+      "name": "Bradley Peak",
+      "slug": "bradley-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 3002,
+      "distance_miles": 8.9
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Bird Peak?",
+        "answer": "The Bird Peak Trail is 3.5 miles round trip with about 886 feet of elevation gain, and most hikers take roughly 1.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Bird Peak hike?",
+        "answer": "It's rated Moderate using the National Park Service difficulty formula (3.5 miles round trip, 886 ft of gain \u2014 about 250 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Bird Peak trailhead?",
+        "answer": "The trailhead is at 60.99026, -149.40653 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Bird Peak trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Bird Peak?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Bird Peak?",
+        "answer": "Bird Peak stands at 5,505 feet (1,678 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Bird Peak Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Bird Peak hike with current conditions, trail map & parking info. Alaska summit at 5,505 ft.",
+    "canonical_url": "/trails/alaska/bird-peak-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bird Peak",
+      "description": "Bird Peak is a 5,505 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 61.00293,
+        "longitude": -149.29,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5505,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bird Peak Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 60.99026,
+            "longitude": -149.40653
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bird Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bird Peak Trail on Bird Peak is 3.5-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bird Peak hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bird Peak is rated Moderate. At 5,505 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bird Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bird Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bird Peak Trail, a 3.5-mile moderate hike to the Bird Peak summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bird Peak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bird Peak. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/2694098969",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/2694098969",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30"
+  },
+  "osm": {
+    "id": 2694098969,
+    "prominence_m": null,
+    "wikidata": "Q49012992"
+  }
+}

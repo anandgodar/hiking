@@ -1,0 +1,440 @@
+{
+  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
+  "name": "Coffee Dome",
+  "slug": "coffee-dome-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 2405,
+  "lat": 65.09261,
+  "lon": -147.15314,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Coffee Dome Trail",
+      "difficulty": "",
+      "type": "",
+      "stats": {
+        "distance": 17.7,
+        "gain": 1178,
+        "time": null,
+        "difficulty": "",
+        "route_length_mi": 8.87,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            65.15222,
+            -147.00269
+          ],
+          "summit": [
+            65.09261,
+            -147.15314
+          ]
+        },
+        "path": [
+          [
+            65.15222,
+            -147.00269,
+            2175
+          ],
+          [
+            65.14708,
+            -147.00676,
+            2323
+          ],
+          [
+            65.14337,
+            -147.01015,
+            2224
+          ],
+          [
+            65.13908,
+            -147.02234,
+            2133
+          ],
+          [
+            65.13595,
+            -147.03048,
+            2270
+          ],
+          [
+            65.13338,
+            -147.03523,
+            2247
+          ],
+          [
+            65.13166,
+            -147.042,
+            2133
+          ],
+          [
+            65.12738,
+            -147.04809,
+            2087
+          ],
+          [
+            65.12396,
+            -147.05488,
+            2277
+          ],
+          [
+            65.12081,
+            -147.06842,
+            2083
+          ],
+          [
+            65.11852,
+            -147.08196,
+            1877
+          ],
+          [
+            65.11423,
+            -147.0989,
+            1949
+          ],
+          [
+            65.11137,
+            -147.10973,
+            2064
+          ],
+          [
+            65.10652,
+            -147.11648,
+            1998
+          ],
+          [
+            65.10137,
+            -147.12186,
+            2073
+          ],
+          [
+            65.0968,
+            -147.12863,
+            2221
+          ],
+          [
+            65.09393,
+            -147.13132,
+            2264
+          ],
+          [
+            65.09193,
+            -147.14078,
+            2106
+          ],
+          [
+            65.09136,
+            -147.14756,
+            2126
+          ],
+          [
+            65.08907,
+            -147.15364,
+            2077
+          ],
+          [
+            65.09192,
+            -147.16312,
+            2096
+          ],
+          [
+            65.09276,
+            -147.17126,
+            1939
+          ],
+          [
+            65.09333,
+            -147.17805,
+            1824
+          ],
+          [
+            65.09018,
+            -147.18613,
+            1814
+          ],
+          [
+            65.08531,
+            -147.19355,
+            1644
+          ],
+          [
+            65.08074,
+            -147.19757,
+            1447
+          ],
+          [
+            65.07731,
+            -147.19891,
+            1299
+          ],
+          [
+            65.07274,
+            -147.19887,
+            1145
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2175,
+            "coord": [
+              65.15222,
+              -147.00269
+            ]
+          },
+          {
+            "mile": 0.63,
+            "elev": 2224,
+            "coord": [
+              65.14337,
+              -147.01015
+            ]
+          },
+          {
+            "mile": 1.27,
+            "elev": 2133,
+            "coord": [
+              65.13908,
+              -147.02234
+            ]
+          },
+          {
+            "mile": 1.9,
+            "elev": 2133,
+            "coord": [
+              65.13166,
+              -147.042
+            ]
+          },
+          {
+            "mile": 2.53,
+            "elev": 2277,
+            "coord": [
+              65.12396,
+              -147.05488
+            ]
+          },
+          {
+            "mile": 3.17,
+            "elev": 2083,
+            "coord": [
+              65.12081,
+              -147.06842
+            ]
+          },
+          {
+            "mile": 3.8,
+            "elev": 1949,
+            "coord": [
+              65.11423,
+              -147.0989
+            ]
+          },
+          {
+            "mile": 4.43,
+            "elev": 2064,
+            "coord": [
+              65.11137,
+              -147.10973
+            ]
+          },
+          {
+            "mile": 5.07,
+            "elev": 2073,
+            "coord": [
+              65.10137,
+              -147.12186
+            ]
+          },
+          {
+            "mile": 5.7,
+            "elev": 2264,
+            "coord": [
+              65.09393,
+              -147.13132
+            ]
+          },
+          {
+            "mile": 6.33,
+            "elev": 2126,
+            "coord": [
+              65.09136,
+              -147.14756
+            ]
+          },
+          {
+            "mile": 6.97,
+            "elev": 1939,
+            "coord": [
+              65.09276,
+              -147.17126
+            ]
+          },
+          {
+            "mile": 7.6,
+            "elev": 1814,
+            "coord": [
+              65.09018,
+              -147.18613
+            ]
+          },
+          {
+            "mile": 8.23,
+            "elev": 1447,
+            "coord": [
+              65.08074,
+              -147.19757
+            ]
+          },
+          {
+            "mile": 8.87,
+            "elev": 1145,
+            "coord": [
+              65.07274,
+              -147.19887
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Coffee Dome</strong> rises to 2,405 feet in Alaska. The Coffee Dome Trail covers 17.7 miles round trip (out-and-back) with about 1,178 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. From the trailhead at about 2,175 feet, the route tops out near 2,277 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=65.15222,-147.00269\" target=\"_blank\" rel=\"noopener\">65.15222, -147.00269</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n</div>",
+  "nearby_peaks": [],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "Where is the Coffee Dome trailhead?",
+        "answer": "The trailhead is at 65.15222, -147.00269 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Coffee Dome trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Coffee Dome?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Coffee Dome?",
+        "answer": "Coffee Dome stands at 2,405 feet (733 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Coffee Dome Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Coffee Dome hike with current conditions, trail map & parking info. Alaska summit at 2,405 ft.",
+    "canonical_url": "/trails/alaska/coffee-dome-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Coffee Dome",
+      "description": "Coffee Dome is a 2,405 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 65.09261,
+        "longitude": -147.15314,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 2405,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Coffee Dome Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 65.15222,
+            "longitude": -147.00269
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Coffee Dome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Coffee Dome Trail on Coffee Dome is 17.7-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Coffee Dome hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Coffee Dome is rated Moderate. At 2,405 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Coffee Dome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Coffee Dome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Coffee Dome Trail, a 17.7-mile moderate hike to the Coffee Dome summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Coffee Dome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Coffee Dome. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/11661367053",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
+    "osm_node": "https://www.openstreetmap.org/node/11661367053",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30"
+  },
+  "osm": {
+    "id": 11661367053,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

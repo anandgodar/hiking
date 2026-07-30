@@ -188,7 +188,7 @@ def main():
         maxn = max(120, min(900, int(raw_len * 60)))
         cand_path = ft.simplify(ft.orient_to_summit(cand_path, summit), maxn=maxn)
         eles = ee.batch_elevations([(p[0], p[1]) for p in cand_path], ctx)
-        if len(eles) != len(cand_path):
+        if len(eles) != len(cand_path) or any(e is None for e in eles):
             print("    elevation fetch failed — skipped")
             unmatched += 1
             continue

@@ -1,0 +1,941 @@
+{
+  "name": "Harp Mountain",
+  "slug": "harp-mountain-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 5000,
+  "lat": 61.22306,
+  "lon": -149.39435,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Harp Mountain Trail",
+      "difficulty": "Hard",
+      "type": "",
+      "stats": {
+        "distance": 4.9,
+        "gain": 1080,
+        "time": 2.0,
+        "difficulty": "Hard",
+        "route_length_mi": 2.44,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            61.19995,
+            -149.35287
+          ],
+          "summit": [
+            61.22306,
+            -149.39435
+          ]
+        },
+        "path": [
+          [
+            61.19995,
+            -149.35287,
+            3396
+          ],
+          [
+            61.20018,
+            -149.35284,
+            3330
+          ],
+          [
+            61.20041,
+            -149.35297,
+            3330
+          ],
+          [
+            61.20069,
+            -149.35317,
+            3330
+          ],
+          [
+            61.20092,
+            -149.35333,
+            3248
+          ],
+          [
+            61.20116,
+            -149.35363,
+            3307
+          ],
+          [
+            61.20139,
+            -149.35402,
+            3307
+          ],
+          [
+            61.20159,
+            -149.35433,
+            3307
+          ],
+          [
+            61.20177,
+            -149.35481,
+            3209
+          ],
+          [
+            61.20193,
+            -149.35541,
+            3232
+          ],
+          [
+            61.20206,
+            -149.3561,
+            3232
+          ],
+          [
+            61.20221,
+            -149.35659,
+            3232
+          ],
+          [
+            61.20241,
+            -149.35696,
+            3196
+          ],
+          [
+            61.20258,
+            -149.35716,
+            3150
+          ],
+          [
+            61.20265,
+            -149.35749,
+            3150
+          ],
+          [
+            61.20252,
+            -149.35786,
+            3150
+          ],
+          [
+            61.20239,
+            -149.35821,
+            3196
+          ],
+          [
+            61.20231,
+            -149.35858,
+            3179
+          ],
+          [
+            61.20231,
+            -149.35904,
+            3179
+          ],
+          [
+            61.20239,
+            -149.35945,
+            3179
+          ],
+          [
+            61.20236,
+            -149.35974,
+            3179
+          ],
+          [
+            61.20249,
+            -149.36036,
+            3110
+          ],
+          [
+            61.20256,
+            -149.36102,
+            3110
+          ],
+          [
+            61.20268,
+            -149.36161,
+            3110
+          ],
+          [
+            61.20279,
+            -149.36197,
+            3114
+          ],
+          [
+            61.20285,
+            -149.36227,
+            3114
+          ],
+          [
+            61.20289,
+            -149.36284,
+            3114
+          ],
+          [
+            61.20302,
+            -149.36337,
+            3127
+          ],
+          [
+            61.20313,
+            -149.36394,
+            3127
+          ],
+          [
+            61.20328,
+            -149.36446,
+            3127
+          ],
+          [
+            61.20331,
+            -149.36512,
+            3094
+          ],
+          [
+            61.20337,
+            -149.36568,
+            3077
+          ],
+          [
+            61.2035,
+            -149.3662,
+            3077
+          ],
+          [
+            61.20367,
+            -149.36697,
+            3077
+          ],
+          [
+            61.20381,
+            -149.36768,
+            3077
+          ],
+          [
+            61.20393,
+            -149.36833,
+            3077
+          ],
+          [
+            61.20409,
+            -149.36896,
+            3084
+          ],
+          [
+            61.20424,
+            -149.36952,
+            3051
+          ],
+          [
+            61.20436,
+            -149.37015,
+            3038
+          ],
+          [
+            61.2045,
+            -149.37091,
+            3038
+          ],
+          [
+            61.20457,
+            -149.37146,
+            3038
+          ],
+          [
+            61.20447,
+            -149.37197,
+            3038
+          ],
+          [
+            61.20459,
+            -149.3724,
+            3038
+          ],
+          [
+            61.20462,
+            -149.37306,
+            3038
+          ],
+          [
+            61.2047,
+            -149.37379,
+            3038
+          ],
+          [
+            61.20486,
+            -149.37431,
+            3038
+          ],
+          [
+            61.20504,
+            -149.37475,
+            3012
+          ],
+          [
+            61.20532,
+            -149.37525,
+            3015
+          ],
+          [
+            61.20548,
+            -149.37576,
+            3015
+          ],
+          [
+            61.20562,
+            -149.37635,
+            3015
+          ],
+          [
+            61.20577,
+            -149.37699,
+            3018
+          ],
+          [
+            61.20591,
+            -149.37763,
+            2982
+          ],
+          [
+            61.20606,
+            -149.37836,
+            2972
+          ],
+          [
+            61.20608,
+            -149.37913,
+            2972
+          ],
+          [
+            61.20613,
+            -149.37982,
+            2972
+          ],
+          [
+            61.20615,
+            -149.38054,
+            2972
+          ],
+          [
+            61.20626,
+            -149.38115,
+            2972
+          ],
+          [
+            61.20638,
+            -149.38175,
+            2979
+          ],
+          [
+            61.2065,
+            -149.38242,
+            2979
+          ],
+          [
+            61.20673,
+            -149.38302,
+            2953
+          ],
+          [
+            61.20687,
+            -149.38347,
+            2943
+          ],
+          [
+            61.20704,
+            -149.38407,
+            2943
+          ],
+          [
+            61.20711,
+            -149.38492,
+            2943
+          ],
+          [
+            61.20725,
+            -149.38561,
+            2946
+          ],
+          [
+            61.20738,
+            -149.38621,
+            2946
+          ],
+          [
+            61.20745,
+            -149.387,
+            2930
+          ],
+          [
+            61.20745,
+            -149.38767,
+            2930
+          ],
+          [
+            61.20744,
+            -149.38821,
+            2930
+          ],
+          [
+            61.2075,
+            -149.38895,
+            2881
+          ],
+          [
+            61.20763,
+            -149.38955,
+            2881
+          ],
+          [
+            61.20775,
+            -149.39019,
+            2854
+          ],
+          [
+            61.20779,
+            -149.39098,
+            2854
+          ],
+          [
+            61.20785,
+            -149.39164,
+            2854
+          ],
+          [
+            61.20786,
+            -149.39214,
+            2825
+          ],
+          [
+            61.20794,
+            -149.39297,
+            2825
+          ],
+          [
+            61.20799,
+            -149.39362,
+            2808
+          ],
+          [
+            61.20813,
+            -149.39427,
+            2808
+          ],
+          [
+            61.20813,
+            -149.39512,
+            2805
+          ],
+          [
+            61.20816,
+            -149.39582,
+            2805
+          ],
+          [
+            61.20827,
+            -149.39648,
+            2805
+          ],
+          [
+            61.20829,
+            -149.39723,
+            2808
+          ],
+          [
+            61.20839,
+            -149.39786,
+            2772
+          ],
+          [
+            61.20853,
+            -149.39866,
+            2769
+          ],
+          [
+            61.2086,
+            -149.39943,
+            2769
+          ],
+          [
+            61.20861,
+            -149.40016,
+            2762
+          ],
+          [
+            61.20863,
+            -149.40099,
+            2762
+          ],
+          [
+            61.20868,
+            -149.40169,
+            2769
+          ],
+          [
+            61.20873,
+            -149.40246,
+            2769
+          ],
+          [
+            61.20884,
+            -149.4033,
+            2769
+          ],
+          [
+            61.20902,
+            -149.40375,
+            2782
+          ],
+          [
+            61.2091,
+            -149.4044,
+            2782
+          ],
+          [
+            61.20928,
+            -149.40514,
+            2749
+          ],
+          [
+            61.20939,
+            -149.4057,
+            2749
+          ],
+          [
+            61.20941,
+            -149.40624,
+            2749
+          ],
+          [
+            61.20957,
+            -149.40686,
+            2707
+          ],
+          [
+            61.20955,
+            -149.40735,
+            2707
+          ],
+          [
+            61.20954,
+            -149.40786,
+            2707
+          ],
+          [
+            61.20955,
+            -149.40848,
+            2664
+          ],
+          [
+            61.20959,
+            -149.40907,
+            2664
+          ],
+          [
+            61.20972,
+            -149.40951,
+            2664
+          ],
+          [
+            61.20976,
+            -149.41007,
+            2602
+          ],
+          [
+            61.20973,
+            -149.41054,
+            2602
+          ],
+          [
+            61.20977,
+            -149.41101,
+            2602
+          ],
+          [
+            61.20977,
+            -149.41148,
+            2602
+          ],
+          [
+            61.20981,
+            -149.41196,
+            2513
+          ],
+          [
+            61.20976,
+            -149.41224,
+            2513
+          ],
+          [
+            61.20978,
+            -149.41261,
+            2513
+          ],
+          [
+            61.20977,
+            -149.41295,
+            2513
+          ],
+          [
+            61.20971,
+            -149.41329,
+            2513
+          ],
+          [
+            61.20969,
+            -149.41373,
+            2454
+          ],
+          [
+            61.20956,
+            -149.41408,
+            2454
+          ],
+          [
+            61.20955,
+            -149.41447,
+            2454
+          ],
+          [
+            61.20952,
+            -149.41491,
+            2454
+          ],
+          [
+            61.20952,
+            -149.4153,
+            2398
+          ],
+          [
+            61.20957,
+            -149.41573,
+            2398
+          ],
+          [
+            61.20942,
+            -149.41623,
+            2398
+          ],
+          [
+            61.20924,
+            -149.41665,
+            2398
+          ],
+          [
+            61.20913,
+            -149.4171,
+            2346
+          ],
+          [
+            61.209,
+            -149.41753,
+            2346
+          ],
+          [
+            61.20881,
+            -149.41793,
+            2346
+          ],
+          [
+            61.20862,
+            -149.41836,
+            2316
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 3396,
+            "coord": [
+              61.19995,
+              -149.35287
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 3232,
+            "coord": [
+              61.20193,
+              -149.35541
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 3179,
+            "coord": [
+              61.20236,
+              -149.35974
+            ]
+          },
+          {
+            "mile": 0.52,
+            "elev": 3127,
+            "coord": [
+              61.20328,
+              -149.36446
+            ]
+          },
+          {
+            "mile": 0.7,
+            "elev": 3051,
+            "coord": [
+              61.20424,
+              -149.36952
+            ]
+          },
+          {
+            "mile": 0.87,
+            "elev": 3038,
+            "coord": [
+              61.20486,
+              -149.37431
+            ]
+          },
+          {
+            "mile": 1.04,
+            "elev": 2972,
+            "coord": [
+              61.20608,
+              -149.37913
+            ]
+          },
+          {
+            "mile": 1.22,
+            "elev": 2943,
+            "coord": [
+              61.20687,
+              -149.38347
+            ]
+          },
+          {
+            "mile": 1.39,
+            "elev": 2881,
+            "coord": [
+              61.2075,
+              -149.38895
+            ]
+          },
+          {
+            "mile": 1.57,
+            "elev": 2808,
+            "coord": [
+              61.20799,
+              -149.39362
+            ]
+          },
+          {
+            "mile": 1.74,
+            "elev": 2769,
+            "coord": [
+              61.20853,
+              -149.39866
+            ]
+          },
+          {
+            "mile": 1.91,
+            "elev": 2782,
+            "coord": [
+              61.20902,
+              -149.40375
+            ]
+          },
+          {
+            "mile": 2.09,
+            "elev": 2664,
+            "coord": [
+              61.20959,
+              -149.40907
+            ]
+          },
+          {
+            "mile": 2.26,
+            "elev": 2454,
+            "coord": [
+              61.20969,
+              -149.41373
+            ]
+          },
+          {
+            "mile": 2.44,
+            "elev": 2316,
+            "coord": [
+              61.20862,
+              -149.41836
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Harp Mountain</strong> is a 5,000-foot summit in Alaska. The Harp Mountain Trail covers 4.9 miles round trip (out-and-back) with about 1,080 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Hard outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=61.19995,-149.35287\" target=\"_blank\" rel=\"noopener\">61.19995, -149.35287</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Hard rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 2.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Hurdygurdy Mountain, Mount Gordon Lyon and Blacktail Ptarmigan Rocks \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Hurdygurdy Mountain",
+      "slug": "hurdygurdy-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 5994,
+      "distance_miles": 3.6
+    },
+    {
+      "name": "Mount Gordon Lyon",
+      "slug": "mount-gordon-lyon-ak",
+      "state_slug": "alaska",
+      "elevation": 4127,
+      "distance_miles": 4.6
+    },
+    {
+      "name": "Blacktail Ptarmigan Rocks",
+      "slug": "blacktail-ptarmigan-rocks-ak",
+      "state_slug": "alaska",
+      "elevation": 4449,
+      "distance_miles": 7.7
+    },
+    {
+      "name": "Mount Williwaw",
+      "slug": "mount-williwaw-ak",
+      "state_slug": "alaska",
+      "elevation": 5446,
+      "distance_miles": 9.2
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Harp Mountain?",
+        "answer": "The Harp Mountain Trail is 4.9 miles round trip with about 1,080 feet of elevation gain, and most hikers take roughly 2.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Harp Mountain hike?",
+        "answer": "It's rated Hard using the National Park Service difficulty formula (4.9 miles round trip, 1,080 ft of gain \u2014 about 200 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Harp Mountain trailhead?",
+        "answer": "The trailhead is at 61.19995, -149.35287 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Harp Mountain trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Harp Mountain?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Harp Mountain?",
+        "answer": "Harp Mountain stands at 5,000 feet (1,524 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Harp Mountain Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Harp Mountain hike with current conditions, trail map & parking info. Alaska summit at 5,000 ft.",
+    "canonical_url": "/trails/alaska/harp-mountain-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Harp Mountain",
+      "description": "Harp Mountain is a 5,000 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 61.22306,
+        "longitude": -149.39435,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5000,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Harp Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 61.19995,
+            "longitude": -149.35287
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Harp Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Harp Mountain Trail on Harp Mountain is 4.9-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Harp Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harp Mountain is rated Moderate. At 5,000 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Harp Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Harp Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Harp Mountain Trail, a 4.9-mile moderate hike to the Harp Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Harp Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Harp Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/3675798308",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/3675798308",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30"
+  },
+  "osm": {
+    "id": 3675798308,
+    "prominence_m": null,
+    "wikidata": "Q49035016"
+  }
+}

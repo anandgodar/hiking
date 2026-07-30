@@ -1,0 +1,665 @@
+{
+  "name": "Bear Mountain",
+  "slug": "bear-mountain-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 4065,
+  "lat": 57.05003,
+  "lon": -135.1629,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Bear Mountain Trail",
+      "difficulty": "Easy",
+      "type": "",
+      "stats": {
+        "distance": 1.0,
+        "gain": 246,
+        "time": 0.5,
+        "difficulty": "Easy",
+        "route_length_mi": 0.5,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            57.0551,
+            -135.19487
+          ],
+          "summit": [
+            57.05003,
+            -135.1629
+          ]
+        },
+        "path": [
+          [
+            57.0551,
+            -135.19487,
+            430
+          ],
+          [
+            57.05513,
+            -135.19478,
+            430
+          ],
+          [
+            57.05517,
+            -135.19472,
+            430
+          ],
+          [
+            57.05521,
+            -135.19465,
+            430
+          ],
+          [
+            57.05521,
+            -135.19456,
+            430
+          ],
+          [
+            57.0552,
+            -135.1945,
+            430
+          ],
+          [
+            57.05519,
+            -135.19446,
+            430
+          ],
+          [
+            57.05515,
+            -135.19434,
+            430
+          ],
+          [
+            57.05502,
+            -135.19432,
+            430
+          ],
+          [
+            57.05486,
+            -135.19443,
+            518
+          ],
+          [
+            57.0547,
+            -135.19447,
+            518
+          ],
+          [
+            57.05457,
+            -135.19445,
+            518
+          ],
+          [
+            57.05444,
+            -135.19455,
+            518
+          ],
+          [
+            57.05432,
+            -135.19466,
+            518
+          ],
+          [
+            57.05422,
+            -135.19475,
+            518
+          ],
+          [
+            57.05415,
+            -135.19494,
+            633
+          ],
+          [
+            57.05403,
+            -135.19501,
+            568
+          ],
+          [
+            57.05394,
+            -135.19503,
+            568
+          ],
+          [
+            57.05391,
+            -135.195,
+            568
+          ],
+          [
+            57.05376,
+            -135.19498,
+            633
+          ],
+          [
+            57.05361,
+            -135.19496,
+            633
+          ],
+          [
+            57.05359,
+            -135.19498,
+            633
+          ],
+          [
+            57.05344,
+            -135.195,
+            568
+          ],
+          [
+            57.0533,
+            -135.19505,
+            564
+          ],
+          [
+            57.05319,
+            -135.1951,
+            564
+          ],
+          [
+            57.05317,
+            -135.19511,
+            564
+          ],
+          [
+            57.05298,
+            -135.19519,
+            564
+          ],
+          [
+            57.05284,
+            -135.19522,
+            564
+          ],
+          [
+            57.05272,
+            -135.19526,
+            564
+          ],
+          [
+            57.05261,
+            -135.19531,
+            564
+          ],
+          [
+            57.05252,
+            -135.19518,
+            564
+          ],
+          [
+            57.05238,
+            -135.19508,
+            574
+          ],
+          [
+            57.05235,
+            -135.19485,
+            623
+          ],
+          [
+            57.05232,
+            -135.19453,
+            623
+          ],
+          [
+            57.0522,
+            -135.19428,
+            623
+          ],
+          [
+            57.05207,
+            -135.19406,
+            623
+          ],
+          [
+            57.05198,
+            -135.19391,
+            623
+          ],
+          [
+            57.05192,
+            -135.19382,
+            623
+          ],
+          [
+            57.0518,
+            -135.1935,
+            676
+          ],
+          [
+            57.05166,
+            -135.19336,
+            676
+          ],
+          [
+            57.05164,
+            -135.19335,
+            607
+          ],
+          [
+            57.05152,
+            -135.19326,
+            607
+          ],
+          [
+            57.05145,
+            -135.19304,
+            607
+          ],
+          [
+            57.05134,
+            -135.19298,
+            607
+          ],
+          [
+            57.05148,
+            -135.19241,
+            587
+          ],
+          [
+            57.05137,
+            -135.1925,
+            607
+          ],
+          [
+            57.05122,
+            -135.19262,
+            607
+          ],
+          [
+            57.05107,
+            -135.19276,
+            607
+          ],
+          [
+            57.0509,
+            -135.1928,
+            607
+          ],
+          [
+            57.05075,
+            -135.19294,
+            587
+          ],
+          [
+            57.05066,
+            -135.19306,
+            587
+          ],
+          [
+            57.05067,
+            -135.19315,
+            587
+          ],
+          [
+            57.05061,
+            -135.1933,
+            587
+          ],
+          [
+            57.05049,
+            -135.19349,
+            587
+          ],
+          [
+            57.0503,
+            -135.19344,
+            587
+          ],
+          [
+            57.05022,
+            -135.19339,
+            587
+          ],
+          [
+            57.05017,
+            -135.19334,
+            587
+          ],
+          [
+            57.05012,
+            -135.1933,
+            587
+          ],
+          [
+            57.0501,
+            -135.19324,
+            587
+          ],
+          [
+            57.0501,
+            -135.19321,
+            587
+          ],
+          [
+            57.04999,
+            -135.1932,
+            587
+          ],
+          [
+            57.0499,
+            -135.19332,
+            568
+          ],
+          [
+            57.04985,
+            -135.19344,
+            568
+          ],
+          [
+            57.04979,
+            -135.19345,
+            568
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 430,
+            "coord": [
+              57.0551,
+              -135.19487
+            ]
+          },
+          {
+            "mile": 0.04,
+            "elev": 430,
+            "coord": [
+              57.05502,
+              -135.19432
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 518,
+            "coord": [
+              57.05444,
+              -135.19455
+            ]
+          },
+          {
+            "mile": 0.11,
+            "elev": 568,
+            "coord": [
+              57.05403,
+              -135.19501
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 633,
+            "coord": [
+              57.05359,
+              -135.19498
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 564,
+            "coord": [
+              57.05298,
+              -135.19519
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 564,
+            "coord": [
+              57.05252,
+              -135.19518
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 623,
+            "coord": [
+              57.05232,
+              -135.19453
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 623,
+            "coord": [
+              57.05192,
+              -135.19382
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 607,
+            "coord": [
+              57.05152,
+              -135.19326
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 587,
+            "coord": [
+              57.05148,
+              -135.19241
+            ]
+          },
+          {
+            "mile": 0.4,
+            "elev": 607,
+            "coord": [
+              57.05107,
+              -135.19276
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 587,
+            "coord": [
+              57.05067,
+              -135.19315
+            ]
+          },
+          {
+            "mile": 0.47,
+            "elev": 587,
+            "coord": [
+              57.05022,
+              -135.19339
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 568,
+            "coord": [
+              57.04979,
+              -135.19345
+            ]
+          }
+        ]
+      },
+      "features": [
+        {
+          "name": "Bear Mountain Waterfall",
+          "type": "waterfall",
+          "lat": 57.05174,
+          "lon": -135.18903,
+          "mile": 0.36
+        }
+      ]
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 4,065 feet, <strong>Bear Mountain</strong> is a summit in Alaska. The Bear Mountain Trail covers 1.0 miles round trip (out-and-back) with about 246 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. From the trailhead at about 430 feet, the route tops out near 633 feet. Along the way the route passes a waterfall (Bear Mountain Waterfall) near mile 0.36 \u2014 useful checkpoints for judging your pace.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=57.0551,-135.19487\" target=\"_blank\" rel=\"noopener\">57.0551, -135.19487</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Arrowhead Peak, Mount Furuhelm and Camel Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Arrowhead Peak",
+      "slug": "arrowhead-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 3261,
+      "distance_miles": 2.7
+    },
+    {
+      "name": "Mount Furuhelm",
+      "slug": "mount-furuhelm-ak",
+      "state_slug": "alaska",
+      "elevation": 3609,
+      "distance_miles": 8.7
+    },
+    {
+      "name": "Camel Mountain",
+      "slug": "camel-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 1854,
+      "distance_miles": 14.0
+    },
+    {
+      "name": "Annahootz Mountain",
+      "slug": "annahootz-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 4301,
+      "distance_miles": 17.3
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Bear Mountain?",
+        "answer": "The Bear Mountain Trail is 1.0 miles round trip with about 246 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Bear Mountain hike?",
+        "answer": "It's rated Easy using the National Park Service difficulty formula (1.0 miles round trip, 246 ft of gain \u2014 about 250 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Bear Mountain trailhead?",
+        "answer": "The trailhead is at 57.0551, -135.19487 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Bear Mountain trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Bear Mountain?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Bear Mountain?",
+        "answer": "Bear Mountain stands at 4,065 feet (1,239 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Bear Mountain Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Bear Mountain hike with current conditions, trail map & parking info. Alaska summit at 4,065 ft.",
+    "canonical_url": "/trails/alaska/bear-mountain-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Bear Mountain",
+      "description": "Bear Mountain is a 4,065 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 57.05003,
+        "longitude": -135.1629,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 4065,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Bear Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 57.0551,
+            "longitude": -135.19487
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Bear Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Bear Mountain Trail on Bear Mountain is 1.0-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Bear Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bear Mountain is rated Moderate. At 4,065 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Bear Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Bear Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Bear Mountain Trail, a 1.0-mile moderate hike to the Bear Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Bear Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Bear Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/2512222858",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USFS National Forest System Trails (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/2512222858",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "osm": {
+    "id": 2512222858,
+    "prominence_m": null,
+    "wikidata": null
+  }
+}

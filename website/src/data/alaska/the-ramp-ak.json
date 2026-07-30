@@ -1,0 +1,941 @@
+{
+  "name": "The Ramp",
+  "slug": "the-ramp-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 5240,
+  "lat": 61.08929,
+  "lon": -149.54444,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "The Ramp Trail",
+      "difficulty": "Strenuous",
+      "type": "",
+      "stats": {
+        "distance": 9.6,
+        "gain": 1814,
+        "time": 4.0,
+        "difficulty": "Strenuous",
+        "route_length_mi": 4.82,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            61.08759,
+            -149.611
+          ],
+          "summit": [
+            61.08929,
+            -149.54444
+          ]
+        },
+        "path": [
+          [
+            61.08759,
+            -149.611,
+            2694
+          ],
+          [
+            61.08739,
+            -149.60999,
+            2690
+          ],
+          [
+            61.08739,
+            -149.60878,
+            2690
+          ],
+          [
+            61.08715,
+            -149.60751,
+            2726
+          ],
+          [
+            61.08704,
+            -149.6063,
+            2759
+          ],
+          [
+            61.08711,
+            -149.60542,
+            2759
+          ],
+          [
+            61.08681,
+            -149.60411,
+            2799
+          ],
+          [
+            61.08635,
+            -149.6032,
+            2831
+          ],
+          [
+            61.08586,
+            -149.6022,
+            2831
+          ],
+          [
+            61.08581,
+            -149.60112,
+            2851
+          ],
+          [
+            61.0858,
+            -149.60014,
+            2851
+          ],
+          [
+            61.08578,
+            -149.59895,
+            2897
+          ],
+          [
+            61.0857,
+            -149.59767,
+            2927
+          ],
+          [
+            61.08564,
+            -149.59634,
+            2949
+          ],
+          [
+            61.08553,
+            -149.59516,
+            2949
+          ],
+          [
+            61.08553,
+            -149.5939,
+            2976
+          ],
+          [
+            61.08561,
+            -149.59284,
+            3015
+          ],
+          [
+            61.0858,
+            -149.59182,
+            3015
+          ],
+          [
+            61.086,
+            -149.59087,
+            3107
+          ],
+          [
+            61.08607,
+            -149.58997,
+            3156
+          ],
+          [
+            61.08605,
+            -149.58895,
+            3156
+          ],
+          [
+            61.08624,
+            -149.58799,
+            3202
+          ],
+          [
+            61.0861,
+            -149.58676,
+            3202
+          ],
+          [
+            61.08602,
+            -149.58548,
+            3248
+          ],
+          [
+            61.08588,
+            -149.58413,
+            3304
+          ],
+          [
+            61.08567,
+            -149.58281,
+            3261
+          ],
+          [
+            61.08546,
+            -149.58153,
+            3301
+          ],
+          [
+            61.08542,
+            -149.58047,
+            3301
+          ],
+          [
+            61.08524,
+            -149.57927,
+            3343
+          ],
+          [
+            61.08517,
+            -149.57822,
+            3402
+          ],
+          [
+            61.08515,
+            -149.57725,
+            3402
+          ],
+          [
+            61.08515,
+            -149.57632,
+            3474
+          ],
+          [
+            61.0853,
+            -149.57558,
+            3474
+          ],
+          [
+            61.08537,
+            -149.5746,
+            3540
+          ],
+          [
+            61.08494,
+            -149.5736,
+            3504
+          ],
+          [
+            61.08454,
+            -149.57254,
+            3543
+          ],
+          [
+            61.08401,
+            -149.57147,
+            3560
+          ],
+          [
+            61.08364,
+            -149.57011,
+            3560
+          ],
+          [
+            61.08328,
+            -149.56884,
+            3573
+          ],
+          [
+            61.08316,
+            -149.5674,
+            3593
+          ],
+          [
+            61.08304,
+            -149.56618,
+            3612
+          ],
+          [
+            61.08289,
+            -149.56487,
+            3632
+          ],
+          [
+            61.08284,
+            -149.56371,
+            3632
+          ],
+          [
+            61.08271,
+            -149.56249,
+            3652
+          ],
+          [
+            61.08265,
+            -149.56134,
+            3678
+          ],
+          [
+            61.0825,
+            -149.56023,
+            3678
+          ],
+          [
+            61.08235,
+            -149.55916,
+            3694
+          ],
+          [
+            61.08221,
+            -149.55803,
+            3724
+          ],
+          [
+            61.08222,
+            -149.55685,
+            3724
+          ],
+          [
+            61.08223,
+            -149.55583,
+            3757
+          ],
+          [
+            61.08222,
+            -149.55475,
+            3806
+          ],
+          [
+            61.08223,
+            -149.55398,
+            3806
+          ],
+          [
+            61.08226,
+            -149.55335,
+            3806
+          ],
+          [
+            61.08213,
+            -149.55279,
+            3885
+          ],
+          [
+            61.08198,
+            -149.55236,
+            3885
+          ],
+          [
+            61.08185,
+            -149.55176,
+            3885
+          ],
+          [
+            61.08171,
+            -149.55104,
+            3980
+          ],
+          [
+            61.08128,
+            -149.55013,
+            3996
+          ],
+          [
+            61.08104,
+            -149.54974,
+            4035
+          ],
+          [
+            61.08083,
+            -149.54943,
+            4035
+          ],
+          [
+            61.0808,
+            -149.54868,
+            3976
+          ],
+          [
+            61.08068,
+            -149.54806,
+            3878
+          ],
+          [
+            61.0805,
+            -149.54752,
+            3878
+          ],
+          [
+            61.08027,
+            -149.54704,
+            3878
+          ],
+          [
+            61.08005,
+            -149.54652,
+            3770
+          ],
+          [
+            61.0798,
+            -149.54594,
+            3642
+          ],
+          [
+            61.07957,
+            -149.54551,
+            3642
+          ],
+          [
+            61.07929,
+            -149.54528,
+            3642
+          ],
+          [
+            61.07901,
+            -149.54486,
+            3406
+          ],
+          [
+            61.07882,
+            -149.54419,
+            3406
+          ],
+          [
+            61.07851,
+            -149.5436,
+            3406
+          ],
+          [
+            61.07821,
+            -149.54291,
+            3215
+          ],
+          [
+            61.0778,
+            -149.54225,
+            3215
+          ],
+          [
+            61.07753,
+            -149.54186,
+            3215
+          ],
+          [
+            61.07725,
+            -149.5413,
+            3041
+          ],
+          [
+            61.07692,
+            -149.54041,
+            3041
+          ],
+          [
+            61.07663,
+            -149.5395,
+            2897
+          ],
+          [
+            61.07629,
+            -149.53871,
+            2897
+          ],
+          [
+            61.07584,
+            -149.53797,
+            2831
+          ],
+          [
+            61.07532,
+            -149.53729,
+            2789
+          ],
+          [
+            61.07484,
+            -149.53676,
+            2762
+          ],
+          [
+            61.0744,
+            -149.53626,
+            2740
+          ],
+          [
+            61.07478,
+            -149.53489,
+            2733
+          ],
+          [
+            61.07478,
+            -149.53311,
+            2713
+          ],
+          [
+            61.07511,
+            -149.53136,
+            2697
+          ],
+          [
+            61.07551,
+            -149.52965,
+            2703
+          ],
+          [
+            61.07586,
+            -149.52803,
+            2690
+          ],
+          [
+            61.07614,
+            -149.52668,
+            2690
+          ],
+          [
+            61.07651,
+            -149.5259,
+            2690
+          ],
+          [
+            61.07705,
+            -149.52512,
+            2690
+          ],
+          [
+            61.07759,
+            -149.52418,
+            2667
+          ],
+          [
+            61.07809,
+            -149.52301,
+            2661
+          ],
+          [
+            61.07865,
+            -149.52211,
+            2631
+          ],
+          [
+            61.07888,
+            -149.52091,
+            2631
+          ],
+          [
+            61.07903,
+            -149.51967,
+            2648
+          ],
+          [
+            61.07939,
+            -149.51841,
+            2595
+          ],
+          [
+            61.07959,
+            -149.51714,
+            2605
+          ],
+          [
+            61.07977,
+            -149.51575,
+            2621
+          ],
+          [
+            61.0801,
+            -149.5143,
+            2592
+          ],
+          [
+            61.08044,
+            -149.513,
+            2605
+          ],
+          [
+            61.08088,
+            -149.51164,
+            2575
+          ],
+          [
+            61.08119,
+            -149.51048,
+            2575
+          ],
+          [
+            61.08167,
+            -149.50918,
+            2543
+          ],
+          [
+            61.08201,
+            -149.50804,
+            2562
+          ],
+          [
+            61.08242,
+            -149.50666,
+            2575
+          ],
+          [
+            61.08275,
+            -149.50517,
+            2516
+          ],
+          [
+            61.08292,
+            -149.50343,
+            2523
+          ],
+          [
+            61.08291,
+            -149.50203,
+            2526
+          ],
+          [
+            61.08274,
+            -149.50061,
+            2516
+          ],
+          [
+            61.08278,
+            -149.49896,
+            2503
+          ],
+          [
+            61.08288,
+            -149.49751,
+            2493
+          ],
+          [
+            61.08298,
+            -149.49611,
+            2500
+          ],
+          [
+            61.08297,
+            -149.49441,
+            2507
+          ],
+          [
+            61.0832,
+            -149.49373,
+            2507
+          ],
+          [
+            61.08289,
+            -149.49245,
+            2441
+          ],
+          [
+            61.0827,
+            -149.49104,
+            2415
+          ],
+          [
+            61.08228,
+            -149.48993,
+            2379
+          ],
+          [
+            61.08193,
+            -149.48867,
+            2379
+          ],
+          [
+            61.08171,
+            -149.48708,
+            2320
+          ],
+          [
+            61.08183,
+            -149.48515,
+            2264
+          ],
+          [
+            61.08183,
+            -149.48393,
+            2221
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2694,
+            "coord": [
+              61.08759,
+              -149.611
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 2831,
+            "coord": [
+              61.08586,
+              -149.6022
+            ]
+          },
+          {
+            "mile": 0.69,
+            "elev": 3015,
+            "coord": [
+              61.0858,
+              -149.59182
+            ]
+          },
+          {
+            "mile": 1.03,
+            "elev": 3301,
+            "coord": [
+              61.08546,
+              -149.58153
+            ]
+          },
+          {
+            "mile": 1.38,
+            "elev": 3543,
+            "coord": [
+              61.08454,
+              -149.57254
+            ]
+          },
+          {
+            "mile": 1.72,
+            "elev": 3652,
+            "coord": [
+              61.08271,
+              -149.56249
+            ]
+          },
+          {
+            "mile": 2.06,
+            "elev": 3885,
+            "coord": [
+              61.08213,
+              -149.55279
+            ]
+          },
+          {
+            "mile": 2.41,
+            "elev": 3642,
+            "coord": [
+              61.07929,
+              -149.54528
+            ]
+          },
+          {
+            "mile": 2.75,
+            "elev": 2831,
+            "coord": [
+              61.07584,
+              -149.53797
+            ]
+          },
+          {
+            "mile": 3.1,
+            "elev": 2703,
+            "coord": [
+              61.07551,
+              -149.52965
+            ]
+          },
+          {
+            "mile": 3.44,
+            "elev": 2631,
+            "coord": [
+              61.07865,
+              -149.52211
+            ]
+          },
+          {
+            "mile": 3.78,
+            "elev": 2605,
+            "coord": [
+              61.08044,
+              -149.513
+            ]
+          },
+          {
+            "mile": 4.13,
+            "elev": 2523,
+            "coord": [
+              61.08292,
+              -149.50343
+            ]
+          },
+          {
+            "mile": 4.47,
+            "elev": 2507,
+            "coord": [
+              61.0832,
+              -149.49373
+            ]
+          },
+          {
+            "mile": 4.82,
+            "elev": 2221,
+            "coord": [
+              61.08183,
+              -149.48393
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>The Ramp</strong> is a 5,240-foot summit in Alaska. The The Ramp Trail covers 9.6 miles round trip (out-and-back) with about 1,814 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Strenuous outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 0.69, gaining roughly 800 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 2,694 feet, the route tops out near 3,885 feet. You'll cross above treeline on the way up, so the upper route is exposed to weather \u2014 check the forecast and turn around if conditions build.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=61.08759,-149.611\" target=\"_blank\" rel=\"noopener\">61.08759, -149.611</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 4.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Mount Williwaw, O'Malley Peak and Ptarmigan Peak \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Mount Williwaw",
+      "slug": "mount-williwaw-ak",
+      "state_slug": "alaska",
+      "elevation": 5446,
+      "distance_miles": 1.4
+    },
+    {
+      "name": "O'Malley Peak",
+      "slug": "omalley-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 5151,
+      "distance_miles": 1.5
+    },
+    {
+      "name": "Ptarmigan Peak",
+      "slug": "ptarmigan-peak-ak",
+      "state_slug": "alaska",
+      "elevation": 4911,
+      "distance_miles": 2.9
+    },
+    {
+      "name": "North Yuyanq\u2019 Ch\u2019ex",
+      "slug": "north-yuyanq-chex-ak",
+      "state_slug": "alaska",
+      "elevation": 5066,
+      "distance_miles": 3.6
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike The Ramp?",
+        "answer": "The The Ramp Trail is 9.6 miles round trip with about 1,814 feet of elevation gain, and most hikers take roughly 4.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the The Ramp hike?",
+        "answer": "It's rated Strenuous using the National Park Service difficulty formula (9.6 miles round trip, 1,814 ft of gain \u2014 about 200 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the The Ramp trailhead?",
+        "answer": "The trailhead is at 61.08759, -149.611 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the The Ramp trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike The Ramp?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is The Ramp?",
+        "answer": "The Ramp stands at 5,240 feet (1,597 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "The Ramp Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your The Ramp hike with current conditions, trail map & parking info. Alaska summit at 5,240 ft.",
+    "canonical_url": "/trails/alaska/the-ramp-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "The Ramp",
+      "description": "The Ramp is a 5,240 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 61.08929,
+        "longitude": -149.54444,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 5240,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "The Ramp Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 61.08759,
+            "longitude": -149.611
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike The Ramp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular The Ramp Trail on The Ramp is 9.6-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is The Ramp hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Ramp is rated Moderate. At 5,240 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike The Ramp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike The Ramp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the The Ramp Trail, a 9.6-mile moderate hike to the The Ramp summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike The Ramp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on The Ramp. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/2472379091",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
+    "osm_node": "https://www.openstreetmap.org/node/2472379091",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30"
+  },
+  "osm": {
+    "id": 2472379091,
+    "prominence_m": null,
+    "wikidata": "Q49082891"
+  }
+}

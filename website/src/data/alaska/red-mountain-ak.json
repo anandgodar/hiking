@@ -1,0 +1,800 @@
+{
+  "name": "Red Mountain",
+  "slug": "red-mountain-ak",
+  "state": "Alaska",
+  "state_slug": "alaska",
+  "elevation": 3524,
+  "lat": 59.35655,
+  "lon": -151.4778,
+  "mountain_hero": "",
+  "tags": [],
+  "trails": [
+    {
+      "name": "Red Mountain Trail",
+      "difficulty": "Moderate",
+      "type": "",
+      "stats": {
+        "distance": 3.5,
+        "gain": 1204,
+        "time": 2.0,
+        "difficulty": "Moderate",
+        "route_length_mi": 1.73,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
+      },
+      "parking_info": "",
+      "parking_details": {
+        "fee": "",
+        "location": "",
+        "coords": [
+          null,
+          null
+        ]
+      },
+      "tags": [],
+      "geo": {
+        "markers": {
+          "start": [
+            59.37955,
+            -151.48829
+          ],
+          "summit": [
+            59.35655,
+            -151.4778
+          ]
+        },
+        "path": [
+          [
+            59.37955,
+            -151.48829,
+            1004
+          ],
+          [
+            59.37933,
+            -151.48754,
+            1004
+          ],
+          [
+            59.37919,
+            -151.4869,
+            1014
+          ],
+          [
+            59.37905,
+            -151.48623,
+            1030
+          ],
+          [
+            59.37899,
+            -151.48579,
+            1030
+          ],
+          [
+            59.37891,
+            -151.48509,
+            1030
+          ],
+          [
+            59.3789,
+            -151.48385,
+            1043
+          ],
+          [
+            59.37876,
+            -151.48363,
+            1060
+          ],
+          [
+            59.37856,
+            -151.4837,
+            1060
+          ],
+          [
+            59.37831,
+            -151.48397,
+            1043
+          ],
+          [
+            59.37798,
+            -151.48427,
+            1043
+          ],
+          [
+            59.37749,
+            -151.48456,
+            1043
+          ],
+          [
+            59.37685,
+            -151.48477,
+            1079
+          ],
+          [
+            59.37631,
+            -151.48484,
+            1132
+          ],
+          [
+            59.37618,
+            -151.48485,
+            1132
+          ],
+          [
+            59.37655,
+            -151.48378,
+            1132
+          ],
+          [
+            59.3772,
+            -151.48187,
+            1214
+          ],
+          [
+            59.37734,
+            -151.48122,
+            1280
+          ],
+          [
+            59.3774,
+            -151.48088,
+            1280
+          ],
+          [
+            59.37755,
+            -151.48044,
+            1230
+          ],
+          [
+            59.37773,
+            -151.47996,
+            1293
+          ],
+          [
+            59.37785,
+            -151.47966,
+            1293
+          ],
+          [
+            59.37788,
+            -151.47955,
+            1293
+          ],
+          [
+            59.37788,
+            -151.47946,
+            1293
+          ],
+          [
+            59.37783,
+            -151.4794,
+            1293
+          ],
+          [
+            59.37767,
+            -151.47938,
+            1293
+          ],
+          [
+            59.37751,
+            -151.47936,
+            1293
+          ],
+          [
+            59.37731,
+            -151.47924,
+            1345
+          ],
+          [
+            59.37723,
+            -151.47912,
+            1345
+          ],
+          [
+            59.37711,
+            -151.47897,
+            1345
+          ],
+          [
+            59.37705,
+            -151.47874,
+            1385
+          ],
+          [
+            59.37698,
+            -151.47852,
+            1385
+          ],
+          [
+            59.37692,
+            -151.47825,
+            1385
+          ],
+          [
+            59.37692,
+            -151.47791,
+            1385
+          ],
+          [
+            59.37689,
+            -151.47751,
+            1385
+          ],
+          [
+            59.3768,
+            -151.47719,
+            1355
+          ],
+          [
+            59.37661,
+            -151.47672,
+            1444
+          ],
+          [
+            59.37653,
+            -151.47633,
+            1444
+          ],
+          [
+            59.37641,
+            -151.47569,
+            1467
+          ],
+          [
+            59.3763,
+            -151.47543,
+            1467
+          ],
+          [
+            59.37615,
+            -151.47511,
+            1467
+          ],
+          [
+            59.37596,
+            -151.47479,
+            1470
+          ],
+          [
+            59.3759,
+            -151.47451,
+            1470
+          ],
+          [
+            59.37592,
+            -151.47423,
+            1470
+          ],
+          [
+            59.37609,
+            -151.47369,
+            1490
+          ],
+          [
+            59.37611,
+            -151.47344,
+            1490
+          ],
+          [
+            59.37606,
+            -151.47313,
+            1490
+          ],
+          [
+            59.37586,
+            -151.47263,
+            1490
+          ],
+          [
+            59.37569,
+            -151.47263,
+            1549
+          ],
+          [
+            59.37546,
+            -151.47275,
+            1549
+          ],
+          [
+            59.37532,
+            -151.47271,
+            1549
+          ],
+          [
+            59.37533,
+            -151.4723,
+            1591
+          ],
+          [
+            59.3754,
+            -151.4719,
+            1591
+          ],
+          [
+            59.3754,
+            -151.47163,
+            1591
+          ],
+          [
+            59.3753,
+            -151.47154,
+            1591
+          ],
+          [
+            59.37507,
+            -151.47158,
+            1591
+          ],
+          [
+            59.37481,
+            -151.47159,
+            1634
+          ],
+          [
+            59.37467,
+            -151.47142,
+            1634
+          ],
+          [
+            59.37458,
+            -151.47105,
+            1693
+          ],
+          [
+            59.37455,
+            -151.47079,
+            1693
+          ],
+          [
+            59.37451,
+            -151.47038,
+            1693
+          ],
+          [
+            59.37438,
+            -151.47005,
+            1693
+          ],
+          [
+            59.37419,
+            -151.46995,
+            1722
+          ],
+          [
+            59.37399,
+            -151.46994,
+            1781
+          ],
+          [
+            59.37385,
+            -151.46989,
+            1781
+          ],
+          [
+            59.37376,
+            -151.46974,
+            1781
+          ],
+          [
+            59.37376,
+            -151.46943,
+            1781
+          ],
+          [
+            59.3738,
+            -151.46901,
+            1781
+          ],
+          [
+            59.37374,
+            -151.46864,
+            1821
+          ],
+          [
+            59.37356,
+            -151.46857,
+            1821
+          ],
+          [
+            59.37306,
+            -151.46867,
+            1883
+          ],
+          [
+            59.37225,
+            -151.46859,
+            1923
+          ],
+          [
+            59.37204,
+            -151.46849,
+            1923
+          ],
+          [
+            59.37191,
+            -151.46837,
+            1923
+          ],
+          [
+            59.37178,
+            -151.46813,
+            1923
+          ],
+          [
+            59.37155,
+            -151.46794,
+            1946
+          ],
+          [
+            59.37133,
+            -151.4677,
+            1946
+          ],
+          [
+            59.37114,
+            -151.46728,
+            1988
+          ],
+          [
+            59.37103,
+            -151.46672,
+            1988
+          ],
+          [
+            59.37098,
+            -151.46619,
+            2005
+          ],
+          [
+            59.371,
+            -151.46563,
+            2005
+          ],
+          [
+            59.37105,
+            -151.4652,
+            2005
+          ],
+          [
+            59.37101,
+            -151.4649,
+            2008
+          ],
+          [
+            59.37085,
+            -151.46469,
+            2008
+          ],
+          [
+            59.37062,
+            -151.46448,
+            2041
+          ],
+          [
+            59.37038,
+            -151.46418,
+            2041
+          ],
+          [
+            59.37032,
+            -151.46387,
+            2041
+          ],
+          [
+            59.37034,
+            -151.46359,
+            2060
+          ],
+          [
+            59.37037,
+            -151.46326,
+            2060
+          ],
+          [
+            59.37036,
+            -151.46286,
+            2060
+          ],
+          [
+            59.37029,
+            -151.46255,
+            2060
+          ],
+          [
+            59.3701,
+            -151.46233,
+            2064
+          ],
+          [
+            59.3698,
+            -151.46213,
+            2136
+          ],
+          [
+            59.36963,
+            -151.4622,
+            2136
+          ],
+          [
+            59.3692,
+            -151.46235,
+            2136
+          ],
+          [
+            59.36843,
+            -151.46272,
+            2152
+          ],
+          [
+            59.36798,
+            -151.4629,
+            2208
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 1004,
+            "coord": [
+              59.37955,
+              -151.48829
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 1030,
+            "coord": [
+              59.37891,
+              -151.48509
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 1043,
+            "coord": [
+              59.37798,
+              -151.48427
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 1132,
+            "coord": [
+              59.37618,
+              -151.48485
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 1214,
+            "coord": [
+              59.3772,
+              -151.48187
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 1293,
+            "coord": [
+              59.37751,
+              -151.47936
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 1444,
+            "coord": [
+              59.37661,
+              -151.47672
+            ]
+          },
+          {
+            "mile": 0.86,
+            "elev": 1490,
+            "coord": [
+              59.37609,
+              -151.47369
+            ]
+          },
+          {
+            "mile": 0.99,
+            "elev": 1591,
+            "coord": [
+              59.3753,
+              -151.47154
+            ]
+          },
+          {
+            "mile": 1.11,
+            "elev": 1781,
+            "coord": [
+              59.37399,
+              -151.46994
+            ]
+          },
+          {
+            "mile": 1.23,
+            "elev": 1883,
+            "coord": [
+              59.37306,
+              -151.46867
+            ]
+          },
+          {
+            "mile": 1.36,
+            "elev": 1988,
+            "coord": [
+              59.37114,
+              -151.46728
+            ]
+          },
+          {
+            "mile": 1.48,
+            "elev": 2041,
+            "coord": [
+              59.37062,
+              -151.46448
+            ]
+          },
+          {
+            "mile": 1.6,
+            "elev": 2136,
+            "coord": [
+              59.3698,
+              -151.46213
+            ]
+          },
+          {
+            "mile": 1.73,
+            "elev": 2208,
+            "coord": [
+              59.36798,
+              -151.4629
+            ]
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Red Mountain</strong> rises to 3,524 feet in Alaska. The Red Mountain Trail covers 3.5 miles round trip (out-and-back) with about 1,204 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 0.99, gaining roughly 1,600 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 1,004 feet, the route tops out near 2,208 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=59.37955,-151.48829\" target=\"_blank\" rel=\"noopener\">59.37955, -151.48829</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Moderate rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 2.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Bald Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "nearby_peaks": [
+    {
+      "name": "Bald Mountain",
+      "slug": "bald-mountain-ak",
+      "state_slug": "alaska",
+      "elevation": 1962,
+      "distance_miles": 28.5
+    }
+  ],
+  "page_content": {
+    "faqs": [
+      {
+        "question": "How long does it take to hike Red Mountain?",
+        "answer": "The Red Mountain Trail is 3.5 miles round trip with about 1,204 feet of elevation gain, and most hikers take roughly 2.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Red Mountain hike?",
+        "answer": "It's rated Moderate using the National Park Service difficulty formula (3.5 miles round trip, 1,204 ft of gain \u2014 about 350 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Red Mountain trailhead?",
+        "answer": "The trailhead is at 59.37955, -151.48829 in Alaska. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
+      {
+        "question": "Are dogs allowed on the Red Mountain trail?",
+        "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."
+      },
+      {
+        "question": "When is the best time to hike Red Mountain?",
+        "answer": "Late May through October for snow-free hiking. Check a summit point forecast before you go \u2014 conditions up high differ from the trailhead."
+      },
+      {
+        "question": "How tall is Red Mountain?",
+        "answer": "Red Mountain stands at 3,524 feet (1,074 meters) in Alaska."
+      }
+    ],
+    "seasonal_guide": [],
+    "safety": {
+      "warnings": [],
+      "emergency": ""
+    }
+  },
+  "seo": {
+    "meta_title": "Red Mountain Trail Guide (Alaska) | Map, Route & Conditions",
+    "meta_description": "Plan your Red Mountain hike with current conditions, trail map & parking info. Alaska summit at 3,524 ft.",
+    "canonical_url": "/trails/alaska/red-mountain-ak",
+    "schema_place": {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": "Red Mountain",
+      "description": "Red Mountain is a 3,524 foot peak in Alaska offering hiking trails with scenic views.",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 59.35655,
+        "longitude": -151.4778,
+        "elevation": {
+          "@type": "QuantitativeValue",
+          "value": 3524,
+          "unitCode": "FOT"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Alaska",
+        "addressCountry": "US"
+      },
+      "containsPlace": [
+        {
+          "@type": "Place",
+          "name": "Red Mountain Trail",
+          "additionalType": "HikingTrail",
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 59.37955,
+            "longitude": -151.48829
+          }
+        }
+      ]
+    },
+    "schema_faq": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to hike Red Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The popular Red Mountain Trail on Red Mountain is 3.5-mile and takes several hours round trip. Start early, especially on weekends when parking fills quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Red Mountain hard to hike?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Red Mountain is rated Moderate. At 3,524 feet, plan for the terrain and weather typical of Alaska peaks. Proper footwear and preparation are essential."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to hike Red Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the official land manager's site before you go \u2014 most trailheads do not require a hiking permit, but parking fees or seasonal access rules may apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best trail to hike Red Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most popular route is the Red Mountain Trail, a 3.5-mile moderate hike to the Red Mountain summit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is the best time to hike Red Mountain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring through fall offers the best conditions on Red Mountain. Summer and fall bring the most stable weather; winter hiking requires specialized gear and experience."
+          }
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
+    "primary_url": "https://www.openstreetmap.org/node/2169823591",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
+    "osm_node": "https://www.openstreetmap.org/node/2169823591",
+    "verification_date": "2026-07-30",
+    "route_verified": "2026-07-30"
+  },
+  "osm": {
+    "id": 2169823591,
+    "prominence_m": null,
+    "wikidata": "Q49067587"
+  }
+}
