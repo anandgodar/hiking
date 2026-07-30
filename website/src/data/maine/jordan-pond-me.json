@@ -6,7 +6,7 @@
   "elevation": 274,
   "lat": 44.3217,
   "lon": -68.2528,
-  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Pond_Maine.JPG?width=1600",
   "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
   "tags": [
     "acadia",
@@ -1442,5 +1442,11 @@
     "gps_source": "USGS Topographic Map",
     "distance_source": "Maine Bureau of Parks trail guides",
     "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks."
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Jordan_Pond_Maine.JPG",
+    "license": "CC0",
+    "artist": "Thomsonmg2000"
   }
 }
