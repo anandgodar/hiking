@@ -74,7 +74,7 @@
       "id": "723543a0",
       "name": "Elmore Mountain Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Hard",
       "distance_miles": 2.8,
       "elevation_gain": 1450,
       "description": "Scenic climb to fire tower in Elmore State Park.",
@@ -103,15 +103,18 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 2.8,
+        "distance": 5.7,
         "gain": 1450,
         "max_elev": 1405,
         "min_elev": 1143,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 1.7,
+        "difficulty": "Hard",
+        "time": 2.5,
         "_distance_source": "calculated",
-        "_original_calculated_gain": 129
+        "_original_calculated_gain": 129,
+        "route_length_mi": 2.83,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

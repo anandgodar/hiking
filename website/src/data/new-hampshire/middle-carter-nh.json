@@ -117,7 +117,10 @@
         "min_elev": 1980,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.7
+        "time": 4.7,
+        "route_length_mi": 3.11,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

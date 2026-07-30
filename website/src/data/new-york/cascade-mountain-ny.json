@@ -102,8 +102,11 @@
         "distance": 4.5,
         "gain": 2030,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 4.0
+        "difficulty": "Hard",
+        "time": 2.5,
+        "route_length_mi": 2.24,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -2378,7 +2381,7 @@
           ]
         }
       },
-      "difficulty": "Moderate",
+      "difficulty": "Hard",
       "features": [
         {
           "name": "Cascade Mountain",

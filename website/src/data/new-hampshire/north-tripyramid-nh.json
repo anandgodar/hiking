@@ -139,7 +139,10 @@
         "min_elev": 1456,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.9
+        "time": 4.9,
+        "route_length_mi": 7.6,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -2983,7 +2986,10 @@
         "min_elev": 1456,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 5.2
+        "time": 5.2,
+        "route_length_mi": 15.34,
+        "distance_type": "loop",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

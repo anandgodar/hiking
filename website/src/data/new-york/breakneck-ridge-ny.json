@@ -97,7 +97,10 @@
         "gain": 0,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 0.2
+        "time": 0.5,
+        "route_length_mi": 0.32,
+        "distance_type": "loop",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

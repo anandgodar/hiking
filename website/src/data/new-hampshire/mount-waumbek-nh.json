@@ -66,7 +66,7 @@
       "id": "ff3e7628",
       "name": "Starr King Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 7.2,
       "elevation_gain": 2844,
       "description": "Route via Mount Starr King to Waumbek summit.",
@@ -97,13 +97,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 7.2,
+        "distance": 7.9,
         "gain": 2844,
         "max_elev": 3991,
         "min_elev": 1383,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 3.8
+        "difficulty": "Strenuous",
+        "time": 4.0,
+        "route_length_mi": 3.97,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

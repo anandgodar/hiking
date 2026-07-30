@@ -105,7 +105,7 @@
       "id": "30b9b38d",
       "name": "Mount Battie Trail",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Easy",
       "distance_miles": 1.0,
       "elevation_gain": 600,
       "description": "Short steep climb to stone tower with harbor views.",
@@ -144,11 +144,14 @@
         "max_elev": 800,
         "min_elev": 800,
         "type": "Out & Back",
-        "difficulty": "Moderate",
+        "difficulty": "Easy",
         "time": 0.5,
         "_distance_source": "calculated",
         "_original_calculated_gain": 0,
-        "_elevation_source": "seed_override"
+        "_elevation_source": "seed_override",
+        "route_length_mi": 0.52,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

@@ -148,7 +148,10 @@
         "type": "Out & Back",
         "difficulty": "Moderate",
         "time": 1.2,
-        "_distance_source": "calculated"
+        "_distance_source": "calculated",
+        "route_length_mi": 2.11,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -1515,7 +1518,10 @@
         "time": 0.2,
         "_original_calculated_distance": 1.7,
         "_distance_source": "seed_override",
-        "_original_calculated_gain": 1077
+        "_original_calculated_gain": 1077,
+        "route_length_mi": 1.68,
+        "distance_type": "loop",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

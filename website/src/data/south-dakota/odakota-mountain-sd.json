@@ -14,10 +14,13 @@
       "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": 0.9,
+        "distance": 1.8,
         "gain": 167,
         "time": 0.5,
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "route_length_mi": 0.9,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -586,7 +589,7 @@
       ]
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Odakota Mountain</strong> rises to 7,198 feet in South Dakota. The Odakota Mountain Trail covers 0.9 miles with about 167 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=43.94952,-103.76834\" target=\"_blank\" rel=\"noopener\">43.94952, -103.76834</a> (tap for driving directions). It's roughly 30 miles west of Rapid City, South Dakota. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Copper Mountain, Green Mountain and Medicine Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Odakota Mountain</strong> rises to 7,198 feet in South Dakota. The Odakota Mountain Trail covers 1.8 miles round trip (out-and-back) with about 167 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=43.94952,-103.76834\" target=\"_blank\" rel=\"noopener\">43.94952, -103.76834</a> (tap for driving directions). It's roughly 30 miles west of Rapid City, South Dakota. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Copper Mountain, Green Mountain and Medicine Mountain \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Copper Mountain",
@@ -621,11 +624,11 @@
     "faqs": [
       {
         "question": "How long does it take to hike Odakota Mountain?",
-        "answer": "The Odakota Mountain Trail is 0.9 miles with about 167 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+        "answer": "The Odakota Mountain Trail is 1.8 miles round trip with about 167 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
       },
       {
         "question": "How hard is the Odakota Mountain hike?",
-        "answer": "It's rated Easy using the National Park Service difficulty formula (0.9 miles, 167 ft of gain \u2014 about 200 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+        "answer": "It's rated Easy using the National Park Service difficulty formula (1.8 miles round trip, 167 ft of gain \u2014 about 100 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
       },
       {
         "question": "Where is the Odakota Mountain trailhead?",

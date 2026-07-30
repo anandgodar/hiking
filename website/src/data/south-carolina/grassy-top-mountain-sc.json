@@ -12,13 +12,16 @@
   "trails": [
     {
       "name": "Grassy Top Mountain Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": 0.1,
+        "distance": 0.2,
         "gain": 82,
-        "time": null,
-        "difficulty": ""
+        "time": 0.5,
+        "difficulty": "Easy",
+        "route_length_mi": 0.1,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -229,7 +232,7 @@
       "features": []
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Grassy Top Mountain</strong> rises to 3,258 feet in South Carolina. The Grassy Top Mountain Trail covers 0.1 miles with about 82 feet of elevation gain \u2014 a steep, sustained climb.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=35.15929,-82.52306\" target=\"_blank\" rel=\"noopener\">35.15929, -82.52306</a> (tap for driving directions). It's roughly 30 miles south of Asheville, North Carolina. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>This trail is hikeable most of the year. Summer brings heat and humidity \u2014 carry extra water \u2014 while fall and spring offer the most comfortable conditions. Ice is possible on shaded stretches in mid-winter.</p>\n  <h3>Know Before You Go</h3><p>Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Big Top, Little Rich Mountain and Corbin Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Grassy Top Mountain</strong> rises to 3,258 feet in South Carolina. The Grassy Top Mountain Trail covers 0.2 miles round trip (out-and-back) with about 82 feet of elevation gain \u2014 a steady climb. It's rated Easy overall.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=35.15929,-82.52306\" target=\"_blank\" rel=\"noopener\">35.15929, -82.52306</a> (tap for driving directions). It's roughly 30 miles south of Asheville, North Carolina. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>This trail is hikeable most of the year. Summer brings heat and humidity \u2014 carry extra water \u2014 while fall and spring offer the most comfortable conditions. Ice is possible on shaded stretches in mid-winter.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Big Top, Little Rich Mountain and Corbin Mountain \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Big Top",
@@ -262,6 +265,14 @@
   ],
   "page_content": {
     "faqs": [
+      {
+        "question": "How long does it take to hike Grassy Top Mountain?",
+        "answer": "The Grassy Top Mountain Trail is 0.2 miles round trip with about 82 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Grassy Top Mountain hike?",
+        "answer": "It's rated Easy using the National Park Service difficulty formula (0.2 miles round trip, 82 ft of gain \u2014 about 400 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
       {
         "question": "Where is the Grassy Top Mountain trailhead?",
         "answer": "The trailhead is at 35.15929, -82.52306 in South Carolina. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."

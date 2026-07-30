@@ -86,7 +86,7 @@
       "id": "02882824",
       "name": "Jerusalem Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 6.1,
       "elevation_gain": 2873,
       "description": "Direct route to Ellen summit via Long Trail.",
@@ -113,14 +113,17 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.1,
+        "distance": 12.3,
         "gain": 2873,
         "max_elev": 4063,
         "min_elev": 1479,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 3.5,
-        "_distance_source": "calculated"
+        "difficulty": "Strenuous",
+        "time": 5.5,
+        "_distance_source": "calculated",
+        "route_length_mi": 6.13,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -2935,7 +2938,10 @@
         "time": 4.7,
         "_original_calculated_distance": 1.9,
         "_distance_source": "seed_override",
-        "_original_calculated_gain": 700
+        "_original_calculated_gain": 700,
+        "route_length_mi": 1.92,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

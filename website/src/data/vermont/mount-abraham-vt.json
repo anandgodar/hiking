@@ -82,7 +82,7 @@
       "id": "edcc9801",
       "name": "Long Trail (from Lincoln Gap)",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Hard",
       "distance_miles": 5.2,
       "elevation_gain": 1693,
       "description": "Shortest route to Abraham. Start at Lincoln Gap for easiest approach.",
@@ -111,14 +111,17 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.2,
+        "distance": 4.7,
         "gain": 1693,
         "max_elev": 3765,
         "min_elev": 2410,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 1.6,
-        "_distance_source": "calculated"
+        "difficulty": "Hard",
+        "time": 2.5,
+        "_distance_source": "calculated",
+        "route_length_mi": 2.33,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -2329,7 +2332,10 @@
         "type": "Out & Back",
         "difficulty": "Hard",
         "time": 2.4,
-        "_distance_source": "calculated"
+        "_distance_source": "calculated",
+        "route_length_mi": 3.49,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

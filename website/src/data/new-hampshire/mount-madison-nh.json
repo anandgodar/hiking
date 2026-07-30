@@ -119,7 +119,7 @@
       "id": "bded7c78",
       "name": "Valley Way Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 8.2,
       "elevation_gain": 4260,
       "description": "Trail to Mount Madison summit.",
@@ -150,13 +150,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 8.2,
+        "distance": 9.0,
         "gain": 4260,
         "max_elev": 5357,
         "min_elev": 1303,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 4.9
+        "difficulty": "Strenuous",
+        "time": 5.0,
+        "route_length_mi": 4.5,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -1483,7 +1486,10 @@
         "min_elev": 1635,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 4.9
+        "time": 4.9,
+        "route_length_mi": 3.46,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -2682,7 +2688,10 @@
         "min_elev": 1211,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 5.1
+        "time": 5.1,
+        "route_length_mi": 5.93,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

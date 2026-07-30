@@ -82,7 +82,7 @@
       "id": "6c6eeba3",
       "name": "Lincoln Woods to Owl's Head",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 18.0,
       "elevation_gain": 3110,
       "description": "Remote peak with multiple river crossings. Most challenging NH 4K logistically.",
@@ -109,13 +109,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 18.0,
+        "distance": 17.3,
         "gain": 3110,
         "max_elev": 4006,
         "min_elev": 1147,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 7.6
+        "difficulty": "Strenuous",
+        "time": 7.5,
+        "route_length_mi": 8.65,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

@@ -140,7 +140,7 @@
       "id": "124b9f72",
       "name": "Kinsman Ridge Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 4.2,
       "elevation_gain": 2507,
       "description": "Trail to Cannon Mountain summit.",
@@ -171,13 +171,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.2,
+        "distance": 8.5,
         "gain": 2507,
         "max_elev": 4068,
         "min_elev": 1753,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 2.7
+        "difficulty": "Strenuous",
+        "time": 4.0,
+        "route_length_mi": 4.26,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -2246,7 +2249,7 @@
       "id": "1e9a9bca",
       "name": "Hi-Cannon Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 4.2,
       "elevation_gain": 2507,
       "description": "Trail to Cannon Mountain summit.",
@@ -2273,13 +2276,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 4.2,
+        "distance": 8.5,
         "gain": 2507,
         "max_elev": 4068,
         "min_elev": 1753,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 2.7
+        "difficulty": "Strenuous",
+        "time": 4.0,
+        "route_length_mi": 4.26,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -4367,7 +4373,10 @@
         "min_elev": 1754,
         "type": "Loop",
         "difficulty": "Hard",
-        "time": 2.7
+        "time": 2.7,
+        "route_length_mi": 5.59,
+        "distance_type": "loop",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -7399,7 +7408,10 @@
         "min_elev": 1754,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 1.9
+        "time": 1.9,
+        "route_length_mi": 2.22,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

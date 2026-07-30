@@ -101,7 +101,7 @@
       "id": "065e66ca",
       "name": "Edmands Path",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 6.6,
       "elevation_gain": 2147,
       "description": "Gradual, well-graded trail to Eisenhower summit.",
@@ -128,13 +128,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.6,
+        "distance": 6.0,
         "gain": 2147,
         "max_elev": 4758,
         "min_elev": 2901,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 3.3
+        "difficulty": "Strenuous",
+        "time": 3.0,
+        "route_length_mi": 3.02,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -2006,7 +2009,10 @@
         "min_elev": 1890,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 3.7
+        "time": 3.7,
+        "route_length_mi": 4.23,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

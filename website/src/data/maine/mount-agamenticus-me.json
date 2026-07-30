@@ -133,10 +133,13 @@
         "min_elev": 692,
         "type": "Loop",
         "difficulty": "Easy",
-        "time": 0.7,
+        "time": 0.5,
         "_distance_source": "calculated",
         "_original_calculated_gain": 0,
-        "_elevation_source": "seed_override"
+        "_elevation_source": "seed_override",
+        "route_length_mi": 1.65,
+        "distance_type": "loop",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

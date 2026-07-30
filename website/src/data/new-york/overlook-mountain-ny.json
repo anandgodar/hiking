@@ -84,11 +84,14 @@
         ]
       },
       "stats": {
-        "distance": 3.9,
+        "distance": 3.8,
         "gain": 323,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 2.8
+        "difficulty": "Easy",
+        "time": 1.5,
+        "route_length_mi": 1.92,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -840,7 +843,7 @@
           ]
         }
       },
-      "difficulty": "Moderate"
+      "difficulty": "Easy"
     }
   ],
   "data_sources": {

@@ -83,7 +83,7 @@
       "id": "70c3a1bb",
       "name": "Lincoln Woods to Bondcliff",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 17.8,
       "elevation_gain": 3341,
       "description": "Classic route to one of NH's most iconic viewpoints.",
@@ -110,13 +110,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 17.8,
+        "distance": 17.4,
         "gain": 3341,
         "max_elev": 4221,
         "min_elev": 1147,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 7.6
+        "difficulty": "Strenuous",
+        "time": 7.5,
+        "route_length_mi": 8.72,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

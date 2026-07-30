@@ -83,7 +83,7 @@
       "id": "199fcd2b",
       "name": "Franconia Ridge Loop (via Falling Waters)",
       "type": "Loop",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 7.8,
       "elevation_gain": 3900,
       "description": "Trail to Mount Lincoln summit.",
@@ -114,13 +114,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 7.8,
+        "distance": 7.1,
         "gain": 3900,
         "max_elev": 5017,
         "min_elev": 1754,
         "type": "Loop",
-        "difficulty": "Hard",
-        "time": 4.5
+        "difficulty": "Strenuous",
+        "time": 4.5,
+        "route_length_mi": 7.15,
+        "distance_type": "loop",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

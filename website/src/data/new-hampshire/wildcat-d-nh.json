@@ -101,7 +101,7 @@
       "id": "107e6d7c",
       "name": "Wildcat Ridge Trail to D",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 5.6,
       "elevation_gain": 2318,
       "description": "Trail to Wildcat D with gondola views option.",
@@ -132,13 +132,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.6,
+        "distance": 5.7,
         "gain": 2318,
         "max_elev": 4035,
         "min_elev": 1943,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 3.0
+        "difficulty": "Strenuous",
+        "time": 3.0,
+        "route_length_mi": 2.83,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -1548,7 +1551,10 @@
         "min_elev": 3643,
         "type": "Point to Point",
         "difficulty": "Easy",
-        "time": 0.6
+        "time": 0.6,
+        "route_length_mi": 0.78,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

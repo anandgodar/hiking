@@ -134,7 +134,10 @@
         "min_elev": 1149,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 7.2
+        "time": 7.2,
+        "route_length_mi": 11.77,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [
@@ -4901,7 +4904,7 @@
       "id": "ee40b5e5",
       "name": "Glen Boulder Trail to Isolation",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 12.0,
       "elevation_gain": 3924,
       "description": "Strenuous route via Boott Spur Link and Davis Path.",
@@ -4928,13 +4931,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 12.0,
+        "distance": 12.4,
         "gain": 3924,
         "max_elev": 5175,
         "min_elev": 2015,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 6.0
+        "difficulty": "Strenuous",
+        "time": 6.0,
+        "route_length_mi": 6.18,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

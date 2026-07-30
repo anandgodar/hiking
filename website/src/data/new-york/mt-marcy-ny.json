@@ -109,8 +109,11 @@
         "distance": 14.0,
         "gain": 3552,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 11.1
+        "difficulty": "Strenuous",
+        "time": 6.5,
+        "route_length_mi": 7.01,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -2496,7 +2499,7 @@
           ]
         }
       },
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "features": [
         {
           "name": "Phelps Brook Lean-to",

@@ -148,8 +148,14 @@ def lead_para(d, t, stats):
                          f" a {diff} outing")
         else:
             character = "a gradual walk with modest climbing"
-        head += (f" The {rname} covers {dist} miles with about {fmt(gain)} feet"
-                 f" of elevation gain — {character}.")
+        # State the distance basis explicitly. `distance` is the HIKED
+        # distance (twice the geometry for an out-and-back), so an unlabeled
+        # number would leave the reader guessing which one it is.
+        dtype = stats.get("distance_type")
+        basis = (" round trip (out-and-back)" if dtype == "out-and-back"
+                 else " (loop)" if dtype == "loop" else "")
+        head += (f" The {rname} covers {dist} miles{basis} with about"
+                 f" {fmt(gain)} feet of elevation gain — {character}.")
         if diff and per_mi > 350:
             head += f" It's rated {diff} overall."
     return f"<p>{head}</p>"
@@ -353,11 +359,14 @@ def build_faqs(d):
     dist, gain, time = stats.get("distance"), stats.get("gain"), stats.get("time")
     diff = t.get("difficulty") or stats.get("difficulty")
     faqs = []
+    dtype = stats.get("distance_type")
+    basis = (" round trip" if dtype == "out-and-back"
+             else " as a loop" if dtype == "loop" else "")
     if time and dist:
         faqs.append({
             "question": f"How long does it take to hike {name}?",
-            "answer": (f"The {t.get('name') or 'main route'} is {dist} miles with about"
-                       f" {fmt(gain)} feet of elevation gain, and most hikers take"
+            "answer": (f"The {t.get('name') or 'main route'} is {dist} miles{basis} with"
+                       f" about {fmt(gain)} feet of elevation gain, and most hikers take"
                        f" roughly {time} hours of moving time. Add time for breaks"
                        " and conditions — winter or wet weather can double the trip."),
         })
@@ -365,7 +374,7 @@ def build_faqs(d):
         faqs.append({
             "question": f"How hard is the {name} hike?",
             "answer": (f"It's rated {diff} using the National Park Service difficulty"
-                       f" formula ({dist} miles, {fmt(gain)} ft of gain — about"
+                       f" formula ({dist} miles{basis}, {fmt(gain)} ft of gain — about"
                        f" {int(round((gain / dist) / 50.0) * 50):,} ft of climbing per mile)."
                        " The elevation profile on this page shows exactly where the"
                        " steep sections fall."),

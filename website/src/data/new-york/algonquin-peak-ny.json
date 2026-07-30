@@ -102,8 +102,11 @@
         "distance": 7.3,
         "gain": 3007,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 6.4
+        "difficulty": "Strenuous",
+        "time": 4.0,
+        "route_length_mi": 3.63,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -1455,7 +1458,7 @@
           ]
         }
       },
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "features": [
         {
           "name": "Roger's Lookout",

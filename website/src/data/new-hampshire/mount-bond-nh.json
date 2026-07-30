@@ -101,7 +101,7 @@
       "id": "e66f912a",
       "name": "Zealand Trail to Bond",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 19.0,
       "elevation_gain": 4101,
       "description": "Long but scenic route via Zealand Falls Hut to Bond summit.",
@@ -132,13 +132,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 19.0,
+        "distance": 18.7,
         "gain": 4101,
         "max_elev": 4692,
         "min_elev": 1933,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 8.4
+        "difficulty": "Strenuous",
+        "time": 8.5,
+        "route_length_mi": 9.34,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -4691,7 +4694,10 @@
         "min_elev": 1154,
         "type": "Out & Back",
         "difficulty": "Hard",
-        "time": 9.1
+        "time": 9.1,
+        "route_length_mi": 17.02,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

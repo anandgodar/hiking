@@ -11,13 +11,16 @@
   "trails": [
     {
       "name": "Rich Mountain Trail",
-      "difficulty": "Moderate",
+      "difficulty": "Hard",
       "type": "",
       "stats": {
-        "distance": 4.2,
+        "distance": 8.5,
         "gain": 837,
-        "time": 2.0,
-        "difficulty": "Moderate"
+        "time": 3.5,
+        "difficulty": "Hard",
+        "route_length_mi": 4.23,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -773,7 +776,7 @@
       "features": []
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Rich Mountain</strong> rises to 3,025 feet in South Carolina.</p>\n  <h3>When to Go</h3><p>This trail is hikeable most of the year. Summer brings heat and humidity \u2014 carry extra water \u2014 while fall and spring offer the most comfortable conditions. Ice is possible on shaded stretches in mid-winter.</p>\n  <h3>Know Before You Go</h3><p>Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Bryant Mountain, Hogback Mountain and Corbin Mountain \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Rich Mountain</strong> rises to 3,025 feet in South Carolina. The Rich Mountain Trail covers 8.5 miles round trip (out-and-back) with about 837 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Hard outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. From the trailhead at about 2,795 feet, the route tops out near 2,923 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=35.19396,-82.29328\" target=\"_blank\" rel=\"noopener\">35.19396, -82.29328</a> (tap for driving directions). It's roughly 30 miles southeast of Asheville, North Carolina. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>This trail is hikeable most of the year. Summer brings heat and humidity \u2014 carry extra water \u2014 while fall and spring offer the most comfortable conditions. Ice is possible on shaded stretches in mid-winter.</p>\n  <h3>Know Before You Go</h3><p>The Hard rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 3.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Bryant Mountain, Hogback Mountain and Corbin Mountain \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Bryant Mountain",
@@ -806,6 +809,18 @@
   ],
   "page_content": {
     "faqs": [
+      {
+        "question": "How long does it take to hike Rich Mountain?",
+        "answer": "The Rich Mountain Trail is 8.5 miles round trip with about 837 feet of elevation gain, and most hikers take roughly 3.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+      },
+      {
+        "question": "How hard is the Rich Mountain hike?",
+        "answer": "It's rated Hard using the National Park Service difficulty formula (8.5 miles round trip, 837 ft of gain \u2014 about 100 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+      },
+      {
+        "question": "Where is the Rich Mountain trailhead?",
+        "answer": "The trailhead is at 35.19396, -82.29328 in South Carolina. Use the driving-directions link in the Getting There section above, and note that parking at popular trailheads fills early on weekends."
+      },
       {
         "question": "Are dogs allowed on the Rich Mountain trail?",
         "answer": "Rules vary by land manager \u2014 national parks often prohibit dogs on trails, while most national forests allow them on leash. Check with the managing agency for this trail before bringing your dog, and pack out waste."

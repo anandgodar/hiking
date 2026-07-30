@@ -67,7 +67,7 @@
       "id": "c72c2db3",
       "name": "Mount Hor Trail",
       "type": "Out & Back",
-      "difficulty": "Easy",
+      "difficulty": "Moderate",
       "distance_miles": 3.6,
       "elevation_gain": 700,
       "description": "Moderate climb with stunning Lake Willoughby views.",
@@ -97,15 +97,18 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 3.6,
+        "distance": 3.8,
         "gain": 700,
         "max_elev": 1617,
         "min_elev": 1309,
         "type": "Out & Back",
-        "difficulty": "Easy",
-        "time": 1.0,
+        "difficulty": "Moderate",
+        "time": 1.5,
         "_distance_source": "calculated",
-        "_original_calculated_gain": 57
+        "_original_calculated_gain": 57,
+        "route_length_mi": 1.91,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

@@ -141,7 +141,7 @@
       "id": "6478793a",
       "name": "Beehive Loop Trail",
       "type": "Loop",
-      "difficulty": "Hard",
+      "difficulty": "Easy",
       "distance_miles": 1.1,
       "elevation_gain": 488,
       "description": "Thrilling climb with iron rungs and ladders. Not for those afraid of heights.",
@@ -172,15 +172,18 @@
         "shuttle": "Island Explorer available"
       },
       "stats": {
-        "distance": 1.1,
+        "distance": 2.1,
         "gain": 488,
         "max_elev": 329,
         "min_elev": 35,
         "type": "Loop",
-        "difficulty": "Hard",
-        "time": 0.5,
+        "difficulty": "Easy",
+        "time": 1.0,
         "_distance_source": "calculated",
-        "_elevation_source": "calculated"
+        "_elevation_source": "calculated",
+        "route_length_mi": 1.06,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

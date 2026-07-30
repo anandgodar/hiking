@@ -113,7 +113,10 @@
         "min_elev": 3254,
         "type": "Out & Back",
         "difficulty": "Moderate",
-        "time": 1.9
+        "time": 1.9,
+        "route_length_mi": 0.53,
+        "distance_type": "out-and-back",
+        "distance_source": "authored"
       },
       "geo": {
         "path": [

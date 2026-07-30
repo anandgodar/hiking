@@ -6,6 +6,7 @@
  * NOTE: For truly dynamic links, this would need to receive available states as props
  */
 import { isPublishReady } from '../lib/publishReady.js';
+import { trailCount } from '../lib/siteStats.js';
 
 const currentYear = new Date().getFullYear();
 
@@ -43,7 +44,7 @@ const defaultState = 'new-hampshire';
                     <span class="font-black tracking-widest uppercase text-xl">Summit Seeker</span>
                 </div>
                 <p class="text-stone-400 leading-relaxed mb-6 pr-6">
-                    An open trail database for the United States — verified routes, maps and conditions for 800+ summits, built from official public sources.
+                    An open trail database for the United States — verified routes, maps and conditions for {trailCount} summits, built from official public sources.
                 </p>
                 <div class="flex gap-4 text-stone-400">
                     <!-- Twitter/X -->

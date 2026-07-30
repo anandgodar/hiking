@@ -119,7 +119,7 @@
       "id": "bb7fdd09",
       "name": "Flume Slide Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 6.2,
       "elevation_gain": 3167,
       "description": "Trail to Mount Flume summit.",
@@ -150,13 +150,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.2,
+        "distance": 12.0,
         "gain": 3167,
         "max_elev": 4310,
         "min_elev": 1428,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 3.7
+        "difficulty": "Strenuous",
+        "time": 5.5,
+        "route_length_mi": 5.98,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -3142,7 +3145,7 @@
       "id": "ded934eb",
       "name": "Osseo Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 6.4,
       "elevation_gain": 3518,
       "description": "Trail to Mount Flume summit.",
@@ -3169,13 +3172,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.4,
+        "distance": 13.1,
         "gain": 3518,
         "max_elev": 4310,
         "min_elev": 1028,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 3.9
+        "difficulty": "Strenuous",
+        "time": 6.0,
+        "route_length_mi": 6.53,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
@@ -5105,7 +5111,7 @@
       "id": "0e60453c",
       "name": "Lincoln Woods & Osseo Trail",
       "type": "Out & Back",
-      "difficulty": "Hard",
+      "difficulty": "Strenuous",
       "distance_miles": 6.4,
       "elevation_gain": 3518,
       "description": "Trail to Mount Flume summit.",
@@ -5132,13 +5138,16 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 6.4,
+        "distance": 13.1,
         "gain": 3518,
         "max_elev": 4310,
         "min_elev": 1028,
         "type": "Out & Back",
-        "difficulty": "Hard",
-        "time": 3.9
+        "difficulty": "Strenuous",
+        "time": 6.0,
+        "route_length_mi": 6.53,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

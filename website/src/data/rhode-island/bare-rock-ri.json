@@ -17,7 +17,10 @@
         "distance": 0.6,
         "gain": 125,
         "time": 0.5,
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "route_length_mi": 0.59,
+        "distance_type": "loop",
+        "distance_source": "computed"
       },
       "parking_info": "Trailhead parking",
       "parking_details": {
@@ -593,7 +596,7 @@
       "features": []
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 259 feet, <strong>Bare Rock</strong> is a summit in Rhode Island. The Bare Rock Trail covers 0.6 miles with about 125 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=41.86874,-71.52886\" target=\"_blank\" rel=\"noopener\">41.86874, -71.52886</a> (tap for driving directions). It's roughly 60 miles east of Hartford, Connecticut. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Spring through fall is the main season. Conditions change fast in the shoulder months \u2014 check a point forecast for the summit, not the nearest town, before you commit.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Cat Rocks, Snake Den and Round Rocks \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 259 feet, <strong>Bare Rock</strong> is a summit in Rhode Island. The Bare Rock Trail covers 0.6 miles (loop) with about 125 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=41.86874,-71.52886\" target=\"_blank\" rel=\"noopener\">41.86874, -71.52886</a> (tap for driving directions). It's roughly 60 miles east of Hartford, Connecticut. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Spring through fall is the main season. Conditions change fast in the shoulder months \u2014 check a point forecast for the summit, not the nearest town, before you commit.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Cat Rocks, Snake Den and Round Rocks \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Cat Rocks",
@@ -628,11 +631,11 @@
     "faqs": [
       {
         "question": "How long does it take to hike Bare Rock?",
-        "answer": "The Bare Rock Trail is 0.6 miles with about 125 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+        "answer": "The Bare Rock Trail is 0.6 miles as a loop with about 125 feet of elevation gain, and most hikers take roughly 0.5 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
       },
       {
         "question": "How hard is the Bare Rock hike?",
-        "answer": "It's rated Easy using the National Park Service difficulty formula (0.6 miles, 125 ft of gain \u2014 about 200 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+        "answer": "It's rated Easy using the National Park Service difficulty formula (0.6 miles as a loop, 125 ft of gain \u2014 about 200 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
       },
       {
         "question": "Where is the Bare Rock trailhead?",

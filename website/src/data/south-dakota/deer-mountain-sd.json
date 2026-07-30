@@ -11,13 +11,16 @@
   "trails": [
     {
       "name": "Deer Mountain Trail",
-      "difficulty": "Easy",
+      "difficulty": "Moderate",
       "type": "",
       "stats": {
-        "distance": 2.5,
+        "distance": 5.1,
         "gain": 434,
-        "time": 1.0,
-        "difficulty": "Easy"
+        "time": 2.0,
+        "difficulty": "Moderate",
+        "route_length_mi": 2.55,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -658,7 +661,7 @@
       "features": []
     }
   ],
-  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Deer Mountain</strong> is a 6,650-foot summit in South Dakota. The Deer Mountain Trail covers 2.5 miles with about 434 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>The grade is back-loaded: the first half of the route climbs gently, and most of the elevation gain comes in the second half.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=44.25103,-103.79661\" target=\"_blank\" rel=\"noopener\">44.25103, -103.79661</a> (tap for driving directions). It's roughly 30 miles northwest of Rapid City, South Dakota. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 1.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Terry Peak, Custer Peak and Laird Peak \u2014 each has its own guide on this site.</p>\n</div>",
+  "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Deer Mountain</strong> is a 6,650-foot summit in South Dakota. The Deer Mountain Trail covers 5.1 miles round trip (out-and-back) with about 434 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=44.25103,-103.79661\" target=\"_blank\" rel=\"noopener\">44.25103, -103.79661</a> (tap for driving directions). It's roughly 30 miles northwest of Rapid City, South Dakota. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Moderate rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 2.0 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Terry Peak, Custer Peak and Laird Peak \u2014 each has its own guide on this site.</p>\n</div>",
   "nearby_peaks": [
     {
       "name": "Terry Peak",
@@ -693,11 +696,11 @@
     "faqs": [
       {
         "question": "How long does it take to hike Deer Mountain?",
-        "answer": "The Deer Mountain Trail is 2.5 miles with about 434 feet of elevation gain, and most hikers take roughly 1.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
+        "answer": "The Deer Mountain Trail is 5.1 miles round trip with about 434 feet of elevation gain, and most hikers take roughly 2.0 hours of moving time. Add time for breaks and conditions \u2014 winter or wet weather can double the trip."
       },
       {
         "question": "How hard is the Deer Mountain hike?",
-        "answer": "It's rated Easy using the National Park Service difficulty formula (2.5 miles, 434 ft of gain \u2014 about 150 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
+        "answer": "It's rated Moderate using the National Park Service difficulty formula (5.1 miles round trip, 434 ft of gain \u2014 about 100 ft of climbing per mile). The elevation profile on this page shows exactly where the steep sections fall."
       },
       {
         "question": "Where is the Deer Mountain trailhead?",

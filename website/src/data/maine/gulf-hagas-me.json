@@ -150,7 +150,7 @@
       "id": "c27ff5e7",
       "name": "Rim Trail Loop",
       "type": "Loop",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 8.7,
       "elevation_gain": 950,
       "description": "Grand Canyon of Maine. Loop passes 5+ waterfalls in slate gorge.",
@@ -181,16 +181,19 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 8.7,
+        "distance": 17.3,
         "gain": 950,
         "max_elev": 1200,
         "min_elev": 1200,
         "type": "Loop",
-        "difficulty": "Moderate",
-        "time": 3.4,
+        "difficulty": "Strenuous",
+        "time": 6.0,
         "_distance_source": "calculated",
         "_original_calculated_gain": 0,
-        "_elevation_source": "seed_override"
+        "_elevation_source": "seed_override",
+        "route_length_mi": 8.67,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [

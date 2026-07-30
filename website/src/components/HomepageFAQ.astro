@@ -5,10 +5,12 @@
  * Includes FAQ Schema markup
  */
 
+import { trailCount, stateCount } from '../lib/siteStats.js';
+
 const faqs = [
   {
     question: "What are the best summit hikes in the United States?",
-    answer: "Iconic summit hikes span every region: Mount Washington in New Hampshire, Mount Marcy in New York's Adirondacks, Grays Peak and other Colorado 14ers, Mount Whitney in California (highest peak in the lower 48), Mount Mansfield in Vermont, and Clingmans Dome on the Tennessee–North Carolina border. SummitSeeker covers 900+ verified summit trails across all 50 states, each with a mapped route, elevation profile, and difficulty rating."
+    answer: `Iconic summit hikes span every region: Mount Washington in New Hampshire, Mount Marcy in New York's Adirondacks, Grays Peak and other Colorado 14ers, Mount Whitney in California (highest peak in the lower 48), Mount Mansfield in Vermont, and Clingmans Dome on the Tennessee–North Carolina border. SummitSeeker covers ${trailCount} verified summit trails across ${stateCount} states, each with a mapped route, elevation profile, and difficulty rating.`
   },
   {
     question: "When is the best time of year to hike?",

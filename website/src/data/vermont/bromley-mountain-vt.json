@@ -63,7 +63,7 @@
       "id": "c6451b76",
       "name": "Long Trail (from Route 11/30)",
       "type": "Out & Back",
-      "difficulty": "Moderate",
+      "difficulty": "Strenuous",
       "distance_miles": 5.1,
       "elevation_gain": 1460,
       "description": "Scenic section of Long Trail to observation deck.",
@@ -92,14 +92,17 @@
         "shuttle": null
       },
       "stats": {
-        "distance": 5.1,
+        "distance": 10.2,
         "gain": 1460,
         "max_elev": 2515,
         "min_elev": 1846,
         "type": "Out & Back",
-        "difficulty": "Moderate",
-        "time": 2.2,
-        "_distance_source": "calculated"
+        "difficulty": "Strenuous",
+        "time": 4.0,
+        "_distance_source": "calculated",
+        "route_length_mi": 5.11,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "geo": {
         "path": [
