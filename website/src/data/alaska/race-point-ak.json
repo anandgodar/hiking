@@ -6,7 +6,7 @@
   "elevation": 3022,
   "lat": 60.10987,
   "lon": -149.47413,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Marathon.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -938,5 +938,11 @@
     "id": 4557078265,
     "prominence_m": null,
     "wikidata": "Q17019951"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Marathon.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "J from Seattle, USA"
   }
 }
