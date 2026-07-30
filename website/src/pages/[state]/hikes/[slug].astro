@@ -134,6 +134,22 @@ const trailCount = trails.length;
 // Get first trail's difficulty
 const firstTrailDifficulty = trails[0]?.difficulty || trails[0]?.stats?.difficulty || null;
 
+// Some curated routes carry a verified guidebook distance while the only
+// public-domain geometry available covers part of the route. Rather than
+// silently drawing a short line as if it were the whole hike, say so — and
+// give the numbers that ARE verified.
+const primaryStats = trails[0]?.stats || {};
+// route_length_mi is ONE traverse, so an out-and-back's geometry should be
+// about half its hiked distance — comparing against the full figure would
+// flag every healthy out-and-back as partial.
+const expectedRouteLength = primaryStats.distance_type === 'loop'
+  ? primaryStats.distance
+  : primaryStats.distance / 2;
+const partialRoute = primaryStats.distance_source === 'authored'
+  && primaryStats.route_length_mi
+  && primaryStats.distance
+  && primaryStats.route_length_mi < expectedRouteLength * 0.7;
+
 // Islands serialize their props into the HTML. TrailDashboard only reads
 // these fields — passing the full mountain (seo schema, description HTML,
 // page_content) roughly doubled trail-page weight (~300 KB of props).
@@ -246,6 +262,21 @@ const dashboardMountain = {
       <!-- Trail Dashboard - Shows when trail data exists (either trails or trails_config) -->
       {hasTrails && (
         <section class="mt-8 relative z-10 mb-12" id="trails">
+          {partialRoute && (
+            <div class="mb-4 flex items-start gap-3 rounded-xl border border-amber-200 bg-amber-50 p-4">
+              <svg class="mt-0.5 h-5 w-5 flex-shrink-0 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+              </svg>
+              <p class="text-sm text-amber-900">
+                <strong>Partial route shown.</strong> The {primaryStats.distance} mi
+                distance and {primaryStats.gain?.toLocaleString()} ft of gain for this hike are
+                verified, but public trail data currently maps only part of the
+                route — the line below is incomplete. Carry an official map and
+                don't navigate from this track alone.
+              </p>
+            </div>
+          )}
           <TrailDashboard
             client:only="react"
             mountain={dashboardMountain}
