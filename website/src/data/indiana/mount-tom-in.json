@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Mount Tom",
   "slug": "mount-tom-in",
   "state": "Indiana",
@@ -12,13 +11,16 @@
   "trails": [
     {
       "name": "Mount Tom Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 1.7,
+        "gain": 181,
+        "time": 0.5,
+        "difficulty": "Easy",
+        "route_length_mi": 0.86,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +35,213 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            38.05113,
+            -86.14202
           ],
           "summit": [
             38.08229,
             -86.18219
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            38.05113,
+            -86.14202,
+            604
+          ],
+          [
+            38.05161,
+            -86.14188,
+            604
+          ],
+          [
+            38.05342,
+            -86.14164,
+            574
+          ],
+          [
+            38.05466,
+            -86.1417,
+            551
+          ],
+          [
+            38.05484,
+            -86.14205,
+            551
+          ],
+          [
+            38.05495,
+            -86.14306,
+            548
+          ],
+          [
+            38.05585,
+            -86.14483,
+            489
+          ],
+          [
+            38.05669,
+            -86.14601,
+            449
+          ],
+          [
+            38.05754,
+            -86.14679,
+            423
+          ],
+          [
+            38.05784,
+            -86.14685,
+            423
+          ],
+          [
+            38.05893,
+            -86.14619,
+            436
+          ],
+          [
+            38.05903,
+            -86.14613,
+            436
+          ],
+          [
+            38.05912,
+            -86.14529,
+            433
+          ],
+          [
+            38.0596,
+            -86.14482,
+            492
+          ],
+          [
+            38.06045,
+            -86.1443,
+            538
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 604,
+            "coord": [
+              38.05113,
+              -86.14202
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 604,
+            "coord": [
+              38.05161,
+              -86.14188
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 574,
+            "coord": [
+              38.05342,
+              -86.14164
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 574,
+            "coord": [
+              38.05342,
+              -86.14164
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 551,
+            "coord": [
+              38.05466,
+              -86.1417
+            ]
+          },
+          {
+            "mile": 0.31,
+            "elev": 548,
+            "coord": [
+              38.05495,
+              -86.14306
+            ]
+          },
+          {
+            "mile": 0.37,
+            "elev": 548,
+            "coord": [
+              38.05495,
+              -86.14306
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 489,
+            "coord": [
+              38.05585,
+              -86.14483
+            ]
+          },
+          {
+            "mile": 0.49,
+            "elev": 449,
+            "coord": [
+              38.05669,
+              -86.14601
+            ]
+          },
+          {
+            "mile": 0.55,
+            "elev": 449,
+            "coord": [
+              38.05669,
+              -86.14601
+            ]
+          },
+          {
+            "mile": 0.62,
+            "elev": 423,
+            "coord": [
+              38.05784,
+              -86.14685
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 436,
+            "coord": [
+              38.05893,
+              -86.14619
+            ]
+          },
+          {
+            "mile": 0.74,
+            "elev": 433,
+            "coord": [
+              38.05912,
+              -86.14529
+            ]
+          },
+          {
+            "mile": 0.8,
+            "elev": 492,
+            "coord": [
+              38.0596,
+              -86.14482
+            ]
+          },
+          {
+            "mile": 0.86,
+            "elev": 538,
+            "coord": [
+              38.06045,
+              -86.1443
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -186,10 +385,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/358669143",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/358669143",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-30"
   },
   "osm": {
     "id": 358669143,

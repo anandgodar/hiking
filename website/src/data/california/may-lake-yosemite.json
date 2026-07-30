@@ -6,7 +6,7 @@
   "elevation": 9329,
   "lat": 37.8425,
   "lon": -119.491,
-  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=2000",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hoffmann_reflection_May_Lake.jpg?width=1600",
   "tags": [
     "easy",
     "alpine lake",
@@ -963,5 +963,11 @@
       "elevation": 4100,
       "distance_miles": 7.7
     }
-  ]
+  ],
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount_Hoffmann_reflection_May_Lake.jpg",
+    "license": "CC BY 2.0",
+    "artist": "David McCracken"
+  }
 }

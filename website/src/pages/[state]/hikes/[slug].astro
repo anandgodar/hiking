@@ -122,6 +122,18 @@ if (mountain.lat && mountain.lon) {
 }
 
 // Extract page content
+// No local default-hero asset exists, so this used to render a broken <img>
+// on every trail without its own photo (591 live pages). A generic mountain
+// photo is a reasonable placeholder, but claiming it IS this peak (the old
+// alt text always said "{name} summit view") would be misleading — the alt
+// text and a small on-image label only make that claim when it's real.
+const DEFAULT_HERO = 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000';
+const hasRealHero = Boolean(mountain.mountain_hero);
+const heroSrc = mountain.mountain_hero || DEFAULT_HERO;
+const heroAlt = hasRealHero
+  ? `${mountain.name} summit view`
+  : 'Mountain wilderness landscape (photo not yet available for this specific peak)';
+
 const pageContent = mountain.page_content || {};
 const engagement = mountain.engagement || {};
 const seo = mountain.seo || {};
@@ -173,13 +185,18 @@ const dashboardMountain = {
     <section class="hero relative h-[70vh] min-h-[500px] overflow-hidden">
       <div class="absolute inset-0">
         <img
-          src={mountain.mountain_hero || '/images/default-hero.jpg'}
-          alt={`${mountain.name} summit view`}
+          src={heroSrc}
+          alt={heroAlt}
           class="w-full h-full object-cover"
           loading="eager"
           fetchpriority="high"
         />
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+        {!hasRealHero && (
+          <div class="absolute bottom-2 right-3 text-[11px] text-white/60 bg-black/30 rounded px-2 py-0.5 z-10">
+            Representative photo — not {mountain.name}
+          </div>
+        )}
         {mountain.hero_credit && (
           <a href={mountain.hero_credit.file} target="_blank" rel="noopener"
              class="absolute bottom-2 right-3 text-[11px] text-white/60 hover:text-white/90 bg-black/30 rounded px-2 py-0.5 z-10">

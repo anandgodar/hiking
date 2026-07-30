@@ -6,7 +6,7 @@
   "elevation": 5446,
   "lat": 61.10345,
   "lon": -149.51522,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Williwaw.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -937,5 +937,11 @@
     "id": 3413956890,
     "prominence_m": null,
     "wikidata": "Q49055203"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Williwaw.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Paxson Woelber"
   }
 }

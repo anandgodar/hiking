@@ -15,10 +15,13 @@
       "difficulty": "",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
+        "distance": 2.0,
+        "gain": 6,
         "time": null,
-        "difficulty": ""
+        "difficulty": "",
+        "route_length_mi": 1.0,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +36,148 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            42.68642,
+            -92.86915
           ],
           "summit": [
             42.72275,
             -92.88853
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            42.68642,
+            -92.86915,
+            945
+          ],
+          [
+            42.68635,
+            -92.88892,
+            951
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 945,
+            "coord": [
+              42.68642,
+              -92.86915
+            ]
+          },
+          {
+            "mile": 0.07,
+            "elev": 945,
+            "coord": [
+              42.68642,
+              -92.86915
+            ]
+          },
+          {
+            "mile": 0.14,
+            "elev": 945,
+            "coord": [
+              42.68642,
+              -92.86915
+            ]
+          },
+          {
+            "mile": 0.22,
+            "elev": 945,
+            "coord": [
+              42.68642,
+              -92.86915
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 945,
+            "coord": [
+              42.68642,
+              -92.86915
+            ]
+          },
+          {
+            "mile": 0.36,
+            "elev": 945,
+            "coord": [
+              42.68642,
+              -92.86915
+            ]
+          },
+          {
+            "mile": 0.43,
+            "elev": 945,
+            "coord": [
+              42.68642,
+              -92.86915
+            ]
+          },
+          {
+            "mile": 0.5,
+            "elev": 945,
+            "coord": [
+              42.68642,
+              -92.86915
+            ]
+          },
+          {
+            "mile": 0.57,
+            "elev": 951,
+            "coord": [
+              42.68635,
+              -92.88892
+            ]
+          },
+          {
+            "mile": 0.65,
+            "elev": 951,
+            "coord": [
+              42.68635,
+              -92.88892
+            ]
+          },
+          {
+            "mile": 0.72,
+            "elev": 951,
+            "coord": [
+              42.68635,
+              -92.88892
+            ]
+          },
+          {
+            "mile": 0.79,
+            "elev": 951,
+            "coord": [
+              42.68635,
+              -92.88892
+            ]
+          },
+          {
+            "mile": 0.86,
+            "elev": 951,
+            "coord": [
+              42.68635,
+              -92.88892
+            ]
+          },
+          {
+            "mile": 0.93,
+            "elev": 951,
+            "coord": [
+              42.68635,
+              -92.88892
+            ]
+          },
+          {
+            "mile": 1.0,
+            "elev": 951,
+            "coord": [
+              42.68635,
+              -92.88892
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -186,10 +321,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/354302658",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/354302658",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-30"
   },
   "osm": {
     "id": 354302658,

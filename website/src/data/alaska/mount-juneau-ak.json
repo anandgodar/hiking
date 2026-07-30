@@ -6,7 +6,7 @@
   "elevation": 3576,
   "lat": 58.31896,
   "lon": -134.40862,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Juneau%20Alaska.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -937,5 +937,11 @@
     "id": 2516676954,
     "prominence_m": null,
     "wikidata": "Q130544"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Juneau%20Alaska.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Bill & Vicki Tracey from Rochelle Illinois, usa"
   }
 }

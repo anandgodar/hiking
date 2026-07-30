@@ -6,7 +6,7 @@
   "elevation": 485,
   "lat": 43.9022,
   "lon": -70.1728,
-  "mountain_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Bradbury_Mountain_State_Park.jpg?width=1600",
   "state_hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
   "tags": [
     "easy",
@@ -1170,5 +1170,11 @@
     "distance_source": "Maine Bureau of Parks trail guides",
     "notes": "Trail data from Maine state parks and public lands. Elevations from USGS benchmarks.",
     "poi_source": "OpenStreetMap contributors (ODbL)"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Bradbury_Mountain_State_Park.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Paul VanDerWerf from Brunswick, Maine, USA"
   }
 }
