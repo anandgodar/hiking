@@ -22,13 +22,13 @@
         "distance_type": "out-and-back",
         "distance_source": "computed"
       },
-      "parking_info": "",
+      "parking_info": "Trailhead parking",
       "parking_details": {
         "fee": "",
         "location": "",
         "coords": [
-          null,
-          null
+          58.24545,
+          -134.29587
         ]
       },
       "tags": [],
@@ -611,7 +611,8 @@
     "gps_source": "USFS National Forest System Trails (public domain)",
     "osm_node": "https://www.openstreetmap.org/node/2516676960",
     "verification_date": "2026-07-30",
-    "route_verified": "2026-07-30"
+    "route_verified": "2026-07-30",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 2516676960,

@@ -773,7 +773,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Bold Ridge Overlook",
+          "type": "summit",
+          "lat": 61.36121,
+          "lon": -148.95459,
+          "mile": 3.55
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 5,430 feet, <strong>Bleak Peak</strong> is a summit in Alaska. The Bleak Peak Trail covers 7.6 miles round trip (out-and-back) with about 3,602 feet of elevation gain \u2014 a steady climb. It's rated Strenuous overall.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 0.54, gaining roughly 1,600 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 876 feet, the route tops out near 4,452 feet. You'll cross above treeline on the way up, so the upper route is exposed to weather \u2014 check the forecast and turn around if conditions build.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=61.37538,-149.02187\" target=\"_blank\" rel=\"noopener\">61.37538, -149.02187</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 4.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Bright Peak, Pioneer Peak and East Twin Peak \u2014 each has its own guide on this site.</p>\n</div>",
@@ -931,7 +939,8 @@
     "gps_source": "USGS National Map / National Transportation Dataset (public domain)",
     "osm_node": "https://www.openstreetmap.org/node/9943142797",
     "verification_date": "2026-07-30",
-    "route_verified": "2026-07-30"
+    "route_verified": "2026-07-30",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 9943142797,

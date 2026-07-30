@@ -309,7 +309,15 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Coffee Dome",
+          "type": "summit",
+          "lat": 65.09261,
+          "lon": -147.15314,
+          "mile": 6.23
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Coffee Dome</strong> rises to 2,405 feet in Alaska. The Coffee Dome Trail covers 17.7 miles round trip (out-and-back) with about 1,178 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. From the trailhead at about 2,175 feet, the route tops out near 2,277 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=65.15222,-147.00269\" target=\"_blank\" rel=\"noopener\">65.15222, -147.00269</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n</div>",
@@ -430,7 +438,8 @@
     "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/11661367053",
     "verification_date": "2026-07-30",
-    "route_verified": "2026-07-30"
+    "route_verified": "2026-07-30",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 11661367053,

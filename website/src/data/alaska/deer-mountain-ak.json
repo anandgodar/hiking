@@ -773,7 +773,29 @@
           }
         ]
       },
-      "features": []
+      "features": [
+        {
+          "name": "Northbird Mountain",
+          "type": "summit",
+          "lat": 55.37307,
+          "lon": -131.56524,
+          "mile": 3.57
+        },
+        {
+          "name": "Roy Jones Mountain",
+          "type": "summit",
+          "lat": 55.36995,
+          "lon": -131.57039,
+          "mile": 3.87
+        },
+        {
+          "name": "Deer Mountain",
+          "type": "summit",
+          "lat": 55.34301,
+          "lon": -131.59906,
+          "mile": 6.16
+        }
+      ]
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 3,002 feet, <strong>Deer Mountain</strong> is a summit in Alaska. The Deer Mountain Trail covers 15.1 miles round trip (out-and-back) with about 2,881 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Strenuous outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 1.08, gaining roughly 1,500 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 1,270 feet, the route tops out near 3,068 feet.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=55.38055,-131.52195\" target=\"_blank\" rel=\"noopener\">55.38055, -131.52195</a> (tap for driving directions). Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 6.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n  <p>Looking to link objectives or plan a weekend? Nearby summits include Buck Mountain, Achilles Mountain and Fish Mountain \u2014 each has its own guide on this site.</p>\n</div>",
@@ -931,7 +953,8 @@
     "gps_source": "USFS National Forest System Trails (public domain)",
     "osm_node": "https://www.openstreetmap.org/node/2479311314",
     "verification_date": "2026-07-30",
-    "route_verified": "2026-07-30"
+    "route_verified": "2026-07-30",
+    "poi_source": "OpenStreetMap contributors (ODbL)"
   },
   "osm": {
     "id": 2479311314,
