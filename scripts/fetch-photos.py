@@ -63,8 +63,16 @@ def api(url, ctx, retries=3):
 # park-entrance sign. Reject filenames that read as clearly non-scenic.
 NON_SCENIC_FILENAME = re.compile(
     r"\b(post office|entrance|boundary marker|h\.?d\.?,|historic district|"
-    r"plaque|sign\b|parking|restroom|visitor center|city hall|courthouse|"
-    r"town hall|cemetery|church|school|museum)\b", re.I)
+    r"plaque|\bsign\b|parking|restroom|visitor center|city hall|courthouse|"
+    r"town hall|cemetery|church|school|museum|furnace|ironworks|foundry|"
+    r"quarry|\bmill\b|factory)", re.I)
+# Note: no trailing \b on the group as a whole -- several alternatives end
+# in punctuation ("h.d.,"), and \b only fires at a word/non-word transition,
+# so a trailing comma followed by a space never satisfies it. This missed
+# "MOUNT ARLINGTON H.D., ..." (an NRHP building photo) on a live run before
+# the bug was caught. Individual alternatives that are common English words
+# keep their own \b to avoid matching inside longer words (sign vs
+# assignment, mill vs million).
 
 
 def batch_p18(qids, ctx):
