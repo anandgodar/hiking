@@ -6,7 +6,7 @@
   "elevation": 12666,
   "lat": 44.13738,
   "lon": -113.78109,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Borah%202009.JPG?width=1600",
   "tags": [],
   "trails": [
     {
@@ -953,5 +953,11 @@
     "id": 3101308857,
     "prominence_m": "1819",
     "wikidata": "Q893312"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Mount%20Borah%202009.JPG",
+    "license": "Public domain",
+    "artist": "Leaflet"
   }
 }
