@@ -55,6 +55,26 @@ def api(url, ctx, retries=3):
     return {}
 
 
+# A Wikidata item's P18 "image" claim is sometimes a photo of something near
+# the peak rather than the peak itself (a post office, a park-entrance sign,
+# an NRHP historic-district building tagged "H.D." in the standard
+# nomination-photo naming pattern) — real cases hit in this codebase:
+# Sentinel Butte, ND got a post-office photo; Mount Philo, VT got a
+# park-entrance sign. Reject filenames that read as clearly non-scenic.
+NON_SCENIC_FILENAME = re.compile(
+    r"\b(post office|entrance|boundary marker|h\.?d\.?,|historic district|"
+    r"plaque|\bsign\b|parking|restroom|visitor center|city hall|courthouse|"
+    r"town hall|cemetery|church|school|museum|furnace|ironworks|foundry|"
+    r"quarry|\bmill\b|factory)", re.I)
+# Note: no trailing \b on the group as a whole -- several alternatives end
+# in punctuation ("h.d.,"), and \b only fires at a word/non-word transition,
+# so a trailing comma followed by a space never satisfies it. This missed
+# "MOUNT ARLINGTON H.D., ..." (an NRHP building photo) on a live run before
+# the bug was caught. Individual alternatives that are common English words
+# keep their own \b to avoid matching inside longer words (sign vs
+# assignment, mill vs million).
+
+
 def batch_p18(qids, ctx):
     """QID -> Commons filename, 50 at a time via wbgetentities."""
     out = {}
@@ -67,7 +87,9 @@ def batch_p18(qids, ctx):
             claims = (ent.get("claims") or {}).get("P18") or []
             if claims:
                 try:
-                    out[qid] = claims[0]["mainsnak"]["datavalue"]["value"]
+                    fn = claims[0]["mainsnak"]["datavalue"]["value"]
+                    if not NON_SCENIC_FILENAME.search(fn):
+                        out[qid] = fn
                 except (KeyError, IndexError):
                     pass
         time.sleep(0.3)

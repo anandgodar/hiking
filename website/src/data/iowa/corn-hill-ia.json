@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Corn Hill",
   "slug": "corn-hill-ia",
   "state": "Iowa",
@@ -12,13 +11,13 @@
   "trails": [
     {
       "name": "Corn Hill Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
         "distance": 5.6,
         "gain": 99,
-        "time": null,
-        "difficulty": "",
+        "time": 2.0,
+        "difficulty": "Easy",
         "route_length_mi": 2.82,
         "distance_type": "out-and-back",
         "distance_source": "computed"

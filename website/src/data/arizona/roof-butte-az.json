@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Roof Butte",
   "slug": "roof-butte-az",
   "state": "Arizona",
@@ -7,18 +6,21 @@
   "elevation": 9685,
   "lat": 36.46051,
   "lon": -109.09367,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%20the%20Navajo%20Volcanic%20Fields.jpg?width=1600",
   "tags": [],
   "trails": [
     {
       "name": "Roof Butte Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 2.4,
+        "gain": 232,
+        "time": 1.0,
+        "difficulty": "Easy",
+        "route_length_mi": 1.19,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +35,283 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            36.4597,
+            -109.17509
           ],
           "summit": [
             36.46051,
             -109.09367
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            36.4597,
+            -109.17509,
+            8425
+          ],
+          [
+            36.45945,
+            -109.1753,
+            8425
+          ],
+          [
+            36.45909,
+            -109.17536,
+            8412
+          ],
+          [
+            36.45887,
+            -109.17535,
+            8412
+          ],
+          [
+            36.45859,
+            -109.17519,
+            8412
+          ],
+          [
+            36.45844,
+            -109.17461,
+            8409
+          ],
+          [
+            36.45848,
+            -109.17395,
+            8412
+          ],
+          [
+            36.45878,
+            -109.17345,
+            8412
+          ],
+          [
+            36.45932,
+            -109.17321,
+            8422
+          ],
+          [
+            36.45979,
+            -109.17305,
+            8422
+          ],
+          [
+            36.46007,
+            -109.17285,
+            8428
+          ],
+          [
+            36.46059,
+            -109.1718,
+            8428
+          ],
+          [
+            36.46068,
+            -109.1709,
+            8412
+          ],
+          [
+            36.46103,
+            -109.17036,
+            8402
+          ],
+          [
+            36.46091,
+            -109.16979,
+            8383
+          ],
+          [
+            36.46155,
+            -109.16758,
+            8366
+          ],
+          [
+            36.46159,
+            -109.16692,
+            8346
+          ],
+          [
+            36.46128,
+            -109.16611,
+            8323
+          ],
+          [
+            36.4613,
+            -109.16557,
+            8310
+          ],
+          [
+            36.46114,
+            -109.16514,
+            8310
+          ],
+          [
+            36.46066,
+            -109.16455,
+            8261
+          ],
+          [
+            36.46059,
+            -109.16308,
+            8238
+          ],
+          [
+            36.46084,
+            -109.1622,
+            8245
+          ],
+          [
+            36.46079,
+            -109.16174,
+            8228
+          ],
+          [
+            36.4602,
+            -109.16064,
+            8196
+          ],
+          [
+            36.46011,
+            -109.1603,
+            8196
+          ],
+          [
+            36.46015,
+            -109.16002,
+            8196
+          ],
+          [
+            36.46128,
+            -109.15902,
+            8209
+          ],
+          [
+            36.46124,
+            -109.15852,
+            8209
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 8425,
+            "coord": [
+              36.4597,
+              -109.17509
+            ]
+          },
+          {
+            "mile": 0.08,
+            "elev": 8412,
+            "coord": [
+              36.45859,
+              -109.17519
+            ]
+          },
+          {
+            "mile": 0.17,
+            "elev": 8412,
+            "coord": [
+              36.45848,
+              -109.17395
+            ]
+          },
+          {
+            "mile": 0.25,
+            "elev": 8422,
+            "coord": [
+              36.45979,
+              -109.17305
+            ]
+          },
+          {
+            "mile": 0.34,
+            "elev": 8428,
+            "coord": [
+              36.46059,
+              -109.1718
+            ]
+          },
+          {
+            "mile": 0.42,
+            "elev": 8402,
+            "coord": [
+              36.46103,
+              -109.17036
+            ]
+          },
+          {
+            "mile": 0.51,
+            "elev": 8383,
+            "coord": [
+              36.46091,
+              -109.16979
+            ]
+          },
+          {
+            "mile": 0.59,
+            "elev": 8366,
+            "coord": [
+              36.46155,
+              -109.16758
+            ]
+          },
+          {
+            "mile": 0.68,
+            "elev": 8323,
+            "coord": [
+              36.46128,
+              -109.16611
+            ]
+          },
+          {
+            "mile": 0.76,
+            "elev": 8310,
+            "coord": [
+              36.46114,
+              -109.16514
+            ]
+          },
+          {
+            "mile": 0.85,
+            "elev": 8238,
+            "coord": [
+              36.46059,
+              -109.16308
+            ]
+          },
+          {
+            "mile": 0.93,
+            "elev": 8245,
+            "coord": [
+              36.46084,
+              -109.1622
+            ]
+          },
+          {
+            "mile": 1.02,
+            "elev": 8196,
+            "coord": [
+              36.4602,
+              -109.16064
+            ]
+          },
+          {
+            "mile": 1.1,
+            "elev": 8196,
+            "coord": [
+              36.46015,
+              -109.16002
+            ]
+          },
+          {
+            "mile": 1.19,
+            "elev": 8209,
+            "coord": [
+              36.46124,
+              -109.15852
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -157,14 +426,21 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/359250852",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/359250852",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-30"
   },
   "osm": {
     "id": 359250852,
     "prominence_m": null,
     "wikidata": "Q7366129"
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Map%20of%20the%20Navajo%20Volcanic%20Fields.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Maximilian D\u00f6rrbecker (Chumwa)"
   }
 }

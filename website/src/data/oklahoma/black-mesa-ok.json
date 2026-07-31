@@ -6,7 +6,7 @@
   "elevation": 4973,
   "lat": 36.9319,
   "lon": -102.99761,
-  "mountain_hero": "",
+  "mountain_hero": "https://commons.wikimedia.org/wiki/Special:FilePath/Black_Mesa_summit%2C_Oklahoma.jpg?width=1600",
   "tags": [],
   "trails": [
     {
@@ -672,5 +672,11 @@
     "id": 1345909071,
     "prominence_m": null,
     "wikidata": null
+  },
+  "hero_credit": {
+    "source": "Wikimedia Commons",
+    "file": "https://commons.wikimedia.org/wiki/File:Black_Mesa_summit%2C_Oklahoma.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Gilderien"
   }
 }

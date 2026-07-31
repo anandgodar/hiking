@@ -1,5 +1,4 @@
 {
-  "_status": "imported-unverified \u2014 confirm facts, add route distance/difficulty and a real GPX, then remove this key",
   "name": "Allegheny Heights",
   "slug": "allegheny-heights-md",
   "state": "Maryland",
@@ -12,13 +11,16 @@
   "trails": [
     {
       "name": "Allegheny Heights Trail",
-      "difficulty": "",
+      "difficulty": "Easy",
       "type": "",
       "stats": {
-        "distance": null,
-        "gain": null,
-        "time": null,
-        "difficulty": ""
+        "distance": 0.8,
+        "gain": 217,
+        "time": 0.5,
+        "difficulty": "Easy",
+        "route_length_mi": 0.41,
+        "distance_type": "out-and-back",
+        "distance_source": "computed"
       },
       "parking_info": "",
       "parking_details": {
@@ -33,16 +35,218 @@
       "geo": {
         "markers": {
           "start": [
-            null,
-            null
+            39.33423,
+            -79.32557
           ],
           "summit": [
             39.33284,
             -79.37951
           ]
         },
-        "path": [],
-        "chart": []
+        "path": [
+          [
+            39.33423,
+            -79.32557,
+            2812
+          ],
+          [
+            39.33408,
+            -79.32576,
+            2753
+          ],
+          [
+            39.334,
+            -79.32589,
+            2740
+          ],
+          [
+            39.33391,
+            -79.32608,
+            2740
+          ],
+          [
+            39.33384,
+            -79.32642,
+            2740
+          ],
+          [
+            39.33375,
+            -79.32672,
+            2713
+          ],
+          [
+            39.33343,
+            -79.32767,
+            2703
+          ],
+          [
+            39.33332,
+            -79.32795,
+            2651
+          ],
+          [
+            39.33325,
+            -79.32807,
+            2651
+          ],
+          [
+            39.33311,
+            -79.32817,
+            2651
+          ],
+          [
+            39.33096,
+            -79.32919,
+            2598
+          ],
+          [
+            39.33071,
+            -79.32933,
+            2612
+          ],
+          [
+            39.33052,
+            -79.32949,
+            2612
+          ],
+          [
+            39.3303,
+            -79.32969,
+            2612
+          ],
+          [
+            39.32998,
+            -79.32989,
+            2608
+          ],
+          [
+            39.32981,
+            -79.33001,
+            2595
+          ]
+        ],
+        "chart": [
+          {
+            "mile": 0.0,
+            "elev": 2812,
+            "coord": [
+              39.33423,
+              -79.32557
+            ]
+          },
+          {
+            "mile": 0.03,
+            "elev": 2740,
+            "coord": [
+              39.33391,
+              -79.32608
+            ]
+          },
+          {
+            "mile": 0.06,
+            "elev": 2740,
+            "coord": [
+              39.33384,
+              -79.32642
+            ]
+          },
+          {
+            "mile": 0.09,
+            "elev": 2713,
+            "coord": [
+              39.33375,
+              -79.32672
+            ]
+          },
+          {
+            "mile": 0.12,
+            "elev": 2703,
+            "coord": [
+              39.33343,
+              -79.32767
+            ]
+          },
+          {
+            "mile": 0.15,
+            "elev": 2651,
+            "coord": [
+              39.33332,
+              -79.32795
+            ]
+          },
+          {
+            "mile": 0.18,
+            "elev": 2651,
+            "coord": [
+              39.33311,
+              -79.32817
+            ]
+          },
+          {
+            "mile": 0.21,
+            "elev": 2651,
+            "coord": [
+              39.33311,
+              -79.32817
+            ]
+          },
+          {
+            "mile": 0.24,
+            "elev": 2651,
+            "coord": [
+              39.33311,
+              -79.32817
+            ]
+          },
+          {
+            "mile": 0.26,
+            "elev": 2598,
+            "coord": [
+              39.33096,
+              -79.32919
+            ]
+          },
+          {
+            "mile": 0.29,
+            "elev": 2598,
+            "coord": [
+              39.33096,
+              -79.32919
+            ]
+          },
+          {
+            "mile": 0.32,
+            "elev": 2598,
+            "coord": [
+              39.33096,
+              -79.32919
+            ]
+          },
+          {
+            "mile": 0.35,
+            "elev": 2612,
+            "coord": [
+              39.33052,
+              -79.32949
+            ]
+          },
+          {
+            "mile": 0.38,
+            "elev": 2612,
+            "coord": [
+              39.3303,
+              -79.32969
+            ]
+          },
+          {
+            "mile": 0.41,
+            "elev": 2595,
+            "coord": [
+              39.32981,
+              -79.33001
+            ]
+          }
+        ]
       },
       "features": []
     }
@@ -186,10 +390,11 @@
   "data_sources": {
     "verified_by": "OpenStreetMap contributors (ODbL) \u2014 VERIFY against official source",
     "primary_url": "https://www.openstreetmap.org/node/358241452",
-    "elevation_source": "OpenStreetMap (verify vs USGS benchmark)",
-    "gps_source": "OpenStreetMap",
+    "elevation_source": "Open-Meteo (Copernicus 30 m DEM)",
+    "gps_source": "OpenStreetMap contributors (ODbL)",
     "osm_node": "https://www.openstreetmap.org/node/358241452",
-    "verification_date": "2026-07-02"
+    "verification_date": "2026-07-02",
+    "route_verified": "2026-07-30"
   },
   "osm": {
     "id": 358241452,

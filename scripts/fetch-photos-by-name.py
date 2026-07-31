@@ -15,6 +15,7 @@ Usage:
 import glob
 import json
 import math
+import re
 import ssl
 import sys
 import time
@@ -27,6 +28,14 @@ DATA = ROOT / "website" / "src" / "data"
 UA = {"User-Agent": "summitseeker/1.0 (trail photo enrichment)"}
 GENERIC = ("images.unsplash.com",)
 MAX_KM = 15.0
+
+# These specific peaks have failed automated matching multiple times across
+# independent runs (their Wikidata item's linked photo is reliably wrong —
+# an ironworks furnace and a boundary marker for Mount Riga, a wind farm in a
+# different state for Bakke Mountain). Keyword filtering catches new
+# variants of the general defect class but these two keep finding fresh bad
+# candidates, so stop trying rather than keep whack-a-moling by hand.
+NEVER_AUTO_MATCH = {"mount-riga-ct", "bakke-mountain-ma", "stratton-mountain-vt"}
 
 
 def ssl_context():
@@ -74,8 +83,32 @@ def search_qids(name, ctx):
     return [h["id"] for h in api(url, ctx).get("search", [])]
 
 
+# A Wikidata item's P18 "image" claim is sometimes a photo of something near
+# the peak rather than the peak itself — a coordinate check alone can't catch
+# this, since the off-subject photo is still genuinely close by (a boundary
+# marker, a post office, a park entrance sign, a historic-district building
+# tagged "H.D." in the standard NRHP nomination-photo naming pattern). Two
+# real trails this exact filter was written for: Sentinel Butte, ND got a
+# post-office photo, and Mount Philo, VT got a park-entrance sign — both
+# published, then removed, then re-matched by an independent run before this
+# filter existed. Reject filenames that are clearly not a landscape photo of
+# the peak rather than trying to guess what a good one looks like.
+NON_SCENIC_FILENAME = re.compile(
+    r"\b(post office|entrance|boundary marker|h\.?d\.?,|historic district|"
+    r"plaque|\bsign\b|parking|restroom|visitor center|city hall|courthouse|"
+    r"town hall|cemetery|church|school|museum|furnace|ironworks|foundry|"
+    r"quarry|\bmill\b|factory)", re.I)
+# Note: no trailing \b on the group as a whole -- several alternatives end
+# in punctuation ("h.d.,"), and \b only fires at a word/non-word transition,
+# so a trailing comma followed by a space never satisfies it. This missed
+# "MOUNT ARLINGTON H.D., ..." (an NRHP building photo) on a live run before
+# the bug was caught. Individual alternatives that are common English words
+# keep their own \b to avoid matching inside longer words (sign vs
+# assignment, mill vs million).
+
+
 def entity_photo(qids, lat, lon, ctx):
-    """First QID whose P625 is near (lat,lon) and has P18 -> filename."""
+    """First QID whose P625 is near (lat,lon), has P18, and looks scenic."""
     if not qids:
         return None
     url = ("https://www.wikidata.org/w/api.php?action=wbgetentities"
@@ -87,7 +120,10 @@ def entity_photo(qids, lat, lon, ctx):
             c = claims["P625"][0]["mainsnak"]["datavalue"]["value"]
             if km(lat, lon, c["latitude"], c["longitude"]) > MAX_KM:
                 continue
-            return claims["P18"][0]["mainsnak"]["datavalue"]["value"]
+            fn = claims["P18"][0]["mainsnak"]["datavalue"]["value"]
+            if NON_SCENIC_FILENAME.search(fn):
+                continue
+            return fn
         except (KeyError, IndexError, TypeError):
             continue
     return None
@@ -121,6 +157,8 @@ def main():
             except Exception:
                 continue
             if not isinstance(m, dict) or m.get("_status") or not m.get("name"):
+                continue
+            if m.get("slug") in NEVER_AUTO_MATCH:
                 continue
             hero = m.get("mountain_hero") or ""
             if hero and not any(g in hero for g in GENERIC):
