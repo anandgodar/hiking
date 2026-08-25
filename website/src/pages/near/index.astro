@@ -44,11 +44,30 @@ const HAND_MADE_CITIES = [
   { slug: 'albany', name: 'Albany, NY', state: 'New York', lat: 42.6526, lon: -73.7562 },
 ];
 
+// Hand-authored pages filter on trailhead coordinates + a 120-minute drive
+// cap (see e.g. near/albany.astro), not just summit-to-summit distance — so
+// their chip counts need the same predicate or they advertise a number the
+// page itself doesn't show (Providence and Burlington VT were off by 19 and
+// 25 before this fix). Programmatic cities keep the simpler distance-only
+// predicate because that's exactly what near/[city].astro itself generates.
+const handMadeSlugs = new Set(HAND_MADE_CITIES.map(c => c.slug));
+const trailheadCoords = (m) => {
+  const start = m.trails?.[0]?.geo?.markers?.start;
+  if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') return start;
+  return [m.lat, m.lon];
+};
 const cityLinks = [...HAND_MADE_CITIES, ...cities]
   .map(c => ({
     ...c,
-    count: allMountains.filter(m => m.lat && m.lon &&
-      havMi(c.lat, c.lon, m.lat, m.lon) <= 100).length,
+    count: handMadeSlugs.has(c.slug)
+      ? allMountains.filter(m => {
+          if (!m.lat || !m.lon) return false;
+          const [thLat, thLon] = trailheadCoords(m);
+          const mi = havMi(c.lat, c.lon, thLat, thLon);
+          return mi <= 100 && Math.round(mi / 45 * 60) <= 120;
+        }).length
+      : allMountains.filter(m => m.lat && m.lon &&
+          havMi(c.lat, c.lon, m.lat, m.lon) <= 100).length,
   }))
   .filter(c => c.count >= 5)
   .sort((a, b) => b.count - a.count);

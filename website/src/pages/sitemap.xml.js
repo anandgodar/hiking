@@ -30,9 +30,16 @@ function buildGitLastmodMap() {
   return map;
 }
 
+// A mountain page's rendered HTML also changes when the shared page
+// template itself changes (as this very commit does, adding Albany links to
+// [state]/hikes/[slug].astro) even though no data file was touched — so its
+// lastmod needs to be at least as recent as the template's own last commit.
+const maxDate = (...dates) => dates.filter(Boolean).sort().pop() || null;
+
 export async function GET() {
   const siteUrl = "https://summitseeker.io";
   const gitLastmod = buildGitLastmodMap();
+  const pageTemplateLastmod = gitLastmod.get('website/src/pages/[state]/hikes/[slug].astro');
 
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
@@ -124,7 +131,7 @@ export async function GET() {
       priority: 0.9,
       changefreq: 'weekly',
       mountain: m,
-      lastmod: gitLastmod.get(repoPath) || null // null falls back to the blanket build date below
+      lastmod: maxDate(gitLastmod.get(repoPath), pageTemplateLastmod) // null falls back to the blanket build date below
     });
 
     // Collect Tags for Discover Pages
