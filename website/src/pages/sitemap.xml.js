@@ -1,7 +1,38 @@
+import { execSync } from 'node:child_process';
 import { isPublishReady } from '../lib/publishReady.js';
+
+// Real per-trail lastmod, derived from each data file's most recent git
+// commit — git history survives a fresh checkout, filesystem mtimes don't,
+// which is why every URL previously shared one build-time date. Scoped to
+// mountain pages for now (they're 1:1 with a single source file); aggregate
+// pages (state hubs, near-me, discover tags) aren't tied to one file and are
+// left on the build date as a follow-up.
+function buildGitLastmodMap() {
+  const map = new Map();
+  try {
+    const log = execSync('git log --format="C:%cI" --name-only', {
+      encoding: 'utf8',
+      maxBuffer: 1024 * 1024 * 64
+    });
+    let currentDate = null;
+    for (const line of log.split('\n')) {
+      if (line.startsWith('C:')) {
+        currentDate = line.slice(2).trim();
+      } else if (line.trim() && currentDate) {
+        const path = line.trim();
+        if (!map.has(path)) map.set(path, currentDate.slice(0, 10));
+      }
+    }
+  } catch {
+    // Not in a git checkout (or git unavailable) — callers fall back to the
+    // build-time blanket date.
+  }
+  return map;
+}
 
 export async function GET() {
   const siteUrl = "https://summitseeker.io";
+  const gitLastmod = buildGitLastmodMap();
 
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
@@ -57,8 +88,12 @@ export async function GET() {
     return s;
   };
 
-  Object.values(allFiles).forEach(file => {
+  Object.entries(allFiles).forEach(([globKey, file]) => {
     const m = file.default;
+    // globKey is relative to this file (website/src/pages/), e.g.
+    // '../data/new-hampshire/mount-washington-nh.json' — resolve to the
+    // repo-root-relative path git log reports.
+    const repoPath = 'website/src/data/' + globKey.replace(/^\.\.\/data\//, '');
 
     // Skip blog index file
     if (m.posts || m.categories) return;
@@ -88,7 +123,8 @@ export async function GET() {
       url: `${siteUrl}/${stateSlug}/hikes/${m.slug}`,
       priority: 0.9,
       changefreq: 'weekly',
-      mountain: m
+      mountain: m,
+      lastmod: gitLastmod.get(repoPath) || null // null falls back to the blanket build date below
     });
 
     // Collect Tags for Discover Pages
@@ -214,7 +250,7 @@ export async function GET() {
         return `
         <url>
           <loc>${escapeXml(page.url)}</loc>
-          <lastmod>${lastmod}</lastmod>
+          <lastmod>${page.lastmod || lastmod}</lastmod>
           <changefreq>${page.changefreq}</changefreq>
           <priority>${page.priority}</priority>${m?.mountain_hero ? `
           <image:image>
