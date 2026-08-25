@@ -1,7 +1,45 @@
+import { execSync } from 'node:child_process';
 import { isPublishReady } from '../lib/publishReady.js';
+
+// Real per-trail lastmod, derived from each data file's most recent git
+// commit — git history survives a fresh checkout, filesystem mtimes don't,
+// which is why every URL previously shared one build-time date. Scoped to
+// mountain pages for now (they're 1:1 with a single source file); aggregate
+// pages (state hubs, near-me, discover tags) aren't tied to one file and are
+// left on the build date as a follow-up.
+function buildGitLastmodMap() {
+  const map = new Map();
+  try {
+    const log = execSync('git log --format="C:%cI" --name-only', {
+      encoding: 'utf8',
+      maxBuffer: 1024 * 1024 * 64
+    });
+    let currentDate = null;
+    for (const line of log.split('\n')) {
+      if (line.startsWith('C:')) {
+        currentDate = line.slice(2).trim();
+      } else if (line.trim() && currentDate) {
+        const path = line.trim();
+        if (!map.has(path)) map.set(path, currentDate.slice(0, 10));
+      }
+    }
+  } catch {
+    // Not in a git checkout (or git unavailable) — callers fall back to the
+    // build-time blanket date.
+  }
+  return map;
+}
+
+// A mountain page's rendered HTML also changes when the shared page
+// template itself changes (as this very commit does, adding Albany links to
+// [state]/hikes/[slug].astro) even though no data file was touched — so its
+// lastmod needs to be at least as recent as the template's own last commit.
+const maxDate = (...dates) => dates.filter(Boolean).sort().pop() || null;
 
 export async function GET() {
   const siteUrl = "https://summitseeker.io";
+  const gitLastmod = buildGitLastmodMap();
+  const pageTemplateLastmod = gitLastmod.get('website/src/pages/[state]/hikes/[slug].astro');
 
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
@@ -57,8 +95,12 @@ export async function GET() {
     return s;
   };
 
-  Object.values(allFiles).forEach(file => {
+  Object.entries(allFiles).forEach(([globKey, file]) => {
     const m = file.default;
+    // globKey is relative to this file (website/src/pages/), e.g.
+    // '../data/new-hampshire/mount-washington-nh.json' — resolve to the
+    // repo-root-relative path git log reports.
+    const repoPath = 'website/src/data/' + globKey.replace(/^\.\.\/data\//, '');
 
     // Skip blog index file
     if (m.posts || m.categories) return;
@@ -88,7 +130,8 @@ export async function GET() {
       url: `${siteUrl}/${stateSlug}/hikes/${m.slug}`,
       priority: 0.9,
       changefreq: 'weekly',
-      mountain: m
+      mountain: m,
+      lastmod: maxDate(gitLastmod.get(repoPath), pageTemplateLastmod) // null falls back to the blanket build date below
     });
 
     // Collect Tags for Discover Pages
@@ -133,7 +176,8 @@ export async function GET() {
     { city: 'new-york-city', priority: 0.85 },
     { city: 'san-francisco', priority: 0.85 },
     { city: 'providence', priority: 0.85 },
-    { city: 'hartford', priority: 0.85 }
+    { city: 'hartford', priority: 0.85 },
+    { city: 'albany', priority: 0.85 }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
@@ -213,7 +257,7 @@ export async function GET() {
         return `
         <url>
           <loc>${escapeXml(page.url)}</loc>
-          <lastmod>${lastmod}</lastmod>
+          <lastmod>${page.lastmod || lastmod}</lastmod>
           <changefreq>${page.changefreq}</changefreq>
           <priority>${page.priority}</priority>${m?.mountain_hero ? `
           <image:image>
