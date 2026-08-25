@@ -1,0 +1,107 @@
+---
+/**
+ * /near hub — index of every "Best Hikes Near {City}" landing page.
+ *
+ * Fixes the long-standing gap where /near/{city} pages existed with no
+ * parent: /near itself 404'd, so the cluster had no page passing internal
+ * link signal down into it and every breadcrumb pointing at "/near" was
+ * a dead link. Lists both the hand-authored pages (src/pages/near/*.astro)
+ * and the programmatic ones (near/[city].astro, driven by cities.json),
+ * using the same ≥5-trails-within-100mi rule as the page generator so
+ * every link on this page resolves to a page that actually exists.
+ */
+import Layout from '../../layouts/Layout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
+import cities from '../../data-static/cities.json';
+
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(isPublishReady);
+
+const havMi = (aLat, aLon, bLat, bLon) => {
+  const R = 3959;
+  const dLat = (bLat - aLat) * Math.PI / 180;
+  const dLon = (bLon - aLon) * Math.PI / 180;
+  const a = Math.sin(dLat / 2) ** 2 +
+    Math.cos(aLat * Math.PI / 180) * Math.cos(bLat * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+};
+
+// Hand-authored /near/*.astro pages take precedence over the [city].astro
+// dynamic route, so they're kept out of cities.json — list them explicitly
+// here, matching src/pages/index.astro's HAND_MADE_CITIES.
+const HAND_MADE_CITIES = [
+  { slug: 'boston', name: 'Boston', state: 'Massachusetts', lat: 42.3601, lon: -71.0589 },
+  { slug: 'new-york-city', name: 'New York City', state: 'New York', lat: 40.7128, lon: -74.006 },
+  { slug: 'san-francisco', name: 'San Francisco', state: 'California', lat: 37.7749, lon: -122.4194 },
+  { slug: 'los-angeles', name: 'Los Angeles', state: 'California', lat: 34.0522, lon: -118.2437 },
+  { slug: 'portland-maine', name: 'Portland, ME', state: 'Maine', lat: 43.6591, lon: -70.2568 },
+  { slug: 'burlington-vermont', name: 'Burlington, VT', state: 'Vermont', lat: 44.4759, lon: -73.2121 },
+  { slug: 'providence', name: 'Providence, RI', state: 'Rhode Island', lat: 41.8240, lon: -71.4128 },
+];
+
+const cityLinks = [...HAND_MADE_CITIES, ...cities]
+  .map(c => ({
+    ...c,
+    count: allMountains.filter(m => m.lat && m.lon &&
+      havMi(c.lat, c.lon, m.lat, m.lon) <= 100).length,
+  }))
+  .filter(c => c.count >= 5)
+  .sort((a, b) => b.count - a.count);
+
+const title = `Hikes Near You | ${cityLinks.length} Cities With Local Trail Guides 2026`;
+const description = `Find the best hiking trails near ${cityLinks.length} US cities, each guide sorted by real distance with drive times, difficulty ratings and maps for every trail.`;
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Hikes Near You — By City",
+  "numberOfItems": cityLinks.length,
+  "itemListElement": cityLinks.map((c, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": `Best Hikes Near ${c.name}`,
+    "url": `https://summitseeker.io/near/${c.slug}`,
+  })),
+};
+---
+
+<Layout title={title} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
+
+  <main class="min-h-screen bg-stone-50">
+    <div class="max-w-6xl mx-auto px-4 py-12">
+      <nav class="flex items-center gap-2 text-sm text-stone-500 mb-8">
+        <a href="/" class="hover:text-emerald-700">Home</a>
+        <span>/</span>
+        <span class="text-stone-800 font-medium">Hikes Near You</span>
+      </nav>
+
+      <h1 class="font-serif text-4xl md:text-5xl font-black text-stone-900 mb-4">
+        Best Hikes Near You
+      </h1>
+      <p class="text-lg text-stone-600 mb-10 max-w-3xl">
+        {cityLinks.length} city guides, each listing every trail within 100 miles sorted by real
+        distance — with drive times, difficulty ratings and maps for every hike.
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {cityLinks.map(c => (
+          <a href={`/near/${c.slug}`}
+             class="group flex items-center justify-between gap-3 bg-white border border-stone-200 rounded-2xl px-5 py-4 hover:border-emerald-500 hover:shadow-lg transition-all">
+            <div>
+              <div class="font-bold text-stone-900 group-hover:text-emerald-700 transition-colors">{c.name}</div>
+              {c.state && <div class="text-sm text-stone-500">{c.state}</div>}
+            </div>
+            <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-100 rounded-full px-3 py-1 whitespace-nowrap">
+              {c.count} trails
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+    <SiteFooter />
+  </main>
+</Layout>

@@ -62,7 +62,7 @@ const nearbyHikes = allMountains
       driveTime: Math.round(calculateDistance(thLat, thLon) / 45 * 60) // Rough estimate: 45mph avg on state roads
     };
   })
-  .filter(m => m.distance <= 100)
+  .filter(m => m.distance <= 100 && m.driveTime <= 120) // matches the "within 2 hours" hero/title claim
   .sort((a, b) => a.distance - b.distance);
 
 // Top picks by category
@@ -371,7 +371,7 @@ const localBusinessSchema = {
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {nearbyHikes.slice(0, 40).map(mountain => (
+          {nearbyHikes.map(mountain => (
             <div class="relative">
               <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
               <div class="absolute bottom-4 left-4 bg-black/70 text-white px-2 py-1 rounded text-xs font-bold">

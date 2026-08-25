@@ -131,7 +131,8 @@ export async function GET() {
     { city: 'burlington-vermont', priority: 0.85 },
     { city: 'los-angeles', priority: 0.85 },
     { city: 'new-york-city', priority: 0.85 },
-    { city: 'san-francisco', priority: 0.85 }
+    { city: 'san-francisco', priority: 0.85 },
+    { city: 'providence', priority: 0.85 }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
