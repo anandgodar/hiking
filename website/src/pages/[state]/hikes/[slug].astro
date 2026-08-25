@@ -109,9 +109,25 @@ const havMi = (aLat, aLon, bLat, bLon) => {
   const a = Math.sin(dLat / 2) ** 2 + Math.cos(aLat * Math.PI / 180) * Math.cos(bLat * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 };
+// Hand-authored /near/*.astro pages are kept out of cities.json (they take
+// precedence over the [city].astro dynamic route), so the nearest-city
+// lookup below needs its own copy — otherwise a trail near a hand-authored
+// city silently links to the next-closest programmatic one instead.
+const HAND_MADE_CITIES = [
+  { slug: 'boston', name: 'Boston', lat: 42.3601, lon: -71.0589 },
+  { slug: 'new-york-city', name: 'New York City', lat: 40.7128, lon: -74.006 },
+  { slug: 'san-francisco', name: 'San Francisco', lat: 37.7749, lon: -122.4194 },
+  { slug: 'los-angeles', name: 'Los Angeles', lat: 34.0522, lon: -118.2437 },
+  { slug: 'portland-maine', name: 'Portland, ME', lat: 43.6591, lon: -70.2568 },
+  { slug: 'burlington-vermont', name: 'Burlington, VT', lat: 44.4759, lon: -73.2121 },
+  { slug: 'providence', name: 'Providence, RI', lat: 41.8240, lon: -71.4128 },
+  { slug: 'hartford', name: 'Hartford, CT', lat: 41.7658, lon: -72.6734 },
+];
+const allCities = [...HAND_MADE_CITIES, ...cities];
+
 let cityLink = null;
 if (mountain.lat && mountain.lon) {
-  const candidates = cities
+  const candidates = allCities
     .map(c => ({ ...c, mi: havMi(c.lat, c.lon, mountain.lat, mountain.lon) }))
     .filter(c => c.mi <= 100)
     .sort((a, b) => a.mi - b.mi);
