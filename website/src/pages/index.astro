@@ -136,6 +136,7 @@ const HAND_MADE_CITIES = [
   { slug: 'providence', name: 'Providence, RI', lat: 41.8240, lon: -71.4128 },
   { slug: 'hartford', name: 'Hartford, CT', lat: 41.7658, lon: -72.6734 },
   { slug: 'albany', name: 'Albany, NY', lat: 42.6526, lon: -73.7562 },
+  { slug: 'philadelphia', name: 'Philadelphia, PA', lat: 39.9526, lon: -75.1652 },
 ];
 // Hand-authored pages filter on trailhead coordinates + a 120-minute drive
 // cap (see e.g. near/albany.astro), not just summit-to-summit distance — so
@@ -167,8 +168,8 @@ const cityLinks = [...HAND_MADE_CITIES, ...cities]
 ---
 
 <Layout
-  title={`Best Hiking Trails in USA 2026 | ${allMountains.length}+ Trail Maps & Guides in ${activeStates.length} States`}
-  description={`Discover ${allMountains.length}+ hiking trails across ${activeStates.length} states with detailed maps, elevation profiles & real-time weather. Every route from verified public sources — Rockies, Cascades, Appalachians & more.`}
+  title="Best Hiking Trails in the USA (2026) | Maps & Guides"
+  description={`Discover hiking trails across ${activeStates.length} states with detailed maps, elevation profiles & real-time weather. Every route from verified public sources.`}
 >
 
   <!-- HERO SECTION -->

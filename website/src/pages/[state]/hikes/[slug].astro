@@ -123,14 +123,34 @@ const HAND_MADE_CITIES = [
   { slug: 'providence', name: 'Providence, RI', lat: 41.8240, lon: -71.4128 },
   { slug: 'hartford', name: 'Hartford, CT', lat: 41.7658, lon: -72.6734 },
   { slug: 'albany', name: 'Albany, NY', lat: 42.6526, lon: -73.7562 },
+  { slug: 'philadelphia', name: 'Philadelphia, PA', lat: 39.9526, lon: -75.1652 },
 ];
 const allCities = [...HAND_MADE_CITIES, ...cities];
 
+// These hand-authored pages filter on trailhead coordinates + a 120-minute
+// drive cap (see e.g. near/philadelphia.astro), not just summit-to-summit
+// distance — so this lookup needs the same predicate for them, or a trail
+// can get linked to a city whose own page doesn't actually list it (e.g. a
+// trail 92mi/123min from Philadelphia passed the generic <=100mi check here
+// but fails philadelphia.astro's <=100mi && <=120min filter).
+const strictDriveTimeSlugs = new Set(['providence', 'hartford', 'albany', 'philadelphia']);
+const trailheadCoords = (m) => {
+  const start = m.trails?.[0]?.geo?.markers?.start;
+  if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') return start;
+  return [m.lat, m.lon];
+};
+
 let cityLink = null;
 if (mountain.lat && mountain.lon) {
+  const [thLat, thLon] = trailheadCoords(mountain);
   const candidates = allCities
-    .map(c => ({ ...c, mi: havMi(c.lat, c.lon, mountain.lat, mountain.lon) }))
-    .filter(c => c.mi <= 100)
+    .map(c => {
+      const strict = strictDriveTimeSlugs.has(c.slug);
+      const mi = havMi(c.lat, c.lon, strict ? thLat : mountain.lat, strict ? thLon : mountain.lon);
+      const driveTime = Math.round(mi / 45 * 60);
+      return { ...c, mi, strict, ok: strict ? (mi <= 100 && driveTime <= 120) : mi <= 100 };
+    })
+    .filter(c => c.ok)
     .sort((a, b) => a.mi - b.mi);
   for (const c of candidates) {
     const n = liveMountains.filter(m => m.lat && m.lon && havMi(c.lat, c.lon, m.lat, m.lon) <= 100).length;
