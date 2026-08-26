@@ -178,7 +178,8 @@ export async function GET() {
     { city: 'providence', priority: 0.85 },
     { city: 'hartford', priority: 0.85 },
     { city: 'albany', priority: 0.85 },
-    { city: 'philadelphia', priority: 0.85 }
+    { city: 'philadelphia', priority: 0.85 },
+    { city: 'pittsburgh', priority: 0.85 }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
