@@ -40,6 +40,21 @@ export async function GET() {
   const siteUrl = "https://summitseeker.io";
   const gitLastmod = buildGitLastmodMap();
   const pageTemplateLastmod = gitLastmod.get('website/src/pages/[state]/hikes/[slug].astro');
+  // Hand-authored /near/{city}.astro pages are 1:1 with their own file, same
+  // as mountain pages — but they also render through shared components, so a
+  // footer or card change (like the Aug 26 SiteFooter nav fix) needs to bump
+  // every one of them too, the same shared-template gap a bot review caught
+  // on the mountain-page fix in PR #60. NOT accounted for here: a change to
+  // a *data* file that enters/leaves one of these pages' 100mi radius won't
+  // bump its lastmod — that dependency is state-hub-sized aggregation, left
+  // on the blanket build date below along with state hubs, discover tags and
+  // the programmatic near/[city].astro route.
+  const nearPageSharedLastmod = maxDate(
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro'),
+    gitLastmod.get('website/src/components/MountainCard.astro'),
+    gitLastmod.get('website/src/lib/publishReady.js')
+  );
 
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
@@ -169,17 +184,18 @@ export async function GET() {
 
   // 4. Add "Near Me" pages (high priority - local SEO)
   const nearMePages = [
-    { city: 'boston', priority: 0.85 },
-    { city: 'portland-maine', priority: 0.85 },
-    { city: 'burlington-vermont', priority: 0.85 },
-    { city: 'los-angeles', priority: 0.85 },
-    { city: 'new-york-city', priority: 0.85 },
-    { city: 'san-francisco', priority: 0.85 },
-    { city: 'providence', priority: 0.85 },
-    { city: 'hartford', priority: 0.85 },
-    { city: 'albany', priority: 0.85 },
-    { city: 'philadelphia', priority: 0.85 },
-    { city: 'pittsburgh', priority: 0.85 }
+    { city: 'boston', priority: 0.85, handAuthored: true },
+    { city: 'portland-maine', priority: 0.85, handAuthored: true },
+    { city: 'burlington-vermont', priority: 0.85, handAuthored: true },
+    { city: 'los-angeles', priority: 0.85, handAuthored: true },
+    { city: 'new-york-city', priority: 0.85, handAuthored: true },
+    { city: 'san-francisco', priority: 0.85, handAuthored: true },
+    { city: 'providence', priority: 0.85, handAuthored: true },
+    { city: 'hartford', priority: 0.85, handAuthored: true },
+    { city: 'albany', priority: 0.85, handAuthored: true },
+    { city: 'philadelphia', priority: 0.85, handAuthored: true },
+    { city: 'pittsburgh', priority: 0.85, handAuthored: true },
+    { city: 'worcester-springfield', priority: 0.85, handAuthored: true }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
@@ -206,11 +222,14 @@ export async function GET() {
     });
   } catch { /* cities file optional */ }
 
-  nearMePages.forEach(({ city, priority }) => {
+  nearMePages.forEach(({ city, priority, handAuthored }) => {
     pages.push({
       url: `${siteUrl}/near/${city}`,
       priority: priority,
-      changefreq: 'weekly'
+      changefreq: 'weekly',
+      lastmod: handAuthored
+        ? maxDate(gitLastmod.get(`website/src/pages/near/${city}.astro`), nearPageSharedLastmod)
+        : null // programmatic near/[city].astro pages stay on the blanket build date for now
     });
   });
 
@@ -249,7 +268,7 @@ export async function GET() {
       ${pages.map(page => `
         <url>
           <loc>${escapeXml(page.url)}</loc>
-          <lastmod>${lastmod}</lastmod>
+          <lastmod>${page.lastmod || lastmod}</lastmod>
           <changefreq>${page.changefreq}</changefreq>
           <priority>${page.priority}</priority>
         </url>
