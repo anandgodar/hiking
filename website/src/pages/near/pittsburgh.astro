@@ -85,7 +85,12 @@ const moderateHikes = nearbyHikes.filter(m => {
   const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
   return difficulty.toLowerCase().includes('moderate');
 }).slice(0, 6);
-const dayTripHikes = nearbyHikes.filter(m => m.distance > 50).slice(0, 8);
+// Every trail near Pittsburgh is already >50mi (there's no in-town summit
+// cluster the way Philadelphia or Providence have one), so slice(0, 8) here
+// would just re-select the 8 nearest — the same trails as closestHikes —
+// and silently drop Hoye-Crest, the farthest trail and the one this section
+// explicitly promises. slice(-8) takes the farthest 8 instead.
+const dayTripHikes = nearbyHikes.filter(m => m.distance > 50).slice(-8);
 
 // Normalize state slug
 const normalizeState = (s) => {
