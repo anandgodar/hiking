@@ -56,6 +56,28 @@ export async function GET() {
     gitLastmod.get('website/src/lib/publishReady.js')
   );
 
+  // State hub pages (/{state} and /{state}/highest-peaks) aggregate every
+  // mountain in that state, so their real lastmod is the max of: the state's
+  // own page template, the shared components it renders through, and the
+  // most recent commit among that state's own mountain data files (tracked
+  // below as each mountain is visited). Not covered by this slice: the
+  // near-me dynamic route (near/[city].astro) and discover tag pages, which
+  // aggregate across state boundaries rather than within a single one, plus
+  // the handful of static routes (about, contact, guides, etc.) — all still
+  // left on the blanket build date as a further scoped task.
+  const stateHubSharedLastmod = maxDate(
+    gitLastmod.get('website/src/pages/[state]/index.astro'),
+    gitLastmod.get('website/src/components/GlobalSearch.astro'),
+    nearPageSharedLastmod
+  );
+  const highestPeaksSharedLastmod = maxDate(
+    gitLastmod.get('website/src/pages/[state]/highest-peaks.astro'),
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro'),
+    gitLastmod.get('website/src/lib/publishReady.js')
+  );
+  const stateDataLastmod = new Map();
+
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
   const pages = [];
@@ -141,13 +163,15 @@ export async function GET() {
     states.add(stateSlug);
 
     // Add Mountain Page with high priority (main content)
+    const mountainLastmod = maxDate(gitLastmod.get(repoPath), pageTemplateLastmod); // null falls back to the blanket build date below
     mountainPages.push({
       url: `${siteUrl}/${stateSlug}/hikes/${m.slug}`,
       priority: 0.9,
       changefreq: 'weekly',
       mountain: m,
-      lastmod: maxDate(gitLastmod.get(repoPath), pageTemplateLastmod) // null falls back to the blanket build date below
+      lastmod: mountainLastmod
     });
+    stateDataLastmod.set(stateSlug, maxDate(stateDataLastmod.get(stateSlug), gitLastmod.get(repoPath)));
 
     // Collect Tags for Discover Pages
     const tags = [
@@ -172,12 +196,14 @@ export async function GET() {
       pages.push({
         url: `${siteUrl}/${s}`,
         priority: 0.8,
-        changefreq: 'weekly'
+        changefreq: 'weekly',
+        lastmod: maxDate(stateDataLastmod.get(s), stateHubSharedLastmod)
       });
       // Programmatic "highest peaks in <state>" listicle
       pages.push({
         url: `${siteUrl}/${s}/highest-peaks`,
         priority: 0.75,
+        lastmod: maxDate(stateDataLastmod.get(s), highestPeaksSharedLastmod),
         changefreq: 'weekly'
       });
   });
