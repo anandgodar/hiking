@@ -221,7 +221,8 @@ export async function GET() {
     { city: 'albany', priority: 0.85, handAuthored: true },
     { city: 'philadelphia', priority: 0.85, handAuthored: true },
     { city: 'pittsburgh', priority: 0.85, handAuthored: true },
-    { city: 'worcester-springfield', priority: 0.85, handAuthored: true }
+    { city: 'worcester-springfield', priority: 0.85, handAuthored: true },
+    { city: 'new-haven', priority: 0.85, handAuthored: true }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
