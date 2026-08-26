@@ -40,21 +40,72 @@ export async function GET() {
   const siteUrl = "https://summitseeker.io";
   const gitLastmod = buildGitLastmodMap();
   const pageTemplateLastmod = gitLastmod.get('website/src/pages/[state]/hikes/[slug].astro');
+
+  // Every non-mountain page renders Layout -> SEOHead, and SEOHead's
+  // Organization schema embeds site-wide trailCount/stateCount from
+  // siteStats.js (`import.meta.glob` over *every* mountain data file) —
+  // caught by a bot review on PR #64, which also flagged that a state page
+  // additionally embeds a full site-wide search index via GlobalSearch. So
+  // "some mountain data file changed anywhere" is a real dependency of every
+  // near-page, state-hub and highest-peaks page's rendered HTML, not just
+  // the mountains within that page's own scope. globalDataLastmod is the max
+  // commit date across every website/src/data/**/*.json file, independent of
+  // which state or radius it belongs to.
+  const globalDataLastmod = Array.from(gitLastmod.entries())
+    .filter(([path]) => path.startsWith('website/src/data/'))
+    .map(([, date]) => date)
+    .sort()
+    .pop() || null;
+
   // Hand-authored /near/{city}.astro pages are 1:1 with their own file, same
   // as mountain pages — but they also render through shared components, so a
   // footer or card change (like the Aug 26 SiteFooter nav fix) needs to bump
   // every one of them too, the same shared-template gap a bot review caught
   // on the mountain-page fix in PR #60. NOT accounted for here: a change to
   // a *data* file that enters/leaves one of these pages' 100mi radius won't
-  // bump its lastmod — that dependency is state-hub-sized aggregation, left
-  // on the blanket build date below along with state hubs, discover tags and
-  // the programmatic near/[city].astro route.
+  // bump its lastmod on its own — that's covered by globalDataLastmod above
+  // at site-wide granularity, not per-page radius precision.
   const nearPageSharedLastmod = maxDate(
     gitLastmod.get('website/src/layouts/Layout.astro'),
     gitLastmod.get('website/src/components/SiteFooter.astro'),
     gitLastmod.get('website/src/components/MountainCard.astro'),
-    gitLastmod.get('website/src/lib/publishReady.js')
+    gitLastmod.get('website/src/components/SEOHead.astro'),
+    gitLastmod.get('website/src/lib/publishReady.js'),
+    gitLastmod.get('website/src/lib/siteStats.js'),
+    globalDataLastmod
   );
+
+  // State hub pages (/{state} and /{state}/highest-peaks) aggregate every
+  // mountain in that state, so their real lastmod is the max of: the state's
+  // own page template, the shared components it renders through (including
+  // the site-wide dependencies folded into nearPageSharedLastmod above), and
+  // the most recent commit among that state's own mountain data files
+  // (tracked below as each mountain is visited). /{state}/index.astro also
+  // renders GlobalSearch with every mountain in its index, which is exactly
+  // what globalDataLastmod (via nearPageSharedLastmod) now covers. Not
+  // covered by this slice: the near-me dynamic route (near/[city].astro) and
+  // discover tag pages, which aggregate across state boundaries rather than
+  // within a single one, plus the handful of static routes (about, contact,
+  // guides, etc.) — all still left on the blanket build date as a further
+  // scoped task. Also not covered: a trail flipping from published to draft,
+  // or a data file being deleted outright, doesn't bump this map, since it's
+  // built from files present in the current tree, not from removal commits
+  // — a real gap, left as a further scoped task rather than force-fixed here.
+  const stateHubSharedLastmod = maxDate(
+    gitLastmod.get('website/src/pages/[state]/index.astro'),
+    gitLastmod.get('website/src/components/GlobalSearch.astro'),
+    nearPageSharedLastmod
+  );
+  const highestPeaksSharedLastmod = maxDate(
+    gitLastmod.get('website/src/pages/[state]/highest-peaks.astro'),
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro'),
+    gitLastmod.get('website/src/components/SEOHead.astro'),
+    gitLastmod.get('website/src/lib/publishReady.js'),
+    gitLastmod.get('website/src/lib/siteStats.js'),
+    globalDataLastmod
+  );
+  const stateDataLastmod = new Map();
 
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
@@ -141,13 +192,15 @@ export async function GET() {
     states.add(stateSlug);
 
     // Add Mountain Page with high priority (main content)
+    const mountainLastmod = maxDate(gitLastmod.get(repoPath), pageTemplateLastmod); // null falls back to the blanket build date below
     mountainPages.push({
       url: `${siteUrl}/${stateSlug}/hikes/${m.slug}`,
       priority: 0.9,
       changefreq: 'weekly',
       mountain: m,
-      lastmod: maxDate(gitLastmod.get(repoPath), pageTemplateLastmod) // null falls back to the blanket build date below
+      lastmod: mountainLastmod
     });
+    stateDataLastmod.set(stateSlug, maxDate(stateDataLastmod.get(stateSlug), gitLastmod.get(repoPath)));
 
     // Collect Tags for Discover Pages
     const tags = [
@@ -172,12 +225,14 @@ export async function GET() {
       pages.push({
         url: `${siteUrl}/${s}`,
         priority: 0.8,
-        changefreq: 'weekly'
+        changefreq: 'weekly',
+        lastmod: maxDate(stateDataLastmod.get(s), stateHubSharedLastmod)
       });
       // Programmatic "highest peaks in <state>" listicle
       pages.push({
         url: `${siteUrl}/${s}/highest-peaks`,
         priority: 0.75,
+        lastmod: maxDate(stateDataLastmod.get(s), highestPeaksSharedLastmod),
         changefreq: 'weekly'
       });
   });
@@ -195,7 +250,8 @@ export async function GET() {
     { city: 'albany', priority: 0.85, handAuthored: true },
     { city: 'philadelphia', priority: 0.85, handAuthored: true },
     { city: 'pittsburgh', priority: 0.85, handAuthored: true },
-    { city: 'worcester-springfield', priority: 0.85, handAuthored: true }
+    { city: 'worcester-springfield', priority: 0.85, handAuthored: true },
+    { city: 'new-haven', priority: 0.85, handAuthored: true }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
