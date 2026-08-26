@@ -44,6 +44,7 @@ const HAND_MADE_CITIES = [
   { slug: 'albany', name: 'Albany, NY', state: 'New York', lat: 42.6526, lon: -73.7562 },
   { slug: 'philadelphia', name: 'Philadelphia, PA', state: 'Pennsylvania', lat: 39.9526, lon: -75.1652 },
   { slug: 'pittsburgh', name: 'Pittsburgh, PA', state: 'Pennsylvania', lat: 40.4406, lon: -79.9959 },
+  { slug: 'worcester-springfield', name: 'Worcester & Springfield, MA', state: 'Massachusetts', lat: 42.2626, lon: -71.8023, lat2: 42.1015, lon2: -72.5898 },
 ];
 
 // Hand-authored pages filter on trailhead coordinates + a 120-minute drive
@@ -65,7 +66,12 @@ const cityLinks = [...HAND_MADE_CITIES, ...cities]
       ? allMountains.filter(m => {
           if (!m.lat || !m.lon) return false;
           const [thLat, thLon] = trailheadCoords(m);
-          const mi = havMi(c.lat, c.lon, thLat, thLon);
+          // Worcester & Springfield is a two-origin page — a trail counts if
+          // it's within range of *either* city, same as the page's own
+          // nearerCity logic, not just the first coordinate.
+          const mi = c.lat2 != null
+            ? Math.min(havMi(c.lat, c.lon, thLat, thLon), havMi(c.lat2, c.lon2, thLat, thLon))
+            : havMi(c.lat, c.lon, thLat, thLon);
           return mi <= 100 && Math.round(mi / 45 * 60) <= 120;
         }).length
       : allMountains.filter(m => m.lat && m.lon &&

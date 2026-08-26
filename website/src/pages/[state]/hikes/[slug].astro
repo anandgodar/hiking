@@ -125,6 +125,7 @@ const HAND_MADE_CITIES = [
   { slug: 'albany', name: 'Albany, NY', lat: 42.6526, lon: -73.7562 },
   { slug: 'philadelphia', name: 'Philadelphia, PA', lat: 39.9526, lon: -75.1652 },
   { slug: 'pittsburgh', name: 'Pittsburgh, PA', lat: 40.4406, lon: -79.9959 },
+  { slug: 'worcester-springfield', name: 'Worcester & Springfield, MA', lat: 42.2626, lon: -71.8023, lat2: 42.1015, lon2: -72.5898 },
 ];
 const allCities = [...HAND_MADE_CITIES, ...cities];
 
@@ -134,7 +135,7 @@ const allCities = [...HAND_MADE_CITIES, ...cities];
 // can get linked to a city whose own page doesn't actually list it (e.g. a
 // trail 92mi/123min from Philadelphia passed the generic <=100mi check here
 // but fails philadelphia.astro's <=100mi && <=120min filter).
-const strictDriveTimeSlugs = new Set(['providence', 'hartford', 'albany', 'philadelphia', 'pittsburgh']);
+const strictDriveTimeSlugs = new Set(['providence', 'hartford', 'albany', 'philadelphia', 'pittsburgh', 'worcester-springfield']);
 const trailheadCoords = (m) => {
   const start = m.trails?.[0]?.geo?.markers?.start;
   if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') return start;
@@ -147,7 +148,12 @@ if (mountain.lat && mountain.lon) {
   const candidates = allCities
     .map(c => {
       const strict = strictDriveTimeSlugs.has(c.slug);
-      const mi = havMi(c.lat, c.lon, strict ? thLat : mountain.lat, strict ? thLon : mountain.lon);
+      // worcester-springfield is a two-origin page — a trail is "in range"
+      // if it's within range of whichever of the two cities is closer, same
+      // as the page's own nearerCity logic.
+      const mi = strict && c.lat2 != null
+        ? Math.min(havMi(c.lat, c.lon, thLat, thLon), havMi(c.lat2, c.lon2, thLat, thLon))
+        : havMi(c.lat, c.lon, strict ? thLat : mountain.lat, strict ? thLon : mountain.lon);
       const driveTime = Math.round(mi / 45 * 60);
       return { ...c, mi, strict, ok: strict ? (mi <= 100 && driveTime <= 120) : mi <= 100 };
     })
