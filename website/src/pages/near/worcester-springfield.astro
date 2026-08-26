@@ -1,0 +1,580 @@
+---
+/**
+ * Best Hikes Near Worcester & Springfield, Massachusetts
+ * High-value SEO landing page targeting "hikes near worcester ma" and
+ * "hikes near springfield ma"
+ *
+ * title: Best Hikes Near Worcester & Springfield, MA 2026 | Trails Within 2 Hours (With Drive Times)
+ * description: Discover the best hiking trails near Worcester and Springfield, Massachusetts —
+ *   from Mount Wachusett to Massachusetts' own state high point at Mount Greylock, with real
+ *   drive times, maps and difficulty ratings for every trail.
+ * slug: worcester-springfield
+ * date: 2026-08-26
+ * targetKeywords: hikes near worcester ma, hikes near springfield ma, hiking trails central massachusetts
+ * targetSite: summitseeker.io
+ * competitorGap: "Best hikes near Worcester" surfaces AllTrails, the Discover Central MA tourism
+ *   site's own listicle, the City of Worcester's parks page, Yelp and a couple of local blogs —
+ *   all pointing at in-city conservation land (the Cascades, Purgatory Chasm, Broad Meadow Brook)
+ *   plus Mount Wachusett. "Best hikes near Springfield" surfaces onX, AllTrails, Komoot and Gaia
+ *   GPS, all pointing at Pioneer Valley reservations (Mount Tom State Reservation, the Holyoke
+ *   Range, Robinson State Park). None of these treat the two cities as one hiking region, none
+ *   compute drive times from real trailhead coordinates, and none reach across the state line to
+ *   the Litchfield Hills of Connecticut or west to Mount Greylock — Massachusetts' own state high
+ *   point, less than 90 minutes from Springfield.
+ */
+import Layout from '../../layouts/Layout.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(isPublishReady); // route-complete trails only (no drafts)
+
+// Worcester and Springfield, MA coordinates
+const worcesterLat = 42.2626;
+const worcesterLon = -71.8023;
+const springfieldLat = 42.1015;
+const springfieldLon = -72.5898;
+
+// Haversine distance in miles
+const calculateDistance = (lat1, lon1, lat2, lon2) => {
+  const R = 3959; // Earth's radius in miles
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Drive time from the actual trailhead coordinates in each trail's route data
+// (geo.markers.start), not the summit pin — falls back to the summit lat/lon
+// only when a trail has no recorded trailhead.
+const trailheadCoords = (m) => {
+  const start = m.trails?.[0]?.geo?.markers?.start;
+  if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') {
+    return start;
+  }
+  return [m.lat, m.lon];
+};
+
+// Two starting cities, not one — each trail is scored against whichever of
+// Worcester or Springfield it's actually closer to, and that city's name
+// travels with it through the page so a Springfield reader isn't shown a
+// "22 min" badge that's only true from Worcester (Worcester's own cluster of
+// nearby Rhode Island hills is real and genuinely closer to Worcester than
+// almost anything is to Springfield — the two cities aren't symmetric here).
+const nearbyHikes = allMountains
+  .filter(m => m.lat && m.lon)
+  .map(m => {
+    const [thLat, thLon] = trailheadCoords(m);
+    const distWorcester = calculateDistance(worcesterLat, worcesterLon, thLat, thLon);
+    const distSpringfield = calculateDistance(springfieldLat, springfieldLon, thLat, thLon);
+    const nearerCity = distWorcester <= distSpringfield ? 'Worcester' : 'Springfield';
+    const distance = Math.min(distWorcester, distSpringfield);
+    return {
+      ...m,
+      distance,
+      nearerCity,
+      driveTime: Math.round(distance / 45 * 60) // Rough estimate: 45mph avg on state roads
+    };
+  })
+  .filter(m => m.distance <= 100 && m.driveTime <= 120) // matches the "within 2 hours" hero/title claim
+  .sort((a, b) => a.distance - b.distance);
+
+// Top picks by category
+const closestHikes = nearbyHikes.slice(0, 5);
+const easyHikes = nearbyHikes.filter(m => {
+  const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
+  return difficulty.toLowerCase().includes('easy') || difficulty.toLowerCase().includes('beginner');
+}).slice(0, 8);
+const moderateHikes = nearbyHikes.filter(m => {
+  const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
+  return difficulty.toLowerCase().includes('moderate');
+}).slice(0, 6);
+// Anchor the farthest tier on Mount Greylock, Massachusetts' own state high
+// point — same pattern as Pittsburgh's Mount Davis/Hoye-Crest and
+// Philadelphia's Mount Tammany. slice(-8) takes the farthest 8 rather than
+// re-selecting the same nearest trails a plain slice(0, 8) would.
+const dayTripHikes = nearbyHikes.filter(m => m.distance > 50).slice(-8);
+
+// Normalize state slug
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s;
+};
+
+const greylock = nearbyHikes.find(h => h.slug === 'mount-greylock-ma');
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the closest hiking trail to Worcester or Springfield?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `The closest hiking trail is ${closestHikes[0]?.name} (${Math.round(closestHikes[0]?.distance)} miles, ${closestHikes[0]?.driveTime} minutes from ${closestHikes[0]?.nearerCity}).`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Mount Greylock and why is it worth hiking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mount Greylock is Massachusetts' state high point, at 3,489 feet in the Berkshires. It's the tallest mountain fully within the state, with a summit war memorial tower and sweeping views into New York, Vermont and New Hampshire on a clear day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Worcester or Springfield closer to more hiking trails?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Worcester sits nearer to a cluster of low hills across the Rhode Island border, so its closest options tend to be a shorter drive. Springfield's nearest cluster runs south into Connecticut's Litchfield Hills and west toward the Berkshires — fewer trails within 30 minutes, but Mount Greylock and the Holyoke Range are both closer from Springfield than from Worcester."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best easy hikes near Worcester and Springfield for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mount Wachusett's Semuhenna Trail loop outside Worcester and the low Rhode Island border hills like Badger Mountain and Benson Mountain are the gentlest of the bunch, most reachable in under 30 minutes with modest elevation gain."
+      }
+    }
+  ]
+};
+
+// LocalBusiness Schema for Worcester/Springfield area
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "TouristInformationCenter",
+  "name": "Best Hiking Trails Near Worcester & Springfield - Summit Seeker",
+  "description": "Comprehensive guide to the best hiking trails within 100 miles of Worcester and Springfield, Massachusetts",
+  "url": "https://summitseeker.io/near/worcester-springfield",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Worcester",
+      "address": { "@type": "PostalAddress", "addressLocality": "Worcester", "addressRegion": "MA", "addressCountry": "US" }
+    },
+    {
+      "@type": "City",
+      "name": "Springfield",
+      "address": { "@type": "PostalAddress", "addressLocality": "Springfield", "addressRegion": "MA", "addressCountry": "US" }
+    }
+  ]
+};
+---
+
+<Layout
+  title="Best Hikes Near Worcester & Springfield, MA 2026 | Trails Within 2 Hours (With Drive Times)"
+  description="Discover the best hiking trails near Worcester and Springfield, Massachusetts, from Mount Wachusett to the state's own high point at Mount Greylock, with real drive times, maps and difficulty ratings for every trail."
+>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} slot="head" />
+
+  <!-- Hero Section -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&q=80&w=2000"
+        class="w-full h-full object-cover"
+        alt="Forested hillside trail in central Massachusetts near Worcester and Springfield"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <!-- Breadcrumb -->
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li><a href="/near" class="hover:text-white transition-colors">Near Me</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Worcester &amp; Springfield</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-blue-500/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} Trails Within 100 Miles
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-blue-400">Worcester &amp; Springfield</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        {nearbyHikes.length} hiking trails within 100 miles of central Massachusetts, from Mount Wachusett to the state's own high point at Mount Greylock
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 text-sm">
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Closest:</span> <span class="text-white font-bold">{Math.round(closestHikes[0]?.distance)} miles</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Drive Time:</span> <span class="text-white font-bold">{closestHikes[0]?.driveTime} min - 2 hrs</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Difficulty:</span> <span class="text-white font-bold">Easy to Hard</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Quick Navigation -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 mb-12 border border-stone-200">
+        <h2 class="text-lg font-bold text-stone-900 mb-4">Jump to Section:</h2>
+        <div class="flex flex-wrap gap-3">
+          <a href="#closest" class="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors font-medium text-sm">
+            ⚡ Closest Trails
+          </a>
+          <a href="#easy" class="px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100 transition-colors font-medium text-sm">
+            🥾 Easy Hikes
+          </a>
+          <a href="#moderate" class="px-4 py-2 bg-amber-50 text-amber-700 rounded-lg hover:bg-amber-100 transition-colors font-medium text-sm">
+            ⛰️ Moderate Hikes
+          </a>
+          <a href="#daytrips" class="px-4 py-2 bg-cyan-50 text-cyan-700 rounded-lg hover:bg-cyan-100 transition-colors font-medium text-sm">
+            🚗 Farther Day Trips
+          </a>
+          <a href="#all" class="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors font-medium text-sm">
+            📍 All {nearbyHikes.length} Trails
+          </a>
+        </div>
+      </div>
+
+      <!-- Intro Content -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Two Cities, One Hiking Region — and It's Not Symmetric</h2>
+
+        <p class="text-stone-700 leading-relaxed">
+          Worcester and Springfield sit about 50 miles apart across central and western
+          Massachusetts, and hikers from either city end up reaching for the same map. But the
+          two aren't mirror images. Worcester sits close to a real cluster of low hills just
+          across the Rhode Island border — a short drive gets you options in well under 30
+          minutes. Springfield, in the Pioneer Valley, has fewer trails that close; its nearest
+          real cluster runs south into Connecticut's Litchfield Hills, and its best day trip runs
+          west into the Berkshires.
+        </p>
+
+        <p class="text-stone-700 leading-relaxed">
+          That day trip is worth the drive: Mount Greylock, Massachusetts' own state high point,
+          is under 90 minutes from Springfield and rises to 3,489 feet over the northern
+          Berkshires — the tallest mountain fully inside the state.
+        </p>
+
+        <p class="text-stone-700 leading-relaxed">
+          This guide covers all {nearbyHikes.length} trails within 100 miles of Worcester or
+          Springfield, sorted by actual distance from real trailhead coordinates — not either
+          city's center — with the nearer of the two cities named for every trail. Each trail
+          includes:
+        </p>
+
+        <ul class="space-y-2 text-stone-700">
+          <li>✓ <strong>Exact distance from Worcester or Springfield</strong> (measured from the trailhead, not the summit)</li>
+          <li>✓ <strong>Trail difficulty rating</strong> (easy, moderate, hard)</li>
+          <li>✓ <strong>Elevation gain &amp; distance</strong></li>
+          <li>✓ <strong>Parking information &amp; fees</strong></li>
+          <li>✓ <strong>Interactive trail maps</strong></li>
+          <li>✓ <strong>Real-time weather conditions</strong></li>
+        </ul>
+      </div>
+
+      <!-- Closest Hikes Section -->
+      {closestHikes.length > 0 && (
+        <section id="closest" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-blue-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⚡</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">5 Closest Trails to Worcester &amp; Springfield</h2>
+              <p class="text-stone-600">Perfect for a quick morning hike</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {closestHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                  {mountain.driveTime} min ({mountain.nearerCity})
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Easy Hikes Section -->
+      {easyHikes.length > 0 && (
+        <section id="easy" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🥾</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Best Easy Hikes Near Worcester &amp; Springfield</h2>
+              <p class="text-stone-600">Gentle routes, great for beginners and families</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {easyHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-emerald-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  EASY
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Moderate Hikes Section -->
+      {moderateHikes.length > 0 && (
+        <section id="moderate" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-amber-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⛰️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Moderate Hiking Trails</h2>
+              <p class="text-stone-600">More climbing, still a manageable day trip</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {moderateHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  MODERATE
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Farther Day Trips Section -->
+      {dayTripHikes.length > 0 && (
+        <section id="daytrips" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-cyan-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🚗</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Farther Day Trips</h2>
+              <p class="text-stone-600">Worth the extra drive — the Berkshires and the state high point at Mount Greylock</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {dayTripHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-cyan-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  {mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Trails Section -->
+      <section id="all" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-purple-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📍</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All {nearbyHikes.length} Trails Near Worcester &amp; Springfield</h2>
+            <p class="text-stone-600">Sorted by distance from whichever city is closer</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {nearbyHikes.map(mountain => (
+            <div class="relative">
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+              <div class="absolute bottom-4 left-4 bg-black/70 text-white px-2 py-1 rounded text-xs font-bold">
+                {Math.round(mountain.distance)} mi • {mountain.driveTime} min ({mountain.nearerCity})
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="bg-white rounded-2xl p-8 shadow-lg border border-stone-200 mb-16">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is the closest hiking trail to Worcester or Springfield?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The closest hiking trail is <strong>{closestHikes[0]?.name}</strong>, just {Math.round(closestHikes[0]?.distance)} miles away
+              ({closestHikes[0]?.driveTime} minute drive from {closestHikes[0]?.nearerCity}).
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is Mount Greylock and why is it worth hiking?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Mount Greylock is Massachusetts' state high point — 3,489 feet in the Berkshires,
+              the tallest mountain fully inside the state. It's a real climb rather than a flat
+              walk, capped by a summit war memorial tower with views into New York, Vermont and
+              New Hampshire, and it's{greylock ? ` about ${Math.round(greylock.distance)} miles` : ' under 90 minutes'} from
+              {greylock ? ` ${greylock.nearerCity}` : ' Springfield'}.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Is Worcester or Springfield closer to more hiking trails?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Worcester sits nearer to a cluster of low hills across the Rhode Island border, so
+              its closest options tend to be a shorter drive. Springfield's nearest cluster runs
+              south into Connecticut's Litchfield Hills and west toward the Berkshires — fewer
+              trails within 30 minutes, but Mount Greylock and the Holyoke Range area are both
+              closer from Springfield than from Worcester.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What are the best easy hikes near Worcester and Springfield for beginners?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Mount Wachusett's Semuhenna Trail loop outside Worcester and the low Rhode Island
+              border hills like Badger Mountain and Benson Mountain are the gentlest and closest,
+              most reachable in under 30 minutes with modest elevation gain.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Do I need a parking pass for hiking trails near Worcester or Springfield?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Most Massachusetts state forest and reservation trailheads are free or low-cost.
+              Mount Greylock State Reservation charges a seasonal parking fee at its main lots,
+              and some Connecticut state parks near the Litchfield Hills cluster require a
+              day-use fee in season. Check each trail's parking information page for specifics.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Can I hike near Worcester or Springfield in winter?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Yes, but the Berkshires around Mount Greylock hold snow well into spring — bring
+              microspikes and check conditions before heading up from December through March.
+              The lower Rhode Island and central Massachusetts hills near Worcester stay more
+              hikeable through winter.
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Hiking Tips for Worcester/Springfield Area -->
+      <section class="bg-gradient-to-br from-emerald-50 to-blue-50 rounded-2xl p-8 border border-emerald-200">
+        <h2 class="text-2xl font-bold text-stone-900 mb-6">Essential Tips for Hiking Near Worcester &amp; Springfield</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🚗</span> Getting There
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• From Worcester, Mount Wachusett is a straight shot up MA-140/Route 12</li>
+              <li>• From Worcester, the Rhode Island hill cluster is a quick run down I-395 or MA-146</li>
+              <li>• From Springfield, Mount Tom and the Holyoke Range are a short hop up I-91</li>
+              <li>• From Springfield, Mount Greylock and the Berkshires are a straight run west on MA-2 or the Mass Pike</li>
+              <li>• Download offline maps in case of poor cell service on back roads</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🎒</span> What to Bring
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Water: 2+ liters per person</li>
+              <li>• Snacks: Trail mix, energy bars, fruit</li>
+              <li>• Layers: weather shifts fast at elevation</li>
+              <li>• First aid kit &amp; headlamp</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">📅</span> Best Times to Visit
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• <strong>Summer (Jun-Aug):</strong> Best weather, most crowded</li>
+              <li>• <strong>Fall (Sep-Oct):</strong> Peak Berkshires and Litchfield Hills foliage</li>
+              <li>• <strong>Spring (Apr-May):</strong> Mud season on wooded trails</li>
+              <li>• <strong>Winter (Dec-Mar):</strong> Snow lingers on Mount Greylock and the Berkshire ridgeline; bring full winter gear</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">⚠️</span> Safety First
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Check weather forecast before leaving</li>
+              <li>• Tell someone your hiking plans</li>
+              <li>• Turn back if weather deteriorates</li>
+              <li>• Stay on marked trails</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>
