@@ -98,9 +98,15 @@ const moderateHikes = nearbyHikes.filter(m => {
   const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
   return difficulty.toLowerCase().includes('moderate');
 }).slice(0, 6);
-// Farthest 8 by distance — lands on the White Mountains' Presidential Range
-// and Franconia Ridge, the differentiator no competitor page reaches.
-const dayTripHikes = nearbyHikes.filter(m => m.distance > 50).slice(-8);
+// Nearest 8 beyond 50mi, not the farthest 8 by raw distance — a plain
+// slice(-8) here pulls in Rhode Island and Vermont/Maine hills that happen
+// to sit right at the edge of the 100mi/120min radius (a side effect of the
+// two-city min-distance rule) and excludes Mount Washington and most of the
+// Presidential Range, even though those are this page's actual differentiator.
+// slice(0, 8) instead lands on the near end of the White Mountains cluster
+// (Tecumseh, Passaconaway, the Tripyramids, Chocorua, Osceola, Moosilauke),
+// matching what this section's own copy promises.
+const dayTripHikes = nearbyHikes.filter(m => m.distance > 50).slice(0, 8);
 
 // Normalize state slug
 const normalizeState = (s) => {
