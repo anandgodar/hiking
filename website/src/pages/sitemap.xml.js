@@ -3,10 +3,13 @@ import { isPublishReady } from '../lib/publishReady.js';
 
 // Real per-trail lastmod, derived from each data file's most recent git
 // commit — git history survives a fresh checkout, filesystem mtimes don't,
-// which is why every URL previously shared one build-time date. Scoped to
-// mountain pages for now (they're 1:1 with a single source file); aggregate
-// pages (state hubs, near-me, discover tags) aren't tied to one file and are
-// left on the build date as a follow-up.
+// which is why every URL previously shared one build-time date. Started
+// scoped to mountain pages (1:1 with a single source file) and extended in
+// stages to the aggregate pages that don't map to one file: hand-authored
+// near/{city} pages (PR #63), state hubs + highest-peaks listicles (PR #64),
+// and discover tag pages (this change). Still on the blanket build date:
+// the programmatic near/[city].astro dynamic route and the handful of
+// static routes (about, contact, guides, etc.) — a further scoped task.
 function buildGitLastmodMap() {
   const map = new Map();
   try {
@@ -83,11 +86,13 @@ export async function GET() {
   // (tracked below as each mountain is visited). /{state}/index.astro also
   // renders GlobalSearch with every mountain in its index, which is exactly
   // what globalDataLastmod (via nearPageSharedLastmod) now covers. Not
-  // covered by this slice: the near-me dynamic route (near/[city].astro) and
-  // discover tag pages, which aggregate across state boundaries rather than
-  // within a single one, plus the handful of static routes (about, contact,
-  // guides, etc.) — all still left on the blanket build date as a further
-  // scoped task. Also not covered: a trail flipping from published to draft,
+  // covered by this slice: the near-me dynamic route (near/[city].astro),
+  // which aggregates across state boundaries rather than within a single
+  // one, plus the handful of static routes (about, contact, guides, etc.)
+  // — still left on the blanket build date as a further scoped task.
+  // Discover tag pages were the same kind of cross-state aggregate but are
+  // now covered too, via discoverTagLastmod/discoverSharedLastmod below.
+  // Also not covered: a trail flipping from published to draft,
   // or a data file being deleted outright, doesn't bump this map, since it's
   // built from files present in the current tree, not from removal commits
   // — a real gap, left as a further scoped task rather than force-fixed here.
@@ -105,7 +110,20 @@ export async function GET() {
     gitLastmod.get('website/src/lib/siteStats.js'),
     globalDataLastmod
   );
+  // Discover tag pages (discover/[tag].astro) aggregate every mountain
+  // carrying that tag from anywhere in the country, not one state — so
+  // unlike a state hub, "most recent commit among this tag's own mountains"
+  // needs its own per-tag map (discoverTagLastmod below), tracked alongside
+  // stateDataLastmod as each mountain's tags are collected. Renders the same
+  // Layout/SiteFooter/MountainCard/publishReady/siteStats stack as a
+  // hand-authored near page (no GlobalSearch, unlike a state hub), plus its
+  // own template file.
+  const discoverSharedLastmod = maxDate(
+    gitLastmod.get('website/src/pages/discover/[tag].astro'),
+    nearPageSharedLastmod
+  );
   const stateDataLastmod = new Map();
+  const discoverTagLastmod = new Map();
 
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
@@ -216,7 +234,10 @@ export async function GET() {
             .replace(/\s+/g, '-')
             .replace(/s$/, '')
             .replace(/[^\w\-]+/g, '');
-        if (cleanTag) discoverTags.add(cleanTag);
+        if (cleanTag) {
+          discoverTags.add(cleanTag);
+          discoverTagLastmod.set(cleanTag, maxDate(discoverTagLastmod.get(cleanTag), gitLastmod.get(repoPath)));
+        }
     });
   });
 
@@ -251,7 +272,8 @@ export async function GET() {
     { city: 'philadelphia', priority: 0.85, handAuthored: true },
     { city: 'pittsburgh', priority: 0.85, handAuthored: true },
     { city: 'worcester-springfield', priority: 0.85, handAuthored: true },
-    { city: 'new-haven', priority: 0.85, handAuthored: true }
+    { city: 'new-haven', priority: 0.85, handAuthored: true },
+    { city: 'manchester-concord', priority: 0.85, handAuthored: true }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
@@ -294,7 +316,8 @@ export async function GET() {
       pages.push({
         url: `${siteUrl}/discover/${t}`,
         priority: 0.7,
-        changefreq: 'weekly'
+        changefreq: 'weekly',
+        lastmod: maxDate(discoverTagLastmod.get(t), discoverSharedLastmod)
       });
   });
 
