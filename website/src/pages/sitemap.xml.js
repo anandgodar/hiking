@@ -140,10 +140,20 @@ export async function GET() {
     gitLastmod.get('website/src/pages/discover/[tag].astro'),
     nearPageSharedLastmod
   );
-  // Content pages render Layout -> SEOHead -> siteStats, the same shared
-  // dependency chain as a hand-authored /near/ page, even though they have
-  // no mountain data of their own.
-  const staticContentLastmod = nearPageSharedLastmod;
+  // Content pages render Layout -> SEOHead -> siteStats (same as a
+  // hand-authored /near/ page) but never MountainCard, so aliasing
+  // nearPageSharedLastmod wholesale would let a MountainCard-only commit
+  // advance their lastmod for a component they don't render — the same
+  // precision gap highestPeaksSharedLastmod above already avoids. Dedicated
+  // subset instead, same shape as highestPeaksSharedLastmod.
+  const staticContentLastmod = maxDate(
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro'),
+    gitLastmod.get('website/src/components/SEOHead.astro'),
+    gitLastmod.get('website/src/lib/publishReady.js'),
+    gitLastmod.get('website/src/lib/siteStats.js'),
+    globalDataLastmod
+  );
   const mapLastmod = maxDate(
     gitLastmod.get('website/src/pages/map.astro'),
     gitLastmod.get('website/src/components/ExploreMap.jsx'),
