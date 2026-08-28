@@ -7,9 +7,9 @@ import { isPublishReady } from '../lib/publishReady.js';
 // scoped to mountain pages (1:1 with a single source file) and extended in
 // stages to the aggregate pages that don't map to one file: hand-authored
 // near/{city} pages (PR #63), state hubs + highest-peaks listicles (PR #64),
-// discover tag pages (PR #65), and now the plain static content pages plus
-// /map (this change). Still on the blanket build date: the programmatic
-// near/[city].astro dynamic route, /blog, /guides (index + [slug]), /gear,
+// discover tag pages (PR #65), static content pages plus /map (PR #66/#67),
+// and now the programmatic near/[city].astro dynamic route (this change).
+// Still on the blanket build date: /blog, /guides (index + [slug]), /gear,
 // and challenge pages — a further scoped task.
 function buildGitLastmodMap() {
   const map = new Map();
@@ -47,11 +47,11 @@ const maxDate = (...dates) => dates.filter(Boolean).sort().pop() || null;
 // map.astro is a different shape: it globs every mountain data file directly
 // (client:only ExploreMap), so it needs the full nearPageSharedLastmod
 // dependency chain (which already folds in globalDataLastmod) plus its own
-// template and component files. Not covered by this slice: /blog, /guides
-// (index + [slug]) and /gear, which aggregate blog posts / guide content
-// rather than mountain data, plus the programmatic near/[city].astro dynamic
-// route and challenge pages — left on the blanket build date as further
-// scoped tasks.
+// template and component files. The programmatic near/[city].astro dynamic
+// route is now covered too (nearDynamicLastmod below). Not covered by this
+// slice: /blog, /guides (index + [slug]) and /gear, which aggregate blog
+// posts / guide content rather than mountain data, plus challenge pages —
+// left on the blanket build date as further scoped tasks.
 
 export async function GET() {
   const siteUrl = "https://summitseeker.io";
@@ -105,7 +105,8 @@ export async function GET() {
   // one, plus the handful of static routes (about, contact, guides, etc.)
   // — still left on the blanket build date as a further scoped task.
   // Discover tag pages were the same kind of cross-state aggregate but are
-  // now covered too, via discoverTagLastmod/discoverSharedLastmod below.
+  // now covered too, via discoverTagLastmod/discoverSharedLastmod below, and
+  // near/[city].astro is covered via nearDynamicLastmod below.
   // Also not covered: a trail flipping from published to draft,
   // or a data file being deleted outright, doesn't bump this map, since it's
   // built from files present in the current tree, not from removal commits
@@ -144,6 +145,21 @@ export async function GET() {
   const mapLastmod = maxDate(
     gitLastmod.get('website/src/pages/map.astro'),
     gitLastmod.get('website/src/components/ExploreMap.jsx'),
+    nearPageSharedLastmod
+  );
+  // Programmatic near/[city].astro pages render the same Layout/SiteFooter/
+  // MountainCard/publishReady/siteStats stack as a hand-authored near page,
+  // plus the dynamic route's own template file and cities.json (each page's
+  // name/coordinates come from there, so a coordinate or new-city edit is a
+  // real dependency of every page it generates). Like every other aggregate
+  // page in this file, this is one lastmod for the whole route rather than
+  // per-city radius precision — a trail entering/leaving one city's 100mi
+  // radius is covered at site-wide granularity by globalDataLastmod (via
+  // nearPageSharedLastmod), same documented gap as the state-hub and
+  // discover-tag versions of this fix above.
+  const nearDynamicLastmod = maxDate(
+    gitLastmod.get('website/src/pages/near/[city].astro'),
+    gitLastmod.get('website/src/data-static/cities.json'),
     nearPageSharedLastmod
   );
   const stateDataLastmod = new Map();
@@ -333,7 +349,7 @@ export async function GET() {
       changefreq: 'weekly',
       lastmod: handAuthored
         ? maxDate(gitLastmod.get(`website/src/pages/near/${city}.astro`), nearPageSharedLastmod)
-        : null // programmatic near/[city].astro pages stay on the blanket build date for now
+        : nearDynamicLastmod
     });
   });
 
