@@ -7,9 +7,10 @@ import { isPublishReady } from '../lib/publishReady.js';
 // scoped to mountain pages (1:1 with a single source file) and extended in
 // stages to the aggregate pages that don't map to one file: hand-authored
 // near/{city} pages (PR #63), state hubs + highest-peaks listicles (PR #64),
-// and discover tag pages (this change). Still on the blanket build date:
-// the programmatic near/[city].astro dynamic route and the handful of
-// static routes (about, contact, guides, etc.) — a further scoped task.
+// discover tag pages (PR #65), and now the plain static content pages plus
+// /map (this change). Still on the blanket build date: the programmatic
+// near/[city].astro dynamic route, /blog, /guides (index + [slug]), /gear,
+// and challenge pages — a further scoped task.
 function buildGitLastmodMap() {
   const map = new Map();
   try {
@@ -38,6 +39,19 @@ function buildGitLastmodMap() {
 // [state]/hikes/[slug].astro) even though no data file was touched — so its
 // lastmod needs to be at least as recent as the template's own last commit.
 const maxDate = (...dates) => dates.filter(Boolean).sort().pop() || null;
+
+// Static routes are the last aggregate-page category still on the blanket
+// build date (see the comment above buildGitLastmodMap). Content pages
+// (about/contact/privacy/terms/disclaimer) render only Layout + SiteFooter —
+// no mountain data — so their lastmod is just those two files' own commits.
+// map.astro is a different shape: it globs every mountain data file directly
+// (client:only ExploreMap), so it needs the full nearPageSharedLastmod
+// dependency chain (which already folds in globalDataLastmod) plus its own
+// template and component files. Not covered by this slice: /blog, /guides
+// (index + [slug]) and /gear, which aggregate blog posts / guide content
+// rather than mountain data, plus the programmatic near/[city].astro dynamic
+// route and challenge pages — left on the blanket build date as further
+// scoped tasks.
 
 export async function GET() {
   const siteUrl = "https://summitseeker.io";
@@ -122,6 +136,16 @@ export async function GET() {
     gitLastmod.get('website/src/pages/discover/[tag].astro'),
     nearPageSharedLastmod
   );
+  // Plain content pages: no mountain data, just Layout + SiteFooter.
+  const staticContentLastmod = maxDate(
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro')
+  );
+  const mapLastmod = maxDate(
+    gitLastmod.get('website/src/pages/map.astro'),
+    gitLastmod.get('website/src/components/ExploreMap.jsx'),
+    nearPageSharedLastmod
+  );
   const stateDataLastmod = new Map();
   const discoverTagLastmod = new Map();
 
@@ -134,7 +158,7 @@ export async function GET() {
 
   // 2.1 Add Blog, Guides, and Gear hub pages (high priority for monetization)
   pages.push({ url: `${siteUrl}/blog`, priority: 0.9, changefreq: 'daily' });
-  pages.push({ url: `${siteUrl}/map`, priority: 0.9, changefreq: 'weekly' });
+  pages.push({ url: `${siteUrl}/map`, priority: 0.9, changefreq: 'weekly', lastmod: mapLastmod });
   pages.push({ url: `${siteUrl}/guides`, priority: 0.85, changefreq: 'weekly' });
   pages.push({ url: `${siteUrl}/gear`, priority: 0.85, changefreq: 'weekly' });
 
@@ -273,7 +297,8 @@ export async function GET() {
     { city: 'pittsburgh', priority: 0.85, handAuthored: true },
     { city: 'worcester-springfield', priority: 0.85, handAuthored: true },
     { city: 'new-haven', priority: 0.85, handAuthored: true },
-    { city: 'manchester-concord', priority: 0.85, handAuthored: true }
+    { city: 'manchester-concord', priority: 0.85, handAuthored: true },
+    { city: 'poughkeepsie', priority: 0.85, handAuthored: true }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
@@ -322,11 +347,11 @@ export async function GET() {
   });
 
   // 6. Add static pages (lower priority)
-  pages.push({ url: `${siteUrl}/about`, priority: 0.5, changefreq: 'monthly' });
-  pages.push({ url: `${siteUrl}/contact`, priority: 0.5, changefreq: 'monthly' });
-  pages.push({ url: `${siteUrl}/privacy`, priority: 0.3, changefreq: 'monthly' });
-  pages.push({ url: `${siteUrl}/terms`, priority: 0.3, changefreq: 'monthly' });
-  pages.push({ url: `${siteUrl}/disclaimer`, priority: 0.3, changefreq: 'monthly' });
+  pages.push({ url: `${siteUrl}/about`, priority: 0.5, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/about.astro'), staticContentLastmod) });
+  pages.push({ url: `${siteUrl}/contact`, priority: 0.5, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/contact.astro'), staticContentLastmod) });
+  pages.push({ url: `${siteUrl}/privacy`, priority: 0.3, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/privacy.astro'), staticContentLastmod) });
+  pages.push({ url: `${siteUrl}/terms`, priority: 0.3, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/terms.astro'), staticContentLastmod) });
+  pages.push({ url: `${siteUrl}/disclaimer`, priority: 0.3, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/disclaimer.astro'), staticContentLastmod) });
 
   // 7. XML escape function to prevent parsing errors
   const escapeXml = (str) => {
