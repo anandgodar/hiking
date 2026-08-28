@@ -298,7 +298,8 @@ export async function GET() {
     { city: 'worcester-springfield', priority: 0.85, handAuthored: true },
     { city: 'new-haven', priority: 0.85, handAuthored: true },
     { city: 'manchester-concord', priority: 0.85, handAuthored: true },
-    { city: 'poughkeepsie', priority: 0.85, handAuthored: true }
+    { city: 'poughkeepsie', priority: 0.85, handAuthored: true },
+    { city: 'allentown', priority: 0.85, handAuthored: true }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
