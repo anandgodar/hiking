@@ -41,17 +41,21 @@ function buildGitLastmodMap() {
 const maxDate = (...dates) => dates.filter(Boolean).sort().pop() || null;
 
 // Static routes are the last aggregate-page category still on the blanket
-// build date (see the comment above buildGitLastmodMap). Content pages
-// (about/contact/privacy/terms/disclaimer) render only Layout + SiteFooter —
-// no mountain data — so their lastmod is just those two files' own commits.
-// map.astro is a different shape: it globs every mountain data file directly
-// (client:only ExploreMap), so it needs the full nearPageSharedLastmod
-// dependency chain (which already folds in globalDataLastmod) plus its own
-// template and component files. Not covered by this slice: /blog, /guides
-// (index + [slug]) and /gear, which aggregate blog posts / guide content
-// rather than mountain data, plus the programmatic near/[city].astro dynamic
-// route and challenge pages — left on the blanket build date as further
-// scoped tasks.
+// build date (see the comment above buildGitLastmodMap). Every non-mountain
+// page renders Layout -> SEOHead, and SEOHead's Organization schema embeds
+// site-wide trailCount/stateCount from siteStats.js (a data-globbing file,
+// same dependency a bot review caught on the mountain-page and near-page
+// versions of this fix) — so content pages need that same dependency chain,
+// not just Layout + SiteFooter. map.astro globs every mountain data file
+// directly too (client:only ExploreMap), same shape. Not covered by this
+// slice: /blog, /guides (index + [slug]) and /gear, which aggregate blog
+// posts / guide content rather than mountain data, plus the programmatic
+// near/[city].astro dynamic route and challenge pages — left on the blanket
+// build date as further scoped tasks. privacy.astro and terms.astro are
+// deliberately excluded below (not left on a stale git date): both render a
+// build-time `Last Updated: {new Date().toLocaleDateString()}` that always
+// shows today, so a git-derived lastmod would tell crawlers the page is
+// older than what it visibly displays.
 
 export async function GET() {
   const siteUrl = "https://summitseeker.io";
@@ -136,11 +140,10 @@ export async function GET() {
     gitLastmod.get('website/src/pages/discover/[tag].astro'),
     nearPageSharedLastmod
   );
-  // Plain content pages: no mountain data, just Layout + SiteFooter.
-  const staticContentLastmod = maxDate(
-    gitLastmod.get('website/src/layouts/Layout.astro'),
-    gitLastmod.get('website/src/components/SiteFooter.astro')
-  );
+  // Content pages render Layout -> SEOHead -> siteStats, the same shared
+  // dependency chain as a hand-authored /near/ page, even though they have
+  // no mountain data of their own.
+  const staticContentLastmod = nearPageSharedLastmod;
   const mapLastmod = maxDate(
     gitLastmod.get('website/src/pages/map.astro'),
     gitLastmod.get('website/src/components/ExploreMap.jsx'),
@@ -349,8 +352,8 @@ export async function GET() {
   // 6. Add static pages (lower priority)
   pages.push({ url: `${siteUrl}/about`, priority: 0.5, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/about.astro'), staticContentLastmod) });
   pages.push({ url: `${siteUrl}/contact`, priority: 0.5, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/contact.astro'), staticContentLastmod) });
-  pages.push({ url: `${siteUrl}/privacy`, priority: 0.3, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/privacy.astro'), staticContentLastmod) });
-  pages.push({ url: `${siteUrl}/terms`, priority: 0.3, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/terms.astro'), staticContentLastmod) });
+  pages.push({ url: `${siteUrl}/privacy`, priority: 0.3, changefreq: 'monthly' });
+  pages.push({ url: `${siteUrl}/terms`, priority: 0.3, changefreq: 'monthly' });
   pages.push({ url: `${siteUrl}/disclaimer`, priority: 0.3, changefreq: 'monthly', lastmod: maxDate(gitLastmod.get('website/src/pages/disclaimer.astro'), staticContentLastmod) });
 
   // 7. XML escape function to prevent parsing errors
