@@ -129,6 +129,7 @@ const HAND_MADE_CITIES = [
   { slug: 'new-haven', name: 'New Haven, CT', lat: 41.3083, lon: -72.9279 },
   { slug: 'manchester-concord', name: 'Manchester & Concord, NH', lat: 42.9956, lon: -71.4548, lat2: 43.2081, lon2: -71.5376 },
   { slug: 'poughkeepsie', name: 'Poughkeepsie, NY', lat: 41.7004, lon: -73.9210 },
+  { slug: 'allentown', name: 'Allentown, PA', lat: 40.6084, lon: -75.4902 },
 ];
 const allCities = [...HAND_MADE_CITIES, ...cities];
 
@@ -138,7 +139,7 @@ const allCities = [...HAND_MADE_CITIES, ...cities];
 // can get linked to a city whose own page doesn't actually list it (e.g. a
 // trail 92mi/123min from Philadelphia passed the generic <=100mi check here
 // but fails philadelphia.astro's <=100mi && <=120min filter).
-const strictDriveTimeSlugs = new Set(['providence', 'hartford', 'albany', 'philadelphia', 'pittsburgh', 'worcester-springfield', 'new-haven', 'manchester-concord', 'poughkeepsie']);
+const strictDriveTimeSlugs = new Set(['providence', 'hartford', 'albany', 'philadelphia', 'pittsburgh', 'worcester-springfield', 'new-haven', 'manchester-concord', 'poughkeepsie', 'allentown']);
 const trailheadCoords = (m) => {
   const start = m.trails?.[0]?.geo?.markers?.start;
   if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') return start;
