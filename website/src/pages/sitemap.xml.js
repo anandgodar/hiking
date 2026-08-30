@@ -8,9 +8,12 @@ import { isPublishReady } from '../lib/publishReady.js';
 // stages to the aggregate pages that don't map to one file: hand-authored
 // near/{city} pages (PR #63), state hubs + highest-peaks listicles (PR #64),
 // discover tag pages (PR #65), static content pages plus /map (PR #66/#67),
-// and now the programmatic near/[city].astro dynamic route (this change).
-// Still on the blanket build date: /blog, /guides (index + [slug]), /gear,
-// and challenge pages — a further scoped task.
+// the programmatic near/[city].astro dynamic route (PR #68), and now the
+// /blog, /guides (hub + individual pages) and /gear hubs (this change).
+// Individual /blog/{slug} posts already carried a real per-post lastmod from
+// their own data (p.updated || p.date) before this change — only the hub
+// pages were still on the blanket date. Still on the blanket build date:
+// /challenges/{slug} pages — a further scoped task.
 function buildGitLastmodMap() {
   const map = new Map();
   try {
@@ -111,7 +114,9 @@ export async function GET() {
   // — still left on the blanket build date as a further scoped task.
   // Discover tag pages were the same kind of cross-state aggregate but are
   // now covered too, via discoverTagLastmod/discoverSharedLastmod below, and
-  // near/[city].astro is covered via nearDynamicLastmod below.
+  // near/[city].astro is covered via nearDynamicLastmod below, and /blog,
+  // /guides and /gear are covered via blogHubLastmod/guidesHubLastmod/
+  // guidePageSharedLastmod/gearLastmod below.
   // Also not covered: a trail flipping from published to draft,
   // or a data file being deleted outright, doesn't bump this map, since it's
   // built from files present in the current tree, not from removal commits
@@ -176,6 +181,50 @@ export async function GET() {
     gitLastmod.get('website/src/data-static/cities.json'),
     nearPageSharedLastmod
   );
+  // The blog hub aggregates every post, so its lastmod is the max of its own
+  // template, BlogCard, the most recent commit among any data/blog/*.json
+  // file (index.json plus every individual post file) and the same
+  // Layout/SEOHead/siteStats dependency chain as any other content page.
+  // Individual /blog/{slug} posts already get a real lastmod from their own
+  // data (p.updated || p.date, see the blogPages map below) — this only
+  // covers the /blog index itself.
+  const blogDataLastmod = Array.from(gitLastmod.entries())
+    .filter(([path]) => path.startsWith('website/src/data/blog/'))
+    .map(([, date]) => date)
+    .sort()
+    .pop() || null;
+  const blogHubLastmod = maxDate(
+    gitLastmod.get('website/src/pages/blog/index.astro'),
+    gitLastmod.get('website/src/components/BlogCard.astro'),
+    blogDataLastmod,
+    staticContentLastmod
+  );
+  // /guides hub content is hardcoded in the template itself (not sourced
+  // from data/guides/index.json — that file only backs the individual
+  // [slug] pages), so its lastmod is just its own template plus the shared
+  // content-page dependency chain.
+  const guidesHubLastmod = maxDate(
+    gitLastmod.get('website/src/pages/guides/index.astro'),
+    staticContentLastmod
+  );
+  // Individual /guides/{slug} pages all share one data file
+  // (data/guides/index.json — no per-guide file to track individually, same
+  // documented gap as a state hub's site-wide-vs-per-page precision) and
+  // render MountainCard for each guide's related trails.
+  const guidePageSharedLastmod = maxDate(
+    gitLastmod.get('website/src/pages/guides/[slug].astro'),
+    gitLastmod.get('website/src/components/MountainCard.astro'),
+    gitLastmod.get('website/src/data/guides/index.json'),
+    staticContentLastmod
+  );
+  // /gear is static affiliate content with no mountain-data dependency of
+  // its own, so its lastmod is just its own template, the AffiliateLink
+  // component it renders, and the shared content-page dependency chain.
+  const gearLastmod = maxDate(
+    gitLastmod.get('website/src/pages/gear/index.astro'),
+    gitLastmod.get('website/src/components/AffiliateLink.astro'),
+    staticContentLastmod
+  );
   const stateDataLastmod = new Map();
   const discoverTagLastmod = new Map();
 
@@ -187,10 +236,10 @@ export async function GET() {
   pages.push({ url: `${siteUrl}/`, priority: 1.0, changefreq: 'daily' });
 
   // 2.1 Add Blog, Guides, and Gear hub pages (high priority for monetization)
-  pages.push({ url: `${siteUrl}/blog`, priority: 0.9, changefreq: 'daily' });
+  pages.push({ url: `${siteUrl}/blog`, priority: 0.9, changefreq: 'daily', lastmod: blogHubLastmod });
   pages.push({ url: `${siteUrl}/map`, priority: 0.9, changefreq: 'weekly', lastmod: mapLastmod });
-  pages.push({ url: `${siteUrl}/guides`, priority: 0.85, changefreq: 'weekly' });
-  pages.push({ url: `${siteUrl}/gear`, priority: 0.85, changefreq: 'weekly' });
+  pages.push({ url: `${siteUrl}/guides`, priority: 0.85, changefreq: 'weekly', lastmod: guidesHubLastmod });
+  pages.push({ url: `${siteUrl}/gear`, priority: 0.85, changefreq: 'weekly', lastmod: gearLastmod });
 
   // 2.2 Add individual guide pages
   const guideSlugs = [
@@ -204,7 +253,7 @@ export async function GET() {
     'fall-foliage-hiking-guide'
   ];
   guideSlugs.forEach(slug => {
-    pages.push({ url: `${siteUrl}/guides/${slug}`, priority: 0.8, changefreq: 'weekly' });
+    pages.push({ url: `${siteUrl}/guides/${slug}`, priority: 0.8, changefreq: 'weekly', lastmod: guidePageSharedLastmod });
   });
 
   // 2.3 Add challenge pages (high priority - peak bagging lists)
