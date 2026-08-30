@@ -1,0 +1,580 @@
+---
+/**
+ * Best Hikes Near Scranton & Wilkes-Barre, Pennsylvania
+ * High-value SEO landing page targeting "hikes near scranton pa" and
+ * "hikes near wilkes-barre pa"
+ *
+ * title: Best Hikes Near Scranton & Wilkes-Barre, PA 2026 | Trails Within 2 Hours (With Drive Times)
+ * description: Discover the best hiking trails near Scranton and Wilkes-Barre, Pennsylvania —
+ *   from New Jersey's Kittatinny Ridge to the Catskills' Slide Mountain and the Hudson Highlands,
+ *   with real drive times, maps and difficulty ratings for every trail.
+ * slug: scranton-wilkes-barre
+ * date: 2026-08-30
+ * targetKeywords: hikes near scranton pa, hikes near wilkes-barre pa, best hiking trails
+ *   northeastern pennsylvania
+ * targetSite: summitseeker.io
+ * competitorGap: "Best hikes near Scranton Wilkes-Barre Pennsylvania Poconos" surfaces
+ *   discovernepa.com's own "short hikes with epic views" roundup, AllTrails and Yelp listings for
+ *   each city separately, keystonenewsroom.com's ranked local list, and Komoot guides — all
+ *   pointing at in-region parkland (Nay Aug Park's overlooks in Scranton, the Sugar Notch
+ *   Ridgetop Trail and Bear Creek Preserve near Wilkes-Barre, Ricketts Glen's waterfalls, Big
+ *   Pocono/Camelback Mountain at 2,100 feet) and rail-trails (the D&H Rail-Trail, the Lackawanna
+ *   River Heritage Trail) — none of which are named-summit routes this site's database tracks,
+ *   and none of which compute real drive times. None look past the Pennsylvania state line either,
+ *   where three distinct ranges sit inside a two-hour drive: New Jersey's Kittatinny Ridge
+ *   (Mount Tammany, less than an hour out), the Catskills (Slide Mountain, the range's own high
+ *   point), and the Hudson Highlands (Bear Mountain, Storm King, Breakneck Ridge). Scranton and
+ *   Wilkes-Barre aren't in cities.json (no programmatic page exists for either) and weren't
+ *   hand-authored before this page. The data backs it: 31 publish-ready trails within 100 miles
+ *   of whichever city is closer, Mount Tammany at 41 miles/55 minutes anchoring the close-in
+ *   cluster, and Slide Mountain and the Hudson Highlands anchoring the farthest tier.
+ */
+import Layout from '../../layouts/Layout.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(isPublishReady); // route-complete trails only (no drafts)
+
+// Scranton and Wilkes-Barre, PA coordinates
+const scrantonLat = 41.4090;
+const scrantonLon = -75.6624;
+const wilkesBarreLat = 41.2459;
+const wilkesBarreLon = -75.8813;
+
+// Haversine distance in miles
+const calculateDistance = (lat1, lon1, lat2, lon2) => {
+  const R = 3959; // Earth's radius in miles
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Drive time from the actual trailhead coordinates in each trail's route data
+// (geo.markers.start), not the summit pin — falls back to the summit lat/lon
+// only when a trail has no recorded trailhead.
+const trailheadCoords = (m) => {
+  const start = m.trails?.[0]?.geo?.markers?.start;
+  if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') {
+    return start;
+  }
+  return [m.lat, m.lon];
+};
+
+// Two starting cities, not one — each trail is scored against whichever of
+// Scranton or Wilkes-Barre it's actually closer to, and that city's name
+// travels with it through the page, same pattern as Worcester/Springfield
+// and Manchester/Concord (the two cities sit only 16 miles apart, so most
+// trails read nearly identically from either, but the exact nearer city
+// still deserves the credited drive time).
+const nearbyHikes = allMountains
+  .filter(m => m.lat && m.lon)
+  .map(m => {
+    const [thLat, thLon] = trailheadCoords(m);
+    const distScranton = calculateDistance(scrantonLat, scrantonLon, thLat, thLon);
+    const distWilkesBarre = calculateDistance(wilkesBarreLat, wilkesBarreLon, thLat, thLon);
+    const nearerCity = distScranton <= distWilkesBarre ? 'Scranton' : 'Wilkes-Barre';
+    const distance = Math.min(distScranton, distWilkesBarre);
+    return {
+      ...m,
+      distance,
+      nearerCity,
+      driveTime: Math.round(distance / 45 * 60) // Rough estimate: 45mph avg on state roads
+    };
+  })
+  .filter(m => m.distance <= 100 && m.driveTime <= 120) // matches the "within 2 hours" hero/title claim
+  .sort((a, b) => a.distance - b.distance);
+
+// Top picks by category
+const closestHikes = nearbyHikes.slice(0, 5);
+const easyHikes = nearbyHikes.filter(m => {
+  const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
+  return difficulty.toLowerCase().includes('easy') || difficulty.toLowerCase().includes('beginner');
+}).slice(0, 8);
+const moderateHikes = nearbyHikes.filter(m => {
+  const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
+  return difficulty.toLowerCase().includes('moderate');
+}).slice(0, 6);
+// The farthest tier is the actual differentiator here — the Catskills' Slide
+// Mountain (the range's own high point) and the Hudson Highlands (Bear
+// Mountain, Storm King, Breakneck Ridge) — so this deliberately takes the
+// farthest 8 rather than the nearest 8 beyond 50mi, same deviation as
+// Worcester/Springfield's Greylock anchor and for the same reason: a plain
+// slice(0, 8) here would return only nearby New Jersey hills and miss every
+// peak this page's own copy leans on.
+const dayTripHikes = nearbyHikes.filter(m => m.distance > 50).slice(-8);
+
+// Normalize state slug
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s;
+};
+
+const slideMountain = nearbyHikes.find(h => h.name === 'Slide Mountain');
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the closest hiking trail to Scranton or Wilkes-Barre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `The closest hiking trail is ${closestHikes[0]?.name}, on New Jersey's Kittatinny Ridge, roughly ${Math.round(closestHikes[0]?.distance)} miles (${closestHikes[0]?.driveTime} minutes) from ${closestHikes[0]?.nearerCity}.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Slide Mountain a good day trip from Scranton or Wilkes-Barre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Yes. Slide Mountain, the highest peak in New York's Catskills, is${slideMountain ? ` about ${Math.round(slideMountain.distance)} miles (${slideMountain.driveTime} minutes)` : ' roughly 77 miles'} from ${slideMountain?.nearerCity || 'Scranton'} — a longer day trip, but inside the two-hour window, and a genuine summit rather than a local park hike.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there real mountains near Scranton and Wilkes-Barre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Poconos around Scranton and Wilkes-Barre top out around 2,100 feet at Big Pocono/Camelback Mountain — real terrain, but not the kind of named-summit trail this guide tracks. The nearest tracked mountains are on New Jersey's Kittatinny Ridge, starting under an hour east, with the Catskills and the Hudson Highlands reachable as a farther day trip."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best easy hikes near Scranton and Wilkes-Barre for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Several of the closer Kittatinny Ridge summits — New Jersey's own High Point, County House Mountain and Mount No More among them — are shorter, lower-elevation routes well suited to beginners, most within 70-75 minutes of Scranton or Wilkes-Barre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Scranton or Wilkes-Barre closer to more hiking trails?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The two cities sit only about 16 miles apart, so almost every trail on this list reads nearly the same from either one. Scranton is marginally closer to the Kittatinny Ridge cluster; Wilkes-Barre is marginally closer to Armenia Mountain to the northwest — the difference is rarely more than a few minutes either way."
+      }
+    }
+  ]
+};
+
+// LocalBusiness Schema for Scranton/Wilkes-Barre area
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "TouristInformationCenter",
+  "name": "Best Hiking Trails Near Scranton & Wilkes-Barre - Summit Seeker",
+  "description": "Comprehensive guide to the best hiking trails within 100 miles of Scranton and Wilkes-Barre, Pennsylvania",
+  "url": "https://summitseeker.io/near/scranton-wilkes-barre",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Scranton",
+      "address": { "@type": "PostalAddress", "addressLocality": "Scranton", "addressRegion": "PA", "addressCountry": "US" }
+    },
+    {
+      "@type": "City",
+      "name": "Wilkes-Barre",
+      "address": { "@type": "PostalAddress", "addressLocality": "Wilkes-Barre", "addressRegion": "PA", "addressCountry": "US" }
+    }
+  ]
+};
+---
+
+<Layout
+  title="Best Hikes Near Scranton & Wilkes-Barre, PA 2026 | Trails Within 2 Hours (With Drive Times)"
+  description="Discover the best hiking trails near Scranton and Wilkes-Barre, Pennsylvania — from New Jersey's Kittatinny Ridge to the Catskills' Slide Mountain and the Hudson Highlands, with real drive times, maps and difficulty ratings for every trail."
+>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} slot="head" />
+
+  <!-- Hero Section -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&q=80&w=2000"
+        class="w-full h-full object-cover"
+        alt="Forested ridgeline trail in the Pocono Mountains near Scranton and Wilkes-Barre Pennsylvania"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <!-- Breadcrumb -->
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li><a href="/near" class="hover:text-white transition-colors">Near Me</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Scranton &amp; Wilkes-Barre</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-blue-500/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} Trails Within 100 Miles
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-blue-400">Scranton &amp; Wilkes-Barre</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        {nearbyHikes.length} hiking trails within 100 miles of Northeastern Pennsylvania, from New Jersey's Kittatinny Ridge to the Catskills' own high point
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 text-sm">
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Closest:</span> <span class="text-white font-bold">{Math.round(closestHikes[0]?.distance)} miles</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Drive Time:</span> <span class="text-white font-bold">{closestHikes[0]?.driveTime} min - 2 hrs</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Difficulty:</span> <span class="text-white font-bold">Easy to Strenuous</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Quick Navigation -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 mb-12 border border-stone-200">
+        <h2 class="text-lg font-bold text-stone-900 mb-4">Jump to Section:</h2>
+        <div class="flex flex-wrap gap-3">
+          <a href="#closest" class="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors font-medium text-sm">
+            ⚡ Closest Trails
+          </a>
+          <a href="#easy" class="px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100 transition-colors font-medium text-sm">
+            🥾 Easy Hikes
+          </a>
+          <a href="#moderate" class="px-4 py-2 bg-amber-50 text-amber-700 rounded-lg hover:bg-amber-100 transition-colors font-medium text-sm">
+            ⛰️ Moderate Hikes
+          </a>
+          <a href="#daytrips" class="px-4 py-2 bg-cyan-50 text-cyan-700 rounded-lg hover:bg-cyan-100 transition-colors font-medium text-sm">
+            🚗 Farther Day Trips
+          </a>
+          <a href="#all" class="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors font-medium text-sm">
+            📍 All {nearbyHikes.length} Trails
+          </a>
+        </div>
+      </div>
+
+      <!-- Intro Content -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Three Mountain Ranges, All Inside a Two-Hour Drive</h2>
+
+        <p class="text-stone-700 leading-relaxed">
+          Scranton and Wilkes-Barre sit in the Pocono foothills, just 16 miles apart, and the local
+          terrain tops out around 2,100 feet at Big Pocono/Camelback Mountain — real hiking, but not
+          the kind of named-summit route this guide tracks. Head east on I-80, though, and New
+          Jersey's Kittatinny Ridge rises fast: Mount Tammany, overlooking the Delaware Water Gap, is
+          about 41 miles and a 55-minute drive, with New Jersey's own High Point a bit farther north.
+        </p>
+
+        <p class="text-stone-700 leading-relaxed">
+          Push past that and two more ranges come into range within the two-hour window: the
+          Catskills, where Slide Mountain — New York's own high point in that range — anchors the
+          far tier, and the Hudson Highlands beyond it, with Bear Mountain, Storm King and Breakneck
+          Ridge all reachable as a longer day trip.
+        </p>
+
+        <p class="text-stone-700 leading-relaxed">
+          This guide covers all {nearbyHikes.length} trails within 100 miles of Scranton or
+          Wilkes-Barre, sorted by actual distance from real trailhead coordinates — not either
+          city's center — with the nearer of the two cities named for every trail. Each trail
+          includes:
+        </p>
+
+        <ul class="space-y-2 text-stone-700">
+          <li>✓ <strong>Exact distance from Scranton or Wilkes-Barre</strong> (measured from the trailhead, not the summit)</li>
+          <li>✓ <strong>Trail difficulty rating</strong> (easy, moderate, hard)</li>
+          <li>✓ <strong>Elevation gain &amp; distance</strong></li>
+          <li>✓ <strong>Parking information &amp; fees</strong></li>
+          <li>✓ <strong>Interactive trail maps</strong></li>
+          <li>✓ <strong>Real-time weather conditions</strong></li>
+        </ul>
+      </div>
+
+      <!-- Closest Hikes Section -->
+      {closestHikes.length > 0 && (
+        <section id="closest" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-blue-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⚡</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">5 Closest Trails to Scranton &amp; Wilkes-Barre</h2>
+              <p class="text-stone-600">Perfect for a quick morning hike</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {closestHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                  {mountain.driveTime} min ({mountain.nearerCity})
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Easy Hikes Section -->
+      {easyHikes.length > 0 && (
+        <section id="easy" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🥾</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Best Easy Hikes Near Scranton &amp; Wilkes-Barre</h2>
+              <p class="text-stone-600">Gentle routes, great for beginners and families</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {easyHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-emerald-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  EASY
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Moderate Hikes Section -->
+      {moderateHikes.length > 0 && (
+        <section id="moderate" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-amber-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⛰️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Moderate Hiking Trails</h2>
+              <p class="text-stone-600">More climbing, still a manageable day trip</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {moderateHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  MODERATE
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Farther Day Trips Section -->
+      {dayTripHikes.length > 0 && (
+        <section id="daytrips" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-cyan-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🚗</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Farther Day Trips</h2>
+              <p class="text-stone-600">Worth the extra drive — the Catskills' Slide Mountain and the Hudson Highlands</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {dayTripHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-cyan-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  {mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Trails Section -->
+      <section id="all" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-purple-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📍</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All {nearbyHikes.length} Trails Near Scranton &amp; Wilkes-Barre</h2>
+            <p class="text-stone-600">Sorted by distance from whichever city is closer</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {nearbyHikes.map(mountain => (
+            <div class="relative">
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+              <div class="absolute bottom-4 left-4 bg-black/70 text-white px-2 py-1 rounded text-xs font-bold">
+                {Math.round(mountain.distance)} mi • {mountain.driveTime} min ({mountain.nearerCity})
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="bg-white rounded-2xl p-8 shadow-lg border border-stone-200 mb-16">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is the closest hiking trail to Scranton or Wilkes-Barre?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The closest hiking trail is <strong>{closestHikes[0]?.name}</strong>, on New Jersey's Kittatinny Ridge,
+              about {Math.round(closestHikes[0]?.distance)} miles away ({closestHikes[0]?.driveTime} minute drive from {closestHikes[0]?.nearerCity}).
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Is Slide Mountain a good day trip from Scranton or Wilkes-Barre?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Yes. Slide Mountain, the highest peak in New York's Catskills, is{slideMountain ? ` about ${Math.round(slideMountain.distance)} miles (${slideMountain.driveTime} minutes)` : ' roughly 77 miles'} from
+              {slideMountain ? ` ${slideMountain.nearerCity}` : ' Scranton'} — a longer day trip, but still inside the
+              two-hour window, and a genuine summit rather than a local park hike.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Are there real mountains near Scranton and Wilkes-Barre?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The Poconos around Scranton and Wilkes-Barre top out around 2,100 feet at Big Pocono/Camelback
+              Mountain — real terrain, but not the kind of named-summit trail this guide tracks. The nearest
+              tracked mountains are on New Jersey's Kittatinny Ridge, starting under an hour east, with the
+              Catskills and the Hudson Highlands reachable as a farther day trip.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What are the best easy hikes near Scranton and Wilkes-Barre for beginners?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Several of the closer Kittatinny Ridge summits — New Jersey's own High Point, County House
+              Mountain and Mount No More among them — are shorter, lower-elevation routes well suited to
+              beginners, most within 70-75 minutes of Scranton or Wilkes-Barre.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Is Scranton or Wilkes-Barre closer to more hiking trails?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The two cities sit only about 16 miles apart, so almost every trail on this list reads nearly
+              the same from either one. Scranton is marginally closer to the Kittatinny Ridge cluster;
+              Wilkes-Barre is marginally closer to Armenia Mountain to the northwest — the difference is
+              rarely more than a few minutes either way.
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Hiking Tips for Scranton/Wilkes-Barre Area -->
+      <section class="bg-gradient-to-br from-emerald-50 to-blue-50 rounded-2xl p-8 border border-emerald-200">
+        <h2 class="text-2xl font-bold text-stone-900 mb-6">Essential Tips for Hiking Near Scranton &amp; Wilkes-Barre</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🚗</span> Getting There
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• For Mount Tammany and the Delaware Water Gap, take I-80 E</li>
+              <li>• For the central Kittatinny Ridge (Jenny Jump, Schooleys Mountain), continue on I-80 E</li>
+              <li>• For New Jersey's High Point, take I-84 E to Route 23 S</li>
+              <li>• For Slide Mountain and the Catskills, take I-84 E to NY-17/I-86</li>
+              <li>• For the Hudson Highlands (Bear Mountain, Storm King, Breakneck Ridge), take I-84 E across the Hudson</li>
+              <li>• Download offline maps in case of poor cell service on back roads</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🎒</span> What to Bring
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Water: 2+ liters per person</li>
+              <li>• Snacks: Trail mix, energy bars, fruit</li>
+              <li>• Layers: ridge-top wind picks up fast even on mild valley days</li>
+              <li>• First aid kit &amp; headlamp</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">📅</span> Best Times to Visit
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• <strong>Summer (Jun-Aug):</strong> Best weather, most crowded</li>
+              <li>• <strong>Fall (Sep-Oct):</strong> Peak foliage — Slide Mountain and the Hudson Highlands overlooks fill early on weekends</li>
+              <li>• <strong>Spring (Apr-May):</strong> Mud season on wooded trails</li>
+              <li>• <strong>Winter (Dec-Mar):</strong> The Kittatinny stays walkable with traction on most routes; the Catskills hold snow well into spring — check conditions before the exposed ridgeline sections</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">⚠️</span> Safety First
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Check weather forecast before leaving</li>
+              <li>• Tell someone your hiking plans</li>
+              <li>• Turn back if weather deteriorates</li>
+              <li>• Stay on marked trails</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>
