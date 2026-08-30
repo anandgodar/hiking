@@ -8,9 +8,9 @@ import { isPublishReady } from '../lib/publishReady.js';
 // stages to the aggregate pages that don't map to one file: hand-authored
 // near/{city} pages (PR #63), state hubs + highest-peaks listicles (PR #64),
 // discover tag pages (PR #65), static content pages plus /map (PR #66/#67),
-// and now the programmatic near/[city].astro dynamic route (this change).
-// Still on the blanket build date: /blog, /guides (index + [slug]), /gear,
-// and challenge pages — a further scoped task.
+// the programmatic near/[city].astro dynamic route (PR #68), and now /blog,
+// /guides (index + [slug]), /gear and the NH 4000-footers challenge page
+// (this change) — the last aggregate-page categories on the blanket date.
 function buildGitLastmodMap() {
   const map = new Map();
   try {
@@ -48,15 +48,19 @@ const maxDate = (...dates) => dates.filter(Boolean).sort().pop() || null;
 // versions of this fix) — so content pages need that same dependency chain,
 // not just Layout + SiteFooter. map.astro globs every mountain data file
 // directly too (client:only ExploreMap), same shape. The programmatic
-// near/[city].astro dynamic route is now covered too (nearDynamicLastmod
-// below). Not covered by this slice: /blog, /guides (index + [slug]) and
-// /gear, which aggregate blog posts / guide content rather than mountain
-// data, plus challenge pages — left on the blanket build date as further
-// scoped tasks. privacy.astro and terms.astro are deliberately excluded
-// below (not left on a stale git date): both render a build-time
+// near/[city].astro dynamic route is covered too (nearDynamicLastmod
+// below). privacy.astro and terms.astro are deliberately excluded below
+// (not left on a stale git date): both render a build-time
 // `Last Updated: {new Date().toLocaleDateString()}` that always shows
 // today, so a git-derived lastmod would tell crawlers the page is older
-// than what it visibly displays.
+// than what it visibly displays. /blog, /guides (index + [slug]), /gear and
+// the NH 4000-footers challenge page are now covered too (blogHubLastmod,
+// guidesHubLastmod, guidePageLastmod, gearLastmod, challengeNhLastmod
+// below) — the content behind them lives in src/data/blog/*.json,
+// src/data/guides/index.json (guides/index.astro's own list is hardcoded
+// inline, not a separate file) and src/data/new-hampshire/*.json
+// respectively, none of which are the mountain-data glob globalDataLastmod
+// already tracks at site-wide granularity.
 
 export async function GET() {
   const siteUrl = "https://summitseeker.io";
@@ -176,6 +180,71 @@ export async function GET() {
     gitLastmod.get('website/src/data-static/cities.json'),
     nearPageSharedLastmod
   );
+  // /blog, /guides, /gear and the NH 4000-footers challenge page are the
+  // last aggregate-page categories left on the blanket build date. Each
+  // aggregates a different, narrower slice of data than a mountain page, so
+  // reusing nearPageSharedLastmod (which folds in MountainCard and the
+  // site-wide globalDataLastmod) would be both wrong for pages that don't
+  // render MountainCard (blog/guides hubs, gear) and imprecise for the one
+  // that aggregates a single state rather than every mountain (the NH
+  // challenge page) — same precision reasoning as staticContentLastmod and
+  // highestPeaksSharedLastmod above.
+  const blogDataLastmod = Array.from(gitLastmod.entries())
+    .filter(([path]) => path.startsWith('website/src/data/blog/'))
+    .map(([, date]) => date)
+    .sort()
+    .pop() || null;
+  const nhDataLastmod = Array.from(gitLastmod.entries())
+    .filter(([path]) => path.startsWith('website/src/data/new-hampshire/'))
+    .map(([, date]) => date)
+    .sort()
+    .pop() || null;
+  const blogHubLastmod = maxDate(
+    gitLastmod.get('website/src/pages/blog/index.astro'),
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro'),
+    gitLastmod.get('website/src/components/BlogCard.astro'),
+    blogDataLastmod
+  );
+  // guides/index.astro's own list is hardcoded inline in the template, not a
+  // separate data file, so its dependency chain is just the template itself
+  // plus the two shared components it renders.
+  const guidesHubLastmod = maxDate(
+    gitLastmod.get('website/src/pages/guides/index.astro'),
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro')
+  );
+  // Every individual /guides/{slug} page pulls its content from the same
+  // shared src/data/guides/index.json (not a per-guide file), and can embed
+  // MountainCard-rendered related trails sourced from the full mountain-data
+  // glob — so all 8 guide pages share one lastmod rather than per-guide
+  // precision, the same shape as the other aggregate pages in this file.
+  const guidePageLastmod = maxDate(
+    gitLastmod.get('website/src/pages/guides/[slug].astro'),
+    gitLastmod.get('website/src/data/guides/index.json'),
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro'),
+    gitLastmod.get('website/src/components/MountainCard.astro'),
+    globalDataLastmod
+  );
+  const gearLastmod = maxDate(
+    gitLastmod.get('website/src/pages/gear/index.astro'),
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro'),
+    gitLastmod.get('website/src/components/AffiliateLink.astro')
+  );
+  // The only challenge page today aggregates New Hampshire's own 4000-footer
+  // data specifically (import.meta.glob('../../../data/new-hampshire/*.json')),
+  // not every mountain nationwide, so its data dependency is nhDataLastmod
+  // rather than globalDataLastmod — real per-challenge precision instead of
+  // site-wide granularity, since there's only one challenge page to get right.
+  const challengeNhLastmod = maxDate(
+    gitLastmod.get('website/src/pages/challenges/nh-48-4000-footers/index.astro'),
+    gitLastmod.get('website/src/layouts/Layout.astro'),
+    gitLastmod.get('website/src/components/SiteFooter.astro'),
+    gitLastmod.get('website/src/components/MountainCard.astro'),
+    nhDataLastmod
+  );
   const stateDataLastmod = new Map();
   const discoverTagLastmod = new Map();
 
@@ -187,10 +256,10 @@ export async function GET() {
   pages.push({ url: `${siteUrl}/`, priority: 1.0, changefreq: 'daily' });
 
   // 2.1 Add Blog, Guides, and Gear hub pages (high priority for monetization)
-  pages.push({ url: `${siteUrl}/blog`, priority: 0.9, changefreq: 'daily' });
+  pages.push({ url: `${siteUrl}/blog`, priority: 0.9, changefreq: 'daily', lastmod: blogHubLastmod });
   pages.push({ url: `${siteUrl}/map`, priority: 0.9, changefreq: 'weekly', lastmod: mapLastmod });
-  pages.push({ url: `${siteUrl}/guides`, priority: 0.85, changefreq: 'weekly' });
-  pages.push({ url: `${siteUrl}/gear`, priority: 0.85, changefreq: 'weekly' });
+  pages.push({ url: `${siteUrl}/guides`, priority: 0.85, changefreq: 'weekly', lastmod: guidesHubLastmod });
+  pages.push({ url: `${siteUrl}/gear`, priority: 0.85, changefreq: 'weekly', lastmod: gearLastmod });
 
   // 2.2 Add individual guide pages
   const guideSlugs = [
@@ -204,7 +273,7 @@ export async function GET() {
     'fall-foliage-hiking-guide'
   ];
   guideSlugs.forEach(slug => {
-    pages.push({ url: `${siteUrl}/guides/${slug}`, priority: 0.8, changefreq: 'weekly' });
+    pages.push({ url: `${siteUrl}/guides/${slug}`, priority: 0.8, changefreq: 'weekly', lastmod: guidePageLastmod });
   });
 
   // 2.3 Add challenge pages (high priority - peak bagging lists)
@@ -215,7 +284,11 @@ export async function GET() {
     // { slug: 'new-england-67', title: 'New England 67' },
   ];
   challengePages.forEach(challenge => {
-    pages.push({ url: `${siteUrl}/challenges/${challenge.slug}`, priority: 0.9, changefreq: 'weekly' });
+    // Only NH's own challenge page has a tracked data dependency today; a
+    // future challenge slug would need its own state/region lastmod added
+    // above rather than silently inheriting this one.
+    const lastmod = challenge.slug === 'nh-48-4000-footers' ? challengeNhLastmod : null;
+    pages.push({ url: `${siteUrl}/challenges/${challenge.slug}`, priority: 0.9, changefreq: 'weekly', lastmod });
   });
 
   const states = new Set();
@@ -329,7 +402,8 @@ export async function GET() {
     { city: 'new-haven', priority: 0.85, handAuthored: true },
     { city: 'manchester-concord', priority: 0.85, handAuthored: true },
     { city: 'poughkeepsie', priority: 0.85, handAuthored: true },
-    { city: 'allentown', priority: 0.85, handAuthored: true }
+    { city: 'allentown', priority: 0.85, handAuthored: true },
+    { city: 'scranton-wilkes-barre', priority: 0.85, handAuthored: true }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
