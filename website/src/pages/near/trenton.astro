@@ -14,15 +14,18 @@
  * targetSite: summitseeker.io
  * competitorGap: "Best hikes near Trenton New Jersey" surfaces onX, AllTrails, Gaia GPS, Yelp,
  *   Komoot and onlyinyourstate.com, all pointing at isolated local parkland and preserves (Mercer
- *   County Park, Ted Stiles Preserve at Baldpate Mountain, Washington Crossing State Park,
- *   Mountain Lakes Nature Preserve, the Delaware Canal towpath) with no drive-time computation and
- *   no sense of the wider ridge system north of the city. AllTrails and onlyinyourstate.com both
- *   name Baldpate Mountain as a top pick near Trenton, but treat it as one isolated preserve —
- *   nobody covers it as the southern end of the same NJ Highlands/Kittatinny ridge system that
- *   runs north through Jenny Jump, Schooleys Mountain and Wawayanda to the state's own High Point.
- *   Trenton isn't in cities.json (no programmatic page exists) and wasn't hand-authored before this
- *   page. The data backs it: 28 publish-ready trails within 100 miles, Baldpate Mountain itself at
- *   41 miles/54 minutes anchoring the close-in cluster, and the farthest tier reaching New Jersey's
+ *   County Park, the Mercer County Baldpate Mountain in Ted Stiles Preserve, Washington Crossing
+ *   State Park, Mountain Lakes Nature Preserve, the Delaware Canal towpath) with no drive-time
+ *   computation and no sense of the wider ridge system north of the city. CORRECTION (caught by a
+ *   Codex review same-day, fixed in this same-day follow-up): this site's own trail database has a
+ *   different, separate "Baldpate Mountain" — a real 1,165ft NJ Highlands summit near West Milford,
+ *   not the low Mercer County hill in Ted Stiles Preserve that competitors mean — so the page no
+ *   longer claims they're the same peak; it stands on its own as this database's closest tracked
+ *   summit. Nobody covers the wider NJ Highlands/Kittatinny system that runs north through Jenny
+ *   Jump, Schooleys Mountain and Wawayanda to the state's own High Point. Trenton isn't in
+ *   cities.json (no programmatic page exists) and wasn't hand-authored before this page. The data
+ *   backs it: 28 publish-ready trails within 100 miles, the database's own Baldpate Mountain at 41
+ *   miles/54 minutes anchoring the close-in cluster, and the farthest tier reaching New Jersey's
  *   own High Point plus Bear Mountain and Anthony's Nose in New York's Hudson Highlands.
  */
 import Layout from '../../layouts/Layout.astro';
@@ -124,10 +127,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "Is Baldpate Mountain the best hike near Trenton?",
+      "name": "Which Baldpate Mountain is closest to Trenton?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Baldpate Mountain, in the Ted Stiles Preserve, is a strong pick and often cited as one of the best hikes near Trenton — about 41 miles and a 54-minute drive. But it's the southern end of a much longer system: the same NJ Highlands/Kittatinny ridge runs north through Jenny Jump, Schooleys Mountain and Wawayanda all the way to New Jersey's own state high point, all within a two-hour drive of Trenton."
+        "text": "There are two New Jersey summits with this name. The one many local guides mean is a low hill in Mercer County's Ted Stiles Preserve, close to downtown Trenton but not part of this guide's named-summit database. The one on this page is a different, real 1,165-foot peak in the NJ Highlands near West Milford — the closest tracked trail at about 41 miles and a 54-minute drive, and the southern entry point to a much longer system that runs north through Jenny Jump, Schooleys Mountain and Wawayanda to the state's own high point, all within a two-hour drive of Trenton."
       }
     },
     {
@@ -274,11 +277,12 @@ const localBusinessSchema = {
 
         <p class="text-stone-700 leading-relaxed">
           Downtown Trenton itself sits low along the Delaware River, but head north and the NJ
-          Highlands rise within the hour — Baldpate Mountain, in the Ted Stiles Preserve, is just
-          41 miles and a 54-minute drive, often named one of the best hikes near Trenton. That's
-          only the southern tip of the system: it continues north through Jenny Jump, Schooleys
-          Mountain and Wawayanda before topping out at High Point, New Jersey's own state high
-          point, 77 miles out. Push a little farther and New York's Hudson Highlands come into
+          Highlands rise within the hour. This guide's closest tracked trail, Baldpate Mountain, is
+          just 41 miles and a 54-minute drive — a real 1,165-foot summit near West Milford, not the
+          lower Mercer County hill of the same name in Ted Stiles Preserve that some local guides
+          point to closer to downtown. From here the Highlands continue north through Jenny Jump,
+          Schooleys Mountain and Wawayanda before topping out at High Point, New Jersey's own state
+          high point, 77 miles out. Push a little farther and New York's Hudson Highlands come into
           range too, with Bear Mountain and Anthony's Nose still inside a two-hour drive.
         </p>
 
@@ -435,17 +439,19 @@ const localBusinessSchema = {
 
           <details class="group">
             <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
-              <span>Is Baldpate Mountain the best hike near Trenton?</span>
+              <span>Which Baldpate Mountain is closest to Trenton?</span>
               <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </summary>
             <div class="p-4 text-stone-700 leading-relaxed">
-              Baldpate Mountain, in the Ted Stiles Preserve, is a strong pick and often cited as one
-              of the best hikes near Trenton — about 41 miles and a 54-minute drive. But it's the
-              southern tip of a much longer system: the NJ Highlands continue north through Jenny
-              Jump, Schooleys Mountain and Wawayanda all the way to New Jersey's own state high
-              point, all within a two-hour drive.
+              There are two New Jersey summits with this name. The one many local guides mean is a
+              low hill in Mercer County's Ted Stiles Preserve, close to downtown Trenton but not
+              part of this guide's named-summit database. The one on this page is a different, real
+              1,165-foot peak in the NJ Highlands near West Milford — the closest tracked trail at
+              about 41 miles and a 54-minute drive, and the southern entry point to a much longer
+              system that continues north through Jenny Jump, Schooleys Mountain and Wawayanda all
+              the way to New Jersey's own state high point, all within a two-hour drive.
             </div>
           </details>
 
