@@ -50,7 +50,12 @@ const { city, hikes } = Astro.props;
 const year = new Date().getFullYear();
 const closest = hikes[0];
 
-const title = `${hikes.length} Best Hikes Near ${city.name} | Trail Maps & Guides ${year}`;
+// "Trail Maps & Guides" pushed the longest city name (Colorado Springs, 21
+// trails) to 62 characters — over the ~60-char render budget the rest of
+// the site's titles are held to (homepage, state hub template). Trimmed to
+// "Maps & Guides" gets every city, including Colorado Springs, back under
+// 60 without losing "Best" or the trail count, both real ranking signals.
+const title = `${hikes.length} Best Hikes Near ${city.name} | Maps & Guides ${year}`;
 const description = `${hikes.length} hiking trails within ${RADIUS_MI} miles of ${city.name}, sorted by distance. Closest: ${closest.name} (${Math.round(closest.milesAway)} mi away). Maps, elevation profiles & parking for every trail.`.slice(0, 160);
 
 const itemListSchema = {
