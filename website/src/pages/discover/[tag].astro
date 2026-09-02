@@ -92,9 +92,16 @@ const getPrettyTitle = (t) => {
 const prettyTag = getPrettyTitle(tagSlug);
 
 const heroImage = mountains[0]?.mountain_hero || mountains[0]?.image || "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b";
+
+// A tag page with only a handful of trails is a thin-content signal, same
+// as a state hub (see [state]/index.astro) — keep it out of Google's index
+// while still letting link equity reach the trail pages it lists.
+const MIN_TRAILS_TO_INDEX = 5;
+const robots = mountains.length < MIN_TRAILS_TO_INDEX ? 'noindex, follow' : undefined;
 ---
 
 <Layout
+  robots={robots}
   title={`Best ${prettyTag} Hikes 2026 | ${mountains.length} Trail Guides & Maps`}
   description={`Discover the top ${mountains.length} ${prettyTag.toLowerCase()} hikes across ${Object.keys(byState).length} states. Detailed trail guides with maps, elevation profiles, difficulty ratings & parking info. Find your next adventure.`}
 >
