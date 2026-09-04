@@ -182,10 +182,27 @@ const getIconSvg = (iconName) => {
 // the index but keep `follow`, so its trail pages still receive link equity.
 const MIN_TRAILS_TO_INDEX = 5;
 const robots = mountains.length < MIN_TRAILS_TO_INDEX ? 'noindex, follow' : undefined;
+
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: config.name, url: `https://summitseeker.io/${stateSlug}` }
+];
+
+// Real per-state intro copy for hubs thin enough that the swimlanes and
+// A-Z list alone read as a bare database dump. Nebraska is the thinnest
+// state hub that's actually indexed (6 publish-ready trails, just above
+// the MIN_TRAILS_TO_INDEX cutoff above — Delaware and North Dakota are
+// thinner still, but both sit below that cutoff and are already noindexed,
+// so thickening their copy wouldn't move anything in search).
+const stateIntros = {
+  'nebraska': `Nebraska's ranked summits cluster entirely in the Panhandle, in the Wildcat Hills and Pine Ridge country near Scottsbluff — pine-dusted buttes rising a few hundred feet above the surrounding plains, a world away from the flat cropland most people picture when they hear "Nebraska." The live high point here is Bead Mountain at 4,610 feet, just 4 feet above Wildcat Mountain, whose 1.4-mile out-and-back is the shortest hike in the group; Barrel Butte's 7-mile round trip is the longest. Several dozen more Nebraska summits are already queued in the database — these ${mountains.length} are simply the ones with a confirmed route and elevation profile today.`
+};
+const intro = stateIntros[stateSlug];
 ---
 
 <Layout
   robots={robots}
+  breadcrumbs={breadcrumbs}
   title={`${config.name} Hiking Trails (2026) | ${mountains.length} Guides & Maps`}
   description={`Discover the top ${mountains.length} hiking trails in ${config.name}. Detailed trail guides, topographic maps, elevation profiles, weather forecasts & parking info for every hike. From beginner to expert.`}
 >
@@ -267,6 +284,14 @@ const robots = mountains.length < MIN_TRAILS_TO_INDEX ? 'noindex, follow' : unde
         </div>
       </div>
     </div>
+
+    {intro && (
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="bg-white p-8 rounded-3xl border border-stone-100 shadow-xl text-stone-600 text-base leading-relaxed">
+          {intro}
+        </p>
+      </div>
+    )}
 
     <!-- SWIMLANES - FIXED: /hikes/ in URL -->
     {config.featuredCollections.map(c => {
