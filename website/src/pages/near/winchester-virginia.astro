@@ -89,14 +89,24 @@ const moderateHikes = nearbyHikes.filter(m => {
   const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
   return difficulty.toLowerCase().includes('moderate');
 }).slice(0, 6);
-// The farthest tier is the actual differentiator here — West Virginia's
-// Eastern Highlands plus Pennsylvania's Mount Davis and Maryland's
-// Hoye-Crest — so this deliberately takes the farthest 8 rather than the
-// nearest 8 beyond 50mi, same deviation as Trenton, Worcester/Springfield
-// and Scranton/Wilkes-Barre, and for the same reason: a plain slice(0, 8)
-// here would return only the closer western-Maryland Allegheny summits and
-// miss every peak this page's own copy leans on.
-const dayTripHikes = nearbyHikes.filter(m => m.distance > 50).slice(-8);
+// The farthest tier is the actual differentiator here — the two named state
+// high points and West Virginia's Eastern Highlands — but neither a plain
+// slice(0, 8) (nearest beyond 50mi, all closer western-Maryland Allegheny
+// summits) nor slice(-8) (farthest 8, an unnamed cluster past 78mi) actually
+// contains Mount Davis, Hoye-Crest or Canaan Mountain: they sit in the
+// middle of the >50mi range (67-71mi), between those two slices. A Codex
+// review on the original version caught that gap — the copy promised these
+// three named peaks but the card grid silently omitted all of them. Fixed
+// by guaranteeing the named anchors a spot, then filling remaining slots
+// with the nearest other trails beyond 50mi.
+const dayTripAnchorNames = new Set(['Mount Davis', 'Hoye-Crest', 'Canaan Mountain']);
+const beyondFifty = nearbyHikes.filter(m => m.distance > 50);
+const dayTripAnchors = beyondFifty.filter(m => dayTripAnchorNames.has(m.name));
+const otherDayTrips = beyondFifty
+  .filter(m => !dayTripAnchorNames.has(m.name))
+  .sort((a, b) => a.distance - b.distance);
+const dayTripHikes = [...dayTripAnchors, ...otherDayTrips.slice(0, 8 - dayTripAnchors.length)]
+  .sort((a, b) => a.distance - b.distance);
 
 // Normalize state slug (data already stores full slugs for these states,
 // this only covers the abbreviated ones used elsewhere on the site)
@@ -154,7 +164,7 @@ const faqSchema = {
       "name": "What are the best easy hikes near Winchester for beginners?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Several of the closer western Maryland summits — Dans Rock, Fairview and Wolf Rock among them — are shorter, well-marked routes suited to beginners, most within a 70-minute drive of Winchester."
+        "text": `Several of the closer western Maryland and Pennsylvania summits — ${easyHikes[0]?.name}, ${easyHikes[1]?.name} and ${easyHikes[2]?.name} among them — are rated easy and well-marked, most within a 75-minute drive of Winchester.`
       }
     },
     {
@@ -496,8 +506,8 @@ const localBusinessSchema = {
               </svg>
             </summary>
             <div class="p-4 text-stone-700 leading-relaxed">
-              Several of the closer western Maryland summits — Dans Rock, Fairview and Wolf Rock among
-              them — are shorter, well-marked routes suited to beginners, most within a 70-minute
+              Several of the closer western Maryland and Pennsylvania summits — {easyHikes[0]?.name}, {easyHikes[1]?.name} and {easyHikes[2]?.name} among
+              them — are rated easy and well-marked, most within a 75-minute
               drive of Winchester.
             </div>
           </details>
