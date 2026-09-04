@@ -194,8 +194,16 @@ const breadcrumbs = [
 // the MIN_TRAILS_TO_INDEX cutoff above — Delaware and North Dakota are
 // thinner still, but both sit below that cutoff and are already noindexed,
 // so thickening their copy wouldn't move anything in search).
+// The "N more queued" figure is computed rather than hand-typed, so it
+// can't drift out of sync with the data the way a hardcoded guess would
+// (a Codex review on the original copy caught "several dozen" overstating
+// the real gap — 25 total Nebraska records, only 19 not yet publish-ready).
+const rawStateRecordCount = stateSlug === 'nebraska'
+  ? Object.values(allFiles).map(f => f.default || f).filter(m => m.state_slug === 'nebraska').length
+  : null;
+const queuedCount = rawStateRecordCount !== null ? rawStateRecordCount - mountains.length : null;
 const stateIntros = {
-  'nebraska': `Nebraska's ranked summits cluster entirely in the Panhandle, in the Wildcat Hills and Pine Ridge country near Scottsbluff — pine-dusted buttes rising a few hundred feet above the surrounding plains, a world away from the flat cropland most people picture when they hear "Nebraska." The live high point here is Bead Mountain at 4,610 feet, just 4 feet above Wildcat Mountain, whose 1.4-mile out-and-back is the shortest hike in the group; Barrel Butte's 7-mile round trip is the longest. Several dozen more Nebraska summits are already queued in the database — these ${mountains.length} are simply the ones with a confirmed route and elevation profile today.`
+  'nebraska': `Nebraska's ranked summits cluster entirely in the Panhandle, in the Wildcat Hills and Pine Ridge country near Scottsbluff — pine-dusted buttes rising a few hundred feet above the surrounding plains, a world away from the flat cropland most people picture when they hear "Nebraska." The live high point here is Bead Mountain at 4,610 feet, just 4 feet above Wildcat Mountain, whose 1.4-mile out-and-back is the shortest hike in the group; Barrel Butte's 7-mile round trip is the longest.${queuedCount ? ` ${queuedCount} more Nebraska summits are already queued in the database` : ' More Nebraska summits are already queued in the database'} — these ${mountains.length} are simply the ones with a confirmed route and elevation profile today.`
 };
 const intro = stateIntros[stateSlug];
 ---
