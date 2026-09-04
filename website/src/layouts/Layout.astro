@@ -9,6 +9,8 @@ interface Props {
     mountain?: any;
     /** Override the robots meta, e.g. "noindex, follow" on thin pages. */
     robots?: string;
+    /** Breadcrumb trail for BreadcrumbList structured data on non-mountain pages. */
+    breadcrumbs?: Array<{ name: string; url: string }>;
 }
 
 const {
@@ -16,7 +18,8 @@ const {
     description = "Discover detailed hiking guides, track your peak bagging progress, and explore the outdoors.",
     image,
     mountain,
-    robots
+    robots,
+    breadcrumbs
 } = Astro.props;
 ---
 
@@ -51,7 +54,7 @@ const {
           gtag('config', 'G-53Y7JKL9DN');
         </script>
 
-        <SEOHead title={title} description={description} image={image} mountain={mountain} robots={robots} />
+        <SEOHead title={title} description={description} image={image} mountain={mountain} robots={robots} breadcrumbs={breadcrumbs} />
         <slot name="head" />
 	</head>
 	<body class="bg-stone-50 text-stone-900 font-sans antialiased min-h-screen flex flex-col">

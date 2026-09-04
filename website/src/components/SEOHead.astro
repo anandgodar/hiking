@@ -33,11 +33,16 @@ interface Props {
   image?: string;
   canonicalUrl?: string;
   type?: 'website' | 'article';
+  // Optional breadcrumb trail for non-mountain pages that render their own
+  // visual breadcrumb (state hubs, near/, discover/) but never emitted
+  // BreadcrumbList structured data for it. Ignored on mountain pages, which
+  // already build their own breadcrumbSchema below.
+  breadcrumbs?: Array<{ name: string; url: string }>;
 }
 
 import { trailCount, stateCount } from '../lib/siteStats.js';
 
-const { mountain, title: propTitle, description: propDescription, image: propImage, canonicalUrl: propCanonical, type = 'website', robots: propRobots } = Astro.props;
+const { mountain, title: propTitle, description: propDescription, image: propImage, canonicalUrl: propCanonical, type = 'website', robots: propRobots, breadcrumbs: propBreadcrumbs } = Astro.props;
 
 // Indexable by default; pages can opt out (thin state hubs pass
 // "noindex, follow" so link equity still reaches their trail pages).
@@ -144,6 +149,21 @@ const breadcrumbSchema = isMountainPage ? {
   ]
 } : null;
 
+// Generic breadcrumb schema for non-mountain pages that supply their own
+// trail (state hubs, near/, discover/) — those pages already render a
+// visual breadcrumb but, unlike mountain pages, never emitted the matching
+// structured data for it.
+const genericBreadcrumbSchema = (!isMountainPage && propBreadcrumbs?.length) ? {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": propBreadcrumbs.map((crumb, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": crumb.name,
+    "item": crumb.url
+  }))
+} : null;
+
 // Website schema for homepage
 const websiteSchema = !isMountainPage ? {
   "@context": "https://schema.org",
@@ -239,6 +259,10 @@ const organizationSchema = !isMountainPage ? {
 
 {breadcrumbSchema && (
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+)}
+
+{genericBreadcrumbSchema && (
+  <script type="application/ld+json" set:html={JSON.stringify(genericBreadcrumbSchema)} />
 )}
 
 {websiteSchema && (
