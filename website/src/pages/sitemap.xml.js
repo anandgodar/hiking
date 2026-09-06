@@ -247,6 +247,13 @@ export async function GET() {
   );
   const stateDataLastmod = new Map();
   const discoverTagLastmod = new Map();
+  // Thin-content counts, so pages discover/[tag].astro and [state]/index.astro
+  // themselves noindex (MIN_TRAILS_TO_INDEX = 5) can be left out of the
+  // sitemap too — submitting a noindexed URL to Google directly contradicts
+  // its own robots meta tag. Counts a mountain once per tag/state even if it
+  // reaches that tag through more than one field.
+  const stateMountainCounts = new Map();
+  const discoverTagCounts = new Map();
 
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
@@ -346,14 +353,20 @@ export async function GET() {
       lastmod: mountainLastmod
     });
     stateDataLastmod.set(stateSlug, maxDate(stateDataLastmod.get(stateSlug), gitLastmod.get(repoPath)));
+    stateMountainCounts.set(stateSlug, (stateMountainCounts.get(stateSlug) || 0) + 1);
 
-    // Collect Tags for Discover Pages
+    // Collect Tags for Discover Pages — must match discover/[tag].astro's own
+    // getStaticPaths tag set exactly (including m.trails?.flatMap(t => t.tags),
+    // previously missing here), or a tag counted "healthy" here could still be
+    // the noindexed page the site itself serves.
     const tags = [
         ...(m.tags || []),
         ...(m.features?.map(f => f.type) || []),
+        ...(m.trails?.flatMap(t => t.tags) || []),
         m.trails?.[0]?.stats?.difficulty
     ].filter(Boolean);
 
+    const cleanTagsForMountain = new Set();
     tags.forEach(t => {
         // Singularize and normalize
         const cleanTag = t.toString().toLowerCase().trim()
@@ -364,12 +377,26 @@ export async function GET() {
         if (cleanTag) {
           discoverTags.add(cleanTag);
           discoverTagLastmod.set(cleanTag, maxDate(discoverTagLastmod.get(cleanTag), gitLastmod.get(repoPath)));
+          cleanTagsForMountain.add(cleanTag);
         }
+    });
+    // Count each tag once per mountain, even if reached through multiple
+    // fields (e.g. both m.tags and a trail-level tag) — matches the page's
+    // own dedup via allSearchableTags.includes(tagSlug).
+    cleanTagsForMountain.forEach(t => {
+      discoverTagCounts.set(t, (discoverTagCounts.get(t) || 0) + 1);
     });
   });
 
   // 3. Add State Pages (medium-high priority)
+  // [state]/index.astro noindexes any state with fewer than
+  // MIN_TRAILS_TO_INDEX (5) publish-ready trails — skip those here too, or
+  // the sitemap submits a URL that directly contradicts its own robots meta
+  // tag (Delaware and North Dakota, both noindexed, were being sitemapped
+  // regardless of this before this fix).
+  const MIN_TRAILS_TO_INDEX = 5;
   states.forEach(s => {
+      if ((stateMountainCounts.get(s) || 0) < MIN_TRAILS_TO_INDEX) return;
       pages.push({
         url: `${siteUrl}/${s}`,
         priority: 0.8,
@@ -445,7 +472,12 @@ export async function GET() {
   });
 
   // 5. Add Discover tag pages (medium priority)
+  // discover/[tag].astro noindexes any tag with fewer than
+  // MIN_TRAILS_TO_INDEX (5) matching trails — skip those here too (142 of
+  // 171 tag pages were being sitemapped as fully indexable despite serving
+  // noindex, follow themselves).
   discoverTags.forEach(t => {
+      if ((discoverTagCounts.get(t) || 0) < MIN_TRAILS_TO_INDEX) return;
       pages.push({
         url: `${siteUrl}/discover/${t}`,
         priority: 0.7,
