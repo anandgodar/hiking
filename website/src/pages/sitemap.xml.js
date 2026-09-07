@@ -247,6 +247,17 @@ export async function GET() {
   );
   const stateDataLastmod = new Map();
   const discoverTagLastmod = new Map();
+  // State hubs and discover tag pages both noindex themselves below this
+  // threshold ([state]/index.astro and discover/[tag].astro each define
+  // their own MIN_TRAILS_TO_INDEX = 5), but until now this file counted
+  // neither — so a noindexed thin page (Delaware's state hub, or any
+  // discover tag under 5 trails) still got submitted to Google, directly
+  // contradicting its own <meta name="robots"> tag. Tracked here so both
+  // page categories can be skipped from the sitemap once thin, the same way
+  // a draft/route-incomplete trail already is via isPublishReady.
+  const MIN_TRAILS_TO_INDEX = 5;
+  const stateCounts = new Map();
+  const tagCounts = new Map();
 
   // 1. Gather Data
   const allFiles = await import.meta.glob('../data/*/*.json', { eager: true });
@@ -335,6 +346,7 @@ export async function GET() {
 
     const stateSlug = normalizeState(m.state_slug);
     states.add(stateSlug);
+    stateCounts.set(stateSlug, (stateCounts.get(stateSlug) || 0) + 1);
 
     // Add Mountain Page with high priority (main content)
     const mountainLastmod = maxDate(gitLastmod.get(repoPath), pageTemplateLastmod); // null falls back to the blanket build date below
@@ -347,13 +359,24 @@ export async function GET() {
     });
     stateDataLastmod.set(stateSlug, maxDate(stateDataLastmod.get(stateSlug), gitLastmod.get(repoPath)));
 
-    // Collect Tags for Discover Pages
+    // Collect Tags for Discover Pages — matches discover/[tag].astro's own
+    // getStaticPaths tag set exactly (m.tags, m.features, EVERY trail's own
+    // tags via trails?.flatMap, plus the first trail's difficulty). Missing
+    // the trail-level tags here used to under-count a mountain's tags
+    // relative to what discover/[tag].astro itself matches on, which is how
+    // a thin tag page could still clear a since-removed higher threshold in
+    // this file while genuinely sitting under discover/[tag].astro's own
+    // MIN_TRAILS_TO_INDEX. Counting each tag's matching mountains (tagCounts
+    // below) now lets this file mirror that page's noindex decision exactly,
+    // rather than just approximating its lastmod.
     const tags = [
         ...(m.tags || []),
         ...(m.features?.map(f => f.type) || []),
+        ...(m.trails?.flatMap(t => t.tags) || []),
         m.trails?.[0]?.stats?.difficulty
     ].filter(Boolean);
 
+    const cleanTagsForThisMountain = new Set();
     tags.forEach(t => {
         // Singularize and normalize
         const cleanTag = t.toString().toLowerCase().trim()
@@ -364,18 +387,36 @@ export async function GET() {
         if (cleanTag) {
           discoverTags.add(cleanTag);
           discoverTagLastmod.set(cleanTag, maxDate(discoverTagLastmod.get(cleanTag), gitLastmod.get(repoPath)));
+          cleanTagsForThisMountain.add(cleanTag);
         }
+    });
+    // Count each distinct tag once per mountain (a mountain repeating a tag
+    // across m.tags and a trail's own tags must not double-count towards
+    // the >=5 threshold — discover/[tag].astro counts matching *mountains*,
+    // not raw tag occurrences).
+    cleanTagsForThisMountain.forEach(cleanTag => {
+      tagCounts.set(cleanTag, (tagCounts.get(cleanTag) || 0) + 1);
     });
   });
 
   // 3. Add State Pages (medium-high priority)
   states.forEach(s => {
-      pages.push({
-        url: `${siteUrl}/${s}`,
-        priority: 0.8,
-        changefreq: 'weekly',
-        lastmod: maxDate(stateDataLastmod.get(s), stateHubSharedLastmod)
-      });
+      // [state]/index.astro serves noindex,follow itself under the same
+      // MIN_TRAILS_TO_INDEX=5 threshold (Delaware and North Dakota, at last
+      // count) — submitting a noindexed URL to Google directly contradicts
+      // the page's own robots meta tag, so skip the state hub itself below
+      // that threshold. highest-peaks.astro has no equivalent noindex guard
+      // of its own (it stays indexable regardless of trail count), so it
+      // isn't gated here — that's a separate, undecided question about
+      // whether it should noindex too, not a sitemap/robots mismatch.
+      if ((stateCounts.get(s) || 0) >= MIN_TRAILS_TO_INDEX) {
+        pages.push({
+          url: `${siteUrl}/${s}`,
+          priority: 0.8,
+          changefreq: 'weekly',
+          lastmod: maxDate(stateDataLastmod.get(s), stateHubSharedLastmod)
+        });
+      }
       // Programmatic "highest peaks in <state>" listicle
       pages.push({
         url: `${siteUrl}/${s}/highest-peaks`,
@@ -445,7 +486,14 @@ export async function GET() {
   });
 
   // 5. Add Discover tag pages (medium priority)
+  // discover/[tag].astro serves noindex,follow itself under the same
+  // MIN_TRAILS_TO_INDEX=5 threshold (142 of 171 tags, at last count) —
+  // submitting a noindexed tag page directly contradicts its own robots
+  // meta tag, so skip it here too. tagCounts (built above from the same
+  // tag set discover/[tag].astro's own getStaticPaths matches on) mirrors
+  // that page's real trail count per tag, not just the presence of the tag.
   discoverTags.forEach(t => {
+      if ((tagCounts.get(t) || 0) < MIN_TRAILS_TO_INDEX) return;
       pages.push({
         url: `${siteUrl}/discover/${t}`,
         priority: 0.7,
