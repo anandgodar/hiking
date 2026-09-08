@@ -405,7 +405,8 @@ export async function GET() {
     { city: 'allentown', priority: 0.85, handAuthored: true },
     { city: 'scranton-wilkes-barre', priority: 0.85, handAuthored: true },
     { city: 'trenton', priority: 0.85, handAuthored: true },
-    { city: 'winchester-virginia', priority: 0.85, handAuthored: true }
+    { city: 'winchester-virginia', priority: 0.85, handAuthored: true },
+    { city: 'greenville-south-carolina', priority: 0.85, handAuthored: true }
   ];
 
   // Programmatic city pages (near/[city].astro) — mirror its ≥5-trails-
