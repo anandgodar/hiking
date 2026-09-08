@@ -146,8 +146,18 @@ const HAND_MADE_CITIES = [
   { slug: 'scranton-wilkes-barre', name: 'Scranton & Wilkes-Barre, PA', lat: 41.4090, lon: -75.6624, lat2: 41.2459, lon2: -75.8813 },
   { slug: 'trenton', name: 'Trenton, NJ', lat: 40.2171, lon: -74.7429 },
   { slug: 'winchester-virginia', name: 'Winchester, VA', lat: 39.1857, lon: -78.1633 },
+  { slug: 'fresno', name: 'Fresno, CA', lat: 36.7378, lon: -119.7871 },
   { slug: 'hagerstown', name: 'Hagerstown, MD', lat: 39.6418, lon: -77.7200 },
 ];
+
+// Mount Whitney clears Fresno's 100mi/120min haversine filter (~86mi/~115min
+// as the crow flies) but sits across the Sierra Nevada crest with no through
+// road at that latitude — a 3.5+ hour real drive, not the ~115min the
+// formula implies. near/fresno.astro excludes it from its own trail list for
+// the same reason; this keeps the homepage chip count in sync with what that
+// page actually shows (the same class of mismatch bug fixed previously for
+// Providence and Burlington VT).
+const PER_CITY_EXCLUSIONS = { fresno: new Set(['Mount Whitney']) };
 // Hand-authored pages filter on trailhead coordinates + a 120-minute drive
 // cap (see e.g. near/albany.astro), not just summit-to-summit distance — so
 // their chip counts need the same predicate or they advertise a number the
@@ -166,6 +176,7 @@ const cityLinks = [...HAND_MADE_CITIES, ...cities]
     count: handMadeSlugs.has(c.slug)
       ? allMountains.filter(m => {
           if (!m.lat || !m.lon) return false;
+          if (PER_CITY_EXCLUSIONS[c.slug]?.has(m.name)) return false;
           const [thLat, thLon] = trailheadCoords(m);
           // Worcester & Springfield is a two-origin page — a trail counts if
           // it's within range of *either* city, same as the page's own
