@@ -134,6 +134,7 @@ const HAND_MADE_CITIES = [
   { slug: 'trenton', name: 'Trenton, NJ', lat: 40.2171, lon: -74.7429 },
   { slug: 'winchester-virginia', name: 'Winchester, VA', lat: 39.1857, lon: -78.1633 },
   { slug: 'fresno', name: 'Fresno, CA', lat: 36.7378, lon: -119.7871 },
+  { slug: 'hagerstown', name: 'Hagerstown, MD', lat: 39.6418, lon: -77.7200 },
 ];
 const allCities = [...HAND_MADE_CITIES, ...cities];
 
@@ -152,7 +153,7 @@ const PER_CITY_EXCLUSIONS = { fresno: new Set(['Mount Whitney']) };
 // can get linked to a city whose own page doesn't actually list it (e.g. a
 // trail 92mi/123min from Philadelphia passed the generic <=100mi check here
 // but fails philadelphia.astro's <=100mi && <=120min filter).
-const strictDriveTimeSlugs = new Set(['providence', 'hartford', 'albany', 'philadelphia', 'pittsburgh', 'worcester-springfield', 'new-haven', 'manchester-concord', 'poughkeepsie', 'allentown', 'scranton-wilkes-barre', 'trenton', 'winchester-virginia', 'fresno']);
+const strictDriveTimeSlugs = new Set(['providence', 'hartford', 'albany', 'philadelphia', 'pittsburgh', 'worcester-springfield', 'new-haven', 'manchester-concord', 'poughkeepsie', 'allentown', 'scranton-wilkes-barre', 'trenton', 'winchester-virginia', 'fresno', 'hagerstown']);
 const trailheadCoords = (m) => {
   const start = m.trails?.[0]?.geo?.markers?.start;
   if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') return start;
