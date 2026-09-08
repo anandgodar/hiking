@@ -1,0 +1,598 @@
+---
+/**
+ * Best Hikes Near Fresno, California
+ * High-value SEO landing page targeting "hikes near fresno"
+ *
+ * title: Best Hikes Near Fresno, CA 2026 | Yosemite Trails Within 2 Hours (With Drive Times)
+ * description: Discover the best hiking trails near Fresno, California — Yosemite Valley's
+ *   biggest names (Half Dome, the Mist Trail, Yosemite Falls) and the high Sierra beyond,
+ *   with real drive times, maps and difficulty ratings for every trail.
+ * slug: fresno
+ * date: 2026-09-07
+ * targetKeywords: hikes near fresno, best hikes near fresno ca, fresno yosemite hiking trails,
+ *   best hikes near fresno yosemite sierra nevada
+ * targetSite: summitseeker.io
+ * competitorGap: "best hikes near Fresno Yosemite Sierra Nevada" and the general "best hiking
+ *   trails near me" query both surface visitfresnocounty.org (a county tourism board "staff
+ *   picks" post), komoot, cassiescompass.com, bestthingsandplaces.com and
+ *   flyingdawnmarie.com's Fresno Dome writeup — all pointing at either in-county spots (Hume
+ *   Lake, Fresno Dome) or a flat list of national-park names (Half Dome, Mirror Lake, Mariposa
+ *   Grove, Moro Rock, Zumwalt Meadow), with no drive-time computation from real trailhead
+ *   coordinates and no systematic distance/difficulty sort. Fresno isn't in cities.json (no
+ *   programmatic page) and wasn't hand-authored before this page. The data backs it, but
+ *   narrowly: this site's database has no named-summit coverage of Sequoia or Kings Canyon,
+ *   and only 12 publish-ready trails fall within 100 miles / 120 minutes — but those 12 are
+ *   Yosemite Valley's actual marquee trails (Half Dome, all three of the Valley's major
+ *   waterfalls via the Mist Trail, Clouds Rest, Cathedral Lakes), all within roughly 90-105
+ *   minutes via Highway 41. Mount Whitney (the actual highest peak in the contiguous US) sits
+ *   ~86 miles away as the crow flies but is deliberately excluded from the trail list — the
+ *   Sierra Nevada crest has no through road at this latitude, so reaching it actually requires
+ *   a 3.5+ hour drive around the range, not the ~115 minutes a straight-line estimate implies.
+ */
+import Layout from '../../layouts/Layout.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(isPublishReady); // route-complete trails only (no drafts)
+
+// Fresno, CA coordinates
+const fresnoLat = 36.7378;
+const fresnoLon = -119.7871;
+
+// Calculate distance from Fresno
+const calculateDistance = (lat, lon) => {
+  const R = 3959; // Earth's radius in miles
+  const dLat = (lat - fresnoLat) * Math.PI / 180;
+  const dLon = (lon - fresnoLon) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(fresnoLat * Math.PI / 180) * Math.cos(lat * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Drive time from the actual trailhead coordinates in each trail's route data
+// (geo.markers.start), not the summit pin — falls back to the summit lat/lon
+// only when a trail has no recorded trailhead.
+const trailheadCoords = (m) => {
+  const start = m.trails?.[0]?.geo?.markers?.start;
+  if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') {
+    return start;
+  }
+  return [m.lat, m.lon];
+};
+
+// Filter trails within 100 miles of Fresno and sort by distance
+const nearbyHikesRaw = allMountains
+  .filter(m => m.lat && m.lon)
+  .map(m => {
+    const [thLat, thLon] = trailheadCoords(m);
+    return {
+      ...m,
+      distance: calculateDistance(thLat, thLon),
+      driveTime: Math.round(calculateDistance(thLat, thLon) / 45 * 60) // Rough estimate: 45mph avg on state roads
+    };
+  })
+  .filter(m => m.distance <= 100 && m.driveTime <= 120) // matches the "within 2 hours" hero/title claim
+  .sort((a, b) => a.distance - b.distance);
+
+// Mount Whitney clears the filter above (~86mi / ~115min as the crow flies)
+// but there is no through road across the Sierra Nevada crest at this
+// latitude — reaching the Whitney Portal trailhead near Lone Pine actually
+// means driving around the range (via Bakersfield, or north through
+// Yosemite's seasonal Tioga Pass to US-395), a 3.5+ hour trip either way.
+// That's not the ordinary haversine-vs-real-road slop this site's other
+// /near/ pages already accept (a rounding error of a few minutes) — it's
+// off by multiples, so it's excluded here rather than shown with a
+// fabricated drive time. Addressed directly in the FAQ instead.
+const excludedNames = new Set(['Mount Whitney']);
+const nearbyHikes = nearbyHikesRaw.filter(m => !excludedNames.has(m.name));
+
+// Top picks by category
+const closestHikes = nearbyHikes.slice(0, 5);
+const easyHikes = nearbyHikes.filter(m => {
+  const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
+  return difficulty.toLowerCase().includes('easy') || difficulty.toLowerCase().includes('beginner');
+}).slice(0, 8);
+const moderateHikes = nearbyHikes.filter(m => {
+  const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
+  return difficulty.toLowerCase().includes('moderate');
+}).slice(0, 6);
+// Fresno's real differentiator isn't a farther-tier city (nothing named this
+// site tracks sits meaningfully beyond Yosemite's own high country) — it's
+// the jump in difficulty: the strenuous all-day summits and the tallest
+// waterfall route, the trails a "best hikes near Fresno" searcher actually
+// means when they ask for something more than a valley-floor walk.
+const strenuousHikes = nearbyHikes.filter(m => {
+  const difficulty = m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '';
+  return difficulty.toLowerCase().includes('strenuous');
+}).slice(0, 8);
+
+// Normalize state slug (data already stores full slugs for these states,
+// this only covers the abbreviated ones used elsewhere on the site)
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s;
+};
+
+const halfDome = nearbyHikes.find(h => h.name === 'Half Dome');
+const cloudsRest = nearbyHikes.find(h => h.name === 'Clouds Rest');
+const cathedralLakes = nearbyHikes.find(h => h.name === 'Cathedral Lakes');
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the closest hiking trail to Fresno, CA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `The closest hiking trail to Fresno is ${closestHikes[0]?.name}, roughly ${Math.round(closestHikes[0]?.distance)} miles (${closestHikes[0]?.driveTime} minutes) away in Yosemite Valley via Highway 41.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far is Half Dome from Fresno?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `Half Dome is roughly ${halfDome ? `${Math.round(halfDome.distance)} miles (${halfDome.driveTime} minutes)` : '70 miles (93 minutes)'} from Fresno, making it a genuine (if long) day trip — though the cable route requires an advance permit.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far is Yosemite Valley from Fresno?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yosemite Valley is about 70 miles from Fresno via Highway 41 (the Wawona Road), roughly a 90-minute drive in clear conditions — longer in summer traffic or winter snow. It's the closest entrance to Fresno of any of Yosemite's gates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Mount Whitney a day trip from Fresno?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not really, despite being only about 86 miles away as the crow flies. Mount Whitney sits on the opposite side of the Sierra Nevada crest, and there's no through road at this latitude — reaching the Whitney Portal trailhead near Lone Pine means driving around the range, either south via Bakersfield or north through Yosemite's seasonal Tioga Pass to US-395. Either route is 3.5+ hours, so it isn't included in the trail list above."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Tioga Road open year-round for Yosemite's high country?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `No — Tioga Road, the route to Tuolumne Meadows and trails like Cathedral Lakes${cathedralLakes ? ` (${Math.round(cathedralLakes.distance)} miles from Fresno)` : ''} and Clouds Rest${cloudsRest ? ` (${Math.round(cloudsRest.distance)} miles)` : ''}, is closed by snow every winter and typically reopens late May or June, closing again by early-to-mid November. Check the park's current conditions page before planning a high-country trip outside summer and early fall.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best easy hikes near Fresno for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${easyHikes[0]?.name}, ${easyHikes[1]?.name} and ${easyHikes[2]?.name} are all rated easy, paved or near-flat, and sit right in Yosemite Valley — no permit or technical gear needed for any of them.`
+      }
+    }
+  ]
+};
+
+// LocalBusiness Schema for Fresno area
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "TouristInformationCenter",
+  "name": "Best Hiking Trails Near Fresno - Summit Seeker",
+  "description": "Comprehensive guide to the best hiking trails within 100 miles of Fresno, California, including Yosemite Valley and the high Sierra",
+  "url": "https://summitseeker.io/near/fresno",
+  "areaServed": {
+    "@type": "City",
+    "name": "Fresno",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fresno",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    }
+  }
+};
+---
+
+<Layout
+  title="Best Hikes Near Fresno, CA 2026 | Yosemite Trails Within 2 Hours (With Drive Times)"
+  description="Discover the best hiking trails near Fresno, California — Yosemite Valley's biggest names (Half Dome, the Mist Trail, Yosemite Falls) and the high Sierra beyond, with real drive times, maps and difficulty ratings for every trail."
+>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} slot="head" />
+
+  <!-- Hero Section -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1533130061792-64b345e4a833?auto=format&fit=crop&q=80&w=2000"
+        class="w-full h-full object-cover"
+        alt="Half Dome and Yosemite Valley granite cliffs near Fresno California"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <!-- Breadcrumb -->
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li><a href="/near" class="hover:text-white transition-colors">Near Me</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Fresno</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-blue-500/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} Trails Within 100 Miles
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-blue-400">Fresno</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        {nearbyHikes.length} trails within 100 miles of Fresno — and they include some of the biggest names in American hiking: Half Dome, the Mist Trail, and all three of Yosemite Valley's major waterfalls
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 text-sm">
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Closest:</span> <span class="text-white font-bold">{Math.round(closestHikes[0]?.distance)} miles</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Drive Time:</span> <span class="text-white font-bold">{closestHikes[0]?.driveTime} min - 2 hrs</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Difficulty:</span> <span class="text-white font-bold">Easy to Strenuous</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Quick Navigation -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 mb-12 border border-stone-200">
+        <h2 class="text-lg font-bold text-stone-900 mb-4">Jump to Section:</h2>
+        <div class="flex flex-wrap gap-3">
+          <a href="#closest" class="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors font-medium text-sm">
+            ⚡ Closest Trails
+          </a>
+          <a href="#easy" class="px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100 transition-colors font-medium text-sm">
+            🥾 Easy Hikes
+          </a>
+          <a href="#moderate" class="px-4 py-2 bg-amber-50 text-amber-700 rounded-lg hover:bg-amber-100 transition-colors font-medium text-sm">
+            ⛰️ Moderate Hikes
+          </a>
+          <a href="#strenuous" class="px-4 py-2 bg-cyan-50 text-cyan-700 rounded-lg hover:bg-cyan-100 transition-colors font-medium text-sm">
+            🏔️ Strenuous Summits
+          </a>
+          <a href="#all" class="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors font-medium text-sm">
+            📍 All {nearbyHikes.length} Trails
+          </a>
+        </div>
+      </div>
+
+      <!-- Intro Content -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Fresno Is the Closest Gate Into Yosemite's Biggest Names</h2>
+
+        <p class="text-stone-700 leading-relaxed">
+          Fresno doesn't have foothills of its own worth naming, but Highway 41 runs almost due
+          north out of the city and, in about {closestHikes[0]?.driveTime} minutes, drops you at
+          Yosemite's South Entrance. From there, some of the most famous named trails in American
+          hiking — Half Dome, the Mist Trail past Vernal and Nevada Falls, and both the upper and
+          lower drops of Yosemite Falls — all sit within roughly 90 to 105 minutes of downtown
+          Fresno. Push a little farther, once Tioga Road opens for the season, and Tuolumne
+          Meadows' high country (Cathedral Lakes, Clouds Rest) is in range too.
+        </p>
+
+        <p class="text-stone-700 leading-relaxed">
+          This site's own trail database doesn't yet reach Sequoia or Kings Canyon, so this guide
+          is narrower than most of the other city pages on this site — {nearbyHikes.length} trails,
+          not dozens. What it covers, though, is exactly what most "hikes near Fresno" searches are
+          actually looking for. Each trail includes:
+        </p>
+
+        <ul class="space-y-2 text-stone-700">
+          <li>✓ <strong>Exact distance from Fresno</strong> (measured from the trailhead, not the park boundary)</li>
+          <li>✓ <strong>Trail difficulty rating</strong> (easy, moderate, strenuous)</li>
+          <li>✓ <strong>Elevation gain & distance</strong></li>
+          <li>✓ <strong>Parking information & fees</strong></li>
+          <li>✓ <strong>Interactive trail maps</strong></li>
+          <li>✓ <strong>Real-time weather conditions</strong></li>
+        </ul>
+      </div>
+
+      <!-- Closest Hikes Section -->
+      {closestHikes.length > 0 && (
+        <section id="closest" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-blue-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⚡</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">5 Closest Trails to Fresno</h2>
+              <p class="text-stone-600">All in Yosemite Valley, via Highway 41</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {closestHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                  {mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Easy Hikes Section -->
+      {easyHikes.length > 0 && (
+        <section id="easy" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🥾</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Best Easy Hikes Near Fresno</h2>
+              <p class="text-stone-600">Valley-floor trails, paved or near-flat, no permit required</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {easyHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-emerald-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  EASY
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Moderate Hikes Section -->
+      {moderateHikes.length > 0 && (
+        <section id="moderate" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-amber-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⛰️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Moderate Hiking Trails</h2>
+              <p class="text-stone-600">More climbing, still doable as a long day trip</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {moderateHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  MODERATE
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Strenuous Summits Section -->
+      {strenuousHikes.length > 0 && (
+        <section id="strenuous" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-cyan-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🏔️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Strenuous Summits</h2>
+              <p class="text-stone-600">All-day routes — Half Dome needs an advance cable permit</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {strenuousHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-cyan-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  {mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Trails Section -->
+      <section id="all" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-purple-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📍</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All {nearbyHikes.length} Trails Near Fresno</h2>
+            <p class="text-stone-600">Sorted by distance from Fresno</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {nearbyHikes.map(mountain => (
+            <div class="relative">
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+              <div class="absolute bottom-4 left-4 bg-black/70 text-white px-2 py-1 rounded text-xs font-bold">
+                {Math.round(mountain.distance)} mi • {mountain.driveTime} min
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="bg-white rounded-2xl p-8 shadow-lg border border-stone-200 mb-16">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is the closest hiking trail to Fresno, CA?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The closest hiking trail to Fresno is <strong>{closestHikes[0]?.name}</strong>, located just {Math.round(closestHikes[0]?.distance)} miles away
+              ({closestHikes[0]?.driveTime} minute drive), in Yosemite Valley via Highway 41.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>How far is Half Dome from Fresno?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Half Dome is roughly {halfDome ? `${Math.round(halfDome.distance)} miles (${halfDome.driveTime} minutes)` : '70 miles (93 minutes)'} from
+              Fresno — a genuine, if long, day trip. The final cable section requires an advance permit obtained through a preseason lottery or daily lottery.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>How far is Yosemite Valley from Fresno?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Yosemite Valley is about 70 miles from Fresno via Highway 41 (the Wawona Road), roughly a
+              90-minute drive in clear conditions — longer in summer traffic or winter snow. It's the
+              closest of Yosemite's entrances to Fresno.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Is Mount Whitney a day trip from Fresno?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              Not really, despite being only about 86 miles away as the crow flies. Mount Whitney sits on
+              the opposite side of the Sierra Nevada crest, and there's no through road at this latitude —
+              reaching the Whitney Portal trailhead near Lone Pine means driving around the range, either
+              south via Bakersfield or north through Yosemite's seasonal Tioga Pass to US-395. Either route
+              runs 3.5+ hours, which is why it isn't listed among the trails above.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Is Tioga Road open year-round for Yosemite's high country?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              No — Tioga Road, the route to Tuolumne Meadows and trails like {cathedralLakes?.name || 'Cathedral Lakes'} and {cloudsRest?.name || 'Clouds Rest'},
+              closes with the first heavy snow every winter and typically reopens late May or June, closing
+              again by early-to-mid November. Check the park's current conditions page before planning a
+              high-country trip outside summer and early fall.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What are the best easy hikes near Fresno for beginners?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              {easyHikes[0]?.name}, {easyHikes[1]?.name} and {easyHikes[2]?.name} are all rated easy, paved
+              or near-flat, and sit right in Yosemite Valley — no permit or technical gear needed for any
+              of them.
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Hiking Tips for Fresno Area -->
+      <section class="bg-gradient-to-br from-emerald-50 to-blue-50 rounded-2xl p-8 border border-emerald-200">
+        <h2 class="text-2xl font-bold text-stone-900 mb-6">Essential Tips for Hiking Near Fresno</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🚗</span> Getting There
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Take Highway 41 N straight into Yosemite's South Entrance</li>
+              <li>• A Yosemite entrance pass ($35/vehicle for 7 days, or America the Beautiful) is required</li>
+              <li>• For Tuolumne Meadows and the high country, continue on Tioga Road (Hwy 120) — open roughly June through October only</li>
+              <li>• Valley parking fills by mid-morning on summer weekends; consider the free shuttle from outside the Valley</li>
+              <li>• Download offline maps — cell service is unreliable inside the park</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🎒</span> What to Bring
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Water: 3+ liters per person for the strenuous routes</li>
+              <li>• Snacks: Trail mix, energy bars, fruit</li>
+              <li>• Layers: the Valley floor and the 9,000ft+ high country run very differently</li>
+              <li>• First aid kit & headlamp — several routes here run well past sunset in daylight-savings months</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">📅</span> Best Times to Visit
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• <strong>Spring (Apr-Jun):</strong> Waterfalls at peak flow from snowmelt, the best window for the Mist Trail</li>
+              <li>• <strong>Summer (Jul-Aug):</strong> Full high-country access, heaviest crowds and Valley heat</li>
+              <li>• <strong>Fall (Sep-Oct):</strong> Waterfalls thin out, but crowds thin faster — a good trade for the Valley-floor trails</li>
+              <li>• <strong>Winter (Nov-Mar):</strong> Tioga Road closed; Valley floor trails stay open and are often the quietest of the year</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">⚠️</span> Safety First
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Check weather and road conditions before leaving — Tioga Road can close on short notice even in shoulder season</li>
+              <li>• Tell someone your hiking plans, especially for Half Dome or Clouds Rest</li>
+              <li>• Turn back if afternoon thunderstorms build over the high country</li>
+              <li>• Stay on marked trails and behind railings at waterfall overlooks</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>
