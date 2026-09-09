@@ -21,13 +21,19 @@
  *   coordinates and no systematic distance/difficulty sort. Fresno isn't in cities.json (no
  *   programmatic page) and wasn't hand-authored before this page. The data backs it, but
  *   narrowly: this site's database has no named-summit coverage of Sequoia or Kings Canyon,
- *   and only 12 publish-ready trails fall within 100 miles / 120 minutes — but those 12 are
- *   Yosemite Valley's actual marquee trails (Half Dome, all three of the Valley's major
- *   waterfalls via the Mist Trail, Clouds Rest, Cathedral Lakes), all within roughly 90-105
- *   minutes via Highway 41. Mount Whitney (the actual highest peak in the contiguous US) sits
- *   ~86 miles away as the crow flies but is deliberately excluded from the trail list — the
- *   Sierra Nevada crest has no through road at this latitude, so reaching it actually requires
- *   a 3.5+ hour drive around the range, not the ~115 minutes a straight-line estimate implies.
+ *   and only 9 publish-ready trails fall within a real 2-hour drive of Fresno — Yosemite
+ *   Valley's actual marquee trails (Half Dome, all three of the Valley's major waterfalls via
+ *   the Mist Trail), all within roughly 90-95 minutes via Highway 41.
+ * driveTimeNote: a Codex review on the merged PR #79 correctly flagged that dividing haversine
+ *   distance by 45mph cannot produce a real drive time, and specifically that this let Mount
+ *   Whitney and the Tuolumne Meadows high country (Cathedral Lakes, Clouds Rest, May Lake) into
+ *   a page advertised as "within 2 hours." Mount Whitney (~86mi as the crow flies, no through
+ *   road across the Sierra crest at this latitude — a real 3.5+ hour drive around the range)
+ *   was already excluded in the merged version; this follow-up applies the same fix to the
+ *   Tuolumne cluster, reached from Fresno via Tioga Road (Hwy 120) past the Valley — a real
+ *   3+ hour drive, not the ~103-105 minutes the formula produced. Both are now excluded from
+ *   the trail list, the trail count, and every nearest-city chip/link that could point at this
+ *   page, and covered honestly in the FAQ instead of with a fabricated drive time.
  */
 import Layout from '../../layouts/Layout.astro';
 import { isPublishReady } from '../../lib/publishReady.js';
@@ -89,9 +95,17 @@ const nearbyHikesRaw = allMountains
 // That's not the ordinary haversine-vs-real-road slop this site's other
 // /near/ pages already accept (a rounding error of a few minutes) — it's
 // off by multiples, so it's excluded here rather than shown with a
-// fabricated drive time. Addressed directly in the FAQ instead.
-const excludedNames = new Set(['Mount Whitney']);
+// fabricated drive time.
+//
+// A Codex review on the merged PR that shipped this page caught the same
+// problem one tier down: Cathedral Lakes, Clouds Rest and May Lake all sit
+// in Tuolumne Meadows, reached from Fresno via Tioga Road (Hwy 120) well
+// past the Valley — a real 3+ hour drive on a winding mountain road, not
+// the ~103-105 minutes 45mph-flat-road math produces. Same fix as Whitney:
+// excluded from the list and the count, addressed honestly in the FAQ.
+const excludedNames = new Set(['Mount Whitney', 'Cathedral Lakes', 'Clouds Rest', 'May Lake']);
 const nearbyHikes = nearbyHikesRaw.filter(m => !excludedNames.has(m.name));
+const findExcluded = (name) => nearbyHikesRaw.find(h => h.name === name);
 
 // Top picks by category
 const closestHikes = nearbyHikes.slice(0, 5);
@@ -124,8 +138,11 @@ const normalizeState = (s) => {
 };
 
 const halfDome = nearbyHikes.find(h => h.name === 'Half Dome');
-const cloudsRest = nearbyHikes.find(h => h.name === 'Clouds Rest');
-const cathedralLakes = nearbyHikes.find(h => h.name === 'Cathedral Lakes');
+// Both excluded from nearbyHikes above (unreliable drive-time math for this
+// cluster) — looked up from the raw list only for their real distance, used
+// below to describe them honestly rather than with a fabricated drive time.
+const cloudsRest = findExcluded('Clouds Rest');
+const cathedralLakes = findExcluded('Cathedral Lakes');
 
 // FAQ Schema
 const faqSchema = {
@@ -166,10 +183,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "Is Tioga Road open year-round for Yosemite's high country?",
+      "name": "How far is Tuolumne Meadows (Cathedral Lakes, Clouds Rest) from Fresno?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": `No — Tioga Road, the route to Tuolumne Meadows and trails like Cathedral Lakes${cathedralLakes ? ` (${Math.round(cathedralLakes.distance)} miles from Fresno)` : ''} and Clouds Rest${cloudsRest ? ` (${Math.round(cloudsRest.distance)} miles)` : ''}, is closed by snow every winter and typically reopens late May or June, closing again by early-to-mid November. Check the park's current conditions page before planning a high-country trip outside summer and early fall.`
+        "text": `Farther than the Valley floor trails above, and not a same-day quick trip. Cathedral Lakes${cathedralLakes ? ` (${Math.round(cathedralLakes.distance)} miles as the crow flies)` : ''} and Clouds Rest${cloudsRest ? ` (${Math.round(cloudsRest.distance)} miles)` : ''} sit in Tuolumne Meadows, reached from Fresno via Highway 41 through the Valley and then Tioga Road (Hwy 120) — real driving time is 3+ hours each way on a winding mountain road, not a straight-line estimate. Tioga Road is also closed by snow every winter, typically reopening late May or June and closing again by early-to-mid November. Worth a full day or an overnight, not a quick add-on to a Valley visit.`
       }
     },
     {
@@ -303,9 +320,10 @@ const localBusinessSchema = {
           north out of the city and, in about {closestHikes[0]?.driveTime} minutes, drops you at
           Yosemite's South Entrance. From there, some of the most famous named trails in American
           hiking — Half Dome, the Mist Trail past Vernal and Nevada Falls, and both the upper and
-          lower drops of Yosemite Falls — all sit within roughly 90 to 105 minutes of downtown
-          Fresno. Push a little farther, once Tioga Road opens for the season, and Tuolumne
-          Meadows' high country (Cathedral Lakes, Clouds Rest) is in range too.
+          lower drops of Yosemite Falls — all sit within roughly 90 to 95 minutes of downtown
+          Fresno. Tuolumne Meadows' high country (Cathedral Lakes, Clouds Rest) is real too, once
+          Tioga Road opens for the season — but it's a genuinely longer trip from Fresno, covered
+          honestly in the FAQ below rather than folded into the "within 2 hours" count above.
         </p>
 
         <p class="text-stone-700 leading-relaxed">
@@ -506,16 +524,18 @@ const localBusinessSchema = {
 
           <details class="group">
             <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
-              <span>Is Tioga Road open year-round for Yosemite's high country?</span>
+              <span>How far is Tuolumne Meadows ({cathedralLakes?.name || 'Cathedral Lakes'}, {cloudsRest?.name || 'Clouds Rest'}) from Fresno?</span>
               <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </summary>
             <div class="p-4 text-stone-700 leading-relaxed">
-              No — Tioga Road, the route to Tuolumne Meadows and trails like {cathedralLakes?.name || 'Cathedral Lakes'} and {cloudsRest?.name || 'Clouds Rest'},
-              closes with the first heavy snow every winter and typically reopens late May or June, closing
-              again by early-to-mid November. Check the park's current conditions page before planning a
-              high-country trip outside summer and early fall.
+              Farther than the Valley floor trails above, and not a same-day quick trip. {cathedralLakes?.name || 'Cathedral Lakes'}{cathedralLakes ? ` (${Math.round(cathedralLakes.distance)} miles as the crow flies)` : ''} and {cloudsRest?.name || 'Clouds Rest'}{cloudsRest ? ` (${Math.round(cloudsRest.distance)} miles)` : ''} sit in Tuolumne
+              Meadows, reached via Highway 41 through the Valley and then Tioga Road (Hwy 120) — real
+              driving time is 3+ hours each way on a winding mountain road, not a straight-line estimate.
+              Tioga Road is also closed by snow every winter, typically reopening late May or June and
+              closing again by early-to-mid November. Worth a full day or an overnight, not a quick
+              add-on to a Valley visit.
             </div>
           </details>
 
@@ -583,7 +603,7 @@ const localBusinessSchema = {
             </h3>
             <ul class="space-y-2 text-stone-700">
               <li>• Check weather and road conditions before leaving — Tioga Road can close on short notice even in shoulder season</li>
-              <li>• Tell someone your hiking plans, especially for Half Dome or Clouds Rest</li>
+              <li>• Tell someone your hiking plans, especially for Half Dome or a Tuolumne Meadows day</li>
               <li>• Turn back if afternoon thunderstorms build over the high country</li>
               <li>• Stay on marked trails and behind railings at waterfall overlooks</li>
             </ul>
