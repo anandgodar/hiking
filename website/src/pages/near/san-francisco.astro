@@ -75,9 +75,14 @@ const faqSchema = {
     }
   ]
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Hikes Near San Francisco', url: 'https://summitseeker.io/near/san-francisco' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near San Francisco 2026 | Yosemite & Bay Area Trails"
   description="Discover the best hiking trails near San Francisco. From Yosemite day trips to Bay Area gems, find California's best hikes within driving distance of SF."
 >

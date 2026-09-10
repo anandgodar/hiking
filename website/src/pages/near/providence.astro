@@ -144,9 +144,15 @@ const localBusinessSchema = {
     }
   }
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Providence', url: 'https://summitseeker.io/near/providence' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Providence, RI 2026 | Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near Providence, Rhode Island. From easy hills in RI's own trail cluster to day trips into Connecticut and New Hampshire, with real drive times, maps and difficulty ratings for every trail."
 >

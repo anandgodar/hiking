@@ -70,9 +70,17 @@ const itemListSchema = {
     "url": `https://summitseeker.io/${m.state_slug}/hikes/${m.slug}`,
   })),
 };
+
+// Matches the visual breadcrumb below (Home > Hikes Near {city}) — same gap
+// as the hand-authored /near/ pages, which render a breadcrumb nav but never
+// emitted the matching BreadcrumbList structured data for it.
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: `Hikes Near ${city.name}`, url: `https://summitseeker.io/near/${city.slug}` }
+];
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} breadcrumbs={breadcrumbs}>
   <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
 
   <main class="min-h-screen bg-stone-50">

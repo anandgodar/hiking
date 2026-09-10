@@ -147,9 +147,15 @@ const localBusinessSchema = {
     }
   }
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Albany', url: 'https://summitseeker.io/near/albany' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Albany, NY 2026 | Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near Albany, New York. From the southern Berkshires to the Catskills' Hunter and Slide mountains, with real drive times, maps and difficulty ratings for every trail."
 >

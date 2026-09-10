@@ -218,9 +218,15 @@ const localBusinessSchema = {
     }
   }
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Fresno', url: 'https://summitseeker.io/near/fresno' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Fresno, CA 2026 | Yosemite Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near Fresno, California — Yosemite Valley's biggest names (Half Dome, the Mist Trail, Yosemite Falls) and the high Sierra beyond, with real drive times, maps and difficulty ratings for every trail."
 >

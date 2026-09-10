@@ -189,9 +189,15 @@ const localBusinessSchema = {
     }
   ]
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Manchester & Concord', url: 'https://summitseeker.io/near/manchester-concord' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Manchester & Concord, NH 2026 | Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near Manchester and Concord, New Hampshire, from the close-in Lakes Region cluster to Mount Washington and the Presidential Range, with real drive times, maps and difficulty ratings for every trail."
 >

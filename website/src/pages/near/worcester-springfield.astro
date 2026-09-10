@@ -173,9 +173,15 @@ const localBusinessSchema = {
     }
   ]
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Worcester & Springfield', url: 'https://summitseeker.io/near/worcester-springfield' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Worcester & Springfield, MA 2026 | Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near Worcester and Springfield, Massachusetts, from Mount Wachusett to the state's own high point at Mount Greylock, with real drive times, maps and difficulty ratings for every trail."
 >

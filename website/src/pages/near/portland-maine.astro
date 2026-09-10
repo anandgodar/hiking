@@ -82,9 +82,15 @@ const faqSchema = {
     }
   ]
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Portland, Maine', url: 'https://summitseeker.io/near/portland-maine' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Portland, Maine 2026 | Acadia, Coastal & Mountain Trails"
   description="Discover the best hiking trails near Portland, ME. From Acadia National Park to Mount Katahdin, explore coastal cliffs, mountain summits & waterfall hikes within 1-3 hours. With maps, drive times & parking info."
 >

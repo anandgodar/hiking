@@ -148,9 +148,15 @@ const localBusinessSchema = {
     }
   }
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'New Haven', url: 'https://summitseeker.io/near/new-haven' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near New Haven, CT 2026 | Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near New Haven, Connecticut. From the Litchfield Hills to day trips into New York's Hudson Highlands, with real drive times, maps and difficulty ratings for every trail."
 >

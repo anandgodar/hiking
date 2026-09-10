@@ -205,9 +205,15 @@ const localBusinessSchema = {
     }
   }
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Greenville', url: 'https://summitseeker.io/near/greenville-south-carolina' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Greenville, SC 2026 | Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near Greenville, South Carolina — from the Blue Ridge Escarpment and South Carolina's own state high point to Mount Mitchell, Kuwohi and Georgia's Brasstown Bald, with real drive times, maps and difficulty ratings for every trail."
 >
