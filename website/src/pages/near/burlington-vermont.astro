@@ -86,9 +86,15 @@ const faqSchema = {
     }
   ]
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Burlington, Vermont', url: 'https://summitseeker.io/near/burlington-vermont' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hiking Trails Near Burlington, VT 2026 | Green Mountains & Lake Champlain"
   description="Discover the best hiking trails near Burlington, Vermont. From Mount Mansfield to Camel's Hump, explore Green Mountain peaks, Lake Champlain views & forest trails within 1 hour. Complete trail guides with maps & drive times."
 >

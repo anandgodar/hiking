@@ -155,9 +155,15 @@ const localBusinessSchema = {
     }
   }
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Philadelphia', url: 'https://summitseeker.io/near/philadelphia' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Philadelphia, PA 2026 | Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near Philadelphia, from Delaware's state high point to Mount Tammany at the Delaware Water Gap, with real drive times, maps and difficulty ratings for every trail."
 >

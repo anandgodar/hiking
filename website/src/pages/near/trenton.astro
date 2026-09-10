@@ -178,9 +178,15 @@ const localBusinessSchema = {
     }
   }
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Trenton', url: 'https://summitseeker.io/near/trenton' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Trenton, NJ 2026 | Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near Trenton, New Jersey — from Baldpate Mountain and the NJ Highlands to the state's own High Point and New York's Hudson Highlands, with real drive times, maps and difficulty ratings for every trail."
 >

@@ -89,9 +89,14 @@ const faqSchema = {
     }
   ]
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Hikes Near NYC', url: 'https://summitseeker.io/near/new-york-city' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near NYC 2026 | 40+ Trails Within 3 Hours of New York City"
   description="Discover the best hiking trails near NYC. From Catskills to Hudson Valley, find 40+ day hikes within 1-3 hours of Manhattan. Includes drive times, difficulty ratings & trail maps."
 >

@@ -184,9 +184,15 @@ const localBusinessSchema = {
     }
   }
 };
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Hagerstown', url: 'https://summitseeker.io/near/hagerstown' }
+];
 ---
 
 <Layout
+  breadcrumbs={breadcrumbs}
   title="Best Hikes Near Hagerstown, MD 2026 | Trails Within 2 Hours (With Drive Times)"
   description="Discover the best hiking trails near Hagerstown, Maryland — from South Mountain's Appalachian Trail overlooks to Pennsylvania's Laurel Highlands and state high point Mount Davis, with real drive times, maps and difficulty ratings for every trail."
 >
