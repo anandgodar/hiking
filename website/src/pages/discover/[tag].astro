@@ -106,9 +106,10 @@ const robots = mountains.length < MIN_TRAILS_TO_INDEX ? 'noindex, follow' : unde
 // 2-level pattern already used for /near/ pages without a real linkable
 // middle page (e.g. near/new-york-city.astro) rather than inventing a URL
 // for the non-clickable "Discover" label the visual nav shows.
+const breadcrumbLabel = /hikes$/i.test(prettyTag) ? prettyTag : `${prettyTag} Hikes`;
 const breadcrumbs = [
   { name: 'Home', url: 'https://summitseeker.io' },
-  { name: `${prettyTag} Hikes`, url: `https://summitseeker.io/discover/${tagSlug}` }
+  { name: breadcrumbLabel, url: `https://summitseeker.io/discover/${tagSlug}` }
 ];
 ---
 
