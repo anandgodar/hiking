@@ -23,7 +23,10 @@ export async function getStaticPaths() {
       return tag.toString().toLowerCase().trim()
           .replace(/_/g, '-')
           .replace(/\s+/g, '-')
-          .replace(/s$/, '') // Remove plurals
+          // Remove plurals — but not a trailing 's' that's part of the word
+          // itself (strenuous, terminus) or a double-s ending (pass, access,
+          // wilderness), which a bare /s$/ strips into a misspelled slug.
+          .replace(/(?<![su])s$/, '')
           .replace(/[^\w\-]+/g, '');
   };
 

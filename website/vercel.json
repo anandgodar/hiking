@@ -10,6 +10,66 @@
       ],
       "destination": "https://summitseeker.io/:path*",
       "permanent": true
+    },
+    {
+      "source": "/:state/hikes/strenuou",
+      "destination": "/:state/hikes/strenuous",
+      "permanent": true
+    },
+    {
+      "source": "/discover/strenuou",
+      "destination": "/discover/strenuous",
+      "permanent": true
+    },
+    {
+      "source": "/california/hikes/instagram-famou",
+      "destination": "/california/hikes/instagram-famous",
+      "permanent": true
+    },
+    {
+      "source": "/discover/instagram-famou",
+      "destination": "/discover/instagram-famous",
+      "permanent": true
+    },
+    {
+      "source": "/vermont/hikes/easy-acces",
+      "destination": "/vermont/hikes/easy-access",
+      "permanent": true
+    },
+    {
+      "source": "/discover/easy-acces",
+      "destination": "/discover/easy-access",
+      "permanent": true
+    },
+    {
+      "source": "/vermont/hikes/wildernes",
+      "destination": "/vermont/hikes/wilderness",
+      "permanent": true
+    },
+    {
+      "source": "/discover/wildernes",
+      "destination": "/discover/wilderness",
+      "permanent": true
+    },
+    {
+      "source": "/maine/hikes/at-terminu",
+      "destination": "/maine/hikes/at-terminus",
+      "permanent": true
+    },
+    {
+      "source": "/discover/at-terminu",
+      "destination": "/discover/at-terminus",
+      "permanent": true
+    },
+    {
+      "source": "/new-york/hikes/avalanche-pas",
+      "destination": "/new-york/hikes/avalanche-pass",
+      "permanent": true
+    },
+    {
+      "source": "/discover/avalanche-pas",
+      "destination": "/discover/avalanche-pass",
+      "permanent": true
     }
   ],
   "trailingSlash": false

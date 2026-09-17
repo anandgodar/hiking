@@ -378,11 +378,15 @@ export async function GET() {
 
     const cleanTagsForThisMountain = new Set();
     tags.forEach(t => {
-        // Singularize and normalize
+        // Singularize and normalize — but not a trailing 's' that's part of
+        // the word itself (strenuous, terminus) or a double-s ending (pass,
+        // access, wilderness), which a bare /s$/ strips into a misspelled
+        // slug (must match the same rule the page generators use, or the
+        // sitemap submits URLs that don't match what actually builds).
         const cleanTag = t.toString().toLowerCase().trim()
             .replace(/_/g, '-')
             .replace(/\s+/g, '-')
-            .replace(/s$/, '')
+            .replace(/(?<![su])s$/, '')
             .replace(/[^\w\-]+/g, '');
         if (cleanTag) {
           discoverTags.add(cleanTag);
