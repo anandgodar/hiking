@@ -94,10 +94,15 @@ const canonicalUrl = isMountainPage
 // mountain pages, plus the homepage/state hubs/etc.) was hotlinking a third
 // party's Unsplash CDN, a real availability and branding risk for a URL
 // baked into every social share. Built at public/images/og-default.png
-// (branded 1200x630 card, no photo dependency). This is scoped to the
-// meta-tag fallback only — the hundreds of per-mountain mountain_hero photos
-// and state-hub background images elsewhere on the site still hotlink their
-// own sources and are a separate, much larger sourcing effort.
+// (branded 1200x630 card, no photo dependency). Deliberately carries no
+// trail/state count — a same-day Codex review on the first version (which
+// baked in "800+ Trails · 49 States") caught that a static image can't stay
+// in sync with siteStats.js's live numbers, and "49 States" specifically
+// would go from true to false the moment a 50th state gets a live trail.
+// Scoped to the meta-tag fallback only — the hundreds of per-mountain
+// mountain_hero photos and state-hub background images elsewhere on the
+// site still hotlink their own sources and are a separate, much larger
+// sourcing effort.
 const DEFAULT_OG_IMAGE = 'https://summitseeker.io/images/og-default.png';
 const ogImage = isMountainPage
   ? (mountain.mountain_hero || DEFAULT_OG_IMAGE)
