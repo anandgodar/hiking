@@ -23,7 +23,7 @@ export async function getStaticPaths() {
       return tag.toString().toLowerCase().trim()
           .replace(/_/g, '-')
           .replace(/\s+/g, '-')
-          .replace(/s$/, '') // Remove plurals
+          .replace(/(?<![su])s$/, '') // Remove plurals — but not a word's own final "s" in "-us"/"-ss" endings (strenuous, pass, access), which aren't plurals
           .replace(/[^\w\-]+/g, '');
   };
 

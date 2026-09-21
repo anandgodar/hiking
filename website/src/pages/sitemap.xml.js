@@ -382,7 +382,7 @@ export async function GET() {
         const cleanTag = t.toString().toLowerCase().trim()
             .replace(/_/g, '-')
             .replace(/\s+/g, '-')
-            .replace(/s$/, '')
+            .replace(/(?<![su])s$/, '') // strip plural "s" — but not a word's own final "s" in "-us"/"-ss" endings (strenuous, pass, access)
             .replace(/[^\w\-]+/g, '');
         if (cleanTag) {
           discoverTags.add(cleanTag);
