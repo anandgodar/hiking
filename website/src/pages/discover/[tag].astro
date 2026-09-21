@@ -23,7 +23,7 @@ export async function getStaticPaths() {
       return tag.toString().toLowerCase().trim()
           .replace(/_/g, '-')
           .replace(/\s+/g, '-')
-          .replace(/s$/, '')
+          .replace(/(?<![su])s$/, '') // strip plural "s" — but not a word's own final "s" in "-us"/"-ss" endings (strenuous, pass, access)
           .replace(/[^\w\-]+/g, '');
   };
 
@@ -120,7 +120,7 @@ const breadcrumbs = [
   robots={robots}
   breadcrumbs={breadcrumbs}
   title={`Best ${prettyTag} Hikes 2026 | ${mountains.length} Trail Guides & Maps`}
-  description={`Discover the top ${mountains.length} ${prettyTag.toLowerCase()} hikes across ${Object.keys(byState).length} states. Detailed trail guides with maps, elevation profiles, difficulty ratings & parking info. Find your next adventure.`}
+  description={`${mountains.length} ${prettyTag.toLowerCase()} hikes across ${Object.keys(byState).length} states — trail guides, maps, elevation profiles, difficulty ratings & parking info.`}
 >
 
     <div class="relative h-[45vh] min-h-[400px] flex items-center justify-center overflow-hidden">

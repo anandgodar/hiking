@@ -478,7 +478,7 @@ const dashboardMountain = {
           )}
           <div class="flex flex-wrap gap-3">
             {myDifficulty && (
-              <a href={`/${mountain.state_slug}/hikes/${myDifficulty.toLowerCase().trim().replace(/\s+/g, '-').replace(/s$/, '')}`}
+              <a href={`/${mountain.state_slug}/hikes/${myDifficulty.toLowerCase().trim().replace(/\s+/g, '-').replace(/(?<![su])s$/, '')}`}
                  class="inline-flex items-center gap-1 text-sm font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-full px-4 py-2 hover:bg-emerald-100 transition-colors">
                 More {myDifficulty} hikes in {mountain.state || mountain.state_slug?.replace(/-/g, ' ')} →
               </a>
