@@ -118,7 +118,7 @@ if (mountains?.[0]?.state) config.name = mountains[0].state;
 const slugify = (text) => text.toString().toLowerCase().trim()
   .replace(/_/g, '-')
   .replace(/\s+/g, '-')
-  .replace(/s$/, '')
+  .replace(/(?<![su])s$/, '') // strip plural "s" — but not a word's own final "s" in "-us"/"-ss" endings (strenuous, pass, access)
   .replace(/[^\w\-]+/g, '');
 
 const formatTag = (tag) => {
@@ -204,25 +204,25 @@ const breadcrumbs = [
 // own high point (Woodall Mountain) isn't in this database with a confirmed
 // route yet, the same gap already flagged for Illinois' Charles Mound.
 // Mississippi (11) closed out that three-way tie last. Missouri (13) is the
-// next-thinnest indexed hub once that tie cleared. Michigan (14, tied with
-// Iowa but chosen over it since Iowa's high point, Hawkeye Point, isn't in
-// this database yet) is queued next via a separate open PR (#94) at the time
-// this comment was written — not yet reflected in this array, so a merge
-// conflict adding 'michigan' back in here is expected and should keep both
-// entries. After Michigan, Iowa is still excluded for the same reason above,
-// leaving a five-way tie at 15 records: California, Minnesota, New York,
-// Oklahoma and Utah. Unlike every earlier tie, all five already have their
-// real, official state high point live (Whitney, Eagle Mountain, Marcy,
-// Black Mesa, Kings Peak respectively) — Arkansas is the only other state at
-// 15 and was excluded because its high point, Magazine Mountain, isn't in
-// this database. With no elevation- or high-point-based tiebreaker left,
-// California was picked alphabetically from the five.
+// next-thinnest indexed hub once that tie cleared. Iowa and Michigan tied
+// next at 14 — Michigan chosen over Iowa for the same reason Wisconsin beat
+// its own three-way tie: Michigan's ranked list already includes the
+// state's real, official high point (Mount Arvon), while Iowa's (Hawkeye
+// Point) isn't in this database yet. After Michigan, Iowa is still excluded
+// for the same reason above, leaving a five-way tie at 15 records:
+// California, Minnesota, New York, Oklahoma and Utah. Unlike every earlier
+// tie, all five already have their real, official state high point live
+// (Whitney, Eagle Mountain, Marcy, Black Mesa, Kings Peak respectively) —
+// Arkansas is the only other state at 15 and was excluded because its high
+// point, Magazine Mountain, isn't in this database. With no elevation- or
+// high-point-based tiebreaker left, California was picked alphabetically
+// from the five.
 // The "N more queued" figure is computed per state rather than hand-typed,
 // so it can't drift out of sync with the data the way a hardcoded guess
 // would (a Codex review on the original Nebraska copy caught "several
 // dozen" overstating the real gap — 25 total Nebraska records, only 19 not
 // yet publish-ready).
-const STATE_INTRO_SLUGS = ['nebraska', 'florida', 'louisiana', 'illinois', 'wisconsin', 'indiana', 'mississippi', 'missouri', 'california'];
+const STATE_INTRO_SLUGS = ['nebraska', 'florida', 'louisiana', 'illinois', 'wisconsin', 'indiana', 'mississippi', 'missouri', 'michigan', 'california'];
 const rawStateRecordCount = STATE_INTRO_SLUGS.includes(stateSlug)
   ? Object.values(allFiles).map(f => f.default || f).filter(m => m.state_slug === stateSlug).length
   : null;
@@ -241,6 +241,7 @@ const stateIntros = {
   'indiana': `Indiana's ranked summits are a run of wooded knobs across the southern half of the state — the knobstone-escarpment country of the Hoosier National Forest, from the Ohio River hills near Fisher Knobs and Mount Tom up through Brown County and out to the earthwork-dotted rise called The Mounds, near the Ohio line. The state's own high point, Hoosier Hill in Wayne County at 1,257 feet, isn't in this database at all yet — but The Mounds, the tallest entry live today at 988 feet, sits only about 20 miles from it. Fisher Knobs and Pigeon Roost tie as the shortest hikes in the group at 1.0 miles out-and-back; Hominy Mortar's 14.6-mile out-and-back is the longest.${queuedPhrase('Indiana')} — these ${mountains.length} are simply the ones with a confirmed route and elevation profile today.`,
   'mississippi': `Mississippi's ranked summits cluster in the hill country of the state's far northeast corner, in Tishomingo, Prentiss and Itawamba counties near the Alabama and Tennessee lines, the same limestone-and-sandstone hill belt that runs into Alabama's own foothills. The state's official high point, Woodall Mountain, tops out at 806 feet in that same corner — but it's still an unverified queue entry without a confirmed route, so it isn't in this list yet, the same gap already flagged for Illinois' Charles Mound. What's live instead tops out at Crum Mountain, 725 feet. One live entry isn't a natural summit at all: Bynum Mounds is a Native American ceremonial mound complex on the Natchez Trace Parkway, built roughly 2,000 years ago during the Middle Woodland period — Pharr Mounds, a larger complex on the same parkway, is still an unverified queue entry too, like Woodall Mountain, not yet in this list. Gobblers Knob and Sand Hill tie as the shortest hikes in the group at 0.8 miles; Bynum Mounds' 7.5-mile trail is the longest.${queuedPhrase('Mississippi')} — these ${mountains.length} are simply the ones with a confirmed route and elevation profile today.`,
   'missouri': `Missouri's ranked summits cluster in the St. Francois Mountains around Iron County, in the southeast corner of the Ozark Plateau — rhyolite and granite laid down 1.3 to 1.6 billion years ago, among the oldest exposed igneous rock in North America, not the younger sedimentary limestone that covers most of the rest of the state. The live high point, Taum Sauk Mountain at 1,765 feet, is also Missouri's official state high point, unlike Illinois' Charles Mound or Mississippi's Woodall Mountain, neither of which has a confirmed route in this database yet. One quirk worth flagging: Iron Mountain, despite the name, actually sits across the county line in St. Francois County, not Iron County. Eleven of the thirteen sit within about 22 miles of Taum Sauk; two don't — Dyestone Mountain, roughly 86 miles south in the Ozark Highlands' Howell and Douglas counties, and Pinnacle, another 40 miles beyond that in Ozark County near the Arkansas border, the group's most distant entry at 127 miles out. Jayce Mountain's 1.1-mile out-and-back is the shortest hike here; Iron Mountain's 14-mile out-and-back is the longest.${queuedPhrase('Missouri')} — these ${mountains.length} are simply the ones with a confirmed route and elevation profile today.`,
+  'michigan': `Michigan's ranked summits cluster almost entirely in the Upper Peninsula's ancient Precambrian highlands — the copper-mining ridges of the Keweenaw Peninsula, the Huron Mountains above L'Anse, and the basalt-and-conglomerate wilderness of the Porcupine Mountains along Lake Superior — bedrock over a billion years old, part of the same shield rock that underlies much of Canada. The live high point, Mount Arvon at 1,972 feet in the Huron Mountains, is also Michigan's official state high point, but only since a 1982 resurvey: neighboring Mount Curwood, about 5 miles away and only a few feet lower here, was long assumed to be the taller of the two until a professional survey corrected the record. Two entries break from that Upper Peninsula pattern: Cote Dame Marie and Comstock Hills sit roughly 220 miles south, in the outwash hill country of the northern Lower Peninsula near Roscommon and Ogemaw County. Wolf Mountain's 0.4-mile out-and-back is the shortest hike in the group; Mount Horace Greeley's 15.1-mile out-and-back, out toward the Keweenaw's northern tip, is the longest.${queuedPhrase('Michigan')} — these ${mountains.length} are simply the ones with a confirmed route and elevation profile today.`,
   'california': `Twelve of California's fifteen ranked summits sit inside Yosemite National Park, carved from the Sierra Nevada Batholith — granite intruded 120 to 85 million years ago and only exposed by later glacial erosion; Half Dome's own granodiorite has been dated to about 84 million years old. About 106 miles south of that cluster, Mount Whitney tops the list at 14,505 feet, California's official state high point and the highest point in the contiguous United States. Two entries break from the Sierra Nevada pattern entirely: Mission Peak, an East Bay landmark near Fremont roughly 130 miles west of the Yosemite cluster, and Potato Chip Rock, a granite formation on Mount Woodson in San Diego County, over 360 miles south. Bridalveil Fall's 0.5-mile out-and-back is the shortest hike in the group; the Mount Whitney Trail's 22-mile round trip is by far the longest.${queuedPhrase('California')} — these ${mountains.length} are simply the ones with a confirmed route and elevation profile today.`
 };
 const intro = stateIntros[stateSlug];
