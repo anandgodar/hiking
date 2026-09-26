@@ -785,36 +785,6 @@
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p>At 3 feet, <strong>Bottom Hills</strong> is a summit in Delaware. The Bottom Hills Trail covers 2.0 miles round trip (out-and-back) with about 16 feet of elevation gain \u2014 a gradual walk with modest climbing.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=38.61452,-75.07726\" target=\"_blank\" rel=\"noopener\">38.61452, -75.07726</a> (tap for driving directions). It's roughly 95 miles south of Philadelphia, Pennsylvania. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Spring through fall is the main season. Conditions change fast in the shoulder months \u2014 check a point forecast for the summit, not the nearest town, before you commit.</p>\n  <h3>Know Before You Go</h3><p>The Easy rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 0.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n</div>",
-  "nearby_peaks": [
-    {
-      "name": "Iron Hill",
-      "slug": "iron-hill-de",
-      "state_slug": "delaware",
-      "elevation": 328,
-      "distance_miles": 79.5
-    },
-    {
-      "name": "Chestnut Hill",
-      "slug": "chestnut-hill-de",
-      "state_slug": "delaware",
-      "elevation": 292,
-      "distance_miles": 80.7
-    },
-    {
-      "name": "Drummond Hill",
-      "slug": "drummond-hill-de",
-      "state_slug": "delaware",
-      "elevation": 289,
-      "distance_miles": 83.1
-    },
-    {
-      "name": "Horseshoe Hill",
-      "slug": "horseshoe-hill-de",
-      "state_slug": "delaware",
-      "elevation": 331,
-      "distance_miles": 87.2
-    }
-  ],
   "page_content": {
     "faqs": [
       {
@@ -947,5 +917,28 @@
     "id": 158399681,
     "prominence_m": null,
     "wikidata": null
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Drummond Hill",
+      "slug": "drummond-hill-de",
+      "state_slug": "delaware",
+      "elevation": 289,
+      "distance_miles": 83.1
+    },
+    {
+      "name": "Horseshoe Hill",
+      "slug": "horseshoe-hill-de",
+      "state_slug": "delaware",
+      "elevation": 331,
+      "distance_miles": 87.2
+    },
+    {
+      "name": "Ebright Azimuth",
+      "slug": "ebright-azimuth-de",
+      "state_slug": "delaware",
+      "elevation": 449,
+      "distance_miles": 87.6
+    }
+  ]
 }

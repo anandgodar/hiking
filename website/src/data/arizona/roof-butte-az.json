@@ -317,36 +317,6 @@
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Roof Butte</strong> rises to 9,685 feet in Arizona.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n</div>",
-  "nearby_peaks": [
-    {
-      "name": "Mount Wilson",
-      "slug": "mount-wilson-co",
-      "state_slug": "colorado",
-      "elevation": 14252,
-      "distance_miles": 113.0
-    },
-    {
-      "name": "Mount Peale",
-      "slug": "mount-peale-ut",
-      "state_slug": "utah",
-      "elevation": 12720,
-      "distance_miles": 136.9
-    },
-    {
-      "name": "Mount Tukuhnikivatz",
-      "slug": "mount-tukuhnikivatz-ut",
-      "state_slug": "utah",
-      "elevation": 12500,
-      "distance_miles": 137.1
-    },
-    {
-      "name": "Mount Mellenthin",
-      "slug": "mount-mellenthin-ut",
-      "state_slug": "utah",
-      "elevation": 12638,
-      "distance_miles": 138.6
-    }
-  ],
   "page_content": {
     "faqs": [
       {
@@ -471,5 +441,35 @@
     "file": "https://commons.wikimedia.org/wiki/File:Map%20of%20the%20Navajo%20Volcanic%20Fields.jpg",
     "license": "CC BY-SA 2.5",
     "artist": "Maximilian D\u00f6rrbecker (Chumwa)"
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Mount Wilson",
+      "slug": "mount-wilson-co",
+      "state_slug": "colorado",
+      "elevation": 14252,
+      "distance_miles": 113.0
+    },
+    {
+      "name": "Mount Peale",
+      "slug": "mount-peale-ut",
+      "state_slug": "utah",
+      "elevation": 12720,
+      "distance_miles": 136.9
+    },
+    {
+      "name": "Mount Tukuhnikivatz",
+      "slug": "mount-tukuhnikivatz-ut",
+      "state_slug": "utah",
+      "elevation": 12500,
+      "distance_miles": 137.1
+    },
+    {
+      "name": "Mount Mellenthin",
+      "slug": "mount-mellenthin-ut",
+      "state_slug": "utah",
+      "elevation": 12638,
+      "distance_miles": 138.6
+    }
+  ]
 }

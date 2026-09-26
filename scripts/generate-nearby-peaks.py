@@ -56,8 +56,24 @@ def haversine_miles(lat1, lon1, lat2, lon2):
     return R * 2 * math.asin(math.sqrt(a))
 
 
+def is_publish_ready(d):
+    """Mirror website/src/lib/publishReady.js's isPublishReady() — a trail with
+    no real route and distance, or marked _status (draft/imported-unverified),
+    has no live detail page, so it must never be handed out as a link target."""
+    if not d.get("name") or not d.get("slug"):
+        return False
+    if d.get("_status"):
+        return False
+    trail = (d.get("trails") or [{}])[0]
+    path = (trail.get("geo") or {}).get("path")
+    has_path = isinstance(path, list) and len(path) > 0
+    dist = (trail.get("stats") or {}).get("distance")
+    has_dist = isinstance(dist, (int, float)) and dist > 0
+    return has_path and has_dist
+
+
 def load_state(state):
-    """Return list of trail dicts with the fields we need for linking."""
+    """Return list of publish-ready trail dicts with the fields we need for linking."""
     trails = []
     for f in sorted((DATA / state).glob("*.json")):
         try:
@@ -65,6 +81,8 @@ def load_state(state):
         except json.JSONDecodeError:
             continue
         if d.get("lat") is None or d.get("lon") is None:
+            continue
+        if not is_publish_ready(d):
             continue
         trails.append({
             "file": f,
