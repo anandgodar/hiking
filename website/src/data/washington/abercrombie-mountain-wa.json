@@ -785,7 +785,6 @@
     }
   ],
   "generated_description": "<div class=\"mountain-description prose prose-stone max-w-none\">\n  <p><strong>Abercrombie Mountain</strong> is a 7,228-foot summit in Washington. With roughly 5,177 feet of topographic prominence, it stands well above the surrounding terrain. The Abercrombie Mountain Trail covers 6.6 miles round trip (out-and-back) with about 2,276 feet of elevation gain \u2014 gentle grades, but the mileage is what makes it a Strenuous outing.</p>\n  <h3>The Route</h3><p>Most of the climbing comes early \u2014 the first half of the route does the bulk of the work before the grade eases. The steepest stretch arrives around mile 3.07, gaining roughly 1,500 feet per mile \u2014 expect a slow, deliberate pace through here. From the trailhead at about 4,902 feet, the route tops out near 7,178 feet. You'll cross above treeline on the way up, so the upper route is exposed to weather \u2014 check the forecast and turn around if conditions build.</p>\n  <h3>Getting There</h3><p>The trailhead is at <a href=\"https://www.google.com/maps/dir/?api=1&destination=48.93003,-117.48478\" target=\"_blank\" rel=\"noopener\">48.93003, -117.48478</a> (tap for driving directions). It's roughly 240 miles northeast of Seattle, Washington. Arrive early on weekends \u2014 trailhead lots at popular peaks fill quickly, and cell service is often unreliable once you leave the highway.</p>\n  <h3>When to Go</h3><p>Late May through October is the main season. Snow and ice linger into spring and return early in fall at this latitude and elevation; in winter this becomes a different, more serious undertaking requiring traction devices and warm layers.</p>\n  <h3>Know Before You Go</h3><p>The Strenuous rating comes from the National Park Service difficulty formula, which weighs total distance against elevation gain. Most hikers should budget about 3.5 hours of moving time; add margin for breaks, photos and the descent. Download the GPX track from this page before you go \u2014 cell coverage is unreliable in the mountains and a saved route works offline in any GPS app. Conditions change: verify current access, closures and weather with the official land manager before you go. Trail data is sourced from OpenStreetMap contributors (ODbL).</p>\n</div>",
-  "nearby_peaks": [],
   "page_content": {
     "faqs": [
       {
@@ -923,5 +922,21 @@
     "file": "https://commons.wikimedia.org/wiki/File:Abercrombie%20Mountain%20WA.jpg",
     "license": "Attribution",
     "artist": "James Jacobson"
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Remmel Mountain",
+      "slug": "remmel-mountain-wa",
+      "state_slug": "washington",
+      "elevation": 8648,
+      "distance_miles": 124.2
+    },
+    {
+      "name": "Mother Lode",
+      "slug": "mother-lode-wa",
+      "state_slug": "washington",
+      "elevation": 7908,
+      "distance_miles": 147.8
+    }
+  ]
 }
