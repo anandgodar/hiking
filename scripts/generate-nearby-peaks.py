@@ -4,10 +4,16 @@ Generate nearby_peaks internal links for trails that have none.
 
 Better internal linking improves retention (more places to click) and SEO
 (crawlable, related-content link graph). For each trail missing nearby_peaks,
-this finds the closest OTHER trails in the same state by real great-circle
-distance (from each trail's actual lat/lon) and links them. No data is
-invented — distances are computed, names/slugs/elevations come from the
-target files.
+this finds the closest OTHER trails by real great-circle distance (from each
+trail's actual lat/lon) and links them. No data is invented — distances are
+computed, names/slugs/elevations come from the target files.
+
+Peers are searched within the same state first (--radius). A trail with no
+in-state peer in that radius — common for a state's only high point, e.g. a
+peak near a state line — falls back to a nationwide search within
+--fallback-radius, since a real 60-mile neighbor one state over is a better
+link than no link at all. A trail that has no peer within the fallback
+radius either is left alone rather than linked to something 150+ miles away.
 
 Idempotent: trails that already have nearby_peaks are left untouched unless
 --force is passed.
@@ -17,8 +23,9 @@ Usage:
   python3 scripts/generate-nearby-peaks.py maine vermont   # only these states
   python3 scripts/generate-nearby-peaks.py --force         # rebuild all
 Options:
-  --max N      max links per trail (default 4)
-  --radius MI  only link peaks within MI miles (default 75)
+  --max N               max links per trail (default 4)
+  --radius MI           in-state search radius (default 75)
+  --fallback-radius MI  nationwide search radius if no in-state peer (default 150)
 """
 
 import json
@@ -93,15 +100,19 @@ def nearest(target, others, max_n, radius):
     return out
 
 
-def process_state(state, force, max_n, radius):
+def process_state(state, all_trails, force, max_n, radius, fallback_radius):
     trails = load_state(state)
     updated = 0
     for t in trails:
         if t["has_peaks"] and not force:
             continue
         peaks = nearest(t, trails, max_n, radius)
+        used_fallback = False
+        if not peaks and fallback_radius > radius:
+            peaks = nearest(t, all_trails, max_n, fallback_radius)
+            used_fallback = True
         if not peaks:
-            print(f"  · no peers within {radius} mi: {t['slug']}")
+            print(f"  · no peers within {fallback_radius} mi: {t['slug']}")
             continue
         d = json.loads(t["file"].read_text())
         d["nearby_peaks"] = peaks
@@ -109,8 +120,9 @@ def process_state(state, force, max_n, radius):
             json.dump(d, fh, indent=2)
             fh.write("\n")
         updated += 1
+        tag = " (nationwide fallback)" if used_fallback else ""
         print(f"  ✅ {t['slug']}: linked {len(peaks)} peak(s) "
-              f"({', '.join(p['slug'] for p in peaks)})")
+              f"({', '.join(p['slug'] for p in peaks)}){tag}")
     return updated
 
 
@@ -119,6 +131,7 @@ def main():
     force = "--force" in args
     max_n = 4
     radius = 75.0
+    fallback_radius = 150.0
     states = []
     i = 0
     rest = [a for a in args if a != "--force"]
@@ -127,14 +140,18 @@ def main():
             max_n = int(rest[i + 1]); i += 2
         elif rest[i] == "--radius":
             radius = float(rest[i + 1]); i += 2
+        elif rest[i] == "--fallback-radius":
+            fallback_radius = float(rest[i + 1]); i += 2
         else:
             states.append(rest[i]); i += 1
     states = states or trail_states()
 
+    all_trails = [t for s in trail_states() for t in load_state(s)]
+
     total = 0
     for state in states:
         print(f"▶ {state}")
-        total += process_state(state, force, max_n, radius)
+        total += process_state(state, all_trails, force, max_n, radius, fallback_radius)
     print(f"\nUpdated {total} trail(s) with nearby_peaks.")
 
 
