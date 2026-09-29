@@ -1895,5 +1895,35 @@
     "file": "https://commons.wikimedia.org/wiki/File:Mount_Whitney_2003-03-25.jpg",
     "license": "See file page",
     "artist": ""
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Boundary Peak",
+      "slug": "boundary-peak-nv",
+      "state_slug": "nevada",
+      "elevation": 13146,
+      "distance_miles": 87.6
+    },
+    {
+      "name": "Nevada Fall",
+      "slug": "nevada-fall-yosemite",
+      "state_slug": "california",
+      "elevation": 5900,
+      "distance_miles": 104.9
+    },
+    {
+      "name": "Clouds Rest",
+      "slug": "clouds-rest-yosemite",
+      "state_slug": "california",
+      "elevation": 9926,
+      "distance_miles": 105.1
+    },
+    {
+      "name": "Vernal Fall",
+      "slug": "mist-trail-vernal-fall",
+      "state_slug": "california",
+      "elevation": 5900,
+      "distance_miles": 105.1
+    }
+  ]
 }

@@ -824,5 +824,35 @@
     "file": "https://commons.wikimedia.org/wiki/File:Mission_Peak_from_Union_City_after_weeks_of_rain.jpg",
     "license": "CC BY-SA 4.0",
     "artist": "ca2mi"
-  }
+  },
+  "nearby_peaks": [
+    {
+      "name": "Bridalveil Fall",
+      "slug": "bridalveil-fall-yosemite",
+      "state_slug": "california",
+      "elevation": 4000,
+      "distance_miles": 123.0
+    },
+    {
+      "name": "Lower Yosemite Fall",
+      "slug": "lower-yosemite-fall",
+      "state_slug": "california",
+      "elevation": 3975,
+      "distance_miles": 126.0
+    },
+    {
+      "name": "Upper Yosemite Fall",
+      "slug": "upper-yosemite-fall",
+      "state_slug": "california",
+      "elevation": 6526,
+      "distance_miles": 126.1
+    },
+    {
+      "name": "Sentinel Dome & Taft Point",
+      "slug": "sentinel-dome-taft-point",
+      "state_slug": "california",
+      "elevation": 8122,
+      "distance_miles": 126.4
+    }
+  ]
 }
