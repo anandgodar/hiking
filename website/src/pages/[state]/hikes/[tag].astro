@@ -108,7 +108,14 @@ const coverImage = tagHeroConfig[tag] || mountains[0]?.image || tagHeroConfig.de
 
 // --- SEO: title/description with real counts, ItemList structured data ---
 const stateTitle = stateName.replace(/\b\w/g, c => c.toUpperCase());
-const seoTitle = `${tagPhrase} in ${stateTitle} | ${mountains.length} Trails with Maps & Guides`;
+const trailWord = mountains.length === 1 ? 'Trail' : 'Trails';
+const seoTitle = `${tagPhrase} in ${stateTitle} | ${mountains.length} ${trailWord} with Maps & Guides`;
+// Same thin-page rule as discover/[tag].astro: a tag with fewer than 5 trails
+// in a state is a near-empty listing (164 of 373 had exactly one trail), so it
+// stays crawlable-for-links but out of the index. These pages were never in
+// the sitemap, so no sitemap change is needed.
+const MIN_TRAILS_TO_INDEX = 5;
+const robots = mountains.length < MIN_TRAILS_TO_INDEX ? 'noindex, follow' : undefined;
 const seoDescription = `${mountains.length} ${tagPhrase.toLowerCase()} in ${stateTitle} with maps, elevation profiles, difficulty ratings & parking info. Updated ${new Date().getFullYear()}.`.slice(0, 160);
 
 const itemListSchema = {
@@ -125,7 +132,7 @@ const itemListSchema = {
 };
 ---
 
-<Layout title={seoTitle} description={seoDescription}>
+<Layout title={seoTitle} description={seoDescription} robots={robots}>
     <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} slot="head" />
 
     <div class="relative h-[45vh] min-h-[350px] flex items-center justify-center overflow-hidden">
