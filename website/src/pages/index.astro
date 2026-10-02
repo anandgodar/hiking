@@ -149,6 +149,7 @@ const HAND_MADE_CITIES = [
   { slug: 'fresno', name: 'Fresno, CA', lat: 36.7378, lon: -119.7871 },
   { slug: 'hagerstown', name: 'Hagerstown, MD', lat: 39.6418, lon: -77.7200 },
   { slug: 'greenville-south-carolina', name: 'Greenville, SC', lat: 34.8526, lon: -82.3940 },
+  { slug: 'anchorage', name: 'Anchorage, AK', lat: 61.2181, lon: -149.9003 },
 ];
 
 // Mount Whitney clears Fresno's 100mi/120min haversine filter (~86mi/~115min
@@ -161,7 +162,12 @@ const HAND_MADE_CITIES = [
 // its own trail list for these reasons; this keeps the homepage chip count in
 // sync with what that page actually shows (the same class of mismatch bug
 // fixed previously for Providence and Burlington VT).
-const PER_CITY_EXCLUSIONS = { fresno: new Set(['Mount Whitney', 'Cathedral Lakes', 'Clouds Rest', 'May Lake']) };
+const PER_CITY_EXCLUSIONS = {
+  fresno: new Set(['Mount Whitney', 'Cathedral Lakes', 'Clouds Rest', 'May Lake']),
+  // Kenai Peninsula trails south of Turnagain Arm: a 2+ hour drive via the
+  // Seward Highway. See near/anchorage.astro.
+  anchorage: new Set(['Race Point', 'Benchmark Peak', 'Andy Simons Mountain', 'Cecil Rhode Mountain'])
+};
 // Hand-authored pages filter on trailhead coordinates + a 120-minute drive
 // cap (see e.g. near/albany.astro), not just summit-to-summit distance — so
 // their chip counts need the same predicate or they advertise a number the

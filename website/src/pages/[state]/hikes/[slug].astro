@@ -136,6 +136,7 @@ const HAND_MADE_CITIES = [
   { slug: 'fresno', name: 'Fresno, CA', lat: 36.7378, lon: -119.7871 },
   { slug: 'hagerstown', name: 'Hagerstown, MD', lat: 39.6418, lon: -77.7200 },
   { slug: 'greenville-south-carolina', name: 'Greenville, SC', lat: 34.8526, lon: -82.3940 },
+  { slug: 'anchorage', name: 'Anchorage, AK', lat: 61.2181, lon: -149.9003 },
 ];
 const allCities = [...HAND_MADE_CITIES, ...cities];
 
@@ -150,7 +151,12 @@ const allCities = [...HAND_MADE_CITIES, ...cities];
 // own page would link "near you" to a Fresno page that doesn't actually list
 // it — the same class of mismatch bug fixed previously for Providence and
 // Burlington VT.
-const PER_CITY_EXCLUSIONS = { fresno: new Set(['Mount Whitney', 'Cathedral Lakes', 'Clouds Rest', 'May Lake']) };
+const PER_CITY_EXCLUSIONS = {
+  fresno: new Set(['Mount Whitney', 'Cathedral Lakes', 'Clouds Rest', 'May Lake']),
+  // Kenai Peninsula trails south of Turnagain Arm: a 2+ hour drive via the
+  // Seward Highway. near/anchorage.astro excludes them from its list.
+  anchorage: new Set(['Race Point', 'Benchmark Peak', 'Andy Simons Mountain', 'Cecil Rhode Mountain'])
+};
 
 // These hand-authored pages filter on trailhead coordinates + a 120-minute
 // drive cap (see e.g. near/philadelphia.astro), not just summit-to-summit
@@ -158,7 +164,7 @@ const PER_CITY_EXCLUSIONS = { fresno: new Set(['Mount Whitney', 'Cathedral Lakes
 // can get linked to a city whose own page doesn't actually list it (e.g. a
 // trail 92mi/123min from Philadelphia passed the generic <=100mi check here
 // but fails philadelphia.astro's <=100mi && <=120min filter).
-const strictDriveTimeSlugs = new Set(['providence', 'hartford', 'albany', 'philadelphia', 'pittsburgh', 'worcester-springfield', 'new-haven', 'manchester-concord', 'poughkeepsie', 'allentown', 'scranton-wilkes-barre', 'trenton', 'winchester-virginia', 'fresno', 'hagerstown', 'greenville-south-carolina']);
+const strictDriveTimeSlugs = new Set(['providence', 'hartford', 'albany', 'philadelphia', 'pittsburgh', 'worcester-springfield', 'new-haven', 'manchester-concord', 'poughkeepsie', 'allentown', 'scranton-wilkes-barre', 'trenton', 'winchester-virginia', 'fresno', 'hagerstown', 'greenville-south-carolina', 'anchorage']);
 const trailheadCoords = (m) => {
   const start = m.trails?.[0]?.geo?.markers?.start;
   if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') return start;
