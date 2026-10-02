@@ -90,7 +90,9 @@ const clampDescription = (text) => {
   const sentenceEnd = Math.max(head.lastIndexOf('. '), head.lastIndexOf('! '), head.lastIndexOf('? '));
   if (sentenceEnd >= 100) return head.slice(0, sentenceEnd + 1);
   const wordEnd = text.slice(0, MAX_DESCRIPTION - 1).lastIndexOf(' ');
-  return `${text.slice(0, wordEnd).replace(/[\s,;:\-–—]+$/, '')}…`;
+  // No space to cut at (a long URL or token, or unspaced CJK text): hard-cut.
+  const cut = wordEnd > 0 ? wordEnd : MAX_DESCRIPTION - 1;
+  return `${text.slice(0, cut).replace(/[\s,;:\-–—]+$/, '')}…`;
 };
 const description = clampDescription(rawDescription);
 
