@@ -74,9 +74,25 @@ const title = isMountainPage
   ? (mountain.seo?.meta_title || `${mountain.name} Trail Guide | Hiking Routes & Maps`)
   : (propTitle || 'Summit Seeker | US Summit Hiking Trail Guides');
 
-const description = isMountainPage
+const rawDescription = isMountainPage
   ? (mountain.seo?.meta_description || `Explore ${mountain.name}${mountain.elevation ? ` (${mountain.elevation.toLocaleString()} ft)` : ''}${mountain.state ? ` in ${mountain.state}` : ''}. Trail maps, conditions, and hiking information.`)
   : (propDescription || 'Verified summit hiking trail guides across all 50 US states. Trail maps, elevation profiles, conditions, and hiking information.');
+
+// Keep every emitted description inside the ~160-character SERP snippet
+// budget. Callers that already fit are untouched; an oversized one (39 blog
+// posts used their excerpt verbatim, up to 190 chars) is cut at the last
+// sentence end that fits, else the last word boundary with an ellipsis, so
+// it never truncates mid-word in the search result.
+const MAX_DESCRIPTION = 160;
+const clampDescription = (text) => {
+  if (!text || text.length <= MAX_DESCRIPTION) return text;
+  const head = text.slice(0, MAX_DESCRIPTION);
+  const sentenceEnd = Math.max(head.lastIndexOf('. '), head.lastIndexOf('! '), head.lastIndexOf('? '));
+  if (sentenceEnd >= 100) return head.slice(0, sentenceEnd + 1);
+  const wordEnd = text.slice(0, MAX_DESCRIPTION - 1).lastIndexOf(' ');
+  return `${text.slice(0, wordEnd).replace(/[\s,;:\-–—]+$/, '')}…`;
+};
+const description = clampDescription(rawDescription);
 
 // Normalize canonical URL to always use https://summitseeker.io (no www)
 const normalizeCanonicalUrl = (url) => {
