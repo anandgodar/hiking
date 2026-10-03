@@ -96,8 +96,8 @@ const difficultyOf = (m) => (m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.
 // Top picks by category
 const closestHikes = nearbyHikes.slice(0, 5);
 const easyHikes = nearbyHikes.filter(m => difficultyOf(m).includes('easy')).slice(0, 6);
-const moderateHikes = nearbyHikes.filter(m => difficultyOf(m).includes('moderate') || difficultyOf(m).includes('expert')).slice(0, 6);
-const hardHikes = nearbyHikes.filter(m => difficultyOf(m).includes('hard') || difficultyOf(m).includes('strenuous')).slice(0, 6);
+const moderateHikes = nearbyHikes.filter(m => difficultyOf(m).includes('moderate')).slice(0, 6);
+const hardHikes = nearbyHikes.filter(m => difficultyOf(m).includes('hard') || difficultyOf(m).includes('strenuous') || difficultyOf(m).includes('expert')).slice(0, 6);
 const farHikes = nearbyHikes.filter(m => m.distance > 60).slice(0, 8);
 
 // Ranked comparison table — every trail on the page (10) with its real stats.
@@ -394,7 +394,7 @@ const breadcrumbs = [
         </div>
         <p class="text-sm text-stone-500 mt-3">
           Distance, gain and time are as recorded in each trail's own data and are estimates — confirm
-          conditions and route length with Alaska State Parks or a current trail report before you go.
+          conditions and route length with the National Park Service (Acadia), Baxter State Park or a current trail report before you go.
           Drive times are straight-line estimates and run low on mountain roads.
         </p>
       </section>
@@ -439,7 +439,7 @@ const breadcrumbs = [
               <div class="relative">
                 <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
                 <div class="absolute top-4 right-4 bg-emerald-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
-                  {difficultyOf(mountain).includes('strenuous') ? 'STRENUOUS' : 'HARD'}
+                  {difficultyOf(mountain).includes('expert') ? 'EXPERT' : difficultyOf(mountain).includes('strenuous') ? 'STRENUOUS' : 'HARD'}
                 </div>
               </div>
             ))}
