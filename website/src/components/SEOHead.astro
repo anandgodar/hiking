@@ -70,8 +70,19 @@ const STATE_ABBR = {
 const geoRegion = STATE_ABBR[mountain?.state] ? `US-${STATE_ABBR[mountain.state]}` : 'US';
 
 // Build meta values with fallbacks
+// Generated trail titles end in boilerplate ("| Map, Route & Conditions",
+// "| 1 Routes, Maps & Conditions") that pushed ~100 of them past the ~60-char
+// SERP render width. Drop only that suffix, and only when the full title is
+// over budget, so titles that already fit — and hand-written ones — are untouched.
+const MAX_TITLE = 60;
+const BOILERPLATE_TITLE_SUFFIX = /\s*\|\s*(?:Map, Route & Conditions|\d+ Routes?, Maps? & Conditions)$/;
+const fitTitle = (t) => {
+  if (!t || t.length <= MAX_TITLE) return t;
+  const trimmed = t.replace(BOILERPLATE_TITLE_SUFFIX, '');
+  return trimmed && trimmed !== t ? trimmed : t;
+};
 const title = isMountainPage 
-  ? (mountain.seo?.meta_title || `${mountain.name} Trail Guide | Hiking Routes & Maps`)
+  ? fitTitle(mountain.seo?.meta_title || `${mountain.name} Trail Guide | Hiking Routes & Maps`)
   : (propTitle || 'Summit Seeker | US Summit Hiking Trail Guides');
 
 const rawDescription = isMountainPage
