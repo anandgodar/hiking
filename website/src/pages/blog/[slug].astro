@@ -50,10 +50,17 @@ const tableOfContents = post.content?.sections?.map((section, index) => ({
   id: `section-${index}`,
   title: section.heading
 })) || [];
+// Keep the <title> inside the ~60-character render budget: the brand suffix
+// is only appended when the whole title still fits, otherwise the post's own
+// title carries the page alone (a bare 55-char title beats a truncated
+// 75-char one that loses its tail in the SERP).
+const TITLE_BUDGET = 60;
+const brandedTitle = `${post.title} | SummitSeeker`;
+const blogTitle = brandedTitle.length <= TITLE_BUDGET ? brandedTitle : post.title;
 ---
 
 <Layout
-  title={post.seo?.meta_title || `${post.title} | SummitSeeker Blog`}
+  title={post.seo?.meta_title || blogTitle}
   description={post.seo?.meta_description || post.excerpt}
 >
   <!-- Article Schema -->
