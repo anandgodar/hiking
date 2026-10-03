@@ -1,0 +1,641 @@
+---
+/**
+ * Best Hikes Near Bangor, Maine
+ * High-value SEO landing page targeting "hikes near bangor maine"
+ *
+ * title: Best Hikes Near Bangor, ME (2026) | Drive Times & Maps
+ * description: Trails near Bangor, ME — Acadia's Cadillac and Precipice to Baxter's Katahdin,
+ *   ranked by distance with gain, time and drive estimates.
+ * slug: bangor-maine
+ * date: 2026-10-03
+ * targetKeywords: hikes near bangor maine, best hikes near bangor, bangor maine hiking trails,
+ *   hiking near bangor me, day hikes from bangor
+ * targetSite: summitseeker.io
+ * competitorGap: "best hikes near Bangor Maine" surfaces gaiagps.com's city listing, komoot.com
+ *   guides (easy hikes / hiking around Bangor, Hampden, Veazie), a Bangor Daily News spring-hikes
+ *   piece and waterfallhikes.com — auto-generated route lists and a seasonal newspaper roundup,
+ *   none with a sortable distance/gain/time comparison and none that put Acadia and Baxter State
+ *   Park (Katahdin) side by side as day trips from Bangor. Bangor isn't in cities.json (no
+ *   programmatic page) and wasn't hand-authored before this page. The data backs it: 10
+ *   publish-ready trails within a realistic two hours, six of them inside 45 miles. This is a SERP
+ *   skim only; there is no GSC or keyword-volume data behind it.
+ * driveTimeNote: drive times here are the same straight-line/45mph estimate every /near/ page
+ *   uses. Twelve trails pass the formula but are excluded because the real road to them is longer
+ *   than two hours from Bangor: the western Maine mountains (Mount Abraham, both Bigelow peaks,
+ *   Mount Blue, Spaulding, Sugarloaf, Crocker, South Crocker, Tumbledown, Saddleback, The Horn)
+ *   sit around Carrabassett Valley, Weld and Rangeley, and Moxie Falls is out past The Forks.
+ *   They are left off the list and the count (same treatment as Mount Whitney on /near/fresno
+ *   and the Kenai trails on /near/anchorage), and the FAQ says so.
+ */
+import Layout from '../../layouts/Layout.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(isPublishReady); // route-complete trails only (no drafts)
+
+// Bangor, ME coordinates
+const bangorLat = 44.8016;
+const bangorLon = -68.7712;
+
+// Calculate distance from Bangor
+const calculateDistance = (lat, lon) => {
+  const R = 3959; // Earth's radius in miles
+  const dLat = (lat - bangorLat) * Math.PI / 180;
+  const dLon = (lon - bangorLon) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(bangorLat * Math.PI / 180) * Math.cos(lat * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Drive time from the actual trailhead coordinates in each trail's route data
+// (geo.markers.start), not the summit pin — falls back to the summit lat/lon
+// only when a trail has no recorded trailhead.
+const trailheadCoords = (m) => {
+  const start = m.trails?.[0]?.geo?.markers?.start;
+  if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') {
+    return start;
+  }
+  return [m.lat, m.lon];
+};
+
+// Western Maine mountains (Carrabassett Valley, Weld, Rangeley) and Moxie Falls
+// clear the 100mi/120min straight-line filter but are a 2+ hour real drive from
+// Bangor. Excluded here (not shown with a fabricated drive time) and mirrored in
+// PER_CITY_EXCLUSIONS in near/index.astro, index.astro and
+// [state]/hikes/[slug].astro so no trail links "near you" to a page that
+// doesn't list it.
+const excludedNames = new Set([
+  'Mount Abraham', 'Bigelow Mountain - Avery Peak', 'Bigelow Mountain - West Peak', 'Mount Blue',
+  'Spaulding Mountain', 'Sugarloaf Mountain', 'Crocker Mountain', 'South Crocker Mountain',
+  'Tumbledown Mountain', 'Saddleback Mountain', 'The Horn', 'Moxie Falls'
+]);
+
+// Filter trails within 100 miles of Bangor and sort by distance
+const nearbyHikes = allMountains
+  .filter(m => m.lat && m.lon && !excludedNames.has(m.name))
+  .map(m => {
+    const [thLat, thLon] = trailheadCoords(m);
+    return {
+      ...m,
+      distance: calculateDistance(thLat, thLon),
+      driveTime: Math.round(calculateDistance(thLat, thLon) / 45 * 60) // Rough estimate: 45mph avg on state roads
+    };
+  })
+  .filter(m => m.distance <= 100 && m.driveTime <= 120) // matches the "within 2 hours" hero/title claim
+  .sort((a, b) => a.distance - b.distance);
+
+const difficultyOf = (m) => (m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '').toLowerCase();
+
+// Top picks by category
+const closestHikes = nearbyHikes.slice(0, 5);
+const easyHikes = nearbyHikes.filter(m => difficultyOf(m).includes('easy')).slice(0, 6);
+const moderateHikes = nearbyHikes.filter(m => difficultyOf(m).includes('moderate') || difficultyOf(m).includes('expert')).slice(0, 6);
+const hardHikes = nearbyHikes.filter(m => difficultyOf(m).includes('hard') || difficultyOf(m).includes('strenuous')).slice(0, 6);
+const farHikes = nearbyHikes.filter(m => m.distance > 60).slice(0, 8);
+
+// Ranked comparison table — every trail on the page (10) with its real stats.
+// Rendered only from fields actually present in each trail's record.
+const tableRows = nearbyHikes.slice(0, 10).map(m => {
+  const st = m.trails?.[0]?.stats || {};
+  return {
+    name: m.name,
+    state_slug: m.state_slug,
+    slug: m.slug,
+    miles: st.distance,
+    gain: st.gain,
+    hours: st.time,
+    difficulty: m.trails?.[0]?.difficulty || st.difficulty || '—',
+    elevation: m.elevation,
+    mi: Math.round(m.distance),
+    drive: m.driveTime
+  };
+});
+
+const cadillac = nearbyHikes.find(h => h.name === 'Cadillac Mountain');
+const katahdin = nearbyHikes.find(h => h.name === 'Mount Katahdin - Baxter Peak');
+
+// Normalize state slug (data already stores full slugs for these states,
+// this only covers the abbreviated ones used elsewhere on the site)
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s;
+};
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the closest hiking trail to Bangor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `The closest trails in this database are ${closestHikes[0]?.name} (about ${Math.round(closestHikes[0]?.distance)} miles from Bangor) and ${closestHikes[1]?.name} (about ${Math.round(closestHikes[1]?.distance)} miles), both on Mount Desert Island in Acadia National Park. Drive times on this page are straight-line estimates; allow extra time for coastal roads, especially in summer.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the Cadillac Mountain hike?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${cadillac ? `In this database Cadillac Mountain is listed at ${cadillac.trails?.[0]?.stats?.distance} miles round trip with about ${cadillac.trails?.[0]?.stats?.gain} feet of gain, a ${difficultyOf(cadillac) || 'moderate'} route to a ${cadillac.elevation}-foot summit` : 'Cadillac Mountain is the highest summit on Mount Desert Island'}. Confirm current access, parking and any vehicle-reservation rules with the National Park Service before you go.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I day-hike Mount Katahdin from Bangor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${katahdin ? `Mount Katahdin (Baxter Peak) is listed here at ${katahdin.trails?.[0]?.stats?.distance} miles round trip with about ${katahdin.trails?.[0]?.stats?.gain} feet of gain, a ${difficultyOf(katahdin) || 'strenuous'} climb` : 'Katahdin is a long, strenuous climb'}. It is a full, early-start day, and the drive into Baxter State Park is part of the trip. Baxter manages day-use parking and has its own rules, so check the park's official site for reservations and conditions before planning it.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the western Maine mountains like Sugarloaf and Bigelow included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Sugarloaf, the Bigelows, Saddleback, the Crockers, Tumbledown and the rest of the western Maine high peaks look close to Bangor on a straight line, but the real roads to them run well past two hours, so they are left off this page rather than shown with a misleadingly short drive time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best easy hike near Bangor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${easyHikes.length ? `The easiest trails on this page by their own ratings are ${easyHikes.slice(0, 3).map(m => m.name).join(', ')}.` : 'Check the comparison table for the shortest, lowest-gain options.'} Compare round-trip miles and gain in the table before you choose.`
+      }
+    }
+  ]
+};
+
+// Tourist-information schema for the Bangor area
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "TouristInformationCenter",
+  "name": "Best Hiking Trails Near Bangor - Summit Seeker",
+  "description": "Guide to the best hiking trails within about two hours of Bangor, Maine",
+  "url": "https://summitseeker.io/near/bangor-maine",
+  "areaServed": {
+    "@type": "City",
+    "name": "Bangor",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangor",
+      "addressRegion": "ME",
+      "addressCountry": "US"
+    }
+  }
+};
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Bangor', url: 'https://summitseeker.io/near/bangor-maine' }
+];
+---
+<Layout
+  breadcrumbs={breadcrumbs}
+  title="Best Hikes Near Bangor, ME (2026) | Drive Times & Maps"
+  description="Trails near Bangor, ME — Acadia's Cadillac and Precipice to Baxter's Katahdin, ranked by distance with gain, time and drive estimates."
+>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} slot="head" />
+
+  <!-- Hero Section -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Cadillac_Mountain.jpg?width=1600"
+        class="w-full h-full object-cover"
+        alt="Cadillac Mountain in Acadia National Park, Maine, a day trip from Bangor"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <!-- Breadcrumb -->
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li><a href="/near" class="hover:text-white transition-colors">Near Me</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Bangor</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-blue-500/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} Trails Within 2 Hours
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-blue-400">Bangor</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        {nearbyHikes.length} hiking trails within about two hours of Bangor, from Acadia's granite summits on Mount Desert Island to Katahdin in Baxter State Park
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 text-sm">
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Closest:</span> <span class="text-white font-bold">{Math.round(closestHikes[0]?.distance)} miles</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Drive Time:</span> <span class="text-white font-bold">{closestHikes[0]?.driveTime} min - 2 hrs</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Difficulty:</span> <span class="text-white font-bold">Moderate to Hard</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Quick Navigation -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 mb-12 border border-stone-200">
+        <h2 class="text-lg font-bold text-stone-900 mb-4">Jump to Section:</h2>
+        <div class="flex flex-wrap gap-3">
+          <a href="#closest" class="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors font-medium text-sm">
+            ⚡ Closest Trails
+          </a>
+          <a href="#compare" class="px-4 py-2 bg-rose-50 text-rose-700 rounded-lg hover:bg-rose-100 transition-colors font-medium text-sm">
+            📊 Compare the 10 Closest
+          </a>
+          <a href="#moderate" class="px-4 py-2 bg-amber-50 text-amber-700 rounded-lg hover:bg-amber-100 transition-colors font-medium text-sm">
+            ⛰️ Moderate Hikes
+          </a>
+          <a href="#hard" class="px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100 transition-colors font-medium text-sm">
+            🥾 Harder Day Hikes
+          </a>
+          <a href="#daytrips" class="px-4 py-2 bg-cyan-50 text-cyan-700 rounded-lg hover:bg-cyan-100 transition-colors font-medium text-sm">
+            🚗 Baxter &amp; Beyond
+          </a>
+          <a href="#all" class="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors font-medium text-sm">
+            📍 All {nearbyHikes.length} Trails
+          </a>
+        </div>
+      </div>
+
+      <!-- Intro Content -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Bangor Is the Gateway to Both Acadia and Katahdin</h2>
+
+        <p class="text-stone-700 leading-relaxed">
+          Bangor sits roughly an hour from the coast at Acadia National Park and a little under two
+          hours from Baxter State Park, which makes it a practical base for very different kinds of
+          day: short granite-ledge scrambles on Mount Desert Island, a lakeside loop, or an early start
+          on Maine's highest mountain. This guide covers all {nearbyHikes.length} publish-ready trails in
+          our database within about two hours, sorted by straight-line distance from real trailhead
+          coordinates — not the city center — and compared side by side in a table so you can pick by
+          length, gain and time rather than by whichever peak a listicle names first.
+        </p>
+
+        <p class="text-stone-700 leading-relaxed">
+          One caution that applies to every number on this page: drive times are straight-line
+          estimates at 45 mph, and Maine's roads rarely run straight. Treat the minutes as a floor.
+          The high peaks of western Maine (Sugarloaf, the Bigelows, Saddleback and the rest) look close
+          to Bangor on a map but are a much longer drive in practice, so they are deliberately left off
+          this list.
+        </p>
+
+        <ul class="space-y-2 text-stone-700">
+          <li>✓ <strong>Distance from Bangor</strong> (measured from the trailhead, not the summit)</li>
+          <li>✓ <strong>Trail difficulty rating</strong> (moderate, hard, strenuous)</li>
+          <li>✓ <strong>Elevation gain & round-trip distance</strong></li>
+          <li>✓ <strong>Interactive trail maps</strong></li>
+        </ul>
+      </div>
+
+      <!-- Closest Hikes Section -->
+      {closestHikes.length > 0 && (
+        <section id="closest" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-blue-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⚡</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">5 Closest Trails to Bangor</h2>
+              <p class="text-stone-600">Mostly Acadia National Park, on Mount Desert Island</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {closestHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                  ~{mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Ranked comparison table -->
+      <section id="compare" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-rose-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📊</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">The 10 Closest Hikes Compared</h2>
+            <p class="text-stone-600">Round-trip miles, elevation gain and time, from each trail's own record</p>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto bg-white rounded-2xl shadow-sm border border-stone-200">
+          <table class="w-full text-sm text-left">
+            <thead class="bg-stone-100 text-stone-700">
+              <tr>
+                <th class="px-4 py-3 font-bold">Trail</th>
+                <th class="px-4 py-3 font-bold">Miles from Bangor</th>
+                <th class="px-4 py-3 font-bold">Est. drive</th>
+                <th class="px-4 py-3 font-bold">Round trip</th>
+                <th class="px-4 py-3 font-bold">Gain</th>
+                <th class="px-4 py-3 font-bold">Time</th>
+                <th class="px-4 py-3 font-bold">Summit</th>
+                <th class="px-4 py-3 font-bold">Difficulty</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-stone-100 text-stone-700">
+              {tableRows.map(r => (
+                <tr>
+                  <td class="px-4 py-3 font-semibold"><a href={`/${normalizeState(r.state_slug)}/hikes/${r.slug}`} class="text-blue-700 hover:underline">{r.name}</a></td>
+                  <td class="px-4 py-3">{r.mi} mi</td>
+                  <td class="px-4 py-3">~{r.drive} min</td>
+                  <td class="px-4 py-3">{r.miles != null ? `${r.miles} mi` : '—'}</td>
+                  <td class="px-4 py-3">{r.gain != null ? `${r.gain.toLocaleString('en-US')} ft` : '—'}</td>
+                  <td class="px-4 py-3">{r.hours != null ? `${r.hours} hr` : '—'}</td>
+                  <td class="px-4 py-3">{r.elevation != null ? `${r.elevation.toLocaleString('en-US')} ft` : '—'}</td>
+                  <td class="px-4 py-3">{r.difficulty}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-stone-500 mt-3">
+          Distance, gain and time are as recorded in each trail's own data and are estimates — confirm
+          conditions and route length with Alaska State Parks or a current trail report before you go.
+          Drive times are straight-line estimates and run low on mountain roads.
+        </p>
+      </section>
+
+      <!-- Moderate Hikes Section -->
+      {moderateHikes.length > 0 && (
+        <section id="moderate" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-amber-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⛰️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Moderate Hiking Trails</h2>
+              <p class="text-stone-600">Steady climbs to alpine views, mostly half-day outings</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {moderateHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  MODERATE
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Harder Hikes Section -->
+      {hardHikes.length > 0 && (
+        <section id="hard" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🥾</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Harder Day Hikes</h2>
+              <p class="text-stone-600">Steep, sustained climbs — start early and carry the essentials</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {hardHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-emerald-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  {difficultyOf(mountain).includes('strenuous') ? 'STRENUOUS' : 'HARD'}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Farther Day Trips Section -->
+      {farHikes.length > 0 && (
+        <section id="daytrips" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-cyan-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🚗</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Baxter State Park &amp; Farther Day Trips</h2>
+              <p class="text-stone-600">Katahdin-area climbs — long days with a long drive, so allow extra time</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {farHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-cyan-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  ~{mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Trails Section -->
+      <section id="all" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-purple-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📍</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All {nearbyHikes.length} Trails Near Bangor</h2>
+            <p class="text-stone-600">Sorted by distance from Bangor</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {nearbyHikes.map(mountain => (
+            <div class="relative">
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+              <div class="absolute bottom-4 left-4 bg-black/70 text-white px-2 py-1 rounded text-xs font-bold">
+                {Math.round(mountain.distance)} mi • ~{mountain.driveTime} min
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="bg-white rounded-2xl p-8 shadow-lg border border-stone-200 mb-16">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is the closest hiking trail to Bangor?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The closest trails in this database are <strong>{closestHikes[0]?.name}</strong> (about {Math.round(closestHikes[0]?.distance)} miles)
+              and <strong>{closestHikes[1]?.name}</strong> (about {Math.round(closestHikes[1]?.distance)} miles), both on Mount Desert Island
+              in Acadia National Park. Drive times on this page are straight-line estimates; allow extra time for coastal roads, especially in summer.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>How long is the Cadillac Mountain hike?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              {cadillac ? (
+                <Fragment>In this database <strong>Cadillac Mountain</strong> is listed at {cadillac.trails?.[0]?.stats?.distance} miles round trip with about {cadillac.trails?.[0]?.stats?.gain} feet of gain, a {difficultyOf(cadillac) || 'moderate'} route to a {cadillac.elevation}-foot summit. </Fragment>
+              ) : (
+                <Fragment>Cadillac Mountain is the highest summit on Mount Desert Island. </Fragment>
+              )}
+              Confirm current access, parking and any vehicle-reservation rules with the National Park Service before you go.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Can I day-hike Mount Katahdin from Bangor?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              {katahdin ? (
+                <Fragment>Mount Katahdin (Baxter Peak) is listed here at {katahdin.trails?.[0]?.stats?.distance} miles round trip with about {katahdin.trails?.[0]?.stats?.gain} feet of gain, a {difficultyOf(katahdin) || 'strenuous'} climb. </Fragment>
+              ) : (
+                <Fragment>Katahdin is a long, strenuous climb. </Fragment>
+              )}
+              It is a full, early-start day, and the drive into Baxter State Park is part of the trip. Baxter manages day-use parking and has its own rules,
+              so check the park's official site for reservations and conditions before planning it.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Are the western Maine mountains like Sugarloaf and Bigelow included?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              No. Sugarloaf, the Bigelows, Saddleback, the Crockers, Tumbledown and the rest of the western Maine high peaks look close to Bangor on a
+              straight line, but the real roads to them run well past two hours, so they are left off this page rather than shown with a misleadingly short drive time.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is the best easy hike near Bangor?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              {easyHikes.length > 0 ? (
+                <Fragment>By their own ratings, the easiest trails on this page are {easyHikes.slice(0, 3).map(m => m.name).join(', ')}. </Fragment>
+              ) : (
+                <Fragment>Check the comparison table for the shortest, lowest-gain options. </Fragment>
+              )}
+              Compare round-trip miles and gain in the table before you choose.
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Hiking Tips for Bangor Area -->
+      <section class="bg-gradient-to-br from-emerald-50 to-blue-50 rounded-2xl p-8 border border-emerald-200">
+        <h2 class="text-2xl font-bold text-stone-900 mb-6">Essential Tips for Hiking Near Bangor</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🚗</span> Getting There
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Acadia trailheads are reached via Route 1A and Route 3 toward Ellsworth and Mount Desert Island</li>
+              <li>• Baxter State Park is north via I-95 and Millinocket; the final miles into the park are on park roads</li>
+              <li>• Acadia requires an entrance pass and Baxter manages day-use parking — check NPS and Baxter State Park for current rules</li>
+              <li>• Download offline maps; cell service drops quickly in the mountains</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🎒</span> What to Bring
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Sturdy shoes — Acadia's granite ledges and iron rungs are slick when wet</li>
+              <li>• Water and food for a longer day than you planned</li>
+              <li>• Layers and a wind shell — alpine weather changes fast</li>
+              <li>• Headlamp and a first aid kit</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">📅</span> Best Times to Visit
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• <strong>Summer (Jun-Aug):</strong> Warm and busy on the coast; Katahdin's upper routes are best from midsummer on</li>
+              <li>• <strong>Early fall (Sep):</strong> Cooler, fewer crowds, fall color — daylight shrinks fast</li>
+              <li>• <strong>Winter (Nov-Apr):</strong> Ice and deep snow on the high routes — only with proper skills and gear</li>
+              <li>• <strong>Spring (Apr-May):</strong> Mud season: snowmelt and soft trails, and some park roads and trailheads stay closed</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">⚠️</span> Safety First
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Check the forecast and trail conditions before leaving</li>
+              <li>• Tell someone your hiking plans</li>
+              <li>• Turn back if weather deteriorates</li>
+              <li>• Stay on marked trails; some Acadia routes close seasonally for nesting peregrine falcons</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>
