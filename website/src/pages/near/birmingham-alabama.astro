@@ -1,0 +1,638 @@
+---
+/**
+ * Best Hikes Near Birmingham, Alabama
+ * High-value SEO landing page targeting "hikes near birmingham alabama"
+ *
+ * title: Best Hikes Near Birmingham, AL (2026) | Drive Times & Maps
+ * description: Trails near Birmingham, AL: Cheaha Mountain, the Talladega National Forest
+ *   ridges and Monte Sano, ranked by distance with gain, time and drive estimates.
+ * slug: birmingham-alabama
+ * date: 2026-10-04
+ * targetKeywords: hikes near birmingham alabama, best hikes near birmingham al, birmingham
+ *   alabama hiking trails, day hikes from birmingham, cheaha mountain hike from birmingham
+ * targetSite: summitseeker.io
+ * competitorGap: "best hikes near Birmingham Alabama" returns REI's Birmingham hiking guide,
+ *   theoutbound.com, komoot's "hiking around Birmingham", a CBS42 scenic-hikes piece,
+ *   StyleBlueprint, Grivet Outdoors and Mountain High Outfitters. They are editorial lists of
+ *   the in-town parks (Oak Mountain State Park, Red Mountain Park, Ruffner Mountain) with no
+ *   sortable distance/gain/time comparison, and none of them lines up the day trips out to
+ *   Cheaha (Alabama's high point) and the Talladega National Forest ridges or north to Monte
+ *   Sano. Birmingham isn't in cities.json (no programmatic page) and wasn't hand-authored
+ *   before this page. This page does NOT cover the in-town parks: our database has no trail
+ *   inside 50 miles of the city, so the honest framing is "the day trips beyond the city
+ *   parks", and the page says so. 17 publish-ready trails sit within two hours by the
+ *   formula. This is a SERP skim only; there is no GSC or keyword-volume data behind it.
+ * driveTimeNote: drive times are the same straight-line/45mph estimate every /near/ page uses.
+ *   Nothing is excluded for road reasons, but the Monte Sano / Huntsville trails sit 80-90
+ *   miles out on a straight line and are closer to Huntsville than to Birmingham; the page
+ *   labels them as long day trips. Several Alabama summits in the data share one route record
+ *   (identical miles/gain), which the table note and FAQ call out.
+ */
+import Layout from '../../layouts/Layout.astro';
+import { isPublishReady } from '../../lib/publishReady.js';
+import SiteFooter from '../../components/SiteFooter.astro';
+import MountainCard from '../../components/MountainCard.astro';
+
+// Load all mountains
+const allFiles = import.meta.glob('../../data/*/*.json', { eager: true });
+const allMountains = Object.values(allFiles)
+  .map(f => f.default || f)
+  .filter(isPublishReady); // route-complete trails only (no drafts)
+
+// Birmingham, AL coordinates
+const bhamLat = 33.5186;
+const bhamLon = -86.8104;
+
+// Calculate distance from Birmingham
+const calculateDistance = (lat, lon) => {
+  const R = 3959; // Earth's radius in miles
+  const dLat = (lat - bhamLat) * Math.PI / 180;
+  const dLon = (lon - bhamLon) * Math.PI / 180;
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(bhamLat * Math.PI / 180) * Math.cos(lat * Math.PI / 180) *
+    Math.sin(dLon/2) * Math.sin(dLon/2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  return R * c;
+};
+
+// Drive time from the actual trailhead coordinates in each trail's route data
+// (geo.markers.start), not the summit pin — falls back to the summit lat/lon
+// only when a trail has no recorded trailhead.
+const trailheadCoords = (m) => {
+  const start = m.trails?.[0]?.geo?.markers?.start;
+  if (Array.isArray(start) && typeof start[0] === 'number' && typeof start[1] === 'number') {
+    return start;
+  }
+  return [m.lat, m.lon];
+};
+
+// Nothing is excluded for road reasons on this page: every trail that passes the
+// 100mi/120min formula is reachable by interstate or US highway. The north
+// Alabama (Monte Sano / Huntsville) trails sit at the far edge of the
+// formula and are labelled as long day trips rather than dropped.
+// Filter trails within 100 miles of Birmingham and sort by distance
+const nearbyHikes = allMountains
+  .filter(m => m.lat && m.lon)
+  .map(m => {
+    const [thLat, thLon] = trailheadCoords(m);
+    return {
+      ...m,
+      distance: calculateDistance(thLat, thLon),
+      driveTime: Math.round(calculateDistance(thLat, thLon) / 45 * 60) // Rough estimate: 45mph avg on state roads
+    };
+  })
+  .filter(m => m.distance <= 100 && m.driveTime <= 120) // matches the "within 2 hours" hero/title claim
+  .sort((a, b) => a.distance - b.distance);
+
+const difficultyOf = (m) => (m.trails?.[0]?.difficulty || m.trails?.[0]?.stats?.difficulty || '').toLowerCase();
+
+// Top picks by category
+const closestHikes = nearbyHikes.slice(0, 5);
+const easyHikes = nearbyHikes.filter(m => difficultyOf(m).includes('easy')).slice(0, 6);
+const moderateHikes = nearbyHikes.filter(m => difficultyOf(m).includes('moderate')).slice(0, 6);
+const hardHikes = nearbyHikes.filter(m => difficultyOf(m).includes('hard') || difficultyOf(m).includes('strenuous') || difficultyOf(m).includes('expert')).slice(0, 6);
+const farHikes = nearbyHikes.filter(m => m.distance > 60).slice(0, 8);
+
+// Ranked comparison table — every trail on the page (10) with its real stats.
+// Rendered only from fields actually present in each trail's record.
+const tableRows = nearbyHikes.slice(0, 10).map(m => {
+  const st = m.trails?.[0]?.stats || {};
+  return {
+    name: m.name,
+    state_slug: m.state_slug,
+    slug: m.slug,
+    miles: st.distance,
+    gain: st.gain,
+    hours: st.time,
+    difficulty: m.trails?.[0]?.difficulty || st.difficulty || '—',
+    elevation: m.elevation,
+    mi: Math.round(m.distance),
+    drive: m.driveTime
+  };
+});
+
+const cheaha = nearbyHikes.find(h => h.name === 'Cheaha Mountain');
+const monteSano = nearbyHikes.find(h => h.name === 'Monte Sano Mountain');
+
+// Normalize state slug (data already stores full slugs for these states,
+// this only covers the abbreviated ones used elsewhere on the site)
+const normalizeState = (s) => {
+  if (s === 'nh') return 'new-hampshire';
+  if (s === 'me') return 'maine';
+  if (s === 'vt') return 'vermont';
+  if (s === 'ny') return 'new-york';
+  return s;
+};
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the closest hiking trail to Birmingham in this database?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `The closest trails in this database are ${closestHikes[0]?.name} (about ${Math.round(closestHikes[0]?.distance)} miles from Birmingham) and ${closestHikes[1]?.name} (about ${Math.round(closestHikes[1]?.distance)} miles), both in the Talladega National Forest east of the city. This page does not cover the in-town parks such as Oak Mountain State Park, Red Mountain Park or Ruffner Mountain, which are much closer. Drive times on this page are straight-line estimates; allow extra time for rural roads.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the Cheaha Mountain hike?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${cheaha ? `In this database Cheaha Mountain is listed at ${cheaha.trails?.[0]?.stats?.distance} miles round trip with about ${cheaha.trails?.[0]?.stats?.gain} feet of gain, a ${difficultyOf(cheaha) || 'easy'} route to a ${cheaha.elevation}-foot summit` : 'Cheaha Mountain is the highest point in Alabama'}. The summit is reached from Cheaha State Park, so confirm current park hours, fees and trail status with the park before you go.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I hike Monte Sano as a day trip from Birmingham?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${monteSano ? `Monte Sano Mountain is listed here at ${monteSano.trails?.[0]?.stats?.distance} miles round trip with about ${monteSano.trails?.[0]?.stats?.gain} feet of gain, rated ${difficultyOf(monteSano) || 'easy'}` : 'Monte Sano is a mountain above Huntsville'}. It sits roughly 85 miles north of Birmingham on a straight line, closer to Huntsville than to Birmingham, so it is a long day trip rather than a quick outing. Check current conditions with Monte Sano State Park before you go.`
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this page include Oak Mountain State Park and Red Mountain Park?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Our database has no publish-ready trail within about 50 miles of Birmingham, so the in-town and nearby parks are not listed here. This page covers the day trips beyond them: the Talladega National Forest and Cheaha area east of the city, and the north Alabama mountains around Huntsville. For the nearby parks, use each park's own trail map."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best easy hike near Birmingham?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": `${easyHikes.length ? `The easiest trails on this page by their own ratings are ${easyHikes.slice(0, 3).map(m => m.name).join(', ')}.` : 'Check the comparison table for the shortest, lowest-gain options.'} Compare round-trip miles and gain in the table before you choose.`
+      }
+    }
+  ]
+};
+
+// Tourist-information schema for the Birmingham area
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "TouristInformationCenter",
+  "name": "Best Hiking Trails Near Birmingham - Summit Seeker",
+  "description": "Guide to the best hiking trails within about two hours of Birmingham, Alabama",
+  "url": "https://summitseeker.io/near/birmingham-alabama",
+  "areaServed": {
+    "@type": "City",
+    "name": "Birmingham",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Birmingham",
+      "addressRegion": "AL",
+      "addressCountry": "US"
+    }
+  }
+};
+const breadcrumbs = [
+  { name: 'Home', url: 'https://summitseeker.io' },
+  { name: 'Near Me', url: 'https://summitseeker.io/near' },
+  { name: 'Birmingham', url: 'https://summitseeker.io/near/birmingham-alabama' }
+];
+---
+<Layout
+  breadcrumbs={breadcrumbs}
+  title="Best Hikes Near Birmingham, AL (2026) | Drive Times & Maps"
+  description="Trails near Birmingham, AL: Cheaha Mountain, the Talladega National Forest ridges and Monte Sano, ranked by distance with gain, time and drive estimates."
+>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(localBusinessSchema)} slot="head" />
+
+  <!-- Hero Section -->
+  <div class="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Cheaha%20Lake%20in%20the%20Fall.jpg?width=1600"
+        class="w-full h-full object-cover"
+        alt="Cheaha Lake in the fall at Cheaha State Park, Alabama, a day trip from Birmingham"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-stone-900/70 via-stone-900/50 to-stone-900/80"></div>
+    </div>
+
+    <div class="relative z-10 w-full max-w-5xl px-4 text-center">
+      <!-- Breadcrumb -->
+      <nav class="mb-6" aria-label="Breadcrumb">
+        <ol class="flex items-center justify-center gap-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li>/</li>
+          <li><a href="/near" class="hover:text-white transition-colors">Near Me</a></li>
+          <li>/</li>
+          <li class="text-white font-medium">Birmingham</li>
+        </ol>
+      </nav>
+
+      <div class="inline-block px-4 py-1.5 bg-blue-500/90 backdrop-blur-md rounded-full text-white text-xs font-bold uppercase tracking-wider mb-6">
+        {nearbyHikes.length} Trails Within 2 Hours
+      </div>
+
+      <h1 class="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
+        Best Hikes Near <span class="text-blue-400">Birmingham</span>
+      </h1>
+
+      <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        {nearbyHikes.length} hiking trails within about two hours of Birmingham, from Alabama's high point on Cheaha Mountain to the ridges of the Talladega National Forest and Monte Sano
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-3 text-sm">
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Closest:</span> <span class="text-white font-bold">{Math.round(closestHikes[0]?.distance)} miles</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Drive Time:</span> <span class="text-white font-bold">{closestHikes[0]?.driveTime} min - 2 hrs</span>
+        </div>
+        <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+          <span class="text-white/80">Difficulty:</span> <span class="text-white font-bold">Easy to Hard</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="bg-stone-50 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Quick Navigation -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 mb-12 border border-stone-200">
+        <h2 class="text-lg font-bold text-stone-900 mb-4">Jump to Section:</h2>
+        <div class="flex flex-wrap gap-3">
+          <a href="#closest" class="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition-colors font-medium text-sm">
+            ⚡ Closest Trails
+          </a>
+          <a href="#compare" class="px-4 py-2 bg-rose-50 text-rose-700 rounded-lg hover:bg-rose-100 transition-colors font-medium text-sm">
+            📊 Compare the 10 Closest
+          </a>
+          <a href="#moderate" class="px-4 py-2 bg-amber-50 text-amber-700 rounded-lg hover:bg-amber-100 transition-colors font-medium text-sm">
+            ⛰️ Moderate Hikes
+          </a>
+          <a href="#hard" class="px-4 py-2 bg-emerald-50 text-emerald-700 rounded-lg hover:bg-emerald-100 transition-colors font-medium text-sm">
+            🥾 Harder Day Hikes
+          </a>
+          <a href="#daytrips" class="px-4 py-2 bg-cyan-50 text-cyan-700 rounded-lg hover:bg-cyan-100 transition-colors font-medium text-sm">
+            🚗 Huntsville &amp; Beyond
+          </a>
+          <a href="#all" class="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg hover:bg-purple-100 transition-colors font-medium text-sm">
+            📍 All {nearbyHikes.length} Trails
+          </a>
+        </div>
+      </div>
+
+      <!-- Intro Content -->
+      <div class="prose prose-lg max-w-4xl mx-auto mb-16 bg-white rounded-2xl p-8 shadow-sm border border-stone-200">
+        <h2 class="text-3xl font-bold text-stone-900 mb-4">Day Trips Beyond Birmingham's City Parks</h2>
+
+        <p class="text-stone-700 leading-relaxed">
+          Most guides to hiking near Birmingham cover the parks inside or next to the city: Oak Mountain
+          State Park, Red Mountain Park and Ruffner Mountain. This page covers something different. Our
+          database has no publish-ready trail within about 50 miles of Birmingham, so what it can offer
+          is the next tier out: Cheaha Mountain, Alabama's high point, and the Talladega National Forest
+          ridges about an hour to an hour and a half east, and the north Alabama mountains around
+          Huntsville. All {nearbyHikes.length} publish-ready trails within about two hours are sorted by
+          straight-line distance from real trailhead coordinates, not the city center, and compared side
+          by side in a table so you can pick by length, gain and time.
+        </p>
+
+        <p class="text-stone-700 leading-relaxed">
+          Two cautions apply to every number on this page. Drive times are straight-line estimates at
+          45 mph, and Alabama's back roads rarely run straight, so treat the minutes as a floor. And
+          several summits here share one route record, so they show identical miles and gain: the
+          Talladega ridge peaks (Big Caney Head, Odum Point and Robinson Mountain) list the same 8.5-mile,
+          1,086-foot route, and Little Caney Head and Parker High Point share another. Treat those as
+          one outing that reaches several named points, not as separate hikes. The Monte Sano trails are
+          roughly 85 miles north and are closer to Huntsville than to Birmingham; they are long day trips.
+        </p>
+
+<ul class="space-y-2 text-stone-700">
+          <li>✓ <strong>Distance from Birmingham</strong> (measured from the trailhead, not the summit)</li>
+          <li>✓ <strong>Trail difficulty rating</strong> (moderate, hard, strenuous)</li>
+          <li>✓ <strong>Elevation gain & round-trip distance</strong></li>
+          <li>✓ <strong>Interactive trail maps</strong></li>
+        </ul>
+      </div>
+
+      <!-- Closest Hikes Section -->
+      {closestHikes.length > 0 && (
+        <section id="closest" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-blue-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⚡</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">5 Closest Trails to Birmingham</h2>
+              <p class="text-stone-600">Talladega National Forest and the Cheaha area, east of the city</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            {closestHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                  ~{mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Ranked comparison table -->
+      <section id="compare" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-rose-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📊</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">The 10 Closest Hikes Compared</h2>
+            <p class="text-stone-600">Round-trip miles, elevation gain and time, from each trail's own record</p>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto bg-white rounded-2xl shadow-sm border border-stone-200">
+          <table class="w-full text-sm text-left">
+            <thead class="bg-stone-100 text-stone-700">
+              <tr>
+                <th class="px-4 py-3 font-bold">Trail</th>
+                <th class="px-4 py-3 font-bold">Miles from Birmingham</th>
+                <th class="px-4 py-3 font-bold">Est. drive</th>
+                <th class="px-4 py-3 font-bold">Round trip</th>
+                <th class="px-4 py-3 font-bold">Gain</th>
+                <th class="px-4 py-3 font-bold">Time</th>
+                <th class="px-4 py-3 font-bold">Summit</th>
+                <th class="px-4 py-3 font-bold">Difficulty</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-stone-100 text-stone-700">
+              {tableRows.map(r => (
+                <tr>
+                  <td class="px-4 py-3 font-semibold"><a href={`/${normalizeState(r.state_slug)}/hikes/${r.slug}`} class="text-blue-700 hover:underline">{r.name}</a></td>
+                  <td class="px-4 py-3">{r.mi} mi</td>
+                  <td class="px-4 py-3">~{r.drive} min</td>
+                  <td class="px-4 py-3">{r.miles != null ? `${r.miles} mi` : '—'}</td>
+                  <td class="px-4 py-3">{r.gain != null ? `${r.gain.toLocaleString('en-US')} ft` : '—'}</td>
+                  <td class="px-4 py-3">{r.hours != null ? `${r.hours} hr` : '—'}</td>
+                  <td class="px-4 py-3">{r.elevation != null ? `${r.elevation.toLocaleString('en-US')} ft` : '—'}</td>
+                  <td class="px-4 py-3">{r.difficulty}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-sm text-stone-500 mt-3">
+          Distance, gain and time are as recorded in each trail's own data and are estimates — confirm
+          conditions and route length with Cheaha State Park, the U.S. Forest Service (Talladega National Forest), Monte Sano State Park or a current trail report before you go. Rows that share the same miles and gain are summits on one shared route record.
+          Drive times are straight-line estimates and run low on mountain roads.
+        </p>
+      </section>
+
+      <!-- Moderate Hikes Section -->
+      {moderateHikes.length > 0 && (
+        <section id="moderate" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-amber-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">⛰️</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Moderate Hiking Trails</h2>
+              <p class="text-stone-600">Ridge walks and summit climbs, mostly half-day outings</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {moderateHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-amber-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  MODERATE
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Harder Hikes Section -->
+      {hardHikes.length > 0 && (
+        <section id="hard" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-emerald-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🥾</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Harder Day Hikes</h2>
+              <p class="text-stone-600">Long ridge days — start early and carry the essentials</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {hardHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-emerald-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  {difficultyOf(mountain).includes('expert') ? 'EXPERT' : difficultyOf(mountain).includes('strenuous') ? 'STRENUOUS' : 'HARD'}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Farther Day Trips Section -->
+      {farHikes.length > 0 && (
+        <section id="daytrips" class="mb-16">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="bg-cyan-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">🚗</div>
+            <div>
+              <h2 class="text-3xl font-bold text-stone-900">Huntsville &amp; Farther Day Trips</h2>
+              <p class="text-stone-600">North Alabama and the far edge of two hours — long drives, so allow extra time</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {farHikes.map(mountain => (
+              <div class="relative">
+                <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+                <div class="absolute top-4 right-4 bg-cyan-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  ~{mountain.driveTime} min
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- All Trails Section -->
+      <section id="all" class="mb-16">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="bg-purple-500 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">📍</div>
+          <div>
+            <h2 class="text-3xl font-bold text-stone-900">All {nearbyHikes.length} Trails Near Birmingham</h2>
+            <p class="text-stone-600">Sorted by distance from Birmingham</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {nearbyHikes.map(mountain => (
+            <div class="relative">
+              <MountainCard mountain={{...mountain, state_slug: normalizeState(mountain.state_slug)}} />
+              <div class="absolute bottom-4 left-4 bg-black/70 text-white px-2 py-1 rounded text-xs font-bold">
+                {Math.round(mountain.distance)} mi • ~{mountain.driveTime} min
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="bg-white rounded-2xl p-8 shadow-lg border border-stone-200 mb-16">
+        <h2 class="text-3xl font-bold text-stone-900 mb-8">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is the closest hiking trail to Birmingham in this database?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              The closest trails in this database are <strong>{closestHikes[0]?.name}</strong> (about {Math.round(closestHikes[0]?.distance)} miles)
+              and <strong>{closestHikes[1]?.name}</strong> (about {Math.round(closestHikes[1]?.distance)} miles), both in the Talladega National Forest
+              east of the city. The in-town parks such as Oak Mountain State Park, Red Mountain Park and Ruffner Mountain are much closer but are not covered here.
+              Drive times on this page are straight-line estimates; allow extra time for rural roads.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>How long is the Cheaha Mountain hike?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              {cheaha ? (
+                <Fragment>In this database <strong>Cheaha Mountain</strong> is listed at {cheaha.trails?.[0]?.stats?.distance} miles round trip with about {cheaha.trails?.[0]?.stats?.gain} feet of gain, a {difficultyOf(cheaha) || 'easy'} route to a {cheaha.elevation}-foot summit. </Fragment>
+              ) : (
+                <Fragment>Cheaha Mountain is the highest point in Alabama. </Fragment>
+              )}
+              The summit is reached from Cheaha State Park, so confirm current park hours, fees and trail status with the park before you go.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Can I hike Monte Sano as a day trip from Birmingham?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              {monteSano ? (
+                <Fragment>Monte Sano Mountain is listed here at {monteSano.trails?.[0]?.stats?.distance} miles round trip with about {monteSano.trails?.[0]?.stats?.gain} feet of gain, rated {difficultyOf(monteSano) || 'easy'}. </Fragment>
+              ) : (
+                <Fragment>Monte Sano is a mountain above Huntsville. </Fragment>
+              )}
+              It sits roughly 85 miles north of Birmingham on a straight line, closer to Huntsville than to Birmingham, so it is a long day trip rather than a quick outing.
+              Check current conditions with Monte Sano State Park before you go.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>Does this page include Oak Mountain State Park and Red Mountain Park?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              No. Our database has no publish-ready trail within about 50 miles of Birmingham, so the in-town and nearby parks are not listed here.
+              This page covers the day trips beyond them: the Talladega National Forest and Cheaha area east of the city, and the north Alabama mountains
+              around Huntsville. For the nearby parks, use each park's own trail map.
+            </div>
+          </details>
+
+          <details class="group">
+            <summary class="flex justify-between items-center cursor-pointer p-4 bg-stone-50 rounded-xl hover:bg-stone-100 transition-colors font-bold text-stone-900 list-none">
+              <span>What is the best easy hike near Birmingham?</span>
+              <svg class="w-5 h-5 text-emerald-600 transform transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="p-4 text-stone-700 leading-relaxed">
+              {easyHikes.length > 0 ? (
+                <Fragment>By their own ratings, the easiest trails on this page are {easyHikes.slice(0, 3).map(m => m.name).join(', ')}. </Fragment>
+              ) : (
+                <Fragment>Check the comparison table for the shortest, lowest-gain options. </Fragment>
+              )}
+              Compare round-trip miles and gain in the table before you choose.
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- Hiking Tips for the Birmingham Area -->
+      <section class="bg-gradient-to-br from-emerald-50 to-blue-50 rounded-2xl p-8 border border-emerald-200">
+        <h2 class="text-2xl font-bold text-stone-900 mb-6">Essential Tips for Hiking Near Birmingham</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🚗</span> Getting There
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Cheaha and the Talladega National Forest are east of Birmingham via I-20 and then state highways into the forest; Monte Sano is north via I-65 to Huntsville</li>
+              <li>• Cheaha State Park and Monte Sano State Park have their own hours and fees — check each park's official site for current rules</li>
+              <li>• Download offline maps; cell service drops in the national forest</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">🎒</span> What to Bring
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Sturdy shoes — rocky ridge trails and creek crossings are slick when wet</li>
+              <li>• Water and food for a longer day than you planned</li>
+              <li>• Layers and a rain shell — afternoon storms can build fast in summer</li>
+              <li>• Headlamp and a first aid kit</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">📅</span> Best Times to Visit
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• <strong>Summer (Jun-Aug):</strong> Hot and humid with afternoon thunderstorms — start early and carry extra water</li>
+              <li>• <strong>Fall (Oct-Nov):</strong> Cooler, drier and clear, the most comfortable season for the ridge routes</li>
+              <li>• <strong>Winter (Dec-Feb):</strong> Mild, with leaf-off ridge views; occasional ice on higher ground</li>
+              <li>• <strong>Spring (Mar-May):</strong> Wildflowers and high water at creek crossings after heavy rain</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-bold text-stone-900 mb-3 flex items-center gap-2">
+              <span class="text-2xl">⚠️</span> Safety First
+            </h3>
+            <ul class="space-y-2 text-stone-700">
+              <li>• Check the forecast and trail conditions before leaving</li>
+              <li>• Tell someone your hiking plans</li>
+              <li>• Turn back if weather deteriorates</li>
+              <li>• Stay on marked trails and be aware of hunting seasons in the national forest — wear blaze orange if you hike then</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <SiteFooter />
+</Layout>
